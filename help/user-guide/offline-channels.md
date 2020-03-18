@@ -11,7 +11,7 @@ topic-tags: developing
 discoiquuid: bd572743-652f-4fc5-8b75-a3c4c74536f4
 docset: aem65
 translation-type: tm+mt
-source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
+source-git-commit: 9da83030c5ad90f446befc7a488fac6c9435ea76
 
 ---
 
@@ -113,3 +113,5 @@ Följ stegen nedan för att aktivera offlinekonfiguration för en kanal:
 
    ![chlimage_1-26](assets/chlimage_1-26.png)
 
+>[!NOTE]
+> Mer information om mallen för anpassade offlineresurshanterare och minimikraven för det specifika projektet finns i `pom.xml` Template for Custom Handlers [in](/help/user-guide/developing-custom-component-tutorial-develop.md#custom-handlers) Developing a Custom Component for AEM Screens ****.
