@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
 discoiquuid: a40eb5bb-fbf7-4c0d-a34a-db79b884de8f
 translation-type: tm+mt
-source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
+source-git-commit: 119d5bdf854674ae86682ed82fee390f63972c0a
 
 ---
 
@@ -127,7 +127,7 @@ Följ stegen nedan för att implementera funktionen:
    1. Upprepa steg b och välj **Sekvenskanal** i guiden. Ange **Title** som **Region A** och **Name** som **region **för den här kanalen.
    >[!CAUTION]
    >
-   >Kontrollera att du anger **Title** som **Region A **och **Name** som **region** när du skapar kanalområde A ****.
+   >Kontrollera att du anger **Title** som **Region A** och **Name** som **region när du skapar kanalområde A** ****.
 
    ![screen_shot_2018-09-13at22857pm](assets/screen_shot_2018-09-13at22857pm.png)
 
@@ -153,7 +153,7 @@ Följ stegen nedan för att implementera funktionen:
 
    ![screen_shot_2018-09-19at120206pm](assets/screen_shot_2018-09-19at120206pm.png)
 
-   På samma sätt kan du skapa en skärm som **Store2Display** och en channel **Store2Channel** under** Store 2** (med namnet **store**).
+   På samma sätt kan du skapa en skärm som **Store2Display** och en channel **Store2Channel** under **Store 2** (med namnet **store**).
 
    >[!NOTE]
    >
@@ -205,7 +205,7 @@ Följ stegen nedan för att implementera funktionen:
    1. Navigera till **Demo** —> **Scheman** —> **AdSchedule** och klicka på **Dashboard** i åtgärdsfältet.
    1. Klicka på **+ Tilldela kanal** på panelen **TILLDELADE KANALER** för att öppna dialogrutan **Kanaltilldelning** .
    1. Välj **referenskanal**.. efter bana.
-   1. Välj **kanalsökvägen** som **demo*** —> ***Kanaler*** —> ***Global***.
+   1. Välj **kanalsökvägen** som **demo** —> ***Kanaler*** —> ***Global***.
    1. Ange **kanalrollen** som **GlobalAdSegment**.
    1. Välj **Händelser** som stöds som **Inledande inläsning**, **Inaktivitetsskärm** och **Användarinteraktion**.
    1. Click **Save**.
@@ -213,10 +213,10 @@ Följ stegen nedan för att implementera funktionen:
 
    1. Klicka på **+ Tilldela kanal** på panelen **TILLDELADE KANALER** för att öppna dialogrutan **Kanaltilldelning** .
    1. Välj **referenskanal**.. efter namn.
-   1. Ange **kanalnamnet** som **region***.*
+   1. Ange **kanalnamnet** som **region***.
    1. Ange **kanalrollen** som **RegionAdSegment**.
    1. Click **Save**.
-   **Tilldela kanal efter roll för butik:**
+   **Tilldela kanal efter roll för butik:
 
    1. Klicka på **+ Tilldela kanal** på panelen **TILLDELADE KANALER** för att öppna dialogrutan **Kanaltilldelning** .
    1. Välj **referenskanal**.. efter namn.
@@ -274,7 +274,7 @@ Om du tilldelar visningssökvägen som **Demo** —> **Platser** —> **Region A
 
 **Scenario 1**:
 
-Om du tilldelar visningssökvägen som **Demo** —> **Platser** —> **Region B** —>** Store 3** —> **Store3Display**, visas följande innehåll i din AEM-skärmspelare.
+Om du tilldelar visningssökvägen som **Demo** —> **Platser** —> **Region B** —> **Store 3** —> **Store3Display** visas följande innehåll i din AEM-skärmsspelare.
 
 ![channeldisplay2](assets/channeldisplay2.gif)
 
@@ -365,7 +365,7 @@ Följ stegen nedan för att skapa grupper, användare och ändra åtkomstkontrol
    **För Region-Author:**
 
    1. Navigate to the **Permissions** tab.
-   1. Navigera till ***/content/screens/demo*** och kontrollera endast behörigheterna****.
+   1. Navigera till ***/content/screens/demo*** och kontrollera endast **läsbehörighet** .
    1. Navigera till ***/content/screens/demo/locations*** och kontrollera endast **läsbehörighet** .
    1. Navigera till ***/content/screens/demo/channel ***och avmarkera behörigheterna för den **globala**kanalen.***
    1. Navigera till ***/content/screens/demo/locations***/***region-a*** och kontrollera alla behörigheter. Kontrollera på samma sätt behörigheterna för **region-b**.
@@ -389,7 +389,7 @@ Följ stegen nedan för att skapa grupper, användare och ändra åtkomstkontrol
 
    ![screen_shot_2018-09-18at12415pm](assets/screen_shot_2018-09-18at12415pm.png)
 
-   Bilden nedan visar att **Store-User** nu endast har åtkomst till de fyra butikerna: **Store 1**, **Store 2**, **Store 3** och **Store 4** **** ****, men inte har behörighet att komma åt¥Global eller regionen (**Region A **och¥Region B¥).
+   Bilden nedan visar att **Store-User** nu endast har åtkomst till de fyra butikerna: **Store 1**, **Store 2**, **Store 3** och **Store 4** ******** ****, men inte har behörighet att komma åt¥Global eller regionen (¥Region Aoch¥Region B¥).
 
    ![store](assets/store.gif)
 
