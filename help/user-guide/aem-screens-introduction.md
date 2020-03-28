@@ -76,4 +76,4 @@ Se följande självstudiekurser och resurser för att lära dig Adobe Experience
 
 * **Best Practices Guide for AEM Screens Projects**
 
-   Följ **[Best Practices Guide för AEM-skärmsprojekt](https://docs.adobe.com/content/help/en/experience-manager-screens/using/about-guide.html)**som är utformad för att identifiera vanliga fallgropar när du implementerar ett AEM-skärmsprojekt. Materialet fokuserar främst på projektroller och ansvarsområden, RACI-diagram för olika roller, AEM-plattformskonfigurationer samt support och övervakning.
+   Följ [Best Practices Guide för AEM-skärmsprojekt](https://docs.adobe.com/content/help/en/experience-manager-screens/using/about-guide.html) som är utformad för att identifiera vanliga fallgropar när du implementerar ett AEM-skärmsprojekt. Materialet fokuserar främst på projektroller och ansvarsområden, RACI-diagram för olika roller, AEM-plattformskonfigurationer samt support och övervakning.
