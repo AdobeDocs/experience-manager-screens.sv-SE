@@ -11,7 +11,7 @@ content-type: reference
 discoiquuid: 9a26b5cd-b957-4df7-9b5b-f57e32b4196a
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 69dd2238562c00ab83e63e268515e24dee55f5ee
+source-git-commit: 19baf90409eab4c72fb38e992c272338b0098d89
 
 ---
 
@@ -48,17 +48,34 @@ Innan du börjar konfigurera Context Hub Configurations för ett AEM Screens-pro
 >
 >Mer information finns i [Hämta API-nyckel](https://developers.google.com/maps/documentation/javascript/get-api-key) i Google-dokumentationen.
 
+
 ## Steg 1: Konfigurera ett datalager {#step-setting-up-a-data-store}
 
 Du kan konfigurera datalagret som en lokal I/O-händelse eller som en lokal databashändelse.
 
-### Lokal I/O-händelse {#local-io-event}
+Följande datanivådata utlöser ett exempel på en lokal databashändelse som ställer in ett datalager, t.ex. ett Excel-blad, som gör att du kan använda ContextHub-konfigurationer och segmentsökvägar till AEM Screens-kanalen.
 
-Följ stegen nedan för att konfigurera ett datalager, t.ex. en ASCII-händelse, som gör att du kan använda ContextHub-konfigurationer och segmentsökvägar till AEM Screens-kanalen.
+När du har ställt in Google Sheet korrekt, till exempel enligt nedan:
 
-### Händelse för lokal databas {#local-db-event}
+![image](/help/user-guide/assets/context-hub/context-hub1.png)
 
-Följ stegen nedan för att konfigurera ett datalager, t.ex. ett Excel-blad, som gör att du kan använda ContextHub-konfigurationer och segmentsökvägar till AEM Screens-kanalen.
+Följande validering är vad du kommer att se när du kontrollerar anslutningen genom att ange google sheet-ID och API-nyckel i formatet nedan:
+
+`https://sheets.googleapis.com/v4/spreadsheets/<your sheet id>/values/Sheet1?key=<your API key>`
+
+![image](/help/user-guide/assets/context-hub/context-hub2.png)
+
+
+>[!NOTE]
+>**Använda Google Sheet-värden i AEM **>Google Sheets visar sina värden i ContextHub Store och är tillgängligt under`<store-name>/values/<i>/<j>`, var`<i>`och`<j>`är rad- och kolumnindexvärdena i kalkylbladet (med början från 0).
+>
+> * /values/0/0 points to A1
+> * /values/5/0 points to A5
+> * /values/0/5 points to E1
+
+
+I det specifika exemplet nedan visas Excel-arket som ett datalager som utlöser en resursändring om värdet är högre än 100 eller lägre än 50.
+
 
 1. **Navigera till ContextHub**
 
@@ -85,14 +102,14 @@ Följ stegen nedan för att konfigurera ett datalager, t.ex. ett Excel-blad, som
      "service": {
        "host": "sheets.googleapis.com",
        "port": 80,
-       "path": "/v4/spreadsheets/<your sheet it>/values/Sheet1",
+       "path": "/v4/spreadsheets/<your google sheet id>/values/Sheet1",
        "jsonp": false,
        "secure": true,
        "params": {
-         "key": "<your API key>"
+         "key": "<your Google API key>"
        }
      },
-     "pollInterval": 3000
+     "pollInterval": 10000
    }
    ```
 
@@ -104,8 +121,8 @@ Följ stegen nedan för att konfigurera ett datalager, t.ex. ett Excel-blad, som
    >Ersätt koden med ditt *&lt;Sheet ID>* och *&lt;API Key>*, som du hämtade när du konfigurerade Google Sheets.
 
    >[!CAUTION]
-   Om du skapar dina Google Sheets-lagringskonfigurationer utanför den gamla mappen (till exempel i din egen projektmapp) kommer målanpassning inte att fungera som de ska.
-   Om du vill konfigurera Google Sheets-lagringskonfigurationer utanför den globala äldre mappen måste du ange **Store Name** som **segmentering** och **Store Type** som **aem.segmentation**. Dessutom måste du hoppa över processen att definiera json enligt definitionen ovan.
+   Om du skapar dina Google Sheets-lagringskonfigurationer utanför den globala mappen (t.ex. i din egen projektmapp) kommer målanpassning inte att fungera som den ska.
+   Om du vill konfigurera Google Sheets-lagringskonfigurationer utanför den globala mappen måste du ange **Store Name** som **segmentering** och **Store Type** som **aem.segmentation**. Dessutom måste du hoppa över processen att definiera json enligt definitionen ovan.
 
 1. **Skapa ett varumärke i aktiviteter**
 
@@ -141,7 +158,7 @@ När ni väl har skapat en datalagring och definierat ert varumärke följer ni 
 
 1. **Skapa segment i målgrupper**
 
-   1. Navigera från din AEM-instans till **Personalisering** > **Publiker** > **We.Retail**.
+   1. Navigera från din AEM-instans till **Personalisering** > **Publiker** > **skärmar**.
 
    1. Klicka på **Skapa** > **Skapa kontextnavsegment.** Dialogrutan **Nytt ContextHub-segment** öppnas.
 
@@ -149,7 +166,7 @@ När ni väl har skapat en datalagring och definierat ert varumärke följer ni 
 
 1. **Redigera segment**
 
-   1. Markera segmentmallarna **A1 1** (skapade i steg 5) och klicka på **Redigera** i åtgärdsfältet.
+   1. Markera segmentet **Blad A1 1** och klicka på **Redigera** i åtgärdsfältet.
 
    1. Dra och släpp **jämförelsen: Egenskap - Värdekomponent** till redigeraren.
    1. Klicka på skiftnyckelsikonen för att öppna dialogrutan **Jämför en egenskap med ett värde** .
@@ -172,8 +189,9 @@ När ni väl har skapat en datalagring och definierat ert varumärke följer ni 
    1. Välj **Operator** as **Equal** i listrutan.
 
    1. Ange **värdet** som **2**.
-   >[!NOTE]
-   Reglerna som används i de föregående stegen är bara ett exempel på hur du ställer in segment för implementering av följande användningsexempel.
+
+
+
 
 ## Steg 3: Aktivera mål i kanaler {#step-enabling-targeting-in-channels}
 
