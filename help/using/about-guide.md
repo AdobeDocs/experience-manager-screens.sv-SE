@@ -4,7 +4,7 @@ seo-title: Beskrivning av guiden
 description: This page describes the intent of the Best Practices Guide
 seo-description: This page describes the intent of the Best Practices Guide
 translation-type: tm+mt
-source-git-commit: 61cf90bd834d2afa1e09a2f8371984c9635fac23
+source-git-commit: 2c73039b61f713d9cc862a1bef9b3dcda5b0c351
 
 ---
 
@@ -29,7 +29,7 @@ Den här guiden ger inte bara en omfattande insikt och praktiska råd för att s
 >[!IMPORTANT]
 > Handboken är utformad för att identifiera vanliga fallgropar när du implementerar ett AEM Screens-projekt och materialet fokuserar främst på följande ämnen:
 >
-> * **[Projektroller och ansvar](roles-responsibilities.md)**
+> * **[Projektroller och ansvarsområden](roles-responsibilities.md)**
 > * **[RACI-diagram för olika roller](roles-responsibilities.md#raci-chart)**
 > * **[Konfigurationer av AEM-plattformen](aem-platform-configurations.md)**
 > * **[Support och övervakning](support-monitoring.md)**
