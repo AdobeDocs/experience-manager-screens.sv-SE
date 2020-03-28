@@ -4,7 +4,7 @@ seo-title: Arbetsflödeskonfiguration för direktplacering
 description: På den här sidan visas arbetsflödeskonfiguration för direktplacering.
 seo-description: På den här sidan visas arbetsflödeskonfiguration för direktplacering.
 translation-type: tm+mt
-source-git-commit: 0f64047955a3b1b2eb523ed222168b87994a7a99
+source-git-commit: 19baf90409eab4c72fb38e992c272338b0098d89
 
 ---
 
@@ -29,3 +29,13 @@ Som innehållsförfattare kan du också klicka på **Uppdatera offlineinnehåll*
 
 ## Konfigurera arbetsflöde för direktplacering {#configuring-workflow}
 
+>[!IMPORTANT]
+> Innan du startar konfigurationen måste du installera [demopaketet](https://github.com/godanny86/screens-demo/releases/download/v.0.0.1/screens-demo.all-1.0-SNAPSHOT.zip). När du har installerat paketet bör du kunna visa och komma åt det från din AEM-instans —> Verktyg (ikon) —> **Arbetsflöde** —> **Arbetsflödesmodeller**.
+
+Följ stegen nedan för att konfigurera arbetsflödet för direktplacering:
+
+1. Navigera till AEM-skärmar från din AEM-instans och skapa ett skärmsprojekt med namnet **Asset Workflow**.
+
+1. Skapa en kanal som heter **Arbetsflöde - Resurser** i mappen **Kanaler** .
+
+1. 
