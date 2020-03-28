@@ -11,7 +11,7 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 discoiquuid: f30bfdba-8db6-482b-8d0c-2818fc58e2b1
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 99f6817a0d126cfb1811887a3415f1b87079d6e7
+source-git-commit: 23a6019e27f10ff0e207ddc9c279dc7d42942098
 
 ---
 
@@ -68,8 +68,12 @@ Se följande självstudiekurser och resurser för att lära dig Adobe Experience
 * **Självstudiekurser och videor** för AEM 6.5: En samling självstudiekurser och videofilmer som visar både nya och uppdaterade funktioner för AEM Sites, Assets, Forms, Screens och Foundation i och med AEM 6.5.
 * **AEM Core Concepts**: En översikt över de centrala begreppen för hur AEM är strukturerat och hur man utvecklar ovanpå detta, inklusive förståelse av JCR, Sling, OSGi, dispatchern, arbetsflöden och MSM.
 
-### Grundläggande om guidad implementering {#guided-implementation-essentials}
+## Additional Resources {#additional-resources}
 
-Följ den guidade inlärningsvägen för **[AEM Screens Implementation Essentials](https://guided.adobe.com/?launch=AEM-7a#recommended/solutions/experience-manager)**, som omfattar grundläggande såväl som avancerade funktioner som stöds i AEM Screens.
+* **Grundläggande om guidad implementering**
 
-När du skapar ett nytt projekt kan olika funktioner överlappa beroende på organisationens och företagets behov.
+   Följ den guidade inlärningsvägen för **[AEM Screens Implementation Essentials](https://guided.adobe.com/?launch=AEM-7a#recommended/solutions/experience-manager)**, som omfattar grundläggande såväl som avancerade funktioner som stöds i AEM Screens.
+
+* **Best Practices Guide for AEM Screens Projects**
+
+   Följ **[Best Practices Guide för AEM-skärmsprojekt](https://docs.adobe.com/content/help/en/experience-manager-screens/using/about-guide.html)**som är utformad för att identifiera vanliga fallgropar när du implementerar ett AEM-skärmsprojekt. Materialet fokuserar främst på projektroller och ansvarsområden, RACI-diagram för olika roller, AEM-plattformskonfigurationer samt support och övervakning.
