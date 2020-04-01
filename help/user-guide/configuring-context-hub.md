@@ -11,7 +11,7 @@ content-type: reference
 discoiquuid: 9a26b5cd-b957-4df7-9b5b-f57e32b4196a
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 19baf90409eab4c72fb38e992c272338b0098d89
+source-git-commit: 65a94a5301e4f15979d198f90a2ffc75c8e34a8a
 
 ---
 
@@ -59,70 +59,71 @@ När du har ställt in Google Sheet korrekt, till exempel enligt nedan:
 
 ![image](/help/user-guide/assets/context-hub/context-hub1.png)
 
-Följande validering är vad du kommer att se när du kontrollerar anslutningen genom att ange google sheet-ID och API-nyckel i formatet nedan:
+Följande validering är vad du kommer att se när du kontrollerar anslutningen genom att ange de två värdena, *Google Sheet ID* och *API-nyckel* i formatet nedan:
 
 `https://sheets.googleapis.com/v4/spreadsheets/<your sheet id>/values/Sheet1?key=<your API key>`
 
 ![image](/help/user-guide/assets/context-hub/context-hub2.png)
 
-
 >[!NOTE]
->**Använda Google Sheet-värden i AEM **>Google Sheets visar sina värden i ContextHub Store och är tillgängligt under`<store-name>/values/<i>/<j>`, var`<i>`och`<j>`är rad- och kolumnindexvärdena i kalkylbladet (med början från 0).
->
-> * /values/0/0 points to A1
-> * /values/5/0 points to A5
-> * /values/0/5 points to E1
+> I det specifika exemplet nedan visas Google-tabellerna som ett datalager som utlöser en resursändring om värdet är högre än 100 eller lägre än 50.
 
-
-I det specifika exemplet nedan visas Excel-arket som ett datalager som utlöser en resursändring om värdet är högre än 100 eller lägre än 50.
-
+## Steg 2: Ansluta Google Sheets till AEM-instansen {#step-connecting-aem-instance}
 
 1. **Navigera till ContextHub**
 
    Navigera till din AEM-instans och klicka på verktygsikonen i det vänstra sidofältet. Klicka på **Webbplatser** —> **ContextHub**, som bilden nedan visar.
 
-   ![screen_shot_2019-04-22at53222pm](assets/screen_shot_2019-04-22at53222pm.png)
+   ![image](/help/user-guide/assets/context-hub/context-hub3.png)
 
 1. **Skapa en ny konfiguration för ContextHub Store**
 
-   1. Navigera till **global** > **default** > **ContextHub Configuration**.
+   1. Navigera till konfigurationsbehållaren med namnet **screens**.
 
-   1. Klicka på **Skapa** > **Konfigurationsbehållare** och ange titeln som **ContextHubDemo**.
+   1. Klicka på **Skapa** > **Skapa konfigurationsbehållare** och ange titeln som **ContextHubDemo**.
 
-   1. **Navigera** till **ContextHubDemo** > **Konfiguration för ContentHub Store..** för att öppna **konfigurationsguiden**.
+      ![image](/help/user-guide/assets/context-hub/context-hub4.png)
 
-   1. Ange **titeln** som **Google Sheets**, **Store Name** som **googlesheets** och **Store Type** **som¥contexthub.generic-jsonp**
+   1. **Navigera** till **ContextHubDemo** > **Create** **ContentHub Configuration** och klicka på **Save**.
 
-   1. Click **Next**
-   1. Ange din specifika json-konfiguration. Du kan till exempel använda följande json för demoändamål.
-   1. Click **Save**.
+      >[!NOTE]
+      > När du har klickat på **Spara** visas **konfigurationsskärmen** för ContextHub.
 
-   ```
-   {
-     "service": {
-       "host": "sheets.googleapis.com",
-       "port": 80,
-       "path": "/v4/spreadsheets/<your google sheet id>/values/Sheet1",
-       "jsonp": false,
-       "secure": true,
-       "params": {
-         "key": "<your Google API key>"
+   1. Klicka på **Skapa** > Konfiguration av **ContentHub Store på skärmen Konfiguration** **av ContextHub.**
+
+      ![image](/help/user-guide/assets/context-hub/context-hub5.png)
+
+   1. Ange **Titel** som **Google Sheets**, **Butiksnamn** som **Googlesheets** och **Butikstyp** **** ****som¥contexthub.generic-jsonp¥ och klicka på¥Next.
+      ![image](/help/user-guide/assets/context-hub/context-hub6.png)
+
+   1. Ange din specifika json-konfiguration. Du kan t.ex. använda följande json som demoversion och klicka på **Spara** så visas butikskonfigurationen med namnet **Google Sheets** i ContextHub-konfigurationen.
+
+      >[!IMPORTANT]
+      >Se till att ersätta koden med *&lt;Sheet ID>* och *&lt;API Key>*, som du hämtade när du konfigurerade Google Sheets.
+
+      ```
+       {
+        "service": {
+        "host": "sheets.googleapis.com",
+        "port": 80,
+        "path": "/v4/spreadsheets/<your google sheets id>/values/Sheet1",
+        "jsonp": false,
+        "secure": true,
+        "params": {
+        "key": "<your Google API key>"
        }
-     },
-     "pollInterval": 10000
-   }
-   ```
+      },
+      "pollInterval": 10000
+      }
+      ```
 
-   >[!NOTE]
-   >
-   >I ovanstående exempelkod definierar **pollInterval** den frekvens med vilken värdena uppdateras (i ms).
-   >
-   >
-   >Ersätt koden med ditt *&lt;Sheet ID>* och *&lt;API Key>*, som du hämtade när du konfigurerade Google Sheets.
+      >[!NOTE]
+      I ovanstående exempelkod definierar **pollInterval** den frekvens med vilken värdena uppdateras (i ms).
+Ersätt koden med ditt *&lt;Sheet ID>* och *&lt;API Key>*, som du hämtade när du konfigurerade Google Sheets.
 
-   >[!CAUTION]
-   Om du skapar dina Google Sheets-lagringskonfigurationer utanför den globala mappen (t.ex. i din egen projektmapp) kommer målanpassning inte att fungera som den ska.
-   Om du vill konfigurera Google Sheets-lagringskonfigurationer utanför den globala mappen måste du ange **Store Name** som **segmentering** och **Store Type** som **aem.segmentation**. Dessutom måste du hoppa över processen att definiera json enligt definitionen ovan.
+      >[!CAUTION]
+      Om du skapar dina Google Sheets-lagringskonfigurationer utanför den globala mappen (t.ex. i din egen projektmapp) kommer målanpassning inte att fungera som den ska.
+   >Om du vill konfigurera Google Sheets-lagringskonfigurationer utanför den globala mappen måste du ange **Store Name** som **segmentering** och **Store Type** som **aem.segmentation**. Dessutom måste du hoppa över processen att definiera json enligt definitionen ovan.
 
 1. **Skapa ett varumärke i aktiviteter**
 
