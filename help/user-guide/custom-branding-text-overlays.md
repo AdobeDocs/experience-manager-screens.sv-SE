@@ -5,14 +5,14 @@ description: Följ den här sidan om du vill veta mer om hur du använder anpass
 seo-description: Följ den här sidan om du vill veta mer om hur du använder anpassad profilering och formatering för textövertäckningar.
 contentOwner: Jyotika Syal
 translation-type: tm+mt
-source-git-commit: f91faa23c7c5c4f0f705c77251554b64efaf2611
+source-git-commit: 835e801909d8d126042acd713fc68075ff598712
 
 ---
 
 
 # Anpassad profilering och formatering för textövertäckningar {#creating-custom-branding-styling}
 
-Följ den här sidan om du vill veta mer om hur du använder anpassad profilering och formatering för textövertäckningar.
+Följ den här sidan om du vill lära dig hur du använder anpassade märkesinställningar och format för textövertäckningar på dina resurser i en skärmkanal.
 
 ## Skapa anpassad profilering och formatering för textövertäckningar {#steps-custom-branding}
 
@@ -31,11 +31,11 @@ Följ stegen nedan för att skapa anpassade märkesnamn och format för textöve
 
 1. Navigera till CRXDE Lite från din AEM-instans —> Verktyg —> **CRXDE Lite**.
 
-1. Du måste skapa en egen design i `/apps/settings/wcm/designs/<your-project>/`exempelvis det här fallet
+1. Du måste skapa en egen design i `/apps/settings/wcm/designs/<your-project>/`exempelvis navigera till `/apps/settings/wcm/designs/customstyle/`
 
    ![image](/help/user-guide/assets/custom-brand/custom-brand3.png)
 
-1. Navigera till filen static.css och ange följande css-regler. Visas också i figuren nedan.
+1. Navigera till filen *static.css* och ange följande css-regler. Visas också som ett exempel i figuren under CSS-reglerna.
 
    ```shell
     //global styles
@@ -53,7 +53,7 @@ Följ stegen nedan för att skapa anpassade märkesnamn och format för textöve
 
 1. Kopiera sökvägen till ditt projekt, i det här fallet blir sökvägen `/apps/settings/wcm/designs/customstyle`.
 
-1. Navigera till kanalen som heter **DemoBrand** (skapas i steg 1) och klicka på **Egenskaper** i åtgärdsfältet när du har valt kanalen.
+1. Navigera till kanalen **DemoBrand** (skapad i steg 1) och klicka på **Egenskaper** i åtgärdsfältet när du har valt kanalen.
 
 1. Navigera till fliken **Avancerat** och markera fältet **Design** .
    ![image](/help/user-guide/assets/custom-brand/custom-brand5.png)
@@ -70,31 +70,31 @@ Följ stegen nedan för att skapa anpassade märkesnamn och format för textöve
 
 ## Visa resultatet {#viewing-the-result}
 
-När du har utfört de föregående stegen kan du uppdatera filen *statis.css* från **CRXDE Lite** och följaktligen visa uppdateringen av textlayouten som har lagts till i resursen.
+När du har slutfört de föregående stegen kan du uppdatera filen *statis.css* från **CRXDE Lite** och följaktligen visa uppdateringen av textöverlägget som redan har lagts till i resursen.
 
-Följ stegen nedan för att visa den uppdaterade designen i en textlayout:
+Följ stegen nedan för att visa den uppdaterade designen för textövertäckning:
 
-1. Gå till ditt AEM Screens-projekt med namnet **custom style** och en kanal med namnet **DemoBrand** och klicka på **Edit** i åtgärdsfältet för att öppna redigeraren.
+1. Gå till ditt AEM Screens-projekt med namnet **custom** —> **Channels** —> **DemoBrand**. Markera kanalen och klicka på **Redigera** i åtgärdsfältet för att öppna redigeraren.
 
 1. Eftersom du nu har lagt till designen i fältet **Designer** klickar du på **Förhandsgranska** för att visa den aktuella stilen på bilden med textövertäckning.
 
    ![image](/help/user-guide/assets/custom-brand/custom-brand7.png)
 
-1. Navigera till filen static.css i CRXDE Lite. Lägg till teckensnittet.
+1. Navigera till filen *static.css* i CRXDE Lite och lägg till teckensnittet som, till exempel, `font-family: "Lucida Console", Courier, monospace;` till den här filen, som visas nedan.
    ![image](/help/user-guide/assets/custom-brand/custom-brand8.png)
 
 1. När du har sparat ändringarna och läst in förhandsvisningen igen visas en uppdatering av teckensnittet för textövertäckning, vilket visas i bilden nedan.
 
    ![image](/help/user-guide/assets/custom-brand/custom-brand9.png)
 
-1. Dessutom kan du ta bort de två sista kodblocken från filen static.css för att ta bort den boxade formateringen runt textövertäckningen.
+1. Dessutom kan du ta bort de två sista kodblocken från filen *static.css* för att ta bort den boxade stilen runt textövertäckningen.
    ![image](/help/user-guide/assets/custom-brand/custom-brand10.png)
 
-1. Du kommer att se den uppdaterade ändringen i förhandsvisningen där textöverlägget läggs till i bilden, vilket visas nedan.
+1. Du kommer att se den uppdaterade ändringen i förhandsvisningen där textöverlägget läggs till i bilden.
 
    ![image](/help/user-guide/assets/custom-brand/custom-brand11.png)
 
-Så om du följer stegen i de föregående avsnitten kan du uppdatera ditt varumärke och din anpassade stil för textövertäckningar som läggs till i dina resurser.
+I självstudiekursen kan du nu uppdatera ditt varumärke och din anpassade stil för textöverlägg som läggs till i dina resurser.
 
 
 
