@@ -4,7 +4,7 @@ product: experience manager
 audience: end-user
 user-guide-title: Adobe Experience Manager Screens Help
 translation-type: tm+mt
-source-git-commit: 69cb8b8791c76917ce67ad33f40074027f73f9d5
+source-git-commit: f5062a0610f7258240c3ed698e0c4c276b0823a2
 
 ---
 
@@ -91,6 +91,7 @@ source-git-commit: 69cb8b8791c76917ce67ad33f40074027f73f9d5
    + [Bädda in ett REACT-program med AEM SPA Editor och integrera med AEM Screens Analytics](embedding-react-app.md)
    + [ContextHub konfigureras i AEM-skärmar](configuring-context-hub.md)
    + [Skapa anpassade mallar för MultiZone-layouter](creating-custom-templates-multizone-layouts.md)
+   + [Använda anpassad profilering och formatering för textövertäckningar](custom-branding-text-overlays.md)
 + Felsökning och vanliga frågor {#troubleshooting}
    + [Vanliga frågor om AEM-skärmar](aem-screens-faqs.md)
    + [Felsökning av Device Control Center](monitoring-screens.md)
