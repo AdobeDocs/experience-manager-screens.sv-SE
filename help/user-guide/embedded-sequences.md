@@ -11,7 +11,7 @@ topic-tags: authoring
 discoiquuid: fc13d713-af30-4a54-8408-920f78fd2b2f
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 23ecaf3533c2298d98c37f2bbcb6cbe50aed17fc
+source-git-commit: 1222b1fcfedcc68c360c69867d3db4044ce8e7d8
 
 ---
 
@@ -55,7 +55,7 @@ Följ stegen nedan för att lägga till en inbäddad sekvens i kanalen:
 
 Som standard är den inställd på **normal**. Om du ställer in värdet till **normal** (Spela upp alla objekt) innebär det att efterföljande kommer att köras helt och hållet i varje cykel i den överordnade sekvensen. Det andra möjliga värdet är **Spela upp ett enstaka objekt** (Spela upp ett enstaka objekt) och visar bara ett objekt i efterföljande körning (till exempel det första objektet i den första slingan, det andra objektet i den andra slingan och så vidare).
 
->[!Iviktig]
+>[!IMPORTANT]
 >Du måste tilldela kanalen (används i inbäddad sekvens) till samma visning.
 >
 >Följ stegen nedan när du har lagt till en inbäddad sekvens i kanalen från de föregående stegen:
