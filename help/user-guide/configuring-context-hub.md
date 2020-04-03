@@ -11,7 +11,7 @@ content-type: reference
 discoiquuid: 9a26b5cd-b957-4df7-9b5b-f57e32b4196a
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 1c251320ec5c514c559f6e506028b0ad6f9bf68b
+source-git-commit: f5062a0610f7258240c3ed698e0c4c276b0823a2
 
 ---
 
@@ -134,40 +134,10 @@ Ersätt koden med ditt *&lt;Sheet ID>* och *&lt;API Key>*, som du hämtade när 
       >[!NOTE]
 Du måste hoppa över processen att definiera jsonen och lämna den tom.
 
-## Steg 3: Konfigurera varumärke och område {#setting-brand-area}
 
-1. **Skapa ett varumärke i aktiviteter**
+## Steg 3: Konfigurera publik {#setting-up-audience}
 
-   1. Navigera från din AEM-instans till **Personalisering** > **Verksamheter**
-
-   1. Klicka på **Skapa** > **Skapa varumärke**
-
-   1. Välj **Varumärke** i guiden **Skapa sida** och klicka på **Nästa**
-
-   1. Ange **Titel** som **Skärmmärke** och klicka på **Skapa**. Ditt varumärke har nu skapats enligt nedan.
-
-      ![image](/help/user-guide/assets/context-hub/context-hub8.png)
-
-
-      >[!CAUTION]
-      Känt fel:
-Om du vill lägga till ett område tar du bort mallen från URL:en, t.ex.
-      `https://localhost:4502/libs/cq/personalization/touch-ui/content/v2/activities.html/content/campaigns/contexthubdemo/master`
-
-1. **Skapa ett område i ditt varumärke**
-
-   Följ stegen nedan för att skapa ett område i varumärket:
-
-   1. Klicka på **Skapa** och sedan **Skapa område**
-
-   1. Välj **område** i guiden **Skapa sida** och klicka på Nästa
-
-   1. Ange **titeln** som **GoogleSheets** och klicka på **Skapa**.
-Området skapas i din aktivitet.
-
-## Steg 4: Konfigurera målgruppssegmentering {#step-setting-up-audience-segmentation}
-
-När ni väl har skapat en datalagring och definierat ert varumärke följer ni stegen nedan för att skapa målgruppssegment.
+Väntande: för att lägga till egenskaper
 
 1. **Skapa segment i målgrupper**
 
@@ -175,17 +145,38 @@ När ni väl har skapat en datalagring och definierat ert varumärke följer ni 
 
    1. Klicka på **Skapa** > **Skapa kontextnavsegment.** Dialogrutan **Nytt ContextHub-segment** öppnas.
 
-   1. Ange **titeln** som **BladA1 1** och klicka på **Skapa**. Du kan också skapa ett annat segment med namnet **SheetA2 2**.
+   1. Ange **Title** som **TargetValue1** och klicka på **Create**. Skapa på samma sätt ett annat segment med namnet **TargetValue2**.
+
+      ![image](/help/user-guide/assets/context-hub/context-hub10.png)
+
+
+
+## Steg 4: Konfigurera målgruppssegmentering {#step-setting-up-audience-segmentation}
+
+Väntar på att lägga till redigering
+
+När du har konfigurerat ett datalager och definierat din aktivitet (varumärke och område) följer du stegen nedan för att konfigurera målgruppssegment:
+
+1. **Skapa segment i målgrupper**
+
+   1. Navigera från din AEM-instans till **Personalisering** > **Publiker** > **skärmar**.
+
+   1. Klicka på **Skapa** > **Skapa kontextnavsegment.** Dialogrutan **Nytt ContextHub-segment** öppnas.
+
+   1. Ange **Title** som **TargetValue1** och klicka på **Create**. Skapa på samma sätt ett annat segment med namnet **TargetValue2**.
+
+      ![image](/help/user-guide/assets/context-hub/context-hub10.png)
+
 
 1. **Redigera segment**
 
-   1. Markera segmentet **Blad A1 1** och klicka på **Redigera** i åtgärdsfältet.
+   1. Markera segmentet **TargetValue1** och klicka på **Redigera** i åtgärdsfältet.
 
    1. Dra och släpp **jämförelsen: Egenskap - Värdekomponent** till redigeraren.
    1. Klicka på skiftnyckelsikonen för att öppna dialogrutan **Jämför en egenskap med ett värde** .
    1. Välj **Googlesheets/value/1/0** i listrutan i **Egenskapsnamn**.
 
-   1. Välj **Operator** as **Equal** i listrutan.
+   1. Välj **Operator** as **equal** i listrutan.
 
    1. Ange **värdet** som **1**.
    >[!NOTE]
@@ -193,7 +184,7 @@ När ni väl har skapat en datalagring och definierat ert varumärke följer ni 
 
    ![screen_shot_2019-04-23at20142pm](assets/screen_shot_2019-04-23at20142pm.png)
 
-   Du kan också redigera egenskapsvärdena till **Blad A1 2**.
+   Redigera på samma sätt egenskapsvärdena till **TargetValue2**.
 
    1. Dra och släpp **jämförelsen: Egenskap - Värdekomponent** till redigeraren.
    1. Klicka på skiftnyckelsikonen för att öppna dialogrutan **Jämför en egenskap med ett värde** .
@@ -205,6 +196,56 @@ När ni väl har skapat en datalagring och definierat ert varumärke följer ni 
 
 
 
+## Steg 5: Konfigurera varumärke och område {#setting-brand-area}
+
+Följ stegen nedan för att skapa ett varumärke i era aktiviteter och i ert område under varumärket:
+
+1. **Skapa ett varumärke i aktiviteter**
+
+   1. Navigera från din AEM-instans till **Personalisering** > **Verksamheter**.
+
+   1. Klicka på **Skapa** > **Skapa varumärke**.
+
+   1. Välj **Varumärke** i guiden **Skapa sida** och klicka på **Nästa**.
+
+   1. Ange **Titel** som **Skärmmärke** och klicka på **Skapa**. Ditt varumärke har nu skapats enligt nedan.
+
+      ![image](/help/user-guide/assets/context-hub/context-hub8.png)
+
+
+      >[!CAUTION]
+      Känt fel:
+Om du vill lägga till ett område tar du bort mallen från URL:en, t.ex.
+      `http://localhost:4502/libs/cq/personalization/touch-ui/content/v2/activities.html/content/campaigns/screensbrand/master`.
+
+1. **Skapa ett område i ditt varumärke**
+
+   Följ stegen nedan för att skapa ett område i varumärket:
+
+   1. Klicka på **Skapa** och sedan **Skapa område**.
+
+      ![image](/help/user-guide/assets/context-hub/context-hub9.png)
+
+   1. Välj **Område** i guiden **Skapa sida** och klicka på **Nästa**.
+
+   1. Ange **Title** som **ScreensValue** och klicka på **Create**.
+Ett område kommer att skapas i ert varumärke.
+
+## Steg 6: Konfigurera aktiviteten {#step-setting-up-activity}
+
+Följ stegen nedan för att skapa ett område i varumärket:
+
+1. Navigera till **Skärmvärde** (som skapades i föregående steg) och klicka på **Skapa** > **Skapa aktivitet**.
+
+1. Guiden **Konfigurera aktivitet** öppnas. Ange **Title** som **target valueCheck** och **Name** som **target valueCheck**. Välj **målmotorn** som **ContextHub (AEM)** i listrutan och klicka på **Nästa**.
+
+1. Klicka på **Lägg till upplevelse** i **guiden** Konfigurera aktivitet.
+
+1. Välj **TargetValue1** i **Publikerna** och klicka på **Lägg till upplevelse** och ange **Title** som **värdekontroll****** ****¥Name¥ som¥valuecheck.
+
+1. På samma sätt väljer du **TargetValue2** från **Publikerna** och klickar på **Lägg till upplevelse** och anger **Title** som **värdeCheck** **** ****¥Name¥ som¥valuecheck2¥.
+
+1. Klicka på **Nästa** och sedan **Spara**.
 
 ## Aktivera mål i kanaler {#step-enabling-targeting-in-channels}
 
