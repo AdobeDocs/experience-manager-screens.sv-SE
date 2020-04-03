@@ -11,7 +11,7 @@ content-type: reference
 discoiquuid: 9a26b5cd-b957-4df7-9b5b-f57e32b4196a
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 65a94a5301e4f15979d198f90a2ffc75c8e34a8a
+source-git-commit: 1c251320ec5c514c559f6e506028b0ad6f9bf68b
 
 ---
 
@@ -42,12 +42,11 @@ I följande diagram visas hur ContextHub-konfigurationer sammanfaller med Activi
 
 Innan du börjar konfigurera Context Hub Configurations för ett AEM Screens-projekt måste du konfigurera Google Sheets (i demonstrationssyfte).
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >Google Sheets används i följande exempel som ett exempeldatabassystem från vilket värdena hämtas och är endast avsett för utbildningsändamål. Adobe stöder inte Google Sheets för produktionsmiljöer.
 >
 >Mer information finns i [Hämta API-nyckel](https://developers.google.com/maps/documentation/javascript/get-api-key) i Google-dokumentationen.
-
 
 ## Steg 1: Konfigurera ett datalager {#step-setting-up-a-data-store}
 
@@ -68,7 +67,7 @@ Följande validering är vad du kommer att se när du kontrollerar anslutningen 
 >[!NOTE]
 > I det specifika exemplet nedan visas Google-tabellerna som ett datalager som utlöser en resursändring om värdet är högre än 100 eller lägre än 50.
 
-## Steg 2: Ansluta Google Sheets till AEM-instansen {#step-connecting-aem-instance}
+## Steg 2: Konfigurera butikskonfigurationer {#step-setting-store-configurations}
 
 1. **Navigera till ContextHub**
 
@@ -123,7 +122,19 @@ Ersätt koden med ditt *&lt;Sheet ID>* och *&lt;API Key>*, som du hämtade när 
 
       >[!CAUTION]
       Om du skapar dina Google Sheets-lagringskonfigurationer utanför den globala mappen (t.ex. i din egen projektmapp) kommer målanpassning inte att fungera som den ska.
-   >Om du vill konfigurera Google Sheets-lagringskonfigurationer utanför den globala mappen måste du ange **Store Name** som **segmentering** och **Store Type** som **aem.segmentation**. Dessutom måste du hoppa över processen att definiera json enligt definitionen ovan.
+
+1. **Konfigurera butikssegmentering**
+
+   1. Navigera till **ContentHub Store-konfigurationen.** och skapa en annan butikskonfiguration i skärmkonfigurationsbehållaren och ange **titeln** som **segmenteringskontexthub**, **butiksnamn** som **segmentering** och **butikstyp** som ****¥aem.segmentation¥.
+
+      ![image](/help/user-guide/assets/context-hub/context-hub7.png)
+
+   1. Klicka på **Nästa** och sedan **Spara**.
+
+      >[!NOTE]
+Du måste hoppa över processen att definiera jsonen och lämna den tom.
+
+## Steg 3: Konfigurera varumärke och område {#setting-brand-area}
 
 1. **Skapa ett varumärke i aktiviteter**
 
@@ -133,14 +144,15 @@ Ersätt koden med ditt *&lt;Sheet ID>* och *&lt;API Key>*, som du hämtade när 
 
    1. Välj **Varumärke** i guiden **Skapa sida** och klicka på **Nästa**
 
-   1. Ange **Title** som **ContextHubDemo** och klicka på **Create**. Ditt varumärke har nu skapats enligt nedan.
-   ![screen_shot_2019-05-05at44305pm](assets/screen_shot_2019-05-05at44305pm.png)
+   1. Ange **Titel** som **Skärmmärke** och klicka på **Skapa**. Ditt varumärke har nu skapats enligt nedan.
+
+      ![image](/help/user-guide/assets/context-hub/context-hub8.png)
 
 
-   >[!CAUTION]
-   Känt fel:
-   Om du vill lägga till ett område tar du bort mallen från URL:en, t.ex.
-   `https://localhost:4502/libs/cq/personalization/touch-ui/content/v2/activities.html/content/campaigns/contexthubdemo/master`
+      >[!CAUTION]
+      Känt fel:
+Om du vill lägga till ett område tar du bort mallen från URL:en, t.ex.
+      `https://localhost:4502/libs/cq/personalization/touch-ui/content/v2/activities.html/content/campaigns/contexthubdemo/master`
 
 1. **Skapa ett område i ditt varumärke**
 
@@ -153,7 +165,7 @@ Ersätt koden med ditt *&lt;Sheet ID>* och *&lt;API Key>*, som du hämtade när 
    1. Ange **titeln** som **GoogleSheets** och klicka på **Skapa**.
 Området skapas i din aktivitet.
 
-## Steg 2: Konfigurera målgruppssegmentering {#step-setting-up-audience-segmentation}
+## Steg 4: Konfigurera målgruppssegmentering {#step-setting-up-audience-segmentation}
 
 När ni väl har skapat en datalagring och definierat ert varumärke följer ni stegen nedan för att skapa målgruppssegment.
 
@@ -194,7 +206,7 @@ När ni väl har skapat en datalagring och definierat ert varumärke följer ni 
 
 
 
-## Steg 3: Aktivera mål i kanaler {#step-enabling-targeting-in-channels}
+## Aktivera mål i kanaler {#step-enabling-targeting-in-channels}
 
 Följ stegen nedan för att aktivera målinriktning i dina kanaler.
 
