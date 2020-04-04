@@ -11,7 +11,7 @@ content-type: reference
 discoiquuid: 9a26b5cd-b957-4df7-9b5b-f57e32b4196a
 docset: aem65
 translation-type: tm+mt
-source-git-commit: f5062a0610f7258240c3ed698e0c4c276b0823a2
+source-git-commit: 7481e63a96d07b4e6ff33bf9d6f15e5e6c7bead6
 
 ---
 
@@ -135,9 +135,7 @@ Ersätt koden med ditt *&lt;Sheet ID>* och *&lt;API Key>*, som du hämtade när 
 Du måste hoppa över processen att definiera jsonen och lämna den tom.
 
 
-## Steg 3: Konfigurera publik {#setting-up-audience}
-
-Väntande: för att lägga till egenskaper
+## Steg 3: Konfigurera segment i målgruppen {#setting-up-audience}
 
 1. **Skapa segment i målgrupper**
 
@@ -145,58 +143,20 @@ Väntande: för att lägga till egenskaper
 
    1. Klicka på **Skapa** > **Skapa kontextnavsegment.** Dialogrutan **Nytt ContextHub-segment** öppnas.
 
-   1. Ange **Title** som **TargetValue1** och klicka på **Create**. Skapa på samma sätt ett annat segment med namnet **TargetValue2**.
+   1. Ange **titeln** som **högre än 50** och klicka på **Skapa**. Du kan också skapa ett annat segment med namnet **Lowerthan50**.
 
-      ![image](/help/user-guide/assets/context-hub/context-hub10.png)
+      ![image](/help/user-guide/assets/context-hub/context-hub11.png)
 
+   1. Markera segmentet **högre än 50** och klicka på **Egenskaper** i åtgärdsfältet.
+      ![image](/help/user-guide/assets/context-hub/context-hub12.png)
 
+   1. Välj fliken **Personalisering** i **Segmentegenskaper**. Ställ in **ContextHub Path** till `/conf/screens/settings/cloudsettings/ContextHubDemo/contexthub` och **Segments Path** till `/conf/screens/settings/wcm/segments` och klicka på **Save**, som bilden nedan visar.
 
-## Steg 4: Konfigurera målgruppssegmentering {#step-setting-up-audience-segmentation}
+      ![image](/help/user-guide/assets/context-hub/context-hub13.png)
 
-Väntar på att lägga till redigering
+   1. Du kan även ange **ContextHub Path** och **Segments Path** för **Lowerthan50** -segmentet.
 
-När du har konfigurerat ett datalager och definierat din aktivitet (varumärke och område) följer du stegen nedan för att konfigurera målgruppssegment:
-
-1. **Skapa segment i målgrupper**
-
-   1. Navigera från din AEM-instans till **Personalisering** > **Publiker** > **skärmar**.
-
-   1. Klicka på **Skapa** > **Skapa kontextnavsegment.** Dialogrutan **Nytt ContextHub-segment** öppnas.
-
-   1. Ange **Title** som **TargetValue1** och klicka på **Create**. Skapa på samma sätt ett annat segment med namnet **TargetValue2**.
-
-      ![image](/help/user-guide/assets/context-hub/context-hub10.png)
-
-
-1. **Redigera segment**
-
-   1. Markera segmentet **TargetValue1** och klicka på **Redigera** i åtgärdsfältet.
-
-   1. Dra och släpp **jämförelsen: Egenskap - Värdekomponent** till redigeraren.
-   1. Klicka på skiftnyckelsikonen för att öppna dialogrutan **Jämför en egenskap med ett värde** .
-   1. Välj **Googlesheets/value/1/0** i listrutan i **Egenskapsnamn**.
-
-   1. Välj **Operator** as **equal** i listrutan.
-
-   1. Ange **värdet** som **1**.
-   >[!NOTE]
-   AEM validerar dina data från Google Sheet genom att visa ditt segment som grönt.
-
-   ![screen_shot_2019-04-23at20142pm](assets/screen_shot_2019-04-23at20142pm.png)
-
-   Redigera på samma sätt egenskapsvärdena till **TargetValue2**.
-
-   1. Dra och släpp **jämförelsen: Egenskap - Värdekomponent** till redigeraren.
-   1. Klicka på skiftnyckelsikonen för att öppna dialogrutan **Jämför en egenskap med ett värde** .
-   1. Välj **Googlesheets/value/1/0** i listrutan i **Egenskapsnamn**.
-
-   1. Välj **Operator** as **Equal** i listrutan.
-
-   1. Ange **värdet** som **2**.
-
-
-
-## Steg 5: Konfigurera varumärke och område {#setting-brand-area}
+## Steg 4: Konfigurera varumärke och område {#setting-brand-area}
 
 Följ stegen nedan för att skapa ett varumärke i era aktiviteter och i ert område under varumärket:
 
@@ -231,21 +191,64 @@ Om du vill lägga till ett område tar du bort mallen från URL:en, t.ex.
    1. Ange **Title** som **ScreensValue** och klicka på **Create**.
 Ett område kommer att skapas i ert varumärke.
 
-## Steg 6: Konfigurera aktiviteten {#step-setting-up-activity}
+## Steg 5: Skapa segment i en aktivitet {#step-setting-up-audience-segmentation}
 
-Följ stegen nedan för att skapa ett område i varumärket:
+När du har konfigurerat ett datalager och definierat din aktivitet (varumärke och område) följer du stegen nedan för att skapa segment i din aktivitet.
 
-1. Navigera till **Skärmvärde** (som skapades i föregående steg) och klicka på **Skapa** > **Skapa aktivitet**.
+1. **Skapa segment i aktiviteter**
 
-1. Guiden **Konfigurera aktivitet** öppnas. Ange **Title** som **target valueCheck** och **Name** som **target valueCheck**. Välj **målmotorn** som **ContextHub (AEM)** i listrutan och klicka på **Nästa**.
+   1. Navigera från din AEM-instans till **Personalization** > **Activity** > **ScreensBrand** >**ScreensValue**.
 
-1. Klicka på **Lägg till upplevelse** i **guiden** Konfigurera aktivitet.
+   1. Klicka på **Skapa** > **Skapa aktivitet.** Guiden **Konfigurera aktivitet** öppnas.
 
-1. Välj **TargetValue1** i **Publikerna** och klicka på **Lägg till upplevelse** och ange **Title** som **värdekontroll****** ****¥Name¥ som¥valuecheck.
+   1. Ange **Title** som **ValueCheck50** och **Name** som **valueCheck50**. Välj **målmotorn** som **ContextHub (AEM)** i listrutan och klicka på **Nästa**.
 
-1. På samma sätt väljer du **TargetValue2** från **Publikerna** och klickar på **Lägg till upplevelse** och anger **Title** som **värdeCheck** **** ****¥Name¥ som¥valuecheck2¥.
+      ![image](/help/user-guide/assets/context-hub/context-hub14.png)
 
-1. Klicka på **Nästa** och sedan **Spara**.
+   1. Klicka på **Lägg till upplevelse** i **guiden** Konfigurera aktivitet.
+
+   1. I **Publiker** väljer du **Higherthan50** och klickar på **Lägg till upplevelse** och anger **Title** som **higherthan50** **** ****¥Name¥higherthan50. Click **Ok**.
+
+   1. I **Publiker** väljer du **Lowerthan50** och klickar på **Add Experience** och anger **Title** som **lägre än50** **** ****¥Name¥less50¥. Click **Ok**.
+
+      ![image](/help/user-guide/assets/context-hub/context-hub15.png)
+
+   1. Klicka på **Nästa** och sedan **Spara**. **ValueCheck50** -aktiviteten har nu skapats och konfigurerats.
+
+      ![image](/help/user-guide/assets/context-hub/context-hub16.png)
+
+## Steg 5: Redigera segment {#editing-audience-segmentation}
+
+1. **Redigera segment**
+
+   1. 
+      1. Navigera från din AEM-instans till **Personalization** > **Activities** > **ScreensBrand** >**ScreensValue** >**ValueCheck50**.
+   1. Markera segmentet **ValueCheck50** och klicka på **Redigera** i åtgärdsfältet.
+
+   1. Dra och släpp **jämförelsen: Egenskap - Värdekomponent** till redigeraren.
+   1. Klicka på skiftnyckelsikonen för att öppna dialogrutan **Jämför en egenskap med ett värde** .
+   1. Välj **Googlesheets/value/1/0** i listrutan i **Egenskapsnamn**.
+
+   1. Välj **Operator** as **equal** i listrutan.
+
+   1. Ange **värdet** som **1**.
+   >[!NOTE]
+   AEM validerar dina data från Google Sheet genom att visa ditt segment som grönt.
+
+   ![screen_shot_2019-04-23at20142pm](assets/screen_shot_2019-04-23at20142pm.png)
+
+   Redigera på samma sätt egenskapsvärdena till **TargetValue2**.
+
+   1. Dra och släpp **jämförelsen: Egenskap - Värdekomponent** till redigeraren.
+   1. Klicka på skiftnyckelsikonen för att öppna dialogrutan **Jämför en egenskap med ett värde** .
+   1. Välj **Googlesheets/value/1/0** i listrutan i **Egenskapsnamn**.
+
+   1. Välj **Operator** as **Equal** i listrutan.
+
+   1. Ange **värdet** som **2**.
+
+
+
 
 ## Aktivera mål i kanaler {#step-enabling-targeting-in-channels}
 
