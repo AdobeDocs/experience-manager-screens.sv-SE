@@ -5,7 +5,7 @@ description: Följ den här sidan om du vill veta mer om hur du använder anpass
 seo-description: Följ den här sidan om du vill veta mer om hur du använder anpassad profilering och formatering för textövertäckningar.
 contentOwner: Jyotika Syal
 translation-type: tm+mt
-source-git-commit: 835e801909d8d126042acd713fc68075ff598712
+source-git-commit: fdbe57b2cd927c112e9faa4888e3565626712c7a
 
 ---
 
@@ -18,7 +18,7 @@ Följ den här sidan om du vill lära dig hur du använder anpassade märkesinst
 
 Följ stegen nedan för att skapa anpassade märkesnamn och format för textövertäckningar:
 
-1. Skapa ett AEM Screens-projekt med namnet **custom style** och en kanal med namnet **DemoBrand**, vilket visas i bilden nedan.
+1. Skapa ett AEM Screens-projekt. I det här exemplet visas funktionaliteten genom att ett projekt med namnet **custom style** och en kanal med namnet **DemoBrand** skapas, vilket visas i bilden nedan.
 
    ![image](/help/user-guide/assets/custom-brand/custom-brand1.png)
 
@@ -38,16 +38,26 @@ Följ stegen nedan för att skapa anpassade märkesnamn och format för textöve
 1. Navigera till filen *static.css* och ange följande css-regler. Visas också som ett exempel i figuren under CSS-reglerna.
 
    ```shell
-    //global styles
-    .cq-Screens-textOverlay
-    { … }
-    //authoring overrides
-    .aem-AuthorLayer-Edit .cq-Screens-textOverlay { … }
-    // light text variant
-    .cq-Screens-textOverlay-color--light
-    { … }
-     // dark text variant
-    .cq-Screens-textOverlay-color--dark { … }
+     //global styles
+     cq-Screens-textOverlay {
+     padding: 1em;
+     font-size: 3rem;
+     line-height: 1em;
+      }
+     //authoring overrides
+    .aem-AuthorLayer-Edit .cq-Screens-textOverlay {
+     display: none;
+     padding: 0;
+     font-size: 1rem;
+     }
+      // light text variant
+     .cq-Screens-textOverlay-color--light {
+      background-color: rgba(0, 0, 0, .6);
+      }
+      // dark text variant
+      .cq-Screens-textOverlay-color--dark {
+       background-color: rgba(255, 255, 255, .6);
+     }
    ```
    ![image](/help/user-guide/assets/custom-brand/custom-brand4.png)
 
@@ -67,6 +77,13 @@ Följ stegen nedan för att skapa anpassade märkesnamn och format för textöve
 
 1. Klicka på **Spara och stäng** för att uppdatera designsökvägen.
 
+### Uppdaterar åtkomstkontrollistor {#updating-acls}
+
+Du måste uppdatera åtkomstkontrollistorna för dessa designer så att de kan hämtas av spelaren.
+
+1. Navigera till useradmin, välj `screens-<project>-devices group` och ge den läsbehörighet till den anpassade designsökvägen.
+
+1. Ange läsbehörighet och ändringsbehörighet för `screens-<project>-administrators` gruppen till den här sökvägen.
 
 ## Visa resultatet {#viewing-the-result}
 
