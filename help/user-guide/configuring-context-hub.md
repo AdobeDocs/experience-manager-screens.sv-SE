@@ -11,7 +11,7 @@ content-type: reference
 discoiquuid: 9a26b5cd-b957-4df7-9b5b-f57e32b4196a
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 7481e63a96d07b4e6ff33bf9d6f15e5e6c7bead6
+source-git-commit: 593107de8775ffa1f87173c4e9e7be5c3ccb0b90
 
 ---
 
@@ -217,36 +217,39 @@ När du har konfigurerat ett datalager och definierat din aktivitet (varumärke 
 
       ![image](/help/user-guide/assets/context-hub/context-hub16.png)
 
-## Steg 5: Redigera segment {#editing-audience-segmentation}
+## Steg 5: Redigera segment i publiker{#editing-audience-segmentation}
 
 1. **Redigera segment**
 
-   1. 
-      1. Navigera från din AEM-instans till **Personalization** > **Activities** > **ScreensBrand** >**ScreensValue** >**ValueCheck50**.
-   1. Markera segmentet **ValueCheck50** och klicka på **Redigera** i åtgärdsfältet.
+   1. Navigera från din AEM-instans till **Personalisering** > **Publiker** > **skärmar**.
+
+   1. Markera segmentet **högre än 50** och klicka på **Redigera** i åtgärdsfältet.
 
    1. Dra och släpp **jämförelsen: Egenskap - Värdekomponent** till redigeraren.
+
    1. Klicka på skiftnyckelsikonen för att öppna dialogrutan **Jämför en egenskap med ett värde** .
+
    1. Välj **Googlesheets/value/1/0** i listrutan i **Egenskapsnamn**.
 
-   1. Välj **Operator** as **equal** i listrutan.
+   1. Välj **Operator** som **större än** i listrutan.
 
-   1. Ange **värdet** som **1**.
+   1. Ange **värdet** som **50**.
    >[!NOTE]
    AEM validerar dina data från Google Sheet genom att visa ditt segment som grönt.
 
    ![screen_shot_2019-04-23at20142pm](assets/screen_shot_2019-04-23at20142pm.png)
 
-   Redigera på samma sätt egenskapsvärdena till **TargetValue2**.
+   Redigera på samma sätt egenskapsvärdena till **Lägre än 50**.
 
    1. Dra och släpp **jämförelsen: Egenskap - Värdekomponent** till redigeraren.
+
    1. Klicka på skiftnyckelsikonen för att öppna dialogrutan **Jämför en egenskap med ett värde** .
+
    1. Välj **Googlesheets/value/1/0** i listrutan i **Egenskapsnamn**.
 
-   1. Välj **Operator** as **Equal** i listrutan.
+   1. Välj **Operatör** som **mindre än** i listrutan.
 
-   1. Ange **värdet** som **2**.
-
+   1. Ange **värdet** som **50**.
 
 
 
