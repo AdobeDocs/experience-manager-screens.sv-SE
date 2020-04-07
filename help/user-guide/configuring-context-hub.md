@@ -11,7 +11,7 @@ content-type: reference
 discoiquuid: 9a26b5cd-b957-4df7-9b5b-f57e32b4196a
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 593107de8775ffa1f87173c4e9e7be5c3ccb0b90
+source-git-commit: cc8ce7bec28373f4051cb9cf87a216b57c09ddd1
 
 ---
 
@@ -231,13 +231,18 @@ När du har konfigurerat ett datalager och definierat din aktivitet (varumärke 
 
    1. Välj **Googlesheets/value/1/0** i listrutan i **Egenskapsnamn**.
 
+      >[!NOTE]
+Google **heets/value/1/0** refererar till rad 2 och kolumn som fylls i i Google Sheets i figuren nedan:
+
+      ![image](/help/user-guide/assets/context-hub/context-hub17.png)
+
    1. Välj **Operator** som **större än** i listrutan.
 
-   1. Ange **värdet** som **50**.
+   1. Ange **värdet** som **70**.
    >[!NOTE]
    AEM validerar dina data från Google Sheet genom att visa ditt segment som grönt.
 
-   ![screen_shot_2019-04-23at20142pm](assets/screen_shot_2019-04-23at20142pm.png)
+   ![image](/help/user-guide/assets/context-hub/context-hub18.png)
 
    Redigera på samma sätt egenskapsvärdena till **Lägre än 50**.
 
