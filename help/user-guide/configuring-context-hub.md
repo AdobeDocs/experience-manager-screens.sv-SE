@@ -11,7 +11,7 @@ content-type: reference
 discoiquuid: 9a26b5cd-b957-4df7-9b5b-f57e32b4196a
 docset: aem65
 translation-type: tm+mt
-source-git-commit: cc8ce7bec28373f4051cb9cf87a216b57c09ddd1
+source-git-commit: f373ca17738f3018acf6b4cffaf523bb731e7c26
 
 ---
 
@@ -150,7 +150,7 @@ Du måste hoppa över processen att definiera jsonen och lämna den tom.
    1. Markera segmentet **högre än 50** och klicka på **Egenskaper** i åtgärdsfältet.
       ![image](/help/user-guide/assets/context-hub/context-hub12.png)
 
-   1. Välj fliken **Personalisering** i **Segmentegenskaper**. Ställ in **ContextHub Path** till `/conf/screens/settings/cloudsettings/ContextHubDemo/contexthub` och **Segments Path** till `/conf/screens/settings/wcm/segments` och klicka på **Save**, som bilden nedan visar.
+   1. Välj fliken **Personalisering** i **Segmentegenskaper**. Ställ in **ContextHub Path** till `/conf/screens/settings/cloudsettings/ContextHubDemo/contexthub configurations` och **Segments Path** till `/conf/screens/settings/wcm/segments` och klicka på **Save**, som bilden nedan visar.
 
       ![image](/help/user-guide/assets/context-hub/context-hub13.png)
 
@@ -239,11 +239,11 @@ Google **heets/value/1/0** refererar till rad 2 och kolumn som fylls i i Google 
    1. Välj **Operator** som **större än** i listrutan.
 
    1. Ange **värdet** som **70**.
-   >[!NOTE]
-   AEM validerar dina data från Google Sheet genom att visa ditt segment som grönt.
 
-   ![image](/help/user-guide/assets/context-hub/context-hub18.png)
+      >[!NOTE]
+      AEM validerar dina data från Google Sheet genom att visa ditt segment som grönt.
 
+      ![image](/help/user-guide/assets/context-hub/context-hub18.png)
    Redigera på samma sätt egenskapsvärdena till **Lägre än 50**.
 
    1. Dra och släpp **jämförelsen: Egenskap - Värdekomponent** till redigeraren.
@@ -262,11 +262,11 @@ Google **heets/value/1/0** refererar till rad 2 och kolumn som fylls i i Google 
 
 Följ stegen nedan för att aktivera målinriktning i dina kanaler.
 
-1. Navigera till en av AEM-skärmarna. Följande steg visar hur du aktiverar målinriktning genom att använda **DataDrivenRetail** som skapats i en AEM Screens Channel.
+1. Navigera till en av AEM-skärmarna. Följande steg visar hur du aktiverar mål med hjälp av **DataDrivenChannel** som skapats i en AEM Screens Channel.
 
-1. Välj kanalen **DataDrivenRetail** och klicka på **Egenskaper** i åtgärdsfältet.
+1. Markera kanalen **TargetChannel** och klicka på **Egenskaper** i åtgärdsfältet.
 
-   ![screen_shot_2019-05-01at43332pm](assets/screen_shot_2019-05-01at43332pm.png)
+   ![image](/help/user-guide/assets/context-hub/context-hub19.png)
 
 1. Välj fliken **Personalisering** för att konfigurera ContextHub-konfigurationer.
 
@@ -275,20 +275,18 @@ Följ stegen nedan för att aktivera målinriktning i dina kanaler.
    1. Välj **Segmentsökväg** som **conf** > **We.Retail** > **settings** > **wcm** **** ****>¥segments¥ och klicka¥Select.
 
    1. Klicka på **Spara och stäng**.
-   >[!NOTE]
-   Använd ContextHub och Segments-sökvägen, där du först sparade dina kontextnavkonfigurationer och segment.
 
-   ![screen_shot_2019-05-01at44030pm](assets/screen_shot_2019-05-01at44030pm.png)
+      >[!NOTE]
+      Använd ContextHub och Segments-sökvägen, där du först sparade dina kontextnavkonfigurationer och segment.
 
-1. Navigera till och välj **DataDrivenRetail** från **DataDrivenAssets** > **Kanaler** och klicka på **Redigera** i åtgärdsfältet.
+      ![image](/help/user-guide/assets/context-hub/context-hub20.png)
 
-   >[!NOTE]
-   Om du har konfigurerat allt korrekt visas alternativet **Riktning** i listrutan från redigeraren, vilket visas i bilden nedan.
+   1. Navigera till och markera **TargetChannel** -kanalen och klicka på **Redigera** i åtgärdsfältet.
 
-   ![screen_shot_2019-05-01at44231pm](assets/screen_shot_2019-05-01at44231pm.png)
+      >[!NOTE]
+      Om du har konfigurerat allt korrekt visas alternativet **Riktning** i listrutan från redigeraren, vilket visas i bilden nedan.
 
-   >[!NOTE]
-   När du har konfigurerat ContextHub-konfigurationerna för din kanal måste du följa de föregående stegen från 1 till 4 för de andra tre sekvenskanalerna också om du vill följa alla användningsexempel nedan.
+      ![image](/help/user-guide/assets/context-hub/context-hub21.png)
 
 ## Läs mer: Exempel på användningsfall {#learn-more-example-use-cases}
 
