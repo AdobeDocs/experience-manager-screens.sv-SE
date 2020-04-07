@@ -5,7 +5,7 @@ description: Följ den här sidan om du vill veta mer om hur du använder anpass
 seo-description: Följ den här sidan om du vill veta mer om hur du använder anpassad profilering och formatering för textövertäckningar.
 contentOwner: Jyotika Syal
 translation-type: tm+mt
-source-git-commit: f373ca17738f3018acf6b4cffaf523bb731e7c26
+source-git-commit: a475e373b0717b69610cb78907542f1da9ad8992
 
 ---
 
@@ -85,7 +85,7 @@ Följ stegen nedan för att skapa anpassade märkesnamn och format för textöve
    1. Överlägg `/libs/screens/core/templates/sequencechannel` i `/apps/screens/core/templates/sequencechannel`.
    1. Ändra egenskapen *cq:designPath* i så `/apps/screens/core/templates/sequencechannel/jcr:content` att den pekar på den nya designen.
 
-1. Så här skapar du en egen mall helt:
+1. Så här skapar du en egen mall:
    1. Kopiera `/libs/screens/core/templates/sequencechannel` till `/apps/customstyle/templates/styled-sequencechannel`.
    1. Ändra egenskapen *cq:designPath* i så `/apps/customstyle/templates/styled-sequencechannel/jcr:content` att den pekar på den nya designen.
 
