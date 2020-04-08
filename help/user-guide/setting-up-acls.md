@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: administering
 discoiquuid: 64e4d6ae-3fd3-41ec-84e1-cc2cac7b2519
 translation-type: tm+mt
-source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
+source-git-commit: 8356d5eb9449fd31d293c030620588e47fa6513e
 
 ---
 
@@ -19,7 +19,7 @@ source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
 
 I följande avsnitt beskrivs hur du skiljer ut projekt med hjälp av åtkomstkontrollistor så att varje enskild person eller grupp hanterar sitt eget projekt.
 
-Som AEM-administratör vill du se till att teammedlemmar i ett projekt inte stör andra projekt och att var och en av användarna tilldelas särskilda roller enligt projektkraven.
+Som AEM-administratör vill du se till att teammedlemmar i ett projekt inte stör andra projekt och att var och en av användarna tilldelas specifika roller enligt projektkraven.
 
 ## Konfigurera behörigheter {#setting-up-permissions}
 
@@ -131,7 +131,7 @@ I följande tabell sammanfattas grupperna med beskrivning och behörigheter för
     </ul> </td>
   </tr>
   <tr>
-   <td>Skärmspelare<br /> <em>screens-we-retail-devices</em></td>
+   <td>Skärmspelare<br /> , <em>skärmar-&lt;projekt&gt;-enheter</em></td>
    <td>Grupperar alla spelare och alla spelare/enheter automatiskt.</td>
    <td><p> Medverkande medlem</p> </td>
   </tr>
