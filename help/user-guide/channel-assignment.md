@@ -11,7 +11,7 @@ topic-tags: authoring
 discoiquuid: 212adcd1-835b-453d-9d3e-775366abf181
 docset: aem65
 translation-type: tm+mt
-source-git-commit: bde770227dfbe72e96254d27ba14e7469eed1b5c
+source-git-commit: 7d0925076ecf2038c666b0d53669e5d84c66eedf
 
 ---
 
@@ -52,9 +52,9 @@ Följ stegen nedan för att tilldela en kanal till en skärm:
 
    ![image](/help/user-guide/assets/channel-assign1.png)
 
-   Du kan konfigurera följande egenskaper i dialogrutan **Kanaltilldelning** i avsnittet nedan.
+   Du kan förstå och konfigurera egenskaperna i dialogrutan **Kanaltilldelning** i avsnittet nedan.
 
-### Om kanalegenskaper {#channel-properties}
+### Förstå kanalegenskaper från kanaltilldelning {#channel-properties}
 
 #### Referenskanal {#ref-channel}
 
@@ -84,14 +84,17 @@ Prioritet används för att ordna tilldelningarna om flera matchar uppspelningsv
 
 #### Avbrottsmetod {#interruption-method-channel}
 
+>[VIKTIGT]
+> Det här alternativet är endast tillgängligt med AEM 6.4 Feature Pack 8 eller AEM 6.5 Feature Pack 4.
+
 Som innehållsförfattare bör du kunna ange när en kanal avbryts så att du kan välja att avbryta icke-kritiskt innehåll, men du kan välja att låta viktigt innehåll spelas upp helt innan uppspelningen avbryts på grund av schemaläggning.
 Följande alternativ är tillgängliga för att ange avbrottsmetoden i dialogrutan **Kanaltilldelning** :
 
-* **Omedelbart**: när schemat aktiveras eller en uppdatering tas emot avbryter vi uppspelningen och uppdaterar eller spelar upp det nya innehållet omedelbart
-* **I slutet av det aktuella objektet**: när ett nytt schema aktiveras eller en uppdatering tas emot, väntar vi tills det aktuella objektet i sekvensen har spelats upp, och först efter det uppdaterar eller spelar vi upp det nya innehållet
+* **Omedelbart**: När schemat aktiveras eller en uppdatering tas emot kan du avbryta uppspelningen och omedelbart uppdatera eller spela upp det nya innehållet
+* **I slutet av det aktuella objektet**: När ett nytt schema aktiveras eller en uppdatering tas emot kan du välja att vänta tills det aktuella objektet i sekvensen har spelats upp, och först efter det kan du uppdatera eller spela upp det nya innehållet
    >[!NOTE]
    >Det här är standardalternativet som är markerat.
-* **I slutet av sekvensen**: när ett nytt schema aktiveras eller en uppdatering tas emot, väntar vi på att hela sekvensen ska sluta och precis innan vi går tillbaka till det första elementet uppdaterar eller spelar det nya innehållet
+* **I slutet av sekvensen**: När ett nytt schema aktiveras eller en uppdatering tas emot kan du välja att vänta tills hela sekvensen är klar, och precis före den önskade sekvensen går du tillbaka till det första elementet och uppdaterar eller spelar upp det nya innehållet
 
 #### Schema {#schedule-channel}
 
