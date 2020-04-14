@@ -11,7 +11,7 @@ content-type: reference
 discoiquuid: 9a26b5cd-b957-4df7-9b5b-f57e32b4196a
 docset: aem65
 translation-type: tm+mt
-source-git-commit: f373ca17738f3018acf6b4cffaf523bb731e7c26
+source-git-commit: 358c22018bf933e5b5418f202eb70b1a39a49783
 
 ---
 
@@ -270,9 +270,7 @@ Följ stegen nedan för att aktivera målinriktning i dina kanaler.
 
 1. Välj fliken **Personalisering** för att konfigurera ContextHub-konfigurationer.
 
-   1. Välj **ContextHub Path** som **libs** > **settings** > **cloudsettings** > **default** **** ****>¥ContextHub Configurations¥ och klicka på¥Select¥.
-
-   1. Välj **Segmentsökväg** som **conf** > **We.Retail** > **settings** > **wcm** **** ****>¥segments¥ och klicka¥Select.
+   1. Ställ in **ContextHub Path** till `/conf/screens/settings/cloudsettings/ContextHubDemo/contexthub configurations` och **Segments Path** till `/conf/screens/settings/wcm/segments` och klicka på **Save**.
 
    1. Klicka på **Spara och stäng**.
 
