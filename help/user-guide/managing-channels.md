@@ -11,7 +11,7 @@ topic-tags: authoring
 discoiquuid: a8006686-8ee5-4971-ab79-0c7b01f108f2
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 67368b950e508eaf88d78c60d9b0e3228b30c11c
+source-git-commit: f3460fe4095907ad65e411fcb6433bfb1c2c2d3c
 
 ---
 
@@ -131,6 +131,28 @@ Panelen Kanalinformation beskriver kanalegenskaperna tillsammans med förhandsvi
 Klicka på (**..**) i åtgärdsfältet **KANALINFORMATION** för att visa egenskaper, redigera innehållet eller för att uppdatera cache-minnet (offlineinnehåll) för kanalen.
 
 ![screen_shot_2017-12-20at82048am](assets/screen_shot_2017-12-20at82048am.png)
+
+#### Visa manifestet {#view-manifest}
+
+Du kan visa manifestet från kanalkontrollpanelen.
+
+>[VIKTIGT]
+> Det här alternativet är endast tillgängligt med AEM 6.4 Feature Pack 8 eller AEM 6.5 Feature Pack 4.
+
+Följ de här stegen för att aktivera det här alternativet från kanalkontrollpanelen:
+1. **Ange att kanalen ska vara offline**
+   1. Markera kanalen och välj **Egenskaper** i åtgärdsfältet
+   1. Navigera till fliken **Kanal** och se till att du avmarkerar alternativet **Utvecklarläge (tvinga kanalen att vara online)**
+   1. Klicka på **Spara och stäng**
+1. **Uppdatera offlineinnehåll**
+   1. Markera kanalen och välj **Kontrollpanel** i åtgärdsfältet
+   1. Navigera till panelen **KANALINFORMATION** och klicka *..*
+   1. Klicka på **Uppdatera offlineinnehåll**
+
+Nu bör du kunna se alternativet **Visa manifest** på panelen **KANALINFORMATION** på kontrollpanelen Kanal.
+
+![image1](assets/channel-one.png)
+
 
 ### Online- och offlinekanaler {#online-and-offline-channels}
 
