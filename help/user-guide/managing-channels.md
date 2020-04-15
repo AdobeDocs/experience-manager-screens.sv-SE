@@ -11,7 +11,7 @@ topic-tags: authoring
 discoiquuid: a8006686-8ee5-4971-ab79-0c7b01f108f2
 docset: aem65
 translation-type: tm+mt
-source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
+source-git-commit: 67368b950e508eaf88d78c60d9b0e3228b30c11c
 
 ---
 
@@ -68,9 +68,8 @@ I följande exempel visas hur du skapar en Sequence Channel (*ChannelOne*) för 
 >
 >Du kan skapa olika zoner med hjälp av mallalternativen 1x2, 2x2 eller 2 till 3 delade skärmkanaler som nämns ovan.
 
-***Viktigt***:
-
-När du har skapat och lagt till innehåll i kanalen är nästa steg att skapa en plats följt av att skapa en skärm. Dessutom måste du tilldela den kanalen till en skärm. Läs mer i resurserna nedan i slutet av avsnittet.
+>[!IMPORTANT]
+> När du har skapat och lagt till innehåll i kanalen är nästa steg att skapa en plats följt av att skapa en skärm. Dessutom måste du tilldela den kanalen till en skärm. Läs mer i resurserna nedan i slutet av avsnittet.
 
 ## Arbeta med kanaler {#working-with-channels}
 
@@ -78,7 +77,7 @@ Du kan redigera, visa egenskaper och kontrollpanel, kopiera, förhandsgranska oc
 
 >[!NOTE]
 >
->Klicka på ikonen till vänster för att markera ett objekt. Klicka t.ex. på ikonen för kanal och utför följande åtgärder enligt bilden nedan.
+>Markera kanalen enligt bilden nedan.
 
 ![screen_shot_2019-07-24at103723am](assets/screen_shot_2019-07-24at103723am.png)
 
@@ -86,7 +85,7 @@ Du kan redigera, visa egenskaper och kontrollpanel, kopiera, förhandsgranska oc
 
 Följ stegen nedan om du vill lägga till eller redigera innehåll i en kanal:
 
-1. Klicka på den kanal som du vill redigera (se bilden ovan).
+1. Markera kanalen som du vill redigera (se bilden ovan).
 1. Klicka på **Redigera** i åtgärdsfältets övre vänstra hörn för att redigera kanalegenskaperna. Redigeraren öppnas och du kan lägga till resurser/komponenter i kanalen som du vill publicera.
 
 >[!NOTE]
@@ -95,7 +94,9 @@ Följ stegen nedan om du vill lägga till eller redigera innehåll i en kanal:
 
 ![demochannel1](assets/demochannel1.gif)
 
-**Överföra videoklipp till kanalen** Följ stegen nedan för att överföra videoklipp till kanalen:
+**Överföra videoklipp till kanalen**
+
+Följ stegen nedan för att överföra videoklipp till din kanal:
 
 1. Markera kanalen där du vill överföra videon.
 1. Klicka på **Redigera** i åtgärdsfältet för att öppna redigeraren.
@@ -118,8 +119,8 @@ Följ stegen nedan om du vill visa eller redigera egenskaper för en kanal:
 
 Följ stegen nedan för att visa kontrollpanelen för en kanal:
 
-1. Klicka på den kanal som du vill redigera.
-1. Klicka på **Kontrollpanel** i åtgärdsfältet för att visa kontrollpanelen. Panelen **KANALINFORMATION**,**TILLDELADE VISAR** OCH **VÄNTANDE STARTOR** öppnas enligt bilden nedan:
+1. Markera kanalen som du vill redigera.
+1. Klicka på **Kontrollpanel** i åtgärdsfältet för att visa instrumentpanelen. Panelen **KANALINFORMATION**,**TILLDELADE VISAR** OCH **VÄNTANDE STARTOR** öppnas enligt bilden nedan:
 
 ![kontrollpanel](assets/dashboard.gif)
 
@@ -127,7 +128,7 @@ Följ stegen nedan för att visa kontrollpanelen för en kanal:
 
 Panelen Kanalinformation beskriver kanalegenskaperna tillsammans med förhandsvisningen av kanalen. Dessutom innehåller det information om huruvida kanalen är offline eller online.
 
-Klicka på (**...**) i åtgärdsfältet **Kanalinformation** för att visa egenskaper, redigera innehållet eller för att uppdatera cache-minnet (offlineinnehåll) för kanalen.
+Klicka på (**..**) i åtgärdsfältet **KANALINFORMATION** för att visa egenskaper, redigera innehållet eller för att uppdatera cache-minnet (offlineinnehåll) för kanalen.
 
 ![screen_shot_2017-12-20at82048am](assets/screen_shot_2017-12-20at82048am.png)
 
@@ -149,7 +150,7 @@ Följ stegen nedan för att göra kanalen online:
 
    ![screen_shot_2019-08-01at31406pm](assets/screen_shot_2019-08-01at31406pm.png)
 
-   Klicka på **Kontrollpanel** i åtgärdsfältet för att visa spelarens status. **CHANNEL INFORMATION **panel ger information om huruvida kanalen är online eller offline.
+   Klicka på **Kontrollpanel** i åtgärdsfältet för att visa spelarens status. Panelen **KANALINFORMATION** ger information om huruvida kanalen är online eller offline.
 
    ![screen_shot_2019-08-01at31458pm](assets/screen_shot_2019-08-01at31458pm.png)
 
