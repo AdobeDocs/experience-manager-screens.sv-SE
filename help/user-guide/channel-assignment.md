@@ -11,7 +11,7 @@ topic-tags: authoring
 discoiquuid: 212adcd1-835b-453d-9d3e-775366abf181
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 7d0925076ecf2038c666b0d53669e5d84c66eedf
+source-git-commit: 1537ef1b86b19a6a474290b0302032e4fe343d1d
 
 ---
 
@@ -88,12 +88,13 @@ Prioritet används för att ordna tilldelningarna om flera matchar uppspelningsv
 > Det här alternativet är endast tillgängligt med AEM 6.4 Feature Pack 8 eller AEM 6.5 Feature Pack 4.
 
 Som innehållsförfattare bör du kunna ange när en kanal avbryts så att du kan välja att avbryta icke-kritiskt innehåll, men du kan välja att låta viktigt innehåll spelas upp helt innan uppspelningen avbryts på grund av schemaläggning.
-Följande alternativ är tillgängliga för att ange avbrottsmetoden i dialogrutan **Kanaltilldelning** :
+
+Välj något av följande alternativ som är tillgängliga för att ange avbrottsmetoden i dialogrutan **Kanaltilldelning** :
 
 * **Omedelbart**: När schemat aktiveras eller en uppdatering tas emot kan du avbryta uppspelningen och omedelbart uppdatera eller spela upp det nya innehållet
 * **I slutet av det aktuella objektet**: När ett nytt schema aktiveras eller en uppdatering tas emot kan du välja att vänta tills det aktuella objektet i sekvensen har spelats upp, och först efter det kan du uppdatera eller spela upp det nya innehållet
    >[!NOTE]
-   >Det här är standardalternativet som är markerat.
+   >Det här alternativet är markerat som standard.
 * **I slutet av sekvensen**: När ett nytt schema aktiveras eller en uppdatering tas emot kan du välja att vänta tills hela sekvensen är klar, och precis före den önskade sekvensen går du tillbaka till det första elementet och uppdaterar eller spelar upp det nya innehållet
 
 #### Schema {#schedule-channel}
