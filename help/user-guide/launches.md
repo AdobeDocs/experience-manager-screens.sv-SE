@@ -11,7 +11,7 @@ topic-tags: authoring
 discoiquuid: 9cd8892b-fe5d-4ad3-9b10-10ff068adba6
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 74f6b7c3ab5f725b5cc278f5ae3e80e1271b6860
+source-git-commit: 7e3610aef5950bf92423147a39053dea64ab71da
 
 ---
 
@@ -75,27 +75,30 @@ Följ avsnittet nedan för att implementera starter i ditt AEM Screens-projekt. 
 1. **Skapa en skärmstart**
 1. **Redigera en skärmstart för att ange live-datum och omfattning**
 
-### Skapa en framtida publicering {#creating-a-launch}
+### Skapa en skärmstart {#creating-a-launch}
 
 Följ stegen nedan för att implementera startfunktioner i ditt AEM Screens-projekt:
 
-1. Navigera till en sekvenskanal i ditt AEM Screens-projekt, till exempel **LaunchesDemo** —> **Channels** —> **FutureLaunch**, vilket visas nedan.
+1. Skapa en sekvenskanal i ditt AEM Screens-projekt, till exempel **LaunchesDemo** —> **Channels** —> **FutureLaunch**, enligt nedan.
 
    >[!CAUTION]
    >
    >Du måste skapa en start från en befintlig kanal i ditt AEM Screens-projekt.
 
-   ![screen_shot_2019-06-25at15052pm](assets/screen_shot_2019-06-25at15052pm.png)
+   ![Bild](/help/user-guide/assets/launches-images/launches-11.png)
 
 1. Välj kanalen **FutureLaunch** och klicka på **Create Launch** i åtgärdsfältet.
 
-1. Guiden **Skapa start** öppnas. Du kan antingen välja kanalen som redan visas i guiden eller klicka på **+ Lägg till sidor** för att välja kanalen Skärmar som du vill starta starten för.
+   ![Bild](/help/user-guide/assets/launches-images/launches-12.png)
 
-   >[!NOTE]
-   >I följande exempel visas hur du skapar en start för den befintliga kanalen i guiden.
+1. Guiden **Skapa start** öppnas. Du kan antingen välja den kanal som redan är synlig i guiden eller klicka på **+ Lägg till kanaler** för att lägga till den kanal som du vill skapa starten för.
 
 
-   ![screen_shot_2019-06-11at93710am](/help/user-guide/assets/launches-images/launches-a.png)
+#### Använda den befintliga kanalen {#existing-channel-launch}
+
+1. Markera kanalen som redan finns i guiden **Skapa start** och klicka på **Nästa**.
+
+   ![image](/help/user-guide/assets/launches-images/launches-b.png)
 
 1. Markera kanalen och klicka på **Nästa** i åtgärdsfältet.
 
@@ -124,6 +127,49 @@ Följ stegen nedan för att implementera startfunktioner i ditt AEM Screens-proj
    ![screen_shot_2019-06-25at20355pm](assets/screen_shot_2019-06-25at20355pm.png)
 
    Om du klickar på **Klar** kan du gå tillbaka till **FutureLaunch** -kanalen.
+
+   ![Bild](/help/user-guide/assets/launches-images/launches-16.png)
+
+
+#### Använda alternativet Lägg till kanaler {#add-channel-launch}
+
+1. Klicka på **+ Lägg till kanaler** för att lägga till kanalen som du vill starta starten för.
+
+   ![image](/help/user-guide/assets/launches-images/launches-13.png)
+
+   >[!NOTE]
+   >Alternativet **Välj** inaktiveras om du försöker markera flera kanaler eller en mapp för att lägga till starten.
+
+1. Navigera till den kanal som du vill skapa starten för och klicka på **Välj**.
+
+   ![image](/help/user-guide/assets/launches-images/launches-14.png)
+
+1. Nu kan du välja den kanal du lade till för att skapa en start för och klicka på **Nästa**.
+
+   ![image](/help/user-guide/assets/launches-images/launches-15.png)
+
+1. Ange **starttitel** som **Sommarkampanjer** och du behöver inte ange **startdatum** enligt bilden nedan. Klicka på **Skapa**.
+
+   >[!NOTE]
+   >
+   >*Om du aktiverar eller kontrollerar* alternativet **Ärv källsidans livedata** kan kanalerna skapas som live-kopior vid starten. Om några ändringar görs i den ursprungliga kanalen tillämpas dessa ändringar automatiskt på startkanaler.
+   >
+   >
+   >*Om du inaktiverar eller avmarkerar* **Inherit-källsidans livedata** kan kanalerna kopieras utan någon live-relation vid start. Så om ändringar görs i den ursprungliga kanalen tillämpas inte dessa ändringar på startkanaler.
+
+   ![Bild](/help/user-guide/assets/launches-images/launches-c.png)
+
+   >[!NOTE]
+   >
+   >Du kan ställa in live-startdatum i det här steget eller ställa in det senare när du redigerar egenskaperna för startprogrammet när det redan har skapats.
+
+1. Du kommer att se att du har startat programmet. Du kan antingen klicka på **Öppna** för att visa sidorna i redigeraren eller klicka på **Klar** för att gå tillbaka till projektet.
+
+   ![screen_shot_2019-06-25at20355pm](assets/screen_shot_2019-06-25at20355pm.png)
+
+   Om du klickar på **Klar** kan du gå tillbaka till **FutureLaunch** -kanalen.
+
+   ![Bild](/help/user-guide/assets/launches-images/launches-16.png)
 
 ### Redigera startegenskaperna för att ange live-datum och -omfång {#editing-the-launch-properties-to-set-the-live-date-and-scope}
 
