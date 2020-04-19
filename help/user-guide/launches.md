@@ -11,7 +11,7 @@ topic-tags: authoring
 discoiquuid: 9cd8892b-fe5d-4ad3-9b10-10ff068adba6
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 7e3610aef5950bf92423147a39053dea64ab71da
+source-git-commit: 9cc4b31ecd66530a85a7a526e306faf1ec371b2e
 
 ---
 
@@ -177,43 +177,43 @@ När du har skapat startprogrammet måste du redigera startegenskaperna för att
 
 Följ stegen nedan för att redigera startegenskaperna:
 
-1. Navigera till kanalen (**FutureLaunch**) och markera kanalen enligt bilden nedan. Öppna **referensrälen** från vänster sida av rälen.
+1. Navigera till kanalen **FutureLaunch***(det vill säga den väntande starten)* och markera kanalen, vilket visas i bilden nedan.
 
-   >[!NOTE]
-   >
-   >Välj alternativet **Innehållsträd** i den vänstra listen för att öppna den start du skapade.
+   ![image](/help/user-guide/assets/launches-images/launches-17.png)
 
-   ![screen_shot_2019-06-25at25852pm](assets/screen_shot_2019-06-25at25852pm.png)
+1. Klicka på **Dashboard** i åtgärdsfältet så visas panelen **VÄNTANDE STARTOR** från kanalkontrollpanelen.
 
-1. Navigera till **Startar** och välj den lansering (**Sommarkampanjer**) som du skapade. Klicka på **Redigera egenskaper**.
+   ![image](/help/user-guide/assets/launches-images/launches-18.png)
 
-   ![screen_shot_2019-06-25at30008pm](assets/screen_shot_2019-06-25at30008pm.png)
+1. Välj start och klicka på någon av de önskade åtgärderna på panelen **VÄNTANDE STARTOR** .
 
-1. Dialogrutan **Sommarkampanjer** öppnas. Fyll i följande fält:
+   ![image](/help/user-guide/assets/launches-images/launches-19.png)
+
+1. Du kan till exempel klicka på **Launch Properties** för att redigera egenskaperna för lanseringen av **Sommarkampanjer**.
+
+   ![image](/help/user-guide/assets/launches-images/launches-20.png)
+
+1. Du kan redigera **Luanch Title** och fylla i följande fält:
 
    * Välj **startdatum**
    * Kontrollera **produktionsklar**
    * Välj **Befordra godkända sidor** från **omfång**
-   >[!NOTE]
-   >
-   >Så här fungerar posterna under **Automatisk befordran**:
+   **Så här fungerar posterna i Startar under Automatisk befordran:**
 
-   >    * **Startdatum**, hänvisar till live-datumet, det vill säga det datum/den tidpunkt då innehållet spelas upp i skärmspelaren enligt spelarens tidszon.
-   >    * **Production Ready**, gör att kanalerna kan marknadsföras och innebär att lanseringen är klar att användas.
-   >    * **Omfång** avser de kanaler som kan befordras under en start.
-
-
+   * **Startdatum**, hänvisar till live-datumet, det vill säga det datum/den tidpunkt då innehållet spelas upp i skärmspelaren enligt spelarens tidszon.
+   * **Production Ready**, gör att kanalerna kan marknadsföras och innebär att lanseringen är klar att användas.
+   * **Omfång** avser de kanaler som kan befordras under en start.
    Följande tre alternativ är tillgängliga för att konfigurera omfattningen:
-   1. **Erbjud fullständig start**: Alla kanaler för lanseringen befordras vid angivet live-datum.
-   1. **Befordra ändrade sidor**: Endast redigerade startresurser kommer att befordras. Vi rekommenderar att du använder det här alternativet när startgranskningen inte behövs. Det gör att ändringarna i startkanalerna kan befordras.
-   1. **Befordra godkända sidor**: Endast godkända sidor befordras vid angivet live-datum.
-   ![screen_shot_2019-06-26at113805am](assets/screen_shot_2019-06-26at113805am.png)
 
-   >[!CAUTION]
-   >
-   >Starten respekterar spelarens/enhetens tidszon i stället för serverns.
+   * **Erbjud fullständig start**: Alla kanaler för lanseringen befordras vid angivet live-datum.
+   * **Befordra ändrade sidor**: Endast redigerade startresurser kommer att befordras. Vi rekommenderar att du använder det här alternativet när startgranskningen inte behövs. Det gör att ändringarna i startkanalerna kan befordras.
+   * **Befordra godkända sidor**: Endast godkända sidor befordras vid angivet live-datum.
+
+      >[!CAUTION]
+      >
+      >Starten respekterar spelarens/enhetens tidszon i stället för serverns.
+
+
 
 1. Klicka på **Spara och stäng** för att gå tillbaka till **FutureLaunch** -kanalen.
-
-   ![screen_shot_2019-06-26at114332am](assets/screen_shot_2019-06-26at114332am.png)
 
