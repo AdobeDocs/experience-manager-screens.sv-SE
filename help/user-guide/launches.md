@@ -11,7 +11,7 @@ topic-tags: authoring
 discoiquuid: 9cd8892b-fe5d-4ad3-9b10-10ff068adba6
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 6c833984748c89cc271e70450c7f51abda2fa7c7
+source-git-commit: 74f6b7c3ab5f725b5cc278f5ae3e80e1271b6860
 
 ---
 
@@ -77,9 +77,9 @@ Följ avsnittet nedan för att implementera starter i ditt AEM Screens-projekt. 
 
 ### Skapa en framtida publicering {#creating-a-launch}
 
-Följ stegen nedan för att implementera framtida publiceringsfunktioner i ditt AEM Screens-projekt:
+Följ stegen nedan för att implementera startfunktioner i ditt AEM Screens-projekt:
 
-1. Navigera till kanalen i ditt AEM Screens-projekt, till exempel **LaunchesDemo** —> **Channels** —> **FutureLaunch**, som visas nedan.
+1. Navigera till en sekvenskanal i ditt AEM Screens-projekt, till exempel **LaunchesDemo** —> **Channels** —> **FutureLaunch**, vilket visas nedan.
 
    >[!CAUTION]
    >
@@ -87,21 +87,22 @@ Följ stegen nedan för att implementera framtida publiceringsfunktioner i ditt 
 
    ![screen_shot_2019-06-25at15052pm](assets/screen_shot_2019-06-25at15052pm.png)
 
-1. Välj kanalen **FutureLaunch** och klicka på **Create**. Välj **Starta** i listrutan.
+1. Välj kanalen **FutureLaunch** och klicka på **Create Launch** i åtgärdsfältet.
 
-   ![screen_shot_2019-06-25at15459pm](assets/screen_shot_2019-06-25at15459pm.png)
+1. Guiden **Skapa start** öppnas. Du kan antingen välja kanalen som redan visas i guiden eller klicka på **+ Lägg till sidor** för att välja kanalen Skärmar som du vill starta starten för.
 
-1. Guiden **Skapa start** öppnas. Klicka på **+ Lägg till sidor** för att välja de AEM-skärmar-kanaler som du vill starta starten för.
+   >[!NOTE]
+   >I följande exempel visas hur du skapar en start för den befintliga kanalen i guiden.
 
-   ![screen_shot_2019-06-11at93710am](assets/screen_shot_2019-06-11at93710am.png)
 
-1. Navigera till kanalen och klicka på **Välj**.
+   ![screen_shot_2019-06-11at93710am](/help/user-guide/assets/launches-images/launches-a.png)
 
-   ![screen_shot_2019-06-25at20030pm](assets/screen_shot_2019-06-25at20030pm.png)
+1. Markera kanalen och klicka på **Nästa** i åtgärdsfältet.
 
-1. När du har markerat sidan klickar du på **Nästa** för att gå ett steg längre i guiden **Skapa start** .
+   >[!NOTE]
+   >**Alternativet Inkludera undersidor** är markerat som standard.
 
-   ![screen_shot_2019-06-25at20128pm](assets/screen_shot_2019-06-25at20128pm.png)
+   ![Bild](/help/user-guide/assets/launches-images/launches-b.png)
 
 1. Ange **starttitel** som **Sommarkampanjer** och du behöver inte ange **startdatum** enligt bilden nedan. Klicka på **Skapa**.
 
@@ -112,7 +113,7 @@ Följ stegen nedan för att implementera framtida publiceringsfunktioner i ditt 
    >
    >*Om du inaktiverar eller avmarkerar* **Inherit-källsidans livedata** kan kanalerna kopieras utan någon live-relation vid start. Så om ändringar görs i den ursprungliga kanalen tillämpas inte dessa ändringar på startkanaler.
 
-   ![screen_shot_2019-06-25at20215pm](assets/screen_shot_2019-06-25at20215pm.png)
+   ![Bild](/help/user-guide/assets/launches-images/launches-c.png)
 
    >[!NOTE]
    >
@@ -122,9 +123,7 @@ Följ stegen nedan för att implementera framtida publiceringsfunktioner i ditt 
 
    ![screen_shot_2019-06-25at20355pm](assets/screen_shot_2019-06-25at20355pm.png)
 
-   Om du klickar på **Klar** kan du gå tillbaka till ditt **LaunchesDemo** -projekt.
-
-   ![screen_shot_2019-06-25at20434pm](assets/screen_shot_2019-06-25at20434pm.png)
+   Om du klickar på **Klar** kan du gå tillbaka till **FutureLaunch** -kanalen.
 
 ### Redigera startegenskaperna för att ange live-datum och -omfång {#editing-the-launch-properties-to-set-the-live-date-and-scope}
 
