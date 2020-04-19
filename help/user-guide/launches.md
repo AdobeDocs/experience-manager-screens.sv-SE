@@ -1,6 +1,6 @@
 ---
-title: Launches
-seo-title: Launches
+title: Content Update using Screens Launch
+seo-title: Content Update using Screens Launch
 description: Innehållsförfattare kan skapa framtida versioner av kanalerna, så kallade Launch och ange live-datum för den här starten, så att innehållet kan visas på enheter och spelare.
 seo-description: Innehållsförfattare kan skapa framtida versioner av kanalerna, så kallade Launch och ange live-datum för den här starten, så att innehållet kan visas på enheter och spelare.
 uuid: fb13117c-b99b-48bd-adb6-040dbd13af16
@@ -11,28 +11,28 @@ topic-tags: authoring
 discoiquuid: 9cd8892b-fe5d-4ad3-9b10-10ff068adba6
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 7250f7a2150debc12b7cc7acc4193f6d4bd5aa7b
+source-git-commit: 6c833984748c89cc271e70450c7f51abda2fa7c7
 
 ---
 
 
-# Launches {#launches}
+# Content Update using Screens Launch {#launches}
 
-Innehållsförfattare kan skapa framtida versioner av kanalerna, så kallade **Launch** , och sedan ställa in live-datum för den här starten, så att innehållet kan visas på enheter och spelare.
+Innehållsförfattare kan skapa framtida versioner av kanalen/kanalerna, så kallade **Screens Launch** , och sedan ställa in live-datum för den här starten kan innehållet visas på enheter eller spelare.
 
-Med hjälp av startguider kan man förhandsgranska varje kanal i lanseringen och bör kunna initiera en granskningsförfrågan. Godkännargruppen får meddelanden och kan godkänna eller avvisa begäran. När live-datumet nås spelas innehållet upp på enheterna.
+Med hjälp av framtida publicering kan författare förhandsgranska varje kanal i lanseringen och bör kunna initiera en granskningsbegäran. Godkännargruppen får meddelanden och kan godkänna eller avvisa begäran. När live-datumet nås spelas innehållet upp på enheterna.
 
 Om författaren till exempel vill skapa framtida versioner av c1, c2 (kanaler) skapas en start och ett live-datum ställs in (till exempel 10 november 8:00). Ytterligare uppdateringar skickas ut för granskning. När den har godkänts och på live-datumet (10 november 08:00) spelas innehållet upp på enheterna eller spelarna.
 
 ## Krav {#requirements}
 
-Innan du börjar implementera Launches i ett AEM Screens-projekt måste du förstå begreppet Grace Period och dess relevans.
+Innan du börjar implementera en framtida publicering i ett AEM-skärmsprojekt måste du förstå begreppet respitperiod och dess relevans.
 
 I följande avsnitt förklaras giltighetsperioden och hur du konfigurerar den. Du kan även hämta ett exempel på en testkonfiguration för att förstå hur den används.
 
 ### Förstå respitperiod {#understanding-grace-period}
 
-I följande konfiguration kan administratören konfigurera den ***respitperiod*** som krävs i Starta.
+I följande konfiguration kan administratören konfigurera ***respitperioden***, som krävs för framtida publicering.
 
 **Respitperiod**, inklusive:
 
@@ -68,14 +68,14 @@ Om du vill ändra ovanstående konfiguration följer du instruktionerna nedan:
 
 Det innebär att när du anger ett direktdatum för en start för resurserna under */innehåll/skärmar* börjar kampanjen med den här förskjutningen. Om till exempel live-datumet är inställt på 24 november, 9:00 och respitperioden är 600 sekunder börjar kampanjjobbet på 24 november, 08:50.
 
-## Använda Launches {#using-launches}
+## Använda skärmstart {#using-launches}
 
-Följ avsnittet nedan för att implementera Launches i ditt AEM Screens-projekt. Detta avsnitt behandlar följande ämnen:
+Följ avsnittet nedan för att implementera starter i ditt AEM Screens-projekt. Detta avsnitt behandlar följande ämnen:
 
-1. **Skapa en Launch**
-1. **Redigera en Launch för att ange live-datum och omfattning**
+1. **Skapa en skärmstart**
+1. **Redigera en skärmstart för att ange live-datum och omfattning**
 
-### Skapa en Launch {#creating-a-launch}
+### Skapa en framtida publicering {#creating-a-launch}
 
 Följ stegen nedan för att implementera framtida publiceringsfunktioner i ditt AEM Screens-projekt:
 
