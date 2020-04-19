@@ -4,7 +4,7 @@ seo-title: Versionsinformation för funktionspaket 2004
 description: Följ den här sidan för att få information om AEM Screens Feature Pack 20204 släppt den 15 april 2020.
 seo-description: Följ den här sidan för att få information om AEM Screens Feature Pack 20204 släppt den 15 april 2020.
 translation-type: tm+mt
-source-git-commit: d6635c0d6bb4e3126fda6b39e933272f0693b576
+source-git-commit: 6c833984748c89cc271e70450c7f51abda2fa7c7
 
 ---
 
@@ -21,16 +21,19 @@ AEM Screens har släppt AEM 6.4 Feature Pack 8 och AEM 6.5 Feature Pack 4 med f�
 
 Releasedatum för AEM Screens Feature Pack 2004 är 15 april 2020.
 
-### Nyheter {#what-s-new}
+### What&#39;s New {#what-s-new}
 
 * **Strategialternativ för uppspelningsavbrott**
 
-   Som författare kan du nu ange när en kanal avbryts eller inte så att innehållsförfattaren kan välja att avbryta icke-kritiskt innehåll, men du kan välja att låta viktigt innehåll spelas upp helt innan uppspelningen avbryts på grund av schemaläggning.
+   Som innehållsförfattare bör du kunna ange när en kanal avbryts så att du kan välja att avbryta icke-kritiskt innehåll, men du kan välja att låta viktigt innehåll spelas upp helt innan uppspelningen avbryts på grund av schemaläggning.
 
+   I avsnittet **[Avbrottsmetod](/help/user-guide/channel-assignment.md#interruption-method-channel)**finns mer information om de alternativ som finns i dialogrutan **Kanaltilldelning**för att implementera den här funktionen i ditt AEM Screens-projekt.
 
-* **Launches**
+* **Skärmstartningar**
 
    Användarupplevelsen för innehållsförfattaren har förbättrats och antalet klick har minskat för framtida publicering.
+
+   Mer information finns i **[Content Update using Screens Launch](launches.md)**.
 
 * **Kontrollpanel för kanaler**
 
@@ -39,11 +42,15 @@ Releasedatum för AEM Screens Feature Pack 2004 är 15 april 2020.
 
 * **Visa manifest**
 
-   Du kan visa manifestet från kanalkontrollpanelen.
+   Nu kan du visa manifestfilen från kanalkontrollpanelen.
+
+   Se **[Visa manifestet](/help/user-guide/managing-channels.md#view-manifest)**.
 
 * **Textövertäckning**
 
-   När du lägger till test i textövertäckningsfunktionen är teckenstorleken nu mycket mer exakt och uppdaterad.
+   När du lägger till test i textövertäckningsfunktionen är teckensnittsstorleken exakt och förbättrad.
+
+   Använd **[Textövertäckning](text-overlay.md)**för att skapa en övertygande upplevelse i en sekvenskanal genom att ange en rubrik eller en beskrivning som läggs ovanpå en bild.
 
 * **Förbättringar i kommandosynkronisering**
 
