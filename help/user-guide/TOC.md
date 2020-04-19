@@ -2,9 +2,9 @@
 cloud: experience-cloud
 product: experience manager
 audience: end-user
-user-guide-title: Adobe Experience Manager Screens Help
+user-guide-title: Adobe Experience Manager Screens - hjälp
 translation-type: tm+mt
-source-git-commit: f5062a0610f7258240c3ed698e0c4c276b0823a2
+source-git-commit: 6c833984748c89cc271e70450c7f51abda2fa7c7
 
 ---
 
@@ -72,7 +72,7 @@ source-git-commit: f5062a0610f7258240c3ed698e0c4c276b0823a2
    + Hantera innehållsuppdateringar {#content-updates}
       + [On Demand Content Update](on-demand-content.md)
       + [Uppdatering av innehållet som en tjänst](content-update-as-a-service.md)
-      + [Innehållsuppdatering med Launches](launches.md)
+      + [Content Update using Screens Launch](launches.md)
    + Exempel på användningsfall {#use-case-examples}
       + [Nödkanaler](emergency-channel.md)
       + [Temperaturaktivering i resecentret](local-temperature-activation.md)
