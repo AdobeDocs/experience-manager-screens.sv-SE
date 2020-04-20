@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
 discoiquuid: a40eb5bb-fbf7-4c0d-a34a-db79b884de8f
 translation-type: tm+mt
-source-git-commit: 119d5bdf854674ae86682ed82fee390f63972c0a
+source-git-commit: b39c76fc7af4fb46596d4a995fe011d00b212d7c
 
 ---
 
@@ -216,7 +216,7 @@ Följ stegen nedan för att implementera funktionen:
    1. Ange **kanalnamnet** som **region***.
    1. Ange **kanalrollen** som **RegionAdSegment**.
    1. Click **Save**.
-   **Tilldela kanal efter roll för butik:
+   **Tilldela kanal efter roll för butik:**
 
    1. Klicka på **+ Tilldela kanal** på panelen **TILLDELADE KANALER** för att öppna dialogrutan **Kanaltilldelning** .
    1. Välj **referenskanal**.. efter namn.
@@ -268,7 +268,7 @@ Följande utdata bekräftar ditt kanalinnehåll i AEM Screens Player, beroende p
 
 **Scenario 1**:
 
-Om du tilldelar visningssökvägen som **Demo** —> **Platser** —> **Region A** —>** Store 1** —> **Store1Display**, visas följande innehåll i din AEM-skärmspelare.
+Om du tilldelar visningssökvägen som **Demo** —> **Platser** —> **Region A** —> **Store 1** —> **Store1Display** visas följande innehåll i din AEM-skärmsspelare.
 
 ![channeldisplay1](assets/channeldisplay1.gif)
 
@@ -354,7 +354,7 @@ Följ stegen nedan för att skapa grupper, användare och ändra åtkomstkontrol
    1. Navigate to the **Permissions** tab
    1. Navigera till ***/content/screens/demo*** och kontrollera alla behörigheter
    1. Navigera till ***/content/screens/demo/locations*** och kontrollera alla behörigheter
-   1. Navigera till ***/content/screens/demo/locations***/***region-a*** och kontrollera alla behörigheter. Kontrollera på samma sätt behörigheterna för **region-b**.
+   1. Navigera till ***/content/screens/demo/locations/region-a*** och kontrollera alla behörigheter. Kontrollera på samma sätt behörigheterna för **region-b**.
    Se bilden nedan för att förstå stegen:
    ![screen_shot_2018-09-18at115752am](assets/screen_shot_2018-09-18at115752am.png)
 
@@ -367,7 +367,7 @@ Följ stegen nedan för att skapa grupper, användare och ändra åtkomstkontrol
    1. Navigate to the **Permissions** tab.
    1. Navigera till ***/content/screens/demo*** och kontrollera endast **läsbehörighet** .
    1. Navigera till ***/content/screens/demo/locations*** och kontrollera endast **läsbehörighet** .
-   1. Navigera till ***/content/screens/demo/channel ***och avmarkera behörigheterna för den **globala**kanalen.***
+   1. Navigera till ***/content/screens/demo/channel*** och avmarkera behörigheterna för den **globala** kanalen.
    1. Navigera till ***/content/screens/demo/locations***/***region-a*** och kontrollera alla behörigheter. Kontrollera på samma sätt behörigheterna för **region-b**.
    Se bilden nedan för att förstå stegen:
 
