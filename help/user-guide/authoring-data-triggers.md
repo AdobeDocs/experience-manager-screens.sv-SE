@@ -3,7 +3,7 @@ title: Skapa med Data Triggers
 seo-title: Skapa med Data Triggers
 description: Följ den här sidan för att lära dig hur du skapar med datautlösare.
 translation-type: tm+mt
-source-git-commit: a7d3ec582dde83ed6efb08a6c3c6a75cc0820970
+source-git-commit: d2d27b4f8b8a8c23b7a86cc835673f4bf0784995
 
 ---
 
@@ -43,7 +43,7 @@ Följ stegen nedan för att aktivera målinriktning i dina kanaler.
 
    ![screen_shot_2019-05-01at43332pm](assets/screen_shot_2019-05-01at43332pm.png)
 
-1. Välj fliken **Personalisering** för att konfigurera ContextHub-konfigurationer.
+1. Välj fliken **Personalisering** för att konfigurera ContextHub-konfigurationer och välj ContextHub- och Segments-sökvägen.
 
    1. Välj **ContextHub Path** som **libs** > **settings** > **cloudsettings** > **default** **** ****>¥ContextHub Configurations¥ och klicka på¥Select¥.
 
