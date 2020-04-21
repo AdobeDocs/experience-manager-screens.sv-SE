@@ -11,7 +11,7 @@ content-type: reference
 discoiquuid: 9a26b5cd-b957-4df7-9b5b-f57e32b4196a
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 358c22018bf933e5b5418f202eb70b1a39a49783
+source-git-commit: 2a36ecd81d250f449e3fa870309674bf2dc771d0
 
 ---
 
@@ -92,8 +92,13 @@ Följande validering är vad du kommer att se när du kontrollerar anslutningen 
 
       ![image](/help/user-guide/assets/context-hub/context-hub5.png)
 
-   1. Ange **Titel** som **Google Sheets**, **Butiksnamn** som **Googlesheets** och **Butikstyp** **** ****som¥contexthub.generic-jsonp¥ och klicka på¥Next.
+   1. Ange **Titel** som **Google Sheets**, **Butiksnamn** som **Googlesheets** och **Butikstyp** **** **** som¥contexthub.generic-jsonp¥ och klicka på¥Next.
+
       ![image](/help/user-guide/assets/context-hub/context-hub6.png)
+
+      >[!NOTE]
+      >
+      >I AEM 6.4 anger du **Configuration Title** som **googlesheets** och **Store Type** som **contexthub.generic-jsonp**.
 
    1. Ange din specifika json-konfiguration. Du kan t.ex. använda följande json som demoversion och klicka på **Spara** så visas butikskonfigurationen med namnet **Google Sheets** i ContextHub-konfigurationen.
 
