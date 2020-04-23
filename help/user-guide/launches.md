@@ -11,62 +11,66 @@ topic-tags: authoring
 discoiquuid: 9cd8892b-fe5d-4ad3-9b10-10ff068adba6
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 9cc4b31ecd66530a85a7a526e306faf1ec371b2e
+source-git-commit: 14a45b58862477ec6be082ab1c059f991b086755
 
 ---
 
 
 # Content Update using Screens Launch {#launches}
 
-Innehållsförfattare kan skapa framtida versioner av kanalen/kanalerna, så kallade **Screens Launch** , och sedan ställa in live-datum för den här starten kan innehållet visas på enheter eller spelare.
+Innehållsförfattare kan skapa framtida versioner av kanalen/kanalerna, så kallade **Screens Launch** , och ange live-datumet för den här starten ytterligare. Detta gör att innehållet kan vara live i enheter eller spelare på angivet live-datum.
 
-Med hjälp av framtida publicering kan författare förhandsgranska varje kanal i lanseringen och bör kunna initiera en granskningsbegäran. Godkännargruppen får meddelanden och kan godkänna eller avvisa begäran. När live-datumet nås spelas innehållet upp på enheterna.
+Med hjälp av **Screens Launches** kan man förhandsgranska varje kanal i programmet och bör kunna initiera en granskningsbegäran. Godkännargruppen får meddelanden och kan godkänna eller avvisa begäran. När live-datumet nås spelas innehållet upp på enheterna.
 
 Om författaren till exempel vill skapa framtida versioner av c1, c2 (kanaler) skapas en start och ett live-datum ställs in (till exempel 10 november 8:00). Ytterligare uppdateringar skickas ut för granskning. När den har godkänts och på live-datumet (10 november 08:00) spelas innehållet upp på enheterna eller spelarna.
 
 ## Krav {#requirements}
 
-Innan du börjar implementera en framtida publicering i ett AEM-skärmsprojekt måste du förstå begreppet respitperiod och dess relevans.
+Innan du börjar använda Screens Launches i ett AEM Screens-projekt måste du förstå begreppet Grace Period och dess relevans.
 
-I följande avsnitt förklaras giltighetsperioden och hur du konfigurerar den. Du kan även hämta ett exempel på en testkonfiguration för att förstå hur den används.
+När du kör en upplevelse på det angivna live-datumet på spelaren ingår följande:
+
+* befordran av startprogrammet (tar normalt några sekunder)
+
+* publicera resurser för att publicera instanser (tar vanligtvis några minuter, beroende på kanalernas eller resursernas storlek som behöver publiceras)
+
+* den tid det tar att uppdatera offlineinnehållet (tar normalt några minuter)
+
+* den tid det tar för spelarna att hämta innehållet från publiceringsinstansen (tar vanligtvis minuter beroende på n/w-bandbredden och storleken på resurserna som behöver hämtas)
+
+* vid olika tidpunkter på servern och spelaren
 
 ### Förstå respitperiod {#understanding-grace-period}
 
-I följande konfiguration kan administratören konfigurera ***respitperioden***, som krävs för framtida publicering.
+För att spelaren ska kunna börja spela upp innehållet på angivet live-datum måste vi starta de tidigare nämnda aktiviteterna före live-datumet.
 
-**Respitperiod**, inklusive:
-
-* lanseringen
-* publicera resurser för att publicera instanser
-* den tid det tar för enheterna att hämta innehållet från publiceringsinstansen och eventuella tidsskillnader mellan servern och spelaren
+Om live-datumet är 24 *nov, 24:00* och respitperioden är *24 timmar* börjar ovanstående åtgärdssekvens på (live-datum - respitperiod), det vill säga 23 nov, 9:00 servertid. Detta ger 24 timmar på sig att slutföra alla de ovannämnda åtgärderna och innehållet kommer att nå fram till aktörerna. Spelarna kommer att förstå att det här är ett startinnehåll, så innehållet spelas inte upp direkt, men spelarna kommer att lagra innehållet som en framtida version och börja spela upp exakt på det angivna direktdatumet i spelarens tidszon.
 
 Exempel: servern är i PST och enheterna är i EST, den maximala tidsskillnaden är 3 timmar i det här fallet och förutsätter att erbjudandet tar 1 minut och att publiceringen tar 10 minuter att publicera och spelaren kan hämta resurserna i vanliga fall på 10-15 minuter. Fristen = tidsskillnad (3 timmar) + tid för att starta programmet (1 min) + tid för att publicera starten (10 min) + tid för nedladdning vid spelaren (10-15 min) + buffert (för att vara säker, till exempel 30 min) = 3 timmar 56 min = 14 160 sekunder. Så när vi planerar någon lansering live kommer kampanjen att börja tidigt med den här offsetet. I ekvationen ovan tar de flesta objekten inte så lång tid. Vi kan använda en bra gissning för den här förskjutningen när vi vet den maximala tidsskillnaden mellan servern och valfri spelare.
 
-### Konfigurerar körklar respitperiod {#configuring-out-of-the-box-grace-period}
-
-Körklar är respitperioden för en lansering inställd på 24 timmar, vilket innebär att när vi ställer in livedatum för en lansering av resurserna under */innehåll/skärmar* börjar kampanjen med den här förskjutningen. Om liveDate till exempel är inställt på 24 nov, 9:00 AM och respitperioden är 24 timmar börjar kampanjjobbet på 23 nov, 09:00.
-
-### Laddar ned konfigurationer {#downloading-configurations}
-
-Hämta följande testkonfigurationer:
-
-[Hämta fil](assets/launches_event_handlerconfig-10.zip)
-
 >[!NOTE]
->
->Ovannämnda konfiguration har 600 sekunder som respitperiod i den här testkonfigurationen.
+>När vi är klara är fristen för att starta skärmar inställd på 24 timmar, vilket innebär att när vi ställer in ett live-datum för en start av resurserna under */innehåll/skärmar* börjar kampanjen med den här förskjutningen.
 
-#### Uppdatera konfigurationerna {#updating-the-configurations}
+### Uppdaterar betalningsperiod {#updating-out-of-the-box-grace-period}
 
-Om du vill ändra ovanstående konfiguration följer du instruktionerna nedan:
+I det här avsnittet beskrivs hur du kan uppdatera en körklar respitperiod till 10 minuter:
 
-* skapa ***sling:OsgiConfig/ nt:file i /apps/system/config*** med namnet **com.adobe.cq.wcm.launches.impl.LaunchesEventHandler.config** och innehåll
+1. Navigera till CRXDE Lite och sedan till `/libs/system/config.author/com.adobe.cq.wcm.launches.impl.LaunchesEventHandler.config`.
+2. Högerklicka och kopiera filen.
+3. Navigera till `/apps/system/config` och högerklicka och klistra in.
+4. Dubbelklicka på `/apps/system/config/com.adobe.cq.wcm.launches.impl.LaunchesEventHandler.config` för att öppna filen i redigeraren i CRXDE Lite. Den måste visa respitperioden för sökvägen */innehållet/skärmarna/* som 86400. Ändra värdet till **600**.
 
-   *launches.evenHandler.updatelastmodification=B&quot;false&quot;launches.evenHandler.launch.Promo.graaceperiod=[&quot;/content/screens(/.*):600&quot;]launches.evenHandler.threadpool.maxsize=I&quot;5&quot;launches.evenHandler.threadpool.priority=&quot;MIN&quot;*
+Nu bör innehållet i textfilen se ut ungefär så här:
 
-* `launches.eventhandler.launch.promotion.graceperiod=["/content/screens(/.&#42;):600"`Med kan du ange en respitperiod på 600 sekunder i sökvägen */innehållet/skärmarna*.
+```java
+launches.eventhandler.launch.promotion.graceperiod=[ \
+   "/content/screens(/.*):600", \
+   ]
+```
 
-Det innebär att när du anger ett direktdatum för en start för resurserna under */innehåll/skärmar* börjar kampanjen med den här förskjutningen. Om till exempel live-datumet är inställt på 24 november, 9:00 och respitperioden är 600 sekunder börjar kampanjjobbet på 24 november, 08:50.
+Eftersom du har angett en respitperiod på 10 minuter i föregående exempel, och du anger ett livedatum för alla starter för resurserna under */innehåll/skärmar*, börjar kampanjen med den här förskjutningen.
+
+Om till exempel live-datumet är inställt på 24 november, 9:00 och respitperioden är 600 sekunder börjar kampanjjobbet den 24 november kl. 8:50.
 
 ## Använda skärmstart {#using-launches}
 
