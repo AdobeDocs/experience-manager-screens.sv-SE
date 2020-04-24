@@ -11,7 +11,7 @@ topic-tags: authoring
 discoiquuid: 9cd8892b-fe5d-4ad3-9b10-10ff068adba6
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 14a45b58862477ec6be082ab1c059f991b086755
+source-git-commit: 654b4eb6ac5cab74df3044fd82d367bf26588364
 
 ---
 
@@ -74,10 +74,7 @@ Om till exempel live-datumet är inställt på 24 november, 9:00 och respitperio
 
 ## Använda skärmstart {#using-launches}
 
-Följ avsnittet nedan för att implementera starter i ditt AEM Screens-projekt. Detta avsnitt behandlar följande ämnen:
-
-1. **Skapa en skärmstart**
-1. **Redigera en skärmstart för att ange live-datum och omfattning**
+Följ avsnittet nedan för att implementera starter i ditt AEM Screens-projekt.
 
 ### Skapa en skärmstart {#creating-a-launch}
 
@@ -97,60 +94,19 @@ Följ stegen nedan för att implementera startfunktioner i ditt AEM Screens-proj
 
 1. Guiden **Skapa start** öppnas. Du kan antingen välja den kanal som redan är synlig i guiden eller klicka på **+ Lägg till kanaler** för att lägga till den kanal som du vill skapa starten för.
 
-
-#### Använda den befintliga kanalen {#existing-channel-launch}
-
-1. Markera kanalen som redan finns i guiden **Skapa start** och klicka på **Nästa**.
+1. Klicka på **Nästa** i guiden **Skapa start** . Alternativet **Inkludera undersidor** är markerat som standard.
 
    ![image](/help/user-guide/assets/launches-images/launches-b.png)
 
-1. Markera kanalen och klicka på **Nästa** i åtgärdsfältet.
-
    >[!NOTE]
-   >**Alternativet Inkludera undersidor** är markerat som standard.
-
-   ![Bild](/help/user-guide/assets/launches-images/launches-b.png)
-
-1. Ange **starttitel** som **Sommarkampanjer** och du behöver inte ange **startdatum** enligt bilden nedan. Klicka på **Skapa**.
-
-   >[!NOTE]
-   >
-   >*Om du aktiverar eller kontrollerar* alternativet **Ärv källsidans livedata** kan kanalerna skapas som live-kopior vid starten. Om några ändringar görs i den ursprungliga kanalen tillämpas dessa ändringar automatiskt på startkanaler.
-   >
-   >
-   >*Om du inaktiverar eller avmarkerar* **Inherit-källsidans livedata** kan kanalerna kopieras utan någon live-relation vid start. Så om ändringar görs i den ursprungliga kanalen tillämpas inte dessa ändringar på startkanaler.
-
-   ![Bild](/help/user-guide/assets/launches-images/launches-c.png)
-
-   >[!NOTE]
-   >
-   >Du kan ställa in live-startdatum i det här steget eller ställa in det senare när du redigerar egenskaperna för startprogrammet när det redan har skapats.
-
-1. Du kommer att se att du har startat programmet. Du kan antingen klicka på **Öppna** för att visa sidorna i redigeraren eller klicka på **Klar** för att gå tillbaka till projektet.
-
-   ![screen_shot_2019-06-25at20355pm](assets/screen_shot_2019-06-25at20355pm.png)
-
-   Om du klickar på **Klar** kan du gå tillbaka till **FutureLaunch** -kanalen.
-
-   ![Bild](/help/user-guide/assets/launches-images/launches-16.png)
-
-
-#### Använda alternativet Lägg till kanaler {#add-channel-launch}
-
-1. Klicka på **+ Lägg till kanaler** för att lägga till kanalen som du vill starta starten för.
+   >Du kan använda alternativet **+ Lägg till kanaler** för att lägga till kanalen som du vill starta starten för.
 
    ![image](/help/user-guide/assets/launches-images/launches-13.png)
 
-   >[!NOTE]
-   >Alternativet **Välj** inaktiveras om du försöker markera flera kanaler eller en mapp för att lägga till starten.
+   >1. Navigera till den kanal som du vill skapa starten för och klicka på **Välj**. Alternativet **Välj** inaktiveras om du försöker markera flera kanaler eller en mapp för att lägga till starten.
+   >
+   >![image](/help/user-guide/assets/launches-images/launches-14.png)
 
-1. Navigera till den kanal som du vill skapa starten för och klicka på **Välj**.
-
-   ![image](/help/user-guide/assets/launches-images/launches-14.png)
-
-1. Nu kan du välja den kanal du lade till för att skapa en start för och klicka på **Nästa**.
-
-   ![image](/help/user-guide/assets/launches-images/launches-15.png)
 
 1. Ange **starttitel** som **Sommarkampanjer** och du behöver inte ange **startdatum** enligt bilden nedan. Klicka på **Skapa**.
 
@@ -175,7 +131,8 @@ Följ stegen nedan för att implementera startfunktioner i ditt AEM Screens-proj
 
    ![Bild](/help/user-guide/assets/launches-images/launches-16.png)
 
-### Redigera startegenskaperna för att ange live-datum och -omfång {#editing-the-launch-properties-to-set-the-live-date-and-scope}
+
+### Redigera Launch-egenskaperna för att ange Live-datum och -omfång {#editing-the-launch-properties-to-set-the-live-date-and-scope}
 
 När du har skapat startprogrammet måste du redigera startegenskaperna för att ange det aktuella datumet för startprogrammet.
 
@@ -189,35 +146,23 @@ Följ stegen nedan för att redigera startegenskaperna:
 
    ![image](/help/user-guide/assets/launches-images/launches-18.png)
 
-1. Välj start och klicka på någon av de önskade åtgärderna på panelen **VÄNTANDE STARTOR** .
+1. Markera starten och klicka på **Starta egenskaper** på panelen **VÄNTANDE START** .
 
    ![image](/help/user-guide/assets/launches-images/launches-19.png)
 
-1. Du kan till exempel klicka på **Launch Properties** för att redigera egenskaperna för lanseringen av **Sommarkampanjer**.
+#### Redigera startfönstret för skärmar för att lägga till eller ta bort kanaler {#editing-the-screens-launch-to-add-or-remove-channels}
 
-   ![image](/help/user-guide/assets/launches-images/launches-20.png)
+När du har skapat starten kan du lägga till eller ta bort kanaler i den befintliga starten med åtgärden **Redigera start** .
 
-1. Du kan redigera **Luanch Title** och fylla i följande fält:
+När du är klar klickar du på **Spara och stäng** för att gå tillbaka till **FutureLaunch** -kanalen.
 
-   * Välj **startdatum**
-   * Kontrollera **produktionsklar**
-   * Välj **Befordra godkända sidor** från **omfång**
-   **Så här fungerar posterna i Startar under Automatisk befordran:**
+#### Befordra att skärmar startas manuellt{#promote-the-screens-launch-manually}
 
-   * **Startdatum**, hänvisar till live-datumet, det vill säga det datum/den tidpunkt då innehållet spelas upp i skärmspelaren enligt spelarens tidszon.
-   * **Production Ready**, gör att kanalerna kan marknadsföras och innebär att lanseringen är klar att användas.
-   * **Omfång** avser de kanaler som kan befordras under en start.
-   Följande tre alternativ är tillgängliga för att konfigurera omfattningen:
+Du kan befordra starten manuellt med åtgärden **Befordra start** .
 
-   * **Erbjud fullständig start**: Alla kanaler för lanseringen befordras vid angivet live-datum.
-   * **Befordra ändrade sidor**: Endast redigerade startresurser kommer att befordras. Vi rekommenderar att du använder det här alternativet när startgranskningen inte behövs. Det gör att ändringarna i startkanalerna kan befordras.
-   * **Befordra godkända sidor**: Endast godkända sidor befordras vid angivet live-datum.
+Du kan välja vilka resurser du vill befordra som en del av den här manuella befordringen i **guiden** Starta befordran.
 
-      >[!CAUTION]
-      >
-      >Starten respekterar spelarens/enhetens tidszon i stället för serverns.
+#### Ta bort skärmstart {#deleting-the-screens-launch}
 
-
-
-1. Klicka på **Spara och stäng** för att gå tillbaka till **FutureLaunch** -kanalen.
+Du kan ta bort starten med åtgärden **Ta bort start** .
 
