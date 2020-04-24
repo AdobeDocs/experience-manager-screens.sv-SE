@@ -11,7 +11,7 @@ topic-tags: authoring
 discoiquuid: 9cd8892b-fe5d-4ad3-9b10-10ff068adba6
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 0f30c01ee936d48a215e0a42eb983daea7fbe731
+source-git-commit: 076aeecd353ebf89893fd01ab28192b9145c844a
 
 ---
 
@@ -78,7 +78,7 @@ Om till exempel live-datumet är inställt på 24 november, 9:00 och respitperio
 
 ## Använda skärmstart {#using-launches}
 
-Följ avsnittet nedan för att implementera Screens Launch i ditt AEM Screens-projekt.
+I det här avsnittet visas hur du implementerar Screens Launch i ditt AEM Screens-projekt.
 
 ### Skapa en skärmstart {#creating-a-launch}
 
@@ -104,8 +104,6 @@ Följ stegen nedan för att implementera funktionen Screens Launch i ditt AEM Sc
 
    >[!NOTE]
    >Du kan använda alternativet **+ Lägg till kanaler** för att lägga till ytterligare en kanal som du vill skapa startkanalen för.
-
-   ![image](/help/user-guide/assets/launches-images/launches-13.png)
 
    Om du vill använda alternativet **Lägg till kanaler** navigerar du till kanalen som du vill starta för och klickar på **Välj**.
 
@@ -173,13 +171,13 @@ Följ stegen nedan för att redigera startegenskaperna:
 
    ![image](/help/user-guide/assets/launches-images/launches-19.png)
 
-#### Redigera startfönstret för skärmar för att lägga till eller ta bort kanaler {#editing-the-screens-launch-to-add-or-remove-channels}
+### Redigera startfönstret för skärmar för att lägga till eller ta bort kanaler {#editing-the-screens-launch-to-add-or-remove-channels}
 
-När du har skapat starten kan du lägga till eller ta bort kanaler i den befintliga starten med åtgärden **Redigera start** .
+När du har skapat starten kan du lägga till eller ta bort kanaler i den befintliga starten med alternativet **Redigera start** .
 
 När du är klar klickar du på **Spara** för att gå tillbaka till **FutureLaunch** -kanalen.
 
-#### Befordra att skärmar startas manuellt{#promote-the-screens-launch-manually}
+### Befordra att skärmar startas manuellt{#promote-the-screens-launch-manually}
 
 Du kan befordra starten manuellt med alternativet **Befordra start** från panelen **PENDING LAUNCHES** .
 
@@ -196,11 +194,10 @@ Du kan välja vilka resurser du vill befordra som en del av den här manuella be
 1. Klicka på **Nästa** i guiden **Befordra start** .
 1. Klicka på **Befordra** för att befordra starten.
 
+### Ta bort skärmstart {#deleting-the-screens-launch}
 
-#### Ta bort skärmstart {#deleting-the-screens-launch}
-
-Du kan ta bort starten med åtgärden **Ta bort start** .
+Du kan ta bort starten med alternativet **Ta bort start** från panelen **VÄNTANDE STARTOR** .
 
 >[FÖRSIKTIGHET]
->Den här åtgärden tar även bort alla underordnade kapslade starter.
+>Den här åtgärden tar även bort alla underordnade (kapslade starter).
 
