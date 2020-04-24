@@ -11,7 +11,7 @@ topic-tags: authoring
 discoiquuid: 9cd8892b-fe5d-4ad3-9b10-10ff068adba6
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 076aeecd353ebf89893fd01ab28192b9145c844a
+source-git-commit: b26af144f01b48ffaffb77d0218b5549a5b7d2f5
 
 ---
 
@@ -177,7 +177,7 @@ När du har skapat starten kan du lägga till eller ta bort kanaler i den befint
 
 När du är klar klickar du på **Spara** för att gå tillbaka till **FutureLaunch** -kanalen.
 
-### Befordra att skärmar startas manuellt{#promote-the-screens-launch-manually}
+### Marknadsför att starta skärmar manuellt{#promote-the-screens-launch-manually}
 
 Du kan befordra starten manuellt med alternativet **Befordra start** från panelen **PENDING LAUNCHES** .
 
