@@ -1,10 +1,10 @@
 ---
 title: Versionsinformation för funktionspaket 2004
 seo-title: Versionsinformation för funktionspaket 2004
-description: Följ den här sidan för att få information om AEM Screens Feature Pack 20204 släppt den 20 april 2020.
-seo-description: Följ den här sidan för att få information om AEM Screens Feature Pack 20204 släppt den 20 april 2020.
+description: Följ den här sidan för att få information om AEM Screens Feature Pack 20204 släppt den 28 april 2020.
+seo-description: Följ den här sidan för att få information om AEM Screens Feature Pack 20204 släppt den 28 april 2020.
 translation-type: tm+mt
-source-git-commit: 0fe7d661c41675fc722b35a278dcbd510dca9084
+source-git-commit: c539da7fd63d2a797393cd271fdfd4404399198c
 
 ---
 
@@ -19,7 +19,7 @@ AEM Screens har släppt AEM 6.4 Feature Pack 8 och AEM 6.5 Feature Pack 4 med f�
 
 ## Releasedatum {#release-date}
 
-Releasedatum för AEM Screens Feature Pack 2004 är 20 april 2020.
+Releasedatum för AEM Screens Feature Pack 2004 är 28 april 2020.
 
 ### What&#39;s New {#what-s-new}
 
