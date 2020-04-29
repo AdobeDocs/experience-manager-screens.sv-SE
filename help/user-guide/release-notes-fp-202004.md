@@ -1,10 +1,10 @@
 ---
 title: Versionsinformation för funktionspaket 2004
 seo-title: Versionsinformation för funktionspaket 2004
-description: Följ den här sidan för att få information om AEM Screens Feature Pack 20204 släppt den 28 april 2020.
-seo-description: Följ den här sidan för att få information om AEM Screens Feature Pack 20204 släppt den 28 april 2020.
+description: Följ den här sidan för att få information om AEM Screens Feature Pack 20204 släppt den 20 april 2020.
+seo-description: Följ den här sidan för att få information om AEM Screens Feature Pack 20204 släppt den 20 april 2020.
 translation-type: tm+mt
-source-git-commit: c539da7fd63d2a797393cd271fdfd4404399198c
+source-git-commit: 8784ba269e510c3933c2573df43950fde79bf899
 
 ---
 
@@ -15,11 +15,19 @@ source-git-commit: c539da7fd63d2a797393cd271fdfd4404399198c
 >
 >Vi rekommenderar att du uppgraderar till den senaste versionen av Adobe Experience Manager (AEM). Skärmar har underhållsstöd för AEM 6.3 Screens-plattformen.
 
-AEM Screens har släppt AEM 6.4 Feature Pack 8 och AEM 6.5 Feature Pack 4 med följande information.
+## Tillgänglighet {#availability}
+
+AEM Screens har släppt AEM 6.4 Feature Pack 8 och AEM 6.5 Feature Pack 4.
+
+Du kan ladda ned det senaste funktionspaketet för AEM Screens 6.4.8 eller AEM Screens 6.5.4 från *väntande länk*.
+
+>[!NOTE]
+>Läs [Arbeta med paket](https://docs.adobe.com/help/en/experience-manager-65/administering/contentmanagement/package-manager.html) om du vill veta hur paket gör det möjligt att importera och exportera databasinnehåll och hur du kan få åtkomst till och/eller underhålla paket från pakethanteraren eller paketresursen.
+
 
 ## Releasedatum {#release-date}
 
-Releasedatum för AEM Screens Feature Pack 2004 är 28 april 2020.
+Releasedatum för AEM Screens Feature Pack 2004 är 20 april 2020.
 
 ### What&#39;s New {#what-s-new}
 
