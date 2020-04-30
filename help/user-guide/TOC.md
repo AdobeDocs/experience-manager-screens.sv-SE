@@ -4,7 +4,7 @@ product: experience manager
 audience: end-user
 user-guide-title: Adobe Experience Manager Screens - hjälp
 translation-type: tm+mt
-source-git-commit: c539da7fd63d2a797393cd271fdfd4404399198c
+source-git-commit: 968c84b3f30c6ac4ba244b5ec0a3b9bf8e666609
 
 ---
 
@@ -65,7 +65,7 @@ source-git-commit: c539da7fd63d2a797393cd271fdfd4404399198c
       + [Inbäddade sekvenser](embedded-sequences.md)
       + [Layout med flera zoner](multi-zone-layout-aem-screens.md)
       + [Videoåtergivningar](generating-renditions.md)
-      + [Använda dynamisk inbäddad sekvens](dynamic-embedded-sequences.md)
+      + [Dynamisk inbäddad sekvens](dynamic-embedded-sequences.md)
       + [Varaktighet för massbildsuppspelning på kanalnivå](channel-level-image-playback.md)
       + [Synkronisera kommandon](using-command-sync.md)
       + [Skapa med Data Triggers](authoring-data-triggers.md)
