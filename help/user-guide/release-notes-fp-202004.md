@@ -4,7 +4,7 @@ seo-title: Versionsinformation för funktionspaket 2004
 description: Följ den här sidan för att få information om AEM Screens Feature Pack 20204 släppt den 20 april 2020.
 seo-description: Följ den här sidan för att få information om AEM Screens Feature Pack 20204 släppt den 20 april 2020.
 translation-type: tm+mt
-source-git-commit: 8784ba269e510c3933c2573df43950fde79bf899
+source-git-commit: 968c84b3f30c6ac4ba244b5ec0a3b9bf8e666609
 
 ---
 
@@ -45,7 +45,7 @@ Releasedatum för AEM Screens Feature Pack 2004 är 20 april 2020.
 
 * **Kontrollpanel för kanaler**
 
-   Uppdatera instruktionerna i kanalkontrollpanelen och offlinedialogrutan så att de kan läsas... &quot;Uppdatera offlineinnehåll&quot; ersätter ordet &quot;Uppdatera cache&quot;
+   Återspeglar uppdateringar av instruktioner i kanalkontrollpanelen på panelen **KANALINFORMATION** .
 
 
 * **Visa manifest**
@@ -64,6 +64,8 @@ Releasedatum för AEM Screens Feature Pack 2004 är 20 april 2020.
 
    I den här versionen av funktionspaketet återspeglas förbättringar av fördröjningen för kommandosynkronisering mellan resursändringar.
 
+   Mer information finns i **[Kommandosynkronisering](using-command-sync.md)**.
+
 ### Frisläppta AEM-skärmspelare {#released-aem-screens-players}
 
 Följande AEM Screens Players finns tillgängliga för AEM Screens som släppts AEM 6.4 Feature Pack 8 och AEM 6.5 Feature Pack 4:
@@ -72,6 +74,6 @@ Följande AEM Screens Players finns tillgängliga för AEM Screens som släppts 
 * Windows
 * Android
 
-#### AEM Screens Player - nedladdningar {#aem-screens-player-downloads}
+#### AEM Screens Player - nedladdningar  {#aem-screens-player-downloads}
 
-Om du vill hämta den senaste versionen av AEM Screens Player och läsa mer om felkorrigeringarna kan du läsa [**AEM Screens Player Downloads **](https://download.macromedia.com/screens/).
+Om du vill hämta den senaste versionen av AEM Screens Player och läsa mer om felkorrigeringarna kan du läsa **[AEM Screens Player Downloads](https://download.macromedia.com/screens/)**.
