@@ -10,7 +10,7 @@ topic-tags: developing
 discoiquuid: 24eb937f-ab51-4883-8236-8ebe6243f6e3
 targetaudience: target-audience new
 translation-type: tm+mt
-source-git-commit: 81fbba033cbf1d87e1e99d91244f4bf0b712d339
+source-git-commit: a60de02a19004dd4d971612496f65285ded55716
 
 ---
 
@@ -367,7 +367,7 @@ AEM-skärmar-komponenter återges annorlunda i redigeringsläge jämfört med f�
 
    Ovanstående format visar meddelandet centrerat mitt på skärmen, men endast i produktionsläge.
 
-En tredje klientbibliotekskategori: kan `cq.screens.components.edit` användas för att lägga till redigeringsspecifika format i komponenten.
+En tredje klientbibliotekskategori: `cq.screens.components.edit` kan användas för att lägga till redigeringsspecifika format i komponenten.
 
 | Kategorin Clientlib | Användning |
 |---|---|
