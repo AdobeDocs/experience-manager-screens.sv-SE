@@ -4,7 +4,10 @@ seo-title: Versionsinformation för funktionspaket 2004
 description: Följ den här sidan för att få information om AEM Screens Feature Pack 20204 släppt den 20 april 2020.
 seo-description: Följ den här sidan för att få information om AEM Screens Feature Pack 20204 släppt den 20 april 2020.
 translation-type: tm+mt
-source-git-commit: 968c84b3f30c6ac4ba244b5ec0a3b9bf8e666609
+source-git-commit: 7f9373c57e60081789d76069b0062ce1a0c30b9c
+workflow-type: tm+mt
+source-wordcount: '437'
+ht-degree: 0%
 
 ---
 
@@ -19,7 +22,7 @@ source-git-commit: 968c84b3f30c6ac4ba244b5ec0a3b9bf8e666609
 
 AEM Screens har släppt AEM 6.4 Feature Pack 8 och AEM 6.5 Feature Pack 4.
 
-Du kan ladda ned det senaste funktionspaketet för AEM Screens 6.4.8 eller AEM Screens 6.5.4 från *väntande länk*.
+Du kan hämta det senaste funktionspaketet för AEM Screens 6.4.8 eller AEM Screens 6.5.4 från [Adobe Experience Manager Cloud Management](https://www.adobeaemcloud.com/content/packageshare/tools/login.html?resource=%2Fcontent%2Fmarketplace%2FmarketplaceProxy.html%3FpackagePath%3D%2Fcontent%2Fcompanies%2Fprivate%2Fsanjeev-adobe%2Fpackages%2FAEM%2520Screens%25206.5%2520FP4%2Fcq-6.5.0-featurepack-screens&amp;$$login$$=%24%24login%24%24) med ditt Adobe ID.
 
 >[!NOTE]
 >Läs [Arbeta med paket](https://docs.adobe.com/help/en/experience-manager-65/administering/contentmanagement/package-manager.html) om du vill veta hur paket gör det möjligt att importera och exportera databasinnehåll och hur du kan få åtkomst till och/eller underhålla paket från pakethanteraren eller paketresursen.
