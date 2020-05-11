@@ -11,7 +11,10 @@ topic-tags: authoring
 discoiquuid: 4c073172-d93c-4b73-87ab-0b08789193a3
 noindex: true
 translation-type: tm+mt
-source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
+source-git-commit: e33175a8c4282d89ed77fc430b1a48eb8470585f
+workflow-type: tm+mt
+source-wordcount: '779'
+ht-degree: 0%
 
 ---
 
@@ -38,7 +41,7 @@ När du skapar en kanal kan du använda olika mallar för att skapa zoner i kana
 
 ### Förutsättningar {#prerequisites}
 
-Innan du börjar implementera den här funktionen måste du se till att du har ett projekt redo som en förutsättning för att kunna börja implementera flerzonslayout. Exempel:
+Innan du börjar implementera den här funktionen måste du se till att du har ett projekt redo som en förutsättning för att kunna börja implementera flerzonslayout. Till exempel,
 
 * Skapa ett AEM Screens-projekt med namnet **Zones**
 * Skapa en visning under **Platser** med namnet **MultiZoneDisplay**
@@ -88,19 +91,26 @@ Om du vill att zonerna ska visa sekvenser av bilder eller innehåll och en stati
 1. **Lägga till ytterligare två kanaler i kanalmappen**
 
    1. Navigera till **Zones** —> **Channels** —> **EmbeddedChannels** och klicka på **Create** i åtgärdsfältet.
-   1. Välj **Sekvenskanal** i guiden **Skapa** för att skapa en kanal med namnet** Zone1**.
+   1. Välj **Sekvenskanal** i guiden **Skapa** för att skapa en kanal med namnet **Zon1**.
    1. Välj **Zon1** och klicka på **Redigera** i åtgärdsfältet för att öppna redigeraren.
    1. Dra och släpp några bilder i den här kanalen.
    Skapa på samma sätt en annan sekvenskanal med namnet **Zone2** i mappen **EmbeddedChannels** .
 
    ![screen_shot_2018-12-19at125930pm](assets/screen_shot_2018-12-19at125930pm.png)
 
+   Bilderna som läggs till i redigeraren för **Zone1** -sekvenskanalen visas nedan:
+
+   ![screen_shot_2018-12-19at125930pm](/help/user-guide/assets/multi-zone/multizone-1.png)
+
+   Bilderna som läggs till i redigeraren för **Zone2** -sekvenskanalen visas nedan:
+
+   ![screen_shot_2018-12-19at125930pm](/help/user-guide/assets/multi-zone/multizone-2.png)
+
 1. **Lägga till inbäddade sekvenser/komponent i huvudkanalen (MultiZone)**
 
    1. Navigera till **Zones** —> **Channels** —> **MultiZone**.
    1. Klicka på **Redigera** i åtgärdsfältet för att öppna redigeraren.
-   1. Dra och släpp den **inbäddade sekvenskomponenten** till två av zonerna enligt bilden nedan.
-   ![new](assets/new.gif)
+   1. Dra och släpp den **inbäddade sekvenskomponenten** till två av zonerna.
 
 1. **Lägg till innehåll i alla tre zoner**
 
@@ -108,9 +118,9 @@ Om du vill att zonerna ska visa sekvenser av bilder eller innehåll och en stati
    1. Markera den inbäddade sekvensen i någon av zonerna.
    1. Klicka på ikonen **Konfigurera** (skiftnyckel) för en av de inbäddade sekvenserna i redigeraren.
    1. Välj kanalsökvägen som **Zones** —> **Channels** —> **EmbeddedChannels** —> **Zone1**, vilket visas i bilden nedan.
-   Lägg på samma sätt till **Zone2** i en annan inbäddad sekvenskomponent i redigeraren. Lägg också till en bild i den tredje zonen längst ned enligt nedan.
+   Lägg på samma sätt till **Zone2** i en annan inbäddad sekvenskomponent i redigeraren.
 
-   ![new2-1](assets/new2-1.gif)
+   ![image](/help/user-guide/assets/multi-zone/multizone-3.png)
 
 #### Visa resultatet {#viewing-the-result}
 
@@ -118,5 +128,6 @@ När du har implementerat layouter med flera zoner med de föregående stegen vi
 
 Följande utdata i Skärmspelaren visar innehållet i tre olika zoner. I den vänstra och högra zonen (båda använder inbäddad sekvens som en komponent) visas bildsekvenser och i zonen nedan visas en statisk bild.
 
-![new2-2](assets/new2-2.gif)
+![new2-1](/help/user-guide/assets/multi-zone/screens-multi1.gif)
+
 
