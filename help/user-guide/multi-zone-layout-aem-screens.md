@@ -11,9 +11,9 @@ topic-tags: authoring
 discoiquuid: 4c073172-d93c-4b73-87ab-0b08789193a3
 noindex: true
 translation-type: tm+mt
-source-git-commit: bf4b499bc42a2c5f7f05a257bf7c8ed6c7b58b89
+source-git-commit: afe069d0cd297d0e2280ffb6093e0b0d129c675d
 workflow-type: tm+mt
-source-wordcount: '797'
+source-wordcount: '789'
 ht-degree: 0%
 
 ---
@@ -69,13 +69,10 @@ Du kan använda enstaka resurser som en bild eller en video i alla tre olika zon
 
    1. Navigera till **Zones** —> **Channels**—>**MultiZone**.
    1. Markera **MultiZone** -kanalen och klicka på **Redigera** i åtgärdsfältet för att öppna redigeraren.
-   ![screen_shot_2018-12-07at14917pm](assets/screen_shot_2018-12-07at14917pm.png)
 
 1. **Lägga till bilder i kanalen**
 
-   Om du vill spela upp en enstaka bild eller en video i alla tre zonerna drar och släpper du bilden i kanalredigeraren enligt nedan.
-
-   ![new1-1](assets/new1-1.gif)
+   Om du vill spela upp en enstaka bild eller en video i alla tre zonerna drar och släpper du bilden i kanalredigeraren.
 
 ### Använda sekvensinnehåll i en eller flera zoner {#using-sequenced-content-in-one-or-more-zones}
 
@@ -91,7 +88,7 @@ Om du vill att zonerna ska visa sekvenser av bilder eller innehåll och en stati
 1. **Lägga till ytterligare två kanaler i kanalmappen**
 
    1. Navigera till **Zones** —> **Channels** —> **EmbeddedChannels** och klicka på **Create** i åtgärdsfältet.
-   1. Välj **Sekvenskanal** i guiden **Skapa** för att skapa en kanal med namnet **Zon1**.
+   1. Välj **Sekvenskanal** i guiden **Skapa** för att skapa en kanal med namnet **Zone1**.
    1. Välj **Zon1** och klicka på **Redigera** i åtgärdsfältet för att öppna redigeraren.
    1. Dra och släpp några bilder i den här kanalen.
    Skapa på samma sätt en annan sekvenskanal med namnet **Zone2** i mappen **EmbeddedChannels** .
