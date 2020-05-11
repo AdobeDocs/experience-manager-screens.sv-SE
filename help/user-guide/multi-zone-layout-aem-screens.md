@@ -11,9 +11,9 @@ topic-tags: authoring
 discoiquuid: 4c073172-d93c-4b73-87ab-0b08789193a3
 noindex: true
 translation-type: tm+mt
-source-git-commit: e33175a8c4282d89ed77fc430b1a48eb8470585f
+source-git-commit: bf4b499bc42a2c5f7f05a257bf7c8ed6c7b58b89
 workflow-type: tm+mt
-source-wordcount: '779'
+source-wordcount: '797'
 ht-degree: 0%
 
 ---
@@ -126,7 +126,10 @@ Om du vill att zonerna ska visa sekvenser av bilder eller innehåll och en stati
 
 När du har implementerat layouter med flera zoner med de föregående stegen visas följande utdata, vilket visas i bilden nedan.
 
-Följande utdata i Skärmspelaren visar innehållet i tre olika zoner. I den vänstra och högra zonen (båda använder inbäddad sekvens som en komponent) visas bildsekvenser och i zonen nedan visas en statisk bild.
+Klicka på **Förhandsgranska** i kanalredigeraren för att visa följande utdata som visar innehållet i två olika zoner. Vänster- och högerzonerna (båda använder inbäddad sekvens som en komponent).
+
+>[!NOTE]
+>Om du försöker visa innehållet i skärmspelaren ska du klicka på **Uppdatera offlineinnehåll** på kanalkontrollpanelen.
 
 ![new2-1](/help/user-guide/assets/multi-zone/screens-multi1.gif)
 
