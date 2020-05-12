@@ -11,10 +11,10 @@ topic-tags: authoring
 discoiquuid: 4c073172-d93c-4b73-87ab-0b08789193a3
 noindex: true
 translation-type: tm+mt
-source-git-commit: afe069d0cd297d0e2280ffb6093e0b0d129c675d
+source-git-commit: c615481f606a369fb9d4bafde74cbf00458f05fa
 workflow-type: tm+mt
-source-wordcount: '789'
-ht-degree: 0%
+source-wordcount: '1175'
+ht-degree: 1%
 
 ---
 
@@ -44,7 +44,7 @@ När du skapar en kanal kan du använda olika mallar för att skapa zoner i kana
 Innan du börjar implementera den här funktionen måste du se till att du har ett projekt redo som en förutsättning för att kunna börja implementera flerzonslayout. Till exempel,
 
 * Skapa ett AEM Screens-projekt med namnet **Zones**
-* Skapa en visning under **Platser** med namnet **MultiZoneDisplay**
+* Skapa en visning under **Platser** med namnet **MultiZoneDisplay**.
 
 Skapa en kanal med namnet **MultiZone** i **Zones** -projekt. Följ stegen nedan:
 
@@ -53,13 +53,11 @@ Skapa en kanal med namnet **MultiZone** i **Zones** -projekt. Följ stegen nedan
 1. Markera Adobe Experience Manager-länken (överst till vänster) och sedan **Skärmar**. Du kan också gå direkt till: `http://localhost:4502/screens.html/content/screens`.
 1. Navigera till mappen **Kanaler** och klicka på **Skapa** i åtgärdsfältet.
 
-1. Välj **Vänster kanal** för delad skärm i L-fältet i guiden **Skapa** .
+1. Välj **1x2 Delad skärmkanal** i guiden **Skapa** .
 
 1. Klicka på **Nästa** och ange **titeln** som **MultiZone**.
 
 1. Klicka på **Skapa** för att slutföra kanalskapandet.
-
-![screen_shot_2018-12-07at120026pm](assets/screen_shot_2018-12-07at120026pm.png)
 
 ### Använda enskilda resurser i en eller flera zoner {#using-single-assets-in-one-or-more-zones}
 
@@ -72,11 +70,15 @@ Du kan använda enstaka resurser som en bild eller en video i alla tre olika zon
 
 1. **Lägga till bilder i kanalen**
 
-   Om du vill spela upp en enstaka bild eller en video i alla tre zonerna drar och släpper du bilden i kanalredigeraren.
+   Om du vill spela upp en enstaka bild eller en video i två zoner drar och släpper du bara en bild till varje zon i kanalredigeraren enligt bilden nedan:
+
+   MultiZone-img3
+
+   ![image](/help/user-guide/assets/multi-zone/multizone-img3.png)
 
 ### Använda sekvensinnehåll i en eller flera zoner {#using-sequenced-content-in-one-or-more-zones}
 
-Om du vill att zonerna ska visa sekvenser av bilder eller innehåll och en statisk bild i tre olika zoner följer du stegen nedan för mer information.
+Om du vill att zonerna ska visa sekvenser av bilder eller innehåll och en statisk bild i två olika zoner följer du stegen nedan för mer information.
 
 1. **Skapa en kanalmapp**
 
@@ -97,13 +99,13 @@ Om du vill att zonerna ska visa sekvenser av bilder eller innehåll och en stati
 
    Bilderna som läggs till i redigeraren för **Zone1** -sekvenskanalen visas nedan:
 
-   ![screen_shot_2018-12-19at125930pm](/help/user-guide/assets/multi-zone/multizone-1.png)
+   ![screen_shot_2018-12-19at125930pm](/help/user-guide/assets/multi-zone/multizone-img4.png)
 
-   Bilderna som läggs till i redigeraren för **Zone2** -sekvenskanalen visas nedan:
+   Den video som lagts till i redigeraren för **Zone2** -sekvenskanalen visas nedan:
 
-   ![screen_shot_2018-12-19at125930pm](/help/user-guide/assets/multi-zone/multizone-2.png)
+   ![screen_shot_2018-12-19at125930pm](/help/user-guide/assets/multi-zone/multizone-img5.png)
 
-1. **Lägga till inbäddade sekvenser/komponent i huvudkanalen (MultiZone)**
+1. **Lägga till inbäddade sekvenser (komponent) i huvudkanalen (MultiZone)**
 
    1. Navigera till **Zones** —> **Channels** —> **MultiZone**.
    1. Klicka på **Redigera** i åtgärdsfältet för att öppna redigeraren.
@@ -119,15 +121,70 @@ Om du vill att zonerna ska visa sekvenser av bilder eller innehåll och en stati
 
    ![image](/help/user-guide/assets/multi-zone/multizone-3.png)
 
+### Skapa plats och visning {#creating-location}
+
+Du måste skapa en plats och en visning för att kunna visa innehållet i skärmspelaren. Följ stegen nedan för att skapa en plats och en visning.
+
+1. **Skapa en plats**
+
+   1. Navigera till mappen **Zones** —> **Locations** .
+   1. Markera mappen **Platser** och klicka på **Skapa** i åtgärdsfältet.
+   1. Välj **Plats** i guiden **Skapa** och klicka på **Nästa**.
+   1. Ange **Title** som **SanJose** och klicka på **Create**.
+
+1. **Skapa en bildskärm**
+
+   1. Navigera till mappen **Zones** —> **Locations** .
+   1. Välj **platsen SanJose** och klicka på **Skapa** i åtgärdsfältet.
+   1. Välj **Visning** i guiden **Skapa** och klicka på **Nästa**.
+   1. Ange **Titel** som **ikon** och klicka på **Skapa**.
+
+### Tilldela kanal till skärmen {#channel-channel}
+
+Du måste tilldela kanalerna till visningen för att kunna visa innehållet. Följ stegen nedan för att tilldela kanalen till visningen.
+
+1. **Tilldela kanal till skärmen**
+
+   1. Navigera till **Zones** —> **Locations** —> **SanJose**—> **Lobby**.
+   1. Välj **Lobby** -visningen och klicka på **Tilldela kanal** i åtgärdsfältet.
+   1. Ange sökvägen till **MultiZone** -kanalen i **kanalsökvägen**.
+   1. Ange **händelser** som stöds som **Inledande inläsning**, **Inaktiv skärm** och **Timer**.
+   1. Click **Save**.
+
+      ![image](/help/user-guide/assets/multi-zone/multizone-img7.png)
+   1. På samma sätt måste du tilldela de två andra inbäddade kanalerna (**Zone1** och **Zone2**) till den här visningen med hjälp av steg 2.
+   1. När du har tilldelat alla tre kanalerna till **Lobby** -visningen bör du kunna visa de tilldelade kanalerna från kontrollpanelen.
+
+      ![image](/help/user-guide/assets/multi-zone/multizone-img8.png)
+   >[!Iviktig]
+   > När du har tilldelat huvudkanalen (i det här fallet **MultiZone**) till visningen är det obligatoriskt att tilldela de två andra inbäddade kanalerna **Zone1** och **Zone2** till samma skärm.
+
+### Registrerar enheten {#registering-device}
+
+När du har konfigurerat en plats och en skärm följer du stegen nedan för att registrera enheten och tilldela skärmen till enheten.
+
+1. **Registrerar enheten**
+
+   1. Navigera till mappen **Zones** —> **Devices** .
+   1. Välj mappen **Enheter** och klicka på **Enhetshanteraren** i åtgärdsfältet.
+   1. Klicka på **Enhetsregistrering** och välj den väntande enheten i listan.
+      >[!NOTE]
+      > Enhetens titel måste matcha enhetstoken (**tokenfältet** ) som visas på fliken **Device Registration** .
+   1. Om titeln matchar enhetstoken väljer du enheten och klickar på **Registrera enhet** i åtgärdsfältet.
+   1. Om registreringskoden matchar koden på registreringsfliken för skärmspelaren klickar du på **Validera** i åtgärdsfältet.
+      ![image](/help/user-guide/assets/multi-zone/multizone-img6.png)
+   1. Ange **titeln** som **Chrome-Device1** och klicka på **Register**.
+   1. Välj **Tilldela visning** och välj sökvägen till enhetskonfigurationen.
+
 #### Visa resultatet {#viewing-the-result}
 
 När du har implementerat layouter med flera zoner med de föregående stegen visas följande utdata, vilket visas i bilden nedan.
 
-Klicka på **Förhandsgranska** i kanalredigeraren för att visa följande utdata som visar innehållet i två olika zoner. Vänster- och högerzonerna (båda använder inbäddad sekvens som en komponent).
+Markera Skärmspelaren för att visa utdata som visar innehållet i två olika zoner. Vänster- och högerzonerna (båda använder inbäddad sekvens som en komponent).
 
 >[!NOTE]
 >Om du försöker visa innehållet i skärmspelaren ska du klicka på **Uppdatera offlineinnehåll** på kanalkontrollpanelen.
 
-![new2-1](/help/user-guide/assets/multi-zone/screens-multi1.gif)
+![new2-1](/help/user-guide/assets/multi-zone/Multi-gif.gif)
 
 
