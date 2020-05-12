@@ -11,7 +11,7 @@ topic-tags: authoring
 discoiquuid: 4c073172-d93c-4b73-87ab-0b08789193a3
 noindex: true
 translation-type: tm+mt
-source-git-commit: 2e590d7a73dea9a0445962c2f65cdfa7fef3994d
+source-git-commit: 052cf1ccde6f18ec72307b14ffbac63be61127b0
 workflow-type: tm+mt
 source-wordcount: '1189'
 ht-degree: 0%
@@ -88,7 +88,7 @@ Om du vill att zonerna ska visa bildsekvenser och en video i två olika zoner f�
 1. **Lägga till ytterligare två kanaler i kanalmappen**
 
    1. Navigera till **Zones** —> **Channels** —> **EmbeddedChannels** och klicka på **Create** i åtgärdsfältet.
-   1. Välj **Sekvenskanal** i guiden **Skapa** för att skapa en kanal med namnet **Zone1**.
+   1. Välj **Sekvenskanal** i guiden **Skapa** för att skapa en kanal med namnet **Zon1**.
    1. Välj **Zon1** och klicka på **Redigera** i åtgärdsfältet för att öppna redigeraren.
    1. Dra och släpp några bilder i den här kanalen.
    1. Skapa på samma sätt en annan sekvenskanal med namnet **Zone2** i mappen **EmbeddedChannels** .
@@ -176,7 +176,7 @@ När du har konfigurerat en plats och en skärm följer du stegen nedan för att
    >[!NOTE]
    >Om du försöker visa innehållet i skärmspelaren ska du klicka på **Uppdatera offlineinnehåll** på kanalkontrollpanelen.
 
-#### Visa resultatet {#viewing-the-result}
+### Visa resultatet {#viewing-the-result}
 
 När du har implementerat layouter med flera zoner i de föregående stegen visas följande utdata.
 
