@@ -11,9 +11,9 @@ topic-tags: authoring
 discoiquuid: 4c073172-d93c-4b73-87ab-0b08789193a3
 noindex: true
 translation-type: tm+mt
-source-git-commit: 9e267326da9c8163d85402425e6b46886e4d19f9
+source-git-commit: 2e590d7a73dea9a0445962c2f65cdfa7fef3994d
 workflow-type: tm+mt
-source-wordcount: '1176'
+source-wordcount: '1189'
 ht-degree: 0%
 
 ---
@@ -91,7 +91,9 @@ Om du vill att zonerna ska visa bildsekvenser och en video i två olika zoner f�
    1. Välj **Sekvenskanal** i guiden **Skapa** för att skapa en kanal med namnet **Zone1**.
    1. Välj **Zon1** och klicka på **Redigera** i åtgärdsfältet för att öppna redigeraren.
    1. Dra och släpp några bilder i den här kanalen.
-   Skapa på samma sätt en annan sekvenskanal med namnet **Zone2** i mappen **EmbeddedChannels** .
+   1. Skapa på samma sätt en annan sekvenskanal med namnet **Zone2** i mappen **EmbeddedChannels** .
+   1. Dra och släpp en video i den här kanalen.
+   I följande bild visas kanalerna **Zone1** och **Zone2**:
 
    ![screen_shot_2018-12-19at125930pm](assets/screen_shot_2018-12-19at125930pm.png)
 
@@ -99,7 +101,7 @@ Om du vill att zonerna ska visa bildsekvenser och en video i två olika zoner f�
 
    ![screen_shot_2018-12-19at125930pm](/help/user-guide/assets/multi-zone/multizone-img4.png)
 
-   Lägg till en video i redigeraren för **Zone2** -sekvenskanalen enligt bilden nedan:
+   Den video som lagts till i redigeraren för **Zone2** -sekvenskanalen visas nedan:
 
    ![screen_shot_2018-12-19at125930pm](/help/user-guide/assets/multi-zone/multizone-img5.png)
 
@@ -107,7 +109,7 @@ Om du vill att zonerna ska visa bildsekvenser och en video i två olika zoner f�
 
    1. Navigera till **Zones** —> **Channels** —> **MultiZone**.
    1. Klicka på **Redigera** i åtgärdsfältet för att öppna redigeraren.
-   1. Dra och släpp den **inbäddade sekvenskomponenten** till två av zonerna.
+   1. Dra och släpp komponenten **Inbäddad sekvens** till båda zonerna.
    1. Markera den inbäddade sekvensen i någon av zonerna.
    1. Klicka på ikonen **Konfigurera** (skiftnyckel) för en av de inbäddade sekvenserna i redigeraren.
    1. Välj kanalsökvägen som **Zones** —> **Channels** —> **EmbeddedChannels** —> **Zone1**, vilket visas i bilden nedan.
