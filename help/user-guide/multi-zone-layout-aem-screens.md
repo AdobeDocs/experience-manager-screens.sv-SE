@@ -11,7 +11,7 @@ topic-tags: authoring
 discoiquuid: 4c073172-d93c-4b73-87ab-0b08789193a3
 noindex: true
 translation-type: tm+mt
-source-git-commit: c615481f606a369fb9d4bafde74cbf00458f05fa
+source-git-commit: ae05d169dce9d02562159524f9bf43e88a29e43f
 workflow-type: tm+mt
 source-wordcount: '1175'
 ht-degree: 1%
@@ -90,7 +90,7 @@ Om du vill att zonerna ska visa sekvenser av bilder eller innehåll och en stati
 1. **Lägga till ytterligare två kanaler i kanalmappen**
 
    1. Navigera till **Zones** —> **Channels** —> **EmbeddedChannels** och klicka på **Create** i åtgärdsfältet.
-   1. Välj **Sekvenskanal** i guiden **Skapa** för att skapa en kanal med namnet **Zone1**.
+   1. Välj **Sekvenskanal** i guiden **Skapa** för att skapa en kanal med namnet **Zon1**.
    1. Välj **Zon1** och klicka på **Redigera** i åtgärdsfältet för att öppna redigeraren.
    1. Dra och släpp några bilder i den här kanalen.
    Skapa på samma sätt en annan sekvenskanal med namnet **Zone2** i mappen **EmbeddedChannels** .
@@ -151,7 +151,7 @@ Du måste tilldela kanalerna till visningen för att kunna visa innehållet. Fö
    1. Ange **händelser** som stöds som **Inledande inläsning**, **Inaktiv skärm** och **Timer**.
    1. Click **Save**.
 
-      ![image](/help/user-guide/assets/multi-zone/multizone-img7.png)
+      ![image](/help/user-guide/assets/multi-zone/multizone-img9.png)
    1. På samma sätt måste du tilldela de två andra inbäddade kanalerna (**Zone1** och **Zone2**) till den här visningen med hjälp av steg 2.
    1. När du har tilldelat alla tre kanalerna till **Lobby** -visningen bör du kunna visa de tilldelade kanalerna från kontrollpanelen.
 
