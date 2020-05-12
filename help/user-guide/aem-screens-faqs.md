@@ -6,7 +6,10 @@ seo-description: Följ den här sidan för att få svar på vanliga frågor om e
 uuid: 62e58f3b-0c0a-4006-b6d5-42d2090f47b5
 contentOwner: jsyal
 translation-type: tm+mt
-source-git-commit: 209a9a833957d9a8bb7c7ec70ff421514f5b974c
+source-git-commit: c615481f606a369fb9d4bafde74cbf00458f05fa
+workflow-type: tm+mt
+source-wordcount: '1271'
+ht-degree: 0%
 
 ---
 
@@ -102,7 +105,7 @@ ChromeOS-spelaren kan installeras som Chrome Browser-plugin i utvecklarläge uta
 
 1. Klicka [här](https://download.macromedia.com/screens/) för att hämta den senaste Chrome Player-versionen.
 1. Zippa upp och spara det på disken.
-1. Öppna webbläsaren Chrome och klicka på menyn med tre punkter och välj **Fler verktyg** —> **Tillägg** i det övre högra hörnet eller navigera direkt till ***chrome://extensions***.
+1. Öppna webbläsaren Chrome och välj **Tillägg** på menyn eller navigera direkt till ***chrome://extensions***.
 1. Aktivera **utvecklarläget** i det övre högra hörnet.
 1. Klicka på **Läs in opackad** från det övre vänstra hörnet och läs in den uppzippade Chrome Player.
 1. Kontrollera plugin-programmet **för Chrome Player** för AEM-skärmar om det finns i listan över tillägg.
