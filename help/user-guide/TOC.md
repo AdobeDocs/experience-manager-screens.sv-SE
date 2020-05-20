@@ -4,7 +4,10 @@ product: experience manager
 audience: end-user
 user-guide-title: Adobe Experience Manager Screens - hjälp
 translation-type: tm+mt
-source-git-commit: 968c84b3f30c6ac4ba244b5ec0a3b9bf8e666609
+source-git-commit: 28966ccd0febf28494cb218407fec942a79c1cf4
+workflow-type: tm+mt
+source-wordcount: '383'
+ht-degree: 1%
 
 ---
 
@@ -29,6 +32,7 @@ source-git-commit: 968c84b3f30c6ac4ba244b5ec0a3b9bf8e666609
    + [Ansluta skärmuppspelaren](working-with-screens-player.md)
    + [Enhetsregistrering](device-registration.md)
    + [Konfigurera åtkomstkontrollistor](setting-up-acls.md)
+   + [AEM Screens Security Checklist](security-checklist.md)
    + [Övergång från ContentSync till SmartSync](smartsync.md)
    + [Ny projektimporterare från fil](project-importer.md)
    + [Replikera datutlösare till publiceringsservrar](replicating-data-triggers.md)
