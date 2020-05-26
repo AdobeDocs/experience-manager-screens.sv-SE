@@ -11,9 +11,9 @@ topic-tags: authoring
 discoiquuid: 4c073172-d93c-4b73-87ab-0b08789193a3
 noindex: true
 translation-type: tm+mt
-source-git-commit: 052cf1ccde6f18ec72307b14ffbac63be61127b0
+source-git-commit: a246671ddf7fee333d01c09ca61daee91df737e4
 workflow-type: tm+mt
-source-wordcount: '1189'
+source-wordcount: '1198'
 ht-degree: 0%
 
 ---
@@ -38,7 +38,7 @@ Enligt projektkraven behöver du ibland flera zoner i en kanal och kan redigera 
 
 ### Förutsättningar {#prerequisites}
 
-Innan du börjar implementera den här funktionen, vänligen kontrollera att du har de konceptuella kunskaperna om:
+Innan du börjar implementera den här funktionen bör du kontrollera att du har de konceptuella kunskaperna om:
 
 * [Skapa ett AEM-skärmsprojekt](https://docs.adobe.com/content/help/en/experience-manager-screens/user-guide/authoring/setting-up-projects/creating-a-screens-project.html)
 * [Skapa en bildskärm](https://docs.adobe.com/content/help/en/experience-manager-screens/user-guide/authoring/setting-up-projects/managing-displays.html)
@@ -61,7 +61,7 @@ När du skapar en kanal kan du använda olika mallar för att skapa zoner i kana
 
 ### Använda enskilda resurser i en eller flera zoner {#using-single-assets-in-one-or-more-zones}
 
-Du kan använda enstaka resurser som en bild eller en video i alla tre olika zoner. Följ stegen nedan för implementering:
+Du kan använda enstaka resurser som en bild eller en video i alla enskilda zoner. Följ stegen nedan för implementering:
 
 1. **Lägga till innehåll i kanalen**
 
@@ -76,7 +76,7 @@ Du kan använda enstaka resurser som en bild eller en video i alla tre olika zon
 
 ### Använda sekvensinnehåll i en eller flera zoner {#using-sequenced-content-in-one-or-more-zones}
 
-Om du vill att zonerna ska visa bildsekvenser och en video i två olika zoner följer du stegen nedan för mer information.
+Om du vill att zonerna ska visa bildsekvenser och en video i olika zoner följer du stegen nedan för mer information.
 
 1. **Skapa en kanalmapp**
 
@@ -135,7 +135,7 @@ Du måste skapa en plats och en visning för att kunna visa innehållet i skärm
    1. Välj **Visning** i guiden **Skapa** och klicka på **Nästa**.
    1. Ange **Titel** som **ikon** och klicka på **Skapa**.
 
-### Tilldela kanal till skärmen {#channel-channel}
+### Tilldela kanaler till visningen {#channel-channel}
 
 Du måste tilldela kanalerna till visningen för att kunna visa innehållet. Följ stegen nedan för att tilldela kanalen till visningen.
 
@@ -174,7 +174,7 @@ När du har konfigurerat en plats och en skärm följer du stegen nedan för att
    1. Ange **titeln** som **Chrome-Device1** och klicka på **Register**.
    1. Välj **Tilldela visning** och välj sökvägen till enhetskonfigurationen.
    >[!NOTE]
-   >Om du försöker visa innehållet i skärmspelaren ska du klicka på **Uppdatera offlineinnehåll** på kanalkontrollpanelen.
+   >Om du försöker visa innehållet i skärmspelaren ska du klicka på **Uppdatera offlineinnehåll** i kanalkontrollpanelen för var och en av kanalerna som är tilldelade visningen.
 
 ### Visa resultatet {#viewing-the-result}
 
