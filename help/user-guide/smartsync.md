@@ -10,7 +10,7 @@ content-type: reference
 discoiquuid: 822dfbc1-3584-4509-a35c-1d68e5f84509
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 112aa2a89578243bad49e61839d781e0f29893b4
+source-git-commit: 7832176cfb1e4647a49852ce382862978dddbfe2
 workflow-type: tm+mt
 source-wordcount: '465'
 ht-degree: 0%
@@ -81,7 +81,7 @@ Följ stegen nedan för att gå över från ContentSync till SmartSync:
 
    ![screen_shot_2019-02-11at15339pm](assets/screen_shot_2019-02-11at15339pm.png)
 
-1. **Adobe Experience Manager Web Console Configuration **öppnas. Sök efter *offlinekontaktentservice*.
+1. **Adobe Experience Manager Web Console Configuration** öppnas. Sök efter *offlinekontaktentservice*.
 
    Om du vill söka efter egenskapen **Skärmar som är offline i innehållstjänsten** trycker du på **Kommando+F** för **Mac** och **Ctrl+F** för **Windows**.
 
