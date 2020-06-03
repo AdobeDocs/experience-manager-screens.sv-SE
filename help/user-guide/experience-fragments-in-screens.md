@@ -11,9 +11,9 @@ topic-tags: authoring
 discoiquuid: 0e88e9e0-a95b-4acd-98ea-499d4d4e3c99
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 87961076fd756c8bd018ded08d493e4024992738
+source-git-commit: 112aa2a89578243bad49e61839d781e0f29893b4
 workflow-type: tm+mt
-source-wordcount: '1105'
+source-wordcount: '1102'
 ht-degree: 0%
 
 ---
@@ -71,11 +71,9 @@ Följ stegen nedan för att utnyttja innehållet från **We.Retail** till din **
 
 1. **Navigera till en Sites-sida i We.Retail**
 
-   1. Navigera till Sites och välj **We.Retail In-Store** -> **United States** ->**English** och välj **Equipment** page för att använda detta som ett upplevelsefragment för din skärmkanal.
+   1. Navigera till Sites och välj **We.Retail In-Store** -> **Channels** ->**Idle Channel - Night** och välj den här sidan om du vill använda den som ett upplevelsefragment för din skärmkanal.
 
    1. Klicka på **Redigera** i åtgärdsfältet för att öppna sidan som du vill använda som ett upplevelsefragment för skärmkanalen.
-
-      ![screen_shot_2018-06-06at105309am](assets/screen_shot_2018-06-06at105309am.png)
 
 1. **Återanvända innehållet**
 
