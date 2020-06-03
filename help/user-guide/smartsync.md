@@ -2,7 +2,7 @@
 title: Övergång från ContentSync till SmartSync
 seo-title: Övergång från ContentSync till SmartSync
 description: Följ den här sidan om du vill veta mer om funktionen SmartSync och hur du kan gå över från ContentSync till SmartSync.
-seo-description: Följ den här sidan för att lära dig mer om funktionen SmartSync och hur du kan gå över från ContentSync till SmartSync.
+seo-description: Följ den här sidan om du vill veta mer om funktionen SmartSync och hur du kan gå över från ContentSync till SmartSync.
 uuid: c0619b56-1f6f-465a-a428-6df28e40b555
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: administering
@@ -10,14 +10,17 @@ content-type: reference
 discoiquuid: 822dfbc1-3584-4509-a35c-1d68e5f84509
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 66c741bb73bd5deb2bb5b06dd46f2e407d9c4b7e
+source-git-commit: 112aa2a89578243bad49e61839d781e0f29893b4
+workflow-type: tm+mt
+source-wordcount: '465'
+ht-degree: 0%
 
 ---
 
 
 # Övergång från ContentSync till SmartSync {#transitioning-from-contentsync-to-smartsync}
 
-I det här avsnittet finns en översikt över SmartSync-funktionen och information om hur den minimerar belastningen på servern/lagringen och nätverkstrafiken för att minska kostnaderna.
+I det här avsnittet ges en översikt över SmartSync-funktionen och hur den minimerar belastningen på servern/lagringen och nätverkstrafiken för att minska kostnaderna.
 
 ## Översikt {#overview}
 
@@ -74,11 +77,11 @@ Följ stegen nedan för att gå över från ContentSync till SmartSync:
    >
    >Alla innehållscache måste rensas innan SmartSync kan användas för första gången.
 
-1. Navigera till **Adobe Experience Manager Web Console Configuration** via AEM instance —> hammer icon —> **Operations** —> **Web Console**.
+1. Gå till **Adobe Experience Manager Web Console Configuration** via AEM instance —> hammer icon —> **Operations** —> **Web Console**.
 
    ![screen_shot_2019-02-11at15339pm](assets/screen_shot_2019-02-11at15339pm.png)
 
-1. **Adobe Experience Manager Web Console Configuration **öppnas. Sök efter *offlinekontakttjänster*.
+1. **Adobe Experience Manager Web Console Configuration **öppnas. Sök efter *offlinekontaktentservice*.
 
    Om du vill söka efter egenskapen **Skärmar som är offline i innehållstjänsten** trycker du på **Kommando+F** för **Mac** och **Ctrl+F** för **Windows**.
 
