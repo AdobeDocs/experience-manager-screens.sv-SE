@@ -5,7 +5,7 @@ description: Installera skärmuppspelaren
 seo-description: Installera skärmuppspelaren
 contentOwner: jsyal
 translation-type: tm+mt
-source-git-commit: 6d123b844831dd5c07261bcadd170029f972ee7d
+source-git-commit: be491e88b7938f24ae1f375b2fded4052404aaa1
 workflow-type: tm+mt
 source-wordcount: '178'
 ht-degree: 1%
