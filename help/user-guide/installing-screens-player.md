@@ -5,7 +5,10 @@ description: Installera skärmuppspelaren
 seo-description: Installera skärmuppspelaren
 contentOwner: jsyal
 translation-type: tm+mt
-source-git-commit: a61375feb5ba0da16f6f81d4b577fce578ac120e
+source-git-commit: 6d123b844831dd5c07261bcadd170029f972ee7d
+workflow-type: tm+mt
+source-wordcount: '178'
+ht-degree: 1%
 
 ---
 
@@ -16,7 +19,7 @@ På den här sidan beskrivs hur du installerar AEM Screens Player.
 
 ## Tillgänglig skärmspelare {#available-players}
 
-AEM Screens Player är tillgänglig för Android, Chrome OS, iOS och Windows.
+AEM Screens Player är tillgänglig för Android, Chrome OS och Windows.
 
 Om du vill hämta **AEM Screens Player** går du till [sidan AEM 6.5 Player Downloads](https://download.macromedia.com/screens/) .
 
@@ -29,7 +32,7 @@ Om du vill hämta **AEM Screens Player** går du till [sidan AEM 6.5 Player Down
 >1. Klicka på länken **Registrering** i den vänstra åtgärdsmenyn och på stegen nedan för att slutföra enhetsregistreringsprocessen.
 
 
-### Additional Resources {#additional-resources}
+### Ytterligare resurser {#additional-resources}
 
 Mer information finns i följande avsnitt:
 
