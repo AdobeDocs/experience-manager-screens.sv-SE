@@ -1,14 +1,14 @@
 ---
 user-guide-title: Best Practices Guide for AEM Screens Projects
 solution-title: AEM-skärmar
-getting-started-title: Experience League
+getting-started-title: Handbok om bästa praxis för AEM-skärmar
 product: experience manager
 audience: end-user
 translation-type: tm+mt
-source-git-commit: 07eda12ba6b92572fc3a1fbc41ff3d54f45d4fde
+source-git-commit: bf40f06a782ba0ac665697900570d5c905dd4ddc
 workflow-type: tm+mt
-source-wordcount: '101'
-ht-degree: 3%
+source-wordcount: '104'
+ht-degree: 1%
 
 ---
 
