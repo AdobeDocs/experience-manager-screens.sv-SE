@@ -1,16 +1,19 @@
 ---
 cloud: experience-cloud
 solution-title: AEM-skärmar
-solution-hub-url: https://helpx.adobe.com/support/experience-manager/6-5.html
+index: y
+solution-hub-url: https://docs.adobe.com/content/help/en/experience-manager-screens/user-guide/aem-screens-introduction.html
 solution-image: help/assets/experience-cloud-logo-24.png
-getting-started-title: Best Practices Guide for Screens
-getting-started-url: https://helpx.adobe.com/experience-manager/6-5/screens/user-guide.html
+getting-started-title: Användarhandbok och handbok om bästa praxis för AEM-skärmar
+getting-started-url: https://docs.adobe.com/content/help/en/experience-manager-screens/user-guide/aem-screens-introduction.html
 tutorials-title: Självstudiekurser
 tutorials-url: https://docs.adobe.com/content/help/en/experience-manager-screens/using/about-guide.html
-git-repo: https://github.com/AdobeDocs/experience-manager-screens.en
-index: true
+git-repo: https://git.corp.adobe.com/AdobeDocs/experience-manager-screens.sv-SE
 translation-type: tm+mt
-source-git-commit: 3e0e550688078d52131bd314c00bba00dd5d71e7
+source-git-commit: d425a71ff5516161a8a2e571a206aaedfd1ab3a5
+workflow-type: tm+mt
+source-wordcount: '151'
+ht-degree: 0%
 
 ---
 
