@@ -11,7 +11,10 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 discoiquuid: f2397d11-a18b-4779-b77b-5f99b797f40c
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 161eef6e7e45393f345240b9c36a104a18106f12
+source-git-commit: 59eb6f298aa646d14445ddd6082006742fb02d62
+workflow-type: tm+mt
+source-wordcount: '1907'
+ht-degree: 0%
 
 ---
 
@@ -101,7 +104,7 @@ Följ stegen nedan om du vill skapa en standardsvar för replikering:
    >Du kan också kopiera och byta namn på en befintlig standardreplikeringsagent.
 
 
-#### Skapar standardreplikeringsagenter {#creating-standard-replication-agents}
+#### Skapar standardreplikeringsagenter  {#creating-standard-replication-agents}
 
 1. Skapa en standardobjektreplikeringsagent för pub1 (standardagenten som är färdig bör redan vara konfigurerad) (till exempel *https://&lt;värdnamn>:4503/bin/receive?sling:authRequestLogin=1*)
 1. Skapa en standardslikeringsagent för pub2. Du kan kopiera rep agent för pub1 och uppdatera transporten som ska användas för pub2 genom att ändra porten i transportkonfigurationen. (till exempel *https://&lt;värdnamn>:4504/bin/receive?sling:authRequestLogin=1*)
@@ -129,7 +132,7 @@ För varje publiceringsinstans:
 1. Uppdatera topologianslutnings-URL: lägga till URL:er för alla partakta publiceringsinstanser som är:
    * `https://localhost:4503/libs/sling/topology/connector`
    * `https://localhost:4504/libs/sling/topology/connector`
-1. Whitelist för topologikoppling: anpassa sig till IP-adresser eller undernät som omfattar partakta publiceringsinstanser
+1. Lista över tillåtna topologianslutningar: anpassa sig till IP-adresser eller undernät som omfattar partakta publiceringsinstanser
 1. Aktivera **automatiska stopp av lokala loopar**
 
 Konfigurationen ska vara identisk för varje publiceringsinstans och den automatiska stopploopen förhindrar en oändlig slinga.
@@ -219,7 +222,7 @@ När du har konfigurerat publiceringstologin måste du konfigurera författaren 
 
 #### Steg 2: Registrera en enhet på författaren {#step-registering-a-device-on-author}
 
-1. Gå till `https://localhost:4502/screens.html/content/screens/we-retail` eller välj projektet och navigera till Enheter > Enhetshanteraren.
+1. Gå till `https://localhost:4502/screens.html/content/screens/we-retail` eller välj projektet och gå till Enheter > Enhetshanteraren.
 1. Välj **Registrera enhet**.
 1. Klicka på **Enhetsregistrering** för att visa enheten.
 1. Välj den enhet som du vill registrera och klicka på **Registrera enhet**.
