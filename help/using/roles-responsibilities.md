@@ -4,7 +4,10 @@ seo-title: AEM-skärmar Projektroller och ansvarsområden
 description: På sidan beskrivs AEM-skärmar Projektroller och ansvarsområden
 seo-description: På sidan beskrivs AEM-skärmar Projektroller och ansvarsområden
 translation-type: tm+mt
-source-git-commit: 50d36d89b8dcc746a043e5e72ffc0148d99854ad
+source-git-commit: 59eb6f298aa646d14445ddd6082006742fb02d62
+workflow-type: tm+mt
+source-wordcount: '1263'
+ht-degree: 9%
 
 ---
 
@@ -167,7 +170,7 @@ I följande tabell sammanfattas **Dag ett: Dag ett: Projektimplementering (maski
 | Avtal om roller och ansvar | RA | RA | RA | RA |
 | Detaljhandelsdesign omfattar kabeldragningar | - | - | - | - |
 | Välj maskinvara | RAC | - | - | - |
-| Master Device Management | RA | I | - | - |
+| Enhetshantering för master | RA | I | - | - |
 | Enhetsbeställning och lagring &amp; konfigurering | RA | CI | I | - |
 | Processdefinition för support | RA | I | RA | C |
 
@@ -183,7 +186,7 @@ I följande tabell sammanfattas **Dag ett: Dag ett: Projektimplementering (maski
 
 I följande tabell sammanfattas **dag två: RACI-diagram** för stöd efter start:
 
-| **Fas** | **Författare** | **Utvecklare** | **Tekniker** |
+| **Fas** | **Författare** | **Developer** | **Tekniker** |
 |---|---|---|---|
 | *Dag två: Stöd efter start* |
 | Avtal om roller och ansvar | RA | RA | RA |
