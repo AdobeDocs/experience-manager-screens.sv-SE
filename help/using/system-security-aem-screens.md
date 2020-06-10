@@ -4,12 +4,18 @@ seo-title: Säkerhetschecklista för AEM-skärmar
 description: Sidan beskriver säkerhetschecklistan för AEM-skärmar
 seo-description: Sidan beskriver säkerhetschecklistan för AEM-skärmar
 translation-type: tm+mt
-source-git-commit: 72551a4b56d1db851cad71abd2ce8c0b02bbbc30
+source-git-commit: dd1198dbfb502287ae72c3ccef297606aef069a2
+workflow-type: tm+mt
+source-wordcount: '473'
+ht-degree: 0%
 
 ---
 
 
 # Systemsäkerhetsfrågor för AEM-skärmar {#security-checklist}
+
+>[!IMPORTANT]
+>Detta är en intern Git-resurs.
 
 På den här sidan visas systemsäkerhetsaspekter för AEM-skärmar.
 
