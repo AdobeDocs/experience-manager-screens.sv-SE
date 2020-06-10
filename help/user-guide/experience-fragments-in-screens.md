@@ -11,10 +11,10 @@ topic-tags: authoring
 discoiquuid: 0e88e9e0-a95b-4acd-98ea-499d4d4e3c99
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 112aa2a89578243bad49e61839d781e0f29893b4
+source-git-commit: 59eb6f298aa646d14445ddd6082006742fb02d62
 workflow-type: tm+mt
-source-wordcount: '1102'
-ht-degree: 0%
+source-wordcount: '1100'
+ht-degree: 1%
 
 ---
 
@@ -25,7 +25,7 @@ Den här sidan innehåller följande avsnitt:
 
 * **Översikt**
 * **Använda upplevelsefragment i AEM-skärmar**
-* **Sprider ändringar från mallsidan**
+* **Sprider ändringar på sidan**
 
 ## Översikt {#overview}
 
@@ -163,7 +163,7 @@ När du har slutfört de föregående stegen kan du validera ditt upplevelsefrag
 Du kan visa innehållet från **webbplatssidan** (live-copy av upplevelsefragmentet) i din kanal, vilket visas i bilden nedan:\
 ![screen_shot_2018-06-08at120739pm](assets/screen_shot_2018-06-08at120739pm.png)
 
-## Sprider ändringar från mallsidan {#propagating-changes-from-the-master-page}
+## Sprider ändringar på sidan {#propagating-changes-from-the-master-page}
 
 ***Live-kopia*** refererar till kopian (av källan), som underhålls av synkroniseringsåtgärder enligt definitionen i utrullningskonfigurationerna.
 
@@ -175,7 +175,7 @@ Eftersom Experience Fragment har vi skapat en live-kopia från **Sites** -sidorn
 
 Följ stegen nedan för att sprida ändringar från huvudkanalen till målkanalen:
 
-1. Välj Experience Fragment på **webbplatssidan** (mallsida) och klicka på pennikonen för att redigera objekten i Experience Fragment.
+1. Välj Experience Fragment på mallsidan **Sites** (mallsida) och klicka på pennikonen för att redigera objekten i Experience Fragment.
 
    ![screen_shot_2018-06-08at122655pm](assets/screen_shot_2018-06-08at122655pm.png)
 
