@@ -4,7 +4,7 @@ seo-title: Versionsinformation för funktionspaket 2004
 description: Följ den här sidan för att få information om AEM Screens Feature Pack 20204 släppt den 20 april 2020.
 seo-description: Följ den här sidan för att få information om AEM Screens Feature Pack 20204 släppt den 20 april 2020.
 translation-type: tm+mt
-source-git-commit: b74b776cd82be4d4461d2664ddc090ee2e65ec8f
+source-git-commit: d22a8ad78a8276b736a4d7455792996234d23ca3
 workflow-type: tm+mt
 source-wordcount: '392'
 ht-degree: 0%
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 AEM Screens har släppt AEM 6.4 Feature Pack 8 och AEM 6.5 Feature Pack 4.
 
-Du kan hämta det senaste funktionspaketet för AEM Screens 6.4.8 eller AEM Screens 6.5.4 från [Software Distribution Portal](https://experience.adobe.com/#/downloads/content/software-distribution/en/general.html) med ditt Adobe-ID. Gå till fliken **Adobe Experience Manager** och sök efter **skärmar** för att få tillgång till det senaste funktionspaketet.
+Du kan hämta det senaste funktionspaketet för AEM Screens 6.4.8 eller AEM Screens 6.5.4 från [Software Distribution Portal](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) med ditt Adobe-ID. Gå till fliken **Adobe Experience Manager** och sök efter **skärmar** för att få tillgång till det senaste funktionspaketet.
 
 ## Releasedatum {#release-date}
 
