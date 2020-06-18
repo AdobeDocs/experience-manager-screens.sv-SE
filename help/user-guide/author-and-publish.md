@@ -1,8 +1,8 @@
 ---
-title: Konfigurera författare och publicera på AEM-skärmar
-seo-title: Konfigurera författare och publicera på AEM-skärmar
-description: AEM Screens-arkitekturen liknar en traditionell AEM Sites-arkitektur. Innehållet skapas på en AEM-författarinstans och sedan vidarebefordras till flera publiceringsinstanser. Följ den här sidan för att lära dig hur du konfigurerar författare och publicerar för AEM-skärmar.
-seo-description: AEM Screens-arkitekturen liknar en traditionell AEM Sites-arkitektur. Innehållet skapas på en AEM-författarinstans och sedan vidarebefordras till flera publiceringsinstanser. Följ den här sidan för att lära dig hur du konfigurerar författare och publicerar för AEM-skärmar.
+title: Konfigurera författare och publicera i AEM Screens
+seo-title: Konfigurera författare och publicera i AEM Screens
+description: AEM Screens-arkitekturen liknar en traditionell AEM Sites-arkitektur. Innehållet skapas på en AEM-författarinstans och sedan vidarebefordras till flera publiceringsinstanser. Följ den här sidan för att lära dig hur du konfigurerar författare och publicerar för AEM Screens.
+seo-description: AEM Screens-arkitekturen liknar en traditionell AEM Sites-arkitektur. Innehållet skapas på en AEM-författarinstans och sedan vidarebefordras till flera publiceringsinstanser. Följ den här sidan för att lära dig hur du konfigurerar författare och publicerar för AEM Screens.
 uuid: 0a6e87e7-0018-42ef-b484-9a3da61c636a
 contentOwner: jsyal
 content-type: reference
@@ -11,7 +11,7 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 discoiquuid: f2397d11-a18b-4779-b77b-5f99b797f40c
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 59eb6f298aa646d14445ddd6082006742fb02d62
+source-git-commit: 0e426a61ef3230bbf75b88ae7235d4495a49759f
 workflow-type: tm+mt
 source-wordcount: '1907'
 ht-degree: 0%
@@ -19,7 +19,7 @@ ht-degree: 0%
 ---
 
 
-# Konfigurera författare och publicera på AEM-skärmar {#configuring-author-and-publish-in-aem-screens}
+# Konfigurera författare och publicera i AEM Screens {#configuring-author-and-publish-in-aem-screens}
 
 På den här sidan beskrivs följande ämnen:
 
@@ -32,12 +32,12 @@ På den här sidan beskrivs följande ämnen:
 Innan du börjar med författare och publiceringsservrar bör du ha kunskap om:
 
 * **AEM Topology**
-* **Skapa och hantera AEM-skärmsprojekt**
+* **Skapa och hantera AEM Screens-projekt**
 * **Enhetsregistreringsprocess**
 
 >[!NOTE]
 >
->Den här AEM-skärmfunktionen är bara tillgänglig om du har installerat AEM 6.4 Screens Feature Pack 2. Om du vill få tillgång till det här funktionspaketet måste du kontakta Adobes support och begära åtkomst. När du har behörighet kan du hämta den från paketresursen.
+>Funktionen AEM Screens är bara tillgänglig om du har installerat AEM 6.4 Screens Feature Pack 2. Om du vill få tillgång till det här funktionspaketet måste du kontakta Adobes support och begära åtkomst. När du har behörighet kan du hämta den från paketresursen.
 
 ## Konfigurera författare- och publiceringsinstanser {#configuring-author-and-publish-instances}
 
@@ -132,7 +132,7 @@ För varje publiceringsinstans:
 1. Uppdatera topologianslutnings-URL: lägga till URL:er för alla partakta publiceringsinstanser som är:
    * `https://localhost:4503/libs/sling/topology/connector`
    * `https://localhost:4504/libs/sling/topology/connector`
-1. Lista över tillåtna topologianslutningar: anpassa sig till IP-adresser eller undernät som omfattar partakta publiceringsinstanser
+1. **Vitlista för topologikoppling**: anpassa sig till IP-adresser eller undernät som omfattar partakta publiceringsinstanser
 1. Aktivera **automatiska stopp av lokala loopar**
 
 Konfigurationen ska vara identisk för varje publiceringsinstans och den automatiska stopploopen förhindrar en oändlig slinga.
@@ -209,16 +209,16 @@ När du har konfigurerat publiceringstologin måste du konfigurera författaren 
 >
 >**Förutsättningar**
 >
->För att komma igång med det här exemplet skapar du ett nytt AEM Screens-projekt följt av att skapa en plats, en skärm och en kanal i projektet. Lägg till innehåll i kanalen och tilldela kanalen till en skärm.
+>För att komma igång med det här exemplet skapar du ett nytt AEM Screens-projekt följt av att skapa en plats, en visning och en kanal i ditt projekt. Lägg till innehåll i kanalen och tilldela kanalen till en skärm.
 
 #### Steg 1: Starta en AEM Screens Player (enhet) {#step-starting-an-aem-screens-player-device}
 
 1. Starta ett separat webbläsarfönster.
-1. Gå till Skärmspelaren med *webbläsaren*,`https://localhost:4502/content/mobileapps/cq-screens-player/firmware.html` d.v.s. eller starta appen AEM Screens. När du öppnar enheten visas enhetens status som ej registrerad.
+1. Gå till Skärmspelaren med *webbläsaren*,`https://localhost:4502/content/mobileapps/cq-screens-player/firmware.html` det vill säga, eller starta appen AEM Screens. När du öppnar enheten visas enhetens status som ej registrerad.
 
 >[!NOTE]
 >
->Du kan öppna en AEM Screens-spelare med appen AEM Screens som du har laddat ned eller med webbläsaren.
+>Du kan öppna en AEM Screens-spelare med den AEM Screens-app du hämtade eller med webbläsaren.
 
 #### Steg 2: Registrera en enhet på författaren {#step-registering-a-device-on-author}
 
@@ -264,7 +264,7 @@ Du kan även aktivera enheten från enhetshanteringskonsolen. Följ stegen nedan
 
 >[!NOTE]
 >
->När du har aktiverat enheten kan du också redigera eller uppdatera server-URL:en genom att klicka på **Redigera server-URL** i åtgärdsfältet, som visas i bilden nedan, så sprids ändringarna till AEM Screens Player.
+>När du har aktiverat enheten kan du också redigera eller uppdatera server-URL:en genom att klicka på **Redigera server-URL** i åtgärdsfältet, vilket visas i figuren nedan, så sprids ändringarna till AEM Screens-spelaren.
 
 ![screen_shot_2019-02-21at105527am](assets/screen_shot_2019-02-21at105527am.png)
 
@@ -274,7 +274,7 @@ Följande punkter sammanfattar publiceringskontrolllistan:
 
 * *Skärmar som enhetsanvändare* - Detta lagras som en AEM-användare och kan aktiveras via **Verktyg** > **Säkerhet** > **Användare**. Användaren får prefixet&quot;screens&quot; med en lång serialiserad sträng.
 
-* *Projekt* - projektet AEM Screens.
+* *Projekt* - AEM Screens-projektet.
 * *Plats* - Den plats där enheten är ansluten.
 * *Kanaler* - en eller flera kanaler som visas på platsen
 * *Schema* - Om du använder ett schema måste du se till att det publiceras
@@ -286,26 +286,26 @@ Följ stegen nedan för att verifiera författarens/publiceringens beteende:
 1. Utför **Hantera publikation** för att publicera nya ändringar i alla publiceringsinstanser
 1. Tryck på **Aktivera** för att aktivera enheten från **Enhetshanteraren**
 1. **Redigera URL** från författarinstansens URL till någon av publiceringsinstansernas URL
-1. Verifiera att det uppdaterade kanalinnehållet visas i AEM Screens Player
+1. Kontrollera att det uppdaterade kanalinnehållet visas på AEM Screens Player
 1. Upprepa dessa steg med en annan publiceringsinstans
 
 
 #### Steg 5: Peka på enheten för att publicera instansen på Admin-panelen {#step-pointing-the-device-to-publish-instance-in-the-admin-panel}
 
-1. Visa administratörsgränssnittet från Skärmspelaren, tryck länge på det övre vänstra hörnet för att öppna Admin-menyn, på din touchaktiverade AEM Screens Player eller med en mus.
+1. Visa administratörsgränssnittet från Skärmspelaren, tryck länge på det övre vänstra hörnet för att öppna Admin-menyn, AEM Screens-spelaren med pekfunktion eller med en mus.
 1. Klicka på alternativet **Konfiguration** på sidopanelen.
 1. Ändra författarinstansen till publiceringsinstansen i **Server**.
 
-Se ändringarna i din AEM Screens Player.
+Se ändringarna i din AEM Screens-spelare.
 
 Du kan även uppdatera/redigera server-URL:en från enhetshanteringskonsolen genom att följa följande steg:
 
-1. Navigera till ditt AEM Screens-projekt och välj mappen **Devices** .
+1. Navigera till ditt AEM Screens-projekt och markera mappen **Enheter** .
 1. Klicka på **Enhetshanteraren** i åtgärdsfältet.
-1. Markera enheten och klicka på **Redigera server-URL** i åtgärdsfältet, som visas i bilden nedan, så sprids ändringarna till AEM Screens Player.
+1. Markera enheten och klicka på **Redigera server-URL** i åtgärdsfältet, som visas i figuren nedan, så sprids ändringarna till AEM Screens-spelaren.
 
 ![screen_shot_2019-02-07at31028pm](assets/screen_shot_2019-02-07at31028pm.png)
 
-Med funktionen **Hantera publikation** kan du leverera innehållsuppdateringar från författare till publicering till enhet. Du kan publicera/avpublicera innehåll för hela AEM Screens-projektet eller bara för en av dina kanaler, platser, enheter, program eller scheman. Mer information om den här funktionen finns i [Innehållsuppdatering](on-demand-content.md)på begäran.
+Med funktionen **Hantera publikation** kan du leverera innehållsuppdateringar från författare till publicering till enhet. Du kan publicera/avpublicera innehåll för hela ditt AEM Screens-projekt eller bara för en av dina kanaler, platser, enheter, program eller scheman. Mer information om den här funktionen finns i [Innehållsuppdatering](on-demand-content.md)på begäran.
 
 
