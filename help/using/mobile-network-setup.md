@@ -2,9 +2,9 @@
 title: Inställningar för mobilnätverk
 description: Sidan beskriver Mobile Network Setup
 translation-type: tm+mt
-source-git-commit: 88ba9ab26c4ecc3f829f53244117041a9a1fd2b3
+source-git-commit: e24fa2fbec09cbe863a3615e722ae61b57da5012
 workflow-type: tm+mt
-source-wordcount: '915'
+source-wordcount: '916'
 ht-degree: 0%
 
 ---
@@ -12,11 +12,13 @@ ht-degree: 0%
 
 # Inställningar för mobilnätverk {#mobile-network-setup}
 
-Adobe AEM Screens-spelare kan också anslutas med mobilnät/mobilnät som kör minst ett 3G-nätverk.
-Inom AEM Screens hämtas det nödvändiga innehållet fysiskt till Player Controller/Computer och lagras på rätt sätt i det underliggande operativsystemet. Den angivna bandbredden påverkar bara den inledande hämtningstiden och påverkar inte Display Systems prestanda alls.
-Anslutning av AEM Screens-spelare med en mobil 3/4/5G-anslutning till din mobiltjänstdataleverantör. Fördelen med den här installationen är att mobilroutern kan placeras på en optimerad plats för att få bästa möjliga nätverkstäckning. Detta är vanligtvis i upphöjt och öppet läge med så lite omgivande betong eller metallkonstruktion som möjligt.
-Denna SetUp ger AEM Screen Users stor flexibilitet eftersom det inte krävs någon fasta linje för att ansluta AEM Screens.
+AEM Screens Player kan också anslutas via mobilnätverk eller mobilnätverk som kör minst ett 3G-nätverk.
 
+Inom AEM Screens hämtas det nödvändiga innehållet fysiskt till Player Controller eller Computer och lagras på rätt sätt i det underliggande operativsystemet. Den angivna bandbredden påverkar bara den inledande hämtningstiden och påverkar inte bildskärmens prestanda.
+
+Anslutning av AEM Screens-spelare med en mobil 3/4/5G-anslutning till din mobiltjänstdataleverantör. Fördelen med den här installationen är att mobilroutern kan placeras på en optimerad plats för att få bästa möjliga nätverkstäckning. Detta är vanligtvis i upphöjt och öppet läge med så lite omgivande betong eller metallkonstruktion som möjligt.
+
+Denna SetUp ger AEM Screen Users stor flexibilitet eftersom det inte krävs någon fast anslutning för att ansluta AEM Screens.
 
 ![](/help/using/assets/mobile-network-1.png)
 
@@ -25,7 +27,6 @@ Denna SetUp ger AEM Screen Users stor flexibilitet eftersom det inte krävs någ
 >
 >1. Kontrollera brandväggen för Internetroutern om det finns några begränsningar för `TCP/IP Port 80/443`.
 >1. Kontrollera att alla portar som behövs tillåts och försök igen.
-
 
 
 
