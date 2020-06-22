@@ -2,9 +2,9 @@
 title: Direktåtkomst till Internet
 description: Direktåtkomst till Internet
 translation-type: tm+mt
-source-git-commit: 6a0460fd6c62fd6408d3c7665b626818929351d9
+source-git-commit: 88ba9ab26c4ecc3f829f53244117041a9a1fd2b3
 workflow-type: tm+mt
-source-wordcount: '584'
+source-wordcount: '586'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ Portarna kan variera beroende på konfigurationen av din dedikerade AEM-konfigur
 I konfigurationen ingår även Internet-åtkomst från alla Internet-leverantörer (ISP) och Internet Line. De flesta Internet-leverantörer har en Internetrouter som omfattar Internet-modem, nätverksswitchar, WIFI-åtkomstpunkter, brandväggar och andra nätverksfunktioner (beroende på tillverkare och modell).
 
 >[!NOTE]
->**Felsökningstips **>Om AEM Screens inte ansluter korrekt och visar det förväntade innehållet:
+>**Felsökningstips **>Om AEM Screens inte ansluter korrekt och inte visar det förväntade innehållet:
 >
 >1. Kontrollera brandväggen för Internetroutern om det finns några begränsningar för `TCP/IP Port 80/443`.
 >1. Kontrollera att alla portar som behövs tillåts och försök igen.
