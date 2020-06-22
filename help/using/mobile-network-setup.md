@@ -2,9 +2,9 @@
 title: Inställningar för mobilnätverk
 description: Sidan beskriver Mobile Network Setup
 translation-type: tm+mt
-source-git-commit: 6a0460fd6c62fd6408d3c7665b626818929351d9
+source-git-commit: 88ba9ab26c4ecc3f829f53244117041a9a1fd2b3
 workflow-type: tm+mt
-source-wordcount: '877'
+source-wordcount: '915'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,18 @@ Anslutning av AEM Screens-spelare med en mobil 3/4/5G-anslutning till din mobilt
 Denna SetUp ger AEM Screen Users stor flexibilitet eftersom det inte krävs någon fasta linje för att ansluta AEM Screens.
 
 
-## Krav för konfiguration av Direct Access Network {#requirements-direct}
+![](/help/using/assets/mobile-network-1.png)
+
+>[!NOTE]
+>**Felsökningstips **>Om AEM Screens inte ansluter korrekt och inte visar det förväntade innehållet:
+>
+>1. Kontrollera brandväggen för Internetroutern om det finns några begränsningar för `TCP/IP Port 80/443`.
+>1. Kontrollera att alla portar som behövs tillåts och försök igen.
+
+
+
+
+## Krav för konfiguration av mobilt nätverk {#requirements-direct}
 
 Nätverksinställningarna som beskrivs i 5.5 kan logiskt separeras i tre block. WAN/Outer World/Internet Connection Block (här mobil dataanslutning), det interna LAN/Local Area Network och valfria underavsnitt i LAN avgränsade med Active Network Components.
 För att få bästa möjliga prestanda måste man se till att båda avsnitten uppfyller de rekommenderade minimistandarderna.
