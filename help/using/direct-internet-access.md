@@ -2,9 +2,9 @@
 title: Direktåtkomst till Internet
 description: Direktåtkomst till Internet
 translation-type: tm+mt
-source-git-commit: 6d6637d5222e861fa9a83f555baf0699f56f150a
+source-git-commit: 70dddffd46ebf1bd83b25515be548bc442e45fea
 workflow-type: tm+mt
-source-wordcount: '716'
+source-wordcount: '712'
 ht-degree: 0%
 
 ---
@@ -41,8 +41,7 @@ Följ stegen nedan för att ansluta AEM Screen-spelare i den här konfiguratione
 1. Kontrollera att nätverkskortsinställningen matchar routerinställningen och kontrollera om det maximala antalet tillgängliga IP-adresser i nätverket inte nås.
 
 1. Kontrollera om routern är korrekt ansluten till ISP Wide Area Network (Internet Link). Detta kan vanligtvis också identifieras med en Signal LED på standardroutrar.
-1. Om URL-anropet lyckas kan du fortsätta installera AEM Screens och registrera det därefter
-1. Starta AEM Screens.
+1. Om URL-anropet lyckas kan du fortsätta installera AEM Screens och registrera det därefter. Starta AEM Screens.
 
    >[!NOTE]
    >**Felsökningstips**
@@ -62,7 +61,9 @@ Direct Access Network Setup kan logiskt separeras i två block:
 
 ### Wide Area Network {#wan-connection}
 
-Prestandan för internetanslutningen är att den inte bara ska kunna nå nätverket, utan också att den ska ge tillräcklig bandbredd så att AEM Screens kan fungera smidigt och smidigt. I detalj beror&quot;tillräcklig&quot; på mängden anslutna AEM-skärmar och på hur andra konsumenter använder nätverket, till exempel smarttelefoner, surfplattor, kassörer, datorer eller Guest WIFI-nätverk.
+Prestandan för internetanslutningen är att den inte bara ska kunna nå nätverket, utan också att den ska ge tillräcklig bandbredd så att AEM Screens kan fungera smidigt och smidigt.
+
+*Tillräckligt* beroende på hur många anslutna AEM-skärmar som används och på hur andra användare i nätverket använder sig, till exempel smarttelefoner, surfplattor, kassörer, datorer eller WIFI-nätverk för gäster.
 
 >[!NOTE]
 >Alla enheter har samtidig åtkomst till internetanslutningen och bandbredden minskar vanligtvis linjärt när du lägger till fler konsumenter/datorer i nätverket.
@@ -83,9 +84,10 @@ AEM Screens ger användare av digitala signaturer en stor fördel. Den hämtar o
 För normal åtgärd, till exempel om du har definierat en spellista som inte ändras särskilt ofta under dagen, är detta en åtgärd som är nära nätverksoberoende när alla filer har sparats i spelaren.
 För de fall där det förekommer mer interaktion med sensorer eller andra utlösare och där innehållet är mycket dynamiskt är en snabb och tillförlitlig nätverksanslutning avgörande för en omedelbar skärmreaktion för att säkerställa bästa möjliga kundupplevelse.
 
-Följande tabell ger en översikt över data för nätverksanslutningsnyckel:
-
-![](/help/assets/download-times-direct.png)
+Följande tabell ger en översikt över data för nätverksanslutningsnycklar.
 
 >[!NOTE]
 >Med hjälp av informationen kan du visa förbrukningen för varje enhet i nätverket som begär och hämtar en Internetkälla. Var och en av dessa förfrågningar sammanfattar och förlänger hämtningstiden.
+
+![](/help/assets/download-times-direct.png)
+
