@@ -2,7 +2,7 @@
 title: Direktåtkomst till Internet
 description: Direktåtkomst till Internet
 translation-type: tm+mt
-source-git-commit: e24fa2fbec09cbe863a3615e722ae61b57da5012
+source-git-commit: 6d6637d5222e861fa9a83f555baf0699f56f150a
 workflow-type: tm+mt
 source-wordcount: '716'
 ht-degree: 0%
@@ -72,7 +72,7 @@ Prestandan för internetanslutningen är att den inte bara ska kunna nå nätver
 Prestandan hos LAN (Local Area Network) ger, förutom nätverksnåbarheten, tillräcklig bandbredd för att AEM Screens ska fungera smidigt och smidigt.
 
 LAN-nätverket matchar vanligtvis minst ett 100 MBit/sek-nätverk, så att det finns tillräckligt med bandbredd för att ansluta många enheter med bra prestanda till systemet.
-Om en WIFI-lösning planeras för att ansluta AEM Screens till Internet Link bör man använda moderna WIFI-standarder som IEEE 802.11g som minimum. Den här standarden stöder anslutningar upp till 54 Mbit. Alla *nyare* standarder som 802.11h-n har bättre kvalitet.
+Om en WIFI-lösning planeras för att ansluta AEM Screens till Internet Link bör man använda moderna WIFI-standarder som IEEE 802.11g som minimum. Den här standarden stöder anslutningar på upp till 54 Mbit/s. Alla *nyare* standarder som 802.11h-n har bättre kvalitet.
 
 >[!NOTE]
 >Om en WIFI-repeater krävs rekommenderar vi starkt åtkomstpunktstekniker för Mesh WIFI som Google Nest Mesh WIFI eller liknande. Andra WiFi-upprepande tekniker leder till en enorm förlust av bandbredd i hela nätverket.
