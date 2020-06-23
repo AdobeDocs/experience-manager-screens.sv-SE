@@ -4,15 +4,15 @@ seo-title: Introduktion till standardnätverksinställningar
 description: Sidan beskriver standardnätverksinställningar
 seo-description: Sidan beskriver standardnätverksinställningar
 translation-type: tm+mt
-source-git-commit: 6d6637d5222e861fa9a83f555baf0699f56f150a
+source-git-commit: ae7da9c48188c3f7567d05d0e9a5a6b72383d539
 workflow-type: tm+mt
-source-wordcount: '459'
+source-wordcount: '458'
 ht-degree: 0%
 
 ---
 
 
-# Introduktion till standardnätverksinställningar {#intro-standard-networks}
+# Hantera nätverkstrafik {#managing-network-traffic}
 
 En nätverksinställning kan ha olika strukturer. I det här avsnittet finns en översikt över nätverksstrukturerna som distribueras i en miljö. Det finns olika inställningar som ibland implementeras från början.
 
@@ -27,7 +27,7 @@ En proxyserver är en dedikerad dator eller ett programvarusystem som körs på 
 
 En fördel med en proxyserver är att dess cache kan användas av alla användare. Om en eller flera webbplatser ofta efterfrågas finns de förmodligen i proxyns cacheminne, vilket förbättrar användarens svarstid. En proxy kan också logga interaktionen, vilket kan vara praktiskt vid felsökning.
 
-## Om nätverksinställningarna {#network-setups}
+## Förstå standardnätverksinställningarna {#network-setups}
 
 Om du vill implementera en nätverkskonfiguration måste du följa följande scenarier med styrkor och distributionsinformation.
 
