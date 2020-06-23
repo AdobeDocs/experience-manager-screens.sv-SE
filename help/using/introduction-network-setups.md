@@ -4,9 +4,9 @@ seo-title: Introduktion till standardnätverksinställningar
 description: Sidan beskriver standardnätverksinställningar
 seo-description: Sidan beskriver standardnätverksinställningar
 translation-type: tm+mt
-source-git-commit: ae7da9c48188c3f7567d05d0e9a5a6b72383d539
+source-git-commit: 0be82fcc46166ec0613bd658a0caeab83bd72551
 workflow-type: tm+mt
-source-wordcount: '458'
+source-wordcount: '462'
 ht-degree: 0%
 
 ---
@@ -33,10 +33,10 @@ Om du vill implementera en nätverkskonfiguration måste du följa följande sce
 
 Det finns tre huvudtyper av nätverksinställningar:
 
-1. [Direktåtkomst till Internet](/help/using/direct-internet-access.md)
-1. [Direkt mobilnätverk](/help/using/mobile-network-setup.md)
-1. [Mobilnätverk med mobil datarouter och aktiva nätverkskomponenter](/help/using/mobile-network-setup-router.md)
-1. [Enclosed Corporate Network](/help/using/enclosed-corporate-network.md)
+1. [Direkt Internet-nätverk (trådlöst/trådlöst)](/help/using/direct-internet-network.md)
+1. [Direkt mobilnätverk](/help/using/mobile-network.md)
+1. [Mobilnätverk med mobil datarouter och aktiva nätverkskomponenter](/help/using/mobile-network-router.md)
+1. [Enclosed Corporate Network (Wired/Wireless)](/help/using/enclosed-corporate-network.md)
 
 I följande tabell visas de olika typerna av nätverksinställningar med fördelar och nackdelar:
 
