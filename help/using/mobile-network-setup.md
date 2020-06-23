@@ -2,9 +2,9 @@
 title: Direkt mobilnätverk
 description: Sidan beskriver Direct Mobile Network Setup
 translation-type: tm+mt
-source-git-commit: 0b1106b3cf7f83857f83e43f773a0d19556cfec5
+source-git-commit: 6d6637d5222e861fa9a83f555baf0699f56f150a
 workflow-type: tm+mt
-source-wordcount: '951'
+source-wordcount: '869'
 ht-degree: 0%
 
 ---
@@ -38,7 +38,7 @@ Följ stegen nedan för att ansluta AEM Screen-spelare i den här konfiguratione
 
 1. Kontrollera att nätverkskortsinställningen matchar routerinställningen.
 1. Kontrollera om routern är korrekt ansluten till ISP Wide Area Network (Internet Link). Detta kan vanligtvis också identifieras med en Signal LED på standardroutrar.
-1. Om allt ovanstående är korrekt konfigurerat och ett felmeddelande fortfarande visas, bör du kontrollera dina aktiva nätverkskomponenter som switchar eller ytterligare routrar om det finns någon portbegränsning.
+
 1. Om URL-anropet lyckas kan du fortsätta installera AEM Screens och registrera det därefter. Starta AEM Screens.
 
    >[!NOTE]
@@ -60,30 +60,51 @@ Nätverksinstallationen kan logiskt separeras i två block:
 
 ### Mobil Internetanslutning {#mobile-internet-connection}
 
-Prestandan hos Internet-anslutningen har, förutom att den redan beskrivna nätverksanslutningen är tillgänglig, gett tillräcklig bandbredd så att AEM Screens kan fungera smidigt och smidigt. I detalj beror&quot;tillräcklig&quot; på mängden anslutna AEM-skärmar och på hur andra konsumenter använder nätverket, till exempel smarttelefoner, surfplattor, kassörer, datorer eller Guest Wifi-nätverk.
-Tänk på att alla enheter har samtidig åtkomst till Internet och att bandbredden vanligtvis minskar linjärt samtidigt som fler konsumenter/datorer läggs till i nätverket.
+Prestandan för Internet-anslutningen ger inte bara tillräcklig bandbredd för att AEM Screens ska fungera smidigt och smidigt.
+
+*Tillräckligt* beroende på hur många anslutna AEM-skärmar som används och på hur andra användare i nätverket använder sig, till exempel smarttelefoner, surfplattor, kassörer, datorer eller WIFI-nätverk för gäster.
+Tänk på att alla enheter har samtidig åtkomst till Internet och att bandbredden vanligtvis minskar linjärt samtidigt som fler användare/datorer läggs till i nätverket.
 Förutom den specifika teoretiska nätverksanslutningen måste man se till att den mobila routerns täckning är åtminstone&quot;god&quot; (se din mobilrouterhandbok). Dessutom måste den underliggande månadsplanen täcka in tillräckligt med datakapacitet och tillräcklig bandbredd för att alla anslutna klienter ska kunna betjäna det anslutna nätverket.
-Datanätverken har en standardbandbredd på cirka. upp till:
-・ 3Go 42 Mbit/s ・ 4Go 150 Mbit/sek ・ 5Go 1000Mbit/sek-10000Mbit/sekNär du funderar på vilket datanätverk som ska användas bör du svara på följande frågor:
-・ Hur många klienter är anslutna till routern?
-・ Hur många innehållsändringar kan jag förvänta mig och vilka är de genomsnittliga filstorlekarna?
-Som en uppföljning måste det nödvändiga datapaketet vara minst:
-Datapaketkapacitet = antal klienter * (# av innehållsfiler * genomsnittlig filstorlek)Kontrollera att det finns tillräckligt med buffert.
-Obs! För inledande överföring av mediefiler, t.ex. genom integrering av nya spelare, måste en större mängd data och en ökad hämtningstid förväntas och återspeglas i ovanstående antaganden.
-En tumregel är att ett 4G-nätverk med&quot;bra&quot; täckning och obegränsade data bör matcha de vanligaste installationerna i den här nätverksinstallationen
+
+Datanätverken ger standardbandbredd med:
+
+**3G**
+* 42 Mbit/s
+
+**4G**
+* 150 Mbit/s
+
+**5G**
+* 1000 Mbit/s-10000 Mbit/s
+
+När du överväger vilket datanätverk som ska användas bör du svara på följande frågor:
+
+* Hur många klienter är anslutna till routern?
+
+* Hur många innehållsändringar som förväntas och vilka är de genomsnittliga filstorlekarna?
+
+>[!NOTE]
+>Datapaketet måste vara minst:
+`Data Package Capacity = # of Clients * (# of Content Files * Average File Size)`
+
+>[!IMPORTANT]
+>Se till att det finns tillräckligt med buffert.
+>För inledande överföring av mediefiler, t.ex. genom integrering av nya spelare, måste en större mängd data och en ökad hämtningstid förväntas och återspeglas i ovanstående antaganden.Ett 4G-nätverk med *bra* täckning och *obegränsade* data bör matcha de vanligaste installationerna i den här nätverksinstallationen.
 
 
 ### Lokalt nätverk {#lan-connection}
 
-LAN-nätverkets prestanda har, förutom den redan beskrivna nätverkets nåbarhet, även gett tillräckligt med band för att fungera smidigt och smidigt med AEM Screens. Under dessa dagar matchar LAN-nätverket vanligtvis minst ett 100 MBit/sek-nätverk, så att det ska finnas tillräckligt med band för att ansluta många enheter med bra prestanda till systemet. När du använder en annan aktiv nätverkskomponent är det obligatoriskt att alla dessa stämmer överens med kraven för nätverksbandbredden. Nätverkskomponenterna bör t.ex. minst motsvara standarden 100 Mbit/s och motsvara det band som anges i specifikationen Internet Access/Router.
+LAN-nätverkets prestanda har, utöver den redan beskrivna nätverkets nåbarhet, gett tillräcklig bandbredd så att AEM Screens kan fungera smidigt och smidigt. Under dessa dagar matchar LAN-nätverket vanligtvis minst ett 100 Mbit/s-nätverk, så att det bör finnas tillräcklig bandbredd för att ansluta många enheter med bra prestanda till systemet. När du använder en annan aktiv nätverkskomponent är det obligatoriskt att alla dessa stämmer överens med kraven för nätverkets bandbredd. Nätverkskomponenterna bör till exempel minst matcha 100 Mbit/s-standarden och matcha den bandbredd som anges i specifikationen Internet Access/Router.
 
 ## Hämta media och resurser {#download}
 
-AEM Screens har stora fördelar för användare av digitala signaturer. Hämtar och sparar alla nödvändiga mediefiler lokalt, till exempel bilder och video. På grund av detta koncept uppstår den största nätverkstrafiken om det finns nytt innehåll som ska visas på en viss skärm.
-För normal drift, t.ex. när du har definierat en spellista som inte ändras särskilt ofta under dagen, är detta en åtgärd som är nära nätverksoberoende när alla filer har sparats i spelaren.
+AEM Screens ger användare av digitala signaturer en stor fördel. Den hämtar och sparar alla nödvändiga mediefiler lokalt, som bilder och video. På grund av detta koncept inträffar den största nätverkstrafiken om det finns nytt innehåll som ska visas på en viss skärm.
+För normal åtgärd, till exempel en definierad spellista som inte ändras särskilt ofta under dagen, är detta en åtgärd som är nära nätverksoberoende när alla filer har sparats i spelaren.
 För de fall där det förekommer mer interaktion med sensorer eller andra utlösare och där innehållet är mycket dynamiskt är en snabb och tillförlitlig nätverksanslutning avgörande för en omedelbar skärmreaktion för att säkerställa bästa möjliga kundupplevelse.
-Tabellerna nedan ger en god översikt över vilka data för nätverksanslutningsnyckel som krävs för prestanda som kan förväntas och möjliga väntetider.
-All information ska ses som förbrukningen av varje enhet i nätverket som begär och hämtar en Internetkälla. Var och en av dessa förfrågningar sammanfattar och förlänger hämtningstiden.
+
+I följande tabell visas en översikt över vilka data för nätverksanslutningsnyckel som kan användas för prestanda som kan förväntas och möjliga väntetider.
+>[!NOTE]
+>All information avser förbrukningen av varje enhet i nätverket som begär och hämtar en Internetkälla. Var och en av dessa förfrågningar sammanfattar och förlänger hämtningstiden.
 
 ![](/help/using/assets/download-times-mobile.png)
 
