@@ -2,9 +2,9 @@
 title: Direkt mobilnätverk
 description: Sidan beskriver Direct Mobile Network Setup
 translation-type: tm+mt
-source-git-commit: 6d6637d5222e861fa9a83f555baf0699f56f150a
+source-git-commit: 70dddffd46ebf1bd83b25515be548bc442e45fea
 workflow-type: tm+mt
-source-wordcount: '869'
+source-wordcount: '868'
 ht-degree: 0%
 
 ---
@@ -37,7 +37,8 @@ Följ stegen nedan för att ansluta AEM Screen-spelare i den här konfiguratione
 
 
 1. Kontrollera att nätverkskortsinställningen matchar routerinställningen.
-1. Kontrollera om routern är korrekt ansluten till ISP Wide Area Network (Internet Link). Detta kan vanligtvis också identifieras med en Signal LED på standardroutrar.
+
+1. Kontrollera om routern är korrekt ansluten till Internet Wide Area Network (Internet Link). Detta kan också identifieras med en signallampa på standardroutrar.
 
 1. Om URL-anropet lyckas kan du fortsätta installera AEM Screens och registrera det därefter. Starta AEM Screens.
 
