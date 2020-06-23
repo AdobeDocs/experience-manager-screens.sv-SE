@@ -2,15 +2,15 @@
 title: Enclosed Corporate Network
 description: Enclosed Corporate Network
 translation-type: tm+mt
-source-git-commit: 70dddffd46ebf1bd83b25515be548bc442e45fea
+source-git-commit: 0be82fcc46166ec0613bd658a0caeab83bd72551
 workflow-type: tm+mt
-source-wordcount: '569'
+source-wordcount: '571'
 ht-degree: 0%
 
 ---
 
 
-# Närstående företagsnätverk {#enclosed-corporate-networks}
+# Enclosed Corporate Networks (Wired/Wireless) {#enclosed-corporate-networks}
 
 Enclosed Corporate Network SetUp kan användas för mindre, större och större företag. Den kan vara teoretiskt mer komplex, men den logiska inställningen visas i figuren nedan.
 
