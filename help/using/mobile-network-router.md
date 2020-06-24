@@ -2,9 +2,9 @@
 title: Mobilnätverk med mobil datarouter och aktiva nätverkskomponenter
 description: Sidan beskriver mobilnätverk med Mobile Data Router och Active Network Components
 translation-type: tm+mt
-source-git-commit: 0be82fcc46166ec0613bd658a0caeab83bd72551
+source-git-commit: 8e62b3fc4ce324e02aaec6fca9df79b1aaf94d72
 workflow-type: tm+mt
-source-wordcount: '1005'
+source-wordcount: '1029'
 ht-degree: 0%
 
 ---
@@ -13,10 +13,13 @@ ht-degree: 0%
 # Mobilnätverk med mobil datarouter och aktiva nätverkskomponenter {#mobile-network-setup}
 
 Adobe AEM Screens-spelare kan också anslutas via mobilnätverk eller mobilnätverk som kör minst ett 3G-nätverk.
+
 Inom AEM Screens hämtas det nödvändiga innehållet fysiskt till spelarstyrenheten eller datorn och lagras korrekt i det underliggande operativsystemet. Den angivna bandbredden påverkar därför bara de inledande hämtningstiderna och påverkar inte Display Systems prestanda alls.
 
 Fördelen med den här installationen är att mobilroutern kan placeras på en optimerad plats för att få bästa möjliga nätverkstäckning. Detta är vanligtvis i upphöjt och öppet läge med så lite omgivande betong eller metallkonstruktion som möjligt.
-Denna SetUp ger AEM Screen Users stor flexibilitet eftersom det inte krävs någon fasta linje för att ansluta AEM Screens.
+Denna SetUp ger AEM Screen-användare flexibilitet eftersom det inte krävs någon fasta linje för att ansluta till AEM Screens.
+
+I följande diagram visas Mobile Network with Mobile Data Router and Active Network Components configuration and contains an Internet Access of any of the AEM Screens controller by direct Internet Access using an own 3/4/5G Data Link.
 
 ![](/help/using/assets/mobile-network-1.png)
 
@@ -25,7 +28,6 @@ Denna SetUp ger AEM Screen Users stor flexibilitet eftersom det inte krävs någ
 Följ stegen nedan för att ansluta AEM Screen-spelare i den här konfigurationen:
 
 Konfigurationen innehåller en Internet-åtkomst för någon av AEM Screens-styrenheterna via direkt Internet-åtkomst med en egen 3/4/5G-datalänk.
-Det är enkelt att ansluta AEM Screen-spelarna i den här konfigurationen:
 
 1. Kontrollera att mobildataroutern är korrekt ansluten till det mobila datanätverket enligt operativsystemets anvisningar och att alla AEM-skärmspelare är anslutna till routernätverket.
 1. Testa internetanslutningen genom att ringa en URL i systemwebbläsaren.
@@ -94,12 +96,13 @@ När du överväger vilket datanätverk som ska användas bör du svara på föl
 LAN-nätverkets prestanda har, utöver den redan beskrivna nätverkets nåbarhet, gett tillräcklig bandbredd så att AEM Screens kan fungera smidigt och smidigt. Under dessa dagar matchar LAN-nätverket vanligtvis minst ett 100 Mbit/s-nätverk, så att det bör finnas tillräcklig bandbredd för att ansluta många enheter med bra prestanda till systemet. När du använder en annan aktiv nätverkskomponent är det obligatoriskt att alla dessa stämmer överens med kraven för nätverkets bandbredd.
 
 Nätverkskomponenterna bör till exempel minst matcha 100 Mbit/s-standarden och matcha den bandbredd som anges i specifikationen Internet Access/Router.
+
 Om en WIFI-lösning planeras för att ansluta skärmen till Internet Link bör du använda moderna WIFI-standarder som IEEE 802.11g som minimum. Den här standarden stöder anslutningar på upp till 54 Mbit/s. Alla *nyare* standarder som 802.11h-n har bättre kvalitet. Om en WIFI-repeater krävs rekommenderar vi starkt åtkomstpunktstekniker för Mesh WIFI som Google Nest Mesh WIFI eller liknande.
 
 ## Hämta media och resurser {#download}
 
 AEM Screens ger användare av digitala signaturer en stor fördel. Den hämtar och sparar alla nödvändiga mediefiler lokalt, som bilder och video. På grund av detta koncept uppstår den största nätverkstrafiken om det finns nytt innehåll som ska visas på en viss skärm.
-För normal drift, t.ex. när du har definierat en spellista som inte ändras särskilt ofta under dagen, är detta en åtgärd som är nära nätverksoberoende när alla filer har sparats i spelaren.
+För normal drift, t.ex. när du har definierat en spellista som inte uppdateras så ofta under dagen, är detta en åtgärd som är nära nätverksoberoende när alla filer har sparats i spelaren.
 För de fall där det förekommer mer interaktion med sensorer eller andra utlösare och där innehållet är mycket dynamiskt är en snabb och tillförlitlig nätverksanslutning avgörande för en omedelbar skärmreaktion för att säkerställa bästa möjliga kundupplevelse.
 Tabellerna nedan ger en god översikt över vilka data för nätverksanslutningsnyckel som krävs för prestanda som kan förväntas och möjliga väntetider.
 
