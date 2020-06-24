@@ -2,9 +2,9 @@
 title: Enclosed Corporate Network
 description: Enclosed Corporate Network
 translation-type: tm+mt
-source-git-commit: 0be82fcc46166ec0613bd658a0caeab83bd72551
+source-git-commit: 8e62b3fc4ce324e02aaec6fca9df79b1aaf94d72
 workflow-type: tm+mt
-source-wordcount: '571'
+source-wordcount: '566'
 ht-degree: 0%
 
 ---
@@ -41,9 +41,10 @@ Nätverkskomponenterna bör till exempel minst matcha 1000 Mbit/s standard och m
 
 ### Specifikationer för andra företagsnätverk {#other-networks}
 
-Vanligtvis har företagsnätverk anslutna enheter, kan delas upp i olika undernätverk och kan ha redundanta eller multiplexade internetanslutningar för att ge tillräcklig prestanda för många tusen samtidiga åtkomster.
-Ovanstående schema är förenklat och passar i de flesta fall den miljö som är tillgänglig för klienten.
-Om en WiFI-lösning planeras att ansluta skärmen till Internet Link rekommenderar vi att du använder moderna WIFI-standarder som IEEE 802.11g som minimum. Den här standarden stöder anslutningar på upp till 54 Mbit/s. Alla &quot;nyare&quot; standarder som 802.11h-n har bättre kvalitet. Om en WIFI-repeater krävs rekommenderar vi starkt åtkomstpunktstekniker för Mesh WIFI som Google Nest Mesh WIFI eller liknande.
+Vanligtvis har företagsnätverk en mängd anslutna enheter, kan delas upp i olika undernätverk och kan ha redundanta eller multiplexade internetanslutningar för att ge tillräcklig prestanda för många tusen samtidiga åtkomster.
+Det här schemat är förenklat och passar i de flesta fall den miljö som är tillgänglig för klienten.
+
+Om en WIFI-lösning planeras för att ansluta skärmen till Internet Link rekommenderar vi att man använder moderna WIFI-standarder som `IEEE 802.11g` ett minimum. Den här standarden stöder anslutningar på upp till 54 Mbit/s. Alla *nyare* standarder som `802.11h-n` är av bättre kvalitet. Om en WIFI-repeater krävs rekommenderar vi starkt åtkomstpunktstekniker för Mesh WIFI som Google Nest Mesh WIFI eller liknande.
 Andra WiFi-upprepande tekniker leder till en enorm förlust av bandbredd i hela nätverket.
 
 ## Hämta media och resurser {#download}
