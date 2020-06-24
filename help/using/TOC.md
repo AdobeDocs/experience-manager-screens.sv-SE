@@ -5,9 +5,9 @@ getting-started-title: Guide till bästa praxis för AEM Screens
 product: experience manager
 audience: end-user
 translation-type: tm+mt
-source-git-commit: 14334261ae572f31754b5dba230b53717cd46626
+source-git-commit: 0a7aa7ea477cd1acbe8adfe31760be1bc4236c17
 workflow-type: tm+mt
-source-wordcount: '130'
+source-wordcount: '133'
 ht-degree: 1%
 
 ---
@@ -37,6 +37,7 @@ ht-degree: 1%
    + [AEM Platform Configurations](aem-platform-configurations.md)
    + [Projekttaxonomi och -implementering](project-taxonomy-implementation.md)
    + Nätverkstrafikhantering {#manage-network-traffic}
+      + [Hantera nätverkstrafik](/help/using/managing-network-traffic.md)
       + [Direkt Internet-nätverk (trådlöst/trådlöst)](/help/using/direct-internet-network.md)
       + [Direkt mobilnätverk](/help/using/mobile-network.md)
       + [Mobilnätverk med mobil datarouter och aktiva nätverkskomponenter](/help/using/mobile-network-router.md)
