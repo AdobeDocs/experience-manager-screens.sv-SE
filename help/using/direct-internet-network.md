@@ -2,7 +2,7 @@
 title: Direktåtkomst till Internet
 description: Direktåtkomst till Internet
 translation-type: tm+mt
-source-git-commit: 6afb71bd969ccfde91c2172ceb2d2f76645c7df1
+source-git-commit: ed683a86b7e8c6ec06309577bd0a8690a9cc4684
 workflow-type: tm+mt
 source-wordcount: '688'
 ht-degree: 0%
@@ -24,7 +24,7 @@ Portarna kan variera beroende på konfigurationen av din dedikerade AEM-konfigur
 
 ![](/help/assets/direct-access-2.png)
 
-I konfigurationen ingår även Internet-åtkomst från alla Internet-leverantörer (ISP) och dess Internet-linje. De flesta Internet-leverantörer tillhandahåller en Internetrouter som omfattar Internet-modem, nätverksswitchen, WIFI-åtkomstpunkten, brandväggen och andra nätverksfunktioner (beroende på tillverkare och modell).
+I konfigurationen ingår även Internet-åtkomst från alla Internet-leverantörer (ISP) och dess Internet-linje. De flesta Internet-leverantörer tillhandahåller en Internetrouter som omfattar Internet-modem, nätverksswitchen, Wi-Fi-åtkomstpunkten, brandväggen och andra nätverksfunktioner (beroende på tillverkare och modell).
 
 ## Ansluta AEM Screens Player till Direct Internet Access {#connecting-aem-screens-players}
 
@@ -64,7 +64,7 @@ Direct Internet Network är logiskt uppdelat i två block:
 
 Utöver att nätverksanslutningen kan nås på Internet ska den tillhandahålla tillräcklig bandbredd för att AEM Screens ska fungera.
 
-*Tillräckligt* beror på antalet anslutna AEM-skärmar och på hur andra konsumenter använder nätverket, till exempel smarttelefoner, surfplattor, kassörer, datorer eller WIFI-gäster.
+*Tillräckligt* beroende på antalet anslutna AEM-skärmar och på hur andra konsumenter använder nätverket, till exempel smarttelefoner, surfplattor, kassörer, datorer eller Wi-Fi-gäster.
 
 >[!NOTE]
 >Alla enheter som nämns ovan har samtidig åtkomst till Internet-anslutningen och bandbredden minskar linjärt när du lägger till fler konsumenter eller datorer i nätverket.
@@ -74,10 +74,10 @@ Utöver att nätverksanslutningen kan nås på Internet ska den tillhandahålla 
 Prestandan för det lokala nätverket (LAN), förutom att nätverket är tillgängligt, ger tillräcklig bandbredd för att köra AEM Screens.
 
 LAN-nätverket matchar vanligtvis minst ett 100 Mbit/s-nätverk, så att det finns tillräckligt med bandbredd för att ansluta många enheter med bra prestanda till systemet.
-Om en WIFI-lösning planeras för att ansluta AEM Screens till Internet Link rekommenderar vi att man använder moderna WIFI-standarder som `IEEE 802.11g` ett minimum. Den här standarden stöder anslutningar på upp till 54 Mbit/s. Alla *nyare* standarder som `802.11h-n` är av bättre kvalitet.
+Om en Wi-Fi-lösning planeras för att ansluta AEM Screens till Internet Link rekommenderar vi att man använder moderna Wi-Fi-standarder som `IEEE 802.11g` ett minimum. Den här standarden stöder anslutningar på upp till 54 Mbit/s. Alla *nyare* standarder som `802.11h-n` är av bättre kvalitet.
 
 >[!NOTE]
->Om en WIFI-repeater krävs rekommenderar vi en Mesh WIFI-åtkomstpunkt som Google Nest Mesh WIFI eller liknande. Andra WiFi-upprepande tekniker slutar med en enorm förlust av bandbredd i hela nätverket.
+>Om en Wi-Fi Repeater krävs rekommenderas en trådlös nätanslutningspunkt som Google Nest Mesh Wi-Fi eller liknande. Andra Wi-Fi-upprepande tekniker slutar med en enorm förlust av bandbredd i hela nätverket.
 
 ## Hämta media och resurser {#download}
 
