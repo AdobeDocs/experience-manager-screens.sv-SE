@@ -2,9 +2,9 @@
 title: Direktåtkomst till Internet
 description: Direktåtkomst till Internet
 translation-type: tm+mt
-source-git-commit: ed683a86b7e8c6ec06309577bd0a8690a9cc4684
+source-git-commit: d12de8de2b7bb29d85ebb0e046f2d1fd5051e928
 workflow-type: tm+mt
-source-wordcount: '688'
+source-wordcount: '686'
 ht-degree: 0%
 
 ---
@@ -52,7 +52,7 @@ Följ stegen nedan för att säkerställa att AEM Screen-spelarna är korrekt an
    >1. Kontrollera att alla portar som krävs tillåts.
 
 
-## Krav för konfiguration av Direct Access Network {#requirements-direct}
+## Konfigurera Direct Access Network {#requirements-direct}
 
 Direct Internet Network är logiskt uppdelat i två block:
 
