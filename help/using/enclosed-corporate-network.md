@@ -2,9 +2,9 @@
 title: Enclosed Corporate Network
 description: Enclosed Corporate Network
 translation-type: tm+mt
-source-git-commit: eaeea4933be708beca0628438e6cef6142a0490f
+source-git-commit: d12de8de2b7bb29d85ebb0e046f2d1fd5051e928
 workflow-type: tm+mt
-source-wordcount: '710'
+source-wordcount: '708'
 ht-degree: 0%
 
 ---
@@ -43,7 +43,7 @@ Följ stegen nedan för att säkerställa att AEM Screen-spelarna är korrekt an
    >1. Kontrollera att alla portar som krävs tillåts.
 
 
-## Krav för konfiguration av företagsnätverk {#requirements-enclosed-networks}
+## Konfigurera anslutna företagsnätverk {#requirements-enclosed-networks}
 
 Enclosed Corporate Network Setup kan separeras logiskt i två block:
 
