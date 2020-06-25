@@ -2,9 +2,9 @@
 title: Direkt mobilnätverk
 description: Sidan beskriver Direct Mobile Network Setup
 translation-type: tm+mt
-source-git-commit: ed683a86b7e8c6ec06309577bd0a8690a9cc4684
+source-git-commit: d12de8de2b7bb29d85ebb0e046f2d1fd5051e928
 workflow-type: tm+mt
-source-wordcount: '828'
+source-wordcount: '826'
 ht-degree: 0%
 
 ---
@@ -37,7 +37,7 @@ Följ stegen nedan för att säkerställa att AEM Screen-spelarna är korrekt an
 
 1. Om URL-anropet lyckas kan du fortsätta installera AEM Screens och registrera dig. Starta AEM Screens.
 
-## Krav för konfiguration av mobilt nätverk {#requirements-direct}
+## Konfigurera Direct Mobile Network {#requirements-direct}
 
 Nätverksinstallationen kan logiskt separeras i två block:
 
