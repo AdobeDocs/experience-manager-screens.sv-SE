@@ -2,9 +2,9 @@
 title: Enclosed Corporate Network
 description: Enclosed Corporate Network
 translation-type: tm+mt
-source-git-commit: ed683a86b7e8c6ec06309577bd0a8690a9cc4684
+source-git-commit: eaeea4933be708beca0628438e6cef6142a0490f
 workflow-type: tm+mt
-source-wordcount: '751'
+source-wordcount: '710'
 ht-degree: 0%
 
 ---
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Enclosed Corporate Networks (Wired/Wireless) {#enclosed-corporate-networks}
 
-Enclosed Corporate Network SetUp kan användas för mindre, större och större företag. Den kan vara teoretiskt mer komplex, men den logiska inställningen visas i figuren nedan.
+Enclosed Corporate Network SetUp är tillgängligt för mindre, större och större företag. Den kan vara teoretiskt mer komplex och den logiska inställningen visas i figuren nedan.
 
 ![](/help/using/assets/enclosed-network-1.png)
 
@@ -52,36 +52,39 @@ Enclosed Corporate Network Setup kan separeras logiskt i två block:
 
 ### Wide Area Network {#wan-connection}
 
-Utförandet av internetanslutningen, förutom nätverkets nåbarhet, är att ge tillräcklig bandbredd för att AEM Screens ska fungera smidigt och smidigt.
-*Tillräcklig bandbredd* beror på mängden anslutna AEM-skärmar och på hur andra användare använder nätverket, till exempel smarttelefoner, surfplattor, kassörer, datorer eller gästnätverk för Wi-Fi.
+Prestandan för internetanslutningen är att den ger tillräcklig bandbredd för att AEM Screens ska fungera smidigt och smidigt.
+*Tillräcklig bandbredd* beror på mängden anslutna AEM-skärmar och på hur andra användare använder nätverket, till exempel smarttelefoner, surfplattor, kassörer, datorer eller Wi-Fi-gäster.
 
 >[!NOTE]
->Alla enheter har samtidig åtkomst till internetanslutningen och bandbredden minskar vanligtvis linjärt när du lägger till fler konsumenter eller datorer i nätverket.
+>Alla enheter har samtidig åtkomst till internetanslutningen och bandbredden minskar linjärt när du lägger till fler konsumenter eller datorer i nätverket.
 
 ### Lokalt nätverk {#lan-connection}
 
-Prestandan hos LAN (Local Area Network) är, förutom att det är möjligt att nå nätverket, att tillhandahålla tillräcklig bandbredd för att fungera smidigt och smidigt med AEM Screens.
+Prestandan hos det lokala nätverket (LAN) har, förutom att det är möjligt att nå nätverket, även tillräcklig bandbredd för att AEM Screens ska fungera smidigt.
 
-På den tiden matchar LAN-nätverket inom företagsorganisationer vanligtvis minst ett 1 000 MBit/sek-nätverk, så att det bör finnas tillräcklig bandbredd för att ansluta många enheter med bra prestanda till systemet. När du använder andra aktiva nätverkskomponenter är det obligatoriskt att alla dessa stämmer överens med kraven för nätverksbandbredd.
+LAN-nätverket inom företagsorganisationer är vanligtvis minst 1 000 MB/sek-nätverk, så att det finns tillräckligt med bandbredd för att ansluta många enheter med bra prestanda till systemet. När du använder andra aktiva nätverkskomponenter är det obligatoriskt att alla dessa stämmer överens med kraven för nätverksbandbredd.
 
-Nätverkskomponenterna bör till exempel minst matcha 1000 Mbit/s standard och matcha den bandbredd som anges i specifikationen Internet Access/Router.
+Nätverkskomponenterna bör till exempel minst matcha 1000 Mbit/s-standarden och matcha den bandbredd som anges i specifikationen Internet-åtkomst/router.
 
 ### Specifikationer för andra företagsnätverk {#other-networks}
 
-Vanligtvis har företagsnätverk en mängd anslutna enheter, kan delas upp i olika undernätverk och kan ha redundanta eller multiplexade internetanslutningar för att ge tillräcklig prestanda för många tusen samtidiga åtkomster.
-Det här schemat är förenklat och passar i de flesta fall den miljö som är tillgänglig för klienten.
+Företagsnätverk har ett antal anslutna enheter, är indelade i olika undernätverk och har redundanta eller multiplexade internetanslutningar för att ge tillräcklig prestanda för många tusen samtidiga åtkomster.
+Det här schemat är förenklat och passar de flesta miljöer som är tillgängliga för klienten.
 
-Om en Wi-Fi-lösning planeras för att ansluta skärmen till Internet Link rekommenderar vi att du använder moderna Wi-Fi-standarder som `IEEE 802.11g` ett minimum. Den här standarden stöder anslutningar på upp till 54 Mbit/s. Alla *nyare* standarder som `802.11h-n` är av bättre kvalitet. Om en Wi-Fi Repeater krävs rekommenderar vi starkt trådlös nätanslutningspunktsteknik som Google Nest Mesh Wi-Fi eller liknande.
-Andra Wi-Fi-upprepande tekniker leder till en enorm förlust av bandbredd i hela nätverket.
+Om en Wi-Fi-lösning planeras för att ansluta skärmar till Internet Link rekommenderar vi att du använder moderna Wi-Fi-standarder som `IEEE 802.11g` ett minimum. Denna standard stöder anslutningar upp till 54 Mbit/s. Alla *nyare* standarder som `802.11h-n` är av bättre kvalitet. Om en Wi-Fi Repeater krävs rekommenderar vi starkt åtkomstpunktsteknologier som Google Nest Mesh Wi-Fi eller liknande.
+Andra Wi-Fi-upprepande tekniker slutar med en enorm förlust av bandbredd i hela nätverket.
 
 ## Hämta media och resurser {#download}
 
-AEM Screens har stora fördelar för användare av digitala signaturer. Hämtar och sparar alla nödvändiga mediefiler lokalt, till exempel bilder och video. På grund av detta koncept uppstår den största nätverkstrafiken om det finns nytt innehåll som ska visas på en viss skärm.
-För normal drift, t.ex. när du har definierat en spellista som inte ändras särskilt ofta under dagen, är detta en åtgärd som är nära nätverksoberoende när alla filer har sparats i spelaren. För de fall där det förekommer mer interaktion med sensorer eller andra utlösare och där innehållet är mycket dynamiskt är en snabb och tillförlitlig nätverksanslutning avgörande för en omedelbar skärmreaktion för att säkerställa bästa möjliga kundupplevelse.
+AEM Screens ger användare av digitala signaturer en stor fördel. Den hämtar och sparar alla nödvändiga mediefiler lokalt, till exempel bilder och videor. Den största nätverkstrafiken inträffar när det finns nytt innehåll som ska visas på en viss skärm.
 
-Tabellerna nedan ger en god översikt över vilka data för nätverksanslutningsnyckel som krävs för prestanda som kan förväntas och möjliga väntetider.
+För vanliga åtgärder, till exempel, är en definierad spellista som uppdateras ofta under dagen en åtgärd som är nära nätverksoberoende när alla filer har sparats i spelaren.
+
+För scenarier där det förekommer mer interaktion med sensorer eller utlösare och dynamiskt innehåll är en snabb och tillförlitlig nätverksanslutning avgörande för en omedelbar skärmreaktion som säkerställer bästa möjliga kundupplevelse.
+
+Följande tabell ger en översikt över data för nätverksanslutningsnycklar.
 
 >[!NOTE]
->All information ska ses som förbrukningen av varje enhet i nätverket som begär och hämtar en Internetkälla. Var och en av dessa förfrågningar sammanfattar och förlänger hämtningstiden.
+>Med hjälp av informationen kan du visa förbrukningen för varje enhet i nätverket som begär och hämtar en Internetkälla. Var och en av dessa förfrågningar sammanfattar och förlänger hämtningstiden.
 
 ![](/help/using/assets/enclosed-network-download.png)
