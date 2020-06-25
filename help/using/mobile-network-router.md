@@ -2,9 +2,9 @@
 title: Mobilnätverk med mobil datarouter och aktiva nätverkskomponenter
 description: Sidan beskriver mobilnätverk med Mobile Data Router och Active Network Components
 translation-type: tm+mt
-source-git-commit: ed683a86b7e8c6ec06309577bd0a8690a9cc4684
+source-git-commit: d12de8de2b7bb29d85ebb0e046f2d1fd5051e928
 workflow-type: tm+mt
-source-wordcount: '1025'
+source-wordcount: '1023'
 ht-degree: 0%
 
 ---
@@ -50,7 +50,7 @@ Konfigurationen innehåller en Internet-åtkomst för någon av AEM Screens-styr
 
 
 
-## Krav för konfiguration av mobilt nätverk med mobildatarouter och aktiva nätverkskomponenter {#requirements-direct}
+## Konfigurera mobilnätverk med mobil datarouter och aktiva nätverkskomponenter {#requirements-direct}
 
 Nätverksinstallationen kan logiskt separeras i två block:
 
