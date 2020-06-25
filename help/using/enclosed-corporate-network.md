@@ -2,9 +2,9 @@
 title: Enclosed Corporate Network
 description: Enclosed Corporate Network
 translation-type: tm+mt
-source-git-commit: 8e62b3fc4ce324e02aaec6fca9df79b1aaf94d72
+source-git-commit: ed683a86b7e8c6ec06309577bd0a8690a9cc4684
 workflow-type: tm+mt
-source-wordcount: '566'
+source-wordcount: '751'
 ht-degree: 0%
 
 ---
@@ -16,6 +16,33 @@ Enclosed Corporate Network SetUp kan användas för mindre, större och större 
 
 ![](/help/using/assets/enclosed-network-1.png)
 
+
+## Ansluta AEM Screens Player till Direct Internet Access {#connecting-aem-screens-players}
+
+Följ stegen nedan för att säkerställa att AEM Screen-spelarna är korrekt anslutna i den här konfigurationen:
+
+1. Kontrollera att alla AEM Screen-spelare är anslutna till Routers Network.
+1. Testa internetanslutningen genom att ringa en URL i datorns webbläsare.
+
+   >[!NOTE]
+   >Om du får ett fel kontrollerar du nätverksinställningarna.Det finns i princip två alternativ för en korrekt nätverksanslutning:
+   >* DHCP
+   >* Manuell IP-konfiguration
+
+
+1. Kontrollera att nätverkskortsinställningen matchar routerinställningarna och kontrollera om det maximala antalet tillgängliga IP-adresser i nätverket inte nås.
+
+1. Kontrollera om routern är korrekt ansluten till Internet (Internet Link). Detta kan också identifieras med en signallampa på standardroutrar.
+1. Om URL-anropet lyckas kan du fortsätta installera AEM Screens och registrera dig. Starta AEM Screens.
+
+   >[!NOTE]
+   >**Felsökningstips**
+   >Om AEM Screens inte ansluter korrekt och det förväntade innehållet inte visas:
+   >
+   >1. Kontrollera brandväggen för Internet Router om det finns några begränsningar för `TCP/IP Port 80/443`.
+   >1. Kontrollera att alla portar som krävs tillåts.
+
+
 ## Krav för konfiguration av företagsnätverk {#requirements-enclosed-networks}
 
 Enclosed Corporate Network Setup kan separeras logiskt i två block:
@@ -26,7 +53,7 @@ Enclosed Corporate Network Setup kan separeras logiskt i två block:
 ### Wide Area Network {#wan-connection}
 
 Utförandet av internetanslutningen, förutom nätverkets nåbarhet, är att ge tillräcklig bandbredd för att AEM Screens ska fungera smidigt och smidigt.
-*Tillräcklig bandbredd* beror på mängden anslutna AEM-skärmar och på hur andra användare använder nätverket, till exempel smarttelefoner, surfplattor, kassörer, datorer eller WIFI-gästnätverk.
+*Tillräcklig bandbredd* beror på mängden anslutna AEM-skärmar och på hur andra användare använder nätverket, till exempel smarttelefoner, surfplattor, kassörer, datorer eller gästnätverk för Wi-Fi.
 
 >[!NOTE]
 >Alla enheter har samtidig åtkomst till internetanslutningen och bandbredden minskar vanligtvis linjärt när du lägger till fler konsumenter eller datorer i nätverket.
@@ -44,8 +71,8 @@ Nätverkskomponenterna bör till exempel minst matcha 1000 Mbit/s standard och m
 Vanligtvis har företagsnätverk en mängd anslutna enheter, kan delas upp i olika undernätverk och kan ha redundanta eller multiplexade internetanslutningar för att ge tillräcklig prestanda för många tusen samtidiga åtkomster.
 Det här schemat är förenklat och passar i de flesta fall den miljö som är tillgänglig för klienten.
 
-Om en WIFI-lösning planeras för att ansluta skärmen till Internet Link rekommenderar vi att man använder moderna WIFI-standarder som `IEEE 802.11g` ett minimum. Den här standarden stöder anslutningar på upp till 54 Mbit/s. Alla *nyare* standarder som `802.11h-n` är av bättre kvalitet. Om en WIFI-repeater krävs rekommenderar vi starkt åtkomstpunktstekniker för Mesh WIFI som Google Nest Mesh WIFI eller liknande.
-Andra WiFi-upprepande tekniker leder till en enorm förlust av bandbredd i hela nätverket.
+Om en Wi-Fi-lösning planeras för att ansluta skärmen till Internet Link rekommenderar vi att du använder moderna Wi-Fi-standarder som `IEEE 802.11g` ett minimum. Den här standarden stöder anslutningar på upp till 54 Mbit/s. Alla *nyare* standarder som `802.11h-n` är av bättre kvalitet. Om en Wi-Fi Repeater krävs rekommenderar vi starkt trådlös nätanslutningspunktsteknik som Google Nest Mesh Wi-Fi eller liknande.
+Andra Wi-Fi-upprepande tekniker leder till en enorm förlust av bandbredd i hela nätverket.
 
 ## Hämta media och resurser {#download}
 
