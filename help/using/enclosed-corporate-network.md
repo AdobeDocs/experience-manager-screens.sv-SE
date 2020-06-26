@@ -2,9 +2,9 @@
 title: Enclosed Corporate Network
 description: Enclosed Corporate Network
 translation-type: tm+mt
-source-git-commit: 768c40545907ab473d61a56367940cfbbf8f2dc9
+source-git-commit: 143036005bcaecf17e6b57f4e71a5e8a1b0cfe52
 workflow-type: tm+mt
-source-wordcount: '708'
+source-wordcount: '709'
 ht-degree: 0%
 
 ---
@@ -52,7 +52,7 @@ Enclosed Corporate Network Setup kan separeras logiskt i två block:
 
 ### Wide Area Network {#wan-connection}
 
-Prestandan för internetanslutningen är att den ger tillräcklig bandbredd för att AEM Screens ska fungera smidigt och smidigt.
+Prestandan för internetanslutningen måste, förutom att det går att nå nätverket, ge tillräcklig bandbredd för att AEM Screens ska kunna hantera uppdateringarna smidigt.
 *Tillräcklig bandbredd* beror på mängden anslutna AEM-skärmar och på hur andra användare använder nätverket, till exempel smarttelefoner, surfplattor, kassörer, datorer eller Wi-Fi-gäster.
 
 >[!NOTE]
@@ -60,11 +60,11 @@ Prestandan för internetanslutningen är att den ger tillräcklig bandbredd för
 
 ### Lokalt nätverk {#lan-connection}
 
-Prestandan hos det lokala nätverket (LAN) har, förutom att det är möjligt att nå nätverket, även tillräcklig bandbredd för att AEM Screens ska fungera smidigt.
+Prestandan för det lokala nätverket (LAN) måste, förutom att det går att nå nätverket, tillhandahålla tillräcklig bandbredd för att AEM Screens ska kunna hantera innehållsuppdateringar på ett smidigt sätt.
 
 LAN-nätverket inom företagsorganisationer är vanligtvis minst 1 000 MB/sek-nätverk, så att det finns tillräckligt med bandbredd för att ansluta många enheter med bra prestanda till systemet. När du använder andra aktiva nätverkskomponenter är det obligatoriskt att alla dessa stämmer överens med kraven för nätverksbandbredd.
 
-Nätverkskomponenterna bör till exempel minst matcha 1000 Mbit/s-standarden och matcha den bandbredd som anges i specifikationen Internet-åtkomst/router.
+Nätverkskomponenterna bör till exempel minst matcha 100 Mbit/s-standarden och matcha den bandbredd som anges i specifikationen Internet-åtkomst/router.
 
 ### Specifikationer för andra företagsnätverk {#other-networks}
 
