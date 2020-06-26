@@ -2,9 +2,9 @@
 title: Mobilnätverk med mobil datarouter och aktiva nätverkskomponenter
 description: Sidan beskriver mobilnätverk med Mobile Data Router och Active Network Components
 translation-type: tm+mt
-source-git-commit: d12de8de2b7bb29d85ebb0e046f2d1fd5051e928
+source-git-commit: ec8af4e49694937a79ccbd78d51569f1031ca251
 workflow-type: tm+mt
-source-wordcount: '1023'
+source-wordcount: '1033'
 ht-degree: 0%
 
 ---
@@ -14,10 +14,10 @@ ht-degree: 0%
 
 Adobe AEM Screens-spelare kan också anslutas via mobilnätverk eller mobilnätverk som kör minst ett 3G-nätverk.
 
-Inom AEM Screens laddas det nödvändiga innehållet ned fysiskt till spelarstyrenheten eller datorn och lagras korrekt i det underliggande operativsystemet. Den angivna bandbredden påverkar därför bara de inledande hämtningstiderna och påverkar inte Display Systems prestanda alls.
+Inom AEM Screens laddas det nödvändiga innehållet ned fysiskt till spelarstyrenheten eller datorn och lagras korrekt i det underliggande operativsystemet. Därför påverkar den angivna bandbredden bara de inledande hämtningstiderna samt innehållsuppdateringar, och påverkar inte prestanda för regelbunden uppspelning av bildskärmar.
 
-Fördelen med den här installationen är att mobilroutern kan placeras på en optimerad plats för att få bästa möjliga nätverkstäckning. Detta är vanligtvis i upphöjt och öppet läge med så lite omgivande betong eller metallkonstruktion som möjligt.
-Denna SetUp ger AEM Screen-användare flexibilitet eftersom det inte krävs någon fasta linje för att ansluta till AEM Screens.
+Fördelen med den här konfigurationen är att mobilroutern kan placeras på en optimerad plats för att säkerställa bästa möjliga tillgängliga nätverkstäckning. Detta är vanligtvis i upphöjt och öppet läge med så lite omgivande betong- eller metallkonstruktion som möjligt.
+Med den här installationen får AEM Screen-användare flexibilitet eftersom det inte krävs någon fast linje för att ansluta till AEM Screens. Detta är särskilt intressant för tillfälliga eller mobila miljöer.
 
 I följande diagram visas Mobile Network with Mobile Data Router and Active Network Components configuration and contains an Internet access of any of the AEM Screens controller by direct Internet access using an own 3/4/5G Data Link.
 
@@ -27,10 +27,10 @@ I följande diagram visas Mobile Network with Mobile Data Router and Active Netw
 
 Följ stegen nedan för att säkerställa att AEM Screen-spelarna är korrekt anslutna i den här konfigurationen:
 
-Konfigurationen innehåller en Internet-åtkomst för någon av AEM Screens-styrenheterna via direkt Internet-åtkomst med en egen 3/4/5G-datalänk.
+Konfigurationen tilldelar en Internet-åtkomst för varje AEM Screens-styrenhet genom direkt Internet-åtkomst med en dedikerad 3/4/5G-datalänk.
 
 1. Kontrollera att mobildataroutern är korrekt ansluten till det mobila datanätverket enligt operativsystemets anvisningar och att alla AEM-skärmspelare är anslutna till routernätverket.
-1. Testa internetanslutningen genom att ringa en URL i systemwebbläsaren.
+1. Testa Internetanslutningen genom att ringa en URL i systemwebbläsaren.
    >[!NOTE]
    >Om du får ett fel kontrollerar du nätverksinställningarna.Det finns i princip två alternativ för en korrekt nätverksanslutning:
    >* DHCP
@@ -60,11 +60,11 @@ Nätverksinstallationen kan logiskt separeras i två block:
 
 ### Mobil Internetanslutning {#mobile-internet-connection}
 
-Internet-anslutningens prestanda har, utöver den redan beskrivna nätverkets nåbarhet, gett tillräcklig bandbredd för att fungera smidigt och smidigt i AEM Screens.
+Prestandan för internetanslutningen måste, förutom den redan beskrivna nätverksanslutningen, ge tillräcklig bandbredd för att AEM Screens ska kunna ladda ned innehåll på ett smidigt sätt.
 
-*Tillräckligt* beroende på mängden anslutna AEM-skärmar och hur många andra användare som använder nätverket, till exempel smarttelefoner, surfplattor, kassörer, datorer eller Gästnätverk för Wi-Fi.
+*Tillräckligt* beroende på hur många anslutna AEM-skärmar som används och hur många andra användare som använder nätverket, till exempel smarttelefoner, surfplattor, kassörer, datorer eller gästnätverk för Wi-Fi.
 Tänk på att alla enheter har samtidig åtkomst till Internet och att bandbredden vanligtvis minskar linjärt samtidigt som fler användare/datorer läggs till i nätverket.
-Förutom den specifika teoretiska nätverksanslutningen måste man säkerställa att mobilrouterns täckning är åtminstone&quot;god&quot;. Den underliggande månadsplanen måste även täcka in tillräckligt med datapacitet och tillräcklig bandbredd för att alla anslutna klienter ska kunna betjäna det anslutna nätverket.
+Förutom den specifika teoretiska nätverksanslutningen måste det säkerställas att mobilrouterns täckning är åtminstone&quot;god&quot;. Dessutom måste den underliggande månadsplanen täcka in tillräckligt med datakapacitet och tillräcklig bandbredd för att alla anslutna klienter ska kunna betjäna det anslutna nätverket.
 
 I följande tabell visas datanätverken med sin standardbandbredd:
 
@@ -90,7 +90,7 @@ När du överväger vilket datanätverk som ska användas bör du svara på föl
 
 ### Lokalt nätverk {#lan-connection}
 
-LAN-nätverkets prestanda har, utöver den redan beskrivna nätverkets nåbarhet, gett tillräcklig bandbredd så att AEM Screens kan fungera smidigt och smidigt. Under dessa dagar matchar LAN-nätverket vanligtvis minst ett 100 Mbit/s-nätverk, så att det bör finnas tillräcklig bandbredd för att ansluta många enheter med bra prestanda till systemet. När du använder en annan aktiv nätverkskomponent är det obligatoriskt att alla dessa stämmer överens med kraven för nätverkets bandbredd.
+LAN-nätverkets prestanda, förutom den redan beskrivna nätverkets nåbarhet, måste ge tillräcklig bandbredd för att AEM Screens-nedladdningar ska fungera smidigt. Under dessa dagar matchar LAN-nätverket vanligtvis minst ett 100 Mbit/s-nätverk, så att det bör finnas tillräcklig bandbredd för att ansluta många enheter med bra prestanda till systemet. När du använder en annan aktiv nätverkskomponent är det obligatoriskt att alla dessa stämmer överens med kraven för nätverkets bandbredd.
 
 Nätverkskomponenterna bör till exempel minst matcha 100 Mbit/s-standarden och matcha den bandbredd som anges i specifikationen Internet Access/Router.
 
