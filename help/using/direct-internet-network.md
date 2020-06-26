@@ -2,9 +2,9 @@
 title: Direktåtkomst till Internet
 description: Direktåtkomst till Internet
 translation-type: tm+mt
-source-git-commit: d12de8de2b7bb29d85ebb0e046f2d1fd5051e928
+source-git-commit: da1fb07fef33bca771693f8bd4cc7bce256d808e
 workflow-type: tm+mt
-source-wordcount: '686'
+source-wordcount: '697'
 ht-degree: 0%
 
 ---
@@ -15,10 +15,10 @@ ht-degree: 0%
 Direct Internet Network innehåller en ingångspunkt för Internet-åtkomst för att nå den AEM cloud services som AEM Screens måste ansluta till.
 
 Standardportarna för AEM Screens-kommunikation är:
-* `http (TCP Port 80)`
+* `ssl-secured https (TCP Port 443)`
    <br>Eller</br>
 
-* `ssl-secured https (TCP Port 443)`
+* `http (TCP Port 80)`, om ditt specifika användningsfall inte kräver den säkerhetsnivån.
 
 Portarna kan variera beroende på konfigurationen av din dedikerade AEM-konfiguration. I denna SetUp är alla enheter direkt anslutna till din Internet-router, vilket visas i bilden nedan.
 
@@ -30,7 +30,7 @@ I konfigurationen ingår även Internet-åtkomst från alla Internet-leverantör
 
 Följ stegen nedan för att säkerställa att AEM Screen-spelarna är korrekt anslutna i den här konfigurationen:
 
-1. Kontrollera att alla AEM Screen-spelare är anslutna till Routers Network.
+1. Kontrollera att alla AEM Screen-spelare är anslutna till routerns nätverk.
 1. Testa internetanslutningen genom att ringa en URL i datorns webbläsare.
 
    >[!NOTE]
