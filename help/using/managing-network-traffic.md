@@ -2,9 +2,9 @@
 title: Hantera nätverkstrafik
 description: På sidan beskrivs standardnätverksinställningar och hur du hanterar nätverkstrafik.
 translation-type: tm+mt
-source-git-commit: ed683a86b7e8c6ec06309577bd0a8690a9cc4684
+source-git-commit: 173ce977549ed64e3750bb751a8fe1b27e277aa2
 workflow-type: tm+mt
-source-wordcount: '560'
+source-wordcount: '559'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ En Internetanslutning är beroende av att en proxyserver används. En proxyserve
 
 En fördel med en proxyserver är att dess cache kan användas av alla användare. Om en eller flera webbplatser ofta efterfrågas finns de förmodligen i proxyns cacheminne, vilket ytterligare förbättrar användarens svarstid. En proxy kan också logga interaktionen som kan användas för felsökning.
 
-När en proxyserver tar emot en begäran om en Internetresurs (till exempel en webbsida eller vid anslutning till en AEM-utgivare), söker den i sin lokala cache efter tidigare anropade URL:er. Om sidan hittas returneras den till användaren utan att begäran vidarebefordras till Internet. Om sidan inte finns i cachen fungerar proxyservern (som klient) för användaren och begär sidan från servern på Internet. När innehållet returneras, relaterar proxyservern det till den ursprungliga begäran och vidarebefordrar det till användaren.
+När en proxyserver tar emot en begäran om en Internetresurs (till exempel en webbsida eller vid anslutning till en AEM-utgivare), söker den i sin lokala cache efter tidigare anropade URL:er. Om sidan hittas returneras den till användaren utan att begäran vidarebefordras till Internet. Om sidan inte finns i cachen fungerar proxyservern (som klient) för användaren och begär sidan från servern på Internet. När innehållet returneras relaterar proxyservern det till den ursprungliga begäran och vidarebefordrar det till användaren.
 
 ## Förstå standardnätverksinställningarna {#network-setups}
 
