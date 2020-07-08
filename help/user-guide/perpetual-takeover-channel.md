@@ -5,7 +5,10 @@ description: Följ det här användningsexemplet för att skapa en permanent Tak
 seo-description: Följ det här användningsexemplet när du ställer in ett projekt som skapar en permanent TakeOver-kanal som spelas upp en viss tid och dag kontinuerligt.
 contentOwner: jsyal
 translation-type: tm+mt
-source-git-commit: 75453128ce6c66e6fef9c5433a5e4389ef9f1c88
+source-git-commit: f25176be89424059b8c51296969f069687328536
+workflow-type: tm+mt
+source-wordcount: '858'
+ht-degree: 0%
 
 ---
 
@@ -38,7 +41,7 @@ Följ stegen nedan för att konfigurera ett projekt:
 
 **Konfigurera kanaler och visning**
 
-1. Skapa ett AEM-skärmsprojekt med namnet **PerpetualTakeOver**, enligt nedan.
+1. Skapa ett AEM Screens-projekt med namnet **PerpetualTakeOver** enligt nedan.
 
    ![resurs](assets/p_usecase1.png)
 
@@ -117,4 +120,5 @@ I följande tabell sammanfattas några exempeluttryck som du kan lägga till i s
 | den 1-2 januari efter kl. 2:00 också den 2-3 januari före kl. 3:00 | kanalen startar spelaren efter kl. 17:00 den 1 januari, fortsätter att spelas upp till kl. 17:00 den 2 januari och börjar igen kl. 2:00 och fortsätter att spelas upp till kl. 3:00 den 3 januari |
 
 >[!NOTE]
+>
 >Du kan också använda _militär_ tidsnotation (d.v.s. 14:00) i stället för *AM/pm* -notation (d.v.s. 2:00).
