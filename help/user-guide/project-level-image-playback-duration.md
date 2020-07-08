@@ -5,7 +5,10 @@ description: 'Med den här funktionen kan du definiera längden för bilduppspel
 seo-description: 'Med den här funktionen kan du definiera längden för bilduppspelningen på projektnivå. '
 contentOwner: jsyal
 translation-type: tm+mt
-source-git-commit: ae1f7cab650f811ae03f0a2f3dfa49ec855997ee
+source-git-commit: f25176be89424059b8c51296969f069687328536
+workflow-type: tm+mt
+source-wordcount: '351'
+ht-degree: 1%
 
 ---
 
@@ -18,9 +21,9 @@ Med den här funktionen kan du definiera längden för bilduppspelningen på pro
 
 ### Förutsättningar {#prerequisites}
 
-Innan du använder den här funktionen måste du konfigurera ett projekt som en förutsättning för att du ska kunna börja implementera den här funktionen. Exempel:
+Innan du använder den här funktionen måste du konfigurera ett projekt som en förutsättning för att du ska kunna börja implementera den här funktionen. Till exempel,
 
-1. Skapa ett AEM-skärmsprojekt (i det här exemplet **ProjectLevelPlayback**)
+1. Skapa ett AEM Screens-projekt (i det här exemplet **ProjectLevelPlayback**)
 
 1. Skapa en sekvenskanal som **PlayBackChannel** under mappen **Kanaler**
 
@@ -34,12 +37,13 @@ Innan du använder den här funktionen måste du konfigurera ett projekt som en 
 
 ## Redigera bilduppspelningens varaktighet på projektnivå {#editing-project-level-image-playback-duration-assignment}
 
-I avsnittet nedan beskrivs hur du redigerar uppspelningstiden för innehåll i ett AEM-skärmsprojekt.
+I avsnittet nedan beskrivs hur du redigerar uppspelningstiden för innehåll i ett AEM Screens-projekt.
 
 ### Uppdatera uppspelningstiden för bilder på projektnivå {#updating-the-playback-duration-for-images-in-a-project}
 
 
 >[!NOTE]
+>
 >Om du vill uppdatera en bild- eller kanalnivåuppspelningslängd ska du läsa [Bilduppspelningslängd](channel-level-image-playback.md)på kanalnivå.
 
 Följ stegen nedan för att lära dig hur du uppdaterar bilduppspelningstiden på projektnivå:
