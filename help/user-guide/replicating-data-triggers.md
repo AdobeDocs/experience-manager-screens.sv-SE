@@ -4,7 +4,10 @@ seo-title: Replikera datautlösare till publiceringsservern
 description: Replikera datautlösare till publiceringsservern.
 seo-description: Replikera datautlösare till publiceringsservern.
 translation-type: tm+mt
-source-git-commit: c9d618c4d38e8b1f74125c89cc9d25a1dcde54bb
+source-git-commit: f25176be89424059b8c51296969f069687328536
+workflow-type: tm+mt
+source-wordcount: '526'
+ht-degree: 2%
 
 ---
 
@@ -59,7 +62,7 @@ Följ stegen nedan för att replikera datautlösarna till publiceringsservern.
 
 1. Klicka på **Nästa** och **Publicera**.
 
-### Replikera aktiviteterna {#replicating-activities}
+### Replikera aktiviteterna  {#replicating-activities}
 
 1. Navigera till din AEM-instans > **Personalisering** > **Verksamheter** eller använd `http://localhost:4502/libs/cq/personalization/touch-ui/content/v2/activities.html` för att navigera direkt.
 
@@ -96,7 +99,7 @@ Om testanslutningen misslyckas när ContextHub-konfigurationerna replikeras, fö
 
    Följ stegen nedan:
 
-   1. Navigera till Verktyg > **Åtgärder** > **Webbkonsol** `http://localhost:4502/system/console/configMgr`för att öppna **Adobe Experience Manager Web Console-skärmen**.
+   1. Gå till Verktyg > **Åtgärder** > **Webbkonsol** `http://localhost:4502/system/console/configMgr`för att öppna **webbkonsolskärmen** i Adobe Experience Manager.
    1. Sök efter transportreferenser för **Apache Sling Distribution - Användarautentiseringsuppgifter baserade DistributionTransportSecretProvider**
 
       ![image1](/help/user-guide/assets/replicating-triggers/replicating-triggers6.png)
