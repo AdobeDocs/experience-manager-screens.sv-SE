@@ -11,7 +11,10 @@ topic-tags: administering
 discoiquuid: 1b1a36a4-4f95-41e3-b0a8-74249efb0119
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 9bee12b69ae85e84572b6f9e8c70f792895d9a32
+source-git-commit: f25176be89424059b8c51296969f069687328536
+workflow-type: tm+mt
+source-wordcount: '180'
+ht-degree: 6%
 
 ---
 
@@ -23,12 +26,14 @@ Dispatcher är Adobe Experience Managers verktyg för cachelagring och/eller bel
 Följande sida innehåller riktlinjer för hur du konfigurerar dispatcher för ett AEM Screens-projekt.
 
 >[!NOTE]
+>
 >Om en dispatcher är tillgänglig kan anslutningar till registreringsservern förhindras genom filtrering i dispatcherreglerna.
+>
 >Om det inte finns någon dispatcher inaktiverar du registreringstjänsten i OSGi-komponentlistan.
 
 ## Krav {#pre-requisites}
 
-Innan du konfigurerar dispatcher för ett AEM Screens-projekt måste du ha kunskap om Dispatcher.
+Innan du konfigurerar dispatcher för ett AEM Screens-projekt måste du ha tidigare kunskaper om Dispatcher.
 
 Mer information finns i [Konfigurera Dispatcher](https://docs.adobe.com/content/help/en/experience-manager-dispatcher/using/configuring/dispatcher-configuration.html) .
 
