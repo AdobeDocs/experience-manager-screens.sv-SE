@@ -2,7 +2,7 @@
 title: Enclosed Corporate Network
 description: Enclosed Corporate Network
 translation-type: tm+mt
-source-git-commit: 143036005bcaecf17e6b57f4e71a5e8a1b0cfe52
+source-git-commit: f25176be89424059b8c51296969f069687328536
 workflow-type: tm+mt
 source-wordcount: '709'
 ht-degree: 0%
@@ -56,6 +56,7 @@ Prestandan för internetanslutningen måste, förutom att det går att nå nätv
 *Tillräcklig bandbredd* beror på mängden anslutna AEM-skärmar och på hur andra användare använder nätverket, till exempel smarttelefoner, surfplattor, kassörer, datorer eller Wi-Fi-gäster.
 
 >[!NOTE]
+>
 >Alla enheter har samtidig åtkomst till internetanslutningen och bandbredden minskar linjärt när du lägger till fler konsumenter eller datorer i nätverket.
 
 ### Lokalt nätverk {#lan-connection}
@@ -85,6 +86,7 @@ För scenarier där det förekommer mer interaktion med sensorer eller utlösare
 Följande tabell ger en översikt över data för nätverksanslutningsnycklar.
 
 >[!NOTE]
+>
 >Med hjälp av informationen kan du visa förbrukningen för varje enhet i nätverket som begär och hämtar en Internetkälla. Var och en av dessa förfrågningar sammanfattar och förlänger hämtningstiden.
 
 ![](/help/using/assets/enclosed-network-download.png)
