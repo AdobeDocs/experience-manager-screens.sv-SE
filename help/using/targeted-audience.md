@@ -1,15 +1,18 @@
 ---
-title: Målgrupp
-seo-title: Målgrupp för AEM-skärmar
+title: Target Audience
+seo-title: Target Audience for AEM Screens
 description: På sidan beskrivs vilka som är målgrupp för AEM Screens Best Practices Guide
 seo-description: På sidan beskrivs vilka som är målgrupp för AEM Screens Best Practices Guide
 translation-type: tm+mt
-source-git-commit: 55999ae9ead7ab8986f4dcb69b0bbaa46933c9ec
+source-git-commit: f25176be89424059b8c51296969f069687328536
+workflow-type: tm+mt
+source-wordcount: '520'
+ht-degree: 4%
 
 ---
 
 
-# Målgrupp {#target-audience}
+# Target Audience {#target-audience}
 
 Som erfaren AEM-implementerare har du troligtvis sett rollerna, som kallas *författare*, *utvecklare* och *IT/tekniker*.
 
@@ -20,7 +23,8 @@ Diagrammet nedan visar rollerna som vi kommer att hänvisa till i hela guiden.
 ![](/help/assets/roles-used.png)
 
 >[!NOTE]
-> Många av dessa roller kan vara antingen interna eller externa beroende på hur respektive projekt är konfigurerat.
+>
+>Många av dessa roller kan vara antingen interna eller externa beroende på hur respektive projekt är konfigurerat.
 
 ## Definiera roller {#roles}
 
@@ -28,7 +32,7 @@ I följande avsnitt finns en översikt över målgruppen:
 
 ### Adobe {#adobe-audience}
 
-Adobe innehåller resurser för Adobes hanterade tjänster, som CSE (Customer Success Engineer) och Adobe Support.
+Adobe innehåller Adobe Managed Services som CSE (Customer Success Engineer) och Adobe Support.
 
 ### AEM-implementerare {#aem-implementors}
 
@@ -62,8 +66,8 @@ Kreatörerna och Content Management kan vara något av följande:
 
 ### Projektledare {#project-managers}
 
-Projektledare hanterar vanligtvis hela distributionen för AEM-skärmar. En projektledare är punktpersonen för hela genomförandet av det utsedda projektet och har ett viktigt ansvar, till exempel att ställa in tidslinjer, hantera teambehov och kommunikation, möta utmaningar och se till att målen uppfylls.
+Projektledare hanterar vanligtvis hela distributionen av AEM Screens. En projektledare är punktpersonen för hela genomförandet av det utsedda projektet och har ett viktigt ansvar, till exempel att ställa in tidslinjer, hantera teambehov och kommunikation, möta utmaningar och se till att målen uppfylls.
 
 >[!NOTE]
 >
-> Om du vill veta mer om olika roller och ansvarsområden och målgruppen för ett projekt för digitala signaturer kan du gå till **[Projektroller och ansvarsområden](https://helpx.adobe.com/experience-manager/6-5/screens/using/project-roles-responsibilities.html)**.
+>Om du vill veta mer om olika roller och ansvarsområden och målgruppen för ett projekt för digitala signaturer kan du gå till **[Projektroller och ansvarsområden](https://helpx.adobe.com/experience-manager/6-5/screens/using/project-roles-responsibilities.html)**.
