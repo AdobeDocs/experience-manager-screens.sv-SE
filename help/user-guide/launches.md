@@ -11,7 +11,10 @@ topic-tags: authoring
 discoiquuid: 9cd8892b-fe5d-4ad3-9b10-10ff068adba6
 docset: aem65
 translation-type: tm+mt
-source-git-commit: b26af144f01b48ffaffb77d0218b5549a5b7d2f5
+source-git-commit: f25176be89424059b8c51296969f069687328536
+workflow-type: tm+mt
+source-wordcount: '1617'
+ht-degree: 0%
 
 ---
 
@@ -53,6 +56,7 @@ Exempel: servern är i PST och enheterna är i EST, den maximala tidsskillnaden 
 Så när vi schemalägger en livesändning börjar kampanjen tidigt med den här förskjutningen. I ekvationen ovan tar de flesta objekten inte så lång tid. Vi kan använda en bra gissning för den här förskjutningen när vi vet den maximala tidsskillnaden mellan servern och valfri spelare.
 
 >[!NOTE]
+>
 >Körklar är respitperioden för Screens Launch inställd på 24 timmar, vilket innebär att när vi ställer in livedatum för alla starter av resurserna under */innehåll/skärmar* börjar kampanjen med den här förskjutningen.
 
 ### Uppdaterar betalningsperiod {#updating-out-of-the-box-grace-period}
@@ -88,7 +92,7 @@ Följ stegen nedan för att implementera funktionen Screens Launch i ditt AEM Sc
 
    >[!CAUTION]
    >
-   >Du måste skapa en start från en befintlig kanal i ditt AEM Screens-projekt.
+   >Du måste skapa en lansering från en befintlig kanal i ditt AEM Screens-projekt.
 
    ![Bild](/help/user-guide/assets/launches-images/launches-11.png)
 
@@ -100,7 +104,7 @@ Följ stegen nedan för att implementera funktionen Screens Launch i ditt AEM Sc
 
 1. Klicka på **Nästa** i guiden **Skapa start** . Alternativet **Inkludera undersidor** är markerat som standard.
 
-   ![image](/help/user-guide/assets/launches-images/launches-d.png)
+   ![bild](/help/user-guide/assets/launches-images/launches-d.png)
 
    >[!NOTE]
    >Du kan använda alternativet **+ Lägg till kanaler** för att lägga till ytterligare en kanal som du vill skapa startkanalen för.
@@ -109,7 +113,7 @@ Följ stegen nedan för att implementera funktionen Screens Launch i ditt AEM Sc
 
    Alternativet **Välj** inaktiveras om du försöker markera flera kanaler eller en mapp för att lägga till starten.
 
-   ![image](/help/user-guide/assets/launches-images/launches-14.png)
+   ![bild](/help/user-guide/assets/launches-images/launches-14.png)
 
    När du har markerat kanalen/kanalerna klickar du på **Nästa**.
 
@@ -161,17 +165,17 @@ Följ stegen nedan för att redigera startegenskaperna:
 
 1. Navigera till kanalen **FutureLaunch***(det vill säga den väntande starten)* och markera kanalen, vilket visas i bilden nedan.
 
-   ![image](/help/user-guide/assets/launches-images/launches-17.png)
+   ![bild](/help/user-guide/assets/launches-images/launches-17.png)
 
 1. Klicka på **Dashboard** i åtgärdsfältet så visas panelen **VÄNTANDE STARTOR** från kanalkontrollpanelen.
 
-   ![image](/help/user-guide/assets/launches-images/launches-18.png)
+   ![bild](/help/user-guide/assets/launches-images/launches-18.png)
 
 1. Markera starten och klicka på **Starta egenskaper** på panelen **VÄNTANDE START** .
 
-   ![image](/help/user-guide/assets/launches-images/launches-19.png)
+   ![bild](/help/user-guide/assets/launches-images/launches-19.png)
 
-### Redigera startfönstret för skärmar för att lägga till eller ta bort kanaler {#editing-the-screens-launch-to-add-or-remove-channels}
+### Redigera startfönstret för skärmar för att lägga till eller ta bort kanaler  {#editing-the-screens-launch-to-add-or-remove-channels}
 
 När du har skapat starten kan du lägga till eller ta bort kanaler i den befintliga starten med alternativet **Redigera start** .
 
@@ -183,7 +187,7 @@ Du kan befordra starten manuellt med alternativet **Befordra start** från panel
 
 Du kan välja vilka resurser du vill befordra som en del av den här manuella befordringen i **guiden** Starta befordran.
 
-![image](/help/user-guide/assets/launches-images/launches-e.png)
+![bild](/help/user-guide/assets/launches-images/launches-e.png)
 
 1. Du kan aktivera eller inaktivera alternativet att ta bort starten efter produktionen.
 1. Du kan ange **omfattningen** för starten med följande alternativ:
