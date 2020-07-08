@@ -5,7 +5,10 @@ description: Följ det här användningsexemplet när du vill skapa en överför
 seo-description: Följ det här användningsexemplet när du vill skapa en överföringskanal.
 contentOwner: jsyal
 translation-type: tm+mt
-source-git-commit: d64eb2ca3efc4d15be119c9b8efd9ff2b8f8daf4
+source-git-commit: f25176be89424059b8c51296969f069687328536
+workflow-type: tm+mt
+source-wordcount: '629'
+ht-degree: 0%
 
 ---
 
@@ -39,7 +42,7 @@ Följ stegen nedan för att konfigurera ett projekt:
 
 **Konfigurera kanaler och visning**
 
-1. Skapa ett AEM-skärmsprojekt med namnet **SingleUseTakeOver**, enligt nedan.
+1. Skapa ett AEM Screens-projekt med namnet **SingleUseTakeOver** enligt nedan.
 
    ![resurs](assets/single-takeover1.png)
 
@@ -102,4 +105,5 @@ Texten i **Schedule** som nämns i det här exemplet är *den 31 december efter 
       ![resurs](assets/single-takeover9.png)
 
 >[!NOTE]
+>
 >Det är bäst att ta bort kanalen för enskild användning när den spelas upp.
