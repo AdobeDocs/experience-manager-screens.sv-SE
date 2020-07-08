@@ -1,10 +1,13 @@
 ---
 title: Prototyper
 seo-title: Prototyper
-description: This page describes Prototypes for an AEM Screens Project
-seo-description: Sidan beskriver prototyper för ett AEM-skärmsprojekt
+description: Den här sidan beskriver prototyper för ett AEM Screens-projekt
+seo-description: Sidan beskriver prototyper för ett AEM Screens-projekt
 translation-type: tm+mt
-source-git-commit: 750ee1552065932e65c6709037a6a3feaa4e342c
+source-git-commit: f25176be89424059b8c51296969f069687328536
+workflow-type: tm+mt
+source-wordcount: '282'
+ht-degree: 0%
 
 ---
 
@@ -30,4 +33,5 @@ Olika exempel på Använd fall har skapats för att fungera som referens eller u
 >[!NOTE]
 >
 > Under UX-designfasen bekräftar du att gränssnittsdesignen kan stödjas korrekt av de data som extraheras.
+>
 > Det är till exempel troligt att inte alla beslutsfattare känner till datastrukturen i sin produktdatabas. De kan välja beskrivningar på sin UX-lösning som inte är primära fält i datalagret. Genom att man tidigt identifierar var det kan bli nödvändigt att ändra uppgifterna och senare kan man förhindra missförstånd genom att kommunicera dem till kunden. Om klienten bestämmer sig för att utöka eller ändra gränssnittsetiketten efter att utvecklingen har börjat, måste man göra mer för att kunna hantera ändringarna.
