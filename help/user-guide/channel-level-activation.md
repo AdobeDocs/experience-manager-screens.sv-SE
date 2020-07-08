@@ -11,7 +11,10 @@ content-type: reference
 discoiquuid: c28fd669-f23e-4d53-bec1-a2911274567d
 noindex: true
 translation-type: tm+mt
-source-git-commit: d6006c553b53dc7dfb52a03cfeb1a50e8e8de792
+source-git-commit: f25176be89424059b8c51296969f069687328536
+workflow-type: tm+mt
+source-wordcount: '1809'
+ht-degree: 0%
 
 ---
 
@@ -76,7 +79,7 @@ Följande bild visar **kanalnivåaktiveringsprojektet** med kanalerna **MainAdCh
 
 ### Implementering {#implementation}
 
-Implementering av aktivering på kanalnivå i ett AEM-skärmsprojekt innefattar tre viktiga uppgifter:
+Implementering av kanalnivåaktivering i ett AEM Screens-projekt innefattar tre viktiga uppgifter:
 
 1. **Konfigurera Project-taxonomin inklusive kanaler, platser och bildskärmar**
 1. **Tilldela kanaler att visa**
@@ -86,7 +89,7 @@ Följ stegen nedan för att implementera funktionen:
 
 1. **Skapa en plats**
 
-   Navigera till mappen **Platser** i ditt AEM Screens-projekt och skapa en plats som **Region**.
+   Navigera till **platsmappen** i ditt AEM Screens-projekt och skapa en plats som **region**.
 
    ![screen_shot_2018-11-27at112112am](assets/screen_shot_2018-11-27at112112am.png)
 
@@ -148,7 +151,7 @@ Spelaren visar innehållet i **MainAdChannel** och exakt klockan 23.59 (enligt s
 
 >[!NOTE]
 Läs mer om AEM Screen Player här:
-* [AEM Screens Player - nedladdningar](https://download.macromedia.com/screens/)
+* [AEM Screens Player-nedladdningar](https://download.macromedia.com/screens/)
 * [Arbeta med AEM Screens Player](working-with-screens-player.md)
 
 
