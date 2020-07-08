@@ -11,7 +11,10 @@ topic-tags: authoring
 discoiquuid: 212adcd1-835b-453d-9d3e-775366abf181
 docset: aem65
 translation-type: tm+mt
-source-git-commit: fb95f79ea21d8b1234e13a9ef0d5aec74669c5a4
+source-git-commit: f25176be89424059b8c51296969f069687328536
+workflow-type: tm+mt
+source-wordcount: '1227'
+ht-degree: 1%
 
 ---
 
@@ -50,7 +53,7 @@ Följ stegen nedan för att tilldela en kanal till en skärm:
 
    Tryck/klicka på **Kontrollpanelen** och klicka på **+Tilldela kanal** på panelen **TILLDELADE** KANALER för att öppna dialogrutan **Kanaltilldelning** .
 
-   ![image](/help/user-guide/assets/channel-assign1.png)
+   ![bild](/help/user-guide/assets/channel-assign1.png)
 
    Du kan förstå och konfigurera egenskaperna i dialogrutan **Kanaltilldelning** i avsnittet nedan.
 
@@ -113,7 +116,7 @@ Show Attaction tooltip (Visa beskrivning av attraktionsverktyg) anger om verktyg
 
 När scheman kombineras med **Dayparting** kan du ange ett globalt schema med flera kanaler som körs vid specifika tidpunkter på dygnet och återanvända inställningarna för alla skärmar samtidigt.
 
-DayParting innebär att dela upp en dag i tidskortplatser och ange vilket innehåll som spelas upp vid önskad tidpunkt. Med AEM Screens kan ni schemalägga kanaler utifrån hur de skickas varje dag, vecka eller månad efter behov.
+DayParting innebär att dela upp en dag i tidskortplatser och ange vilket innehåll som spelas upp vid önskad tidpunkt. Med AEM Screens kan ni schemalägga kanaler utifrån antal dagar inom en dag, vecka eller månad efter behov.
 
 I följande exempel förklaras hur dagdelning sker i kanaler i tre olika scenarier:
 
@@ -181,7 +184,9 @@ I det här exemplet visas dagen för en butik som visar sin vintersamling med sa
 | B | Jul | 2 | 24 dec 2017 - 31 dec 2017 |
 
 >[!IMPORTANT]
+>
 > Mer information om sommartid finns i avsnitten nedan:
+>
 >* [Hantera upprepning i resurser](https://docs.adobe.com/content/help/en/experience-manager-screens/user-guide/authoring/product-features/asset-level-scheduling.html#handling-recurrence-in-assets)
 >* [Hantera återkommande för resurser i en kanal](https://docs.adobe.com/content/help/en/experience-manager-screens/user-guide/authoring/product-features/channel-level-activation.html#handling-recurrence-in-assets)
 
