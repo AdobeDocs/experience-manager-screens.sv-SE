@@ -11,7 +11,10 @@ topic-tags: authoring
 discoiquuid: a8006686-8ee5-4971-ab79-0c7b01f108f2
 docset: aem65
 translation-type: tm+mt
-source-git-commit: f3460fe4095907ad65e411fcb6433bfb1c2c2d3c
+source-git-commit: f25176be89424059b8c51296969f069687328536
+workflow-type: tm+mt
+source-wordcount: '1400'
+ht-degree: 0%
 
 ---
 
@@ -31,7 +34,7 @@ På den här sidan visas hur du skapar och hanterar kanaler för skärmar.
 
 När du har skapat ett projekt för skärmar följer du stegen nedan för att skapa en ny kanal för ett skärmsprojekt:
 
-1. Välj länken Adobe Experience Manager (överst till vänster) och sedan Skärmar. Du kan också gå direkt till: `https://localhost:4502/screens.html/content/screens`.
+1. Markera länken Adobe Experience Manager (överst till vänster) och sedan Skärmar. Du kan också gå direkt till: `https://localhost:4502/screens.html/content/screens`.
 1. Navigera till Skärmprojekt och klicka på **Kanaler**.
 1. Klicka på **Skapa** bredvid plusikonen i åtgärdsfältet. En guide öppnas (*mer information* finns i Kanaltyper).
 
@@ -69,6 +72,7 @@ I följande exempel visas hur du skapar en Sequence Channel (*ChannelOne*) för 
 >Du kan skapa olika zoner med hjälp av mallalternativen 1x2, 2x2 eller 2 till 3 delade skärmkanaler som nämns ovan.
 
 >[!IMPORTANT]
+>
 > När du har skapat och lagt till innehåll i kanalen är nästa steg att skapa en plats följt av att skapa en skärm. Dessutom måste du tilldela den kanalen till en skärm. Läs mer i resurserna nedan i slutet av avsnittet.
 
 ## Arbeta med kanaler {#working-with-channels}
