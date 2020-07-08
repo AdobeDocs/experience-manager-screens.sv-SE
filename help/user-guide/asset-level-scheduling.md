@@ -4,7 +4,10 @@ seo-title: Aktivering på tillgångsnivå
 description: Följ den här sidan för att lära dig hur du aktiverar en specifik resurs i en kanal för en schemalagd tidsram i spelarens lokala tidszon.
 seo-description: Följ den här sidan för att lära dig hur du aktiverar en specifik resurs i en kanal för en schemalagd tidsram i spelarens lokala tidszon.
 translation-type: tm+mt
-source-git-commit: af244dc18aa4eb526978ab9ced60e8b818f6201e
+source-git-commit: f25176be89424059b8c51296969f069687328536
+workflow-type: tm+mt
+source-wordcount: '1452'
+ht-degree: 0%
 
 ---
 
@@ -27,7 +30,7 @@ Följande ämnen behandlas i detta avsnitt:
 
 >[!CAUTION]
 >
->Den här AEM-skärmfunktionen är bara tillgänglig om du har installerat AEM 6.3 Feature Pack 3 eller AEM 6.4 Screens Feature Pack 1.
+>Funktionen AEM Screens är bara tillgänglig om du har installerat AEM 6.3 Feature Pack 3 eller AEM 6.4 Screens Feature Pack 1.
 >
 >Om du vill få tillgång till det här funktionspaketet måste du kontakta Adobes support och begära åtkomst. När du har behörighet kan du hämta den från paketresursen.
 
@@ -59,19 +62,19 @@ Följ stegen nedan för att utföra planering på tillgångsnivå:
 
 1. Klicka på **Redigera** för att öppna kanalredigeraren och markera en resurs som du vill använda schemaläggningen på.
 
-   ![image](/help/user-guide/assets/asset-activation/asset-level2.png)
+   ![bild](/help/user-guide/assets/asset-activation/asset-level2.png)
 
 1. Markera resursen och klicka på **Konfigurera** (skiftnyckelsikon) längst upp till vänster för att öppna bildens egenskaper.
 
    Klicka på fliken **Aktivering** .
 
-   ![image](/help/user-guide/assets/asset-activation/asset-level3.png)
+   ![bild](/help/user-guide/assets/asset-activation/asset-level3.png)
 
 1. Du kan ange datumet från datumväljaren med fälten **Aktiv från** och **Aktiv till** .
 
    Om du väljer **Aktiv från** och **Aktiv till** datum och tid visas och upprepas resursen endast mellan startdatumet/tiden respektive slutdatumet/tiden.
 
-   ![image](/help/user-guide/assets/asset-activation/asset-level3.png)
+   ![bild](/help/user-guide/assets/asset-activation/asset-level3.png)
 
 ## Hantera upprepning i resurser {#handling-recurrence-in-assets}
 
@@ -103,6 +106,7 @@ I följande tabell sammanfattas några exempeluttryck som du kan lägga till i s
 
 
 >[!NOTE]
+>
 >Du kan också använda _militär_ tidsnotation (d.v.s. 14:00) i stället för *AM/pm* -notation (d.v.s. 2:00).
 
 ### Veckodelning {#week-parting}
@@ -126,6 +130,7 @@ I följande tabell sammanfattas några exempeluttryck som du kan lägga till i s
 | mån-Thu | resursen spelas upp i kanalen från måndagar till torsdagar |
 
 >[!NOTE]
+>
 >Du kan också använda _fullständig_ notation (d.v.s. måndag, onsdag, fredag) i stället för _kort_ notation (d.v.s. Mon,Wed,Fri).
 
 
@@ -187,14 +192,14 @@ I följande tabell sammanfattas några exempeluttryck som du kan lägga till i s
 
 ### Förutsättningar {#prerequisites}
 
-Om du vill använda aktivering på flera tillgångsnivåer för dina resurser skapar du ett AEM-skärmsprojekt med en sekvenskanal. I följande exempel visas implementeringen av funktionen:
+Om du vill använda aktivering på flera tillgångsnivåer för dina resurser skapar du ett AEM Screens-projekt med en sekvenskanal. I följande exempel visas implementeringen av funktionen:
 
 * Skapa ett AEM Screens-projekt med namnet **MultiAssetDemo**
 * Skapa en kanal med namnet **MultiAssetChannel** och lägg till innehåll i kanalen, enligt bilden nedan
 
 ![screen_shot_2018-12-21at70128am](assets/screen_shot_2018-12-21at70128am.png)
 
-Följ stegen nedan för att välja flera resurser och schemalägga hur de ska visas i ett AEM-skärmsprojekt:
+Följ stegen nedan för att välja flera resurser och schemalägga hur de ska visas i ett AEM Screens-projekt:
 
 1. Välj **MultiAssetChannel** och klicka på **Redigera** i åtgärdsfältet för att öppna redigeraren.
 
