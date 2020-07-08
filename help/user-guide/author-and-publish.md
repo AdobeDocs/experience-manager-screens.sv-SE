@@ -11,9 +11,9 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 discoiquuid: f2397d11-a18b-4779-b77b-5f99b797f40c
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 0e426a61ef3230bbf75b88ae7235d4495a49759f
+source-git-commit: f25176be89424059b8c51296969f069687328536
 workflow-type: tm+mt
-source-wordcount: '1907'
+source-wordcount: '1893'
 ht-degree: 0%
 
 ---
@@ -156,8 +156,9 @@ På varje publiceringsinstans:
 Eftersom varje publiceringsinstans som standard har unika krypteringsnycklar måste du utföra det här steget på varje pub-instans och spara den unika nyckeln för nästa konfiguration.
 
 >[!NOTE]
->Lösenordet ska börja och sluta med klammerparenteser.
->Exempel:{1ec346330f1c26b5c48255084c3b7272a5e85260322edd59119828d1fa0a6 10e}
+>
+>Lösenordet ska börja och sluta med klammerparenteser. Till exempel:
+>`{1ec346330f1c26b5c48255084c3b7272a5e85260322edd59119828d1fa0a610e}`
 
 #### Steg 4: Aktivera ActiveMQ Artemis-kluster {#step-activate-activemq-artemis-cluster}
 
@@ -247,7 +248,7 @@ Innan du utför stegen nedan kontrollerar du att enhets-ID är verifierat. Om du
 Så här replikerar du enhetsanvändaren:
 
 1. Gå till sidan för användaradministration (t.ex.: `https://localhost:4502/useradmin`
-1. Sök efter **gruppen screens-devices-master**
+1. Sök efter gruppen **screens-devices-överordnad**
 1. Högerklicka på gruppen och klicka på **Aktivera**
 
 >[!CAUTION]
