@@ -1,8 +1,8 @@
 ---
 title: Offlinekanaler
 seo-title: Offlinekanaler
-description: 'AEM Screens Player ger offlinesupport för kanalerna genom att utnyttja tekniken ContentSync. Följ den här sidan för att lära dig mer om uppdateringshanterare och aktivering av offlinekonfiguration för en kanal.  '
-seo-description: 'AEM Screens Player ger offlinesupport för kanalerna genom att utnyttja tekniken ContentSync. Följ den här sidan för att lära dig mer om uppdateringshanterare och aktivering av offlinekonfiguration för en kanal.  '
+description: 'AEM Screens Player tillhandahåller offlinesupport för kanalerna genom att utnyttja tekniken ContentSync. Följ den här sidan för att lära dig mer om uppdateringshanterare och aktivering av offlinekonfiguration för en kanal.  '
+seo-description: 'AEM Screens Player tillhandahåller offlinesupport för kanalerna genom att utnyttja tekniken ContentSync. Följ den här sidan för att lära dig mer om uppdateringshanterare och aktivering av offlinekonfiguration för en kanal.  '
 uuid: 18b9d175-ff26-42db-86aa-5ea978909f71
 contentOwner: Jyotika Syal
 content-type: reference
@@ -11,7 +11,10 @@ topic-tags: developing
 discoiquuid: bd572743-652f-4fc5-8b75-a3c4c74536f4
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 9da83030c5ad90f446befc7a488fac6c9435ea76
+source-git-commit: f25176be89424059b8c51296969f069687328536
+workflow-type: tm+mt
+source-wordcount: '481'
+ht-degree: 1%
 
 ---
 
@@ -114,4 +117,5 @@ Följ stegen nedan för att aktivera offlinekonfiguration för en kanal:
    ![chlimage_1-26](assets/chlimage_1-26.png)
 
 >[!NOTE]
-> Mer information om mallen för anpassade offlineresurshanterare och minimikraven för det specifika projektet finns i `pom.xml` Template for Custom Handlers [in](/help/user-guide/developing-custom-component-tutorial-develop.md#custom-handlers) Developing a Custom Component for AEM Screens ****.
+>
+>Om du vill veta mer om mallen för anpassade offlineresurshanterare och minimikraven för det `pom.xml` specifika projektet kan du läsa [Mallar för anpassade hanterare](/help/user-guide/developing-custom-component-tutorial-develop.md#custom-handlers) i **Utveckla en anpassad komponent för AEM Screens**.
