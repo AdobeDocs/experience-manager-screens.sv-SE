@@ -2,7 +2,7 @@
 title: Direktåtkomst till Internet
 description: Direktåtkomst till Internet
 translation-type: tm+mt
-source-git-commit: da1fb07fef33bca771693f8bd4cc7bce256d808e
+source-git-commit: f25176be89424059b8c51296969f069687328536
 workflow-type: tm+mt
 source-wordcount: '697'
 ht-degree: 0%
@@ -67,6 +67,7 @@ Utöver att nätverksanslutningen kan nås på Internet ska den tillhandahålla 
 *Tillräckligt* beroende på antalet anslutna AEM-skärmar och på hur andra konsumenter använder nätverket, till exempel smarttelefoner, surfplattor, kassörer, datorer eller Wi-Fi-gäster.
 
 >[!NOTE]
+>
 >Alla enheter som nämns ovan har samtidig åtkomst till Internet-anslutningen och bandbredden minskar linjärt när du lägger till fler konsumenter eller datorer i nätverket.
 
 ### Lokalt nätverk {#lan-connection}
@@ -77,6 +78,7 @@ LAN-nätverket matchar vanligtvis minst ett 100 Mbit/s-nätverk, så att det fin
 Om en Wi-Fi-lösning planeras för att ansluta AEM Screens till Internet Link rekommenderar vi att man använder moderna Wi-Fi-standarder som `IEEE 802.11g` ett minimum. Den här standarden stöder anslutningar på upp till 54 Mbit/s. Alla *nyare* standarder som `802.11h-n` är av bättre kvalitet.
 
 >[!NOTE]
+>
 >Om en Wi-Fi Repeater krävs rekommenderas en trådlös nätanslutningspunkt som Google Nest Mesh Wi-Fi eller liknande. Andra Wi-Fi-upprepande tekniker slutar med en enorm förlust av bandbredd i hela nätverket.
 
 ## Hämta media och resurser {#download}
@@ -90,6 +92,7 @@ För scenarier där det förekommer mer interaktion med sensorer eller utlösare
 Följande tabell ger en översikt över data för nätverksanslutningsnycklar.
 
 >[!NOTE]
+>
 >Med hjälp av informationen kan du visa förbrukningen för varje enhet i nätverket som begär och hämtar en Internetkälla. Var och en av dessa förfrågningar sammanfattar och förlänger hämtningstiden.
 
 ![](/help/assets/download-times-direct.png)
