@@ -1,8 +1,8 @@
 ---
-title: Konfigurera Adobe Analytics med AEM-skärmar
-seo-title: Konfigurera Adobe Analytics med AEM-skärmar
-description: 'Följ det här avsnittet för att lära dig mer om sekvensering och hur du skickar anpassade händelser med Adobe Analytics offline '
-seo-description: 'Följ det här avsnittet för att lära dig mer om sekvensering och hur du skickar anpassade händelser med Adobe Analytics offline '
+title: Konfigurera Adobe Analytics med AEM Screens
+seo-title: Konfigurera Adobe Analytics med AEM Screens
+description: 'Följ det här avsnittet när du vill veta mer om sekvensering och hur du skickar anpassade händelser med Adobe Analytics offline '
+seo-description: 'Följ det här avsnittet när du vill veta mer om sekvensering och hur du skickar anpassade händelser med Adobe Analytics offline '
 uuid: e685e553-c05b-4db4-8fa5-9ef45268b094
 contentOwner: jsyal
 content-type: reference
@@ -11,36 +11,40 @@ topic-tags: developing
 discoiquuid: 3cec9266-4032-46b9-9c75-16da64bfea7d
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 9b68f76512fc090103f29c8c29c761b0f047416f
+source-git-commit: f25176be89424059b8c51296969f069687328536
+workflow-type: tm+mt
+source-wordcount: '694'
+ht-degree: 8%
 
 ---
 
 
-# Konfigurera Adobe Analytics med AEM-skärmar {#configuring-adobe-analytics-with-aem-screens}
+# Konfigurera Adobe Analytics med AEM Screens {#configuring-adobe-analytics-with-aem-screens}
 
 >[!CAUTION]
 >
->Den här AEM-skärmfunktionen är bara tillgänglig om du har installerat AEM 6.4.2 Feature Pack 2 och AEM 6.3.3 Feature Pack 4.\
+>Funktionen AEM Screens är endast tillgänglig om du har installerat AEM 6.4.2 Feature Pack 2 och AEM 6.3.3 Feature Pack 4.
+>
 >Om du vill få tillgång till något av dessa funktionspaket måste du kontakta Adobes support och begära åtkomst. När du har behörighet kan du hämta den från paketresursen.
 
 Detta avsnitt behandlar följande ämnen:
 
 * **Sekvenser i Adobe Analytics med AEM Screens**
-* **Skicka anpassade händelser med hjälp av Adobe Analytics offline**
+* **Skicka anpassade händelser med Adobe Analytics offline**
 
 ## Sekvenser i Adobe Analytics med AEM Screens {#sequencing-in-adobe-analytics-with-aem-screens}
 
-Sekvensprocessen ****** börjar med datalagringstjänsten som aktiverar tjänsten Adobe Analytics. Kanalinnehåll skickar Adobe Analytics-händelser med lön, det vill säga datatestning till Windows I/O och stannar-händelser aktiveras. Händelserna sparas i indexdatabasen och placeras sedan i objektarkivet. Baserat på schemat klipper administratören in data från objektarkivet och överför dem vidare till segmentlagret. Den försöker skicka maximalt med data när den är ansluten.
+Sekvensprocessen ****** börjar med datalagringstjänsten som aktiverar tjänsten Adobe Analytics. Kanalinnehåll skickar Adobe Analytics-event med lön, det vill säga datatestning till Windows I/O och stannar-händelser aktiveras. Händelserna sparas i indexdatabasen och placeras sedan i objektarkivet. Baserat på schemat klipper administratören in data från objektarkivet och överför dem vidare till segmentlagret. Den försöker skicka maximalt med data när den är ansluten.
 
 ### Sekvensdiagram {#sequencing-diagram}
 
-I följande sekvensdiagram förklaras Adobe Analytics-integreringen med AEM-skärmar:
+I följande sekvensdiagram förklaras Adobe Analytics Integration med AEM Screens:
 
 ![analytics_chunking](assets/analytics_chunking.png)
 
-## Skicka anpassade händelser med hjälp av Adobe Analytics offline {#sending-custom-events-using-offline-adobe-analytics}
+## Skicka anpassade händelser med Adobe Analytics offline {#sending-custom-events-using-offline-adobe-analytics}
 
-I följande tabell sammanfattas standarddatamodellen för händelser. Här listas alla fält som skickas till Adobe Analytics:
+I följande tabell sammanfattas standarddatamodellen för händelser. Här listas alla fält som skickats till Adobe Analytics:
 
 <table>
  <tbody>
@@ -240,7 +244,7 @@ I följande tabell sammanfattas standarddatamodellen för händelser. Här lista
    <td>required</td> 
    <td>string</td> 
    <td> </td> 
-   <td>Programnamn (AEM-skärmar)</td> 
+   <td>Programnamn (AEM Screens)</td> 
   </tr>
   <tr>
    <td> </td> 
@@ -253,7 +257,7 @@ I följande tabell sammanfattas standarddatamodellen för händelser. Här lista
   </tr>
   <tr>
    <td> </td> 
-   <td>Plattform</td> 
+   <td>Platform</td> 
    <td>source.platform</td> 
    <td>required</td> 
    <td>string</td> 
@@ -290,7 +294,7 @@ I följande tabell sammanfattas standarddatamodellen för händelser. Här lista
   <tr>
    <td> </td> 
    <td>Mime-typ</td> 
-   <td>content.mimeType</td> 
+   <td>content.mimetype</td> 
    <td>valfritt</td> 
    <td>string</td> 
    <td> </td> 
