@@ -1,10 +1,10 @@
 ---
-title: Säkerhetschecklista för AEM-skärmar
-seo-title: Säkerhetschecklista för AEM-skärmar
-description: Sidan beskriver säkerhetschecklistan för AEM-skärmar
-seo-description: Sidan beskriver säkerhetschecklistan för AEM-skärmar
+title: Säkerhetschecklista för AEM Screens
+seo-title: Säkerhetschecklista för AEM Screens
+description: På sidan beskrivs säkerhetschecklistan för AEM Screens
+seo-description: På sidan beskrivs säkerhetschecklistan för AEM Screens
 translation-type: tm+mt
-source-git-commit: dd1198dbfb502287ae72c3ccef297606aef069a2
+source-git-commit: f25176be89424059b8c51296969f069687328536
 workflow-type: tm+mt
 source-wordcount: '473'
 ht-degree: 0%
@@ -12,20 +12,21 @@ ht-degree: 0%
 ---
 
 
-# Systemsäkerhetsfrågor för AEM-skärmar {#security-checklist}
+# Systemsäkerhetsaspekter för AEM Screens {#security-checklist}
 
 >[!IMPORTANT]
+>
 >Detta är en intern Git-resurs.
 
-På den här sidan visas systemsäkerhetsaspekter för AEM-skärmar.
+På den här sidan visas systemsäkerhetsaspekter för AEM Screens.
 
 
-## White Paper for AEM Screens Security {#white-paper}
+## Rapport om AEM Screens Security {#white-paper}
 
 I det här avsnittet beskrivs rapporten. (Väntande vitpappersbilaga)
 
 
-## Frågor och svar för AEM Screens Security {#faqs-screens}
+## Vanliga frågor om AEM Screens-säkerhet {#faqs-screens}
 
 Följande frågor och svar förutsätter en autentiserad, registrerad spelararkitektur med HTTPS som kommunikationsprotokoll mellan spelare och AEM Server.
 
@@ -77,7 +78,9 @@ En fysiskt komprometterad spelare kan teoretiskt manipuleras för att spela upp 
 Vi rekommenderar därför att enheterna är utom räckhåll, helst i en skyddad behållare, med kabeldragningen även skyddad. Inaktivera även IR-fjärrportar.
 
 Om enhetens operativsystem inte uppdateras regelbundet kan operativsystemet lämnas utsatt för säkerhetshål och tillåta fjärråtkomst över nätverket.
+
 >[!NOTE]
+>
 >Vi rekommenderar att du instrumenterar enheterna med lämpliga fjärruppdaterings- och kontrollfunktioner (fjärrskrivbordsdator, MDM-lösning osv.). Vi rekommenderar även att du använder ett privat nätverk som inte är exponerat för den offentliga WIFI-filen.
 
 
