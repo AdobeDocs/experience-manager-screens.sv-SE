@@ -2,7 +2,7 @@
 title: Mobilnätverk med mobil datarouter och aktiva nätverkskomponenter
 description: Sidan beskriver mobilnätverk med Mobile Data Router och Active Network Components
 translation-type: tm+mt
-source-git-commit: ec8af4e49694937a79ccbd78d51569f1031ca251
+source-git-commit: f25176be89424059b8c51296969f069687328536
 workflow-type: tm+mt
 source-wordcount: '1033'
 ht-degree: 0%
@@ -81,10 +81,12 @@ När du överväger vilket datanätverk som ska användas bör du svara på föl
 * Hur många innehållsändringar som förväntas och vilka är de genomsnittliga filstorlekarna?
 
 >[!NOTE]
+>
 >Datapaketet måste vara minst:
 `Data Package Capacity = # of Clients * (# of Content Files * Average File Size)`
 
 >[!IMPORTANT]
+>
 >För inledande överföring av mediefiler, till exempel, måste en högre datamängd och en ökad hämtningstid förväntas och återspeglas i ovanstående antaganden, samtidigt som nya spelare integreras. Ett 4G-nätverk med *bra* täckning och obegränsade data bör matcha de vanligaste installationerna i den här nätverksinstallationen.
 
 
@@ -104,6 +106,7 @@ För de fall där det förekommer mer interaktion med sensorer eller andra utlö
 Tabellerna nedan ger en god översikt över vilka data för nätverksanslutningsnyckel som krävs för prestanda som kan förväntas och möjliga väntetider.
 
 >[!NOTE]
+>
 >All information avser förbrukningen av varje enhet i nätverket som begär och hämtar en Internetkälla. Var och en av dessa förfrågningar sammanfattar och förlänger hämtningstiden.
 
 ![](/help/using/assets/mobile-router-download.png)
