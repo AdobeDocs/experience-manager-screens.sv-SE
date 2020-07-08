@@ -1,10 +1,10 @@
 ---
-title: AEM-skärmar Projektroller och ansvarsområden
-seo-title: AEM-skärmar Projektroller och ansvarsområden
-description: På sidan beskrivs AEM-skärmar Projektroller och ansvarsområden
-seo-description: På sidan beskrivs AEM-skärmar Projektroller och ansvarsområden
+title: AEM Screens projektroller och ansvarsområden
+seo-title: AEM Screens projektroller och ansvarsområden
+description: På sidan beskrivs AEM Screens Projekts roller och ansvarsområden
+seo-description: På sidan beskrivs AEM Screens Projekts roller och ansvarsområden
 translation-type: tm+mt
-source-git-commit: 59eb6f298aa646d14445ddd6082006742fb02d62
+source-git-commit: f25176be89424059b8c51296969f069687328536
 workflow-type: tm+mt
 source-wordcount: '1263'
 ht-degree: 9%
@@ -23,6 +23,7 @@ Diagrammet nedan visar rollerna som vi kommer att hänvisa till i hela guiden.
 ![](/help/assets/project-roles-revised.png)
 
 >[!NOTE]
+>
 > Många av dessa roller kan vara antingen interna eller externa beroende på hur respektive projekt är konfigurerat.
 
 ## Definiera roller {#roles}
@@ -31,7 +32,7 @@ I följande avsnitt finns en översikt över målgruppen:
 
 ### Adobe {#adobe-audience}
 
-Adobe innehåller resurser för Adobes hanterade tjänster, som CSE (Customer Success Engineer) och Adobe Support.
+Adobe innehåller Adobe Managed Services som CSE (Customer Success Engineer) och Adobe Support.
 
 ### AEM-implementerare {#aem-implementors}
 
@@ -79,11 +80,11 @@ Kreatörerna och Content Management kan vara följande:
 
 ### Projektledare {#project-managers}
 
-Projektledare hanterar vanligtvis hela distributionen för AEM-skärmar. En projektledare är punktpersonen för hela genomförandet av det utsedda projektet och har ett viktigt ansvar, till exempel att ställa in tidslinjer, hantera teambehov och kommunikation, möta utmaningar och se till att målen uppfylls.
+Projektledare hanterar vanligtvis hela distributionen av AEM Screens. En projektledare är punktpersonen för hela genomförandet av det utsedda projektet och har ett viktigt ansvar, till exempel att ställa in tidslinjer, hantera teambehov och kommunikation, möta utmaningar och se till att målen uppfylls.
 
 >[!NOTE]
 >
-> Om du vill veta mer om olika roller och ansvarsområden och målgruppen för ett projekt för digitala signaturer kan du gå till **[Projektroller och ansvarsområden](https://helpx.adobe.com/experience-manager/6-5/screens/using/project-roles-responsibilities.html)**.
+>Om du vill veta mer om olika roller och ansvarsområden och målgruppen för ett projekt för digitala signaturer kan du gå till **[Projektroller och ansvarsområden](https://helpx.adobe.com/experience-manager/6-5/screens/using/project-roles-responsibilities.html)**.
 
 
 ## Projektfaser {#project-stages}
@@ -98,7 +99,7 @@ För att stödja en framgångsrik driftsättning av digitala signaturer är det 
 
 >[!NOTE]
 >
-> Även om den här guiden främst fokuserar på *dag ett* och *dag två*, så är alla tre faserna viktiga för att lyckas med digitala skyltningsprojekt.
+>Även om den här guiden främst fokuserar på *dag ett* och *dag två*, så är alla tre faserna viktiga för att lyckas med digitala skyltningsprojekt.
 Följ ytterligare en video om **[Projektledning och driftsättning](https://helpx.adobe.com/experience-manager/6-5/screens/using/project-management-and-deployment.html)**och lär dig mer om förproduktion, projektinitiering och projektförlopp.
 
 ## RACI-diagram {#raci-chart}
@@ -107,7 +108,7 @@ Följande är ett exempel på RACI-diagram som använder rolldefinitionerna.
 
 >[!NOTE]
 >
-> Diagrammet är inte avsett att följas exakt, utan att vara ett exempel på vanliga uppgifter och överväganden i ett AEM-skärmsprojekt.
+>Diagrammet är inte avsett att följas exakt utan att vara ett exempel på vanliga uppgifter och överväganden i ett AEM Screens-projekt.
 
 ### RACI-definitioner {#raci-definitions}
 
@@ -119,7 +120,7 @@ Följande är ett exempel på RACI-diagram som använder rolldefinitionerna.
 
 * **Informerad**: Håll dig informerad om arbetets förlopp, men är inte involverad i detaljerna i slutprodukten.
 
-Nedan följer ett exempel på ett RACI-diagram som använder rolldefinitionerna och ger ett exempel på vanliga uppgifter och överväganden i ett AEM Screens-projekt.
+Följande är ett exempel på ett RACI-diagram som använder rolldefinitionerna och ger ett exempel på vanliga uppgifter och överväganden i ett AEM Screens-projekt.
 
 I följande tabell sammanfattas **Dag noll: Förförsäljningsöverväganden**:
 
@@ -145,8 +146,8 @@ I följande tabell sammanfattas **Dag ett: Projektimplementering (programdesign)
 | Arkitektur | I | RA | I | I |
 | Validera datastruktur med gränssnittsdesign | I | RA | C | C |
 | Programutveckling | RA | RA | RA | RA |
-| Projektinställningar för AEM-skärmar | I | RA | C | I |
-| Implementering av analyser | I | RA | C | - |
+| Konfigurera AEM Screens-projekt | I | RA | C | I |
+| Implementering av Analytics | I | RA | C | - |
 | Testning och driftsättning | RA | C | RA | I |
 | Serverkonfiguration | I | RA | I | I |
 | Plan för innehållsuppdatering | I | RA | C | C |
@@ -170,17 +171,17 @@ I följande tabell sammanfattas **Dag ett: Dag ett: Projektimplementering (maski
 | Avtal om roller och ansvar | RA | RA | RA | RA |
 | Detaljhandelsdesign omfattar kabeldragningar | - | - | - | - |
 | Välj maskinvara | RAC | - | - | - |
-| Enhetshantering för master | RA | I | - | - |
+| Enhetshantering för överordnad | RA | I | - | - |
 | Enhetsbeställning och lagring &amp; konfigurering | RA | CI | I | - |
 | Processdefinition för support | RA | I | RA | C |
 
 >[!NOTE]
 >
-> Roller ändras under dag två (stöd efter start).
+>Roller ändras under dag två (stöd efter start).
 
 * **Författare**: Innehållshantering + strategi
 
-* **Utvecklare**: Vanligtvis medlem i implementeringsteamet för AEM Screens, eller överlämning till den interna utvecklingsgruppen
+* **Utvecklare**: Vanligtvis en medlem i AEM Screens implementeringsteam, eller lämna över till den interna utvecklingsgruppen
 
 * **Tekniker**: Antingen har den avtalats av AV-integratorn eller är en del av samma företag.
 
