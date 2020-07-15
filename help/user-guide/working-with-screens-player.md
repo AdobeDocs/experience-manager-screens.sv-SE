@@ -10,7 +10,10 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
 discoiquuid: 4ad51b5e-c628-4440-9f2e-41d17cb10bc3
 translation-type: tm+mt
-source-git-commit: 428e1dbaa1a252d2aa9bcbb02264a0076b95291b
+source-git-commit: 8d904ae752181844f62f95cfcd1f5657957b1780
+workflow-type: tm+mt
+source-wordcount: '1065'
+ht-degree: 1%
 
 ---
 
@@ -47,7 +50,7 @@ Du kan konfigurera inställningar för enheten från enhetskontrollpanelen, som 
 
 Om du aktiverar **administratörsgränssnittet** från inställningspanelen kan användaren öppna administratörsinställningarna från skärmspelaren. Om du inaktiverar det här alternativet från enhetspanelen kan användaren inte öppna administratörsgränssnittet från spelaren.
 
-Om du vill visa administratörsgränssnittet från Skärmspelaren trycker du länge på det övre vänstra hörnet för att öppna Admin-menyn, på den AEM Screens-spelare som har aktiverats med pekfunktion eller med en mus. Den visar information när registreringen är klar och kanalerna har lästs in.
+Om du vill visa administratörsgränssnittet från Skärmspelaren trycker du länge på det övre vänstra hörnet för att öppna Admin-menyn, AEM Screens-spelaren med pekfunktion eller med en mus. Den visar information när registreringen är klar och kanalerna har lästs in.
 
 >[!NOTE]
 >
@@ -55,19 +58,33 @@ Om du vill visa administratörsgränssnittet från Skärmspelaren trycker du lä
 
 ![chlimage_1-3](assets/chlimage_1-3.gif)
 
-Om du väljer alternativet **Konfiguration** på menyn kan du även återställa **firmware**, **Inställningar** eller **Till fabrik** i den här dialogrutan.
+#### Åtkomst till alternativen på menyn Konfiguration {#configuration-options}
 
-Dessutom kan du ange det maximala antalet loggfiler som ska behållas för en AEM Screens-spelare i **Max antal. loggfiler som ska behållas**. Se skärmbilden nedan för mer information.
+Du kan uppdatera dina konfigurationer om du väljer alternativet **Konfiguration** på sidomenyn, vilket visas i figuren nedan:
+
+![screen_shot_2018-10-15at101257am](assets/screen_shot_2018-10-15at101257am.png)
+
+På menyn Konfiguration kan du ändra följande inställningar:
+
+* Återställ **firmware**, **inställningar** eller **till fabrik** i den här dialogrutan.
+
+* Ange det maximala antalet loggfiler som ska behållas för en AEM Screens-spelare i **Max antal. loggfiler som ska behållas**.
+
+* Aktivera eller inaktivera **Admin Menu**, **Channel Switcher** och **Activity UI** för skärmspelaren.
+
+   Om **Aktivitetsgränssnittet** är aktiverat på menyn **Konfiguration** , visar AEM Screens-spelaren de *synkroniserade* meddelandena i det övre högra hörnet av spelaren, vilket visas i figuren nedan.
+
+   ![bild](/help/user-guide/assets/activity_ui.png)
 
 >[!NOTE]
 >
 >Alternativet **Uppdatera inbyggd** programvara fungerar bara på cordova, till exempel Android-spelare.
 
-![screen_shot_2018-10-15at101257am](assets/screen_shot_2018-10-15at101257am.png)
-
 >[!NOTE]
 >
 >Vi rekommenderar att **administratörsgränssnittet** inaktiveras i produktionsdistributioner.
+
+#### Åtkomst till menyalternativ för innehållscache {#content-cache-options}
 
 Du kan rensa cache för kanaler och program från administratörsgränssnittet i AEM Screens Player.
 
@@ -107,7 +124,7 @@ Följ de här stegen för att ändra inställningarna för spelaren:
 
 ## Felsöka AEM Screens Player {#troubleshooting-aem-screens-player}
 
-Du kan felsöka olika problem i samband med AEM Screens Player (maskinvara och programvara):
+Du kan felsöka olika problem som är kopplade till AEM Screens Player (maskinvara och programvara):
 
 | **Problem** | **Rekommendationer** |
 |---|---|
@@ -138,7 +155,7 @@ Följande avsnitt innehåller riktlinjer för val av maskinvara för ett skärms
 * Granska alltid effektkrav och energikonditionering.
 * Granska noggrant prestandabehov och I/O-portar som krävs för programmet.
 
-I följande tabell sammanfattas maskinvarukonfigurationerna med typiska användningsfall för ett AEM-skärmsprojekt:
+I följande tabell sammanfattas maskinvarukonfigurationerna med typiska användningsfall för ett AEM Screens-projekt:
 
 <table>
  <tbody>
