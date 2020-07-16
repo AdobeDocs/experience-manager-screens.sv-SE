@@ -11,7 +11,10 @@ topic-tags: administering
 discoiquuid: 77fe9d4e-e1bb-42f7-b563-dc03e3af8a60
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 209a9a833957d9a8bb7c7ec70ff421514f5b974c
+source-git-commit: db3429d93833ec22ba60732c45da274830692b39
+workflow-type: tm+mt
+source-wordcount: '678'
+ht-degree: 0%
 
 ---
 
@@ -24,13 +27,13 @@ Dessutom är **Watchdog** en lösning för att återställa spelaren från krasc
 
 ## Installera Android Player {#installing-android-player}
 
-Installera Android Player för AEM-skärmar om du vill implementera Android Player för AEM-skärmar.
+Installera Android Player för AEM Screens om du vill implementera Android Player för AEM Screens.
 
-Gå till [**sidan AEM 6.4 Player Downloads **](https://download.macromedia.com/screens/).
+Gå till [**sidan AEM 6.5 Player Downloads **](https://download.macromedia.com/screens/).
 
 ### Ad hoc-metod {#ad-hoc-method}
 
-Med metoden Ad-Hoc kan du installera den senaste Android Player (*.exe*). Besök [**sidan AEM 6.4 Player Downloads **](https://download.macromedia.com/screens/).
+Med metoden Ad-Hoc kan du installera den senaste Android Player (*.exe*). Besök [**sidan AEM 6.5 Player Downloads **](https://download.macromedia.com/screens/).
 
 När du har hämtat programmet följer du stegen på spelaren för att slutföra ad hoc-installationen:
 
@@ -61,7 +64,7 @@ Om du vill få tillgång till vissa privilegierade API:er för Android, som *Pow
 
 Följ stegen nedan för att signera android-paketet med hjälp av tillverkarens tangenter:
 
-1. Hämta appen från Google Play eller från [sidan AEM Screens Player Downloads](https://download.macromedia.com/screens/)
+1. Hämta appen från Google Play eller från [AEM Screens Player Downloads](https://download.macromedia.com/screens/) -sidan
 1. Hämta plattformstangenterna från tillverkaren för att få en *pk8* - och en *pem* -fil
 
 1. Leta reda på verktyget apksigner i android sdk med hjälp av sök ~/Library/Android/sdk/build-tools -name &quot;apksigner&quot;
