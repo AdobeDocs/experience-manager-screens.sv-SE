@@ -11,7 +11,10 @@ content-type: reference
 discoiquuid: 4228e8a1-9749-49a6-a1bb-365492bc2a3d
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 9e7c4ec77265c1b6927a19e0d9d39770b64db0fb
+source-git-commit: db3429d93833ec22ba60732c45da274830692b39
+workflow-type: tm+mt
+source-wordcount: '878'
+ht-degree: 0%
 
 ---
 
@@ -22,13 +25,13 @@ I det här avsnittet beskrivs hur du konfigurerar AEM Screens Windows 10 Player.
 
 ## Installerar Windows Player {#installing-windows-player}
 
-Installera Windows Player för AEM-skärmar om du vill implementera Windows Player för AEM-skärmar.
+Installera Windows Player för AEM Screens om du vill implementera Windows Player för AEM Screens.
 
-Gå till [**sidan AEM 6.4 Player Downloads **](https://download.macromedia.com/screens/).
+Gå till [**sidan AEM 6.5 Player Downloads **](https://download.macromedia.com/screens/).
 
 ### Ad-Hoc-metod {#ad-hoc-method}
 
-Med metoden Ad-Hoc kan du installera den senaste versionen av Windows Player (*.exe*). Besök [**sidan AEM 6.4 Player Downloads **](https://download.macromedia.com/screens/).
+Med metoden Ad-Hoc kan du installera den senaste versionen av Windows Player (*.exe*). Besök [**sidan AEM 6.5 Player Downloads **](https://download.macromedia.com/screens/).
 
 När du har hämtat programmet följer du stegen på spelaren för att slutföra ad hoc-installationen:
 
@@ -66,7 +69,7 @@ I följande tabell sammanfattas principattributen med en exempelpolicy-JSON för
 
 | **Principnamn** | **Syfte** |
 |---|---|
-| server | URL:en till AEM-servern (Adobe Experience Manager). |
+| server | URL:en till Adobe Experience Manager-servern (AEM). |
 | upplösning | Enhetens upplösning. |
 | rebootSchedule | Schemat för att starta om spelaren. |
 | enableAdminUI | Aktivera administratörsgränssnittet för att konfigurera enheten på platsen. Anges till false när den är helt konfigurerad och i produktion. |
@@ -105,7 +108,7 @@ Aktivera Kiosk-läget genom att följa stegen nedan:
    Mer information finns i avsnittet ***Konfigurera Shell Launcher*** på **[Shell Launcher](https://docs.microsoft.com/en-us/windows-hardware/customize/enterprise/shell-launcher)**-sidan av Microsoft Windows-stöd.
 
 1. Skapa en icke-administrativ användare (om du inte redan har någon) som ska användas för Kiosk. Detta kan vara en lokal användare eller en domänanvändare.
-1. Installera Windows-spelaren för den Kiosk-användaren från [sidan AEM Screens Player Downloads](https://download.macromedia.com/screens/) .
+1. Installera Windows Player för den Kiosk-användaren från [AEM Screens Player Downloads](https://download.macromedia.com/screens/) -sidan.
 1. Mer information finns i [Use Shell Launcher (Använd Shell Launcher) för att skapa en Windows 10-kioskdator](https://docs.microsoft.com/en-us/windows/configuration/kiosk-shelllauncher) för att ändra PowerShell-skriptet.
 
    Ändra PowerShell-skriptet så att användarnamnet ersätts med det du skapade. Kontrollera att sökvägen till den körbara programfilen är korrekt. Detta anger det anpassade skalet som Windows-spelarprogram för heltalsanvändaren och anger standardinställningen som explorer.exe för andra användare.
