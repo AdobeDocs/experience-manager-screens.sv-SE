@@ -2,9 +2,10 @@
 cloud: experience-cloud
 product: experience manager
 audience: end-user
-user-guide-title: Adobe Experience Manager Screens - hjälp
+user-guide-title: Hjälp för Adobe Experience Manager-skärmar
+user-guide-description: Learn to use AEM Screens to publish interactive digital experiences involving different types of screens.
 translation-type: tm+mt
-source-git-commit: 28966ccd0febf28494cb218407fec942a79c1cf4
+source-git-commit: 5f3fc27ae60de86ae40ba71a67cdc6ff43dea4fb
 workflow-type: tm+mt
 source-wordcount: '383'
 ht-degree: 1%
@@ -12,7 +13,7 @@ ht-degree: 1%
 ---
 
 
-# Användarhandbok för AEM-skärmar {#user-guide}
+# Användarhandbok för AEM Screens {#user-guide}
 
 + [Introduktion till skärmar](aem-screens-introduction.md)
 + Översikt och snabbstartsguide {#overview}
@@ -27,12 +28,12 @@ ht-degree: 1%
    + [Del 5: Supportöverväganden](support-considerations.md)
 + Konfiguration och administration {#administering}
    + [Konfigurationer för skärmar](configuring-screens-introduction.md)
-   + [Konfigurera Dispatcher-konfigurationer](dispatcher-configurations-aem-screens.md)
+   + [Konfigurera Dispatcher Configurations](dispatcher-configurations-aem-screens.md)
    + [Installera skärmuppspelaren](installing-screens-player.md)
    + [Ansluta skärmuppspelaren](working-with-screens-player.md)
    + [Enhetsregistrering](device-registration.md)
    + [Konfigurera åtkomstkontrollistor](setting-up-acls.md)
-   + [AEM Screens Security Checklist](security-checklist.md)
+   + [AEM Screens Säkerhetschecklista](security-checklist.md)
    + [Övergång från ContentSync till SmartSync](smartsync.md)
    + [Ny projektimporterare från fil](project-importer.md)
    + [Replikera datutlösare till publiceringsservrar](replicating-data-triggers.md)
@@ -44,9 +45,9 @@ ht-degree: 1%
    + Author Publish {#author-publish}
       + [Författare/Publicera arkitektur - översikt](author-publish-architecture-overview.md)
       + [Konfigurera författare och publicera](author-and-publish.md)
-   + Analysintegrering med AEM-skärmar {#analytics-integration}
-      + [Integrering med Adobe Analytics](adobe-analytics-integration-aem-screens.md)
-      + [Konfigurera Adobe Analytics med AEM-skärmar](configuring-adobe-analytics-aem-screens.md)
+   + Analytics-integrering med AEM Screens {#analytics-integration}
+      + [Adobe Analytics Integration](adobe-analytics-integration-aem-screens.md)
+      + [Konfigurera Adobe Analytics med AEM Screens](configuring-adobe-analytics-aem-screens.md)
 + Exempel på redigerings- och användningsfall {#authoring}
    + Konfigurera ett skärmprojekt {#setting-up-projects}
       + [Skapa och hantera projekt](creating-a-screens-project.md)
@@ -59,7 +60,7 @@ ht-degree: 1%
    + Använda kärnfunktioner {#product-features}
       + [Textövertäckning](text-overlay.md)
       + [Uppdatera gruppvis offline](bulk-offline-update.md)
-      + [AEM Screens Notifications Service](screens-notifications-service.md)
+      + [Tjänsten AEM Screens Notifications](screens-notifications-service.md)
       + [Använda Experience Fragments](experience-fragments-in-screens.md)
       + [Aktivering på tillgångsnivå](asset-level-scheduling.md)
       + [Aktivering på kanalnivå](channel-level-activation.md)
@@ -88,16 +89,16 @@ ht-degree: 1%
       + [Permanent användning, TakeOver Channel](perpetual-takeover-channel.md)
 + Resurser för utvecklare och API {#developing}
    + [REST API:er](rest-api.md)
-   + [Utveckla en anpassad komponent för AEM-skärmar](developing-custom-component-tutorial-develop.md)
+   + [Utveckla en anpassad komponent för AEM Screens](developing-custom-component-tutorial-develop.md)
    + [Offlinekanaler](offline-channels.md)
-   + [Utöka en AEM-skärmkomponent](extending-component-tutorial-develop.md)
+   + [Utöka en AEM Screens-komponent](extending-component-tutorial-develop.md)
    + [Skapa komponenter](creating-components.md)
    + [Bädda in ett REACT-program med AEM SPA Editor och integrera med AEM Screens Analytics](embedding-react-app.md)
-   + [ContextHub konfigureras i AEM-skärmar](configuring-context-hub.md)
+   + [ContextHub konfigureras i AEM Screens](configuring-context-hub.md)
    + [Skapa anpassade mallar för MultiZone-layouter](creating-custom-templates-multizone-layouts.md)
    + [Använda anpassad profilering och formatering för textövertäckningar](custom-branding-text-overlays.md)
 + Felsökning och vanliga frågor {#troubleshooting}
-   + [Vanliga frågor om AEM-skärmar](aem-screens-faqs.md)
+   + [Vanliga frågor om AEM Screens](aem-screens-faqs.md)
    + [Felsökning av Device Control Center](monitoring-screens.md)
    + [Videouppspelningskonfiguration](troubleshoot-videos.md)
 + Versionsinformation {#release-notes}
