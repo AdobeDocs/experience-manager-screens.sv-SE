@@ -5,7 +5,7 @@ description: Följ den här sidan om du vill veta mer om hur du använder anpass
 seo-description: Följ den här sidan om du vill veta mer om hur du använder anpassad profilering och formatering för textövertäckningar.
 contentOwner: Jyotika Syal
 translation-type: tm+mt
-source-git-commit: f25176be89424059b8c51296969f069687328536
+source-git-commit: 8492bdd071ae029a68ec4a4983c79ce326cac38b
 workflow-type: tm+mt
 source-wordcount: '626'
 ht-degree: 1%
@@ -32,7 +32,7 @@ Följ stegen nedan för att skapa anpassade märkesnamn och format för textöve
    >[!NOTE]
    >Mer information om hur du lägger till en textövertäckning i resursen i en kanalredigerare finns i [Textövertäckning](/help/user-guide/text-overlay.md).
 
-1. Navigera till CRXDE Lite från din AEM-instans —> Verktyg —> **CRXDE Lite**.
+1. Navigera till CRXDE Lite från din AEM instans —> Verktyg —> **CRXDE Lite**.
 
 1. Du måste skapa en egen design i `/apps/settings/wcm/designs/<your-project>/`exempelvis navigera till `/apps/settings/wcm/designs/customstyle/`
 
@@ -41,26 +41,26 @@ Följ stegen nedan för att skapa anpassade märkesnamn och format för textöve
 1. Skapa filen *static.css* och ange följande css-regler. Visas också som ett exempel i figuren under CSS-reglerna.
 
    ```shell
-     //global styles
-     cq-Screens-textOverlay {
-     padding: 1em;
-     font-size: 3rem;
-     line-height: 1em;
-      }
-     //authoring overrides
-    .aem-AuthorLayer-Edit .cq-Screens-textOverlay {
-     display: none;
-     padding: 0;
-     font-size: 1rem;
+    //global styles
+    cq-Screens-textOverlay {
+    padding: 1em;
+    font-size: 3rem;
+    line-height: 1em;
      }
-      // light text variant
-     .cq-Screens-textOverlay-color--light {
-      background-color: rgba(0, 0, 0, .6);
-      }
-      // dark text variant
-      .cq-Screens-textOverlay-color--dark {
-       background-color: rgba(255, 255, 255, .6);
+    //authoring overrides
+   .aem-AuthorLayer-Edit .cq-Screens-textOverlay {
+    display: none;
+    padding: 0;
+    font-size: 1rem;
+    }
+     // light text variant
+    .cq-Screens-textOverlay-color--light {
+     background-color: rgba(0, 0, 0, .6);
      }
+     // dark text variant
+     .cq-Screens-textOverlay-color--dark {
+      background-color: rgba(255, 255, 255, .6);
+    }
    ```
 
    ![bild](/help/user-guide/assets/custom-brand/custom-brand4.png)
@@ -83,7 +83,7 @@ Följ stegen nedan för att skapa anpassade märkesnamn och format för textöve
 
 >[!IMPORTANT]
 >
-> Du kan välja att täcka över de befintliga skärmmallarna för att mata in dina egna designer som standard eller skapa en egen mall helt och hållet. Mer information finns i stegen nedan.
+>Du kan välja att täcka över de befintliga skärmmallarna för att mata in dina egna designer som standard eller skapa en egen mall helt och hållet. Mer information finns i stegen nedan.
 
 1. Så här övertäcker du de befintliga skärmmallarna så att du kan mata in din egen design som standard:
 
@@ -115,7 +115,7 @@ Följ stegen nedan för att visa den uppdaterade designen för textövertäcknin
 
    ![bild](/help/user-guide/assets/custom-brand/custom-brand7.png)
 
-1. Navigera till filen *static.css* i CRXDE Lite och lägg till teckensnittet som, till exempel, `font-family: "Lucida Console", Courier, monospace;` till den här filen, som visas nedan.
+1. Navigera till din *static.css* -fil i CRXDE Lite och lägg till teckensnittet, till exempel, `font-family: "Lucida Console", Courier, monospace;` i den här filen, som visas nedan.
    ![bild](/help/user-guide/assets/custom-brand/custom-brand8.png)
 
 1. När du har sparat ändringarna och läst in förhandsvisningen igen visas en uppdatering av teckensnittet för textövertäckning, vilket visas i bilden nedan.
