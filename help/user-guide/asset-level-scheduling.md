@@ -4,7 +4,7 @@ seo-title: Aktivering på tillgångsnivå
 description: Följ den här sidan för att lära dig hur du aktiverar en specifik resurs i en kanal för en schemalagd tidsram i spelarens lokala tidszon.
 seo-description: Följ den här sidan för att lära dig hur du aktiverar en specifik resurs i en kanal för en schemalagd tidsram i spelarens lokala tidszon.
 translation-type: tm+mt
-source-git-commit: f25176be89424059b8c51296969f069687328536
+source-git-commit: 8492bdd071ae029a68ec4a4983c79ce326cac38b
 workflow-type: tm+mt
 source-wordcount: '1452'
 ht-degree: 0%
@@ -30,9 +30,9 @@ Följande ämnen behandlas i detta avsnitt:
 
 >[!CAUTION]
 >
->Funktionen AEM Screens är bara tillgänglig om du har installerat AEM 6.3 Feature Pack 3 eller AEM 6.4 Screens Feature Pack 1.
+>Funktionen AEM Screens är endast tillgänglig om du har AEM 6.3 Feature Pack 3 eller AEM 6.4 Screens Feature Pack 1.
 >
->Om du vill få tillgång till det här funktionspaketet måste du kontakta Adobes support och begära åtkomst. När du har behörighet kan du hämta den från paketresursen.
+>Om du vill få tillgång till det här funktionspaketet måste du kontakta Adobe Support och begära åtkomst. När du har behörighet kan du hämta den från paketresursen.
 
 ## Översikt {#overview}
 
@@ -88,8 +88,8 @@ Anta att du bara vill visa en bild på fredag från 1:00 till 10:00. Du kan anv�
 
 1. När du har angett startdatum/tid och slutdatum/tid kan du använda ett uttryck eller en naturlig textversion för att ange upprepningsschemat.
 
-   > [!NOTE]
-   > Du kan hoppa över eller ta med fälten **Aktiv från** och **Aktiv tills** och lägga till uttrycket i fältet Scheman enligt dina önskemål.
+   >[!NOTE]
+   >Du kan hoppa över eller ta med fälten **Aktiv från** och **Aktiv tills** och lägga till uttrycket i fältet Scheman enligt dina önskemål.
 
 1. Ange uttrycket i **Schedule** så visas resursen för det angivna intervallet på dag och tid.
 
@@ -115,8 +115,8 @@ I följande tabell sammanfattas några exempeluttryck som du kan lägga till i s
 
 1. När du har angett startdatum/tid och slutdatum/tid kan du använda ett uttryck eller en naturlig textversion för att ange upprepningsschemat.
 
-   > [!NOTE]
-   > Du kan hoppa över eller ta med fälten **Aktiv från** och **Aktiv tills** och lägga till uttrycket i fältet Scheman enligt dina önskemål.
+   >[!NOTE]
+   >Du kan hoppa över eller ta med fälten **Aktiv från** och **Aktiv tills** och lägga till uttrycket i fältet Scheman enligt dina önskemål.
 
 1. Ange uttrycket i **Schedule** så visas resursen för det angivna intervallet på dag och tid.
 
@@ -140,8 +140,8 @@ I följande tabell sammanfattas några exempeluttryck som du kan lägga till i s
 
 1. När du har angett startdatum/tid och slutdatum/tid kan du använda ett uttryck eller en naturlig textversion för att ange upprepningsschemat.
 
-   > [!NOTE]
-   > Du kan hoppa över eller ta med fälten **Aktiv från** och **Aktiv tills** och lägga till uttrycket i fältet Scheman enligt dina önskemål.
+   >[!NOTE]
+   >Du kan hoppa över eller ta med fälten **Aktiv från** och **Aktiv tills** och lägga till uttrycket i fältet Scheman enligt dina önskemål.
 
 1. Ange uttrycket i **Schedule** så visas resursen för det angivna intervallet på dag och tid.
 
@@ -154,8 +154,8 @@ I följande tabell sammanfattas några exempeluttryck som du kan lägga till i s
 | februari,maj,augusti,november | mediefilen spelas upp i februari, maj, augusti och november |
 | februari-juli | tillgången spelas upp i kanalen från februari hela tiden fram till slutet av juli |
 
-> [!NOTE]
-> När du definierar veckodagar och månader kan du både använda kort- och fullnamnsnoteringar, till exempel måndag/måndag och januari.
+>[!NOTE]
+>När du definierar veckodagar och månader kan du både använda kort- och fullnamnsnoteringar, till exempel måndag/måndag och januari.
 
 ### Kombination av partner {#combined-parting}
 
@@ -163,8 +163,8 @@ I följande tabell sammanfattas några exempeluttryck som du kan lägga till i s
 
 1. När du har angett startdatum/tid och slutdatum/tid kan du använda ett uttryck eller en naturlig textversion för att ange upprepningsschemat.
 
-   > [!NOTE]
-   > Du kan hoppa över eller ta med fälten **Aktiv från** och **Aktiv tills** och lägga till uttrycket i fältet Scheman enligt dina önskemål.
+   >[!NOTE]
+   >Du kan hoppa över eller ta med fälten **Aktiv från** och **Aktiv tills** och lägga till uttrycket i fältet Scheman enligt dina önskemål.
 
 1. Ange uttrycket i **Schedule** så visas resursen för det angivna intervallet på dag och tid.
 
@@ -178,8 +178,8 @@ I följande tabell sammanfattas några exempeluttryck som du kan lägga till i s
 | den första dagen i januari efter kl. 2:00 också den andra dagen i januari, även den tredje dagen i januari före kl. 3:00 | resursen i kanalen börjar spelas upp efter kl. 2:00 den 1 januari och fortsätter att spela för hela dagen den 2 januari ända till kl. 3:00 den 3 januari |
 | den 1-2 januari efter kl. 2:00 också den 2-3 januari före kl. 3:00 | resursen i kanalen startar spelaren efter kl. 2:00 den 1 januari, fortsätter att spelas upp till kl. 17:00 den 2 januari och börjar igen kl. 2:00 och fortsätter att spelas upp till kl. 3:00 den 3 januari |
 
-> [!NOTE]
-> När du definierar veckodagar och månader kan du både använda kort- och fullnamnsnoteringar, till exempel måndag/måndag och januari.  Dessutom kan du även använda _militär_ tidsnotation (d.v.s. 14:00) i stället för *AM/pm* -notation (d.v.s. 2:00).
+>[!NOTE]
+>När du definierar veckodagar och månader kan du både använda kort- och fullnamnsnoteringar, till exempel måndag/måndag och januari.  Dessutom kan du även använda _militär_ tidsnotation (d.v.s. 14:00) i stället för *AM/pm* -notation (d.v.s. 2:00).
 
 
 ## Aktivering av flera resurser {#multi-asset-scheduling}
