@@ -11,7 +11,7 @@ content-type: reference
 discoiquuid: c28fd669-f23e-4d53-bec1-a2911274567d
 noindex: true
 translation-type: tm+mt
-source-git-commit: f25176be89424059b8c51296969f069687328536
+source-git-commit: 8492bdd071ae029a68ec4a4983c79ce326cac38b
 workflow-type: tm+mt
 source-wordcount: '1809'
 ht-degree: 0%
@@ -73,6 +73,7 @@ Följande bild visar **kanalnivåaktiveringsprojektet** med kanalerna **MainAdCh
    >
    >
 * [Hantera en kanal](managing-channels.md)
+
 >
 
 
@@ -102,6 +103,7 @@ Följ stegen nedan för att implementera funktionen:
    1. Navigera till **Kanalnivåaktivering** > **Platser** > **Region**.
    1. Välj **Region** och klicka på **+ Skapa** i åtgärdsfältet.
    1. Välj **Visning** i guiden och skapa en visning med namnet **RegionDisplay.**
+
    ![screen_shot_2018-11-27at112216am](assets/screen_shot_2018-11-27at112216am.png)
 
 1. **Tilldela kanaler att visa**
@@ -116,6 +118,7 @@ Följ stegen nedan för att implementera funktionen:
    1. Välj **Prioritet** som **1**.
    1. Välj **händelser** som stöds som **Inledande inläsning** och **Inaktiv skärm**.
    1. Click **Save**.
+
    ![screen_shot_2018-11-27at124626pm](assets/screen_shot_2018-11-27at124626pm.png)
 
    >[!NOTE]
@@ -133,6 +136,7 @@ Följ stegen nedan för att implementera funktionen:
    1. Välj **Händelser** som stöds som **Inledande laddning**, **Inaktivitetsskärm** och **Timer**, *enligt bilden nedan.
    1. Välj **aktivt datum från** och med 27 november 2018 klockan 11:59 och **aktivt till** och med 28 november 2018 kl. 12:05.
    1. Click **Save**.
+
    >[!CAUTION]
    Du måste ange prioriteten för **kanalen TargetedSinglePlay** som är högre än **MainAdSegment** -kanalen.
 
