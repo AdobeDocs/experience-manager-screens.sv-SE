@@ -6,7 +6,7 @@ seo-description: Följ den här sidan om du vill lära dig hur du använder öve
 uuid: b79d521b-19d4-47c8-a41a-148d7bbf6ac9
 contentOwner: jsyal
 translation-type: tm+mt
-source-git-commit: f25176be89424059b8c51296969f069687328536
+source-git-commit: 8492bdd071ae029a68ec4a4983c79ce326cac38b
 workflow-type: tm+mt
 source-wordcount: '287'
 ht-degree: 1%
@@ -51,7 +51,7 @@ Följ stegen nedan för att lägga till en övergångskomponent i ditt AEM Scree
 
    ![image3](assets/transitions3.png)
 
-   > [!NOTE]
+   >[!NOTE]
    >
    >Som standard anges egenskaperna för övergångskomponenten, till exempel **Typ** , till **Tona** och **Varaktighet** till *1 600 ms*.  Dessutom är det inte tillrådligt att ange en tidslängd för övergången som är längre än den tillgång den används på.
 
