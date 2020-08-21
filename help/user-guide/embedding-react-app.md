@@ -1,8 +1,8 @@
 ---
-title: Bädda in ett REACT-program med AEM SPA Editor och integrera med AEM Screens Analytics
-seo-title: Bädda in ett REACT-program med AEM SPA Editor och integrera med AEM Screens Analytics
-description: Följ den här sidan för att lära dig hur du bäddar in en interaktiv single page-applikation med REACT (eller Angular) med AEM SPA-redigeraren som kan konfigureras av affärskommunikation i AEM och även hur du integrerar din interaktiva applikation med offline-Adobe Analytics.
-seo-description: Följ den här sidan för att lära dig hur du bäddar in en interaktiv single page-applikation med REACT (eller Angular) med AEM SPA-redigeraren som kan konfigureras av affärskommunikation i AEM och även hur du integrerar din interaktiva applikation med offline-Adobe Analytics.
+title: Bädda in ett REACT-program med AEM SPA Editor och Integrera med AEM Screens Analytics
+seo-title: Bädda in ett REACT-program med AEM SPA Editor och Integrera med AEM Screens Analytics
+description: Följ den här sidan för att lära dig hur du bäddar in en interaktiv single page-applikation med REACT (eller Angular) med den AEM SPA-redigeraren som kan konfigureras av affärsfolk i AEM och även hur du integrerar din interaktiva applikation med offline-Adobe Analytics.
+seo-description: Följ den här sidan för att lära dig hur du bäddar in en interaktiv single page-applikation med REACT (eller Angular) med den AEM SPA-redigeraren som kan konfigureras av affärsfolk i AEM och även hur du integrerar din interaktiva applikation med offline-Adobe Analytics.
 uuid: fb56ede0-7b36-4f47-b9e5-d806c9a3c707
 content-type: reference
 topic-tags: developing
@@ -10,26 +10,29 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 discoiquuid: e4ecc179-e421-4687-854c-14d31bed031d
 docset: aem65
 translation-type: tm+mt
-source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
+source-git-commit: bca6dc0f6a022a4a9005053320e5047b9321270d
+workflow-type: tm+mt
+source-wordcount: '720'
+ht-degree: 0%
 
 ---
 
 
-# Bädda in ett REACT-program med AEM SPA Editor och integrera med AEM Screens Analytics {#embedding-a-react-application-using-the-aem-spa-editor-and-integrating-with-aem-screens-analytics}
+# Bädda in ett REACT-program med AEM SPA Editor och Integrera med AEM Screens Analytics {#embedding-a-react-application-using-the-aem-spa-editor-and-integrating-with-aem-screens-analytics}
 
-I det här avsnittet beskrivs hur du bäddar in en interaktiv single page-applikation med REACT (eller Angular) med AEM SPA-redigeraren som kan konfigureras av affärskommunikation i AEM och hur du integrerar dina interaktiva applikationer med offline-Adobe Analytics.
+I det här avsnittet beskrivs hur du bäddar in en interaktiv single page-applikation med REACT (eller Angular) med den AEM SPA-redigeraren som kan konfigureras av affärsfolk i AEM och hur du integrerar dina interaktiva applikationer med offline-Adobe Analytics.
 
 ## Använda AEM SPA Editor {#using-the-aem-spa-editor}
 
-Följ stegen nedan för att använda AEM SPA-redigeraren:
+Följ stegen nedan för att använda AEM SPA-redigerare:
 
-1. Klona AEM SPA Editor-rapporten på [https://github.com/adobe/aem-spa-project-archetype.](https://github.com/adobe/aem-spa-project-archetype)
+1. Klona AEM SPA Editor på [https://github.com/adobe/aem-spa-project-archetype.](https://github.com/adobe/aem-spa-project-archetype)
 
    >[!NOTE]
    >
-   >Denna arkityp skapar ett minimalt Adobe Experience Manager-projekt som utgångspunkt för era egna SPA-projekt. De egenskaper som måste anges när den här typen av arkivtyp används gör att du kan namnge alla delar av projektet som du vill.
+   >Denna arkityp skapar ett minimalt Adobe Experience Manager-projekt som utgångspunkt för dina egna SPA-projekt. De egenskaper som måste anges när den här typen av arkivtyp används gör att du kan namnge alla delar av projektet som du vill.
 
-1. Följ Viktigt-instruktionerna för att skapa ett projekt av typen AEM SPA-redigerare:
+1. Följ Viktigt-instruktionerna för att skapa ett AEM SPA-redigeringsprojekt av typen:
 
    ```
    mvn clean install archetype:update-local-catalog
@@ -47,7 +50,7 @@ Följ stegen nedan för att använda AEM SPA-redigeraren:
    >Vi använder **GroupId** som ***com.adobe.aem.screens*** och **ArtifactId** som ***mitt exempel-SPA*** (som är standard). Du kan välja egna efter behov.
 
 1. När projektet har skapats kan du antingen använda en utvecklingsmiljö eller en redigerare och importera det genererade Maven-projektet.
-1. Distribuera till den lokala AEM-instansen med kommandot ***mvn clear install -PautoInstallPackage***.
+1. Distribuera till den lokala AEM med kommandot ***mvn clear install -PautoInstallPackage***.
 
 ### Redigera innehåll i REACT-appen {#editing-content-in-the-react-app}
 
@@ -58,7 +61,7 @@ Så här redigerar du innehållet i REACT-appen:
 
 ### Lägga till den interaktiva REACT-appen i AEM Screens {#adding-the-interactive-react-app-to-aem-screens}
 
-Följ stegen nedan för att lägga till den interaktiva REACT-appen på AEM-skärmar:
+Följ stegen nedan för att lägga till den interaktiva REACT-appen i AEM Screens:
 
 1. Skapa ett nytt AEM Screens-projekt. Mer information finns i [Skapa och hantera projekt](creating-a-screens-project.md) .
 
@@ -87,26 +90,26 @@ Följ stegen nedan för att lägga till den interaktiva REACT-appen på AEM-skä
 
    ![screen_shot_2019-02-15at10104am](assets/screen_shot_2019-02-15at101104am.png)
 
-1. Registrera en spelare för det här projektet och du bör nu kunna se att ditt interaktiva program körs på AEM-skärmar.
+1. Registrera en spelare för det här projektet så bör du nu kunna se att ditt interaktiva program körs på AEM Screens.
 
    Mer information om hur du registrerar en enhet finns i [Device Registration](device-registration.md) .
 
-## Integrera SPA med Adobe Analytics med offlinefunktioner via AEM-skärmar {#integrating-the-spa-with-adobe-analytics-with-offline-capability-through-aem-screens}
+## Integrera SPA med Adobe Analytics med offlinefunktioner via AEM Screens {#integrating-the-spa-with-adobe-analytics-with-offline-capability-through-aem-screens}
 
-Följ stegen nedan för att integrera SPA med Adobe Analytics med offlinefunktioner via AEM-skärmar:
+Följ stegen nedan för att integrera SPA med Adobe Analytics med offlinefunktioner via AEM Screens:
 
 1. Konfigurera Adobe Analytics i AEM Screens.
 
-   Se [Configuring Adobe Analytics with AEM Screens (configuring-adobe-analytics-aem-screens.md) för att lära dig hur du utför sekvensering i Adobe Analytics med AEM Screens och skickar anpassade händelser med Adobe Analytics offline.
+   Läs [Konfigurera Adobe Analytics med AEM Screens](configuring-adobe-analytics-aem-screens.md) om du vill veta hur du utför sekvensering i Adobe Analytics med AEM Screens och skickar anpassade händelser med Adobe Analytics offline.
 
 1. Redigera din reaktionsapp i den utvecklingsmiljö/redigerare du väljer (särskilt textkomponenten eller någon annan komponent som du vill börja skicka händelser för).
 1. Lägg till analysinformationen med standarddatamodellen i klickhändelsen eller i någon annan händelse som du vill hämta för komponenten.
 
-   Mer information finns i [Konfigurera Adobe Analytics med AEM](configuring-adobe-analytics-aem-screens.md)Screens.
+   Mer information finns i [Konfigurera Adobe Analytics med AEM](configuring-adobe-analytics-aem-screens.md)skärmar.
 
-1. Anropa API:t för AEM Screens Analytics för att spara händelsen offline och skicka den i bursts till Adobe Analytics.
+1. Anropa AEM Screens Analytics API för att spara händelsen offline och skicka den i bursts till Adobe Analytics.
 
-   Exempel:
+   Till exempel,
 
    ```
    handleClick() {
