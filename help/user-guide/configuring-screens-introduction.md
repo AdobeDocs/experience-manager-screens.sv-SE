@@ -1,8 +1,8 @@
 ---
-title: Konfigurera och distribuera AEM-skärmar
+title: Konfigurera och distribuera AEM Screens
 seo-title: Konfigurera och distribuera skärmar
-description: AEM Screens Player är tillgänglig för Android, Chrome OS, iOS och Windows. Den här sidan beskriver konfiguration och distribution av AEM-skärmar och sammanfattar även riktlinjerna för maskinvaruval för spelarenheter.
-seo-description: AEM Screens Player är tillgänglig för Android, Chrome OS, iOS och Windows. Den här sidan beskriver konfiguration och distribution av AEM-skärmar och sammanfattar även riktlinjerna för maskinvaruval för spelarenheter.
+description: AEM Screens-spelaren är tillgänglig för Android, Chrome OS, iOS och Windows. Den här sidan beskriver konfiguration och distribution av AEM Screens och sammanfattar även riktlinjerna för maskinvaruval för spelarenhet.
+seo-description: AEM Screens-spelaren är tillgänglig för Android, Chrome OS, iOS och Windows. Den här sidan beskriver konfiguration och distribution av AEM Screens och sammanfattar även riktlinjerna för maskinvaruval för spelarenhet.
 uuid: bf730d0f-e590-4c0d-a554-e1ff914eb420
 contentOwner: Jyotika syal
 content-type: reference
@@ -11,35 +11,38 @@ topic-tags: administering
 discoiquuid: 0c7d6248-8ac0-4387-8725-57ed941f28f7
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 389a44e3f6175e0a43a6e99edd3048f2b8455d0b
+source-git-commit: bca6dc0f6a022a4a9005053320e5047b9321270d
+workflow-type: tm+mt
+source-wordcount: '766'
+ht-degree: 0%
 
 ---
 
 
-# Konfigurera och distribuera AEM-skärmar {#configuring-and-deploying-aem-screens}
+# Konfigurera och distribuera AEM Screens {#configuring-and-deploying-aem-screens}
 
 På den här sidan visas hur du installerar och konfigurerar skärmspelarna på dina enheter.
 
-## Serverkonfiguration {#server-configuration}
+## Server Configuration {#server-configuration}
 
 >[!NOTE]
 >
 >**Viktigt**:
 >
->AEM Screens Player använder inte CSRF-token (Cross-Site Request Forgery). Om du vill konfigurera och AEM-servern ska vara klar att användas för AEM-skärmar hoppar du över referensfiltret genom att tillåta tomma referenter.
+>AEM Screens Player använder inte CSRF-token (Cross-Site Request Forgery). Om du vill konfigurera och AEM servern som ska vara klar att användas för AEM Screens hoppar du över referensfiltret genom att tillåta tomma referenter.
 
 ## Hälsokontrollsramverk {#health-check-framework}
 
-I ramverket för hälsokontroll kan användaren kontrollera om två nödvändiga konfigurationer har ställts in innan ett AEM-skärmsprojekt körs.
+I hälsokontrollsramverket kan användaren kontrollera om två nödvändiga konfigurationer har ställts in innan ett AEM Screens-projekt körs.
 
-Det gör att användaren kan verifiera följande två konfigurationskontroller för att köra ett AEM Screens-projekt, det vill säga för att kontrollera statusen för följande två filter:
+Det gör att användaren kan verifiera följande två konfigurationskontroller för att köra ett AEM Screens-projekt, d.v.s. kontrollera statusen för följande två filter:
 
 1. **Tillåt tom referens**
 2. **https**
 
-Följ stegen nedan för att kontrollera om dessa två viktiga konfigurationer är aktiverade för AEM-skärmar:
+Följ stegen nedan för att kontrollera om dessa två viktiga konfigurationer är aktiverade för AEM Screens:
 
-1. Gå till [Adobe Experience Manager Web ConsoleSling Health Check](http://localhost:4502/system/console/healthcheck?tags=screensconfigs&overrideGlobalTimeout=).
+1. Gå till [Adobe Experience Manager Web Console Sling Health Check](http://localhost:4502/system/console/healthcheck?tags=screensconfigs&amp;overrideGlobalTimeout=).
 
    ![resurser](assets/health-check1.png)
 
@@ -63,11 +66,11 @@ Följ stegen nedan för att kontrollera om dessa två viktiga konfigurationer ä
 
 ### Förutsättningar {#prerequisites}
 
-Följande huvudpunkter nedan hjälper dig att konfigurera och använda AEM-servern för AEM-skärmar.
+Följande huvudpunkter nedan hjälper dig att konfigurera och AEM servern som ska användas för AEM Screens.
 
 #### Tillåt tomma referentförfrågningar {#allow-empty-referrer-requests}
 
-1. Navigera till **Adobe Experience Manager Web Console Configuration** via AEM instance —> hammer icon —> **Operations** —> **Web Console**.
+1. Gå till **Adobe Experience Manager Web Console Configuration** via AEM:> hammer icon —> **Operations** —> **Web Console**.
 
    ![screen_shot_2019-07-31at91253am](assets/screen_shot_2019-07-31at91253am.png)
 
@@ -85,7 +88,7 @@ Följande huvudpunkter nedan hjälper dig att konfigurera och använda AEM-serve
 
 #### Apache Felix Jetty Based HTTP Service {#allow-apache-felix-service}
 
-1. Gå till **Adobe Experience Manager Web Console Configuration** via AEM instance —> hammer icon —> **Operations** —> **Web Console**.
+1. Gå till **Adobe Experience Manager Web Console Configuration** via AEM:> hammer icon —> **Operations** —> **Web Console**.
 
    ![screen_shot_2019-07-31at91253am](assets/screen_shot_2019-07-31at91253am.png)
 
@@ -99,9 +102,9 @@ Följande huvudpunkter nedan hjälper dig att konfigurera och använda AEM-serve
 
 1. Klicka på **Spara** för att aktivera *http* -tjänsten.
 
-#### Aktivera Touch UI för AEM-skärmar {#enable-touch-ui-for-aem-screens}
+#### Aktivera Touch UI för AEM Screens {#enable-touch-ui-for-aem-screens}
 
-AEM-skärmar kräver TOUCH-gränssnitt och fungerar inte med CLASSIC-gränssnittet i Adobe Experience Manager (AEM).
+AEM Screens kräver ett TOUCH-gränssnitt och fungerar inte med CLASSIC-gränssnittet i Adobe Experience Manager (AEM).
 
 1. Navigera till *&lt;yourAuthorInstance>/system/console/configMgr/com.day.cq.wcm.core.impl.AuthoringUIModeServiceImpl*
 1. Kontrollera att standardläget **för** redigeringsgränssnittet är inställt på **TOUCH**, vilket visas i figuren nedan
@@ -132,7 +135,7 @@ Du kan konfigurera ***DeviceServiceImpl*** från länken nedan för att aktivera
 
 Följ stegen nedan för att konfigurera ***DeviceServiceImpl***:
 
-1. Gå till **Adobe Experience Manager Web Console Configuration** via AEM instance —> hammer icon —> **Operations** —> **Web Console**.
+1. Gå till **Adobe Experience Manager Web Console Configuration** via AEM:> hammer icon —> **Operations** —> **Web Console**.
 
 1. **Adobe Experience Manager Web Console Configuration **öppnas. Sök efter enhetstjänst. Om du vill söka efter egenskapen trycker du på **Command+F** för **Mac** och **Ctrl+F** för **Windows**.
 
