@@ -1,19 +1,11 @@
 ---
 title: Kanaltilldelning
 seo-title: Kanaltilldelning
-description: Följ den här sidan om du vill veta mer om kanaltilldelning och Dayparting.
-seo-description: Följ den här sidan om du vill veta mer om kanaltilldelning och Dayparting.
-uuid: fe429485-dcc9-4507-864c-b04393cedeee
-contentOwner: Jyotika syal
-content-type: reference
-products: SG_EXPERIENCEMANAGER/6.5/SCREENS
-topic-tags: authoring
-discoiquuid: 212adcd1-835b-453d-9d3e-775366abf181
-docset: aem65
+description: Följ den här sidan om du vill veta mer om kanaltilldelning och Dag-delning.
 translation-type: tm+mt
-source-git-commit: f25176be89424059b8c51296969f069687328536
+source-git-commit: c46cd26f5067468aadf80a822fffce1d5f0b5d9a
 workflow-type: tm+mt
-source-wordcount: '1227'
+source-wordcount: '1335'
 ht-degree: 1%
 
 ---
@@ -21,27 +13,19 @@ ht-degree: 1%
 
 # Kanaltilldelning {#channel-assignment}
 
-Detta avsnitt behandlar följande ämnen:
-
-* **Tilldela en kanal**
-* **Förstå egenskaper för dialogrutan Kanaltilldelning**
-* **Dayparting**
-
 När du har definierat en skärm måste du tilldela en kanal till en skärm.
 
-På den här sidan visas hur du tilldelar en kanal till dina skärmar.
+På den här sidan visas hur du tilldelar en kanal till visningen.
 
-**Krav**:
-
-* [Konfigurera och distribuera skärmar](configuring-screens-introduction.md)
-* [Skapa och hantera skärmsprojekt](creating-a-screens-project.md)
-* [Skapa och hantera kanaler](managing-channels.md)
-* [Skapa och hantera platser](managing-locations.md)
-* [Skapa och hantera bildskärmar](managing-displays.md)
+>[!NOTE]
+>Du kan tilldela flera kanaler till en skärm.
 
 ## Tilldela en kanal {#assign-a-channel}
 
 Följ stegen nedan för att tilldela en kanal till en skärm:
+
+>[!Iviktig]
+>Följande dialogruta för kanaltilldelning är annorlunda för Adobe Experience 6.5.5 Screens Feature Pack och senare. Mer information finns i [Kanaltilldelning](/help/user-guide/channel-assignment.md#assign-a-channel-new-release) .
 
 1. Navigera till önskad visning, till exempel **DemoProject** —> **Locations** —> **SanJose** —> **StoreDisplay**.
 
@@ -55,7 +39,29 @@ Följ stegen nedan för att tilldela en kanal till en skärm:
 
    ![bild](/help/user-guide/assets/channel-assign1.png)
 
-   Du kan förstå och konfigurera egenskaperna i dialogrutan **Kanaltilldelning** i avsnittet nedan.
+   Du kan konfigurera egenskaperna från dialogrutan **Kanaltilldelning** i avsnittet nedan. Mer information om kanalegenskaper finns i avsnittet [Kanalegenskaper](#channel-properties) .
+
+## Tilldela en kanal för AEM 6.5.5 Screens Feature Pack Release {#assign-a-channel-new-release}
+
+Följ stegen nedan för att tilldela en kanal till en skärm:
+
+1. Navigera till önskad visning, till exempel **DemoProject** —> **Locations** —> **SanJose** —> **StoreDisplay**.
+
+
+1. Tryck/klicka på **Tilldela kanal** i åtgärdsfältet
+
+   Eller
+
+   Tryck/klicka på **Kontrollpanel** och klicka på **+Tilldela kanal** på panelen **TILLDELADE KANALER &amp; SCHEMALÄGG** för att öppna dialogrutan **Kanaltilldelning** .
+
+1. I inställningsalternativet kan du välja kanal efter sökväg eller namn och ange kanalrollen, prioritet, Supported Events.
+
+   >[!NOTE]
+   >Mer information om kanalegenskaper finns i avsnittet [Kanalegenskaper](#channel-properties) .
+
+1. I alternativet **Scheman** väljer du **Tidszon** för referens, **Aktiveringsfönster** och **Återkommande schema**.
+
+1. Klicka på **Spara** när du har konfigurerat inställningarna.
 
 ### Förstå kanalegenskaper från kanaltilldelning {#channel-properties}
 
@@ -111,18 +117,17 @@ Med Schema kan du ange en beskrivning i text när kanalen ska visas. Här kan du
 
 Show Attaction tooltip (Visa beskrivning av attraktionsverktyg) anger om verktygstipset (&quot;*Peka var som helst för att börja*&quot;) ska visas eller inte medan kanalen körs.
 
+### Delning dag {#dayparting}
 
-### Dayparting {#dayparting}
+När scheman kombineras med **Dag-delning** kan du ställa in ett globalt schema med flera kanaler som körs vid specifika tidpunkter på dagen och återanvända inställningen för alla skärmar samtidigt.
 
-När scheman kombineras med **Dayparting** kan du ange ett globalt schema med flera kanaler som körs vid specifika tidpunkter på dygnet och återanvända inställningarna för alla skärmar samtidigt.
+DayParting innebär att dela upp en dag i tidskortplatser och ange vilket innehåll som spelas upp vid önskad tidpunkt. Med AEM Screens kan ni schemalägga kanaler som dagliga delningar inom en dag, vecka eller månad efter behov.
 
-DayParting innebär att dela upp en dag i tidskortplatser och ange vilket innehåll som spelas upp vid önskad tidpunkt. Med AEM Screens kan ni schemalägga kanaler utifrån antal dagar inom en dag, vecka eller månad efter behov.
-
-I följande exempel förklaras hur dagdelning sker i kanaler i tre olika scenarier:
+I följande exempel förklaras den dagliga delningen i kanaler i tre olika scenarier:
 
 #### Spela upp innehåll på en dag uppdelat i flera tidsplatser {#playing-content-on-a-single-day-divided-into-multiple-time-slots}
 
-I det här exemplet visas hur en Restaurant använder dagseparering för att visa sin frukost-, lunch- och middagsmeny.
+I det här exemplet visas hur en Restaurant använder dagsdelning för att visa upp sin frukost-, lunch- och middagsmeny.
 
 Här delar vi upp varje dag i tre olika tidsplatser, så att kanalinnehållet spelas upp enligt den angivna tiden på dagen:
 
@@ -161,9 +166,9 @@ I det här exemplet visas hur det går till på dagen i ett kasino där live-eve
 
 #### Spela upp innehåll under en viss månad/månad {#playing-content-for-a-particular-month-months}
 
-I det här exemplet visas dagen för en butik som visar sin sommarsamling från juni till augusti och höstsamlingen från september till slutet av oktober.
+I det här exemplet visas den dagliga delningen för en butik som visar sin sommarsamling från juni till augusti och höstsamlingen från september till slutet av oktober.
 
-Här skapar du datumdelning per månad så att kanalinnehållet spelas upp enligt årets angivna månader.
+Här skapar du delningar per månad så att kanalinnehållet spelas upp enligt årets angivna månader.
 
 | **Kanal** | **Roll** | **Prioritet** | **Schema** |
 |---|---|---|---|
@@ -176,16 +181,17 @@ Här skapar du datumdelning per månad så att kanalinnehållet spelas upp enlig
 
 #### Spela upp innehåll för kanaler med samma prioritet {#playing-content-for-channels-with-same-priority}
 
-I det här exemplet visas dagen för en butik som visar sin vintersamling med samma schema under december-månaden. Men eftersom kanal B har prioriteten 2, under den veckan, Kanal B spelar upp innehållet i stället för kanal A.
+I det här exemplet visas den dagliga delningen för en butik som visar sin vintersamling med samma schema under december. Men eftersom kanal B har prioriteten 2, under den veckan, Kanal B spelar upp innehållet i stället för kanal A.
 
 | **Kanal** | **Roll** | **Prioritet** | **Schema** |
 |---|---|---|---|
 | A | Vinter | 1 | 1 dec 2017 - 31 dec 2017 |
 | B | Jul | 2 | 24 dec 2017 - 31 dec 2017 |
 
+
 >[!IMPORTANT]
 >
-> Mer information om sommartid finns i avsnitten nedan:
+> Mer information om dagsdelning finns i avsnitten nedan:
 >
 >* [Hantera upprepning i resurser](https://docs.adobe.com/content/help/en/experience-manager-screens/user-guide/authoring/product-features/asset-level-scheduling.html#handling-recurrence-in-assets)
 >* [Hantera återkommande för resurser i en kanal](https://docs.adobe.com/content/help/en/experience-manager-screens/user-guide/authoring/product-features/channel-level-activation.html#handling-recurrence-in-assets)
