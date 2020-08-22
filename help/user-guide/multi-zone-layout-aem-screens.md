@@ -11,9 +11,9 @@ topic-tags: authoring
 discoiquuid: 4c073172-d93c-4b73-87ab-0b08789193a3
 noindex: true
 translation-type: tm+mt
-source-git-commit: a246671ddf7fee333d01c09ca61daee91df737e4
+source-git-commit: 081db31efda17ac12cdc88f79ed2f4e1fbfc7edf
 workflow-type: tm+mt
-source-wordcount: '1198'
+source-wordcount: '1197'
 ht-degree: 0%
 
 ---
@@ -40,7 +40,7 @@ Enligt projektkraven behöver du ibland flera zoner i en kanal och kan redigera 
 
 Innan du börjar implementera den här funktionen bör du kontrollera att du har de konceptuella kunskaperna om:
 
-* [Skapa ett AEM-skärmsprojekt](https://docs.adobe.com/content/help/en/experience-manager-screens/user-guide/authoring/setting-up-projects/creating-a-screens-project.html)
+* [Skapa ett AEM Screens-projekt](https://docs.adobe.com/content/help/en/experience-manager-screens/user-guide/authoring/setting-up-projects/creating-a-screens-project.html)
 * [Skapa en bildskärm](https://docs.adobe.com/content/help/en/experience-manager-screens/user-guide/authoring/setting-up-projects/managing-displays.html)
 * [Tilldela en kanal till en skärm](https://docs.adobe.com/content/help/en/experience-manager-screens/user-guide/authoring/setting-up-projects/channel-assignment.html)
 
@@ -50,7 +50,7 @@ När du skapar en kanal kan du använda olika mallar för att skapa zoner i kana
 
 **Skapa kanalen**
 
-1. Markera Adobe Experience Manager-länken (överst till vänster) och sedan **Skärmar**. Du kan också gå direkt till: `http://localhost:4502/screens.html/content/screens`.
+1. Klicka på länken Adobe Experience Manager (överst till vänster) och sedan på **Skärmar**. Du kan också gå direkt till: `http://localhost:4502/screens.html/content/screens`.
 1. Navigera till mappen **Kanaler** och klicka på **Skapa** i åtgärdsfältet.
 
 1. Välj **1x2 Delad skärmkanal** i guiden **Skapa** .
@@ -72,7 +72,7 @@ Du kan använda enstaka resurser som en bild eller en video i alla enskilda zone
 
    Om du vill spela upp en enstaka bild eller en video i två zoner drar och släpper du bara en bild till varje zon i kanalredigeraren enligt bilden nedan:
 
-   ![image](/help/user-guide/assets/multi-zone/multizone-img3.png)
+   ![bild](/help/user-guide/assets/multi-zone/multizone-img3.png)
 
 ### Använda sekvensinnehåll i en eller flera zoner {#using-sequenced-content-in-one-or-more-zones}
 
@@ -83,16 +83,18 @@ Om du vill att zonerna ska visa bildsekvenser och en video i olika zoner följer
    1. Navigera till **Zones** —> **MultiZone** —> **Channels** och klicka på **Create** i åtgärdsfältet.
    1. Välj **Kanalmapp** i guiden **Skapa** och klicka på **Nästa**.
    1. Ange titeln som **EmbeddedChannels** och klicka på **Create**.
+
    ![screen_shot_2018-12-19at125428pm](assets/screen_shot_2018-12-19at125428pm.png)
 
 1. **Lägga till ytterligare två kanaler i kanalmappen**
 
    1. Navigera till **Zones** —> **Channels** —> **EmbeddedChannels** och klicka på **Create** i åtgärdsfältet.
-   1. Välj **Sekvenskanal** i guiden **Skapa** för att skapa en kanal med namnet **Zon1**.
+   1. Välj **Sekvenskanal** i guiden **Skapa** för att skapa en kanal med namnet **Zone1**.
    1. Välj **Zon1** och klicka på **Redigera** i åtgärdsfältet för att öppna redigeraren.
    1. Dra och släpp några bilder i den här kanalen.
    1. Skapa på samma sätt en annan sekvenskanal med namnet **Zone2** i mappen **EmbeddedChannels** .
    1. Dra och släpp en video i den här kanalen.
+
    I följande bild visas kanalerna **Zone1** och **Zone2**:
 
    ![screen_shot_2018-12-19at125930pm](assets/screen_shot_2018-12-19at125930pm.png)
@@ -115,7 +117,7 @@ Om du vill att zonerna ska visa bildsekvenser och en video i olika zoner följer
    1. Välj kanalsökvägen som **Zones** —> **Channels** —> **EmbeddedChannels** —> **Zone1**, vilket visas i bilden nedan.
    1. Lägg på samma sätt till **Zone2** i en annan inbäddad sekvenskomponent i redigeraren.
 
-      ![image](/help/user-guide/assets/multi-zone/multizone-3.png)
+      ![bild](/help/user-guide/assets/multi-zone/multizone-3.png)
 
 ### Skapa en plats och en visning {#creating-location}
 
@@ -147,14 +149,15 @@ Du måste tilldela kanalerna till visningen för att kunna visa innehållet. Fö
    1. Ange **händelser** som stöds som **Inledande inläsning**, **Inaktiv skärm** och **Timer**.
    1. Click **Save**.
 
-      ![image](/help/user-guide/assets/multi-zone/multizone-img9.png)
+      ![bild](/help/user-guide/assets/multi-zone/multizone-img9.png)
    1. På samma sätt måste du tilldela de två andra inbäddade kanalerna (**Zone1** och **Zone2**) till den här visningen.
    1. När du har tilldelat alla tre kanalerna till **Lobby** -visningen bör du kunna visa de tilldelade kanalerna från kontrollpanelen.
 
-      ![image](/help/user-guide/assets/multi-zone/multizone-img8.png)
+      ![bild](/help/user-guide/assets/multi-zone/multizone-img8.png)
 
 
-      >[!Iviktig]
+      >[!IMPORTANT]
+      >
       > När du har tilldelat huvudkanalen (i det här fallet **MultiZone**) till visningen är det obligatoriskt att tilldela de två andra inbäddade kanalerna **Zone1** och **Zone2** till samma skärm.
 
 ### Registrerar enheten {#registering-device}
@@ -166,13 +169,15 @@ När du har konfigurerat en plats och en skärm följer du stegen nedan för att
    1. Navigera till mappen **Zones** —> **Devices** .
    1. Välj mappen **Enheter** och klicka på **Enhetshanteraren** i åtgärdsfältet.
    1. Klicka på **Enhetsregistrering** och välj den väntande enheten i listan.
+
       >[!NOTE]
       > Enhetens titel måste matcha enhetstoken (**tokenfältet** ) som visas på fliken **Device Registration** .
    1. Om titeln matchar enhetstoken väljer du enheten och klickar på **Registrera enhet** i åtgärdsfältet.
    1. Om registreringskoden matchar koden på fliken **Device Registration** (Enhetsregistrering för skärmspelare) klickar du på **Validera** i åtgärdsfältet.
-      ![image](/help/user-guide/assets/multi-zone/multizone-img6.png)
+      ![bild](/help/user-guide/assets/multi-zone/multizone-img6.png)
    1. Ange **titeln** som **Chrome-Device1** och klicka på **Register**.
    1. Välj **Tilldela visning** och välj sökvägen till enhetskonfigurationen.
+
    >[!NOTE]
    >Om du försöker visa innehållet i skärmspelaren ska du klicka på **Uppdatera offlineinnehåll** i kanalkontrollpanelen för var och en av kanalerna som är tilldelade visningen.
 
