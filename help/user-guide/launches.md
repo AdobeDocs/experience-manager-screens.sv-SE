@@ -11,9 +11,9 @@ topic-tags: authoring
 discoiquuid: 9cd8892b-fe5d-4ad3-9b10-10ff068adba6
 docset: aem65
 translation-type: tm+mt
-source-git-commit: f25176be89424059b8c51296969f069687328536
+source-git-commit: 081db31efda17ac12cdc88f79ed2f4e1fbfc7edf
 workflow-type: tm+mt
-source-wordcount: '1617'
+source-wordcount: '1616'
 ht-degree: 0%
 
 ---
@@ -133,7 +133,7 @@ Följ stegen nedan för att implementera funktionen Screens Launch i ditt AEM Sc
    >
    >Du kan ställa in live-startdatum i det här steget eller ställa in det senare när du redigerar egenskaperna för startprogrammet när det redan har skapats.
 
-   **Förstå starterbjudandeomfång**
+   **Förstå starttävlingens omfång**
 
    * **Erbjud fullständig start**: Alla kanaler för lanseringen befordras vid angivet live-datum.
    * **Befordra ändrade sidor**: Endast ändrade startresurser kommer att befordras. Vi rekommenderar att du använder det här alternativet när startgranskningen inte behövs.
@@ -202,6 +202,7 @@ Du kan välja vilka resurser du vill befordra som en del av den här manuella be
 
 Du kan ta bort starten med alternativet **Ta bort start** från panelen **VÄNTANDE STARTOR** .
 
->[FÖRSIKTIGHET]
+>[!CAUTION]
+>
 >Den här åtgärden tar även bort alla underordnade (kapslade starter).
 
