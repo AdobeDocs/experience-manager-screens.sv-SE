@@ -3,9 +3,9 @@ title: Kanaltilldelning
 seo-title: Kanaltilldelning
 description: Följ den här sidan om du vill veta mer om kanaltilldelning och Dag-delning.
 translation-type: tm+mt
-source-git-commit: c46cd26f5067468aadf80a822fffce1d5f0b5d9a
+source-git-commit: 081db31efda17ac12cdc88f79ed2f4e1fbfc7edf
 workflow-type: tm+mt
-source-wordcount: '1335'
+source-wordcount: '1333'
 ht-degree: 1%
 
 ---
@@ -24,7 +24,8 @@ På den här sidan visas hur du tilldelar en kanal till visningen.
 
 Följ stegen nedan för att tilldela en kanal till en skärm:
 
->[!Iviktig]
+>[!IMPORTANT]
+>
 >Följande dialogruta för kanaltilldelning är annorlunda för Adobe Experience 6.5.5 Screens Feature Pack och senare. Mer information finns i [Kanaltilldelning](/help/user-guide/channel-assignment.md#assign-a-channel-new-release) .
 
 1. Navigera till önskad visning, till exempel **DemoProject** —> **Locations** —> **SanJose** —> **StoreDisplay**.
@@ -93,7 +94,8 @@ Prioritet används för att ordna tilldelningarna om flera matchar uppspelningsv
 
 #### Avbrottsmetod {#interruption-method-channel}
 
->[VIKTIGT]
+>[!IMPORTANT]
+>
 > Det här alternativet är endast tillgängligt med AEM 6.4 Feature Pack 8 eller AEM 6.5 Feature Pack 4.
 
 Som innehållsförfattare bör du kunna ange när en kanal avbryts så att du kan välja att avbryta icke-kritiskt innehåll, men du kan välja att låta viktigt innehåll spelas upp helt innan uppspelningen avbryts på grund av schemaläggning.
@@ -193,7 +195,7 @@ I det här exemplet visas den dagliga delningen för en butik som visar sin vint
 >
 > Mer information om dagsdelning finns i avsnitten nedan:
 >
->* [Hantera upprepning i resurser](https://docs.adobe.com/content/help/en/experience-manager-screens/user-guide/authoring/product-features/asset-level-scheduling.html#handling-recurrence-in-assets)
+>* [Hantera återkommande i resurser](https://docs.adobe.com/content/help/en/experience-manager-screens/user-guide/authoring/product-features/asset-level-scheduling.html#handling-recurrence-in-assets)
 >* [Hantera återkommande för resurser i en kanal](https://docs.adobe.com/content/help/en/experience-manager-screens/user-guide/authoring/product-features/channel-level-activation.html#handling-recurrence-in-assets)
 
 
