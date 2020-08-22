@@ -11,9 +11,9 @@ topic-tags: authoring
 discoiquuid: a8006686-8ee5-4971-ab79-0c7b01f108f2
 docset: aem65
 translation-type: tm+mt
-source-git-commit: f25176be89424059b8c51296969f069687328536
+source-git-commit: 081db31efda17ac12cdc88f79ed2f4e1fbfc7edf
 workflow-type: tm+mt
-source-wordcount: '1400'
+source-wordcount: '1399'
 ht-degree: 0%
 
 ---
@@ -34,7 +34,7 @@ På den här sidan visas hur du skapar och hanterar kanaler för skärmar.
 
 När du har skapat ett projekt för skärmar följer du stegen nedan för att skapa en ny kanal för ett skärmsprojekt:
 
-1. Markera länken Adobe Experience Manager (överst till vänster) och sedan Skärmar. Du kan också gå direkt till: `https://localhost:4502/screens.html/content/screens`.
+1. Klicka på länken Adobe Experience Manager (längst upp till vänster) och sedan på Skärmar. Du kan också gå direkt till: `https://localhost:4502/screens.html/content/screens`.
 1. Navigera till Skärmprojekt och klicka på **Kanaler**.
 1. Klicka på **Skapa** bredvid plusikonen i åtgärdsfältet. En guide öppnas (*mer information* finns i Kanaltyper).
 
@@ -94,7 +94,7 @@ Följ stegen nedan om du vill lägga till eller redigera innehåll i en kanal:
 
 >[!NOTE]
 >
->Du kan lägga till komponenter i kanalen. Mer information finns i **[Lägga till komponenter i en kanal](adding-components-to-a-channel.md)**.
+>Du kan lägga till komponenter i kanalen. Mer information finns i **[Lägga till komponenter i en kanal](adding-components-to-a-channel.md)** .
 
 ![demochannel1](assets/demochannel1.gif)
 
@@ -140,8 +140,9 @@ Klicka på (**..**) i åtgärdsfältet **KANALINFORMATION** för att visa egensk
 
 Du kan visa manifestet från kanalkontrollpanelen.
 
->[VIKTIGT]
-> Det här alternativet är endast tillgängligt med AEM 6.4 Feature Pack 8 eller AEM 6.5 Feature Pack 4.
+>[!IMPORTANT]
+>
+>Det här alternativet är endast tillgängligt med AEM 6.4 Feature Pack 8 eller AEM 6.5 Feature Pack 4.
 
 Följ de här stegen för att aktivera det här alternativet från kanalkontrollpanelen:
 1. **Ange att kanalen ska vara offline**
@@ -254,6 +255,7 @@ De associerade skärmarna visas på panelen **Tilldelade skärmar** enligt nedan
 >
 >* [Skapa och hantera platser](managing-locations.md)
 >* [Skapa och hantera bildskärmar](managing-displays.md)
+
 >
 
 
