@@ -3,9 +3,9 @@ title: Kanaltilldelning
 seo-title: Kanaltilldelning
 description: Följ den här sidan om du vill veta mer om kanaltilldelning och Dag-delning.
 translation-type: tm+mt
-source-git-commit: 081db31efda17ac12cdc88f79ed2f4e1fbfc7edf
+source-git-commit: 963262bb4b7b26aa1e9fbf1be2362c7029818789
 workflow-type: tm+mt
-source-wordcount: '1333'
+source-wordcount: '1218'
 ht-degree: 1%
 
 ---
@@ -13,7 +13,10 @@ ht-degree: 1%
 
 # Kanaltilldelning {#channel-assignment}
 
-När du har definierat en skärm måste du tilldela en kanal till en skärm.
+>[!IMPORTANT]
+>I det här avsnittet beskrivs kanaltilldelning och planering av kanaler för funktionspaket som är äldre än AEM 6.5.5-skärmar.
+
+När du har konfigurerat en skärm måste du tilldela en kanal till en skärm för att kunna visa innehållet.
 
 På den här sidan visas hur du tilldelar en kanal till visningen.
 
@@ -23,10 +26,6 @@ På den här sidan visas hur du tilldelar en kanal till visningen.
 ## Tilldela en kanal {#assign-a-channel}
 
 Följ stegen nedan för att tilldela en kanal till en skärm:
-
->[!IMPORTANT]
->
->Följande dialogruta för kanaltilldelning är annorlunda för Adobe Experience 6.5.5 Screens Feature Pack och senare. Mer information finns i [Kanaltilldelning](/help/user-guide/channel-assignment.md#assign-a-channel-new-release) .
 
 1. Navigera till önskad visning, till exempel **DemoProject** —> **Locations** —> **SanJose** —> **StoreDisplay**.
 
@@ -42,31 +41,10 @@ Följ stegen nedan för att tilldela en kanal till en skärm:
 
    Du kan konfigurera egenskaperna från dialogrutan **Kanaltilldelning** i avsnittet nedan. Mer information om kanalegenskaper finns i avsnittet [Kanalegenskaper](#channel-properties) .
 
-## Tilldela en kanal för AEM 6.5.5 Screens Feature Pack Release {#assign-a-channel-new-release}
 
-Följ stegen nedan för att tilldela en kanal till en skärm:
+## Förstå kanalegenskaper från kanaltilldelning {#channel-properties}
 
-1. Navigera till önskad visning, till exempel **DemoProject** —> **Locations** —> **SanJose** —> **StoreDisplay**.
-
-
-1. Tryck/klicka på **Tilldela kanal** i åtgärdsfältet
-
-   Eller
-
-   Tryck/klicka på **Kontrollpanel** och klicka på **+Tilldela kanal** på panelen **TILLDELADE KANALER &amp; SCHEMALÄGG** för att öppna dialogrutan **Kanaltilldelning** .
-
-1. I inställningsalternativet kan du välja kanal efter sökväg eller namn och ange kanalrollen, prioritet, Supported Events.
-
-   >[!NOTE]
-   >Mer information om kanalegenskaper finns i avsnittet [Kanalegenskaper](#channel-properties) .
-
-1. I alternativet **Scheman** väljer du **Tidszon** för referens, **Aktiveringsfönster** och **Återkommande schema**.
-
-1. Klicka på **Spara** när du har konfigurerat inställningarna.
-
-### Förstå kanalegenskaper från kanaltilldelning {#channel-properties}
-
-#### Referenskanal {#ref-channel}
+### Referenskanal {#ref-channel}
 
 Med referenskanalen kan du ange en referens till den önskade kanalen, antingen efter kanalnamn eller efter kanalsökväg.
 
@@ -74,25 +52,25 @@ Med referenskanalen kan du ange en referens till den önskade kanalen, antingen 
 
 * **efter namn**: Du anger namnet på den kanal som ska matchas mot en faktisk kanal efter kontext. Med den här funktionen kan du skapa en lokal version av en kanal för att dynamiskt matcha platsspecifikt innehåll. Exempel: en kanal med *dagens* namnaffärer, där det faktiska innehållet skulle vara annorlunda i två städer, men du har fortfarande den tillräkneliga kanalrollen på alla skärmar.
 
-#### Kanalroll {#role-channel}
+### Kanalroll {#role-channel}
 
 Kanalrollen definierar visningssammanhanget. Rollen är inriktad på olika åtgärder och är oberoende av den faktiska kanal som uppfyller rollen.
 
-#### Priority {#priority-channel}
+### Priority {#priority-channel}
 
 Prioritet används för att ordna tilldelningarna om flera matchar uppspelningsvillkoren. Den som har det högsta värdet har alltid företräde framför de lägre värdena. Om det till exempel finns två kanaler A och B. A har prioriteten 1 och B har prioriteten 2, och sedan visas kanal B eftersom den har högre prioritet än A.
 
 >[!NOTE]
 >Prioriteten för en kanal anges som ett tal (1 för minimum) i dialogrutan **Kanaltilldelning** , vilket nämns ovan. Dessutom sorteras de tilldelade kanalerna baserat på fallande prioritet.
 
-#### Händelser som stöds {#supported-events-channel}
+### Händelser som stöds {#supported-events-channel}
 
 * **Inledande inläsning**: läser in kanalen när spelaren startas. Den kan tilldelas flera kanaler i kombination med ett schema
 * **Inaktiv skärm**: läses in när skärmen är inaktiv. Den kan tilldelas flera kanaler i kombination med ett schema
 * **Timer**: måste anges när ett schema anges
 * **Användarinteraktion**: spelaren växlar till den angivna kanalen, om det finns en användarinteraktion på skärmen (pekning) i en inaktiv kanal och kommer att läsas in när skärmen rörs
 
-#### Avbrottsmetod {#interruption-method-channel}
+### Avbrottsmetod {#interruption-method-channel}
 
 >[!IMPORTANT]
 >
@@ -111,7 +89,7 @@ Välj något av följande alternativ som är tillgängliga för att ange avbrott
    >[!NOTE]
    >Om du använder det andra eller tredje alternativet kan schemaläggningstiderna som är definierade för tilldelningen fördröjas något eftersom spelaren väntar på slutet av objektet eller sekvensen (efter den angivna tiden) innan den uppdateras. Fördröjningen beror på objektets uppspelningstid.
 
-#### Schema {#schedule-channel}
+### Schema {#schedule-channel}
 
 Med Schema kan du ange en beskrivning i text när kanalen ska visas. Här kan du också definiera ett startdatum (**aktivt från**) och ett slutdatum (**aktivt till**) för den kanal som ska visas.
 
@@ -191,7 +169,7 @@ I det här exemplet visas den dagliga delningen för en butik som visar sin vint
 | B | Jul | 2 | 24 dec 2017 - 31 dec 2017 |
 
 
->[!IMPORTANT]
+>[!NOTE]
 >
 > Mer information om dagsdelning finns i avsnitten nedan:
 >
