@@ -2,18 +2,18 @@
 cloud: experience-cloud
 product: experience manager
 audience: end-user
-user-guide-title: Hjälp för Adobe Experience Manager-skärmar
+user-guide-title: Hjälp om Adobe Experience Manager Screens
 user-guide-description: Learn to use AEM Screens to publish interactive digital experiences involving different types of screens.
 translation-type: tm+mt
-source-git-commit: 5f3fc27ae60de86ae40ba71a67cdc6ff43dea4fb
+source-git-commit: 3fa254a48e780a5c20ba925644420cc36f409122
 workflow-type: tm+mt
-source-wordcount: '383'
+source-wordcount: '394'
 ht-degree: 1%
 
 ---
 
 
-# Användarhandbok för AEM Screens {#user-guide}
+# AEM Screens Användarhandbok {#user-guide}
 
 + [Introduktion till skärmar](aem-screens-introduction.md)
 + Översikt och snabbstartsguide {#overview}
@@ -28,12 +28,12 @@ ht-degree: 1%
    + [Del 5: Supportöverväganden](support-considerations.md)
 + Konfiguration och administration {#administering}
    + [Konfigurationer för skärmar](configuring-screens-introduction.md)
-   + [Konfigurera Dispatcher Configurations](dispatcher-configurations-aem-screens.md)
+   + [Konfigurera Dispatcher-konfigurationer](dispatcher-configurations-aem-screens.md)
    + [Installera skärmuppspelaren](installing-screens-player.md)
    + [Ansluta skärmuppspelaren](working-with-screens-player.md)
    + [Enhetsregistrering](device-registration.md)
    + [Konfigurera åtkomstkontrollistor](setting-up-acls.md)
-   + [AEM Screens Säkerhetschecklista](security-checklist.md)
+   + [AEM Screens Security Checklist](security-checklist.md)
    + [Övergång från ContentSync till SmartSync](smartsync.md)
    + [Ny projektimporterare från fil](project-importer.md)
    + [Replikera datutlösare till publiceringsservrar](replicating-data-triggers.md)
@@ -45,7 +45,7 @@ ht-degree: 1%
    + Author Publish {#author-publish}
       + [Författare/Publicera arkitektur - översikt](author-publish-architecture-overview.md)
       + [Konfigurera författare och publicera](author-and-publish.md)
-   + Analytics-integrering med AEM Screens {#analytics-integration}
+   + Analysintegrering med AEM Screens {#analytics-integration}
       + [Adobe Analytics Integration](adobe-analytics-integration-aem-screens.md)
       + [Konfigurera Adobe Analytics med AEM Screens](configuring-adobe-analytics-aem-screens.md)
 + Exempel på redigerings- och användningsfall {#authoring}
@@ -56,11 +56,13 @@ ht-degree: 1%
       + [Skapa och hantera platser](managing-locations.md)
       + [Skapa och hantera scheman](managing-schedules.md)
       + [Hantera enheter](managing-devices.md)
-      + [Kanaltilldelning](channel-assignment.md)
+      + Tilldela kanaler {#assigning-channels}
+         + [Kanaltilldelning: AEM 6.5.5 Screens FP och senare](channel-assignment.md)
+         + [Kanaltilldelning: Äldre FP](channel-assignment.md)
    + Använda kärnfunktioner {#product-features}
       + [Textövertäckning](text-overlay.md)
       + [Uppdatera gruppvis offline](bulk-offline-update.md)
-      + [Tjänsten AEM Screens Notifications](screens-notifications-service.md)
+      + [AEM Screens Notifications Service](screens-notifications-service.md)
       + [Använda Experience Fragments](experience-fragments-in-screens.md)
       + [Aktivering på tillgångsnivå](asset-level-scheduling.md)
       + [Aktivering på kanalnivå](channel-level-activation.md)
