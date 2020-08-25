@@ -3,7 +3,7 @@ title: Kanaltilldelning
 seo-title: Kanaltilldelning
 description: Följ den här sidan om du vill veta mer om kanaltilldelning och Dag-delning.
 translation-type: tm+mt
-source-git-commit: ae823357be22c45150b0687252cbd58b8022508b
+source-git-commit: 39da8293fb64321fdb28acaa67be579483ba4f0d
 workflow-type: tm+mt
 source-wordcount: '1215'
 ht-degree: 1%
@@ -97,9 +97,9 @@ Med Schema kan du ange en beskrivning i text när kanalen ska visas. Här kan du
 
 Show Attaction tooltip (Visa beskrivning av attraktionsverktyg) anger om verktygstipset (&quot;*Peka var som helst för att börja*&quot;) ska visas eller inte medan kanalen körs.
 
-### Delning dag {#dayparting}
+### DayParting {#dayparting}
 
-När scheman kombineras med **Dag-delning** kan du ställa in ett globalt schema med flera kanaler som körs vid specifika tidpunkter på dagen och återanvända inställningen för alla skärmar samtidigt.
+När scheman kombineras med **DayParting** kan du ställa in ett globalt schema med flera kanaler som körs vid specifika tidpunkter på dagen och återanvända inställningen för alla skärmar samtidigt.
 
 DayParting innebär att dela upp en dag i tidskortplatser och ange vilket innehåll som spelas upp vid önskad tidpunkt. Med AEM Screens kan ni schemalägga kanaler som dagliga delningar inom en dag, vecka eller månad efter behov.
 
@@ -119,7 +119,7 @@ Här delar vi upp varje dag i tre olika tidsplatser, så att kanalinnehållet sp
 
 #### Spela upp innehåll en viss veckodag {#playing-content-on-a-particular-day-of-the-week}
 
-I det här exemplet visas hur det går till på dagen i ett kasino där live-event inträffar varje helg från kl. 20.00 till 23.00 och erbjudanden är tillgängliga för middagsmeny efter kl. 10.00 till kl. 13.00.
+I det här exemplet visas dagenParting som uppnåtts i ett kasino där live-event inträffar varje helg från kl. 20.00 till kl. 23.00 och erbjudanden är tillgängliga för middagsmeny efter kl. 10.00 till kl. 13.00.
 
 <table>
  <tbody>
@@ -146,7 +146,7 @@ I det här exemplet visas hur det går till på dagen i ett kasino där live-eve
 
 #### Spela upp innehåll under en viss månad/månad {#playing-content-for-a-particular-month-months}
 
-I det här exemplet visas den dagliga delningen för en butik som visar sin sommarsamling från juni till augusti och höstsamlingen från september till slutet av oktober.
+I det här exemplet visas DayParting för en butik som visar sin sommarsamling från juni till augusti och höstsamlingen från september till slutet av oktober.
 
 Här skapar du delningar per månad så att kanalinnehållet spelas upp enligt årets angivna månader.
 
@@ -161,7 +161,7 @@ Här skapar du delningar per månad så att kanalinnehållet spelas upp enligt �
 
 #### Spela upp innehåll för kanaler med samma prioritet {#playing-content-for-channels-with-same-priority}
 
-I det här exemplet visas den dagliga delningen för en butik som visar sin vintersamling med samma schema under december. Men eftersom kanal B har prioriteten 2, under den veckan, Kanal B spelar upp innehållet i stället för kanal A.
+I det här exemplet visas DayParting för en butik som visar sin vintersamling med samma schema under december. Men eftersom kanal B har prioriteten 2, under den veckan, Kanal B spelar upp innehållet i stället för kanal A.
 
 | **Kanal** | **Roll** | **Prioritet** | **Schema** |
 |---|---|---|---|
@@ -171,7 +171,7 @@ I det här exemplet visas den dagliga delningen för en butik som visar sin vint
 
 >[!NOTE]
 >
-> Mer information om dagsdelning finns i avsnitten nedan:
+> Mer information om DayParting finns i avsnitten nedan:
 >
 >* [Hantera återkommande i resurser](https://docs.adobe.com/content/help/en/experience-manager-screens/user-guide/authoring/product-features/asset-level-scheduling.html#handling-recurrence-in-assets)
 >* [Hantera återkommande för resurser i en kanal](https://docs.adobe.com/content/help/en/experience-manager-screens/user-guide/authoring/product-features/channel-level-activation.html#handling-recurrence-in-assets)
