@@ -3,10 +3,10 @@ title: Kanaltilldelning - senaste offertförfrågan
 seo-title: Kanaltilldelning - senaste offertförfrågan
 description: Följ den här sidan om du vill veta mer om kanaltilldelning och Dag-delning.
 translation-type: tm+mt
-source-git-commit: 963262bb4b7b26aa1e9fbf1be2362c7029818789
+source-git-commit: 1c6a7342288a5d78dbea91d29ff8e5d6c8fec486
 workflow-type: tm+mt
-source-wordcount: '746'
-ht-degree: 0%
+source-wordcount: '895'
+ht-degree: 1%
 
 ---
 
@@ -23,20 +23,59 @@ På den här sidan visas hur du tilldelar en kanal till visningen.
 >[!NOTE]
 >Du kan tilldela flera kanaler till en skärm.
 
+
 ## Tilldela en kanal {#assign-a-channel-new-release}
 
-Följ stegen nedan för att tilldela en kanal till en skärm:
+Följ nedanstående avsnitt för att skapa ett AEM Screens-projekt och tilldela en kanal till en skärm.
 
-1. Navigera till önskad visning, till exempel **DemoProject** —> **Locations** —> **SanJose** —> **StoreDisplay**.
+### Skapa ett AEM Screens-projekt och kanaler {#creating-project}
 
+Följ stegen nedan för att konfigurera ett projekt och en kanal:
 
-1. Tryck/klicka på **Tilldela kanal** i åtgärdsfältet
+1. Skapa ett AEM Screens-projekt med namnet **DemoScreens**.
+
+   ![bild](/help/user-guide/assets/channel-assignment/channel-assign-fp1.png)
+
+   >[!NOTE]
+   >Mer information om hur du skapar ett AEM Screens-projekt finns i [Skapa och hantera projekt](creating-a-screens-project.md) .
+
+1. Skapa en sekvenskanal med namnet **Cafeteria** i mappen **Kanaler** .
+
+1. Markera kanalen och klicka på **Redigera** i åtgärdsfältet för att lägga till innehåll i kanalen.
+
+   ![bild](/help/user-guide/assets/channel-assignment/channel-assign-fp2.png)
+
+   I **Cafeteriakanalen** visas nu följande bilder:
+
+   ![bild](/help/user-guide/assets/channel-assignment/channel-assign-fp3.png)
+
+1. Skapa en plats med namnet **SanJose** och en visning som **Lobby**.
+
+   ![bild](/help/user-guide/assets/channel-assignment/channel-assign-fp4.png)
+
+### Tilldela kanal till en skärm {#assigning-channel-to-display}
+
+När projektet är klart måste du tilldela kanalen till en skärm för att kunna visa innehållet.
+
+1. Navigera till önskad visning, till exempel **DemoScreens** —> **Locations** —> **SanJose** —> **Lobby**.
+
+1. Tryck/klicka på **Tilldela kanal** i åtgärdsfältet.
+
+   ![bild](/help/user-guide/assets/channel-assignment/channel-assign-fp5.png)
 
    Eller
 
-   Tryck/klicka på **Kontrollpanel** och klicka på **+Tilldela kanal** på panelen **TILLDELADE KANALER &amp; SCHEMALÄGG** för att öppna dialogrutan **Kanaltilldelning** .
+   Tryck/klicka på **Kontrollpanelen** och klicka på **+Tilldela kanal** på panelen **TILLDELADE KANALER &amp; SCHEMALER** .
 
-1. I inställningsalternativet kan du välja kanal efter sökväg eller namn och ange kanalrollen, prioritet, Supported Events.
+   ![bild](/help/user-guide/assets/channel-assignment/channel-assign-fp6.png)
+
+1. Dialogrutan **Kanaltilldelning** öppnas.
+
+   ![bild](/help/user-guide/assets/channel-assignment/channel-assign-fp7.png)
+
+1. I alternativet **Inställningar** kan du välja kanal efter sökväg eller namn, ange kanalroll, prioritet, händelser som stöds och avbrottsmetoder. Du kan även aktivera alternativet för att dra till och från den här dialogrutan.
+
+   ![bild](/help/user-guide/assets/channel-assignment/channel-assign-fp7.png)
 
    >[!NOTE]
    >Mer information om kanalegenskaper finns i avsnittet [Kanalegenskaper](#channel-properties) .
@@ -45,7 +84,9 @@ Följ stegen nedan för att tilldela en kanal till en skärm:
 
 1. Klicka på **Spara** när du har konfigurerat inställningarna.
 
-## Förstå kanalegenskaper från kanaltilldelning {#channel-properties}
+### Visa innehållet i Chrome Player {#viewing-content-output}
+
+### Förstå kanalegenskaper från kanaltilldelning {#channel-properties}
 
 ### Referenskanal {#ref-channel}
 
