@@ -3,9 +3,9 @@ title: Kanaltilldelning
 seo-title: Kanaltilldelning
 description: Följ den här sidan om du vill veta mer om kanaltilldelning och Dag-delning.
 translation-type: tm+mt
-source-git-commit: 963262bb4b7b26aa1e9fbf1be2362c7029818789
+source-git-commit: ae823357be22c45150b0687252cbd58b8022508b
 workflow-type: tm+mt
-source-wordcount: '1218'
+source-wordcount: '1215'
 ht-degree: 1%
 
 ---
@@ -29,7 +29,7 @@ Följ stegen nedan för att tilldela en kanal till en skärm:
 
 1. Navigera till önskad visning, till exempel **DemoProject** —> **Locations** —> **SanJose** —> **StoreDisplay**.
 
-   ![screen_shot_2018-08-23at25359pm](assets/screen_shot_2018-08-23at25359pm.png)
+   ![bild](assets/screen_shot_2018-08-23at25359pm.png)
 
 1. Tryck/klicka på **Tilldela kanal** i åtgärdsfältet
 
