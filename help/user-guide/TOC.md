@@ -5,9 +5,9 @@ audience: end-user
 user-guide-title: Hjälp om Adobe Experience Manager Screens
 user-guide-description: Learn to use AEM Screens to publish interactive digital experiences involving different types of screens.
 translation-type: tm+mt
-source-git-commit: 0f8712e8afb806fbf4136880f44b629a5a52b5ec
+source-git-commit: 69a40d662d9bc0fe33e1cad7523b0c7a3baea7cf
 workflow-type: tm+mt
-source-wordcount: '394'
+source-wordcount: '392'
 ht-degree: 1%
 
 ---
@@ -57,8 +57,8 @@ ht-degree: 1%
       + [Skapa och hantera scheman](managing-schedules.md)
       + [Hantera enheter](managing-devices.md)
       + Tilldela kanaler {#assigning-channels}
-         + [Kanaltilldelning: AEM 6.5.5 Screens FP och senare](channel-assignment-latest-fp.md)
-         + [Kanaltilldelning: Äldre FP](channel-assignment.md)
+         + [Kanaltilldelning](channel-assignment-latest-fp.md)
+         + [Kanaltilldelning: Äldre AEM Screens-funktionspaket](channel-assignment.md)
    + Använda kärnfunktioner {#product-features}
       + [Textövertäckning](text-overlay.md)
       + [Uppdatera gruppvis offline](bulk-offline-update.md)
