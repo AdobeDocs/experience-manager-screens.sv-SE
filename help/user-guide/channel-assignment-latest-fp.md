@@ -3,9 +3,9 @@ title: Kanaltilldelning - senaste offertförfrågan
 seo-title: Kanaltilldelning - senaste offertförfrågan
 description: Följ den här sidan om du vill veta mer om kanaltilldelning och Dag-delning.
 translation-type: tm+mt
-source-git-commit: c022e583a52d68e20d7916a8f02341905bb957b6
+source-git-commit: 0300af2ef44756dddbb27f3da15c52bc877b93ea
 workflow-type: tm+mt
-source-wordcount: '1495'
+source-wordcount: '1548'
 ht-degree: 1%
 
 ---
@@ -73,18 +73,18 @@ När projektet är klart måste du tilldela kanalen till en skärm för att kunn
 
    ![bild](/help/user-guide/assets/channel-assignment/channel-assign-fp7.png)
 
-1. I alternativet **Inställningar** kan du välja kanal efter sökväg eller namn, ange kanalroll, prioritet, händelser som stöds och avbrottsmetoder. Du kan även aktivera alternativet för att dra till och från den här dialogrutan.
+1. I alternativet **Inställningar** kan du välja kanal efter sökväg eller efter namn, ange **kanalroll**, **prioritet**, **händelser** som stöds och **avbrottsmetoder**. Du kan även aktivera verktygstipset för **Attraktion** i den här dialogrutan.
 
    ![bild](/help/user-guide/assets/channel-assignment/channel-assign-fp7.png)
 
    >[!NOTE]
-   >Mer information om kanalegenskaper finns i avsnittet [Kanalegenskaper](#channel-properties) .
+   >Mer information om egenskaper för kanaltilldelning finns i avsnittet [Kanalegenskaper](#channel-properties) .
 
 1. I alternativet **Scheman** väljer du **Tidszon** för referens, **Aktiveringsfönster** och **Återkommande schema**.
    ![bild](/help/user-guide/assets/channel-assignment/channel-assign-fp7.png)
 
    >[!NOTE]
-   >Mer information om kanalegenskaper finns i avsnittet [Kanalegenskaper](#channel-properties) .
+   >Mer information om egenskaper för kanaltilldelning finns i avsnittet [Kanalegenskaper](#channel-properties) .
 
 1. Klicka på **Spara** när du har konfigurerat inställningarna.
 
@@ -96,7 +96,9 @@ Läs mer i [Device Registration](device-registration.md) om hur du registrerar e
 
 Följande utdata visas när du väljer spelare:
 
-### Förstå kanalegenskaper från kanaltilldelning {#channel-properties}
+![new1](assets/channel-assignment/channel-assign-output.gif)
+
+### Förstå kanalegenskaper från dialogrutan Kanaltilldelning {#channel-properties}
 
 Följande egenskaper ställs in från alternativet **Inställningar** i dialogrutan **Kanaltilldelning** .
 
@@ -185,18 +187,27 @@ I följande exempel förklaras DayParting i kanaler i tre olika scenarier:
 
 I det här exemplet visas hur en Restaurant använder DayParting för att visa upp sin frukost-, lunch- och middagsmeny.
 
-Här delar vi upp varje dag i tre olika tidsplatser, så att kanalinnehållet spelas upp enligt den angivna tiden på dagen. Följande egenskaper för upprepningsschemat ställs in så att innehållet spelas upp enligt det här användningsfallet.
+Här delar vi upp varje dag i olika tidsplatser, så att kanalinnehållet spelas upp enligt den angivna tiden på dagen. Ställ in följande egenskaper för upprepningsschemat för att spela upp innehållet enligt det här användningsfallet.
 
 | **Namn** | **Upprepa** | **Start** | **End** |
 |---|---|---|---|
 | Frukosten | Dagligen | 6:00 | 11:00 |
-| Frukosten | Dagligen | 11:02 | 3:00 PM |
-| Frukosten | Dagligen | 3:01 PM | 8:00 PM |
+| Lunch | Dagligen | 11:02 | 3:00 PM |
+| Middag | Dagligen | 3:01 PM | 8:00 PM |
 
 #### Spela upp innehåll en viss veckodag {#playing-content-on-a-particular-day-of-the-week}
 
-I det här exemplet visas den DayParting som skapades i ett kasino där live-event inträffar varje helg från kl. 20.00 till kl. 23.00 och erbjudanden är tillgängliga för middagsmeny efter kl. 10.00 till kl. 13.00.
+I det här exemplet visas DayParting som implementerats i ett kasino där live-event inträffar varje helg från kl. 20.00 till kl. 23.00 och erbjudanden är tillgängliga för middagsmeny efter kl. 10.00 till kl. 13.00.
 
+| **Namn** | **Upprepa** | **Start** | **End** |
+|---|---|---|---|
+| Weekend | Vecka | 8:00 PM | 10:00 PM |
+| Special | Dagligen | 10:00 PM | 1:00 |
+
+**Weekend**
+
+
+**Special**
 
 #### Spela upp innehåll under en viss månad/månad {#playing-content-for-a-particular-month-months}
 
@@ -213,6 +224,11 @@ Här skapar du DayParting per månad, så att kanalinnehållet spelas upp enligt
 
 I det här exemplet visas DayParting för en butik som visar sin vintersamling med samma schema under december. Men eftersom kanal B har prioriteten 2, under den veckan, Kanal B spelar upp innehållet i stället för kanal A.
 
+## Tidslinjevy {#timeline-view}
+
+När du har tilldelat en kanal till en visning och ställt in ett upprepningsschema kan du visa tidslinjen från panelen **TILLDELADE KANALER &amp; SCHEMALER** .
+
+Följ stegen nedan för att navigera till tidslinjevyn:
 
 
 
