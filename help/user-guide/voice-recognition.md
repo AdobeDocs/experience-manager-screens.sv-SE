@@ -2,10 +2,10 @@
 title: Röstigenkänning i AEM Screens
 description: Sidan beskriver röstigenkänningsfunktionen i AEM Screens.
 translation-type: tm+mt
-source-git-commit: c46cd26f5067468aadf80a822fffce1d5f0b5d9a
+source-git-commit: 0300af2ef44756dddbb27f3da15c52bc877b93ea
 workflow-type: tm+mt
-source-wordcount: '509'
-ht-degree: 0%
+source-wordcount: '633'
+ht-degree: 1%
 
 ---
 
@@ -16,7 +16,8 @@ ht-degree: 0%
 
 Med funktionen Röstigenkänning kan du ändra innehåll i en AEM Screens-kanal som styrs av röstinteraktion.
 
-En innehållsförfattare kan konfigurera en visning som röstaktiverad. Detta gör att alla spelare som är registrerade mot visningen kan förstå tal. Du måste aktivera röstigenkänningen för bildskärmen och associera varje kanal med en unik tagg för att aktivera en kanalövergång.
+En innehållsförfattare kan konfigurera en visning som röstaktiverad. Syftet med den här funktionen är att ge kunderna möjlighet att använda tal som sätt att interagera med sina bildskärmar. Exempel på liknande användningsområden är att hitta produktrekommendationer i butiker, beställa menyalternativ på materier och restauranger. Den här funktionen ökar tillgängligheten för användarna och kan förbättra kundupplevelsen avsevärt.
+
 
 >[!NOTE]
 >Spelarens maskinvara måste stödja röstindata, t.ex. en mikrofon.
@@ -26,6 +27,9 @@ En innehållsförfattare kan konfigurera en visning som röstaktiverad. Detta g�
 
 ## Implementera röstigenkänning {#implementing}
 
+
+Om du vill implementera röstigenkänning i ditt AEM Screens-projekt måste du aktivera röstigenkänningen för bildskärmen och associera varje kanal med en unik tagg för att utlösa en kanalövergång.
+
 I följande avsnitt beskrivs hur du kan aktivera och använda funktionen Röstigenkänning i ett AEM Screens-projekt.
 
 ### Konfigurera projektet {#setting-up}
@@ -34,19 +38,27 @@ Innan du använder funktionen för röstigenkänning bör du kontrollera att du 
 
 1. I följande exempel visas ett demoprojekt med namnet **VoiceDemo** och tre sekvenskanaler **Main**, **ColdDrinks** och **HotDrinks**, vilket visas i bilden nedan.
 
+   ![bild](assets/voice-recognition/vr-1.png)
+
    >[!NOTE]
    >
    >Mer information om hur du skapar en kanal eller lägger till innehåll i en kanal finns i [Skapa och hantera kanaler](/help/user-guide/managing-channels.md)
 
 1. Navigera till varje kanal och lägg till innehåll. Navigera till **VoiceDemo** —> **Kanaler** —> **Main** och markera kanalen. Klicka på **Redigera** i åtgärdsfältet för att öppna redigeraren och lägga till innehåll (bilder/videor) efter behov. Lägg på samma sätt till innehåll i både **ColdDrinks** och **HotDrinks** -kanalen.
 
-   Kanalerna innehåller nu följande innehåll, vilket visas i figurerna nedan.
+   Kanalerna innehåller nu resurser (bilder), vilket visas i figurerna nedan.
 
    **Huvud**:
 
+   ![bild](assets/voice-recognition/vr-4.png)
+
    **ColdDrinks**:
 
+   ![bild](assets/voice-recognition/vr-3.png)
+
    **HotDrinks**:
+
+   ![bild](assets/voice-recognition/vr-2.png)
 
 ### Konfigurera taggar för kanaler {#setting-tags}
 
@@ -58,10 +70,27 @@ Följ stegen nedan för att lägga till taggar i din kanal:
 
 1. Klicka på **Egenskaper** i åtgärdsfältet.
 
+   ![bild](assets/voice-recognition/vr-5.png)
+
 1. Navigera till fliken **Grunderna** och markera en tagg som redan finns i fältet **Taggar** eller skapa en ny.
+
+   Du kan antingen skapa en ny tagg genom att skriva in ett nytt namn för taggen, vilket visas i bilden nedan:
+
+   ![bild](assets/voice-recognition/vr-6.png)
+
+   Eller
+
+   Du kan skapa taggar från AEM i förväg för ditt projekt och sedan välja dem också.
+
+   Skapa taggar genom att följa stegen nedan:
+
+   1. Navigera till AEM.
+   1. Klicka på verktygen —> **Taggning**.
+      ![bild](assets/voice-recognition/vr-7.png)
 
 1. Klicka på **Spara och stäng** när du är klar.
 
+Lägg på samma sätt till taggen **hot** i **HotDrinks** -kanalen och **kalla** till **ColdDrinks** -kanalen.
 
 ### Tilldela kanal till en skärm {#channel-assignment}
 
