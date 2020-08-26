@@ -2,9 +2,9 @@
 title: Röstigenkänning i AEM Screens
 description: Sidan beskriver röstigenkänningsfunktionen i AEM Screens.
 translation-type: tm+mt
-source-git-commit: cbf50b5c530b51d2926d9fdacef25dabcd28d605
+source-git-commit: b7d7d4ec200d3eb7cd7bac4253c8664e5bd4de81
 workflow-type: tm+mt
-source-wordcount: '827'
+source-wordcount: '847'
 ht-degree: 1%
 
 ---
@@ -81,7 +81,7 @@ Följ stegen nedan för att lägga till taggar i din kanal:
 
 1. Navigera till fliken **Grunderna** och markera en tagg som redan finns i fältet **Taggar** eller skapa en ny.
 
-   Du kan antingen skapa en ny tagg genom att skriva in ett nytt namn för taggen, vilket visas i bilden nedan:
+   Du kan antingen skapa en ny tagg genom att ange ett nytt namn för taggen och `return` träfftangenten, vilket visas i bilden nedan:
 
    ![bild](assets/voice-recognition/vr-6.png)
 
@@ -122,9 +122,11 @@ Skapa taggar genom att följa stegen nedan:
 
 1. Ange följande egenskaper för varje kanal när du tilldelar kanalen.
 
-   * Huvud
-   * HotDrinks
-   * ColdDrinks
+   | **Kanalnamn** | **Prioritet** | **Händelser som stöds** |
+   |---|---|---|
+   | Huvud | 2 | Inledande inläsning, inaktiv skärm, timer |
+   | HotDrinks | 1 | Användarinteraktion |
+   | ColdDrinks | 1 | Användarinteraktion |
 
    >[!NOTE]
    >
