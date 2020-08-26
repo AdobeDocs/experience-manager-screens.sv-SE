@@ -3,9 +3,9 @@ title: Kanaltilldelning - senaste offertförfrågan
 seo-title: Kanaltilldelning - senaste offertförfrågan
 description: Följ den här sidan om du vill veta mer om kanaltilldelning och Dag-delning.
 translation-type: tm+mt
-source-git-commit: 0300af2ef44756dddbb27f3da15c52bc877b93ea
+source-git-commit: b29b67374f29148ef661de356f479e9aa5e40cfd
 workflow-type: tm+mt
-source-wordcount: '1548'
+source-wordcount: '1551'
 ht-degree: 1%
 
 ---
@@ -187,7 +187,7 @@ I följande exempel förklaras DayParting i kanaler i tre olika scenarier:
 
 I det här exemplet visas hur en Restaurant använder DayParting för att visa upp sin frukost-, lunch- och middagsmeny.
 
-Här delar vi upp varje dag i olika tidsplatser, så att kanalinnehållet spelas upp enligt den angivna tiden på dagen. Ställ in följande egenskaper för upprepningsschemat för att spela upp innehållet enligt det här användningsfallet.
+Här delar vi upp varje dag i olika tidsplatser, så att kanalinnehållet spelas upp enligt den angivna tiden på dagen. Ange följande egenskaper i schemat för upprepning för din kanal för att spela upp innehållet enligt det här användningsfallet.
 
 | **Namn** | **Upprepa** | **Start** | **End** |
 |---|---|---|---|
