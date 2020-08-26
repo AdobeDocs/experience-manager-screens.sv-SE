@@ -2,15 +2,22 @@
 title: Röstigenkänning i AEM Screens
 description: Sidan beskriver röstigenkänningsfunktionen i AEM Screens.
 translation-type: tm+mt
-source-git-commit: 0300af2ef44756dddbb27f3da15c52bc877b93ea
+source-git-commit: cbf50b5c530b51d2926d9fdacef25dabcd28d605
 workflow-type: tm+mt
-source-wordcount: '633'
+source-wordcount: '827'
 ht-degree: 1%
 
 ---
 
 
 # Röstigenkänning i AEM Screens {#voice-recognition}
+
+>[VIKTIGT]
+>**Viktig sekretessinformation**
+>När du använder funktionen för röstigenkänning följer du alla tillämpliga juridiska och etiska riktlinjer för din region (inklusive, men inte begränsat till, att ge slutanvändarna ett synligt meddelande om att spelaren använder röstigenkänning). Adobe Inc., tar inte emot, lagrar eller bearbetar någon röstrelaterad information. AEM Screens-spelarna använder det standardwebbtal-API som är inbyggt i webbläsarmotorn. Bakom kulisserna skickas en vågform av ditt tal till Googles servrar för konvertering från tal till text och den här texten matchas av spelaren mot konfigurerade nyckelord.
+>
+>Mer information finns i [Googles rapport om sekretess om API](https://www.google.com/chrome/privacy/whitepaper.html#speech) för webbtal.
+
 
 ## Översikt {#overview}
 
@@ -80,30 +87,44 @@ Följ stegen nedan för att lägga till taggar i din kanal:
 
    Eller
 
-   Du kan skapa taggar från AEM i förväg för ditt projekt och sedan välja dem också.
+   Du kan skapa taggar från AEM i förväg för ditt projekt och sedan välja dem också. När du har följt stegen som beskrivs i [Skapa taggar](#creating-tags)kan du markera taggen från platsen och lägga till den i kanalen, vilket visas i bilden nedan:
 
-   Skapa taggar genom att följa stegen nedan:
-
-   1. Navigera till AEM.
-   1. Klicka på verktygen —> **Taggning**.
-      ![bild](assets/voice-recognition/vr-7.png)
+   ![bild](assets/voice-recognition/vr-tag1.png)
 
 1. Klicka på **Spara och stäng** när du är klar.
 
-Lägg på samma sätt till taggen **hot** i **HotDrinks** -kanalen och **kalla** till **ColdDrinks** -kanalen.
+Lägg på samma sätt till taggen **hot** i **HotDrinks** -kanalen.
 
-### Tilldela kanal till en skärm {#channel-assignment}
+#### Skapa taggar {#creating-tags}
+
+Skapa taggar genom att följa stegen nedan:
+
+1. Navigera till AEM.
+1. Klicka på verktygen —> **Taggning**.
+   ![bild](assets/voice-recognition/vr-7.png)
+1. Klicka på **Skapa** —> **Skapa namnutrymme**.
+   ![bild](assets/voice-recognition/vr-7.png)
+1. Ange namnet på projektet, till exempel: **Röstdemo** och klicka på Skapa.
+1. Välj projektet **VoiceDemo** och klicka på **Skapa tagg** i åtgärdsfältet.
+1. Klicka på **Skicka**.
+
+
+### Tilldela kanal till en bildskärm och aktivera röstigenkänning {#channel-assignment}
 
 1. Skapa en visning i mappen **Platser** , som bilden nedan visar.
 
+   ![bild](assets/voice-recognition/vr-loc.png)
+
    >[!NOTE]
-   >
    >Mer information om hur du tilldelar en kanal till en skärm finns i [Skapa och hantera skärmar](/help/user-guide/managing-displays.md).
 
 1. Tilldela kanalerna **Main**, **ColdDrinks** och **HotDrinks** till **LobbyDisplay**.
 
+1. Ange följande egenskaper för varje kanal när du tilldelar kanalen.
 
-1. Ange följande egenskaper för varje kanal.
+   * Huvud
+   * HotDrinks
+   * ColdDrinks
 
    >[!NOTE]
    >
@@ -113,16 +134,26 @@ Lägg på samma sätt till taggen **hot** i **HotDrinks** -kanalen och **kalla**
 
 1. Navigera till fliken **Visning** och aktivera alternativet **Röstaktiverat** under **Innehåll**.
 
-   >[!NOTE]
+   ![bild](assets/voice-recognition/vr-disp.png)
+
+   >[!IMPORTANT]
    >Det är obligatoriskt att aktivera funktionen för röstigenkänning från skärmen.
 
-## Visa innehållet i Chrome Player {#viewing-content}
+#### Visa innehållet i Chrome Player {#viewing-content}
 
 När de föregående stegen är klara kan du registrera din enhet och visa utdata.
 
-Följ stegen nedan:
+>[!NOTE]
+>Läs mer i [Device Registration](device-registration.md) om hur du registrerar en enhet i en AEM Screens-spelare.
 
-1. Navigera till mappen **Enheter** och klicka på **Enhetshanteraren** i åtgärdsfältet för att registrera enheterna.
+I det här exemplet visas utdata på en Chrome Player.
+
+![newimage](assets/voice-recognition/voice-video.gif)
+
+
+
+
+
 
 
 
