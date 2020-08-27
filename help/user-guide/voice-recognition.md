@@ -2,9 +2,9 @@
 title: Röstigenkänning i AEM Screens
 description: Sidan beskriver röstigenkänningsfunktionen i AEM Screens.
 translation-type: tm+mt
-source-git-commit: eb85269cfeccd837fdf1f752618013fefeddbfd7
+source-git-commit: 7f9f72f31d866f142bc9bf11d021583905ee82ea
 workflow-type: tm+mt
-source-wordcount: '1554'
+source-wordcount: '1555'
 ht-degree: 2%
 
 ---
@@ -32,7 +32,7 @@ En innehållsförfattare kan konfigurera en visning som röstaktiverad. Syftet m
 ## Implementera röstigenkänning {#implementing}
 
 >[!IMPORTANT]
-> Funktionen Röstigenkänning är bara tillgänglig på Chrome- och Electron-spelare.
+> Funktionen Röstigenkänning är bara tillgänglig på Chrome OS- och Electron-spelare.
 
 Om du vill implementera röstigenkänning i ditt AEM Screens-projekt måste du aktivera röstigenkänningen för bildskärmen och associera varje kanal med en unik tagg för att utlösa en kanalövergång.
 
@@ -106,14 +106,19 @@ Följ stegen nedan för att lägga till taggar i din kanal:
 Skapa taggar genom att följa stegen nedan:
 
 1. Navigera till AEM.
+
 1. Klicka på verktygen —> **Taggning**.
    ![bild](assets/voice-recognition/vr-7.png)
+
 1. Klicka på **Skapa** —> **Skapa namnutrymme**.
    ![bild](assets/voice-recognition/vr-tag3.png)
-1. Ange namnet på projektet, till exempel: **Röstdemo** och klicka på **Skapa**.
+
+1. Ange namnet på projektet, till exempel **Röstdemo** , och klicka på **Skapa**.
    ![bild](assets/voice-recognition/vr-tag2.png)
+
 1. Välj projektet **VoiceDemo** och klicka på **Skapa tagg** i åtgärdsfältet.
    ![bild](assets/voice-recognition/vr-tag4.png)
+
 1. Ange namnet på taggen och klicka på **Skicka**.
    ![bild](assets/voice-recognition/vr-tag5.png)
 
