@@ -11,10 +11,10 @@ topic-tags: administering
 discoiquuid: 77fe9d4e-e1bb-42f7-b563-dc03e3af8a60
 docset: aem65
 translation-type: tm+mt
-source-git-commit: db3429d93833ec22ba60732c45da274830692b39
+source-git-commit: 319a80a7fe3d68cbc16108eb302def390b445838
 workflow-type: tm+mt
-source-wordcount: '678'
-ht-degree: 0%
+source-wordcount: '740'
+ht-degree: 1%
 
 ---
 
@@ -29,16 +29,32 @@ Dessutom är **Watchdog** en lösning för att återställa spelaren från krasc
 
 Installera Android Player för AEM Screens om du vill implementera Android Player för AEM Screens.
 
-Gå till [**sidan AEM 6.5 Player Downloads **](https://download.macromedia.com/screens/).
+Gå till [**AEM 6.5 Player Downloads**](https://download.macromedia.com/screens/) .
+
+### Setting up Environment for AEM Screens 6.5.5 Feature Pack and later {#fp-environment-setup}
+
+Du måste konfigurera en miljö för Android-spelaren om du använder AEM Screens 6.5.5 Feature Pack.
+
+Följ stegen nedan:
+
+1. Navigera till **Adobe Experience Manager Web ConsoleConfiguration** med `http://localhost:4502/system/console/configMgr`.
+
+1. Sök efter autentiseringshanterare för *Adobe Granite-token*.
+
+1. Ange attributet **SameSite för inloggningstokencookies** från **Lax** till **None**.
+   ![bild](/help/user-guide/assets/granite-updates.png)
+
+1. Click **Save**.
+
 
 ### Ad hoc-metod {#ad-hoc-method}
 
-Med metoden Ad-Hoc kan du installera den senaste Android Player (*.exe*). Besök [**sidan AEM 6.5 Player Downloads **](https://download.macromedia.com/screens/).
+Med metoden Ad-Hoc kan du installera den senaste Android Player (*.exe*). Gå till [**AEM 6.5 Player Downloads**](https://download.macromedia.com/screens/) .
 
 När du har hämtat programmet följer du stegen på spelaren för att slutföra ad hoc-installationen:
 
 1. Tryck länge på det övre vänstra hörnet för att öppna administrationspanelen.
-1. Navigera till **Konfiguration** på den vänstra åtgärdsmenyn och ange platsen (adressen) för den AEM-instans som du vill ansluta till och klicka på **Spara**.
+1. Navigera till **Konfiguration** på den vänstra åtgärdsmenyn och ange platsen (adressen) för den AEM instansen som du vill ansluta till och klicka på **Spara**.
 
 1. Navigera till länken **Device** **Registration** (Enhetsregistrering) på den vänstra åtgärdsmenyn för att kontrollera status för enhetsregistreringsprocessen.
 
@@ -64,7 +80,7 @@ Om du vill få tillgång till vissa privilegierade API:er för Android, som *Pow
 
 Följ stegen nedan för att signera android-paketet med hjälp av tillverkarens tangenter:
 
-1. Hämta appen från Google Play eller från [AEM Screens Player Downloads](https://download.macromedia.com/screens/) -sidan
+1. Hämta appen från Google Play eller från [AEM Screens Player Downloads](https://download.macromedia.com/screens/) page
 1. Hämta plattformstangenterna från tillverkaren för att få en *pk8* - och en *pem* -fil
 
 1. Leta reda på verktyget apksigner i android sdk med hjälp av sök ~/Library/Android/sdk/build-tools -name &quot;apksigner&quot;
