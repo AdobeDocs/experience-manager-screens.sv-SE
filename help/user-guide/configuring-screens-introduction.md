@@ -11,9 +11,9 @@ topic-tags: administering
 discoiquuid: 0c7d6248-8ac0-4387-8725-57ed941f28f7
 docset: aem65
 translation-type: tm+mt
-source-git-commit: bca6dc0f6a022a4a9005053320e5047b9321270d
+source-git-commit: acc0278631a4be2c90de7cc43d3b40a358ffa93e
 workflow-type: tm+mt
-source-wordcount: '766'
+source-wordcount: '750'
 ht-degree: 0%
 
 ---
@@ -72,25 +72,24 @@ Följande huvudpunkter nedan hjälper dig att konfigurera och AEM servern som sk
 
 1. Gå till **Adobe Experience Manager Web Console Configuration** via AEM:> hammer icon —> **Operations** —> **Web Console**.
 
-   ![screen_shot_2019-07-31at91253am](assets/screen_shot_2019-07-31at91253am.png)
+   ![bild](assets/config/empty-ref1.png)
 
 1. **Adobe Experience Manager Web Console Configuration** öppnas. Sök efter försäljningsreferent.
 
    Om du vill söka efter egenskapen för Sing-refereraren trycker du på **Command+F** för **Mac** och **Ctrl+F** för **Windows**.
 
-   ![screen_shot_2019-07-31at91728am](assets/screen_shot_2019-07-31at91728am.png)
-
 1. Markera alternativet **Tillåt tomt** , så som visas i bilden nedan.
 
-   ![screen_shot_2019-07-31at91807am](assets/screen_shot_2019-07-31at91807am.png)
+   ![bild](assets/config/empty-ref2.png)
 
 1. Klicka på **Spara** för att aktivera Apache Sling Referer-filtret Tillåt tomt.
+
 
 #### Apache Felix Jetty Based HTTP Service {#allow-apache-felix-service}
 
 1. Gå till **Adobe Experience Manager Web Console Configuration** via AEM:> hammer icon —> **Operations** —> **Web Console**.
 
-   ![screen_shot_2019-07-31at91253am](assets/screen_shot_2019-07-31at91253am.png)
+   ![bild](assets/config/empty-ref1.png)
 
 1. **Adobe Experience Manager Web Console Configuration** öppnas. Sök efter Apache Felix Jetty Based HTTP Service.
 
@@ -98,7 +97,7 @@ Följande huvudpunkter nedan hjälper dig att konfigurera och AEM servern som sk
 
 1. Markera alternativet **AKTIVERA HTTP** enligt bilden nedan.
 
-   ![screen_shot_2019-07-31at91807am](assets/http-image.png)
+   ![bild](assets/config/config-1.png)
 
 1. Klicka på **Spara** för att aktivera *http* -tjänsten.
 
