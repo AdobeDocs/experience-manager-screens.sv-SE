@@ -2,9 +2,9 @@
 title: Röstigenkänning i AEM Screens
 description: Sidan beskriver röstigenkänningsfunktionen i AEM Screens.
 translation-type: tm+mt
-source-git-commit: 3422a62af9b9c0930ce433c0a9cd29f4089592d3
+source-git-commit: 1063f1ab19344ceacfba6b53ad5cf32901c3843d
 workflow-type: tm+mt
-source-wordcount: '931'
+source-wordcount: '1215'
 ht-degree: 1%
 
 ---
@@ -41,6 +41,13 @@ I följande avsnitt beskrivs hur du kan aktivera och använda funktionen Röstig
 
 ### Konfigurera projektet {#setting-up}
 
+Du kan konfigurera projektet med hjälp av de två mallarna:
+
+* [Sekvenskanal](#sequence-channel)
+* [Kanal för delade skärmar](#split-channel)
+
+#### Använda sekvenskanal som mall {#sequence-channel}
+
 Innan du använder funktionen för röstigenkänning bör du kontrollera att du har ett projekt och en kanal med innehåll som har konfigurerats för ditt projekt.
 
 1. I följande exempel visas ett demoprojekt med namnet **VoiceDemo** och tre sekvenskanaler **Main**, **ColdDrinks** och **HotDrinks**, vilket visas i bilden nedan.
@@ -66,6 +73,34 @@ Innan du använder funktionen för röstigenkänning bör du kontrollera att du 
    **HotDrinks**:
 
    ![bild](assets/voice-recognition/vr-2.png)
+
+#### Använda kanalen för delade skärmar som mall {#split-channel}
+
+Innan du använder funktionen för röstigenkänning bör du kontrollera att du har ett projekt och en kanal med innehåll som har konfigurerats för ditt projekt.
+
+1. I följande exempel visas ett demonstrationsprojekt med namnet **VoiceDemo** och tre sekvenskanaler **Main**, **ColdDrinks** och **HotDrinks**, **SplitChannel** , enligt bilden nedan.
+
+
+
+   >[!NOTE]
+   >
+   >Mer information om hur du skapar en kanal eller lägger till innehåll i en kanal finns i [Skapa och hantera kanaler](/help/user-guide/managing-channels.md)
+
+1. Navigera till varje kanal och lägg till innehåll. Navigera till **VoiceDemo** —> **Kanaler** —> **Main** och markera kanalen. Klicka på **Redigera** i åtgärdsfältet för att öppna redigeraren och lägga till innehåll (bilder/videor) efter behov. Lägg på samma sätt till innehåll i både **ColdDrinks** och **HotDrinks** -kanalen.
+
+   Kanalerna innehåller nu resurser (bilder), vilket visas i figurerna nedan.
+
+   **Huvud**:
+
+
+
+   **ColdDrinks**:
+
+
+   **HotDrinks**:
+
+1. Navigera till **SplitChannel** och lägg till innehåll. Dra och släpp två inbäddade sekvenser och lägg till en bana i både **ColdDrinks** - och **HotDrinks** -kanalen enligt bilden nedan.
+
 
 ### Konfigurera taggar för kanaler {#setting-tags}
 
@@ -94,6 +129,8 @@ Följ stegen nedan för att lägga till taggar i din kanal:
 1. Klicka på **Spara och stäng** när du är klar.
 
 Lägg på samma sätt till taggen **hot** i **HotDrinks** -kanalen.
+
+Om du använder en Delad skärmkanal som mall måste du lägga till båda taggarna (**varm** och **kall**) i kanalegenskaperna.
 
 #### Skapa taggar {#creating-tags}
 
@@ -145,14 +182,16 @@ Nu kan du använda dessa taggar i ditt AEM Screens-projekt.
    >[!IMPORTANT]
    >Det är obligatoriskt att aktivera funktionen för röstigenkänning från skärmen.
 
-#### Visa innehållet i Chrome Player {#viewing-content}
+### Visa innehållet i Chrome Player {#viewing-content}
 
-När de föregående stegen är klara kan du registrera din enhet och visa utdata.
+När de föregående stegen är slutförda kan du registrera din fönsterenhet för att visa utdata.
 
 >[!NOTE]
 >Läs mer i [Device Registration](device-registration.md) om hur du registrerar en enhet i en AEM Screens-spelare.
 
 I det här exemplet visas utdata på en Chrome Player.
+
+#### För sekventiell kanal {#sequential-output}
 
 Huvudkanalen **** spelar upp innehållet, men när du använder ord med nyckelord som är **aktiva** , som *jag skulle vilja ha en het drink*, börjar kanalen spela upp innehållet i **HotDrinks** -kanalen.
 
@@ -161,10 +200,12 @@ Om du använder ord med ett nyckelord som **jag** skulle vilja ha något kallt *
 ![newimage](assets/voice-recognition/voice-video.gif)
 
 
+#### För kanal för delade skärmar {#split-screen-output}
 
 
+Huvudkanalen **** spelar upp innehållet, men när du använder ord med nyckelord som är **aktiva** , som *jag skulle vilja ha en het drink*, börjar kanalen spela upp innehållet i **HotDrinks** -kanalen.
 
-
+Om du använder ord med ett nyckelord som **jag** skulle vilja ha något kallt *börjar kanalen spela upp innehållet i* ColdDrinks **** -kanalen.
 
 
 
