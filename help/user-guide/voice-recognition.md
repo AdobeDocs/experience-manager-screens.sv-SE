@@ -2,10 +2,10 @@
 title: Röstigenkänning i AEM Screens
 description: Sidan beskriver röstigenkänningsfunktionen i AEM Screens.
 translation-type: tm+mt
-source-git-commit: 7f9f72f31d866f142bc9bf11d021583905ee82ea
+source-git-commit: b0f35750fffa6a61d2bc9950457974cca52651da
 workflow-type: tm+mt
-source-wordcount: '1555'
-ht-degree: 2%
+source-wordcount: '1554'
+ht-degree: 1%
 
 ---
 
@@ -114,7 +114,6 @@ Skapa taggar genom att följa stegen nedan:
    ![bild](assets/voice-recognition/vr-tag3.png)
 
 1. Ange namnet på projektet, till exempel **Röstdemo** , och klicka på **Skapa**.
-   ![bild](assets/voice-recognition/vr-tag2.png)
 
 1. Välj projektet **VoiceDemo** och klicka på **Skapa tagg** i åtgärdsfältet.
    ![bild](assets/voice-recognition/vr-tag4.png)
