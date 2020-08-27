@@ -2,9 +2,9 @@
 title: Röstigenkänning i AEM Screens
 description: Sidan beskriver röstigenkänningsfunktionen i AEM Screens.
 translation-type: tm+mt
-source-git-commit: 99e775cf2aca779c3223e96d05f1e0c9784a9821
+source-git-commit: eb85269cfeccd837fdf1f752618013fefeddbfd7
 workflow-type: tm+mt
-source-wordcount: '1581'
+source-wordcount: '1554'
 ht-degree: 2%
 
 ---
@@ -96,11 +96,10 @@ Följ stegen nedan för att lägga till taggar i din kanal:
 
    ![bild](assets/voice-recognition/vr-tag1.png)
 
+1. Lägg på samma sätt till taggen **hot** i **HotDrinks** -kanalen.
+
 1. Klicka på **Spara och stäng** när du är klar.
 
-Lägg på samma sätt till taggen **hot** i **HotDrinks** -kanalen.
-
-Om du använder en Delad skärmkanal som mall måste du lägga till båda taggarna (**varm** och **kall**) i kanalegenskaperna.
 
 ### Skapa taggar {#creating-tags}
 
@@ -276,7 +275,7 @@ När de föregående stegen är slutförda kan du registrera din fönsterenhet f
 
 I det här exemplet visas utdata på en Chrome Player.
 
-Huvudkanalen spelar upp **huvudinnehållet** , men när du använder ord med nyckelord som är **varma** och **kalla** , som *jag skulle vilja se menyn för varma och kalla drycker*, börjar kanalen spela upp innehållet i **SplitScreens** -kanal.
+Huvudkanalen spelar upp **huvudinnehållet** , men när du använder ord med nyckelord som är **varma** och **kalla** , som *jag skulle vilja se menyn för varma och kalla drycker*, börjar kanalen spela upp innehållet i **SplitScreen** -kanalen.
 
 
 
