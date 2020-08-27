@@ -3,9 +3,9 @@ title: Kanaltilldelning - senaste offertförfrågan
 seo-title: Kanaltilldelning - senaste offertförfrågan
 description: Följ den här sidan om du vill veta mer om kanaltilldelning och Dag-delning.
 translation-type: tm+mt
-source-git-commit: 2c469a8c74f496fbd9da796a5f471636e71ffc8c
+source-git-commit: f5d80f3765993277c552b64685d12244658915bb
 workflow-type: tm+mt
-source-wordcount: '1480'
+source-wordcount: '1488'
 ht-degree: 1%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 1%
 
 När du har konfigurerat en skärm måste du tilldela en kanal till en skärm för att kunna visa innehållet.
 
-På den här sidan visas hur du tilldelar en kanal till visningen.
+På den här sidan visas hur du tilldelar en kanal till visningen, hur du förstår kanalegenskaper och DayParting.
 
 >[!NOTE]
 >Du kan tilldela flera kanaler till en skärm.
@@ -55,7 +55,7 @@ Följ stegen nedan för att konfigurera ett projekt och en kanal:
 
 ### Tilldela kanal till en skärm {#assigning-channel-to-display}
 
-När projektet är klart måste du tilldela kanalen till en skärm för att kunna visa innehållet.
+När projektkonfigurationen är klar måste du tilldela kanalen till en skärm för att kunna visa innehållet.
 
 1. Navigera till önskad visning, till exempel **DemoScreens** —> **Locations** —> **SanJose** —> **Lobby**.
 
@@ -65,7 +65,7 @@ När projektet är klart måste du tilldela kanalen till en skärm för att kunn
 
    Eller
 
-   Tryck/klicka på **Kontrollpanelen** och klicka på **+Tilldela kanal** på panelen **TILLDELADE KANALER &amp; SCHEMALER** .
+   Tryck/klicka på **Kontrollpanel** i åtgärdsfältet och klicka på **+Tilldela kanal** på panelen **TILLDELADE KANALER &amp; SCHEMALER** .
 
    ![bild](/help/user-guide/assets/channel-assignment/channel-assign-fp6.png)
 
@@ -73,7 +73,7 @@ När projektet är klart måste du tilldela kanalen till en skärm för att kunn
 
    ![bild](/help/user-guide/assets/channel-assignment/channel-assign-fp7.png)
 
-1. I alternativet **Inställningar** kan du välja kanal efter sökväg eller efter namn, ange **kanalroll**, **prioritet**, **händelser** som stöds och **avbrottsmetoder**. Du kan även aktivera verktygstipset för **Attraktion** i den här dialogrutan.
+1. I alternativet **Inställningar** kan du välja kanal **efter sökväg** eller **efter namn**, ange **kanalroll**, **prioritet**********,¥Supported Events och¥Interruption Methods. Du kan även aktivera verktygstipset för att dra till och från den här dialogrutan.
 
    ![bild](/help/user-guide/assets/channel-assignment/channel-assign-fp7.png)
 
@@ -98,13 +98,31 @@ Följande utdata visas när du väljer spelare:
 
 ![new1](assets/channel-assignment/channel-assign-output.gif)
 
-### Förstå kanalegenskaper från dialogrutan Kanaltilldelning {#channel-properties}
+## Tidslinjevy {#timeline-view}
+
+När du har tilldelat en kanal till en visning och ställt in ett upprepningsschema kan du visa tidslinjen från panelen **TILLDELADE KANALER &amp; SCHEMALER** .
+
+Följ stegen nedan för att navigera till tidslinjevyn:
+
+1. Navigera till önskad visning, till exempel **DemoScreens** —> **Locations** —> **SanJose** —> **Lobby**.
+
+1. Tryck/klicka på **Tilldela kanal** i åtgärdsfältet.
+
+   ![bild](/help/user-guide/assets/channel-assignment/channel-assign-fp5.png)
+
+   Eller
+
+   Tryck/klicka på **Kontrollpanel** och klicka på **Tidslinje** på panelen **TILLDELADE KANALER &amp; SCHEMAT** .
+
+1. Väntande bilder (ska korrigeras)
+
+## Förstå kanalegenskaper från dialogrutan Kanaltilldelning {#channel-properties}
 
 Följande egenskaper ställs in från alternativet **Inställningar** i dialogrutan **Kanaltilldelning** .
 
 ![bild](/help/user-guide/assets/channel-assignment/channel-assign-fp7.png)
 
-#### Välj en kanal {#select-channel}
+### Välj en kanal {#select-channel}
 
 Om du väljer en kanal kan du ange en referens till den önskade kanalen, antingen efter kanalnamn eller efter kanalsökväg.
 
@@ -112,25 +130,25 @@ Om du väljer en kanal kan du ange en referens till den önskade kanalen, anting
 
 * **efter namn**: Du anger namnet på den kanal som ska matchas mot en faktisk kanal efter kontext. Med den här funktionen kan du skapa en lokal version av en kanal för att dynamiskt matcha platsspecifikt innehåll. Exempel: en kanal med *dagens* namnaffärer, där det faktiska innehållet skulle vara annorlunda i två städer, men du har fortfarande den tillräkneliga kanalrollen på alla skärmar.
 
-#### Kanalroll {#role-channel}
+### Kanalroll {#role-channel}
 
 Kanalrollen definierar visningssammanhanget. Rollen är inriktad på olika åtgärder och är oberoende av den faktiska kanal som uppfyller rollen.
 
-#### Priority {#priority-channel}
+### Priority {#priority-channel}
 
 Prioritet används för att ordna tilldelningarna om flera matchar uppspelningsvillkoren. Den som har det högsta värdet har alltid företräde framför de lägre värdena. Om det till exempel finns två kanaler A och B. A har prioriteten 1 och B har prioriteten 2, och sedan visas kanal B eftersom den har högre prioritet än A.
 
 >[!NOTE]
 >Prioriteten för en kanal anges som ett tal (1 för minimum) i dialogrutan **Kanaltilldelning** , vilket nämns ovan. Dessutom sorteras de tilldelade kanalerna baserat på fallande prioritet.
 
-#### Händelser som stöds {#supported-events-channel}
+### Händelser som stöds {#supported-events-channel}
 
 * **Inledande inläsning**: läser in kanalen när spelaren startas. Den kan tilldelas flera kanaler i kombination med ett schema
 * **Inaktiv skärm**: läses in när skärmen är inaktiv. Den kan tilldelas flera kanaler i kombination med ett schema
 * **Timer**: måste anges när ett schema anges
 * **Användarinteraktion**: spelaren växlar till den angivna kanalen, om det finns en användarinteraktion på skärmen (pekning) i en inaktiv kanal och kommer att läsas in när skärmen rörs
 
-#### Avbrottsmetod {#interruption-method-channel}
+### Avbrottsmetod {#interruption-method-channel}
 
 >[!IMPORTANT]
 >
@@ -152,16 +170,15 @@ Välj något av följande alternativ som är tillgängliga för att ange avbrott
 
 Följande egenskaper ställs in från alternativet **Schemalägg** i dialogrutan **Kanaltilldelning** .
 
-
-#### Referens-tidszon {#reference-timezone}
+### Referens-tidszon {#reference-timezone}
 
 Med tidszonen Referens kan du välja tidszon för visning av ditt innehåll.
 
-#### Aktiveringsfönster {#activation-window}
+### Aktiveringsfönster {#activation-window}
 
 I aktiveringsfönstret kan du välja ett **startdatum** och ett **slutdatum** för att visa innehållet.
 
-#### Återkommande schema {#recurrence-schedule}
+### Återkommande schema {#recurrence-schedule}
 
 Med upprepningsschemat kan du ange ett återkommande schema för ditt innehåll. Klicka på **+ Lägg till schema** för att lägga till ett upprepningsschema i kanalen.
 
@@ -211,23 +228,4 @@ I det här exemplet visas DayParting som implementerats i ett kasino där live-e
 >[!NOTE]
 >
 >Dessutom kan du definiera ***prioritet*** för var och en av kanalerna. Om till exempel två kanaler är inställda för samma dag och tid eller för samma månad, spelas den kanal som har högre prioritet upp först. Minimivärdet för prioritet kan anges till 0.
-
-## Tidslinjevy {#timeline-view}
-
-När du har tilldelat en kanal till en visning och ställt in ett upprepningsschema kan du visa tidslinjen från panelen **TILLDELADE KANALER &amp; SCHEMALER** .
-
-Följ stegen nedan för att navigera till tidslinjevyn:
-
-1. Navigera till önskad visning, till exempel **DemoScreens** —> **Locations** —> **SanJose** —> **Lobby**.
-
-1. Tryck/klicka på **Tilldela kanal** i åtgärdsfältet.
-
-   ![bild](/help/user-guide/assets/channel-assignment/channel-assign-fp5.png)
-
-   Eller
-
-   Tryck/klicka på **Kontrollpanel** och klicka på **Tidslinje** på panelen **TILLDELADE KANALER &amp; SCHEMAT** .
-
-1. Väntande bilder (ska korrigeras)
-
 
