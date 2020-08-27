@@ -11,9 +11,9 @@ content-type: reference
 discoiquuid: 4228e8a1-9749-49a6-a1bb-365492bc2a3d
 docset: aem65
 translation-type: tm+mt
-source-git-commit: a1c49a0fcee96dede79e4cad6a2444473baa57a5
+source-git-commit: 319a80a7fe3d68cbc16108eb302def390b445838
 workflow-type: tm+mt
-source-wordcount: '941'
+source-wordcount: '940'
 ht-degree: 0%
 
 ---
@@ -28,6 +28,21 @@ I det här avsnittet beskrivs hur du konfigurerar AEM Screens Windows 10 Player.
 Installera Windows Player för AEM Screens om du vill implementera Windows Player för AEM Screens.
 
 Gå till [**AEM 6.5 Player Downloads**](https://download.macromedia.com/screens/) .
+
+### Setting up Environment for AEM Screens 6.5.5 Feature Pack and later {#fp-environment-setup}
+
+Du måste konfigurera en miljö för Windows Player om du använder AEM Screens 6.5.5 Feature Pack.
+
+Följ stegen nedan:
+
+1. Navigera till **Adobe Experience Manager Web ConsoleConfiguration** med `http://localhost:4502/system/console/configMgr`.
+
+1. Sök efter autentiseringshanterare för *Adobe Granite-token*.
+
+1. Ange attributet **SameSite för inloggningstokencookies** från **Lax** till **None**.
+   ![bild](/help/user-guide/assets/granite-updates.png)
+
+1. Click **Save**.
 
 ### Ad-Hoc-metod {#ad-hoc-method}
 
@@ -115,21 +130,6 @@ Aktivera Kiosk-läget genom att följa stegen nedan:
 
 1. Kör PowerShell-skriptet som administratör.
 1. Starta om och logga in som Kiosk-användare och uppspelningsprogrammet bör starta direkt.
-
-### Setting up Environment for AEM Screens 6.5.5 Feature Pack and later {#fp-environment-setup}
-
-Du måste konfigurera en miljö för Windows Player om du använder AEM Screens 6.5.5 Feature Pack.
-
-Följ stegen nedan:
-
-1. Gå till **Adobe Experience Manager Web ConsoleConfiguration** med `http://localhost:4502/system/console/configMgr`.
-
-1. Sök efter autentiseringshanterare för *Adobe Granite-token*.
-
-1. Ange attributet **SameSite för inloggningstokencookies** från **Lax** till **None**.
-   ![bild](/help/user-guide/assets/granite-updates.png)
-
-1. Click **Save**.
 
 ### Felsökning {#troubleshooting}
 
