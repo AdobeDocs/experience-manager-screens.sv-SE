@@ -2,9 +2,9 @@
 title: Versionsinformation för funktionspaket 2008
 description: På sidan beskrivs versionsinformation för funktionspaket 2008.
 translation-type: tm+mt
-source-git-commit: a1c49a0fcee96dede79e4cad6a2444473baa57a5
+source-git-commit: 8c8b6ec0171d021370e7476b3aff5cdd212ebb32
 workflow-type: tm+mt
-source-wordcount: '299'
+source-wordcount: '292'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ Du kan ladda ned det senaste funktionspaketet för AEM Screens 6.5.5 från [Soft
 
 Releasedatum för AEM Screens Feature Pack 2008 är 31 augusti 2020.
 
-### What&#39;s New {#what-s-new}
+### What&#39;s New {#what-is-new}
 
 * **Tidslinjevy på kontrollpanelen Schema**
 
@@ -48,18 +48,16 @@ Releasedatum för AEM Screens Feature Pack 2008 är 31 augusti 2020.
 
    Mer information finns i [Röstigenkänning](voice-recognition.md) .
 
-* **Uppdatering av enhetsinställningarna i läget författare/publicering**
-
 ### Lanserade AEM Screens-spelare {#released-aem-screens-players}
 
-Följande AEM Screens-spelare släpps för AEM Screens som släpps AEM 6.5 Feature Pack 5:
+Följande AEM Screens-spelare släpps för AEM Screens som släpps AEM 6.5 Feature Pack 5.
+
+>[!IMPORTANT]
+>Om du har installerat AEM Service Pack 6.5.5 kan det uppstå replikeringsproblem i skärmspelarna. Installera [cq-ui-wcm-commons-content-1.1.154](/help/user-guide/assets/cq-ui-wcm-commons-content-1.1.154.zip) för att åtgärda problemet.
 
 * Chrome OS
 * Windows
 * Android
-
->[!IMPORTANT]
->Om du har installerat AEM Service Pack 6.5.5 kan det uppstå replikeringsproblem i skärmspelarna. Installera [cq-ui-wcm-commons-content-1.1.154](/help/user-guide/assets/cq-ui-wcm-commons-content-1.1.154.zip) för att åtgärda problemet.
 
 #### AEM Screens Player - nedladdningar  {#aem-screens-player-downloads}
 
