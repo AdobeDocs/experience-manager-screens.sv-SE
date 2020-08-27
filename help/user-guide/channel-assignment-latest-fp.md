@@ -3,9 +3,9 @@ title: Kanaltilldelning - senaste offertförfrågan
 seo-title: Kanaltilldelning - senaste offertförfrågan
 description: Följ den här sidan om du vill veta mer om kanaltilldelning och Dag-delning.
 translation-type: tm+mt
-source-git-commit: f5d80f3765993277c552b64685d12244658915bb
+source-git-commit: c326c9e83b8c7edcda535b0c775c62c50dd3a29f
 workflow-type: tm+mt
-source-wordcount: '1488'
+source-wordcount: '1491'
 ht-degree: 1%
 
 ---
@@ -170,6 +170,8 @@ Välj något av följande alternativ som är tillgängliga för att ange avbrott
 
 Följande egenskaper ställs in från alternativet **Schemalägg** i dialogrutan **Kanaltilldelning** .
 
+![bild](/help/user-guide/assets/channel-assignment/channel-assign-fp8.png)
+
 ### Referens-tidszon {#reference-timezone}
 
 Med tidszonen Referens kan du välja tidszon för visning av ditt innehåll.
@@ -182,9 +184,6 @@ I aktiveringsfönstret kan du välja ett **startdatum** och ett **slutdatum** f�
 
 Med upprepningsschemat kan du ange ett återkommande schema för ditt innehåll. Klicka på **+ Lägg till schema** för att lägga till ett upprepningsschema i kanalen.
 
-![bild](/help/user-guide/assets/channel-assignment/channel-assign-fp8.png)
-
-
 >[!NOTE]
 >Du kan lägga till flera återkommande scheman i din kanal.
 >I Återkommande scheman introduceras *DayParting*, som gör att du kan ställa in ett globalt schema med flera kanaler som körs vid specifika tidpunkter på dagen och återanvända inställningen för alla skärmar samtidigt.
@@ -194,9 +193,9 @@ Du kan ange följande alternativ:
 * **Namn**: Namn på ditt återkommande schema.
 * **Upprepa**: Välj om schemat ska köras **varje dag**, **varje vecka**, **varje månad** eller **varje år**.
 * **Start**: Starttiden för ditt schema.
-* **Slut**: Sluttiden för ditt schema. Du kan ställa in den genom att:
-* **Tid**: Schemat avslutas vid en angiven tidpunkt.
-* **Varaktighet**: Schemat körs för en viss tidsperiod i timmar eller minuter.
+* **Slut**: Sluttiden för ditt schema. Du kan ställa in den efter tid eller varaktighet.
+   * **Tid**: Schemat avslutas vid en angiven tidpunkt.
+   * **Varaktighet**: Schemat körs för en viss tidsperiod i timmar eller minuter.
 
 ### DayParting {#dayparting}
 
