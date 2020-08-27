@@ -2,9 +2,9 @@
 title: Versionsinformation för funktionspaket 2008
 description: På sidan beskrivs versionsinformation för funktionspaket 2008.
 translation-type: tm+mt
-source-git-commit: eb85269cfeccd837fdf1f752618013fefeddbfd7
+source-git-commit: 7f9f72f31d866f142bc9bf11d021583905ee82ea
 workflow-type: tm+mt
-source-wordcount: '173'
+source-wordcount: '277'
 ht-degree: 0%
 
 ---
@@ -30,9 +30,23 @@ Releasedatum för AEM Screens Feature Pack 2008 är 31 augusti 2020.
 
 * **Tidslinjevy på kontrollpanelen Schema**
 
+   I tidslinjevyn kan användaren visa de tilldelade tidsplanerna för kanalen från kontrollpanelen.
+
+   Mer information finns i [Tidslinjevyn](/help/user-guide/channel-assignment-latest-fp.md#timeline-view) .
+
 * **Återkommande schema**
 
+   Med upprepningsschemat kan du ange ett återkommande schema för din kanal. Du ställer in flera upprepningsscheman för en kanal.
+
+   Mer information finns i [Återkommande schema](/help/user-guide/channel-assignment-latest-fp.md#recurrence-schedule) .
+
 * **Röstigenkänning till AEM Screens**
+
+   Med funktionen Röstigenkänning kan du ändra innehåll i en AEM Screens-kanal som styrs av röstinteraktion.
+
+   En innehållsförfattare kan konfigurera en visning som röstaktiverad. Syftet med den här funktionen är att ge kunderna möjlighet att använda tal som sätt att interagera med sina bildskärmar.
+
+   Mer information finns i [Röstigenkänning](voice-recognition.md) .
 
 * **Uppdatering av enhetsinställningarna i läget författare/publicering**
 
@@ -40,7 +54,7 @@ Releasedatum för AEM Screens Feature Pack 2008 är 31 augusti 2020.
 
 Följande AEM Screens-spelare släpps för AEM Screens som släpps AEM 6.5 Feature Pack 5:
 
-* ChromeOS
+* Chrome OS
 * Windows
 * Android
 
