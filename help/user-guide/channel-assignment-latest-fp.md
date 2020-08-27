@@ -3,9 +3,9 @@ title: Kanaltilldelning - senaste offertförfrågan
 seo-title: Kanaltilldelning - senaste offertförfrågan
 description: Följ den här sidan om du vill veta mer om kanaltilldelning och Dag-delning.
 translation-type: tm+mt
-source-git-commit: b29b67374f29148ef661de356f479e9aa5e40cfd
+source-git-commit: 2c469a8c74f496fbd9da796a5f471636e71ffc8c
 workflow-type: tm+mt
-source-wordcount: '1551'
+source-wordcount: '1480'
 ht-degree: 1%
 
 ---
@@ -80,8 +80,8 @@ När projektet är klart måste du tilldela kanalen till en skärm för att kunn
    >[!NOTE]
    >Mer information om egenskaper för kanaltilldelning finns i avsnittet [Kanalegenskaper](#channel-properties) .
 
-1. I alternativet **Scheman** väljer du **Tidszon** för referens, **Aktiveringsfönster** och **Återkommande schema**.
-   ![bild](/help/user-guide/assets/channel-assignment/channel-assign-fp7.png)
+1. Välj alternativet **Schemalägg** i **Tidszon** för referens, **Aktiveringsfönster** och **Återkommande schema**.
+   ![bild](/help/user-guide/assets/channel-assignment/channel-assign-fp8.png)
 
    >[!NOTE]
    >Mer information om egenskaper för kanaltilldelning finns i avsnittet [Kanalegenskaper](#channel-properties) .
@@ -152,6 +152,7 @@ Välj något av följande alternativ som är tillgängliga för att ange avbrott
 
 Följande egenskaper ställs in från alternativet **Schemalägg** i dialogrutan **Kanaltilldelning** .
 
+
 #### Referens-tidszon {#reference-timezone}
 
 Med tidszonen Referens kan du välja tidszon för visning av ditt innehåll.
@@ -163,6 +164,9 @@ I aktiveringsfönstret kan du välja ett **startdatum** och ett **slutdatum** f�
 #### Återkommande schema {#recurrence-schedule}
 
 Med upprepningsschemat kan du ange ett återkommande schema för ditt innehåll. Klicka på **+ Lägg till schema** för att lägga till ett upprepningsschema i kanalen.
+
+![bild](/help/user-guide/assets/channel-assignment/channel-assign-fp8.png)
+
 
 >[!NOTE]
 >Du kan lägga till flera återkommande scheman i din kanal.
@@ -204,25 +208,9 @@ I det här exemplet visas DayParting som implementerats i ett kasino där live-e
 | Weekend | Vecka | 8:00 PM | 10:00 PM |
 | Special | Dagligen | 10:00 PM | 1:00 |
 
-**Weekend**
-
-
-**Special**
-
-#### Spela upp innehåll under en viss månad/månad {#playing-content-for-a-particular-month-months}
-
-I det här exemplet visas DayParting för en butik som visar sin sommarsamling från juni till augusti och höstsamlingen från september till slutet av oktober.
-
-Här skapar du DayParting per månad, så att kanalinnehållet spelas upp enligt årets angivna månader.
-
-
 >[!NOTE]
 >
 >Dessutom kan du definiera ***prioritet*** för var och en av kanalerna. Om till exempel två kanaler är inställda för samma dag och tid eller för samma månad, spelas den kanal som har högre prioritet upp först. Minimivärdet för prioritet kan anges till 0.
-
-#### Spela upp innehåll för kanaler med samma prioritet {#playing-content-for-channels-with-same-priority}
-
-I det här exemplet visas DayParting för en butik som visar sin vintersamling med samma schema under december. Men eftersom kanal B har prioriteten 2, under den veckan, Kanal B spelar upp innehållet i stället för kanal A.
 
 ## Tidslinjevy {#timeline-view}
 
@@ -230,5 +218,16 @@ När du har tilldelat en kanal till en visning och ställt in ett upprepningssch
 
 Följ stegen nedan för att navigera till tidslinjevyn:
 
+1. Navigera till önskad visning, till exempel **DemoScreens** —> **Locations** —> **SanJose** —> **Lobby**.
+
+1. Tryck/klicka på **Tilldela kanal** i åtgärdsfältet.
+
+   ![bild](/help/user-guide/assets/channel-assignment/channel-assign-fp5.png)
+
+   Eller
+
+   Tryck/klicka på **Kontrollpanel** och klicka på **Tidslinje** på panelen **TILLDELADE KANALER &amp; SCHEMAT** .
+
+1. Väntande bilder (ska korrigeras)
 
 
