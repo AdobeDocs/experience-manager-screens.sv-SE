@@ -1,69 +1,74 @@
 ---
 title: Kickstart Guide
 seo-title: Kickstart Guide
-description: Följ den här sidan för att skapa ett demonstrationsprojekt för AEM-skärmar. Det hjälper dig att skapa en digital signeringsupplevelse från installation och konfigurera ett nytt projekt för att visa ditt innehåll i AEM Screens Player.
-seo-description: Följ den här sidan för att skapa ett demonstrationsprojekt för AEM-skärmar. Det hjälper dig att skapa en digital signeringsupplevelse från installation och konfigurera ett nytt projekt för att visa ditt innehåll i AEM Screens Player.
-uuid: 587b6611-07a3-44b4-b888-9edf2ef4e12c
-contentOwner: Jyotika syal
-content-type: reference
-topic-tags: introduction
-products: SG_EXPERIENCEMANAGER/6.5/SCREENS
-discoiquuid: 5ce1e0b9-1926-49dc-b4dd-44b649a3e710
-docset: aem65
+description: Följ den här sidan för att skapa ett AEM Screens-demonstrationsprojekt. Det hjälper dig att skapa en digital signeringsupplevelse från installation och konfiguration av ett nytt projekt för att visa ditt innehåll i AEM Screens Player.
 translation-type: tm+mt
-source-git-commit: 209a9a833957d9a8bb7c7ec70ff421514f5b974c
+source-git-commit: 8ffa53c6ffb24ff80adfdce33a69a9d80e03bb75
+workflow-type: tm+mt
+source-wordcount: '1630'
+ht-degree: 1%
 
 ---
 
 
 # Kickstart Guide {#kickstart-guide}
 
-I det här avsnittet kommer vi snabbt igång med AEM Screens och visar hur du kan utföra grundläggande åtgärder. Här får du hjälp med att skapa en grundläggande digital signeringsupplevelse med innehåll/resurser och publicera till en skärmspelare. Mer information om alla komponenter för skärmutveckling finns i resurserna i slutet av sidan.
+I det här avsnittet kommer vi snabbt igång med AEM Screens och visar hur du kan åstadkomma grundläggande åtgärder. Här får du hjälp med att skapa en grundläggande digital signeringsupplevelse med innehåll/resurser och publicera till en skärmspelare.
 
 ## Skapa en upplevelse av en digital skylt på 5 minuter {#creating-a-digital-signage-experience-in-minutes}
 
 Med följande steg kan du skapa ett exempelprojekt för skärmar och publicera innehåll för skärmspelaren.
 
-1. Om du vill hämta **AEM Screens Player** klickar du [här](https://download.macromedia.com/screens/).
+Om du vill hämta **AEM Screens Player** klickar du [här](https://download.macromedia.com/screens/).
 
-   AEM Screens finns också i **Google Play**.
 
-   Mer information om hur du implementerar Chrome OS Player finns i [Chrome Management Console](implementing-chrome-os-player.md) .
+Mer information om hur du implementerar Chrome OS Player finns i [Chrome Management Console](implementing-chrome-os-player.md) .
 
-   Mer information finns i [Installera och konfigurera skärmar](configuring-screens-introduction.md) .
+Mer information om hur du installerar och konfigurerar skärmspelare på enheter finns i [Installera och konfigurera skärmar](configuring-screens-introduction.md) .
 
-   >[!NOTE]
-   >
-   >**OSGI-inställningar**
-   >
-   >
-   >Du måste aktivera den tomma referenten för att enheten ska kunna skicka data till servern. Om t.ex. den tomma refereraregenskapen är inaktiverad, kan enheten inte publicera en skärmdump. Vissa av dessa funktioner är för närvarande bara tillgängliga om Apache Sling Referrer-filtret Tillåt tomt är aktiverat i OSGI-konfigurationen. Kontrollpanelen kan visa en varning om att skyddsinställningarna kan förhindra vissa av dessa funktioner från att fungera.
-   >
-   >
-   >Följ stegen nedan för att aktivera filtret ***Apache Sling Referrer Tillåt tomt***:
-   >
-   >
-   >
-   >    1. Navigera till **Adobe Experience Manager Web Console Configuration**, det vill säga `https://localhost:4502/system/console/configMgr/org.apache.sling.security.impl.ReferrerFilter`.
-   >    1. Markera alternativet **allow.empty** .
-   >    1. Click **Save**.
+>[!NOTE]
+>**OSGI-inställningar**
+>Du måste aktivera den tomma referenten för att enheten ska kunna skicka data till servern. Om t.ex. den tomma refereraregenskapen är inaktiverad, kan enheten inte publicera en skärmdump. Vissa av dessa funktioner är för närvarande bara tillgängliga om Apache Sling Referrer-filtret Tillåt tomt är aktiverat i OSGI-konfigurationen. Kontrollpanelen kan visa en varning om att skyddsinställningarna kan förhindra vissa av dessa funktioner från att fungera.
+>
+>
+>Följ stegen nedan för att aktivera filtret ***Apache Sling Referrer Tillåt tomt***:
 
+
+## Tillåt tomma referentförfrågningar {#allow-empty-referrer-requests}
+
+1. Gå till **Adobe Experience Manager Web Console Configuration** via AEM:> hammer icon —> **Operations** —> **Web Console**.
+
+   ![bild](assets/config/empty-ref1.png)
+
+1. **Adobe Experience Manager Web Console Configuration** öppnas. Sök efter försäljningsreferent.
+
+   Om du vill söka efter egenskapen för Sing-refereraren trycker du på **Command+F** för **Mac** och **Ctrl+F** för **Windows**.
+
+1. Markera alternativet **Tillåt tomt** , så som visas i bilden nedan.
+
+   ![bild](assets/config/empty-ref2.png)
+
+1. Klicka på **Spara** för att aktivera Apache Sling Referer-filtret Tillåt tomt.
+
+
+## Självstudiekurs {#tutorial}
 
 1. **Skapa ett nytt projekt**
 
-   1. Markera Adobe Experience Manager-länken (överst till vänster) och sedan **Skärmar**. Du kan också navigera direkt till `https://localhost:4502/screens.html/content/screens](https://localhost:4502/screens.html/content/screens`.
+   1. Klicka på länken Adobe Experience Manager (överst till vänster) och sedan på **Skärmar**. Du kan också navigera direkt till `https://localhost:4502/screens.html/content/screens](https://localhost:4502/screens.html/content/screens`.
 
    1. Klicka på **Skapa** för att skapa ett nytt skärmsprojekt (se bilden nedan).
    1. Välj **Skärmar** i guiden **Skapa skärmar projekt** och klicka på **Nästa**.
 
    1. Ange titeln som *Test_Project* och klicka på **Create**.
+
    ![chlimage_1-4](assets/chlimage_1-4.png)
 
-   När projektet har skapats visas det igen i skärmprojektskonsolen. Nu kan du välja ditt projekt. I ett projekt finns det fem typer av mappar: **Program**, **Kanaler**, **Enheter**, **Platser** och **Scheman**, vilket visas i bilden nedan.
+   När projektet har skapats visas det igen på skärmens projektkonsol. Nu kan du välja ditt projekt. I ett projekt finns det fem typer av mappar: **Program**, **Kanaler**, **Enheter**, **Platser** och **Scheman**, vilket visas i bilden nedan.
 
    >[!NOTE]
    >
-   >Scheman är bara tillgängliga om du har installerat AEM 6.3 Sites Feature Pack 1. Om du vill få tillgång till det här funktionspaketet måste du kontakta Adobes support och begära åtkomst. När du har behörighet kan du hämta den från paketresursen.
+   >Scheman är bara tillgängliga om du har installerat AEM 6.3 Sites Feature Pack 1. Om du vill få tillgång till det här funktionspaketet måste du kontakta Adobe Support och begära åtkomst. När du har behörighet kan du hämta den från paketresursen.
 
    ![chlimage_1-5](assets/chlimage_1-5.png)
 
@@ -81,6 +86,7 @@ Med följande steg kan du skapa ett exempelprojekt för skärmar och publicera i
    1. Välj **sekvenskanal** och klicka på **Nästa**.
 
    1. Ange **Namn** och **Titel** som *TestChannel* och klicka på **Skapa**.
+
    ![chlimage_1-6](assets/chlimage_1-6.png)
 
    TestChannel ** skapas och läggs till i kanalmappen, vilket visas i bilden nedan.
@@ -101,6 +107,7 @@ Med följande steg kan du skapa ett exempelprojekt för skärmar och publicera i
 
    1. Klicka på ikonen som växlar sidopanelen till vänster i åtgärdsfältet för att öppna resurserna och komponenterna.
    1. Dra och släpp de komponenter du vill lägga till i kanalen.
+
    ![chlimage_1-8](assets/chlimage_1-8.png)
 
    I det här exemplet visar redigeraren en bild som lagts till i kanalen.
@@ -121,13 +128,14 @@ Med följande steg kan du skapa ett exempelprojekt för skärmar och publicera i
    1. Välj **Plats** i guiden och klicka på **Nästa**.
 
    1. Ange **namn** och **titel** för platsen (ange titeln som *TestLocation*) och klicka på **Skapa**.
+
    ![chlimage_1-10](assets/chlimage_1-10.png)
 
    TestLocation ** skapas och läggs till i mappen **Locations** .
 
    ![chlimage_1-11](assets/chlimage_1-11.png)
 
-1. **Skapa en ny visning för *TestLocation ***
+1. **Skapa en ny visning för *TestLocation***
 
    När du har skapat en plats måste du skapa en ny skärm för platsen.
 
@@ -147,17 +155,18 @@ Med följande steg kan du skapa ett exempelprojekt för skärmar och publicera i
       1. Välj **Antal enheter vågrätt** som 1.
       1. Välj **Antal enheter lodrätt** som 1.
    1. Klicka på **Skapa**.
+
    En ny skärm (*TestDisplay*) läggs till på platsen *TestLocation)*, vilket visas i bilden nedan.
 
    ![chlimage_1-12](assets/chlimage_1-12.png)
 
 1. **Lägga till ett schema**
 
-   *Med scheman* i AEM-skärmar kan du ordna kanaler i återanvändbara grupper så att du inte behöver upprepa deras uppdrag separat för varje skärm som du vill visa ditt innehåll på.
+   *Med scheman* i AEM Screens kan du ordna kanaler i återanvändbara grupper så att du inte behöver upprepa deras uppdrag separat för varje skärm som du vill visa ditt innehåll på.
 
    >[!NOTE]
    >
-   >Den här skärmfunktionen är bara tillgänglig om du har installerat AEM 6.3 Sites Feature Pack 1. Om du vill få tillgång till det här funktionspaketet måste du kontakta Adobes support och begära åtkomst. När du har behörighet kan du hämta den från paketresursen.
+   >Den här skärmfunktionen är bara tillgänglig om du har installerat AEM 6.3 Sites Feature Pack 1. Om du vill få tillgång till det här funktionspaketet måste du kontakta Adobe Support och begära åtkomst. När du har behörighet kan du hämta den från paketresursen.
 
    1. Navigera till mappen **Scheman** från Test_Project —> **Scheman**.
 
@@ -167,6 +176,7 @@ Med följande steg kan du skapa ett exempelprojekt för skärmar och publicera i
    1. Ange **Namn** och **Titel** som *morgonschema* på egenskapssidan.
 
    1. Klicka på **Skapa** och schemat läggs till i mappen **Scheman** , enligt bilden nedan.
+
    ![chlimage_1-13](assets/chlimage_1-13.png)
 
    Dessutom väljer du schemat (*morgonschema*) och klickar på **Kontrollpanelen** i åtgärdsfältet för att visa kontrollpanelen för scheman. Du kan visa/ändra schemats egenskaper, tilldela kanaler och visa tilldelade visningar med kontrollpanelen.
@@ -196,6 +206,7 @@ Med följande steg kan du skapa ett exempelprojekt för skärmar och publicera i
    1. Ange **Schedule** och välj de datum som är **aktiva från** och **aktiva till**.
 
    1. Click **Save**.
+
    Kanalen skapas och läggs till på panelen.
 
    ![chlimage_1-15](assets/chlimage_1-15.png)
@@ -211,31 +222,33 @@ Med följande steg kan du skapa ett exempelprojekt för skärmar och publicera i
    1. Välj den sökväg där du skapade schemat (här, *Test_Project* —> **Scheman** —> *Morgonschema*).
 
    1. Klicka på **Spara** för att lägga till schemat i kanalen.
+
    ![chlimage_1-16](assets/chlimage_1-16.png)
 
 1. **Registrera en enhet**
 
-   Du måste registrera din enhet med AEM-kontrollpanelen.
+   Du måste registrera din enhet med AEM kontrollpanel.
 
    >[!NOTE]
    >
-   >Du kan öppna skärmspelaren med den AEM-skärmar-app som du hämtade eller med webbläsaren.
+   >Du kan öppna skärmspelaren med den AEM Screens-app du hämtade eller med webbläsaren.
 
    Så här visar du den väntande enheten:
 
    1. Starta ett separat webbläsarfönster.
    1. Gå till Skärmspelaren med *webbläsaren* `https://localhost:4502/content/mobileapps/cq-screens-player/firmware.html` eller starta appen AEM Screens. När du öppnar enheten visas enhetens status som ej registrerad.
-   1. Navigera från AEM-kontrollpanelen till *Test_Project* —> **Devices**
+   1. Navigera från AEM till *Test_Project* —> **Devices**
 
    1. Klicka på **Enhetshanteraren** i åtgärdsfältet.
    1. Klicka på **Enhetsregistrering** så visas de väntande enheterna enligt bilden nedan.
+
    ![chlimage_1-17](assets/chlimage_1-17.png)
 
    Välj den enhet som du vill registrera och klicka på **Registrera enhet**.
 
    ![chlimage_1-18](assets/chlimage_1-18.png)
 
-   Du måste validera koden genom att verifiera den från webbläsaren eller AEM Screens Player.
+   Du måste validera koden genom att verifiera den från webbläsaren eller AEM Screens-spelaren.
 
    Klicka på **Validera** för att gå till skärmen **Device Registration** .
 
@@ -267,6 +280,7 @@ Med följande steg kan du skapa ett exempelprojekt för skärmar och publicera i
 
    1. Klicka på **Tilldela**.
    1. Klicka på **Slutför** för att slutföra processen, och nu tilldelas enheten.
+
    ![chlimage_1-22](assets/chlimage_1-22.png)
 
    Kontrollpanelen för visning öppnas och du ser all information om tilldelade kanaler och scheman tillsammans med information om enhetskonfigurationen.
