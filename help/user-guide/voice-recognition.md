@@ -2,9 +2,9 @@
 title: Röstigenkänning i AEM Screens
 description: Sidan beskriver röstigenkänningsfunktionen i AEM Screens.
 translation-type: tm+mt
-source-git-commit: 8a44e92408ff02b3d0b9e0a0e55de73c54a1afcd
+source-git-commit: 4e64227cf63fc801c2f6fdfbc44b23df0a4d0bb0
 workflow-type: tm+mt
-source-wordcount: '1570'
+source-wordcount: '1559'
 ht-degree: 1%
 
 ---
@@ -16,13 +16,12 @@ ht-degree: 1%
 >
 >**Viktig sekretessinformation**
 >
->När du använder funktionen för röstigenkänning följer du alla tillämpliga juridiska och etiska riktlinjer för din region (inklusive, men inte begränsat till, att ge slutanvändarna ett synligt meddelande om att spelaren använder röstigenkänning). Adobe Inc., tar inte emot, lagrar eller bearbetar någon röstrelaterad information. AEM Screens-spelarna använder det standardwebbtal-API som är inbyggt i webbläsarmotorn. Bakom kulisserna skickas en vågform av ditt tal till Googles servrar för konvertering från tal till text och den här texten matchas av spelaren mot konfigurerade nyckelord.
+>När du använder funktionen för röstigenkänning ska du följa alla tillämpliga juridiska och etiska riktlinjer för din region (inklusive, men inte begränsat till, att ge slutanvändarna ett synligt meddelande om att spelaren använder röstigenkänning). Adobe Inc., tar inte emot, lagrar eller bearbetar någon röstrelaterad information. AEM Screens-spelarna använder det standardwebbtal-API som är inbyggt i webbläsarmotorn. Bakom kulisserna skickar denna API en vågform av ditt tal till Googles servrar för konvertering från tal till text och den här texten matchas av spelaren mot konfigurerade nyckelord.
 >
 >Mer information finns i [Googles rapport om sekretess om API](https://www.google.com/chrome/privacy/whitepaper.html#speech) för webbtal.
 
 
-
-Med funktionen Röstigenkänning kan du ändra innehåll i en AEM Screens-kanal som styrs av röstinteraktion.
+Röstigenkänningsfunktionen tillåter innehållsändringar i en AEM Screens-kanal som styrs av röstinteraktion.
 
 En innehållsförfattare kan konfigurera en visning som röstaktiverad. Syftet med den här funktionen är att ge kunderna möjlighet att använda tal som sätt att interagera med sina bildskärmar. Exempel på liknande användningsområden är att hitta produktrekommendationer i butiker, beställa menyalternativ på materier och restauranger. Den här funktionen ökar tillgängligheten för användarna och kan förbättra kundupplevelsen avsevärt.
 
@@ -32,18 +31,13 @@ En innehållsförfattare kan konfigurera en visning som röstaktiverad. Syftet m
 ## Implementera röstigenkänning {#implementing}
 
 >[!IMPORTANT]
-> Funktionen Röstigenkänning är bara tillgänglig på Chrome OS- och Electron-spelare.
+> Funktionen Röstigenkänning är bara tillgänglig i Chrome OS- och Windows-spelare.
 
 Om du vill implementera röstigenkänning i ditt AEM Screens-projekt måste du aktivera röstigenkänningen för bildskärmen och associera varje kanal med en unik tagg för att utlösa en kanalövergång.
 
 I följande avsnitt beskrivs hur du kan aktivera och använda funktionen Röstigenkänning i ett AEM Screens-projekt.
 
-Du kan konfigurera projektet med hjälp av de två mallarna:
-
-* [Sekvenskanal](#sequence-channel)
-* [Kanal för delade skärmar](#split-channel)
-
-## Använda sekvenskanal som mall {#sequence-channel}
+## Användningsfall 1: Visa innehåll i helskärmskanalväxling {#sequence-channel}
 
 Innan du använder funktionen för röstigenkänning bör du kontrollera att du har ett projekt och en kanal med innehåll som har konfigurerats för ditt projekt.
 
@@ -171,7 +165,7 @@ Om du använder ord med ett nyckelord som **jag** skulle vilja ha något kallt *
 ![newimage](assets/voice-recognition/voice-video.gif)
 
 
-## Använda kanalen för delade skärmar som mall {#split-channel}
+## Användningsfall 2: Visa innehåll i kanalväxling för delad skärm {#split-channel}
 
 Innan du använder funktionen för röstigenkänning bör du kontrollera att du har ett projekt och en kanal med innehåll som har konfigurerats för ditt projekt.
 
