@@ -3,9 +3,9 @@ title: Kanaltilldelning - senaste offertförfrågan
 seo-title: Kanaltilldelning - senaste offertförfrågan
 description: Följ den här sidan om du vill veta mer om kanaltilldelning och Dag-delning.
 translation-type: tm+mt
-source-git-commit: c326c9e83b8c7edcda535b0c775c62c50dd3a29f
+source-git-commit: 4ce9bd954a30282d94e30a6868d269b4df0a0f5e
 workflow-type: tm+mt
-source-wordcount: '1491'
+source-wordcount: '1477'
 ht-degree: 1%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 1%
 
 När du har konfigurerat en skärm måste du tilldela en kanal till en skärm för att kunna visa innehållet.
 
-På den här sidan visas hur du tilldelar en kanal till visningen, hur du förstår kanalegenskaper och DayParting.
+På den här sidan visas hur du tilldelar en kanal till visningen, hur du förstår kanalegenskaper och hur du delar dagar.
 
 >[!NOTE]
 >Du kan tilldela flera kanaler till en skärm.
@@ -80,7 +80,7 @@ När projektkonfigurationen är klar måste du tilldela kanalen till en skärm f
    >[!NOTE]
    >Mer information om egenskaper för kanaltilldelning finns i avsnittet [Kanalegenskaper](#channel-properties) .
 
-1. Välj alternativet **Schemalägg** i **Tidszon** för referens, **Aktiveringsfönster** och **Återkommande schema**.
+1. I alternativet **Schemalägg** väljer du **Aktiveringsfönstret** och **Återkommande schema**.
    ![bild](/help/user-guide/assets/channel-assignment/channel-assign-fp8.png)
 
    >[!NOTE]
@@ -172,10 +172,6 @@ Följande egenskaper ställs in från alternativet **Schemalägg** i dialogrutan
 
 ![bild](/help/user-guide/assets/channel-assignment/channel-assign-fp8.png)
 
-### Referens-tidszon {#reference-timezone}
-
-Med tidszonen Referens kan du välja tidszon för visning av ditt innehåll.
-
 ### Aktiveringsfönster {#activation-window}
 
 I aktiveringsfönstret kan du välja ett **startdatum** och ett **slutdatum** för att visa innehållet.
@@ -186,7 +182,7 @@ Med upprepningsschemat kan du ange ett återkommande schema för ditt innehåll.
 
 >[!NOTE]
 >Du kan lägga till flera återkommande scheman i din kanal.
->I Återkommande scheman introduceras *DayParting*, som gör att du kan ställa in ett globalt schema med flera kanaler som körs vid specifika tidpunkter på dagen och återanvända inställningen för alla skärmar samtidigt.
+>I Återkommande scheman introduceras *dagsdelning*, som gör att du kan ställa in ett globalt schema med flera kanaler som körs vid specifika tidpunkter på dagen och återanvända inställningen för alla skärmar samtidigt.
 
 Du kan ange följande alternativ:
 
@@ -197,32 +193,32 @@ Du kan ange följande alternativ:
    * **Tid**: Schemat avslutas vid en angiven tidpunkt.
    * **Varaktighet**: Schemat körs för en viss tidsperiod i timmar eller minuter.
 
-### DayParting {#dayparting}
+### Delning dag {#dayparting}
 
-DayParting innebär att dela upp en dag i tidskortplatser och ange vilket innehåll som spelas upp vid önskad tidpunkt. Med AEM Screens kan ni schemalägga kanaler i form av DayParting inom en dag, vecka eller månad efter behov.
+Dag-delning innebär att dela upp en dag i tidskortplatser och ange vilket innehåll som spelas upp vid önskad tidpunkt. Med AEM Screens kan ni schemalägga kanaler som dagliga delningar inom en dag, vecka eller månad efter behov.
 
-I följande exempel förklaras DayParting i kanaler i tre olika scenarier:
+I följande exempel förklaras den dagliga delningen i kanaler i tre olika scenarier:
 
 #### Spela upp innehåll på en dag uppdelat i flera tidsplatser {#playing-content-on-a-single-day-divided-into-multiple-time-slots}
 
-I det här exemplet visas hur en Restaurant använder DayParting för att visa upp sin frukost-, lunch- och middagsmeny.
+I det här exemplet visas hur en restaurang använder dagskoppling för att visa upp sin frukost-, lunch- och middagsmeny varje dag.
 
 Här delar vi upp varje dag i olika tidsplatser, så att kanalinnehållet spelas upp enligt den angivna tiden på dagen. Ange följande egenskaper i schemat för upprepning för din kanal för att spela upp innehållet enligt det här användningsfallet.
 
-| **Namn** | **Upprepa** | **Start** | **End** |
+| **Namn** | **Upprepningar** | **Start** | **End** |
 |---|---|---|---|
 | Frukosten | Dagligen | 6:00 | 11:00 |
-| Lunch | Dagligen | 11:02 | 3:00 PM |
-| Middag | Dagligen | 3:01 PM | 8:00 PM |
+| Lunch | Dagligen | 11:00 | 3:00 PM |
+| Middag | Dagligen | 3:00 PM | 8:00 PM |
 
 #### Spela upp innehåll en viss veckodag {#playing-content-on-a-particular-day-of-the-week}
 
-I det här exemplet visas DayParting som implementerats i ett kasino där live-event inträffar varje helg från kl. 20.00 till kl. 23.00 och erbjudanden är tillgängliga för middagsmeny efter kl. 10.00 till kl. 13.00.
+I det här exemplet visas hur dagen delas upp i ett kasino där live-event inträffar varje helg från klockan 20.00 till 23.00 och erbjudanden finns tillgängliga för middagsmeny efter klockan 10.00 till 13.00.
 
-| **Namn** | **Upprepa** | **Start** | **End** |
+| **Namn** | **Upprepningar** | **Start** | **End** |
 |---|---|---|---|
-| Weekend | Vecka | 8:00 PM | 10:00 PM |
-| Special | Dagligen | 10:00 PM | 1:00 |
+| Weekend | Vecka: Lördag,Söndag | 8:00 PM | 10:00 PM |
+| Specialerbjudanden | Dagligen: Måndag-fredag | 10:00 PM | 1:00 |
 
 >[!NOTE]
 >
