@@ -1,17 +1,13 @@
 ---
 title: Ordlista
 seo-title: Ordlista
-description: Följ den här sidan för att förstå de nyckeltermer som är associerade med AEM-skärmar.
-seo-description: Följ den här sidan för att förstå de nyckeltermer som är associerade med AEM-skärmar.
-uuid: 0db1c907-dc82-4f06-84eb-084e7bcfbe4c
-contentOwner: User
-content-type: reference
-topic-tags: introduction
-products: SG_EXPERIENCEMANAGER/6.5/SCREENS
-discoiquuid: 09d6104e-903b-4cff-a4e2-1469653352c3
-docset: aem65
+description: Följ den här sidan om du vill veta mer om de nyckeltermer som är associerade med AEM Screens.
+seo-description: Följ den här sidan om du vill veta mer om de nyckeltermer som är associerade med AEM Screens.
 translation-type: tm+mt
-source-git-commit: a61375feb5ba0da16f6f81d4b577fce578ac120e
+source-git-commit: 7ce10b467559b33c5d3ca61b315e50cb1ceade9d
+workflow-type: tm+mt
+source-wordcount: '428'
+ht-degree: 0%
 
 ---
 
@@ -19,6 +15,8 @@ source-git-commit: a61375feb5ba0da16f6f81d4b577fce578ac120e
 # Ordlista {#glossary}
 
 **Programkanal** En programkanal visar ett program som skapats av en utvecklare och som visar interaktivt innehåll.
+
+**Attrahera slinga** En attraktiv slinga definieras som *hemläge* eller *inaktivt läge* när visningen har två eller flera lägen som den kan finnas i. Dess roll är att *locka* kunder till webben och uppmuntra dem att engagera sig, vanligtvis genom att röra vid skärmen men också genom att interagera med en produkt.
 
 **Enhet** En enhet kan köra spelarprogramvaran för att skapa visuella utdata. Den kan styra visningen av en beskuren, skalad, översatt del av det vanliga innehållet eller upplevelsen. Skärmkonfigurationen är bunden till en skärm, men kan ersättas om ett tekniskt fel uppstår.
 
