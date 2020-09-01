@@ -5,7 +5,7 @@ audience: end-user
 user-guide-title: Hjälp om Adobe Experience Manager Screens
 user-guide-description: Learn to use AEM Screens to publish interactive digital experiences involving different types of screens.
 translation-type: tm+mt
-source-git-commit: eb85269cfeccd837fdf1f752618013fefeddbfd7
+source-git-commit: 7ce10b467559b33c5d3ca61b315e50cb1ceade9d
 workflow-type: tm+mt
 source-wordcount: '399'
 ht-degree: 1%
@@ -76,6 +76,7 @@ ht-degree: 1%
       + [Varaktighet för massbildsuppspelning på kanalnivå](channel-level-image-playback.md)
       + [Synkronisera kommandon](using-command-sync.md)
       + [Skapa med Data Triggers](authoring-data-triggers.md)
+      + [Röstigenkänning](voice-recognition.md)
    + Hantera innehållsuppdateringar {#content-updates}
       + [On Demand Content Update](on-demand-content.md)
       + [Uppdatering av innehållet som en tjänst](content-update-as-a-service.md)
@@ -89,7 +90,6 @@ ht-degree: 1%
       + [Övergångar mellan flera zoner och en zon](multizone-to-singlezone.md)
       + [Ta över kanal för engångsbruk](single-use-takeover-channel.md)
       + [Permanent användning, TakeOver Channel](perpetual-takeover-channel.md)
-      + [Röstigenkänning](voice-recognition.md)
 + Resurser för utvecklare och API {#developing}
    + [REST API:er](rest-api.md)
    + [Utveckla en anpassad komponent för AEM Screens](developing-custom-component-tutorial-develop.md)
