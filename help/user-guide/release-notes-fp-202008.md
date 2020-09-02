@@ -2,9 +2,9 @@
 title: Versionsinformation för funktionspaket 2008
 description: På sidan beskrivs versionsinformation för funktionspaket 2008.
 translation-type: tm+mt
-source-git-commit: 8c8b6ec0171d021370e7476b3aff5cdd212ebb32
+source-git-commit: 7e3830eed45fd74a334c97dfd49b1913c455c5b8
 workflow-type: tm+mt
-source-wordcount: '292'
+source-wordcount: '328'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ Du kan ladda ned det senaste funktionspaketet för AEM Screens 6.5.5 från [Soft
 
 ## Releasedatum {#release-date}
 
-Releasedatum för AEM Screens Feature Pack 2008 är 31 augusti 2020.
+Releasedatum för AEM Screens Feature Pack 2008 är 3 september 2020.
 
 ### What&#39;s New {#what-is-new}
 
@@ -47,6 +47,14 @@ Releasedatum för AEM Screens Feature Pack 2008 är 31 augusti 2020.
    En innehållsförfattare kan konfigurera en visning som röstaktiverad. Syftet med den här funktionen är att ge kunderna möjlighet att använda tal som sätt att interagera med sina bildskärmar.
 
    Mer information finns i [Röstigenkänning](voice-recognition.md) .
+
+### Kända fel och korrigeringar {#known-issues}
+
+Du måste konfigurera en miljö för Windows- eller Android-spelare om du använder AEM Screens 6.5.5 Feature Pack.
+
+* Mer information finns i [Implementera Windows 10 Player](implementing-windows-player.md#fp-environment-setup) .
+
+* Mer information finns i [Implementera Android Player](implementing-android-player.md#fp-environment-setup) .
 
 ### Lanserade AEM Screens-spelare {#released-aem-screens-players}
 
