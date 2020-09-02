@@ -4,9 +4,9 @@ seo-title: Dispatcher Configurations for AEM Screens
 description: På den här sidan hittar du riktlinjer för hur du konfigurerar dispatcher för ett AEM Screens-projekt.
 seo-description: På den här sidan hittar du riktlinjer för hur du konfigurerar dispatcher för ett AEM Screens-projekt.
 translation-type: tm+mt
-source-git-commit: 8e8413221d0f79f8e46e15d0f00a710296883739
+source-git-commit: 37025002d02603ab8a5c571086524be858389557
 workflow-type: tm+mt
-source-wordcount: '227'
+source-wordcount: '251'
 ht-degree: 4%
 
 ---
@@ -33,6 +33,21 @@ Mer information finns i [Konfigurera Dispatcher](https://docs.adobe.com/content/
 ## Konfigurera Dispatcher {#configuring-dispatcher}
 
 Följ stegen nedan för att konfigurera dispatcher för ett AEM Screens-projekt.
+
+### Aktivera anteckningssessioner {#enable-sticky-session}
+
+Om någon vill använda mer än en publiceringsinstans med dispatcher måste de uppdatera dispatchern.alla filer i sin dispatcher.
+
+```xml
+/stickyConnections {
+  /paths
+  {
+    "/content/screens"
+    "/home/users/screens"
+    "/libs/granite/csrf/token.json"
+  }
+}
+```
 
 ### Steg 1: Konfigurera klienthuvuden {#step-configuring-client-headers}
 
@@ -76,7 +91,7 @@ Skärmspelare använder autentiserad session, så dispatchern cachelagrar inte n
 Om du vill aktivera cacheminnet för resurserna så att resurserna hanteras från dispatcherns cacheminne måste du:
 
 * Lägg till `/allowAuthorization 1` i `/cache` avsnitt
-* Lägg till nedanstående regler i `/rule`avsnittet `/cache`
+* Lägg till nedanstående regler i `/rules` avsnittet av `/cache`
 
 ```xml
 /0000
