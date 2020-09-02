@@ -2,9 +2,9 @@
 title: Versionsinformation för funktionspaket 2008
 description: På sidan beskrivs versionsinformation för funktionspaket 2008.
 translation-type: tm+mt
-source-git-commit: 7e3830eed45fd74a334c97dfd49b1913c455c5b8
+source-git-commit: 37025002d02603ab8a5c571086524be858389557
 workflow-type: tm+mt
-source-wordcount: '328'
+source-wordcount: '306'
 ht-degree: 0%
 
 ---
@@ -59,9 +59,6 @@ Du måste konfigurera en miljö för Windows- eller Android-spelare om du använ
 ### Lanserade AEM Screens-spelare {#released-aem-screens-players}
 
 Följande AEM Screens-spelare släpps för AEM Screens som släpps AEM 6.5 Feature Pack 5.
-
->[!IMPORTANT]
->Om du har installerat AEM Service Pack 6.5.5 kan det uppstå replikeringsproblem i skärmspelarna. Installera [cq-ui-wcm-commons-content-1.1.154](/help/user-guide/assets/cq-ui-wcm-commons-content-1.1.154.zip) för att åtgärda problemet.
 
 * Chrome OS
 * Windows
