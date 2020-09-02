@@ -11,7 +11,7 @@ topic-tags: administering
 discoiquuid: 77fe9d4e-e1bb-42f7-b563-dc03e3af8a60
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 319a80a7fe3d68cbc16108eb302def390b445838
+source-git-commit: 24157fdc507beaacd46f3d42e8a0a975c729df38
 workflow-type: tm+mt
 source-wordcount: '740'
 ht-degree: 1%
