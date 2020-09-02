@@ -4,9 +4,9 @@ seo-title: Konfigurera författare och publicera i AEM Screens
 description: AEM Screens arkitektur liknar en traditionell AEM Sites-arkitektur. Innehållet skapas på en AEM författarinstans och sedan vidarebefordras till flera publiceringsinstanser. Följ den här sidan för att lära dig hur du konfigurerar författare och publicerar för AEM Screens.
 seo-description: AEM Screens arkitektur liknar en traditionell AEM Sites-arkitektur. Innehållet skapas på en AEM författarinstans och sedan vidarebefordras till flera publiceringsinstanser. Följ den här sidan för att lära dig hur du konfigurerar författare och publicerar för AEM Screens.
 translation-type: tm+mt
-source-git-commit: 8e8413221d0f79f8e46e15d0f00a710296883739
+source-git-commit: 37025002d02603ab8a5c571086524be858389557
 workflow-type: tm+mt
-source-wordcount: '1893'
+source-wordcount: '1922'
 ht-degree: 0%
 
 ---
@@ -31,6 +31,9 @@ Innan du börjar med författare och publiceringsservrar bör du ha kunskap om:
 >[!NOTE]
 >
 >Den här AEM Screens-funktionen är bara tillgänglig om du har installerat AEM 6.4 Screens Feature Pack 2. Om du vill få tillgång till det här funktionspaketet måste du kontakta Adobe Support och begära åtkomst. När du har behörighet kan du hämta den från paketresursen.
+
+>[!Iviktig]
+>Om du vill använda fler än en publiceringsinstans med dispatchern måste du uppdatera dispatchern.vilken fil som helst i dispatchern. Mer information finns i [Aktivera anteckningssessioner](dispatcher-configurations-aem-screens.md#enable-sticky-session) .
 
 ## Konfigurera författare- och publiceringsinstanser {#configuring-author-and-publish-instances}
 
