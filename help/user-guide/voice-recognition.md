@@ -2,9 +2,9 @@
 title: Röstigenkänning i AEM Screens
 description: Sidan beskriver röstigenkänningsfunktionen i AEM Screens.
 translation-type: tm+mt
-source-git-commit: 7ce10b467559b33c5d3ca61b315e50cb1ceade9d
+source-git-commit: a9e13dca2ed8ac667356780db25cbe7e0c81c1c5
 workflow-type: tm+mt
-source-wordcount: '1103'
+source-wordcount: '1125'
 ht-degree: 1%
 
 ---
@@ -51,7 +51,7 @@ Innan du använder funktionen för röstigenkänning bör du kontrollera att du 
 
    Eller
 
-   Du kan skapa tre sekvenskanaler: **Main**, **ColdDrinks** och **HotDrinks**, samt ytterligare en 1x2 Split Screen-kanal **SplitScreen** enligt bilden nedan.
+   Du kan skapa tre sekvenskanaler: **Main**, **ColdDrinks** och **HotDrinks**, samt ytterligare en 1x2 Split Screens channel **SplitScreen** enligt bilden nedan.
 
    ![bild](assets/voice-recognition/vr-emb-1.png)
 
@@ -95,13 +95,13 @@ Följ stegen nedan för att lägga till taggar i din kanal:
 
    Eller
 
-   Du kan skapa taggar från AEM i förväg för ditt projekt och sedan välja dem också. När du har följt stegen som beskrivs i [Skapa taggar](#creating-tags)kan du markera taggen från platsen och lägga till den i kanalen, vilket visas i bilden nedan:
+   Du kan också skapa taggar från AEM i förväg för ditt projekt och sedan markera dem. När du har följt stegen som beskrivs i [Skapa taggar](#creating-tags)kan du markera taggen från platsen och lägga till den i kanalen, vilket visas i bilden nedan:
 
    ![bild](assets/voice-recognition/vr-tag1.png)
 
 1. Lägg på samma sätt till taggen **hot** i **HotDrinks** -kanalen.
 
-1. Om du använder en kanal för Delad skärm lägger du till båda taggarna (**hot** och **cold**) i kanalegenskaperna för **SplitScreen** .
+1. Om du använder en kanal för Delade skärmar lägger du till båda taggarna (**varma** och **kalla**) i kanalegenskaperna för **SplitScreen** enligt bilden nedan.
 
    ![bild](assets/voice-recognition/vr-emb-7.png)
 
@@ -114,7 +114,7 @@ Skapa taggar genom att följa stegen nedan:
 
 1. Navigera till AEM.
 
-1. Klicka på verktygen —> **Taggning**.
+1. Klicka på verktygsikonen —> **Taggning**.
    ![bild](assets/voice-recognition/vr-7.png)
 
 1. Klicka på **Skapa** —> **Skapa namnutrymme**.
@@ -139,7 +139,7 @@ Nu kan du använda dessa taggar i ditt AEM Screens-projekt.
    >[!NOTE]
    >Mer information om hur du tilldelar en kanal till en skärm finns i [Skapa och hantera skärmar](/help/user-guide/managing-displays.md).
 
-1. Tilldela kanalerna **Main**, **ColdDrinks** och **HotDrinks** till **LobbyDisplay**.
+1. Tilldela kanalerna **Main**, **ColdDrinks** och **HotDrinks** till **LobbyDisplay**. Om du dessutom använder **SplitScreen** -kanalen för ditt projekt måste du tilldela den till skärmen.
 
    >[!NOTE]
    >Om du har skapat en delad skärmkanal tilldelar du **SplitScreen** -kanalen till skärmen.
@@ -151,6 +151,7 @@ Nu kan du använda dessa taggar i ditt AEM Screens-projekt.
    | Huvud | 2 | Inledande inläsning, inaktiv skärm, timer |
    | HotDrinks | 1 | Användarinteraktion |
    | ColdDrinks | 1 | Användarinteraktion |
+   | SplitScreen | 1 | Användarinteraktion |
 
    >[!NOTE]
    >
@@ -172,25 +173,15 @@ När de föregående stegen är slutförda kan du registrera din fönsterenhet f
 >[!NOTE]
 >Läs mer i [Device Registration](device-registration.md) om hur du registrerar en enhet i en AEM Screens-spelare.
 
-I det här exemplet visas utdata på en Chrome Player.
+**Önskad utdata för sekvenskanal**
 
 Huvudkanalen **** spelar upp innehållet, men när du använder ord med nyckelord som är **aktiva** , som *jag skulle vilja ha en het drink*, börjar kanalen spela upp innehållet i **HotDrinks** -kanalen.
 
 Om du använder ord med ett nyckelord som **jag** skulle vilja ha något kallt *börjar kanalen spela upp innehållet i* ColdDrinks **** -kanalen.
 
-![newimage](assets/voice-recognition/voice-video.gif)
-
-I det här exemplet visas utdata på en Chrome Player.
+**Önskad utdata för kanalen för delade skärmar**
 
 Huvudkanalen spelar upp **huvudinnehållet** , men när du använder ord med nyckelord som är **varma** och **kalla** , som *jag skulle vilja se menyn för varma och kalla drycker*, börjar kanalen spela upp innehållet i **SplitScreen** -kanalen. Om du går tillbaka *till huvudmenyn* växlar den tillbaka till huvudkanalen.
-
-![newimage](assets/voice-recognition/vr-video-2.gif)
-
-
-
-
-
-
 
 
 
