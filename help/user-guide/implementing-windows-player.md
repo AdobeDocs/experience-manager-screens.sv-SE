@@ -11,7 +11,7 @@ content-type: reference
 discoiquuid: 4228e8a1-9749-49a6-a1bb-365492bc2a3d
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 319a80a7fe3d68cbc16108eb302def390b445838
+source-git-commit: 24157fdc507beaacd46f3d42e8a0a975c729df38
 workflow-type: tm+mt
 source-wordcount: '940'
 ht-degree: 0%
