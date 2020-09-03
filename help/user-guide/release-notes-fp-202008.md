@@ -2,10 +2,10 @@
 title: Versionsinformation för funktionspaket 2008
 description: På sidan beskrivs versionsinformation för funktionspaket 2008.
 translation-type: tm+mt
-source-git-commit: a179b6be273b0b0ca166bae755399f8254091ee6
+source-git-commit: 421174dba8a5a7c39bffcaa2dddb54939eeba3bc
 workflow-type: tm+mt
 source-wordcount: '332'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 AEM Screens har släppt AEM 6.5 Feature Pack 5.
 
-Du kan ladda ned det senaste funktionspaketet för AEM Screens 6.5.5 från [Software Distribution Portal](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) med din Adobe ID. Gå till fliken **Adobe Experience Manager** och sök efter **skärmar** för att få tillgång till det senaste funktionspaketet.
+Du kan ladda ned det senaste funktionspaketet för AEM Screens 6.5.5 från [Software Distribution Portal](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html) med din Adobe ID. Gå till fliken **Adobe Experience Manager** och sök efter **skärmar** för att få tillgång till det senaste funktionspaketet.
 
 ## Releasedatum {#release-date}
 
