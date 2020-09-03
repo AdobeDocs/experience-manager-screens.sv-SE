@@ -2,9 +2,9 @@
 title: Versionsinformation för funktionspaket 2008
 description: På sidan beskrivs versionsinformation för funktionspaket 2008.
 translation-type: tm+mt
-source-git-commit: 37025002d02603ab8a5c571086524be858389557
+source-git-commit: a179b6be273b0b0ca166bae755399f8254091ee6
 workflow-type: tm+mt
-source-wordcount: '306'
+source-wordcount: '332'
 ht-degree: 0%
 
 ---
@@ -50,7 +50,9 @@ Releasedatum för AEM Screens Feature Pack 2008 är 3 september 2020.
 
 ### Kända fel och korrigeringar {#known-issues}
 
-Du måste konfigurera en miljö för Windows- eller Android-spelare om du använder AEM Screens 6.5.5 Feature Pack.
+Du måste konfigurera en miljö för Windows- eller Android-spelare om du använder AEM Screens 6.5.5 Service Pack.
+
+Ange attributet **SameSite för inloggningstokencookies** från **Lax** till **None** från **Adobe Experience Manager Web ConsoleConfiguration** för alla AEM författare- och publiceringsinstanser.
 
 * Mer information finns i [Implementera Windows 10 Player](implementing-windows-player.md#fp-environment-setup) .
 
