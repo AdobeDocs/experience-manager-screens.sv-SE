@@ -1,11 +1,11 @@
 ---
 title: Kanaltilldelning - senaste offertförfrågan
 seo-title: Kanaltilldelning - senaste offertförfrågan
-description: Följ den här sidan om du vill veta mer om kanaltilldelning och Dag-delning.
+description: Följ den här sidan om du vill veta mer om kanaltilldelning och DagParting.
 translation-type: tm+mt
-source-git-commit: 4ce9bd954a30282d94e30a6868d269b4df0a0f5e
+source-git-commit: 87dac70f6cf349d8c67f153b813d605f4da378d1
 workflow-type: tm+mt
-source-wordcount: '1477'
+source-wordcount: '1472'
 ht-degree: 1%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 1%
 
 När du har konfigurerat en skärm måste du tilldela en kanal till en skärm för att kunna visa innehållet.
 
-På den här sidan visas hur du tilldelar en kanal till visningen, hur du förstår kanalegenskaper och hur du delar dagar.
+På den här sidan visas hur du tilldelar en kanal till visningen, hur du förstår kanalegenskaper och DayParting.
 
 >[!NOTE]
 >Du kan tilldela flera kanaler till en skärm.
@@ -108,13 +108,11 @@ Följ stegen nedan för att navigera till tidslinjevyn:
 
 1. Tryck/klicka på **Tilldela kanal** i åtgärdsfältet.
 
-   ![bild](/help/user-guide/assets/channel-assignment/channel-assign-fp5.png)
-
    Eller
 
    Tryck/klicka på **Kontrollpanel** och klicka på **Tidslinje** på panelen **TILLDELADE KANALER &amp; SCHEMAT** .
 
-1. Väntande bilder (ska korrigeras)
+   ![bild](/help/user-guide/assets/channel-assignment/timeline-1.png)
 
 ## Förstå kanalegenskaper från dialogrutan Kanaltilldelning {#channel-properties}
 
@@ -182,7 +180,7 @@ Med upprepningsschemat kan du ange ett återkommande schema för ditt innehåll.
 
 >[!NOTE]
 >Du kan lägga till flera återkommande scheman i din kanal.
->I Återkommande scheman introduceras *dagsdelning*, som gör att du kan ställa in ett globalt schema med flera kanaler som körs vid specifika tidpunkter på dagen och återanvända inställningen för alla skärmar samtidigt.
+>I Återkommande scheman introduceras *DayParting*, som gör att du kan ställa in ett globalt schema med flera kanaler som körs vid specifika tidpunkter på dagen och återanvända inställningen för alla skärmar samtidigt.
 
 Du kan ange följande alternativ:
 
@@ -193,15 +191,15 @@ Du kan ange följande alternativ:
    * **Tid**: Schemat avslutas vid en angiven tidpunkt.
    * **Varaktighet**: Schemat körs för en viss tidsperiod i timmar eller minuter.
 
-### Delning dag {#dayparting}
+### DayParting {#dayparting}
 
-Dag-delning innebär att dela upp en dag i tidskortplatser och ange vilket innehåll som spelas upp vid önskad tidpunkt. Med AEM Screens kan ni schemalägga kanaler som dagliga delningar inom en dag, vecka eller månad efter behov.
+DayParting innebär att dela upp en dag i tidskortplatser och ange vilket innehåll som spelas upp vid önskad tidpunkt. Med AEM Screens kan ni schemalägga kanaler i form av DayParting inom en dag, vecka eller månad efter behov.
 
-I följande exempel förklaras den dagliga delningen i kanaler i tre olika scenarier:
+I följande exempel förklaras DayParting i kanaler i tre olika scenarier:
 
 #### Spela upp innehåll på en dag uppdelat i flera tidsplatser {#playing-content-on-a-single-day-divided-into-multiple-time-slots}
 
-I det här exemplet visas hur en restaurang använder dagskoppling för att visa upp sin frukost-, lunch- och middagsmeny varje dag.
+I det här exemplet visas hur en restaurang använder DayParting för att visa upp sin frukost-, lunch- och middagsmeny varje dag.
 
 Här delar vi upp varje dag i olika tidsplatser, så att kanalinnehållet spelas upp enligt den angivna tiden på dagen. Ange följande egenskaper i schemat för upprepning för din kanal för att spela upp innehållet enligt det här användningsfallet.
 
@@ -213,7 +211,7 @@ Här delar vi upp varje dag i olika tidsplatser, så att kanalinnehållet spelas
 
 #### Spela upp innehåll en viss veckodag {#playing-content-on-a-particular-day-of-the-week}
 
-I det här exemplet visas hur dagen delas upp i ett kasino där live-event inträffar varje helg från klockan 20.00 till 23.00 och erbjudanden finns tillgängliga för middagsmeny efter klockan 10.00 till 13.00.
+I det här exemplet visas DayParting som implementerats i ett kasino där live-event inträffar varje helg från kl. 20.00 till kl. 23.00 och erbjudanden är tillgängliga för middagsmeny efter kl. 10.00 till kl. 13.00.
 
 | **Namn** | **Upprepningar** | **Start** | **End** |
 |---|---|---|---|
