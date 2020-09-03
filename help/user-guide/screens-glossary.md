@@ -4,9 +4,9 @@ seo-title: Ordlista
 description: Följ den här sidan om du vill veta mer om de nyckeltermer som är associerade med AEM Screens.
 seo-description: Följ den här sidan om du vill veta mer om de nyckeltermer som är associerade med AEM Screens.
 translation-type: tm+mt
-source-git-commit: 7ce10b467559b33c5d3ca61b315e50cb1ceade9d
+source-git-commit: 421174dba8a5a7c39bffcaa2dddb54939eeba3bc
 workflow-type: tm+mt
-source-wordcount: '428'
+source-wordcount: '469'
 ht-degree: 0%
 
 ---
@@ -17,6 +17,8 @@ ht-degree: 0%
 **Programkanal** En programkanal visar ett program som skapats av en utvecklare och som visar interaktivt innehåll.
 
 **Attrahera slinga** En attraktiv slinga definieras som *hemläge* eller *inaktivt läge* när visningen har två eller flera lägen som den kan finnas i. Dess roll är att *locka* kunder till webben och uppmuntra dem att engagera sig, vanligtvis genom att röra vid skärmen men också genom att interagera med en produkt.
+
+**DayParting** DayParting innebär att dela upp en dag i tidskortplatser och ange vilket innehåll som spelas upp vid önskad tidpunkt. Med AEM Screens kan ni schemalägga kanaler i form av DayParting inom en dag, vecka eller månad efter behov.
 
 **Enhet** En enhet kan köra spelarprogramvaran för att skapa visuella utdata. Den kan styra visningen av en beskuren, skalad, översatt del av det vanliga innehållet eller upplevelsen. Skärmkonfigurationen är bunden till en skärm, men kan ersättas om ett tekniskt fel uppstår.
 
