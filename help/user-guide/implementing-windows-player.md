@@ -11,9 +11,9 @@ content-type: reference
 discoiquuid: 4228e8a1-9749-49a6-a1bb-365492bc2a3d
 docset: aem65
 translation-type: tm+mt
-source-git-commit: a179b6be273b0b0ca166bae755399f8254091ee6
+source-git-commit: 4d937ff4cbf05c61c8e38a0d09bb789c12a7a226
 workflow-type: tm+mt
-source-wordcount: '964'
+source-wordcount: '978'
 ht-degree: 0%
 
 ---
@@ -28,6 +28,9 @@ I det här avsnittet beskrivs hur du konfigurerar AEM Screens Windows 10 Player.
 Installera Windows Player för AEM Screens om du vill implementera Windows Player för AEM Screens.
 
 Gå till [**AEM 6.5 Player Downloads**](https://download.macromedia.com/screens/) .
+
+>[!NOTE]
+>Det finns inget fönsterläge i Windows Player. Det är alltid helskärmsläge.
 
 ### Konfigurera miljö för AEM Screens 6.5.5 Service Pack {#fp-environment-setup}
 
