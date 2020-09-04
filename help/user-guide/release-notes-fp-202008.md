@@ -2,9 +2,9 @@
 title: Versionsinformation för funktionspaket 2008
 description: På sidan beskrivs versionsinformation för funktionspaket 2008.
 translation-type: tm+mt
-source-git-commit: 583e9e6bb591cc9cf5ec60a60e10ccba480a7e14
+source-git-commit: f13adf375631e3b7d7d03324458d91d9d55b0f80
 workflow-type: tm+mt
-source-wordcount: '332'
+source-wordcount: '333'
 ht-degree: 0%
 
 ---
@@ -68,4 +68,4 @@ Följande AEM Screens-spelare släpps för AEM Screens som släpps AEM 6.5 Featu
 
 #### AEM Screens Player - nedladdningar  {#aem-screens-player-downloads}
 
-Om du vill hämta den senaste AEM Screens-spelaren och läsa mer om felkorrigeringarna kan du läsa **[AEM Screens Player Downloads](https://download.macromedia.com/screens/)**.
+Om du vill hämta den senaste AEM Screens-spelaren och läsa mer om felkorrigeringarna kan du läsa **[AEM Screens Player Downloads](https://download.macromedia.com/screens/index.html)**.
