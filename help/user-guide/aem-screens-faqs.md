@@ -1,20 +1,20 @@
 ---
-title: Vanliga frågor om AEM-skärmar
-seo-title: Vanliga frågor om AEM-skärmar
+title: Vanliga frågor om AEM Screens
+seo-title: Vanliga frågor om AEM Screens
 description: Följ den här sidan för att få svar på vanliga frågor om ett AEM Screens-projekt.
 seo-description: Följ den här sidan för att få svar på vanliga frågor om ett AEM Screens-projekt.
 uuid: 62e58f3b-0c0a-4006-b6d5-42d2090f47b5
 contentOwner: jsyal
 translation-type: tm+mt
-source-git-commit: c615481f606a369fb9d4bafde74cbf00458f05fa
+source-git-commit: 4d937ff4cbf05c61c8e38a0d09bb789c12a7a226
 workflow-type: tm+mt
-source-wordcount: '1271'
+source-wordcount: '1294'
 ht-degree: 0%
 
 ---
 
 
-# Vanliga frågor om AEM-skärmar {#aem-screens-faqs}
+# Vanliga frågor om AEM Screens {#aem-screens-faqs}
 
 I följande avsnitt ges svar på några av de vanligaste frågorna och svaren om ett AEM Screens-projekt.
 
@@ -51,51 +51,51 @@ Och så vidare, tills du når platsmappen och stoppar den där just nu (så att 
 
 Registrering är för närvarande bara möjligt på författarinstansen. Registreringstjänsten är inte autentiserad, men skapar bara en väntande enhet i AEM och registrerar inte enheten eller tilldelar någon skärm.
 
-Om du vill registrera en enhet (vilket innebär att du skapar en användare för enheten i AEM) måste du fortfarande autentisera till AEM och för närvarande följa registreringsguiden manuellt för att slutföra registreringen. Teoretiskt sett kan en oärlig användare skapa flera väntande enheter, men kan inte registrera några utan en AEM-inloggning.
+Om du vill registrera en enhet (vilket innebär att du skapar en användare för enheten i AEM) måste du fortfarande autentisera till AEM och för närvarande följa registreringsguiden manuellt för att slutföra registreringen. Teoretiskt sett kan en oärlig användare skapa flera väntande enheter, men kan inte registrera några utan en AEM inloggning.
 
-### 2. Finns det något sätt att omvandla HTTP GET-begäranden till HTTP POST med någon form av autentisering? {#is-there-a-way-to-transform-http-get-requests-into-http-post-with-some-form-of-authentication}
+### 2. Finns det något sätt att omvandla HTTP GET-begäranden till HTTP-POST med någon form av autentisering? {#is-there-a-way-to-transform-http-get-requests-into-http-post-with-some-form-of-authentication}
 
-Registreringsbegäran är en POST-begäran.
+Registreringsbegäran är en begäran om POST.
 
-Vi rekommenderar att du hämtar enhets-ID från sessionen i stället för att skicka som parameter. Detta rensar serverloggarna, webbläsarcachen och så vidare. Det är för närvarande inte något säkerhetsproblem. Observera att GET används semantiskt när ingen lägesändring görs på servern och POST används när en lägesändring görs.
+Vi rekommenderar att du hämtar enhets-ID från sessionen i stället för att skicka som parameter. Detta rensar serverloggarna, webbläsarcachen och så vidare. Det är för närvarande inte något säkerhetsproblem. Observera att semantisk GET används när ingen lägesändring görs på servern och POST används när en lägesändring görs.
 
 ### 3. Finns det något sätt att neka en enhetsregistreringsbegäran? {#is-there-a-way-to-decline-a-device-registration-request}
 
-Du kan inte avböja registreringsbegäran. Registreringsbegäranden ska i stället upphöra att gälla efter en tidsgräns som har konfigurerats i [Adobe Experience Manager Web Console](https://localhost:4502/system/console/configMgr/com.adobe.cq.screens.device.registration.impl.RegistrationServiceImpl). Som standard är det här värdet inställt på en dag och lagras i en minnescache.
+Du kan inte avböja registreringsbegäran. Registreringsbegäranden ska i stället upphöra att gälla efter en timeout som har konfigurerats i [Adobe Experience Manager Web Console](https://localhost:4502/system/console/configMgr/com.adobe.cq.screens.device.registration.impl.RegistrationServiceImpl). Som standard är det här värdet inställt på en dag och lagras i en minnescache.
 
 ## Enhetsövervakning och hälsorapporter {#device-monitoring-and-health-reports}
 
-### 1. Hur felsöker jag om min AEM Screens-spelare visar en tom skärm? {#how-do-i-troubleshoot-if-my-aem-screens-player-shows-blank-screen}
+### 1. Hur felsöker jag om min AEM Screens-spelare visas på en tom skärm? {#how-do-i-troubleshoot-if-my-aem-screens-player-shows-blank-screen}
 
 Kontrollera om det finns följande möjligheter att felsöka det tomma skärmproblemet:
 
-* AEM kan inte överföra offlineinnehållet
+* AEM kan inte skicka offlineinnehållet
 * Kanalen har inget innehåll
 * Ingen resurs är schemalagd att visas vid den aktuella tidpunkten
 
-### 2. Vad gör jag om AEM Screens Player inte kan registrera sig och dess status visas som Fel? {#what-do-i-do-if-aem-screens-player-cannot-register-and-its-state-is-displayed-as-failure}
+### 2. Vad gör jag om AEM Screens-spelaren inte kan registrera sig och läget visas som Fel? {#what-do-i-do-if-aem-screens-player-cannot-register-and-its-state-is-displayed-as-failure}
 
-Du måste aktivera filtret Tillåt tomt för Apache Sling Referrer-filtret. Detta krävs för att kontrollprotokollet mellan AEM Screens Player och AEM Screens Server ska fungera optimalt.
+Du måste aktivera filtret Tillåt tomt för Apache Sling Referrer-filtret. Detta krävs för att kontrollprotokollet mellan AEM Screens Player och AEM Screens-servern ska fungera optimalt.
 
-1. Navigera till **webbkonsolkonfigurationen för Adobe Experience Manager**
+1. Navigera till **Adobe Experience Manager Web Console Configuration**
 1. Markera alternativet **allow.empty** .
 1. Click **Save**.
 
-### 3. Hur felsöker man om enheten visar fel när en AEM Screens-spelare registreras och när konsolloggarna visar ett ENAME_NOT_FOUND-fel? {#how-to-troubleshoot-if-while-registering-an-aem-screens-player-device-shows-failure-and-the-console-logs-display-ename-not-found-error}
+### 3. Hur felsöker jag om enheten visar fel när en AEM Screens-spelare registreras och om konsolloggarna visar ett ENAME_NOT_FOUND-fel? {#how-to-troubleshoot-if-while-registering-an-aem-screens-player-device-shows-failure-and-the-console-logs-display-ename-not-found-error}
 
-Detta kan inträffa om spelaren inte kan hitta DNS:en för AEM Screens Server. Du kan försöka använda IP-adressen för att ansluta. Använd följande för att hämta serverns IP-adress: *arp &lt;server_dns_name>*.
+Detta kan inträffa om spelaren inte kan hitta DNS-servern för AEM Screens. Du kan försöka använda IP-adressen för att ansluta. Använd följande för att hämta serverns IP-adress: *arp &lt;server_dns_name>*.
 
 ### 4. Rekommenderar AMS implementering av en Android-övervakare på alla enheter? Ingår Watchdog-pluginen (Cordova) som en del av APK? {#does-ams-recommend-implementing-an-android-watchdog-on-all-devices-is-the-watchdog-cordova-plugin-included-as-part-of-the-apk}
 
 En Android-övervakare som använder rena Android-API:er på flera plattformar är redan en del av paketet. Ingen ytterligare programvara behövs, men beroende på vilken enhet du använder kan du behöva avregistrera appen för att få systembehörighet för en full strömcykel (PowerManager API). Om det inte signeras om med hjälp av tillverkarens nycklar kommer programmet att avslutas och startas om, men inte strömcykeln.
 
-Mer information om hur du implementerar Android Player finns i [**Implementera Android Player **](implementing-android-player.md).
+Mer information om hur du implementerar Android Player finns i [**Implementera Android Player**](implementing-android-player.md).
 
-### 5. Vilka verktyg för fjärrövervakning och fjärrvarningar från tredje part (programvara) rekommenderar Adobe/AMS för övervakning av varje enhet?  {#what-third-party-remote-monitoring-and-alerting-tools-software-does-adobe-ams-recommend-for-monitoring-each-device}
+### 5. Vilka verktyg för fjärrövervakning och fjärrvarning (programvara) från tredje part rekommenderar Adobe/AMS för övervakning av varje enhet?  {#what-third-party-remote-monitoring-and-alerting-tools-software-does-adobe-ams-recommend-for-monitoring-each-device}
 
-Beroende på vad du vill ha ut av övervaknings- och varningsfunktionerna får du ett meddelande från AEM Screens Notifications-tjänsten om en enhet inte har fästs på ett tag. Tredjepartsverktygen beror på operativsystemet, dess funktioner och kundens specifika behov.
+Beroende på vad du vill ha ut av övervaknings- och aviseringsfunktionen får du ett meddelande från AEM Screens Notifications-tjänsten om en enhet inte har fästs på ett tag. Tredjepartsverktygen beror på operativsystemet, dess funktioner och kundens specifika behov.
 
-Mer information om var du kan övervaka enhetsaktivitet finns i [**AEM Screens Notifications Service **](screens-notifications-service.md).
+Mer information om var du kan övervaka enhetsaktivitet finns i [**AEM Screens Notifications Service**](screens-notifications-service.md).
 
 ## AEM Screens Player {#aem-screens-player}
 
@@ -108,13 +108,13 @@ ChromeOS-spelaren kan installeras som Chrome Browser-plugin i utvecklarläge uta
 1. Öppna webbläsaren Chrome och välj **Tillägg** på menyn eller navigera direkt till ***chrome://extensions***.
 1. Aktivera **utvecklarläget** i det övre högra hörnet.
 1. Klicka på **Läs in opackad** från det övre vänstra hörnet och läs in den uppzippade Chrome Player.
-1. Kontrollera plugin-programmet **för Chrome Player** för AEM-skärmar om det finns i listan över tillägg.
+1. Kontrollera plugin-programmet för **AEM Screens Chrome Player** om det finns i listan över tillägg.
 1. Öppna en ny flik och klicka på **Apps** -ikonen i det övre vänstra hörnet eller navigera direkt till ***chrome://apps***.
-1. Klicka på plugin-programmet för **AEM-skärmar** för att starta Chrome Player. Som standard startas spelaren i helskärmsläge. Tryck på **Esc** för att avsluta helskärmsläget.
+1. Klicka på **AEM Screens** Plugin för att starta Chrome Player. Som standard startas spelaren i helskärmsläge. Tryck på **Esc** för att avsluta helskärmsläget.
 
 ### 2. Hur felsöker jag om skärmspelaren inte kan autentisera via en publiceringsinstans med en anpassad felhanterare? {#how-to-troubleshoot-if-screens-player-is-unable-to-authenticate-through-publish-instance-with-custom-error-handler}
 
-När AEM Screens-spelaren startas begär den ***/content/screens/svc.ping.json*** när spelaren får ett 404-fel. Spelaren initierar en autentiseringsbegäran att autentisera mot publiceringsinstansen. Om det finns en anpassad felhanterare i en publiceringsinstans måste du returnera 404-statuskoden för anonym användare på ***/content/screens/svc.ping.json***.
+När AEM Screens-spelaren startas görs en begäran till ***/content/screens/svc.ping.json*** när spelaren får ett 404-fel. Spelaren initierar en autentiseringsbegäran att autentisera mot publiceringsinstansen. Om det finns en anpassad felhanterare i en publiceringsinstans måste du returnera 404-statuskoden för anonym användare på ***/content/screens/svc.ping.json***.
 
 ### 3. Hur du aktiverar enhetsskärmen i en Android-spelare? {#how-to-set-the-device-screen-stay-on-in-an-android-player}
 
@@ -124,6 +124,10 @@ Följ stegen nedan om du vill aktivera Var aktiv i en Android-spelare:
 1. Tryck 7 gånger på versionsnumret för att aktivera **utvecklaralternativ** i **Inställningar**
 1. Navigera till **Utvecklaralternativ**
 1. Aktivera **Håll dig vaken**
+
+### 4. Hur aktiverar jag fönsterläge för Windows Player?
+
+Det finns inget fönsterläge i Windows Player. Det är alltid helskärmsläge.
 
 ## Allmänna felsökningstips {#general-troubleshooting-tips}
 
