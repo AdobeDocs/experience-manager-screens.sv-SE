@@ -4,9 +4,9 @@ seo-title: Dispatcher Configurations for AEM Screens
 description: På den här sidan hittar du riktlinjer för hur du konfigurerar dispatcher för ett AEM Screens-projekt.
 seo-description: På den här sidan hittar du riktlinjer för hur du konfigurerar dispatcher för ett AEM Screens-projekt.
 translation-type: tm+mt
-source-git-commit: 37025002d02603ab8a5c571086524be858389557
+source-git-commit: 4a1fb81fa343983093590c36ccb6a4fd110cdad2
 workflow-type: tm+mt
-source-wordcount: '251'
+source-wordcount: '248'
 ht-degree: 4%
 
 ---
@@ -36,7 +36,7 @@ Följ stegen nedan för att konfigurera dispatcher för ett AEM Screens-projekt.
 
 ### Aktivera anteckningssessioner {#enable-sticky-session}
 
-Om någon vill använda mer än en publiceringsinstans med dispatcher måste de uppdatera dispatchern.alla filer i sin dispatcher.
+Om du vill använda mer än en publiceringsinstans med dispatcher måste du uppdatera `dispatcher.any` filen.
 
 ```xml
 /stickyConnections {
