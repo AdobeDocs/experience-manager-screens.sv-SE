@@ -11,7 +11,7 @@ content-type: reference
 discoiquuid: 4228e8a1-9749-49a6-a1bb-365492bc2a3d
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 4d937ff4cbf05c61c8e38a0d09bb789c12a7a226
+source-git-commit: 2ab8496cebb81864a8354ad5dcb8d72bc1e44c13
 workflow-type: tm+mt
 source-wordcount: '978'
 ht-degree: 0%
@@ -34,7 +34,8 @@ Gå till [**AEM 6.5 Player Downloads**](https://download.macromedia.com/screens/
 
 ### Konfigurera miljö för AEM Screens 6.5.5 Service Pack {#fp-environment-setup}
 
-Du måste konfigurera en miljö för Windows Player om du använder AEM Screens 6.5.5 Service Pack.
+>[!NOTE]
+>Du måste konfigurera en miljö för Windows Player om du använder AEM Screens 6.5.5 Service Pack.
 
 Ange attributet **SameSite för inloggningstokencookies** från **Lax** till **None** från **Adobe Experience Manager Web ConsoleConfiguration** för alla AEM författare- och publiceringsinstanser.
 
