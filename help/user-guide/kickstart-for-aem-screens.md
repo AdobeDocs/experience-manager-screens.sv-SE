@@ -3,9 +3,9 @@ title: Kickstart Guide
 seo-title: Kickstart Guide
 description: Följ den här sidan för att skapa ett AEM Screens-demonstrationsprojekt. Det hjälper dig att skapa en digital signeringsupplevelse från installation och konfiguration av ett nytt projekt för att visa ditt innehåll i AEM Screens Player.
 translation-type: tm+mt
-source-git-commit: 988872003c1d01c90ccdb38fa77c99019b9a6966
+source-git-commit: 63e828543a8543cc8ced678221369fe1e0431f60
 workflow-type: tm+mt
-source-wordcount: '985'
+source-wordcount: '1260'
 ht-degree: 1%
 
 ---
@@ -152,29 +152,70 @@ En ny skärm med namnet **TestDisplay** läggs nu till på din plats **TestLocat
 
 När projektkonfigurationen är klar måste du tilldela kanalen till en skärm för att kunna visa innehållet.
 
-1. Navigera till önskad visning, till exempel **DemoScreens** —> **Locations** —> **TestLocation** —> **LobbyDisplay**.
+1. Navigera till önskad visning från **DemoScreens** —> **Locations** —> **TestLocation** —> **LobbyDisplay**.
 
 1. Tryck/klicka på **Tilldela kanal** i åtgärdsfältet.
+
+   ![bild](assets/kickstart/demo-assign1.png)
 
    Eller
 
    Tryck/klicka på **Kontrollpanel** i åtgärdsfältet och klicka på **+Tilldela kanal** på panelen **TILLDELADE KANALER &amp; SCHEMALER** .
 
+   ![bild](assets/kickstart/demo-assign2.png)
+
 1. Dialogrutan **Kanaltilldelning** öppnas.
 
-1. I alternativet **Inställningar** kan du välja kanal **efter sökväg** eller **efter namn**, ange **kanalroll**, **prioritet**********,¥Supported Events och¥Interruption Methods. Du kan även aktivera verktygstipset för att dra till och från den här dialogrutan.
+1. I alternativet **Inställningar** väljer du kanal **efter sökväg** och **händelser** som stöds som **Inledande inläsning** och **Inaktiv skärm**.
 
+   >[ANMÄRKNING]
+   >Kanalrollen **,** prioritet **och** avbrottsmetoder **** fylls i som standard. Mer information om egenskaper för kanaltilldelning finns i avsnittet [Kanalegenskaper](/help/user-guide/channel-assignment-latest-fp.md#channel-properties) .
+
+   ![bild](assets/kickstart/demo-assign3.png)
+
+   Dessutom kan du välja **Aktiveringsfönstret** och **Återkommande schema**.
 
    >[!NOTE]
-   >Mer information om egenskaper för kanaltilldelning finns i avsnittet [Kanalegenskaper](/help/user-guide/channel-assignment-latest-fp.md#channel-properties) .
-
-1. I alternativet **Schemalägg** väljer du **Aktiveringsfönstret** och **Återkommande schema**.
+   >Med *upprepningsschemat* kan du ange ett återkommande schema för din kanal. Du ställer in flera upprepningsscheman för en kanal.
+   >Mer information finns i [Återkommande schema](/help/user-guide/channel-assignment-latest-fp.md#recurrence-schedule) .
 
 1. Klicka på **Spara** när du har konfigurerat inställningarna.
 
-### Registrera en enhet {#registering-device}
+### Registrera en enhet och tilldela en enhet till en skärm{#registering-device}
 
 Du måste registrera din enhet med AEM kontrollpanel.
+
+>[!IMPORTANT]
+>ChromeOS-spelaren kan installeras som Chrome Browser-plugin i utvecklarläge utan att den faktiska enheten för Chrome Player krävs. För installation, följ stegen nedan:
+>
+>1. Klicka [här](https://download.macromedia.com/screens/) för att hämta den senaste Chrome Player-versionen.
+>1. Zippa upp och spara det på disken.
+>1. Öppna webbläsaren Chrome och välj **Tillägg** på menyn eller navigera direkt till ***chrome://extensions***.
+>1. Aktivera **utvecklarläget** i det övre högra hörnet.
+>1. Klicka på **Läs in opackad** från det övre vänstra hörnet och läs in den uppzippade Chrome Player.
+>1. Kontrollera plugin-programmet för **AEM Screens Chrome Player** om det finns i listan över tillägg.
+>1. Öppna en ny flik och klicka på **Apps** -ikonen i det övre vänstra hörnet eller navigera direkt till ***chrome://apps***.
+>1. Klicka på **AEM Screens** Plugin för att starta Chrome Player. Som standard startas spelaren i helskärmsläge. Tryck på **Esc** för att avsluta helskärmsläget.
+
+
+När din ChromeOS-spelare är aktiverad följer du stegen nedan för att registrera en Chrome-enhet.
+
+1. Navigera till mappen **Enheter** i ditt projekt från AEM.
+
+1. Tryck/klicka på **Enhetshanteraren** i åtgärdsfältet.
+
+1. Tryck/klicka på **Enhetsregistrering** i det övre högra hörnet.
+
+1. Välj önskad enhet och tryck/klicka på **Registrera enhet**.
+
+1. Vänta tills enheten skickar sin registreringskod och kontrollera samtidigt **registreringskoden** från din Chrome-enhet.
+
+1. Om **registreringskoden** är densamma på båda datorerna trycker/klickar du på **Validera** i AEM.
+
+1. Ange önskat namn för enheten och klicka på **Registrera**.
+
+1. Tryck/klicka på **Slutför** för att slutföra registreringsprocessen.
+
 
 ### Visa innehållet i Chrome Player {#viewing-content-output}
 
