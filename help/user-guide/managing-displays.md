@@ -10,7 +10,10 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
 discoiquuid: f8e2e7a3-f3a1-4c35-b055-166752c3fb86
 translation-type: tm+mt
-source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
+source-git-commit: b06ebef5d22daed81e8705c0928501505fd3d297
+workflow-type: tm+mt
+source-wordcount: '773'
+ht-degree: 0%
 
 ---
 
@@ -110,33 +113,28 @@ På kontrollpanelen visas olika paneler för att hantera visningsenheter och enh
 
 Panelen **VISNINGSINFORMATION** innehåller visningsegenskaperna.
 
-Klicka på (**...**) i det övre högra hörnet i panelen **VISNINGSINFORMATION **för att visa egenskaperna och förhandsgranska visningen.
+Klicka på (**...**) i det övre högra hörnet på panelen **VISNINGSINFORMATION** för att visa egenskaperna och förhandsgranska visningen.
 
-![chlimage_1-10](assets/chlimage_1-10.png)
 
 #### Visningsegenskaper {#viewing-properties}
 
 Klicka på **Egenskaper** för att visa eller ändra egenskaperna för visningen.
 
-Dessutom kan du justera händelsens timervärde för den interaktiva kanalen i **Inaktiv timeout **property under **fliken Display** . Standardvärdet är *300 sekunder*.
+Dessutom kan du justera händelsens timervärde för den interaktiva kanalen i **timeout** för inaktivitet på fliken **Visning** . Standardvärdet är *300 sekunder*.
 
-Använd **CRXDE Lite** för att komma åt egenskapen **idleTimeout** , d.v.s. `http://localhost:4502/crx/de/index.jsp#/content/screens/we-retail/locations/demo/flagship/single/jcr%3Acontent/channels` .
+Använd **CRXDE Lite** för att komma åt **egenskapen idleTimeout** , d.v.s. `http://localhost:4502/crx/de/index.jsp#/content/screens/we-retail/locations/demo/flagship/single/jcr%3Acontent/channels` .
 
-![chlimage_1-1](assets/chlimage_1-1.gif)
 
 ### Panelen Tilldelade kanaler {#assigned-channels-panel}
 
 På panelen **TILLDELADE KANALER** visas de tilldelade kanalerna för den här enheten.
 
-![chlimage_1-11](assets/chlimage_1-11.png)
 
 ### Panelen Enheter {#devices-panel}
 
 Panelen **ENHETER** innehåller information om enhetskonfigurationerna.
 
-Klicka på (**...**) i det övre högra hörnet i panelen **DEVICES **för att lägga till enhetskonfigurationer och uppdatera enheter.
-
-![chlimage_1-12](assets/chlimage_1-12.png)
+Klicka på (**...**) i det övre högra hörnet på panelen **Enheter** för att lägga till enhetskonfigurationer och uppdatera enheter.
 
 Klicka dessutom på enhetskonfigurationen för att visa egenskaper, tilldela en enhet eller ta bort den helt.
 
