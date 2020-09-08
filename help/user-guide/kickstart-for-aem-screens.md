@@ -3,9 +3,9 @@ title: Kickstart Guide
 seo-title: Kickstart Guide
 description: Följ den här sidan för att skapa ett AEM Screens-demonstrationsprojekt. Det hjälper dig att skapa en digital signeringsupplevelse från installation och konfiguration av ett nytt projekt för att visa ditt innehåll i AEM Screens Player.
 translation-type: tm+mt
-source-git-commit: 6f95322e35861ef4b552c89320847d97f9644a4b
+source-git-commit: 12d84eba2b9001600f783cd4f994af43d2c16739
 workflow-type: tm+mt
-source-wordcount: '1316'
+source-wordcount: '1317'
 ht-degree: 1%
 
 ---
@@ -81,9 +81,9 @@ Följ stegen nedan för att skapa en ny kanal för ditt projekt:
 
    ![bild](assets/kickstart/demo-4.png)
 
-TestChannel ** skapas och läggs till i kanalmappen, vilket visas i bilden nedan.
+   TestChannel ** skapas och läggs till i kanalmappen, vilket visas i bilden nedan.
 
-![bild](assets/kickstart/demo-5.png)
+   ![bild](assets/kickstart/demo-5.png)
 
 ### Lägga till innehåll i en kanal {#adding-content}
 
@@ -144,9 +144,9 @@ När du har skapat en plats måste du skapa en ny skärm för platsen.
 
    ![bild](assets/kickstart/demo-disp3.png)
 
-En ny skärm med namnet **TestDisplay** läggs nu till på din plats **TestLocation**, vilket visas i bilden nedan.
+   En ny skärm med namnet **TestDisplay** läggs nu till på din plats **TestLocation**, vilket visas i bilden nedan.
 
-![bild](assets/kickstart/demo-disp4.png)
+   ![bild](assets/kickstart/demo-disp4.png)
 
 ### Tilldela en kanal {#assigning-channel}
 
@@ -182,7 +182,7 @@ När projektkonfigurationen är klar måste du tilldela kanalen till en skärm f
 
 1. Klicka på **Spara** när du har konfigurerat inställningarna.
 
-### Registrera en enhet och tilldela en enhet till en skärm{#registering-device}
+### Registrera en enhet och tilldela en enhet till en skärm {#registering-device}
 
 Du måste registrera din enhet med AEM kontrollpanel.
 
