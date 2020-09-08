@@ -3,10 +3,10 @@ title: Kickstart Guide
 seo-title: Kickstart Guide
 description: Följ den här sidan för att skapa ett AEM Screens-demonstrationsprojekt. Det hjälper dig att skapa en digital signeringsupplevelse från installation och konfiguration av ett nytt projekt för att visa ditt innehåll i AEM Screens Player.
 translation-type: tm+mt
-source-git-commit: f2fef18cc73825b3f062a79c560097e8fd00ac9f
+source-git-commit: 78aab8e8ad8ad9e3a3caf20fef044f507b5298a0
 workflow-type: tm+mt
-source-wordcount: '1080'
-ht-degree: 1%
+source-wordcount: '985'
+ht-degree: 0%
 
 ---
 
@@ -50,7 +50,7 @@ Följ stegen nedan för att skapa ett exempelprojekt för AEM Screens och public
 
 ## Självstudiekurs {#tutorial}
 
-### Skapa ett nytt AEM Screens-projekt {#creating-project}
+### Creating an AEM Screens Project {#creating-project}
 
 Det första steget är att skapa ett nytt AEM Screens-projekt.
 
@@ -64,7 +64,7 @@ Det första steget är att skapa ett nytt AEM Screens-projekt.
    >När du har skapat projektet återgår du till startsidan för Skärmprojekt. Nu kan du välja ditt projekt. I ett projekt finns det fem olika mappar med namnen **Program**, **Kanaler**, **Enheter**, **Platser** och **Scheman**.
 
 
-### Skapa en ny kanal {#creating-channel}
+### Skapa en kanal {#creating-channel}
 
 När projektet är på plats måste du skapa en ny kanal där du hanterar innehållet.
 
@@ -91,73 +91,62 @@ När du väl har skapat kanalen måste du lägga till innehåll i kanalen som sk
 
 Följ stegen nedan för att lägga till innehåll i kanalen (*TestChannel*) i ditt projekt:
 
-1. Navigera till *Test_Project* som du skapade och markera mappen **Kanaler** .
+1. Navigera till det *demoprojekt* du har skapat och markera mappen **Kanaler** .
 
 1. Klicka på **Redigera** i åtgärdsfältet (se bilden nedan). Redigeraren för *TestChannel* öppnas.
+
+   ![bild](assets/kickstart/demo-6.png)
 
 1. Klicka på ikonen som växlar sidopanelen till vänster i åtgärdsfältet för att öppna resurserna och komponenterna.
 
 1. Dra och släpp de komponenter du vill lägga till i kanalen.
 
-   ![chlimage_1-8](assets/chlimage_1-8.png)
+   ![bild](assets/kickstart/demo-7.png)
 
-I det här exemplet visar redigeraren en bild som lagts till i kanalen.
+### Skapa en plats {#creating-location}
 
-![chlimage_1-9](assets/chlimage_1-9.png)
+När du väl har skapat kanalen måste du skapa en plats.
 
-### Skapa en ny plats {#creating-location}
-
-När du väl har skapat din kanal måste du skapa en plats.
-
-***Platserna*** är olika för olika digitala signeringsupplevelser och innehåller de konfigurationer som visas beroende på var de olika skärmarna finns.
+>[!NOTE]
+>***Platserna*** är olika för olika digitala signeringsupplevelser och innehåller de konfigurationer som visas beroende på var de olika skärmarna finns.
 
 Följ stegen nedan för att skapa en ny plats för ditt projekt:
 
-1. Navigera till *Test_Project* som du skapade och markera mappen **Platser** .
+1. Navigera till *DemoProject* som du har skapat och välj mappen **Platser** .
 
-1. Klicka på **Skapa** bredvid plusikonen i åtgärdsfältet (se bilden nedan). En guide öppnas.
+1. Klicka på **+ Skapa** i åtgärdsfältet.
+
 1. Välj **Plats** i guiden och klicka på **Nästa**.
 
-1. Ange **namn** och **titel** för platsen (ange titeln som *TestLocation*) och klicka på **Skapa**.
-
-   ![chlimage_1-10](assets/chlimage_1-10.png)
+1. Ange **namnet** för platsen (ange titeln som *TestLocation*) och klicka på **Skapa**.
 
 TestLocation ** skapas och läggs till i mappen **Locations** .
 
-![chlimage_1-11](assets/chlimage_1-11.png)
 
-### Skapa en ny visning för TestLocation {#creating-display}
+### Skapa en visning för plats {#creating-display}
 
 När du har skapat en plats måste du skapa en ny skärm för platsen.
 
-***Skärmar*** representerar den digitala upplevelse som körs på en eller flera skärmar.
+>[!NOTE]
+>***Skärmar*** representerar den digitala upplevelse som körs på en eller flera skärmar.
 
-1. Navigera till den plats där du vill skapa visningen (*Test_* Project —> **Locations** —> *TestLocation)* som visas i bilden ovan och välj *TestLocation*.
+1. Navigera till **TestLocation** och markera den.
 
 1. Klicka på **Skapa** i åtgärdsfältet.
+
 1. Välj **Visning** i guiden **Skapa** och klicka på **Nästa**.
 
-1. Ange **namn** och **titel** för visningsplatsen (ange titeln som *TestDisplay*).
+1. Ange **Titel** (*LobbyDisplay*).
 
-1. Välj information om layouten på fliken **Visa** .
-
-   1. Välj **Upplösning** som **Full HD**.
-
-   1. Välj **Antal enheter vågrätt** som 1.
-
-   1. Välj **Antal enheter lodrätt** som 1.
-
-   1. Klicka på **Skapa**.
+1. Klicka på **Skapa**.
 
 En ny skärm (*TestDisplay*) läggs till på platsen *TestLocation)*, vilket visas i bilden nedan.
-
-![chlimage_1-12](assets/chlimage_1-12.png)
 
 ### Tilldela en kanal {#assigning-channel}
 
 1. Navigera till visningen från *Test_Project* —> **Locations** —> *TestLocation* —> *TestDisplay*.
 
-1. Välj *TestDisplay* och tryck/klicka på **Tilldela kanal **i åtgärdsfältet, *eller*,
+1. Välj *TestDisplay* och tryck/klicka på **Tilldela kanal** i åtgärdsfältet, *eller*,
 
 1. Klicka på **Kontrollpanelen** och välj **+Tilldela kanal** längst upp till höger på panelen **TILLDELADE KANALER &amp; SCHEMALER** , som visas i bilden nedan. **Dialogrutan Kanaltilldelning** öppnas.
 
@@ -177,7 +166,7 @@ En ny skärm (*TestDisplay*) läggs till på platsen *TestLocation)*, vilket vis
 
 Kanalen skapas och läggs till på panelen.
 
-![chlimage_1-15](assets/chlimage_1-15.png)
+
 
 ### Registrera en enhet {#registering-device}
 
@@ -192,6 +181,6 @@ Du måste registrera din enhet med AEM kontrollpanel.
 
 När du har lagt till ovanstående konfigurationer bör spelaren automatiskt visa standardkanalen för visningen på din enhet.
 
-![chlimage_1-23](assets/chlimage_1-23.png)
+
 
 Mer information om AEM Screens Player finns i [AEM Screens Player](working-with-screens-player.md) .
