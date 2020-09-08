@@ -3,10 +3,10 @@ title: Kickstart Guide
 seo-title: Kickstart Guide
 description: Följ den här sidan för att skapa ett AEM Screens-demonstrationsprojekt. Det hjälper dig att skapa en digital signeringsupplevelse från installation och konfiguration av ett nytt projekt för att visa ditt innehåll i AEM Screens Player.
 translation-type: tm+mt
-source-git-commit: 78ddd2b45f39d69b66f740910327eef475bcdcac
+source-git-commit: 988872003c1d01c90ccdb38fa77c99019b9a6966
 workflow-type: tm+mt
-source-wordcount: '981'
-ht-degree: 0%
+source-wordcount: '985'
+ht-degree: 1%
 
 ---
 
@@ -18,7 +18,7 @@ I det här avsnittet kommer vi igång med AEM Screens och visar hur du konfigure
 >[!NOTE]
 >Kontrollera att du har installerat det senaste funktionspaketet innan du börjar arbeta med projektinformationen. Du kan ladda ned det senaste funktionspaketet för AEM Screens 6.5.5 från [Software Distribution Portal](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) med din Adobe ID.
 
-## Skapa en upplevelse av en digital skylt på 5 minuter {#creating-a-digital-signage-experience-in-minutes}
+## Förutsättningar {#prerequisites}
 
 Följ stegen nedan för att skapa ett exempelprojekt för AEM Screens och publicera innehåll ytterligare till Screens Player.
 
@@ -48,7 +48,7 @@ Följ stegen nedan för att skapa ett exempelprojekt för AEM Screens och public
 1. Klicka på **Spara** för att aktivera Apache Sling Referer-filtret Tillåt tomt.
 
 
-## Självstudiekurs {#tutorial}
+## Skapa en upplevelse av en digital skylt på 5 minuter {#creating-a-digital-signage-experience-in-minutes}
 
 ### Creating an AEM Screens Project {#creating-project}
 
@@ -134,11 +134,19 @@ När du har skapat en plats måste du skapa en ny skärm för platsen.
 
 1. Klicka på **Skapa** i åtgärdsfältet.
 
+   ![bild](assets/kickstart/demo-disp1.png)
+
 1. Välj **Visning** i guiden **Skapa** och klicka på **Nästa**.
+
+   ![bild](assets/kickstart/demo-disp2.png)
 
 1. Ange **Title** som **LobbyDisplay** och klicka på **Create**.
 
+   ![bild](assets/kickstart/demo-disp3.png)
+
 En ny skärm med namnet **TestDisplay** läggs nu till på din plats **TestLocation**, vilket visas i bilden nedan.
+
+![bild](assets/kickstart/demo-disp4.png)
 
 ### Tilldela en kanal {#assigning-channel}
 
