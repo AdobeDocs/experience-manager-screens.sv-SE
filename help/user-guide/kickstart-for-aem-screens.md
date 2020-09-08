@@ -3,9 +3,9 @@ title: Kickstart Guide
 seo-title: Kickstart Guide
 description: Följ den här sidan för att skapa ett AEM Screens-demonstrationsprojekt. Det hjälper dig att skapa en digital signeringsupplevelse från installation och konfiguration av ett nytt projekt för att visa ditt innehåll i AEM Screens Player.
 translation-type: tm+mt
-source-git-commit: 63e828543a8543cc8ced678221369fe1e0431f60
+source-git-commit: c1a8317b835e000478591e4caa94b92f32a123d2
 workflow-type: tm+mt
-source-wordcount: '1260'
+source-wordcount: '1259'
 ht-degree: 1%
 
 ---
@@ -168,7 +168,8 @@ När projektkonfigurationen är klar måste du tilldela kanalen till en skärm f
 
 1. I alternativet **Inställningar** väljer du kanal **efter sökväg** och **händelser** som stöds som **Inledande inläsning** och **Inaktiv skärm**.
 
-   >[ANMÄRKNING]
+   >[!NOTE]
+   >
    >Kanalrollen **,** prioritet **och** avbrottsmetoder **** fylls i som standard. Mer information om egenskaper för kanaltilldelning finns i avsnittet [Kanalegenskaper](/help/user-guide/channel-assignment-latest-fp.md#channel-properties) .
 
    ![bild](assets/kickstart/demo-assign3.png)
