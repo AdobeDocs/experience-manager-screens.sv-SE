@@ -3,9 +3,9 @@ title: Kickstart Guide
 seo-title: Kickstart Guide
 description: Följ den här sidan för att skapa ett AEM Screens-demonstrationsprojekt. Det hjälper dig att skapa en digital signeringsupplevelse från installation och konfiguration av ett nytt projekt för att visa ditt innehåll i AEM Screens Player.
 translation-type: tm+mt
-source-git-commit: c1a8317b835e000478591e4caa94b92f32a123d2
+source-git-commit: 6f95322e35861ef4b552c89320847d97f9644a4b
 workflow-type: tm+mt
-source-wordcount: '1259'
+source-wordcount: '1316'
 ht-degree: 1%
 
 ---
@@ -205,22 +205,51 @@ När din ChromeOS-spelare är aktiverad följer du stegen nedan för att registr
 
 1. Tryck/klicka på **Enhetshanteraren** i åtgärdsfältet.
 
+   ![bild](assets/kickstart/demo-register1.png)
+
 1. Tryck/klicka på **Enhetsregistrering** i det övre högra hörnet.
 
 1. Välj önskad enhet och tryck/klicka på **Registrera enhet**.
 
+   ![bild](assets/kickstart/demo-register2.png)
+
 1. Vänta tills enheten skickar sin registreringskod och kontrollera samtidigt **registreringskoden** från din Chrome-enhet.
+   ![bild](assets/kickstart/demo-register3.png)
 
 1. Om **registreringskoden** är densamma på båda datorerna trycker/klickar du på **Validera** i AEM.
 
-1. Ange önskat namn för enheten och klicka på **Registrera**.
+1. Ange det önskade namnet **ChromeDevice forDemo** för enheten och klicka på **Registrera**.
+
+   ![bild](assets/kickstart/demo-register4.png)
+
+1. Klicka på **Tilldela visning** i dialogrutan **Enhetsregistrering lyckades** .
+
+   ![bild](assets/kickstart/demo-register5.png)
+
+1. Välj sökvägen till din visning som **DemoScreens** —> **Locations** —> **TestLocation** —> **LobbyDisplay** och klicka på **Tilldela**.
+
+   ![bild](assets/kickstart/demo-device6.png)
+
+1. När enheten har tilldelats ser du följande bekräftelse.
+
+   ![bild](assets/kickstart/demo-register8.png)
 
 1. Tryck/klicka på **Slutför** för att slutföra registreringsprocessen.
 
+1. Du bör kunna visa din registrerade enhet från kontrollpanelen.
+
+   ![bild](assets/kickstart/demo-register9.png)
 
 ### Visa innehållet i Chrome Player {#viewing-content-output}
 
-I det här exemplet visas utdata på en Chrome Player. När du har tilldelat kanalen till din skärm måste du registrera enheten för en spelare.
+Alla resurser i din kanal spelas nu upp på din Chrome-enhet.
+
+Grattis till att du nu spelar upp innehåll i en AEM Screens-kanal!
+
+![bild](assets/kickstart/demo-video-screens.gif)
+
+
+
 
 
 
