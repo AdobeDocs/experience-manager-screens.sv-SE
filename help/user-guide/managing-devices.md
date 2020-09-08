@@ -10,7 +10,10 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
 discoiquuid: 8dc08e29-a377-4e84-84ee-442470c19019
 translation-type: tm+mt
-source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
+source-git-commit: 6d86710a5d0a4fd1cf6c0dc46961d231b0128f95
+workflow-type: tm+mt
+source-wordcount: '268'
+ht-degree: 2%
 
 ---
 
@@ -49,7 +52,6 @@ Följ stegen nedan för att tilldela en enhet till en skärm:
 
 1. Tryck/klicka på **Slutför** för att slutföra tilldelningsprocessen.
 
-   ![chlimage_1-36](assets/chlimage_1-36.png)
 
    På kontrollpanelen visas den tilldelade enheten på panelen **Enheter** .
 
