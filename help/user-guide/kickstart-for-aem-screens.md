@@ -3,9 +3,9 @@ title: Kickstart Guide
 seo-title: Kickstart Guide
 description: Följ den här sidan för att skapa ett AEM Screens-demonstrationsprojekt. Det hjälper dig att skapa en digital signeringsupplevelse från installation och konfiguration av ett nytt projekt för att visa ditt innehåll i AEM Screens Player.
 translation-type: tm+mt
-source-git-commit: 78aab8e8ad8ad9e3a3caf20fef044f507b5298a0
+source-git-commit: 78ddd2b45f39d69b66f740910327eef475bcdcac
 workflow-type: tm+mt
-source-wordcount: '985'
+source-wordcount: '981'
 ht-degree: 0%
 
 ---
@@ -91,9 +91,9 @@ När du väl har skapat kanalen måste du lägga till innehåll i kanalen som sk
 
 Följ stegen nedan för att lägga till innehåll i kanalen (*TestChannel*) i ditt projekt:
 
-1. Navigera till det *demoprojekt* du har skapat och markera mappen **Kanaler** .
+1. Navigera till det **demoprojekt** du har skapat och markera mappen **Kanaler** .
 
-1. Klicka på **Redigera** i åtgärdsfältet (se bilden nedan). Redigeraren för *TestChannel* öppnas.
+1. Klicka på **Redigera** i åtgärdsfältet (se bilden nedan). Redigeraren för **TestChannel** öppnas.
 
    ![bild](assets/kickstart/demo-6.png)
 
@@ -112,7 +112,7 @@ När du väl har skapat kanalen måste du skapa en plats.
 
 Följ stegen nedan för att skapa en ny plats för ditt projekt:
 
-1. Navigera till *DemoProject* som du har skapat och välj mappen **Platser** .
+1. Navigera till **DemoProject** som du har skapat och välj mappen **Platser** .
 
 1. Klicka på **+ Skapa** i åtgärdsfältet.
 
@@ -120,7 +120,7 @@ Följ stegen nedan för att skapa en ny plats för ditt projekt:
 
 1. Ange **namnet** för platsen (ange titeln som *TestLocation*) och klicka på **Skapa**.
 
-TestLocation ** skapas och läggs till i mappen **Locations** .
+TestLocation **** skapas och läggs till i mappen **Locations** .
 
 
 ### Skapa en visning för plats {#creating-display}
@@ -136,51 +136,41 @@ När du har skapat en plats måste du skapa en ny skärm för platsen.
 
 1. Välj **Visning** i guiden **Skapa** och klicka på **Nästa**.
 
-1. Ange **Titel** (*LobbyDisplay*).
+1. Ange **Title** som **LobbyDisplay** och klicka på **Create**.
 
-1. Klicka på **Skapa**.
-
-En ny skärm (*TestDisplay*) läggs till på platsen *TestLocation)*, vilket visas i bilden nedan.
+En ny skärm med namnet **TestDisplay** läggs nu till på din plats **TestLocation**, vilket visas i bilden nedan.
 
 ### Tilldela en kanal {#assigning-channel}
 
-1. Navigera till visningen från *Test_Project* —> **Locations** —> *TestLocation* —> *TestDisplay*.
+När projektkonfigurationen är klar måste du tilldela kanalen till en skärm för att kunna visa innehållet.
 
-1. Välj *TestDisplay* och tryck/klicka på **Tilldela kanal** i åtgärdsfältet, *eller*,
+1. Navigera till önskad visning, till exempel **DemoScreens** —> **Locations** —> **TestLocation** —> **LobbyDisplay**.
 
-1. Klicka på **Kontrollpanelen** och välj **+Tilldela kanal** längst upp till höger på panelen **TILLDELADE KANALER &amp; SCHEMALER** , som visas i bilden nedan. **Dialogrutan Kanaltilldelning** öppnas.
+1. Tryck/klicka på **Tilldela kanal** i åtgärdsfältet.
 
-1. Välj **referenskanal** efter **sökväg**
+   Eller
 
-1. Ange **kanalrollen** som *LiveStream*.
+   Tryck/klicka på **Kontrollpanel** i åtgärdsfältet och klicka på **+Tilldela kanal** på panelen **TILLDELADE KANALER &amp; SCHEMALER** .
 
-1. Markera **kanalsökvägen** (*Test_Project* —> *Kanaler* —> *TestChannel* ) i **kanalen**.
+1. Dialogrutan **Kanaltilldelning** öppnas.
 
-1. Välj **Prioritet** för den här kanalen som *1*.
-
-1. Välj **Händelser** som stöds som **Inledande inläsning** och **Inaktiv skärm**.
-
-1. Ange **Schedule** och välj de datum som är **aktiva från** och **aktiva till**.
-
-1. Click **Save**.
-
-Kanalen skapas och läggs till på panelen.
+1. I alternativet **Inställningar** kan du välja kanal **efter sökväg** eller **efter namn**, ange **kanalroll**, **prioritet**********,¥Supported Events och¥Interruption Methods. Du kan även aktivera verktygstipset för att dra till och från den här dialogrutan.
 
 
+   >[!NOTE]
+   >Mer information om egenskaper för kanaltilldelning finns i avsnittet [Kanalegenskaper](/help/user-guide/channel-assignment-latest-fp.md#channel-properties) .
+
+1. I alternativet **Schemalägg** väljer du **Aktiveringsfönstret** och **Återkommande schema**.
+
+1. Klicka på **Spara** när du har konfigurerat inställningarna.
 
 ### Registrera en enhet {#registering-device}
 
 Du måste registrera din enhet med AEM kontrollpanel.
 
->[!NOTE]
->Du kan öppna skärmspelaren med den AEM Screens-app du hämtade eller med webbläsaren.
+### Visa innehållet i Chrome Player {#viewing-content-output}
+
+I det här exemplet visas utdata på en Chrome Player. När du har tilldelat kanalen till din skärm måste du registrera enheten för en spelare.
 
 
 
-### Visa innehåll i AEM Screens Player {#viewing-the-content-in-screens-player}
-
-När du har lagt till ovanstående konfigurationer bör spelaren automatiskt visa standardkanalen för visningen på din enhet.
-
-
-
-Mer information om AEM Screens Player finns i [AEM Screens Player](working-with-screens-player.md) .
