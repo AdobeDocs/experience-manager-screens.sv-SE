@@ -2,7 +2,7 @@
 title: Konfiguration och felsökning av videouppspelning
 seo-title: Felsöka videoklipp
 description: null
-seo-description: Följ den här sidan för att lära dig hur du felsöker videoklipp. När du överför en video till DAM och lägger till den i din kanal kan det uppstå problem som videon kanske inte kan spelas upp i skärmspelaren och i det här avsnittet beskrivs hur du felsöker och felsöker videouppspelning i din kanal.
+seo-description: Följ den här sidan för att lära dig hur du felsöker videoklipp. När du överför en video till DAM och lägger till den i din kanal kan det uppstå problem som videon kanske inte kan spelas upp i skärmspelaren. I det här avsnittet beskrivs hur du felsöker och felsöker videouppspelning i din kanal.
 uuid: 825b2440-5626-40d5-8c93-7689c24474d4
 contentOwner: Jyotika Syal
 content-type: reference
@@ -10,7 +10,10 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: troubleshoot
 discoiquuid: 65ecc6f1-ba0e-443f-85a1-ac19f9a52c2c
 translation-type: tm+mt
-source-git-commit: 6abe309a8beb264f1505b6f39d786acc035bad05
+source-git-commit: 6d86710a5d0a4fd1cf6c0dc46961d231b0128f95
+workflow-type: tm+mt
+source-wordcount: '830'
+ht-degree: 0%
 
 ---
 
@@ -23,7 +26,7 @@ I följande avsnitt beskrivs hur du felsöker och felsöker videouppspelning i d
 
 ## DAM-återgivningar {#dam-renditions}
 
-När du har överfört videon till kanalen bör AEM börja skapa vissa renderingar för den. Du kan visa dina videor under Resurser.
+När du har överfört videon till kanalen bör AEM börja skapa vissa återgivningar för den. Du kan visa dina videor under Resurser.
 
 Så här visar du videon:
 
@@ -42,7 +45,7 @@ Om det inte finns någon återgivning kontrollerar du att du har ffmpeg installe
 
 ## Videoresurser {#video-assets}
 
-Om du inte ser något källattribut under video kan det bero på att videon inte har transkodats. Om videon omkodas korrekt visas den på kontrollpanelen, vilket visas i figuren nedan.
+Om du inte ser något källattribut under video kan det bero på att videon inte har transkodats. Om videon är korrekt transkodad visas den på kontrollpanelen, vilket visas i figuren nedan.
 
 Kontrollera att fmpeg är installerat och videoprofilerna.
 
@@ -78,9 +81,9 @@ Kontrollera listan med profiler från siddesignen om videokomponenten inte är k
 
 1. Markera videon och öppna dialogrutan **Redigera** . Öppna fliken **Profiler** .
 
-   Välj olika profiler (det ska finnas minst en H.264-profil med hög kvalitet).
+   >[!NOTE
+   >Välj olika profiler (det ska finnas minst en H.264-profil med hög kvalitet).
 
-   ![chlimage_1-7](assets/chlimage_1-7.png)
 
 ### Kontrollera videon i webbspelaren {#checking-the-video-in-the-web-player}
 
@@ -103,7 +106,7 @@ Följ de här stegen för att använda ett DAM-arbetsflöde för att skapa FullH
 
 #### Felsökning av flaggan för automatisk uppspelningsprincip {#troubleshooting-autoplay-policy-flag}
 
-Om AEM Screens Player hämtar videon men inte visar den måste du felsöka flaggan för automatisk uppspelningsprincip.
+Om AEM Screens-spelaren hämtar videon men inte visar den måste du felsöka flaggan för automatisk uppspelningspolicy.
 
 Följ stegen nedan för att felsöka Googles problem med automatisk uppspelningspolicyflagga:
 
@@ -140,11 +143,10 @@ Följ stegen nedan för att konfigurera en absolut strategi:
 1. Öppna konfigurationsdialogrutan.
 1. Redigera **strategin** och lägg till absolut.
 
-![chlimage_1-8](assets/chlimage_1-8.png)
+   ![chlimage_1-8](assets/chlimage_1-8.png)
 
->[!NOTE]
->
->Spelarnas operativsystem måste ha samma klocka.
+   >[!NOTE]
+   >Spelarnas operativsystem måste ha samma klocka.
 
 **Justera klockor i OS X** Följ stegen nedan för att justera klockorna i OSX:
 
