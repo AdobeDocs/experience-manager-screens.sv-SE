@@ -4,9 +4,9 @@ seo-title: Aktivering på tillgångsnivå
 description: Följ den här sidan för att lära dig hur du aktiverar en specifik resurs i en kanal för en schemalagd tidsram i spelarens lokala tidszon.
 seo-description: Följ den här sidan för att lära dig hur du aktiverar en specifik resurs i en kanal för en schemalagd tidsram i spelarens lokala tidszon.
 translation-type: tm+mt
-source-git-commit: 8492bdd071ae029a68ec4a4983c79ce326cac38b
+source-git-commit: 2a3bbdd283f983cbdb5f21b606f508603385e041
 workflow-type: tm+mt
-source-wordcount: '1452'
+source-wordcount: '1445'
 ht-degree: 0%
 
 ---
@@ -21,16 +21,16 @@ Följande ämnen behandlas i detta avsnitt:
 * Översikt
 * Aktiveringsfönster
 * Uppspelning av enstaka händelse
-* Hantera upprepning i resurser
-   * Dag-parsning
-   * Veckodelning
-   * Månadsdelning
+* Hantera återkommande i resurser
+   * DayParting
+   * WeekParting
+   * MånadDelning
    * Kombination av partner
 * Aktivering av flera resurser
 
 >[!CAUTION]
 >
->Funktionen AEM Screens är endast tillgänglig om du har AEM 6.3 Feature Pack 3 eller AEM 6.4 Screens Feature Pack 1.
+>Denna AEM Screens-funktionalitet är endast tillgänglig om du har installerat AEM 6.3 Feature Pack 3 eller AEM 6.4 Screens Feature Pack 1.
 >
 >Om du vill få tillgång till det här funktionspaketet måste du kontakta Adobe Support och begära åtkomst. När du har behörighet kan du hämta den från paketresursen.
 
@@ -76,7 +76,7 @@ Följ stegen nedan för att utföra planering på tillgångsnivå:
 
    ![bild](/help/user-guide/assets/asset-activation/asset-level3.png)
 
-## Hantera upprepning i resurser {#handling-recurrence-in-assets}
+## Hantera återkommande i resurser {#handling-recurrence-in-assets}
 
 Du kan schemalägga att mediefiler ska återkomma med vissa intervall på daglig, veckovis eller månadsbasis efter behov.
 
@@ -109,7 +109,7 @@ I följande tabell sammanfattas några exempeluttryck som du kan lägga till i s
 >
 >Du kan också använda _militär_ tidsnotation (d.v.s. 14:00) i stället för *AM/pm* -notation (d.v.s. 2:00).
 
-### Veckodelning {#week-parting}
+### WeekParting {#week-parting}
 
 1. Markera resursen och klicka på **Konfigurera** (skiftnyckelsikon) för att öppna dialogrutan Egenskaper.
 
@@ -120,7 +120,7 @@ I följande tabell sammanfattas några exempeluttryck som du kan lägga till i s
 
 1. Ange uttrycket i **Schedule** så visas resursen för det angivna intervallet på dag och tid.
 
-#### Exempeluttryck för veckodelning {#example-two}
+#### Exempeluttryck för WeekParting {#example-two}
 
 I följande tabell sammanfattas några exempeluttryck som du kan lägga till i schemat när du tilldelar kanal till en visning.
 
@@ -134,7 +134,7 @@ I följande tabell sammanfattas några exempeluttryck som du kan lägga till i s
 >Du kan också använda _fullständig_ notation (d.v.s. måndag, onsdag, fredag) i stället för _kort_ notation (d.v.s. Mon,Wed,Fri).
 
 
-### Månadsdelning {#month-parting}
+### MånadDelning {#month-parting}
 
 1. Markera resursen och klicka på **Konfigurera** (skiftnyckelsikon) för att öppna dialogrutan Egenskaper.
 
@@ -145,7 +145,7 @@ I följande tabell sammanfattas några exempeluttryck som du kan lägga till i s
 
 1. Ange uttrycket i **Schedule** så visas resursen för det angivna intervallet på dag och tid.
 
-#### Exempeluttryck för månadsdelning {#example-three}
+#### Exempeluttryck för MonthParting {#example-three}
 
 I följande tabell sammanfattas några exempeluttryck som du kan lägga till i schemat när du tilldelar kanal till en visning.
 
@@ -192,7 +192,7 @@ I följande tabell sammanfattas några exempeluttryck som du kan lägga till i s
 
 ### Förutsättningar {#prerequisites}
 
-Om du vill använda aktivering på flera tillgångsnivåer för dina resurser skapar du ett AEM Screens-projekt med en sekvenskanal. I följande exempel visas implementeringen av funktionen:
+Skapa ett AEM Screens-projekt med en sekvenskanal om du vill använda multimedieaktivering för dina resurser. I följande exempel visas implementeringen av funktionen:
 
 * Skapa ett AEM Screens-projekt med namnet **MultiAssetDemo**
 * Skapa en kanal med namnet **MultiAssetChannel** och lägg till innehåll i kanalen, enligt bilden nedan
