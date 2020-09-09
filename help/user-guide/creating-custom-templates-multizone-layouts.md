@@ -5,9 +5,9 @@ description: Följ den här sidan om du vill veta mer om hur du skapar egna mall
 seo-description: Följ den här sidan om du vill veta mer om hur du skapar egna mallar i MultiZone-layouter.
 contentOwner: Jyotika Syal
 translation-type: tm+mt
-source-git-commit: 8492bdd071ae029a68ec4a4983c79ce326cac38b
+source-git-commit: 2a3bbdd283f983cbdb5f21b606f508603385e041
 workflow-type: tm+mt
-source-wordcount: '948'
+source-wordcount: '947'
 ht-degree: 1%
 
 ---
@@ -30,7 +30,7 @@ Det finns två viktiga saker att tänka på innan du skapar en anpassad mall i e
 
 1. **Namngivningskonvention**:
 
-   Innan du förstår hur du skapar anpassade mallar för flera zoner som ska användas i ett AEM Screens-projekt bör du förstå variationen i mallarna som du vill skapa.
+   Innan du vet hur du skapar anpassade mallar för flera zoner som ska användas i ett AEM Screens-projekt bör du förstå variationen i de mallar du vill skapa.
 
    | **Layoutnamn** | **Beskrivning** |
    |---|---|
@@ -108,7 +108,7 @@ Följ stegen nedan för att skapa en Left20-LandscapeHD3Zone-layout för ett AEM
 
 1. Navigera till `/apps/settings/wcm/designs/custom-template-designs` och skapa en fil som static.css.
 
-1. Kopiera innehållet till filen static.css:
+1. Kopiera innehållet till `static.css` filen:
 
    ```shell
        /*my-custom-layout styles*/
