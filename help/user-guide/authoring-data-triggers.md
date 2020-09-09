@@ -3,7 +3,7 @@ title: Skapa med Data Triggers
 seo-title: Skapa med Data Triggers
 description: Följ den här sidan för att lära dig hur du skapar med datautlösare.
 translation-type: tm+mt
-source-git-commit: f25176be89424059b8c51296969f069687328536
+source-git-commit: 2a3bbdd283f983cbdb5f21b606f508603385e041
 workflow-type: tm+mt
 source-wordcount: '375'
 ht-degree: 0%
@@ -21,7 +21,7 @@ I det här avsnittet beskrivs hur du aktiverar målinriktning i dina kanaler.
 
 ## Förutsättningar {#prereqs}
 
-Innan du följer stegen nedan för att aktivera målinriktning i kanaler måste du lära dig de [nyckeltermer i Konfigurera i AEM Screens](configuring-context-hub.md) som krävs för att förstå ContextHub och Target i AEM Screens.
+Innan du följer stegen nedan för att aktivera målinriktning i kanaler måste du lära dig de [nyckeltermer i Konfigurera i AEM Screens](configuring-context-hub.md) som krävs för att förstå ContextHub och Targeting i AEM Screens.
 
 >[!IMPORTANT]
 >
@@ -42,7 +42,7 @@ När du har slutfört de föregående stegen är du redo att aktivera målinrikt
 
 Följ stegen nedan för att aktivera målinriktning i dina kanaler.
 
-1. Navigera till en av AEM Screens-kanalerna. Följande steg visar hur du aktiverar mål genom att använda **DataDrivenRetail** *(sekvenskanal)* som skapats i en AEM Screens-kanal.
+1. Navigera till en av AEM Screens-kanalerna. I följande steg visas hur du aktiverar mål genom att använda **DataDrivenRetail** *(sekvenskanal)* som skapats i en AEM Screens-kanal.
 
 1. Välj kanalen **DataDrivenRetail** och klicka på **Egenskaper** i åtgärdsfältet.
 
@@ -80,4 +80,3 @@ När du har konfigurerat ContextHub för ditt AEM Screens-projekt kan du följa 
 1. **[Målinställd aktivering för butikslager](retail-inventory-activation.md)**
 1. **[Temperaturaktivering i resecentret](local-temperature-activation.md)**
 1. **[Aktivering av hotellreservation](hospitality-reservation-activation.md)**
-
