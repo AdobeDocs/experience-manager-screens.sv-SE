@@ -11,9 +11,9 @@ topic-tags: authoring
 discoiquuid: a8006686-8ee5-4971-ab79-0c7b01f108f2
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 2a3bbdd283f983cbdb5f21b606f508603385e041
+source-git-commit: f2b5b2cb35a43990ed74b259d8da3837118a65ae
 workflow-type: tm+mt
-source-wordcount: '1399'
+source-wordcount: '1343'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 # Skapa och hantera kanaler {#creating-and-managing-channels}
 
-En kanal visar en sekvens med innehåll och visar bilder och videoklipp, men de kan också visa en webbplats eller ett ensidigt program.
+En kanal visar en sekvens med innehåll och visar bilder och videoklipp, men kan även visa en webbplats eller ett ensidigt program.
 
 På den här sidan visas hur du skapar och hanterar kanaler för skärmar.
 
@@ -32,16 +32,25 @@ På den här sidan visas hur du skapar och hanterar kanaler för skärmar.
 
 ## Skapa en ny kanal {#creating-a-new-channel}
 
-När du har skapat ett projekt för skärmar följer du stegen nedan för att skapa en ny kanal för ett skärmsprojekt:
+När du har skapat ditt projekt för AEM Screens följer du stegen nedan för att skapa en ny kanal för ditt projekt:
 
-1. Klicka på länken Adobe Experience Manager (längst upp till vänster) och sedan på Skärmar. Du kan också gå direkt till: `https://localhost:4502/screens.html/content/screens`.
-1. Navigera till Skärmprojekt och klicka på **Kanaler**.
-1. Klicka på **Skapa** bredvid plusikonen i åtgärdsfältet. En guide öppnas (*mer information* finns i Kanaltyper).
+1. Klicka på länken Adobe Experience Manager (längst upp till vänster) och sedan på Skärmar. Du kan även navigera direkt till: `https://localhost:4502/screens.html/content/screens`.
 
-1. Välj mallen i guiden och klicka på **Nästa**.
-1. Ange egenskaperna för **Titel och Taggar**, **Fler titlar och beskrivningar**, **På/Av-tid** och **Vanity-URL**.
+1. Navigera till projektet Skärmar och välj mappen **Kanaler** .
 
-1. Klicka på **Skapa** så skapas kanalen och läggs till i kanalmappen.
+1. Klicka på **Skapa** i åtgärdsfältet.
+
+   ![demochannel](assets/create-channel1.png)
+
+1. Välj mallen **Sekvenskanal** i guiden **Skapa** och klicka på **Nästa**.
+
+   ![demochannel](assets/create-channel2.png)
+
+1. Ange titeln som **Skärmkanal** och klicka på **Skapa**.
+
+   ![demochannel](assets/create-project4.png)
+
+1. En sekvenskanal har nu lagts till i mappen **Kanaler** .
 
 ### Kanaltyper {#channel-types}
 
@@ -62,14 +71,6 @@ Följande mallalternativ är tillgängliga när du använder guiden, till exempe
 >[!NOTE]
 >
 >Kanalerna för delad skärm delar upp visningen i flera zoner så att du kan spela upp flera upplevelser samtidigt, sida vid sida. Upplevelserna kan antingen vara statiska resurser/text eller inbäddade sekvenser.
-
-I följande exempel visas hur du skapar en Sequence Channel (*ChannelOne*) för ett skärmsprojekt (*DemoProject*).
-
-![demochannel](assets/demochannel.gif)
-
->[!NOTE]
->
->Du kan skapa olika zoner med hjälp av mallalternativen 1x2, 2x2 eller 2 till 3 delade skärmkanaler som nämns ovan.
 
 >[!IMPORTANT]
 >
