@@ -11,7 +11,10 @@ topic-tags: troubleshoot
 discoiquuid: 3f130808-71e8-4710-8181-021d953660f8
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 209a9a833957d9a8bb7c7ec70ff421514f5b974c
+source-git-commit: 2a3bbdd283f983cbdb5f21b606f508603385e041
+workflow-type: tm+mt
+source-wordcount: '801'
+ht-degree: 1%
 
 ---
 
@@ -97,7 +100,6 @@ Klicka på (**..**) i det övre högra hörnet av panelen Skärmbild i Player oc
 På panelen **INSTÄLLNINGAR** kan användaren ändra inställningarna för **administratörsgränssnittet**, **kanalväljaren** och **fjärrfelsökning** för enheten.
 
 >[!NOTE]
->
 >Mer information om detta finns i [AEM Screens Player](working-with-screens-player.md).
 
 ![screen_shot_2019-09-05at14250pm](assets/screen_shot_2019-09-05at14250pm.png)
@@ -113,25 +115,21 @@ Klicka dessutom på **Inställningar** i det övre högra hörnet för att uppda
 ![screen_shot_2019-09-05at14511pm](assets/screen_shot_2019-09-05at14511pm.png)
 
 >[!NOTE]
->
 >Du kan välja någon av följande loggnivåer:
->
 >* **Inaktivera**
 >* **Felsök**
 >* **Information**
 >* **Varning**
 >* **Fel**
->
-
 
 
 ![screen_shot_2019-09-05at15645pm](assets/screen_shot_2019-09-05at15645pm.png)
 
-## Felsöka OSGI-inställningar {#troubleshoot-osgi-settings}
+## Felsöka OSGi-inställningar {#troubleshoot-osgi-settings}
 
 Du måste aktivera den tomma referenten för att enheten ska kunna skicka data till servern. Om t.ex. den tomma refereraregenskapen är inaktiverad, kan enheten inte publicera en skärmdump.
 
-Vissa av dessa funktioner är för närvarande bara tillgängliga om *Apache Sling Referrer-filtret Tillåt tomt* är aktiverat i OSGI-konfigurationen. Kontrollpanelen kan visa en varning om att skyddsinställningarna kan förhindra vissa av dessa funktioner från att fungera.
+Vissa av dessa funktioner är för närvarande bara tillgängliga om filtret Tillåt tomt *i* Apache Sling Referrer är aktiverat i OSGi-konfigurationen. Kontrollpanelen kan visa en varning om att skyddsinställningarna kan förhindra vissa av dessa funktioner från att fungera.
 
 Följ stegen nedan för att aktivera filtret Tillåt tomt för Apache Sling Referrer-filtret
 
@@ -141,18 +139,18 @@ Följ stegen nedan för att aktivera filtret Tillåt tomt för Apache Sling Refe
 
 ![chlimage_1-3](assets/chlimage_1-3.png)
 
-### Rekommendationer {#recommendations}
+### Recommendations {#recommendations}
 
 I följande avsnitt rekommenderas övervakning av nätverkslänkar, servrar och spelare för att förstå hälsan och reagera på problem.
 
 AEM har inbyggd övervakning för:
 
-* *Varannan sekund som visar att AEM Screens Player är i drift visas* .
+* *pulsslag* var femte sekund för att indikera att AEM Screens Player är i drift.
 * *Skärmbild* från spelaren som visar vad som för närvarande visas i spelaren.
-* Den version av *AEM Screens Player Firmware* som är installerad i spelaren.
+* Den version av *AEM Screens Player Firmware* som är installerad på spelaren.
 * *Ledigt lagringsutrymme* i spelaren.
 
-Rekommendationer för fjärrövervakning med programvara från tredje part:
+Recommendations för fjärrövervakning med program från tredje part:
 
 * CPU-användning för spelare.
 * Kontrollera om AEM Screens Player-processen körs.
@@ -161,6 +159,6 @@ Rekommendationer för fjärrövervakning med programvara från tredje part:
 
 Vi rekommenderar att du driftsätter Player-maskinvaran och operativsystemet på ett sätt som gör att fjärrinloggning kan diagnostisera problem och starta om spelaren.
 
-#### Additional Resources {#additional-resources}
+#### Ytterligare resurser {#additional-resources}
 
-Se Konfigurera och felsöka [videouppspelning](troubleshoot-videos.md) för att felsöka och felsöka videoklipp som spelas upp i din kanal.
+Se Konfigurera [videouppspelning och Felsökning](troubleshoot-videos.md) för att felsöka och felsöka videoklipp som spelas upp i din kanal.
