@@ -11,9 +11,9 @@ topic-tags: administering
 discoiquuid: 0c7d6248-8ac0-4387-8725-57ed941f28f7
 docset: aem65
 translation-type: tm+mt
-source-git-commit: acc0278631a4be2c90de7cc43d3b40a358ffa93e
+source-git-commit: 2a3bbdd283f983cbdb5f21b606f508603385e041
 workflow-type: tm+mt
-source-wordcount: '750'
+source-wordcount: '751'
 ht-degree: 0%
 
 ---
@@ -47,7 +47,7 @@ Följ stegen nedan för att kontrollera om dessa två viktiga konfigurationer ä
    ![resurser](assets/health-check1.png)
 
 
-2. Klicka på **Kör markerade hälsokontroller** för att köra valideringen för två egenskaper som anges ovan.
+2. Klicka på **Kör markerade hälsokontroller** för att köra valideringen för två egenskaper som listas ovan.
 
    Om båda filtren är aktiverade visar hälsotjänsten **för** skärmkonfiguration **resultatet** som **OK** med båda konfigurationerna aktiverade.
 
@@ -108,7 +108,7 @@ AEM Screens kräver ett TOUCH-gränssnitt och fungerar inte med CLASSIC-gränssn
 1. Navigera till *&lt;yourAuthorInstance>/system/console/configMgr/com.day.cq.wcm.core.impl.AuthoringUIModeServiceImpl*
 1. Kontrollera att standardläget **för** redigeringsgränssnittet är inställt på **TOUCH**, vilket visas i figuren nedan
 
-Du kan också göra samma inställning med *&lt;yourAuthorInstance>*->*tools (hammer icon)* -> **Operations** -> **Web Console** och söka efter **WCM-redigeringens användargränssnittstjänst**.
+Du kan också göra samma inställning med hjälp av verktygen Författarinstans *->* (hammikon) -> **Åtgärder** -> **Webbkonsol** och söka efter **tjänsten** för användargränssnittsläge för WCM-redigering.
 
 ![screen_shot_2018-12-04at22425pm](assets/screen_shot_2018-12-04at22425pm.png)
 
@@ -118,7 +118,7 @@ Du kan också göra samma inställning med *&lt;yourAuthorInstance>*->*tools (ha
 
 #### AEM i NOSAMPLECONTENT, körningsläge {#aem-in-nosamplecontent-runmode}
 
-När du kör AEM i produktion används körningsläget **NOSAMPLECONTENT** . Ta *bort rubriken X-Frame-Options=SAMEORIGIN* (i det extra svarshuvudet) från
+När du kör AEM i produktion används körningsläget **NOSAMPLECONTENT** . Ta bort sidhuvudet *X-Frame-Options=SAMEORIGIN* (i det extra svarshuvudet) från
 
 `https://localhost:4502/system/console/configMgr/org.apache.sling.engine.impl.SlingMainServlet`.
 
@@ -136,7 +136,7 @@ Följ stegen nedan för att konfigurera ***DeviceServiceImpl***:
 
 1. Gå till **Adobe Experience Manager Web Console Configuration** via AEM:> hammer icon —> **Operations** —> **Web Console**.
 
-1. **Adobe Experience Manager Web Console Configuration **öppnas. Sök efter enhetstjänst. Om du vill söka efter egenskapen trycker du på **Command+F** för **Mac** och **Ctrl+F** för **Windows**.
+1. **Adobe Experience Manager Web Console Configuration **öppnas. Sök efter *enhetstjänst*. Om du vill söka efter egenskapen trycker du på **Command+F** för **Mac** och **Ctrl+F** för **Windows**.
 
 ![screen_shot_2019-07-31at92058am](assets/screen_shot_2019-07-31at92058am.png)
 
