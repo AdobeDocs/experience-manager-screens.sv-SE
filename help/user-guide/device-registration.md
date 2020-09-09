@@ -1,8 +1,8 @@
 ---
 title: Enhetsregistrering
 seo-title: Enhetsregistrering
-description: Den här sidan beskriver enhetsregistreringsprocessen i ett AEM Screens-projekt.
-seo-description: Den här sidan beskriver enhetsregistreringsprocessen i ett AEM Screens-projekt.
+description: På den här sidan beskrivs enhetsregistreringsprocessen i ett AEM Screens-projekt.
+seo-description: På den här sidan beskrivs enhetsregistreringsprocessen i ett AEM Screens-projekt.
 uuid: 5365e506-1641-4a0c-b34d-c39da02f700b
 contentOwner: jsyal
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
@@ -11,29 +11,33 @@ topic-tags: administering
 discoiquuid: 523084f6-bd71-4daf-95b7-fc4c481f76dc
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 209a9a833957d9a8bb7c7ec70ff421514f5b974c
+source-git-commit: 2a3bbdd283f983cbdb5f21b606f508603385e041
+workflow-type: tm+mt
+source-wordcount: '562'
+ht-degree: 0%
 
 ---
 
 
 # Enhetsregistrering {#device-registration}
 
-Följande sida beskriver enhetsregistreringsprocessen i ett AEM Screens-projekt.
+På följande sida beskrivs enhetsregistreringsprocessen i ett AEM Screens-projekt.
 
 ## Registrera en enhet {#registering-a-device}
 
 Enhetsregistreringsprocessen görs på två olika datorer:
 
 * Den faktiska enhet som ska registreras, till exempel din skyltskärm
-* Den AEM-server som används för att registrera din enhet
+* Den AEM som används för att registrera din enhet
 
 >[!NOTE]
 >
 >När du har laddat ned den senaste versionen av Windows Player (*.exe*) från [AEM 6.4 Player Downloads](https://download.macromedia.com/screens/) följer du stegen på spelaren för att slutföra ad hoc-installationen:
 >
 >1. Tryck länge på det övre vänstra hörnet för att öppna administrationspanelen.
->1. Navigera till **Konfiguration** på den vänstra åtgärdsmenyn, ange platsadressen för AEM-instansen i **Server** och klicka på **Spara**.
+>1. Navigera till **Konfiguration** på den vänstra åtgärdsmenyn, ange platsadressen för AEM i **Server** och klicka på **Spara**.
 >1. Klicka på länken **Registrering** i den vänstra åtgärdsmenyn och på stegen nedan för att slutföra enhetsregistreringsprocessen.
+
 >
 
 
@@ -44,11 +48,11 @@ Enhetsregistreringsprocessen görs på två olika datorer:
 
    ![screen_shot_2018-11-26at104230am](assets/screen_shot_2018-11-26at104230am.png)
 
-1. I AEM navigerar du till mappen **Devices** i ditt projekt.
+1. I AEM navigerar du till mappen **Enheter** i ditt projekt.
 
    >[!NOTE]
    >
-   >Mer information om hur du skapar ett nytt projekt för skärmar på AEM-kontrollpanelen finns i [Skapa och hantera skärmsprojekt](creating-a-screens-project.md).
+   >Mer information om hur du skapar ett nytt projekt för skärmar på AEM kontrollpanel finns i [Skapa och hantera skärmsprojekt](creating-a-screens-project.md).
 
 1. Tryck/klicka på knappen **Enhetshanteraren** i åtgärdsfältet.
 
@@ -62,7 +66,7 @@ Enhetsregistreringsprocessen görs på två olika datorer:
 
    ![screen_shot_2018-11-26at105112am](assets/screen_shot_2018-11-26at105112am.png)
 
-1. I AEM väntar du tills enheten skickar sin registreringskod.
+1. AEM väntar på att enheten ska skicka sin registreringskod.
 
    ![screen_shot_2018-11-26at105150am](assets/screen_shot_2018-11-26at105150am.png)
 
@@ -135,6 +139,6 @@ javax.jcr.nodetype.ConstraintViolationException: Password violates password cons
         at org.apache.jackrabbit.oak.security.user.UserManagerImpl.onPasswordChange(UserManagerImpl.java:308)
 ```
 
-### Additional Resources {#additional-resources}
+### Ytterligare resurser {#additional-resources}
 
 Mer information om AEM Screens Player finns i [AEM Screens Player](working-with-screens-player.md).
