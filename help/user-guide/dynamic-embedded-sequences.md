@@ -10,7 +10,10 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
 discoiquuid: a40eb5bb-fbf7-4c0d-a34a-db79b884de8f
 translation-type: tm+mt
-source-git-commit: b39c76fc7af4fb46596d4a995fe011d00b212d7c
+source-git-commit: 2a3bbdd283f983cbdb5f21b606f508603385e041
+workflow-type: tm+mt
+source-wordcount: '2535'
+ht-degree: 0%
 
 ---
 
@@ -20,7 +23,7 @@ source-git-commit: b39c76fc7af4fb46596d4a995fe011d00b212d7c
 Användning av dynamiska inbäddade sekvenser omfattar följande ämnen:
 
 * **Översikt**
-* **Använda dynamisk inbäddad upplevelse i AEM-skärmar**
+* **Använda dynamisk inbäddad upplevelse i AEM Screens**
 * **Visa resultaten**
 * **Begränsa användare och ändra åtkomstkontrollistor**
 
@@ -46,7 +49,7 @@ Med hjälp av en *kanal efter roll* kan du skapa en lokal version av en kanal, f
 >
 >***Med dynamiska inbäddade sekvenser*** kan du visa platsspecifikt innehåll medan ***inbäddade sekvenser*** endast visar allmänna bildspel av innehållet. När du konfigurerar dynamiska inbäddade sekvenser måste du dessutom konfigurera kanalen med kanalroll och namn. Se stegen nedan för en praktisk implementering.
 >
->Mer information om hur du implementerar inbäddade sekvenser finns i [Inbäddade sekvenser](embedded-sequences.md) i AEM-skärmar.
+>Mer information om hur du implementerar inbäddade sekvenser finns i [Inbäddade sekvenser](embedded-sequences.md) i AEM Screens.
 
 I följande exempel får du en lösning genom att fokusera på följande nyckeltermer:
 
@@ -56,11 +59,11 @@ I följande exempel får du en lösning genom att fokusera på följande nyckelt
 
 >[!NOTE]
 >
->Mer information om kanaltilldelning finns i **[Kanaltilldelning](channel-assignment.md)**under Redigering i dokumentationen för AEM-skärmar.
+>Mer information om kanaltilldelning finns i **[Kanaltilldelning](channel-assignment.md)** under Redigering i AEM Screens-dokumentationen.
 
 ## Använda dynamisk inbäddad sekvens {#using-dynamic-embedded-sequence-2}
 
-I följande avsnitt beskrivs hur du skapar en dynamisk inbäddad sekvens i en AEM-skärmkanal.
+I följande avsnitt beskrivs hur du skapar en dynamisk inbäddad sekvens i en AEM Screens-kanal.
 
 ### Förutsättningar {#prerequisites}
 
@@ -87,11 +90,12 @@ Du kan hämta följande resurser (bilder och lägga till dem i resurser) och sed
 >
 >* **[Skapa och hantera projekt](creating-a-screens-project.md)**
 >* **[Hantera en kanal](managing-channels.md)**
+
 >
 
 
 
-Implementering av dynamisk inbäddad sekvens i ett AEM-skärmsprojekt innefattar tre viktiga uppgifter:
+Implementering av Dynamic Embedded Sequence i ett AEM Screens-projekt innefattar tre viktiga uppgifter:
 
 1. **Konfigurera Project-taxonomin inklusive kanaler, platser och bildskärmar**
 1. **Skapa ett schema**
@@ -105,7 +109,7 @@ Följ stegen nedan för att implementera funktionen:
 
 1. **Skapa en mapp med två platser.**
 
-   Navigera till mappen **Platser** i ditt AEM Screens-projekt och skapa två platsmappar som **Region A** och **Region B**.
+   Navigera till **platsmappen** i ditt AEM Screens-projekt och skapa två platsmappar som **Region A** och **Region B**.
 
    >[!NOTE]
    >
@@ -116,7 +120,6 @@ Följ stegen nedan för att implementera funktionen:
    ![screen_shot_2018-09-13at23212pm](assets/screen_shot_2018-09-13at23212pm.png)
 
    >[!NOTE]
-   >
    >Mer information om hur du skapar en plats finns i **[Skapa och hantera platser](managing-locations.md)**.
 
 1. **Skapa två platser och en kanal under varje platsmapp.**
@@ -124,7 +127,8 @@ Följ stegen nedan för att implementera funktionen:
    1. Navigera till **Demo** —> **Platser** —> **Region A**.
    1. Markera **område A** och klicka på **+ Skapa** i åtgärdsfältet.
    1. Välj **Plats** i guiden med **Titel** som **Store 1**. Skapa en annan plats från guiden som heter **Store 2** med **Title** as **Store 2**. Du kan lämna fältet **Namn** tomt när du skapar **Store 1** och **Store 2**.
-   1. Upprepa steg b och välj **Sekvenskanal** i guiden. Ange **Title** som **Region A** och **Name** som **region **för den här kanalen.
+   1. Upprepa steg b och välj **Sekvenskanal** i guiden. Ange **Titel** som **Region A** och **Namn** som **region** för den här kanalen.
+
    >[!CAUTION]
    >
    >Kontrollera att du anger **Title** som **Region A** och **Name** som **region när du skapar kanalområde A** ****.
@@ -145,10 +149,10 @@ Följ stegen nedan för att implementera funktionen:
    1. Välj **Store 1** och klicka på **+ Create** i åtgärdsfältet.
    1. Välj **Visa** i guiden och skapa **Store1Display.**
    1. Upprepa steg b och välj sedan **Sekvenskanal** i guiden. Ange **Title** som **Store1Channel** och **Name** as **store**.
+
    >[!CAUTION]
    >
    >När du skapar en sekvenskanal är det viktigt att kanalens **namn** är som du vill, men **namnet** ska vara detsamma i alla lokala kanaler.
-   >
    >I det här exemplet har kanalerna under **Region A** och **Region B** samma **namn** som **region** och kanaler under **Store 1************** **** ****,¥Store 2,¥Store 3¥ och¥Store 4¥ samma¥Name¥ somstore¥¥.
 
    ![screen_shot_2018-09-19at120206pm](assets/screen_shot_2018-09-19at120206pm.png)
@@ -156,7 +160,6 @@ Följ stegen nedan för att implementera funktionen:
    På samma sätt kan du skapa en skärm som **Store2Display** och en channel **Store2Channel** under **Store 2** (med namnet **store**).
 
    >[!NOTE]
-   >
    >Se till att du kan använda samma namn för de kanaler som skapas i **Store 1** och **Store 2** som **store**.
 
    ![screen_shot_2018-09-19at120329pm](assets/screen_shot_2018-09-19at120329pm.png)
@@ -176,7 +179,6 @@ Följ stegen nedan för att implementera funktionen:
    Navigera till **Demo** -> **Platser** -> **Region A** -> **Region A** och klicka på **Redigera** i åtgärdsfältet. Dra och släpp de resurser du vill lägga till i kanalen.
 
    >[!NOTE]
-   >
    >Du kan använda ***Resources.zip*** -filen i avsnittet **Resources** ovan om du vill använda bilderna som resurser för kanalinnehållet.
 
    ![screen_shot_2018-09-12at12438pm](assets/screen_shot_2018-09-12at12438pm.png)
@@ -194,7 +196,7 @@ Följ stegen nedan för att implementera funktionen:
 
 1. **Skapa ett schema**
 
-   Navigera till och välj mappen **Scheman** i ditt AEM Screens-projekt och klicka på **Skapa** i åtgärdsfältet för att skapa ett nytt schema.
+   Navigera till och markera **mappen Scheman** i ditt AEM Screens-projekt och klicka på **Skapa** i åtgärdsfältet för att skapa ett nytt schema.
 
    Följande bild visar **AdSchedule** som skapats i **Demo** -projektet.
 
@@ -209,6 +211,7 @@ Följ stegen nedan för att implementera funktionen:
    1. Ange **kanalrollen** som **GlobalAdSegment**.
    1. Välj **Händelser** som stöds som **Inledande inläsning**, **Inaktivitetsskärm** och **Användarinteraktion**.
    1. Click **Save**.
+
    **Tilldela kanal efter roll för region:**
 
    1. Klicka på **+ Tilldela kanal** på panelen **TILLDELADE KANALER** för att öppna dialogrutan **Kanaltilldelning** .
@@ -216,6 +219,7 @@ Följ stegen nedan för att implementera funktionen:
    1. Ange **kanalnamnet** som **region***.
    1. Ange **kanalrollen** som **RegionAdSegment**.
    1. Click **Save**.
+
    **Tilldela kanal efter roll för butik:**
 
    1. Klicka på **+ Tilldela kanal** på panelen **TILLDELADE KANALER** för att öppna dialogrutan **Kanaltilldelning** .
@@ -223,6 +227,7 @@ Följ stegen nedan för att implementera funktionen:
    1. Ange **kanalnamnet** som **butik**.
    1. Ange **kanalrollen** som **StoreAdSegment**.
    1. Click **Save**.
+
    I följande bild visas de tilldelade kanalerna per sökväg och roll.
 
    ![screen_shot_2018-09-12at21429pm](assets/screen_shot_2018-09-12at21429pm.png)
@@ -253,13 +258,13 @@ Följ stegen nedan för att implementera funktionen:
 
 ## Visa resultaten {#viewing-the-results}
 
-När du har konfigurerat kanalerna och visningen är klar startar du AEM Screens Player för att visa innehållet.
+När du har konfigurerat kanalerna och visningen är klar startar du AEM Screens-spelaren för att visa innehållet.
 
 >[!NOTE]
 >
 >Läs mer om AEM Screen Player här:
 >
->* [Ladda ned AEM Screens Player](https://download.macromedia.com/screens/)
+>* [AEM Screens Player nedladdningar](https://download.macromedia.com/screens/)
 >* [Arbeta med AEM Screens Player](working-with-screens-player.md)
 
 
@@ -268,13 +273,13 @@ Följande utdata bekräftar ditt kanalinnehåll i AEM Screens Player, beroende p
 
 **Scenario 1**:
 
-Om du tilldelar visningssökvägen som **Demo** —> **Platser** —> **Region A** —> **Store 1** —> **Store1Display** visas följande innehåll i din AEM-skärmsspelare.
+Om du tilldelar visningssökvägen som **Demo** —> **Platser** —> **Region A** —> **Store 1** —> **Store1Display** visas följande innehåll i din AEM Screens-spelare.
 
 ![channeldisplay1](assets/channeldisplay1.gif)
 
 **Scenario 1**:
 
-Om du tilldelar visningssökvägen som **Demo** —> **Platser** —> **Region B** —> **Store 3** —> **Store3Display** visas följande innehåll i din AEM-skärmsspelare.
+Om du tilldelar visningssökvägen som **Demo** —> **Platser** —> **Region B** —> **Store 3** —> **Store3Display** visas följande innehåll i din AEM Screens-spelare.
 
 ![channeldisplay2](assets/channeldisplay2.gif)
 
@@ -312,6 +317,7 @@ Följ stegen nedan för att skapa grupper, användare och ändra åtkomstkontrol
    1. Klicka på **Verktyg** —> **Säkerhet** —> **Grupper**.
    1. Klicka på **Skapa grupp** och ange **Global-Author** i **ID**.
    1. Klicka på **Spara och stäng**.
+
    Du kan också skapa två andra grupper, till exempel **Region-Author** och **Store-Author**.
 
    ![screen_shot_2018-09-17at34008pm](assets/screen_shot_2018-09-17at34008pm.png)
@@ -324,10 +330,10 @@ Följ stegen nedan för att skapa grupper, användare och ändra åtkomstkontrol
    1. Ange **lösenordet** och bekräfta lösenordet för den här användaren.
    1. Klicka på fliken **Grupper** och ange gruppnamnet i **Välj grupp**, till exempel ange **Global-Author** för att lägga till **Global-User** i den specifika gruppen.
    1. Klicka på **Spara och stäng**.
+
    Du kan också skapa två andra användare, till exempel **Region-Användare** och **Store-User** , och lägga till dem i **Region-Författare** respektive **Store-Författare** .
 
    >[!NOTE]
-   >
    >Det är en god vana att lägga till användare i en grupp och sedan tilldela behörigheter till varje enskild användargrupp.
 
    ![screen_shot_2018-09-17at34412pm](assets/screen_shot_2018-09-17at34412pm.png)
@@ -345,6 +351,7 @@ Följ stegen nedan för att skapa grupper, användare och ändra åtkomstkontrol
    1. Navigera till *användaradministratören* och använd det här gränssnittet för att ändra behörigheter för olika grupper.
    1. Sök efter **Global-Author** och klicka på fliken **Behörigheter** , så som visas i bilden nedan.
    1. På samma sätt kan du komma åt behörigheterna för **Region-Author** och **Store-Author**.
+
    ![screen_shot_2018-09-18at73523am](assets/screen_shot_2018-09-18at73523am.png)
 
 1. **Ändra behörigheter för varje grupp**
@@ -355,6 +362,7 @@ Följ stegen nedan för att skapa grupper, användare och ändra åtkomstkontrol
    1. Navigera till ***/content/screens/demo*** och kontrollera alla behörigheter
    1. Navigera till ***/content/screens/demo/locations*** och kontrollera alla behörigheter
    1. Navigera till ***/content/screens/demo/locations/region-a*** och kontrollera alla behörigheter. Kontrollera på samma sätt behörigheterna för **region-b**.
+
    Se bilden nedan för att förstå stegen:
    ![screen_shot_2018-09-18at115752am](assets/screen_shot_2018-09-18at115752am.png)
 
@@ -369,6 +377,7 @@ Följ stegen nedan för att skapa grupper, användare och ändra åtkomstkontrol
    1. Navigera till ***/content/screens/demo/locations*** och kontrollera endast **läsbehörighet** .
    1. Navigera till ***/content/screens/demo/channel*** och avmarkera behörigheterna för den **globala** kanalen.
    1. Navigera till ***/content/screens/demo/locations***/***region-a*** och kontrollera alla behörigheter. Kontrollera på samma sätt behörigheterna för **region-b**.
+
    Se bilden nedan för att förstå stegen:
 
    ![screen_shot_2018-09-18at125158pm](assets/screen_shot_2018-09-18at125158pm.png)
@@ -385,11 +394,12 @@ Följ stegen nedan för att skapa grupper, användare och ändra åtkomstkontrol
    1. Navigera till ***/content/screens/demo/channel*** och avmarkera behörigheterna för den **globala** kanalen.
    1. Navigera till ***/content/screens/demo/locations/region-a*** och kontrollera endast **läsbehörigheterna** . På samma sätt bör du bara kontrollera **läsbehörighet** för **region-b**.
    1. Navigera till ***/content/screens/demo/locations***/***region-a /store-1*** och kontrollera alla behörigheter. Kontrollera på samma sätt behörigheterna för **store-2,** store-3 och **store-4**.
+
    Se bilden nedan för att förstå stegen:
 
    ![screen_shot_2018-09-18at12415pm](assets/screen_shot_2018-09-18at12415pm.png)
 
-   Bilden nedan visar att **Store-User** nu endast har åtkomst till de fyra butikerna: **Store 1**, **Store 2**, **Store 3** och **Store 4** ******** ****, men inte har behörighet att komma åt¥Global eller regionen (¥Region Aoch¥Region B¥).
+   Bilden nedan visar att **Store-User** nu endast har åtkomst till de fyra butikerna: **Store 1**, **Store 2**, **Store 3** och **Store 4** ******** ****, men inte har behörighet att komma åt¥Global¥ eller regionen (¥Region Aoch¥Region B¥).
 
    ![store](assets/store.gif)
 
