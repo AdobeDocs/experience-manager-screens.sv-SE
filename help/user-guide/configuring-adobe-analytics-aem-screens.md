@@ -1,8 +1,8 @@
 ---
 title: Konfigurera Adobe Analytics med AEM Screens
 seo-title: Konfigurera Adobe Analytics med AEM Screens
-description: 'Följ det här avsnittet när du vill veta mer om sekvensering och hur du skickar anpassade händelser med Adobe Analytics offline '
-seo-description: 'Följ det här avsnittet när du vill veta mer om sekvensering och hur du skickar anpassade händelser med Adobe Analytics offline '
+description: 'Följ det här avsnittet om du vill veta mer om sekvensering och hur du skickar anpassade händelser med Offline Adobe Analytics '
+seo-description: 'Följ det här avsnittet om du vill veta mer om sekvensering och hur du skickar anpassade händelser med Offline Adobe Analytics '
 uuid: e685e553-c05b-4db4-8fa5-9ef45268b094
 contentOwner: jsyal
 content-type: reference
@@ -11,7 +11,7 @@ topic-tags: developing
 discoiquuid: 3cec9266-4032-46b9-9c75-16da64bfea7d
 docset: aem65
 translation-type: tm+mt
-source-git-commit: f25176be89424059b8c51296969f069687328536
+source-git-commit: 2a3bbdd283f983cbdb5f21b606f508603385e041
 workflow-type: tm+mt
 source-wordcount: '694'
 ht-degree: 8%
@@ -23,9 +23,9 @@ ht-degree: 8%
 
 >[!CAUTION]
 >
->Funktionen AEM Screens är endast tillgänglig om du har installerat AEM 6.4.2 Feature Pack 2 och AEM 6.3.3 Feature Pack 4.
+>Denna AEM Screens-funktionalitet är endast tillgänglig om du har installerat AEM 6.4.2 Feature Pack 2 och AEM 6.3.3 Feature Pack 4.
 >
->Om du vill få tillgång till något av dessa funktionspaket måste du kontakta Adobes support och begära åtkomst. När du har behörighet kan du hämta den från paketresursen.
+>Om du vill få tillgång till något av dessa funktionspaket måste du kontakta Adobe Support och begära åtkomst. När du har behörighet kan du hämta den från paketresursen.
 
 Detta avsnitt behandlar följande ämnen:
 
@@ -34,7 +34,7 @@ Detta avsnitt behandlar följande ämnen:
 
 ## Sekvenser i Adobe Analytics med AEM Screens {#sequencing-in-adobe-analytics-with-aem-screens}
 
-Sekvensprocessen ****** börjar med datalagringstjänsten som aktiverar tjänsten Adobe Analytics. Kanalinnehåll skickar Adobe Analytics-event med lön, det vill säga datatestning till Windows I/O och stannar-händelser aktiveras. Händelserna sparas i indexdatabasen och placeras sedan i objektarkivet. Baserat på schemat klipper administratören in data från objektarkivet och överför dem vidare till segmentlagret. Den försöker skicka maximalt med data när den är ansluten.
+Sekvensprocessen ****** börjar med datalagringstjänsten som aktiverar Adobe Analytics-tjänsten. Kanalinnehåll skickar Adobe Analytics-händelser med lön, det vill säga datatestning som utförs i Windows I/O och stannar-händelser aktiveras. Händelserna sparas i indexdatabasen och placeras sedan i objektarkivet. Baserat på schemat klipper administratören in data från objektarkivet och överför dem vidare till segmentlagret. Den försöker skicka maximalt med data när den är ansluten.
 
 ### Sekvensdiagram {#sequencing-diagram}
 
@@ -44,7 +44,7 @@ I följande sekvensdiagram förklaras Adobe Analytics Integration med AEM Screen
 
 ## Skicka anpassade händelser med Adobe Analytics offline {#sending-custom-events-using-offline-adobe-analytics}
 
-I följande tabell sammanfattas standarddatamodellen för händelser. Här listas alla fält som skickats till Adobe Analytics:
+I följande tabell sammanfattas standarddatamodellen för händelser. Här visas alla fält som skickats till Adobe Analytics:
 
 <table>
  <tbody>
@@ -199,7 +199,7 @@ I följande tabell sammanfattas standarddatamodellen för händelser. Här lista
    <td>krävs för AA</td> 
    <td>string</td> 
    <td> </td> 
-   <td>Stöd för anpassade sidnamn i Adobe Analytics</td> 
+   <td>Adobe Analytics-stöd för anpassat sidnamn</td> 
   </tr>
   <tr>
    <td> </td> 
@@ -257,7 +257,7 @@ I följande tabell sammanfattas standarddatamodellen för händelser. Här lista
   </tr>
   <tr>
    <td> </td> 
-   <td>Platform</td> 
+   <td>Plattform</td> 
    <td>source.platform</td> 
    <td>required</td> 
    <td>string</td> 
