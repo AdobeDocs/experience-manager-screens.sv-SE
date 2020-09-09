@@ -5,9 +5,9 @@ description: Följ den här sidan om du vill veta mer om hur du använder anpass
 seo-description: Följ den här sidan om du vill veta mer om hur du använder anpassad profilering och formatering för textövertäckningar.
 contentOwner: Jyotika Syal
 translation-type: tm+mt
-source-git-commit: 8492bdd071ae029a68ec4a4983c79ce326cac38b
+source-git-commit: 2a3bbdd283f983cbdb5f21b606f508603385e041
 workflow-type: tm+mt
-source-wordcount: '626'
+source-wordcount: '627'
 ht-degree: 1%
 
 ---
@@ -32,7 +32,7 @@ Följ stegen nedan för att skapa anpassade märkesnamn och format för textöve
    >[!NOTE]
    >Mer information om hur du lägger till en textövertäckning i resursen i en kanalredigerare finns i [Textövertäckning](/help/user-guide/text-overlay.md).
 
-1. Navigera till CRXDE Lite från din AEM instans —> Verktyg —> **CRXDE Lite**.
+1. Navigera till CRXDE Lite från AEM —> tools —> **CRXDE Lite**.
 
 1. Du måste skapa en egen design i `/apps/settings/wcm/designs/<your-project>/`exempelvis navigera till `/apps/settings/wcm/designs/customstyle/`
 
@@ -99,7 +99,7 @@ Följ stegen nedan för att skapa anpassade märkesnamn och format för textöve
 
 Du måste uppdatera åtkomstkontrollistorna för dessa designer så att de kan hämtas av spelaren.
 
-1. Navigera till useradmin, välj `screens-<project>-devices group` och ge den läsbehörighet till den anpassade designsökvägen.
+1. Navigera till användaradministratören, välj `screens-<project>-devices group` och ge den läsbehörighet till den anpassade designsökvägen.
 
 1. Ange läsbehörighet och ändringsbehörighet för `screens-<project>-administrators` gruppen till den här sökvägen.
 
