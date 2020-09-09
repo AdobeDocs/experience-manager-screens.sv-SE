@@ -11,36 +11,39 @@ topic-tags: authoring
 discoiquuid: bfbdd6eb-4921-4c2d-a179-1cac4583d568
 docset: aem65
 translation-type: tm+mt
-source-git-commit: cec2a2f8b056bf713e56a9fab08d88e29263820b
+source-git-commit: 2a3bbdd283f983cbdb5f21b606f508603385e041
+workflow-type: tm+mt
+source-wordcount: '1464'
+ht-degree: 2%
 
 ---
 
 
 # Lägga till komponenter i en kanal{#adding-components-to-a-channel}
 
-Komponenterna är de grundläggande elementen i AEM-upplevelsen (Adobe Experience Manager). Du kan använda ett antal komponenter och lägga till dem i din kanal i ett AEM Screens-projekt.
+Komponenter är de grundläggande elementen i AEM (Adobe Experience Manager). Du kan använda ett antal komponenter och lägga till dem i din kanal i ett AEM Screens-projekt.
 
-## Komponenter i AEM-skärmar {#components-in-aem-screens}
+## Komponenter i AEM Screens {#components-in-aem-screens}
 
-AEM Screens innehåller olika AEM-komponenter som kan användas i ett skärmsprojekt.
+AEM Screens har olika AEM som kan användas i ett skärpeprojekt.
 
-### Visa komponenter för AEM-skärmar {#viewing-aem-screens-components}
+### Visa AEM Screens-komponenter {#viewing-aem-screens-components}
 
-När du skapar ett AEM-skärmsprojekt visas en lista med standardkomponenter som kan läggas till i projektet.
+När du skapar ett AEM Screens-projekt visas en lista med standardkomponenter som kan läggas till i projektet.
 
 Följ stegen nedan om du vill visa standardkomponenterna för ditt skärmsprojekt:
 
 1. Markera kanalen. Exempel: **We.Retail In Store** —> **Channels** —> **Idle Channel**.
 
-1. Klicka på **Redigera** i åtgärdsfältet för att öppna AEM-redigeraren.
+1. Klicka på **Redigera** i åtgärdsfältet för att öppna AEM.
 1. Klicka på **+** -ikonen i sidofältet för att öppna komponenterna.
-1. Alla komponenter som inkluderas som standard i ett AEM Screens-projekt visas, vilket visas i bilden nedan.
+1. Alla komponenter som ingår som standard i ett AEM Screens-projekt visas, vilket visas i bilden nedan.
 
 ![screen_shot_2017-12-18at21350pm](assets/screen_shot_2017-12-18at21350pm.png)
 
 ### Lägga till en ny komponent {#adding-a-new-component}
 
-AEM tillhandahåller ett antal andra komponenter. Du kan alltid lägga till andra komponenter (som inte ingår som standard) i ditt projekt, eftersom de är kompatibla med AEM-skärmar.
+AEM innehåller ett antal andra komponenter. Du kan alltid lägga till andra komponenter (som inte ingår som standard) i ditt projekt, eftersom de är kompatibla med AEM Screens.
 
 I följande exempel visas hur en Livefyre-komponent läggs till i ett AEM Screens-projekt:
 
@@ -49,15 +52,15 @@ I följande exempel visas hur en Livefyre-komponent läggs till i ett AEM Screen
 1. Klicka på **Redigera** i åtgärdsfältet för att öppna redigeraren.
 1. Välj **designläge** .
 1. Markera hela designredigeraren till höger och klicka på inställningssymbolen för att öppna dialogrutan **ParSys Design** .
-1. Du kan välja vilka komponenter du vill importera till ditt AEM-skärmsprojekt. I följande exempel visas hur **Livefyre** -komponenten läggs till i ett AEM Screens-projekt.
+1. Du kan välja vilka komponenter du vill importera till ditt AEM Screens-projekt. I följande exempel visas hur **Livefyre** -komponenten har lagts till i ett AEM Screens-projekt.
 
 ![adding_components](assets/adding_components.gif)
 
 >[!NOTE]
 >
->På samma sätt kan du lägga till valfritt antal andra nya komponenter som är kompatibla med AEM-skärmar i ditt projekt.
+>På samma sätt kan du lägga till valfritt antal andra komponenter som är kompatibla med AEM Screens i ditt projekt.
 
-## Förstå AEM Screen-komponenter {#understanding-aem-screen-components}
+## AEM skärmkomponenter {#understanding-aem-screen-components}
 
 I följande avsnitt förklaras vilka AEM Screens-komponenter du kan använda i ditt projekt.
 
@@ -76,7 +79,7 @@ Programkomponenten har följande egenskaper:
 | ***Programsökväg*** | Välj den absoluta sökvägen där programmet finns. |
 | ***Varaktighet (ms)*** | Välj varaktighet för programmet. Som standard är längden inställd på -1, vilket innebär att elementet körs för alltid (det vill säga ett enkelsidigt program). Om du ställer in varaktighetsvärdet >0 visas elementet för den angivna varaktigheten och fortsätter sedan till nästa. |
 
-I följande exempel visas hur du bäddar in en programkomponent tillsammans med förhandsvisningen av dess egenskaper:
+I följande exempel visas hur du bäddar in en programkomponent tillsammans med förhandsgranskningen av dess egenskaper:
 
 ![adding_componentsApplication](assets/adding_componentsapplication.gif)
 
@@ -192,7 +195,7 @@ Den dynamiska inbäddade sekvensen har följande egenskaper:
 
 ### Experience Fragment {#experience-fragment}
 
-Med Experience Fragment kan ni lägga till ett upplevelsefragment (en grupp med en eller flera komponenter, inklusive innehåll och layout som kan refereras på sidor) i kanalen för AEM-skärmar. Dra och släpp komponenten till AEM-redigeraren och välj upplevelsefragmentet.
+Med Experience Fragment kan ni lägga till ett upplevelsefragment (en grupp med en eller flera komponenter, inklusive innehåll och layout som kan refereras på sidor) i er AEM Screens-kanal. Dra och släpp komponenten AEM redigeraren och markera upplevelsefragmentet.
 
 Mer information om hur du skapar ett upplevelsefragment och använder det i ett AEM Screens-projekt finns i [Använda Experience Fragments](experience-fragments-in-screens.md).
 
@@ -209,7 +212,7 @@ Mer information om hur du skapar ett upplevelsefragment och använder det i ett 
 
 >[!NOTE]
 >
->Biblioteken **på** klientsidan och de **statiska filer** som du lägger till från den här komponenten kommer att vara utöver de redan konfigurerade biblioteken **på** klientsidan och de statiska filer som läggs till från upplevelsefragmentets **egenskaper**.
+>Biblioteken **på** klientsidan och de **statiska filer** som du lägger till från den här komponenten kommer att läggas till i befintliga **bibliotek** på klientsidan och statiska filer som läggs till från upplevelsefragmentets **egenskaper**.
 
 ### Bild {#image}
 
