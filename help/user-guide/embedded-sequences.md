@@ -11,9 +11,9 @@ topic-tags: authoring
 discoiquuid: fc13d713-af30-4a54-8408-920f78fd2b2f
 docset: aem65
 translation-type: tm+mt
-source-git-commit: f25176be89424059b8c51296969f069687328536
+source-git-commit: 2a3bbdd283f983cbdb5f21b606f508603385e041
 workflow-type: tm+mt
-source-wordcount: '833'
+source-wordcount: '834'
 ht-degree: 0%
 
 ---
@@ -39,9 +39,7 @@ Du kan lägga till följande komponenter i sekvenskanalen:
 Du kan lägga till en inbäddad sekvens i kanalen. En inbäddad sekvens är en annan kanal som innehåller resurser som bilder eller videoklipp. Genom att lägga till en inbäddad sekvens kan användaren lägga till sekvensen i en kanal via ***kanalsökväg***.
 
 >[!NOTE]
->
 >***Kanalsökväg*** definierar en explicit referens till kanalen.
->
 >Mer information om *kanalsökväg* finns i [Kanaltilldelning](channel-assignment.md) i redigeringsskärmar.
 
 Följ stegen nedan för att lägga till en inbäddad sekvens i kanalen:
@@ -67,14 +65,17 @@ Som standard är den inställd på **normal**. Om du ställer in värdet till **
 >1. Navigera till visningen och markera visningen i mappen **Platser** .
 >1. Klicka på **Kontrollpanelen** i åtgärdsfältet för att navigera till kontrollpanelen.
 >1. Välj **+ Tilldela kanaler** på panelerna **TILLDELADE KANALER &amp; SCHEMALAGDA** för att öppna dialogrutan **** Kanaltilldelning.
+
    >
    >
 1. Markera banan för kanalen som du (används i inbäddad sekvens) i **Kanalsökväg**.
 >1. Kontrollera att **prioriteten** är lägre än huvudkanalen.
+
    >
    >
 1. Du får inte välja några händelser som **stöds**.
 >1. Klicka på **Spara** en gång.
+
 >
 
 
@@ -98,7 +99,7 @@ Följ stegen nedan för att lägga till en inbäddad sekvens i kanalen:
 1. Markera kanalen där du vill bädda in en dynamisk sekvens. Exempel: **We.Retail In-Store** —> **Channels** —> **Idle Channel**.
 
 1. Klicka på **Redigera** i åtgärdsfältet för att öppna kanalen i redigeringsläget.
-1. Klicka på komponentikonen i det vänstra fältet för att lägga till den dynamiska inbäddade sekvensen. Dra och **släppDynamisk** **Inbäddad sekvens **till redigeraren.
+1. Klicka på komponentikonen i det vänstra fältet för att lägga till den dynamiska inbäddade sekvensen. Dra och släpp den **dynamiska** **inbäddade sekvensen** till redigeraren.
 
 1. Dubbelklicka på komponenten **Dynamisk** **inbäddad sekvens** för att lägga till sidan i sekvenskanalen.
 
