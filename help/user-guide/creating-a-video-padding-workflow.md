@@ -11,7 +11,10 @@ content-type: reference
 discoiquuid: a90e3950-c95a-4aff-8cb3-9229c660a815
 docset: aem65
 translation-type: tm+mt
-source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
+source-git-commit: 2a3bbdd283f983cbdb5f21b606f508603385e041
+workflow-type: tm+mt
+source-wordcount: '603'
+ht-degree: 0%
 
 ---
 
@@ -24,7 +27,7 @@ Detta avsnitt behandlar följande ämnen:
 * **Förutsättningar**
 * **Skapa ett arbetsflöde för videoutfyllnad**
    * **Skapa ett arbetsflöde**
-   * **Använda arbetsflödet i AEM-skärmsprojekt**
+   * **Använda arbetsflödet i AEM Screens Project**
 
 * **Validera arbetsflödets utdata**
 
@@ -38,25 +41,25 @@ Videon visas som ett objekt från pixel 1 till pixel 1280 över och från pixel 
 
 Innan du skapar ett arbetsflöde för video måste du uppfylla följande krav:
 
-1. Överför en video i **resursmappen** i din AEM-instans
+1. Överföra en video i **resursmappen** i AEM
 1. Skapa ett AEM Screens-projekt (till exempel **TestVideoRendition**) och en kanal med namnet (**VideoRendering**) enligt bilden nedan:
 
 ![screen_shot_2018-10-17at85307pm](assets/screen_shot_2018-10-17at85307pm.png)
 
 ## Skapa ett arbetsflöde för videoutfyllnad {#creating-a-video-padding-workflow-1}
 
-Om du vill skapa ett arbetsflöde för videoutfyllnad måste du skapa ett arbetsflöde för videon och sedan använda samma arbetsflöde i projektkanalen för AEM Screens.
+Om du vill skapa ett arbetsflöde för videoutfyllnad måste du skapa ett arbetsflöde för videon och sedan använda samma arbetsflöde i din AEM Screens-projektkanal.
 
 Följ stegen nedan för att skapa och använda arbetsflödet:
 
 1. Skapa ett arbetsflöde
-1. Använda arbetsflödet i ett AEM-skärmsprojekt
+1. Använda arbetsflödet i ett AEM Screens-projekt
 
 ### Skapa ett arbetsflöde {#creating-a-workflow}
 
 Följ stegen nedan för att skapa ett arbetsflöde för videon:
 
-1. Navigera till din AEM-instans och klicka på verktyg från sidospåret. Välj **Arbetsflöde** —> **Modeller** för att skapa en ny modell.
+1. Navigera till AEM och klicka på verktyg från sidospåret. Välj **Arbetsflöde** —> **Modeller** för att skapa en ny modell.
 
    ![screen_shot_2018-10-17at90025pm](assets/screen_shot_2018-10-17at90025pm.png)
 
@@ -68,7 +71,7 @@ Följ stegen nedan för att skapa ett arbetsflöde för videon:
 
    ![screen_shot_2018-10-17at91256pm](assets/screen_shot_2018-10-17at91256pm.png)
 
-1. Dra och släpp **Command Line **-komponenten i ditt arbetsflöde.
+1. Dra och släpp **kommandoradskomponenten** i arbetsflödet.
 
    ![screen_shot_2018-10-22at14846pm](assets/screen_shot_2018-10-22at14846pm.png)
 
@@ -80,7 +83,7 @@ Följ stegen nedan för att skapa ett arbetsflöde för videon:
 
    Ange formatet i **Mime Types** (som ***video/mp4***) och kommandot som (**/usr/local/Cellar/ffmpeg -i ${filename} -vf &quot;pad=1920:height=1080:x=0:y=0:color=black&quot; cq5dam.video.video fullhd-hp.mp4***) för att starta arbetsflödet i fältet **Kommandon** .
 
-   Se informationen om **Mime Types** och **Commands** i nedanstående kommentar.
+   Läs mer om **Mime Types** och **Commands** i nedanstående kommentar.
 
    ![screen_shot_2018-10-18at105300am](assets/screen_shot_2018-10-18at105300am.png)
 
@@ -88,15 +91,15 @@ Följ stegen nedan för att skapa ett arbetsflöde för videon:
 
    ![screen_shot_2018-10-18at105335am](assets/screen_shot_2018-10-18at105335am.png)
 
-1. Välj sökvägen till resursen i **nyttolasten** (som ***/content/dam/huseinpeyda-crossroad01_512kb 2.mp4***) och ange **Title **(as ***RunVideo***) och klicka på **Run**.
+1. Välj sökvägen till resursen i **nyttolasten** (som ***/content/dam/holyda-crossroad01_512kb 2.mp4***) och ange **titeln** som ***RunVideo*** och klicka på **Kör**.
 
    ![screen_shot_2018-10-18at112043am](assets/screen_shot_2018-10-18at112043am.png)
 
-### Använda arbetsflödet i ett AEM-skärmsprojekt {#using-the-workflow-in-an-aem-screens-project}
+### Använda arbetsflödet i ett AEM Screens-projekt {#using-the-workflow-in-an-aem-screens-project}
 
 Följ stegen nedan för att använda arbetsflödet i ditt AEM Screens-projekt:
 
-1. Navigera till ett AEM-skärmsprojekt (**TestVideoRendition** —> **Kanaler** —>**VideoRendition**).
+1. Navigera till ett AEM Screens-projekt (**TestVideoRendition** —> **Kanaler** —>**VideoRendition**).
 
    ![screen_shot_2018-10-17at100715pm](assets/screen_shot_2018-10-17at100715pm.png)
 
@@ -113,7 +116,7 @@ Följ stegen nedan för att använda arbetsflödet i ditt AEM Screens-projekt:
 Du kan validera dina utdata genom att:
 
 * Kontrollera förhandsgranskning av videon i kanalen
-* Gå till ***/content/dam/testvideo.mp4/jcr:content/renditions/cq5dam.video.fullhd-hp.mp4*** i CRXDE Lite, som i bilden nedan:
+* Gå till ***/content/dam/testvideo.mp4/jcr:content/renditions/cq5dam.video.fullhd-hp.mp4*** i CRXDE Lite, som bilden nedan visar:
 
 ![screen_shot_2018-10-22at14326pm](assets/screen_shot_2018-10-22at14326pm.png)
 
