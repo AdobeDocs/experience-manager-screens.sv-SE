@@ -11,9 +11,9 @@ content-type: reference
 discoiquuid: c28fd669-f23e-4d53-bec1-a2911274567d
 noindex: true
 translation-type: tm+mt
-source-git-commit: 8492bdd071ae029a68ec4a4983c79ce326cac38b
+source-git-commit: 2a3bbdd283f983cbdb5f21b606f508603385e041
 workflow-type: tm+mt
-source-wordcount: '1809'
+source-wordcount: '1802'
 ht-degree: 0%
 
 ---
@@ -29,9 +29,9 @@ Följande ämnen behandlas i detta avsnitt:
 * Aktiveringsfönster
 * Använda kanalnivåaktivering som en enda händelseuppspelning
 * Hantera återkommande för resurser i en kanal
-   * Dag-parsning
-   * Veckodelning
-   * Månadsdelning
+   * DayParting
+   * WeekParting
+   * MånadDelning
    * Kombination av partner
 * Använda kanalnivåaktivering som en enda händelseuppspelning
 
@@ -143,24 +143,22 @@ Följ stegen nedan för att implementera funktionen:
    ![screen_shot_2018-11-27at31206pm](assets/screen_shot_2018-11-27at31206pm.png)
 
    >[!NOTE]
-   Om du vill välja samma dag måste du markera nästa dag och manuellt redigera datumet till samma dag, men för en senare tid. Detta hindrar användaren från att välja ett tidigare datum. Se exemplet nedan:
+   Om du vill välja samma dag måste du markera nästa dag och manuellt redigera datumet till samma dag men för en senare tid. Detta hindrar användaren från att välja ett tidigare datum. Se exemplet nedan:
 
    ![new1](assets/new1.gif)
 
 ## Visa resultaten {#viewing-the-results}
 
-När du har konfigurerat kanalerna och visningen är klar startar du AEM Screens Player för att visa innehållet.
+När du har konfigurerat kanalerna och visningen är klar startar du AEM Screens-spelaren för att visa innehållet.
 
 Spelaren visar innehållet i **MainAdChannel** och exakt klockan 23.59 (enligt schemat), visar **TargetSinglePlay** -kanalen innehållet till kl. 23.05 och sedan fortsätter **MainAdChannel** att spela upp innehållet igen.
 
 >[!NOTE]
 Läs mer om AEM Screen Player här:
-* [AEM Screens Player-nedladdningar](https://download.macromedia.com/screens/)
-* [Arbeta med AEM Screens Player](working-with-screens-player.md)
+[AEM Screens Player-nedladdningar](https://download.macromedia.com/screens/)[Arbeta med AEM Screens Player](working-with-screens-player.md)
 
 
-
-## Hantera återkommande för resurser i en kanal{#handling-recurrence-in-assets}
+## Hantera återkommande för resurser i en kanal {#handling-recurrence-in-assets}
 
 Du kan schemalägga att resurser i en kanal återkommer med vissa intervall på varje dag, vecka eller månad, beroende på dina behov.
 
@@ -194,7 +192,7 @@ I följande tabell sammanfattas några exempeluttryck som du kan lägga till i s
 >[!NOTE]
 Du kan också använda _militär_ tidsnotation (d.v.s. 14:00) i stället för *AM/pm* -notation (d.v.s. 2:00).
 
-### Veckodelning {#week-parting}
+### WeekParting {#week-parting}
 
 1. Markera kanalen och klicka på **Kontrollpanelen** i åtgärdsfältet för att öppna kanalkontrollpanelen.
 
@@ -205,7 +203,7 @@ Du kan hoppa över eller ta med fälten **Aktiv från** och **Aktiv tills** och 
 
 1. Ange uttrycket i **Schedule** så visas resursen för det angivna intervallet på dag och tid.
 
-#### Exempeluttryck för veckodelning {#example-two}
+#### Exempeluttryck för WeekParting {#example-two}
 
 I följande tabell sammanfattas några exempeluttryck som du kan lägga till i schemat när du tilldelar kanal till en visning.
 
@@ -221,7 +219,7 @@ I följande tabell sammanfattas några exempeluttryck som du kan lägga till i s
 Du kan också använda _militär_ tidsnotation (d.v.s. 14:00) i stället för *AM/pm* -notation (d.v.s. 2:00).
 
 
-### Månadsdelning {#month-parting}
+### MånadDelning {#month-parting}
 
 1. Markera kanalen och klicka på **Kontrollpanelen** i åtgärdsfältet för att öppna kanalkontrollpanelen.
 
@@ -232,7 +230,7 @@ Du kan hoppa över eller ta med fälten **Aktiv från** och **Aktiv tills** och 
 
 1. Ange uttrycket i **Schedule** så visas resursen för det angivna intervallet på dag och tid.
 
-#### Exempeluttryck för månadsdelning {#example-three}
+#### Exempeluttryck för MonthParting {#example-three}
 
 I följande tabell sammanfattas några exempeluttryck som du kan lägga till i schemat när du tilldelar kanal till en visning.
 
