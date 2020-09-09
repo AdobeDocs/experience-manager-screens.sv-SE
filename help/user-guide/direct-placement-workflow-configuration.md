@@ -4,7 +4,7 @@ seo-title: Arbetsflödeskonfiguration för direktplacering
 description: På den här sidan visas arbetsflödeskonfiguration för direktplacering.
 seo-description: På den här sidan visas arbetsflödeskonfiguration för direktplacering.
 translation-type: tm+mt
-source-git-commit: f25176be89424059b8c51296969f069687328536
+source-git-commit: 2a3bbdd283f983cbdb5f21b606f508603385e041
 workflow-type: tm+mt
 source-wordcount: '214'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # Arbetsflödeskonfiguration för direktplacering {#direct-placement-workflow}
 
-Följ den här sidan om du vill veta mer om hur du konfigurerar ett arbetsflöde för resurser som gör att du kan infoga en resurs i en fördefinierad AEM Screens-kanal programmatiskt.
+Följ den här sidan om du vill veta mer om hur du konfigurerar ett resursarbetsflöde som gör att du kan infoga en resurs i en fördefinierad AEM Screens-kanal via programmering.
 
 Detta avsnitt behandlar följande ämnen:
 
@@ -35,12 +35,11 @@ Som innehållsförfattare kan du också klicka på **Uppdatera offlineinnehåll*
 
 >[!IMPORTANT]
 >
->Innan du startar konfigurationen måste du installera [demopaketet](https://github.com/godanny86/screens-demo/releases/download/v.0.0.1/screens-demo.all-1.0-SNAPSHOT.zip). När du har installerat paketet bör du kunna visa och komma åt det från din AEM-instans —> Verktyg (ikon) —> **Arbetsflöde** —> **Arbetsflödesmodeller**.
+>Innan du startar konfigurationen måste du installera [demopaketet](https://github.com/godanny86/screens-demo/releases/download/v.0.0.1/screens-demo.all-1.0-SNAPSHOT.zip). När du har installerat paketet bör du kunna visa och komma åt det från AEM:> Verktyg (ikon) —> **Arbetsflöde** —> **Arbetsflödesmodeller**.
 
 Följ stegen nedan för att konfigurera arbetsflödet för direktplacering:
 
-1. Navigera till AEM Screens från din AEM-instans och skapa ett skärmsprojekt med namnet **Asset Workflow**.
+1. Navigera till AEM Screens från AEM och skapa ett skärmsprojekt med namnet **Asset Workflow**.
 
 1. Skapa en kanal som heter **Arbetsflöde - Resurser** i mappen **Kanaler** .
 
-1. 
