@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
 discoiquuid: 00ea321c-3f79-4aa5-83cc-3fa2fe9e35d9
 translation-type: tm+mt
-source-git-commit: d49ceecab42762425d779d50a31291091088ee19
+source-git-commit: f2b5b2cb35a43990ed74b259d8da3837118a65ae
 workflow-type: tm+mt
 source-wordcount: '341'
 ht-degree: 1%
@@ -37,7 +37,7 @@ Följ stegen nedan för att skapa ett nytt skärmsprojekt:
 
 1. Klicka på **Skapa skärmsprojekt**.
 
-1. Ange titeln som **TestProject** och klicka på **Skapa**.
+1. Ange titeln som **Testskärmar** och klicka på **Spara**.
 
 Projektet skapas och du kommer tillbaka till konsolen Skärmprojekt. Nu kan du välja ditt projekt.
 
