@@ -1,8 +1,8 @@
 ---
 title: Skapa komponenter
 seo-title: Skapa komponenter
-description: AEM-komponenter används för att lagra, formatera och återge innehåll som är tillgängligt på dina webbsidor. Följ den här sidan om du vill veta mer om redigeringskanaler och återgivningskomponenter.
-seo-description: AEM-komponenter används för att lagra, formatera och återge innehåll som är tillgängligt på dina webbsidor. Följ den här sidan om du vill veta mer om redigeringskanaler och återgivningskomponenter.
+description: AEM används för att lagra, formatera och återge innehåll som är tillgängligt på dina webbsidor. Följ den här sidan om du vill veta mer om redigeringskanaler och återgivningskomponenter.
+seo-description: AEM används för att lagra, formatera och återge innehåll som är tillgängligt på dina webbsidor. Följ den här sidan om du vill veta mer om redigeringskanaler och återgivningskomponenter.
 uuid: 66c76dd5-495a-4dcb-ad18-7f8a92669752
 contentOwner: Jyotika Syal
 content-type: reference
@@ -10,18 +10,21 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: developing
 discoiquuid: cdc530d8-ef0e-4b61-b1f0-5f4d831f1392
 translation-type: tm+mt
-source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
+source-git-commit: 2a3bbdd283f983cbdb5f21b606f508603385e041
+workflow-type: tm+mt
+source-wordcount: '331'
+ht-degree: 0%
 
 ---
 
 
 # Skapa komponenter {#creating-components}
 
-AEM-komponenter används för att lagra, formatera och återge innehåll som är tillgängligt på dina webbsidor.
+AEM används för att lagra, formatera och återge innehåll som är tillgängligt på dina webbsidor.
 
 >[!NOTE]
 >
->Mer information om hur du skapar AEM-komponenter finns i Utveckla AEM-komponenter.
+>Mer information om hur du skapar AEM finns i Utveckla AEM.
 
 ## Redigeringskanaler {#authoring-channels}
 
@@ -29,7 +32,7 @@ Kanalen är det centrala objektet för innehåll som levereras till en uppsättn
 
 Men eftersom komponenter i en kanal vanligtvis återges i helskärmsläge blir redigeringsupplevelsen lidande när du försöker redigera enskilda komponenter eller skapa nya order. Kanalen använder därför väljare för att återge olika vyer av komponenterna. Redigeringsmiljön använder redigeringsväljaren för att aktivera den anpassade kanalåtergivningen.
 
-Exempel: `http://localhost:4502/editor.html/content/screens/we-retail/channels/idle.edit.html](http://localhost:4502/editor.html/content/screens/we-retail/channels/idle.edit.html`
+Till exempel, `http://localhost:4502/editor.html/content/screens/we-retail/channels/idle.edit.html](http://localhost:4502/editor.html/content/screens/we-retail/channels/idle.edit.html`
 
 Användaren behöver inte ta hand om att lägga till väljaren till URL-adressen när han/hon redigerar. En logik på klientsidan lyssnar på lagerväxlingshändelsen och lägger till väljaren om en kanal har de dedikerade *skärmbilderna för resurstypen/kärnan/komponenterna/kanalen.*
 
@@ -52,5 +55,5 @@ De inbyggda komponenterna utnyttjar följande klientbibliotekskategorier:
 
 >[!NOTE]
 >
->Om du vill utveckla anpassade komponenter använder du exempelkomponentmallen *** [AEM Screens](https://github.com/Adobe-Marketing-Cloud/aem-screens-component-template)***.
+>Använd exempelkomponentmallen ***[AEM Screens](https://github.com/Adobe-Marketing-Cloud/aem-screens-component-template)*** för att utveckla anpassade komponenter.
 
