@@ -11,7 +11,7 @@ topic-tags: authoring
 discoiquuid: a8006686-8ee5-4971-ab79-0c7b01f108f2
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 081db31efda17ac12cdc88f79ed2f4e1fbfc7edf
+source-git-commit: 2a3bbdd283f983cbdb5f21b606f508603385e041
 workflow-type: tm+mt
 source-wordcount: '1399'
 ht-degree: 0%
@@ -107,7 +107,6 @@ Följ stegen nedan för att överföra videoklipp till din kanal:
 1. Välj **Videofilmer** under Resurser och dra och släpp önskade videoklipp.
 
 >[!NOTE]
->
 >Om du får problem med att överföra videoklipp i din kanal kan du läsa [Felsöka videoklipp](troubleshoot-videos.md).
 
 ### Visningsegenskaper {#viewing-properties}
@@ -145,6 +144,7 @@ Du kan visa manifestet från kanalkontrollpanelen.
 >Det här alternativet är endast tillgängligt med AEM 6.4 Feature Pack 8 eller AEM 6.5 Feature Pack 4.
 
 Följ de här stegen för att aktivera det här alternativet från kanalkontrollpanelen:
+
 1. **Ange att kanalen ska vara offline**
    1. Markera kanalen och välj **Egenskaper** i åtgärdsfältet
    1. Navigera till fliken **Kanal** och se till att du avmarkerar alternativet **Utvecklarläge (tvinga kanalen att vara online)**
