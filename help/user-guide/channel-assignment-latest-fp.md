@@ -3,7 +3,7 @@ title: Kanaltilldelning - senaste offertförfrågan
 seo-title: Kanaltilldelning - senaste offertförfrågan
 description: Följ den här sidan om du vill veta mer om kanaltilldelning och DagParting.
 translation-type: tm+mt
-source-git-commit: 421174dba8a5a7c39bffcaa2dddb54939eeba3bc
+source-git-commit: 2a3bbdd283f983cbdb5f21b606f508603385e041
 workflow-type: tm+mt
 source-wordcount: '1471'
 ht-degree: 1%
@@ -149,7 +149,6 @@ Prioritet används för att ordna tilldelningarna om flera matchar uppspelningsv
 ### Avbrottsmetod {#interruption-method-channel}
 
 >[!IMPORTANT]
->
 > Det här alternativet är endast tillgängligt med AEM 6.4 Feature Pack 8 eller AEM 6.5 Feature Pack 4.
 
 Som innehållsförfattare bör du kunna ange när en kanal avbryts så att du kan välja att avbryta icke-kritiskt innehåll, men du kan välja att låta viktigt innehåll spelas upp helt innan uppspelningen avbryts på grund av schemaläggning.
