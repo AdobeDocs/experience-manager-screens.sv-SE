@@ -11,12 +11,15 @@ content-type: reference
 discoiquuid: df3cf999-0c8d-4754-8b58-5c6ced2c8ca5
 docset: aem65
 translation-type: tm+mt
-source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
+source-git-commit: 2a3bbdd283f983cbdb5f21b606f508603385e041
+workflow-type: tm+mt
+source-wordcount: '360'
+ht-degree: 1%
 
 ---
 
 
-# Varaktighet för massbildsuppspelning på kanalnivå{#channel-level-bulk-image-playback-duration}
+# Varaktighet för massbildsuppspelning på kanalnivå {#channel-level-bulk-image-playback-duration}
 
 ## Översikt {#overview}
 
@@ -24,17 +27,17 @@ När du har skapat en sekvenskanal och lagt till bilder i den får alla bilder s
 
 ### Förutsättningar {#prerequisites}
 
-Innan du börjar implementera den här funktionen måste du se till att du har konfigurerat ett projekt som en förutsättning för att du ska kunna börja implementera den här funktionen. Exempel:
+Innan du börjar implementera den här funktionen måste du se till att du har konfigurerat ett projekt som en förutsättning för att du ska kunna börja implementera den här funktionen. Till exempel,
 
-1. Skapa ett AEM Screens-projekt (i det här exemplet **ChannelLevelPlayback**)
+1. Skapa ett AEM Screens-projektexempel, **ChannelLevelPlayback**.
 
-1. Skapa en sekvenskanal som **PlaybackChannel** under mappen **Kanaler**
+1. Skapa en sekvenskanal som **PlaybackChannel** under mappen **Kanaler** .
 
-1. Lägg till innehåll i **PlaybackChannel**
+1. Lägg till innehåll i **PlaybackChannel**.
 
 ## Redigera bilduppspelningens varaktighet på kanalnivå {#editing-channel-level-image-playback-duration-assignment}
 
-I avsnittet nedan beskrivs hur du redigerar uppspelningstiden för innehåll i en AEM-skärmkanal.
+I avsnittet nedan beskrivs hur du redigerar uppspelningstiden för innehåll i en AEM Screens-kanal.
 
 ### Uppdatera uppspelningstiden för bilder i en kanal {#updating-the-playback-duration-for-images-in-a-channel}
 
@@ -59,7 +62,6 @@ Följ stegen nedan för att lära dig hur du uppdaterar tilldelning för bildspe
 1. **Dialogrutan Sida** öppnas.
 
    >[!NOTE]
-   >
    >Som standard är bilderna i en kanal inställda på 8 sekunders uppspelningstid.
 
    ![screen_shot_2019-06-25at100343am](assets/screen_shot_2019-06-25at100343am.png)
