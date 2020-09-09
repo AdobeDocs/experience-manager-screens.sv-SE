@@ -11,7 +11,7 @@ topic-tags: authoring
 discoiquuid: 0e88e9e0-a95b-4acd-98ea-499d4d4e3c99
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 59eb6f298aa646d14445ddd6082006742fb02d62
+source-git-commit: 2a3bbdd283f983cbdb5f21b606f508603385e041
 workflow-type: tm+mt
 source-wordcount: '1100'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 Den här sidan innehåller följande avsnitt:
 
 * **Översikt**
-* **Använda upplevelsefragment i AEM-skärmar**
+* **Använda Experience Fragments i AEM Screens**
 * **Sprider ändringar på sidan**
 
 ## Översikt {#overview}
@@ -32,13 +32,12 @@ Den här sidan innehåller följande avsnitt:
 Ett ***Experience Fragment*** är en grupp med en eller flera komponenter, inklusive innehåll och layout, som kan refereras till på sidor. Experience fragments kan innehålla alla komponenter, till exempel en eller flera komponenter som kan innehålla vad som helst i ett styckesystem, som refereras till den fullständiga upplevelsen eller begärs av en tredje slutpunkt.
 
 
-## Använda upplevelsefragment i AEM-skärmar {#using-experience-fragments-in-aem-screens}
+## Använda Experience Fragments i AEM Screens {#using-experience-fragments-in-aem-screens}
 
 >[!NOTE]
->
 >I följande exempel används **We.Retail** som ett demoprojekt där Experience Fragment används från en **Sites** -sida till ett AEM Screens-projekt.
 
-I följande arbetsflöde demonstreras användningen av upplevelsefragment från We.Retail i Sites. Du kan välja en webbsida och använda det innehållet i din AEM Screens-kanal i ett av dina projekt.
+I följande arbetsflöde demonstreras användningen av upplevelsefragment från We.Retail i Sites. Du kan välja en webbsida och använda det innehållet i din AEM Screens-kanal i något av dina projekt.
 
 ### Krav {#pre-requisites}
 
@@ -50,7 +49,7 @@ I följande arbetsflöde demonstreras användningen av upplevelsefragment från 
 1. Ange titeln som **DemoProject**.
 1. Click **Save**.
 
-Ett **DemoProject** läggs till på dina AEM-skärmar.
+Ett **DemoProject** läggs till i din AEM Screens.
 
 ***Skapa en kanal***
 
@@ -79,6 +78,7 @@ Följ stegen nedan för att utnyttja innehållet från **We.Retail** till din **
 
    1. Markera det fragment som du vill inkludera i kanalen.
    1. Klicka på den sista ikonen till höger för att öppna dialogrutan **Konvertera till upplevelsefragment** .
+
    ![screen_shot_2019-07-29at105314am](assets/screen_shot_2019-07-29at105314am.png)
 
 1. **Skapa Experience fragment**
@@ -91,15 +91,17 @@ Följ stegen nedan för att utnyttja innehållet från **We.Retail** till din **
    1. Ange **Fragment Title** som **ScreensFragment**.
 
    1. Klicka på bockmarkeringen för att slutföra skapandet av ett nytt upplevelsefragment.
+
    ![screen_shot_2019-07-29at105918am](assets/screen_shot_2019-07-29at105918am.png)
 
 1. **Skapa Live Copy of Experience Fragment**
 
-   1. Gå till AEM-startsidan.
+   1. Navigera till AEM startsida.
    1. Välj **Experience Fragments** och markera **ScreensFragment** och klicka på **Variation som live-copy**, vilket visas i bilden nedan:
+
    ![screen_shot_2019-07-29at110443am](assets/screen_shot_2019-07-29at110443am.png)
 
-   c. Välj** ScreensFragment** i guiden **Skapa Live-kopia** och klicka på **Nästa**.
+   c. Välj **Skärmfragment** i guiden **Skapa Live-kopia** och klicka på **Nästa**.
 
    d. Ange **Rubrik** och **Namn** som **skärmar**.
 
@@ -118,6 +120,7 @@ Följ stegen nedan för att utnyttja innehållet från **We.Retail** till din **
    1. Navigera till **ScreensFragment** (du skapade i föregående steg) och klicka på **Egenskaper** i åtgärdsfältet.
 
    1. Välj fliken **Offlinekonfiguration** , så som visas i bilden nedan.
+
    Du kan lägga till bibliotek **på** klientsidan (java och css) och **statiska filer** till ditt upplevelsefragment.
 
    I följande exempel visas hur bibliotek på klientsidan och teckensnitten läggs till som en del av statiska filer i ditt upplevelsefragment.  ![fragment](assets/fragment.gif)
@@ -129,6 +132,7 @@ Följ stegen nedan för att utnyttja innehållet från **We.Retail** till din **
 
    1. Klicka på komponentikonen på sidofliken.
    1. Dra och släpp **Experience Fragment** i kanalen.
+
    ![screen_shot_2019-07-29at123115pm](assets/screen_shot_2019-07-29at123115pm.png)
 
    e. Markera **Experience Fragment** -komponenten och markera den övre vänstra (skiftnyckel) ikonen för att öppna dialogrutan **Experience Fragment** .
@@ -167,15 +171,15 @@ Du kan visa innehållet från **webbplatssidan** (live-copy av upplevelsefragmen
 
 ***Live-kopia*** refererar till kopian (av källan), som underhålls av synkroniseringsåtgärder enligt definitionen i utrullningskonfigurationerna.
 
-Eftersom Experience Fragment har vi skapat en live-kopia från **Sites** -sidorna, så om du ändrar det aktuella fragmentet från mallsidan kan du visa ändringarna i kanalen eller destinationen där du har använt Experience Fragment.
+Eftersom Experience Fragment har vi skapat en live-kopia från **Sites** -sidorna, så om du ändrar det specifika avsnittet från den överordnad sidan, kommer du att se ändringarna i den kanal eller mål där du har använt Experience Fragment.
 
 >[!NOTE]
 >
 >Mer information om Live Copy finns i Återanvända innehåll: Multi Site Manager och Live Copy.
 
-Följ stegen nedan för att sprida ändringar från huvudkanalen till målkanalen:
+Följ stegen nedan för att sprida ändringar från den överordnad kanalen till målkanalen:
 
-1. Välj Experience Fragment på mallsidan **Sites** (mallsida) och klicka på pennikonen för att redigera objekten i Experience Fragment.
+1. Markera Experience Fragment på **Sites** (överordnad)-sidan och klicka på pennikonen för att redigera objekten i Experience Fragment.
 
    ![screen_shot_2018-06-08at122655pm](assets/screen_shot_2018-06-08at122655pm.png)
 
