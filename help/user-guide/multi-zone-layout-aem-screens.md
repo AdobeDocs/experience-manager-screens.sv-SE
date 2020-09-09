@@ -11,7 +11,7 @@ topic-tags: authoring
 discoiquuid: 4c073172-d93c-4b73-87ab-0b08789193a3
 noindex: true
 translation-type: tm+mt
-source-git-commit: 081db31efda17ac12cdc88f79ed2f4e1fbfc7edf
+source-git-commit: 2a3bbdd283f983cbdb5f21b606f508603385e041
 workflow-type: tm+mt
 source-wordcount: '1197'
 ht-degree: 0%
@@ -48,7 +48,7 @@ Innan du börjar implementera den här funktionen bör du kontrollera att du har
 
 När du skapar en kanal kan du använda olika mallar för att skapa zoner i kanalen. Du kan lägga till en bild, video eller en inbäddad kanal som gör att flera resurser kan visas i en sekvens.
 
-**Skapa kanalen**
+**Skapa en kanal**
 
 1. Klicka på länken Adobe Experience Manager (överst till vänster) och sedan på **Skärmar**. Du kan också gå direkt till: `http://localhost:4502/screens.html/content/screens`.
 1. Navigera till mappen **Kanaler** och klicka på **Skapa** i åtgärdsfältet.
