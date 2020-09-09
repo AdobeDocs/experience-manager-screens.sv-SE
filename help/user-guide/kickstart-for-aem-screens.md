@@ -3,9 +3,9 @@ title: Kickstart Guide
 seo-title: Kickstart Guide
 description: Följ den här sidan för att skapa ett AEM Screens-demonstrationsprojekt. Det hjälper dig att skapa en digital signeringsupplevelse från installation och konfiguration av ett nytt projekt för att visa ditt innehåll i AEM Screens Player.
 translation-type: tm+mt
-source-git-commit: 12d84eba2b9001600f783cd4f994af43d2c16739
+source-git-commit: d49ceecab42762425d779d50a31291091088ee19
 workflow-type: tm+mt
-source-wordcount: '1317'
+source-wordcount: '1320'
 ht-degree: 1%
 
 ---
@@ -187,7 +187,7 @@ När projektkonfigurationen är klar måste du tilldela kanalen till en skärm f
 Du måste registrera din enhet med AEM kontrollpanel.
 
 >[!IMPORTANT]
->ChromeOS-spelaren kan installeras som Chrome Browser-plugin i utvecklarläge utan att den faktiska enheten för Chrome Player krävs. För installation, följ stegen nedan:
+>Chrome OS-spelaren kan installeras som Chrome Browser-plugin i utvecklarläge utan att den faktiska enheten för Chrome Player krävs. För installation, följ stegen nedan:
 >
 >1. Klicka [här](https://download.macromedia.com/screens/) för att hämta den senaste Chrome Player-versionen.
 >1. Zippa upp och spara det på disken.
@@ -199,7 +199,7 @@ Du måste registrera din enhet med AEM kontrollpanel.
 >1. Klicka på **AEM Screens** Plugin för att starta Chrome Player. Som standard startas spelaren i helskärmsläge. Tryck på **Esc** för att avsluta helskärmsläget.
 
 
-När din ChromeOS-spelare är aktiverad följer du stegen nedan för att registrera en Chrome-enhet.
+När du har aktiverat Chrome OS-spelaren följer du stegen nedan för att registrera en Chrome-enhet.
 
 1. Navigera till mappen **Enheter** i ditt projekt från AEM.
 
@@ -242,7 +242,7 @@ När din ChromeOS-spelare är aktiverad följer du stegen nedan för att registr
 
 ### Visa innehållet i Chrome Player {#viewing-content-output}
 
-Alla resurser i din kanal spelas nu upp på din Chrome-enhet.
+Alla resurser i din kanal spelas nu upp i din Chrome OS-spelare.
 
 Grattis till att du nu spelar upp innehåll i en AEM Screens-kanal!
 
