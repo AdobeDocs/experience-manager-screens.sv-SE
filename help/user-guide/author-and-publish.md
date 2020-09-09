@@ -4,9 +4,9 @@ seo-title: Konfigurera författare och publicera i AEM Screens
 description: AEM Screens arkitektur liknar en traditionell AEM Sites-arkitektur. Innehållet skapas på en AEM författarinstans och sedan vidarebefordras till flera publiceringsinstanser. Följ den här sidan för att lära dig hur du konfigurerar författare och publicerar för AEM Screens.
 seo-description: AEM Screens arkitektur liknar en traditionell AEM Sites-arkitektur. Innehållet skapas på en AEM författarinstans och sedan vidarebefordras till flera publiceringsinstanser. Följ den här sidan för att lära dig hur du konfigurerar författare och publicerar för AEM Screens.
 translation-type: tm+mt
-source-git-commit: 80697595b7fc3d12c9f148a3998335d1d7cefb14
+source-git-commit: 2a3bbdd283f983cbdb5f21b606f508603385e041
 workflow-type: tm+mt
-source-wordcount: '1921'
+source-wordcount: '1910'
 ht-degree: 0%
 
 ---
@@ -145,7 +145,7 @@ Klusteranvändaren och lösenordet för alla publiceringsinstanser i topologin m
 
 På varje publiceringsinstans:
 
-1. I OSGi Console går du till **MAIN** —> **Crypto Support** (*https://&lt;värd>:&lt;port>/system/console/crypto*).
+1. I OSGi Console går du till **MAIN** —> **Crypto Support** (`https://&lt;host&gt;:&lt;port&gt;/system/console/crypto`).
 1. Skriv in det önskade lösenordet för oformaterad text (samma för alla förekomster) i **oformaterad text**
 1. Klicka på **Protect**.
 1. Kopiera värdet **Skyddad text** till anteckningsrutan eller textredigeraren. Det här värdet används i OSGi-konfigurationen för ActiveMQ.
@@ -161,7 +161,7 @@ Eftersom varje publiceringsinstans som standard har unika krypteringsnycklar må
 
 På varje publiceringsinstans:
 
-1. Navigera till OSGi Config-hanteraren *https://&lt;host>:&lt;port>/system/console/configMgr*
+1. Navigera till OSGi Config-hanteraren `https://&lt;host&gt;:&lt;port&gt;/system/console/configMgr`
 1. Välj **konfiguration för ActiveMQ Artemis JMS Provider** för Apache
 1. Uppdatera följande:
 
@@ -172,18 +172,18 @@ På varje publiceringsinstans:
 
 Följ stegen nedan för varje publiceringsinstans:
 
-1. Navigera till OSGi Console -> Meny > ActiveMQ Artemis `[https://localhost:4505/system/console/mq`.
+1. Navigera till OSGi Console -> Meny > ActiveMQ Artemis `https://localhost:4505/system/console/mq`.
 1. Verifiera och kontrollera om du vill visa portar för andra instanser under Klusterinformation > Topologi > noder=2, members=2.
 1. Skicka ett testmeddelande (högst upp på skärmen under Information om mäklare)
 1. Ange följande ändringar i fält:
 
    1. **Mål**: /com.adobe.cq.screens/devTestTopic
    1. **Text**: Hello World
-   1. Visa felet.log för varje instans för att se att meddelandet skickades och togs emot i hela klustret
+   1. Visa fel.logg för varje instans för att se att meddelandet skickades och togs emot i hela klustret
 
 >[!NOTE]
 >
->Navigering till OSGI-konsolen kan ta några sekunder efter att konfigurationen sparats i föregående steg. Du kan också kontrollera error.log för mer information.
+>Navigering till OSGi-konsolen kan ta några sekunder efter att konfigurationen sparats i föregående steg. Du kan också kontrollera error.log för mer information.
 
 Följande bild visas till exempel när ActiveMQ Artemis Server har konfigurerats.
 
@@ -201,7 +201,7 @@ Följ stegen för varje publiceringsinstans:
 
 ### Konfigurera författare och publiceringsinstans {#configuring-author-and-publish-instance}
 
-När du har konfigurerat publiceringstologin måste du konfigurera författaren och publiceringsinstanserna för att visa de praktiska resultaten av implementeringen:
+När du har konfigurerat publiceringstopologin måste du konfigurera författaren och publiceringsinstanserna för att visa de praktiska resultaten av implementeringen:
 
 >[!NOTE]
 >
@@ -229,7 +229,7 @@ När du har konfigurerat publiceringstologin måste du konfigurera författaren 
 
 #### Steg 3: Tilldela enheten till visning {#step-assigning-the-device-to-display}
 
-1. Klicka på **Tilldela visning** i dialogrutan i föregående steg.
+1. Klicka på **Tilldela visning** i dialogrutan från föregående steg.
 1. Välj visningssökvägen för kanalen i mappen **Platser** .
 1. Klicka på **Tilldela**.
 1. Klicka på **Slutför** för att slutföra processen, och nu tilldelas enheten.
@@ -240,7 +240,7 @@ Kontrollera spelaren så ser du innehållet som du har lagt till i kanalen.
 
 **Verifiera enheten**
 
-Innan du utför stegen nedan kontrollerar du att enhets-ID är verifierat. Om du vill verifiera söker du efter enhets-ID i CRXDELite, med sökvägen as */home/users/screens/we-retail/devices*.
+Innan du utför stegen nedan kontrollerar du att enhets-ID är verifierat. Om du vill verifiera söker du efter enhets-ID i CRXDE Lite, med sökvägen as */home/users/screens/we-retail/devices*.
 
 Så här replikerar du enhetsanvändaren:
 
