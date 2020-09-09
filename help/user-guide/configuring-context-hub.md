@@ -1,6 +1,6 @@
 ---
-title: ContextHub konfigureras i AEM-skärmar
-seo-title: ContextHub konfigureras i AEM-skärmar
+title: ContextHub konfigureras i AEM Screens
+seo-title: ContextHub konfigureras i AEM Screens
 description: Följ den här sidan för att lära dig mer om ContextHub i målmotorn för att definiera datalagring för innehållsändring för utlösare.
 seo-description: Följ den här sidan för att lära dig mer om ContextHub i målmotorn för att definiera datalagring för innehållsändring för utlösare.
 uuid: be06bda8-7de9-40d6-a84b-5ed8d8b3d180
@@ -11,7 +11,7 @@ content-type: reference
 discoiquuid: 9a26b5cd-b957-4df7-9b5b-f57e32b4196a
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 15afec3ed9ffdcfc918c13376af2b20f9a61ab8e
+source-git-commit: 2a3bbdd283f983cbdb5f21b606f508603385e041
 workflow-type: tm+mt
 source-wordcount: '1531'
 ht-degree: 1%
@@ -19,17 +19,17 @@ ht-degree: 1%
 ---
 
 
-# ContextHub konfigureras i AEM-skärmar {#configuring-contexthub-in-aem-screens}
+# ContextHub konfigureras i AEM Screens {#configuring-contexthub-in-aem-screens}
 
 I det här avsnittet betonas hur du skapar och hanterar datadrivna resursändringar med hjälp av ett datalager.
 
 ## Nyckeltermer {#key-terms}
 
-Innan vi får mer information om hur du skapar och hanterar lagerdrivna kanaler i ditt AEM Screens-projekt måste du lära dig några viktiga termer som är viktiga och relevanta för de olika scenarierna.
+Innan vi får in mer ingående information om hur ni skapar och hanterar lagerdrivna kanaler i AEM Screens-projekt måste ni lära er några viktiga termer som är viktiga och relevanta för de olika scenarierna.
 
 **Varumärke** hänvisar till din projektbeskrivning på hög nivå.
 
-**Område** refererar till ditt projektnamn för AEM-skärmar, t.ex. Digital Ad Signage
+**Område** Avser ditt projektnamn från AEM Screens, t.ex. Digital Ad Signage
 
 **Aktivitet** definierar regelkategorin, t.ex. Lagerstyrd, Väderstyrd, Avdelningstillgänglighetsstyrd osv.
 
@@ -43,7 +43,7 @@ I följande diagram visas hur ContextHub-konfigurationer sammanfaller med Activi
 
 ## Förhandsvillkor {#preconditions}
 
-Innan du börjar konfigurera Context Hub Configurations för ett AEM Screens-projekt måste du konfigurera Google Sheets (i demonstrationssyfte).
+Innan du börjar konfigurera Context Hub-konfigurationer för ett AEM Screens-projekt måste du konfigurera Google Sheets (i demonstrationssyfte).
 
 >[!IMPORTANT]
 >
@@ -59,24 +59,24 @@ Följande datanivådata utlöser ett exempel på en lokal databashändelse som s
 
 När du har ställt in Google Sheet korrekt, till exempel enligt nedan:
 
-![image](/help/user-guide/assets/context-hub/context-hub1.png)
+![bild](/help/user-guide/assets/context-hub/context-hub1.png)
 
 Följande validering är vad du kommer att se när du kontrollerar anslutningen genom att ange de två värdena, *Google Sheet ID* och *API-nyckel* i formatet nedan:
 
 `https://sheets.googleapis.com/v4/spreadsheets/<your sheet id>/values/Sheet1?key=<your API key>`
 
-![image](/help/user-guide/assets/context-hub/context-hub2.png)
+![bild](/help/user-guide/assets/context-hub/context-hub2.png)
 
 >[!NOTE]
-> I det specifika exemplet nedan visas Google-tabellerna som ett datalager som utlöser en resursändring om värdet är högre än 100 eller lägre än 50.
+>I det specifika exemplet nedan visas Google-tabellerna som ett datalager som utlöser en resursändring om värdet är högre än 100 eller lägre än 50.
 
 ## Steg 2: Konfigurera butikskonfigurationer {#step-setting-store-configurations}
 
 1. **Navigera till ContextHub**
 
-   Navigera till din AEM-instans och klicka på verktygsikonen i det vänstra sidofältet. Klicka på **Webbplatser** —> **ContextHub**, som bilden nedan visar.
+   Navigera till din AEM och klicka på verktygsikonen från vänster sidofält. Klicka på **Sites** —> **ContextHub**, så som visas i bilden nedan.
 
-   ![image](/help/user-guide/assets/context-hub/context-hub3.png)
+   ![bild](/help/user-guide/assets/context-hub/context-hub3.png)
 
 1. **Skapa en ny konfiguration för ContextHub Store**
 
@@ -84,7 +84,7 @@ Följande validering är vad du kommer att se när du kontrollerar anslutningen 
 
    1. Klicka på **Skapa** > **Skapa konfigurationsbehållare** och ange titeln som **ContextHubDemo**.
 
-      ![image](/help/user-guide/assets/context-hub/context-hub4.png)
+      ![bild](/help/user-guide/assets/context-hub/context-hub4.png)
 
    1. **Navigera** till **ContextHubDemo** > **Create** **ContentHub Configuration** och klicka på **Save**.
 
@@ -93,10 +93,10 @@ Följande validering är vad du kommer att se när du kontrollerar anslutningen 
 
    1. Klicka på **Skapa** > Konfiguration av **ContentHub Store på skärmen Konfiguration** **av ContextHub.**
 
-      ![image](/help/user-guide/assets/context-hub/context-hub5.png)
+      ![bild](/help/user-guide/assets/context-hub/context-hub5.png)
 
       >[!CAUTION]
-      >Som en del av AEM 6.5 Feature Pack 4 eller AEM 6.4 Feature Pack 8 bör kunderna uppdatera `/conf/screens/settings/cloudsettings` till `sling:Folder`.
+      >Som en del av AEM 6.5 Feature Pack 4 eller AEM 6.4 Feature Pack 8 ska kunderna uppdatera `/conf/screens/settings/cloudsettings` till `sling:Folder`.
       > 
       >Följ stegen nedan:
       >
@@ -115,7 +115,7 @@ Följ dessa steg i programmet och publicera före eller efter uppgraderingen.
       >[!CAUTION]
       >Om du använder Adobe Experience Manager (AEM) 6.4 anger du **Configuration Title** som **googlesheets** och **Store Type** som **contexthub.generic-jsonp**.
 
-      ![image](/help/user-guide/assets/context-hub/context-hub6.png)
+      ![bild](/help/user-guide/assets/context-hub/context-hub6.png)
 
 
 
@@ -151,32 +151,32 @@ Ersätt koden med ditt *&lt;Sheet ID>* och *&lt;API Key>*, som du hämtade när 
 
    1. Navigera till **ContentHub Store-konfigurationen.** och skapa en annan butikskonfiguration i skärmkonfigurationsbehållaren och ange **titeln** som **segmenteringskontexthub**, **butiksnamn** som **segmentering** och **butikstyp** som ****¥aem.segmentation¥.
 
-      ![image](/help/user-guide/assets/context-hub/context-hub7.png)
+      ![bild](/help/user-guide/assets/context-hub/context-hub7.png)
 
    1. Klicka på **Nästa** och sedan **Spara**.
 
       >[!NOTE]
-Du måste hoppa över processen att definiera jsonen och lämna den tom.
+Du måste hoppa över processen att definiera json och lämna den tom.
 
 
 ## Steg 3: Konfigurera segment i målgruppen {#setting-up-audience}
 
 1. **Skapa segment i målgrupper**
 
-   1. Navigera från din AEM-instans till **Personalisering** > **Publiker** > **skärmar**.
+   1. Navigera från AEM till **Personalisering** > **Publiker** > **skärmar**.
 
    1. Klicka på **Skapa** > **Skapa kontextnavsegment.** Dialogrutan **Nytt ContextHub-segment** öppnas.
 
    1. Ange **titeln** som **högre än 50** och klicka på **Skapa**. Du kan också skapa ett annat segment med namnet **Lowerthan50**.
 
-      ![image](/help/user-guide/assets/context-hub/context-hub11.png)
+      ![bild](/help/user-guide/assets/context-hub/context-hub11.png)
 
    1. Markera segmentet **högre än 50** och klicka på **Egenskaper** i åtgärdsfältet.
-      ![image](/help/user-guide/assets/context-hub/context-hub12.png)
+      ![bild](/help/user-guide/assets/context-hub/context-hub12.png)
 
    1. Välj fliken **Personalisering** i **Segmentegenskaper**. Ställ in **ContextHub Path** till `/conf/screens/settings/cloudsettings/ContextHubDemo/contexthub configurations` och **Segments Path** till `/conf/screens/settings/wcm/segments` och klicka på **Save**, som bilden nedan visar.
 
-      ![image](/help/user-guide/assets/context-hub/context-hub13.png)
+      ![bild](/help/user-guide/assets/context-hub/context-hub13.png)
 
    1. Du kan även ange **ContextHub Path** och **Segments Path** för **Lowerthan50** -segmentet.
 
@@ -186,7 +186,7 @@ Följ stegen nedan för att skapa ett varumärke i era aktiviteter och i ert omr
 
 1. **Skapa ett varumärke i aktiviteter**
 
-   1. Navigera från din AEM-instans till **Personalisering** > **Verksamheter**.
+   1. Navigera från AEM till **Personalisering** > **Verksamheter**.
 
    1. Klicka på **Skapa** > **Skapa varumärke**.
 
@@ -194,12 +194,12 @@ Följ stegen nedan för att skapa ett varumärke i era aktiviteter och i ert omr
 
    1. Ange **Titel** som **Skärmmärke** och klicka på **Skapa**. Ditt varumärke har nu skapats enligt nedan.
 
-      ![image](/help/user-guide/assets/context-hub/context-hub8.png)
+      ![bild](/help/user-guide/assets/context-hub/context-hub8.png)
 
 
       >[!CAUTION]
       Känt fel:
-Om du vill lägga till ett område tar du bort mallen från URL:en, t.ex.
+Om du vill lägga till ett område tar du bort överordnad från URL-adressen, till exempel
       `http://localhost:4502/libs/cq/personalization/touch-ui/content/v2/activities.html/content/campaigns/screensbrand/master`.
 
 1. **Skapa ett område i ditt varumärke**
@@ -208,7 +208,7 @@ Om du vill lägga till ett område tar du bort mallen från URL:en, t.ex.
 
    1. Klicka på **Skapa** och sedan **Skapa område**.
 
-      ![image](/help/user-guide/assets/context-hub/context-hub9.png)
+      ![bild](/help/user-guide/assets/context-hub/context-hub9.png)
 
    1. Välj **Område** i guiden **Skapa sida** och klicka på **Nästa**.
 
@@ -221,13 +221,13 @@ När du har konfigurerat ett datalager och definierat din aktivitet (varumärke 
 
 1. **Skapa segment i aktiviteter**
 
-   1. Navigera från din AEM-instans till **Personalization** > **Activity** > **ScreensBrand** >**ScreensValue**.
+   1. Navigera från AEM till **Personalisering** > **Aktiviteter** > **Skärmmärke** >**Skärmvärde**.
 
    1. Klicka på **Skapa** > **Skapa aktivitet.** Guiden **Konfigurera aktivitet** öppnas.
 
    1. Ange **Title** som **ValueCheck50** och **Name** som **valueCheck50**. Välj **målmotorn** som **ContextHub (AEM)** i listrutan och klicka på **Nästa**.
 
-      ![image](/help/user-guide/assets/context-hub/context-hub14.png)
+      ![bild](/help/user-guide/assets/context-hub/context-hub14.png)
 
    1. Klicka på **Lägg till upplevelse** i **guiden** Konfigurera aktivitet.
 
@@ -235,17 +235,17 @@ När du har konfigurerat ett datalager och definierat din aktivitet (varumärke 
 
    1. I **Publiker** väljer du **Lowerthan50** och klickar på **Add Experience** och anger **Title** som **lägre än50** **** ****¥Name¥less50¥. Click **Ok**.
 
-      ![image](/help/user-guide/assets/context-hub/context-hub15.png)
+      ![bild](/help/user-guide/assets/context-hub/context-hub15.png)
 
    1. Klicka på **Nästa** och sedan **Spara**. **ValueCheck50** -aktiviteten har nu skapats och konfigurerats.
 
-      ![image](/help/user-guide/assets/context-hub/context-hub16.png)
+      ![bild](/help/user-guide/assets/context-hub/context-hub16.png)
 
 ## Steg 5: Redigera segment i publiker{#editing-audience-segmentation}
 
 1. **Redigera segment**
 
-   1. Navigera från din AEM-instans till **Personalisering** > **Publiker** > **skärmar**.
+   1. Navigera från AEM till **Personalisering** > **Publiker** > **skärmar**.
 
    1. Markera segmentet **högre än 50** och klicka på **Redigera** i åtgärdsfältet.
 
@@ -258,7 +258,7 @@ När du har konfigurerat ett datalager och definierat din aktivitet (varumärke 
       >[!NOTE]
 Google **heets/value/1/0** refererar till rad 2 och kolumn som fylls i i Google Sheets i figuren nedan:
 
-      ![image](/help/user-guide/assets/context-hub/context-hub17.png)
+      ![bild](/help/user-guide/assets/context-hub/context-hub17.png)
 
    1. Välj **Operator** som **större än** i listrutan.
 
@@ -267,7 +267,7 @@ Google **heets/value/1/0** refererar till rad 2 och kolumn som fylls i i Google 
       >[!NOTE]
       AEM validerar dina data från Google Sheet genom att visa ditt segment som grönt.
 
-      ![image](/help/user-guide/assets/context-hub/context-hub18.png)
+      ![bild](/help/user-guide/assets/context-hub/context-hub18.png)
    Redigera på samma sätt egenskapsvärdena till **Lägre än 50**.
 
    1. Dra och släpp **jämförelsen: Egenskap - Värdekomponent** till redigeraren.
@@ -286,11 +286,11 @@ Google **heets/value/1/0** refererar till rad 2 och kolumn som fylls i i Google 
 
 Följ stegen nedan för att aktivera målinriktning i dina kanaler.
 
-1. Navigera till en av AEM-skärmarna. Följande steg visar hur du aktiverar mål med hjälp av **DataDrivenChannel** som skapats i en AEM Screens Channel.
+1. Navigera till en av AEM Screens-kanalerna. I följande steg visas hur du aktiverar mål genom att använda **DataDrivenChannel** som skapats i en AEM Screens-kanal.
 
 1. Markera kanalen **TargetChannel** och klicka på **Egenskaper** i åtgärdsfältet.
 
-   ![image](/help/user-guide/assets/context-hub/context-hub19.png)
+   ![bild](/help/user-guide/assets/context-hub/context-hub19.png)
 
 1. Välj fliken **Personalisering** för att konfigurera ContextHub-konfigurationer.
 
@@ -301,14 +301,14 @@ Följ stegen nedan för att aktivera målinriktning i dina kanaler.
       >[!NOTE]
       Använd ContextHub och Segments-sökvägen, där du först sparade dina kontextnavkonfigurationer och segment.
 
-      ![image](/help/user-guide/assets/context-hub/context-hub20.png)
+      ![bild](/help/user-guide/assets/context-hub/context-hub20.png)
 
    1. Navigera till och markera **TargetChannel** -kanalen och klicka på **Redigera** i åtgärdsfältet.
 
       >[!NOTE]
       Om du har konfigurerat allt korrekt visas alternativet **Riktning** i listrutan från redigeraren, vilket visas i bilden nedan.
 
-      ![image](/help/user-guide/assets/context-hub/context-hub21.png)
+      ![bild](/help/user-guide/assets/context-hub/context-hub21.png)
 
 ## Läs mer: Exempel på användningsfall {#learn-more-example-use-cases}
 
