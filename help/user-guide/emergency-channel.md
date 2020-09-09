@@ -10,7 +10,10 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 discoiquuid: dbb4fae6-f3fb-496a-9bd6-1151e2862b5b
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 2708464222321fd138c986f19d8572c71f1dae75
+source-git-commit: 2a3bbdd283f983cbdb5f21b606f508603385e041
+workflow-type: tm+mt
+source-wordcount: '812'
+ht-degree: 0%
 
 ---
 
@@ -38,11 +41,10 @@ Innehållsförfattare
 
 Följ stegen nedan för att konfigurera en nödkanal:
 
-1. Skapa ett AEM-skärmsprojekt som heter **EmergencyChannel**, enligt nedan.
+1. Skapa ett AEM Screens-projekt med namnet **EmergencyChannel**, enligt nedan.
 
    >[!NOTE]
-   >
-   >Mer information om hur du skapar och hanterar projekt i AEM-skärmar finns i Skapa ett projekt.
+   >Mer information om hur du skapar och hanterar projekt i AEM Screens finns i Skapa ett projekt.
 
    ![screen_shot_2019-02-21at35809pm](assets/screen_shot_2019-02-21at35809pm.png)
 
@@ -51,12 +53,14 @@ Följ stegen nedan för att konfigurera en nödkanal:
    1. Välj mappen **Kanaler** och klicka på **Skapa** för att öppna guiden och skapa en kanal.
 
    1. Välj **Sequence Channel** i guiden och skapa kanalen **MainAdChannel**.
+
    ![screen_shot_2019-02-21at35932pm](assets/screen_shot_2019-02-21at35932pm.png)
 
 1. **Lägga till innehåll i sekvenskanalen**
 
    1. Markera kanalen (**MainAdChannel**).
    1. Klicka på **Redigera** i åtgärdsfältet för att öppna redigeraren. Dra och släpp några resurser i kanalen.
+
    ![screen_shot_2019-02-21at40053pm](assets/screen_shot_2019-02-21at40053pm.png)
 
 1. **Skapa en nödkanal**
@@ -64,6 +68,7 @@ Följ stegen nedan för att konfigurera en nödkanal:
    1. Markera mappen **Kanaler** .
    1. Klicka på **Skapa** för att öppna guiden och skapa en kanal.
    1. Välj **Sequence Channel** i guiden och skapa kanalen **EmergencyChannel**.
+
    >[!NOTE]
    >
    >Normalt läggs din nödkanal till i ditt befintliga produktionsprojekt.
@@ -74,12 +79,14 @@ Följ stegen nedan för att konfigurera en nödkanal:
 
    1. Markera kanalen (**Nödkanal)**.
    1. Klicka på **Redigera** i åtgärdsfältet för att öppna redigeraren. Dra och släpp den resurs som du vill ska köras i en nödsituation till kanalen.
+
    ![screen_shot_2019-02-21at40516pm](assets/screen_shot_2019-02-21at40516pm.png)
 
 1. **Skapa en plats**
 
    1. Navigera till mappen **Platser** .
    1. Klicka på **Skapa** i åtgärdsfältet och skapa en plats med namnet **Store** i guiden.
+
    ![screen_shot_2019-02-22at121638pm](assets/screen_shot_2019-02-22at121638pm.png)
 
 1. **Skapar bildskärmar på din plats**
@@ -92,6 +99,7 @@ Följ stegen nedan för att konfigurera en nödkanal:
 
    1. Navigera till mappen **Scheman** .
    1. Klicka på **Skapa** i åtgärdsfältet. Följ guiden för att skapa ett schema med namnet **StoreSchedule**.
+
    ![screen_shot_2019-02-22at122845pm](assets/screen_shot_2019-02-22at122845pm.png)
 
 1. Tilldela båda skärmarna till ditt schema och ange prioriteter
@@ -106,6 +114,7 @@ Följ stegen nedan för att konfigurera en nödkanal:
       1. Ange **prioritet** som 2
       1. Ange att händelser som stöds ska vara **Inledande inläsning** och **Inaktiv skärm**.
       1. Click **Save**
+
       På samma sätt måste du utföra samma steg igen för att tilldela **EmergencyChannel** och ange dess **prioritet**.
    >[!NOTE]
    >
@@ -123,6 +132,7 @@ Följ stegen nedan för att konfigurera en nödkanal:
    1. Ange att händelser som stöds ska vara **Inledande inläsning**, **Inaktivitetsskärm** och **Användarinteraktion**
 
    1. Click **Save**
+
    ![screen_shot_2019-03-04at104741am](assets/screen_shot_2019-03-04at104741am.png)
 
    Du kan visa de tilldelade kanalerna från **kontrollpanelen StoreSchedule** .
@@ -139,12 +149,13 @@ Följ stegen nedan för att konfigurera en nödkanal:
    1. Välj sökvägen till schemat (här, till exempel **EmergencyChannel** —> **Scheman** —>**StoreSchedule**).
 
    1. Click **Save**.
+
    Du kan visa det tilldelade schemat för visningen från **kontrollpanelen StoreSchedule** .
    ![screen_shot_2019-03-04at122003pm](assets/screen_shot_2019-03-04at122003pm.png)
 
 1. **Enhetsregistrering**
 
-   Slutför registreringsprocessen och när du har registrerat dig ser du följande utdata på din AEM Screens Player.
+   Slutför registreringsprocessen och när du har registrerat dig ser du följande utdata på din AEM Screens-spelare.
 
    ![new30](assets/new30.gif)
 
@@ -164,7 +175,7 @@ I händelse av en kris utför du följande steg:
 
    ![screen_shot_2019-02-25at101622pm](assets/screen_shot_2019-02-25at101622pm.png)
 
-1. Så snart kanalens prioritet har uppdaterats visar alla AEM Screens-spelare **innehållet i EmergencyChannel** , vilket visas nedan.
+1. Så snart kanalens prioritet har uppdaterats visar alla AEM Screens-spelare **innehållet i EmergencyChannel** enligt nedan.
 
    ![screen_shot_2019-02-25at101742pm](assets/screen_shot_2019-02-25at101742pm.png)
 
