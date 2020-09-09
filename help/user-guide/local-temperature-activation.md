@@ -11,7 +11,10 @@ topic-tags: use-case-examples
 discoiquuid: 9d58b971-4540-4007-968d-2a1d94d1fd38
 docset: aem65
 translation-type: tm+mt
-source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
+source-git-commit: 2a3bbdd283f983cbdb5f21b606f508603385e041
+workflow-type: tm+mt
+source-wordcount: '476'
+ht-degree: 0%
 
 ---
 
@@ -26,9 +29,9 @@ Om ditt Google Sheets har ett värde under 50 visas en bild med varma drycker oc
 
 ## Förhandsvillkor {#preconditions}
 
-Innan du börjar implementera aktiveringen av lokal temperatur i resecentret måste du lära dig hur du konfigurerar ***datalagret***, ***målgruppssegmentering*** och ***Aktivera målanpassning för kanaler*** i ett AEM-skärmsprojekt.
+Innan du börjar implementera aktiveringen av lokal temperatur i resecentret måste du lära dig hur du konfigurerar ***datalagret***, ***målgruppssegmenteringen*** och ***Aktivera målanpassning för kanaler*** i ett AEM Screens-projekt.
 
-Mer information finns i [Configuring ContextHub in AEM Screens](configuring-context-hub.md) .
+Mer information finns i [Configuring ContextHub i AEM Screens](configuring-context-hub.md) .
 
 ## Grundläggande flöde {#basic-flow}
 
@@ -38,27 +41,28 @@ Följ stegen nedan för att implementera användningsexemplet för aktivering av
 
    1. Navigera till ContextHubDemo Google Sheet.
    1. Lägg till en kolumn med **Rubrik1** med motsvarande värde för temperatur.
+
    ![screen_shot_2019-05-08at112911am](assets/screen_shot_2019-05-08at112911am.png)
 
 1. **Konfigurera segmenten i publiker enligt kraven**
 
-   1. Navigera till segmenten i målgruppen (se ***steg 2: Ställa in målgruppssegmentering*** i **[Configuring ContextHub på sidan AEM-skärmar](configuring-context-hub.md)**för mer information).
+   1. Navigera till segmenten i målgruppen (se ***steg 2: Konfigurera målgruppssegmentering*** i **[Configuring ContextHub på AEM Screens](configuring-context-hub.md)** -sidan för mer information).
 
    1. Markera **blad A1 1** och klicka på **Redigera**.
 
    1. Markera jämförelseegenskapen och klicka på konfigurationsikonen för att redigera egenskaperna.
    1. Välj **Googlesheets/value/1/0** i listrutan i **Egenskapsnamn**
 
-   1. Välj **Operatorn** som **större än eller lika med **i listrutan
+   1. Välj **operatorn** som **större än eller lika med** i listrutan
 
    1. Ange **värdet** som **50**
 
-   1. På samma sätt väljer du* Sheets A1 2 **och klickar på **Redigera**.
+   1. På samma sätt markerar du **Blad A1 2** och klickar på **Redigera**.
 
    1. Markera **jämförelseegenskapen - värde** och klicka på konfigurationsikonen för att redigera egenskaperna.
    1. Välj **Googlesheets/value/1/0** i listrutan i **Egenskapsnamn**
 
-   1. Välj **Operator** som **less-than **i listrutan
+   1. Välj **operatorn** som **mindre än** i listrutan
 
    1. Ange **värdet** som **50**
 
@@ -66,7 +70,7 @@ Följ stegen nedan för att implementera användningsexemplet för aktivering av
 
    >[!NOTE]
    >
-   >Din kanal bör redan ha en standardbild och publikationerna bör vara förkonfigurerade enligt beskrivningen i [Konfigurera ContextHub i AEM-skärmar](configuring-context-hub.md).
+   >Din kanal bör redan ha en standardbild och publikationerna bör vara förkonfigurerade enligt beskrivningen i [Konfigurera ContextHub i AEM Screens](configuring-context-hub.md).
 
    ![screen_shot_2019-05-08at113022am](assets/screen_shot_2019-05-08at113022am.png)
 
@@ -84,5 +88,6 @@ Följ stegen nedan för att implementera användningsexemplet för aktivering av
 
    1. Klicka på **Förhandsgranska.** Öppna även Google Sheet och uppdatera värdet.
    1. Om du ändrar värdet till mindre än 50 bör du kunna se en bild av sommardrycker. Om värdet i Google Sheet är 50 eller högre än vad som ska kunna visa bilden med en het drink.
+
    ![result3](assets/result3.gif)
 
