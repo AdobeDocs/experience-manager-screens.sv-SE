@@ -1,10 +1,10 @@
 ---
-title: Target Audience
-seo-title: Target Audience for AEM Screens
+title: Målgrupp
+seo-title: Målgrupp för AEM Screens
 description: På sidan beskrivs vilka som är målgrupp för AEM Screens Best Practices Guide
 seo-description: På sidan beskrivs vilka som är målgrupp för AEM Screens Best Practices Guide
 translation-type: tm+mt
-source-git-commit: f25176be89424059b8c51296969f069687328536
+source-git-commit: 54c5a2f2f3f755e4da4028d54042f4bd8f2df369
 workflow-type: tm+mt
 source-wordcount: '520'
 ht-degree: 4%
@@ -12,7 +12,7 @@ ht-degree: 4%
 ---
 
 
-# Target Audience {#target-audience}
+# Målgrupp {#target-audience}
 
 Som erfaren AEM-implementerare har du troligtvis sett rollerna, som kallas *författare*, *utvecklare* och *IT/tekniker*.
 
@@ -23,7 +23,6 @@ Diagrammet nedan visar rollerna som vi kommer att hänvisa till i hela guiden.
 ![](/help/assets/roles-used.png)
 
 >[!NOTE]
->
 >Många av dessa roller kan vara antingen interna eller externa beroende på hur respektive projekt är konfigurerat.
 
 ## Definiera roller {#roles}
@@ -32,15 +31,15 @@ I följande avsnitt finns en översikt över målgruppen:
 
 ### Adobe {#adobe-audience}
 
-Adobe innehåller Adobe Managed Services som CSE (Customer Success Engineer) och Adobe Support.
+Adobe innehåller Adobe Managed Services-resurser som CSE (Customer Success Engineer) och Adobe Support.
 
-### AEM-implementerare {#aem-implementors}
+### AEM {#aem-implementors}
 
-AEM-implementerare ansvarar för utvecklings- och integreringsuppgifter för att utveckla användarupplevelsen, anpassade mallar och bakomliggande integreringar för AEM.
+AEM implementerare ansvarar för utvecklings- och integreringsuppgifter för att utveckla användarupplevelsen, anpassade mallar och bakomliggande integreringar för AEM.
 
 Anpassade funktioner som krävs för att hantera parametrar för användarupplevelse hämtas och levereras via den här processen.
 
-AEM-implementerare distribuerar vanligtvis anpassade funktioner i faser över tid till platser. De kan till exempel först skapa stöd för uppspelning av grundläggande loopad video eller statiskt grafiskt innehåll. I nästa fas kan det finnas funktioner för uppspelning av lokaliserat innehåll via dynamiska mallar och metadatataggar, med ytterligare faser som har stöd för interaktiva element via pekskärmar, sensorer, dynamiska utlösare osv.
+AEM implementerare distribuerar vanligtvis anpassade funktioner i faser över tid till platser. De kan till exempel först skapa stöd för uppspelning av grundläggande loopad video eller statiskt grafiskt innehåll. I nästa fas kan det finnas funktioner för uppspelning av lokaliserat innehåll via dynamiska mallar och metadatataggar, med ytterligare faser som har stöd för interaktiva element via pekskärmar, sensorer, dynamiska utlösare osv.
 
 ### AV-integratörer {#av-integrators}
 
@@ -69,5 +68,4 @@ Kreatörerna och Content Management kan vara något av följande:
 Projektledare hanterar vanligtvis hela distributionen av AEM Screens. En projektledare är punktpersonen för hela genomförandet av det utsedda projektet och har ett viktigt ansvar, till exempel att ställa in tidslinjer, hantera teambehov och kommunikation, möta utmaningar och se till att målen uppfylls.
 
 >[!NOTE]
->
 >Om du vill veta mer om olika roller och ansvarsområden och målgruppen för ett projekt för digitala signaturer kan du gå till **[Projektroller och ansvarsområden](https://helpx.adobe.com/experience-manager/6-5/screens/using/project-roles-responsibilities.html)**.
