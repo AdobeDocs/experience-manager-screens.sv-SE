@@ -2,7 +2,7 @@
 title: Enclosed Corporate Network
 description: Enclosed Corporate Network
 translation-type: tm+mt
-source-git-commit: f25176be89424059b8c51296969f069687328536
+source-git-commit: 54c5a2f2f3f755e4da4028d54042f4bd8f2df369
 workflow-type: tm+mt
 source-wordcount: '709'
 ht-degree: 0%
@@ -19,9 +19,9 @@ Enclosed Corporate Network SetUp är tillgängligt för mindre, större och stö
 
 ## Ansluta AEM Screens Player till Direct Internet Access {#connecting-aem-screens-players}
 
-Följ stegen nedan för att säkerställa att AEM Screen-spelarna är korrekt anslutna i den här konfigurationen:
+Följ stegen nedan för att se till att AEM skärmspelare är korrekt anslutna i den här konfigurationen:
 
-1. Kontrollera att alla AEM Screen-spelare är anslutna till Routers Network.
+1. Kontrollera att alla AEM skärmspelare är anslutna till routernätverket.
 1. Testa internetanslutningen genom att ringa en URL i datorns webbläsare.
 
    >[!NOTE]
@@ -52,8 +52,8 @@ Enclosed Corporate Network Setup kan separeras logiskt i två block:
 
 ### Wide Area Network {#wan-connection}
 
-Prestandan för internetanslutningen måste, förutom att det går att nå nätverket, ge tillräcklig bandbredd för att AEM Screens ska kunna hantera uppdateringarna smidigt.
-*Tillräcklig bandbredd* beror på mängden anslutna AEM-skärmar och på hur andra användare använder nätverket, till exempel smarttelefoner, surfplattor, kassörer, datorer eller Wi-Fi-gäster.
+Prestandan för internetanslutningen måste, förutom nätverkets nåbarhet, tillhandahålla tillräcklig bandbredd för att AEM Screens-innehållsuppdateringar ska fungera smidigt.
+*Tillräcklig bandbredd* beror på mängden anslutna AEM och hur många andra användare som använder nätverket, till exempel smarttelefoner, surfplattor, kassörer, datorer eller Wi-Fi-gäster.
 
 >[!NOTE]
 >
@@ -61,7 +61,7 @@ Prestandan för internetanslutningen måste, förutom att det går att nå nätv
 
 ### Lokalt nätverk {#lan-connection}
 
-Prestandan för det lokala nätverket (LAN) måste, förutom att det går att nå nätverket, tillhandahålla tillräcklig bandbredd för att AEM Screens ska kunna hantera innehållsuppdateringar på ett smidigt sätt.
+Prestandan hos det lokala nätverket (LAN) måste, förutom att det går att nå nätverket, tillhandahålla tillräcklig bandbredd för att AEM Screens innehållsuppdateringar ska fungera smidigt.
 
 LAN-nätverket inom företagsorganisationer är vanligtvis minst 1 000 MB/sek-nätverk, så att det finns tillräckligt med bandbredd för att ansluta många enheter med bra prestanda till systemet. När du använder andra aktiva nätverkskomponenter är det obligatoriskt att alla dessa stämmer överens med kraven för nätverksbandbredd.
 
@@ -86,7 +86,6 @@ För scenarier där det förekommer mer interaktion med sensorer eller utlösare
 Följande tabell ger en översikt över data för nätverksanslutningsnycklar.
 
 >[!NOTE]
->
 >Med hjälp av informationen kan du visa förbrukningen för varje enhet i nätverket som begär och hämtar en Internetkälla. Var och en av dessa förfrågningar sammanfattar och förlänger hämtningstiden.
 
 ![](/help/using/assets/enclosed-network-download.png)
