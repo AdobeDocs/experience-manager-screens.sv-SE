@@ -4,16 +4,19 @@ seo-title: Grunderna för digital signering för [!UICONTROL AEM Screens]
 description: Guiden beskriver grunderna i ett digitalt signeringsprojekt
 seo-description: Guiden beskriver grunderna i ett digitalt signeringsprojekt
 translation-type: tm+mt
-source-git-commit: 30c724ea897fd2da5300bb5cad285d460af5de40
+source-git-commit: 54c5a2f2f3f755e4da4028d54042f4bd8f2df369
+workflow-type: tm+mt
+source-wordcount: '424'
+ht-degree: 0%
 
 ---
 
 
 # Grunderna i ett projekt för digital signering {#basics-digital-signage}
 
-Innan man börjar använda de bästa metoderna för implementering av AEM-skärmar är det viktigt att tänka på projektet som ett digitalt signeringsprojekt, i stället för som en traditionell programvaruutveckling.
+Innan man börjar använda sig av AEM Screens bästa praxis för implementering är det viktigt att tänka på projektet som ett digitalt signeringsprojekt, i stället för som en traditionell programvaruutveckling.
 
-I det här avsnittet ges rekommendationer om viktiga nyckelelement som är viktiga innan en AEM Screens-projektimplementering genomförs.
+I det här avsnittet ges rekommendationer om viktiga nyckelelement som är viktiga innan AEM Screens implementeras.
 
 ## Viktiga element i digital signering {#key-elements}
 
@@ -75,7 +78,7 @@ Det är viktigt att du definierar nyckelelementen innan du implementerar ett pro
       * Skicka och ta emot seriella kommandon (kontaktstängning, PLC osv.)
       * Inkommande data visas på skärmen (RSS) eller utlöser innehåll
       * RFID/NFC/Bluetooth/iBeacon
-      * Externa tjänster (väder, trafik osv.)
+      * Externa tjänster (väder, trafik)
 
 1. **Miljö**
 
@@ -94,5 +97,5 @@ Det är viktigt att du definierar nyckelelementen innan du implementerar ett pro
    * Krävs detaljerade installationsguider/användarhandböcker?
    * Konfigurerar (programmerar) vi enheten före leveransen?
    * Behöver vi samla in varje serienummer för spårning?
-   * Finns det några krav på reservström (avbrottsfri strömförsörjning)?
+   * Finns det några krav på reservkraft (strömförsörjning utan avbrott)?
    * Hur distribueras systemuppdateringar? Och hur fjärrövervakas enheter? Krävs en MDM-lösning?
