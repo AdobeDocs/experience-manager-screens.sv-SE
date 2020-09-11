@@ -1,21 +1,24 @@
 ---
 title: Miljöer för [!UICONTROL AEM Screens]
 seo-title: Miljöer för [!UICONTROL AEM Screens]
-description: Den här sidan beskriver miljöerna för ett AEM Screens-projekt.
-seo-description: Den här sidan beskriver miljöerna i ett AEM Screens-projekt.
+description: På den här sidan beskrivs miljöerna för ett AEM Screens-projekt.
+seo-description: På den här sidan beskrivs miljöerna för ett AEM Screens-projekt.
 translation-type: tm+mt
-source-git-commit: 0d91aa653508969cf1f4ccfba23a570e22e6414c
+source-git-commit: 54c5a2f2f3f755e4da4028d54042f4bd8f2df369
+workflow-type: tm+mt
+source-wordcount: '166'
+ht-degree: 0%
 
 ---
 
 
 # Miljöer {#environments}
 
-Bestäm i förväg vilka AEM-miljöer kunden har och kommer att förvänta sig att du använder, både för *utveckling* och *distribution*.
+Bestäm i förväg vilka AEM miljöer kunden har och kommer att förvänta sig att du använder, både för *utveckling* och *distribution*.
 
 >[!NOTE]
 >
->AEM-skärmar kräver flera paket för att projekten ska fungera. Alla miljöer bör ha samma version av Adobe Experience Manager.
+>AEM Screens kräver flera paket för att projekt ska fungera. Alla miljöer bör ha samma version av Adobe Experience Manager.
 
 Följ riktlinjerna nedan för att konfigurera miljön för ditt AEM Screens-projekt:
 
@@ -23,9 +26,9 @@ Följ riktlinjerna nedan för att konfigurera miljön för ditt AEM Screens-proj
 
    * **AEM Service Pack**
    * **Funktionspaket för skärmar**
-   * **AEM Cumulative Fix Pack**
+   * **AEM Kumulativt korrigeringspaket**
 
-1. Identifiera eventuella utvecklingspaket (till exempel WCM Core-komponenter) eller tredjepartsverktyg (till exempel SAP Hybris) som krävs.
+1. Identifiera eventuella utvecklingspaket (till exempel WCM Core-komponenter) eller verktygspaket från tredje part (till exempel SAP Hybris) som krävs.
 
 1. Installera samma programvarupaket i dina lokala utvecklingsmiljöer.
 
