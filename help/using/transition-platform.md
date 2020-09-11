@@ -1,10 +1,13 @@
 ---
 title: Övergång till plattform
-seo-title: Övergång till plattform för AEM-skärmar
+seo-title: Övergång till plattform för AEM Screens
 description: Sidan beskriver övergång till plattform
 seo-description: Sidan beskriver övergång till plattform
 translation-type: tm+mt
-source-git-commit: 5c83a2b59769dfd3736a830f7d7d3cc35137c182
+source-git-commit: 54c5a2f2f3f755e4da4028d54042f4bd8f2df369
+workflow-type: tm+mt
+source-wordcount: '193'
+ht-degree: 0%
 
 ---
 
@@ -13,9 +16,9 @@ source-git-commit: 5c83a2b59769dfd3736a830f7d7d3cc35137c182
 
 >[!NOTE]
 >
->En typisk intressent för den här aktiviteten är en AEM-implementerare.
+>En typisk intressent för den här aktiviteten är en AEM implementerare.
 
-I takt med att vårt projekt har utvecklats från en strategisk vision till en trådrad verklighet bör vi nu börja förbereda oss för de uppgifter som krävs för att skapa ett skärmsprojekt i AEM som vi kan driftsätta.
+I takt med att vårt projekt har utvecklats från en strategisk vision till en trådrad verklighet bör vi nu börja förbereda oss för de uppgifter som krävs för att skapa ett skärpeprojekt i AEM som vi kan driftsätta.
 
 Detta inkluderar mappning av plattformsspecifika konfigurationer till löst definierade krav som definieras i prototypfasen.
 
@@ -24,8 +27,8 @@ Exempel är hur och när man ska använda:
 * **Upplevelsefragment** för att skapa innehållsgrupperingar
 * **Innehållsfragment** för att skapa textvariationer
 * **Context Hub** för att skapa externa datalager, SPA för interaktiva upplevelser
-* **OSGI-tjänster** för nätverksaviseringar
-* **Resurslänk** för Creative Cloud-källa
+* **OSGi-tjänster** för nätverksaviseringar
+* **Resurslänk** för Creative Cloud
 * **Nätverksmappar** för resursallokering
 * **Textövertäckning** för realtidsdata
 * **Scheman** för displaygruppering/kanalgruppering
