@@ -1,12 +1,12 @@
 ---
 title: Introduktion till [!UICONTROL AEM Screens]
-seo-title: Guide till bästa praxis för [!UICONTROL AEM Screens]-projekt
-description: Den här sidan är ett introduktionsavsnitt för AEM Screens
+seo-title: Best Practices Guide for [!UICONTROL AEM Screens] Projects
+description: Den här sidan är en introduktion till AEM Screens
 seo-description: Den här sidan innehåller en introduktion till AEM Screens
 translation-type: tm+mt
-source-git-commit: f25176be89424059b8c51296969f069687328536
+source-git-commit: 54c5a2f2f3f755e4da4028d54042f4bd8f2df369
 workflow-type: tm+mt
-source-wordcount: '690'
+source-wordcount: '684'
 ht-degree: 9%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 9%
 
 # Introduktion till AEM Screens {#introduction}
 
-**AEM-skärmar** (Adobe Experience Manager) är en lösning för digitala signaturer som gör att du kan skapa, publicera och spela dynamiska och interaktiva digitala upplevelser som omfattar olika typer av skärmar på plats i kombination med en omfattande strategi för digital marknadsföring i flera kanaler.
+**AEM (Adobe Experience Manager) Screens** är en lösning för digital signering som gör det möjligt att skapa, publicera och spela dynamiska och interaktiva digitala upplevelser som omfattar olika typer av skärmar på plats i kombination med en omfattande strategi för digital marknadsföring i flera kanaler.
 
 Med AEM Screens kan du skapa:
 
@@ -35,15 +35,15 @@ Det är enkelt och intuitivt att skapa och hantera ett nätverk för digitala si
 
 >[!NOTE]
 >
->Mer information om olika funktioner för projektutveckling och -hantering i AEM Screens finns i **[AEM Screens användarhandboken](https://helpx.adobe.com/experience-manager/6-5/screens/user-guide.html)**.
+>Mer information om olika funktioner i AEM Screens projektutveckling och -hantering finns i **[AEM Screens användarhandbok](https://helpx.adobe.com/experience-manager/6-5/screens/user-guide.html)**.
 
-## AEM Sites kontra AEM Screens {#aem-sites-screens}
+## AEM Sites jämfört med AEM Screens {#aem-sites-screens}
 
 >[!NOTE]
 >
->Om ditt implementeringsteam har erfarenhet av att arbeta med AEM Sites-program är det viktigt att förstå skillnaden mellan AEM Sites och AEM Screens.
+>Om implementeringsteamet har erfarenhet av att arbeta med AEM Sites-program är det viktigt att förstå skillnaden mellan AEM Sites och AEM Screens.
 
-AEM Screens har en enhetlig redigerings-/uppspelningsplattform för distribution av innehåll till digitala signeringsenheter på offentliga platser. Även om den som skapar upplevelsen bör sträva efter att bibehålla en konsekvent upplevelse över webben och i alla kanaler, finns det vissa skillnader som bör noteras.
+AEM Screens erbjuder en enhetlig redigerings-/uppspelningsplattform för distribution av innehåll till digitala signeringsenheter på offentliga platser. Även om den som skapar upplevelsen bör sträva efter att bibehålla en konsekvent upplevelse över webben och i alla kanaler, finns det vissa skillnader som bör noteras.
 
 * **Dwell-time**: Webbsidor är oftast utformade för att ge en mängd information som kan användas under en relativt längre tidsperiod. Digitala upplevelser på plats bör däremot förutse visningsprogrammets behov och ge tydliga och kortfattade anvisningar om hur och varför användaren bör engagera sig. Detta resulterar i upplevelser som är mer målinriktade, välstrukturerade och sammanhangsbaserade.
 
@@ -53,12 +53,11 @@ AEM Screens har en enhetlig redigerings-/uppspelningsplattform för distribution
 
 * **Segmentering med** medieslinga: Genom att konfigurera varje spelarenhet så att den har ett eget loopsegment kan du enkelt skapa, publicera och spela upp lokaliserat innehåll i den övergripande digitala upplevelsen. Medieresurser som finns i inbäddade sekvenskanaler läggs till i det föregående slingsegmentet och ger möjlighet att rikta in ett medielöpssegment för varje platsgruppering.
 
-* **Interaktiva upplevelser**: Pekaktiverat datorprogram kan redigeras och levereras i en skärmkanal med hjälp av AEM och SPA-redigeraren. Det är en god vana att använda konsekventa flerkanalsdesignegenskaper, en inaktivitetstimer för att återställa upplevelsen och ett tydligt anrop till åtgärd för vilka åtgärder programmet kan utföra. Landningssidan ska bestå av viktiga digitala element som är utformade för att förmedla värde, locka användaren till skärmen och uppmana användaren att engagera sig.
+* **Interaktiva upplevelser**: Pekaktiverat datorprogram kan skapas och levereras i en skärmkanal med AEM och SPA-redigeraren. Det är en god vana att använda konsekventa designegenskaper i flera kanaler, en inaktivitetstimer för att återställa upplevelsen och ett tydligt anrop till åtgärd för vilka åtgärder programmet kan utföra. Landningssidan ska bestå av viktiga digitala element som är utformade för att förmedla värde, locka användaren till skärmen och uppmana användaren att engagera sig.
 
 AEM Screens tillhandahåller ett ramverk för att distribuera innehåll till fysiska enheter. Innehållet tilldelas kanaler på skärmar, som kan innehålla mediainnehåll eller program för pekskärmar. I det här ramverket kan ett AEM Sites-program levereras som innehåll via en kanal.
 
 Innan en AEM Sites tas bort i en kanal på skärmar måste den vara formaterad för användning med dimensionerna för den visningsenhet som den är avsedd för.
 
 >[!NOTE]
->
->Många AEM Sites-komponenter är inte kompatibla med AEM Screens. AEM Screens har många av sina egna färdiga komponenter som gör att du kan skapa digitala upplevelser utan att behöva anpassa dem. Om projektkraven medger det ska du använda den inbyggda AEM Screens-funktionen där det är möjligt.
+>Många AEM Sites-komponenter är inte kompatibla med AEM Screens. AEM Screens har många av sina egna färdiga komponenter som gör att du kan skapa digitala upplevelser utan att behöva anpassa dem. Om projektkraven tillåter det ska du använda den inbyggda AEM Screens-funktionen där det är möjligt.
