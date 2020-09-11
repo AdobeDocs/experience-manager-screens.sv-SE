@@ -1,23 +1,23 @@
 ---
-title: AEM Platform Configurations
-seo-title: AEM Platform Configurations
-description: Sidan beskriver AEM Platform Configurations
-seo-description: Sidan beskriver AEM Platform Configurations
+title: AEM plattformskonfigurationer
+seo-title: AEM plattformskonfigurationer
+description: Sidan beskriver AEM plattformskonfigurationer
+seo-description: Sidan beskriver AEM plattformskonfigurationer
 translation-type: tm+mt
-source-git-commit: f25176be89424059b8c51296969f069687328536
+source-git-commit: 54c5a2f2f3f755e4da4028d54042f4bd8f2df369
 workflow-type: tm+mt
 source-wordcount: '522'
 ht-degree: 18%
 
 ---
 
-# AEM Platform Configurations  {#platform-configurations}
+# AEM plattformskonfigurationer  {#platform-configurations}
 
 >[!NOTE]
 >
->En typisk intressent för den här aktiviteten är en AEM-implementerare.
+>En typisk intressent för den här aktiviteten är en AEM implementerare.
 
-Följ avsnitten nedan för att konfigurera AEM-plattformskonfigurationer för att komma igång med AEM Screens.
+Följ avsnitten nedan för att konfigurera AEM plattformskonfigurationer för att komma igång med AEM Screens.
 
 ## Serverkonfigurationer {#server-configurations}
 
@@ -35,14 +35,14 @@ Mer information om hur du konfigurerar författarpublicering finns i [Konfigurer
 
 Dispatcher är Adobe Experience Managers verktyg för cachelagring och/eller belastningsutjämning. AEM:s Dispatcher skyddar också AEM-servern mot angrepp. Därför kan du öka säkerheten för din AEM-instans genom att använda Dispatcher tillsammans med en företagswebbserver.
 
-Läs mer i **[Dispatcher Configurations for AEM Screens](https://helpx.adobe.com/experience-manager/6-5/screens/using/dispatcher-configurations-aem-screens.html)**, som innehåller riktlinjer för hur du konfigurerar dispatcher för ett AEM Screens-projekt.
+Mer information finns i **[Dispatcher Configurations for AEM Screens](https://helpx.adobe.com/experience-manager/6-5/screens/using/dispatcher-configurations-aem-screens.html)** , som innehåller riktlinjer för hur du konfigurerar dispatcher för ett AEM Screens-projekt.
 
 ## Installera FFMpeg och videoåtergivningar {#installing-ffmpeg}
 
 Installera FFMpeg genom att följa stegen för lämpligt operativsystem (vanligen RHEL):
 
 1. Om du installerar genom att aktivera EPEL och RPMFusion kan du installera alla gstreamer-kodekar för att bredda stödet för FFmpeg-konverteringar
-1. Om AAC-kodeken markeras som experimentell misslyckas ffmpeg-konverteringarna. För att undvika det här tillägget -strict -2 i videoprofilerna (/etc/dam/video i AEM 6.3 och flyttat till /libs/settings/dam/video i AEM 6.4)
+1. Om AAC-kodeken markeras som experimentell misslyckas ffmpeg-konverteringarna. För att undvika detta lägger du till -strict -2 i videoprofilerna (/etc/dam/video i AEM 6.3 och flyttar till /libs/settings/dam/video i AEM 6.4)
    >[!NOTE]
    >
    > Observera att -strict -2 måste vara den sista parametern i parameterlistan. I AEM 6.4 måste du dessutom kopiera noderna under */libs/settings/dam/video* till */conf/global/settings/dam/video* enligt [Videoåtergivningar](https://helpx.adobe.com/experience-manager/6-5/screens/using/generating-renditions.html).
@@ -50,7 +50,7 @@ Installera FFMpeg genom att följa stegen för lämpligt operativsystem (vanlige
 
 ## Lösenordsbegränsningar {#password-restrictions}
 
-Lösenordsprincipen för AEM måste inaktiveras för AMS-instansen. Detta kan konfigureras växelvis i webbkonsolen med hjälp av skärmenhetstjänsten *com.adobe.cq.screens.device.impl.DeviceService* Se avsnittet **Lösenordsbegränsningar**[i Konfigurera författare och publicera i AEM Screens](https://helpx.adobe.com/se/experience-manager/6-5/screens/using/author-and-publish.html)
+Lösenordsprincipen för AEM måste inaktiveras för AMS-instansen. Detta kan konfigureras växelvis i webbkonsolen med hjälp av skärmenhetstjänsten *com.adobe.cq.screens.device.impl.DeviceService* Se avsnittet **Lösenordsbegränsningar**[i Konfigurera författare och publicering i AEM Screens](https://helpx.adobe.com/se/experience-manager/6-5/screens/using/author-and-publish.html)
 
 ## Konfigurera miljöer {#setting-up-environments}
 
@@ -58,14 +58,14 @@ Installera och kör de senaste versionerna av följande paket för din version a
 
 * AEM Service Pack
 * Funktionspaket för skärmar
-* AEM Cumulative Fix Pack
+* AEM Kumulativt korrigeringspaket
 
 Förutom ovanstående bör du även identifiera eventuella utvecklingspaket (till exempel WCM Corecomponents) eller tredjepartsverktyg (till exempel SAP Hybris) som behövs.
 Installera samma programvarupaket i dina lokala utvecklingsmiljöer. Instruera klienten att använda samma konfiguration på alla QA-, Stage- och Production-servrar. Serverkonfigurationer som inte matchar skapar problem vid distribution och testning.
 
 >[!NOTE]
 >
->Information om hur du installerar det senaste funktionspaketet för AEM Screens finns i [versionsinformationen](https://helpx.adobe.com/experience-manager/6-5/screens/user-guide.html?topic=/experience-manager/6-5/screens/morehelp/release-notes.ug.js).
+>Information om hur du installerar det senaste funktionspaketet för AEM Screens finns i [Versionsinformation](https://helpx.adobe.com/experience-manager/6-5/screens/user-guide.html?topic=/experience-manager/6-5/screens/morehelp/release-notes.ug.js).
 
 ## Konfigurera åtkomstkontrollistor {#setting-up-acls}
 
