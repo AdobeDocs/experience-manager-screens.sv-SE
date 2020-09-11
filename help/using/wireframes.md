@@ -1,10 +1,13 @@
 ---
 title: Trådramar
-seo-title: Trådramar för AEM-skärmar
+seo-title: Trådramar för AEM Screens
 description: Sidan beskriver trådramar för ett AEM Screens-projekt
 seo-description: Sidan beskriver trådramar för ett AEM Screens-projekt
 translation-type: tm+mt
-source-git-commit: 5c83a2b59769dfd3736a830f7d7d3cc35137c182
+source-git-commit: 54c5a2f2f3f755e4da4028d54042f4bd8f2df369
+workflow-type: tm+mt
+source-wordcount: '210'
+ht-degree: 0%
 
 ---
 
@@ -12,7 +15,6 @@ source-git-commit: 5c83a2b59769dfd3736a830f7d7d3cc35137c182
 # Trådramar {#wireframes}
 
 >[!NOTE]
->
 >En typisk aktör inom denna verksamhet är en marknadsförings-/affärsstrategi.
 
 Trådramar är en visuell representation av den förväntade digitala upplevelsen som vi avser att leverera.
