@@ -1,10 +1,13 @@
 ---
 title: Resekarta
-seo-title: Resekarta för AEM-skärmar
-description: Sidan beskriver resekartan för AEM-skärmar
-seo-description: Sidan beskriver resekartan för AEM-skärmar
+seo-title: Resekarta för AEM Screens
+description: Sidan beskriver Journey Map for AEM Screens
+seo-description: Sidan beskriver Journey Map for AEM Screens
 translation-type: tm+mt
-source-git-commit: 5c83a2b59769dfd3736a830f7d7d3cc35137c182
+source-git-commit: 54c5a2f2f3f755e4da4028d54042f4bd8f2df369
+workflow-type: tm+mt
+source-wordcount: '294'
+ht-degree: 0%
 
 ---
 
@@ -15,7 +18,7 @@ source-git-commit: 5c83a2b59769dfd3736a830f7d7d3cc35137c182
 >
 >En typisk berörd part i denna verksamhet är en marknadsförings-/affärsstrategi.
 
-En Jouney Map för användarupplevelser är utformad för att ge visuell information om hur och varför användare kommer att uppleva det digitala innehåll som levereras via nätverket.
+En karta över användarupplevelser är utformad för att ge insyn i hur och varför användarna kommer att uppleva det digitala innehåll som levereras via nätverket.
 
 ## Bygga UX Journey Map {#building-map}
 
@@ -28,5 +31,4 @@ I den här fasen av projektet kan vi välja att definiera alternativ och beroend
 Vi rekommenderar att projektledare och viktiga intressenter får experimentera med den fysiska placeringen av digitala element längs olika delar av butikens resa samt de digitala upplevelser som faktiskt kan levereras.
 
 >[!NOTE]
->
 > Börja samla in analyser under piloten för att hjälpa affärsteamen att validera lösningens framgångar mot de specifika mätvärden de försöker uppnå. Genom att veta hur pilotprojektet fungerar kan affärsteamet avgöra vilka förbättringar som behöver göras.
