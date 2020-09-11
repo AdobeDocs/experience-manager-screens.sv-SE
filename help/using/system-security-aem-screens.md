@@ -4,7 +4,7 @@ seo-title: Säkerhetschecklista för AEM Screens
 description: På sidan beskrivs säkerhetschecklistan för AEM Screens
 seo-description: På sidan beskrivs säkerhetschecklistan för AEM Screens
 translation-type: tm+mt
-source-git-commit: f25176be89424059b8c51296969f069687328536
+source-git-commit: 54c5a2f2f3f755e4da4028d54042f4bd8f2df369
 workflow-type: tm+mt
 source-wordcount: '473'
 ht-degree: 0%
@@ -12,21 +12,20 @@ ht-degree: 0%
 ---
 
 
-# Systemsäkerhetsaspekter för AEM Screens {#security-checklist}
+# Systemsäkerhetsfrågor för AEM Screens {#security-checklist}
 
 >[!IMPORTANT]
->
 >Detta är en intern Git-resurs.
 
-På den här sidan visas systemsäkerhetsaspekter för AEM Screens.
+På den här sidan visas systemsäkerhetsfrågor för AEM Screens.
 
 
-## Rapport om AEM Screens Security {#white-paper}
+## White Paper for AEM Screens Security {#white-paper}
 
 I det här avsnittet beskrivs rapporten. (Väntande vitpappersbilaga)
 
 
-## Vanliga frågor om AEM Screens-säkerhet {#faqs-screens}
+## Frågor och svar om AEM Screens Security {#faqs-screens}
 
 Följande frågor och svar förutsätter en autentiserad, registrerad spelararkitektur med HTTPS som kommunikationsprotokoll mellan spelare och AEM Server.
 
@@ -60,7 +59,7 @@ Om hashen inte matchar försöker vi verifiera igen 3 gånger. Efter tre försö
 
 ### Frågor och svar 4 {#faq4}
 
-Är AEM Server säker?
+Är AEM server säker?
 
 **Svar**
 
