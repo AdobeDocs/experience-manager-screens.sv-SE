@@ -4,7 +4,10 @@ seo-title: Datautlösare
 description: Sidan beskriver datautlösare
 seo-description: Sidan beskriver datautlösare
 translation-type: tm+mt
-source-git-commit: f01b69b860a3862e2b46f11b2d9b95dede742d9c
+source-git-commit: 54c5a2f2f3f755e4da4028d54042f4bd8f2df369
+workflow-type: tm+mt
+source-wordcount: '268'
+ht-degree: 0%
 
 ---
 
@@ -13,11 +16,11 @@ source-git-commit: f01b69b860a3862e2b46f11b2d9b95dede742d9c
 
 >[!NOTE]
 >
->En typisk intressent för den här aktiviteten är en AEM-implementerare.
+>En typisk intressent för den här aktiviteten är en AEM implementerare.
 
-**Dynamic Creative Optimization** (DCO) används för att skapa digitala signeringsupplevelser som speglar de unika omständigheterna på en viss plats vid en viss tidpunkt och för en viss användare.
+**Dynamic Creative Optimization** eller DCO används för att skapa digitala signeringsupplevelser som speglar de unika omständigheterna på en viss plats vid en given tidpunkt och för en viss användare.
 
-Detta kallas även för innehållsförenkling på klientsidan.
+Detta kallas även för förenkling på klientsidan.
 
 Det främsta skälet till att vi vill göra detta är att varje spelarenhet eller slutpunkt kan använda datauppsättningar för att automatiskt avgöra vilket innehåll som ska spelas upp baserat på en mängd olika faktorer.
 
@@ -30,7 +33,7 @@ Exempel:
 * närvaron av en lokal mediekampanj
 * webbtrafik och till och med lokala händelser som när en kund plockar upp en produkt för att undersöka den
 
-Allt detta och mer därtill kan användas för att skapa en högre nivå av sammanhang och personalisering.
+Allt detta och mer därtill kan användas för att ge en högre nivå av kontext och personalisering.
 
 En visuell marknadsföringsstrategi som inkluderar DCO kan dramatiskt öka tittandet i nätverket.
 
