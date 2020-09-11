@@ -11,9 +11,9 @@ topic-tags: administering
 discoiquuid: 0c7d6248-8ac0-4387-8725-57ed941f28f7
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 2a3bbdd283f983cbdb5f21b606f508603385e041
+source-git-commit: 83ce95e5dc530c5792ec9a00dcb758a424202a7a
 workflow-type: tm+mt
-source-wordcount: '751'
+source-wordcount: '752'
 ht-degree: 0%
 
 ---
@@ -136,7 +136,7 @@ Följ stegen nedan för att konfigurera ***DeviceServiceImpl***:
 
 1. Gå till **Adobe Experience Manager Web Console Configuration** via AEM:> hammer icon —> **Operations** —> **Web Console**.
 
-1. **Adobe Experience Manager Web Console Configuration **öppnas. Sök efter *enhetstjänst*. Om du vill söka efter egenskapen trycker du på **Command+F** för **Mac** och **Ctrl+F** för **Windows**.
+1. **Adobe Experience Manager Web Console Configuration** öppnas. Sök efter *enhetstjänst*. Om du vill söka efter egenskapen trycker du på **Command+F** för macOS och **Ctrl+F** för Microsoft Windows.
 
 ![screen_shot_2019-07-31at92058am](assets/screen_shot_2019-07-31at92058am.png)
 
@@ -149,9 +149,7 @@ Mer information om hur du konfigurerar dispatcher för ett AEM Screens-projekt f
 Ställ in Unicode för ***Java-kodning*** . Dfile. *encoding=Cp1252* fungerar till exempel inte.
 
 >[!NOTE]
->
 >**Rekommendation:**
->
 >Du bör använda HTTPS för AEM Screens Server i produktionen.
 
 
