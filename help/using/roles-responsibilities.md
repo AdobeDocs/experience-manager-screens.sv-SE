@@ -1,10 +1,10 @@
 ---
 title: AEM Screens projektroller och ansvarsområden
 seo-title: AEM Screens projektroller och ansvarsområden
-description: På sidan beskrivs AEM Screens Projekts roller och ansvarsområden
-seo-description: På sidan beskrivs AEM Screens Projekts roller och ansvarsområden
+description: På sidan beskrivs AEM Screens Project Rolands and Responsibility
+seo-description: På sidan beskrivs AEM Screens Project Rolands and Responsibility
 translation-type: tm+mt
-source-git-commit: f25176be89424059b8c51296969f069687328536
+source-git-commit: 54c5a2f2f3f755e4da4028d54042f4bd8f2df369
 workflow-type: tm+mt
 source-wordcount: '1263'
 ht-degree: 9%
@@ -32,15 +32,15 @@ I följande avsnitt finns en översikt över målgruppen:
 
 ### Adobe {#adobe-audience}
 
-Adobe innehåller Adobe Managed Services som CSE (Customer Success Engineer) och Adobe Support.
+Adobe innehåller Adobe Managed Services-resurser som CSE (Customer Success Engineer) och Adobe Support.
 
-### AEM-implementerare {#aem-implementors}
+### AEM {#aem-implementors}
 
-AEM-implementerare ansvarar för utvecklings- och integreringsuppgifter för att utveckla användarupplevelsen, anpassade mallar och bakomliggande integreringar för AEM.
+AEM implementerare ansvarar för utvecklings- och integreringsuppgifter för att utveckla användarupplevelsen, anpassade mallar och bakomliggande integreringar för AEM.
 
 Anpassade funktioner som krävs för att hantera parametrar för användarupplevelse hämtas och levereras via den här processen.
 
-AEM-implementerare distribuerar vanligtvis anpassade funktioner i faser över tid till platser. De kan till exempel först skapa stöd för uppspelning av grundläggande loopad video eller statiskt grafiskt innehåll. I nästa fas kan det finnas funktioner för uppspelning av lokaliserat innehåll via dynamiska mallar och metadatataggar, med ytterligare faser som har stöd för interaktiva element via pekskärmar, sensorer, dynamiska utlösare osv.
+AEM implementerare distribuerar vanligtvis anpassade funktioner i faser över tid till platser. De kan till exempel först skapa stöd för uppspelning av grundläggande loopad video eller statiskt grafiskt innehåll. I nästa fas kan det finnas funktioner för uppspelning av lokaliserat innehåll via dynamiska mallar och metadatataggar, med ytterligare faser som har stöd för interaktiva element via pekskärmar, sensorer, dynamiska utlösare osv.
 
 ### AV-integratörer {#av-integrators}
 
@@ -89,7 +89,7 @@ Projektledare hanterar vanligtvis hela distributionen av AEM Screens. En projekt
 
 ## Projektfaser {#project-stages}
 
-För att stödja en framgångsrik driftsättning av digitala signaturer är det vanligt att segmentera projektet i tre faser.  Dessa stadier kallas vanligtvis **Dagar**. Det rör sig inte om några litterala dagar utan om benämningar för varje större del av projektet.
+För att stödja en framgångsrik driftsättning av digitala signaturer är det vanligt att segmentera projektet i tre faser.  Dessa stadier kallas vanligtvis **Dagar**. Det rör sig inte om litterala dagar utan om benämningar för varje större del av projektet.
 
 1. Det första steget kallas *Dag noll*. I det här steget ingår alla förberedelser och identifieringsåtgärder som krävs för att helt definiera projektets omfattning.
 
@@ -100,7 +100,7 @@ För att stödja en framgångsrik driftsättning av digitala signaturer är det 
 >[!NOTE]
 >
 >Även om den här guiden främst fokuserar på *dag ett* och *dag två*, så är alla tre faserna viktiga för att lyckas med digitala skyltningsprojekt.
-Följ ytterligare en video om **[Projektledning och driftsättning](https://helpx.adobe.com/experience-manager/6-5/screens/using/project-management-and-deployment.html)**och lär dig mer om förproduktion, projektinitiering och projektförlopp.
+Följ ytterligare en video om **[Projektledning och driftsättning](https://helpx.adobe.com/experience-manager/6-5/screens/using/project-management-and-deployment.html)** och lär dig mer om förproduktion, projektinitiering och projektförlopp.
 
 ## RACI-diagram {#raci-chart}
 
@@ -108,7 +108,7 @@ Följande är ett exempel på RACI-diagram som använder rolldefinitionerna.
 
 >[!NOTE]
 >
->Diagrammet är inte avsett att följas exakt utan att vara ett exempel på vanliga uppgifter och överväganden i ett AEM Screens-projekt.
+>Diagrammet är inte avsett att följas exakt, utan är ett exempel på vanliga uppgifter och överväganden i ett AEM Screens-projekt.
 
 ### RACI-definitioner {#raci-definitions}
 
@@ -124,7 +124,7 @@ Följande är ett exempel på ett RACI-diagram som använder rolldefinitionerna 
 
 I följande tabell sammanfattas **Dag noll: Förförsäljningsöverväganden**:
 
-| **Fas** | **A/V-integratör** | **AEM Implementor** | **Affärsstrategi** | **Innehållshantering** |
+| **Fas** | **A/V-integratör** | **AEM** | **Affärsstrategi** | **Innehållshantering** |
 |---|---|---|---|---|
 | Gruppformatering och leverantörsval | I | I | RA | RA |
 | Avtal om roller och ansvar | RA | RA | RA | RA |
@@ -136,7 +136,7 @@ I följande tabell sammanfattas **Dag noll: Förförsäljningsöverväganden**:
 
 I följande tabell sammanfattas **Dag ett: Projektimplementering (programdesign)**:
 
-| **Fas** | **A/V-integratör** | **AEM Implementor** | **Affärsstrategi** | **Innehållshantering** |
+| **Fas** | **A/V-integratör** | **AEM** | **Affärsstrategi** | **Innehållshantering** |
 |---|---|---|---|---|
 | Avtal om roller och ansvar | RA | RA | RA | RA |
 | Justering av projektplan och schema | RA | RA | C | C |
@@ -146,8 +146,8 @@ I följande tabell sammanfattas **Dag ett: Projektimplementering (programdesign)
 | Arkitektur | I | RA | I | I |
 | Validera datastruktur med gränssnittsdesign | I | RA | C | C |
 | Programutveckling | RA | RA | RA | RA |
-| Konfigurera AEM Screens-projekt | I | RA | C | I |
-| Implementering av Analytics | I | RA | C | - |
+| Konfigurera AEM Screens Project | I | RA | C | I |
+| Implementering av analyser | I | RA | C | - |
 | Testning och driftsättning | RA | C | RA | I |
 | Serverkonfiguration | I | RA | I | I |
 | Plan för innehållsuppdatering | I | RA | C | C |
@@ -156,7 +156,7 @@ I följande tabell sammanfattas **Dag ett: Projektimplementering (programdesign)
 
 I följande tabell sammanfattas **Dag ett: Projektimplementering (butiksberedskap)**:
 
-| **Fas** | **A/V-integratör** | **AEM Implementor** | **Affärsstrategi** | **Innehållshantering** |
+| **Fas** | **A/V-integratör** | **AEM** | **Affärsstrategi** | **Innehållshantering** |
 |---|---|---|---|---|
 | Maskinvarubeställning och lagring | RA | I | I | I |
 | Butiksintroduktionsplan | I | I | C | RA |
@@ -166,7 +166,7 @@ I följande tabell sammanfattas **Dag ett: Projektimplementering (butiksberedska
 
 I följande tabell sammanfattas **Dag ett: Dag ett: Projektimplementering (maskinvara)**:
 
-| **Fas** | **A/V-integratör** | **AEM Implementor** | **Affärsstrategi** | **Innehållshantering** |
+| **Fas** | **A/V-integratör** | **AEM** | **Affärsstrategi** | **Innehållshantering** |
 |---|---|---|---|---|
 | Avtal om roller och ansvar | RA | RA | RA | RA |
 | Detaljhandelsdesign omfattar kabeldragningar | - | - | - | - |
