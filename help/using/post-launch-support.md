@@ -1,10 +1,13 @@
 ---
 title: Stöd efter start
-seo-title: Stöd för AEM-skärmar efter start
-description: Sidan beskriver Post Launch Support for AEM Screens Best Practices Guide
-seo-description: Sidan beskriver Post Launch Support for AEM Screens Best Practices Guide
+seo-title: Stöd för efterstart av AEM Screens
+description: På sidan beskrivs Post Launch Support for AEM Screens Best Practices Guide
+seo-description: På sidan beskrivs Post Launch Support for AEM Screens Best Practices Guide
 translation-type: tm+mt
-source-git-commit: a0469c775c7fb8ce64fa0642c25feb50a1e1b84f
+source-git-commit: 54c5a2f2f3f755e4da4028d54042f4bd8f2df369
+workflow-type: tm+mt
+source-wordcount: '413'
+ht-degree: 7%
 
 ---
 
@@ -26,7 +29,7 @@ För att förbereda sig för långsiktiga framgångar är det dessutom av störs
 
 >[!NOTE]
 >
-> Ni måste definiera driftsparametrar som är tidigt inräknade i driftbudgeten samt anpassa ansvarsområdena till AEM-implementatorn och AV-integratorn.
+> Ni måste definiera driftsparametrar som är tidigt inräknade i driftbudgeten samt anpassa ansvarsområdena till AEM och AV Integrator.
 Är driftsättningen ett annonsnätverk med många intressenter kopplade till ett nätverk med intäkter? Detta kan tyda på mycket kortare tidsramar jämfört med ett Corporate Communications-nätverk. 
 Är programmet mycket synligt för kundens chefer? Webbplatser med hög synlighet kan behöva olika behandlingar.
 Är programmet viktigt för affärsverksamhet som menybord i snabbmatskedjor? I dessa fall kan slutklienten behöva lösningar på plats med mycket korta svarstider samt redundans i uppspelningsmaskinvaran.
@@ -59,4 +62,4 @@ Det finns få saker du bör tänka på och frågor som hjälper dig att definier
 
 1. Vilken av dina butiksplatser kräver övervakning dygnet runt, alla dagar?
 
-1. Är bildskärmarna en viktig del av ditt företag? (d.v.s. bildskärmskonfigurator, säljaviseringar)
+1. Är bildskärmarna en viktig del av ditt företag? (d.v.s. bilkonfiguration, säljvarningar)
