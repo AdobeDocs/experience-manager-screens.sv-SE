@@ -1,10 +1,13 @@
 ---
 title: Supportövervakning
-seo-title: Supportövervakning för AEM-skärmar
-description: Sidan beskriver Support Monitoring for AEM Screens Best Practices Guide
-seo-description: Sidan beskriver Support Monitoring for AEM Screens Best Practices Guide
+seo-title: Supportövervakning för AEM Screens
+description: På sidan beskrivs Support Monitoring for AEM Screens Best Practices Guide
+seo-description: På sidan beskrivs Support Monitoring for AEM Screens Best Practices Guide
 translation-type: tm+mt
-source-git-commit: 3c91e0ec80b29bebcc066f45a1eef1fd74e00a13
+source-git-commit: 54c5a2f2f3f755e4da4028d54042f4bd8f2df369
+workflow-type: tm+mt
+source-wordcount: '225'
+ht-degree: 0%
 
 ---
 
@@ -27,6 +30,7 @@ Med innehållsövervakning kan du felsöka problem som rör innehåll som inte v
    * Kontrollera *förhandsgranskning* för att se om kanalen visar en svart skärm
    * Registrera en *lokal färgspelare* (som tillägg) på din bärbara dator för den skärmen och se om det visar en svart skärm.
    * Högerklicka och inspektera och kontrollera *tillämpliga loggar*.
+
    Om detta inte händer på den lokala spelaren utan bara på enheten:
 
    * Kontrollera *medietypen* (används) som kan ha problem på den enheten och kontrollera även om innehållet har hämtats lokalt (admin-gränssnittets rensa kanalcache).
