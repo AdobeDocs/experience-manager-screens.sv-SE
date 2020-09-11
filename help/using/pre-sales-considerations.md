@@ -4,7 +4,10 @@ seo-title: Att tänka på när projekt är omfång
 description: Sidan beskriver överväganden när projekt är omfång
 seo-description: Sidan beskriver överväganden när projekt är omfång
 translation-type: tm+mt
-source-git-commit: 55999ae9ead7ab8986f4dcb69b0bbaa46933c9ec
+source-git-commit: 54c5a2f2f3f755e4da4028d54042f4bd8f2df369
+workflow-type: tm+mt
+source-wordcount: '301'
+ht-degree: 0%
 
 ---
 
@@ -12,7 +15,6 @@ source-git-commit: 55999ae9ead7ab8986f4dcb69b0bbaa46933c9ec
 # Att tänka på när projekt är omfång {#pre-sales-considerations}
 
 >[!NOTE]
->
 >En typisk aktör inom denna verksamhet är en marknadsförings-/affärsstrategi.
 
 I det här steget ingår alla förberedelser och identifieringsåtgärder som krävs för att helt definiera projektets omfattning. Det arbete som utförs med Day Zero anger tonen för resten av projektet och påverkar den övergripande framgången för programmet som byggs.
@@ -32,4 +34,4 @@ Bland huvudresultaten finns följande:
 >
 >Identifiera de data som behövs för programmet och varifrån de kommer så snart som möjligt. Medan djupare utforskning kommer att ske under implementeringen kan du under *Day Zero* ta reda på vilka data klienten har för avsikt att använda, var dessa data lagras för närvarande och hur de kan nås av det program som byggs. Genom att meddela utvecklingsteamet i förväg om utmaningar som kan komma att uppstå kommer implementeringen att gå smidigare.
 
-Mer information finns i videosjälvstudiekursen om [att tänka på när projektet omfång](https://helpx.adobe.com/experience-manager/6-5/screens/using/project-considerations.html) .
+Se videosjälvstudiekursen [Considerations as Projects are scoed](https://helpx.adobe.com/experience-manager/6-5/screens/using/project-considerations.html) för mer information.
