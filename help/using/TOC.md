@@ -1,12 +1,13 @@
 ---
 user-guide-title: Best Practices Guide for AEM Screens Projects
+breadcrumb-title: AEM Screens Guide
 solution-title: AEM Screens
-getting-started-title: Guide till bästa praxis för AEM Screens
+getting-started-title: AEM Screens Best Practices Guide
 getting-started-description: AEM Screens Best Practices Guide provides guidance on how to successfully plan and execute an AEM Screens project.
 product: experience manager
 audience: end-user
 translation-type: tm+mt
-source-git-commit: 5f3fc27ae60de86ae40ba71a67cdc6ff43dea4fb
+source-git-commit: caa87381999cb2a2b4976435c9aa8a1a882511ac
 workflow-type: tm+mt
 source-wordcount: '133'
 ht-degree: 1%
@@ -32,10 +33,10 @@ ht-degree: 1%
    + [UX-resekarta](journey-map.md)
    + [UX-prototyper](prototypes.md)
    + [UX-trådinramning](wireframes.md)
-   + [Övergång till Platform](transition-platform.md)
-   + [Dynamisk optimering av kreativt marknadsföringsmaterial](dynamic-creative-optimizations.md)
+   + [Övergång till plattform](transition-platform.md)
+   + [Dynamic Creative Optimization](dynamic-creative-optimizations.md)
 + Distributionsgenomgång {#deployment-brief}
-   + [AEM Platform Configurations](aem-platform-configurations.md)
+   + [AEM plattformskonfigurationer](aem-platform-configurations.md)
    + [Projekttaxonomi och -implementering](project-taxonomy-implementation.md)
    + Nätverkstrafikhantering {#manage-network-traffic}
       + [Hantera nätverkstrafik](/help/using/managing-network-traffic.md)
@@ -48,4 +49,4 @@ ht-degree: 1%
    + [Strategier för leverantörsengagemang](vendor-engagement.md)
 + Support och underhåll {#ongoing-support}
    + [Support och övervakning](support-monitoring.md)
-   + [Dag två - support och underhåll för Platform](day-two-support-maintenance.md)
+   + [Day Two Platform Support and Maintenance](day-two-support-maintenance.md)
