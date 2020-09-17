@@ -11,7 +11,7 @@ content-type: reference
 discoiquuid: c28fd669-f23e-4d53-bec1-a2911274567d
 noindex: true
 translation-type: tm+mt
-source-git-commit: 2a3bbdd283f983cbdb5f21b606f508603385e041
+source-git-commit: dec7f93381bf37564353b76dd3c5f84ba169dd42
 workflow-type: tm+mt
 source-wordcount: '1802'
 ht-degree: 0%
@@ -171,7 +171,7 @@ Anta att du bara vill visa innehållet i en kanal på fredag från 1:00 till 10:
 1. När du har angett startdatum/tid och slutdatum/tid i dialogrutan **Kanaltilldelning** kan du använda ett uttryck eller en naturlig textversion för att ange upprepningsschema.
 
    >[!NOTE]
-Du kan hoppa över eller ta med fälten **Aktiv från** och **Aktiv tills** och lägga till uttrycket i fältet Scheman enligt dina önskemål.
+   Du kan hoppa över eller ta med fälten **Aktiv från** och **Aktiv tills** och lägga till uttrycket i fältet Scheman enligt dina önskemål.
 
 1. Ange uttrycket i **Schedule** så visas resursen för det angivna intervallet på dag och tid.
 
@@ -199,7 +199,7 @@ Du kan också använda _militär_ tidsnotation (d.v.s. 14:00) i stället för *A
 1. När du har angett startdatum/tid och slutdatum/tid i dialogrutan **Kanaltilldelning** kan du använda ett uttryck eller en naturlig textversion för att ange upprepningsschema.
 
    >[!NOTE]
-Du kan hoppa över eller ta med fälten **Aktiv från** och **Aktiv tills** och lägga till uttrycket i fältet Scheman enligt dina önskemål.
+   Du kan hoppa över eller ta med fälten **Aktiv från** och **Aktiv tills** och lägga till uttrycket i fältet Scheman enligt dina önskemål.
 
 1. Ange uttrycket i **Schedule** så visas resursen för det angivna intervallet på dag och tid.
 
@@ -226,7 +226,7 @@ Du kan också använda _militär_ tidsnotation (d.v.s. 14:00) i stället för *A
 1. När du har angett startdatum/tid och slutdatum/tid i dialogrutan **Kanaltilldelning** kan du använda ett uttryck eller en naturlig textversion för att ange upprepningsschema.
 
    >[!NOTE]
-Du kan hoppa över eller ta med fälten **Aktiv från** och **Aktiv tills** och lägga till uttrycket i fältet Scheman enligt dina önskemål.
+   Du kan hoppa över eller ta med fälten **Aktiv från** och **Aktiv tills** och lägga till uttrycket i fältet Scheman enligt dina önskemål.
 
 1. Ange uttrycket i **Schedule** så visas resursen för det angivna intervallet på dag och tid.
 
@@ -251,7 +251,7 @@ Du kan också använda _militär_ tidsnotation (d.v.s. 14:00) i stället för *A
 1. När du har angett startdatum/tid och slutdatum/tid i dialogrutan **Kanaltilldelning** kan du använda ett uttryck eller en naturlig textversion för att ange upprepningsschema.
 
    >[!NOTE]
-Du kan hoppa över eller ta med fälten **Aktiv från** och **Aktiv tills** och lägga till uttrycket i fältet Scheman enligt dina önskemål.
+   Du kan hoppa över eller ta med fälten **Aktiv från** och **Aktiv tills** och lägga till uttrycket i fältet Scheman enligt dina önskemål.
 
 1. Ange uttrycket i **Schedule** så visas resursen för det angivna intervallet på dag och tid.
 
