@@ -6,9 +6,9 @@ seo-description: Följ den här sidan för att få svar på vanliga frågor om e
 uuid: 62e58f3b-0c0a-4006-b6d5-42d2090f47b5
 contentOwner: jsyal
 translation-type: tm+mt
-source-git-commit: 4d937ff4cbf05c61c8e38a0d09bb789c12a7a226
+source-git-commit: fc923553c3813e6fd659df641f2e4363f0907827
 workflow-type: tm+mt
-source-wordcount: '1294'
+source-wordcount: '1483'
 ht-degree: 0%
 
 ---
@@ -125,9 +125,23 @@ Följ stegen nedan om du vill aktivera Var aktiv i en Android-spelare:
 1. Navigera till **Utvecklaralternativ**
 1. Aktivera **Håll dig vaken**
 
-### 4. Hur aktiverar jag fönsterläge för Windows Player?
+### 4. Hur aktiverar jag fönsterläge för Windows Player?{#enable-player}
 
 Det finns inget fönsterläge i Windows Player. Det är alltid helskärmsläge.
+
+### 5. Hur felsöker jag om en skärmspelare kontinuerligt skickar begäranden om inloggning?{#requests-login}
+
+Följ stegen nedan för att felsöka en AEM Screens-spelare som kontinuerligt skickar begäranden till `/content/screens/svc.json` och `/libs/granite/core/content/login.validate/j_security_check`:
+
+1. När AEM Screens-spelaren startas, görs en begäran till spelaren `/content/screens/svc.json`när spelaren får en 404-statuskod i svaret, och spelaren initierar en autentiseringsbegäran som används `/libs/granite/core/content/login.validate/j_security_check` mot publiceringsinstansen. Om det finns en anpassad felhanterare i publiceringsinstansen måste du returnera 404-statuskoden för anonym användare på `/content/screens/svc.json` eller `/content/screens/svc.ping.json`.
+
+1. Kontrollera om din dispatcherkonfiguration tillåter dessa förfrågningar i `/filters` avsnittet. Mer information finns i [Konfigurera skärmfilter](https://docs.adobe.com/content/help/en/experience-manager-screens/user-guide/administering/dispatcher-configurations-aem-screens.html#step-configuring-screens-filters) .
+
+1. Kontrollera om din dispatcher skriver om regler för skärmsökvägar till en annan sökväg.
+
+1. Kontrollera om du har `/etc/map` regler för *författaren* eller *publiceringsinstansen* och skärmsökvägarna matchas till `sling:match` och omdirigeras internt till en annan sökväg. Att åtgärda den exakta URL:en i /`system/console/jcrresolver` hjälper till att identifiera om *publiceringsinstansen* skriver om dessa URL:er till någon annan sökväg.
+
+1. Kontrollera om du har några konfigurationer för Apache Sling Resource Resolver Factory som orsakar intern omskrivning.
 
 ## Allmänna felsökningstips {#general-troubleshooting-tips}
 
