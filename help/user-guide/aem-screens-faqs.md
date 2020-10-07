@@ -6,7 +6,7 @@ seo-description: Följ den här sidan för att få svar på vanliga frågor om e
 uuid: 62e58f3b-0c0a-4006-b6d5-42d2090f47b5
 contentOwner: jsyal
 translation-type: tm+mt
-source-git-commit: fc923553c3813e6fd659df641f2e4363f0907827
+source-git-commit: b4f9acb68aca05ed3f6b040910742c245923dace
 workflow-type: tm+mt
 source-wordcount: '1483'
 ht-degree: 0%
@@ -129,7 +129,7 @@ Följ stegen nedan om du vill aktivera Var aktiv i en Android-spelare:
 
 Det finns inget fönsterläge i Windows Player. Det är alltid helskärmsläge.
 
-### 5. Hur felsöker jag om en skärmspelare kontinuerligt skickar begäranden om inloggning?{#requests-login}
+### 5. Hur felsöker man om en AEM Screens-spelare kontinuerligt skickar inloggningsförfrågningar?{#requests-login}
 
 Följ stegen nedan för att felsöka en AEM Screens-spelare som kontinuerligt skickar begäranden till `/content/screens/svc.json` och `/libs/granite/core/content/login.validate/j_security_check`:
 
