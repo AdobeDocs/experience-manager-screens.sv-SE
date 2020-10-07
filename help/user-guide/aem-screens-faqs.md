@@ -6,9 +6,9 @@ seo-description: Följ den här sidan för att få svar på vanliga frågor om e
 uuid: 62e58f3b-0c0a-4006-b6d5-42d2090f47b5
 contentOwner: jsyal
 translation-type: tm+mt
-source-git-commit: 7f897f969e7ca9c9c478b885cf716303bbbe5049
+source-git-commit: 273b537728077a309ca3bfa928ae5fc729957305
 workflow-type: tm+mt
-source-wordcount: '1479'
+source-wordcount: '1473'
 ht-degree: 0%
 
 ---
@@ -133,9 +133,9 @@ Det finns inget fönsterläge i Windows Player. Det är alltid helskärmsläge.
 
 Följ stegen nedan för att felsöka en AEM Screens-spelare som kontinuerligt skickar begäranden till `/content/screens/svc.json` och `/libs/granite/core/content/login.validate/j_security_check`:
 
-1. När AEM Screens-spelaren startas görs en begäran om att spelaren ska autentisera `/content/screens/svc.json`mot `/libs/granite/core/content/login.validate/j_security_check` publiceringsinstansen när spelaren får en 404-statuskod i svaret ** . Om det finns en anpassad felhanterare i publiceringsinstansen måste du returnera 404-statuskoden för anonym användare på `/content/screens/svc.json` eller `/content/screens/svc.ping.json`.
+1. När AEM Screens-spelaren startas begär den att få `/content/screens/svc.json`. När spelaren får en 404-statuskod i svaret initierar den en autentiseringsbegäran med hjälp `/libs/granite/core/content/login.validate/j_security_check` av *publiceringsinstansen* . Om det finns en anpassad felhanterare i *publiceringsinstansen* måste du returnera 404-statuskoden för anonym användare på `/content/screens/svc.json` eller `/content/screens/svc.ping.json`.
 
-1. Kontrollera om din dispatcherkonfiguration tillåter dessa förfrågningar i `/filters` avsnittet.
+1. Kontrollera om din dispatcherkonfiguration tillåter dessa förfrågningar i `/filters`.
 Mer information finns i [Konfigurera skärmfilter](https://docs.adobe.com/content/help/en/experience-manager-screens/user-guide/administering/dispatcher-configurations-aem-screens.html#step-configuring-screens-filters) .
 
 1. Kontrollera om din dispatcher skriver om regler för skärmsökvägar till en annan sökväg.
