@@ -11,7 +11,7 @@ content-type: reference
 discoiquuid: 9a26b5cd-b957-4df7-9b5b-f57e32b4196a
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 2a3bbdd283f983cbdb5f21b606f508603385e041
+source-git-commit: 9b54b153676852742859b704ac9aedf908fceecf
 workflow-type: tm+mt
 source-wordcount: '1531'
 ht-degree: 1%
@@ -68,6 +68,7 @@ Följande validering är vad du kommer att se när du kontrollerar anslutningen 
 ![bild](/help/user-guide/assets/context-hub/context-hub2.png)
 
 >[!NOTE]
+>
 >I det specifika exemplet nedan visas Google-tabellerna som ett datalager som utlöser en resursändring om värdet är högre än 100 eller lägre än 50.
 
 ## Steg 2: Konfigurera butikskonfigurationer {#step-setting-store-configurations}
@@ -96,19 +97,21 @@ Följande validering är vad du kommer att se när du kontrollerar anslutningen 
       ![bild](/help/user-guide/assets/context-hub/context-hub5.png)
 
       >[!CAUTION]
+      >
       >Som en del av AEM 6.5 Feature Pack 4 eller AEM 6.4 Feature Pack 8 ska kunderna uppdatera `/conf/screens/settings/cloudsettings` till `sling:Folder`.
-      > 
+      >
       >Följ stegen nedan:
       >
       >1. Navigera till CRXDE Lite och sedan till `/conf/screens/settings/cloudsettings`.
       >1. Kontrollera om `cloudsettings jcr:primaryType` är i `sling:Folder`. Om `jcr:primaryType` inte är i `sling:folder`fortsätter du till nästa steg.
-      > 1. Högerklicka på `/conf/screens/settings` och skapa en ny nod med *namnet* som **molninställningar1** och *typen* som **sling:Folder** och spara ändringarna.
+      >1. Högerklicka på `/conf/screens/settings` och skapa en ny nod med *namnet* som **molninställningar1** och *typen* som **sling:Folder** och spara ändringarna.
       >1. Flytta alla noder under `/conf/screens/settings/cloudsettings` till `cloudsettings1`.
       >1. Ta bort `cloudsettings` och spara.
       >1. Byt namn `cloudsettings1` till `cloudsettings` och spara.
       >1. Du bör nu observera att /conf/screens/settings/cloudsettings har `jcr:primaryType` samma `sling:Folder`.
-Följ dessa steg i programmet och publicera före eller efter uppgraderingen.
 
+      >
+      >Följ dessa steg i programmet och publicera före eller efter uppgraderingen.
 
    1. Ange **Titel** som **Google Sheets**, **Butiksnamn** som **Googlesheets** och **Butikstyp** **** **** som¥contexthub.generic-jsonp¥ och klicka på¥Next.
 
@@ -116,8 +119,6 @@ Följ dessa steg i programmet och publicera före eller efter uppgraderingen.
       >Om du använder Adobe Experience Manager (AEM) 6.4 anger du **Configuration Title** som **googlesheets** och **Store Type** som **contexthub.generic-jsonp**.
 
       ![bild](/help/user-guide/assets/context-hub/context-hub6.png)
-
-
 
    1. Ange din specifika json-konfiguration. Du kan t.ex. använda följande json som demoversion och klicka på **Spara** så visas butikskonfigurationen med namnet **Google Sheets** i ContextHub-konfigurationen.
 
@@ -142,10 +143,11 @@ Följ dessa steg i programmet och publicera före eller efter uppgraderingen.
 
       >[!NOTE]
       I ovanstående exempelkod definierar **pollInterval** den frekvens med vilken värdena uppdateras (i ms).
-Ersätt koden med ditt *&lt;Sheet ID>* och *&lt;API Key>*, som du hämtade när du konfigurerade Google Sheets.
+      Ersätt koden med ditt *&lt;Sheet ID>* och *&lt;API Key>*, som du hämtade när du konfigurerade Google Sheets.
 
       >[!CAUTION]
       Om du skapar dina Google Sheets-lagringskonfigurationer utanför den globala mappen (t.ex. i din egen projektmapp) kommer målanpassning inte att fungera som den ska.
+
 
 1. **Konfigurera butikssegmentering**
 
