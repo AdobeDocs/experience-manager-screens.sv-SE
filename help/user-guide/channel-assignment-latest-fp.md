@@ -3,7 +3,7 @@ title: Kanaltilldelning - senaste offertförfrågan
 seo-title: Kanaltilldelning - senaste offertförfrågan
 description: Följ den här sidan om du vill veta mer om kanaltilldelning och DagParting.
 translation-type: tm+mt
-source-git-commit: 2a3bbdd283f983cbdb5f21b606f508603385e041
+source-git-commit: 9b54b153676852742859b704ac9aedf908fceecf
 workflow-type: tm+mt
 source-wordcount: '1471'
 ht-degree: 1%
@@ -14,6 +14,7 @@ ht-degree: 1%
 # Kanaltilldelning {#channel-assignment}
 
 >[!IMPORTANT]
+>
 >I det här avsnittet beskrivs kanaltilldelning och planering av kanaler för AEM 6.5.5 Screens Feature Pack och senare.
 
 När du har konfigurerat en skärm måste du tilldela en kanal till en skärm för att kunna visa innehållet.
@@ -21,6 +22,7 @@ När du har konfigurerat en skärm måste du tilldela en kanal till en skärm f�
 På den här sidan visas hur du tilldelar en kanal till visningen, hur du förstår kanalegenskaper och DayParting.
 
 >[!NOTE]
+>
 >Du kan tilldela flera kanaler till en skärm.
 
 
@@ -78,12 +80,14 @@ När projektkonfigurationen är klar måste du tilldela kanalen till en skärm f
    ![bild](/help/user-guide/assets/channel-assignment/channel-assign-fp7.png)
 
    >[!NOTE]
+   >
    >Mer information om egenskaper för kanaltilldelning finns i avsnittet [Kanalegenskaper](#channel-properties) .
 
 1. I alternativet **Schemalägg** väljer du **Aktiveringsfönstret** och **Återkommande schema**.
    ![bild](/help/user-guide/assets/channel-assignment/channel-assign-fp8.png)
 
    >[!NOTE]
+   >
    >Mer information om egenskaper för kanaltilldelning finns i avsnittet [Kanalegenskaper](#channel-properties) .
 
 1. Klicka på **Spara** när du har konfigurerat inställningarna.
@@ -137,6 +141,7 @@ Kanalrollen definierar visningssammanhanget. Rollen är inriktad på olika åtg�
 Prioritet används för att ordna tilldelningarna om flera matchar uppspelningsvillkoren. Den som har det högsta värdet har alltid företräde framför de lägre värdena. Om det till exempel finns två kanaler A och B. A har prioriteten 1 och B har prioriteten 2, och sedan visas kanal B eftersom den har högre prioritet än A.
 
 >[!NOTE]
+>
 >Prioriteten för en kanal anges som ett tal (1 för minimum) i dialogrutan **Kanaltilldelning** , vilket nämns ovan. Dessutom sorteras de tilldelade kanalerna baserat på fallande prioritet.
 
 ### Händelser som stöds {#supported-events-channel}
@@ -157,13 +162,14 @@ Välj något av följande alternativ som är tillgängliga för att ange avbrott
 
 * **Omedelbart**: När schemat aktiveras eller en uppdatering tas emot kan du avbryta uppspelningen och omedelbart uppdatera eller spela upp det nya innehållet
 * **I slutet av det aktuella objektet**: När ett nytt schema aktiveras eller en uppdatering tas emot kan du välja att vänta tills det aktuella objektet i sekvensen har spelats upp, och först efter det kan du uppdatera eller spela upp det nya innehållet
+
    >[!NOTE]
    >Det här alternativet är markerat som standard.
+
 * **I slutet av sekvensen**: När ett nytt schema aktiveras eller en uppdatering tas emot kan du välja att vänta tills hela sekvensen är klar, och precis före den önskade sekvensen går du tillbaka till det första elementet och uppdaterar eller spelar upp det nya innehållet
 
    >[!NOTE]
    >Om du använder det andra eller tredje alternativet kan schemaläggningstiderna som är definierade för tilldelningen fördröjas något eftersom spelaren väntar på slutet av objektet eller sekvensen (efter den angivna tiden) innan den uppdateras. Fördröjningen beror på objektets uppspelningstid.
-
 
 Följande egenskaper ställs in från alternativet **Schemalägg** i dialogrutan **Kanaltilldelning** .
 
@@ -220,4 +226,3 @@ I det här exemplet visas DayParting som implementerats i ett kasino där live-e
 >[!NOTE]
 >
 >Dessutom kan du definiera ***prioritet*** för var och en av kanalerna. Om till exempel två kanaler är inställda för samma dag och tid eller för samma månad, spelas den kanal som har högre prioritet upp först. Minimivärdet för prioritet kan anges till 0.
-
