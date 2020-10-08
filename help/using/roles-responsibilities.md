@@ -4,7 +4,7 @@ seo-title: AEM Screens projektroller och ansvarsområden
 description: På sidan beskrivs AEM Screens Project Rolands and Responsibility
 seo-description: På sidan beskrivs AEM Screens Project Rolands and Responsibility
 translation-type: tm+mt
-source-git-commit: 54c5a2f2f3f755e4da4028d54042f4bd8f2df369
+source-git-commit: 9b54b153676852742859b704ac9aedf908fceecf
 workflow-type: tm+mt
 source-wordcount: '1263'
 ht-degree: 9%
@@ -92,15 +92,14 @@ Projektledare hanterar vanligtvis hela distributionen av AEM Screens. En projekt
 För att stödja en framgångsrik driftsättning av digitala signaturer är det vanligt att segmentera projektet i tre faser.  Dessa stadier kallas vanligtvis **Dagar**. Det rör sig inte om litterala dagar utan om benämningar för varje större del av projektet.
 
 1. Det första steget kallas *Dag noll*. I det här steget ingår alla förberedelser och identifieringsåtgärder som krävs för att helt definiera projektets omfattning.
-
 1. I det andra steget, *Dag ett*, avses alla aktiviteter som ingår i driftsättningsinsatsen.
-
 1. Det tredje och sista steget *Dag två* avser alla pågående operationer och stödinslag som en del av den totala lösningen.
 
 >[!NOTE]
 >
 >Även om den här guiden främst fokuserar på *dag ett* och *dag två*, så är alla tre faserna viktiga för att lyckas med digitala skyltningsprojekt.
-Följ ytterligare en video om **[Projektledning och driftsättning](https://helpx.adobe.com/experience-manager/6-5/screens/using/project-management-and-deployment.html)** och lär dig mer om förproduktion, projektinitiering och projektförlopp.
+>
+>Följ ytterligare en video om **[Projektledning och driftsättning](https://helpx.adobe.com/experience-manager/6-5/screens/using/project-management-and-deployment.html)** och lär dig mer om förproduktion, projektinitiering och projektförlopp.
 
 ## RACI-diagram {#raci-chart}
 
