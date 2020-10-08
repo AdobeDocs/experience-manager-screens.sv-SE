@@ -4,7 +4,7 @@ seo-title: Stöd för efterstart av AEM Screens
 description: På sidan beskrivs Post Launch Support for AEM Screens Best Practices Guide
 seo-description: På sidan beskrivs Post Launch Support for AEM Screens Best Practices Guide
 translation-type: tm+mt
-source-git-commit: 54c5a2f2f3f755e4da4028d54042f4bd8f2df369
+source-git-commit: 9b54b153676852742859b704ac9aedf908fceecf
 workflow-type: tm+mt
 source-wordcount: '413'
 ht-degree: 7%
@@ -29,10 +29,12 @@ För att förbereda sig för långsiktiga framgångar är det dessutom av störs
 
 >[!NOTE]
 >
-> Ni måste definiera driftsparametrar som är tidigt inräknade i driftbudgeten samt anpassa ansvarsområdena till AEM och AV Integrator.
-Är driftsättningen ett annonsnätverk med många intressenter kopplade till ett nätverk med intäkter? Detta kan tyda på mycket kortare tidsramar jämfört med ett Corporate Communications-nätverk. 
-Är programmet mycket synligt för kundens chefer? Webbplatser med hög synlighet kan behöva olika behandlingar.
-Är programmet viktigt för affärsverksamhet som menybord i snabbmatskedjor? I dessa fall kan slutklienten behöva lösningar på plats med mycket korta svarstider samt redundans i uppspelningsmaskinvaran.
+>Ni måste definiera driftsparametrar som är tidigt inräknade i driftbudgeten samt anpassa ansvarsområdena till AEM och AV Integrator.
+>
+>* Är driftsättningen ett annonsnätverk med många intressenter kopplade till ett nätverk med intäkter? Detta kan tyda på mycket kortare tidsramar jämfört med ett Corporate Communications-nätverk.
+>* Är programmet mycket synligt för kundens chefer? Webbplatser med hög synlighet kan behöva olika behandlingar.
+>* Är programmet viktigt för affärsverksamhet som menybord i snabbmatskedjor? I dessa fall kan slutklienten behöva lösningar på plats med mycket korta svarstider samt redundans i uppspelningsmaskinvaran.
+
 
 ## Överväganden och frågor efter start {#considerations-queries}
 
