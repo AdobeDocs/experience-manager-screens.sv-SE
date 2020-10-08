@@ -2,7 +2,7 @@
 title: Mobilnätverk med mobil datarouter och aktiva nätverkskomponenter
 description: Sidan beskriver mobilnätverk med Mobile Data Router och Active Network Components
 translation-type: tm+mt
-source-git-commit: 54c5a2f2f3f755e4da4028d54042f4bd8f2df369
+source-git-commit: 9b54b153676852742859b704ac9aedf908fceecf
 workflow-type: tm+mt
 source-wordcount: '1035'
 ht-degree: 0%
@@ -80,7 +80,8 @@ När du överväger vilket datanätverk som ska användas bör du svara på föl
 >[!NOTE]
 >
 >Datapaketet måste vara minst:
-`Data Package Capacity = # of Clients * (# of Content Files * Average File Size)`
+>
+>`Data Package Capacity = # of Clients * (# of Content Files * Average File Size)`
 
 >[!IMPORTANT]
 >
@@ -107,6 +108,3 @@ Tabellerna nedan ger en god översikt över vilka data för nätverksanslutnings
 >All information avser förbrukningen av varje enhet i nätverket som begär och hämtar en Internetkälla. Var och en av dessa förfrågningar sammanfattar och förlänger hämtningstiden.
 
 ![](/help/using/assets/mobile-router-download.png)
-
-
-
