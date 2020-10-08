@@ -6,7 +6,7 @@ seo-description: Följ den här sidan om du vill lära dig hur du använder öve
 uuid: b79d521b-19d4-47c8-a41a-148d7bbf6ac9
 contentOwner: jsyal
 translation-type: tm+mt
-source-git-commit: 8492bdd071ae029a68ec4a4983c79ce326cac38b
+source-git-commit: 9b54b153676852742859b704ac9aedf908fceecf
 workflow-type: tm+mt
 source-wordcount: '287'
 ht-degree: 1%
@@ -31,7 +31,7 @@ Följ stegen nedan för att lägga till en övergångskomponent i ditt AEM Scree
 >
 >**Förutsättningar**
 >
-> Skapa ett AEM Screens-projekt **TestProject** med en kanal **TestTransition**. Dessutom kan du ställa in en plats och en visning för att visa utdata.
+>Skapa ett AEM Screens-projekt **TestProject** med en kanal **TestTransition**. Dessutom kan du ställa in en plats och en visning för att visa utdata.
 
 1. Navigera till **Kanaltestövergång** och klicka på **Redigera** i åtgärdsfältet.
 
