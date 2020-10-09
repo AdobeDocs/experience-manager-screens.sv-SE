@@ -90,6 +90,7 @@ Följande validering är vad du kommer att se när du kontrollerar anslutningen 
    1. **Navigera** till **ContextHubDemo** > **Create** **ContentHub Configuration** och klicka på **Save**.
 
       >[!NOTE]
+      >
       > När du har klickat på **Spara** visas **konfigurationsskärmen** för ContextHub.
 
    1. Klicka på **Skapa** > Konfiguration av **ContentHub Store på skärmen Konfiguration** **av ContextHub.**
@@ -109,13 +110,13 @@ Följande validering är vad du kommer att se när du kontrollerar anslutningen 
       >1. Ta bort `cloudsettings` och spara.
       >1. Byt namn `cloudsettings1` till `cloudsettings` och spara.
       >1. Du bör nu observera att /conf/screens/settings/cloudsettings har `jcr:primaryType` samma `sling:Folder`.
-
       >
       >Följ dessa steg i programmet och publicera före eller efter uppgraderingen.
 
    1. Ange **Titel** som **Google Sheets**, **Butiksnamn** som **Googlesheets** och **Butikstyp** **** **** som¥contexthub.generic-jsonp¥ och klicka på¥Next.
 
       >[!CAUTION]
+      >
       >Om du använder Adobe Experience Manager (AEM) 6.4 anger du **Configuration Title** som **googlesheets** och **Store Type** som **contexthub.generic-jsonp**.
 
       ![bild](/help/user-guide/assets/context-hub/context-hub6.png)
@@ -123,6 +124,7 @@ Följande validering är vad du kommer att se när du kontrollerar anslutningen 
    1. Ange din specifika json-konfiguration. Du kan t.ex. använda följande json som demoversion och klicka på **Spara** så visas butikskonfigurationen med namnet **Google Sheets** i ContextHub-konfigurationen.
 
       >[!IMPORTANT]
+      >
       >Se till att ersätta koden med *&lt;Sheet ID>* och *&lt;API Key>*, som du hämtade när du konfigurerade Google Sheets.
 
       ```
@@ -142,11 +144,13 @@ Följande validering är vad du kommer att se när du kontrollerar anslutningen 
       ```
 
       >[!NOTE]
-      I ovanstående exempelkod definierar **pollInterval** den frekvens med vilken värdena uppdateras (i ms).
-      Ersätt koden med ditt *&lt;Sheet ID>* och *&lt;API Key>*, som du hämtade när du konfigurerade Google Sheets.
+      >
+      >I ovanstående exempelkod definierar **pollInterval** den frekvens med vilken värdena uppdateras (i ms).
+      >Ersätt koden med ditt *&lt;Sheet ID>* och *&lt;API Key>*, som du hämtade när du konfigurerade Google Sheets.
 
       >[!CAUTION]
-      Om du skapar dina Google Sheets-lagringskonfigurationer utanför den globala mappen (t.ex. i din egen projektmapp) kommer målanpassning inte att fungera som den ska.
+      >
+      >Om du skapar dina Google Sheets-lagringskonfigurationer utanför den globala mappen (t.ex. i din egen projektmapp) kommer målanpassning inte att fungera som den ska.
 
 
 1. **Konfigurera butikssegmentering**
@@ -158,7 +162,8 @@ Följande validering är vad du kommer att se när du kontrollerar anslutningen 
    1. Klicka på **Nästa** och sedan **Spara**.
 
       >[!NOTE]
-Du måste hoppa över processen att definiera json och lämna den tom.
+      >
+      >Du måste hoppa över processen att definiera json och lämna den tom.
 
 
 ## Steg 3: Konfigurera segment i målgruppen {#setting-up-audience}
@@ -200,7 +205,9 @@ Följ stegen nedan för att skapa ett varumärke i era aktiviteter och i ert omr
 
 
       >[!CAUTION]
-      Känt fel:
+      >
+      >Känt fel:
+
 Om du vill lägga till ett område tar du bort överordnad från URL-adressen, till exempel
       `http://localhost:4502/libs/cq/personalization/touch-ui/content/v2/activities.html/content/campaigns/screensbrand/master`.
 
@@ -258,7 +265,8 @@ När du har konfigurerat ett datalager och definierat din aktivitet (varumärke 
    1. Välj **Googlesheets/value/1/0** i listrutan i **Egenskapsnamn**.
 
       >[!NOTE]
-Google **heets/value/1/0** refererar till rad 2 och kolumn som fylls i i Google Sheets i figuren nedan:
+      >
+      >Google **heets/value/1/0** refererar till rad 2 och kolumn som fylls i i Google Sheets i figuren nedan:
 
       ![bild](/help/user-guide/assets/context-hub/context-hub17.png)
 
@@ -267,7 +275,8 @@ Google **heets/value/1/0** refererar till rad 2 och kolumn som fylls i i Google 
    1. Ange **värdet** som **70**.
 
       >[!NOTE]
-      AEM validerar dina data från Google Sheet genom att visa ditt segment som grönt.
+      >
+      >AEM validerar dina data från Google Sheet genom att visa ditt segment som grönt.
 
       ![bild](/help/user-guide/assets/context-hub/context-hub18.png)
    Redigera på samma sätt egenskapsvärdena till **Lägre än 50**.
@@ -301,14 +310,16 @@ Följ stegen nedan för att aktivera målinriktning i dina kanaler.
    1. Klicka på **Spara och stäng**.
 
       >[!NOTE]
-      Använd ContextHub och Segments-sökvägen, där du först sparade dina kontextnavkonfigurationer och segment.
+      >
+      >Använd ContextHub och Segments-sökvägen, där du först sparade dina kontextnavkonfigurationer och segment.
 
       ![bild](/help/user-guide/assets/context-hub/context-hub20.png)
 
    1. Navigera till och markera **TargetChannel** -kanalen och klicka på **Redigera** i åtgärdsfältet.
 
       >[!NOTE]
-      Om du har konfigurerat allt korrekt visas alternativet **Riktning** i listrutan från redigeraren, vilket visas i bilden nedan.
+      >
+      >Om du har konfigurerat allt korrekt visas alternativet **Riktning** i listrutan från redigeraren, vilket visas i bilden nedan.
 
       ![bild](/help/user-guide/assets/context-hub/context-hub21.png)
 
