@@ -3,11 +3,11 @@ cloud: experience-cloud
 product: experience manager
 audience: end-user
 user-guide-title: Hjälp om Adobe Experience Manager Screens
-user-guide-description: Learn to use AEM Screens to publish interactive digital experiences involving different types of screens.
+user-guide-description: Lär dig använda AEM Screens för att publicera interaktiva digitala upplevelser som omfattar olika typer av skärmar.
 translation-type: tm+mt
 source-git-commit: 7ce10b467559b33c5d3ca61b315e50cb1ceade9d
 workflow-type: tm+mt
-source-wordcount: '399'
+source-wordcount: '414'
 ht-degree: 1%
 
 ---
@@ -96,7 +96,7 @@ ht-degree: 1%
    + [Offlinekanaler](offline-channels.md)
    + [Utöka en AEM Screens-komponent](extending-component-tutorial-develop.md)
    + [Skapa komponenter](creating-components.md)
-   + [Bädda in ett REACT-program med AEM SPA Editor och integrera med AEM Screens Analytics](embedding-react-app.md)
+   + [Bädda in ett REACT-program med AEM och integrera med AEM Screens Analytics](embedding-react-app.md)
    + [ContextHub konfigureras i AEM Screens](configuring-context-hub.md)
    + [Skapa anpassade mallar för MultiZone-layouter](creating-custom-templates-multizone-layouts.md)
    + [Använda anpassad profilering och formatering för textövertäckningar](custom-branding-text-overlays.md)
