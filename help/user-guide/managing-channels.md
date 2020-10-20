@@ -3,17 +3,10 @@ title: Skapa och hantera kanaler
 seo-title: Hantera kanaler
 description: Följ den här sidan om du vill veta mer om hur du skapar och hanterar kanaler. Den förklarar även kanalkontrollpanelen och redigerar innehåll för en kanal.
 seo-description: Följ den här sidan om du vill veta mer om hur du skapar och hanterar kanaler. Den förklarar även kanalkontrollpanelen och redigerar innehåll för en kanal.
-uuid: cdf09ced-9089-4249-ba51-471d6fa0e507
-contentOwner: Jyotika syal
-content-type: reference
-products: SG_EXPERIENCEMANAGER/6.5/SCREENS
-topic-tags: authoring
-discoiquuid: a8006686-8ee5-4971-ab79-0c7b01f108f2
-docset: aem65
 translation-type: tm+mt
-source-git-commit: f2b5b2cb35a43990ed74b259d8da3837118a65ae
+source-git-commit: 6c2c7e4f757666160b79018d1195a79b99a4202d
 workflow-type: tm+mt
-source-wordcount: '1343'
+source-wordcount: '1326'
 ht-degree: 0%
 
 ---
@@ -21,9 +14,9 @@ ht-degree: 0%
 
 # Skapa och hantera kanaler {#creating-and-managing-channels}
 
-En kanal visar en sekvens med innehåll och visar bilder och videoklipp, men kan även visa en webbplats eller ett ensidigt program.
+En kanal visar en innehållssekvens (bilder och videoklipp) och visar även en webbplats eller ett enkelsidigt program.
 
-På den här sidan visas hur du skapar och hanterar kanaler för skärmar.
+På den här sidan visas hur du skapar och hanterar kanaler för AEM Screens.
 
 **Krav**:
 
@@ -34,7 +27,7 @@ På den här sidan visas hur du skapar och hanterar kanaler för skärmar.
 
 När du har skapat ditt projekt för AEM Screens följer du stegen nedan för att skapa en ny kanal för ditt projekt:
 
-1. Klicka på länken Adobe Experience Manager (längst upp till vänster) och sedan på Skärmar. Du kan även navigera direkt till: `https://localhost:4502/screens.html/content/screens`.
+1. Klicka på länken Adobe Experience Manager (längst upp till vänster) och sedan på Skärmar. Du kan också navigera direkt till `https://localhost:4502/screens.html/content/screens`.
 
 1. Navigera till projektet Skärmar och välj mappen **Kanaler** .
 
@@ -80,9 +73,6 @@ Följande mallalternativ är tillgängliga när du använder guiden, till exempe
 
 Du kan redigera, visa egenskaper och kontrollpanel, kopiera, förhandsgranska och ta bort en kanal.
 
->[!NOTE]
->
->Markera kanalen enligt bilden nedan.
 
 ![screen_shot_2019-07-24at103723am](assets/screen_shot_2019-07-24at103723am.png)
 
@@ -94,7 +84,6 @@ Följ stegen nedan om du vill lägga till eller redigera innehåll i en kanal:
 1. Klicka på **Redigera** i åtgärdsfältets övre vänstra hörn för att redigera kanalegenskaperna. Redigeraren öppnas och du kan lägga till resurser/komponenter i kanalen som du vill publicera.
 
 >[!NOTE]
->
 >Du kan lägga till komponenter i kanalen. Mer information finns i **[Lägga till komponenter i en kanal](adding-components-to-a-channel.md)** .
 
 ![demochannel1](assets/demochannel1.gif)
@@ -141,7 +130,6 @@ Klicka på (**..**) i åtgärdsfältet **KANALINFORMATION** för att visa egensk
 Du kan visa manifestet från kanalkontrollpanelen.
 
 >[!IMPORTANT]
->
 >Det här alternativet är endast tillgängligt med AEM 6.4 Feature Pack 8 eller AEM 6.5 Feature Pack 4.
 
 Följ de här stegen för att aktivera det här alternativet från kanalkontrollpanelen:
@@ -155,7 +143,7 @@ Följ de här stegen för att aktivera det här alternativet från kanalkontroll
    1. Navigera till panelen **KANALINFORMATION** och klicka *..*
    1. Klicka på **Uppdatera offlineinnehåll**
 
-Nu bör du kunna se alternativet **Visa manifest** på panelen **KANALINFORMATION** på kontrollpanelen Kanal.
+Du bör se alternativet **Visa manifest** på panelen **KANALINFORMATION** på kontrollpanelen Kanal.
 
 ![image1](assets/channel-one.png)
 
@@ -163,8 +151,7 @@ Nu bör du kunna se alternativet **Visa manifest** på panelen **KANALINFORMATIO
 ### Online- och offlinekanaler {#online-and-offline-channels}
 
 >[!NOTE]
->
->Som standard är kanalen offline när du skapar en kanal.
+>När du skapar en kanal är den som standard offline.
 
 När du skapar en kanal kan den antingen definieras som en online- eller offlinekanal.
 
@@ -197,7 +184,6 @@ Följ stegen nedan för att göra kanalen online:
    ![screen_shot_2019-08-01at31821pm](assets/screen_shot_2019-08-01at31821pm.png)
 
 >[!NOTE]
->
 >Om du vill konfigurera din kanal igen som offline avmarkerar du alternativet för utvecklarläge på fliken **Egenskaper** (vilket visas i steg 3) och klickar sedan på **Uppdatera offlineinnehåll** på panelen **KANALINFORMATION**, vilket visas i bilden nedan.
 
 ![dashboard2](assets/dashboard2.gif)
@@ -251,7 +237,6 @@ De associerade skärmarna visas på panelen **Tilldelade skärmar** enligt nedan
 ![chlimage_1-27](assets/chlimage_1-27.png)
 
 >[!NOTE]
->
 >Mer information om hur du skapar en visning på en plats finns i:
 >
 >* [Skapa och hantera platser](managing-locations.md)
