@@ -3,11 +3,12 @@ cloud: experience-cloud
 product: experience manager
 audience: end-user
 user-guide-title: Hjälp om Adobe Experience Manager Screens
-user-guide-description: Lär dig använda AEM Screens för att publicera interaktiva digitala upplevelser som omfattar olika typer av skärmar.
+breadcrumb-title: AEM Screens Guide
+user-guide-description: Lär dig använda en lösning för digital signering som gör att du kan publicera dynamiska och interaktiva digitala upplevelser och interaktioner.
 translation-type: tm+mt
-source-git-commit: 7ce10b467559b33c5d3ca61b315e50cb1ceade9d
+source-git-commit: 20c6e15dbee0f2e50b42155d84fac7d6f372170e
 workflow-type: tm+mt
-source-wordcount: '414'
+source-wordcount: '421'
 ht-degree: 1%
 
 ---
