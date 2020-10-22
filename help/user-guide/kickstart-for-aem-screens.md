@@ -3,9 +3,9 @@ title: Kickstart Guide
 seo-title: Kickstart Guide
 description: Följ den här sidan för att skapa ett AEM Screens-demonstrationsprojekt. Det hjälper dig att skapa en digital signeringsupplevelse från installation och konfiguration av ett nytt projekt för att visa ditt innehåll i AEM Screens Player.
 translation-type: tm+mt
-source-git-commit: d49ceecab42762425d779d50a31291091088ee19
+source-git-commit: 77c81b84631b090333db0095986f634fa99c8223
 workflow-type: tm+mt
-source-wordcount: '1320'
+source-wordcount: '1317'
 ht-degree: 1%
 
 ---
@@ -13,10 +13,10 @@ ht-degree: 1%
 
 # Kickstart Guide {#kickstart-guide}
 
-I det här avsnittet kommer vi igång med AEM Screens och visar hur du konfigurerar och kör ett AEM Screens-projekt. Här får du hjälp med att skapa en grundläggande digital signeringsupplevelse och lägga till innehåll som resurser och/eller videor i varje kanal och publicera innehållet ytterligare i en AEM Screens-spelare.
+I början av AEM Screens demonstreras hur du konfigurerar och kör ett AEM Screens-projekt. Här får du hjälp med att skapa en grundläggande digital signeringsupplevelse och lägga till innehåll som resurser och/eller videor i varje kanal och publicera innehållet ytterligare i en AEM Screens-spelare.
 
 >[!NOTE]
->Kontrollera att du har installerat det senaste funktionspaketet innan du börjar arbeta med projektinformationen. Du kan ladda ned det senaste funktionspaketet för AEM Screens 6.5.5 från [Software Distribution Portal](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) med din Adobe ID.
+>Kontrollera att du har installerat det senaste funktionspaketet för AEM Screens innan du börjar arbeta med projektinformationen. Du kan hämta det senaste funktionspaketet från [Software Distribution Portal](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) med din Adobe ID.
 
 ## Förutsättningar {#prerequisites}
 
@@ -47,12 +47,11 @@ Följ stegen nedan för att skapa ett exempelprojekt för AEM Screens och public
 
 1. Klicka på **Spara** för att aktivera Apache Sling Referer-filtret Tillåt tomt.
 
-
 ## Skapa en upplevelse av en digital skylt på 5 minuter {#creating-a-digital-signage-experience-in-minutes}
 
 ### Creating an AEM Screens Project {#creating-project}
 
-Det första steget är att skapa ett nytt AEM Screens-projekt.
+Det första steget är att skapa ett AEM Screens-projekt.
 
 1. Navigera till din Adobe Experience Manager-instans (AEM) och klicka på **Skärmar**. Du kan också navigera direkt från `https://localhost:4502/screens.html/content/screens](https://localhost:4502/screens.html/content/screens`.
 
@@ -63,35 +62,34 @@ Det första steget är att skapa ett nytt AEM Screens-projekt.
    >[!NOTE]
    >När du har skapat projektet återgår du till startsidan för Skärmprojekt. Nu kan du välja ditt projekt. I ett projekt finns det fem olika mappar med namnen **Program**, **Kanaler**, **Enheter**, **Platser** och **Scheman**.
 
-
 ### Skapa en kanal {#creating-channel}
 
-När projektet är på plats måste du skapa en ny kanal där du hanterar innehållet.
+När du har skapat ditt AEM Screens-projekt måste du skapa en ny kanal där du hanterar innehållet.
 
 Följ stegen nedan för att skapa en ny kanal för ditt projekt:
 
-1. När du har skapat ett projekt väljer du **DemoScreens** -projektet och väljer mappen **** Kanaler enligt bilden nedan. Klicka på **+ Skapa** i åtgärdsfältet.
+1. När du har skapat ett projekt väljer du **DemoScreens** -projektet och väljer mappen **Kanaler** enligt bilden nedan. Klicka på **+ Skapa** i åtgärdsfältet.
 
    ![bild](assets/kickstart/demo-2.png)
 
 1. Välj **Sekvenskanal** i guiden och klicka på **Nästa**.
    ![bild](assets/kickstart/demo-3.png)
 
-1. Ange **titeln** som *TestChannel* och klicka på **Skapa**.
+1. Ange **titeln** som **TestChannel** och klicka på **Skapa**.
 
    ![bild](assets/kickstart/demo-4.png)
 
-   TestChannel ** skapas och läggs till i kanalmappen, vilket visas i bilden nedan.
+   TestChannel **** läggs nu till i din kanalmapp, vilket visas i bilden nedan.
 
    ![bild](assets/kickstart/demo-5.png)
 
 ### Lägga till innehåll i en kanal {#adding-content}
 
-När du väl har skapat kanalen måste du lägga till innehåll i kanalen som skärmspelaren ska visa.
+När ni väl har er kanal på plats måste ni lägga till innehåll i kanalen som AEM Screens Player visar.
 
-Följ stegen nedan för att lägga till innehåll i kanalen (*TestChannel*) i ditt projekt:
+Följ stegen nedan för att lägga till innehåll i kanalen (**TestChannel**) i ditt projekt:
 
-1. Navigera till det **demoprojekt** du har skapat och markera mappen **Kanaler** .
+1. Navigera till det **DemoProject** du skapade och välj **TestChannel** i mappen **Channels** .
 
 1. Klicka på **Redigera** i åtgärdsfältet (se bilden nedan). Redigeraren för **TestChannel** öppnas.
 
@@ -118,7 +116,7 @@ Följ stegen nedan för att skapa en ny plats för ditt projekt:
 
 1. Välj **Plats** i guiden och klicka på **Nästa**.
 
-1. Ange **namnet** för platsen (ange titeln som *TestLocation*) och klicka på **Skapa**.
+1. Ange **namnet** för platsen (ange titeln som **TestLocation**) och klicka på **Skapa**.
 
 TestLocation **** skapas och läggs till i mappen **Locations** .
 
@@ -128,7 +126,7 @@ TestLocation **** skapas och läggs till i mappen **Locations** .
 När du har skapat en plats måste du skapa en ny skärm för platsen.
 
 >[!NOTE]
->***Skärmar*** representerar den digitala upplevelse som körs på en eller flera skärmar.
+>***Bildskärmen*** representerar den digitala upplevelse som körs på en eller flera skärmar.
 
 1. Navigera till **TestLocation** och markera den.
 
@@ -234,9 +232,7 @@ När du har aktiverat Chrome OS-spelaren följer du stegen nedan för att regist
 
    ![bild](assets/kickstart/demo-register8.png)
 
-1. Tryck/klicka på **Slutför** för att slutföra registreringsprocessen.
-
-1. Du bör kunna visa din registrerade enhet från kontrollpanelen.
+1. Tryck/klicka på **Slutför** för att slutföra registreringsprocessen. Du bör kunna visa din registrerade enhet från kontrollpanelen.
 
    ![bild](assets/kickstart/demo-register9.png)
 
@@ -247,9 +243,3 @@ Alla resurser i din kanal spelas nu upp i din Chrome OS-spelare.
 Grattis till att du nu spelar upp innehåll i en AEM Screens-kanal!
 
 ![bild](assets/kickstart/demo-video-screens.gif)
-
-
-
-
-
-
