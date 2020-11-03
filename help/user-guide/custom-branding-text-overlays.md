@@ -5,9 +5,9 @@ description: Följ den här sidan om du vill veta mer om hur du använder anpass
 seo-description: Följ den här sidan om du vill veta mer om hur du använder anpassad profilering och formatering för textövertäckningar.
 contentOwner: Jyotika Syal
 translation-type: tm+mt
-source-git-commit: 2a3bbdd283f983cbdb5f21b606f508603385e041
+source-git-commit: 099000dea848810c7ab12a32f0235ca478c0d5dd
 workflow-type: tm+mt
-source-wordcount: '627'
+source-wordcount: '626'
 ht-degree: 1%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 1%
 
 # Anpassad profilering och formatering för textövertäckningar {#creating-custom-branding-styling}
 
-Följ den här sidan om du vill lära dig hur du använder anpassade märkesinställningar och format för textövertäckningar på dina resurser i en skärmkanal.
+Följ den här sidan om du vill lära dig hur du använder anpassade märkesinställningar och format för textövertäckningar på dina resurser i en AEM Screens-kanal.
 
 ## Skapa anpassad profilering och formatering för textövertäckningar {#steps-custom-branding}
 
@@ -81,9 +81,8 @@ Följ stegen nedan för att skapa anpassade märkesnamn och format för textöve
 
 1. Klicka på **Spara och stäng** för att uppdatera designsökvägen.
 
->[!IMPORTANT]
->
->Du kan välja att täcka över de befintliga skärmmallarna för att mata in dina egna designer som standard eller skapa en egen mall helt och hållet. Mer information finns i stegen nedan.
+   >[!IMPORTANT]
+   >Du kan välja att täcka över de befintliga skärmmallarna för att mata in dina egna designer som standard eller skapa en egen mall helt och hållet. Mer information finns i stegen nedan.
 
 1. Så här övertäcker du de befintliga skärmmallarna så att du kan mata in din egen design som standard:
 
@@ -129,7 +128,7 @@ Följ stegen nedan för att visa den uppdaterade designen för textövertäcknin
 
    ![bild](/help/user-guide/assets/custom-brand/custom-brand11.png)
 
-I självstudiekursen kan du nu uppdatera ditt varumärke och din anpassade stil för textöverlägg som läggs till i dina resurser.
+   Nu kan ni uppdatera ert varumärke och anpassa formateringen för textöverlägg som läggs till i ert material.
 
 
 
