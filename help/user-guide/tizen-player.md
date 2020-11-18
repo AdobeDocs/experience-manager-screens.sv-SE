@@ -2,9 +2,9 @@
 title: Tizen Player
 description: På den här sidan beskrivs hur Tizen Player installeras och fungerar.
 translation-type: tm+mt
-source-git-commit: baefade9fa013bc77ed1f112d0ad2098c992dde5
+source-git-commit: 835da341fcee8e4abb3375c43a0a130d3f79d859
 workflow-type: tm+mt
-source-wordcount: '191'
+source-wordcount: '223'
 ht-degree: 0%
 
 ---
@@ -20,12 +20,17 @@ Följ stegen nedan för att implementera Tizen Player för AEM Screens:
 
 1. Installera Tizen-spelarfilen (.zip) från den lokala datorn.
 
+## Konfigurera den lokala servern och extrahera zip-filer {#setting-local-server}
+
+Följ stegen nedan för att konfigurera den lokala servern och kopiera de extraherade filerna:
+
 1. Hämta IP-adressen för den lokala datorn.
 
    >[!NOTE]
-   >I terminalen på datorn skriver du följande kommandon för:
-   >**Mac** use command `ifconfig`
-   >**Windows**, använd kommando `ipconfig`
+   >Du kan hämta IP-adressen från datorns terminal med följande kommandon:
+   >* **Mac**: `ifconfig`
+   >* **Windows**: `ipconfig`
+
 
 1. I Terminal navigerar du till samma katalog i den uppzippade installationsmappen och kontrollerar om den lokala värden fungerar.
 
@@ -36,14 +41,14 @@ Följ stegen nedan för att implementera Tizen Player för AEM Screens:
 
 1. Kopiera de två extraherade filerna `AEMScreensPlayer.wgt` och `sssp_config.xml` till `/Library/WebServer/Documents`.
 
-### Konfigurationsuppdateringar på Samsung-enheten {#config-updates}
+### Konfigurera uppdateringar på Samsung-enheten {#config-updates}
 
 Följ stegen nedan på Samsung-enheten för att slutföra installationen av AEM Screens-spelaren på enheten:
 
-1. Klicka på knappen **Hem** från Samsung Remote.
-1. Välj **URL-startprogram** i **Inställningar**.
-1. Välj **Fjärr** i utvecklarläget.
-1. Installera Web App och ange datorns IP-adress.
-AEM Screens Player bör installeras automatiskt på Samsung-enheter.
+1. Gå till din Samsung-enhet och peka på din lokala värdserver.
+1. Välj **URL-startinställningar** i **Inställningar** och ange IP-adressen till den lokala värdservern.
+1. Installera webbprogram.
+1. Välj **Fjärr** i **utvecklarläget**.
+1. AEM Screens Player bör nu installeras automatiskt på din Samsung-enhet.
 
 
