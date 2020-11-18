@@ -11,7 +11,7 @@ topic-tags: administering
 discoiquuid: 77fe9d4e-e1bb-42f7-b563-dc03e3af8a60
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 2a3bbdd283f983cbdb5f21b606f508603385e041
+source-git-commit: b439cfab068dcbbfab602ad8d31aaa2781bde805
 workflow-type: tm+mt
 source-wordcount: '768'
 ht-degree: 1%
@@ -36,11 +36,11 @@ Gå till [**AEM 6.5 Player Downloads**](https://download.macromedia.com/screens/
 >[!NOTE]
 >Du måste konfigurera en miljö för Android-spelaren om du använder AEM Screens 6.5.5 Service Pack.
 
-Ange attributet **SameSite för inloggningstokencookies** från **Lax** till **None** från **Adobe Experience Manager Web ConsoleConfiguration** för alla AEM författare- och publiceringsinstanser.
+Ange attributet **SameSite för inloggningstokencookies** från **Lax** till **None** från **Adobe Experience Manager Web Console Configuration** för alla AEM författare- och publiceringsinstanser.
 
 Följ stegen nedan:
 
-1. Navigera till **Adobe Experience Manager Web ConsoleConfiguration** med `http://localhost:4502/system/console/configMgr`.
+1. Navigera till **Adobe Experience Manager Web Console Configuration** med `http://localhost:4502/system/console/configMgr`.
 
 1. Sök efter autentiseringshanterare för *Adobe Granite-token*.
 
