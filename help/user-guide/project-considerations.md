@@ -12,13 +12,16 @@ discoiquuid: 10b81628-46db-4122-bf9e-96f41f080055
 docset: aem65
 translation-type: tm+mt
 source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
+workflow-type: tm+mt
+source-wordcount: '666'
+ht-degree: 0%
 
 ---
 
 
 # Del 2: Att tänka på när projekt är omfång {#part-considerations-as-projects-are-scoped}
 
-Den här sidan belyser del 2 i en 5-delsserie som utformats för att hjälpa teammedlemmarna att bättre förstå de aspekter som gäller före försäljningen för att utveckla framgångsrika AEM Screens-installationer.
+Den här sidan belyser del 2 i en 5-delsserie som utformats för att hjälpa teammedlemmarna att bättre förstå försäljningsaspekter för att utveckla framgångsrika AEM Screens-driftsättningar.
 
 ## Översikt {#overview}
 
@@ -37,7 +40,7 @@ De viktigaste komponenterna i ett program för digitala signaturer som krävs f�
 >
 >Det är viktigt att definiera en innehållsstrategi som tar hänsyn till hur programmet kommer att utnyttja programvaru-, maskinvaru- och anslutningsresurserna för att lyckas leverera det tänkta värdet.
 
-## Sammanfattning av projektöverväganden i en digital signering {#summary-of-project-considerations-in-a-digital-signage}
+## Sammanfattning av projektöverväganden i en digital signatur {#summary-of-project-considerations-in-a-digital-signage}
 
 När du utvecklar en innehållsstrategi finns det flera saker att tänka på, bland annat I/O-lager, tillgångstyper, målgruppssegmentering och krav på dagdelsschema.
 
@@ -66,15 +69,15 @@ Genom att tillämpa Day-Part-strategier kan slutkunder segmentera sitt innehåll
 
 Affärsverksamhet är också viktig för att definiera i konversationer om innehållsstrategi. Genom att formatera slutkundernas supportbehov kan ni hantera förväntningarna efter driftsättningen och säkerställa att supportarbetet mäts korrekt.
 
-### A/V-krav {#a-v-requirements}
+### Krav för A/V {#a-v-requirements}
 
 Monteringsscenarier måste också definieras, liksom överväganden kring enhetsåtkomst för service av utrustning. Detta kommer inte bara att påverka de inledande arbets- och utrustningsrekommendationerna utan även att fastställa de löpande service- och supportkraven.
 
-### Webbplatsberedskap {#site-readiness}
+### Platsberedskap {#site-readiness}
 
 Det sista steget i förförsäljningsprocessen är att fastställa webbplatsens beredskap. Detta kan underlättas genom webbplatsundersökningar där information om plats, projekt och förlopp samlas in. Platsberedskap innebär i princip att en plats hämtas innan den installeras, och att eventuella artiklar som kunden behöver för att förbereda eller planera för att adressera innan en tekniker anländer. Vanligtvis omfattar detta element som ström, data, borttagning av möbler och eliminering av damm.
 
-## Del 2: Videosjälvstudiekurs om att tänka på när projekt är omfång {#part-video-tutorial-on-considerations-as-projects-are-scoped}
+## Del 2: Videosjälvstudiekurs om överväganden som projekt är omfång {#part-video-tutorial-on-considerations-as-projects-are-scoped}
 
 Följ självstudiekursen nedan för att lära dig mer om innehållsstrategi, I/O-lager, tillgångstyper, målgruppssegmentering, dagdelar, verksamhetskrav och överväganden som rör beredskap för webbplatser.
 
@@ -88,4 +91,4 @@ Följ självstudiekursen nedan för att lära dig mer om innehållsstrategi, I/O
 
 När du förstår vilka element som identifieras vid projektidentifiering och vad berörda parter har skrivit för att utvärdera projektet och förbereda en lämplig design, måste du lära dig de viktigaste villkoren i en övergripande projektplan, som projektcykel, åtgärder som omger maskinvarutester, konceptbevis, piloter och rollouts.
 
-Mer information finns i **[Testing, POC, Pilot &amp; Rollouts](testing-pocs-pilots-rollouts.md)**.
+Gå till **[Testning, POC, Pilot &amp; Rollouts](testing-pocs-pilots-rollouts.md)** om du vill ha mer information.
