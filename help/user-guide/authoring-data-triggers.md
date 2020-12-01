@@ -11,7 +11,7 @@ ht-degree: 0%
 ---
 
 
-# Skapa med Data Triggers {#authoring-with-data-triggers}
+# Om du skriver med Data Triggers {#authoring-with-data-triggers}
 
 I det här avsnittet beskrivs hur du aktiverar målinriktning i dina kanaler.
 
@@ -21,7 +21,7 @@ I det här avsnittet beskrivs hur du aktiverar målinriktning i dina kanaler.
 
 ## Förutsättningar {#prereqs}
 
-Innan du följer stegen nedan för att aktivera målinriktning i kanaler måste du lära dig de [nyckeltermer i Konfigurera i AEM Screens](configuring-context-hub.md) som krävs för att förstå ContextHub och Targeting i AEM Screens.
+Innan du följer stegen nedan för att aktivera mål i kanaler måste du lära dig de [nyckeltermer i Konfigurera i AEM Screens](configuring-context-hub.md) som krävs för att förstå ContextHub och Target i AEM Screens.
 
 >[!IMPORTANT]
 >
@@ -42,17 +42,17 @@ När du har slutfört de föregående stegen är du redo att aktivera målinrikt
 
 Följ stegen nedan för att aktivera målinriktning i dina kanaler.
 
-1. Navigera till en av AEM Screens-kanalerna. I följande steg visas hur du aktiverar mål genom att använda **DataDrivenRetail** *(sekvenskanal)* som skapats i en AEM Screens-kanal.
+1. Navigera till en av AEM Screens-kanalerna. Följande steg visar hur du aktiverar mål genom att använda **DataDrivenRetail** *(sekvenskanal)* som skapats i en AEM Screens-kanal.
 
-1. Välj kanalen **DataDrivenRetail** och klicka på **Egenskaper** i åtgärdsfältet.
+1. Markera kanalen **DataDrivenRetail** och klicka på **Egenskaper** i åtgärdsfältet.
 
    ![screen_shot_2019-05-01at43332pm](assets/screen_shot_2019-05-01at43332pm.png)
 
 1. Välj fliken **Personalisering** för att konfigurera ContextHub-konfigurationer och välj ContextHub- och Segments-sökvägen.
 
-   1. Välj **ContextHub Path** som **libs** > **settings** > **cloudsettings** > **default** **** ****>¥ContextHub Configurations¥ och klicka på¥Select¥.
+   1. Välj **ContextHub-sökvägen** som **libs** > **inställningar** > **molninställningar** > **standard** > **ContextHub Configurations** och klicka på &lt;a 12/>Välj **.**
 
-   1. Välj **Segmentsökväg** som **conf** > **We.Retail** > **settings** > **wcm** **** ****>¥segments¥ och klicka¥Select.
+   1. Välj **Segmentsökväg** som **conf** > **We.Retail** > **inställningar** > **wcm** > **segment** och klicka på **Markera&lt;a1 3/>.**
 
    1. Klicka på **Spara och stäng**.
    >[!NOTE]
@@ -61,17 +61,17 @@ Följ stegen nedan för att aktivera målinriktning i dina kanaler.
 
    ![screen_shot_2019-05-01at44030pm](assets/screen_shot_2019-05-01at44030pm.png)
 
-1. Navigera till och välj **DataDrivenRetail** från **DataDrivenAssets** > **Kanaler** och klicka på **Redigera** i åtgärdsfältet. Dra och släpp resurserna i kanalredigeraren.
+1. Navigera och välj **DataDrivenRetail** från **DataDrivenAssets** > **Kanaler** och klicka på **Redigera** i åtgärdsfältet. Dra och släpp resurserna i kanalredigeraren.
 
    >[!NOTE]
    >
-   >Om du har konfigurerat allt korrekt visas alternativet **Riktning** i listrutan från redigeraren, vilket visas i bilden nedan.
+   >Om du har konfigurerat allt korrekt visas alternativet **Målinriktning** i listrutan från redigeraren, vilket visas i bilden nedan.
 
    ![screen_shot_2019-05-01at44231pm](assets/screen_shot_2019-05-01at44231pm.png)
 
 1. Klicka på **Mål**.
 
-1. Välj **Varumärke** och **Aktivitet** i listrutan och klicka på **Start Targeting**.
+1. Välj **Varumärke** och **Aktivitet** i listrutan och klicka på **Starta målgruppsanpassning**.
 
 ### Läs mer: Exempel på användningsfall {#learn-more-example-use-cases}
 
