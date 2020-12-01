@@ -22,19 +22,19 @@ ht-degree: 0%
 
 AEM Screens har släppt AEM 6.4 Feature Pack 8 och AEM 6.5 Feature Pack 4.
 
-Du kan hämta det senaste funktionspaketet för AEM Screens 6.4.8 eller AEM Screens 6.5.4 från [Software Distribution Portal](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) med ditt Adobe-ID. Gå till fliken **Adobe Experience Manager** och sök efter **skärmar** för att få tillgång till det senaste funktionspaketet.
+Du kan hämta det senaste funktionspaketet för AEM Screens 6.4.8 eller AEM Screens 6.5.4 från [Software Distribution Portal](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) med din Adobe ID. Navigera till fliken **Adobe Experience Manager** och sök efter **skärmar** för att hämta det senaste funktionspaketet.
 
 ## Releasedatum {#release-date}
 
-Releasedatum för AEM Screens Feature Pack 2004 är 20 april 2020.
+Releasedatum för AEM Screens Feature Pack 20204 är 20 april 2020.
 
-### What&#39;s New {#what-s-new}
+### Nyheter {#what-s-new}
 
 * **Strategialternativ för uppspelningsavbrott**
 
    Som innehållsförfattare bör du kunna ange när en kanal avbryts så att du kan välja att avbryta icke-kritiskt innehåll, men du kan välja att låta viktigt innehåll spelas upp helt innan uppspelningen avbryts på grund av schemaläggning.
 
-   I avsnittet **[Avbrottsmetod](/help/user-guide/channel-assignment.md#interruption-method-channel)**finns mer information om de alternativ som finns i dialogrutan **Kanaltilldelning**för att implementera den här funktionen i ditt AEM Screens-projekt.
+   Läs avsnittet **[Avbrottsmetod](/help/user-guide/channel-assignment.md#interruption-method-channel)** om du vill veta mer om de alternativ som finns i dialogrutan **Kanaltilldelning** för att implementera den här funktionen i ditt AEM Screens-projekt.
 
 * **Skärmstartningar**
 
@@ -44,7 +44,7 @@ Releasedatum för AEM Screens Feature Pack 2004 är 20 april 2020.
 
 * **Kontrollpanel för kanaler**
 
-   Återspeglar uppdateringar av instruktioner i kanalkontrollpanelen på panelen **KANALINFORMATION** .
+   Återspeglar uppdateringar av instruktioner i kanalkontrollpanelen i panelen **KANALINFORMATION**.
 
 
 * **Visa manifest**
@@ -57,7 +57,7 @@ Releasedatum för AEM Screens Feature Pack 2004 är 20 april 2020.
 
    När du lägger till test i textövertäckningsfunktionen är teckensnittsstorleken exakt och förbättrad.
 
-   Använd **[Textövertäckning](text-overlay.md)**för att skapa en övertygande upplevelse i en sekvenskanal genom att ange en rubrik eller en beskrivning som läggs ovanpå en bild.
+   Använd **[Textövertäckning](text-overlay.md)** för att skapa en övertygande upplevelse i en sekvenskanal genom att ange en rubrik eller en beskrivning som läggs ovanpå en bild.
 
 * **Förbättringar i kommandosynkronisering**
 
@@ -65,14 +65,14 @@ Releasedatum för AEM Screens Feature Pack 2004 är 20 april 2020.
 
    Mer information finns i **[Kommandosynkronisering](using-command-sync.md)**.
 
-### Frisläppta AEM-skärmspelare {#released-aem-screens-players}
+### Lanserade AEM Screens Players {#released-aem-screens-players}
 
-Följande AEM Screens Players finns tillgängliga för AEM Screens som släppts AEM 6.4 Feature Pack 8 och AEM 6.5 Feature Pack 4:
+Följande AEM Screens-spelare finns för AEM Screens som lanserats AEM 6.4 Feature Pack 8 och AEM 6.5 Feature Pack 4:
 
 * ChromeOS
 * Windows
 * Android
 
-#### AEM Screens Player - nedladdningar  {#aem-screens-player-downloads}
+#### AEM Screens Player Downloads {#aem-screens-player-downloads}
 
-Om du vill hämta den senaste versionen av AEM Screens Player och läsa mer om felkorrigeringarna kan du läsa **[AEM Screens Player Downloads](https://download.macromedia.com/screens/)**.
+Om du vill hämta den senaste AEM Screens-spelaren och läsa mer om felkorrigeringarna kan du läsa **[AEM Screens Player Downloads](https://download.macromedia.com/screens/)**.
