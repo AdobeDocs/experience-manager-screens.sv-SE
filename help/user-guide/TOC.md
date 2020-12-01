@@ -14,7 +14,7 @@ ht-degree: 1%
 ---
 
 
-# AEM Screens Användarhandbok {#user-guide}
+# AEM Screens användarhandbok {#user-guide}
 
 + [Introduktion till skärmar](aem-screens-introduction.md)
 + Översikt och snabbstartsguide {#overview}
@@ -43,7 +43,7 @@ ht-degree: 1%
       + [Använda Chrome Player som ett tillägg för felsökning](using-chrome-player-as-an-extension.md)
       + [Android Player](implementing-android-player.md)
       + [Windows Player](implementing-windows-player.md)
-   + Author Publish {#author-publish}
+   + Författarpublicera {#author-publish}
       + [Författare/Publicera arkitektur - översikt](author-publish-architecture-overview.md)
       + [Konfigurera författare och publicera](author-and-publish.md)
    + Analysintegrering med AEM Screens {#analytics-integration}
@@ -101,7 +101,7 @@ ht-degree: 1%
    + [ContextHub konfigureras i AEM Screens](configuring-context-hub.md)
    + [Skapa anpassade mallar för MultiZone-layouter](creating-custom-templates-multizone-layouts.md)
    + [Använda anpassad profilering och formatering för textövertäckningar](custom-branding-text-overlays.md)
-+ Felsökning och vanliga frågor {#troubleshooting}
++ Felsökning och vanliga frågor och svar {#troubleshooting}
    + [Vanliga frågor om AEM Screens](aem-screens-faqs.md)
    + [Felsökning av Device Control Center](monitoring-screens.md)
    + [Videouppspelningskonfiguration](troubleshoot-videos.md)
