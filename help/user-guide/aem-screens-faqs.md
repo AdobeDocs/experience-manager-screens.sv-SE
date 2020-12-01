@@ -6,9 +6,9 @@ seo-description: Följ den här sidan för att få svar på vanliga frågor om e
 uuid: 62e58f3b-0c0a-4006-b6d5-42d2090f47b5
 contentOwner: jsyal
 translation-type: tm+mt
-source-git-commit: 63e3b9d7ad1519b575726dca492e5b5bd64c222d
+source-git-commit: a2bfbfcbeaffd663378297a6eb155f38b64c8402
 workflow-type: tm+mt
-source-wordcount: '1542'
+source-wordcount: '1705'
 ht-degree: 0%
 
 ---
@@ -17,6 +17,21 @@ ht-degree: 0%
 # Vanliga frågor om AEM Screens {#aem-screens-faqs}
 
 I följande avsnitt ges svar på några av de vanligaste frågorna och svaren om ett AEM Screens-projekt.
+
+## Problem med tom skärm {#blank-screen}
+
+>[!NOTE]
+>De obligatoriska kontroller som ska provas av primär support eller support på kundsidan innan ett problem uppstår:
+
+### 1. Vilka är de första felsökningsstegen för hjälp till kunder som ser en svart skärm eller som inte spelar upp innehåll? {#troubleshooting-blank-screen}
+
+* Kontrollera om kanalförhandsgranskningen fungerar.
+* Kontrollera om förhandsvisningen fungerar
+* Prova att registrera spelaren som ett webbläsartillägg på din bärbara dator på samma skärm och kontrollera om det fungerar.
+* Navigera till `http://localhost:24502` när spelaren körs på datorn. Kontrollera om allt innehåll har laddats ned korrekt.
+* Kontrollera de resurser som de lämpliga återgivningarna skapas för och att rätt återgivning spelas upp.
+* Kontrollera om det finns schemalagt innehåll och om tiderna är korrekta. Kontrollera att tiden som är inställd i spelaren är korrekt.
+* Kontrollera spelarkonsolens loggar och se om det finns några fel? Högerklicka och inspektera för att se konsolloggarna. Om du använder Windows-spelaren trycker du på `CTRL + ALT +I` för att öppna dev-konsolen för att visa loggarna.
 
 ## Kanalhantering {#channel-management}
 
