@@ -11,7 +11,7 @@ ht-degree: 18%
 
 ---
 
-# AEM plattformskonfigurationer  {#platform-configurations}
+# AEM plattformskonfigurationer {#platform-configurations}
 
 >[!NOTE]
 >
@@ -29,15 +29,15 @@ Mer information om hur du konfigurerar författarpublicering finns i [Konfigurer
 
 >[!NOTE]
 >
->Om det bara finns en författare och en publicering behöver du bara följa stegen under **Konfigurera replikeringsagenter på författare** på sidan [Konfigurera redigering och publicering i AEM Screens](https://helpx.adobe.com/se/experience-manager/6-5/screens/using/author-and-publish.html).
+>Om det bara finns en författare och en publicering behöver du bara följa stegen under **Konfigurera replikeringsagenter på författare** på sidan [Konfigurera redigering och publicering i AEM Screens](https://helpx.adobe.com/experience-manager/6-5/screens/using/author-and-publish.html).
 
 ## Dispatcher Configurations {#dispatcher-configurations}
 
 Dispatcher är Adobe Experience Managers verktyg för cachelagring och/eller belastningsutjämning. AEM:s Dispatcher skyddar också AEM-servern mot angrepp. Därför kan du öka säkerheten för din AEM-instans genom att använda Dispatcher tillsammans med en företagswebbserver.
 
-Mer information finns i **[Dispatcher Configurations for AEM Screens](https://helpx.adobe.com/experience-manager/6-5/screens/using/dispatcher-configurations-aem-screens.html)** , som innehåller riktlinjer för hur du konfigurerar dispatcher för ett AEM Screens-projekt.
+Mer information finns i **[Dispatcher Configurations for AEM Screens](https://helpx.adobe.com/experience-manager/6-5/screens/using/dispatcher-configurations-aem-screens.html)** som beskriver riktlinjer för konfigurering av dispatcher för ett AEM Screens-projekt.
 
-## Installera FFMpeg och videoåtergivningar {#installing-ffmpeg}
+## Installerar FFMpeg och videoåtergivningar {#installing-ffmpeg}
 
 Installera FFMpeg genom att följa stegen för lämpligt operativsystem (vanligen RHEL):
 
@@ -45,12 +45,13 @@ Installera FFMpeg genom att följa stegen för lämpligt operativsystem (vanlige
 1. Om AAC-kodeken markeras som experimentell misslyckas ffmpeg-konverteringarna. För att undvika detta lägger du till -strict -2 i videoprofilerna (/etc/dam/video i AEM 6.3 och flyttar till /libs/settings/dam/video i AEM 6.4)
    >[!NOTE]
    >
-   > Observera att -strict -2 måste vara den sista parametern i parameterlistan. I AEM 6.4 måste du dessutom kopiera noderna under */libs/settings/dam/video* till */conf/global/settings/dam/video* enligt [Videoåtergivningar](https://helpx.adobe.com/experience-manager/6-5/screens/using/generating-renditions.html).
+   > Observera att -strict -2 måste vara den sista parametern i parameterlistan. I AEM 6.4 måste du dessutom kopiera noderna under */libs/settings/dam/video* till */conf/global/settings/dam/video* som anges i [Videoåtergivningar](https://helpx.adobe.com/experience-manager/6-5/screens/using/generating-renditions.html).
 1. Kontrollera att videokonverteringar pågår och att återgivningar skapas.
 
 ## Lösenordsbegränsningar {#password-restrictions}
 
-Lösenordsprincipen för AEM måste inaktiveras för AMS-instansen. Detta kan konfigureras växelvis i webbkonsolen med hjälp av skärmenhetstjänsten *com.adobe.cq.screens.device.impl.DeviceService* Se avsnittet **Lösenordsbegränsningar**[i Konfigurera författare och publicering i AEM Screens](https://helpx.adobe.com/se/experience-manager/6-5/screens/using/author-and-publish.html)
+Lösenordsprincipen för AEM måste inaktiveras för AMS-instansen. Detta kan konfigureras växelvis i webbkonsolen med hjälp av skärmenhetstjänsten *com.adobe.cq.screens.device.impl.DeviceService*
+Se **Lösenordsbegränsningar** i[Konfigurera författare och publicera i AEM Screens](https://helpx.adobe.com/experience-manager/6-5/screens/using/author-and-publish.html)
 
 ## Konfigurera miljöer {#setting-up-environments}
 
@@ -60,7 +61,8 @@ Installera och kör de senaste versionerna av följande paket för din version a
 * Funktionspaket för skärmar
 * AEM Kumulativt korrigeringspaket
 
-Förutom ovanstående bör du även identifiera eventuella utvecklingspaket (till exempel WCM Corecomponents) eller tredjepartsverktyg (till exempel SAP Hybris) som behövs.
+Förutom ovanstående kan du även identifiera utvecklingspaket (t.ex. WCM Core
+-komponenter) eller tredjepartsverktyg (till exempel SAP Hybris) som krävs.
 Installera samma programvarupaket i dina lokala utvecklingsmiljöer. Instruera klienten att använda samma konfiguration på alla QA-, Stage- och Production-servrar. Serverkonfigurationer som inte matchar skapar problem vid distribution och testning.
 
 >[!NOTE]
@@ -71,4 +73,4 @@ Installera samma programvarupaket i dina lokala utvecklingsmiljöer. Instruera k
 
 När du konfigurerar åtkomstkontrollistor beskrivs hur du skiljer ut projekt så att varje enskild person eller grupp hanterar sitt eget projekt.
 
-Refer  to [Setting up ACLs](https://helpx.adobe.com/experience-manager/6-5/screens/using/setting-up-acls.html) for more details.
+Mer information finns i [Konfigurera åtkomstkontrollistor](https://helpx.adobe.com/experience-manager/6-5/screens/using/setting-up-acls.html).
