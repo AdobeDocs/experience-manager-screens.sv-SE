@@ -31,7 +31,7 @@ Innan du börjar implementera den här funktionen måste du se till att du har k
 
 1. Skapa ett AEM Screens-projektexempel, **ChannelLevelPlayback**.
 
-1. Skapa en sekvenskanal som **PlaybackChannel** under mappen **Kanaler** .
+1. Skapa en sekvenskanal som **PlaybackChannel** under **Kanaler**.
 
 1. Lägg till innehåll i **PlaybackChannel**.
 
@@ -59,7 +59,7 @@ Följ stegen nedan för att lära dig hur du uppdaterar tilldelning för bildspe
 
    ![screen_shot_2019-06-25at95945am](assets/screen_shot_2019-06-25at95945am.png)
 
-1. **Dialogrutan Sida** öppnas.
+1. **Dialogrutan** Sidor öppnas.
 
    >[!NOTE]
    >Som standard är bilderna i en kanal inställda på 8 sekunders uppspelningstid.
