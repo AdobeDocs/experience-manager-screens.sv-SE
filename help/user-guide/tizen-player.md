@@ -16,11 +16,11 @@ ht-degree: 0%
 
 Följ stegen nedan för att implementera Tizen Player för AEM Screens:
 
-1. Gå till [**AEM 6.5 Player Downloads**](https://download.macromedia.com/screens/) för att ladda ned Tizen Player.
+1. Gå till sidan [**AEM 6.5 Player Downloads**](https://download.macromedia.com/screens/) för att hämta Tizen Player.
 
 1. Installera Tizen-spelarfilen (.zip) från den lokala datorn.
 
-## Konfigurera den lokala servern och extrahera zip-filer {#setting-local-server}
+## Konfigurera den lokala servern och extraherar zip-filer {#setting-local-server}
 
 Följ stegen nedan för att konfigurera den lokala servern och kopiera de extraherade filerna:
 
@@ -32,7 +32,7 @@ Följ stegen nedan för att konfigurera den lokala servern och kopiera de extrah
 
 1. Tizen-spelaren hämtar installationsprogrammet från den lokala servern.
 
-1. Kopiera de två extraherade filerna, till exempel `AEMScreensPlayer.wgt` och `sssp_config.xml` till rotkatalogen på den lokala servern.
+1. Kopiera de två extraherade filerna som `AEMScreensPlayer.wgt` och `sssp_config.xml` till rotkatalogen på den lokala servern.
 
 ### Konfigurera uppdateringar på Samsung-enheten {#config-updates}
 
@@ -40,13 +40,13 @@ Följ stegen nedan på Samsung-enheten för att slutföra installationen av AEM 
 
 1. Gå till din Samsung-enhet.
 
-1. Klicka på knappen **Hem** på enhetens fjärrdator och välj Inställningar **för** URL-start.
+1. Klicka på knappen **Hem** på enhetens fjärrdator och välj **URL Launcher Settings**.
 
 1. Ange IP-adressen till den lokala värdservern.
 
-1. Välj **Fjärr** i **utvecklarläget**.
+1. Välj **Fjärr** i **Utvecklarläge**.
 
-1. Klicka på knappen **Hem** på enhetens fjärr och välj **URL-startprogram**.
+1. Klicka på knappen **Hem** på enhetens fjärr och välj **URL Launcher**.
 
 1. AEM Screens Player bör nu installeras och startas automatiskt på din Samsung-enhet.
 
