@@ -32,9 +32,9 @@ Detta avsnitt behandlar följande ämnen:
 * **Sekvenser i Adobe Analytics med AEM Screens**
 * **Skicka anpassade händelser med Adobe Analytics offline**
 
-## Sekvenser i Adobe Analytics med AEM Screens {#sequencing-in-adobe-analytics-with-aem-screens}
+## Sekvensering i Adobe Analytics med AEM Screens {#sequencing-in-adobe-analytics-with-aem-screens}
 
-Sekvensprocessen ****** börjar med datalagringstjänsten som aktiverar Adobe Analytics-tjänsten. Kanalinnehåll skickar Adobe Analytics-händelser med lön, det vill säga datatestning som utförs i Windows I/O och stannar-händelser aktiveras. Händelserna sparas i indexdatabasen och placeras sedan i objektarkivet. Baserat på schemat klipper administratören in data från objektarkivet och överför dem vidare till segmentlagret. Den försöker skicka maximalt med data när den är ansluten.
+Sekvensprocessen ****** startar med datalagringstjänsten som aktiverar Adobe Analytics-tjänsten. Kanalinnehåll skickar Adobe Analytics-händelser med lön, det vill säga datatestning som utförs i Windows I/O och stannar-händelser aktiveras. Händelserna sparas i indexdatabasen och placeras sedan i objektarkivet. Baserat på schemat klipper administratören in data från objektarkivet och överför dem vidare till segmentlagret. Den försöker skicka maximalt med data när den är ansluten.
 
 ### Sekvensdiagram {#sequencing-diagram}
 
@@ -42,7 +42,7 @@ I följande sekvensdiagram förklaras Adobe Analytics Integration med AEM Screen
 
 ![analytics_chunking](assets/analytics_chunking.png)
 
-## Skicka anpassade händelser med Adobe Analytics offline {#sending-custom-events-using-offline-adobe-analytics}
+## Skicka anpassade händelser med hjälp av offline-Adobe Analytics {#sending-custom-events-using-offline-adobe-analytics}
 
 I följande tabell sammanfattas standarddatamodellen för händelser. Här visas alla fält som skickats till Adobe Analytics:
 
@@ -109,7 +109,7 @@ I följande tabell sammanfattas standarddatamodellen för händelser. Här visas
    <td>required</td> 
    <td>string</td> 
    <td> </td> 
-   <td>Huvudkategori (DATOR, MOBIL, WEB, PROCESS, SDK, SERVICE, ECOSYSTEM) - Gruppering av händelsetyper - <strong>Vi skickar spelare</strong></td> 
+   <td>Huvudkategori (DESKTOP, MOBILE, WEB, PROCESS, SDK, SERVICE, ECOSYSTEM) - Gruppering av händelsetyper - <strong>Vi skickar Player</strong></td> 
   </tr>
   <tr>
    <td> </td> 
@@ -124,7 +124,7 @@ I följande tabell sammanfattas standarddatamodellen för händelser. Här visas
    <td> </td> 
    <td>Typ av händelse/åtgärd</td> 
    <td>event.type</td> 
-   <td>required</td> 
+   <td>obligatoriskt</td> 
    <td>string</td> 
    <td> </td> 
    <td>Händelsetyp (återge, klicka, nypa, zooma) - åtgärd för primär användare</td> 
@@ -170,7 +170,7 @@ I följande tabell sammanfattas standarddatamodellen för händelser. Här visas
    <td>Enhets-GUID</td> 
    <td>event.device_guid</td> 
    <td>valfritt</td> 
-   <td>string<br /> </td> 
+   <td>sträng<br /> </td> 
    <td>UUID</td> 
    <td>Identifierar enhets-GUID (t.ex. dator-ID eller hash för IP-adressen + nätmasken + nätverks-ID + användaragent) - Här skickar vi användarnamnet för spelaren som genereras vid registreringen.</td> 
   </tr>
@@ -241,7 +241,7 @@ I följande tabell sammanfattas standarddatamodellen för händelser. Här visas
    <td><strong><em>Källa/ursprunglig produkt</em></strong></td> 
    <td>Namn</td> 
    <td>source.name</td> 
-   <td>required</td> 
+   <td>obligatoriskt</td> 
    <td>string</td> 
    <td> </td> 
    <td>Programnamn (AEM Screens)</td> 
@@ -250,7 +250,7 @@ I följande tabell sammanfattas standarddatamodellen för händelser. Här visas
    <td> </td> 
    <td>Version</td> 
    <td>source.version</td> 
-   <td>required</td> 
+   <td>obligatoriskt</td> 
    <td>string</td> 
    <td> </td> 
    <td>Firmware-version</td> 
@@ -259,7 +259,7 @@ I följande tabell sammanfattas standarddatamodellen för händelser. Här visas
    <td> </td> 
    <td>Plattform</td> 
    <td>source.platform</td> 
-   <td>required</td> 
+   <td>obligatoriskt</td> 
    <td>string</td> 
    <td> </td> 
    <td>navigator.platform</td> 
@@ -286,7 +286,7 @@ I följande tabell sammanfattas standarddatamodellen för händelser. Här visas
    <td><strong><em>Innehåll</em></strong></td> 
    <td>Åtgärd</td> 
    <td>content.action</td> 
-   <td>required</td> 
+   <td>obligatoriskt</td> 
    <td>string</td> 
    <td> </td> 
    <td>URL:en till resursen inklusive återgivningen som spelades upp</td> 
@@ -304,7 +304,7 @@ I följande tabell sammanfattas standarddatamodellen för händelser. Här visas
    <td><strong><em>Transaktion</em></strong></td> 
    <td>Transaktionsnummer</td> 
    <td>trn.number</td> 
-   <td>required</td> 
+   <td>obligatoriskt</td> 
    <td>string</td> 
    <td>UUID</td> 
    <td>Unikt ID som helst följer UUID v4</td> 
@@ -313,7 +313,7 @@ I följande tabell sammanfattas standarddatamodellen för händelser. Här visas
    <td> </td> 
    <td>Produktbeskrivning</td> 
    <td>trn.product</td> 
-   <td>required</td> 
+   <td>obligatoriskt</td> 
    <td>string</td> 
    <td> </td> 
    <td>URL:en till resursen (exklusive återgivning)</td> 
@@ -322,7 +322,7 @@ I följande tabell sammanfattas standarddatamodellen för händelser. Här visas
    <td> </td> 
    <td>Kvantitet</td> 
    <td>trn.quantity</td> 
-   <td>required</td> 
+   <td>obligatoriskt</td> 
    <td>string</td> 
    <td> </td> 
    <td>Uppspelningens längd</td> 
