@@ -11,6 +11,9 @@ topic-tags: authoring
 discoiquuid: 8879e510-4f0e-46da-87d2-77c5aaacb26e
 translation-type: tm+mt
 source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
+workflow-type: tm+mt
+source-wordcount: '556'
+ht-degree: 0%
 
 ---
 
@@ -30,13 +33,13 @@ Detta avsnitt behandlar följande ämnen:
 
 >[!CAUTION]
 >
->Den här AEM-skärmfunktionen är bara tillgänglig om du har installerat AEM 6.3.2 Feature Pack 3 eller AEM 6.4.1 Screens Feature Pack 1.
+>Denna AEM Screens-funktionalitet är endast tillgänglig om du har installerat AEM 6.3.2 Feature Pack 3 eller AEM 6.4.1 Screens Feature Pack 1.
 >
->Om du vill få tillgång till det här funktionspaketet måste du kontakta Adobes support och begära åtkomst. När du har behörighet kan du hämta den från paketresursen.
+>Om du vill få tillgång till det här funktionspaketet måste du kontakta Adobe Support och begära åtkomst. När du har behörighet kan du hämta den från paketresursen.
 
 ## Översikt {#overview}
 
-***Med AEM Screens Notifications Service*** kan administratörer få ett e-postmeddelande om en AEM-skärmspelare inte pingar under en konfigurerbar tidsperiod.
+***Med AEM Screens Notifications Service*** kan administratörer få ett e-postmeddelande om en AEM inte pingar under en konfigurerbar tidsperiod.
 
 Den här tjänsten kan konfigureras i OSGi-webbkonsolen.
 
@@ -44,36 +47,36 @@ Den här tjänsten kan konfigureras i OSGi-webbkonsolen.
 
 Följ stegen nedan för att konfigurera inställningarna för e-postmeddelanden:
 
-1. Öppna **webbkonsolkonfigurationen** för Adobe Experience Manager.
-1. Öppna E-postövervakningstjänsten för **skärmar**.
+1. Öppna **Adobe Experience Manager Web Console Configuration**.
+1. Öppna **E-postövervakningstjänsten för skärmar**.
 
    ![screen_shot_2018-04-26at44602pm](assets/screen_shot_2018-04-26at44602pm.png)
 
 1. Definiera följande fält för att konfigurera inställningarna för e-postmeddelandet:
 
-   **Enhetssökväg** Ange sökvägen till de skärmsprojekt som du vill övervaka. Banan är vanligtvis `/home/users/screens/<Name of your project>`aktiv.
+   **Enheter** PathAnge sökvägen till skärmsprojekt som du vill övervaka. Sökvägen är vanligtvis `/home/users/screens/<Name of your project>`.
 
-   Om ditt projekt till exempel är **We.Retail**, använder du projektsökvägen som ***/home/users/screens/we-retail***.
+   Om ditt projekt till exempel är **We.Retail** använder du projektsökvägen som ***/home/users/screens/we-retail***.
 
    >[!NOTE]
    >
    >Ange projektsökvägen där enhetsanvändarna finns.
 
-   **Schemafrekvens** Ange en tid (t.ex. klockan 17:00 eller 17:00) eller frekvens i timmar (t.ex. 1) som den här övervakaren ska skicka e-post med.
+   **Schemalägg** frekvensAnge en tid (t.ex. klockan 17:00 eller 17:00) eller frekvens i timmar (t.ex. 1) som den här övervakaren ska skicka e-post med.
 
-   **Ping-timeout** Detta anger intervallet i minuter efter vilket en enhet inte kan nås.
+   **Ping-** timeoutDetta anger intervallet i minuter efter vilket en enhet inte kan nås.
 
-   **SMTP-server** Anger SMTP-servern som används för att skicka e-post.
+   **SMTP-** server Anger SMTP-servern som används för att skicka e-post.
 
-   **SMTP-port** Ange SMTP-port.
+   **SMTP-** portAnge SMTP-porten.
 
-   **Med TLS** (Transport Layer Security) kan du använda säker kommunikation med SMTP-servern.
+   **Med TLS (** TLSTransport Layer Security) kan du använda säker kommunikation med SMTP-servern.
 
    TLS rekommenderas för säker anslutning till företagets e-postservrar. Kontrollera med e-postadministratören om du har rätt värden.
 
-   **användarnamn** Ange användarnamn för att skicka e-post.
+   **** användarnamnAnge användarnamn för att skicka e-post.
 
-   **lösenord** Ange lösenordet för att skicka e-post.
+   **** lösenordAnge lösenordet för att skicka e-post.
 
    **Mottagare** Ange mottagarens e-postadress.
 
@@ -81,7 +84,7 @@ Följ stegen nedan för att konfigurera inställningarna för e-postmeddelanden:
    >
    >Du kan bara ange en e-postadress. Skapa en grupp eller distributionslista med de relevanta användarna för att kunna skicka ett större e-postmeddelande.
 
-1. Klicka på **Spara** för att konfigurera bildskärmsaktiviteten via ett e-postmeddelande för enheten med AEM-skärmar.
+1. Klicka på **Spara** för att konfigurera övervakningsaktiviteten via ett e-postmeddelande för din AEM Screens-enhet.
 
 ## E-postmeddelande {#email-notification}
 
