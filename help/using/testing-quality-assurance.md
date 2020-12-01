@@ -39,7 +39,7 @@ Följande mekaniska överväganden rekommenderas:
 * kabelhantering
 * enhetsnätverk
 
-## 2. Överväganden gällande programvara {#software-considerations}
+## 2. Viktigt om programvara {#software-considerations}
 
 Följande programvaruöverväganden rekommenderas:
 
@@ -49,11 +49,11 @@ Följande programvaruöverväganden rekommenderas:
 * databasberoenden (tidigare definierade)
 
 
-## 3. Överväganden gällande enhetshantering {#device-management-considerations}
+## 3. Överväganden om enhetshantering {#device-management-considerations}
 
 AEM Screens har en Device Control Center-modul som gör att du kan hantera slutpunkter för skärmsspelarprogram.
 
-Detta avser alla *spelarmaskinvaruenheter* som har programmet Skärmspelaren installerad och som är registrerade för en instans av AEM.
+Detta avser alla *spelare*-maskinvaruenheter som har programmet Skärmspelaren installerat och som är registrerade för en instans av AEM.
 Med den här modulen kan du:
 
 1. Felloggar för bildspelsprogram
@@ -77,12 +77,12 @@ Mer information om ***Device Control Center*** finns i [Troubleshooting Device C
 >
 > Adobe rekommenderar att dedikerade enhetshanteringsplattformar från tredje part används för alla distributioner.
 
-Vilken plattform du väljer beror på ett antal faktorer, bland annat ***måloperativsystemet***, ***projektkraven*** och ***antalet slutpunkter***.
+Vilken plattform som väljs beror på ett antal faktorer, bland annat ***måloperativsystemet***, ***projektkraven*** och ***antalet slutpunkter***.
 
 Det finns få exempel:
 
 * Google Chrome-enhetshantering
 * TeamViewer
 * AirWatch
-* 42Gears
+* 42 växlar
 * Äkta AV-integratör för mellanvara
