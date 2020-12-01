@@ -33,7 +33,7 @@ Detta avsnitt behandlar följande ämnen:
 
 ## Översikt {#overview}
 
-I följande exempel används montering av en video (exempel: 1 280 x 720) i en kanal där skärmen är 1 920 x 1 080 och där videon ska placeras på 0x0 (övre vänstra). Videon ska inte sträckas ut eller ändras på något sätt och inte användas för **omslag** i videokomponenten.
+I följande exempel används montering av en video (exempel: 1 280 x 720) i en kanal där skärmen är 1 920 x 1 080 och där videon ska placeras på 0x0 (övre vänstra). Videon får inte sträckas ut eller ändras på något sätt och ska inte användas **omslag** i videokomponenten.
 
 Videon visas som ett objekt från pixel 1 till pixel 1280 över och från pixel 1 till pixel 720 ned och resten av kanalen blir standardfärg.
 
@@ -41,8 +41,8 @@ Videon visas som ett objekt från pixel 1 till pixel 1280 över och från pixel 
 
 Innan du skapar ett arbetsflöde för video måste du uppfylla följande krav:
 
-1. Överföra en video i **resursmappen** i AEM
-1. Skapa ett AEM Screens-projekt (till exempel **TestVideoRendition**) och en kanal med namnet (**VideoRendering**) enligt bilden nedan:
+1. Överför en video i mappen **Assets** i din AEM
+1. Skapa ett AEM Screens-projekt (t.ex. **TestVideoRendition**) och en kanal med namnet (**VideoRendering**) enligt bilden nedan:
 
 ![screen_shot_2018-10-17at85307pm](assets/screen_shot_2018-10-17at85307pm.png)
 
@@ -63,35 +63,35 @@ Följ stegen nedan för att skapa ett arbetsflöde för videon:
 
    ![screen_shot_2018-10-17at90025pm](assets/screen_shot_2018-10-17at90025pm.png)
 
-1. Klicka på **Models** —> **Create** —> **Create Model**. Ange **Titel** (som **VideoRendition**) och **Namn** i **Lägg till arbetsflödesmodell**. Klicka på **Klar** för att lägga till arbetsflödesmodellen.
+1. Klicka på **Modeller** —> **Skapa** —> **Skapa modell**. Ange **titeln** (som **VideoRendition**) och **Namn** i **Lägg till arbetsflödesmodell**. Klicka på **Klar** för att lägga till arbetsflödesmodellen.
 
    ![screen_shot_2018-10-17at90747pm](assets/screen_shot_2018-10-17at90747pm.png)
 
-1. När du har skapat arbetsflödesmodellen markerar du modellen (**VideoRendition**) och klickar på **Redigera** i åtgärdsfältet.
+1. När du har skapat arbetsflödesmodellen väljer du modellen (**VideoRendition**) och klickar på **Redigera** i åtgärdsfältet.
 
    ![screen_shot_2018-10-17at91256pm](assets/screen_shot_2018-10-17at91256pm.png)
 
-1. Dra och släpp **kommandoradskomponenten** i arbetsflödet.
+1. Dra och släpp komponenten **Kommandorad** i ditt arbetsflöde.
 
    ![screen_shot_2018-10-22at14846pm](assets/screen_shot_2018-10-22at14846pm.png)
 
-1. Markera **kommandoradskomponenten** och öppna dialogrutan Egenskaper.
+1. Markera komponenten **Kommandorad** och öppna dialogrutan Egenskaper.
 
    ![screen_shot_2018-10-17at95752pm](assets/screen_shot_2018-10-17at95752pm.png)
 
-1. Klicka på fliken **Argument** för att ange fälten i dialogrutan **Kommandorad - Stegegenskaper** .
+1. Välj fliken **Argument** för att ange fälten i dialogrutan **Kommandorad - Stegegenskaper**.
 
-   Ange formatet i **Mime Types** (som ***video/mp4***) och kommandot som (**/usr/local/Cellar/ffmpeg -i ${filename} -vf &quot;pad=1920:height=1080:x=0:y=0:color=black&quot; cq5dam.video.video fullhd-hp.mp4***) för att starta arbetsflödet i fältet **Kommandon** .
+   Ange formatet i **Mime Types** (som ***video/mp4***) och kommandot som (**/usr/local/Cellar/ffmpeg -i ${filename} -vf &quot;pad=1920:height=1080:x=0:y=0:color=black&quot; cq5dam.video.fullhd-hp.mp4***) för att starta arbetsflödet i fältet **Commands**.
 
-   Läs mer om **Mime Types** och **Commands** i nedanstående kommentar.
+   Se informationen om **Mime Types** och **Kommandon** i anteckningen nedan.
 
    ![screen_shot_2018-10-18at105300am](assets/screen_shot_2018-10-18at105300am.png)
 
-1. Markera arbetsflödet (**VideoRenditions**) och klicka på **Starta arbetsflöde** i åtgärdsfältet för att öppna dialogrutan **Kör arbetsflöde** .
+1. Välj arbetsflödet (**VideoRenditions**) och klicka på **Starta arbetsflöde** i åtgärdsfältet för att öppna dialogrutan **Kör arbetsflöde**.
 
    ![screen_shot_2018-10-18at105335am](assets/screen_shot_2018-10-18at105335am.png)
 
-1. Välj sökvägen till resursen i **nyttolasten** (som ***/content/dam/holyda-crossroad01_512kb 2.mp4***) och ange **titeln** som ***RunVideo*** och klicka på **Kör**.
+1. Välj sökvägen till resursen i **nyttolasten** (som ***/content/dam/holpeyda-crossroad01_512kb 2.mp4***) och ange **titeln** som ***RunVideo*** och klicka på **Kör a9/>.**
 
    ![screen_shot_2018-10-18at112043am](assets/screen_shot_2018-10-18at112043am.png)
 
@@ -103,7 +103,7 @@ Följ stegen nedan för att använda arbetsflödet i ditt AEM Screens-projekt:
 
    ![screen_shot_2018-10-17at100715pm](assets/screen_shot_2018-10-17at100715pm.png)
 
-1. Klicka på **Redigera** i åtgärdsfältet. Dra och släpp videon som du ursprungligen överförde till **Assets**.
+1. Klicka på **Redigera** i åtgärdsfältet. Dra och släpp videon som du ursprungligen överförde till **Resurser**.
 
    ![screen_shot_2018-10-17at102806pm](assets/screen_shot_2018-10-17at102806pm.png)
 
@@ -111,12 +111,12 @@ Följ stegen nedan för att använda arbetsflödet i ditt AEM Screens-projekt:
 
    ![screen_shot_2018-10-22at15151pm](assets/screen_shot_2018-10-22at15151pm.png)
 
-## Validera arbetsflödets utdata {#validating-the-output-for-the-workflow}
+## Validerar utdata för arbetsflödet {#validating-the-output-for-the-workflow}
 
 Du kan validera dina utdata genom att:
 
 * Kontrollera förhandsgranskning av videon i kanalen
-* Gå till ***/content/dam/testvideo.mp4/jcr:content/renditions/cq5dam.video.fullhd-hp.mp4*** i CRXDE Lite, som bilden nedan visar:
+* Navigera till ***/content/dam/testvideo.mp4/jcr:content/renditions/cq5dam.video.fullhd-hp.mp4*** i CRXDE Lite, vilket visas i figuren nedan:
 
 ![screen_shot_2018-10-22at14326pm](assets/screen_shot_2018-10-22at14326pm.png)
 
