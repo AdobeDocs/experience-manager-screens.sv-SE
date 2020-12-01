@@ -6,6 +6,9 @@ seo-description: Följ den här sidan om du vill veta mer om hur lång uppspelni
 contentOwner: jsyal
 translation-type: tm+mt
 source-git-commit: 69a40e437fa9b19e283bcf1a1322d18e17990a49
+workflow-type: tm+mt
+source-wordcount: '341'
+ht-degree: 1%
 
 ---
 
@@ -18,17 +21,17 @@ När du har skapat en sekvenskanal och lagt till bilder i den får alla bilder s
 
 ### Förutsättningar {#prerequisites}
 
-Innan du börjar implementera den här funktionen måste du se till att du har konfigurerat ett projekt som en förutsättning för att du ska kunna börja implementera den här funktionen. Exempel:
+Innan du börjar implementera den här funktionen måste du se till att du har konfigurerat ett projekt som en förutsättning för att du ska kunna börja implementera den här funktionen. Till exempel,
 
 1. Skapa ett AEM Screens-projekt (i det här exemplet **ChannelLevelPlayback**)
 
-1. Skapa en sekvenskanal som **PlaybackChannel** under mappen **Kanaler**
+1. Skapa en sekvenskanal som **PlaybackChannel** under **Kanaler**-mapp
 
 1. Lägg till innehåll i **PlaybackChannel**
 
 ## Redigera bilduppspelningens varaktighet på kanalnivå {#editing-channel-level-image-playback-duration-assignment}
 
-I avsnittet nedan beskrivs hur du redigerar uppspelningstiden för innehåll i en AEM-skärmkanal.
+I avsnittet nedan beskrivs hur du redigerar uppspelningstiden för innehåll i en AEM Screens-kanal.
 
 ### Uppdatera uppspelningstiden för bilder i en kanal {#updating-the-playback-duration-for-images-in-a-channel}
 
@@ -50,7 +53,7 @@ Följ stegen nedan för att lära dig hur du uppdaterar tilldelning för bildspe
 
    ![screen_shot_2019-06-25at95945am](assets/screen_shot_2019-06-25at95945am.png)
 
-1. **Dialogrutan Sida** öppnas.
+1. **Dialogrutan** Sidor öppnas.
 
    >[!NOTE]
    >
