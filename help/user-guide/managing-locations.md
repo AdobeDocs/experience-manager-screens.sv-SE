@@ -11,6 +11,9 @@ topic-tags: authoring
 discoiquuid: 70bdf384-6c27-403b-a6ab-fdec68016428
 translation-type: tm+mt
 source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
+workflow-type: tm+mt
+source-wordcount: '260'
+ht-degree: 0%
 
 ---
 
@@ -27,20 +30,20 @@ På den här sidan visas hur du skapar och hanterar platser för skärmar.
 * [Skapa och hantera skärmsprojekt](creating-a-screens-project.md)
 * [Skapa och hantera kanaler](managing-channels.md)
 
-## Skapa en ny plats {#creating-a-new-location}
+## Skapar en ny plats {#creating-a-new-location}
 
 När du har skapat ett projekt för skärmar följer du stegen nedan för att skapa en ny plats för ett skärmsprojekt:
 
-1. Välj länken Adobe Experience Manager (överst till vänster) och sedan Skärmar. Du kan även navigera direkt till: `http://localhost:4502/screens.html/content/screens`.
+1. Klicka på länken Adobe Experience Manager (längst upp till vänster) och sedan på Skärmar. Du kan även navigera direkt till: `http://localhost:4502/screens.html/content/screens`.
 1. Navigera till Skärmprojekt och klicka på **Platser**.
 1. Klicka på **Skapa** bredvid plusikonen i åtgärdsfältet. En guide öppnas.
-1. Välj **mallplats** i guiden och klicka på **Nästa**.
+1. Välj mallen **Plats** i guiden och klicka på **Nästa**.
 
-1. Ange egenskaperna för **Titel och Taggar**, **Fler titlar och beskrivningar**, **På/Av-tid** och **Vanity-URL**.
+1. Ange egenskaperna för **Rubrik och taggar**, **Fler titlar och beskrivning**, **På/Av-tid** och **Vanity URL**.
 
-1. Klicka på **Skapa** så skapas platsen och läggs till i din platsmapp.
+1. Klicka på **Skapa** och platsen skapas och läggs till i din platsmapp.
 
-Se stegen nedan för att lära dig hur du skapar en ny plats för ett AEM Screens-projekt. I demonstrationssyfte skapas den nya platsen (SanJose) under *DemoProject*.
+Följ stegen nedan för att lära dig hur du skapar en ny plats för ett AEM Screens-projekt. I demonstrationssyfte skapas den nya platsen (SanJose) under *DemoProject*.
 
 ![player2](assets/player2.gif)
 
@@ -59,4 +62,4 @@ Så här redigerar du/öppnar egenskaperna för en plats:
 
 När du har skapat en plats måste du skapa en ny visning för platsen.
 
-Mer information finns i [Skapa och hantera skärmar](managing-displays.md) .
+Mer information finns i [Skapa och hantera skärmar](managing-displays.md).
