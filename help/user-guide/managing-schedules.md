@@ -22,13 +22,13 @@ ht-degree: 0%
 
 **Med scheman** i AEM Screens kan du ordna kanaler i återanvändbara grupper så att du inte behöver upprepa deras uppdrag separat för varje skärm som du vill visa ditt innehåll på.
 
-När scheman kombineras med ***DayParting*** kan du ställa in ett globalt schema med flera kanaler som körs vid specifika tidpunkter på dagen och återanvända inställningen för alla skärmar samtidigt.
+När du kombinerar scheman med ***DayParting*** kan du ange ett globalt schema med flera kanaler som körs vid specifika tidpunkter på dagen och återanvända inställningarna för alla skärmar samtidigt.
 
 >[!NOTE]
 >
 >Den här AEM Screens-funktionen är bara tillgänglig om du har installerat AEM 6.3 Sites Feature Pack 1. Om du vill få tillgång till det här funktionspaketet måste du kontakta Adobe Support och begära åtkomst. När du har behörighet kan du hämta den från paketresursen.
 
-## Skapa ett schema {#creating-a-schedule}
+## Skapar ett schema {#creating-a-schedule}
 
 Du kan skapa ett schema för ditt skärmsprojekt som hanterar alla aktiviteter för ditt användningsfall.
 
@@ -39,12 +39,12 @@ Följ stegen nedan för att skapa ett schema för din kanal:
 1. Klicka på **Skapa** i åtgärdsfältet.
 1. Välj **Schemalägg** i guiden **Skapa** och klicka på **Nästa**.
 
-1. Ange **namn** och **titel** och klicka på **Skapa**.
+1. Ange **Namn** och **Titel** och klicka på **Skapa**.
 
 Du ser en mapp med scheman med namn och titel i ditt projekt.
 
 
-## Visa instrumentpanel {#viewing-dashboard}
+## Visar instrumentpanelen {#viewing-dashboard}
 
 När du har skapat en mapp för scheman i ditt projekt kan du visa informationen från kontrollpanelen för scheman.
 
@@ -60,9 +60,9 @@ Följ stegen nedan för att visa kontrollpanelen för scheman. I följande exemp
 
    ![chlimage_1-1](assets/chlimage_1-1.png)
 
-   **Schemalägg informationspanelen** Klicka på Egenskaper i det övre högra hörnet på SCHEMALÄGGNINGSINFORMATIONspanelen för att visa/ändra schemats egenskaper.
+   **Panelen Schemalägg informationKlicka** på Egenskaper i det övre högra hörnet på SCHEMALÄGGNINGSINFORMATIONSPANELEN för att visa/ändra schemats egenskaper.
 
-   **Panelen** Tilldelade kanaler: Klicka på +Tilldela kanal i det övre högra hörnet på panelen Tilldelade kanaler för att öppna dialogrutan Kanaltilldelning.
+   **Tilldelad** kanalpanelKlicka på +Tilldela kanal i det övre högra hörnet på panelen Tilldelade kanaler för att öppna dialogrutan Kanaltilldelning.
 
-   **Tilldelad visningspanel** Välj någon av dessa skärmar på den tilldelade visningspanelen för att öppna kontrollpanelen.
+   **Tilldelad** visningspanelVälj någon av skärmarna på den tilldelade visningspanelen för att öppna kontrollpanelen.
 
