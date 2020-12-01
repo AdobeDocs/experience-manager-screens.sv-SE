@@ -18,9 +18,9 @@ Innan man börjar använda sig av AEM Screens bästa praxis för implementering 
 
 I det här avsnittet ges rekommendationer om viktiga nyckelelement som är viktiga innan AEM Screens implementeras.
 
-## Viktiga element i digital signering {#key-elements}
+## Nyckelelement i digital signatur {#key-elements}
 
-Nyckelelementen ** i ett projekt för digitala signaturer är:
+*Nyckelelementen* i ett projekt för digitala signaturer är:
 
 ![](/help/assets/Elements-Revised.png)
 
