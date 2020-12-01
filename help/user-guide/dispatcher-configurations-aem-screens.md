@@ -28,15 +28,15 @@ Följande sida innehåller riktlinjer för hur du konfigurerar dispatcher för e
 
 Innan du konfigurerar dispatcher för ett AEM Screens-projekt måste du ha tidigare kunskaper om Dispatcher.
 
-Mer information finns i [Konfigurera Dispatcher](https://docs.adobe.com/content/help/en/experience-manager-dispatcher/using/configuring/dispatcher-configuration.html) .
+Mer information finns i [Konfigurera Dispatcher](https://docs.adobe.com/content/help/en/experience-manager-dispatcher/using/configuring/dispatcher-configuration.html).
 
-## Konfigurera Dispatcher {#configuring-dispatcher}
+## Konfigurerar Dispatcher {#configuring-dispatcher}
 
 Följ stegen nedan för att konfigurera dispatcher för ett AEM Screens-projekt.
 
 ### Aktivera anteckningssessioner {#enable-sticky-session}
 
-Om du vill använda mer än en publiceringsinstans med dispatcher måste du uppdatera `dispatcher.any` filen.
+Om du vill använda mer än en publiceringsinstans med dispatcher måste du uppdatera `dispatcher.any`-filen.
 
 ```xml
 /stickyConnections {
@@ -49,7 +49,7 @@ Om du vill använda mer än en publiceringsinstans med dispatcher måste du uppd
 }
 ```
 
-### Steg 1: Konfigurera klienthuvuden {#step-configuring-client-headers}
+### Steg 1: Konfigurerar klientrubriker {#step-configuring-client-headers}
 
 Lägg till följande i `/clientheaders`avsnittet:
 
@@ -59,7 +59,7 @@ Lägg till följande i `/clientheaders`avsnittet:
 
 **X-REQUEST-COMMAND**
 
-### Steg 2: Konfigurera skärmfilter {#step-configuring-screens-filters}
+### Steg 2: Konfigurerar skärmfilter {#step-configuring-screens-filters}
 
 Om du vill konfigurera skärmfilter lägger du till följande i ***/filter***.
 
@@ -82,16 +82,16 @@ Om du vill konfigurera skärmfilter lägger du till följande i ***/filter***.
 /0222 { /type "allow" /method '(GET|HEAD)' /url '/var/contentsync/content/screens/.+/jcr:content/.+/offline-config_.*\.[0-9]+\.zip' }
 ```
 
-### Steg 3: Inaktiverar Dispatcher Cache {#step-disabling-dispatcher-cache}
+### Steg 3: Inaktiverar Dispatcher-cache {#step-disabling-dispatcher-cache}
 
-Inaktivera Dispatcher-cachning för ***/content/screens-sökväg***.
+Inaktivera dispatcher-cachning för ***/content/screens path***.
 
 Skärmspelare använder autentiserad session, så dispatchern cachelagrar inte någon av skärmspelarförfrågningarna för `channels/assets`.
 
 Om du vill aktivera cacheminnet för resurserna så att resurserna hanteras från dispatcherns cacheminne måste du:
 
-* Lägg till `/allowAuthorization 1` i `/cache` avsnitt
-* Lägg till nedanstående regler i `/rules` avsnittet av `/cache`
+* Lägg till `/allowAuthorization 1` i `/cache`-avsnittet
+* Lägg till nedanstående regler i `/rules`-avsnittet i `/cache`
 
 ```xml
 /0000
