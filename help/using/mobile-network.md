@@ -45,7 +45,7 @@ Nätverksinstallationen kan logiskt separeras i två block:
 
 * Lokalt nätverk
 
-### Mobil Internetanslutning {#mobile-internet-connection}
+### Mobil internetanslutning {#mobile-internet-connection}
 
 Prestandan för internetanslutningen ger inte bara tillräcklig bandbredd för att AEM Screens ska fungera smidigt.
 
@@ -57,7 +57,7 @@ I följande tabell visas datanätverken med sin standardbandbredd:
 |--- |--- |
 | 3G | 42 Mbit/s |
 | 4G | 150 Mbit/s |
-| 5G | 1 000 - 1 000 Mbit/s |
+| 5 G | 1 000 - 1 000 Mbit/s |
 
 När du överväger vilket datanätverk som ska användas bör du svara på följande frågor:
 
@@ -69,10 +69,10 @@ Som en uppföljning måste det nödvändiga datapaketet vara minst:
 
 
 >[!IMPORTANT]
->För inledande överföring av mediefiler, t.ex. genom integrering av nya spelare, måste en större mängd data och en ökad hämtningstid förväntas och återspeglas i ovanstående antaganden. Ett 4G-nätverk med *bra* täckning och *obegränsade* data bör matcha de vanligaste installationerna i den här nätverksinstallationen.
+>För inledande överföring av mediefiler, t.ex. genom integrering av nya spelare, måste en större mängd data och en ökad hämtningstid förväntas och återspeglas i ovanstående antaganden. Ett 4G-nätverk med *bra* täckning och *obegränsade* data bör matcha de vanligaste installationerna i den här nätverksinställningarna.
 
 >[!NOTE]
->En lägsta 3G-plan med bra nätverkstäckning bör leda till acceptabel nedladdningsprestanda för en AEM Screens-spelare. Om det bara finns en rimlig täckning tillgänglig på en viss plats bör man överväga att byta den övergripande nätverksinställningen till [mobilt nätverk med mobil datarouter och aktiva nätverkskomponenter](/help/using/mobile-network-router.md).
+>En lägsta 3G-plan med bra nätverkstäckning bör leda till acceptabel nedladdningsprestanda för en AEM Screens-spelare. Om det bara finns en rimlig täckning tillgänglig på en viss plats bör man överväga att ändra den övergripande nätverksinställningen till [Mobilnätverk med mobil datarouter och aktiva nätverkskomponenter](/help/using/mobile-network-router.md).
 
 
 ### Lokalt nätverk {#lan-connection}
@@ -81,7 +81,7 @@ Prestandaproblemen i det lokala nätverket (LAN), förutom nätverksnåbarheten,
 
 När du använder andra aktiva nätverkskomponenter är det obligatoriskt att alla dessa stämmer överens med kraven för nätverksbandbredd. Nätverkskomponenterna bör till exempel minst matcha 100 Mbit/s-standarden och matcha den bandbredd som anges i Internet-åtkomsten eller routerspecifikationen. Annars begränsas den totala bandbredden av den svagaste länken i nätverkskedjan.
 
-## Hämta media och resurser {#download}
+## Hämtar media och resurser {#download}
 
 AEM Screens ger användare av digitala signaturer en stor fördel. Den hämtar och sparar alla nödvändiga mediefiler lokalt, till exempel bilder och videor. Den största nätverkstrafiken inträffar när det finns nytt innehåll som ska visas på en viss skärm.
 
