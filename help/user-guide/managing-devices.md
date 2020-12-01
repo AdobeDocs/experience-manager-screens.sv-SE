@@ -53,19 +53,19 @@ Följ stegen nedan för att tilldela en enhet till en skärm:
 1. Tryck/klicka på **Slutför** för att slutföra tilldelningsprocessen.
 
 
-   På kontrollpanelen visas den tilldelade enheten på panelen **Enheter** .
+   På kontrollpanelen visas den tilldelade enheten på panelen **ENHETER**.
 
    ![chlimage_1-37](assets/chlimage_1-37.png)
 
-   Klicka på (**...**) i det övre högra hörnet av **enhetspanelen** för att antingen lägga till enhetskonfiguration eller uppdatera enheterna.
+   Klicka på (**)..**) i det övre högra hörnet av panelen **ENHETER** om du vill lägga till enhetskonfiguration eller uppdatera enheterna.
 
    ![chlimage_1-38](assets/chlimage_1-38.png)
 
 >[!NOTE]
 >
 >Varje gång den första enheten läggs till i ett nytt skärmsprojekt skapas en användargrupp.
->Om projektnodnamnet till exempel är *vi-butik*&#x200B;är användargruppnamnet *screens-we-retail-devices*.
->Den här gruppen läggs till som medlem i gruppen **Medarbetare** , vilket visas i bilden nedan:
+>Om till exempel projektnodens namn är *we-retail* är användargruppens namn *screens-we-retail-devices*.
+>Den här gruppen läggs till som medlem i gruppen **Deltagare**, vilket visas i bilden nedan:
 
 ![chlimage_1-39](assets/chlimage_1-39.png)
 
