@@ -27,7 +27,7 @@ I följande exempel kan du implementera ett demoprojekt där Experience Fragment
 
 >[!NOTE]
 >**Förutsättningar
->Du måste ha en tidigare kunskap om grunderna i en Experience Fragments och hur du använder en Experience Fragments i ett AEM Screens-projekt. See [Using Experience Fragments](/help/user-guide/experience-fragments-in-screens.md)
+>Du måste ha en tidigare kunskap om grunderna i en Experience Fragments och hur du använder en Experience Fragments i ett AEM Screens-projekt. Se [Använda Experience Fragments](/help/user-guide/experience-fragments-in-screens.md)
 
 ### Konfigurera demonstrationsprojektet {#demo-project-setup}
 
@@ -35,7 +35,7 @@ Skapa ett projekt med namnet **DemoProject** och en sekvenskanal med namnet **Te
 
 ### Implementera Experience Fragment i ett AEM Screens-projekt {#experience-fragments-implementation}
 
-När du har skapat en Experience Fragment och använt den i ditt AEM Screens-projekt kan **DemoProject** nu förbättra upplevelsefragmentet enligt dina behov.
+När du har skapat en Experience Fragment och använt den i ditt AEM Screens-projekt, **DemoProject**, kan du nu förbättra upplevelsefragmentet efter dina behov.
 
 ### Öka textstorlek {#increasing-text-size}
 
