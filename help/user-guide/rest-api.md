@@ -1,8 +1,8 @@
 ---
 title: REST API:er
 seo-title: REST API
-description: AEM Screens har ett enkelt RESTful-API som följer Siren-specifikationen. Följ den här sidan om du vill lära dig hur du navigerar i innehållsstrukturen och skickar kommandon till enheter i miljön.
-seo-description: AEM Screens har ett enkelt RESTful-API som följer Siren-specifikationen. Följ den här sidan om du vill lära dig hur du navigerar i innehållsstrukturen och skickar kommandon till enheter i miljön.
+description: AEM Screens tillhandahåller ett enkelt RESTful-API som följer Siren-specifikationen. Följ den här sidan om du vill lära dig hur du navigerar i innehållsstrukturen och skickar kommandon till enheter i miljön.
+seo-description: AEM Screens tillhandahåller ett enkelt RESTful-API som följer Siren-specifikationen. Följ den här sidan om du vill lära dig hur du navigerar i innehållsstrukturen och skickar kommandon till enheter i miljön.
 uuid: 5988fdcb-cda5-4d3e-a2ab-f9ee4179e568
 contentOwner: Jyotika Syal
 content-type: reference
@@ -11,15 +11,18 @@ topic-tags: developing
 discoiquuid: c07b6e4f-c0a4-4151-a543-76dabd6d5146
 translation-type: tm+mt
 source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
+workflow-type: tm+mt
+source-wordcount: '239'
+ht-degree: 0%
 
 ---
 
 
 # REST API:er{#rest-apis}
 
-AEM Screens har ett enkelt RESTful-API som följer [Siren](https://github.com/kevinswiber/siren) -specifikationen. Det gör att du kan navigera i innehållsstrukturen och skicka kommandon till enheter i miljön.
+AEM Screens tillhandahåller ett enkelt RESTful-API som följer specifikationen [Siren](https://github.com/kevinswiber/siren). Det gör att du kan navigera i innehållsstrukturen och skicka kommandon till enheter i miljön.
 
-API:t finns på [*http://localhost:4502/api/screens.json *](http://localhost:4502/api/screens.json).
+API:t finns på [*http://localhost:4502/api/screens.json*](http://localhost:4502/api/screens.json).
 
 ## Navigera i innehållsstrukturen {#navigating-content-structure}
 
@@ -99,11 +102,11 @@ GET /api/screens/content/screens/we-retail/locations/demo/flagship/single.json H
 Host: http://localhost:4502
 ```
 
-## Köra åtgärder på resursen {#executing-actions-on-the-resource}
+## Kör åtgärder på resursen {#executing-actions-on-the-resource}
 
 Den JSON som returneras av API-anropen kan innehålla en lista över åtgärder som är tillgängliga för resursen.
 
-Visningen innehåller till exempel en *sändningskommandoåtgärd* som gör att ett kommando kan skickas till alla enheter som är tilldelade den visningen.
+Visningen innehåller till exempel en *broadcast-command*-åtgärd som gör att du kan skicka ett kommando till alla enheter som är tilldelade den visningen.
 
 ```xml
 GET /api/screens/content/screens/we-retail/locations/demo/flagship/single.json HTTP/1.1
