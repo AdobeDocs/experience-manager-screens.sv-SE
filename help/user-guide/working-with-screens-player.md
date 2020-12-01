@@ -30,7 +30,7 @@ När du har tilldelat en kanal till en skärm visas innehållet i AEM Screens Pl
 
 ## Använda enhetskontrollpanelen {#using-the-device-dashboard}
 
-Du kan konfigurera inställningar för enheten från enhetskontrollpanelen, som du kommer åt via din AEM-redigeringsinstans.
+Du kan konfigurera inställningar för enheten från enhetskontrollpanelen, som du kommer åt via AEM.
 
 1. Navigera till enhetskonsolen från ditt projekt, till exempel ***Testa projekt*** —> ***Enheter***.
 
@@ -42,15 +42,15 @@ Du kan konfigurera inställningar för enheten från enhetskontrollpanelen, som 
 
    ![chlimage_1-67](assets/chlimage_1-67.png)
 
-1. Markera panelen **INSTÄLLNINGAR** . Du kan aktivera/inaktivera **administratörsgränssnittet** och **kanalväljaren** för spelaren bland dessa två alternativ.
+1. Kontrollera panelen **INSTÄLLNINGAR**. Du kan aktivera/inaktivera **Admin-gränssnittet** och **kanalväljaren** för spelaren bland dessa två alternativ.
 
    ![chlimage_1-68](assets/chlimage_1-68.png)
 
-### Användargränssnittet för administratörer {#the-admin-ui}
+### Administratörsgränssnittet {#the-admin-ui}
 
 Om du aktiverar **administratörsgränssnittet** från inställningspanelen kan användaren öppna administratörsinställningarna från skärmspelaren. Om du inaktiverar det här alternativet från enhetspanelen kan användaren inte öppna administratörsgränssnittet från spelaren.
 
-Om du vill visa administratörsgränssnittet från Skärmspelaren trycker du länge på det övre vänstra hörnet för att öppna Admin-menyn, AEM Screens-spelaren med pekfunktion eller med en mus. Den visar information när registreringen är klar och kanalerna har lästs in.
+Om du vill visa administratörsgränssnittet från Skärmspelaren trycker du länge på det övre vänstra hörnet för att öppna Admin-menyn, på den pekaktiverade AEM Screens-spelaren eller med en mus. Den visar information när registreringen är klar och kanalerna har lästs in.
 
 >[!NOTE]
 >
@@ -58,37 +58,37 @@ Om du vill visa administratörsgränssnittet från Skärmspelaren trycker du lä
 
 ![chlimage_1-3](assets/chlimage_1-3.gif)
 
-#### Åtkomst till alternativen på menyn Konfiguration {#configuration-options}
+#### Åtkomst till alternativen på konfigurationsmenyn {#configuration-options}
 
-Du kan uppdatera dina konfigurationer om du väljer alternativet **Konfiguration** på sidomenyn, vilket visas i figuren nedan:
+Du kan uppdatera dina konfigurationer om du väljer alternativet **Konfiguration** på sidomenyn, vilket visas i bilden nedan:
 
 ![screen_shot_2018-10-15at101257am](assets/screen_shot_2018-10-15at101257am.png)
 
 På menyn Konfiguration kan du ändra följande inställningar:
 
-* Återställ **firmware**, **inställningar** eller **till fabrik** i den här dialogrutan.
+* Återställ **Firmware**, **Inställningar** eller **Till fabrik** från den här dialogrutan.
 
-* Ange det maximala antalet loggfiler som ska behållas för en AEM Screens-spelare i **Max antal. loggfiler som ska behållas**.
+* Ange det maximala antalet loggfiler som ska behållas för en AEM Screens-spelare i **Max antal. av loggfiler som ska sparas**.
 
 * Aktivera eller inaktivera **Admin Menu**, **Channel Switcher** och **Activity UI** för skärmspelaren.
 
-   Om **aktivitetsgränssnittet** är aktiverat på menyn **Konfiguration** , visar AEM Screens-spelaren aktivitetsmeddelanden *för* spelaren i det övre högra hörnet av spelaren, vilket visas i figuren nedan.
+   Om **Aktivitetsgränssnittet** är aktiverat på menyn **Konfiguration**, visar AEM Screens-spelaren *aktivitetsmeddelanden* i det övre högra hörnet av spelaren, vilket visas i figuren nedan.
 
    ![bild](/help/user-guide/assets/activity_ui.png)
 
 >[!NOTE]
 >
->Alternativet **Uppdatera inbyggd** programvara fungerar bara på cordova, till exempel Android-spelare.
+>Alternativet **Uppdatera inbyggd programvara** fungerar bara på cordova, till exempel Android-spelare.
 
 >[!NOTE]
 >
->Vi rekommenderar att **administratörsgränssnittet** inaktiveras i produktionsdistributioner.
+>Vi rekommenderar att användargränssnittet **för administratörer** inaktiveras i produktionsdistributioner.
 
-#### Åtkomst till menyalternativ för innehållscache {#content-cache-options}
+#### Åtkomst till menyalternativen för innehållscache {#content-cache-options}
 
 Du kan rensa cache för kanaler och program från administratörsgränssnittet i AEM Screens Player.
 
-Uppdatera cacheminnet genom att välja **innehållscacheminnet** på sidospåret.
+Välj **innehållscachen** från sidospåret för att uppdatera cacheminnet.
 
 ![screen_shot_2018-10-15at105717am](assets/screen_shot_2018-10-15at105717am.png)
 
@@ -117,22 +117,22 @@ Du kan också ändra inställningarna för administratörsgränssnittet och kana
 Följ de här stegen för att ändra inställningarna för spelaren:
 
 1. Tryck länge på det övre vänstra hörnet i den inaktiva kanalen för att öppna administrationspanelen.
-1. Navigera till **Konfiguration** på den vänstra åtgärdsmenyn.
-1. Aktivera/inaktivera konfiguration för **administratörsgränssnitt** eller **kanalväxlare**.
+1. Navigera till **Konfiguration** från den vänstra åtgärdsmenyn.
+1. Aktivera/inaktivera konfiguration för **Admin-användargränssnitt** eller **kanalväxlare**.
 
 ![screen_shot_2018-10-15at101257am-1](assets/screen_shot_2018-10-15at101257am-1.png)
 
-## Felsöka AEM Screens Player {#troubleshooting-aem-screens-player}
+## Felsökning av AEM Screens Player {#troubleshooting-aem-screens-player}
 
-Du kan felsöka olika problem som är kopplade till AEM Screens Player (maskinvara och programvara):
+Du kan felsöka olika problem som rör AEM Screens Player (maskinvara och programvara):
 
-| **Problem** | **Rekommendationer** |
+| **Problem** | **Recommendations** |
 |---|---|
 | Spelarlagringen är full | Eliminera onödiga filer |
 | Spelaren förlorade nätverket | Använd katt-5/katt-6-kabel. För wifi ska du minska avståndet från routern till spelarenheten |
 | AEM Screens Player kraschade | Vi rekommenderar att du har en övervakningsapp som ser till att AEM Screens Player alltid körs |
-| AEM Screens Player förlorade inställningar | Kontrollera anslutningen till AEM-servern |
-| AEM Screens Player startar inte automatiskt efter att spelaren startats om/startats om | Kontrollera operativsystemets startmapp eller initieringsprocedur |
+| Inställningar för förlorad AEM Screens Player | Kontrollera anslutning till AEM server |
+| AEM Screens Player startar inte automatiskt efter omstart/omstart av spelaren | Kontrollera operativsystemets startmapp eller initieringsprocedur |
 | AEM Screens Player visar fel/gammalt innehåll | Kontrollera nätverksanslutning |
 
 ### Uppdateringar för AEM Screens Player {#updates-for-aem-screens-player}
@@ -148,7 +148,7 @@ Det finns två typer av uppdateringar för AEM Screens Player:
 
 Följande avsnitt innehåller riktlinjer för val av maskinvara för ett skärmsprojekt:
 
-* Källa alltid till ***kommersiella*** eller ***industriella*** komponenter för både PC Player och Display Panel eller Projector.
+* Källa alltid ***Commercial*** eller ***Industrial*** Grade-komponenter för både PC Player och Display Panel eller Projector.
 
 * Samarbeta alltid med leverantörer som levererar digitala signaturer.
 * Ta alltid hänsyn till miljöfaktorer som omgivningstemperatur och relativ luftfuktighet.
@@ -176,10 +176,10 @@ I följande tabell sammanfattas maskinvarukonfigurationerna med typiska användn
    <td><p>・ChromeOS 32 GB</p> <p>・Windows 128 GB</p> </td>
    <td>OnBoard</td>
    <td>1920 x 1080</td>
-   <td>DVI,<br /> Ethernet/trådlöst,<br /> 2 x USB</td>
+   <td>DVI,<br /> Ethernet/trådlöst,<br /> 2x USB</td>
    <td>
     <ul>
-     <li>Helskärmsloop som standard<br /> </li>
+     <li>Standardrepetition i helskärmsläge<br /> </li>
      <li>Dag-parsning</li>
     </ul> </td>
   </tr>
@@ -190,7 +190,7 @@ I följande tabell sammanfattas maskinvarukonfigurationerna med typiska användn
    <td>128 GBB</td>
    <td>OnBoard</td>
    <td>3840x2160 (4K)</td>
-   <td>DVI, HDMI<br /> Ethernet/trådlöst,<br /> 2 x USB</td>
+   <td>DVI, HDMI<br /> Ethernet/trådlöst,<br /> 2x USB</td>
    <td>
     <ul>
      <li>Dynamiskt innehåll med en källa</li>
