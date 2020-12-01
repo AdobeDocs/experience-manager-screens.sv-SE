@@ -5,6 +5,9 @@ seo-description: MultiZone till SingleZone-övergångar - exempel.
 contentOwner: Jyotika Syal
 translation-type: tm+mt
 source-git-commit: 6f770734941635a0cd404986c259022137355af3
+workflow-type: tm+mt
+source-wordcount: '401'
+ht-degree: 0%
 
 ---
 
@@ -25,7 +28,7 @@ Innan du börjar med det här användningsexemplet måste du förstå hur du gö
 * **[Skapa och hantera scheman](managing-schedules.md)**
 * **[Enhetsregistrering](device-registration.md)**
 
-### Primära aktörer {#primary-actors}
+### Primära skådespelare {#primary-actors}
 
 Innehållsförfattare
 
@@ -33,7 +36,7 @@ Innehållsförfattare
 
 Följ stegen nedan för att konfigurera ett projekt:
 
-1. Skapa ett AEM-skärmsprojekt med namnet **TakeoverLoop**, enligt nedan.
+1. Skapa ett AEM Screens-projekt med namnet **TakeoverLoop**, enligt nedan.
 
    ![resurs](assets/mz-to-sz1.png)
 
@@ -41,32 +44,33 @@ Följ stegen nedan för att konfigurera ett projekt:
 1. **Skapa en skärmkanal för flera zoner**
 
    1. Välj mappen **Kanaler** och klicka på **Skapa** i åtgärdsfältet för att öppna guiden och skapa en kanal.
-   1. Välj **Delad skärmkanal** för vänster-L-streck i guiden och skapa kanalen **MultiZoneLayout**.
-   1. Lägg till innehåll i kanalen. Dra och släpp resurserna till var och en av zonerna. I följande exempel visas en **MultiZoneLayout** -kanal som består av en video, en bild och en textbanderoll (i en inbäddad sekvens), vilket visas nedan.
+   1. Välj **Delad skärmkanal för vänster-L-fält** i guiden och skapa kanalen **MultiZoneLayout**.
+   1. Lägg till innehåll i kanalen. Dra och släpp resurserna till var och en av zonerna. I följande exempel visas en **MultiZoneLayout**-kanal som består av en video, en bild och en textbanderoll (i en inbäddad sekvens), vilket visas nedan.
+
    ![resurs](assets/mz-to-sz2.png)
 
    >[!NOTE]
    >
-   >Mer information om hur du skapar en layout med flera zoner i din kanal finns i [Layout](multi-zone-layout-aem-screens.md)med flera zoner.
+   >Mer information om hur du skapar en layout för flera zoner i din kanal finns i [Layout för flera zoner](multi-zone-layout-aem-screens.md).
 
 
-1. Skapa en annan kanal som heter **TakeoverChannel** till din **kanalmapp** .
+1. Skapa en annan kanal med namnet **TakeoverChannel** till mappen **Kanaler**.
 
    ![resurs](assets/mz-to-sz3.png)
 
-1. Klicka på **Redigera** i åtgärdsfältet för att lägga till innehåll i den här kanalen. Lägg till en **kanalkomponent** och en bildresurs som du vill växla till i den här kanalen, enligt bilden nedan:
+1. Klicka på **Redigera** i åtgärdsfältet för att lägga till innehåll i den här kanalen. Lägg till en **Channel**-komponent och en bildresurs som du vill växla till i den här kanalen enligt bilden nedan:
 
    ![resurs](assets/mz-to-sz4.png)
 
-1. Öppna inställningarna för Channel-komponenten och peka på **MultiZoneLayout** -kanalen som du skapade i *steg 2*.
+1. Öppna inställningarna för Channel-komponenten och peka på den **MultiZoneLayout**-kanal som du skapade i *steg 2*.
 
    ![resurs](assets/mz-to-sz5.png)
 
-1. Ange längden från **sekvensfältet** till **10000 ms**.
+1. Ange längden från fältet **Sekvens** till **10000 ms**.
 
    ![resurs](assets/mz-to-sz6.png)
 
-1. Öppna på samma sätt inställningarna för bilden (resursen du lade till) och ange dess varaktighet från fältet **Sekvens** till **3000 ms**.
+1. Öppna på samma sätt inställningarna för bilden (resursen som du lade till) och ange dess varaktighet från fältet **Sequence** till **3000 ms**.
 
    ![resurs](assets/mz-to-sz7.png)
 
@@ -74,7 +78,7 @@ Följ stegen nedan för att konfigurera ett projekt:
 
 Du kan visa önskade utdata från spelaren eller bara genom att klicka på **Förhandsgranska** i redigeraren.
 
-Utdata visar hur en flerzonslayout spelas upp i *10000 ms* och växlar sedan till en enzonslayout med en uppspelningstid på *3000 ms* och växlar sedan tillbaka till flerzonslayouten.
+Utdata visar hur en layout med flera zoner spelas upp för *10000 ms* och växlar sedan till layout med en zon som har uppspelningstiden *3000 ms* och växlar sedan tillbaka till layouten med flera zoner.
 
 >[!VIDEO](https://video.tv.adobe.com/v/30366)
 
