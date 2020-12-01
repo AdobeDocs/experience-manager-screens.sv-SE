@@ -21,7 +21,7 @@ Följ den här sidan om du vill lära dig hur du använder anpassade märkesinst
 
 Följ stegen nedan för att skapa anpassade märkesnamn och format för textövertäckningar:
 
-1. Skapa ett AEM Screens-projekt. I det här exemplet visas funktionaliteten genom att ett projekt med namnet **custom style** och en kanal med namnet **DemoBrand** skapas, vilket visas i bilden nedan.
+1. Skapa ett AEM Screens-projekt. I det här exemplet visas funktionaliteten genom att ett projekt med namnet **customStyle** och en kanal med namnet **DemoBrand** skapas, vilket visas i bilden nedan.
 
    ![bild](/help/user-guide/assets/custom-brand/custom-brand1.png)
 
@@ -32,9 +32,9 @@ Följ stegen nedan för att skapa anpassade märkesnamn och format för textöve
    >[!NOTE]
    >Mer information om hur du lägger till en textövertäckning i resursen i en kanalredigerare finns i [Textövertäckning](/help/user-guide/text-overlay.md).
 
-1. Navigera till CRXDE Lite från AEM —> tools —> **CRXDE Lite**.
+1. Navigera till CRXDE Lite från din AEM instans —> tools —> **CRXDE Lite**.
 
-1. Du måste skapa en egen design i `/apps/settings/wcm/designs/<your-project>/`exempelvis navigera till `/apps/settings/wcm/designs/customstyle/`
+1. Du måste skapa en anpassad design i `/apps/settings/wcm/designs/<your-project>/`, t.ex. navigera till `/apps/settings/wcm/designs/customstyle/`
 
    ![bild](/help/user-guide/assets/custom-brand/custom-brand3.png)
 
@@ -65,17 +65,17 @@ Följ stegen nedan för att skapa anpassade märkesnamn och format för textöve
 
    ![bild](/help/user-guide/assets/custom-brand/custom-brand4.png)
 
-1. Kopiera sökvägen till ditt projekt, i det här fallet blir sökvägen `/apps/settings/wcm/designs/customstyle`.
+1. Kopiera sökvägen till ditt projekt. I det här fallet är sökvägen `/apps/settings/wcm/designs/customstyle`.
 
-1. Navigera till kanalen **DemoBrand** (skapad i steg 1) och klicka på **Egenskaper** i åtgärdsfältet när du har valt kanalen.
+1. Navigera till kanalen **DemoBrand** (skapad i steg(1)) och klicka på **Egenskaper** i åtgärdsfältet när du har valt kanalen.
 
-1. Navigera till fliken **Avancerat** och markera fältet **Design** .
+1. Gå till fliken **Avancerat** och kontrollera fältet **Design**.
    ![bild](/help/user-guide/assets/custom-brand/custom-brand5.png)
 
    >[!NOTE]
-   >Som standard visar **designfältet** sökvägen till designen i mappen libs.
+   >Som standard visar fältet **Design** sökvägen till designen i mappen libs.
 
-1. Uppdatera **designfältet** med sökvägen till projektmappen. I det här fallet kommer det att vara `/apps/settings/wcm/designs/customstyle`.
+1. Uppdatera fältet **Design** med sökvägen till projektmappen. I det här fallet blir det `/apps/settings/wcm/designs/customstyle`.
 
    ![bild](/help/user-guide/assets/custom-brand/custom-brand6.png)
 
@@ -86,42 +86,42 @@ Följ stegen nedan för att skapa anpassade märkesnamn och format för textöve
 
 1. Så här övertäcker du de befintliga skärmmallarna så att du kan mata in din egen design som standard:
 
-   1. Överlägg `/libs/screens/core/templates/sequencechannel` i `/apps/screens/core/templates/sequencechannel`.
-   1. Ändra egenskapen *cq:designPath* i så `/apps/screens/core/templates/sequencechannel/jcr:content` att den pekar på den nya designen.
+   1. Lägg över `/libs/screens/core/templates/sequencechannel` i `/apps/screens/core/templates/sequencechannel`.
+   1. Ändra egenskapen *cq:designPath* i `/apps/screens/core/templates/sequencechannel/jcr:content` så att den pekar på den nya designen.
 
 1. Så här skapar du en egen mall:
    1. Kopiera `/libs/screens/core/templates/sequencechannel` till `/apps/customstyle/templates/styled-sequencechannel`.
-   1. Ändra egenskapen *cq:designPath* i så `/apps/customstyle/templates/styled-sequencechannel/jcr:content` att den pekar på den nya designen.
+   1. Ändra egenskapen *cq:designPath* i `/apps/customstyle/templates/styled-sequencechannel/jcr:content` så att den pekar på den nya designen.
 
 
 ### Uppdaterar åtkomstkontrollistor {#updating-acls}
 
 Du måste uppdatera åtkomstkontrollistorna för dessa designer så att de kan hämtas av spelaren.
 
-1. Navigera till användaradministratören, välj `screens-<project>-devices group` och ge den läsbehörighet till den anpassade designsökvägen.
+1. Navigera till användaradministratören och välj `screens-<project>-devices group` och ge den läsbehörighet till den anpassade designsökvägen.
 
-1. Ange läsbehörighet och ändringsbehörighet för `screens-<project>-administrators` gruppen till den här sökvägen.
+1. Ange `screens-<project>-administrators`-gruppbehörighet för att läsa och ändra i den här sökvägen.
 
 ## Visa resultatet {#viewing-the-result}
 
-När du har slutfört de föregående stegen kan du uppdatera filen *statis.css* från **CRXDE Lite** och följaktligen visa uppdateringen av textöverlägget som redan har lagts till i resursen.
+När du har utfört de föregående stegen kan du uppdatera din *statis.css*-fil från **CRXDE Lite** och följaktligen visa uppdateringen av textöverlägget som redan har lagts till i resursen.
 
 Följ stegen nedan för att visa den uppdaterade designen för textövertäckning:
 
-1. Gå till ditt AEM Screens-projekt med namnet **custom** —> **Channels** —> **DemoBrand**. Markera kanalen och klicka på **Redigera** i åtgärdsfältet för att öppna redigeraren.
+1. Gå till ditt AEM Screens-projekt med namnet **custom style** —> **Channels** —> **DemoBrand**. Markera kanalen och klicka på **Redigera** i åtgärdsfältet för att öppna redigeraren.
 
-1. Eftersom du nu har lagt till designen i fältet **Designer** klickar du på **Förhandsgranska** för att visa den aktuella stilen på bilden med textövertäckning.
+1. Eftersom du nu har lagt till designen i fältet **Designs**, som nämnts ovan, klickar du på **Förhandsgranska** för att visa den aktuella formateringen i bilden med textövertäckning.
 
    ![bild](/help/user-guide/assets/custom-brand/custom-brand7.png)
 
-1. Navigera till din *static.css* -fil i CRXDE Lite och lägg till teckensnittet, till exempel, `font-family: "Lucida Console", Courier, monospace;` i den här filen, som visas nedan.
+1. Navigera till filen *static.css* i CRXDE Lite och lägg till teckensnittet `font-family: "Lucida Console", Courier, monospace;` i den här filen, som visas nedan.
    ![bild](/help/user-guide/assets/custom-brand/custom-brand8.png)
 
 1. När du har sparat ändringarna och läst in förhandsvisningen igen visas en uppdatering av teckensnittet för textövertäckning, vilket visas i bilden nedan.
 
    ![bild](/help/user-guide/assets/custom-brand/custom-brand9.png)
 
-1. Dessutom kan du ta bort de två sista kodblocken från filen *static.css* för att ta bort den boxade stilen runt textövertäckningen.
+1. Du kan även ta bort de två sista kodblocken från filen *static.css* för att ta bort den rutformade formateringen runt textövertäckningen.
    ![bild](/help/user-guide/assets/custom-brand/custom-brand10.png)
 
 1. Du kommer att se den uppdaterade ändringen i förhandsvisningen där textöverlägget läggs till i bilden.
