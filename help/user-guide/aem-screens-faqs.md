@@ -6,9 +6,9 @@ seo-description: Följ den här sidan för att få svar på vanliga frågor om e
 uuid: 62e58f3b-0c0a-4006-b6d5-42d2090f47b5
 contentOwner: jsyal
 translation-type: tm+mt
-source-git-commit: 124b766f2bbf5988a104250acb6dde7f4d7189bf
+source-git-commit: 63e3b9d7ad1519b575726dca492e5b5bd64c222d
 workflow-type: tm+mt
-source-wordcount: '1473'
+source-wordcount: '1542'
 ht-degree: 0%
 
 ---
@@ -22,11 +22,11 @@ I följande avsnitt ges svar på några av de vanligaste frågorna och svaren om
 
 ### 1. Vad är skillnaden mellan en online- och en offlinekanal? {#what-is-the-difference-between-an-online-and-an-offline-channel}
 
-En ***onlinekanal*** visar det uppdaterade innehållet i realtidsmiljön, medan en ***offlinekanal*** visar det cachelagrade innehållet.
+En ***onlinekanal*** visar det uppdaterade innehållet i realtidsmiljön medan en ***offlinekanal*** visar det cachelagrade innehållet.
 
 ### 2. Hur gör jag en kanal online? {#how-do-i-make-a-channel-online}
 
-Markera kanalen och navigera till kanalegenskaper i åtgärdsfältet. Markera **Utvecklarläge (tvinga kanaler att vara online)** under fliken **Kanal** för att göra kanalen online.
+Markera kanalen och navigera till kanalegenskaper i åtgärdsfältet. Markera **Utvecklarläge (tvinga kanalen att vara online)** under fliken **Kanal** för att göra kanalen online.
 
 ### 3. Hur används fältet Kanalroll? {#what-is-the-use-of-the-channel-role-field}
 
@@ -34,9 +34,9 @@ Kanalrollen är förkortningen av den faktiska kanal som körs så att författa
 
 ### 4. Hur sker faktisk kanalupplösning? {#how-does-actual-channel-resolution-happen}
 
-För *statiska referenser* följer upplösningen den angivna sökvägen.
+För *statiska referenser* följer upplösningen bara den angivna sökvägen.
 
-För *dynamiska referenser* sker upplösningen när kanalen har tilldelats till visningen (inte schemat). Visningsbanan blir kontext för kanalen och upplösningen sker enligt följande (högsta till lägsta prioritet):
+För *dynamiska referenser* inträffar upplösningen när kanalen har tilldelats till visningen (inte schemat). Visningsbanan blir kontext för kanalen och upplösningen sker enligt följande (högsta till lägsta prioritet):
 
 1. Visningen har en underordnad nod som matchar det refererade kanalnamnet
 1. Visningen har en nod på samma nivå som det refererade kanalnamnet
@@ -61,7 +61,7 @@ Vi rekommenderar att du hämtar enhets-ID från sessionen i stället för att sk
 
 ### 3. Finns det något sätt att neka en enhetsregistreringsbegäran? {#is-there-a-way-to-decline-a-device-registration-request}
 
-Du kan inte avböja registreringsbegäran. Registreringsbegäranden ska i stället upphöra att gälla efter en timeout som har konfigurerats i [Adobe Experience Manager Web Console](https://localhost:4502/system/console/configMgr/com.adobe.cq.screens.device.registration.impl.RegistrationServiceImpl). Som standard är det här värdet inställt på en dag och lagras i en minnescache.
+Du kan inte avböja registreringsbegäran. Registreringsbegäranden ska i stället upphöra att gälla efter en tidsgräns som har konfigurerats i [Adobe Experience Manager Web Console](https://localhost:4502/system/console/configMgr/com.adobe.cq.screens.device.registration.impl.RegistrationServiceImpl). Som standard är det här värdet inställt på en dag och lagras i en minnescache.
 
 ## Enhetsövervakning och hälsorapporter {#device-monitoring-and-health-reports}
 
@@ -78,8 +78,8 @@ Kontrollera om det finns följande möjligheter att felsöka det tomma skärmpro
 Du måste aktivera filtret Tillåt tomt för Apache Sling Referrer-filtret. Detta krävs för att kontrollprotokollet mellan AEM Screens Player och AEM Screens-servern ska fungera optimalt.
 
 1. Navigera till **Adobe Experience Manager Web Console Configuration**
-1. Markera alternativet **allow.empty** .
-1. Click **Save**.
+1. Markera alternativet **allow.empty**.
+1. Klicka på **Spara**.
 
 ### 3. Hur felsöker jag om enheten visar fel när en AEM Screens-spelare registreras och om konsolloggarna visar ett ENAME_NOT_FOUND-fel? {#how-to-troubleshoot-if-while-registering-an-aem-screens-player-device-shows-failure-and-the-console-logs-display-ename-not-found-error}
 
@@ -103,25 +103,25 @@ Mer information om var du kan övervaka enhetsaktivitet finns i [**AEM Screens N
 
 ChromeOS-spelaren kan installeras som Chrome Browser-plugin i utvecklarläge utan att den faktiska enheten för Chrome Player krävs. För installation, följ stegen nedan:
 
-1. Klicka [här](https://download.macromedia.com/screens/) för att hämta den senaste Chrome Player-versionen.
+1. Klicka [här](https://download.macromedia.com/screens/) för att hämta den senaste Chrome Player.
 1. Zippa upp och spara det på disken.
 1. Öppna webbläsaren Chrome och välj **Tillägg** på menyn eller navigera direkt till ***chrome://extensions***.
 1. Aktivera **utvecklarläget** i det övre högra hörnet.
-1. Klicka på **Läs in opackad** från det övre vänstra hörnet och läs in den uppzippade Chrome Player.
-1. Kontrollera plugin-programmet för **AEM Screens Chrome Player** om det finns i listan över tillägg.
-1. Öppna en ny flik och klicka på **Apps** -ikonen i det övre vänstra hörnet eller navigera direkt till ***chrome://apps***.
-1. Klicka på **AEM Screens** Plugin för att starta Chrome Player. Som standard startas spelaren i helskärmsläge. Tryck på **Esc** för att avsluta helskärmsläget.
+1. Klicka på **Läs in opackad** från det övre vänstra hörnet och läs in den uppackade Chrome Player.
+1. Kontrollera **AEM Screens Chrome Player**-plugin om det finns i listan över tillägg.
+1. Öppna en ny flik och klicka på ikonen **Apps** i det övre vänstra hörnet eller navigera direkt till ***chrome://apps***.
+1. Klicka på **AEM Screens** Plugin för att starta Chrome Player. Som standard startas spelaren i helskärmsläge. Tryck på **esc** för att avsluta helskärmsläget.
 
 ### 2. Hur felsöker jag om skärmspelaren inte kan autentisera via en publiceringsinstans med en anpassad felhanterare? {#how-to-troubleshoot-if-screens-player-is-unable-to-authenticate-through-publish-instance-with-custom-error-handler}
 
-När AEM Screens-spelaren startas görs en begäran till ***/content/screens/svc.ping.json*** när spelaren får ett 404-fel. Spelaren initierar en autentiseringsbegäran att autentisera mot publiceringsinstansen. Om det finns en anpassad felhanterare i en publiceringsinstans måste du returnera 404-statuskoden för anonym användare på ***/content/screens/svc.ping.json***.
+När AEM Screens-spelaren startas görs en begäran till ***/content/screens/svc.ping.json*** när spelaren får ett 404-fel. Spelaren initierar en autentiseringsbegäran att autentisera mot publiceringsinstansen. Om det finns en anpassad felhanterare i publiceringsinstansen måste du returnera 404-statuskoden för anonym användare på ***/content/screens/svc.ping.json***.
 
 ### 3. Hur du aktiverar enhetsskärmen i en Android-spelare? {#how-to-set-the-device-screen-stay-on-in-an-android-player}
 
 Följ stegen nedan om du vill aktivera Var aktiv i en Android-spelare:
 
 1. Navigera till Android-spelarens inställningar —> **Om**
-1. Tryck 7 gånger på versionsnumret för att aktivera **utvecklaralternativ** i **Inställningar**
+1. Tryck 7 gånger på versionsnumret för att aktivera **Utvecklaralternativ** i **Inställningar**
 1. Navigera till **Utvecklaralternativ**
 1. Aktivera **Håll dig vaken**
 
@@ -129,19 +129,19 @@ Följ stegen nedan om du vill aktivera Var aktiv i en Android-spelare:
 
 Det finns inget fönsterläge i Windows Player. Det är alltid helskärmsläge.
 
-### 5. Hur felsöker man om en AEM Screens-spelare kontinuerligt skickar inloggningsförfrågningar?{#requests-login}
+### 5. Hur felsöker man om en AEM Screens-spelare kontinuerligt skickar inloggningsbegäranden?{#requests-login}
 
 Följ stegen nedan för att felsöka en AEM Screens-spelare som kontinuerligt skickar begäranden till `/content/screens/svc.json` och `/libs/granite/core/content/login.validate/j_security_check`:
 
-1. När AEM Screens-spelaren startas begär den att få `/content/screens/svc.json`. När spelaren får en 404-statuskod i svaret initierar den en autentiseringsbegäran med hjälp `/libs/granite/core/content/login.validate/j_security_check` av *publiceringsinstansen* . Om det finns en anpassad felhanterare i *publiceringsinstansen* måste du returnera 404-statuskoden för anonym användare på `/content/screens/svc.json` eller `/content/screens/svc.ping.json`.
+1. När AEM Screens-spelaren startas begär den `/content/screens/svc.json`. När spelaren får en 404-statuskod i svaret initierar den en autentiseringsbegäran med `/libs/granite/core/content/login.validate/j_security_check` mot *publish*-instansen. Om det finns en anpassad felhanterare i *publish*-instansen måste du returnera 404-statuskoden för anonym användare på `/content/screens/svc.json` eller `/content/screens/svc.ping.json`.
 
 1. Kontrollera om din dispatcherkonfiguration tillåter dessa förfrågningar i `/filters`.
 
-   Mer information finns i [Konfigurera skärmfilter](https://docs.adobe.com/content/help/en/experience-manager-screens/user-guide/administering/dispatcher-configurations-aem-screens.html#step-configuring-screens-filters) .
+   Mer information finns i [Konfigurera skärmfilter](https://docs.adobe.com/content/help/en/experience-manager-screens/user-guide/administering/dispatcher-configurations-aem-screens.html#step-configuring-screens-filters).
 
 1. Kontrollera om din dispatcher skriver om regler för skärmsökvägar till en annan sökväg.
 
-1. Kontrollera om du har `/etc/map` regler för *författaren* eller *publiceringsinstansen* och skärmsökvägarna matchas till `sling:match` och omdirigeras internt till en annan sökväg. Genom att matcha den exakta URL:en i `/system/console/jcrresolver` identifieras om *publiceringsinstansen* skriver om dessa URL:er till någon annan sökväg.
+1. Kontrollera om du har `/etc/map`-regler för *författaren* eller *publish*-instansen och skärmsökvägarna matchar `sling:match` och omdirigeras internt till en annan sökväg. Genom att matcha den exakta URL:en i `/system/console/jcrresolver` blir det lättare att identifiera om *publish*-instansen skriver om dessa URL:er till någon annan sökväg.
 
 1. Kontrollera om konfigurationen av Apache Sling Resource Resolver Factory orsakar interna omskrivningar.
 
@@ -160,6 +160,14 @@ Så här inaktiverar du Livefyre för att undvika loggfel:
 1. ***Inaktivera Livefyre poller:***
 
    * I CRXDE Lite går du till `/etc/importers/polling/livefyre-poller/jcr:content`
-   * Lägg till en ny egenskap som *har* typen *Boolean*
-   * Ange **aktiverad egenskap** till **false**
+   * Lägg till en ny egenskap *aktiverad* typ *Boolean*
+   * Ange **den aktiverade egenskapen** till **false**
+
+### 2. Hur lägger jag till information om Oak Index? {#add-oak-index-info}
+
+AEM Screens skapar indexdefinitioner för frågor som används av produkten.
+Om det finns *WARNs* i `error.log` skapar du ett anpassat index för frågan. Mer information finns i [Konfigurera index](https://experienceleague.adobe.com/docs/experience-manager-65/deploying/deploying/queries-and-indexing.html?lang=en#configuring-the-indexes).
+
+Du kan även referera till en ytterligare resurs på [Oak Documentation](https://jackrabbit.apache.org/oak/docs/query/lucene.html).
+
 
