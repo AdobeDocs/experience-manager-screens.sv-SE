@@ -28,7 +28,7 @@ En fördel med en proxyserver är att dess cache kan användas av alla användar
 
 När en proxyserver tar emot en begäran om en Internet-resurs (till exempel en webbsida eller vid anslutning till en AEM Publisher), söker den i sin lokala cache efter tidigare anropade URL:er. Om sidan hittas returneras den till användaren utan att begäran vidarebefordras till Internet. Om sidan inte finns i cachen fungerar proxyservern (som klient) för användaren och begär sidan från servern på Internet. När innehållet returneras relaterar proxyservern det till den ursprungliga begäran och vidarebefordrar det till användaren.
 
-## Förstå standardnätverksinställningarna {#network-setups}
+## Standardnätverksinställningarna {#network-setups}
 
 Om du vill implementera en nätverksinstallation måste du hänvisa till följande scenarier med deras styrkor och distributionsinformation.
 
@@ -43,7 +43,7 @@ I följande tabell visas de olika typerna av nätverksinställningar med fördel
 
 | Nätverksinställningar | Fördelar | Nackdelar |
 |--- |--- |--- |
-| **Direkt Internet-nätverk (trådlöst/trådlöst)** | Enkelt och rakt fram till<br>SetUpGood för medelstora eller större<br>installationerDedikerat nätverk kan vara<br>EncapsulatedNågra<br>felpunkterRelativt<br>InfoodGood Scalability | Obligatorisk internetdataplan |
-| **Direkt mobilnätverk** | Enkelt att<br>installeraBra val för medelstora eller större<br>installationerBra<br>skalbarhetEncapsulated Screens | Obligatorisk internetuppkoppling |
-| **Mobilnätverk med mobil datarouter och aktiva nätverkskomponenter** | Enkelt att<br>ställa inGood Choice för medelstora eller större<br>installationerDedikerat nätverk kan<br>kapslas inEtt antal felpunkter<br>relativt<br>billigtBra skalbarhet | Obligatorisk internetdataplan |
-| **Enclosed Corporate Network (Wired/Wireless)** | Hög flexibilitet och<br>skalbarhetHög säkerhet tack vare olika rader i<br>DefenseEncapsulated<br>NetworksEnkelt att övervaka och<br>underhållaTillförlitligt | Komplicerad och<br>dyrRekommenderas för nätverksspecialister eller systemintegratörer |
+| **Direkt Internet-nätverk (trådlöst/trådlöst)** | Enkelt och rakt fram till SetUp<br>Ett bra val för medelstora eller större installationer<br>Dedikerat nätverk kan kapslas in<br>Några felpunkter<br>relativt billigt<br>Bra skalbarhet | Obligatorisk internetdataplan |
+| **Direkt mobilnätverk** | Enkelt att installera<br>Bra val för medelstora eller större installationer<br>Bra skalbarhet<br>Encapsulated Screens | Obligatorisk internetuppkoppling |
+| **Mobilnätverk med mobil datarouter och aktiva nätverkskomponenter** | Enkelt att installera<br>Bra val för medelstora eller större installationer<br>Dedikerat nätverk kan kapslas in<br>Några felpunkter<br>relativt billigt<br>Bra skalbarhet | Obligatorisk internetdataplan |
+| **Enclosed Corporate Network (Wired/Wireless)** | Hög flexibilitet och skalbarhet<br>Mycket säker på grund av olika försvarsrader<br>Encapsulated Networks<br>Enkelt att övervaka och underhålla<br>Tillförlitligt | Komplicerade och dyra<br>Rekommenderas för nätverksspecialister eller systemintegratörer |
