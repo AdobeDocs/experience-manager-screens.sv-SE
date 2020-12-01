@@ -23,7 +23,7 @@ ht-degree: 0%
 
 På följande sida beskrivs enhetsregistreringsprocessen i ett AEM Screens-projekt.
 
-## Registrera en enhet {#registering-a-device}
+## Registrerar en enhet {#registering-a-device}
 
 Enhetsregistreringsprocessen görs på två olika datorer:
 
@@ -32,11 +32,11 @@ Enhetsregistreringsprocessen görs på två olika datorer:
 
 >[!NOTE]
 >
->När du har laddat ned den senaste versionen av Windows Player (*.exe*) från [AEM 6.4 Player Downloads](https://download.macromedia.com/screens/) följer du stegen på spelaren för att slutföra ad hoc-installationen:
+>När du har laddat ned den senaste Windows Player-versionen (*.exe*) från [AEM 6.4 Player Downloads](https://download.macromedia.com/screens/) följer du stegen på spelaren för att slutföra ad hoc-installationen:
 >
 >1. Tryck länge på det övre vänstra hörnet för att öppna administrationspanelen.
->1. Navigera till **Konfiguration** på den vänstra åtgärdsmenyn, ange platsadressen för AEM i **Server** och klicka på **Spara**.
->1. Klicka på länken **Registrering** i den vänstra åtgärdsmenyn och på stegen nedan för att slutföra enhetsregistreringsprocessen.
+>1. Navigera till **Konfiguration** på den vänstra åtgärdsmenyn och ange platsadressen för den AEM instansen i **Server** och klicka på **Spara**.
+>1. Klicka på länken **Registrering** i den vänstra åtgärdsmenyn och stegen nedan för att slutföra enhetsregistreringsprocessen.
 
 >
 
@@ -48,7 +48,7 @@ Enhetsregistreringsprocessen görs på två olika datorer:
 
    ![screen_shot_2018-11-26at104230am](assets/screen_shot_2018-11-26at104230am.png)
 
-1. I AEM navigerar du till mappen **Enheter** i ditt projekt.
+1. I AEM navigerar du till mappen **Devices** i ditt projekt.
 
    >[!NOTE]
    >
@@ -58,7 +58,7 @@ Enhetsregistreringsprocessen görs på två olika datorer:
 
    ![screen_shot_2018-11-26at104702am](assets/screen_shot_2018-11-26at104702am.png)
 
-1. Tryck/klicka på knappen **Enhetsregistrering** längst upp till höger.
+1. Tryck/klicka på knappen **Enhetsregistrering** överst till höger.
 
    ![screen_shot_2018-11-26at104815am](assets/screen_shot_2018-11-26at104815am.png)
 
@@ -74,7 +74,7 @@ Enhetsregistreringsprocessen görs på två olika datorer:
 
    ![screen_shot_2018-11-26at105227am](assets/screen_shot_2018-11-26at105227am.png)
 
-1. Om **registreringskoden** är densamma på båda datorerna trycker/klickar du på knappen **Validera** i AEM, vilket visas i steg 6.
+1. Om **registreringskoden** är densamma på båda datorerna trycker/klickar du på **Validera** i AEM, vilket visas i steg 6.
 1. Ange önskat namn för enheten och klicka på **Registrera**.
 
    ![screen_shot_2018-11-26at105357am](assets/screen_shot_2018-11-26at105357am.png)
@@ -85,9 +85,9 @@ Enhetsregistreringsprocessen görs på två olika datorer:
 
    >[!NOTE]
    >
-   >Med **Registrera nytt** kan du registrera en ny enhet.
+   >Med **Register New** kan du registrera en ny enhet.
    >
-   >Med **Tilldela skärm** kan du lägga till enheten direkt på en skärm.
+   >Med **Tilldela visning** kan du lägga till enheten direkt på en skärm.
 
    Om du klickar på **Slutför** måste du tilldela enheten till en skärm.
 
@@ -105,15 +105,15 @@ Om du inte har tilldelat enheten till en skärm följer du stegen nedan för att
 
    ![screen_shot_2018-11-26at11026am](assets/screen_shot_2018-11-26at111026am.png)
 
-1. Välj sökvägen för visningen i **Visnings-/enhetskonfigurationssökväg**.
+1. Välj sökvägen för visningen i **Sökväg till Display/Device Config**.
 
    ![screen_shot_2018-11-26at11252am](assets/screen_shot_2018-11-26at111252am.png)
 
-1. Klicka på **Tilldela** när du markerar banan.
+1. Klicka på **Tilldela** när du markerar sökvägen.
 
    ![screen_shot_2018-11-26at11722am](assets/screen_shot_2018-11-26at111722am.png)
 
-1. Klicka på **Slutför** när enheten har tilldelats korrekt enligt bilden nedan.
+1. Klicka på **Slutför** när enheten har tilldelats, enligt bilden nedan.
 
    ![screen_shot_2018-11-26at112041am](assets/screen_shot_2018-11-26at112041am.png)
 
@@ -125,7 +125,7 @@ Om du inte har tilldelat enheten till en skärm följer du stegen nedan för att
 
 Användarlösenordsbegränsningar för hela systemet kan orsaka fel i enhetsregistreringen. Enhetsregistreringen använder ett slumpmässigt genererat lösenord för att skapa enhetsanvändaren.
 
-Om lösenordet begränsas av *AuthorizableActionProvider* -konfigurationen kan det hända att det inte går att skapa enhetsanvändaren.
+Om lösenordet begränsas av *AuthorizableActionProvider*-konfigurationen kan det hända att det inte går att skapa enhetsanvändaren.
 
 >[!NOTE]
 >
