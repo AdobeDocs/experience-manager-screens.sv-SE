@@ -12,7 +12,7 @@ ht-degree: 1%
 
 # Tilldelningsrapport för innehåll {#content-assignment-report}
 
-Med rapportfunktionen Innehållstilldelning kan en AEM Screens-administratör eller författare exportera en *innehållsuppdragsrapport* i ett kalkylbladsformat.
+Med rapportfunktionen Innehållstilldelning kan en AEM Screens-administratör eller författare exportera en *rapport om innehållstilldelning* i ett kalkylbladsformat.
 
 ## Använda rapporten för innehållstilldelning {#using-content-assignment-report}
 
@@ -30,24 +30,24 @@ Följ stegen nedan för att hämta rapporten för innehållstilldelning från et
 
    ![bild](/help/user-guide/assets/content-assignment-report/car-1.png)
 
-1. Skapa två sekvenskanaler i **DemoScreens** som **ChannelOne** och **ChannelTwo**.
+1. Skapa två sekvenskanaler i **DemoScreens**, till exempel **ChannelOne** och **ChannelTwo**.
 
    ![bild](/help/user-guide/assets/content-assignment-report/car-2.png)
 
-1. Välj **ChannelOne** och klicka på **Redigera** i åtgärdsfältet. Lägg till få resurser (bilder/videor) i den här kanalen. Lägg på samma sätt till resurser i **ChannelTwo**.
+1. Välj **ChannelOne** och klicka på **Redigera** i åtgärdsfältet. Lägg till få resurser (bilder/videor) i den här kanalen. Lägg på liknande sätt till resurser i **ChannelTwo**.
 
-1. Navigera till mappen Locations från **DemoScreens** —> **Locations** och skapa tre olika platser med namnen **SanJose**, **Dublin** och **San Francisco**.
+1. Navigera till mappen Platser från **DemoScreens** —> **Platser** och skapa tre olika platser med namnet **SanJose**, **Dublin** och **SanFrancisco**.
 
    ![bild](/help/user-guide/assets/content-assignment-report/car-3.png)
 
-1. Navigera till var och en av platserna och skapa en display för varje plats, t.ex. **SanJoseMain** under **SanJose** , **DublinMain** under **Dublin** och **SanFranciscoMain** **** under¥SanFrancisco¥.
+1. Navigera till var och en av platserna och skapa en visning för varje plats, till exempel **SanJoseMain** under **SanJose**, **DublinMain** under **Dublin** och **SanFranciscoMain** under **San Francisco**.
 
 1. Tilldela en enhet till varje skärm.
 
    >[!NOTE]
    >Mer information om hur du tilldelar en kanal till en skärm finns i [Kanaltilldelning](/help/user-guide/channel-assignment.md).
 
-#### Hämta rapporten för innehållstilldelning {#downloading-content-assignment-report}
+#### Hämtar rapporten för innehållstilldelning {#downloading-content-assignment-report}
 
 När du har konfigurerat ditt AEM Screens-projekt och har tilldelat displayannonser till var och en av platserna enligt stegen ovan kan du ladda ned rapporten för innehållstilldelning.
 
@@ -58,12 +58,12 @@ Följ instruktionerna nedan för att hämta rapporten för innehållstilldelning
 
 1. Gå till ditt AEM Screens-projekt och välj projektet **DemoScreens**.
 
-1. Klicka på **Tilldelningsrapport** för innehåll i åtgärdsfältet. Ett Excel-blad ska laddas ned till din dator.
+1. Klicka på **Rapport om innehållstilldelning** i åtgärdsfältet. Ett Excel-blad ska laddas ned till din dator.
 
    ![bild](/help/user-guide/assets/content-assignment-report/can-download.png)
 
    >[!NOTE]
-   >Det hämtade kalkylbladet består av fyra kolumner, till exempel **Kanaler**, **Resurser**, **Bildskärmar** och **Enheter** , som kan användas för att ytterligare undersöka dessa fyra enheter som hör till ditt AEM Screens-projekt.
+   >Det hämtade kalkylbladet består av fyra kolumner, till exempel **Kanaler**, **Resurser**, **Bildskärmar** och **Enheter**, som kan användas för att ytterligare undersöka dessa fyra enheter som hör till ditt AEM Screens-projekt.
 
 
 
