@@ -29,9 +29,9 @@ Om ditt Google Sheets har ett värde under 50 visas en bild med varma drycker oc
 
 ## Förhandsvillkor {#preconditions}
 
-Innan du börjar implementera aktiveringen av lokal temperatur i resecentret måste du lära dig hur du konfigurerar ***datalagret***, ***målgruppssegmenteringen*** och ***Aktivera målanpassning för kanaler*** i ett AEM Screens-projekt.
+Innan du börjar implementera aktiveringen av lokal temperatur i resecentret måste du lära dig att konfigurera ***datalagret***, ***målgruppssegmentering*** och ***Aktivera målanpassning för kanaler*** i ett AEM Screens-projekt.
 
-Mer information finns i [Configuring ContextHub i AEM Screens](configuring-context-hub.md) .
+Mer information finns i [Konfigurera ContextHub i AEM Screens](configuring-context-hub.md).
 
 ## Grundläggande flöde {#basic-flow}
 
@@ -46,27 +46,27 @@ Följ stegen nedan för att implementera användningsexemplet för aktivering av
 
 1. **Konfigurera segmenten i publiker enligt kraven**
 
-   1. Navigera till segmenten i målgruppen (se ***steg 2: Konfigurera målgruppssegmentering*** i **[Configuring ContextHub på AEM Screens](configuring-context-hub.md)** -sidan för mer information).
+   1. Navigera till segmenten i målgruppen (se ***Steg 2: Konfigurerar målgruppssegmentering*** på **[Konfigurera ContextHub på AEM Screens-sidan](configuring-context-hub.md)** för mer information).
 
-   1. Markera **blad A1 1** och klicka på **Redigera**.
+   1. Välj **Blad A1 1** och klicka på **Redigera**.
 
    1. Markera jämförelseegenskapen och klicka på konfigurationsikonen för att redigera egenskaperna.
    1. Välj **Googlesheets/value/1/0** i listrutan i **Egenskapsnamn**
 
-   1. Välj **operatorn** som **större än eller lika med** i listrutan
+   1. Välj **Operator** som **större än eller lika med** i listrutan
 
    1. Ange **värdet** som **50**
 
-   1. På samma sätt markerar du **Blad A1 2** och klickar på **Redigera**.
+   1. På samma sätt väljer du **Blad A1 2** och klickar på **Redigera**.
 
    1. Markera **jämförelseegenskapen - värde** och klicka på konfigurationsikonen för att redigera egenskaperna.
    1. Välj **Googlesheets/value/1/0** i listrutan i **Egenskapsnamn**
 
-   1. Välj **operatorn** som **mindre än** i listrutan
+   1. Välj **Operator** som **mindre än** i listrutan
 
    1. Ange **värdet** som **50**
 
-1. Navigera och markera kanalen () och klicka på **Redigera** i åtgärdsfältet. I följande exempel används **DataDrivenWeather** som en sekventiell kanal för att visa funktionaliteten.
+1. Navigera och markera kanalen () och klicka på **Redigera** i åtgärdsfältet. I följande exempel, **DataDrivenWeather**, används en sekventiell kanal för att visa funktionaliteten.
 
    >[!NOTE]
    >
@@ -76,11 +76,11 @@ Följ stegen nedan för att implementera användningsexemplet för aktivering av
 
    >[!CAUTION]
    >
-   >Du bör ha konfigurerat **ContextHub** **Configurations** med hjälp av fliken **Kanalegenskaper** —> **Personalisering** .
+   >Du bör ha konfigurerat din **ContextHub** **Configurations** med hjälp av fliken **Egenskaper** —> **Personalisering**.
 
    ![screen_shot_2019-05-08at114106am](assets/screen_shot_2019-05-08at114106am.png)
 
-1. Välj **Riktning** i redigeraren och välj **Varumärke** och **Aktivitet** i listrutan och klicka på **Start Targeting**.
+1. Välj **Mål** i redigeraren och välj **Varumärke** och **Aktivitet** i listrutan och klicka på **Starta målgruppsanpassning**.
 
    ![new_activity3](assets/new_activity3.gif)
 
