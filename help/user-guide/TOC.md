@@ -6,9 +6,9 @@ user-guide-title: Hjälp om Adobe Experience Manager Screens
 breadcrumb-title: AEM Screens Guide
 user-guide-description: Lär dig använda en lösning för digital signering som gör att du kan publicera dynamiska och interaktiva digitala upplevelser och interaktioner.
 translation-type: tm+mt
-source-git-commit: 20c6e15dbee0f2e50b42155d84fac7d6f372170e
+source-git-commit: 2d46d9f4d76739826fae0e75c1387d7a80bce69c
 workflow-type: tm+mt
-source-wordcount: '421'
+source-wordcount: '431'
 ht-degree: 1%
 
 ---
@@ -43,6 +43,7 @@ ht-degree: 1%
       + [Använda Chrome Player som ett tillägg för felsökning](using-chrome-player-as-an-extension.md)
       + [Android Player](implementing-android-player.md)
       + [Windows Player](implementing-windows-player.md)
+      + [Tizen Player](tizen-player.md)
    + Författarpublicera {#author-publish}
       + [Författare/Publicera arkitektur - översikt](author-publish-architecture-overview.md)
       + [Konfigurera författare och publicera](author-and-publish.md)
@@ -78,6 +79,7 @@ ht-degree: 1%
       + [Synkronisera kommandon](using-command-sync.md)
       + [Skapa med Data Triggers](authoring-data-triggers.md)
       + [Röstigenkänning](voice-recognition.md)
+      + [Tilldelningsrapport för innehåll](content-assignment-report.md)
    + Hantera innehållsuppdateringar {#content-updates}
       + [On Demand Content Update](on-demand-content.md)
       + [Uppdatering av innehållet som en tjänst](content-update-as-a-service.md)
@@ -106,6 +108,7 @@ ht-degree: 1%
    + [Felsökning av Device Control Center](monitoring-screens.md)
    + [Videouppspelningskonfiguration](troubleshoot-videos.md)
 + Versionsinformation {#release-notes}
+   + [Versionsinformation för funktionspaket 2011](release-notes-fp-202011.md)
    + [Versionsinformation för funktionspaket 2008](release-notes-fp-202008.md)
    + [Versionsinformation för funktionspaket 2004](release-notes-fp-202004.md)
    + [Versionsinformation för funktionspaket 2001](release-notes-fp-202001.md)
