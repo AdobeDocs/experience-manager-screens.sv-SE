@@ -20,7 +20,7 @@ ht-degree: 0%
 I det här steget ingår alla förberedelser och identifieringsåtgärder som krävs för att helt definiera projektets omfattning. Det arbete som utförs med Day Zero anger tonen för resten av projektet och påverkar den övergripande framgången för programmet som byggs.
 I det här skedet identifieras och sammanförs nyckelleverantörer för att hjälpa till att utforma projektplanen. Under den här fasen är det viktigt att köpa in med viktiga projektintressenter i kundföretaget, t.ex. säljchefer, marknadschefer och IT-team, eftersom de alla kommer att ha en viktig roll att spela i utvecklingen av applikationen och det fortsatta underhållet av den.
 
-## Viktiga slutprodukter {#key-deliverables}
+## Nyckelprodukter {#key-deliverables}
 
 Bland huvudresultaten finns följande:
 
@@ -32,6 +32,6 @@ Bland huvudresultaten finns följande:
 
 >[!NOTE]
 >
->Identifiera de data som behövs för programmet och varifrån de kommer så snart som möjligt. Medan djupare utforskning kommer att ske under implementeringen kan du under *Day Zero* ta reda på vilka data klienten har för avsikt att använda, var dessa data lagras för närvarande och hur de kan nås av det program som byggs. Genom att meddela utvecklingsteamet i förväg om utmaningar som kan komma att uppstå kommer implementeringen att gå smidigare.
+>Identifiera de data som behövs för programmet och varifrån de kommer så snart som möjligt. Medan mer detaljerad information kommer att ske under implementeringen kan du ta dig tid under *Day Zero* för att ta reda på vilka data klienten har för avsikt att använda, var dessa data lagras för närvarande och hur de kan nås av det program som byggs. Genom att meddela utvecklingsteamet i förväg om utmaningar som kan komma att uppstå kommer implementeringen att gå smidigare.
 
-Se videosjälvstudiekursen [Considerations as Projects are scoed](https://helpx.adobe.com/experience-manager/6-5/screens/using/project-considerations.html) för mer information.
+Se videosjälvstudiekursen [Saker att tänka på eftersom projekt är omfång](https://helpx.adobe.com/experience-manager/6-5/screens/using/project-considerations.html) för mer information.
