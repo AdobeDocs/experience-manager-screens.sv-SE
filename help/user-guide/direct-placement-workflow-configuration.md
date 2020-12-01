@@ -25,21 +25,21 @@ Detta avsnitt behandlar följande ämnen:
 
 Arbetsflödeskonfiguration för direktplacering mappar en AEM Screens-projektkanal till en viss mapp i resurser och gör det möjligt att placera resurser i den mappen. Vi rekommenderar att du aktiverar en satsvis offlineuppdatering för att slutföra publiceringen.
 
-Som innehållsförfattare kan du också klicka på **Uppdatera offlineinnehåll** manuellt.
+Som innehållsförfattare kan du också klicka manuellt på **Uppdatera offlineinnehåll**.
 
 >[!NOTE]
 >
->Mer information om hur du använder bulkuppdatering offline finns i [Innehållsuppdatering som en tjänst](/help/user-guide/content-update-as-a-service.md).
+>Mer information om hur du använder satsvis offlineuppdatering finns i [Innehållsuppdatering som en tjänst](/help/user-guide/content-update-as-a-service.md).
 
-## Konfigurera arbetsflöde för direktplacering {#configuring-workflow}
+## Konfigurerar arbetsflöde för direktplacering {#configuring-workflow}
 
 >[!IMPORTANT]
 >
->Innan du startar konfigurationen måste du installera [demopaketet](https://github.com/godanny86/screens-demo/releases/download/v.0.0.1/screens-demo.all-1.0-SNAPSHOT.zip). När du har installerat paketet bör du kunna visa och komma åt det från AEM:> Verktyg (ikon) —> **Arbetsflöde** —> **Arbetsflödesmodeller**.
+>Innan du startar konfigurationen måste du installera [demopaketet](https://github.com/godanny86/screens-demo/releases/download/v.0.0.1/screens-demo.all-1.0-SNAPSHOT.zip). När du har installerat paketet bör du kunna visa och komma åt det från din AEM instans —> Verktyg (ikon) —> **Arbetsflöde** —> **Arbetsflödesmodeller**.
 
 Följ stegen nedan för att konfigurera arbetsflödet för direktplacering:
 
-1. Navigera till AEM Screens från AEM och skapa ett skärmsprojekt med namnet **Asset Workflow**.
+1. Navigera till AEM Screens från din AEM och skapa ett skärmsprojekt med namnet **Resursarbetsflöde**.
 
-1. Skapa en kanal som heter **Arbetsflöde - Resurser** i mappen **Kanaler** .
+1. Skapa en kanal med namnet **Workflow-Assets** under **Channel**-mappen.
 
