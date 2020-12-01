@@ -12,11 +12,11 @@ ht-degree: 0%
 
 # Riktlinjer för val av maskinvara för spelarenhet {#hardware-selection}
 
-Följande avsnitt innehåller riktlinjer för maskinvaruval för en AEM-skärmspelare.
+Följande avsnitt innehåller riktlinjer för val av maskinvara för en AEM Screens-spelare.
 
 ## Viktiga överväganden {#important-considerations}
 
-* Källa alltid till ***kommersiella*** eller ***industriella*** komponenter för både PC Player och Display Panel eller Projector.
+* Källa alltid ***Commercial*** eller ***Industrial*** Grade-komponenter för både PC Player och Display Panel eller Projector.
 
 * Samarbeta alltid med leverantörer som levererar digitala signaturer.
 * Ta alltid hänsyn till miljöfaktorer som omgivningstemperatur och relativ luftfuktighet.
@@ -25,7 +25,7 @@ Följande avsnitt innehåller riktlinjer för maskinvaruval för en AEM-skärmsp
 
 ## Maskinvarukonfigurationer {#hardware-configurations}
 
-I följande tabell sammanfattas maskinvarukonfigurationerna med typiska användningsfall för ett AEM-skärmsprojekt:
+I följande tabell sammanfattas maskinvarukonfigurationerna med typiska användningsfall för ett AEM Screens-projekt:
 
 <table>
  <tbody>
@@ -47,10 +47,10 @@ I följande tabell sammanfattas maskinvarukonfigurationerna med typiska användn
    <td><p>・ChromeOS 32 GB</p> <p>・Windows 128 GB</p> </td>
    <td>OnBoard</td>
    <td>1920 x 1080</td>
-   <td>DVI,<br /> Ethernet/trådlöst,<br /> 2 x USB</td>
+   <td>DVI,<br /> Ethernet/trådlöst,<br /> 2x USB</td>
    <td>
     <ul>
-     <li>Helskärmsloop som standard<br /> </li>
+     <li>Standardrepetition i helskärmsläge<br /> </li>
      <li>Dag-parsning</li>
     </ul> </td>
   </tr>
@@ -61,7 +61,7 @@ I följande tabell sammanfattas maskinvarukonfigurationerna med typiska användn
    <td>128 GBB</td>
    <td>OnBoard</td>
    <td>3840x2160 (4K)</td>
-   <td>DVI, HDMI<br /> Ethernet/trådlöst,<br /> 2 x USB</td>
+   <td>DVI, HDMI<br /> Ethernet/trådlöst,<br /> 2x USB</td>
    <td>
     <ul>
      <li>Dynamiskt innehåll med en källa</li>
