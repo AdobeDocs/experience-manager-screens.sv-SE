@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # Miljöer {#environments}
 
-Bestäm i förväg vilka AEM miljöer kunden har och kommer att förvänta sig att du använder, både för *utveckling* och *distribution*.
+Bestäm i förväg vilka AEM miljöer klienten har och kommer att förvänta sig att du använder, både för *utveckling* och *distribution*.
 
 >[!NOTE]
 >
