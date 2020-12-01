@@ -33,10 +33,10 @@ När du skapar ett AEM Screens-projekt visas en lista med standardkomponenter so
 
 Följ stegen nedan om du vill visa standardkomponenterna för ditt skärmsprojekt:
 
-1. Markera kanalen. Exempel: **We.Retail In Store** —> **Channels** —> **Idle Channel**.
+1. Markera kanalen. Till exempel **We.Retail In Store** —> **Channels** —> **Inaktiv kanal**.
 
 1. Klicka på **Redigera** i åtgärdsfältet för att öppna AEM.
-1. Klicka på **+** -ikonen i sidofältet för att öppna komponenterna.
+1. Klicka på ikonen **+** i sidofältet för att öppna komponenterna.
 1. Alla komponenter som ingår som standard i ett AEM Screens-projekt visas, vilket visas i bilden nedan.
 
 ![screen_shot_2017-12-18at21350pm](assets/screen_shot_2017-12-18at21350pm.png)
@@ -47,12 +47,12 @@ AEM innehåller ett antal andra komponenter. Du kan alltid lägga till andra kom
 
 I följande exempel visas hur en Livefyre-komponent läggs till i ett AEM Screens-projekt:
 
-1. Markera kanalen där du vill lägga till en ny komponent. Exempel: **We.Retail In Store** —> **Channels** —> **Idle Channel**.
+1. Markera kanalen där du vill lägga till en ny komponent. Till exempel **We.Retail In Store** —> **Channels** —> **Inaktiv kanal**.
 
 1. Klicka på **Redigera** i åtgärdsfältet för att öppna redigeraren.
-1. Välj **designläge** .
-1. Markera hela designredigeraren till höger och klicka på inställningssymbolen för att öppna dialogrutan **ParSys Design** .
-1. Du kan välja vilka komponenter du vill importera till ditt AEM Screens-projekt. I följande exempel visas hur **Livefyre** -komponenten har lagts till i ett AEM Screens-projekt.
+1. Välj **Designläge**.
+1. Markera hela designredigeraren till höger och klicka på inställningssymbolen för att öppna dialogrutan **ParSys Design**.
+1. Du kan välja vilka komponenter du vill importera till ditt AEM Screens-projekt. I följande exempel visas hur komponenten **Livefyre** läggs till i ett AEM Screens-projekt.
 
 ![adding_components](assets/adding_components.gif)
 
@@ -60,7 +60,7 @@ I följande exempel visas hur en Livefyre-komponent läggs till i ett AEM Screen
 >
 >På samma sätt kan du lägga till valfritt antal andra komponenter som är kompatibla med AEM Screens i ditt projekt.
 
-## AEM skärmkomponenter {#understanding-aem-screen-components}
+## Förstå AEM skärmkomponenter {#understanding-aem-screen-components}
 
 I följande avsnitt förklaras vilka AEM Screens-komponenter du kan använda i ditt projekt.
 
@@ -70,7 +70,7 @@ I följande avsnitt förklaras vilka AEM Screens-komponenter du kan använda i d
 
 ### Program {#application}
 
-Med **programkomponenten** kan du lägga till ett program i kanalen.
+Med komponenten **Application** kan du lägga till ett program i kanalen.
 
 Programkomponenten har följande egenskaper:
 
@@ -89,7 +89,7 @@ I följande exempel visas hur du bäddar in en programkomponent tillsammans med 
 
 ### Kanal {#channel}
 
-Med **kanalkomponenten** kan du lägga till en hel kanal i projektet.
+Med komponenten **Kanal** kan du lägga till en hel kanal i projektet.
 
 Komponenten Channel har följande egenskaper:
 
@@ -124,7 +124,7 @@ Den inbäddade sidan har följande egenskaper:
   </tr>
   <tr>
    <td><strong><em>Sidsökväg<br /> </em></strong></td>
-   <td>Välj den här absoluta sökvägen där kanalen finns.<br /> </td>
+   <td>Välj den absoluta sökvägen där kanalen finns.<br /> </td>
   </tr>
   <tr>
    <td><strong><em>Varaktighet (ms)</em></strong></td>
@@ -137,7 +137,7 @@ Den inbäddade sidan har följande egenskaper:
 
 >[!NOTE]
 >
->Mer information om inbäddade sekvenser finns i avsnittet [Inbäddade sekvenser](embedded-sequences.md) under redigeringsskärmar.
+>Mer information om inbäddade sekvenser finns i [Embedded Sequences](embedded-sequences.md) under Authoring Screens.
 
 Med en inbäddad sekvens kan du lägga till en inbäddad sekvenskanal i den befintliga kanalen (med andra resurser).
 
@@ -159,7 +159,7 @@ Den inbäddade sekvensen har följande sidegenskaper:
   </tr>
   <tr>
    <td><strong><em>Strategi</em></strong></td>
-   <td>Ställ in den på <strong>original</strong> eller <strong>enkel</strong>. Om du ställer in värdet på <strong>original</strong> körs efterföljande helt på varje cykel i den överordnade sekvensen. Det andra möjliga värdet är <strong>enkelt</strong> och det skulle bara visa ett objekt i efterföljande körning (till exempel det första objektet i den första slingan, det andra objektet i den andra slingan och så vidare).</td>
+   <td>Ange det som <strong>original</strong> eller <strong>enkel</strong>. Om du ställer in värdet på <strong>original</strong> innebär det att efterföljande kommer att köras helt på varje cykel i den överordnade sekvensen. Det andra möjliga värdet är <strong>single</strong> och det skulle bara visa ett objekt i efterföljande körning (till exempel det första objektet i den första slingan, det andra objektet i den andra slingan och så vidare).</td>
   </tr>
  </tbody>
 </table>
@@ -168,7 +168,7 @@ Den inbäddade sekvensen har följande sidegenskaper:
 
 Med en dynamisk inbäddad sekvens kan du lägga till en sekvens som liknar den ovan nämnda förutom efter kanalroll.
 
-Mer information om inbäddade sekvenser finns i avsnittet [Inbäddade sekvenser](embedded-sequences.md) under redigeringsskärmar.
+Mer information om inbäddade sekvenser finns i [Embedded Sequences](embedded-sequences.md) under Authoring Screens.
 
 Den dynamiska inbäddade sekvensen har följande egenskaper:
 
@@ -188,7 +188,7 @@ Den dynamiska inbäddade sekvensen har följande egenskaper:
   </tr>
   <tr>
    <td><strong><em>Strategi</em></strong></td>
-   <td>Ställ in den på <strong>original</strong> eller <strong>enkel</strong>. Om du ställer in värdet på <strong>original</strong> körs efterföljande helt på varje cykel i den överordnade sekvensen. Det andra möjliga värdet är <strong>enkelt</strong> och det skulle bara visa ett objekt i efterföljande körning (till exempel det första objektet i den första slingan, det andra objektet i den andra slingan och så vidare).</td>
+   <td>Ange det som <strong>original</strong> eller <strong>enkel</strong>. Om du ställer in värdet på <strong>original</strong> innebär det att efterföljande kommer att köras helt på varje cykel i den överordnade sekvensen. Det andra möjliga värdet är <strong>single</strong> och det skulle bara visa ett objekt i efterföljande körning (till exempel det första objektet i den första slingan, det andra objektet i den andra slingan och så vidare).</td>
   </tr>
  </tbody>
 </table>
@@ -212,13 +212,13 @@ Mer information om hur du skapar ett upplevelsefragment och använder det i ett 
 
 >[!NOTE]
 >
->Biblioteken **på** klientsidan och de **statiska filer** som du lägger till från den här komponenten kommer att läggas till i befintliga **bibliotek** på klientsidan och statiska filer som läggs till från upplevelsefragmentets **egenskaper**.
+>**Bibliotek på klientsidan** och **statiska filer** som du lägger till från den här komponenten kommer att läggas till i **Bibliotek på klientsidan** och statiska filer som läggs till från **Egenskaper** för upplevelsefragmentet.
 
 ### Bild {#image}
 
 Med en bild kan du lägga till en bild i kanalen.
 
-Bildresursen har tre flikar: **Bild**, **Hjälpmedel** och **Sekvens**:
+Bildresursen har tre flikar: **Bild**, **Tillgänglighet** och **Sekvens**:
 
 | **Egenskap** | **Beskrivning** |
 |---|---|
@@ -231,7 +231,7 @@ Bildresursen har tre flikar: **Bild**, **Hjälpmedel** och **Sekvens**:
 | **Tillgänglighet** |
 | ***Alternativ text*** | Alternativ text till bilden. |
 | **Sekvens** |
-| ***Varaktighet*** | Som standard är längden inställd på *8000 ms*. Om du vill ändra uppspelningstiden för bilden uppdaterar du fältet **Varaktighet** . |
+| ***Varaktighet*** | Som standard är längden *8000 ms*. Om du vill ändra uppspelningstiden för bilden uppdaterar du fältet **Varaktighet**. |
 
 ### Övergång {#transition}
 
@@ -241,7 +241,7 @@ I följande bild visas övergångskomponenten (som lagts till med dra och släpp
 
 ![screen_shot_2019-07-25at104237am](assets/screen_shot_2019-07-25at104237am.png)
 
-Markera övergångsikonen och klicka på **Konfigurera** (skiftnyckelsikonen) för att öppna dialogrutan **Övergång** . Den här dialogrutan innehåller tre flikar:
+Markera övergångsikonen och klicka på **Konfigurera** (skiftnyckelsikonen) för att öppna dialogrutan **Övergång**. Den här dialogrutan innehåller tre flikar:
 
 * **Övergång**
 * **Sekvens**
@@ -249,7 +249,7 @@ Markera övergångsikonen och klicka på **Konfigurera** (skiftnyckelsikonen) f�
 
 >[!NOTE]
 >
->Som standard är sekvensen inställd på 600 ms. Du kan uppdatera övergångssekvensen till ett annat värde på fliken **Sekvens** .
+>Som standard är sekvensen inställd på 600 ms. Du kan uppdatera övergångssekvensen till ett annat värde med fliken **Sekvens**.
 
 ![övergång](assets/transition.gif)
 
@@ -267,7 +267,7 @@ Markera övergångsikonen och klicka på **Konfigurera** (skiftnyckelsikonen) f�
   </tr>
   <tr>
    <td><strong><em>Typ</em></strong></td>
-   <td><p>Typ av övergång mellan elementet före och det efter. Övergångstypen <strong>Type</strong> innehåller följande alternativ:</p>
+   <td><p>Typ av övergång mellan elementet före och det efter. Övergången <strong>Typ</strong> innehåller följande alternativ:</p>
     <ul>
      <li><strong>Normal</strong></li>
      <li><strong>Tona</strong></li>
@@ -326,7 +326,7 @@ Videokomponenten har följande egenskaper:
   </tr>
   <tr>
    <td><em><strong>Återgivning</strong></em></td>
-   <td><p>Om videoproportionerna inte får plats på skärmen kan du justera återgivningen så att den antingen <strong>innehåller</strong> eller <strong>täcker</strong>.</p> <p><em>Innehåller</em> innebär att hela videon visas och att de saknade områdena fylls med en svart ram.</p> <p><em>Omslag</em> innebär att videon täcker hela visningsrutan, men vissa delar som flödar över sidorna är dolda.</p> </td>
+   <td><p>Om videoproportionerna inte får plats på skärmen kan du justera återgivningen till <strong>contain</strong> eller <strong>cover</strong>.</p> <p><em>Med </em> Behållare menas att den fullständiga videon visas och att de saknade områdena fylls med en svart ram.</p> <p><em>Omslagsbilden </em> täcker hela visningsrutan, men vissa delar som flödar över sidorna är dolda.</p> </td>
   </tr>
   <tr>
    <td><em><strong>Storlek</strong></em></td>
