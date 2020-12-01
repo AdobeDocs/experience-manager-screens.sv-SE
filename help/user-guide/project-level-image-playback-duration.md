@@ -25,13 +25,13 @@ Innan du använder den här funktionen måste du konfigurera ett projekt som en 
 
 1. Skapa ett AEM Screens-projekt (i det här exemplet **ProjectLevelPlayback**)
 
-1. Skapa en sekvenskanal som **PlayBackChannel** under mappen **Kanaler**
+1. Skapa en sekvenskanal som **PlayBackChannel** under **Kanaler**-mapp
 
 1. Lägg till innehåll i **PlayBackChannel**
 
    ![resurser](assets/image_playback1.png)
 
-   I följande bild visas de bilder som lagts till i **PlayBackChannel** -redigeraren:
+   I följande bild visas de bilder som har lagts till i redigeraren **PlayBackChannel**:
 
    ![resurser](assets/image_playback2.png)
 
@@ -44,7 +44,7 @@ I avsnittet nedan beskrivs hur du redigerar uppspelningstiden för innehåll i e
 
 >[!NOTE]
 >
->Om du vill uppdatera en bild- eller kanalnivåuppspelningslängd ska du läsa [Bilduppspelningslängd](channel-level-image-playback.md)på kanalnivå.
+>Om du vill uppdatera uppspelningstiden på bild- eller kanalnivå läser du [Bilduppspelningstid på kanalnivå](channel-level-image-playback.md).
 
 Följ stegen nedan för att lära dig hur du uppdaterar bilduppspelningstiden på projektnivå:
 
@@ -55,7 +55,7 @@ Följ stegen nedan för att lära dig hur du uppdaterar bilduppspelningstiden p�
 
    ![screen_shot_2019-06-25at95945am](assets/screen_shot_2019-06-25at95945am.png)
 
-1. **Dialogrutan Sida** öppnas.
+1. **Dialogrutan** Sidor öppnas.
 
    >[!NOTE]
    >
