@@ -33,21 +33,21 @@ På den här sidan visas hur du skapar och hanterar skärmar.
 * [Skapa och hantera kanaler](managing-channels.md)
 * [Skapa och hantera platser](managing-locations.md)
 
-## Skapa en ny visning {#creating-a-new-display}
+## Skapar en ny visning {#creating-a-new-display}
 
 >[!NOTE]
 >
->Du måste skapa en plats innan du skapar en visning. Mer information om hur du skapar en plats finns i [Skapa och hantera platser](managing-locations.md) .
+>Du måste skapa en plats innan du skapar en visning. Mer information om hur du skapar en plats finns i [Skapa och hantera platser](managing-locations.md).
 
 Följ stegen nedan för att skapa en ny visning på din plats:
 
 1. Navigera till lämplig plats, till exempel `http://localhost:4502/screens.html/content/screens/TestProject`.
 1. Välj din platsmapp och tryck/klicka på **Skapa** bredvid plusikonen i åtgärdsfältet. En guide öppnas.
-1. Välj **Visning** i guiden **Skapa** och klicka på **Nästa**.
+1. Välj **Visa** i guiden **Skapa** och klicka på **Nästa**.
 
-1. Ange **namn** och **titel** för visningsplatsen.
+1. Ange **Namn** och **Titel** som visningsplats.
 
-1. Välj information om layouten på fliken **Visa** . Välj önskad **upplösning** (till exempel som **Full HD**). Dessutom kan du välja antalet enheter vågrätt och lodrätt.
+1. Välj information om layouten under fliken **Visa**. Välj önskad **upplösning** (till exempel **Full HD**). Dessutom kan du välja antalet enheter vågrätt och lodrätt.
 
 1. Klicka på **Skapa**.
 
@@ -63,7 +63,7 @@ När du har visat på plats är nästa steg att skapa en enhetskonfiguration fö
 >
 >När du har skapat en visning för din plats måste du tilldela en kanal till din skärm för att kunna utnyttja innehållet.
 >
->Mer information om hur du tilldelar en kanal till visningen finns i avsnittet [Tilldela kanaler](channel-assignment.md) .
+>Avsnittet [Tilldela kanaler](channel-assignment.md) innehåller information om hur du tilldelar en kanal till visningen.
 
 ## Skapa en ny enhetskonfiguration {#creating-a-new-device-config}
 
@@ -73,9 +73,9 @@ Följ stegen nedan för att skapa en ny enhetskonfiguration:
 
 1. Navigera till lämplig visning, till exempel `http://localhost:4502/screens.html/content/screens/TestProject/locations/newlocation`.
 1. Markera visningsmappen och tryck/klicka på **Visa instrumentpanel** i åtgärdsfältet.
-1. Tryck/klicka på **+ Lägg till enhetskonfiguration** högst upp till höger på panelen **Enheter** .
+1. Tryck/klicka på **+ Add Device Config** överst till höger på panelen **Devices**.
 
-1. Välj **enhetskonfigurationen** som önskad mall och tryck/klicka på **Nästa**.
+1. Välj **Device Config** som önskad mall och tryck/klicka på **Nästa**.
 
 1. Ange egenskaperna efter behov och tryck/klicka på **Skapa**.
 
@@ -89,9 +89,9 @@ När en enhetskonfiguration är inställd på din skärm på platsen blir nästa
 >
 >När en enhetskonfiguration är inställd på din skärm på platsen blir nästa steg att tilldela en kanal till din skärm.
 >
->Så som visas i figuren nedan, om enhetskonfigurationen visas som ej tilldelad på **enhetspanelen** , om ingen kanal har tilldelats den aktuella enhetskonfigurationen.
+>Om enhetskonfigurationen visas som ej tilldelad i panelen **DEVICES**, om ingen kanal har tilldelats den aktuella enhetskonfigurationen, vilket visas i figuren nedan.
 >
->Du bör ha en förståelse för att skapa och hantera kanaler. Mer information finns i [Skapa och hantera kanaler](managing-channels.md) .
+>Du bör ha en förståelse för att skapa och hantera kanaler. Mer information finns i [Skapa och hantera kanaler](managing-channels.md).
 
 ![chlimage_1-9](assets/chlimage_1-9.png)
 
@@ -109,20 +109,20 @@ På kontrollpanelen visas olika paneler för att hantera visningsenheter och enh
 
 ![cqdoc9456](assets/cqdoc9456.gif)
 
-### Visa informationspanel {#display-information-panel}
+### Visa informationspanelen {#display-information-panel}
 
 Panelen **VISNINGSINFORMATION** innehåller visningsegenskaperna.
 
-Klicka på (**...**) i det övre högra hörnet på panelen **VISNINGSINFORMATION** för att visa egenskaperna och förhandsgranska visningen.
+Klicka på (**)..**) i det övre högra hörnet i panelen **VISNINGSINFORMATION** för att visa egenskaperna och förhandsgranska visningen.
 
 
 #### Visningsegenskaper {#viewing-properties}
 
 Klicka på **Egenskaper** för att visa eller ändra egenskaperna för visningen.
 
-Dessutom kan du justera händelsens timervärde för den interaktiva kanalen i **timeout** för inaktivitet på fliken **Visning** . Standardvärdet är *300 sekunder*.
+Dessutom kan du justera händelsens timervärde för den interaktiva kanalen i egenskapen **Timeout för inaktivitet** under fliken **Visa**. Standardvärdet är *300 sekunder*.
 
-Använd **CRXDE Lite** för att komma åt **egenskapen idleTimeout** , d.v.s. `http://localhost:4502/crx/de/index.jsp#/content/screens/we-retail/locations/demo/flagship/single/jcr%3Acontent/channels` .
+Använd **CRXDE Lite** för att komma åt egenskapen **idleTimeout**, d.v.s. `http://localhost:4502/crx/de/index.jsp#/content/screens/we-retail/locations/demo/flagship/single/jcr%3Acontent/channels`.
 
 
 ### Panelen Tilldelade kanaler {#assigned-channels-panel}
@@ -134,7 +134,7 @@ På panelen **TILLDELADE KANALER** visas de tilldelade kanalerna för den här e
 
 Panelen **ENHETER** innehåller information om enhetskonfigurationerna.
 
-Klicka på (**...**) i det övre högra hörnet på panelen **Enheter** för att lägga till enhetskonfigurationer och uppdatera enheter.
+Klicka på (**)..**) i det övre högra hörnet i panelen **ENHETER** om du vill lägga till enhetskonfigurationer och uppdatera enheter.
 
 Klicka dessutom på enhetskonfigurationen för att visa egenskaper, tilldela en enhet eller ta bort den helt.
 
@@ -144,4 +144,4 @@ Klicka dessutom på enhetskonfigurationen för att visa egenskaper, tilldela en 
 
 När du är klar med att skapa en visning för din plats måste du tilldela en kanal för din visning.
 
-Mer information finns i [Tilldela kanaler](channel-assignment.md) .
+Mer information finns i [Tilldela kanaler](channel-assignment.md).
