@@ -33,11 +33,11 @@ Du kan även navigera direkt till: `http://localhost:4502/screens.html/content/s
 
 Följ stegen nedan för att skapa ett nytt skärmsprojekt:
 
-1. Välj **Skärmar** i AEM.
+1. Välj **Skärmar** från AEM.
 
 1. Klicka på **Skapa skärmsprojekt**.
 
-1. Ange titeln som **Testskärmar** och klicka på **Spara**.
+1. Ange titeln som **TestScreens** och klicka på **Spara**.
 
 Projektet skapas och du kommer tillbaka till konsolen Skärmprojekt. Nu kan du välja ditt projekt.
 
@@ -53,12 +53,12 @@ I ett projekt finns det fem typer av mappar, vilket visas i bilden nedan:
 
 >[!NOTE]
 >
->Som standard innehåller den inledande strukturen **överordnad sidor för scheman**, **platser**, **program**, **kanaler** och **enheter** , men du kan justera den manuellt om det behövs. Du kan ta bort alternativen om de inte är relevanta för ditt projekt.
+>Som standard innehåller den inledande strukturen **scheman**, **platser**, **program**, **kanaler** och **enheter** överordnad sidor, men den kan justeras manuellt om det behövs. Du kan ta bort alternativen om de inte är relevanta för ditt projekt.
 
 
 ## Visningsegenskaper {#viewing-properties}
 
-När du har skapat skärmprojektet markerar du projektet och klickar på **Egenskaper** i åtgärdsfältet för att redigera egenskaperna för projektet.
+När du har skapat skärmprojektet markerar du projektet och klickar på **Egenskaper** i åtgärdsfältet för att redigera egenskaper för projektet.
 
 Med följande alternativ kan du redigera/ändra egenskaper för **TestScreens**.
 
@@ -67,7 +67,7 @@ Med följande alternativ kan du redigera/ändra egenskaper för **TestScreens**.
 
 ## Skapa en anpassad mapp {#creating-a-custom-folder}
 
-Du kan också skapa en egen anpassad mapp under **överordnad sidor för scheman**, **platser**, **program**, **kanaler** och **enheter** som är tillgängliga i ditt projekt.
+Du kan också skapa en egen anpassad mapp under **Scheman**, **Platser**, **Program**, **Kanaler** och **Enheter** överordnad sidor som är tillgängliga i ditt projekt.
 
 Så här skapar du en anpassad mapp:
 
