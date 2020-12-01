@@ -16,7 +16,7 @@ ht-degree: 1%
 I början av AEM Screens demonstreras hur du konfigurerar och kör ett AEM Screens-projekt. Här får du hjälp med att skapa en grundläggande digital signeringsupplevelse och lägga till innehåll som resurser och/eller videor i varje kanal och publicera innehållet ytterligare i en AEM Screens-spelare.
 
 >[!NOTE]
->Kontrollera att du har installerat det senaste funktionspaketet för AEM Screens innan du börjar arbeta med projektinformationen. Du kan hämta det senaste funktionspaketet från [Software Distribution Portal](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) med din Adobe ID.
+>Kontrollera att du har installerat det senaste funktionspaketet för AEM Screens innan du börjar arbeta med projektinformationen. Du kan hämta det senaste funktionspaketet från [portalen för programvarudistribution](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) med din Adobe ID.
 
 ## Förutsättningar {#prerequisites}
 
@@ -28,47 +28,47 @@ Följ stegen nedan för att skapa ett exempelprojekt för AEM Screens och public
 >[!IMPORTANT]
 >**Konfigurationsinställningar för OSGi**
 >Du måste aktivera den tomma referenten för att enheten ska kunna skicka data till servern. Om t.ex. den tomma refereraregenskapen är inaktiverad, kan enheten inte publicera en skärmdump. Vissa av dessa funktioner är för närvarande bara tillgängliga om Apache Sling Referrer-filtret Tillåt tomt är aktiverat i OSGi-konfigurationen. Kontrollpanelen kan visa en varning om att skyddsinställningarna kan förhindra vissa av dessa funktioner från att fungera.
->Följ stegen nedan för att aktivera filtret ***Apache Sling Referrer Tillåt tomt***:
+>Följ stegen nedan för att aktivera ***Refererarfiltret för Apache Sling Tillåt tomt***:
 
 
 ## Tillåt tomma referentförfrågningar {#allow-empty-referrer-requests}
 
-1. Gå till **Adobe Experience Manager Web Console Configuration** via AEM:> hammer icon —> **Operations** —> **Web Console**.
+1. Navigera till **Adobe Experience Manager Web Console Configuration** via AEM:> hammer icon —> **Åtgärder** —> **Webbkonsol**.
 
    ![bild](assets/config/empty-ref1.png)
 
-1. **Adobe Experience Manager Web Console Configuration** öppnas. Sök efter försäljningsreferent.
+1. **Adobe Experience Manager Web Console-** konfigurationöppnas. Sök efter försäljningsreferent.
 
-   Om du vill söka efter egenskapen för Sing-refereraren trycker du på **Command+F** för **Mac** och **Ctrl+F** för **Windows**.
+   Om du vill söka efter egenskapen för snedbrytningsreferenten trycker du på **Command+F** för **Mac** och **Ctrl+F** för **Windows**.
 
-1. Markera alternativet **Tillåt tomt** , så som visas i bilden nedan.
+1. Markera alternativet **Tillåt tomt** enligt bilden nedan.
 
    ![bild](assets/config/empty-ref2.png)
 
 1. Klicka på **Spara** för att aktivera Apache Sling Referer-filtret Tillåt tomt.
 
-## Skapa en upplevelse av en digital skylt på 5 minuter {#creating-a-digital-signage-experience-in-minutes}
+## Skapa en upplevelse av en digital signatur på 5 minuter {#creating-a-digital-signage-experience-in-minutes}
 
-### Creating an AEM Screens Project {#creating-project}
+### Skapa ett AEM Screens-projekt {#creating-project}
 
 Det första steget är att skapa ett AEM Screens-projekt.
 
 1. Navigera till din Adobe Experience Manager-instans (AEM) och klicka på **Skärmar**. Du kan också navigera direkt från `https://localhost:4502/screens.html/content/screens](https://localhost:4502/screens.html/content/screens`.
 
-1. Klicka på **Skapa skärmsprojekt** för att skapa ett nytt skärmsprojekt. Ange titeln som **demoskärmar** och klicka på **Spara**.
+1. Klicka på **Skapa skärmsprojekt** för att skapa ett nytt skärmsprojekt. Ange titeln som **DemoScreens** och klicka på **Spara**.
 
    ![bild](assets/kickstart/demo-1.png)
 
    >[!NOTE]
    >När du har skapat projektet återgår du till startsidan för Skärmprojekt. Nu kan du välja ditt projekt. I ett projekt finns det fem olika mappar med namnen **Program**, **Kanaler**, **Enheter**, **Platser** och **Scheman**.
 
-### Skapa en kanal {#creating-channel}
+### Skapar en kanal {#creating-channel}
 
 När du har skapat ditt AEM Screens-projekt måste du skapa en ny kanal där du hanterar innehållet.
 
 Följ stegen nedan för att skapa en ny kanal för ditt projekt:
 
-1. När du har skapat ett projekt väljer du **DemoScreens** -projektet och väljer mappen **Kanaler** enligt bilden nedan. Klicka på **+ Skapa** i åtgärdsfältet.
+1. När du har skapat ett projekt väljer du **DemoScreens**-projektet och väljer mappen **Kanaler** enligt bilden nedan. Klicka på **+ Skapa** i åtgärdsfältet.
 
    ![bild](assets/kickstart/demo-2.png)
 
@@ -79,7 +79,7 @@ Följ stegen nedan för att skapa en ny kanal för ditt projekt:
 
    ![bild](assets/kickstart/demo-4.png)
 
-   TestChannel **** läggs nu till i din kanalmapp, vilket visas i bilden nedan.
+   **TestChannel** har nu lagts till i kanalmappen, vilket visas i bilden nedan.
 
    ![bild](assets/kickstart/demo-5.png)
 
@@ -89,9 +89,9 @@ När ni väl har er kanal på plats måste ni lägga till innehåll i kanalen so
 
 Följ stegen nedan för att lägga till innehåll i kanalen (**TestChannel**) i ditt projekt:
 
-1. Navigera till det **DemoProject** du skapade och välj **TestChannel** i mappen **Channels** .
+1. Navigera till **DemoProject** som du skapade och välj **TestChannel** i mappen **Kanaler**.
 
-1. Klicka på **Redigera** i åtgärdsfältet (se bilden nedan). Redigeraren för **TestChannel** öppnas.
+1. Klicka på **Redigera** i åtgärdsfältet (se figuren nedan). Redigeraren för **TestChannel** öppnas.
 
    ![bild](assets/kickstart/demo-6.png)
 
@@ -101,32 +101,32 @@ Följ stegen nedan för att lägga till innehåll i kanalen (**TestChannel**) i 
 
    ![bild](assets/kickstart/demo-7.png)
 
-### Skapa en plats {#creating-location}
+### Skapar en plats {#creating-location}
 
 När du väl har skapat kanalen måste du skapa en plats.
 
 >[!NOTE]
->***Platserna*** är olika för olika digitala signeringsupplevelser och innehåller de konfigurationer som visas beroende på var de olika skärmarna finns.
+>***Platser*** är en delstruktur för dina olika digitala signeringsupplevelser och innehåller de konfigurationer som visas beroende på var de olika skärmarna finns.
 
 Följ stegen nedan för att skapa en ny plats för ditt projekt:
 
-1. Navigera till **DemoProject** som du har skapat och välj mappen **Platser** .
+1. Navigera till **DemoProject** som du skapade och välj mappen **Platser**.
 
 1. Klicka på **+ Skapa** i åtgärdsfältet.
 
 1. Välj **Plats** i guiden och klicka på **Nästa**.
 
-1. Ange **namnet** för platsen (ange titeln som **TestLocation**) och klicka på **Skapa**.
+1. Ange **namnet** för din plats (ange titeln som **TestLocation**) och klicka på **Skapa**.
 
-TestLocation **** skapas och läggs till i mappen **Locations** .
+**TestLocation** skapas och läggs till i mappen **Platser**.
 
 
-### Skapa en visning för plats {#creating-display}
+### Skapar en visning för platsen {#creating-display}
 
 När du har skapat en plats måste du skapa en ny skärm för platsen.
 
 >[!NOTE]
->***Bildskärmen*** representerar den digitala upplevelse som körs på en eller flera skärmar.
+>***Display*** representerar den digitala upplevelsen som körs på en eller flera skärmar.
 
 1. Navigera till **TestLocation** och markera den.
 
@@ -134,15 +134,15 @@ När du har skapat en plats måste du skapa en ny skärm för platsen.
 
    ![bild](assets/kickstart/demo-disp1.png)
 
-1. Välj **Visning** i guiden **Skapa** och klicka på **Nästa**.
+1. Välj **Visa** i guiden **Skapa** och klicka på **Nästa**.
 
    ![bild](assets/kickstart/demo-disp2.png)
 
-1. Ange **Title** som **LobbyDisplay** och klicka på **Create**.
+1. Ange **titeln** som **LobbyDisplay** och klicka på **Skapa**.
 
    ![bild](assets/kickstart/demo-disp3.png)
 
-   En ny skärm med namnet **TestDisplay** läggs nu till på din plats **TestLocation**, vilket visas i bilden nedan.
+   En ny skärm med namnet **TestDisplay** har nu lagts till på din plats **TestLocation**, vilket visas i bilden nedan.
 
    ![bild](assets/kickstart/demo-disp4.png)
 
@@ -150,7 +150,7 @@ När du har skapat en plats måste du skapa en ny skärm för platsen.
 
 När projektkonfigurationen är klar måste du tilldela kanalen till en skärm för att kunna visa innehållet.
 
-1. Navigera till önskad visning från **DemoScreens** —> **Locations** —> **TestLocation** —> **LobbyDisplay**.
+1. Navigera till önskad visning från **DemoScreens** —> **Platser** —> **TestLocation** —> **LobbyDisplay**.
 
 1. Tryck/klicka på **Tilldela kanal** i åtgärdsfältet.
 
@@ -158,25 +158,25 @@ När projektkonfigurationen är klar måste du tilldela kanalen till en skärm f
 
    Eller
 
-   Tryck/klicka på **Kontrollpanel** i åtgärdsfältet och klicka på **+Tilldela kanal** på panelen **TILLDELADE KANALER &amp; SCHEMALER** .
+   Tryck/klicka på **Kontrollpanel** i åtgärdsfältet och klicka på **+Tilldela kanal** på panelen **TILLDELADE KANALER OCH SCHEMAT**.
 
    ![bild](assets/kickstart/demo-assign2.png)
 
 1. Dialogrutan **Kanaltilldelning** öppnas.
 
-1. I alternativet **Inställningar** väljer du kanal **efter sökväg** och **händelser** som stöds som **Inledande inläsning** och **Inaktiv skärm**.
+1. I alternativet **Inställningar** väljer du kanalen **efter sökväg** och **Händelser som stöds** som **Inledande inläsning** och **Inaktivitetsskärm**.
 
    >[!NOTE]
    >
-   >Kanalrollen **,** prioritet **och** avbrottsmetoder **** fylls i som standard. Mer information om egenskaper för kanaltilldelning finns i avsnittet [Kanalegenskaper](/help/user-guide/channel-assignment-latest-fp.md#channel-properties) .
+   >Kanalrollen **a1/>,** Prioritet **och** Avbrottsmetoder **fylls i som standard.** Mer information om kanaltilldelningsegenskaper finns i [avsnittet Kanalegenskaper](/help/user-guide/channel-assignment-latest-fp.md#channel-properties).
 
    ![bild](assets/kickstart/demo-assign3.png)
 
    Dessutom kan du välja **Aktiveringsfönstret** och **Återkommande schema**.
 
    >[!NOTE]
-   >Med *upprepningsschemat* kan du ange ett återkommande schema för din kanal. Du ställer in flera upprepningsscheman för en kanal.
-   >Mer information finns i [Återkommande schema](/help/user-guide/channel-assignment-latest-fp.md#recurrence-schedule) .
+   >Med *upprepningsschemat* kan du ange ett återkommande schema för kanalen. Du ställer in flera upprepningsscheman för en kanal.
+   >Mer information finns i [Återkommande schema](/help/user-guide/channel-assignment-latest-fp.md#recurrence-schedule).
 
 1. Klicka på **Spara** när du har konfigurerat inställningarna.
 
@@ -187,25 +187,25 @@ Du måste registrera din enhet med AEM kontrollpanel.
 >[!IMPORTANT]
 >Chrome OS-spelaren kan installeras som Chrome Browser-plugin i utvecklarläge utan att den faktiska enheten för Chrome Player krävs. För installation, följ stegen nedan:
 >
->1. Klicka [här](https://download.macromedia.com/screens/) för att hämta den senaste Chrome Player-versionen.
+>1. Klicka [här](https://download.macromedia.com/screens/) för att hämta den senaste Chrome Player.
 >1. Zippa upp och spara det på disken.
 >1. Öppna webbläsaren Chrome och välj **Tillägg** på menyn eller navigera direkt till ***chrome://extensions***.
 >1. Aktivera **utvecklarläget** i det övre högra hörnet.
->1. Klicka på **Läs in opackad** från det övre vänstra hörnet och läs in den uppzippade Chrome Player.
->1. Kontrollera plugin-programmet för **AEM Screens Chrome Player** om det finns i listan över tillägg.
->1. Öppna en ny flik och klicka på **Apps** -ikonen i det övre vänstra hörnet eller navigera direkt till ***chrome://apps***.
->1. Klicka på **AEM Screens** Plugin för att starta Chrome Player. Som standard startas spelaren i helskärmsläge. Tryck på **Esc** för att avsluta helskärmsläget.
+>1. Klicka på **Läs in opackad** från det övre vänstra hörnet och läs in den uppackade Chrome Player.
+>1. Kontrollera **AEM Screens Chrome Player**-plugin om det finns i listan över tillägg.
+>1. Öppna en ny flik och klicka på ikonen **Apps** i det övre vänstra hörnet eller navigera direkt till ***chrome://apps***.
+>1. Klicka på **AEM Screens** Plugin för att starta Chrome Player. Som standard startas spelaren i helskärmsläge. Tryck på **esc** för att avsluta helskärmsläget.
 
 
 När du har aktiverat Chrome OS-spelaren följer du stegen nedan för att registrera en Chrome-enhet.
 
-1. Navigera till mappen **Enheter** i ditt projekt från AEM.
+1. Navigera till mappen **Enheter** i ditt projekt från din AEM.
 
 1. Tryck/klicka på **Enhetshanteraren** i åtgärdsfältet.
 
    ![bild](assets/kickstart/demo-register1.png)
 
-1. Tryck/klicka på **Enhetsregistrering** i det övre högra hörnet.
+1. Tryck/klicka på **Device Registration** överst till höger.
 
 1. Välj önskad enhet och tryck/klicka på **Registrera enhet**.
 
@@ -216,15 +216,15 @@ När du har aktiverat Chrome OS-spelaren följer du stegen nedan för att regist
 
 1. Om **registreringskoden** är densamma på båda datorerna trycker/klickar du på **Validera** i AEM.
 
-1. Ange det önskade namnet **ChromeDevice forDemo** för enheten och klicka på **Registrera**.
+1. Ange önskat namn som **ChromeDevice forDemo** för enheten och klicka på **Registrera**.
 
    ![bild](assets/kickstart/demo-register4.png)
 
-1. Klicka på **Tilldela visning** i dialogrutan **Enhetsregistrering lyckades** .
+1. Klicka på **Tilldela visning** i dialogrutan **Device Registration Successful**.
 
    ![bild](assets/kickstart/demo-register5.png)
 
-1. Välj sökvägen till din visning som **DemoScreens** —> **Locations** —> **TestLocation** —> **LobbyDisplay** och klicka på **Tilldela**.
+1. Välj sökvägen till din skärm som **DemoScreens** —> **Platser** —> **TestLocation** —> **LobbyDisplay** och klicka på **Tilldela**.
 
    ![bild](assets/kickstart/demo-device6.png)
 
