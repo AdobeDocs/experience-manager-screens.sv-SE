@@ -48,18 +48,18 @@ I följande diagram visas författarmiljön och publiceringsmiljön.
 
 ![screen_shot_2019-03-04at30236pm](assets/screen_shot_2019-03-04at30236pm.png)
 
-## Arkitektur {#architectural-design}
+## Arkitekturdesign {#architectural-design}
 
 Det finns fem arkitektoniska komponenter som underlättar denna lösning:
 
-* ***Replikera innehåll*** från författare till publicering för visning på enheter
+* ***Replikera*** innehåll från författare till publicering för visning på enheter
 
-* ***Invertera*** replikerat binärt innehåll från publicering (tas emot från enheter) till författare
-* ***Skicka*** kommandon från författaren för publicering via särskilda REST API:er
+* ***Återge*** replikering av binärt innehåll från publicering (mottaget från enheter) till författare
+* ***Skicka*** kommandon från författaren till publicering via särskilda REST API:er
 * ***Meddelanden*** mellan publiceringsinstanser för att synkronisera uppdateringar och kommandon för enhetsinformation
-* ***Avsökning*** av författaren av publiceringsinstanser för att få enhetsinformation via specifika REST API:er
+* ***Avfrågning*** från författaren av publiceringsinstanser för att få enhetsinformation via specifika REST API:er
 
-### Replikering (framåt) av innehåll och konfigurationer  {#replication-forward-of-content-and-configurations}
+### Replikering (framåt) av innehåll och konfigurationer {#replication-forward-of-content-and-configurations}
 
 Standardreplikeringsagenter används för att replikera skärmens kanalinnehåll, platskonfigurationer och enhetskonfigurationer. Detta gör det möjligt för författare att uppdatera innehållet i en kanal och eventuellt gå igenom något slags godkännandearbetsflöde innan kanaluppdateringar publiceras. En replikeringsagent måste skapas för varje publiceringsinstans i publiceringsgruppen.
 
@@ -71,13 +71,13 @@ I följande diagram visas replikeringsprocessen:
 >
 >En replikeringsagent måste skapas för varje publiceringsinstans i publiceringsgruppen.
 
-### Skärmreplikeringsagenter och kommandon  {#screens-replication-agents-and-commands}
+### Skärmreplikeringsagenter och kommandon {#screens-replication-agents-and-commands}
 
 Specifika replikeringsagenter för anpassade skärmar skapas för att skicka kommandon från författarinstansen till AEM Screens-enheten. AEM Publish-instanserna fungerar som en mellanhand för att vidarebefordra dessa kommandon till enheten.
 
 Detta gör att författare kan fortsätta att hantera enheten, till exempel skicka enhetsuppdateringar och ta skärmbilder från redigeringsmiljön. AEM Screens replikeringsagenter har en anpassad transportkonfiguration, som vanliga replikeringsagenter.
 
-### Meddelanden mellan publiceringsinstanser  {#messaging-between-publish-instances}
+### Meddelanden mellan publiceringsinstanser {#messaging-between-publish-instances}
 
 I många fall är det bara meningen att ett kommando ska skickas till en enhet en gång. I en belastningsutjämnad publiceringsarkitektur är det dock okänt vilken publiceringsinstans enheten ansluter till.
 
@@ -85,20 +85,20 @@ Därför skickar författarinstansen meddelandet till alla publiceringsinstanser
 
 ### Omvänd replikering {#reverse-replication}
 
-I många fall, efter ett kommando, förväntas något svar från skärmenheten vidarebefordras till författarinstansen. För att uppnå detta AEM används ***omvänd replikering*** .
+I många fall, efter ett kommando, förväntas något svar från skärmenheten vidarebefordras till författarinstansen. För att uppnå detta AEM ***Omvänd replikering*** används.
 
 * Skapa en omvänd replikeringsagent för varje publiceringsinstans, precis som standardsreplikeringsagenterna och skärmreplikeringsagenterna.
 * En arbetsflödeskonfiguration lyssnar efter noder som ändrats på publiceringsinstansen och utlöser i sin tur ett arbetsflöde för att placera enhetens svar i publiceringsinstansens utkorg.
 * En omvänd replikering i det här sammanhanget används bara för binära data (till exempel loggfiler och skärmbilder) som tillhandahålls av enheterna. Icke-binära data hämtas genom avsökning.
 * Omvänd replikering som avfrågas från AEM författarinstans hämtar svaret och sparar det i författarinstansen.
 
-### Avsökning av publiceringsinstanser  {#polling-of-publish-instances}
+### Avsökning av publiceringsinstanser {#polling-of-publish-instances}
 
 Författarinstansen måste kunna avfråga enheterna för att få pulsslag och veta hälsostatusen för en ansluten enhet.
 
-Enheter som pingar belastningsutjämnaren och dirigeras till en publiceringsinstans. Enhetens status visas sedan av publiceringsinstansen via ett publicerings-API som opereras med **api/screens-dcc/devices/static** för alla aktiva enheter och **api/screens-dcc/devices/&lt;device_id>/status.json** för en enskild enhet.
+Enheter som pingar belastningsutjämnaren och dirigeras till en publiceringsinstans. Enhetens status visas sedan av publiceringsinstansen via ett publicerings-API (**api/screens-dcc/devices/static**) för alla aktiva enheter och **api/screens-dcc/devices/&lt;device_id>/status.json** för en enskild enhet.
 
-Författarinstansen avsöker alla publiceringsinstanser och sammanfogar enhetsstatussvaren till en enda status. Det schemalagda jobbet som avfrågar efter författare är `com.adobe.cq.screens.impl.jobs.DistributedDevicesStatiUpdateJob` och kan konfigureras baserat på ett cron-uttryck.
+Författarinstansen avsöker alla publiceringsinstanser och sammanfogar enhetsstatussvaren till en enda status. Det schemalagda jobbet som avfrågar författaren är `com.adobe.cq.screens.impl.jobs.DistributedDevicesStatiUpdateJob` och kan konfigureras baserat på ett cron-uttryck.
 
 ## Registrering {#registration}
 
@@ -110,4 +110,4 @@ När en enhet har registrerats i redigeringsmiljön replikeras enhetskonfigurati
 
 ### Nästa steg {#the-next-steps}
 
-När du har lärt dig den arkitektoniska designen för författare och publiceringskonfigurationen i AEM Screens finns mer information i [Konfigurera författare och publicera för AEM Screens](author-and-publish.md) .
+När du har lärt dig den arkitektoniska designen för författaren och publiceringsinställningarna i AEM Screens finns mer information i [Configuring Author and Publish for AEM Screens](author-and-publish.md).
