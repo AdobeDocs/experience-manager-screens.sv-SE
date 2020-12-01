@@ -19,7 +19,7 @@ ht-degree: 0%
 ---
 
 
-# Adobe Analytics Integration med AEM Screens {#adobe-analytics-integration-with-aem-screens}
+# Adobe Analytics-integrering med AEM Screens {#adobe-analytics-integration-with-aem-screens}
 
 >[!CAUTION]
 >
@@ -37,7 +37,7 @@ Detta avsnitt behandlar följande ämnen:
 
 ## Översikt {#overview}
 
-***AEM Screens*** utnyttjar Adobe Analytics och med det kan ni uppnå något unikt på marknaden - flerkanalsanalyser som hjälper er att korrelera innehåll som visas på plats med andra datakällor.
+***AEM*** Screensutnyttjar Adobe Analytics och med det kan ni uppnå något unikt på marknaden - flerkanalsanalyser som hjälper er att korrelera innehåll som visas på plats med andra datakällor.
 
 AEM Screens är en färdig integrerad lösning med Adobe Analytics och ger dig ett bevis på uppspelning.
 
@@ -50,7 +50,7 @@ I det här avsnittet beskrivs följande funktioner som används för att ansluta
 * Gör det möjligt att skapa feedbackslingor som spårar uppspelningshändelser över tid
 * Tillåter systemet att ändra innehåll och layouter baserat på kriterier som innehållets författare har definierat
 
-Adobe Analytics Integration med AEM Screens har alltså följande *mål*:
+Adobe Analytics-integrering med AEM Screens tillämpar därför följande *mål*:
 
 * Aktivera ROI från implementering av digitala signaturer
 * Integrera Analytics som grund för att i framtiden kunna samla in och analysera användningsinformation
@@ -67,15 +67,15 @@ I följande diagram förklaras Adobe Analytics Integration med AEM Screens:
 
 Adobe Analytics-inställningarna kan konfigureras från OSGi-konsolen.
 
-Navigera till **Adobe Experience Manager Web Console Configuration** och konfigurera Adobe Analytics för AEM Screens enligt bilden nedan:
+Navigera till **Adobe Experience Manager Web Console Configuration** för att konfigurera Adobe Analytics för AEM Screens enligt bilden nedan:
 
 ![screen_shot_2018-09-04at25550pm](assets/screen_shot_2018-09-04at25550pm.png)
 
-## Skärmanalys: Aktivera flöde {#screens-analytics-enablement-flow}
+## Skärmanalys: Aktiveringsflöde {#screens-analytics-enablement-flow}
 
 >[!CAUTION]
 >
->Innan du konfigurerar egenskaperna bör du kontakta din Adobe Relationship Manager för att skapa en biljett för att få ett **Analytics API Key** and **Analytics Project** som kan användas med AEM Screens.
+>Innan du konfigurerar egenskaperna bör du kontakta din Adobe Relationship Manager och skapa en biljett för att få en **API-nyckel för analys** och **Analytics-projekt** som kan användas med AEM Screens.
 
 ![]()
 
@@ -83,7 +83,7 @@ Navigera till **Adobe Experience Manager Web Console Configuration** och konfigu
 
 >[!CAUTION]
 >
->Innan du konfigurerar egenskaperna bör du kontakta din Adobe Relationship Manager för att skapa en biljett för att få ett **Analytics API Key** and **Analytics Project** som kan användas med AEM Screens.
+>Innan du konfigurerar egenskaperna bör du kontakta din Adobe Relationship Manager och skapa en biljett för att få en **API-nyckel för analys** och **Analytics-projekt** som kan användas med AEM Screens.
 
 I följande tabell visas egenskaperna med en beskrivning av hur du konfigurerar Adobe Analytics för AEM Screens:
 
@@ -96,7 +96,7 @@ I följande tabell visas egenskaperna med en beskrivning av hur du konfigurerar 
   <tr>
    <td><strong>Analytics URL</strong></td>
    <td>URL för att publicera analysdata från spelaren. <br>
-   För utveckling/scen</em> - https://cc-api-data-stage.adobe.io/ingest/<br /> <em>för produktion</em> - https://cc-api-data.adobe.io/ingest/</em><br /> <br /></td>
+   För utveckling/scen</em>  - https://cc-api-data-stage.adobe.io/ingest/<br /> <em> för produktion</em> - https://cc-api-data.adobe.io/ingest/</em><br /> <br /></td>
   </tr>
   <tr>
    <td><strong>API-nyckel för analyser</strong></td>
@@ -119,7 +119,7 @@ I följande tabell visas egenskaperna med en beskrivning av hur du konfigurerar 
 
 >[!NOTE]
 >
->Som standard är **Analytics-sändningsfrekvensen** 15 minuter.
+>Som standard är **Skicka-frekvens för analys** 15 minuter.
 
 #### Använda Adobe Analytics-tjänsten i AEM Screens {#using-adobe-analytics-service-in-aem-screens}
 
