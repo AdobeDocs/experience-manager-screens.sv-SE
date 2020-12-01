@@ -15,7 +15,7 @@ ht-degree: 1%
 ---
 
 
-# Best Practices Guide for AEM Screens Projects {#using}
+# Guide till bästa praxis för AEM Screens-projekt {#using}
 
 + [Om den här guiden](about-guide.md)
 + Översikt {#overview}
