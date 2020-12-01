@@ -20,7 +20,7 @@ ht-degree: 0%
 
 En karta över användarupplevelser är utformad för att ge insyn i hur och varför användarna kommer att uppleva det digitala innehåll som levereras via nätverket.
 
-## Bygga UX Journey Map {#building-map}
+## Bygger UX Journey Map {#building-map}
 
 Att förstå hur konsumenterna kommer att interagera med ett digitalt signeringsnätverk i en fysisk rymd är avgörande för att det nätverket ska lyckas och ge mervärde. Det hjälper också till att förstå hur de digitala upplevelserna kommer att konsumeras i samband med alla andra kanaler som en kund kan träffa på.
 
