@@ -12,7 +12,7 @@ ht-degree: 0%
 ---
 
 
-# Övergång till plattform {#transition-platform}
+# Övergång till plattformen {#transition-platform}
 
 >[!NOTE]
 >
@@ -24,15 +24,15 @@ Detta inkluderar mappning av plattformsspecifika konfigurationer till löst defi
 
 Exempel är hur och när man ska använda:
 
-* **Upplevelsefragment** för att skapa innehållsgrupperingar
-* **Innehållsfragment** för att skapa textvariationer
-* **Context Hub** för att skapa externa datalager, SPA för interaktiva upplevelser
-* **OSGi-tjänster** för nätverksaviseringar
-* **Resurslänk** för Creative Cloud
-* **Nätverksmappar** för resursallokering
-* **Textövertäckning** för realtidsdata
-* **Scheman** för displaygruppering/kanalgruppering
-* **Arbetsflöden** för automatiserade innehållsredigeringar.
+* **Upplevelsefragmenterför** att skapa innehållsgrupperingar
+* **Innehållsfragmenterför** att skapa textvarianter
+* **Context** Hubbar för att skapa externa datalager, SPA för interaktiva upplevelser
+* **OSGi-** tjänster för nätverksaviseringar
+* **Resurslänkar** för Creative Cloud
+* **Nätverksmappar** för resurstilldelning
+* **Textöverlägg** för realtidsdata
+* **** Scheman för displaygruppering/kanalgruppering
+* **** arbetsflöden för automatiserade innehållsredigeringar.
 
 I den här fasen är det viktigt att granska alla nödvändiga uppgifter och aktiviteter som behöver åtgärdas och dokumentera dem på rätt sätt så att tilldelade uppgifter kan spåras korrekt i distributionsfasen.
 
