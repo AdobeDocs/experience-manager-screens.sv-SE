@@ -23,7 +23,7 @@ I följande diagram visas Mobile Network with Mobile Data Router and Active Netw
 
 ![](/help/using/assets/mobile-network-1.png)
 
-## Ansluta AEM Screens Player till mobilnätverk med mobil datarouter och aktiva nätverkskomponenter {#connecting-aem-screens-players}
+## Ansluta AEM Screens Player till mobilnätverk med Mobile Data Router och aktiva nätverkskomponenter {#connecting-aem-screens-players}
 
 Följ stegen nedan för att se till att AEM skärmspelare är korrekt anslutna i den här konfigurationen:
 
@@ -44,7 +44,7 @@ Konfigurationen tilldelar en Internet-åtkomst för varje AEM Screens-styrenhet 
 
    >[!NOTE]
    >**Felsökningstips**
-   >Om AEM Screens inte ansluter som det ska och det förväntade innehållet inte visas, bör du kontrollera om det finns några begränsningar för Internet Router-brandväggen `TCP/IP Port 80/443`.
+   >Om AEM Screens inte ansluter korrekt och det förväntade innehållet inte visas, bör du kontrollera i Internet Router-brandväggen om det finns några begränsningar för `TCP/IP Port 80/443`.
 
 
 ## Konfigurera mobilnätverk med mobil datarouter och aktiva nätverkskomponenter {#requirements-direct}
@@ -55,11 +55,11 @@ Nätverksinstallationen kan logiskt separeras i två block:
 
 * Lokalt nätverk
 
-### Mobil Internetanslutning {#mobile-internet-connection}
+### Mobil internetanslutning {#mobile-internet-connection}
 
 Prestandan för internetanslutningen måste, förutom den redan beskrivna nätverksanslutningen, tillhandahålla tillräcklig bandbredd för att AEM Screens-nedladdningar ska fungera smidigt.
 
-*Tillräckligt* beroende på hur många anslutna AEM skärmar som används och på hur andra användare i nätverket använder sig, till exempel smarttelefoner, surfplattor, kassörer, datorer eller gästnätverk för trådlösa nätverk.
+*Tillräcklig* effektivitet beror på mängden anslutna AEM skärmar och på hur andra konsumenter använder nätverket, till exempel smarttelefoner, surfplattor, kassörer, datorer eller Gästnätverk för trådlösa nätverk.
 Tänk på att alla enheter har samtidig åtkomst till Internet och att bandbredden vanligtvis minskar linjärt samtidigt som fler användare/datorer läggs till i nätverket.
 Förutom den specifika teoretiska nätverksanslutningen måste det säkerställas att mobilrouterns täckning är åtminstone&quot;god&quot;. Dessutom måste den underliggande månadsplanen täcka in tillräckligt med datakapacitet och tillräcklig bandbredd för att alla anslutna klienter ska kunna betjäna det anslutna nätverket.
 
@@ -69,7 +69,7 @@ I följande tabell visas datanätverken med sin standardbandbredd:
 |--- |--- |
 | 3G | 42 Mbit/s |
 | 4G | 150 Mbit/s |
-| 5G | 1 000 - 1 000 Mbit/s |
+| 5 G | 1 000 - 1 000 Mbit/s |
 
 När du överväger vilket datanätverk som ska användas bör du svara på följande frågor:
 
@@ -85,7 +85,7 @@ När du överväger vilket datanätverk som ska användas bör du svara på föl
 
 >[!IMPORTANT]
 >
->För inledande överföring av mediefiler, till exempel, måste en högre datamängd och en ökad hämtningstid förväntas och återspeglas i ovanstående antaganden, samtidigt som nya spelare integreras. Ett 4G-nätverk med *bra* täckning och obegränsade data bör matcha de vanligaste installationerna i den här nätverksinstallationen.
+>För inledande överföring av mediefiler, till exempel, måste en högre datamängd och en ökad hämtningstid förväntas och återspeglas i ovanstående antaganden, samtidigt som nya spelare integreras. Ett 4G-nätverk med *bra* täckning och obegränsade data bör matcha de vanligaste installationerna i den här nätverksinställningarna.
 
 
 ### Lokalt nätverk {#lan-connection}
@@ -94,9 +94,9 @@ LAN-nätverkets prestanda, förutom den redan beskrivna nätverkets nåbarhet, m
 
 Nätverkskomponenterna bör till exempel minst matcha 100 Mbit/s-standarden och matcha den bandbredd som anges i specifikationen Internet Access/Router.
 
-Om en Wi-Fi-lösning planeras för att ansluta skärmen till Internet Link rekommenderar vi att du åtminstone använder moderna Wi-Fi-standarder som IEEE 802.11g. Den här standarden stöder anslutningar på upp till 54 Mbit/s. Alla *nyare* standarder som 802.11h-n har bättre kvalitet. Om en Wi-Fi Repeater krävs rekommenderar vi starkt trådlös nätanslutningspunktsteknik som Google Nest Mesh Wi-Fi eller liknande.
+Om en Wi-Fi-lösning planeras för att ansluta skärmen till Internet Link rekommenderar vi att du åtminstone använder moderna Wi-Fi-standarder som IEEE 802.11g. Den här standarden stöder anslutningar på upp till 54 Mbit/s. Alla *nyare*-standarder som 802.11h-n har bättre kvalitet. Om en Wi-Fi Repeater krävs rekommenderar vi starkt trådlös nätanslutningspunktsteknik som Google Nest Mesh Wi-Fi eller liknande.
 
-## Hämta media och resurser {#download}
+## Hämtar media och resurser {#download}
 
 AEM Screens ger användare av digitala signaturer en stor fördel. Den hämtar och sparar alla nödvändiga mediefiler lokalt, som bilder och video. På grund av detta koncept uppstår den största nätverkstrafiken om det finns nytt innehåll som ska visas på en viss skärm.
 För normal åtgärd, till exempel om du har definierat en spellista som inte uppdateras ofta under dagen, är detta en åtgärd som är nära nätverksoberoende när alla filer har sparats i spelaren.
