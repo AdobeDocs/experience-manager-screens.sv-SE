@@ -1,6 +1,6 @@
 ---
 title: Introduktion till [!UICONTROL AEM Screens]
-seo-title: Best Practices Guide for [!UICONTROL AEM Screens] Projects
+seo-title: Guide till bästa praxis för [!UICONTROL AEM Screens]-projekt
 description: Den här sidan är en introduktion till AEM Screens
 seo-description: Den här sidan innehåller en introduktion till AEM Screens
 translation-type: tm+mt
@@ -14,7 +14,7 @@ ht-degree: 9%
 
 # Introduktion till AEM Screens {#introduction}
 
-**AEM (Adobe Experience Manager) Screens** är en lösning för digital signering som gör det möjligt att skapa, publicera och spela dynamiska och interaktiva digitala upplevelser som omfattar olika typer av skärmar på plats i kombination med en omfattande strategi för digital marknadsföring i flera kanaler.
+**AEM (Adobe Experience Manager)** Screensis är en digital signeringslösning som gör det möjligt att skapa, publicera och spela dynamiska och interaktiva digitala upplevelser som omfattar olika typer av skärmar på plats i kombination med en omfattande strategi för digital marknadsföring i flera kanaler.
 
 Med AEM Screens kan du skapa:
 
@@ -53,7 +53,7 @@ AEM Screens erbjuder en enhetlig redigerings-/uppspelningsplattform för distrib
 
 * **Segmentering med** medieslinga: Genom att konfigurera varje spelarenhet så att den har ett eget loopsegment kan du enkelt skapa, publicera och spela upp lokaliserat innehåll i den övergripande digitala upplevelsen. Medieresurser som finns i inbäddade sekvenskanaler läggs till i det föregående slingsegmentet och ger möjlighet att rikta in ett medielöpssegment för varje platsgruppering.
 
-* **Interaktiva upplevelser**: Pekaktiverat datorprogram kan skapas och levereras i en skärmkanal med AEM och SPA-redigeraren. Det är en god vana att använda konsekventa designegenskaper i flera kanaler, en inaktivitetstimer för att återställa upplevelsen och ett tydligt anrop till åtgärd för vilka åtgärder programmet kan utföra. Landningssidan ska bestå av viktiga digitala element som är utformade för att förmedla värde, locka användaren till skärmen och uppmana användaren att engagera sig.
+* **Interaktiva upplevelser**: Pekaktiverat datorprogram kan redigeras och levereras i en skärmkanal med AEM och SPA. Det är en god vana att använda konsekventa designegenskaper i flera kanaler, en inaktivitetstimer för att återställa upplevelsen och ett tydligt anrop till åtgärd för vilka åtgärder programmet kan utföra. Landningssidan ska bestå av viktiga digitala element som är utformade för att förmedla värde, locka användaren till skärmen och uppmana användaren att engagera sig.
 
 AEM Screens tillhandahåller ett ramverk för att distribuera innehåll till fysiska enheter. Innehållet tilldelas kanaler på skärmar, som kan innehålla mediainnehåll eller program för pekskärmar. I det här ramverket kan ett AEM Sites-program levereras som innehåll via en kanal.
 
