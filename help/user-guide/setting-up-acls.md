@@ -11,6 +11,9 @@ topic-tags: administering
 discoiquuid: 64e4d6ae-3fd3-41ec-84e1-cc2cac7b2519
 translation-type: tm+mt
 source-git-commit: 8356d5eb9449fd31d293c030620588e47fa6513e
+workflow-type: tm+mt
+source-wordcount: '559'
+ht-degree: 0%
 
 ---
 
@@ -19,29 +22,29 @@ source-git-commit: 8356d5eb9449fd31d293c030620588e47fa6513e
 
 I följande avsnitt beskrivs hur du skiljer ut projekt med hjälp av åtkomstkontrollistor så att varje enskild person eller grupp hanterar sitt eget projekt.
 
-Som AEM-administratör vill du se till att teammedlemmar i ett projekt inte stör andra projekt och att var och en av användarna tilldelas specifika roller enligt projektkraven.
+Som AEM vill du se till att teammedlemmar i ett projekt inte stör andra projekt och att alla användare tilldelas specifika roller enligt projektkraven.
 
 ## Konfigurera behörigheter {#setting-up-permissions}
 
 I följande steg sammanfattas proceduren för att konfigurera åtkomstkontrollistor för ett projekt:
 
-1. Logga in på AEM och gå till **Verktyg** > **Säkerhet**.
+1. Logga in på AEM och navigera till **Verktyg** > **Säkerhet**.
 
    ![screen_shot_2018-02-16at10156pm](assets/screen_shot_2018-02-16at10156pm.png)
 
 1. Klicka på **Grupper** och ange ett ID (till exempel Acme).
 
-   Du kan också använda den här länken `http://localhost:4502/libs/granite/security/content/groupadmin.html`.
+   Du kan också använda den här länken, `http://localhost:4502/libs/granite/security/content/groupadmin.html`.
 
    Klicka sedan på **Spara**.
 
    ![screen_shot_2018-02-16at12648pm](assets/screen_shot_2018-02-16at12648pm.png)
 
-1. Välj **Medarbetare** i listan och dubbelklicka på den.
+1. Välj **Deltagare** i listan och dubbelklicka på den.
 
    ![screen_shot_2018-02-18at33938pm](assets/screen_shot_2018-02-18at33938pm.png)
 
-1. Lägg till **Acme** (projekt du skapat) i **Lägg till medlemmar i grupp**. Click **Save**.
+1. Lägg till **Acme** (projekt du skapade) i **Lägg till medlemmar i grupp**. Klicka på **Spara**.
 
    ![screen_shot_2018-02-18at35630pm](assets/screen_shot_2018-02-18at35630pm.png)
 
@@ -49,13 +52,13 @@ I följande steg sammanfattas proceduren för att konfigurera åtkomstkontrollis
    >
    >Om du vill att projektgruppsmedlemmar ska registrera spelare (vilket innebär att en användare skapas för varje spelare), söker du efter gruppanvändaradministratörerna och lägger till ACME-gruppen i användaradministratörerna
 
-1. Lägg till alla användare som ska arbeta med **Acme** -projektet i **Acme** -gruppen.
+1. Lägg till alla användare som ska arbeta med **Acme**-projektet i **Acme**-gruppen.
 
    ![screen_shot_2018-02-18at41320pm](assets/screen_shot_2018-02-18at41320pm.png)
 
-1. Ange behörigheter för gruppen **Acme** med hjälp av det här `(http://localhost:4502/useradmin)`.
+1. Konfigurera behörigheter för gruppen **Acme** med denna `(http://localhost:4502/useradmin)`.
 
-   Markera gruppen **Acme** och klicka på **behörigheterna**.
+   Markera gruppen **Acme** och klicka på **behörigheten**.
 
    ![screen_shot_2018-02-18at41534pm](assets/screen_shot_2018-02-18at41534pm.png)
 
@@ -76,9 +79,9 @@ I följande tabell sammanfattas sökvägen med behörigheter på projektnivå:
 >
 >I vissa fall kan du separera författarfunktioner (som att hantera resurser och skapa kanaler) från administratörsfunktioner (som att registrera spelare). I ett sådant scenario skapar du två grupper och lägger till gruppen författare till medverkande och administratörsgruppen till både medverkande och användare-administratörer.
 
-### Skapa grupper {#creating-groups}
+### Skapar grupper {#creating-groups}
 
-När du skapar ett nytt projekt bör du även skapa standardanvändargrupper med en grundläggande uppsättning behörigheter. Du bör utöka behörigheterna till de typiska roller vi har för AEM-skärmar.
+När du skapar ett nytt projekt bör du även skapa standardanvändargrupper med en grundläggande uppsättning behörigheter. Du bör utöka behörigheterna till de typiska roller vi har för AEM Screens.
 
 Du kan till exempel skapa följande projektspecifika grupper:
 
@@ -86,7 +89,7 @@ Du kan till exempel skapa följande projektspecifika grupper:
 * Skärmar Projektledare (registrera spelare och hantera platser och enheter)
 * Skärmar Projektanvändare (arbeta med kanaler, scheman och kanaltilldelningar)
 
-I följande tabell sammanfattas grupperna med beskrivning och behörigheter för ett AEM Screens-projekt:
+I följande tabell sammanfattas grupperna med beskrivning och behörighet för ett AEM Screens-projekt:
 
 <table>
  <tbody>
@@ -96,8 +99,8 @@ I följande tabell sammanfattas grupperna med beskrivning och behörigheter för
    <td><strong>Behörigheter</strong></td>
   </tr>
   <tr>
-   <td>Skärmadministratörer<br /> <em>skärmadministratörer</em></td>
-   <td>Åtkomst på administratörsnivå för AEM-skärmar</td>
+   <td>Skärmadministratörer<br /> <em>screens-admins</em></td>
+   <td>Åtkomst på administratörsnivå till AEM Screens-funktioner</td>
    <td>
     <ul>
      <li>Medverkande medlem</li>
@@ -109,8 +112,8 @@ I följande tabell sammanfattas grupperna med beskrivning och behörigheter för
     </ul> </td>
   </tr>
   <tr>
-   <td>Skärmar Användare<br /> <em>skärmanvändare</em></td>
-   <td>Skapa och uppdatera kanaler och tidsplaner och tilldela till platser i AEM-skärmar</td>
+   <td>Skärmanvändare<br /> <em>screens-users</em></td>
+   <td>Skapa och uppdatera kanaler och tidsplaner och tilldela till platser i AEM Screens</td>
    <td>
     <ul>
      <li>Medverkande medlem</li>
@@ -120,8 +123,8 @@ I följande tabell sammanfattas grupperna med beskrivning och behörigheter för
     </ul> </td>
   </tr>
   <tr>
-   <td>Skärmoperatorer<br /> , <em>skärmoperatorer</em></td>
-   <td>Skapa och uppdatera platsstruktur och registrera spelare på AEM-skärmar</td>
+   <td>Skärmoperatorer<br /> <em>screens-operatorer</em></td>
+   <td>Skapa och uppdatera platsstruktur och registrera spelare i AEM Screens</td>
    <td>
     <ul>
      <li>Medverkande medlem</li>
@@ -131,7 +134,7 @@ I följande tabell sammanfattas grupperna med beskrivning och behörigheter för
     </ul> </td>
   </tr>
   <tr>
-   <td>Skärmspelare<br /> , <em>skärmar-&lt;projekt&gt;-enheter</em></td>
+   <td>Skärmspelare<br /> <em>skärmar-&lt;project&gt;-devices</em></td>
    <td>Grupperar alla spelare och alla spelare/enheter automatiskt.</td>
    <td><p> Medverkande medlem</p> </td>
   </tr>
