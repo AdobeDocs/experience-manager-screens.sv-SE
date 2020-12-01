@@ -5,11 +5,14 @@ description: Guiden beskriver affärsstrategin för innehåll
 seo-description: Guiden beskriver Business Content Strategy
 translation-type: tm+mt
 source-git-commit: 55999ae9ead7ab8986f4dcb69b0bbaa46933c9ec
+workflow-type: tm+mt
+source-wordcount: '439'
+ht-degree: 0%
 
 ---
 
 
-# Strategi för företagsinnehåll {#business-content}
+# Business Content Strategy {#business-content}
 
 >[!NOTE]
 >
