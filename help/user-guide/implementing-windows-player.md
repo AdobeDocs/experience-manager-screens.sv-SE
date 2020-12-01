@@ -27,7 +27,7 @@ I det här avsnittet beskrivs hur du konfigurerar AEM Screens Windows 10 Player.
 
 Installera Windows Player för AEM Screens om du vill implementera Windows Player för AEM Screens.
 
-Gå till [**AEM 6.5 Player Downloads**](https://download.macromedia.com/screens/) .
+Gå till sidan [**AEM 6.5 Player Downloads**](https://download.macromedia.com/screens/).
 
 >[!NOTE]
 >Det finns inget fönsterläge i Windows Player. Det är alltid helskärmsläge.
@@ -37,36 +37,38 @@ Gå till [**AEM 6.5 Player Downloads**](https://download.macromedia.com/screens/
 >[!NOTE]
 >Du måste konfigurera en miljö för Windows Player om du använder AEM Screens 6.5.5 Service Pack.
 
-Ange attributet **SameSite för inloggningstokencookies** från **Lax** till **None** från **Adobe Experience Manager Web ConsoleConfiguration** för alla AEM författare- och publiceringsinstanser.
+Ange **SameSite-attributet för inloggningstokencookies** från **Lax** till **Ingen** från **Adobe Experience Manager Web Console
+Konfiguration** för alla AEM författare och publiceringsinstanser.
 
 Följ stegen nedan:
 
-1. Navigera till **Adobe Experience Manager Web ConsoleConfiguration** med `http://localhost:4502/system/console/configMgr`.
+1. Navigera till **Adobe Experience Manager Web Console
+Konfiguration** med `http://localhost:4502/system/console/configMgr`.
 
-1. Sök efter autentiseringshanterare för *Adobe Granite-token*.
+1. Sök efter *Autentiseringshanterare för Adobe Granite-token*.
 
-1. Ange attributet **SameSite för inloggningstokencookies** från **Lax** till **None**.
+1. Ange **SameSite-attributet för inloggningstokencookies** från **Lax** till **Ingen**.
    ![bild](/help/user-guide/assets/granite-updates.png)
 
-1. Click **Save**.
+1. Klicka på **Spara**.
 
-### Ad-Hoc-metod {#ad-hoc-method}
+### Ad-hoc-metod {#ad-hoc-method}
 
-Med metoden Ad-Hoc kan du installera den senaste versionen av Windows Player (*.exe*). Gå till [**AEM 6.5 Player Downloads**](https://download.macromedia.com/screens/) .
+Med metoden Ad-Hoc kan du installera den senaste Windows Player (*.exe*). Besök [**AEM 6.5 Player Downloads**](https://download.macromedia.com/screens/)-sidan.
 
 När du har hämtat programmet följer du stegen på spelaren för att slutföra ad hoc-installationen:
 
 1. Tryck länge på det övre vänstra hörnet för att öppna administrationspanelen.
 1. Navigera till **Konfiguration** på den vänstra åtgärdsmenyn och ange platsen (adressen) för den AEM instansen som du vill ansluta till och klicka på **Spara**.
-1. Navigera till länken **Device** **Registration** (Enhetsregistrering) i den vänstra åtgärdsmenyn för att kontrollera status för enhetsregistreringsprocessen.
+1. Navigera till länken **Enhet** **Registrering** på den vänstra åtgärdsmenyn för att kontrollera status för enhetsregistreringsprocessen.
 
 >[!NOTE]
 >
->Om **läget** är **REGISTRERAT** kommer du att se att fältet **Enhets-ID** fylls i.
+>Om **State** är **REGISTRERAD** kommer du att märka att fältet **enhets-ID** fylls i.
 >
->Om **tillståndet** är **OREGISTRERAT** kan du använda **Token** för att registrera enheten.
+>Om **State** är **UNREGISTERED** kan du använda **Token** för att registrera enheten.
 
-### Konfiguration av massserver: Registrera flera Windows 10-spelare med en konfiguration {#bulk-server-configuration-registering-multiple-windows-players-with-one-configuration}
+### Konfiguration av massserver: Registrerar flera Windows 10-spelare med en konfiguration {#bulk-server-configuration-registering-multiple-windows-players-with-one-configuration}
 
 När du har installerat Windows Player kan du registrera flera spelare med en konfiguration.
 
@@ -110,7 +112,7 @@ I följande tabell sammanfattas principattributen med en exempelpolicy-JSON för
 }
 ```
 
-## Aktivera helskärmsläge {#enabling-kiosk-mode}
+## Aktivera Kiosk-läge {#enabling-kiosk-mode}
 
 När du distribuerar Windows-spelaren är det viktigt att aktivera ett Kiosk-läge så att andra program eller aktivitetsfältet inte visas på Windows-skrivbordet.
 
@@ -126,11 +128,11 @@ Aktivera Kiosk-läget genom att följa stegen nedan:
 
 1. Aktivera Shell Launcher.
 
-   Mer information finns i avsnittet ***Konfigurera Shell Launcher*** på **[Shell Launcher](https://docs.microsoft.com/en-us/windows-hardware/customize/enterprise/shell-launcher)** -sidan av Microsoft Windows-stöd.
+   Mer information finns i avsnittet ***Konfigurera Shell Launcher*** på sidan **[Shell Launcher](https://docs.microsoft.com/en-us/windows-hardware/customize/enterprise/shell-launcher)** av Microsoft Windows-stöd.
 
 1. Skapa en icke-administrativ användare (om du inte redan har någon) som ska användas för Kiosk. Detta kan vara en lokal användare eller en domänanvändare.
-1. Installera Windows Player för den Kiosk-användaren från [AEM Screens Player Downloads](https://download.macromedia.com/screens/) -sidan.
-1. Mer information finns i [Use Shell Launcher (Använd Shell Launcher) för att skapa en Windows 10-kioskdator](https://docs.microsoft.com/en-us/windows/configuration/kiosk-shelllauncher) för att ändra PowerShell-skriptet.
+1. Installera Windows-spelaren för den Kiosk-användaren från [AEM Screens Player Downloads](https://download.macromedia.com/screens/)-sidan.
+1. Mer information finns i [Använd Shell Launcher för att skapa en Windows 10-kioskdator](https://docs.microsoft.com/en-us/windows/configuration/kiosk-shelllauncher) för att ändra PowerShell-skriptet.
 
    Ändra PowerShell-skriptet så att användarnamnet ersätts med det du skapade. Kontrollera att sökvägen till den körbara programfilen är korrekt. Detta anger det anpassade skalet som Windows-spelarprogram för heltalsanvändaren och anger standardinställningen som explorer.exe för andra användare.
 
@@ -151,9 +153,9 @@ Exempelskriptet i länkarna aktiverar och inaktiverar det anpassade skalet. Där
 >
 >I vissa Windows-miljöer kan PowerShell-skript begränsas av en princip (särskilt osignerade skript). Om du vill köra skriptet kan du behöva inaktivera och aktivera den här begränsningen tillfälligt igen för att köra skriptet. Öppna ett PowerShell-fönster och använd dessa kommandon.
 >
->*set-execution policy unlimited* - för att tillfälligt ta bort begränsningar
+>*körningspolicy utan begränsningar*  - för att tillfälligt ta bort begränsningar
 >
->*set-execution policy limited* - för att återaktivera begränsning efter att skriptet har körts
+>*set-execution policy limited* - to re-enable restriction after running the script
 
 ```
 # Remove the new custom shells.
