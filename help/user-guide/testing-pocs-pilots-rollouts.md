@@ -12,6 +12,9 @@ discoiquuid: 157185f9-c5e3-4a5b-badc-9becb26f1b27
 docset: aem65
 translation-type: tm+mt
 source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
+workflow-type: tm+mt
+source-wordcount: '565'
+ht-degree: 0%
 
 ---
 
@@ -50,7 +53,7 @@ Testning av system- och programvaruintegrering börjar med AV Integrators IT-tek
 
 När QC-testningen är klar skapar IT-teamet dokumentation, arbetsflöden och utbildning som referens under dag 2-support. Systemaspekter som ska testas är:
 
-* Integrering av AEM-implementerare
+* Integrering av AEM
 * Integrering av system från tredje part
 * Mjukvara
 * Maskinvara
@@ -73,4 +76,4 @@ Om man ser på alla dessa faser som en del av den övergripande projektplanen ka
 
 När du är noggrann med testning, konceptkorrektur, pilotprojekt och utrullningar följer du nästa självstudiekurs som är djupdykt i Project Management och de processer som ingår.
 
-Navigera till **[del 4: Projektledning och distribution](project-management-and-deployment.md)**för mer information.
+Navigera till **[Del 4: Projekthantering och distribution](project-management-and-deployment.md)** för mer information.
