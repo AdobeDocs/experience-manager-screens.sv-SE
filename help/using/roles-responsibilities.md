@@ -84,22 +84,22 @@ Projektledare hanterar vanligtvis hela distributionen av AEM Screens. En projekt
 
 >[!NOTE]
 >
->Om du vill veta mer om olika roller och ansvarsområden och målgruppen för ett projekt för digitala signaturer kan du gå till **[Projektroller och ansvarsområden](https://helpx.adobe.com/experience-manager/6-5/screens/using/project-roles-responsibilities.html)**.
+>Om du vill veta mer om olika roller och ansvarsområden och målgruppen för ett digitalt signeringsprojekt går du till **[Projektroller och ansvarsområden](https://helpx.adobe.com/experience-manager/6-5/screens/using/project-roles-responsibilities.html)**.
 
 
 ## Projektfaser {#project-stages}
 
-För att stödja en framgångsrik driftsättning av digitala signaturer är det vanligt att segmentera projektet i tre faser.  Dessa stadier kallas vanligtvis **Dagar**. Det rör sig inte om litterala dagar utan om benämningar för varje större del av projektet.
+För att stödja en framgångsrik driftsättning av digitala signaturer är det vanligt att segmentera projektet i tre faser.  Dessa stadier kallas vanligen **dagar**. Det rör sig inte om litterala dagar utan om benämningar för varje större del av projektet.
 
-1. Det första steget kallas *Dag noll*. I det här steget ingår alla förberedelser och identifieringsåtgärder som krävs för att helt definiera projektets omfattning.
-1. I det andra steget, *Dag ett*, avses alla aktiviteter som ingår i driftsättningsinsatsen.
-1. Det tredje och sista steget *Dag två* avser alla pågående operationer och stödinslag som en del av den totala lösningen.
+1. Det första steget kallas *Day Zero*. I det här steget ingår alla förberedelser och identifieringsåtgärder som krävs för att helt definiera projektets omfattning.
+1. Den andra fasen, *Dag ett*, avser alla aktiviteter som ingår i distributionsinsatsen.
+1. Den tredje och sista fasen *Dag två* avser alla pågående åtgärder och supportelement som en del av den totala lösningen.
 
 >[!NOTE]
 >
 >Även om den här guiden främst fokuserar på *dag ett* och *dag två*, så är alla tre faserna viktiga för att lyckas med digitala skyltningsprojekt.
 >
->Följ ytterligare en video om **[Projektledning och driftsättning](https://helpx.adobe.com/experience-manager/6-5/screens/using/project-management-and-deployment.html)** och lär dig mer om förproduktion, projektinitiering och projektförlopp.
+>Följ ytterligare en video på **[Project Management and Deployment](https://helpx.adobe.com/experience-manager/6-5/screens/using/project-management-and-deployment.html)** om du vill veta mer om förproduktion av projekt, initiering av projekt och projektets förlopp.
 
 ## RACI-diagram {#raci-chart}
 
@@ -121,7 +121,7 @@ Följande är ett exempel på RACI-diagram som använder rolldefinitionerna.
 
 Följande är ett exempel på ett RACI-diagram som använder rolldefinitionerna och ger ett exempel på vanliga uppgifter och överväganden i ett AEM Screens-projekt.
 
-I följande tabell sammanfattas **Dag noll: Förförsäljningsöverväganden**:
+I följande tabell sammanfattas **Day Zero: Överväganden före försäljning**:
 
 | **Fas** | **A/V-integratör** | **AEM** | **Affärsstrategi** | **Innehållshantering** |
 |---|---|---|---|---|
@@ -184,7 +184,7 @@ I följande tabell sammanfattas **Dag ett: Dag ett: Projektimplementering (maski
 
 * **Tekniker**: Antingen har den avtalats av AV-integratorn eller är en del av samma företag.
 
-I följande tabell sammanfattas **dag två: RACI-diagram** för stöd efter start:
+I följande tabell sammanfattas **Dag två: RACI-diagram** för stöd efter start:
 
 | **Fas** | **Författare** | **Developer** | **Tekniker** |
 |---|---|---|---|
