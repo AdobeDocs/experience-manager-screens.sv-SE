@@ -28,14 +28,14 @@ Med innehållsövervakning kan du felsöka problem som rör innehåll som inte v
 1. Om ett tomt skärmproblem påträffas:
 
    * Kontrollera *förhandsgranskning* för att se om kanalen visar en svart skärm
-   * Registrera en *lokal färgspelare* (som tillägg) på din bärbara dator för den skärmen och se om det visar en svart skärm.
+   * Registrera en *lokal kromspelare* (som tillägg) på din bärbara dator till den skärmen och se om det visar en svart skärm.
    * Högerklicka och inspektera och kontrollera *tillämpliga loggar*.
 
    Om detta inte händer på den lokala spelaren utan bara på enheten:
 
-   * Kontrollera *medietypen* (används) som kan ha problem på den enheten och kontrollera även om innehållet har hämtats lokalt (admin-gränssnittets rensa kanalcache).
-   * Inkludera eventuella *enhetsloggar* i biljetten för snabb felsökning.
-   * *Samla in loggar* från enheten från AEM.
+   * Kontrollera *medietyp* (används) som kan ha problem på den enheten och kontrollera även om innehållet har hämtats lokalt (admin-gränssnittets rensa kanalcache).
+   * Ta med alla *enhetsloggar* i biljetten för snabb felsökning.
+   * *Samla in* loggar från enheten från AEM.
 
 
 ## Enhetsövervakning {#device-monitoring}
