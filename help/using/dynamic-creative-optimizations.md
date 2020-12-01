@@ -18,7 +18,7 @@ ht-degree: 0%
 >
 >En typisk intressent för den här aktiviteten är en AEM implementerare.
 
-**Dynamic Creative Optimization** eller DCO används för att skapa digitala signeringsupplevelser som speglar de unika omständigheterna på en viss plats vid en given tidpunkt och för en viss användare.
+**Dynamic Creative** Optimization (DCO) används för att skapa digitala signeringsupplevelser som speglar de unika omständigheterna på en viss plats vid en viss tidpunkt och för en viss användare.
 
 Detta kallas även för förenkling på klientsidan.
 
