@@ -12,6 +12,9 @@ discoiquuid: 59430d38-b441-4488-934e-74a55122b063
 docset: aem65
 translation-type: tm+mt
 source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
+workflow-type: tm+mt
+source-wordcount: '634'
+ht-degree: 0%
 
 ---
 
@@ -28,6 +31,7 @@ Den här sidan belyser den avslutande delen i en 5-delsserie som utformats för 
 >
 >* Projektdistribution till fältet
 >* Verifiering av enhetsanslutning och drift mellan installationsteknikern och NOC (Network Operations Center)
+
 >
 >
 Före dag 2 ska man planera för löpande livscykelbudgetar.
@@ -37,13 +41,13 @@ Planeringen innehåller följande:
 * Åtgärdar maskinvaru-, programvaru- eller anslutningsfel
 * Balanserar problemlösningskostnaderna mot kundens affärskrav.
 * Identifiera den bästa metoden för att förmedla problem i nätverket.
-* Skapa en anpassning mellan AEM-implementatorn och AV-integratorn när man upprättar supportplaner för dag 2
+* Främja anpassningen mellan AEM och AV-integratorn vid upprättandet av supportplaner för dag 2
 
-## Sammanfattning av viktiga överväganden i samband med stöd för dag 2 {#summary-of-key-considerations-involved-in-day-support}
+## Sammanfattning av viktiga överväganden som ingår i stöd för dag 2 {#summary-of-key-considerations-involved-in-day-support}
 
 Nedan följer några viktiga saker att tänka på när det gäller support för dag 2:
 
-* För att säkerställa en smidig övergång från implementering till driftstöd måste AEM Implementor arbeta med AV Integrator för att säkerställa att rätt supportskript definieras som en del av supportplanen för dag 2.
+* För att säkerställa en smidig övergång från implementering till driftstöd måste AEM implementor arbeta med AV-integratorn för att säkerställa att rätt supportskript definieras som en del av supportplanen för dag 2.
 * Krav som fjärrhantering av enheter, tillgänglighet för helpdesk och support på plats är praktiskt taget en del av utvecklingen inom digitalsigneringsbranschen. Utöver dessa grundläggande behov bör AV-integratörer även utforska kostnadsvariabler mellan proaktiv och reaktiv övervakning och supportmodeller.
 
 * Krav som fjärrhantering av enheter, tillgänglighet för helpdesk och support på plats är praktiskt taget en del av utvecklingen inom digitalsigneringsbranschen. Utöver dessa grundläggande behov bör AV-integratörer även utforska kostnadsvariabler mellan proaktiv och reaktiv övervakning och supportmodeller.
@@ -53,7 +57,7 @@ Nedan följer några viktiga saker att tänka på när det gäller support för 
 * Vissa skärmtillverkare erbjuder möjlighet att övervaka skärmar oberoende av mediespelare, medan andra kräver en extern enhet.
 * AV-integratörer utnyttjar en blandning av teknologier, så lösningarna är fortfarande flexibla för att på bästa sätt tillgodose slutkundens behov.
 
-## Del 5: Videosjälvstudiekurs om supportfrågor {#part-video-tutorial-on-support-considerations}
+## Del 5: Videosjälvstudiekurs om supportöverväganden {#part-video-tutorial-on-support-considerations}
 
 Följ den här självstudiekursen för att komma till en 5-delsserie nedan som betonar att man ska kunna säkerställa justering och en smidig övergång från implementering till operativt stöd. Det förklarar också hur en AEM-implementerare måste arbeta med AV-integratorn för att säkerställa lämpliga supportskript som definieras som en del av supportplanen för dag 2.
 
@@ -65,5 +69,5 @@ Följ den här självstudiekursen för att komma till en 5-delsserie nedan som b
 
 ## Slutsats {#conclusion}
 
-Dessa 5-delsserier fokuserar på viktiga faktorer för att säkerställa att projektet blir framgångsrikt. Se andra avsnitt i användarhandboken för AEM-skärmar för mer information om implementeringen.
+Dessa 5-delsserier fokuserar på viktiga faktorer för att säkerställa att projektet blir framgångsrikt. Se andra avsnitt i användarhandboken för AEM Screens för mer information om implementeringen.
 
