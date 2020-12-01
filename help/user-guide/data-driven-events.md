@@ -9,6 +9,9 @@ contentOwner: jsyal
 discoiquuid: b662831c-8cb0-48d8-9b4b-cc11a573d1b5
 translation-type: tm+mt
 source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
+workflow-type: tm+mt
+source-wordcount: '167'
+ht-degree: 1%
 
 ---
 
@@ -38,7 +41,7 @@ Detta kan även kategoriseras i Channel Interrupt och Placeholder.
 
 Data körs i den temporära kanalen och efter en utlösare ändras en resurs i en kanal.
 
-#### Data ut åtgärdbara {#data-out-actionable}
+#### Data ut som kan användas {#data-out-actionable}
 
 När ett kommando skickas till LCD-skärmen för att slå på och av skärmen. Exempel: skärmens ljusstyrka eller volym.
 
