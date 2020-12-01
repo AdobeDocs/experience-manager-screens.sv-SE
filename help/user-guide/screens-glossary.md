@@ -14,26 +14,26 @@ ht-degree: 0%
 
 # Ordlista {#glossary}
 
-**Programkanal** En programkanal visar ett program som skapats av en utvecklare och som visar interaktivt innehåll.
+**Application** ChannelAn Application Channel visar ett program som skapats av en utvecklare och som visar interaktivt innehåll.
 
-**Attrahera slinga** En attraktiv slinga definieras som *hemläge* eller *inaktivt läge* när visningen har två eller flera lägen som den kan finnas i. Dess roll är att *locka* kunder till webben och uppmuntra dem att engagera sig, vanligtvis genom att röra vid skärmen men också genom att interagera med en produkt.
+**Attrahera** slingaEn attraktiv slinga definieras som det  ** heminbyggda  ** vänteläget när visningen har två eller flera lägen som den kan finnas i. Dess roll är att *locka*-kunder till displayen och uppmuntra dem att engagera sig, vanligtvis genom att röra vid skärmen men kan också vara genom att interagera med en produkt.
 
-**DayParting** DayParting innebär att dela upp en dag i tidskortplatser och ange vilket innehåll som spelas upp vid önskad tidpunkt. Med AEM Screens kan ni schemalägga kanaler i form av DayParting inom en dag, vecka eller månad efter behov.
+**** DayPartingDayParting refererar till att dela upp en dag i tidskortplatser och ange vilket innehåll som spelas upp vid önskad tidpunkt. Med AEM Screens kan ni schemalägga kanaler i form av DayParting inom en dag, vecka eller månad efter behov.
 
-**Enhet** En enhet kan köra spelarprogramvaran för att skapa visuella utdata. Den kan styra visningen av en beskuren, skalad, översatt del av det vanliga innehållet eller upplevelsen. Skärmkonfigurationen är bunden till en skärm, men kan ersättas om ett tekniskt fel uppstår.
+**Enheten** DeviceA kan köra spelarprogramvaran för att skapa visuella utdata. Den kan styra visningen av en beskuren, skalad, översatt del av det vanliga innehållet eller upplevelsen. Skärmkonfigurationen är bunden till en skärm, men kan ersättas om ett tekniskt fel uppstår.
 
-**Visning** En skärm är en virtuell gruppering av skärmar som vanligtvis placeras bredvid varandra. Bildskärmen är vanligtvis permanent när det gäller en installation. Detta blir det objekt som författare ska arbeta med och alltid referera till som logisk visning i stället för deras fysiska räknardel.
+**Display** En skärm är en virtuell gruppering av skärmar som vanligtvis placeras bredvid varandra. Bildskärmen är vanligtvis permanent när det gäller en installation. Detta blir det objekt som författare ska arbeta med och alltid referera till som logisk visning i stället för deras fysiska räknardel.
 
 **Firmware** Firmware är den term som ges till programmet som körs på enheten inuti spelarprogrammet i en webbvy. Det är ett javascript-lager som kör innehållet i en kanal i iFrames och ger åtkomst till inbyggda funktioner via plugin-program. Den inbyggda programvaran kan uppdateras utan att spelarprogrammet uppdateras.
 
-**Live Copy** A Live Copy är en kopia av specifikt webbplatsinnehåll som har en aktiv relation till den ursprungliga källan. Den här realtidsrelationen gör att den aktiva kopian kan ärva innehåll och sidegenskaper från källan.
+**Live** CopyEn Live-kopia är en kopia av specifikt webbplatsinnehåll som har en aktiv relation till den ursprungliga källan. Den här realtidsrelationen gör att den aktiva kopian kan ärva innehåll och sidegenskaper från källan.
 
-**Platser/Sökväg till mappen** Platser eller platser i platsmappen är den konfiguration som visas beroende på var de olika skärmarna finns.
+**Location/Location** FolderLocations or locations within location folder host the configuration of the displays as where the various screens are.
 
-**Spelarprogramvara** Spelaren är den programvara som körs på en enhet som gör att du kan visa en kanal på en skärm.
+**Player** SoftwareSpelaren är det program som körs på en enhet som gör att du kan visa en kanal på en skärm.
 
-**Skärm** En skärm är en fysisk skärm eller ett annat system som kan producera visuella utdata och som visar innehållet som kommer från enheten.
+**SkärmEn** skärm är en fysisk skärm eller ett annat system som kan producera visuella utdata och som visar innehållet som kommer från enheten.
 
-**Sekvenskanal** En sekvenskanal är en sida som du kan skapa och som innehåller komponenter som ska visas en i taget i ett bildspel.
+**SekvenskanalEn** sekvenskanal är en sida som du kan skapa och som innehåller komponenter som ska visas en i taget i ett bildspel.
 
-**Zoner** Zones är segmentering av skärmar som används som primära adresserbara enheter för kanaler. I förekomster där skärmar sträcker sig över flera skärmar är det bra att definiera zonerna så att de matchar skärmdimensionerna, särskilt om skärmarna har en tydlig fysisk kant.
+**ZonesZones** är segmentering av displayer som används som primära adresserbara enheter för kanaler. I förekomster där skärmar sträcker sig över flera skärmar är det bra att definiera zonerna så att de matchar skärmdimensionerna, särskilt om skärmarna har en tydlig fysisk kant.
