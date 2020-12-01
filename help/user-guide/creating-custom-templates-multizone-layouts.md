@@ -45,10 +45,10 @@ Det finns två viktiga saker att tänka på innan du skapar en anpassad mall i e
 
 Följ avsnittet nedan för att skapa en anpassad mall *Left20-LandscapeHD3Zone* med följande konfiguration:
 
-* **Left20** refererar till den övre zonen till vänster som täcker 20 % av den vågräta och lodräta skärmstorleken.
-* **Liggande** hänvisar till skärmorienteringen
-* **HD** betyder att proportionen är 16:9
-* **3Zonen** refererar till tre zoner på skärmen
+* **Left20** hänvisar till den övre zonen till vänster som täcker 20 % av den vågräta och lodräta skärmstorleken.
+* **Liggande** orientering avser skärmorienteringen
+* **HD** motsvarar proportionerna 16:9
+* **3** Zonereferenser till tre zoner på skärmen
 
 ## Visuell representation av MultiZone-layout {#multi-layout-visual-one}
 
@@ -56,45 +56,45 @@ Med Left20-LandscapeHD3Zone-layouten kan du skapa följande layout för flera zo
 
 ![bild](/help/user-guide/assets/custom-multizone/landscape-3-zone-new.png)
 
-## Skapa en vänster20-liggandeHD3Zone-layout {#landscape-layout-one}
+## Skapa en Left20-LandscapeHD3Zone-layout {#landscape-layout-one}
 
 Följ stegen nedan för att skapa en Left20-LandscapeHD3Zone-layout för ett AEM Screens-projekt:
 
-1. Skapa ett AEM Screens-projekt med namnet **custom**.
+1. Skapa ett AEM Screens-projekt med namnet **anpassad mall**.
 
    ![bild](/help/user-guide/assets/custom-multizone/custom-template2.png)
 
-1. Gå till **CRXDE Lite** från AEM:> Verktyg —> **CRXDE Lite**.
+1. Gå till **CRXDE Lite** från din AEM instans —> Verktyg —> **CRXDE Lite**.
 
-1. Skapa en mapp under **program** som kallas **anpassad mall**. Du kan också skapa en annan mapp med namnet **mall** under **anpassad mall**, vilket visas i bilden nedan.
+1. Skapa en mapp under **program** med namnet **anpassad mall**. Skapa på samma sätt en annan mapp med namnet **template** under **custom template**, som bilden nedan visar.
 
    ![bild](/help/user-guide/assets/custom-multizone/custom-template1.png)
 
    >[!NOTE]
-   >Vi rekommenderar att du klickar på **Spara alla** i åtgärdsfältet i CRXDE Lite varje gång du skapar, redigerar eller kopierar innehåll till någon av noderna, annars kommer du inte att kunna genomföra uppdateringarna.
+   >Vi rekommenderar att du klickar på **Spara alla** från åtgärdsfältet i CRXDE Lite varje gång du skapar, redigerar eller kopierar innehåll till någon av noderna, annars kommer du inte att kunna genomföra uppdateringarna.
 
-1. Kopiera mallen längst till vänster från `/libs/screens/core/templates/splitscreenchannel/lbar-left` till `/apps/customtemplate/template`.
+1. Kopiera mallen för vänster fält från `/libs/screens/core/templates/splitscreenchannel/lbar-left` till `/apps/customtemplate/template`.
 
-1. Byt namn på den kopierade **vänster** (`/apps/customtemplate/template`) till **min-anpassade-layout**.
+1. Byt namn på den kopierade **lbar-left** (`/apps/customtemplate/template`) till **my-custom-layout**.
    ![bild](/help/user-guide/assets/custom-multizone/custom-template3.png)
 
-1. Navigera till `/apps/customtemplate/template/my-custom-layout` och uppdatera egenskaperna **jcr:description** till *Template för Left20-LandscapeHD3Zone* och **jcr:title** till *Left20-LandscapeHD3Zone*.
+1. Navigera till `/apps/customtemplate/template/my-custom-layout` och uppdatera egenskaperna **jcr:description** till *Mall för Left20-LandscapeHD3Zone* och **jcr:title** till *Left20-LandscapeHD3Zone*.
 
    ![bild](/help/user-guide/assets/custom-multizone/custom-template4.png)
 
-1. Navigera till noden **offline-config** från `/apps/customtemplate/template/my-custom-layout/jcr:content/offline-config` och uppdatera **jcr:title** till *Left20-LandscapeHD3Zone*.
+1. Navigera till **offline-config**-noden från `/apps/customtemplate/template/my-custom-layout/jcr:content/offline-config` och uppdatera **jcr:title** till *Left20-LandscapeHD3Zone*.
 
    ![bild](/help/user-guide/assets/custom-multizone/custom-template5.png)
 
-1. Navigera till egenskapen *jcr:content* för **my-custom-template** från `/apps/customtemplate/template/my-custom-layout/jcr:content` och uppdatera **egenskapen cq:cssClass** till **aem-Layout my-custom-layout**.
+1. Navigera till egenskapen *jcr:content* för **my-custom-template** från `/apps/customtemplate/template/my-custom-layout/jcr:content` och uppdatera egenskapen **cq:cssClass** till **aem-Layout my-custom-layout**.
 
    ![bild](/help/user-guide/assets/custom-multizone/custom-template6.png)
 
-1. I steg 4 där du kopierade mallen längst till vänster visas 3 responsiva stödraster under `my-custom-layout/jcr:content`. Lägg till en anpassad CSS-klass i varje responsivt rutnät i egenskapen *cq:cssClass* , till exempel *my-custom-layout - top-left* för *r1c1* -noden.
+1. I steg 4 där du kopierade mallen längst till vänster visas 3 responsiva stödraster under `my-custom-layout/jcr:content`. Lägg till en anpassad CSS-klass i vart och ett av de responsiva rutnäten i egenskapen *cq:cssClass*, till exempel *my-custom-layout—top-left* för *r1c1*-noden.
 
    ![bild](/help/user-guide/assets/custom-multizone/custom-template7.png)
 
-   Lägg på samma sätt till *min-anpassad-layout - längst upp till höger* för *r1c2* och, *min-anpassad-layout - längst ned* för *r2c1* -noden.
+   Lägg på liknande sätt till *my-custom-layout—top-right* för *r1c2* och, *my-custom-layout—bottom* för *r2c1*-nod.
 
    >[!NOTE]
    >Dessa anpassade klasser används i CSS för att ange bredd/höjd för dessa responsiva rutnät.
@@ -102,13 +102,13 @@ Följ stegen nedan för att skapa en Left20-LandscapeHD3Zone-layout för ett AEM
    >[!NOTE]
    >Du kan lägga till eller ta bort responsiva stödraster baserat på det antal stödraster du vill ha. I det här exemplet visar vi 2 stödraster i den första raden och 1 stödraster i den andra raden, så det finns totalt tre responsiva stödraster (r1c1, r1c2, r2c1).
 
-1. Kopiera `/libs/settings/wcm/designs/screens` till `/apps/settings/wcm/designs/` och byt namn på den kopierade designen till **anpassad malldesign**.
+1. Kopiera `/libs/settings/wcm/designs/screens` till `/apps/settings/wcm/designs/` och byt namn på den kopierade designen till **custom-template-designs**.
 
 1. Navigera till `/apps/settings/wcm/designs/custom-template-designs` och uppdatera egenskapen *jcr:title* för **custom-template-designs** till **custom template-design**.
 
 1. Navigera till `/apps/settings/wcm/designs/custom-template-designs` och skapa en fil som static.css.
 
-1. Kopiera innehållet till `static.css` filen:
+1. Kopiera innehållet till filen `static.css`:
 
    ```shell
        /*my-custom-layout styles*/
@@ -131,7 +131,7 @@ Följ stegen nedan för att skapa en Left20-LandscapeHD3Zone-layout för ett AEM
    >[!NOTE]
    >Du kan uppdatera procentsatserna så att de matchar kraven för den anpassade mallen.
 
-1. Navigera till `/apps/<project>/templates/my-custom-layout/jcr:content` och uppdatera egenskapen *cq:designPath* för `/apps/settings/wcm/designs/customtemplate-designs` att läsa in formaten som konfigurerats i static.css
+1. Navigera till `/apps/<project>/templates/my-custom-layout/jcr:content` och uppdatera egenskapen *cq:designPath* till `/apps/settings/wcm/designs/customtemplate-designs` för att läsa in formaten som konfigurerats i static.css
 
    >[!NOTE]
    >Vi rekommenderar att du skriver alla format i stället för att kopiera eller klistra in, vilket kan orsaka problem med blanktecken och CSS-format.
@@ -140,11 +140,11 @@ Följ stegen nedan för att skapa en Left20-LandscapeHD3Zone-layout för ett AEM
 
 Följ stegen nedan för att använda ovanstående anpassade mall i ditt AEM Screens-projekt:
 
-1. Navigera till skärmsprojektet som du skapade i steg (1) och markera mappen **Kanaler** .
+1. Navigera till skärmsprojektet som du skapade i steg (1) och markera mappen **Kanaler**.
 
    ![bild](/help/user-guide/assets/custom-multizone/custom-template8.png)
 
-1. Klicka på **Skapa** i åtgärdsfältet och välj mallen **Left20-LandscapeHD3Zone** i guiden **Skapa** .
+1. Klicka på **Skapa** i åtgärdsfältet och välj mallen **Left20-LandscapeHD3Zone** i guiden **Skapa**.
 
    ![bild](/help/user-guide/assets/custom-multizone/custom-template9.png)
 
@@ -152,7 +152,7 @@ Följ stegen nedan för att använda ovanstående anpassade mall i ditt AEM Scre
 
    ![bild](/help/user-guide/assets/custom-multizone/custom-template10.png)
 
-## Infoga en bild som bakgrundslager  {#inserting-image}
+## Infoga en bild som bakgrundslager {#inserting-image}
 
 Du kan infoga en bild som bakgrundslager i layouten:
 
@@ -169,7 +169,7 @@ Du kan också följa stegen nedan:
 
 ## Uppdaterar bakgrundsfärg {#updating-color}
 
-Om du vill ändra bakgrundsfärgen lägger du till följande kod i xml-filen (steg 13), *static.css*.
+Om du vill ändra bakgrundsfärgen lägger du till följande kod i XML-filen (steg 13), *static.css*.
 
 `.cq-Screens-channel--multizone.my-CustomLayout { background-color: …; }`
 
