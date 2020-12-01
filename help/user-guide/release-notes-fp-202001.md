@@ -1,10 +1,13 @@
 ---
 title: Versionsinformation för funktionspaket 2001
 seo-title: Versionsinformation för funktionspaket 2001
-description: Följ den här sidan för att få information om AEM Screens Feature Pack 20201 släppt den 31 januari 2020.
-seo-description: Följ den här sidan för att få information om AEM Screens Feature Pack 20201 släppt den 31 januari 2020.
+description: Följ den här sidan för att få information om AEM Screens Feature Pack 2001 släppt den 31 januari 2020.
+seo-description: Följ den här sidan för att få information om AEM Screens Feature Pack 2001 släppt den 31 januari 2020.
 translation-type: tm+mt
 source-git-commit: 0136d1615f59d99c6bb5dfed09df363bf8ec475e
+workflow-type: tm+mt
+source-wordcount: '282'
+ht-degree: 0%
 
 ---
 
@@ -23,26 +26,30 @@ Releasedatum för AEM Screens Feature Pack 2001 är 31 januari 2020.
 
 ### Nyheter {#what-s-new}
 
-* **Med kommandosynkronisering för**kommandosynkronisering för uppspelning av resurser kan du synkronisera uppspelningen mellan olika spelare. Spelarna kan spela upp olika innehåll, men varje resurs måste ha samma längd.
-Mer information om kommandosynkronisering och hur du anger huvud och klient finns i [Använda kommandosynkronisering](using-command-sync.md).
+* **Med kommandosynkronisering för**
+resursuppspelningKommandosynkronisering kan du synkronisera uppspelningen mellan olika spelare. Spelarna kan spela upp olika innehåll, men varje resurs måste ha samma längd.
+Mer information om kommandosynkronisering och hur du ställer in överordnad och klienter finns i [Använda kommandosynkronisering](using-command-sync.md).
 
-* **Hälsokontrollens ramverk visar status för https och tillåter tom referent** Med hälsokontrollsramverket kan användaren kontrollera om två nödvändiga konfigurationer (Tillåt tomma refererarbegäranden och Apache Felix Jetty Based HTTP Service) har konfigurerats innan ett AEM-skärmsprojekt körs.
+* **Hälsokontrollsramverket visar status för https och tillåter tom**
+referentMed hälsokontrollsramverket kan användaren kontrollera om två nödvändiga konfigurationer (Tillåt tomma referensförfrågningar och Apache Felix Jetty Based HTTP Service) har konfigurerats innan ett AEM Screens-projekt körs.
 
-   Mer information om hälsokontrollsramverket finns i [Health Check Framework](/help/user-guide/configuring-screens-introduction.md#health-check-framework).
+   Mer information om Health Check Framework finns i [Health Check Framework](/help/user-guide/configuring-screens-introduction.md#health-check-framework).
 
-* **Uppdateringar till Standardövergångstyper** Egenskaperna för övergångskomponenten som **Typ** är nu inställda på **Tona** och **Varaktighet** på **1 600 ms** som standard.
+* **Uppdateringar av standardövergångstyper**
+Egenskaperna för övergångskomponenten, till exempel 
+**Type** är nu inställt på  **** Fadeand och  **** Duration  **som standard 1 600 ms**.
 
-   Mer information finns i [Använda övergångar](/help/user-guide/applying-transitions.md) .
+   Mer information finns i [Använda övergångar](/help/user-guide/applying-transitions.md) användningsexempel.
 
 
-### Frisläppta AEM-skärmspelare {#released-aem-screens-players}
+### Lanserade AEM Screens Players {#released-aem-screens-players}
 
-Följande AEM Screens Players finns för AEM 6.4 Feature Pack 7 och AEM 6.5 Feature Pack 3:
+Följande AEM Screens-spelare finns för AEM 6.4 Feature Pack 7 och AEM 6.5 Feature Pack 3:
 
 * ChromeOS
 * Windows
 * Android
 
-#### AEM Screens Player - nedladdningar {#aem-screens-player-downloads}
+#### AEM Screens Player Downloads {#aem-screens-player-downloads}
 
-Om du vill hämta den senaste versionen av AEM Screens Player och läsa mer om felkorrigeringarna kan du läsa [**AEM Screens Player Downloads **](https://download.macromedia.com/screens/).
+Om du vill hämta den senaste AEM Screens-spelaren och läsa mer om felkorrigeringarna kan du läsa [**AEM Screens Player Downloads**](https://download.macromedia.com/screens/).
