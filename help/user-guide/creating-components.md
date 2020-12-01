@@ -18,7 +18,7 @@ ht-degree: 0%
 ---
 
 
-# Skapa komponenter {#creating-components}
+# Skapar komponenter {#creating-components}
 
 AEM används för att lagra, formatera och återge innehåll som är tillgängligt på dina webbsidor.
 
@@ -34,7 +34,7 @@ Men eftersom komponenter i en kanal vanligtvis återges i helskärmsläge blir r
 
 Till exempel, `http://localhost:4502/editor.html/content/screens/we-retail/channels/idle.edit.html](http://localhost:4502/editor.html/content/screens/we-retail/channels/idle.edit.html`
 
-Användaren behöver inte ta hand om att lägga till väljaren till URL-adressen när han/hon redigerar. En logik på klientsidan lyssnar på lagerväxlingshändelsen och lägger till väljaren om en kanal har de dedikerade *skärmbilderna för resurstypen/kärnan/komponenterna/kanalen.*
+Användaren behöver inte ta hand om att lägga till väljaren till URL-adressen när han/hon redigerar. En logik på klientsidan lyssnar på lagerväxlingshändelsen och lägger till väljaren om en kanal har den dedikerade resurstypen *skärmar/core/components/channel.*
 
 ## Återger komponenter {#rendering-components}
 
@@ -55,5 +55,5 @@ De inbyggda komponenterna utnyttjar följande klientbibliotekskategorier:
 
 >[!NOTE]
 >
->Använd exempelkomponentmallen ***[AEM Screens](https://github.com/Adobe-Marketing-Cloud/aem-screens-component-template)*** för att utveckla anpassade komponenter.
+>Om du vill utveckla anpassade komponenter använder du exempelkomponentmallen ***[AEM Screens](https://github.com/Adobe-Marketing-Cloud/aem-screens-component-template)***.
 
