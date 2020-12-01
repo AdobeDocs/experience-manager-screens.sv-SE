@@ -5,6 +5,9 @@ description: Sidan beskriver enhetsspecifikationerna
 seo-description: Sidan beskriver enhetsspecifikationerna
 translation-type: tm+mt
 source-git-commit: 5c83a2b59769dfd3736a830f7d7d3cc35137c182
+workflow-type: tm+mt
+source-wordcount: '209'
+ht-degree: 0%
 
 ---
 
@@ -15,7 +18,7 @@ source-git-commit: 5c83a2b59769dfd3736a830f7d7d3cc35137c182
 >
 >En typisk intressent för den här aktiviteten är en A/V-integratör.
 
-Baserat på den information som samlats in under *Dag noll* bekräftar du följande information innan du börjar utveckla:
+Baserat på den information som samlats in under *Day Zero*, bekräftar du följande information innan du börjar utveckla:
 
 * Vilken orientering, dimensioner och upplösning används för skärmarna?
 
@@ -23,7 +26,7 @@ Baserat på den information som samlats in under *Dag noll* bekräftar du följa
 
 * Vilka program och operativsystem måste installeras på visningsenheter?
 
-* Kommer det att krävas en Internetanslutning för spelare för att synkronisera skärmarna med AEM-servrar?
+* Kommer det att krävas en Internetanslutning för spelare för att synkronisera skärmarna med AEM servrar?
 
 * När kommer innehåll på spelare att uppdateras?
 
