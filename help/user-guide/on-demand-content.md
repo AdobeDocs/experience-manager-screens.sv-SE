@@ -14,15 +14,15 @@ ht-degree: 0%
 ---
 
 
-# On Demand Content Update {#on-demand}
+# Uppdatera on demand-innehåll {#on-demand}
 
 I det här avsnittet beskrivs on-demand-innehåll för hantering av publikationer.
 
-## Hantera publikation: Leverera innehållsuppdateringar från författare till enhet {#managing-publication-delivering-content-updates-from-author-to-publish-to-device}
+## Hantera publikation: Levererar innehållsuppdateringar från författare till publicering till enhet {#managing-publication-delivering-content-updates-from-author-to-publish-to-device}
 
-Du kan publicera och avpublicera innehåll från AEM Screens. Med funktionen Hantera publikation kan du leverera innehållsuppdateringar från författare till publicering till enhet. Du kan publicera/avpublicera innehåll för hela ditt AEM Screens-projekt eller bara för en av dina kanaler, platser, enheter, program eller scheman.
+Du kan publicera och avpublicera innehåll från AEM Screens. Med funktionen Hantera publikation kan du leverera innehållsuppdateringar från författare till publicering till enhet. Du kan publicera/avpublicera innehåll för hela AEM Screens-projektet eller bara för en av dina kanaler, platser, enheter, program eller scheman.
 
-### Hantera publikationer för ett AEM Screens-projekt {#managing-publication-for-an-aem-screens-project}
+### Hantera publikation för ett AEM Screens-projekt {#managing-publication-for-an-aem-screens-project}
 
 Följ stegen nedan för att leverera innehållsuppdateringar från författaren till en enhet för ett AEM Screens-projekt:
 
@@ -31,15 +31,15 @@ Följ stegen nedan för att leverera innehållsuppdateringar från författaren 
 
    ![screen_shot_2019-02-25at21420pm](assets/screen_shot_2019-02-25at21420pm.png)
 
-1. The **Manage Publication** wizard opens. Du kan välja **åtgärden** och schemalägga publiceringstiden för tillfället eller senare. Klicka på **Nästa**.
+1. Guiden **Hantera publikation** öppnas. Du kan välja **åtgärden** och schemalägga publiceringstiden för tillfället eller senare. Klicka på **Nästa**.
 
    ![screen_shot_2019-02-07at120304pm](assets/screen_shot_2019-02-07at120304pm.png)
 
-1. Markera rutan om du vill välja hela projektet i guiden **Hantera publikation** .
+1. Markera kryssrutan för att markera hela projektet i guiden **Hantera publikation**.
 
    ![screen_shot_2019-02-25at22712pm](assets/screen_shot_2019-02-25at22712pm.png)
 
-1. Klicka på **+ Inkludera underordnade** i åtgärdsfältet och avmarkera alla alternativ för att publicera alla moduler i projektet och klicka på **Lägg** till för att publicera.
+1. Klicka på **+ Inkludera underordnade** i åtgärdsfältet och avmarkera alla alternativ för att publicera alla moduler i projektet och klicka på **Lägg till** för att publicera.
 
    >[!NOTE]
    >
@@ -55,15 +55,12 @@ I följande bild kan du till exempel bara hantera och uppdatera de ändrade sido
 
    Följ förklaringarna nedan för att förstå de tillgängliga alternativen:
 
-   1. **Inkludera endast omedelbart underordnade**:
-Med det här alternativet kan du bara hantera uppdateringar till undernoderna i projektstrukturen.
-   1. **Inkludera endast ändrade sidor**:
-Med det här alternativet kan du bara hantera uppdateringar av de ändrade sidorna i projektet där ändringarna finns i projektstrukturen.
-   1. **Inkludera endast redan publicerade sidor**:
-Med det här alternativet kan du bara hantera uppdateringar av sidor som publicerats tidigare.
+   1. **Inkludera endast omedelbart underordnade**: Med det här alternativet kan du bara hantera uppdateringar till undernoderna i projektstrukturen.
+   1. **Inkludera endast ändrade sidor**: Med det här alternativet kan du bara hantera uppdateringar av de ändrade sidorna i projektet där ändringarna finns i projektstrukturen.
+   1. **Inkludera endast redan publicerade sidor**: Med det här alternativet kan du bara hantera uppdateringar av sidor som publicerats tidigare.
 
 
-1. Klicka på **Publicera** i guiden **Hantera publikation.**
+1. Klicka på **Publicera** i **guiden Hantera publikation.**
 
    ![screen_shot_2019-02-25at23341pm](assets/screen_shot_2019-02-25at23341pm.png)
 
@@ -77,7 +74,7 @@ Med det här alternativet kan du bara hantera uppdateringar av sidor som publice
 
 
    >[!CAUTION]
-   >Om du som författare eller innehållsskapare vill se ändringarna i enheterna som är kopplade till författarinstansen klickar du på **Uppdatera offlineinnehåll** från kanalkontrollpanelen eller genom att markera projektet. I det här fallet utförs uppdateringen av offlineinnehåll endast i författarinstansen.
+   >Om du som författare eller innehållsskapare vill se ändringarna i de enheter som är kopplade till författarinstansen klickar du på **Uppdatera offlineinnehåll** från kanalkontrollpanelen eller genom att markera projektet. I det här fallet utförs uppdateringen av offlineinnehåll endast i författarinstansen.
 
 1. Navigera till projektet och klicka på **Uppdatera offlineinnehåll** i åtgärdsfältet. Den här åtgärden vidarebefordrar samma kommando för att publicera instansen, så att offlinepostmeddelandena även skapas i publiceringsinstansen.
 
@@ -105,11 +102,11 @@ Följ stegen nedan för att leverera innehållsuppdateringar från författaren 
 
    ![screen_shot_2019-02-07at115800am](assets/screen_shot_2019-02-07at115800am.png)
 
-1. The **Manage Publication** wizard opens. Du kan välja **åtgärden** och schemalägga publiceringstiden för tillfället eller senare. Klicka på **Nästa**.
+1. Guiden **Hantera publikation** öppnas. Du kan välja **åtgärden** och schemalägga publiceringstiden för tillfället eller senare. Klicka på **Nästa**.
 
    ![screen_shot_2019-02-07at120304pm](assets/screen_shot_2019-02-07at120304pm.png)
 
-1. Klicka på **Publicera** i guiden **Hantera publikation.**
+1. Klicka på **Publicera** i **guiden Hantera publikation.**
 
    ![screen_shot_2019-02-07at120507pm](assets/screen_shot_2019-02-07at120507pm.png)
 
@@ -117,7 +114,7 @@ Följ stegen nedan för att leverera innehållsuppdateringar från författaren 
    >
    >Vänta i några sekunder/minuter så att innehållet når publiceringsinstansen.
 
-1. Om du utlöser **Uppdatera offlineinnehåll** i kanalkontrollpanelen skickas offlineinnehållet endast till författarinstansen, men inte till publiceringsinstansen. Steg 1-4 används för att överföra offlineinnehåll till publiceringsinstans.
+1. Utlösare **Uppdatera offlineinnehåll** i kanalkontrollpanelen skickar bara offlineinnehållet till författarinstansen, men inte till publiceringsinstansen. Steg 1-4 används för att överföra offlineinnehåll till publiceringsinstans.
 
    ![screen_shot_2019-02-07at21608pm](assets/screen_shot_2019-02-07at21608pm.png)
 
