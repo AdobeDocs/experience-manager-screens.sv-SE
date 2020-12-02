@@ -11,9 +11,9 @@ topic-tags: administering
 discoiquuid: 523084f6-bd71-4daf-95b7-fc4c481f76dc
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 6d6ab276f5b4c0cb34a18fe3cb848ae226a97e1c
+source-git-commit: e334501e768dd00caec1962df6062a81bb49eb5c
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '785'
 ht-degree: 0%
 
 ---
@@ -121,7 +121,7 @@ Om du inte har tilldelat enheten till en skärm följer du stegen nedan för att
 
    ![screen_shot_2018-11-26at112154am](assets/screen_shot_2018-11-26at112154am.png)
 
-### Söka efter en enhet från enhetshanteraren {#search-device}
+### Söka efter en enhet från Enhetshanteraren {#search-device}
 
 När du har registrerat enheter till spelaren kan du visa alla enheter från användargränssnittet i Enhetshanteraren.
 
@@ -129,20 +129,33 @@ När du har registrerat enheter till spelaren kan du visa alla enheter från anv
 
 1. Välj mappen **Enheter** och klicka på **Enhetshanteraren** i åtgärdsfältet.
 
+   ![bild](/help/user-guide/assets/device-manager/device-manager-1.png)
+
 1. Listan över registrerade enheter visas.
 
-1. Om du har en lång lista med registrerade enheter kan du nu söka med sökikonen i åtgärdsfältet eller helt enkelt klicka på `/` (snedstreck) för att aktivera sökfunktionen.
+1. Om du har en lång lista över registrerade enheter kan du nu söka med sökikonen i åtgärdsfältet
+
+   ![bild](/help/user-guide/assets/device-manager/device-manager-2.png)
+
+   Eller
+
+   Klicka på `/` (snedstreck) för att aktivera sökfunktionen.
+
+   ![bild](/help/user-guide/assets/device-manager/device-manager-3.png)
+
 
 #### Begränsningar för sökfunktioner {#limitations}
 
-* Användaren kan söka efter valfritt ord i enhets-ID:t eller enhetsnamnet. Var noga med att lagra enhetsnamnen i flera ord, t.ex. &quot;Boston Store Lobby&quot; i stället för &quot;BostonStoreLobby&quot;.
+* Användaren kan söka efter alla ord som finns i *enhets-ID* eller *enhetsnamn*.
 
-* I det förra fallet kan man söka efter orden &quot;boston&quot;, &quot;store&quot;, &quot;lobby&quot;, men i det senare fallet visas inte resultatet om man söker i &quot;boston&quot;.
+   >[!NOTE]
+   >Vi rekommenderar att du skapar enhetsnamnen i flera ord, t.ex. *Boston Store Lobby* i stället för en enda *BostonStoreLobby*.
 
-* Jokertecken `*` stöds för sökning. Om du vill hitta alla enheter med namnet från **boston** kan du använda **boston***.
+* Om du skapar enhetsnamn som *Boston Store Lobby* kan den söka efter valfritt ord *boston*, *store* eller *lobby* men om enhetsnamnet kallas *BostonStoreLobby* sökning &lt;a1 0/>boston *visar inte resultatet.*
 
-1. Om enhetsnamnet är **BostonStoreLobby** och du söker efter **boston** returneras inte resultatet, men **boston*** returnerar resultatet.
+* Jokertecken `*` stöds för sökning. Om du vill hitta alla enheter med namn som börjar med *boston* kan du använda *boston**.
 
+1. Om enhetsnamnet är *BostonStoreLobby* och du söker efter *boston* returneras inte resultatet om du använder *boston** i sökvillkoren.
 
 ## Begränsningar för enhetsregistrering {#limitations-on-device-registration}
 
