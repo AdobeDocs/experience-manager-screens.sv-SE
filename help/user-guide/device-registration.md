@@ -11,7 +11,7 @@ topic-tags: administering
 discoiquuid: 523084f6-bd71-4daf-95b7-fc4c481f76dc
 docset: aem65
 translation-type: tm+mt
-source-git-commit: e334501e768dd00caec1962df6062a81bb49eb5c
+source-git-commit: 6731c984122083ff340eda690452729c0b846fb5
 workflow-type: tm+mt
 source-wordcount: '785'
 ht-degree: 0%
@@ -155,7 +155,7 @@ När du har registrerat enheter till spelaren kan du visa alla enheter från anv
 
 * Jokertecken `*` stöds för sökning. Om du vill hitta alla enheter med namn som börjar med *boston* kan du använda *boston**.
 
-1. Om enhetsnamnet är *BostonStoreLobby* och du söker efter *boston* returneras inte resultatet om du använder *boston** i sökvillkoren.
+* Om enhetsnamnet är *BostonStoreLobby* och du söker efter *boston* returneras inte resultatet om du använder *boston** i sökvillkoren.
 
 ## Begränsningar för enhetsregistrering {#limitations-on-device-registration}
 
