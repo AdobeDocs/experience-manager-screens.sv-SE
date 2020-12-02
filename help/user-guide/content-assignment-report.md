@@ -2,9 +2,9 @@
 title: Tilldelningsrapport för innehåll
 description: Den här sidan beskriver hur du hämtar och använder Content Assignment Report.
 translation-type: tm+mt
-source-git-commit: 13c25bda83004380dad8d8970d6be25ee83e51ac
+source-git-commit: 6d6ab276f5b4c0cb34a18fe3cb848ae226a97e1c
 workflow-type: tm+mt
-source-wordcount: '307'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -45,10 +45,14 @@ Följ instruktionerna nedan för att hämta rapporten för innehållstilldelning
 
 1. Gå till ditt AEM Screens-projekt och välj projektet **DemoScreens**.
 
-1. Klicka på **Rapport om innehållstilldelning** i åtgärdsfältet. Ett Excel-blad ska laddas ned till din dator.
+1. Klicka på **Rapport om innehållstilldelning** i åtgärdsfältet.
 
    ![bild](/help/user-guide/assets/content-assignment-report/can-download.png)
 
    >[!NOTE]
    >Det hämtade kalkylbladet består av fyra kolumner, till exempel **Kanaler**, **Resurser**, **Bildskärmar** och **Enheter**, som kan användas för att ytterligare undersöka dessa fyra enheter som hör till ditt AEM Screens-projekt.
+
+1. Ett Excel-blad laddas ned till din dator med samma förinställda namn som ditt projektnamn i AEM Screens. Om ditt projektnamn till exempel är **DemoScreens** blir det hämtade filnamnet **demoscreens-content-assign-report.xlxs**.
+
+   ![bild](/help/user-guide/assets/content-assignment-report/car-download1.png)
 
