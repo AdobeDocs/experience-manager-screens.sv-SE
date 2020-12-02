@@ -2,10 +2,10 @@
 title: Tilldelningsrapport för innehåll
 description: Den här sidan beskriver hur du hämtar och använder Content Assignment Report.
 translation-type: tm+mt
-source-git-commit: b93baeeb26e48b906ee1ddfc034112f8b73615af
+source-git-commit: 13c25bda83004380dad8d8970d6be25ee83e51ac
 workflow-type: tm+mt
-source-wordcount: '391'
-ht-degree: 1%
+source-wordcount: '307'
+ht-degree: 0%
 
 ---
 
@@ -20,34 +20,21 @@ Med rapporten Innehållstilldelning kan en AEM Screens-författare eller en admi
 
 Tilldelningsrapporten för innehåll tillåter inte bara en förhandsgranskning av alla kanaler, resurser, skärmar och enheter i det valda AEM Screens-projektet, utan även en högnivåstruktur i ditt projekt.
 
-### Använda rapporten för innehållstilldelning {#downloading-content-assignment-report-fp}
 
-#### Konfigurera projektet {#setting-up-project}
+### Krav {#pre-reqs}
 
-Följ stegen nedan för att hämta rapporten för innehållstilldelning från ett AEM Screens-projekt:
+Innan du hämtar rapporten för innehållstilldelning bör du kontrollera att du har konfigurerat ett AEM Screens-projekt med kanaler, platser och enheter.
+Mer information finns på följande resurser:
 
-1. Skapa en AEM Screens med namnet **DemoScreens**.
+1. [Skapa och hantera projekt](/help/user-guide/creating-a-screens-project.md)
+1. [Skapa och hantera kanaler](/help/user-guide/managing-channels.md)
+1. [Skapa och hantera platser](/help/user-guide/managing-locations.md)
+1. [Skapa och hantera skärmar](/help/user-guide/managing-displays.md)
+1. [Skapa enheter](/help/user-guide/managing-devices.md)
+1. [Tilldela kanaler](/help/user-guide/channel-assignment-latest-fp.md)
 
-   ![bild](/help/user-guide/assets/content-assignment-report/car-1.png)
 
-1. Skapa två sekvenskanaler i **DemoScreens**, till exempel **ChannelOne** och **ChannelTwo**.
-
-   ![bild](/help/user-guide/assets/content-assignment-report/car-2.png)
-
-1. Välj **ChannelOne** och klicka på **Redigera** i åtgärdsfältet. Lägg till få resurser (bilder/videor) i den här kanalen. Lägg på liknande sätt till resurser i **ChannelTwo**.
-
-1. Navigera till mappen Platser från **DemoScreens** —> **Platser** och skapa tre olika platser med namnet **SanJose**, **Dublin** och **SanFrancisco**.
-
-   ![bild](/help/user-guide/assets/content-assignment-report/car-3.png)
-
-1. Navigera till var och en av platserna och skapa en visning för varje plats, till exempel **SanJoseMain** under **SanJose**, **DublinMain** under **Dublin** och **SanFranciscoMain** under **San Francisco**.
-
-1. Tilldela en enhet till varje skärm.
-
-   >[!NOTE]
-   >Mer information om hur du tilldelar en kanal till en skärm finns i [Kanaltilldelning](/help/user-guide/channel-assignment.md).
-
-#### Hämtar rapporten för innehållstilldelning {#downloading-content-assignment-report}
+## Hämtar rapporten för innehållstilldelning {#downloading-content-assignment-report-fp}
 
 När du har konfigurerat ditt AEM Screens-projekt och har tilldelat displayannonser till var och en av platserna enligt stegen ovan kan du ladda ned rapporten för innehållstilldelning.
 
@@ -64,8 +51,4 @@ Följ instruktionerna nedan för att hämta rapporten för innehållstilldelning
 
    >[!NOTE]
    >Det hämtade kalkylbladet består av fyra kolumner, till exempel **Kanaler**, **Resurser**, **Bildskärmar** och **Enheter**, som kan användas för att ytterligare undersöka dessa fyra enheter som hör till ditt AEM Screens-projekt.
-
-
-
-
 
