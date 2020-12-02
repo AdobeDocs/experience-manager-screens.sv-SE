@@ -11,9 +11,9 @@ topic-tags: administering
 discoiquuid: 523084f6-bd71-4daf-95b7-fc4c481f76dc
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 2a3bbdd283f983cbdb5f21b606f508603385e041
+source-git-commit: 6d6ab276f5b4c0cb34a18fe3cb848ae226a97e1c
 workflow-type: tm+mt
-source-wordcount: '562'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -120,6 +120,29 @@ Om du inte har tilldelat enheten till en skärm följer du stegen nedan för att
    Dessutom kan du visa kontrollpanelen när du klickar på **Slutför**.
 
    ![screen_shot_2018-11-26at112154am](assets/screen_shot_2018-11-26at112154am.png)
+
+### Söka efter en enhet från enhetshanteraren {#search-device}
+
+När du har registrerat enheter till spelaren kan du visa alla enheter från användargränssnittet i Enhetshanteraren.
+
+1. Gå till användargränssnittet för Enhetshanteraren från ditt AEM Screens-projekt, till exempel **DemoScreens** —> **Enheter**.
+
+1. Välj mappen **Enheter** och klicka på **Enhetshanteraren** i åtgärdsfältet.
+
+1. Listan över registrerade enheter visas.
+
+1. Om du har en lång lista med registrerade enheter kan du nu söka med sökikonen i åtgärdsfältet eller helt enkelt klicka på `/` (snedstreck) för att aktivera sökfunktionen.
+
+#### Begränsningar för sökfunktioner {#limitations}
+
+* Användaren kan söka efter valfritt ord i enhets-ID:t eller enhetsnamnet. Var noga med att lagra enhetsnamnen i flera ord, t.ex. &quot;Boston Store Lobby&quot; i stället för &quot;BostonStoreLobby&quot;.
+
+* I det förra fallet kan man söka efter orden &quot;boston&quot;, &quot;store&quot;, &quot;lobby&quot;, men i det senare fallet visas inte resultatet om man söker i &quot;boston&quot;.
+
+* Jokertecken `*` stöds för sökning. Om du vill hitta alla enheter med namnet från **boston** kan du använda **boston***.
+
+1. Om enhetsnamnet är **BostonStoreLobby** och du söker efter **boston** returneras inte resultatet, men **boston*** returnerar resultatet.
+
 
 ## Begränsningar för enhetsregistrering {#limitations-on-device-registration}
 
