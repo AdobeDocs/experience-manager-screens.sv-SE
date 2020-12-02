@@ -2,9 +2,9 @@
 title: Versionsinformation för funktionspaket 2011
 description: På sidan beskrivs versionsinformation för funktionspaket 2011.
 translation-type: tm+mt
-source-git-commit: 53aa385b7f767a88ad19b834ecf971f6c9aa0f84
+source-git-commit: e334501e768dd00caec1962df6062a81bb49eb5c
 workflow-type: tm+mt
-source-wordcount: '260'
+source-wordcount: '277'
 ht-degree: 1%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 1%
 
 AEM Screens har släppt AEM 6.5 Feature Pack 6.
 
-Du kan hämta det senaste funktionspaketet för AEM Screens 6.5.6 från [Software Distribution Portal](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) med din Adobe ID. Navigera till fliken **Adobe Experience Manager** och sök efter **skärmar** för att hämta det senaste funktionspaketet.
+Du kan hämta det senaste funktionspaketet för AEM Screens 6.5.6 från [Software Distribution Portal](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) med din Adobe ID. Gå till fliken **Adobe Experience Manager** och sök efter **skärmar** för att få den senaste funktionspaketet med namnet **AEM 6.5 skärmar FP6**.
 
 ## Releasedatum {#release-date}
 
@@ -41,10 +41,11 @@ Mer information finns i [Implementera Tizen Player](/help/user-guide/tizen-playe
 * **Sökfunktioner från Enhetshanteraren**
 
    En ny sökfunktion finns nu i Device Manager-gränssnittet med den senaste funktionspaketet för AEM Screens 6.5.6.
+Mer information finns i [Söka efter en enhet i Enhetshanteraren](/help/user-guide/device-registration.md#search-device).
 
 * **Standardintervall för ping**
 
-   Standardintervallet för ping är nu inställt på 30 sekunder för den här versionen.
+   Standardintervallet för ping är nu inställt på 30 sekunder i den här versionen.
 
 ### Lanserade AEM Screens Players {#released-aem-screens-players}
 
