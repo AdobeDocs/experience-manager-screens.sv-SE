@@ -6,9 +6,9 @@ seo-description: Följ den här sidan för att få svar på vanliga frågor om e
 uuid: 62e58f3b-0c0a-4006-b6d5-42d2090f47b5
 contentOwner: jsyal
 translation-type: tm+mt
-source-git-commit: a2bfbfcbeaffd663378297a6eb155f38b64c8402
+source-git-commit: 359c15d16c83e5d3cecee0bbe2ef7e68a815e660
 workflow-type: tm+mt
-source-wordcount: '1705'
+source-wordcount: '1706'
 ht-degree: 0%
 
 ---
@@ -21,17 +21,17 @@ I följande avsnitt ges svar på några av de vanligaste frågorna och svaren om
 ## Problem med tom skärm {#blank-screen}
 
 >[!NOTE]
->De obligatoriska kontroller som ska provas av primär support eller support på kundsidan innan ett problem uppstår:
+>De obligatoriska kontroller som ska provas av primär support eller support på kundsidan innan ett problem uppstår.
 
 ### 1. Vilka är de första felsökningsstegen för hjälp till kunder som ser en svart skärm eller som inte spelar upp innehåll? {#troubleshooting-blank-screen}
 
 * Kontrollera om kanalförhandsgranskningen fungerar.
 * Kontrollera om förhandsvisningen fungerar
-* Prova att registrera spelaren som ett webbläsartillägg på din bärbara dator på samma skärm och kontrollera om det fungerar.
+* Prova att registrera spelaren som ett webbläsartillägg på datorn på samma skärm och kontrollera om det fungerar.
 * Navigera till `http://localhost:24502` när spelaren körs på datorn. Kontrollera om allt innehåll har laddats ned korrekt.
 * Kontrollera de resurser som de lämpliga återgivningarna skapas för och att rätt återgivning spelas upp.
-* Kontrollera om det finns schemalagt innehåll och om tiderna är korrekta. Kontrollera att tiden som är inställd i spelaren är korrekt.
-* Kontrollera spelarkonsolens loggar och se om det finns några fel? Högerklicka och inspektera för att se konsolloggarna. Om du använder Windows-spelaren trycker du på `CTRL + ALT +I` för att öppna dev-konsolen för att visa loggarna.
+* Kontrollera om det finns schemalagt innehåll och om tiderna är korrekta. Kontrollera om tiden som är inställd i spelaren är korrekt.
+* Inspect spelarkonsolen loggar och söker efter eventuella fel. Högerklicka och inspektera för att se konsolloggarna. Om du använder Windows-spelaren trycker du på `CTRL + ALT +I` för att öppna dev-konsolen för att visa loggarna.
 
 ## Kanalhantering {#channel-management}
 
