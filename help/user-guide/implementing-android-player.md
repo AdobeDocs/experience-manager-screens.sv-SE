@@ -11,10 +11,10 @@ topic-tags: administering
 discoiquuid: 77fe9d4e-e1bb-42f7-b563-dc03e3af8a60
 docset: aem65
 translation-type: tm+mt
-source-git-commit: b439cfab068dcbbfab602ad8d31aaa2781bde805
+source-git-commit: e2096260d06cc2db17d690ecbc39e8dc4f1b5aa7
 workflow-type: tm+mt
-source-wordcount: '768'
-ht-degree: 1%
+source-wordcount: '1132'
+ht-degree: 0%
 
 ---
 
@@ -109,3 +109,65 @@ I följande diagram visas implementeringen av tjänsten watchdog:
 >I Android används *AlarmManager* för att registrera *pendingIntents* som kan köras även om appen har kraschat och dess alarmleverans är inexakt från API 19 (Kitkat). Behåll mellanrum mellan timerns intervall och *AlarmManagers* *pendingIntents*-larm.
 
 **3. Programmet kraschar** Om en krasch inträffar återställs inte längre den pendingIntent för omstart som är registrerad med AlarmManager och en omstart eller omstart av programmet utförs (beroende på vilka behörigheter som är tillgängliga när cordova-pluginprogrammet initieras).
+
+## Massetablering av Android Player {#bulk-provision-android-player}
+
+När du distribuerar Android-spelaren i grupp behöver du etablera spelaren så att den pekar på en AEM och konfigurera andra egenskaper utan att ange dem manuellt i administratörsgränssnittet.
+
+>[!NOTE]
+>Den här funktionen är tillgänglig från Android Player 42.0.372.
+
+Följ stegen nedan för att tillåta massetablering i Android-spelaren:
+
+1. Skapa en konfigurations-JSON-fil med namnet `player-config.default.json`.
+Se en [JSON-princip](#example-json) och en tabell som beskriver hur de olika [principattributen](#policy-attributes) används.
+
+1. Använd en MDM- eller ADB- eller Android Studio-filutforskare för att släppa denna princip-JSON-fil i *sdcard*-mappen på Android-enheten.
+
+1. När filen har distribuerats använder du MDM-modulen för att installera spelarprogrammet.
+
+1. När spelarprogrammet startas läses den här konfigurationsfilen in och pekar på den tillämpliga AEM där det kan registreras och sedan kontrolleras.
+
+   >[!NOTE]
+   >Den här filen är *skrivskyddad* första gången programmet startas och kan inte användas för efterföljande konfigurationer. Om spelaren startas innan konfigurationsfilen släpptes avinstallerar och installerar du om programmet på enheten.
+
+### Principattribut {#policy-attributes}
+
+I följande tabell sammanfattas principattributen med en exempelpolicy-JSON för referens:
+
+| **Principnamn** | **Syfte** |
+|---|---|
+| *server* | URL:en till Adobe Experience Manager-servern. |
+| *upplösning* | Enhetens upplösning. |
+| *rebootSchedule* | Schemat för omstart gäller alla plattformar. |
+| *enableAdminUI* | Aktivera administratörsgränssnittet för att konfigurera enheten på platsen. Ange *false* när den är helt konfigurerad och i produktion. |
+| *enableOSD* | Aktivera kanalväljarens användargränssnitt så att användare kan växla kanaler på enheten. Överväg att ställa in på *false* när den är helt konfigurerad och i produktion. |
+| *enableActivityUI* | Aktivera om du vill visa förloppet för aktiviteter som hämtning och synkronisering. Aktivera för felsökning och inaktivera när den är helt konfigurerad och i produktion. |
+| *enableNativeVideo* | Aktivera det här alternativet om du vill använda inbyggd maskinvaruacceleration för videouppspelning (endast Android). |
+
+### Exempel på JSON-princip {#example-json}
+
+```java
+{
+  "server": "https://author-screensdemo.adobecqms.net",
+"device": "",
+"user": "",
+"password": "",
+"resolution": "auto",
+"rebootSchedule": "at 4:00 am",
+"maxNumberOfLogFilesToKeep": 10,
+"logLevel": 3,
+"enableAdminUI": true,
+"enableOSD": true,
+"enableActivityUI": false,
+"enableNativeVideo": false,
+"enableAutoScreenshot": false,
+"cloudMode": false,
+"cloudUrl": "https://screens.adobeioruntime.net",
+"cloudToken": "",
+"enableDeveloperMode": true
+}
+```
+
+>[!NOTE]
+>Alla Android-enheter har en *sdcard*-mapp oavsett om ett riktigt *sdcard* är isatt eller inte. Den här filen är på samma nivå som mappen Hämtningar när den distribueras. Vissa MDM-moduler som Samsung Knox kan referera till denna *sdcard*-mapplats som *Intern lagring*.
