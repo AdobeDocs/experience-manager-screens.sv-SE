@@ -11,9 +11,9 @@ topic-tags: administering
 discoiquuid: 77fe9d4e-e1bb-42f7-b563-dc03e3af8a60
 docset: aem65
 translation-type: tm+mt
-source-git-commit: e2096260d06cc2db17d690ecbc39e8dc4f1b5aa7
+source-git-commit: 2b72d9a83735beb327f519a66e8b3c0e8bf04409
 workflow-type: tm+mt
-source-wordcount: '1132'
+source-wordcount: '1134'
 ht-degree: 0%
 
 ---
@@ -92,7 +92,7 @@ Följ stegen nedan för att signera android-paketet med hjälp av tillverkarens 
 1. &lt;pathto> /zipalign -fv 4 aemscreensplayer.apk aemscreensaligned.apk
 1. Installera ***aemscreensaligned.apk*** med adb install på enheten
 
-## Android-övervakning implementering {#android-watchdog-implementation}
+## Förstå övervakningstjänsterna för Android {#android-watchdog-services}
 
 Övervakningstjänsten mellan Android-enheter implementeras som ett plugin-program för cordova med *AlarmManager*.
 
@@ -129,7 +129,7 @@ Se en [JSON-princip](#example-json) och en tabell som beskriver hur de olika [pr
 1. När spelarprogrammet startas läses den här konfigurationsfilen in och pekar på den tillämpliga AEM där det kan registreras och sedan kontrolleras.
 
    >[!NOTE]
-   >Den här filen är *skrivskyddad* första gången programmet startas och kan inte användas för efterföljande konfigurationer. Om spelaren startas innan konfigurationsfilen släpptes avinstallerar och installerar du om programmet på enheten.
+   >Filen är *skrivskyddad* första gången programmet startas och kan inte användas för efterföljande konfigurationer. Om spelaren startas innan konfigurationsfilen släpptes avinstallerar och installerar du om programmet på enheten.
 
 ### Principattribut {#policy-attributes}
 
