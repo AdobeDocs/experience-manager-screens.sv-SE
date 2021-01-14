@@ -2,10 +2,10 @@
 title: Tizen Player
 description: På den här sidan beskrivs hur Tizen Player installeras och fungerar.
 translation-type: tm+mt
-source-git-commit: 6f93922bf94b9f0f752c0953c7bed35b5d056e4b
+source-git-commit: 0c8ca6c509208d19d2ea23e5bff712aaf780d2fe
 workflow-type: tm+mt
-source-wordcount: '926'
-ht-degree: 0%
+source-wordcount: '930'
+ht-degree: 1%
 
 ---
 
@@ -30,6 +30,9 @@ Följ stegen nedan för att undanta dessa inkompatibla klienter när du använde
 
 1. Uppgradera till Adobe Experience Manager (AEM) Service Pack 6.5.8.
 
+   >[!NOTE]
+   >Om du installerar AEM 6.5.8 kan du hoppa över följande steg 2 och 3.
+
 1. Navigera till `/system/console/bundles` i AEM och klicka på knappen `install/update`.
 
 1. Installera filen `crx-auth-token` jar. Du kan behöva stänga av och starta om AEM när du har installerat den här burken eftersom den är relaterad till autentiseringen.
@@ -38,27 +41,23 @@ Följ stegen nedan för att undanta dessa inkompatibla klienter när du använde
 
 1. Du bör se ett nytt alternativ *Användaragenter som ska undantas från samma platsattribut*. Fyll i detta med en regex som motsvarar användaragenten/användaragenterna som är inkompatibla med attributet *SameSite=None*.
    >[!NOTE]
-   >Se [SameSite=None: Kända inkompatibla klienter](https://www.chromium.org/updates/same-site/incompatible-clients) för mer information. För Tizen-spelaren använder du regex: `(.*)Tizen (4|5)(.*)`.
+   >Se [SameSite=None: Kända inkompatibla klienter](https://www.chromium.org/updates/same-site/incompatible-clients) för mer information. För Tizen-spelaren använder du regex: `(.*)Tizen(.*)`.
 
 1. Registrera Tizen-spelaren mot din AEM 6.5.5 och senare och registrera och visa innehåll normalt.
 
 
 ## Konfigurera den lokala servern och extraherar zip-filer {#setting-local-server}
 
-Följ stegen nedan för att konfigurera den lokala servern och kopiera de extraherade filerna:
-
-1. Hämta IP-adressen för den lokala datorn.
-   >[!NOTE]
-   >Läs den officiella dokumentationen och lär dig hur du aktiverar den lokala servern på din plattform.
-
-1. I Terminal navigerar du till samma katalog i den uppzippade installationsmappen och kontrollerar om den lokala värden fungerar.
-
-1. Tizen-spelaren hämtar installationsprogrammet från den lokala servern.
+Följ stegen nedan:
 
 1. Kopiera de två extraherade filerna som `AEMScreensPlayer.wgt` och `sssp_config.xml` till rotkatalogen för den lokala Apache-webbservern.
 
    >[!NOTE]
    >`AEMScreensPlayer.wgt`är det faktiska Tizen-spelarprogrammet och `sssp_config.xml` innehåller information om kartan som hjälper dig att installera den på Tizen-enheten.
+
+1. Hämta IP-adressen eller URL-adressen för den lokala HTTP-servern (och sökvägen till mappen som innehåller de extraherade filerna i steg 2 om de extraheras till en undermapp och inte till rotmappen)
+
+1. Tizen-spelaren hämtar installationsprogrammet från den lokala servern.
 
 ### Konfigurera uppdateringar på Samsung-enheten {#config-updates}
 
@@ -73,7 +72,9 @@ Följ stegen nedan på Samsung-enheten för att slutföra installationen av AEM 
 
 1. När URL-startaren har angetts trycker du på **Home**-knappen på fjärrkontrollen.
 
-1. Navigera till **URL-startinställningarna** och ange IP-adressen för den lokala värdservern.
+1. Navigera till **URL Launcher Settings** och ange IP-adressen för den lokala värdservern och klicka på **Done**.
+   >[!NOTE]
+   >Tizen-spelaren bör kunna ansluta till http-servern.
 
 1. AEM Screens Player bör nu installeras och startas automatiskt på din Samsung-enhet.
 
@@ -115,6 +116,8 @@ Följ stegen nedan för att registrera Tizen-enheten till Samsung Remote Managem
 1. Konfigurera TLS, om det behövs. Navigera till porten och markera portnumret på servern och klicka på **Spara**.
 
 1. Navigera till fliken **Device** och sök efter den enhet du just konfigurerade. När en enhet hittas klickar du i kryssrutan och väljer **Godkänn**.
+
+   >![bild](/help/user-guide/assets/tizen/rms-3.png)
 
 1. Fyll i nödvändig information och välj en enhetsgrupp. Klicka på **OK** för att slutföra godkännandeprocessen.
 
