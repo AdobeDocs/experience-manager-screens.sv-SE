@@ -2,9 +2,9 @@
 title: Tizen Player
 description: På den här sidan beskrivs hur Tizen Player installeras och fungerar.
 translation-type: tm+mt
-source-git-commit: 092be09ec9477c9ff7561347d8f05641a90a9b40
+source-git-commit: 6f93922bf94b9f0f752c0953c7bed35b5d056e4b
 workflow-type: tm+mt
-source-wordcount: '899'
+source-wordcount: '926'
 ht-degree: 0%
 
 ---
@@ -68,23 +68,22 @@ Följ stegen nedan på Samsung-enheten för att slutföra installationen av AEM 
 
 1. Klicka på knappen **MENU** på enhetens fjärr och bläddra nedåt till **System** i det vänstra navigeringsfältet.
 
-1. Bläddra nedåt och välj alternativet **Starta uppspelning via URL**.
+1. Bläddra nedåt och välj alternativet **Spela upp via** och ändra det till **URL Launcher**.
    ![bild](/help/user-guide/assets/tizen/rms-2.png)
 
-1. Tryck på knappen **Hem** på fjärrkontrollen.
+1. När URL-startaren har angetts trycker du på **Home**-knappen på fjärrkontrollen.
 
-1. Ange IP-adressen till den lokala värdservern.
-
-1. Välj **Fjärr** i **Utvecklarläge**.
-
-1. Klicka på knappen **Hem** på enhetens fjärr och välj **URL Launcher**.
+1. Navigera till **URL-startinställningarna** och ange IP-adressen för den lokala värdservern.
 
 1. AEM Screens Player bör nu installeras och startas automatiskt på din Samsung-enhet.
+
+   >[!NOTE]
+   >Både Tizen-enheten och `http`-servern ska kunna ansluta till varandra, det vill säga servern ska kunna nås till Tizen-spelaren.
 
 ## Massetablering av Tizen Player {#bulk-provisioning-tizen-player}
 
 >[!NOTE]
->Det kan vara tidsödande att manuellt ange AEM-serverns adress i administratörsgränssnittet för varje enhet för ett stort antal enheter. Vi rekommenderar att du använder Samsung Remote Management-lösning (RMS) för att distribuera och hantera lösningen. Mer information finns i [Registrera Tizen-enheten för Samsung Remote Management Service (RMS)](#enroll-tizen-device-rm).
+>Det kan vara tidsödande att manuellt ange AEM-serverns adress i administratörsgränssnittet för varje enhet för ett stort antal enheter. Vi rekommenderar att du använder Samsung Remote Management-lösning (RMS) för att distribuera och hantera större lösningar. Mer information finns i [Registrera Tizen-enheten för Samsung Remote Management Service (RMS)](#enroll-tizen-device-rm).
 
 Följ stegen nedan om du vill att programmet ska etableras gruppvis och peka på AEM författarinstans när det startas:
 
@@ -111,9 +110,9 @@ Följ stegen nedan för att registrera Tizen-enheten till Samsung Remote Managem
    >Kontrollera att skärmen är konfigurerad för att spela upp via URL-start.
    >![bild](/help/user-guide/assets/tizen/rms-2.png)
 
-1. Navigera till Serveradress och skriv in MagicInfo URL-åtkomst och tryck på Klart.
+1. Navigera till Serveradress och skriv in MagicInfo URL-åtkomst och tryck på **Done**.
 
-1. Konfigurera TLS, om det behövs. Navigera till porten och välj portnumret på servern. Klicka på **Spara**.
+1. Konfigurera TLS, om det behövs. Navigera till porten och markera portnumret på servern och klicka på **Spara**.
 
 1. Navigera till fliken **Device** och sök efter den enhet du just konfigurerade. När en enhet hittas klickar du i kryssrutan och väljer **Godkänn**.
 
