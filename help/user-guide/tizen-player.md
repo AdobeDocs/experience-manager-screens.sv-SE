@@ -2,9 +2,9 @@
 title: Tizen Player
 description: På den här sidan beskrivs hur Tizen Player installeras och fungerar.
 translation-type: tm+mt
-source-git-commit: 0c8ca6c509208d19d2ea23e5bff712aaf780d2fe
+source-git-commit: c1ddb5f458831025bdcd1481bcdc198616f5bb47
 workflow-type: tm+mt
-source-wordcount: '930'
+source-wordcount: '931'
 ht-degree: 1%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 1%
 
 Följ stegen nedan för att implementera Tizen Player för AEM Screens:
 
-1. Gå till sidan [AEM 6.5 Player Downloads](https://download.macromedia.com/screens/) för att hämta Tizen Player.
+1. Gå till sidan [AEM Screens Player Downloads](https://download.macromedia.com/screens/) för att hämta Tizen Player.
 
 1. Installera Tizen-spelaren *(.zip)*-filen från den lokala datorn.
 
