@@ -2,9 +2,9 @@
 title: Tizen Player
 description: På den här sidan beskrivs hur Tizen Player installeras och fungerar.
 translation-type: tm+mt
-source-git-commit: 4c005ace7b1da94ed527164d6cfa09666d746273
+source-git-commit: 092be09ec9477c9ff7561347d8f05641a90a9b40
 workflow-type: tm+mt
-source-wordcount: '885'
+source-wordcount: '899'
 ht-degree: 0%
 
 ---
@@ -23,22 +23,24 @@ Följ stegen nedan för att implementera Tizen Player för AEM Screens:
 ## Undantag för användaragenter med Samesite Cookie-problem {#exempting-user-agents}
 
 >[!IMPORTANT]
->**Detta avsnitt gäller AEM 6.5.5 till AEM 6.5.7**
->Det finns webbläsarmotorer som är inkompatibla med attributet *SameSite=None* som används i inloggningstoken som utfärdas av AEM 6.5 till AEM 6.7. I de flesta fall kan problemet lösas genom att du uppgraderar webbläsaren till den senaste tillgängliga versionen. I vissa fall är sådana uppgraderingar inte möjliga, t.ex. för smarta skärmar, digitalboxar eller andra enheter med inbäddade webbläsarmotorer. Om du vill undanta dessa inkompatibla klienter när du använder SameSite=None ska du göra följande:
+>**Detta avsnitt gäller Adobe Experience Manager (AEM) 6.5.5 till AEM 6.5.7**
+>Det finns webbläsarmotorer som är inkompatibla med attributet *SameSite=None* som används i inloggningstoken som utfärdas av AEM 6.5 till AEM 6.7. I de flesta fall kan problemet lösas genom att du uppgraderar webbläsaren till den senaste tillgängliga versionen. I vissa fall är sådana uppgraderingar inte möjliga, t.ex. för smarta skärmar, digitalboxar eller andra enheter med inbäddade webbläsarmotorer.
 
-1. Hämta filen *jar* från `https://artifactory.corp.adobe.com/artifactory/maven-aem-release-local/com/adobe/granite/crx-auth-token/2.6.10/`.
+Följ stegen nedan för att undanta dessa inkompatibla klienter när du använder *SameSite=None*:
+
+1. Uppgradera till Adobe Experience Manager (AEM) Service Pack 6.5.8.
 
 1. Navigera till `/system/console/bundles` i AEM och klicka på knappen `install/update`.
 
 1. Installera filen `crx-auth-token` jar. Du kan behöva stänga av och starta om AEM när du har installerat den här burken eftersom den är relaterad till autentiseringen.
 
-1. När AEM startat om går du till `/system/console/configMgr` och söker efter **Autentiseringshanteraren för Adobe Granite-token**. Ange värdet Ingen för inställningen SameSite.
+1. När AEM startat om går du till `/system/console/configMgr` och söker efter **Autentiseringshanteraren för Adobe Granite-token**. Ange värdet **SameSite** som **None**.
 
 1. Du bör se ett nytt alternativ *Användaragenter som ska undantas från samma platsattribut*. Fyll i detta med en regex som motsvarar användaragenten/användaragenterna som är inkompatibla med attributet *SameSite=None*.
    >[!NOTE]
-   >Se [SameSite=None: Kända inkompatibla klienter](https://www.chromium.org/updates/same-site/incompatible-clients) för mer information.
+   >Se [SameSite=None: Kända inkompatibla klienter](https://www.chromium.org/updates/same-site/incompatible-clients) för mer information. För Tizen-spelaren använder du regex: `(.*)Tizen (4|5)(.*)`.
 
-1. För Tizen-spelaren använder du regex: `(.*)Tizen (4|5)(.*)` Registrera Tizen-spelaren mot AEM 6.5.5 och senare och registrera och visa innehåll normalt.
+1. Registrera Tizen-spelaren mot din AEM 6.5.5 och senare och registrera och visa innehåll normalt.
 
 
 ## Konfigurera den lokala servern och extraherar zip-filer {#setting-local-server}
@@ -113,21 +115,21 @@ Följ stegen nedan för att registrera Tizen-enheten till Samsung Remote Managem
 
 1. Konfigurera TLS, om det behövs. Navigera till porten och välj portnumret på servern. Klicka på **Spara**.
 
-1. Navigera till fliken Enhet och leta efter den enhet du just konfigurerade.
-
-1. När en enhet hittas klickar du i kryssrutan och väljer **Godkänn**.
+1. Navigera till fliken **Device** och sök efter den enhet du just konfigurerade. När en enhet hittas klickar du i kryssrutan och väljer **Godkänn**.
 
 1. Fyll i nödvändig information och välj en enhetsgrupp. Klicka på **OK** för att slutföra godkännandeprocessen.
 
    >![bild](/help/user-guide/assets/tizen/rms-7.png)
 
-1. När enheten har godkänts ska den visas i enhetslistan. Klicka på knappen *Information* i enhetens ruta **i**.
+1. När enheten har godkänts ska den visas i enhetslistan. Klicka på knappen *Information* i enhetsrutan, d.v.s. **i**, enligt bilden nedan.
 
    >![bild](/help/user-guide/assets/tizen/rms-6.png)
 
 1. Dialogrutan för enhetsinformation visas. Välj fliken **Enhetsinformation** och klicka på **Redigera**.
 
-1. Redigera enhetsalternativ och välj fliken **Inställningar**. Navigera till **URL Launcher** och ange webbadress som är värd för widgeten och `SSSP config file` för att installera ett `SSSP`-program, som bilden nedan visar.
+   >![bild](/help/user-guide/assets/tizen/rms-5.png)
+
+1. Redigera enhetsalternativen och välj fliken **Inställningar**. Navigera till **URL Launcher** och ange webbadress som är värd för widgeten och `SSSP config file` för att installera ett `SSSP`-program, som bilden nedan visar.
 
    ![bild](/help/user-guide/assets/tizen/rms-9.png)
 
