@@ -2,9 +2,9 @@
 title: Tizen Player
 description: På den här sidan beskrivs hur Tizen Player installeras och fungerar.
 translation-type: tm+mt
-source-git-commit: 1ec3e3541755550f719dbe53e83326d9796de14f
+source-git-commit: dc2fedaa5726e1013e1b51f429ba19e4a709de28
 workflow-type: tm+mt
-source-wordcount: '649'
+source-wordcount: '675'
 ht-degree: 0%
 
 ---
@@ -77,29 +77,40 @@ Följ stegen nedan om du vill att programmet ska etableras gruppvis och peka på
 
 ### Registrerar den tizen-enheten till Samsung Remote Management Service (RMS) {#enroll-tizen-device-rms}
 
-Följ stegen nedan för att registrera Tizen-enheten till Samsung Remote Management Service (RMS) och fjärrkonfigurera URL Launcher:
+Följ stegen nedan för att registrera Tizen-enheten till Samsung Remote Management Service (RMS) och fjärrkonfigurera URL-startprogrammet:
 
 >[!NOTE]
 >Kontrollera nätverksinställningarna och övervakaren.
 
-1. Tryck på Menu på fjärrkontrollen, gå till System och tryck sedan på Retur på Play Via.
+1. Navigera till **Meny** -> **Nätverk** -> **Servernätverksinställningar** och tryck på **Enter**.
 
    >[!NOTE]
-   >Kontrollera att skärmen är konfigurerad för att spela upp via URL-startaren
-1. Navigera till **Meny** -> **Nätverk** -> **Servernätverksinställningar** och tryck på **Enter**.
+   >Kontrollera att skärmen är konfigurerad för att spela upp via URL-start.
 
 1. Navigera till Serveradress och skriv in MagicInfo URL-åtkomst och tryck på Klart.
 
-1. Navigera till fliken Enhet när du har loggat in på MIS
-1. Leta efter den enhet du just konfigurerade genom att titta på IP-adressen och/eller dess Mac-adress.
-1. När en enhet hittas klickar du i kryssrutan och väljer Godkänn
-1. Kontrollera att skärmen är konfigurerad för att spela upp via URL Launcher
-1. Tryck på Meny på fjärrkontrollen, gå till System och tryck sedan på Retur på Play Via
-1. Navigera till Meny -> Nätverk -> Servernätverksinställningar och tryck på Retur
-1. Gå till Serveradress och ange MagicInfo URL-åtkomst och tryck på Klart
 1. Konfigurera TLS att använda eller inte använda beroende på skiftläge
-1. Gå till porten och välj portnumret på servern.
-1. Klicka på Spara när alternativen är klara.
+   1. Gå till porten och välj portnumret på servern.
+   1. Klicka på Spara när alternativen är klara.
+
+1. Navigera till fliken Enhet när du har loggat in på MIS
+   1. Leta efter den enhet du just konfigurerade genom att titta på IP-adressen och/eller dess Mac-adress.
+   1. När en enhet hittas klickar du i kryssrutan och väljer Godkänn.
+
+1. När du klickat på Godkänt visas följande popup
+   1. Fyll i nödvändig information
+   1. välj en enhetsgrupp
+   1. Klicka på OK för att slutföra godkännandeprocessen.
+
+1. När enheten har godkänts ska den se ut så här i enhetslistan.
+   1. Klicka på knappen Information som finns i enhetens ruta &quot;i&quot;
+
+1. Popup-fönstret Enhetsinformation visas enligt följande och klicka på knappen Redigera.
+
+1. Alternativen för att redigera enheter visas enligt följande och välj fliken Inställningar.
+
+1. Leta reda på URL-startavsnittet och ange URL som är värd för widgeten och `SSSP config file` för att installera ett SSSP-program.
+
 
 
 
