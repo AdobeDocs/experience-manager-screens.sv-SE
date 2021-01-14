@@ -2,9 +2,9 @@
 title: Tizen Player
 description: På den här sidan beskrivs hur Tizen Player installeras och fungerar.
 translation-type: tm+mt
-source-git-commit: dc2fedaa5726e1013e1b51f429ba19e4a709de28
+source-git-commit: c1e7187ad3841cde08377d6daf700885d17706ba
 workflow-type: tm+mt
-source-wordcount: '675'
+source-wordcount: '691'
 ht-degree: 0%
 
 ---
@@ -107,9 +107,13 @@ Följ stegen nedan för att registrera Tizen-enheten till Samsung Remote Managem
 
 1. Popup-fönstret Enhetsinformation visas enligt följande och klicka på knappen Redigera.
 
-1. Alternativen för att redigera enheter visas enligt följande och välj fliken Inställningar.
+1. Redigera enhetsalternativ och välj fliken **Inställningar**.
 
-1. Leta reda på URL-startavsnittet och ange URL som är värd för widgeten och `SSSP config file` för att installera ett SSSP-program.
+1. Navigera till **URL Launcher** och ange webbadress som är värd för widgeten och `SSSP config file` för att installera ett `SSSP`-program, som bilden nedan visar.
+
+   ![bild](/help/user-guide/assets/tizen/rms-9.png)
+
+1. Klicka på **Spara** för att ändringarna ska börja gälla på skärmen.
 
 
 
