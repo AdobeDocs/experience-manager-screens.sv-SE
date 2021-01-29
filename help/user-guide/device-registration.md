@@ -11,7 +11,7 @@ topic-tags: administering
 discoiquuid: 523084f6-bd71-4daf-95b7-fc4c481f76dc
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 6731c984122083ff340eda690452729c0b846fb5
+source-git-commit: 85d50951caa27b62b1e05fc808de96ffb4e526b5
 workflow-type: tm+mt
 source-wordcount: '785'
 ht-degree: 0%
@@ -121,7 +121,7 @@ Om du inte har tilldelat enheten till en skärm följer du stegen nedan för att
 
    ![screen_shot_2018-11-26at112154am](assets/screen_shot_2018-11-26at112154am.png)
 
-### Söka efter en enhet från Enhetshanteraren {#search-device}
+## Söka efter en enhet från Enhetshanteraren {#search-device}
 
 När du har registrerat enheter till spelaren kan du visa alla enheter från användargränssnittet i Enhetshanteraren.
 
@@ -144,7 +144,7 @@ När du har registrerat enheter till spelaren kan du visa alla enheter från anv
    ![bild](/help/user-guide/assets/device-manager/device-manager-3.png)
 
 
-#### Begränsningar för sökfunktioner {#limitations}
+### Begränsningar för sökfunktioner {#limitations}
 
 * Användaren kan söka efter alla ord som finns i *enhets-ID* eller *enhetsnamn*.
 
