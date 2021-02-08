@@ -4,10 +4,10 @@ seo-title: Dispatcher Configurations for AEM Screens
 description: På den här sidan hittar du riktlinjer för hur du konfigurerar dispatcher för ett AEM Screens-projekt.
 seo-description: På den här sidan hittar du riktlinjer för hur du konfigurerar dispatcher för ett AEM Screens-projekt.
 translation-type: tm+mt
-source-git-commit: 4a1fb81fa343983093590c36ccb6a4fd110cdad2
+source-git-commit: 230e513ff24647e934ed850ecade60b19f4ab331
 workflow-type: tm+mt
-source-wordcount: '248'
-ht-degree: 4%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -32,22 +32,26 @@ Mer information finns i [Konfigurera Dispatcher](https://docs.adobe.com/content/
 
 ## Konfigurerar Dispatcher {#configuring-dispatcher}
 
+AEM Screens spelare/enheter använder autentiserad session för att få tillgång till resurserna i publiceringsinstanserna. Om du har flera publiceringsinstanser bör förfrågningarna alltid gå till samma publiceringsinstans så att den autentiserade sessionen är giltig för alla förfrågningar som kommer från AEM Screens spelare/enheter.
+
 Följ stegen nedan för att konfigurera dispatcher för ett AEM Screens-projekt.
 
 ### Aktivera anteckningssessioner {#enable-sticky-session}
 
-Om du vill använda mer än en publiceringsinstans med dispatcher måste du uppdatera `dispatcher.any`-filen.
+Om du vill använda flera publiceringsinstanser som körs med en enda dispatcher måste du uppdatera `dispatcher.any`-filen för att aktivera taggighet
 
 ```xml
 /stickyConnections {
   /paths
   {
-    "/content/screens"
-    "/home/users/screens"
-    "/libs/granite/csrf/token.json"
+    "/"
   }
-}
+ }
 ```
+
+Om du har en publiceringsinstans framför en dispatcher kommer det inte att hjälpa om du aktiverar klisterlappningen vid dispatchern eftersom belastningsutjämnaren kan skicka varje begäran till dispatchern. I så fall bör du aktivera taggighet på belastningsutjämnarnivå.
+
+Om du till exempel använder AWS ALB läser du [Målgrupper för Utjämning av programbelastning](https://docs.aws.amazon.com/elasticloadbalancing/latest/application/load-balancer-target-groups.html) för att aktivera klisterhet på ALB-nivå. Aktivera klibbighet i en dag.
 
 ### Steg 1: Konfigurerar klientrubriker {#step-configuring-client-headers}
 
