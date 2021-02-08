@@ -4,9 +4,9 @@ seo-title: Konfigurera författare och publicera i AEM Screens
 description: AEM Screens arkitektur liknar en traditionell AEM Sites-arkitektur. Innehållet skapas på en AEM författarinstans och sedan vidarebefordras till flera publiceringsinstanser. Följ den här sidan för att lära dig hur du konfigurerar författare och publicerar för AEM Screens.
 seo-description: AEM Screens arkitektur liknar en traditionell AEM Sites-arkitektur. Innehållet skapas på en AEM författarinstans och sedan vidarebefordras till flera publiceringsinstanser. Följ den här sidan för att lära dig hur du konfigurerar författare och publicerar för AEM Screens.
 translation-type: tm+mt
-source-git-commit: 235aa979543455882c72fa262cf7320c4298de5e
+source-git-commit: c72c6df436d744cb31c39a43a7b954e7fe317496
 workflow-type: tm+mt
-source-wordcount: '1910'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -165,8 +165,8 @@ På varje publiceringsinstans:
 1. Välj **ActiveMQ Artemis JMS Provider**-konfiguration för Apache
 1. Uppdatera följande:
 
-   * ***Klusterlösenord***: (använd krypterat värde från föregående steg per instans)
-   * ***Avsnitt***: {name: &#39;commands&#39;, adress: &#39;com.adobe.cq.screens.commands&#39;, maxConsumers: 50}
+   * ***Klusterlösenord***: använd krypterat värde från föregående steg per instans
+   * ***Avsnitt***:  `{name: 'commands', address: 'com.adobe.cq.screens.commands', maxConsumers: 50}`
 
 #### Verifiera ActiveMQ-objektkluster {#verify-activemq-artemis-cluster}
 
