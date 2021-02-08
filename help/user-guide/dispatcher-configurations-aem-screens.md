@@ -4,10 +4,10 @@ seo-title: Dispatcher Configurations for AEM Screens
 description: På den här sidan hittar du riktlinjer för hur du konfigurerar dispatcher för ett AEM Screens-projekt.
 seo-description: På den här sidan hittar du riktlinjer för hur du konfigurerar dispatcher för ett AEM Screens-projekt.
 translation-type: tm+mt
-source-git-commit: 230e513ff24647e934ed850ecade60b19f4ab331
+source-git-commit: 43aca405707625fe5a132beaed82dbb9a4513129
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '391'
+ht-degree: 3%
 
 ---
 
@@ -49,7 +49,9 @@ Om du vill använda flera publiceringsinstanser som körs med en enda dispatcher
  }
 ```
 
-Om du har en publiceringsinstans framför en dispatcher kommer det inte att hjälpa om du aktiverar klisterlappningen vid dispatchern eftersom belastningsutjämnaren kan skicka varje begäran till dispatchern. I så fall bör du aktivera taggighet på belastningsutjämnarnivå.
+Om du har en publiceringsinstans framför en dispatcher kommer det inte att hjälpa om du aktiverar klisterlappningen vid dispatchern eftersom belastningsutjämnaren kan skicka varje begäran till dispatchern. I det här fallet klickar du på **Aktivera** i **aktivitetsfältet** för att aktivera det på belastningsutjämnarnivå, vilket visas i bilden nedan:
+
+![bild](/help/user-guide/assets/dispatcher/dispatcher-enable.png)
 
 Om du till exempel använder AWS ALB läser du [Målgrupper för Utjämning av programbelastning](https://docs.aws.amazon.com/elasticloadbalancing/latest/application/load-balancer-target-groups.html) för att aktivera klisterhet på ALB-nivå. Aktivera klibbighet i en dag.
 
