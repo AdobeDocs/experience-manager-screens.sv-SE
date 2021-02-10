@@ -11,10 +11,10 @@ content-type: reference
 discoiquuid: 4228e8a1-9749-49a6-a1bb-365492bc2a3d
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 2ab8496cebb81864a8354ad5dcb8d72bc1e44c13
+source-git-commit: d25c45d6362a5f8ffac84e07dacb30c0b7c64493
 workflow-type: tm+mt
-source-wordcount: '978'
-ht-degree: 0%
+source-wordcount: '995'
+ht-degree: 1%
 
 ---
 
@@ -71,6 +71,25 @@ När du har hämtat programmet följer du stegen på spelaren för att slutföra
 ### Konfiguration av massserver: Registrerar flera Windows 10-spelare med en konfiguration {#bulk-server-configuration-registering-multiple-windows-players-with-one-configuration}
 
 När du har installerat Windows Player kan du registrera flera spelare med en konfiguration.
+
+## Installation med CLI (PowerShell) {#install-powershell}
+
+1. Skapa en anpassad plats **dedikerad** för skärmspelaren, till exempel:
+   `C:\Users\User\screens-player`)
+1. Installera
+   `aem-screens-player-electron-xxx-signed.exe /S /D=C:\Users\User\screens-player`
+1. Öppna
+   `Start-Process C:\Users\User\screens-player\AEMScreensPlayer.exe`
+
+**Exempel**
+
+```shell
+C:\Users\User\Downloads> mkdir screens-player
+
+C:\Users\User\Downloads> .\aem-screens-player-electron-xxx-signed.exe /S /D=C:\Users\User\Downloads\screens-player
+
+C:\Users\User\Downloads> Start-Process C:\Users\User\Downloads\screens-player\AEMScreensPlayer.exe
+```
 
 >[!NOTE]
 >
