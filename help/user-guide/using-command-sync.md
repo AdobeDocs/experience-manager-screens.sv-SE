@@ -4,9 +4,9 @@ seo-title: Använda kommandosynkronisering
 description: Följ den här sidan om du vill veta mer om hur du använder kommandosynkronisering.
 seo-description: Följ den här sidan om du vill veta mer om hur du använder kommandosynkronisering.
 translation-type: tm+mt
-source-git-commit: f25176be89424059b8c51296969f069687328536
+source-git-commit: d25c45d6362a5f8ffac84e07dacb30c0b7c64493
 workflow-type: tm+mt
-source-wordcount: '777'
+source-wordcount: '794'
 ht-degree: 2%
 
 ---
@@ -52,10 +52,10 @@ Innan du använder funktionen Kommandosynkronisering måste du kontrollera att d
 
    ![image1](assets/command-sync/command-sync2-1.png)
 
-1. Skapa en visning i mappen **Platser**, vilket visas i bilden nedan.
+1. Skapa en plats **Lobby** och därefter en visning med namnet **LobbyDisplay** i mappen **Platser**, vilket visas i bilden nedan.
    ![image1](assets/command-sync/command-sync3-1.png)
 
-1. Tilldela kanalen **ChannelLobby** till din **LobbyDisplay**.
+1. Tilldela kanalen **ChannelLobby** till din **LobbyDisplay**. Nu kan du visa den tilldelade kanalen för visning från kontrollpanelen.
    ![image1](assets/command-sync/command-sync4-1.png)
 
    >[!NOTE]
@@ -68,7 +68,7 @@ Innan du använder funktionen Kommandosynkronisering måste du kontrollera att d
 
    >[!NOTE]
    >
-   >Mer information om hur du tilldelar en kanal till en skärm finns i [Skapa och hantera skärmar](/help/user-guide/managing-displays.md)
+   >Mer information om hur du registrerar en enhet finns i [Device Registration](/help/user-guide/device-registration.md)
 
 1. I det här exemplet visas en fönsterenhet och en Windows-spelare som två separata enheter. Båda enheterna pekar på samma skärm.
    ![image1](assets/command-sync6.png)
