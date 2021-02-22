@@ -6,9 +6,9 @@ seo-description: Följ den här sidan för att få svar på vanliga frågor om e
 uuid: 62e58f3b-0c0a-4006-b6d5-42d2090f47b5
 contentOwner: jsyal
 translation-type: tm+mt
-source-git-commit: 359c15d16c83e5d3cecee0bbe2ef7e68a815e660
+source-git-commit: 7869e462417b93dab568e1a8e6b5c608832ba5bd
 workflow-type: tm+mt
-source-wordcount: '1706'
+source-wordcount: '1819'
 ht-degree: 0%
 
 ---
@@ -32,6 +32,12 @@ I följande avsnitt ges svar på några av de vanligaste frågorna och svaren om
 * Kontrollera de resurser som de lämpliga återgivningarna skapas för och att rätt återgivning spelas upp.
 * Kontrollera om det finns schemalagt innehåll och om tiderna är korrekta. Kontrollera om tiden som är inställd i spelaren är korrekt.
 * Inspect spelarkonsolen loggar och söker efter eventuella fel. Högerklicka och inspektera för att se konsolloggarna. Om du använder Windows-spelaren trycker du på `CTRL + ALT +I` för att öppna dev-konsolen för att visa loggarna.
+
+### 2. Hur löser jag problem med tomma skärmar i AEM Screens genom att skapa en standardkanal eller ett schema?
+
+För att undvika tomma eller grå skärmar i fältet skapar du en global standardkanal eller ett standardschema som tilldelas alla skärmar med lägst prioritet 1. Om något skulle gå fel med innehållsuppdateringar (på grund av nätverk, spelare, server eller replikering), eftersom spelarna redan har det här innehållet cachelagrat på disken, som ska spelas upp korrekt och undvika de grå skärmarna.
+
+Allt annat innehåll, som kanaler eller scheman, har högre prioritet än 1, så det andra innehållet har högre prioritet och globalt kanalinnehåll eller schemaläggningsinnehåll (med prioritet 1) spelas endast upp som ett reservalternativ.
 
 ## Kanalhantering {#channel-management}
 
