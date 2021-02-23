@@ -6,9 +6,9 @@ seo-description: Följ den här sidan för att få svar på vanliga frågor om e
 uuid: 62e58f3b-0c0a-4006-b6d5-42d2090f47b5
 contentOwner: jsyal
 translation-type: tm+mt
-source-git-commit: 3c78dd2f2f5cff421917eb5d657d8fd6fb2e3229
+source-git-commit: 70e94631a808c81fae79de396d3ead8094c903e1
 workflow-type: tm+mt
-source-wordcount: '1819'
+source-wordcount: '1898'
 ht-degree: 0%
 
 ---
@@ -165,6 +165,24 @@ Följ stegen nedan för att felsöka en AEM Screens-spelare som kontinuerligt sk
 1. Kontrollera om du har `/etc/map`-regler för *författaren* eller *publish*-instansen och skärmsökvägarna matchar `sling:match` och omdirigeras internt till en annan sökväg. Genom att matcha den exakta URL:en i `/system/console/jcrresolver` blir det lättare att identifiera om *publish*-instansen skriver om dessa URL:er till någon annan sökväg.
 
 1. Kontrollera om konfigurationen av Apache Sling Resource Resolver Factory orsakar interna omskrivningar.
+
+### Hur får jag information om skärmen och enheten från spelarens API?
+
+Det finns två sätt att få information via:
+
+* **ett internt JS API**
+* **en ContextHub-butik**: Tre ContextHub-butiker definieras i  `/libs/screens/clientlibs/contexthub` för att visa kanaler, enheter och visningsinformation.
+
+   Följ stegen nedan för att använda dessa ContentHub-butiksvärden:
+
+   * Redigera kanalegenskaperna och ange ContextHub-sökvägen på fliken för anpassning till värdet (som nämns ovan)
+   * I kanal-JS kan du använda:
+
+      ```shell
+         ContextHub.getStore('screens-device');
+         ContextHub.getStore('screens-display');
+         ContextHub.getStore('screens-channels');
+      ```
 
 ## Allmänna felsökningstips {#general-troubleshooting-tips}
 
