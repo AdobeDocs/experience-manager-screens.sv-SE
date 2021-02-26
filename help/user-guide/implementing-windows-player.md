@@ -11,9 +11,9 @@ content-type: reference
 discoiquuid: 4228e8a1-9749-49a6-a1bb-365492bc2a3d
 docset: aem65
 translation-type: tm+mt
-source-git-commit: d25c45d6362a5f8ffac84e07dacb30c0b7c64493
+source-git-commit: 8f64009e121a0ff9936006abc8fc63479b502a48
 workflow-type: tm+mt
-source-wordcount: '995'
+source-wordcount: '970'
 ht-degree: 1%
 
 ---
@@ -67,10 +67,6 @@ När du har hämtat programmet följer du stegen på spelaren för att slutföra
 >Om **State** är **REGISTRERAD** kommer du att märka att fältet **enhets-ID** fylls i.
 >
 >Om **State** är **UNREGISTERED** kan du använda **Token** för att registrera enheten.
-
-### Konfiguration av massserver: Registrerar flera Windows 10-spelare med en konfiguration {#bulk-server-configuration-registering-multiple-windows-players-with-one-configuration}
-
-När du har installerat Windows Player kan du registrera flera spelare med en konfiguration.
 
 ## Installation med CLI (PowerShell) {#install-powershell}
 
