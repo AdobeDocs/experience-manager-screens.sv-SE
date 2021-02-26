@@ -11,9 +11,9 @@ content-type: reference
 discoiquuid: 4228e8a1-9749-49a6-a1bb-365492bc2a3d
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 8f64009e121a0ff9936006abc8fc63479b502a48
+source-git-commit: 529bcaf7ded850b8f7fec95d2f85e84c5d79a66a
 workflow-type: tm+mt
-source-wordcount: '970'
+source-wordcount: '997'
 ht-degree: 1%
 
 ---
@@ -67,6 +67,10 @@ När du har hämtat programmet följer du stegen på spelaren för att slutföra
 >Om **State** är **REGISTRERAD** kommer du att märka att fältet **enhets-ID** fylls i.
 >
 >Om **State** är **UNREGISTERED** kan du använda **Token** för att registrera enheten.
+
+## Ändra standardalternativen i Windows Installer {#changing-default-options}
+
+Följ det här avsnittet för att lära dig hur du ändrar standardalternativen i Windows Installer och listan över tillgängliga anpassningar.
 
 ## Installation med CLI (PowerShell) {#install-powershell}
 
