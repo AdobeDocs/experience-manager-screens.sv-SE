@@ -2,9 +2,9 @@
 title: Versionsinformation för funktionspaket 2013
 description: Sidan innehåller versionsinformation för funktionspaket 2013.
 translation-type: tm+mt
-source-git-commit: c3a068eca75142ee3e089a63559249a8b64784e2
+source-git-commit: f94eac66b6372e9f3e4cfc28693c4ba61d1b9ab1
 workflow-type: tm+mt
-source-wordcount: '309'
+source-wordcount: '310'
 ht-degree: 0%
 
 ---
@@ -51,6 +51,7 @@ Följande AEM Screens-spelare finns för AEM 6.5 Feature Pack 7:
 * Windows
 * Android
 * Tizen
+* Linux
 
 #### AEM Screens Player Downloads {#aem-screens-player-downloads}
 
