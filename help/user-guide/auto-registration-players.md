@@ -3,9 +3,9 @@ title: Automatisk registrering av spelare
 seo-title: Automatisk registrering av spelare
 description: Följ den här sidan om du vill veta mer om automatisk registrering av spelare med AMS/On-Prem Screens.
 translation-type: tm+mt
-source-git-commit: f94eac66b6372e9f3e4cfc28693c4ba61d1b9ab1
+source-git-commit: 56432654d0895b892223677c8a03f10181864271
 workflow-type: tm+mt
-source-wordcount: '328'
+source-wordcount: '344'
 ht-degree: 0%
 
 ---
@@ -19,11 +19,22 @@ Om du registrerar tusentals spelare manuellt kan det bli mycket krångligt och g
 
 Följ stegen nedan för att implementera automatisk registrering av spelare:
 
-1. Logga in i AEM och välj AEM skärmprojekt och klicka på egenskaper och fliken Avancerat.
-1. Du bör se ett avsnitt om massregistrering där du kan ange en massregistreringskod och en valfri standardvisning som ska tilldelas till spelaren som är bulkregistrerad
-1. Ange en valfri kod och välj en standardskärm om det behövs
-1. Ge dina spelare rätt server-URL och registreringskod med hjälp av en MDM-fil eller JSON-konfigurationsfil. Mer information finns på implementeringssidan för den specifika spelaren för ditt operativsystem. Du kan också använda administratörsgränssnittet för att ange registreringskoden.
+1. Logga in i AEM och välj AEM skärmprojekt och klicka på **Egenskaper** i åtgärdsfältet.
+1. Välj fliken **Avancerat** om du vill visa avsnittet **Enhetsregistrering** enligt nedan.
+
+   ![bild](/help/user-guide/assets/auto-registration/auto-register1.png)
+
+1. Ange en kod för automatisk registrering i fältet **Kod för massregistrering** och en valfri standardvisning i **Standardvisningstilldelning** som ska tilldelas den spelare som är automatiskt registrerad.
+   >[!NOTE]
+   >Ange en valfri kod och välj en standardskärm om det behövs.
+1. Ge dina spelare rätt server-URL och registreringskod med hjälp av en MDM-fil eller JSON-konfigurationsfil.
+
+   >[!NOTE]
+   >Mer information finns på implementeringssidan för den specifika spelaren för operativsystemet. Du kan också använda administratörsgränssnittet för att ange registreringskoden.
+
 1. Om attributet `registrationKey` matchar det som konfigurerats i AEM registreras spelaren automatiskt och om en standardskärm är konfigurerad hämtas och spelas innehållet upp.
+
+   ![bild](/help/user-guide/assets/auto-registration/auto-register2.png)
 
 ## Bästa praxis för säkerhet {#security-best-practices}
 
