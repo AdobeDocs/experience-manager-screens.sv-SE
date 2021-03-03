@@ -3,9 +3,9 @@ title: Använda MDM eller EMM för att massdistribuera Android Player
 seo-title: Massetablering av Android Player med EMM eller MDM
 description: Följ den här sidan om du vill veta mer om massetablering av Android-spelare med EMM eller MDM
 translation-type: tm+mt
-source-git-commit: f94eac66b6372e9f3e4cfc28693c4ba61d1b9ab1
+source-git-commit: 5f8938bfd092197391aefcd2d730d47fa06c214d
 workflow-type: tm+mt
-source-wordcount: '343'
+source-wordcount: '333'
 ht-degree: 0%
 
 ---
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # Massetablering av Android Player med Enterprise Mobility Management {#bulk-provisioning}
 
-När du distribuerar Android-spelaren i grupp blir det omständligt att manuellt registrera alla spelare med AEM. Vi rekommenderar att du använder en EMM-lösning (Enterprise Mobility Management), som VMWare Airwatch, MobileIron eller Samsung Knox, för att fjärrdistribuera och hantera distributionen. AEM Screens Android-spelaren har stöd för den branschledande EMM-appconfig som tillåter fjärretablering. Följ stegen nedan om du vill distribuera flera spelare åt gången.
+När du distribuerar Android-spelaren i grupp blir det omständligt att manuellt registrera alla spelare med AEM. Vi rekommenderar att du använder en EMM-lösning (Enterprise Mobility Management), som VMWare Airwatch, MobileIron eller Samsung Knox, för att fjärrdistribuera och hantera distributionen. AEM Screens Android-spelaren har stöd för den branschledande EMM-appconfig som tillåter fjärretablering.
 
 ## Implementera massetablering av Android Player med Enterprise Mobility Management {#implementation}
 
