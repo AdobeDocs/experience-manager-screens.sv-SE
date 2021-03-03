@@ -2,9 +2,9 @@
 title: Versionsinformation för funktionspaket 2013
 description: Sidan innehåller versionsinformation för funktionspaket 2013.
 translation-type: tm+mt
-source-git-commit: 5f8938bfd092197391aefcd2d730d47fa06c214d
+source-git-commit: 56432654d0895b892223677c8a03f10181864271
 workflow-type: tm+mt
-source-wordcount: '379'
+source-wordcount: '421'
 ht-degree: 0%
 
 ---
@@ -46,6 +46,15 @@ Releasedatum för AEM Screens Feature Pack 202103 är 8 mars 2021.
 * SmartSync-migrering skulle bryta spelaren om cachen inte blev ogiltig.
 
 * Offlinecache skapades inte om tilldelningen hade *OfflineConfig*.
+
+* Uppdateringar av Tizen-spelarproblem eftersom det inte finns stöd för referenspolicyn strict-origin-when-cross-origin.
+
+* Gränssnittet bröts när den tilldelade kanalens schemafält för upprepningar ändrades.
+
+* Uppdatering av offlineinnehåll misslyckades med frågeundantag.
+
+* SmartSync-migreringen bröt spelaren om cachen inte blev ogiltig
+
 
 ### Lanserade AEM Screens Players {#released-aem-screens-players}
 
