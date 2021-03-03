@@ -2,9 +2,9 @@
 title: Versionsinformation för funktionspaket 2013
 description: Sidan innehåller versionsinformation för funktionspaket 2013.
 translation-type: tm+mt
-source-git-commit: f94eac66b6372e9f3e4cfc28693c4ba61d1b9ab1
+source-git-commit: 5f8938bfd092197391aefcd2d730d47fa06c214d
 workflow-type: tm+mt
-source-wordcount: '310'
+source-wordcount: '379'
 ht-degree: 0%
 
 ---
@@ -30,6 +30,10 @@ Releasedatum för AEM Screens Feature Pack 202103 är 8 mars 2021.
 * **AEM Screens Bulk Registration and Assignation**
 
    Att manuellt registrera tusentals spelare är mycket krångligt och kostar mer och mer. För att förenkla den här processen kan du med funktionen för massregistrering ange en i förväg delad nyckel i AEM som kan etableras i en spelare antingen via en konfigurationsfil eller en MDM-lösning (Mobile Device Management).
+
+* **Massetablering av Android Player med Enterprise Mobility Management**
+
+   När du distribuerar Android-spelaren i grupp blir det omständligt att manuellt registrera alla spelare med AEM. Vi rekommenderar att du använder en EMM-lösning (Enterprise Mobility Management), som VMWare Airwatch, MobileIron eller Samsung Knox, för att fjärrdistribuera och hantera distributionen. AEM Screens Android-spelaren har stöd för den branschledande EMM-appconfig som tillåter fjärretablering.
 
 * **Lås sida i en AEM Screens-kanal**
 
