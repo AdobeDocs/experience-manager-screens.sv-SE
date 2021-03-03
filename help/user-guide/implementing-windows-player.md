@@ -11,7 +11,7 @@ content-type: reference
 discoiquuid: 4228e8a1-9749-49a6-a1bb-365492bc2a3d
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 529bcaf7ded850b8f7fec95d2f85e84c5d79a66a
+source-git-commit: ab67806751e8c57249c9ad656e931ca1339ab6d4
 workflow-type: tm+mt
 source-wordcount: '997'
 ht-degree: 1%
@@ -91,13 +91,11 @@ C:\Users\User\Downloads> .\aem-screens-player-electron-xxx-signed.exe /S /D=C:\U
 C:\Users\User\Downloads> Start-Process C:\Users\User\Downloads\screens-player\AEMScreensPlayer.exe
 ```
 
->[!NOTE]
->
->**Massregistrering av Windows Player**
->
->När du implementerar Windows-spelaren behöver du inte konfigurera varje enskild spelare manuellt. I stället kan du uppdatera JSON-konfigurationsfilen när den har testats och är klar för distribution.
->
->Konfigurationen ser till att alla spelare pingar samma server som finns i konfigurationsfilen. Du måste fortfarande registrera varje spelare manuellt.
+## Massregistrering av Windows Player {#bulk-registration}
+
+När du implementerar Windows-spelaren behöver du inte konfigurera varje enskild spelare manuellt. I stället kan du uppdatera JSON-konfigurationsfilen när den har testats och är klar för distribution.
+
+Konfigurationen ser till att alla spelare pingar samma server som finns i konfigurationsfilen. Du måste fortfarande registrera varje spelare manuellt.
 
 Följ stegen nedan för att konfigurera Windows 10 Player:
 
