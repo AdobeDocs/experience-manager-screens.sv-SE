@@ -3,9 +3,9 @@ title: Automatisk registrering av spelare
 seo-title: Automatisk registrering av spelare
 description: Följ den här sidan om du vill veta mer om automatisk registrering av spelare med AMS/On-Prem Screens.
 translation-type: tm+mt
-source-git-commit: 56432654d0895b892223677c8a03f10181864271
+source-git-commit: 793507b266b99051544b377e4a7effb92dc6feb6
 workflow-type: tm+mt
-source-wordcount: '344'
+source-wordcount: '339'
 ht-degree: 0%
 
 ---
@@ -20,13 +20,13 @@ Om du registrerar tusentals spelare manuellt kan det bli mycket krångligt och g
 Följ stegen nedan för att implementera automatisk registrering av spelare:
 
 1. Logga in i AEM och välj AEM skärmprojekt och klicka på **Egenskaper** i åtgärdsfältet.
-1. Välj fliken **Avancerat** om du vill visa avsnittet **Enhetsregistrering** enligt nedan.
-
-   ![bild](/help/user-guide/assets/auto-registration/auto-register1.png)
+1. Välj fliken **Avancerat** för att visa avsnittet **Enhetsregistrering**.
 
 1. Ange en kod för automatisk registrering i fältet **Kod för massregistrering** och en valfri standardvisning i **Standardvisningstilldelning** som ska tilldelas den spelare som är automatiskt registrerad.
    >[!NOTE]
    >Ange en valfri kod och välj en standardskärm om det behövs.
+
+   ![bild](/help/user-guide/assets/auto-registration/auto-register1.png)
 1. Ge dina spelare rätt server-URL och registreringskod med hjälp av en MDM-fil eller JSON-konfigurationsfil.
 
    >[!NOTE]
@@ -42,7 +42,7 @@ Följ avsnittet nedan för att se några av de bästa sätten att skydda:
 
 * Om du vill vara säker på att registreringskoden inte äventyras konfigurerar du koden i AEM precis innan du påbörjar gruppregistreringen. När du är klar rensar du det fältet och sparar i AEM.
 
-* Du kan konfigurera att det bara går att komma åt sökvägen `/bin/screens/`från kända IP-intervall om det är möjligt.
+* Du kan konfigurera sökvägen `/bin/screens/registration` så att den bara är tillgänglig från kända IP-intervall om det är möjligt.
 
 * Använd en MDM för att tilldela spelaren konfigurationen.
 
