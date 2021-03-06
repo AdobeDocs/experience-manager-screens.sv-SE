@@ -2,9 +2,9 @@
 title: Versionsinformation för funktionspaket 2013
 description: Sidan innehåller versionsinformation för funktionspaket 2013.
 translation-type: tm+mt
-source-git-commit: 76d03e1b0232c5d6eca0a3088453982c5c142f1f
+source-git-commit: 3701c6f72ceadb5b61cd608503a95af11d631c49
 workflow-type: tm+mt
-source-wordcount: '388'
+source-wordcount: '390'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ Releasedatum för AEM Screens Feature Pack 202103 är 5 mars 2021.
 
 * **AEM Screens - automatisk registrering av spelare**
 
-   Att manuellt registrera tusentals spelare är mycket krångligt och kostar mer och mer. För att förenkla den här processen kan du med funktionen för massregistrering ange en i förväg delad nyckel i AEM som kan etableras i en spelare antingen via en konfigurationsfil eller en MDM-lösning (Mobile Device Management).
+   Att manuellt registrera tusentals spelare är mycket krångligt och kostar mer och mer. För att förenkla processen kan du med funktionen Automatisk registrering av spelare ange en i förväg delad nyckel i AEM som kan etableras i en spelare antingen via en konfigurationsfil eller en MDM-lösning (Mobile Device Management).
 
    Mer information finns i [Automatisk registrering av spelare](/help/user-guide/auto-registration-players.md).
 
