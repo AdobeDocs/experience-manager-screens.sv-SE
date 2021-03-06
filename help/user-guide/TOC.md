@@ -6,7 +6,7 @@ user-guide-title: Hjälp om Adobe Experience Manager Screens
 breadcrumb-title: AEM Screens Guide
 user-guide-description: Lär dig använda en lösning för digital signering som gör att du kan publicera dynamiska och interaktiva digitala upplevelser och interaktioner.
 translation-type: tm+mt
-source-git-commit: b84946900a22cd063990836f1c65709f8d1368bd
+source-git-commit: dae7744bd8efb99a16807f0651cbcaff5514b73b
 workflow-type: tm+mt
 source-wordcount: '449'
 ht-degree: 1%
@@ -42,10 +42,10 @@ ht-degree: 1%
       + [Chrome OS Player](implementing-chrome-os-player.md)
       + [Använda Chrome Player som ett tillägg för felsökning](using-chrome-player-as-an-extension.md)
       + [Android Player](implementing-android-player.md)
+      + [Massetablering av Android Player med Enterprise Mobility Management](using-emm-bulkprovision-android-player.md)
       + [Windows Player](implementing-windows-player.md)
       + [Tizen Player](tizen-player.md)
       + [Automatisk registrering av spelare](auto-registration-players.md)
-      + [Massetablering av Android Player med Enterprise Mobility Management](using-emm-bulkprovision-android-player.md)
    + Författarpublicera {#author-publish}
       + [Författare/Publicera arkitektur - översikt](author-publish-architecture-overview.md)
       + [Konfigurera författare och publicera](author-and-publish.md)
