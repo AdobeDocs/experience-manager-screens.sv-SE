@@ -11,9 +11,9 @@ topic-tags: administering
 discoiquuid: b1a0e00e-0368-42c9-8bcd-5f00b4d0990c
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 2a3bbdd283f983cbdb5f21b606f508603385e041
+source-git-commit: 052ceaf3f3fa321ea0df3e40ecf6296222db71e7
 workflow-type: tm+mt
-source-wordcount: '684'
+source-wordcount: '687'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 0%
 
 >[!CAUTION]
 >
->Denna AEM Screens-funktionalitet är endast tillgänglig om du har installerat AEM 6.4.2 Feature Pack 2 och AEM 6.3.3 Feature Pack 4.
+>Den här AEM Screens-funktionen är endast tillgänglig om du har installerat minimiversionen av AEM 6.4.2 Feature Pack 2 eller AEM 6.3.3 Feature Pack 4.
 
 >[!NOTE]
 >
@@ -57,7 +57,7 @@ Adobe Analytics-integrering med AEM Screens tillämpar därför följande *mål*
 
 ## Arkitekturinformation {#architectural-details}
 
-En AEM Screens-kund vill förstå vilket innehåll som visades vid vilken tidpunkt och hur länge (aggregerat). Detta är en vanlig funktion för signeringslösning. I stället för att bygga upp våra egna analyser kommer AEM Screens att utnyttja Adobe Analytics, och med det kan vi uppnå något unikt på marknaden - flerkanalsanalyser som hjälper till att korrelera innehåll som visas på plats med andra datakällor.
+En AEM Screens-kund vill förstå vilket innehåll som visades vid vilken tidpunkt och hur länge (aggregerat). Detta är en vanlig funktion för signeringslösning. I stället för att bygga upp våra egna analyser kommer AEM Screens att utnyttja Adobe Analytics, och med det kan vi uppnå något unikt på marknaden - kanalövergripande analyser som hjälper till att korrelera innehåll som visas på plats med andra datakällor.
 
 I följande diagram förklaras Adobe Analytics Integration med AEM Screens:
 
