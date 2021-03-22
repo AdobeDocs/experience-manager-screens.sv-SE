@@ -11,10 +11,10 @@ topic-tags: authoring
 discoiquuid: 0e88e9e0-a95b-4acd-98ea-499d4d4e3c99
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 2a3bbdd283f983cbdb5f21b606f508603385e041
+source-git-commit: ca5c43534bca0e7832a5c9f73388b8e535ce057e
 workflow-type: tm+mt
-source-wordcount: '1100'
-ht-degree: 1%
+source-wordcount: '1127'
+ht-degree: 0%
 
 ---
 
@@ -70,7 +70,7 @@ Följ stegen nedan för att utnyttja innehållet från **We.Retail** till din **
 
 1. **Navigera till en Sites-sida i We.Retail**
 
-   1. Navigera till Sites och välj **We.Retail In-Store** -> **Channels** ->**Inaktiv kanal - Night** och välj den här sidan om du vill använda den som ett upplevelsefragment för din skärmkanal.
+   1. Navigera till Sites och välj **We.Retail** -> **United States** -> **English** -> **Equipment** och välj den här sidan om du vill använda den som ett upplevelsefragment för din skärmkanal.
 
    1. Klicka på **Redigera** i åtgärdsfältet för att öppna sidan som du vill använda som ett upplevelsefragment för skärmkanalen.
 
@@ -86,13 +86,15 @@ Följ stegen nedan för att utnyttja innehållet från **We.Retail** till din **
    1. Välj **åtgärden** som **Skapa ett nytt Experience Fragment**.
 
    1. Markera den **överordnade sökvägen**.
-   1. Välj **mallen**. Välj mallen **Experience Fragment - Skärmvariation** här.
+   1. Välj **mallen**. Välj mallen **Experience Fragment - Skärmvariation** här (värde i fältet `/libs/settings/screens/experience-fragments/templates/experience-fragment-template-screens`).
 
    1. Ange **fragmenttiteln** som **ScreensFragment**.
 
    1. Klicka på bockmarkeringen för att slutföra skapandet av ett nytt upplevelsefragment.
 
    ![screen_shot_2019-07-29at105918am](assets/screen_shot_2019-07-29at105918am.png)
+
+   Obs! Om du vill välja ett enklare alternativ klickar du på bockmarkeringen till höger om fälten för att öppna urvalsdialogrutan.
 
 1. **Skapa Live Copy of Experience Fragment**
 
