@@ -10,10 +10,13 @@ topic-tags: developing
 content-type: reference
 discoiquuid: 9a26b5cd-b957-4df7-9b5b-f57e32b4196a
 docset: aem65
+feature: Utveckla skärmar
+role: Developer
+level: Mellanliggande
 translation-type: tm+mt
-source-git-commit: 9b54b153676852742859b704ac9aedf908fceecf
+source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
 workflow-type: tm+mt
-source-wordcount: '1531'
+source-wordcount: '1535'
 ht-degree: 1%
 
 ---
