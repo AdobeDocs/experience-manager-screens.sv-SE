@@ -9,10 +9,13 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
 discoiquuid: a40eb5bb-fbf7-4c0d-a34a-db79b884de8f
+feature: Redigeringsskärmar
+role: Administratör, utvecklare
+level: Mellanliggande
 translation-type: tm+mt
-source-git-commit: 2a3bbdd283f983cbdb5f21b606f508603385e041
+source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
 workflow-type: tm+mt
-source-wordcount: '2535'
+source-wordcount: '2540'
 ht-degree: 0%
 
 ---
@@ -31,7 +34,7 @@ Användning av dynamiska inbäddade sekvenser omfattar följande ämnen:
 
 ***Dynamiska inbäddade*** sekvenser skapas för stora projekt som följer efter den överordnade underordnade hierarkin, där den underordnade refereras inuti en platsmapp och inte en kanalmapp. Det gör att användaren kan bädda in en sekvens i en kanal med ***kanalroll***. Det gör att användaren kan definiera platsspecifika platshållare för olika kontor med hjälp av en inbäddad sekvens inuti en huvudkanal.
 
-När du tilldelar en kanal till en visning kan du antingen ange sökvägen till visningen eller rollen för den kanal som ska matchas mot en faktisk kanal i sitt sammanhang.
+När du tilldelar en kanal till en visning kan du välja att antingen ange sökvägen för visningen eller rollen för den kanal som ska matchas mot en faktisk kanal i sitt sammanhang.
 
 Om du vill använda dynamisk inbäddad sekvens tilldelar du en kanal med ***Kanalroll***. Kanalrollen definierar visningssammanhanget. Rollen är inriktad på olika åtgärder och är oberoende av den faktiska kanal som uppfyller rollen. I det här avsnittet beskrivs ett användningsfall som definierar kanaler efter roll och hur du kan utnyttja innehållet till en global kanal. Du kan också se rollen som en identifierare för tilldelningen eller ett alias för kanalen i sammanhanget för den.
 
