@@ -3,11 +3,14 @@ title: Versionsinformation för funktionspaket 201909
 seo-title: Versionsinformation för funktionspaket 201909
 description: Följ den här sidan för att få information om AEM Screens Feature Pack 201909 släppt den 31 juli 2019.
 seo-description: Följ den här sidan för att få information om AEM Screens Feature Pack 201909 släppt den 7 oktober 2019.
+feature: Funktionspaket
+role: Developer
+level: Mellanliggande
 translation-type: tm+mt
-source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
+source-git-commit: 9d36c0ebc985b815ab41d3f3ef44baefa22db915
 workflow-type: tm+mt
-source-wordcount: '295'
-ht-degree: 0%
+source-wordcount: '299'
+ht-degree: 1%
 
 ---
 
