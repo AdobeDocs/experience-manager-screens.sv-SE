@@ -3,11 +3,14 @@ title: Versionsinformation för funktionspaket 2001
 seo-title: Versionsinformation för funktionspaket 2001
 description: Följ den här sidan för att få information om AEM Screens Feature Pack 2001 släppt den 31 januari 2020.
 seo-description: Följ den här sidan för att få information om AEM Screens Feature Pack 2001 släppt den 31 januari 2020.
+feature: Funktionspaket
+role: Developer
+level: Mellanliggande
 translation-type: tm+mt
-source-git-commit: 0136d1615f59d99c6bb5dfed09df363bf8ec475e
+source-git-commit: 9d36c0ebc985b815ab41d3f3ef44baefa22db915
 workflow-type: tm+mt
-source-wordcount: '282'
-ht-degree: 0%
+source-wordcount: '286'
+ht-degree: 1%
 
 ---
 
