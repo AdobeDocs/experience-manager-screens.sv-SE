@@ -3,10 +3,13 @@ title: Skapa och hantera kanaler
 seo-title: Hantera kanaler
 description: Följ den här sidan om du vill veta mer om hur du skapar och hanterar kanaler. Den förklarar även kanalkontrollpanelen och redigerar innehåll för en kanal.
 seo-description: Följ den här sidan om du vill veta mer om hur du skapar och hanterar kanaler. Den förklarar även kanalkontrollpanelen och redigerar innehåll för en kanal.
+feature: Redigeringsskärmar
+role: Administratör, utvecklare
+level: Mellanliggande
 translation-type: tm+mt
-source-git-commit: 6c2c7e4f757666160b79018d1195a79b99a4202d
+source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
 workflow-type: tm+mt
-source-wordcount: '1326'
+source-wordcount: '1331'
 ht-degree: 0%
 
 ---
