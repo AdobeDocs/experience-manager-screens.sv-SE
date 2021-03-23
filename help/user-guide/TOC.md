@@ -7,9 +7,9 @@ breadcrumb-title: AEM Screens Guide
 user-guide-description: Lär dig använda en lösning för digital signering som gör att du kan publicera dynamiska och interaktiva digitala upplevelser och interaktioner.
 feature-set: Experience Manager Screens
 translation-type: tm+mt
-source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
+source-git-commit: 5daa0cdcecc3ddb9c93033754a505ff54d59f886
 workflow-type: tm+mt
-source-wordcount: '449'
+source-wordcount: '440'
 ht-degree: 1%
 
 ---
@@ -43,7 +43,6 @@ ht-degree: 1%
       + [Chrome OS Player](implementing-chrome-os-player.md)
       + [Använda Chrome Player som ett tillägg för felsökning](using-chrome-player-as-an-extension.md)
       + [Android Player](implementing-android-player.md)
-      + [Massetablering av Android Player med Enterprise Mobility Management](using-emm-bulkprovision-android-player.md)
       + [Windows Player](implementing-windows-player.md)
       + [Tizen Player](tizen-player.md)
       + [Automatisk registrering av spelare](auto-registration-players.md)
