@@ -5,10 +5,13 @@ description: Följ den här sidan om du vill veta mer om innehållsuppdatering s
 seo-description: Följ den här sidan om du vill veta mer om innehållsuppdatering som en tjänst.
 uuid: c73126ca-18d0-45b4-bdde-a3653082bfc4
 contentOwner: Jyotika syal
+feature: Redigeringsskärmar
+role: Administratör, utvecklare
+level: Mellanliggande
 translation-type: tm+mt
-source-git-commit: 323e2df2419cc65de7bfe88648ffd1dbd3a91aec
+source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
 workflow-type: tm+mt
-source-wordcount: '356'
+source-wordcount: '361'
 ht-degree: 1%
 
 ---
