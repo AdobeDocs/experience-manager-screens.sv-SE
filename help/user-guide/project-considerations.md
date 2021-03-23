@@ -10,10 +10,13 @@ topic-tags: digital-signage-networks-basics
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 discoiquuid: 10b81628-46db-4122-bf9e-96f41f080055
 docset: aem65
+feature: Översikt
+role: Affärsman, dataarkitekt
+level: Nybörjare
 translation-type: tm+mt
-source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
+source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
 workflow-type: tm+mt
-source-wordcount: '666'
+source-wordcount: '672'
 ht-degree: 0%
 
 ---
@@ -55,7 +58,7 @@ Följande punkter anses förstå vad kunden tänker sig när det gäller innehå
 * Anger om innehållet ska återanvändas i tryck-, tv- eller webbkampanjer?
 * Om innehållet består av statiska bilder eller mallar som innehåller dynamiskt matade komponenter?
 * Kommer animeringar att spelas upp som video- eller HTML-program?
-* Finns det tredjepartsintegreringar från Content Subscription Services, Social Media eller RSS-aggregation Services eller API-anrop?
+* Finns det tredjepartsintegreringar från Content Subscription Services, Social Media eller RSS-aggregation eller API-anrop?
 * Vilka krav gäller för bildupplösning?
 * Är skärmarna 16:9-standardproportioner eller anpassade? Stående eller Liggande?
 * Krävs det videomonger för flera skärmar, och i så fall, hur ser det ut?
