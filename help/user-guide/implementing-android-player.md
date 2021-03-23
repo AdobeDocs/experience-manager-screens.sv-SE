@@ -14,7 +14,7 @@ feature: Administrera skärmar, Android Player
 role: Administratör
 level: Mellanliggande
 translation-type: tm+mt
-source-git-commit: 4dd6d40603f4a54ede67c35b07373ac6c6649d3f
+source-git-commit: 6978d9d13f2b7f723812561554fdb0a606ddb4fc
 workflow-type: tm+mt
 source-wordcount: '1441'
 ht-degree: 0%
@@ -186,8 +186,8 @@ Följ stegen nedan för att tillåta massetablering i Android Player:
 1. Kontrollera att din Android-enhet har stöd för Google Play-tjänster.
 1. Registrera dina Android-enheter med din EMM-favoritlösning som stöder AppConfig.
 1. Logga in på EMM-konsolen och hämta AEM Screens Player från Google Play.
-1. Välj hanterad konfiguration (eller relaterat alternativ).
-1. Nu bör du se en lista över spelaralternativ som kan konfigureras (till exempel serverkod och bulkregistreringskod).
+1. Välj hanterad konfiguration eller relaterat alternativ.
+1. Nu bör du se en lista med spelaralternativ som kan konfigureras, till exempel kod för server- och massregistrering.
 1. Konfigurera de här parametrarna, spara och distribuera principen till enheterna.
 
    >[!NOTE]
