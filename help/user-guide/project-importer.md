@@ -10,11 +10,14 @@ content-type: reference
 topic-tags: administering
 discoiquuid: f1df8d05-bb61-4bc9-aea1-c6af9e3519b4
 docset: aem65
+feature: Administrera skärmar
+role: Administratör
+level: Mellanliggande
 translation-type: tm+mt
-source-git-commit: 121aee4c8bf08e30898cc25d274ef4fc6bded5aa
+source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
 workflow-type: tm+mt
-source-wordcount: '698'
-ht-degree: 1%
+source-wordcount: '702'
+ht-degree: 0%
 
 ---
 
