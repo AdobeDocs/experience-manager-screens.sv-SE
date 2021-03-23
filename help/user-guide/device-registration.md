@@ -10,10 +10,13 @@ content-type: reference
 topic-tags: administering
 discoiquuid: 523084f6-bd71-4daf-95b7-fc4c481f76dc
 docset: aem65
+feature: Administrera skärmar, Device Registration
+role: Administratör
+level: Mellanliggande
 translation-type: tm+mt
-source-git-commit: 85d50951caa27b62b1e05fc808de96ffb4e526b5
+source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
 workflow-type: tm+mt
-source-wordcount: '785'
+source-wordcount: '791'
 ht-degree: 0%
 
 ---
