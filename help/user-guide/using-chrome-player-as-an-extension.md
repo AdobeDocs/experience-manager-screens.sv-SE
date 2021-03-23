@@ -1,12 +1,15 @@
 ---
 title: Använda Chrome Player som tillägg
 seo-title: Använda Chrome Player som tillägg
-description: 'null'
+description: Följ den här sidan om du vill veta mer om hur du installerar färgspelaren som ett webbläsartillägg.
 seo-description: 'null'
+feature: Administrera skärmar
+role: Administratör
+level: Mellanliggande
 translation-type: tm+mt
-source-git-commit: 1753009451e4bed75eb8241bcca887f7abe2f77b
+source-git-commit: 9d36c0ebc985b815ab41d3f3ef44baefa22db915
 workflow-type: tm+mt
-source-wordcount: '452'
+source-wordcount: '469'
 ht-degree: 0%
 
 ---
