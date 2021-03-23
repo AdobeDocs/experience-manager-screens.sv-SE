@@ -3,10 +3,13 @@ title: Använda kommandosynkronisering
 seo-title: Använda kommandosynkronisering
 description: Följ den här sidan om du vill veta mer om hur du använder kommandosynkronisering.
 seo-description: Följ den här sidan om du vill veta mer om hur du använder kommandosynkronisering.
+feature: Redigeringsskärmar
+role: Administratör, utvecklare
+level: Mellanliggande
 translation-type: tm+mt
-source-git-commit: d25c45d6362a5f8ffac84e07dacb30c0b7c64493
+source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
 workflow-type: tm+mt
-source-wordcount: '794'
+source-wordcount: '799'
 ht-degree: 2%
 
 ---
