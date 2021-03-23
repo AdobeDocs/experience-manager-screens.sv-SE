@@ -10,10 +10,12 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: administering
 discoiquuid: 0c7d6248-8ac0-4387-8725-57ed941f28f7
 docset: aem65
+role: Administratör
+level: Mellanliggande
 translation-type: tm+mt
-source-git-commit: 83ce95e5dc530c5792ec9a00dcb758a424202a7a
+source-git-commit: 9d36c0ebc985b815ab41d3f3ef44baefa22db915
 workflow-type: tm+mt
-source-wordcount: '752'
+source-wordcount: '754'
 ht-degree: 0%
 
 ---
@@ -93,7 +95,7 @@ Följande huvudpunkter nedan hjälper dig att konfigurera och AEM servern som sk
 
 1. **Adobe Experience Manager Web Console-** konfigurationöppnas. Sök efter Apache Felix Jetty Based HTTP Service.
 
-   Om du vill söka efter den här egenskapen trycker du på **Command+F** för **Mac** och **Ctrl+F** för **Windows**.
+   Om du vill söka efter den här egenskapen trycker du på **Command+F** för **Mac** och **Control+F** för **Windows**.
 
 1. Markera alternativet **AKTIVERA HTTP** enligt bilden nedan.
 
