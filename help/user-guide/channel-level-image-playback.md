@@ -10,10 +10,13 @@ topic-tags: authoring
 content-type: reference
 discoiquuid: df3cf999-0c8d-4754-8b58-5c6ced2c8ca5
 docset: aem65
+feature: Redigeringsskärmar
+role: Administratör, utvecklare
+level: Mellanliggande
 translation-type: tm+mt
-source-git-commit: 2a3bbdd283f983cbdb5f21b606f508603385e041
+source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
 workflow-type: tm+mt
-source-wordcount: '360'
+source-wordcount: '365'
 ht-degree: 1%
 
 ---
