@@ -5,7 +5,7 @@ feature: Funktionspaket
 role: Developer
 level: Mellanliggande
 translation-type: tm+mt
-source-git-commit: 9d36c0ebc985b815ab41d3f3ef44baefa22db915
+source-git-commit: aa1338fad19893e56ead4bb466e4f32a90116b65
 workflow-type: tm+mt
 source-wordcount: '398'
 ht-degree: 1%
@@ -41,7 +41,7 @@ Releasedatum för AEM Screens Feature Pack 202103 är 5 mars 2021.
 
    När du distribuerar Android-spelaren i grupp blir det omständligt att manuellt registrera alla spelare med AEM. Vi rekommenderar att du använder en EMM-lösning (Enterprise Mobility Management), som VMWare Airwatch, MobileIron eller Samsung Knox, för att fjärrdistribuera och hantera distributionen. AEM Screens Android-spelaren har stöd för den branschledande EMM AppConfig som tillåter fjärretablering.
 
-   Mer information finns i [Massetablering av Android Player med Enterprise Mobility Management](/help/user-guide/using-emm-bulkprovision-android-player.md).
+   Mer information finns i [Massetablering av Android Player med Enterprise Mobility Management](/help/user-guide/implementing-android-player.md#implementation).
 
 
 ### Felkorrigeringar {#bug-fixes}
