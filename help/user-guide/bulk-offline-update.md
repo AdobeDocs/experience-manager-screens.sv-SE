@@ -10,10 +10,13 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
 discoiquuid: 5d4ca652-d918-4b2b-b239-a2be9255ef0d
 noindex: true
+feature: Redigeringsskärmar
+role: Administratör, utvecklare
+level: Mellanliggande
 translation-type: tm+mt
-source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
+source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
 workflow-type: tm+mt
-source-wordcount: '357'
+source-wordcount: '362'
 ht-degree: 1%
 
 ---
