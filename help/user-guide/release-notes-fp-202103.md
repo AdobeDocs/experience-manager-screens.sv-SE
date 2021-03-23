@@ -1,11 +1,14 @@
 ---
 title: Versionsinformation för funktionspaket 2013
-description: Sidan innehåller versionsinformation för funktionspaket 2013.
+description: '"Följ den här sidan för att få information om AEM Screens Feature Pack 202103 släppt den 5 mars 2021."'
+feature: Funktionspaket
+role: Developer
+level: Mellanliggande
 translation-type: tm+mt
-source-git-commit: dfbf904c1f23f7e41a9d65a270c5ca667ddcdb31
+source-git-commit: 9d36c0ebc985b815ab41d3f3ef44baefa22db915
 workflow-type: tm+mt
-source-wordcount: '389'
-ht-degree: 0%
+source-wordcount: '398'
+ht-degree: 1%
 
 ---
 
