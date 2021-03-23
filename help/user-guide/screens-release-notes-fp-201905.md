@@ -10,10 +10,13 @@ content-type: reference
 topic-tags: release-notes
 discoiquuid: 1209bd96-9de5-428e-a1b5-950507e66c0b
 docset: aem65
+feature: Funktionspaket
+role: Developer
+level: Mellanliggande
 translation-type: tm+mt
-source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
+source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
 workflow-type: tm+mt
-source-wordcount: '325'
+source-wordcount: '329'
 ht-degree: 0%
 
 ---
@@ -53,7 +56,7 @@ Mer information finns i **[Nödkanal](emergency-channel.md)** Användningsfall.
 
 * **Bädda in ett REACT-program med AEM SPA Editor och Integrera med AEM Screens Analytics**
 
-I det här avsnittet beskrivs hur du bäddar in en interaktiv single page-applikation med hjälp av REACT (eller Angular) med den AEM redigeraren som kan konfigureras av affärsfolk i AEM och hur du integrerar ditt interaktiva program med Adobe Analytics offline.
+I det här avsnittet beskrivs hur du bäddar in en interaktiv single page-applikation med hjälp av REACT (eller Angular) med AEM redigerare som kan konfigureras av affärsfolk i AEM och hur du integrerar dina interaktiva applikationer med Adobe Analytics offline.
 
 Mer information finns i **[Embedding a REACT application using the AEM SPA Editor and Integrating with AEM Screens Analytics](embedding-react-app.md)**.
 
