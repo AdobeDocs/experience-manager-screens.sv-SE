@@ -9,10 +9,13 @@ topic-tags: developing
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 discoiquuid: e4ecc179-e421-4687-854c-14d31bed031d
 docset: aem65
+feature: Utveckla skärmar
+role: Developer
+level: Mellanliggande
 translation-type: tm+mt
-source-git-commit: 2a3bbdd283f983cbdb5f21b606f508603385e041
+source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
 workflow-type: tm+mt
-source-wordcount: '720'
+source-wordcount: '724'
 ht-degree: 0%
 
 ---
@@ -20,7 +23,7 @@ ht-degree: 0%
 
 # Bädda in ett REACT-program med AEM SPA Editor och Integrera med AEM Screens Analytics {#embedding-a-react-application-using-the-aem-spa-editor-and-integrating-with-aem-screens-analytics}
 
-I det här avsnittet beskrivs hur du bäddar in en interaktiv single page-applikation med hjälp av REACT (eller Angular) med den AEM redigeraren som kan konfigureras av affärsfolk i AEM och hur du integrerar ditt interaktiva program med Adobe Analytics offline.
+I det här avsnittet beskrivs hur du bäddar in en interaktiv single page-applikation med hjälp av REACT (eller Angular) med AEM redigerare som kan konfigureras av affärsfolk i AEM och hur du integrerar dina interaktiva applikationer med Adobe Analytics offline.
 
 ## Använda AEM SPA Editor {#using-the-aem-spa-editor}
 
