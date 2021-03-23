@@ -2,10 +2,13 @@
 title: '"Del 1: Projektroller och ansvarsområden"'
 seo-title: '"Del 1: Projektroller och ansvarsområden"'
 description: Följ den här självstudiekursen för att få en bättre förståelse för roller, ansvarsområden och tidslinjer som krävs under försäljnings- och projektlivscykeln för ett digitalt signeringsprojekt.
+feature: Översikt
+role: Affärsman, dataarkitekt
+level: Nybörjare
 translation-type: tm+mt
-source-git-commit: 7ce10b467559b33c5d3ca61b315e50cb1ceade9d
+source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
 workflow-type: tm+mt
-source-wordcount: '471'
+source-wordcount: '477'
 ht-degree: 0%
 
 ---
