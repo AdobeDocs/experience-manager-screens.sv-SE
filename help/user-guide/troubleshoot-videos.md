@@ -1,18 +1,21 @@
 ---
 title: Konfiguration och felsökning av videouppspelning
 seo-title: Felsöka videoklipp
-description: null
-seo-description: Följ den här sidan för att lära dig hur du felsöker videoklipp. När du överför en video till DAM och lägger till den i din kanal kan det uppstå problem som videon kanske inte kan spelas upp i skärmspelaren. I det här avsnittet beskrivs hur du felsöker och felsöker videouppspelning i din kanal.
+description: Följ den här sidan för att lära dig hur du felsöker och felsöker videouppspelning i din kanal.
+seo-description: Följ den här sidan för att lära dig hur du felsöker videoklipp. När du överför en video till DAM och lägger till den i din kanal kan det uppstå problem som videon kanske inte kan spelas upp i skärmspelaren och i det här avsnittet beskrivs hur du felsöker och felsöker videouppspelning i din kanal.
 uuid: 825b2440-5626-40d5-8c93-7689c24474d4
 contentOwner: Jyotika Syal
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: troubleshoot
 discoiquuid: 65ecc6f1-ba0e-443f-85a1-ac19f9a52c2c
+feature: Kanaler, interaktiva
+role: Developer
+level: Mellanliggande
 translation-type: tm+mt
-source-git-commit: 8a2ed4e0a27175d43abfadda63232c3577d5387b
+source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
 workflow-type: tm+mt
-source-wordcount: '829'
+source-wordcount: '848'
 ht-degree: 0%
 
 ---
