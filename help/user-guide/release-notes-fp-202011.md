@@ -1,10 +1,13 @@
 ---
 title: Versionsinformation för funktionspaket 2011
-description: På sidan beskrivs versionsinformation för funktionspaket 2011.
+description: '"Följ den här sidan för att få information om AEM Screens Feature Pack 2011 släppt den 30 november 2020."'
+feature: Funktionspaket
+role: Developer
+level: Mellanliggande
 translation-type: tm+mt
-source-git-commit: 7380862d0d5d77a155f9c135028c7548127a645a
+source-git-commit: 9d36c0ebc985b815ab41d3f3ef44baefa22db915
 workflow-type: tm+mt
-source-wordcount: '275'
+source-wordcount: '285'
 ht-degree: 1%
 
 ---
