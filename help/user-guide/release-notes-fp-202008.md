@@ -1,11 +1,14 @@
 ---
 title: Versionsinformation för funktionspaket 2008
-description: På sidan beskrivs versionsinformation för funktionspaket 2008.
+description: '"Följ den här sidan för att få information om AEM Screens Feature Pack 2008 släppt den 3 september 2020."'
+feature: Funktionspaket
+role: Developer
+level: Mellanliggande
 translation-type: tm+mt
-source-git-commit: f13adf375631e3b7d7d03324458d91d9d55b0f80
+source-git-commit: 9d36c0ebc985b815ab41d3f3ef44baefa22db915
 workflow-type: tm+mt
-source-wordcount: '333'
-ht-degree: 0%
+source-wordcount: '343'
+ht-degree: 1%
 
 ---
 
