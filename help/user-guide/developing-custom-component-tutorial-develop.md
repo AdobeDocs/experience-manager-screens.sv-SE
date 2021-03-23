@@ -9,10 +9,13 @@ content-type: reference
 topic-tags: developing
 discoiquuid: 24eb937f-ab51-4883-8236-8ebe6243f6e3
 targetaudience: target-audience new
+feature: Utveckla skärmar
+role: Developer
+level: Mellanliggande
 translation-type: tm+mt
-source-git-commit: 2a3bbdd283f983cbdb5f21b606f508603385e041
+source-git-commit: 9d36c0ebc985b815ab41d3f3ef44baefa22db915
 workflow-type: tm+mt
-source-wordcount: '2186'
+source-wordcount: '2190'
 ht-degree: 0%
 
 ---
@@ -42,7 +45,7 @@ Självstudiestegen och skärmbilderna utförs med **CRXDE-Lite**. IDE kan också
 
 ## Projektinställningar {#project-setup}
 
-Källkoden för ett skärmsprojekt hanteras vanligtvis som ett Maven-projekt med flera moduler. För att underlätta självstudiekursen har ett projekt förskapats med [AEM Project Archetype 13](https://github.com/Adobe-Marketing-Cloud/aem-project-archetype). Mer information om hur du skapar ett projekt med Maven AEM Project Archetype finns här[.](https://helpx.adobe.com/experience-manager/kt/sites/using/getting-started-wknd-tutorial-develop/part1.html#maven-multimodule)
+Källkoden för ett skärmsprojekt hanteras vanligtvis som ett Maven-projekt med flera moduler. För att underlätta självstudiekursen har ett projekt förskapats med [AEM Project Archetype 13](https://github.com/Adobe-Marketing-Cloud/aem-project-archetype). Mer information om hur du skapar ett projekt med Maven AEM Project Archetype finns här](https://helpx.adobe.com/experience-manager/kt/sites/using/getting-started-wknd-tutorial-develop/part1.html#maven-multimodule).[
 
 1. Hämta och installera följande paket med [CRX-pakethanteraren](http://localhost:4502/crx/packmgr/index.jsp):
 
