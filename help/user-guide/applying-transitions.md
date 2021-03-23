@@ -5,10 +5,13 @@ description: Följ den här sidan om du vill lära dig hur du använder övergå
 seo-description: Följ den här sidan om du vill lära dig hur du använder övergångar i skärmsprojekt.
 uuid: b79d521b-19d4-47c8-a41a-148d7bbf6ac9
 contentOwner: jsyal
+feature: Redigeringsskärmar
+role: Administratör, utvecklare
+level: Mellanliggande
 translation-type: tm+mt
-source-git-commit: 9b54b153676852742859b704ac9aedf908fceecf
+source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
 workflow-type: tm+mt
-source-wordcount: '287'
+source-wordcount: '292'
 ht-degree: 1%
 
 ---
