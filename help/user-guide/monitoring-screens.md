@@ -10,10 +10,13 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: troubleshoot
 discoiquuid: 3f130808-71e8-4710-8181-021d953660f8
 docset: aem65
+feature: Digital skylt, innehåll, spelare
+role: Developer
+level: Mellanliggande
 translation-type: tm+mt
-source-git-commit: 2a3bbdd283f983cbdb5f21b606f508603385e041
+source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
 workflow-type: tm+mt
-source-wordcount: '801'
+source-wordcount: '807'
 ht-degree: 1%
 
 ---
@@ -83,7 +86,7 @@ Klicka på **Egenskaper** för att visa dialogrutan **Enhetsegenskaper**. Du kan
 
 >[!NOTE]
 >
->Mer information om de händelser som är associerade med enhetens automatiska eller manuella uppdateringar finns i avsnittet ***Automatiska eller Manuella uppdateringar från enhetskontrollpanelen*** i [Hantera kanaler](managing-channels.md).
+>Mer information om de händelser som är associerade med enhetens automatiska eller manuella uppdateringar finns i avsnittet ***Automatiska eller Manuella uppdateringar från Device Dashboard*** i [Hantera kanaler](managing-channels.md).
 
 ![screen_shot_2019-09-05at14112pm](assets/screen_shot_2019-09-05at14112pm.png)
 
