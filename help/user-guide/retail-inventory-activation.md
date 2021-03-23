@@ -10,10 +10,13 @@ content-type: reference
 topic-tags: use-case-examples
 discoiquuid: 70147920-5bdb-401c-884e-51d268d40585
 docset: aem65
+feature: Redigeringsskärmar
+role: Administratör, utvecklare
+level: Mellanliggande
 translation-type: tm+mt
-source-git-commit: a7d3ec582dde83ed6efb08a6c3c6a75cc0820970
+source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
 workflow-type: tm+mt
-source-wordcount: '691'
+source-wordcount: '696'
 ht-degree: 0%
 
 ---
