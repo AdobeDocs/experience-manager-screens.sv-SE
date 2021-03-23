@@ -14,9 +14,9 @@ feature: Administrera skärmar, Android Player
 role: Administratör
 level: Mellanliggande
 translation-type: tm+mt
-source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
+source-git-commit: 4dd6d40603f4a54ede67c35b07373ac6c6649d3f
 workflow-type: tm+mt
-source-wordcount: '1140'
+source-wordcount: '1441'
 ht-degree: 0%
 
 ---
@@ -174,3 +174,23 @@ I följande tabell sammanfattas principattributen med en exempelpolicy-JSON för
 
 >[!NOTE]
 >Alla Android-enheter har en *sdcard*-mapp oavsett om ett riktigt *sdcard* är isatt eller inte. Den här filen är på samma nivå som mappen Hämtningar när den distribueras. Vissa MDM-moduler som Samsung Knox kan referera till denna *sdcard*-mapplats som *Intern lagring*.
+
+## Massetablering av Android Player med Enterprise Mobility Management {#bulk-provisioning}
+
+När du distribuerar Android-spelaren i grupp blir det omständligt att manuellt registrera alla spelare med AEM. Vi rekommenderar att du använder en EMM-lösning (Enterprise Mobility Management), som VMWare Airwatch, MobileIron eller Samsung Knox, för att fjärrdistribuera och hantera distributionen. AEM Screens Android-spelaren har stöd för den branschledande EMM AppConfig som tillåter fjärretablering.
+
+### Implementera massetablering av Android Player med Enterprise Mobility Management {#implementation}
+
+Följ stegen nedan för att tillåta massetablering i Android Player:
+
+1. Kontrollera att din Android-enhet har stöd för Google Play-tjänster.
+1. Registrera dina Android-enheter med din EMM-favoritlösning som stöder AppConfig.
+1. Logga in på EMM-konsolen och hämta AEM Screens Player från Google Play.
+1. Välj hanterad konfiguration (eller relaterat alternativ).
+1. Nu bör du se en lista över spelaralternativ som kan konfigureras (till exempel serverkod och bulkregistreringskod).
+1. Konfigurera de här parametrarna, spara och distribuera principen till enheterna.
+
+   >[!NOTE]
+   >Enheterna bör ta emot programmet tillsammans med konfigurationen och peka på rätt AEM med den valda konfigurationen. Om du väljer att konfigurera gruppregistreringskoden och behåller den som den konfigurerats i AEM, bör spelaren kunna registrera sig automatiskt. Om du har konfigurerat en standardskärm kan den även hämta och visa visst standardinnehåll (som senare kan ändras efter behov).
+
+Dessutom bör du höra med din EMM-leverantör om AppConfig-stöd. De vanligaste är till exempel [VMWare Airwatch](https://docs.samsungknox.com/admin/uem/vm-configure-appconfig.htm), [Mobile Iron](https://docs.samsungknox.com/admin/uem/mobileiron2-configure-appconfig.htm), [SOTI](https://docs.samsungknox.com/admin/uem/soti-configure-appconfig.htm), [Blackberry UEM](https://docs.samsungknox.com/admin/uem/bb-configure-appconfig.htm), [IBM Maas360](https://docs.samsungknox.com/admin/uem/ibm-configure-appconfig.htm) och [Samsung Knox a11/> stöder bland annat denna branschstandard.](https://docs.samsungknox.com/admin/uem/km-configure-appconfig.htm)
