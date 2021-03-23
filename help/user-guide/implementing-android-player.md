@@ -10,10 +10,13 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: administering
 discoiquuid: 77fe9d4e-e1bb-42f7-b563-dc03e3af8a60
 docset: aem65
+feature: Administrera skärmar, Android Player
+role: Administratör
+level: Mellanliggande
 translation-type: tm+mt
-source-git-commit: 2b72d9a83735beb327f519a66e8b3c0e8bf04409
+source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
 workflow-type: tm+mt
-source-wordcount: '1134'
+source-wordcount: '1140'
 ht-degree: 0%
 
 ---
