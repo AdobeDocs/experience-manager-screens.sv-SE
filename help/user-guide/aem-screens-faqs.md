@@ -5,9 +5,9 @@ description: Följ den här sidan för att få svar på vanliga frågor om ett A
 seo-description: Följ den här sidan för att få svar på vanliga frågor om ett AEM Screens-projekt.
 uuid: 62e58f3b-0c0a-4006-b6d5-42d2090f47b5
 contentOwner: jsyal
-feature: Digital signatur, innehåll
+feature: Digital Signage, Content
 role: Developer
-level: Mellanliggande
+level: Intermediate
 translation-type: tm+mt
 source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
 workflow-type: tm+mt

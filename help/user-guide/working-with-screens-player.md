@@ -9,9 +9,9 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
 discoiquuid: 4ad51b5e-c628-4440-9f2e-41d17cb10bc3
-feature: Administrera skärmar
-role: Administratör
-level: Mellanliggande
+feature: Administering Screens
+role: Administrator
+level: Intermediate
 translation-type: tm+mt
 source-git-commit: 9d36c0ebc985b815ab41d3f3ef44baefa22db915
 workflow-type: tm+mt

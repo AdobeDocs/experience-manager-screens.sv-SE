@@ -3,9 +3,9 @@ title: Ordlista
 seo-title: Ordlista
 description: Följ den här sidan om du vill veta mer om de nyckeltermer som är associerade med AEM Screens.
 seo-description: Följ den här sidan om du vill veta mer om de nyckeltermer som är associerade med AEM Screens.
-feature: Översikt
-role: Yrkesverksamma inom affärsverksamhet
-level: Nybörjare
+feature: Overview
+role: Business Practitioner
+level: Beginner
 translation-type: tm+mt
 source-git-commit: 9d36c0ebc985b815ab41d3f3ef44baefa22db915
 workflow-type: tm+mt

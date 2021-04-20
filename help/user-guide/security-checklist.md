@@ -3,9 +3,9 @@ title: Säkerhetschecklista
 seo-title: Säkerhetschecklista
 description: Sidan beskriver de viktigaste säkerhetsområdena med en checklista med frågor och överväganden.
 seo-description: Sidan beskriver checklistan för säkerhet
-feature: Administrera skärmar
-role: Administratör
-level: Mellanliggande
+feature: Administering Screens
+role: Administrator
+level: Intermediate
 translation-type: tm+mt
 source-git-commit: 9d36c0ebc985b815ab41d3f3ef44baefa22db915
 workflow-type: tm+mt

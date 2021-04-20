@@ -2,9 +2,9 @@
 title: Kanaltilldelning - senaste offertförfrågan
 seo-title: Kanaltilldelning - senaste offertförfrågan
 description: Följ den här sidan om du vill veta mer om kanaltilldelning och DagParting.
-feature: redigeringsskärmar, kanaltilldelning
-role: Administratör, utvecklare
-level: Mellanliggande
+feature: Authoring Screens, Channel Assignment
+role: Administrator, Developer
+level: Intermediate
 translation-type: tm+mt
 source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
 workflow-type: tm+mt

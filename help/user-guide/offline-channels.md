@@ -10,9 +10,9 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: developing
 discoiquuid: bd572743-652f-4fc5-8b75-a3c4c74536f4
 docset: aem65
-feature: Utveckla skärmar
+feature: Developing Screens
 role: Developer
-level: Mellanliggande
+level: Intermediate
 translation-type: tm+mt
 source-git-commit: 9d36c0ebc985b815ab41d3f3ef44baefa22db915
 workflow-type: tm+mt

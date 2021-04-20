@@ -3,9 +3,9 @@ title: Replikera datautlösare till publiceringsservrar
 seo-title: Replikera datautlösare till publiceringsservern
 description: Följ den här sidan om du vill lära dig hur du replikerar datautlösare till publiceringsservern.
 seo-description: Replikera datautlösare till publiceringsservern.
-feature: Administrera skärmar, Datautlösare
+feature: Administering Screens, Data Trigger
 role: Developer
-level: Mellanliggande
+level: Intermediate
 translation-type: tm+mt
 source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
 workflow-type: tm+mt

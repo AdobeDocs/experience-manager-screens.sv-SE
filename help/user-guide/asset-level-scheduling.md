@@ -3,9 +3,9 @@ title: Aktivering på tillgångsnivå
 seo-title: Aktivering på tillgångsnivå
 description: Följ den här sidan för att lära dig hur du aktiverar en specifik resurs i en kanal för en schemalagd tidsram i spelarens lokala tidszon.
 seo-description: Följ den här sidan för att lära dig hur du aktiverar en specifik resurs i en kanal för en schemalagd tidsram i spelarens lokala tidszon.
-feature: redigeringsskärmar, aktivering på tillgångsnivå
-role: Administratör, utvecklare
-level: Mellanliggande
+feature: Authoring Screens, Asset Level Activation
+role: Administrator, Developer
+level: Intermediate
 translation-type: tm+mt
 source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
 workflow-type: tm+mt

@@ -1,9 +1,9 @@
 ---
 title: Tilldelningsrapport för innehåll
 description: Den här sidan beskriver hur du hämtar och använder Content Assignment Report.
-feature: Redigeringsskärmar
+feature: Authoring Screens
 role: Developer
-level: Mellanliggande
+level: Intermediate
 translation-type: tm+mt
 source-git-commit: 9d36c0ebc985b815ab41d3f3ef44baefa22db915
 workflow-type: tm+mt

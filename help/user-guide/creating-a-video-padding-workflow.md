@@ -10,9 +10,9 @@ topic-tags: authoring
 content-type: reference
 discoiquuid: a90e3950-c95a-4aff-8cb3-9229c660a815
 docset: aem65
-feature: Redigeringsskärmar
-role: Administratör, utvecklare
-level: Mellanliggande
+feature: Authoring Screens
+role: Administrator, Developer
+level: Intermediate
 translation-type: tm+mt
 source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
 workflow-type: tm+mt

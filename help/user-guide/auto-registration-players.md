@@ -2,9 +2,9 @@
 title: Automatisk registrering av spelare
 seo-title: Automatisk registrering av spelare
 description: Följ den här sidan om du vill veta mer om automatisk registrering av spelare med AMS/On-Prem Screens.
-feature: Administrera skärmar, spelare
-role: Administratör
-level: Mellanliggande
+feature: Administering Screens, Players
+role: Administrator
+level: Intermediate
 translation-type: tm+mt
 source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
 workflow-type: tm+mt

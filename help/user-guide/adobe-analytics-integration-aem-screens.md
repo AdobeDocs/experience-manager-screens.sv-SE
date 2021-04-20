@@ -10,9 +10,9 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: administering
 discoiquuid: b1a0e00e-0368-42c9-8bcd-5f00b4d0990c
 docset: aem65
-feature: Administrera skärmar
-role: Administratör, utvecklare
-level: Mellanliggande
+feature: Administering Screens
+role: Administrator, Developer
+level: Intermediate
 translation-type: tm+mt
 source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
 workflow-type: tm+mt

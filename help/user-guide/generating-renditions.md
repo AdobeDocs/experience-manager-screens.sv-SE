@@ -9,9 +9,9 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
 discoiquuid: 40a182fd-7772-4ef7-b4fd-29ef99390b4a
-feature: Redigeringsskärmar
-role: Administratör, utvecklare
-level: Mellanliggande
+feature: Authoring Screens
+role: Administrator, Developer
+level: Intermediate
 translation-type: tm+mt
 source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
 workflow-type: tm+mt

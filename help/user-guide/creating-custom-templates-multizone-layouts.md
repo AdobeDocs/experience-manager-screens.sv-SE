@@ -4,9 +4,9 @@ seo-title: Skapa anpassade mallar i MultiZone-layouter
 description: Följ den här sidan om du vill veta mer om hur du skapar egna mallar i MultiZone-layouter.
 seo-description: Följ den här sidan om du vill veta mer om hur du skapar egna mallar i MultiZone-layouter.
 contentOwner: Jyotika Syal
-feature: Utveckla skärmar
+feature: Developing Screens
 role: Developer
-level: Mellanliggande
+level: Intermediate
 translation-type: tm+mt
 source-git-commit: 9d36c0ebc985b815ab41d3f3ef44baefa22db915
 workflow-type: tm+mt

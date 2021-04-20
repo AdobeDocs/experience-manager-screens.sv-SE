@@ -3,9 +3,9 @@ title: Användningsfall för övergångar mellan MultiZone och SingleZone
 description: Följ den här sidan om du vill veta mer om hur MultiZone till SingleZone-övergångar används.
 seo-description: MultiZone till SingleZone-övergångar - exempel.
 contentOwner: Jyotika Syal
-feature: Redigeringsskärmar
-role: Utvecklare, affärsledare
-level: Mellanliggande
+feature: Authoring Screens
+role: Developer, Business Practitioner
+level: Intermediate
 translation-type: tm+mt
 source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
 workflow-type: tm+mt

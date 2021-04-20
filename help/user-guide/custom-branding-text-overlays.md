@@ -4,9 +4,9 @@ seo-title: Använda anpassad profilering och formatering för textövertäckning
 description: Följ den här sidan om du vill veta mer om hur du använder anpassad profilering och formatering för textövertäckningar.
 seo-description: Följ den här sidan om du vill veta mer om hur du använder anpassad profilering och formatering för textövertäckningar.
 contentOwner: Jyotika Syal
-feature: Utveckla skärmar
+feature: Developing Screens
 role: Developer
-level: Mellanliggande
+level: Intermediate
 translation-type: tm+mt
 source-git-commit: 9d36c0ebc985b815ab41d3f3ef44baefa22db915
 workflow-type: tm+mt

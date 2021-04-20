@@ -4,9 +4,9 @@ seo-title: Perpetual TakeOver Channel
 description: Följ det här användningsexemplet för att skapa en permanent TakeOver-kanal.
 seo-description: Följ det här användningsexemplet när du ställer in ett projekt som skapar en permanent TakeOver-kanal som spelas upp en viss tid och dag kontinuerligt.
 contentOwner: jsyal
-feature: Redigeringsskärmar
-role: Administratör, utvecklare
-level: Mellanliggande
+feature: Authoring Screens
+role: Administrator, Developer
+level: Intermediate
 translation-type: tm+mt
 source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
 workflow-type: tm+mt

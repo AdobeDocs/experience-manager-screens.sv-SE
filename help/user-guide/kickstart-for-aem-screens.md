@@ -2,9 +2,9 @@
 title: Kickstart Guide
 seo-title: Kickstart Guide
 description: Följ den här sidan för att skapa ett AEM Screens-demonstrationsprojekt. Det hjälper dig att skapa en digital signeringsupplevelse från installation och konfiguration av ett nytt projekt för att visa ditt innehåll i AEM Screens Player.
-feature: Översikt, digital signatur
-role: Yrkesverksamma inom affärsverksamhet
-level: Nybörjare
+feature: Overview, Digital Signage
+role: Business Practitioner
+level: Beginner
 translation-type: tm+mt
 source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
 workflow-type: tm+mt
