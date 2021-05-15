@@ -9,10 +9,9 @@ topic-tags: developing
 feature: Utveckla skärmar
 role: Developer
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 1667fd10f415214a5301e9740d205eb33cc34f89
+source-git-commit: 8d1633dab9e70ea988516cf9ee4d1b0a780bc7e9
 workflow-type: tm+mt
-source-wordcount: '533'
+source-wordcount: '536'
 ht-degree: 0%
 
 ---
@@ -20,7 +19,7 @@ ht-degree: 0%
 
 # Använd arbetsflöde för att automatisera resursuppdateringar för en AEM Screens-kanal {#automate-channel-updates-workflow}
 
-Lär dig hur du skapar ett arbetsflöde som automatiskt bearbetar resurser som överförts till Adobe Experience Manager och dynamiskt tilldelar dem till en skärmkanal. I det här exemplet aktiveras ett arbetsflöde som använder en dynamisk vattenstämpel och tilldelar bilden till en skärmkanal när en bild läggs till i en viss mapp. Lektioner från det här exemplet kan användas i en mängd olika automatiseringsscenarier.
+Lär dig hur du skapar ett arbetsflöde som automatiskt bearbetar resurser som överförts till Adobe Experience Manager och dynamiskt tilldelar dem till en skärmkanal. I det här exemplet aktiveras ett arbetsflöde som tillämpar en dynamisk textövertäckning (vattenstämpelprocess) och tilldelar bilden till en skärmkanal när en bild läggs till i en viss mapp. Lektioner från det här exemplet kan användas i en mängd olika automatiseringsscenarier.
 
 ## Förutsättningar {#prerequisites}
 
