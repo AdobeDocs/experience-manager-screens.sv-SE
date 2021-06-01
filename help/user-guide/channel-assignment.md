@@ -2,13 +2,12 @@
 title: Kanaltilldelning
 seo-title: Kanaltilldelning
 description: Följ den här sidan om du vill veta mer om kanaltilldelning och Dag-delning.
-feature: Authoring Screens, Channel Assignment
+feature: redigeringsskärmar, kanaltilldelning
 role: Administrator, Developer
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
+source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
 workflow-type: tm+mt
-source-wordcount: '1222'
+source-wordcount: '1219'
 ht-degree: 1%
 
 ---
