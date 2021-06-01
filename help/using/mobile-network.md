@@ -1,8 +1,7 @@
 ---
 title: Direkt mobilnätverk
 description: Sidan beskriver Direct Mobile Network Setup
-translation-type: tm+mt
-source-git-commit: 54c5a2f2f3f755e4da4028d54042f4bd8f2df369
+source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
 workflow-type: tm+mt
 source-wordcount: '861'
 ht-degree: 0%
@@ -81,7 +80,7 @@ Prestandaproblemen i det lokala nätverket (LAN), förutom nätverksnåbarheten,
 
 När du använder andra aktiva nätverkskomponenter är det obligatoriskt att alla dessa stämmer överens med kraven för nätverksbandbredd. Nätverkskomponenterna bör till exempel minst matcha 100 Mbit/s-standarden och matcha den bandbredd som anges i Internet-åtkomsten eller routerspecifikationen. Annars begränsas den totala bandbredden av den svagaste länken i nätverkskedjan.
 
-## Hämtar media och resurser {#download}
+## Hämta media och resurser {#download}
 
 AEM Screens ger användare av digitala signaturer en stor fördel. Den hämtar och sparar alla nödvändiga mediefiler lokalt, till exempel bilder och videor. Den största nätverkstrafiken inträffar när det finns nytt innehåll som ska visas på en viss skärm.
 
