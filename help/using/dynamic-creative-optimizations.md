@@ -3,8 +3,7 @@ title: Datautlösare
 seo-title: Datautlösare
 description: Sidan beskriver datautlösare
 seo-description: Sidan beskriver datautlösare
-translation-type: tm+mt
-source-git-commit: 54c5a2f2f3f755e4da4028d54042f4bd8f2df369
+source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
 workflow-type: tm+mt
 source-wordcount: '268'
 ht-degree: 0%
@@ -33,7 +32,7 @@ Exempel:
 * närvaron av en lokal mediekampanj
 * webbtrafik och till och med lokala händelser som när en kund plockar upp en produkt för att undersöka den
 
-Allt detta och mer därtill kan användas för att ge en högre nivå av kontext och personalisering.
+Allt detta och mer därtill kan användas för att skapa en högre nivå av sammanhang och personalisering.
 
 En visuell marknadsföringsstrategi som inkluderar DCO kan dramatiskt öka tittandet i nätverket.
 
