@@ -3,8 +3,7 @@ title: Business Content Strategy for [!UICONTROL AEM Screens]
 seo-title: Business Content Strategy for [!UICONTROL AEM Screens]
 description: Guiden beskriver affärsstrategin för innehåll
 seo-description: Guiden beskriver Business Content Strategy
-translation-type: tm+mt
-source-git-commit: 55999ae9ead7ab8986f4dcb69b0bbaa46933c9ec
+source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
 workflow-type: tm+mt
 source-wordcount: '439'
 ht-degree: 0%
