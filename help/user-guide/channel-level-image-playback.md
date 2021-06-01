@@ -10,13 +10,12 @@ topic-tags: authoring
 content-type: reference
 discoiquuid: df3cf999-0c8d-4754-8b58-5c6ced2c8ca5
 docset: aem65
-feature: Authoring Screens
+feature: Redigeringsskärmar
 role: Administrator, Developer
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
+source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
 workflow-type: tm+mt
-source-wordcount: '365'
+source-wordcount: '362'
 ht-degree: 1%
 
 ---
