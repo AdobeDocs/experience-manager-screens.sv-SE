@@ -1,13 +1,12 @@
 ---
 title: Röstigenkänning i AEM Screens
 description: Sidan beskriver röstigenkänningsfunktionen i AEM Screens.
-feature: Authoring Screens
+feature: Redigeringsskärmar
 role: Administrator, Developer
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
+source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
 workflow-type: tm+mt
-source-wordcount: '1129'
+source-wordcount: '1126'
 ht-degree: 1%
 
 ---
@@ -153,8 +152,8 @@ Nu kan du använda dessa taggar i ditt AEM Screens-projekt.
    |---|---|---|
    | Huvud | 2 | Inledande inläsning, inaktiv skärm, timer |
    | HotDrinks | 1 | Användarinteraktion |
-   | ColdDrinks | 1 | Användarinteraktion |
-   | SplitScreen | 1 | Användarinteraktion |
+   | ColdDrinks | 3 | Användarinteraktion |
+   | SplitScreen | 3 | Användarinteraktion |
 
    >[!NOTE]
    >
