@@ -1,8 +1,7 @@
 ---
 title: Mobilnätverk med mobil datarouter och aktiva nätverkskomponenter
 description: Sidan beskriver mobilnätverk med Mobile Data Router och Active Network Components
-translation-type: tm+mt
-source-git-commit: 9b54b153676852742859b704ac9aedf908fceecf
+source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
 workflow-type: tm+mt
 source-wordcount: '1035'
 ht-degree: 0%
@@ -96,7 +95,7 @@ Nätverkskomponenterna bör till exempel minst matcha 100 Mbit/s-standarden och 
 
 Om en Wi-Fi-lösning planeras för att ansluta skärmen till Internet Link rekommenderar vi att du åtminstone använder moderna Wi-Fi-standarder som IEEE 802.11g. Den här standarden stöder anslutningar på upp till 54 Mbit/s. Alla *nyare*-standarder som 802.11h-n har bättre kvalitet. Om en Wi-Fi Repeater krävs rekommenderar vi starkt trådlös nätanslutningspunktsteknik som Google Nest Mesh Wi-Fi eller liknande.
 
-## Hämtar media och resurser {#download}
+## Hämta media och resurser {#download}
 
 AEM Screens ger användare av digitala signaturer en stor fördel. Den hämtar och sparar alla nödvändiga mediefiler lokalt, som bilder och video. På grund av detta koncept uppstår den största nätverkstrafiken om det finns nytt innehåll som ska visas på en viss skärm.
 För normal åtgärd, till exempel om du har definierat en spellista som inte uppdateras ofta under dagen, är detta en åtgärd som är nära nätverksoberoende när alla filer har sparats i spelaren.
