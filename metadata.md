@@ -1,13 +1,11 @@
 ---
-cloud: Experience Cloud
+cloud: experience-cloud
 solution-title: AEM Screens
 solution: Experience Manager, Experience Manager Screens
-feature-set: Experience Manager Screens, Experience Manager
 type: Documentation
 index: y
 git-repo: https://git.corp.adobe.com/AdobeDocs/experience-manager-screens.sv-SE
-translation-type: tm+mt
-source-git-commit: fe83efff8f4078c45ee03ec24c83544ae30816ab
+source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
 workflow-type: tm+mt
 source-wordcount: '44'
 ht-degree: 0%
