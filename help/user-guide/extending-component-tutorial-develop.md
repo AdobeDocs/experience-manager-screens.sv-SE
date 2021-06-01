@@ -9,13 +9,12 @@ content-type: reference
 topic-tags: developing
 discoiquuid: 46bdc191-5056-41a4-9804-8f7c4a035abf
 targetaudience: target-audience new
-feature: Developing Screens
+feature: Utveckla skärmar
 role: Developer
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 9d36c0ebc985b815ab41d3f3ef44baefa22db915
+source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
 workflow-type: tm+mt
-source-wordcount: '1856'
+source-wordcount: '1854'
 ht-degree: 0%
 
 ---
@@ -53,7 +52,7 @@ Källkoden för ett skärmsprojekt hanteras vanligtvis som ett Maven-projekt med
 
 1. Hämta och installera följande paket med **CRX-pakethantering** `http://localhost:4502/crx/packmgr/index.jsp)r:`
 
-   [Hämta fil](assets/start-poster-screens-weretail-runuiapps-001-snapshot.zip)
+[Hämta fil](assets/start-poster-screens-weretail-runuiapps-001-snapshot.zip)
 
    [Hämta fil](assets/start-poster-screens-weretail-runuicontent-001-snapshot.zip)
    **Om du vill kan du** hämta källpaketet nedan om du arbetar med Eclipse eller någon annan utvecklingsmiljö. Distribuera projektet till en lokal AEM med kommandot Maven:
@@ -62,7 +61,7 @@ Källkoden för ett skärmsprojekt hanteras vanligtvis som ett Maven-projekt med
 
    SRC-startskärmar - webb.Kör projekt
 
-   [Hämta fil](assets/start-poster-screens-weretail-run.zip)
+[Hämta fil](assets/start-poster-screens-weretail-run.zip)
 
 1. I **CRX Package Manager** `http://localhost:4502/crx/packmgr/index.jsp` är följande två paket installerade:
 
@@ -317,7 +316,7 @@ Komponenten Poster återges i helskärmsläge i förhandsgransknings-/produktion
 
    `aem-Screens-editWrapper`läggs till så att komponenten inte återger helskärmsläge i redigeraren. Attributet `data-emptytext` ser till att platshållaren visas när ingen bild eller inget innehåll har fyllts i.
 
-## Skapa klientbibliotek {#clientlibs}
+## Skapa bibliotek på klientsidan {#clientlibs}
 
 Med bibliotek på klientsidan kan du ordna och hantera CSS- och JavaScript-filer som behövs för en AEM implementering. Mer information om hur du använder [klientbibliotek finns här.](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/clientlibs.html)
 
