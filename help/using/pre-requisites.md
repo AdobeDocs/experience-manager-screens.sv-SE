@@ -3,8 +3,7 @@ title: Förutsättningar [!UICONTROL AEM Screens]
 seo-title: Krav för [!UICONTROL AEM Screens]-projekt
 description: Handboken beskriver vad som krävs innan ett AEM Screens-projekt startas.
 seo-description: Handboken beskriver vad som krävs innan ett AEM Screens-projekt startas.
-translation-type: tm+mt
-source-git-commit: 599eb98dff8040fd169499fca2894530fd8a42e8
+source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
 workflow-type: tm+mt
 source-wordcount: '612'
 ht-degree: 0%
