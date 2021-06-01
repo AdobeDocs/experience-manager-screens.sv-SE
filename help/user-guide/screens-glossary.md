@@ -3,13 +3,12 @@ title: Ordlista
 seo-title: Ordlista
 description: Följ den här sidan om du vill veta mer om de nyckeltermer som är associerade med AEM Screens.
 seo-description: Följ den här sidan om du vill veta mer om de nyckeltermer som är associerade med AEM Screens.
-feature: Overview
+feature: Översikt
 role: Business Practitioner
 level: Beginner
-translation-type: tm+mt
-source-git-commit: 9d36c0ebc985b815ab41d3f3ef44baefa22db915
+source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
 workflow-type: tm+mt
-source-wordcount: '473'
+source-wordcount: '470'
 ht-degree: 0%
 
 ---
