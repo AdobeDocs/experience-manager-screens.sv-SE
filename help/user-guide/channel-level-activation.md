@@ -10,13 +10,12 @@ topic-tags: authoring
 content-type: reference
 discoiquuid: c28fd669-f23e-4d53-bec1-a2911274567d
 noindex: true
-feature: Authoring Screens, Channel Level Activation
+feature: redigeringsskärmar, aktivering på kanalnivå
 role: Administrator, Developer
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
+source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
 workflow-type: tm+mt
-source-wordcount: '1810'
+source-wordcount: '1807'
 ht-degree: 0%
 
 ---
@@ -73,11 +72,8 @@ Följande bild visar **kanalnivåaktivering**-projektet med **MainAdChannel** oc
 >Mer information om hur du skapar ett projekt och hur du skapar en sekvenskanal finns i resurserna nedan:
 >
 >* [Skapa och hantera projekt](creating-a-screens-project.md)
-   >
-   >
-* [Hantera en kanal](managing-channels.md)
 
->
+* [Hantera en kanal](managing-channels.md)
 
 
 
@@ -98,8 +94,7 @@ Följ stegen nedan för att implementera funktionen:
    ![screen_shot_2018-11-27at112112am](assets/screen_shot_2018-11-27at112112am.png)
 
    >[!NOTE]
-   >
-   >Mer information om hur du skapar en plats finns i **[Skapa och hantera platser](managing-locations.md)**.
+   Mer information om hur du skapar en plats finns i **[Skapa och hantera platser](managing-locations.md)**.
 
 1. **Skapa visning under plats**
 
@@ -125,8 +120,7 @@ Följ stegen nedan för att implementera funktionen:
    ![screen_shot_2018-11-27at124626pm](assets/screen_shot_2018-11-27at124626pm.png)
 
    >[!NOTE]
-   >
-   >Du kan också tilldela kanal från kontrollpanelen genom att gå till **Kanalnivåaktivering** —> **Platser** —> **Region** —> **RegionDisplay** och klicka på **Kontrollpanel** från åtgärdsfältet. Klicka på **+ Tilldela kanal** på panelen **TILLDELADE KANALER &amp; SCHEMAT**.
+   Du kan också tilldela kanal från kontrollpanelen genom att gå till **Kanalnivåaktivering** —> **Platser** —> **Region** —> **RegionDisplay** och klicka på **Kontrollpanel** från åtgärdsfältet. Klicka på **+ Tilldela kanal** på panelen **TILLDELADE KANALER &amp; SCHEMAT**.
 
    Tilldela på liknande sätt kanalen **TargetedSinglePlay** för visning**:
 
