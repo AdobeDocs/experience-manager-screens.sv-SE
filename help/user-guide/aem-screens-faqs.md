@@ -5,13 +5,12 @@ description: Följ den här sidan för att få svar på vanliga frågor om ett A
 seo-description: Följ den här sidan för att få svar på vanliga frågor om ett AEM Screens-projekt.
 uuid: 62e58f3b-0c0a-4006-b6d5-42d2090f47b5
 contentOwner: jsyal
-feature: Digital Signage, Content
+feature: Digital signatur, innehåll
 role: Developer
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
+source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
 workflow-type: tm+mt
-source-wordcount: '1905'
+source-wordcount: '1903'
 ht-degree: 0%
 
 ---
@@ -207,7 +206,7 @@ Så här inaktiverar du Livefyre för att undvika loggfel:
 
 ### 2. Hur lägger jag till information om Oak Index? {#add-oak-index-info}
 
-AEM Screens skapar indexdefinitioner för de frågor som används av produkten.
+AEM Screens skapar indexdefinitioner för frågor som används av produkten.
 Om det finns *WARNs* i `error.log` skapar du ett anpassat index för frågan. Mer information finns i [Konfigurera index](https://experienceleague.adobe.com/docs/experience-manager-65/deploying/deploying/queries-and-indexing.html?lang=en#configuring-the-indexes).
 
 Du kan även referera till en ytterligare resurs på [Oak Documentation](https://jackrabbit.apache.org/oak/docs/query/lucene.html).
