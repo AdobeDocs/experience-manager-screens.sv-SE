@@ -3,8 +3,7 @@ title: AEM Screens projektroller och ansvarsområden
 seo-title: AEM Screens projektroller och ansvarsområden
 description: På sidan beskrivs AEM Screens Project Rolands and Responsibility
 seo-description: På sidan beskrivs AEM Screens Project Rolands and Responsibility
-translation-type: tm+mt
-source-git-commit: 9b54b153676852742859b704ac9aedf908fceecf
+source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
 workflow-type: tm+mt
 source-wordcount: '1263'
 ht-degree: 9%
