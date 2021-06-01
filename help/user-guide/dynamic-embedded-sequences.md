@@ -9,13 +9,12 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
 discoiquuid: a40eb5bb-fbf7-4c0d-a34a-db79b884de8f
-feature: Authoring Screens
+feature: Redigeringsskärmar
 role: Administrator, Developer
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
+source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
 workflow-type: tm+mt
-source-wordcount: '2540'
+source-wordcount: '2537'
 ht-degree: 0%
 
 ---
@@ -309,8 +308,7 @@ Följande behörigheter tilldelas varje grupp:
 #### Steg för att skapa användargrupper, användare och konfigurera åtkomstkontrollistor {#steps-for-creating-user-groups-users-and-setting-up-acls}
 
 >[!NOTE]
->
->Mer information om hur du skiljer ut projekt med hjälp av åtkomstkontrollistor så att varje enskild person eller grupp hanterar sitt eget projekt finns i **Konfigurera åtkomstkontrollistor**.
+Mer information om hur du skiljer ut projekt med hjälp av åtkomstkontrollistor så att varje enskild person eller grupp hanterar sitt eget projekt finns i **Konfigurera åtkomstkontrollistor**.
 
 Följ stegen nedan för att skapa grupper, användare och ändra åtkomstkontrollistor enligt behörigheterna:
 
@@ -337,7 +335,7 @@ Följ stegen nedan för att skapa grupper, användare och ändra åtkomstkontrol
    Du kan även skapa två andra användare, till exempel **Region-User** och **Store-User**, och lägga till dem i **Region-Author** respektive **Store-Author**.
 
    >[!NOTE]
-   >Det är en god vana att lägga till användare i en grupp och sedan tilldela behörigheter till varje enskild användargrupp.
+Det är en god vana att lägga till användare i en grupp och sedan tilldela behörigheter till varje enskild användargrupp.
 
    ![screen_shot_2018-09-17at34412pm](assets/screen_shot_2018-09-17at34412pm.png)
 
@@ -407,6 +405,5 @@ Följ stegen nedan för att skapa grupper, användare och ändra åtkomstkontrol
    ![store](assets/store.gif)
 
 >[!NOTE]
->
->Mer information om hur du konfigurerar behörigheter finns i [Konfigurera åtkomstkontrollistor](setting-up-acls.md).
+Mer information om hur du konfigurerar behörigheter finns i [Konfigurera åtkomstkontrollistor](setting-up-acls.md).
 
