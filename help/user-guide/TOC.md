@@ -1,14 +1,14 @@
 ---
-cloud: Experience Cloud
+cloud: experience-cloud
 product: experience manager
 audience: end-user
 user-guide-title: Hjälp om Adobe Experience Manager Screens
 breadcrumb-title: AEM Screens Guide
 user-guide-description: Lär dig använda en lösning för digital signering som gör att du kan publicera dynamiska och interaktiva digitala upplevelser och interaktioner.
-translation-type: tm+mt
-source-git-commit: e0e6a865bcdec88d8c9096d66b5ac3ce5227dbc3
+feature-set: Experience Manager Screens
+source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
 workflow-type: tm+mt
-source-wordcount: '445'
+source-wordcount: '440'
 ht-degree: 1%
 
 ---
@@ -104,7 +104,6 @@ ht-degree: 1%
    + [ContextHub konfigureras i AEM Screens](configuring-context-hub.md)
    + [Skapa anpassade mallar för MultiZone-layouter](creating-custom-templates-multizone-layouts.md)
    + [Använda anpassad profilering och formatering för textövertäckningar](custom-branding-text-overlays.md)
-   + [Automatisera kanaluppdateringar med arbetsflöde](automate-channel-updates-workflow.md)
 + Felsökning och vanliga frågor och svar {#troubleshooting}
    + [Vanliga frågor om AEM Screens](aem-screens-faqs.md)
    + [Felsökning av Device Control Center](monitoring-screens.md)
