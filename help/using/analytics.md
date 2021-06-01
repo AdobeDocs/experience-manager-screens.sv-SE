@@ -3,8 +3,7 @@ title: Analyser med AEM Screens
 seo-title: Analyser med AEM Screens
 description: Sidan beskriver Analytics med AEM Screens
 seo-description: Sidan beskriver analysen med AEM Screens
-translation-type: tm+mt
-source-git-commit: 54c5a2f2f3f755e4da4028d54042f4bd8f2df369
+source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
 workflow-type: tm+mt
 source-wordcount: '297'
 ht-degree: 0%
