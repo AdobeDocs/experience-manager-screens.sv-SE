@@ -3,8 +3,7 @@ title: UX-beroenden för [!UICONTROL AEM Screens]
 seo-title: UX-beroenden för [!UICONTROL AEM Screens]
 description: Guiden beskriver UX-beroenden för [!UICONTROL AEM Screens]
 seo-description: Guiden beskriver UX-beroenden för [!UICONTROL AEM Screens]
-translation-type: tm+mt
-source-git-commit: f73d7d10f88be953d7800c3fafe084960800a61b
+source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
 workflow-type: tm+mt
 source-wordcount: '143'
 ht-degree: 0%
