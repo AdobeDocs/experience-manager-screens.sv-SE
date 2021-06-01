@@ -3,8 +3,7 @@ title: Enhetsspecifikationer
 seo-title: Enhetsspecifikationer
 description: Sidan beskriver enhetsspecifikationerna
 seo-description: Sidan beskriver enhetsspecifikationerna
-translation-type: tm+mt
-source-git-commit: 5c83a2b59769dfd3736a830f7d7d3cc35137c182
+source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
 workflow-type: tm+mt
 source-wordcount: '209'
 ht-degree: 0%
