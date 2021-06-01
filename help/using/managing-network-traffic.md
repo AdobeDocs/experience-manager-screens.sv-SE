@@ -1,8 +1,7 @@
 ---
 title: Hantera nätverkstrafik
 description: På sidan beskrivs standardnätverksinställningar och hur du hanterar nätverkstrafik.
-translation-type: tm+mt
-source-git-commit: 54c5a2f2f3f755e4da4028d54042f4bd8f2df369
+source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
 workflow-type: tm+mt
 source-wordcount: '559'
 ht-degree: 0%
@@ -18,7 +17,7 @@ Den här guiden belyser en introduktion till proxyservrar följt av olika nätve
 
 >[!NOTE]
 >**AEM Screens nätverkskrav**
->AEM Screens kommunicerar direkt med AEM som Cloud Service och måste därför upprätta en stabil anslutning mellan de två noderna. Brandväggar är absolut obligatoriska för kommersiell internetåtkomst och som kund måste du förstå vilka kommunikationsportar som måste öppnas i dessa brandväggar och andra IT-säkerhetsrelaterade nätverkskomponenter.
+>AEM Screens kommunicerar direkt med AEM som Cloud Service och måste därför upprätta en stabil koppling mellan de två noderna. Brandväggar är absolut obligatoriska för kommersiell internetåtkomst och som kund måste du förstå vilka kommunikationsportar som måste öppnas i dessa brandväggar och andra IT-säkerhetsrelaterade nätverkskomponenter.
 
 ## Översikt över proxyservrar {#proxy-servers}
 
