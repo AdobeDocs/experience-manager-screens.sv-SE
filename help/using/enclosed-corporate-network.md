@@ -1,8 +1,7 @@
 ---
 title: Enclosed Corporate Network
 description: Enclosed Corporate Network
-translation-type: tm+mt
-source-git-commit: 54c5a2f2f3f755e4da4028d54042f4bd8f2df369
+source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
 workflow-type: tm+mt
 source-wordcount: '709'
 ht-degree: 0%
@@ -75,7 +74,7 @@ Det här schemat är förenklat och passar de flesta miljöer som är tillgängl
 Om en Wi-Fi-lösning planeras för att ansluta skärmar till Internet Link rekommenderar vi att du åtminstone använder moderna Wi-Fi-standarder som `IEEE 802.11g`. Denna standard stöder anslutningar upp till 54 Mbit/s. Alla *nyare*-standarder som `802.11h-n` har bättre kvalitet. Om en Wi-Fi Repeater krävs rekommenderar vi starkt åtkomstpunktsteknologier som Google Nest Mesh Wi-Fi eller liknande.
 Andra Wi-Fi-upprepande tekniker slutar med en enorm förlust av bandbredd i hela nätverket.
 
-## Hämtar media och resurser {#download}
+## Hämta media och resurser {#download}
 
 AEM Screens ger användare av digitala signaturer en stor fördel. Den hämtar och sparar alla nödvändiga mediefiler lokalt, till exempel bilder och videor. Den största nätverkstrafiken inträffar när det finns nytt innehåll som ska visas på en viss skärm.
 
