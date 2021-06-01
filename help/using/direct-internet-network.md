@@ -1,8 +1,7 @@
 ---
 title: Direktåtkomst till Internet
 description: Direktåtkomst till Internet
-translation-type: tm+mt
-source-git-commit: f25176be89424059b8c51296969f069687328536
+source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
 workflow-type: tm+mt
 source-wordcount: '697'
 ht-degree: 0%
@@ -82,7 +81,7 @@ Om en Wi-Fi-lösning planeras för att ansluta AEM Screens till Internet Link re
 >
 >Om en Wi-Fi Repeater krävs rekommenderas en trådlös nätanslutningspunkt som Google Nest Mesh Wi-Fi eller liknande. Andra Wi-Fi-upprepande tekniker slutar med en enorm förlust av bandbredd i hela nätverket.
 
-## Hämtar media och resurser {#download}
+## Hämta media och resurser {#download}
 
 AEM Screens ger användare av digitala signaturer en stor fördel. Den hämtar och sparar alla nödvändiga mediefiler lokalt, till exempel bilder och videor. Den största nätverkstrafiken inträffar när det finns nytt innehåll som ska visas på en viss skärm.
 
