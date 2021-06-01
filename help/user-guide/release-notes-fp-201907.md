@@ -10,14 +10,13 @@ topic-tags: release-notes
 content-type: reference
 discoiquuid: 826d1599-02d1-4d24-b15d-26c1ffee36a2
 docset: aem65
-feature: Feature Pack
+feature: Funktionspaket
 role: Developer
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
+source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
 workflow-type: tm+mt
-source-wordcount: '388'
-ht-degree: 1%
+source-wordcount: '386'
+ht-degree: 0%
 
 ---
 
