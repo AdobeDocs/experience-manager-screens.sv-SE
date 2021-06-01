@@ -3,8 +3,7 @@ title: Introduktion till [!UICONTROL AEM Screens]
 seo-title: Guide till bästa praxis för [!UICONTROL AEM Screens]-projekt
 description: Den här sidan är en introduktion till AEM Screens
 seo-description: Den här sidan innehåller en introduktion till AEM Screens
-translation-type: tm+mt
-source-git-commit: 54c5a2f2f3f755e4da4028d54042f4bd8f2df369
+source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
 workflow-type: tm+mt
 source-wordcount: '684'
 ht-degree: 9%
@@ -14,7 +13,7 @@ ht-degree: 9%
 
 # Introduktion till AEM Screens {#introduction}
 
-**AEM (Adobe Experience Manager)** Screensis är en digital signeringslösning som gör det möjligt att skapa, publicera och spela dynamiska och interaktiva digitala upplevelser som omfattar olika typer av skärmar på plats i kombination med en omfattande strategi för digital marknadsföring i flera kanaler.
+**AEM (Adobe Experience Manager)** Screensis är en digital signeringslösning som gör att ni kan skapa, publicera och spela dynamiska och interaktiva digitala upplevelser som omfattar olika typer av skärmar på plats i kombination med en omfattande strategi för digital marknadsföring i flera kanaler.
 
 Med AEM Screens kan du skapa:
 
