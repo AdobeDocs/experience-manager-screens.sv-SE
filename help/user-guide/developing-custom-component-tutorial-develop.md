@@ -9,13 +9,12 @@ content-type: reference
 topic-tags: developing
 discoiquuid: 24eb937f-ab51-4883-8236-8ebe6243f6e3
 targetaudience: target-audience new
-feature: Developing Screens
+feature: Utveckla skärmar
 role: Developer
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 9d36c0ebc985b815ab41d3f3ef44baefa22db915
+source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
 workflow-type: tm+mt
-source-wordcount: '2190'
+source-wordcount: '2188'
 ht-degree: 0%
 
 ---
@@ -49,7 +48,7 @@ Källkoden för ett skärmsprojekt hanteras vanligtvis som ett Maven-projekt med
 
 1. Hämta och installera följande paket med [CRX-pakethanteraren](http://localhost:4502/crx/packmgr/index.jsp):
 
-   [Hämta fil](assets/base-screens-weretail-runuiapps-001-snapshot.zip)
+[Hämta fil](assets/base-screens-weretail-runuiapps-001-snapshot.zip)
 
    [Hämta fil](assets/base-screens-weretail-runuicontent-001-snapshot.zip)
    **Om du** arbetar med Eclipse eller någon annan utvecklingsmiljö kan du hämta källpaketet nedan. Distribuera projektet till en lokal AEM med kommandot Maven:
@@ -58,7 +57,7 @@ Källkoden för ett skärmsprojekt hanteras vanligtvis som ett Maven-projekt med
 
    Start HelloWorld SRC Screens We.Retail Run Project
 
-   [Hämta fil](assets/src-screens-weretail-run.zip)
+[Hämta fil](assets/src-screens-weretail-run.zip)
 
 1. I [CRX Package Manager](http://localhost:4502/crx/packmgr/index.jsp) kontrollerar du att följande två paket är installerade:
 
@@ -273,7 +272,7 @@ AEM Screens har intressanta begränsningar som inte nödvändigtvis är sanna f�
 
    Hello World - slutförd dialogruta
 
-## Skapa klientbibliotek {#clientlibs}
+## Skapa bibliotek på klientsidan {#clientlibs}
 
 Med bibliotek på klientsidan kan du ordna och hantera CSS- och JavaScript-filer som behövs för en AEM implementering.
 
