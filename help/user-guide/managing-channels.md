@@ -3,13 +3,12 @@ title: Skapa och hantera kanaler
 seo-title: Hantera kanaler
 description: Följ den här sidan om du vill veta mer om hur du skapar och hanterar kanaler. Den förklarar även kanalkontrollpanelen och redigerar innehåll för en kanal.
 seo-description: Följ den här sidan om du vill veta mer om hur du skapar och hanterar kanaler. Den förklarar även kanalkontrollpanelen och redigerar innehåll för en kanal.
-feature: Authoring Screens
+feature: Redigeringsskärmar
 role: Administrator, Developer
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
+source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
 workflow-type: tm+mt
-source-wordcount: '1331'
+source-wordcount: '1328'
 ht-degree: 0%
 
 ---
@@ -243,9 +242,7 @@ De associerade skärmarna visas på panelen **Tilldelade skärmar** enligt nedan
 >Mer information om hur du skapar en visning på en plats finns i:
 >
 >* [Skapa och hantera platser](managing-locations.md)
->* [Skapa och hantera bildskärmar](managing-displays.md)
-
->
+* [Skapa och hantera bildskärmar](managing-displays.md)
 
 
 
