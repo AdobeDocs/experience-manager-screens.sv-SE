@@ -4,13 +4,12 @@ seo-title: Installera skärmuppspelaren
 description: Följ den här sidan om du vill veta mer om hur du installerar tillgängliga AEM Screens Player.
 seo-description: Installera skärmuppspelaren
 contentOwner: jsyal
-feature: Administering Screens
+feature: Administrera skärmar
 role: Administrator
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 9d36c0ebc985b815ab41d3f3ef44baefa22db915
+source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
 workflow-type: tm+mt
-source-wordcount: '192'
+source-wordcount: '190'
 ht-degree: 1%
 
 ---
