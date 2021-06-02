@@ -4,9 +4,9 @@ description: '"Följ den här sidan för att få information om AEM Screens Feat
 feature: Funktionspaket
 role: Developer
 level: Intermediate
-source-git-commit: 0568e55557dcae8e2afa6bebfc5898480892dda0
+source-git-commit: c237486b9fe574727f14b3425f634c8d13d33596
 workflow-type: tm+mt
-source-wordcount: '211'
+source-wordcount: '210'
 ht-degree: 1%
 
 ---
@@ -24,7 +24,7 @@ Du kan hämta det senaste funktionspaketet för AEM Screens 6.5.8 från [Softwar
 
 ## Releasedatum {#release-date}
 
-Releasedatum för AEM Screens Feature Pack 202105 är 1 juni 2021.
+Releasedatum för AEM Screens Feature Pack 202105 är 3 juni 2021.
 
 ### Nyheter {#what-is-new}
 
@@ -32,8 +32,8 @@ Releasedatum för AEM Screens Feature Pack 202105 är 1 juni 2021.
 
 ### Felkorrigeringar {#bug-fixes}
 
-* Spelaren visade en svart skärm vid växling till kanal som innehåller dynamisk inbäddad sekvens.
 * Förbättrade prestanda för generering av kanalmanifest.
+* Spelaren visade en svart skärm vid växling till kanal som innehåller dynamisk inbäddad sekvens.
 * Skärmspelarna blockerar nu bytet till en trasig kanal som ytterligare undviker 404-fel eller en sida med ett felmeddelande.
 
 ### Lanserade AEM Screens Players {#released-aem-screens-players}
@@ -45,7 +45,6 @@ Följande AEM Screens-spelare finns för AEM 6.5 Feature Pack 8:
 * Tizen
 * Android
 * Linux
-* iOS
 
 #### AEM Screens Player Downloads {#aem-screens-player-downloads}
 
