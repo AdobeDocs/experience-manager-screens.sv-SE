@@ -4,10 +4,10 @@ description: '"Följ den här sidan för att få information om AEM Screens Feat
 feature: Funktionspaket
 role: Developer
 level: Intermediate
-source-git-commit: e9539d91b1215240c371bdea62a304b2e62df8ec
+source-git-commit: 0c3e8835174e34c5e8455f1849351717884b6d0e
 workflow-type: tm+mt
-source-wordcount: '291'
-ht-degree: 1%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -36,10 +36,8 @@ Releasedatum för AEM Screens Feature Pack 202105 är 3 juni 2021.
 
    Snabbare generering av kanalmanifest med förbättrade prestanda, till exempel tilldelning av mindre resurser på servern.
 
-
 ### Felkorrigeringar {#bug-fixes}
 
-* Förbättrade prestanda för generering av kanalmanifest.
 * Spelaren visade en svart skärm vid växling till kanal som innehåller dynamisk inbäddad sekvens.
 * Skärmspelarna blockerar nu bytet till en trasig kanal som ytterligare undviker 404-fel eller en sida med ett felmeddelande.
 
