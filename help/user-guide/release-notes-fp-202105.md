@@ -4,9 +4,9 @@ description: '"Följ den här sidan för att få information om AEM Screens Feat
 feature: Funktionspaket
 role: Developer
 level: Intermediate
-source-git-commit: 02177449f203c3cc98a9b1b3db9cca4467130b62
+source-git-commit: e9539d91b1215240c371bdea62a304b2e62df8ec
 workflow-type: tm+mt
-source-wordcount: '274'
+source-wordcount: '291'
 ht-degree: 1%
 
 ---
@@ -31,6 +31,10 @@ Releasedatum för AEM Screens Feature Pack 202105 är 3 juni 2021.
 * **Lås sida i en AEM Screens-kanal**
 
    AEM Screens har nu stöd för *Låsning av en sida*, som redan har implementerats i AEM Sites. Med Adobe Experience Manager (AEM) kan du låsa en sida så att ingen annan kan ändra innehållet. Det här är användbart när du gör många ändringar på en viss sida eller när du behöver frysa en sida en kort stund.
+
+* **Generering av manifest**
+
+   Snabbare generering av kanalmanifest med förbättrade prestanda, till exempel tilldelning av mindre resurser på servern.
 
 
 ### Felkorrigeringar {#bug-fixes}
