@@ -4,9 +4,9 @@ description: '"Följ den här sidan för att få information om AEM Screens Feat
 feature: Funktionspaket
 role: Developer
 level: Intermediate
-source-git-commit: ffd8a340af2e826d5c3a4fec4fd0ec471da671e8
+source-git-commit: 0568e55557dcae8e2afa6bebfc5898480892dda0
 workflow-type: tm+mt
-source-wordcount: '201'
+source-wordcount: '211'
 ht-degree: 1%
 
 ---
@@ -28,15 +28,13 @@ Releasedatum för AEM Screens Feature Pack 202105 är 1 juni 2021.
 
 ### Nyheter {#what-is-new}
 
-* **AEM Screens - automatisk registrering av spelare**
-
-   Spelaren visas som en svart skärm vid växling till kanal som innehåller dynamisk inbäddad sekvens
+* Lås sida
 
 ### Felkorrigeringar {#bug-fixes}
 
-* Spelaren visas som en svart skärm vid växling till kanal som innehåller dynamisk inbäddad sekvens.
-
-
+* Spelaren visade en svart skärm vid växling till kanal som innehåller dynamisk inbäddad sekvens.
+* Förbättrade prestanda för generering av kanalmanifest.
+* Skärmspelarna blockerar nu bytet till en trasig kanal som ytterligare undviker 404-fel eller en sida med ett felmeddelande.
 
 ### Lanserade AEM Screens Players {#released-aem-screens-players}
 
