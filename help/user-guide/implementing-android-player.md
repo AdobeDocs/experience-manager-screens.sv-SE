@@ -13,9 +13,9 @@ docset: aem65
 feature: Administrera skärmar, Android Player
 role: Administrator
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+source-git-commit: 7fa4207be0d89a6c7d0d9d9a04722cd40d035634
 workflow-type: tm+mt
-source-wordcount: '1439'
+source-wordcount: '1513'
 ht-degree: 0%
 
 ---
@@ -177,6 +177,15 @@ I följande tabell sammanfattas principattributen med en exempelpolicy-JSON för
 ## Massetablering av Android Player med Enterprise Mobility Management {#bulk-provisioning}
 
 När du distribuerar Android-spelaren i grupp blir det omständligt att manuellt registrera alla spelare med AEM. Vi rekommenderar att du använder en EMM-lösning (Enterprise Mobility Management), som VMWare Airwatch, MobileIron eller Samsung Knox, för att fjärrdistribuera och hantera distributionen. AEM Screens Android-spelaren har stöd för den branschledande EMM AppConfig som tillåter fjärretablering.
+
+## Namnge Android Player {#name-android}
+
+Du kan tilldela Android-spelaren ett användarvänligt enhetsnamn och därmed skicka det tilldelade enhetsnamnet till Adobe Experience Manager (AEM). Med den här funktionen kan du inte bara namnge Android-spelaren utan även enkelt tilldela rätt innehåll.
+
+Följ stegen nedan för att konfigurera namnet i Android-spelaren:
+
+1. Navigera till **inställningar** —> **Om enhet**
+1. Redigera och ange namnet på din Android-spelare
 
 ### Implementera massetablering av Android Player med Enterprise Mobility Management {#implementation}
 
