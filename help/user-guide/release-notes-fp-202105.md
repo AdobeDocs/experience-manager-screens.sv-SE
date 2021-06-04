@@ -4,9 +4,9 @@ description: '"Följ den här sidan för att få information om AEM Screens Feat
 feature: Funktionspaket
 role: Developer
 level: Intermediate
-source-git-commit: 7fa4207be0d89a6c7d0d9d9a04722cd40d035634
+source-git-commit: 444535b38fdf112939fdbf4c0f3f48e1cc28c902
 workflow-type: tm+mt
-source-wordcount: '394'
+source-wordcount: '378'
 ht-degree: 0%
 
 ---
@@ -39,11 +39,11 @@ När gruppregistrering används som standard för att registrera en enhet anges 
 
    Läs följande dokumentation för att lära dig hur du konfigurerar namnet i varje operativsystem som stöds:
 
-       * [Android](/help/user-guide/implementing-android-player.md#name-android)
-       * [Windows](/help/user-guide/implementing-windows-player.md#name-windows)
-       * [Tizen](/help/user-guide/tizen-player.md#name-tizen)
-       * [Chrome OS](/help/user-guide/implementing-chrome-os-player.md#name-chrome)
-   
+   * [Android](/help/user-guide/implementing-android-player.md#name-android)
+   * [Windows](/help/user-guide/implementing-windows-player.md#name-windows)
+   * [Tizen](/help/user-guide/tizen-player.md#name-tizen)
+   * [Chrome OS](/help/user-guide/implementing-chrome-os-player.md#name-chrome)
+
 * **Generering av manifest**
 
    Snabbare generering av kanalmanifest med förbättrade prestanda, till exempel tilldelning av mindre resurser på servern.
