@@ -4,9 +4,9 @@ description: På den här sidan beskrivs hur Tizen Player installeras och funger
 feature: Administrera skärmar, spelare
 role: Administrator
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+source-git-commit: 7fa4207be0d89a6c7d0d9d9a04722cd40d035634
 workflow-type: tm+mt
-source-wordcount: '908'
+source-wordcount: '985'
 ht-degree: 1%
 
 ---
@@ -37,6 +37,15 @@ Följ stegen nedan:
 1. Hämta IP-adressen eller URL-adressen för den lokala HTTP-servern (och sökvägen till mappen som innehåller de extraherade filerna i steg 2 om de extraheras till en undermapp och inte till rotmappen)
 
 1. Tizen-spelaren hämtar installationsprogrammet från den lokala servern.
+
+### Namnge Tizen Player {#name-tizen}
+
+Du kan tilldela din Tizen-spelare ett användarvänligt enhetsnamn och därmed skicka det tilldelade enhetsnamnet till Adobe Experience Manager (AEM). Den här funktionen gör det inte bara möjligt att namnge Tizen-spelaren, utan även att du enkelt kan tilldela rätt innehåll.
+
+Följ stegen nedan för att konfigurera namnet i Tizen-spelaren:
+
+1. Klicka på menyknappen på fjärrkontrollen.
+1. Navigera till **nätverk** —> **Enhetsnamn** för att tilldela spelaren ett namn.
 
 ### Konfigurera uppdateringar på Samsung-enheten {#config-updates}
 
