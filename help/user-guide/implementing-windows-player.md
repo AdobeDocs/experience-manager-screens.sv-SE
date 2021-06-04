@@ -13,9 +13,9 @@ docset: aem65
 feature: Administrera skärmar, Windows Player
 role: Administrator
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+source-git-commit: 7fa4207be0d89a6c7d0d9d9a04722cd40d035634
 workflow-type: tm+mt
-source-wordcount: '1001'
+source-wordcount: '1074'
 ht-degree: 0%
 
 ---
@@ -69,6 +69,16 @@ När du har hämtat programmet följer du stegen på spelaren för att slutföra
 >Om **State** är **REGISTRERAD** kommer du att märka att fältet **enhets-ID** fylls i.
 >
 >Om **State** är **UNREGISTERED** kan du använda **Token** för att registrera enheten.
+
+## Namnge Windows Player {#name-windows}
+
+Du kan tilldela din Windows-spelare ett användarvänligt enhetsnamn och därmed skicka det tilldelade enhetsnamnet till Adobe Experience Manager (AEM). Med den här funktionen kan du inte bara namnge Windows-spelaren utan även enkelt tilldela rätt innehåll.
+
+Följ stegen nedan för att konfigurera namnet i Windows Player:
+
+1. Klicka på **start** —> **kör**
+1. Ange `system.cpl`
+1. Använd fliken Datornamn för att ange datorns värdnamn
 
 ## Ändra standardalternativen i Windows Installer {#changing-default-options}
 
