@@ -12,9 +12,9 @@ discoiquuid: 1be944f0-02ed-48c6-98bc-504d758ff866
 feature: Administrera skärmar
 role: Administrator
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+source-git-commit: 7fa4207be0d89a6c7d0d9d9a04722cd40d035634
 workflow-type: tm+mt
-source-wordcount: '659'
+source-wordcount: '829'
 ht-degree: 0%
 
 ---
@@ -35,6 +35,27 @@ Följ stegen nedan för att konfigurera en kromhanteringskonsol:
 >[!NOTE]
 >
 >En enhetshanteringslösning som Chrome Management Console rekommenderas för driftsättning och hantering av enheter med Chrome OS. Även om det här dokumentet innehåller implementering för Chrome Management Console finns det andra leverantörer som hävdar att de tillhandahåller liknande funktioner. Kontakta leverantören av enhetshanteringsprogrammet.
+
+## Namnge Chrome OS Player {#name-chrome}
+
+Du kan tilldela din Chrome-spelare ett användarvänligt enhetsnamn och därmed skicka det tilldelade enhetsnamnet till Adobe Experience Manager (AEM). Med den här funktionen kan du inte bara namnge din Chrome-spelare utan även enkelt tilldela rätt innehåll.
+
+Följ stegen nedan för att konfigurera namnet i Chrome Player:
+
+1. Om du vill kan du tillåta AV-integratörer eller IT-administratörer att ange tillgångs-ID och plats som en del av företagsregistreringen.
+
+   ![bild](/help/user-guide/assets/chrome-device/chrome1.png)
+
+1. Alternativen visas när du kan registrera enheten.
+
+   ![bild](/help/user-guide/assets/chrome-device/chrome2.jpg)
+
+1. Du kan ange resurs-ID som en del av företagsregistrering samt i Chrome Management Console.
+
+   ![bild](/help/user-guide/assets/chrome-device/chrome3.png)
+
+   >[!NOTE]
+   >Chrome Players måste registreras i företagsregistrering och Chrome Player måste distribueras via Chrome Management Console, annars returneras resurs-ID tomt (till exempel Chrome som ett tillägg). Enhetsnamnet registreras endast vid registreringen. Framtida ändringar hämtas inte upp av Adobe Experience Manager (AEM).
 
 ### Aktivera Kiosk-läge {#enabling-kiosk-mode}
 
