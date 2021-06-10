@@ -4,9 +4,9 @@ description: På den här sidan beskrivs hur Tizen Player installeras och funger
 feature: Administrera skärmar, spelare
 role: Administrator
 level: Intermediate
-source-git-commit: ee731bc5169d2c76665bbfa18e3b8529619d83ce
+source-git-commit: 948515fb2f1fd3d1f94476cf5fe3983098d3b950
 workflow-type: tm+mt
-source-wordcount: '1213'
+source-wordcount: '1208'
 ht-degree: 0%
 
 ---
@@ -74,7 +74,7 @@ Följ stegen nedan på Samsung-enheten för att slutföra installationen av AEM 
 
 >[!IMPORTANT]
 >**Detta avsnitt gäller Adobe Experience Manager (AEM) 6.5.5 till AEM 6.5.7**
->Det finns webbläsarmotorer som är inkompatibla med attributet *SameSite=None* som används i inloggningstoken som utfärdas av AEM 6.5 till AEM 6.7. I de flesta fall kan problemet lösas genom att du uppgraderar webbläsaren till den senaste tillgängliga versionen. I vissa fall är sådana uppgraderingar inte möjliga, t.ex. för smarta skärmar, digitalboxar eller andra enheter med inbäddade webbläsarmotorer.
+>Det finns webbläsarmotorer som är inkompatibla med attributet *SameSite=None* som används i inloggningstoken som utfärdas av AEM 6.5 till AEM 6.7. Vanligtvis kan du lösa problemet genom att uppgradera webbläsaren till den senaste tillgängliga versionen. I vissa fall är sådana uppgraderingar inte möjliga, t.ex. för smarta skärmar, digitalboxar eller andra enheter med inbäddade webbläsarmotorer.
 
 Följ stegen nedan för att undanta dessa inkompatibla klienter när du använder *SameSite=None*:
 
@@ -82,7 +82,7 @@ Följ stegen nedan för att undanta dessa inkompatibla klienter när du använde
 
 1. När AEM startat om går du till `/system/console/configMgr` och söker efter **Autentiseringshanteraren för Adobe Granite-token**. Ange värdet **SameSite** som **None**.
 
-1. Du bör se ett nytt alternativ *Användaragenter som ska undantas från samma platsattribut*. Fyll i detta med en regex som motsvarar användaragenten/användaragenterna som är inkompatibla med attributet *SameSite=None*.
+1. Du bör se ett nytt alternativ *Användaragenter som ska undantas från samma platsattribut*. Fyll i detta med en regex som motsvarar användaragenten som är inkompatibel med attributet *SameSite=None*.
    >[!NOTE]
    >Se [SameSite=None: Kända inkompatibla klienter](https://www.chromium.org/updates/same-site/incompatible-clients) för mer information. För Tizen-spelaren använder du regex: `(.*)Tizen(.*)`.
 
