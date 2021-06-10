@@ -4,9 +4,9 @@ description: På den här sidan beskrivs hur Tizen Player installeras och funger
 feature: Administrera skärmar, spelare
 role: Administrator
 level: Intermediate
-source-git-commit: e955838d33cbe74719b237e568fb0bfd1a6844a2
+source-git-commit: ee731bc5169d2c76665bbfa18e3b8529619d83ce
 workflow-type: tm+mt
-source-wordcount: '1209'
+source-wordcount: '1213'
 ht-degree: 0%
 
 ---
@@ -126,7 +126,7 @@ I följande tabell sammanfattas profilerna med deras funktioner.
 | enableAdminUI | Aktivera administratörsgränssnittet för att konfigurera enheten på platsen. Anges till false när den är helt konfigurerad och i produktion. |
 | enableOSD | Aktivera kanalväljarens användargränssnitt så att användare kan växla kanaler på enheten. Överväg att ställa in på false när den är helt konfigurerad och i produktion. |
 | enableActivityUI | Aktivera om du vill visa förloppet för aktiviteter som hämtning och synkronisering. Aktivera för felsökning och inaktivera när den är helt konfigurerad och i produktion. |
-| cloudMode | Ange som true om du vill att Tizen-spelaren ska ansluta till skärmar som en molntjänst. false för att ansluta till AMS eller onPrem AEM. |
+| cloudMode | Ange true om du vill att Tizen-spelaren ska ansluta till skärmar som Cloud Service. Ange som false för att ansluta till AMS eller AEM. |
 | cloudToken | Registreringstoken för registrering mot skärmar som Cloud Service. |
 
 
