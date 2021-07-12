@@ -4,15 +4,15 @@ seo-title: Hantera kanaler
 description: Följ den här sidan om du vill veta mer om hur du skapar och hanterar kanaler. Den förklarar även kanalkontrollpanelen och redigerar innehåll för en kanal.
 seo-description: Följ den här sidan om du vill veta mer om hur du skapar och hanterar kanaler. Den förklarar även kanalkontrollpanelen och redigerar innehåll för en kanal.
 feature: Redigeringsskärmar
-role: Administrator, Developer
+role: Admin, Developer
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+exl-id: 7bbd211a-f54f-42b9-a1b3-516efe6fb579
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
 source-wordcount: '1328'
 ht-degree: 0%
 
 ---
-
 
 # Skapa och hantera kanaler {#creating-and-managing-channels}
 
@@ -25,7 +25,7 @@ På den här sidan visas hur du skapar och hanterar kanaler för AEM Screens.
 * [Konfigurera och distribuera skärmar](configuring-screens-introduction.md)
 * [Skapa och hantera skärmsprojekt](creating-a-screens-project.md)
 
-## Skapar en ny kanal {#creating-a-new-channel}
+## Skapa en ny kanal {#creating-a-new-channel}
 
 När du har skapat ditt projekt för AEM Screens följer du stegen nedan för att skapa en ny kanal för ditt projekt:
 
@@ -110,7 +110,7 @@ Följ stegen nedan om du vill visa eller redigera egenskaper för en kanal:
 
 ![egenskaper](assets/properties.gif)
 
-### Visar instrumentpanelen {#viewing-dashboard}
+### Visa instrumentpanel {#viewing-dashboard}
 
 Följ stegen nedan för att visa kontrollpanelen för en kanal:
 
@@ -259,4 +259,3 @@ Se följande resurser för nästa steg:
 * [Skapa och hantera kanaler](managing-channels.md)
 * [Skapa och hantera platser](managing-locations.md)
 * [Skapa och hantera bildskärmar](managing-displays.md)
-
