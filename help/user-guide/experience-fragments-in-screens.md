@@ -1,8 +1,8 @@
 ---
 title: Använda Experience Fragments
 seo-title: Använda Experience Fragments
-description: 'Följ den här sidan om du vill veta mer om hur du använder Experience Fragments i AEM Screens. '
-seo-description: 'Följ den här sidan om du vill veta mer om hur du använder Experience Fragments i AEM Screens. '
+description: Följ den här sidan om du vill veta mer om hur du använder Experience Fragments i AEM Screens.
+seo-description: Följ den här sidan om du vill veta mer om hur du använder Experience Fragments i AEM Screens.
 uuid: 6ee16a94-3c53-43e0-99d5-c35cb9e01120
 contentOwner: jsyal
 content-type: reference
@@ -11,15 +11,15 @@ topic-tags: authoring
 discoiquuid: 0e88e9e0-a95b-4acd-98ea-499d4d4e3c99
 docset: aem65
 feature: redigeringsskärmar, upplevelsefragment
-role: Administrator, Developer
+role: Admin, Developer
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+exl-id: 13c0d75e-435f-433e-8886-f451df863517
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
 source-wordcount: '1131'
 ht-degree: 0%
 
 ---
-
 
 # Använda Experience Fragments {#using-experience-fragments}
 
@@ -66,7 +66,7 @@ En **TestChannel** läggs till i **DemoProject**.\
 ![screen_shot_2019-07-29at105101am](assets/screen_shot_2019-07-29at105101am.png)
 
 
-### Skapa ett Experience Fragment {#creating-an-experience-fragment}
+### Skapa ett upplevelsefragment {#creating-an-experience-fragment}
 
 Följ stegen nedan för att utnyttja innehållet från **We.Retail** till din **TestChannel** i **DemoProject**.
 
@@ -161,7 +161,7 @@ Följ stegen nedan för att utnyttja innehållet från **We.Retail** till din **
 
    j. Klicka på bockmarkeringen för att slutföra processen.
 
-### Verifierar resultatet {#validating-the-result}
+### Validerar resultatet {#validating-the-result}
 
 När du har slutfört de föregående stegen kan du validera ditt upplevelsefragment i **ChannelOne** genom att:
 
@@ -209,7 +209,7 @@ Följ stegen nedan för att sprida ändringar från den överordnad kanalen till
 
    ![screen_shot_2018-06-08at32148pm](assets/screen_shot_2018-06-08at32148pm.png)
 
-### Verifierar ändringarna {#validating-the-changes}
+### Validerar ändringarna {#validating-the-changes}
 
 Följ stegen nedan för att bekräfta ändringarna i din kanal:
 
@@ -219,4 +219,3 @@ Följ stegen nedan för att bekräfta ändringarna i din kanal:
 
 Följande bild visar ändringarna i din **TestChannel**:\
 ![screen_shot_2018-06-08at3351pm](assets/screen_shot_2018-06-08at33351pm.png)
-
