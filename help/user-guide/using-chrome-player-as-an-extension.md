@@ -4,15 +4,15 @@ seo-title: Använda Chrome Player som tillägg
 description: Följ den här sidan om du vill veta mer om hur du installerar färgspelaren som ett webbläsartillägg.
 seo-description: 'null'
 feature: Administrera skärmar
-role: Administrator
+role: Admin
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+exl-id: 53d5bd81-0853-47b0-9798-01d8fd5612e6
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
 source-wordcount: '467'
 ht-degree: 0%
 
 ---
-
 
 # Använda Chrome Player som tillägg {#using-chrome-player}
 
@@ -59,7 +59,7 @@ Följ den här sidan om du vill veta mer om hur du installerar färgspelaren som
 
    **Felsök bakgrundssida**: Ta fram administratörsgränssnittet och högerklicka och inspektera bakgrundssidan (för bakgrundstjänster som http-server)
 
-## Uppgraderar spelartillägget {#upgrading-player}
+## Uppgradera Player-tillägget {#upgrading-player}
 
 Följ stegen nedan för att uppgradera spelartillägget om en ny version av spelaren släpps upp. Du kan även följa instruktionerna nedan för att testa uppgraderingsscenarier:
 
