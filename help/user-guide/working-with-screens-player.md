@@ -10,15 +10,15 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
 discoiquuid: 4ad51b5e-c628-4440-9f2e-41d17cb10bc3
 feature: Administrera skärmar
-role: Administrator
+role: Admin
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+exl-id: 4faac090-ad8a-4d7e-a502-6fb63f6b2761
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
 source-wordcount: '1068'
 ht-degree: 1%
 
 ---
-
 
 # Arbeta med AEM Screens Player {#working-with-aem-screens-player}
 
@@ -48,7 +48,7 @@ Du kan konfigurera inställningar för enheten från enhetskontrollpanelen, som 
 
    ![chlimage_1-68](assets/chlimage_1-68.png)
 
-### Administratörsgränssnittet {#the-admin-ui}
+### Användargränssnittet för administratörer {#the-admin-ui}
 
 Om du aktiverar **administratörsgränssnittet** från inställningspanelen kan användaren öppna administratörsinställningarna från skärmspelaren. Om du inaktiverar det här alternativet från enhetspanelen kan användaren inte öppna administratörsgränssnittet från spelaren.
 
@@ -60,7 +60,7 @@ Om du vill visa administratörsgränssnittet från Skärmspelaren trycker du lä
 
 ![chlimage_1-3](assets/chlimage_1-3.gif)
 
-#### Åtkomst till alternativen på konfigurationsmenyn {#configuration-options}
+#### Åtkomst till alternativen på menyn Konfiguration {#configuration-options}
 
 Du kan uppdatera dina konfigurationer om du väljer alternativet **Konfiguration** på sidomenyn, vilket visas i bilden nedan:
 
@@ -86,7 +86,7 @@ På menyn Konfiguration kan du ändra följande inställningar:
 >
 >Vi rekommenderar att användargränssnittet **för administratörer** inaktiveras i produktionsdistributioner.
 
-#### Åtkomst till menyalternativen för innehållscache {#content-cache-options}
+#### Åtkomst till menyalternativ för innehållscache {#content-cache-options}
 
 Du kan rensa cache för kanaler och program från administratörsgränssnittet i AEM Screens Player.
 
@@ -124,7 +124,7 @@ Följ de här stegen för att ändra inställningarna för spelaren:
 
 ![screen_shot_2018-10-15at101257am-1](assets/screen_shot_2018-10-15at101257am-1.png)
 
-## Felsökning av AEM Screens Player {#troubleshooting-aem-screens-player}
+## Felsöka AEM Screens Player {#troubleshooting-aem-screens-player}
 
 Du kan felsöka olika problem som rör AEM Screens Player (maskinvara och programvara):
 
