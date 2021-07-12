@@ -1,8 +1,8 @@
 ---
 title: Konfigurera Adobe Analytics med AEM Screens
 seo-title: Konfigurera Adobe Analytics med AEM Screens
-description: 'Följ det här avsnittet om du vill veta mer om sekvensering och hur du skickar anpassade händelser med Offline Adobe Analytics '
-seo-description: 'Följ det här avsnittet om du vill veta mer om sekvensering och hur du skickar anpassade händelser med Offline Adobe Analytics '
+description: Följ det här avsnittet om du vill veta mer om sekvensering och hur du skickar anpassade händelser med Offline Adobe Analytics
+seo-description: Följ det här avsnittet om du vill veta mer om sekvensering och hur du skickar anpassade händelser med Offline Adobe Analytics
 uuid: e685e553-c05b-4db4-8fa5-9ef45268b094
 contentOwner: jsyal
 content-type: reference
@@ -11,15 +11,15 @@ topic-tags: developing
 discoiquuid: 3cec9266-4032-46b9-9c75-16da64bfea7d
 docset: aem65
 feature: Administrera skärmar
-role: Administrator, Developer
+role: Admin, Developer
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+exl-id: 4ecc1fb1-2437-449a-a085-66b2a85f4053
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
 source-wordcount: '696'
 ht-degree: 8%
 
 ---
-
 
 # Konfigurera Adobe Analytics med AEM Screens {#configuring-adobe-analytics-with-aem-screens}
 
@@ -34,7 +34,7 @@ Detta avsnitt behandlar följande ämnen:
 * **Sekvenser i Adobe Analytics med AEM Screens**
 * **Skicka anpassade händelser med Adobe Analytics offline**
 
-## Sekvensering i Adobe Analytics med AEM Screens {#sequencing-in-adobe-analytics-with-aem-screens}
+## Sekvenser i Adobe Analytics med AEM Screens {#sequencing-in-adobe-analytics-with-aem-screens}
 
 Sekvensprocessen ****** startar med datalagringstjänsten som aktiverar Adobe Analytics-tjänsten. Kanalinnehåll skickar Adobe Analytics-händelser med lön, det vill säga datatestning som utförs i Windows I/O och stannar-händelser aktiveras. Händelserna sparas i indexdatabasen och placeras sedan i objektarkivet. Baserat på schemat klipper administratören in data från objektarkivet och överför dem vidare till segmentlagret. Den försöker skicka maximalt med data när den är ansluten.
 
@@ -44,7 +44,7 @@ I följande sekvensdiagram förklaras Adobe Analytics Integration med AEM Screen
 
 ![analytics_chunking](assets/analytics_chunking.png)
 
-## Skicka anpassade händelser med offline-Adobe Analytics {#sending-custom-events-using-offline-adobe-analytics}
+## Skicka anpassade händelser med Adobe Analytics offline {#sending-custom-events-using-offline-adobe-analytics}
 
 I följande tabell sammanfattas standarddatamodellen för händelser. Här visas alla fält som skickats till Adobe Analytics:
 
@@ -331,4 +331,3 @@ I följande tabell sammanfattas standarddatamodellen för händelser. Här visas
   </tr>
  </tbody>
 </table>
-
