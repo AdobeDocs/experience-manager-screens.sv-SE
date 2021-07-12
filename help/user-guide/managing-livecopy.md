@@ -10,15 +10,15 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
 discoiquuid: 84085a03-1798-4f1d-858c-6014a3f6aff6
 feature: Redigeringsskärmar
-role: Administrator, Developer
+role: Admin, Developer
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+exl-id: 4a4b3a83-2b02-42a0-86a7-fce6bbf47c7d
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
 source-wordcount: '724'
 ht-degree: 1%
 
 ---
-
 
 # Skapa och hantera en Live-kopia {#creating-and-managing-a-live-copy}
 
@@ -29,7 +29,7 @@ En ***Live-kopia*** är en kopia av specifikt webbplatsinnehåll som har en akti
 På den här sidan beskrivs hur du skapar en live-kopia av en kanal, visar egenskaper, kontrollerar status och sprider ändringar från en kanal till dess live-kopia.
 
 
-## Skapa en Live-kopia {#creating-a-live-copy}
+## Skapa en Live Copy {#creating-a-live-copy}
 
 Följ stegen nedan för att skapa en live-kopia av en kanal i projektmappen.
 
@@ -94,7 +94,7 @@ I läget **Live Copy Status**, som visas i figuren nedan, kan du visa relationss
 
    ![chlimage_1-23](assets/chlimage_1-23.png)
 
-### Bryter arvet {#breaking-the-inheritance}
+### Bryta arvet {#breaking-the-inheritance}
 
 Du kan också avbryta arvet från livecopy, så att innehållet blir oberoende av den ursprungliga grenen.
 
@@ -102,7 +102,7 @@ I följande exempel visas att du markerar bilden i redigeringsläget och klickar
 
 ![chlimage_1-24](assets/chlimage_1-24.png)
 
-### Sprider ändringar i Live Copy-kanalen {#propagating-changes-to-the-live-copy-channel}
+### Sprida ändringar i Live Copy-kanalen {#propagating-changes-to-the-live-copy-channel}
 
 Om du gör ändringar eller uppdateringar i den ursprungliga kanalen måste du också sprida dessa ändringar till din Live Copy-kanal.
 
@@ -135,4 +135,3 @@ Följ stegen nedan för att se till att dina ändringar sprids från den ursprun
    ![chlimage_1-30](assets/chlimage_1-30.png)
 
    Du kommer att märka att bilden nu även tas bort från den aktiva kopiekanalen.
-
