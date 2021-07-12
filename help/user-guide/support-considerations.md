@@ -11,15 +11,15 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 discoiquuid: 59430d38-b441-4488-934e-74a55122b063
 docset: aem65
 feature: Översikt
-role: Business Practitioner, Data Architect
+role: User, Data Architect
 level: Beginner
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+exl-id: d1472137-c15f-44fb-89c3-d251a06c392b
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
 source-wordcount: '635'
 ht-degree: 0%
 
 ---
-
 
 # Del 5: Supportöverväganden {#part-support-considerations}
 
@@ -59,7 +59,7 @@ Nedan följer några viktiga saker att tänka på när det gäller support för 
 * Vissa skärmtillverkare erbjuder möjlighet att övervaka skärmar oberoende av mediespelare, medan andra kräver en extern enhet.
 * AV-integratörer utnyttjar en blandning av teknologier, så lösningarna är fortfarande flexibla för att på bästa sätt tillgodose slutkundens behov.
 
-## Del 5: Videosjälvstudiekurs om supportöverväganden {#part-video-tutorial-on-support-considerations}
+## Del 5: Videosjälvstudiekurs om supportfrågor {#part-video-tutorial-on-support-considerations}
 
 Följ den här självstudiekursen för att komma till en 5-delsserie nedan som betonar att man ska kunna säkerställa justering och en smidig övergång från implementering till operativt stöd. Det förklarar också hur en AEM-implementerare måste arbeta med AV-integratorn för att säkerställa lämpliga supportskript som definieras som en del av supportplanen för dag 2.
 
@@ -72,4 +72,3 @@ Följ den här självstudiekursen för att komma till en 5-delsserie nedan som b
 ## Slutsats {#conclusion}
 
 Dessa 5-delsserier fokuserar på viktiga faktorer för att säkerställa att projektet blir framgångsrikt. Se andra avsnitt i användarhandboken för AEM Screens för mer information om implementeringen.
-
