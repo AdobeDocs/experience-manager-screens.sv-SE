@@ -11,21 +11,21 @@ topic-tags: authoring
 discoiquuid: fc13d713-af30-4a54-8408-920f78fd2b2f
 docset: aem65
 feature: Redigeringsskärmar
-role: Administrator, Developer
+role: Admin, Developer
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+exl-id: cdfaee19-15d9-4bcb-bc85-0b43c59d88d2
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
 source-wordcount: '836'
 ht-degree: 0%
 
 ---
 
-
 # Inbäddade sekvenser {#embedded-sequences}
 
 Om du använder ***Inbäddade sekvenser*** för kanaler kan användaren lägga till komponenter i den överordnade kanalen och även återanvända innehållet från en annan kanal och bädda in det i den överordnade kanalen.
 
-## Lägger till inbäddade sekvenser {#adding-embedded-sequences}
+## Lägga till inbäddade sekvenser {#adding-embedded-sequences}
 
 Du kan lägga till följande komponenter i sekvenskanalen:
 
@@ -111,4 +111,3 @@ Följ stegen nedan för att lägga till en inbäddad sekvens i kanalen:
 1. Välj fliken **Varaktighet (ms)** i **Sekvens** för den inbäddade kanalen i sekvensen.
 
 ![senaste](assets/latest.gif)
-
