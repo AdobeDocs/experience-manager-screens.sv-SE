@@ -11,15 +11,15 @@ topic-tags: authoring
 discoiquuid: bfbdd6eb-4921-4c2d-a179-1cac4583d568
 docset: aem65
 feature: Redigeringsskärmar
-role: Administrator, Developer
+role: Admin, Developer
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+exl-id: 56dbe098-05db-4fc3-977f-e50a0a312d64
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
 source-wordcount: '1466'
 ht-degree: 2%
 
 ---
-
 
 # Lägga till komponenter i en kanal{#adding-components-to-a-channel}
 
@@ -62,7 +62,7 @@ I följande exempel visas hur en Livefyre-komponent läggs till i ett AEM Screen
 >
 >På samma sätt kan du lägga till valfritt antal andra komponenter som är kompatibla med AEM Screens i ditt projekt.
 
-## Förstå AEM skärmkomponenter {#understanding-aem-screen-components}
+## AEM skärmkomponenter {#understanding-aem-screen-components}
 
 I följande avsnitt förklaras vilka AEM Screens-komponenter du kan använda i ditt projekt.
 
@@ -336,4 +336,3 @@ Videokomponenten har följande egenskaper:
   </tr>
  </tbody>
 </table>
-
