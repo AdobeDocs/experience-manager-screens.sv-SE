@@ -2,15 +2,15 @@
 title: Tizen Player
 description: På den här sidan beskrivs hur Tizen Player installeras och fungerar.
 feature: Administrera skärmar, spelare
-role: Administrator
+role: Admin
 level: Intermediate
-source-git-commit: 948515fb2f1fd3d1f94476cf5fe3983098d3b950
+exl-id: 45147959-b0ca-4d87-b89d-293e4b9af171
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
 source-wordcount: '1208'
 ht-degree: 0%
 
 ---
-
 
 # Implementera Tizen Player {#tizen-player}
 
@@ -22,7 +22,7 @@ Följ stegen nedan för att implementera Tizen Player för AEM Screens:
 
 1. Installera Tizen-spelaren *(.zip)*-filen från den lokala datorn.
 
-## Konfigurera den lokala servern och extraherar zip-filer {#setting-local-server}
+## Konfigurera den lokala servern och extrahera zip-filer {#setting-local-server}
 
 >[!NOTE]
 > Extrahera zip-filen och gör Tizen-spelaren tillgänglig via en `http server`. (`http server` behöver inte vara lokal server eller Apache-server).
@@ -70,7 +70,7 @@ Följ stegen nedan på Samsung-enheten för att slutföra installationen av AEM 
    >Både Tizen-enheten och `http`-servern ska kunna ansluta till varandra, det vill säga servern ska kunna nås till Tizen-spelaren.
 
 
-## Undantag för användaragenter med Cookie-problemet för samma webbplats {#exempting-user-agents}
+## Undantag för användaragenter med samma webbplatsens cookie-problem {#exempting-user-agents}
 
 >[!IMPORTANT]
 >**Detta avsnitt gäller Adobe Experience Manager (AEM) 6.5.5 till AEM 6.5.7**
@@ -88,7 +88,7 @@ Följ stegen nedan för att undanta dessa inkompatibla klienter när du använde
 
 1. Registrera Tizen-spelaren mot din AEM 6.5.5 och senare och registrera och visa innehåll normalt.
 
-## Fjärretablering av Tizen-spelaren {#remote-provisioning}
+## Fjärrprovisionering av Tizen Player {#remote-provisioning}
 
 Genom att fjärrdistribuera Tizen Player kan du utan ansträngning driftsätta hundratals och tusentals Samsung Tizen-skärmar. Man slipper det tidsödande arbetet med att konfigurera varje spelare med server-URL:en och massregistreringskoden, eller andra parametrar, och när det gäller skärmar som en Cloud Service för att konfigurera molnläge och molntoken.
 
@@ -110,7 +110,7 @@ Tizen-spelaren installeras och vid start (och varje omstart) kontrolleras och in
 }
 ```
 
-### Principattribut och syfte {#policy-attributes}
+### Policyattribut och syfte {#policy-attributes}
 
 I följande tabell sammanfattas profilerna med deras funktioner.
 
@@ -164,4 +164,3 @@ Följ stegen nedan för att registrera Tizen-enheten till Samsung Remote Managem
    ![bild](/help/user-guide/assets/tizen/rms-9.png)
 
 1. Klicka på **Spara** så visas ändringarna på visningsskärmen.
-
