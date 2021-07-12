@@ -10,15 +10,15 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
 discoiquuid: a40eb5bb-fbf7-4c0d-a34a-db79b884de8f
 feature: Redigeringsskärmar
-role: Administrator, Developer
+role: Admin, Developer
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+exl-id: 3208d058-0812-44e1-83e3-b727b384876a
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
 source-wordcount: '2537'
 ht-degree: 0%
 
 ---
-
 
 # Använda dynamisk inbäddad sekvens {#using-dynamic-embedded-sequence}
 
@@ -406,4 +406,3 @@ Det är en god vana att lägga till användare i en grupp och sedan tilldela beh
 
 >[!NOTE]
 Mer information om hur du konfigurerar behörigheter finns i [Konfigurera åtkomstkontrollistor](setting-up-acls.md).
-
