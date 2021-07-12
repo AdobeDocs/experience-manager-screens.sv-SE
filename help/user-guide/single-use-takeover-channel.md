@@ -5,15 +5,15 @@ description: Följ det här användningsexemplet när du vill skapa en överför
 seo-description: Följ det här användningsexemplet när du vill skapa en överföringskanal.
 contentOwner: jsyal
 feature: Redigeringsskärmar
-role: Administrator, Developer
+role: Admin, Developer
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+exl-id: 3317f07a-784f-4c4a-93ea-c84f4e42e9f2
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
 source-wordcount: '631'
 ht-degree: 0%
 
 ---
-
 
 # Ta över kanal för engångsbruk {#single-use-takeover-channel}
 
@@ -34,7 +34,7 @@ Innan du börjar med det här användningsexemplet måste du förstå hur du gö
 * **[Skapa och hantera scheman](managing-schedules.md)**
 * **[Enhetsregistrering](device-registration.md)**
 
-### Primära skådespelare {#primary-actors}
+### Primära aktörer {#primary-actors}
 
 Innehållsförfattare
 
