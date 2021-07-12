@@ -11,15 +11,15 @@ topic-tags: use-case-examples
 discoiquuid: 70147920-5bdb-401c-884e-51d268d40585
 docset: aem65
 feature: Redigeringsskärmar
-role: Administrator, Developer
+role: Admin, Developer
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+exl-id: 926f529b-f3cf-471d-83b4-6ccb628cf160
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
 source-wordcount: '693'
 ht-degree: 0%
 
 ---
-
 
 # Målinställd aktivering för butikslager {#retail-inventory-targeted-activation}
 
@@ -123,6 +123,4 @@ Följ stegen nedan för att implementera användningsexemplet för butikslagerak
 
    1. Klicka på **Förhandsgranska.** Öppna även Google Sheet och uppdatera värdet.
    1. Ändra värdet för alla tre olika kolumner så kommer du att märka att visningsbilden uppdateras enligt det högsta värdet i lagret.
-
    ![retail_result](assets/retail_result.gif)
-
