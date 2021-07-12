@@ -11,15 +11,15 @@ topic-tags: authoring
 discoiquuid: 9cd8892b-fe5d-4ad3-9b10-10ff068adba6
 docset: aem65
 feature: redigeringsskärmar, startprogram
-role: Administrator, Developer
+role: Admin, Developer
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+exl-id: b610e5dd-e0c6-45e6-bf9b-27be2054bc8f
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
 source-wordcount: '1619'
 ht-degree: 0%
 
 ---
-
 
 # Content Update using Screens Launch {#launches}
 
@@ -47,7 +47,7 @@ När du kör en upplevelse på det angivna live-datumet på spelaren ingår föl
 
 * vid olika tidpunkter på servern och spelaren
 
-### Om giltighetsperiod {#understanding-grace-period}
+### Förstå respitperiod {#understanding-grace-period}
 
 För att spelaren ska kunna börja spela upp innehållet på angivet live-datum måste föregående aktiviteter startas före live-datumet.
 
@@ -61,7 +61,7 @@ Så när vi schemalägger en livesändning börjar kampanjen tidigt med den här
 >
 >Körklar är respitperioden för Screens Launch inställd på 24 timmar, vilket innebär att när vi ställer in livedatum för alla starter för resurserna under */content/screens* så börjar kampanjen med den här förskjutningen.
 
-### Uppdaterar den körklara giltighetsperioden {#updating-out-of-the-box-grace-period}
+### Uppdaterar betalningsperiod {#updating-out-of-the-box-grace-period}
 
 I det här avsnittet beskrivs hur du kan uppdatera en körklar respitperiod till 10 minuter.
 
@@ -154,7 +154,7 @@ Följ stegen nedan för att implementera funktionen Screens Launch i ditt AEM Sc
    ![Bild](/help/user-guide/assets/launches-images/launches-16.png)
 
 
-### Redigera Launch-egenskaperna för att ange live-datum och -omfång {#editing-the-launch-properties-to-set-the-live-date-and-scope}
+### Redigera Launch-egenskaperna för att ange Live-datum och -omfång {#editing-the-launch-properties-to-set-the-live-date-and-scope}
 
 När starten har skapats kan du uppdatera egenskaperna, till exempel live-datum, starttitel och kampanjomfång, med **Launch Properties**.
 
@@ -177,13 +177,13 @@ Följ stegen nedan för att redigera startegenskaperna:
 
    ![bild](/help/user-guide/assets/launches-images/launches-19.png)
 
-### Redigera Skärmstarten för att lägga till eller ta bort kanaler {#editing-the-screens-launch-to-add-or-remove-channels}
+### Redigera startfönstret för skärmar för att lägga till eller ta bort kanaler  {#editing-the-screens-launch-to-add-or-remove-channels}
 
 När du har skapat starten kan du lägga till eller ta bort kanaler i den befintliga starten med alternativet **Redigera start**.
 
 När du är klar klickar du på **Spara** för att gå tillbaka till kanalen **FutureLaunch**.
 
-### Befordra skärmstart manuellt{#promote-the-screens-launch-manually}
+### Marknadsför att starta skärmar manuellt{#promote-the-screens-launch-manually}
 
 Du kan befordra starten manuellt med alternativet **Befordra starten** på panelen **VÄNTANDE STARTOR**.
 
@@ -207,4 +207,3 @@ Du kan ta bort starten med alternativet **Ta bort start** på panelen **VÄNTAND
 >[!CAUTION]
 >
 >Den här åtgärden tar även bort alla underordnade (kapslade starter).
-
