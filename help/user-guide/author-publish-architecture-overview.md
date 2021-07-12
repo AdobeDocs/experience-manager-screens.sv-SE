@@ -10,15 +10,15 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 discoiquuid: 112404de-5a5a-4b37-b87c-d02029933c8a
 docset: aem65
 feature: Administrera skärmar
-role: Administrator, Developer
+role: Admin, Developer
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+exl-id: ba23eb8e-bbde-4a6e-8cfb-ae98176ed890
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
 source-wordcount: '1028'
 ht-degree: 0%
 
 ---
-
 
 # Skapa och publicera arkitekturöversikt {#author-and-publish-architectural-overview}
 
@@ -50,7 +50,7 @@ I följande diagram visas författarmiljön och publiceringsmiljön.
 
 ![screen_shot_2019-03-04at30236pm](assets/screen_shot_2019-03-04at30236pm.png)
 
-## Arkitekturdesign {#architectural-design}
+## Arkitektur {#architectural-design}
 
 Det finns fem arkitektoniska komponenter som underlättar denna lösning:
 
@@ -61,7 +61,7 @@ Det finns fem arkitektoniska komponenter som underlättar denna lösning:
 * ***Meddelanden*** mellan publiceringsinstanser för att synkronisera uppdateringar och kommandon för enhetsinformation
 * ***Avfrågning*** från författaren av publiceringsinstanser för att få enhetsinformation via specifika REST API:er
 
-### Replikering (framåt) av innehåll och konfigurationer {#replication-forward-of-content-and-configurations}
+### Replikering (framåt) av innehåll och konfigurationer  {#replication-forward-of-content-and-configurations}
 
 Standardreplikeringsagenter används för att replikera skärmens kanalinnehåll, platskonfigurationer och enhetskonfigurationer. Detta gör det möjligt för författare att uppdatera innehållet i en kanal och eventuellt gå igenom något slags godkännandearbetsflöde innan kanaluppdateringar publiceras. En replikeringsagent måste skapas för varje publiceringsinstans i publiceringsgruppen.
 
@@ -73,13 +73,13 @@ I följande diagram visas replikeringsprocessen:
 >
 >En replikeringsagent måste skapas för varje publiceringsinstans i publiceringsgruppen.
 
-### Skärmreplikeringsagenter och kommandon {#screens-replication-agents-and-commands}
+### Skärmreplikeringsagenter och kommandon  {#screens-replication-agents-and-commands}
 
 Specifika replikeringsagenter för anpassade skärmar skapas för att skicka kommandon från författarinstansen till AEM Screens-enheten. AEM Publish-instanserna fungerar som en mellanhand för att vidarebefordra dessa kommandon till enheten.
 
 Detta gör att författare kan fortsätta att hantera enheten, till exempel skicka enhetsuppdateringar och ta skärmbilder från redigeringsmiljön. AEM Screens replikeringsagenter har en anpassad transportkonfiguration, som vanliga replikeringsagenter.
 
-### Meddelanden mellan publiceringsinstanser {#messaging-between-publish-instances}
+### Meddelanden mellan publiceringsinstanser  {#messaging-between-publish-instances}
 
 I många fall är det bara meningen att ett kommando ska skickas till en enhet en gång. I en belastningsutjämnad publiceringsarkitektur är det dock okänt vilken publiceringsinstans enheten ansluter till.
 
@@ -94,7 +94,7 @@ I många fall, efter ett kommando, förväntas något svar från skärmenheten v
 * En omvänd replikering i det här sammanhanget används bara för binära data (till exempel loggfiler och skärmbilder) som tillhandahålls av enheterna. Icke-binära data hämtas genom avsökning.
 * Omvänd replikering som avfrågas från AEM författarinstans hämtar svaret och sparar det i författarinstansen.
 
-### Avsökning av publiceringsinstanser {#polling-of-publish-instances}
+### Avsökning av publiceringsinstanser  {#polling-of-publish-instances}
 
 Författarinstansen måste kunna avfråga enheterna för att få pulsslag och veta hälsostatusen för en ansluten enhet.
 
