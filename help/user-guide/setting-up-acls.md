@@ -10,15 +10,15 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: administering
 discoiquuid: 64e4d6ae-3fd3-41ec-84e1-cc2cac7b2519
 feature: Administrera skärmar
-role: Administrator
+role: Admin
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+exl-id: b40bcc9f-307c-422c-8abb-5c15965772d4
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
 source-wordcount: '561'
 ht-degree: 0%
 
 ---
-
 
 # Konfigurera åtkomstkontrollistor {#setting-up-acls}
 
@@ -81,7 +81,7 @@ I följande tabell sammanfattas sökvägen med behörigheter på projektnivå:
 >
 >I vissa fall kan du separera författarfunktioner (som att hantera resurser och skapa kanaler) från administratörsfunktioner (som att registrera spelare). I ett sådant scenario skapar du två grupper och lägger till gruppen författare till medverkande och administratörsgruppen till både medverkande och användare-administratörer.
 
-### Skapar grupper {#creating-groups}
+### Skapa grupper {#creating-groups}
 
 När du skapar ett nytt projekt bör du även skapa standardanvändargrupper med en grundläggande uppsättning behörigheter. Du bör utöka behörigheterna till de typiska roller vi har för AEM Screens.
 
@@ -142,4 +142,3 @@ I följande tabell sammanfattas grupperna med beskrivning och behörighet för e
   </tr>
  </tbody>
 </table>
-
