@@ -10,15 +10,15 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
 discoiquuid: 00ea321c-3f79-4aa5-83cc-3fa2fe9e35d9
 feature: Redigeringsskärmar
-role: Administrator, Developer
+role: Admin, Developer
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+exl-id: d98b449f-6b7d-4c08-b507-a64dece84ba8
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
 source-wordcount: '343'
 ht-degree: 1%
 
 ---
-
 
 # Skapa och hantera projekt {#creating-and-managing-projects}
 
@@ -85,4 +85,3 @@ I följande steg visas hur du skapar en programmapp på den överordnad sidan **
 ### Nästa steg {#the-next-steps}
 
 När du har skapat ett eget projekt kan du läsa [Kanalhantering](managing-channels.md) för att skapa och hantera innehåll i din kanal.
-
