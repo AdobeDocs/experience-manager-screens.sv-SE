@@ -3,15 +3,15 @@ title: Kickstart Guide
 seo-title: Kickstart Guide
 description: Följ den här sidan för att skapa ett AEM Screens-demonstrationsprojekt. Det hjälper dig att skapa en digital signeringsupplevelse från installation och konfiguration av ett nytt projekt för att visa ditt innehåll i AEM Screens Player.
 feature: Översikt, digital signatur
-role: Business Practitioner
+role: User
 level: Beginner
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+exl-id: 9b7c7f50-2846-4727-a0ec-0220b4cd52c4
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
 source-wordcount: '1320'
 ht-degree: 1%
 
 ---
-
 
 # Kickstart Guide {#kickstart-guide}
 
@@ -49,7 +49,7 @@ Följ stegen nedan för att skapa ett exempelprojekt för AEM Screens och public
 
 1. Klicka på **Spara** för att aktivera Apache Sling Referer-filtret Tillåt tomt.
 
-## Skapa en upplevelse av en digital signatur på 5 minuter {#creating-a-digital-signage-experience-in-minutes}
+## Skapa en upplevelse av en digital skylt på 5 minuter {#creating-a-digital-signage-experience-in-minutes}
 
 ### Skapa ett AEM Screens-projekt {#creating-project}
 
@@ -64,7 +64,7 @@ Det första steget är att skapa ett AEM Screens-projekt.
    >[!NOTE]
    >När du har skapat projektet återgår du till startsidan för Skärmprojekt. Nu kan du välja ditt projekt. I ett projekt finns det fem olika mappar med namnen **Program**, **Kanaler**, **Enheter**, **Platser** och **Scheman**.
 
-### Skapar en kanal {#creating-channel}
+### Skapa en kanal {#creating-channel}
 
 När du har skapat ditt AEM Screens-projekt måste du skapa en ny kanal där du hanterar innehållet.
 
@@ -103,7 +103,7 @@ Följ stegen nedan för att lägga till innehåll i kanalen (**TestChannel**) i 
 
    ![bild](assets/kickstart/demo-7.png)
 
-### Skapar en plats {#creating-location}
+### Skapa en plats {#creating-location}
 
 När du väl har skapat kanalen måste du skapa en plats.
 
@@ -123,7 +123,7 @@ Följ stegen nedan för att skapa en ny plats för ditt projekt:
 **TestLocation** skapas och läggs till i mappen **Platser**.
 
 
-### Skapar en visning för platsen {#creating-display}
+### Skapa en visning för plats {#creating-display}
 
 När du har skapat en plats måste du skapa en ny skärm för platsen.
 
