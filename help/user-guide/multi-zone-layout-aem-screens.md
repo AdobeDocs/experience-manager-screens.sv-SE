@@ -11,17 +11,17 @@ topic-tags: authoring
 discoiquuid: 4c073172-d93c-4b73-87ab-0b08789193a3
 noindex: true
 feature: Redigeringsskärmar
-role: Administrator, Developer
+role: Admin, Developer
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+exl-id: 901ed50e-d3f0-4c85-ad79-6c4595382759
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
 source-wordcount: '1199'
 ht-degree: 0%
 
 ---
 
-
-# Flerzonslayout {#multi-zone-layout}
+# Layout med flera zoner {#multi-zone-layout}
 
 På följande sida beskrivs användningen av layout med flera zoner och följande avsnitt beskrivs:
 
@@ -46,7 +46,7 @@ Innan du börjar implementera den här funktionen bör du kontrollera att du har
 * [Skapa en bildskärm](https://docs.adobe.com/content/help/en/experience-manager-screens/user-guide/authoring/setting-up-projects/managing-displays.html)
 * [Tilldela en kanal till en skärm](https://docs.adobe.com/content/help/en/experience-manager-screens/user-guide/authoring/setting-up-projects/channel-assignment.html)
 
-## Skapar layout med flera zoner {#creating-multi-zone-layout}
+## Skapa layout med flera zoner {#creating-multi-zone-layout}
 
 När du skapar en kanal kan du använda olika mallar för att skapa zoner i kanalen. Du kan lägga till en bild, video eller en inbäddad kanal som gör att flera resurser kan visas i en sekvens.
 
@@ -91,7 +91,7 @@ Om du vill att zonerna ska visa bildsekvenser och en video i olika zoner följer
 1. **Lägga till ytterligare två kanaler i kanalmappen**
 
    1. Navigera till **Zones** —> **Kanaler** —> **Inbäddade kanaler** och klicka på **Skapa** från åtgärdsfältet.
-   1. Välj **Sekvenskanal** i guiden **Skapa** för att skapa en kanal med namnet **Zone1**.
+   1. Välj **Sekvenskanal** i guiden **Skapa** om du vill skapa en kanal med namnet **Zone1**.
    1. Välj **Zone1** och klicka på **Redigera** i åtgärdsfältet för att öppna redigeraren.
    1. Dra och släpp några bilder i den här kanalen.
    1. Skapa på samma sätt en annan sekvenskanal med namnet **Zone2** i mappen **EmbeddedChannels**.
@@ -139,7 +139,7 @@ Du måste skapa en plats och en visning för att kunna visa innehållet i skärm
    1. Välj **Visa** i guiden **Skapa** och klicka på **Nästa**.
    1. Ange **titeln** som **Lobby** och klicka på **Skapa**.
 
-### Tilldela kanaler till skärmen {#channel-channel}
+### Tilldela kanaler till visningen {#channel-channel}
 
 Du måste tilldela kanalerna till visningen för att kunna visa innehållet. Följ stegen nedan för att tilldela kanalen till visningen.
 
@@ -192,5 +192,3 @@ Markera Skärmspelaren för att visa utdata som visar innehållet i två olika z
 Den vänstra zonen är en sekvenskanal och den högra zonen innehåller en video.
 
 ![new2-1](/help/user-guide/assets/multi-zone/Multi-gif.gif)
-
-
