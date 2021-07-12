@@ -10,15 +10,15 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: administering
 discoiquuid: 0c7d6248-8ac0-4387-8725-57ed941f28f7
 docset: aem65
-role: Administrator
+role: Admin
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+exl-id: 8cf4240c-1d6c-441d-b8a0-f01516455543
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
 source-wordcount: '752'
 ht-degree: 0%
 
 ---
-
 
 # Konfigurera och distribuera AEM Screens {#configuring-and-deploying-aem-screens}
 
@@ -32,7 +32,7 @@ På den här sidan visas hur du installerar och konfigurerar skärmspelarna på 
 >
 >AEM Screens Player använder inte CSRF-token (Cross-Site Request Forgery). Om du vill konfigurera och AEM servern som ska vara klar att användas för AEM Screens hoppar du över referensfiltret genom att tillåta tomma referenter.
 
-## Hälsokontrollramverk {#health-check-framework}
+## Hälsokontrollsramverk {#health-check-framework}
 
 I hälsokontrollsramverket kan användaren kontrollera om två nödvändiga konfigurationer har ställts in innan ett AEM Screens-projekt körs.
 
@@ -117,7 +117,7 @@ Du kan också utföra samma inställning med hjälp av verktygen för din förfa
 >
 >Du kan alltid aktivera klassiskt gränssnitt för specifika användare med hjälp av användarinställningarna.
 
-#### AEM i NOSAMPLECONTENT-körningsläge {#aem-in-nosamplecontent-runmode}
+#### AEM i NOSAMPLECONTENT, körningsläge {#aem-in-nosamplecontent-runmode}
 
 När du kör AEM i produktion används körningsläget **NOSAMPLECONTENT**. Ta bort rubriken *X-Frame-Options=SAMEORIGIN* (i det extra svarshuvudet) från
 
@@ -152,11 +152,3 @@ Ställ in Unicode för ***Java-kodning***. Exempelvis fungerar inte *Dfile.encod
 >[!NOTE]
 >**Rekommendation:**
 >Du bör använda HTTPS för AEM Screens Server i produktionen.
-
-
-
-
-
-
-
-
