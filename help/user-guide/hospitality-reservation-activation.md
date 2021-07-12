@@ -11,17 +11,17 @@ topic-tags: use-case-examples
 discoiquuid: ef3e5dce-e36a-45d3-ad5e-db01430477c6
 docset: aem65
 feature: Redigeringsskärmar
-role: Administrator, Developer
+role: Admin, Developer
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+exl-id: ae032042-fa2b-49cd-91fe-ce50f3ce9867
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
 source-wordcount: '475'
 ht-degree: 0%
 
 ---
 
-
-# Hospitality Reservation Activation {#hospitality-reservation-activation}
+# Aktivering av hotellreservation {#hospitality-reservation-activation}
 
 I följande exempel visas hur aktiveringen av sjukhusbokning har gjorts baserat på de värden som anges i Google Sheets.
 
@@ -86,6 +86,4 @@ Följ stegen nedan för att implementera användningsexemplet för aktivering av
 
    1. Klicka på **Förhandsgranska.** Öppna även dina Google Sheets och uppdatera värdet.
    1. Uppdatera värdet i kolumnerna **Restaurant1** och **Restaurant2**. Om **Restaurant1** > **Restaurant2,** bör du kunna visa en bild av *Steak* mat otherwise, *Thai* food image displays on your screen.
-
    ![result5](assets/result5.gif)
-
