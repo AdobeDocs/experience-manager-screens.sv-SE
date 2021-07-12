@@ -4,21 +4,21 @@ seo-title: Säkerhetschecklista
 description: Sidan beskriver de viktigaste säkerhetsområdena med en checklista med frågor och överväganden.
 seo-description: Sidan beskriver checklistan för säkerhet
 feature: Administrera skärmar
-role: Administrator
+role: Admin
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+exl-id: 3d2835c8-d844-46fd-b35a-30feaced9dd8
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
 source-wordcount: '488'
 ht-degree: 0%
 
 ---
 
-
-# AEM Screens Security Checklist {#security-checklist}
+# AEM Screens Security Checklist  {#security-checklist}
 
 Sidan AEM Screens Security Checklist beskriver de viktigaste säkerhetsområdena med en checklista med frågor och överväganden.
 
-## Checklisttabell {#checklist-table}
+## Checklistetabell {#checklist-table}
 
 | **Säkerhetsområde** | **Checklista** | **Ja/Nej/NA** |
 |---|---|---|
