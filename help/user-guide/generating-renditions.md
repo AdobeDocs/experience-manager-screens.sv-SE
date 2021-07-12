@@ -10,21 +10,21 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
 discoiquuid: 40a182fd-7772-4ef7-b4fd-29ef99390b4a
 feature: Redigeringsskärmar
-role: Administrator, Developer
+role: Admin, Developer
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+exl-id: 752c74d7-5d6d-4363-97ef-b96e97d2f6b1
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
 source-wordcount: '427'
 ht-degree: 0%
 
 ---
 
-
 # Videoåtergivningar {#video-renditions}
 
 Du kan generera manuella och automatiska Full HD-renderingar. I följande avsnitt beskrivs arbetsflödet för att lägga till återgivningar i dina resurser.
 
-## Genererar automatiskt renderingar med full HD {#automatically-generating-full-hd-renditions}
+## Generera återgivningar med full HD automatiskt  {#automatically-generating-full-hd-renditions}
 
 >[!NOTE]
 >
@@ -93,4 +93,3 @@ Följ stegen nedan om du vill generera fullständiga HD-renderingar manuellt:
 1. Öppna sidospåret **Återgivningar** så ser du de nya återgivningarna i full HD.
 
    ![step8_open_therenditionssiderail](assets/step8_-_open_therenditionssiderail.png)
-
