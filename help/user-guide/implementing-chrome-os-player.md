@@ -10,17 +10,17 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: administering
 discoiquuid: 1be944f0-02ed-48c6-98bc-504d758ff866
 feature: Administrera skärmar
-role: Administrator
+role: Admin
 level: Intermediate
-source-git-commit: 7fa4207be0d89a6c7d0d9d9a04722cd40d035634
+exl-id: 4f16605b-aec1-45fa-a110-0af6925b74b0
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
 source-wordcount: '829'
 ht-degree: 0%
 
 ---
 
-
-# Implementera Chrome OS Player {#implementing-chrome-os-player}
+# Implementera Chrome OS Player  {#implementing-chrome-os-player}
 
 I det här avsnittet beskrivs hur du implementerar Chrome OS Player med Chrome Management Console.
 
@@ -57,7 +57,7 @@ Följ stegen nedan för att konfigurera namnet i Chrome Player:
    >[!NOTE]
    >Chrome Players måste registreras i företagsregistrering och Chrome Player måste distribueras via Chrome Management Console, annars returneras resurs-ID tomt (till exempel Chrome som ett tillägg). Enhetsnamnet registreras endast vid registreringen. Framtida ändringar hämtas inte upp av Adobe Experience Manager (AEM).
 
-### Aktivera Kiosk-läge {#enabling-kiosk-mode}
+### Aktivera helskärmsläge {#enabling-kiosk-mode}
 
 Aktivera Kiosk-läget genom att följa stegen nedan:
 
@@ -133,7 +133,7 @@ Följ stegen nedan för att konfigurera olika alternativ för spelaren:
 }
 ```
 
-### Principattribut och syfte {#policy-attributes-and-purpose}
+### Policyattribut och syfte {#policy-attributes-and-purpose}
 
 I följande tabell sammanfattas profilerna med deras funktioner.
 
