@@ -11,17 +11,17 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 discoiquuid: cd1483af-8118-46ac-a2ad-42d89c05bdca
 docset: aem65
 feature: Översikt
-role: Business Practitioner, Data Architect
+role: User, Data Architect
 level: Beginner
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+exl-id: d4c84d4b-3229-4fbe-a533-66daa382ed10
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
 source-wordcount: '723'
 ht-degree: 0%
 
 ---
 
-
-# Del 4: Projekthantering och distribution {#part-project-management-and-deployment}
+# Del 4: Projektledning och driftsättning {#part-project-management-and-deployment}
 
 Denna sida belyser del 4 i en 5-delsserie som är utformad för projektledning och förberedelse av driftsättning och definierar de nyckelfaktorer som AV-integratorn ansvarar för när det gäller projektledning och förberedelse av driftsättning.
 
@@ -37,11 +37,11 @@ Det är viktigt för alla intressenter att förstå vad AV-integratorn är ansva
 >
 >Partners som har en helhetssyn på hantering av&quot;förproduktion&quot;, initiering och utvecklingsfaser i ett projekt kommer att se till att era slutkunder har möjlighet att få ut så mycket som möjligt av sin investering
 
-## Sammanfattning av alla tre faserna i projekthanteringen {#summary-of-all-three-phases-in-project-management}
+## Sammanfattning av alla tre faserna i projektledningen {#summary-of-all-three-phases-in-project-management}
 
 För att stödja en framgångsrik driftsättning av digitala signaturer är det vanligt att segmentera projektet i tre faser. Dessa steg kallas vanligen ***dagar***.
 
-### Nollaktiviteter för dag {#day-zero-activities}
+### Dag utan aktiviteter {#day-zero-activities}
 
 Det första steget kallas ***Day Zero***. I det här steget ingår alla förberedelser och identifieringsåtgärder som krävs för att helt definiera projektets omfattning. I det andra steget, Dag 1, avses alla aktiviteter som ingår i driftsättningen. Slutligen avser dag två alla pågående operationer och supportelement som en del av den totala lösningen.
 
@@ -58,7 +58,7 @@ Day Zero består av åtta viktiga steg som täcker alla aspekter av projektledni
 * Överväg strömförsörjning och anslutningsmöjligheter
 * Granska tekniska planer eller ritningar
 
-### Day One-aktiviteter {#day-one-activities}
+### Dag ett-aktiviteter {#day-one-activities}
 
 Den andra fasen, ***Dag ett***, avser alla aktiviteter som ingår i distributionsinsatsen. Ett annat viktigt tekniskt dokument för ett framgångsrikt projekt är Gantt-schemat för driftsättning.
 
@@ -72,13 +72,13 @@ Som en övergång till ett projekt för säljprojekt schemaläggs ett avslutning
 * Arbetsutrymme
 * Arbetsbehov.
 
-### Dag två aktiviteter {#day-two-activities}
+### Dag två - aktiviteter {#day-two-activities}
 
 Den sista delen av ett Day One-initiativ är att färdigställa ett NOC-uttag. Om ett färdigt projekt ska innehålla service och support dag 2 arrangerar projektledaren ett NOC Handoff Meeting-möte med arbetsgruppernas övervakare.
 
 Mötet består främst av företrädare för AV-integratör från kontohantering, nätverksåtgärder, fältlogistik, innehållstjänster och redovisning. Företrädare för projektledning från Adobe, AEM och slutkunden är vanligtvis inblandade i en och samma sak, där AV-integratorn definierar tidsplan, stängsel och planeter. Projektledare är oftast bäst på att samordna diskussioner för att se till att lämpliga parter är samordnade och på så sätt ta fram nödvändig dokumentation för NOC-överlämningsmötet. Det är troligt att viktig supportdokumentation kommer från IT- och/eller AV-tekniker utöver försäljnings- och kontohanteringsresurser i alla berörda parter. För kunder som behöver helpdesk-support från en NOC måste dokumentationen tillhandahållas till NOC-ansvariga för överföring till en kunskapsbas-plattform.
 
-## Del 4: Videosjälvstudiekurs om projekthantering och distribution {#part-video-tutorial-on-project-management-and-deployment}
+## Del 4: Videosjälvstudiekurs om projektledning och distribution {#part-video-tutorial-on-project-management-and-deployment}
 
 Följ den här självstudiekursen för att lära dig mer om projekthantering och förberedelse av driftsättning och definiera viktiga faktorer som AV-integratorn ansvarar för när det gäller projektledning och förberedelse av driftsättning.
 
@@ -93,4 +93,3 @@ Följ den här självstudiekursen för att lära dig mer om projekthantering och
 När du är grundlig på de viktigaste aspekterna kring Project Management för AEM Screens-distributioner,
 
 Navigera till **[Del 5: Supportöverväganden](support-considerations.md)** för att förstå support dag 2 och de processer som ingår.
-
