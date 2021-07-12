@@ -3,17 +3,17 @@ title: Skapa med Data Triggers
 seo-title: Skapa med Data Triggers
 description: Följ den här sidan för att lära dig hur du skapar med datautlösare.
 feature: Redigeringsskärmar
-role: Administrator, Developer
+role: Admin, Developer
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+exl-id: c95da2e9-a216-4d0a-85d0-a0fb895a8d8a
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
 source-wordcount: '377'
 ht-degree: 0%
 
 ---
 
-
-# Om du skriver med Data Triggers {#authoring-with-data-triggers}
+# Skapa med Data Triggers {#authoring-with-data-triggers}
 
 I det här avsnittet beskrivs hur du aktiverar målinriktning i dina kanaler.
 
