@@ -11,15 +11,15 @@ topic-tags: administering
 discoiquuid: 77fe9d4e-e1bb-42f7-b563-dc03e3af8a60
 docset: aem65
 feature: Administrera skärmar, Android Player
-role: Administrator
+role: Admin
 level: Intermediate
-source-git-commit: 7fa4207be0d89a6c7d0d9d9a04722cd40d035634
+exl-id: d1331cb8-8bf6-4742-9525-acf18707b4d8
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
 source-wordcount: '1513'
 ht-degree: 0%
 
 ---
-
 
 # Implementera Android Player {#implementing-android-player}
 
@@ -27,7 +27,7 @@ I det här avsnittet beskrivs hur Android-spelaren konfigureras. Den innehåller
 
 Dessutom är **Watchdog** en lösning för att återställa spelaren från krascher. Ett program måste registrera sig själv hos bevakningstjänsten och sedan regelbundet skicka meddelanden till tjänsten om att det är aktivt. Om bevakningstjänsten inte får ett meddelande om att enheten inte är vid liv inom en viss tid, försöker tjänsten starta om enheten för en ren återställning (om den har tillräcklig behörighet) eller starta om programmet.
 
-## Installerar Android Player {#installing-android-player}
+## Installera Android Player {#installing-android-player}
 
 Installera Android Player för AEM Screens om du vill implementera Android Player för AEM Screens.
 
@@ -52,7 +52,7 @@ Följ stegen nedan:
 1. Klicka på **Spara**.
 
 
-### Ad-hoc-metod {#ad-hoc-method}
+### Ad hoc-metod {#ad-hoc-method}
 
 Med metoden Ad-Hoc kan du installera den senaste Android-spelaren (*.exe*). Besök [**AEM 6.5 Player Downloads**](https://download.macromedia.com/screens/)-sidan.
 
