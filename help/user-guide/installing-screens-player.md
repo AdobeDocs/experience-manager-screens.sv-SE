@@ -5,17 +5,17 @@ description: Följ den här sidan om du vill veta mer om hur du installerar till
 seo-description: Installera skärmuppspelaren
 contentOwner: jsyal
 feature: Administrera skärmar
-role: Administrator
+role: Admin
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+exl-id: bb979a71-7235-429f-b520-6d85b8b666fa
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
 source-wordcount: '190'
 ht-degree: 1%
 
 ---
 
-
-# Installerar AEM Screens Player {#installing-player}
+# Installera AEM Screens Player {#installing-player}
 
 På den här sidan beskrivs hur du installerar AEM Screens Player.
 
