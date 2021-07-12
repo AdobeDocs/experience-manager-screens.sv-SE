@@ -4,15 +4,15 @@ description: Följ den här sidan om du vill veta mer om hur MultiZone till Sing
 seo-description: MultiZone till SingleZone-övergångar - exempel.
 contentOwner: Jyotika Syal
 feature: Redigeringsskärmar
-role: Developer, Business Practitioner
+role: Developer, User
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+exl-id: 15632f31-1e92-40e5-b567-8705e27bdc93
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
 source-wordcount: '403'
 ht-degree: 0%
 
 ---
-
 
 # Övergång mellan flera zoner och en zon {#multizone-to-singlezone-use-case}
 
@@ -30,7 +30,7 @@ Innan du börjar med det här användningsexemplet måste du förstå hur du gö
 * **[Skapa och hantera scheman](managing-schedules.md)**
 * **[Enhetsregistrering](device-registration.md)**
 
-### Primära skådespelare {#primary-actors}
+### Primära aktörer {#primary-actors}
 
 Innehållsförfattare
 
