@@ -11,15 +11,15 @@ topic-tags: administering
 discoiquuid: f1df8d05-bb61-4bc9-aea1-c6af9e3519b4
 docset: aem65
 feature: Administrera skärmar
-role: Administrator
+role: Admin
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+exl-id: 3bff9ef3-0d6f-41d8-a8ef-bcc5a795990e
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
 source-wordcount: '700'
 ht-degree: 1%
 
 ---
-
 
 # Ny projektimporterare från fil {#new-project-importer-from-file}
 
@@ -38,7 +38,7 @@ Genom att låta författaren tillhandahålla ett kalkylblad som en indatafil, oc
 
 Detta sparar både tid och pengar vid den första projektinstallationen eller vid utvidgning av den befintliga AEM Screens till nya platser.
 
-## Arkitekturöversikt {#architectural-overview}
+## Arkitektöversikt {#architectural-overview}
 
 I följande diagram visas en översikt över arkitekturen för Project Importer-funktionen:
 
@@ -95,7 +95,7 @@ I demosyfte kan du ladda ned en Excel-fil från avsnittet nedan.
 
 [Hämta fil](assets/minimal-file.xls)
 
-### Importerar filen med minst obligatoriska fält {#importing-the-file-with-minimum-required-fields}
+### Importera filen med minst obligatoriska fält {#importing-the-file-with-minimum-required-fields}
 
 Följ stegen nedan för att importera en fil till platsmappen med obligatoriska fält:
 
@@ -126,4 +126,3 @@ Följ stegen nedan för att importera en fil till platsmappen med obligatoriska 
 1. Därför kan du nu visa alla platser som importerats till ditt projekt.
 
    ![screen_shot_2019-05-12at53450am](assets/screen_shot_2019-05-12at53450am.png)
-
