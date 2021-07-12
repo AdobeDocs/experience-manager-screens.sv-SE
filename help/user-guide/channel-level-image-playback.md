@@ -11,15 +11,15 @@ content-type: reference
 discoiquuid: df3cf999-0c8d-4754-8b58-5c6ced2c8ca5
 docset: aem65
 feature: Redigeringsskärmar
-role: Administrator, Developer
+role: Admin, Developer
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+exl-id: 95aa761a-1449-4e18-8115-3b151036dc54
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
 source-wordcount: '362'
 ht-degree: 1%
 
 ---
-
 
 # Varaktighet för massbildsuppspelning på kanalnivå {#channel-level-bulk-image-playback-duration}
 
@@ -77,4 +77,3 @@ Följ stegen nedan för att lära dig hur du uppdaterar tilldelning för bildspe
 När du har uppdaterat kanalens uppspelningstid (i det här exemplet alla tre bilderna) kommer du att märka att bilderna nu spelas upp i 3 sekunder i stället för 8 sekunder (standardvärde).
 
 ![channel_preview](assets/channel_preview.gif)
-
