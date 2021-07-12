@@ -5,15 +5,15 @@ description: Följ det här användningsexemplet för att skapa en permanent Tak
 seo-description: Följ det här användningsexemplet när du ställer in ett projekt som skapar en permanent TakeOver-kanal som spelas upp en viss tid och dag kontinuerligt.
 contentOwner: jsyal
 feature: Redigeringsskärmar
-role: Administrator, Developer
+role: Admin, Developer
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+exl-id: 5d112f33-a7cf-415e-9ea7-dc18a0356a8d
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
 source-wordcount: '860'
 ht-degree: 0%
 
 ---
-
 
 # Perpetual TakeOver Channel {#perpetual-takeover-channel}
 
@@ -33,7 +33,7 @@ Innan du börjar med det här användningsexemplet måste du förstå hur du gö
 * **[Skapa och hantera scheman](managing-schedules.md)**
 * **[Enhetsregistrering](device-registration.md)**
 
-### Primära skådespelare {#primary-actors}
+### Primära aktörer {#primary-actors}
 
 Innehållsförfattare
 
