@@ -11,15 +11,15 @@ content-type: reference
 discoiquuid: c28fd669-f23e-4d53-bec1-a2911274567d
 noindex: true
 feature: redigeringsskärmar, aktivering på kanalnivå
-role: Administrator, Developer
+role: Admin, Developer
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+exl-id: 51a63429-2488-45be-b8f5-cb755ca69c7f
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
 source-wordcount: '1807'
 ht-degree: 0%
 
 ---
-
 
 # Aktivering på kanalnivå {#channel-level-activation-single-event-playback}
 
@@ -162,7 +162,7 @@ Du kan schemalägga att resurser i en kanal återkommer med vissa intervall på 
 
 Anta att du bara vill visa innehållet i en kanal på fredag från 1:00 till 10:00. Du kan använda fliken **Aktivering** för att ange önskat intervall för resursen.
 
-### Dag som delar {#day-parting}
+### Dag-parsning {#day-parting}
 
 1. Markera kanalen och klicka på **Kontrollpanelen** i åtgärdsfältet för att öppna kanalkontrollpanelen.
 
@@ -217,7 +217,7 @@ I följande tabell sammanfattas några exempeluttryck som du kan lägga till i s
 Du kan också använda _militär tid_-notation (d.v.s. 14:00) i stället för *am/pm*-notation (d.v.s. 2:00).
 
 
-### MonthParting {#month-parting}
+### MånadDelning {#month-parting}
 
 1. Markera kanalen och klicka på **Kontrollpanelen** i åtgärdsfältet för att öppna kanalkontrollpanelen.
 
@@ -265,4 +265,3 @@ I följande tabell sammanfattas några exempeluttryck som du kan lägga till i s
 
 >[!NOTE]
 När du definierar veckodagar och månader kan du både använda kort- och fullnamnsnoteringar, till exempel måndag/måndag och januari.  Dessutom kan du använda _militär tid_-notation (d.v.s. 14:00) i stället för *am/pm*-notation (d.v.s. 2:00).
-
