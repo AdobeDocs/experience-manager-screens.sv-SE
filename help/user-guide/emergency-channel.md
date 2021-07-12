@@ -10,15 +10,15 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 discoiquuid: dbb4fae6-f3fb-496a-9bd6-1151e2862b5b
 docset: aem65
 feature: Redigeringsskärmar
-role: Administrator, Developer
+role: Admin, Developer
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+exl-id: d409ba46-b48a-44db-b305-27c392cd55de
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
 source-wordcount: '814'
 ht-degree: 0%
 
 ---
-
 
 # Nödkanal {#emergency-channel}
 
@@ -35,7 +35,7 @@ Innan du börjar med det här användningsexemplet måste du förstå hur du gö
 * **[Skapa och hantera scheman](managing-schedules.md)**
 * **[Enhetsregistrering](device-registration.md)**
 
-### Primära skådespelare {#primary-actors}
+### Primära aktörer {#primary-actors}
 
 Innehållsförfattare
 
@@ -161,7 +161,7 @@ Följ stegen nedan för att konfigurera en nödkanal:
 
    ![new30](assets/new30.gif)
 
-## Växlar till nödkanal {#switching-to-emergency-channel}
+## Växla till nödkanal {#switching-to-emergency-channel}
 
 I händelse av en kris utför du följande steg:
 
