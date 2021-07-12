@@ -11,17 +11,17 @@ topic-tags: authoring
 discoiquuid: 5d4ca652-d918-4b2b-b239-a2be9255ef0d
 noindex: true
 feature: Redigeringsskärmar
-role: Administrator, Developer
+role: Admin, Developer
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+exl-id: d0a0b065-798e-4108-86ac-0a1f4e211cfc
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
 source-wordcount: '359'
 ht-degree: 1%
 
 ---
 
-
-# Uppdatera satsvis offline {#bulk-offline-update}
+# Uppdatera gruppvis offline {#bulk-offline-update}
 
 I det här avsnittet beskrivs följande ämnen om Uppdatera gruppvis offline:
 
@@ -44,7 +44,7 @@ Du kan även schemalägga den här aktiviteten under en tid med lägre nätverks
 >
 >Funktionen Uppdatera gruppvis offline är optimerad för att endast uppdatera de kanaler som har ändrats.
 
-## Använda uppdatering {#using-bulk-offline-update} för flera offlinor
+## Använda Uppdatera gruppvis offline {#using-bulk-offline-update}
 
 Du kan manuellt använda bulkuppdatering offline från användargränssnittet (UI) eller schemalägga bulkuppdateringen från OSGi-tjänster.
 
@@ -79,4 +79,3 @@ Följ stegen nedan om du vill använda en bulkuppdatering för ett AEM Screens-p
    **Schemalägg** frekvensAnge en tidpunkt, till exempel klockan 17:00 eller 17:00, då den här tjänsten ska uppdatera offlineinnehåll.
 
 1. Klicka på **Spara** om du vill spara inställningarna så uppdateras innehållet vid den angivna tidpunkten.
-
