@@ -6,17 +6,17 @@ seo-description: Följ den här sidan om du vill lära dig hur du använder öve
 uuid: b79d521b-19d4-47c8-a41a-148d7bbf6ac9
 contentOwner: jsyal
 feature: Redigeringsskärmar
-role: Administrator, Developer
+role: Admin, Developer
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+exl-id: 757e6751-8008-487f-be89-9f53ac898928
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
 source-wordcount: '289'
 ht-degree: 1%
 
 ---
 
-
-# Använder övergångar {#applying-transitions}
+# Använda övergångar {#applying-transitions}
 
 I det här avsnittet beskrivs hur du kan använda komponenten **Transition** mellan olika resurser (bilder och videoklipp) och inbäddade sekvenser i en kanal.
 
@@ -60,4 +60,3 @@ Följ stegen nedan för att lägga till en övergångskomponent i ditt AEM Scree
 1. Om du dessutom lägger till en **inbäddad sekvens**-komponent (som inkluderar en sekvenskanal) i den här kanalredigeraren kan du lägga till en övergångskomponent i slutet så att innehållet spelas upp i rätt ordning, vilket visas i figuren nedan:
 
    ![image3](assets/transitions5.png)
-
