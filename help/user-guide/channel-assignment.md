@@ -3,15 +3,15 @@ title: Kanaltilldelning
 seo-title: Kanaltilldelning
 description: Följ den här sidan om du vill veta mer om kanaltilldelning och Dag-delning.
 feature: redigeringsskärmar, kanaltilldelning
-role: Administrator, Developer
+role: Admin, Developer
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+exl-id: 6ed86bfc-38c7-4ced-b472-db2a362585c5
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
 source-wordcount: '1219'
 ht-degree: 1%
 
 ---
-
 
 # Kanaltilldelning {#channel-assignment}
 
@@ -44,7 +44,7 @@ Följ stegen nedan för att tilldela en kanal till en skärm:
    Du kan konfigurera egenskaperna från dialogrutan **Kanaltilldelning** i avsnittet nedan. Mer information om kanalegenskaper finns i [avsnittet Kanalegenskaper](#channel-properties).
 
 
-## Kanalegenskaper från kanaltilldelning {#channel-properties}
+## Förstå kanalegenskaper från kanaltilldelning {#channel-properties}
 
 ### Referenskanal {#ref-channel}
 
@@ -91,7 +91,7 @@ Välj något av följande alternativ som är tillgängliga för att ställa in a
    >[!NOTE]
    >Om du använder det andra eller tredje alternativet kan schemaläggningstiderna som är definierade för tilldelningen fördröjas något eftersom spelaren väntar på slutet av objektet eller sekvensen (efter den angivna tiden) innan den uppdateras. Fördröjningen beror på objektets uppspelningstid.
 
-### Schemalägg {#schedule-channel}
+### Schema {#schedule-channel}
 
 Med Schema kan du ange en beskrivning i text när kanalen ska visas. Här kan du också definiera ett startdatum (**active from**) och ett slutdatum (**active until**) för den kanal som ska visas.
 
@@ -119,7 +119,7 @@ Här delar vi upp varje dag i tre olika tidsplatser, så att kanalinnehållet sp
 | Meny_B | Lunch |  | efter 11:00 och före 15:00 |
 | Meny_C | Middag |  | efter 15:00 och före 20:00 |
 
-#### Spelar upp innehåll på en viss veckodag {#playing-content-on-a-particular-day-of-the-week}
+#### Spela upp innehåll en viss veckodag {#playing-content-on-a-particular-day-of-the-week}
 
 I det här exemplet visas dagenParting som uppnåtts i ett kasino där live-event inträffar varje helg från kl. 20.00 till kl. 23.00 och erbjudanden är tillgängliga för middagsmeny efter kl. 10.00 till kl. 13.00.
 
@@ -146,7 +146,7 @@ I det här exemplet visas dagenParting som uppnåtts i ett kasino där live-even
  </tbody>
 </table>
 
-#### Spelar upp innehåll för en viss månad/månad {#playing-content-for-a-particular-month-months}
+#### Spela upp innehåll under en viss månad/månad {#playing-content-for-a-particular-month-months}
 
 I det här exemplet visas DayParting för en butik som visar sin sommarsamling från juni till augusti och höstsamlingen från september till slutet av oktober.
 
@@ -177,5 +177,4 @@ I det här exemplet visas DayParting för en butik som visar sin vintersamling m
 >
 >* [Hantera återkommande i resurser](https://docs.adobe.com/content/help/en/experience-manager-screens/user-guide/authoring/product-features/asset-level-scheduling.html#handling-recurrence-in-assets)
 >* [Hantera återkommande för resurser i en kanal](https://docs.adobe.com/content/help/en/experience-manager-screens/user-guide/authoring/product-features/channel-level-activation.html#handling-recurrence-in-assets)
-
 
