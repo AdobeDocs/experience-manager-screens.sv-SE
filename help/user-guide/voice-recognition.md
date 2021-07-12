@@ -2,15 +2,15 @@
 title: Röstigenkänning i AEM Screens
 description: Sidan beskriver röstigenkänningsfunktionen i AEM Screens.
 feature: Redigeringsskärmar
-role: Administrator, Developer
+role: Admin, Developer
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+exl-id: 6cf0aa9f-7bac-403f-a113-51727c1f5374
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
 source-wordcount: '1126'
 ht-degree: 1%
 
 ---
-
 
 # Röstigenkänning i AEM Screens {#voice-recognition}
 
@@ -39,7 +39,7 @@ Om du vill implementera röstigenkänning i ditt AEM Screens-projekt måste du a
 
 I följande avsnitt beskrivs hur du kan aktivera och använda funktionen för röstigenkänning i ett AEM Screens-projekt.
 
-## Visa innehåll i kanalväxeln för helskärm eller delad skärm {#sequence-channel}
+## Visa innehåll i helskärmsläge eller kanalbyte för delad skärm {#sequence-channel}
 
 Innan du använder funktionen för röstigenkänning bör du kontrollera att du har ett projekt och en kanal med innehåll som har konfigurerats för ditt projekt.
 
@@ -110,7 +110,7 @@ Följ stegen nedan för att lägga till taggar i din kanal:
 1. Klicka på **Spara och stäng** när du är klar.
 
 
-### Skapar taggar {#creating-tags}
+### Skapa taggar {#creating-tags}
 
 Skapa taggar genom att följa stegen nedan:
 
@@ -153,7 +153,7 @@ Nu kan du använda dessa taggar i ditt AEM Screens-projekt.
    | Huvud | 2 | Inledande inläsning, inaktiv skärm, timer |
    | HotDrinks | 1 | Användarinteraktion |
    | ColdDrinks | 3 | Användarinteraktion |
-   | SplitScreen | 3 | Användarinteraktion |
+   | SplitScreen | 1 | Användarinteraktion |
 
    >[!NOTE]
    >
@@ -184,8 +184,3 @@ Om du använder ord med ett nyckelord **kallt**, t.ex. *Jag vill ha något kallt
 **Önskad utdata för kanalen för delade skärmar**
 
 Huvudkanalen i **Main** spelar upp innehållet, men när du använder ord med nyckelord **hot** och **kall** tillsammans, t.ex. *vill jag se menyn för varma och kalla drycker* börjar kanalen spela upp innehållet i **SplitScreen** . Om du säger *tillbaka till huvudmenyn* växlar den tillbaka till huvudkanalen.
-
-
-
-
-
