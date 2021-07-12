@@ -3,15 +3,15 @@ title: Vad är AEM Screens?
 seo-title: Vad är AEM Screens?
 description: '"AEM Screens - en digital signeringslösning som gör att ni kan publicera dynamiska och interaktiva digitala upplevelser och interaktioner som involverar olika typer av skärmar i kombination med en omfattande digital marknadsföringsplattform."'
 feature: Översikt, digital signatur
-role: Business Practitioner
+role: User
 level: Beginner
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+exl-id: 3db8241d-03ed-4c87-bd3e-0ead2b44ae50
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
 source-wordcount: '557'
 ht-degree: 6%
 
 ---
-
 
 # Vad är AEM Screens?{#what-is-aem-screens}
 
@@ -29,13 +29,13 @@ Det är enkelt och intuitivt att skapa och hantera ett program med AEM Screens. 
 
 Mer information om de nyckelterminologier som är associerade med AEM Screens finns i [Ordlista](screens-glossary.md).
 
-### Arkitektur för skärmspelaren {#architecture-of-screens-player}
+### Arkitektur för Screens Player {#architecture-of-screens-player}
 
 I följande diagram visas den allmänna arkitekturen för en AEM Screens-spelare:
 
 ![chlimage_1-29](assets/chlimage_1-29.png)
 
-### Skapa en upplevelse av en digital signatur på 5 minuter {#create-a-digital-signage-experience-in-minutes}
+### Skapa en upplevelse av en digital skylt på 5 minuter {#create-a-digital-signage-experience-in-minutes}
 
 Information om hur du skapar ett demoskärmsprojekt och publicerar innehåll i skärmspelaren finns i [Kickstart för AEM Screens](kickstart-for-aem-screens.md).
 
