@@ -11,15 +11,15 @@ content-type: reference
 discoiquuid: 4228e8a1-9749-49a6-a1bb-365492bc2a3d
 docset: aem65
 feature: Administrera skärmar, Windows Player
-role: Administrator
+role: Admin
 level: Intermediate
-source-git-commit: 7fa4207be0d89a6c7d0d9d9a04722cd40d035634
+exl-id: 50b6d9ba-e672-4f4d-a9a8-fb8387685057
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
 source-wordcount: '1074'
 ht-degree: 0%
 
 ---
-
 
 # Implementera Windows 10 Player {#implementing-windows-player}
 
@@ -54,7 +54,7 @@ Konfiguration** med `http://localhost:4502/system/console/configMgr`.
 
 1. Klicka på **Spara**.
 
-### Ad-hoc-metod {#ad-hoc-method}
+### Ad-Hoc-metod {#ad-hoc-method}
 
 Med metoden Ad-Hoc kan du installera den senaste Windows Player (*.exe*). Besök [**AEM 6.5 Player Downloads**](https://download.macromedia.com/screens/)-sidan.
 
@@ -141,7 +141,7 @@ I följande tabell sammanfattas principattributen med en exempelpolicy-JSON för
 }
 ```
 
-## Aktivera Kiosk-läge {#enabling-kiosk-mode}
+## Aktivera helskärmsläge {#enabling-kiosk-mode}
 
 När du distribuerar Windows-spelaren är det viktigt att aktivera ett Kiosk-läge så att andra program eller aktivitetsfältet inte visas på Windows-skrivbordet.
 
@@ -193,4 +193,3 @@ $ShellLauncherClass.RemoveCustomShell($Admins_SID)
 
 $ShellLauncherClass.RemoveCustomShell($Cashier_SID)
 ```
-
