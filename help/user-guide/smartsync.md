@@ -10,17 +10,17 @@ content-type: reference
 discoiquuid: 822dfbc1-3584-4509-a35c-1d68e5f84509
 docset: aem65
 feature: Administrera skärmar
-role: Administrator
+role: Admin
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+exl-id: b8d0c089-af79-403e-870f-fb46b66fecd3
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
 source-wordcount: '467'
 ht-degree: 0%
 
 ---
 
-
-# Övergår från ContentSync till SmartSync {#transitioning-from-contentsync-to-smartsync}
+# Övergång från ContentSync till SmartSync {#transitioning-from-contentsync-to-smartsync}
 
 I det här avsnittet ges en översikt över SmartSync-funktionen och hur den minimerar belastningen på servern/lagringen och nätverkstrafiken för att minska kostnaderna.
 
@@ -39,7 +39,7 @@ Det körs både på serversidan och på klientsidan.
 
 * Spelaren uppdaterar innehållet baserat på manifestet som genereras ovan.
 
-### Fördelar med att använda SmartSync {#benefits-of-using-smartsync}
+### Fördelar med SmartSync {#benefits-of-using-smartsync}
 
 SmartSync-funktionen ger ett antal fördelar för ditt AEM Screens-projekt. Den tillåter
 
@@ -51,7 +51,7 @@ SmartSync-funktionen ger ett antal fördelar för ditt AEM Screens-projekt. Den 
 >
 >Adobe rekommenderar starkt att du använder SmartSync för AEM Screens-projekt.
 
-## Migrerar från ContentSync till SmartSync {#migrating-from-contentsync-to-smartsync}
+## Migrera från ContentSync till SmartSync {#migrating-from-contentsync-to-smartsync}
 
 >[!NOTE]
 >
