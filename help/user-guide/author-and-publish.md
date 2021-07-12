@@ -4,15 +4,15 @@ seo-title: Konfigurera författare och publicera i AEM Screens
 description: AEM Screens arkitektur liknar en traditionell AEM Sites-arkitektur. Innehållet skapas på en AEM författarinstans och sedan vidarebefordras till flera publiceringsinstanser. Följ den här sidan för att lära dig hur du konfigurerar författare och publicerar för AEM Screens.
 seo-description: AEM Screens arkitektur liknar en traditionell AEM Sites-arkitektur. Innehållet skapas på en AEM författarinstans och sedan vidarebefordras till flera publiceringsinstanser. Följ den här sidan för att lära dig hur du konfigurerar författare och publicerar för AEM Screens.
 feature: Administrera skärmar
-role: Administrator, Developer
+role: Admin, Developer
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+exl-id: 5aef5f35-d946-4bf8-a2a8-c3ed532b7eef
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
 source-wordcount: '1907'
 ht-degree: 0%
 
 ---
-
 
 # Konfigurera författare och publicera i AEM Screens {#configuring-author-and-publish-in-aem-screens}
 
@@ -38,7 +38,7 @@ Innan du börjar med författare och publiceringsservrar bör du ha kunskap om:
 >
 >Om du vill använda fler än en publiceringsinstans med dispatchern måste du uppdatera dispatchern.vilken fil som helst i dispatchern. Mer information finns i [Aktivera anteckningssessioner](dispatcher-configurations-aem-screens.md#enable-sticky-session).
 
-## Konfigurerar författare- och publiceringsinstanser {#configuring-author-and-publish-instances}
+## Konfigurera författare- och publiceringsinstanser {#configuring-author-and-publish-instances}
 
 >[!NOTE]
 >
@@ -52,7 +52,7 @@ Du kan skapa ett enkelt exempel där du är värd för en författare och två p
 * Publish 1 (pub1) —> localhost:4503
 * Publish 2 (pub2) —> localhost:4504
 
-## Konfigurera replikeringsagenter på författaren {#setting-replication-agents}
+## Konfigurera replikeringsagenter på författare {#setting-replication-agents}
 
 Om du vill skapa replikeringsagenter måste du lära dig hur du skapar en standardredigeringsagent.
 
@@ -62,7 +62,7 @@ Det finns tre replikeringsagenter som behövs för skärmar:
 1. **Raster Replication Agent**
 1. **Agenten för omvänd replikering**
 
-### Steg 1: Skapar en standardreplikeringsagent {#step-creating-a-default-replication-agent}
+### Steg 1: Skapar en standardsreplikeringsagent {#step-creating-a-default-replication-agent}
 
 Följ stegen nedan om du vill skapa en standardsvar för replikering:
 
@@ -103,12 +103,12 @@ Följ stegen nedan om du vill skapa en standardsvar för replikering:
    >Du kan också kopiera och byta namn på en befintlig standardreplikeringsagent.
 
 
-#### Skapar standardreplikeringsagenter {#creating-standard-replication-agents}
+#### Skapar standardreplikeringsagenter  {#creating-standard-replication-agents}
 
 1. Skapa en standardobjektreplikeringsagent för pub1 (standardagenten som är klar att användas ska redan vara konfigurerad) (till exempel *https://&lt;värdnamn>:4503/bin/receive?sling:authRequestLogin=1*)
 1. Skapa en standardslikeringsagent för pub2. Du kan kopiera rep agent för pub1 och uppdatera transporten som ska användas för pub2 genom att ändra porten i transportkonfigurationen. (till exempel *https://&lt;värdnamn>:4504/bin/receive?sling:authRequestLogin=1*)
 
-#### Skapar rasterreplikeringsagenter {#creating-screens-replication-agents}
+#### Skapar agenter för skärmreplikering {#creating-screens-replication-agents}
 
 1. Skapa AEM Screens-replikeringsagent för pub1. Det finns en som heter Screens Replication Agent som pekar på port 4503. Detta måste aktiveras.
 1. Skapa AEM Screens replikeringsagent för pub2. Kopiera skärmreplikeringsagenten för pub1 och ändra porten till punkt 4504 för pub2.
@@ -140,7 +140,7 @@ Konfigurationen ska vara identisk för varje publiceringsinstans och den automat
 
 Navigera till `https://:/system/console/topology` för alla publiceringsinstanser. Du bör se alla publiceringsinstanser som representeras i topologin under **Utgående topologianslutningar**.
 
-#### Steg 3: Konfigurera ActiveMQ-objektkluster {#step-setup-activemq-artemis-cluster}
+#### Steg 3: Konfigurera ActiveMQ Artemis-kluster {#step-setup-activemq-artemis-cluster}
 
 I det här steget kan du skapa krypterat lösenord för ActiveMQ Artemis-klustret.
 Klusteranvändaren och lösenordet för alla publiceringsinstanser i topologin måste vara identiska. Lösenordet för ActiveMQ Artemis-konfigurationen måste krypteras. Eftersom varje instans har en egen krypteringsnyckel måste du använda krypteringsstöd för att skapa en krypterad lösenordssträng. Krypterat lösenord används sedan i OSGi-konfigurationen för ActiveMQ.
@@ -159,7 +159,7 @@ Eftersom varje publiceringsinstans som standard har unika krypteringsnycklar må
 >Lösenordet ska börja och sluta med klammerparenteser. Till exempel:
 >`{1ec346330f1c26b5c48255084c3b7272a5e85260322edd59119828d1fa0a610e}`
 
-#### Steg 4: Aktivera ActiveMQ-objektkluster {#step-activate-activemq-artemis-cluster}
+#### Steg 4: Aktivera ActiveMQ Artemis-kluster {#step-activate-activemq-artemis-cluster}
 
 På varje publiceringsinstans:
 
@@ -201,7 +201,7 @@ Följ stegen för varje publiceringsinstans:
 1. Välj **Referensfilter för Apache Sling**
 1. Uppdatera konfigurationen och **markera Tillåt tomt**
 
-### Konfigurerar författare och publiceringsinstans {#configuring-author-and-publish-instance}
+### Konfigurera författare och publiceringsinstans {#configuring-author-and-publish-instance}
 
 När du har konfigurerat publiceringstopologin måste du konfigurera författaren och publiceringsinstanserna för att visa de praktiska resultaten av implementeringen:
 
@@ -220,7 +220,7 @@ När du har konfigurerat publiceringstopologin måste du konfigurera författare
 >
 >Du kan öppna en AEM Screens-spelare med den AEM Screens-app du hämtade eller med webbläsaren.
 
-#### Steg 2: Registrerar en enhet på författaren {#step-registering-a-device-on-author}
+#### Steg 2: Registrera en enhet på författaren {#step-registering-a-device-on-author}
 
 1. Gå till `https://localhost:4502/screens.html/content/screens/we-retail` eller välj projektet och navigera till Enheter > Enhetshanteraren.
 1. Välj **Registrera enhet**.
@@ -238,7 +238,7 @@ När du har konfigurerat publiceringstopologin måste du konfigurera författare
 
 Kontrollera spelaren så ser du innehållet som du har lagt till i kanalen.
 
-#### Steg 4: Publicerar enhetskonfiguration för att publicera instanser {#step-publishing-device-configuration-to-publish-instances}
+#### Steg 4: Publicera enhetskonfiguration för publiceringsinstanser {#step-publishing-device-configuration-to-publish-instances}
 
 **Verifiera enheten**
 
@@ -290,7 +290,7 @@ Följ stegen nedan för att verifiera författarens/publiceringens beteende:
 1. Upprepa dessa steg med en annan publiceringsinstans
 
 
-#### Steg 5: Peka på enheten för att publicera instansen på adminpanelen {#step-pointing-the-device-to-publish-instance-in-the-admin-panel}
+#### Steg 5: Peka på enheten för att publicera instansen på Admin-panelen {#step-pointing-the-device-to-publish-instance-in-the-admin-panel}
 
 1. Visa administratörsgränssnittet från Skärmspelaren, tryck länge på det övre vänstra hörnet för att öppna Admin-menyn, på din touchaktiverade AEM Screens-spelare eller genom att använda en mus.
 1. Klicka på alternativet **Konfiguration** på sidopanelen.
@@ -307,5 +307,3 @@ Du kan även uppdatera/redigera server-URL:en från enhetshanteringskonsolen gen
 ![screen_shot_2019-02-07at31028pm](assets/screen_shot_2019-02-07at31028pm.png)
 
 Med funktionen **Hantera publikation** kan du leverera innehållsuppdateringar från författare till publicering till enhet. Du kan publicera/avpublicera innehåll för hela AEM Screens-projektet eller bara för en av dina kanaler, platser, enheter, program eller scheman. Mer information om den här funktionen finns i [On-Demand Content Update](on-demand-content.md).
-
-
