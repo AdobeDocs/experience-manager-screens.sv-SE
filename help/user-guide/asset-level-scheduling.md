@@ -4,15 +4,15 @@ seo-title: Aktivering på tillgångsnivå
 description: Följ den här sidan för att lära dig hur du aktiverar en specifik resurs i en kanal för en schemalagd tidsram i spelarens lokala tidszon.
 seo-description: Följ den här sidan för att lära dig hur du aktiverar en specifik resurs i en kanal för en schemalagd tidsram i spelarens lokala tidszon.
 feature: redigeringsskärmar, aktivering på tillgångsnivå
-role: Administrator, Developer
+role: Admin, Developer
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+exl-id: a2f5b2cc-6797-4397-b49c-72175a2d2ef7
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
 source-wordcount: '1450'
 ht-degree: 0%
 
 ---
-
 
 # Aktivering på tillgångsnivå {#asset-level-scheduling}
 
@@ -78,13 +78,13 @@ Följ stegen nedan för att utföra planering på tillgångsnivå:
 
    ![bild](/help/user-guide/assets/asset-activation/asset-level3.png)
 
-## Hantera upprepning i resurser {#handling-recurrence-in-assets}
+## Hantera återkommande i resurser {#handling-recurrence-in-assets}
 
 Du kan schemalägga att mediefiler ska återkomma med vissa intervall på daglig, veckovis eller månadsbasis efter behov.
 
 Anta att du bara vill visa en bild på fredag från 1:00 till 10:00. Du kan använda fliken **Aktivering** för att ange önskat intervall för resursen.
 
-### Dag som delar {#day-parting}
+### Dag-parsning {#day-parting}
 
 1. Markera resursen och klicka på **Konfigurera** (skiftnyckelsikon) för att öppna dialogrutan för egenskaper.
 
@@ -136,7 +136,7 @@ I följande tabell sammanfattas några exempeluttryck som du kan lägga till i s
 >Du kan också använda _full_-notation (d.v.s. måndag,onsdag,fredag) i stället för _kort_-notation (d.v.s. Mon,Wed,Fri).
 
 
-### MonthParting {#month-parting}
+### MånadDelning {#month-parting}
 
 1. Markera resursen och klicka på **Konfigurera** (skiftnyckelsikon) för att öppna dialogrutan för egenskaper.
 
@@ -222,4 +222,3 @@ Följ stegen nedan för att välja flera resurser och schemalägga hur de ska vi
    >Schemaikonen visas i det övre högra hörnet för resurser som har aktivering av flera resurser.
 
    ![screen_shot_2018-12-21at70722am](assets/screen_shot_2018-12-21at70722am.png)
-
