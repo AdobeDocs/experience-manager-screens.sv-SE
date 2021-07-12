@@ -11,15 +11,15 @@ topic-tags: use-case-examples
 discoiquuid: 9d58b971-4540-4007-968d-2a1d94d1fd38
 docset: aem65
 feature: Redigeringsskärmar
-role: Administrator, Developer
+role: Admin, Developer
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+exl-id: 2ec2891f-0fbe-4812-b3c4-ff160ead36b8
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
 source-wordcount: '478'
 ht-degree: 0%
 
 ---
-
 
 # Temperaturaktivering i resecentret {#travel-center-temperature-activation}
 
@@ -90,6 +90,4 @@ Följ stegen nedan för att implementera användningsexemplet för aktivering av
 
    1. Klicka på **Förhandsgranska.** Öppna även Google Sheet och uppdatera värdet.
    1. Om du ändrar värdet till mindre än 50 bör du kunna se en bild av sommardrycker. Om värdet i Google Sheet är 50 eller högre än vad som ska kunna visa bilden med en het drink.
-
    ![result3](assets/result3.gif)
-
