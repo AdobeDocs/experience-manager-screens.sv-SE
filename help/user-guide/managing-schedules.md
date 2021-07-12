@@ -10,15 +10,15 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
 discoiquuid: 75ed3c42-4be9-42ae-9d76-e0343af81516
 feature: Redigeringsskärmar
-role: Administrator, Developer
+role: Admin, Developer
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+exl-id: dc9c5413-3b03-4f1f-bac5-aa599443254a
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
 source-wordcount: '424'
 ht-degree: 0%
 
 ---
-
 
 # Skapa och hantera scheman {#creating-and-managing-schedules}
 
@@ -30,7 +30,7 @@ När du kombinerar scheman med ***DayParting*** kan du ange ett globalt schema m
 >
 >Den här AEM Screens-funktionen är bara tillgänglig om du har installerat AEM 6.3 Sites Feature Pack 1. Om du vill få tillgång till det här funktionspaketet måste du kontakta Adobe Support och begära åtkomst. När du har behörighet kan du hämta den från paketresursen.
 
-## Skapar ett schema {#creating-a-schedule}
+## Skapa ett schema {#creating-a-schedule}
 
 Du kan skapa ett schema för ditt skärmsprojekt som hanterar alla aktiviteter för ditt användningsfall.
 
@@ -46,7 +46,7 @@ Följ stegen nedan för att skapa ett schema för din kanal:
 Du ser en mapp med scheman med namn och titel i ditt projekt.
 
 
-## Visar instrumentpanelen {#viewing-dashboard}
+## Visa instrumentpanel {#viewing-dashboard}
 
 När du har skapat en mapp för scheman i ditt projekt kan du visa informationen från kontrollpanelen för scheman.
 
@@ -67,4 +67,3 @@ Följ stegen nedan för att visa kontrollpanelen för scheman. I följande exemp
    **Tilldelad** kanalpanelKlicka på +Tilldela kanal i det övre högra hörnet på panelen Tilldelade kanaler för att öppna dialogrutan Kanaltilldelning.
 
    **Tilldelad** visningspanelVälj någon av skärmarna på den tilldelade visningspanelen för att öppna kontrollpanelen.
-
