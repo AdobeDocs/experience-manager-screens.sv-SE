@@ -6,15 +6,15 @@ seo-description: Följ den här sidan om du vill veta mer om innehållsuppdateri
 uuid: c73126ca-18d0-45b4-bdde-a3653082bfc4
 contentOwner: Jyotika syal
 feature: Redigeringsskärmar
-role: Administrator, Developer
+role: Admin, Developer
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+exl-id: de9f669b-9ce7-4d70-99b4-0b69ef3c1af5
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
 source-wordcount: '358'
 ht-degree: 1%
 
 ---
-
 
 # Innehållsuppdatering som tjänst {#content-update-as-a-service}
 
@@ -39,7 +39,7 @@ Du kan även schemalägga den här aktiviteten under en tid med lägre nätverks
 >
 >Funktionen Uppdatera gruppvis offline är optimerad för att endast uppdatera de kanaler som har ändrats.
 
-## Använda uppdatering {#using-bulk-offline-update} för flera offlinor
+## Använda Uppdatera gruppvis offline {#using-bulk-offline-update}
 
 Du kan manuellt använda bulkuppdatering offline från användargränssnittet (UI) eller schemalägga bulkuppdateringen från OSGi-tjänster.
 
@@ -74,4 +74,3 @@ Följ stegen nedan om du vill använda en bulkuppdatering för ett AEM Screens-p
    **Schemalägg** frekvensAnge en tidpunkt, till exempel klockan 17:00 eller 17:00, då den här tjänsten ska uppdatera offlineinnehåll.
 
 1. Klicka på **Spara** om du vill spara inställningarna så uppdateras innehållet vid den angivna tidpunkten.
-
