@@ -4,15 +4,15 @@ seo-title: Dispatcher Configurations for AEM Screens
 description: På den här sidan hittar du riktlinjer för hur du konfigurerar dispatcher för ett AEM Screens-projekt.
 seo-description: På den här sidan hittar du riktlinjer för hur du konfigurerar dispatcher för ett AEM Screens-projekt.
 feature: Administrera skärmar
-role: Developer, Business Practitioner
+role: Developer, User
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+exl-id: 8b281488-f54d-4f8a-acef-ca60fa2315ed
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
 source-wordcount: '393'
 ht-degree: 3%
 
 ---
-
 
 # Dispatcher Configurations for AEM Screens{#dispatcher-configurations-for-aem-screens}
 
@@ -32,7 +32,7 @@ Innan du konfigurerar dispatcher för ett AEM Screens-projekt måste du ha tidig
 
 Mer information finns i [Konfigurera Dispatcher](https://docs.adobe.com/content/help/en/experience-manager-dispatcher/using/configuring/dispatcher-configuration.html).
 
-## Konfigurerar Dispatcher {#configuring-dispatcher}
+## Konfigurera Dispatcher {#configuring-dispatcher}
 
 AEM Screens spelare/enheter använder autentiserad session för att få tillgång till resurserna i publiceringsinstanserna. Om du har flera publiceringsinstanser bör förfrågningarna alltid gå till samma publiceringsinstans så att den autentiserade sessionen är giltig för alla förfrågningar som kommer från AEM Screens spelare/enheter.
 
@@ -57,7 +57,7 @@ Om du har en publiceringsinstans framför en dispatcher kommer det inte att hjä
 
 Om du till exempel använder AWS ALB läser du [Målgrupper för Utjämning av programbelastning](https://docs.aws.amazon.com/elasticloadbalancing/latest/application/load-balancer-target-groups.html) för att aktivera klisterhet på ALB-nivå. Aktivera klibbighet i en dag.
 
-### Steg 1: Konfigurerar klientrubriker {#step-configuring-client-headers}
+### Steg 1: Konfigurera klienthuvuden {#step-configuring-client-headers}
 
 Lägg till följande i `/clientheaders`avsnittet:
 
@@ -67,7 +67,7 @@ Lägg till följande i `/clientheaders`avsnittet:
 
 **X-REQUEST-COMMAND**
 
-### Steg 2: Konfigurerar skärmfilter {#step-configuring-screens-filters}
+### Steg 2: Konfigurera skärmfilter {#step-configuring-screens-filters}
 
 Om du vill konfigurera skärmfilter lägger du till följande i ***/filter***.
 
@@ -90,7 +90,7 @@ Om du vill konfigurera skärmfilter lägger du till följande i ***/filter***.
 /0222 { /type "allow" /method '(GET|HEAD)' /url '/var/contentsync/content/screens/.+/jcr:content/.+/offline-config_.*\.[0-9]+\.zip' }
 ```
 
-### Steg 3: Inaktiverar Dispatcher-cache {#step-disabling-dispatcher-cache}
+### Steg 3: Inaktiverar Dispatcher Cache {#step-disabling-dispatcher-cache}
 
 Inaktivera dispatcher-cachning för ***/content/screens path***.
 
