@@ -3,15 +3,15 @@ title: Kanaltilldelning - senaste offertförfrågan
 seo-title: Kanaltilldelning - senaste offertförfrågan
 description: Följ den här sidan om du vill veta mer om kanaltilldelning och DagParting.
 feature: redigeringsskärmar, kanaltilldelning
-role: Administrator, Developer
+role: Admin, Developer
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+exl-id: 346eec9a-e291-4b0d-9686-fee1d5a0e7dd
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
 source-wordcount: '1475'
 ht-degree: 1%
 
 ---
-
 
 # Kanaltilldelning {#channel-assignment}
 
@@ -216,7 +216,7 @@ Här delar vi upp varje dag i olika tidsplatser, så att kanalinnehållet spelas
 | Lunch | Dagligen | 11:00 | 3:00 PM |
 | Middag | Dagligen | 3:00 PM | 8:00 PM |
 
-#### Spelar upp innehåll på en viss veckodag {#playing-content-on-a-particular-day-of-the-week}
+#### Spela upp innehåll en viss veckodag {#playing-content-on-a-particular-day-of-the-week}
 
 I det här exemplet visas DayParting som implementerats i ett kasino där live-event inträffar varje helg från kl. 20.00 till kl. 23.00 och erbjudanden är tillgängliga för middagsmeny efter kl. 10.00 till kl. 13.00.
 
