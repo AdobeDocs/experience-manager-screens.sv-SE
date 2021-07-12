@@ -11,15 +11,15 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 discoiquuid: 10b81628-46db-4122-bf9e-96f41f080055
 docset: aem65
 feature: Översikt
-role: Business Practitioner, Data Architect
+role: User, Data Architect
 level: Beginner
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+exl-id: 7814ee96-9220-45b6-b56e-b48a9da9a319
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
 source-wordcount: '667'
 ht-degree: 0%
 
 ---
-
 
 # Del 2: Att tänka på när projekt är omfång {#part-considerations-as-projects-are-scoped}
 
@@ -42,7 +42,7 @@ De viktigaste komponenterna i ett program för digitala signaturer som krävs f�
 >
 >Det är viktigt att definiera en innehållsstrategi som tar hänsyn till hur programmet kommer att utnyttja programvaru-, maskinvaru- och anslutningsresurserna för att lyckas leverera det tänkta värdet.
 
-## Sammanfattning av projektöverväganden i en digital signatur {#summary-of-project-considerations-in-a-digital-signage}
+## Sammanfattning av projektöverväganden i en digital signering  {#summary-of-project-considerations-in-a-digital-signage}
 
 När du utvecklar en innehållsstrategi finns det flera saker att tänka på, bland annat I/O-lager, tillgångstyper, målgruppssegmentering och krav på dagdelsschema.
 
@@ -71,15 +71,15 @@ Genom att tillämpa Day-Part-strategier kan slutkunder segmentera sitt innehåll
 
 Affärsverksamhet är också viktig för att definiera i konversationer om innehållsstrategi. Genom att formatera slutkundernas supportbehov kan ni hantera förväntningarna efter driftsättningen och säkerställa att supportarbetet mäts korrekt.
 
-### Krav för A/V {#a-v-requirements}
+### A/V-krav {#a-v-requirements}
 
 Monteringsscenarier måste också definieras, liksom överväganden kring enhetsåtkomst för service av utrustning. Detta kommer inte bara att påverka de inledande arbets- och utrustningsrekommendationerna utan även att fastställa de löpande service- och supportkraven.
 
-### Platsberedskap {#site-readiness}
+### Webbplatsberedskap {#site-readiness}
 
 Det sista steget i förförsäljningsprocessen är att fastställa webbplatsens beredskap. Detta kan underlättas genom webbplatsundersökningar där information om plats, projekt och förlopp samlas in. Platsberedskap innebär i princip att en plats hämtas innan den installeras, och att eventuella artiklar som kunden behöver för att förbereda eller planera för att adressera innan en tekniker anländer. Vanligtvis omfattar detta element som ström, data, borttagning av möbler och eliminering av damm.
 
-## Del 2: Videosjälvstudiekurs om överväganden som projekt är omfång {#part-video-tutorial-on-considerations-as-projects-are-scoped}
+## Del 2: Videosjälvstudiekurs om att tänka på när projekt är omfång {#part-video-tutorial-on-considerations-as-projects-are-scoped}
 
 Följ självstudiekursen nedan för att lära dig mer om innehållsstrategi, I/O-lager, tillgångstyper, målgruppssegmentering, dagdelar, verksamhetskrav och överväganden som rör beredskap för webbplatser.
 
