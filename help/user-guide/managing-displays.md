@@ -10,15 +10,15 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
 discoiquuid: f8e2e7a3-f3a1-4c35-b055-166752c3fb86
 feature: Redigeringsskärmar
-role: Administrator, Developer
+role: Admin, Developer
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+exl-id: c55dc128-208d-4379-95a8-60a39d495dc0
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
 source-wordcount: '775'
 ht-degree: 0%
 
 ---
-
 
 # Skapa och hantera skärmar {#creating-and-managing-displays}
 
@@ -35,7 +35,7 @@ På den här sidan visas hur du skapar och hanterar skärmar.
 * [Skapa och hantera kanaler](managing-channels.md)
 * [Skapa och hantera platser](managing-locations.md)
 
-## Skapar en ny visning {#creating-a-new-display}
+## Skapa en ny visning {#creating-a-new-display}
 
 >[!NOTE]
 >
@@ -111,7 +111,7 @@ På kontrollpanelen visas olika paneler för att hantera visningsenheter och enh
 
 ![cqdoc9456](assets/cqdoc9456.gif)
 
-### Visa informationspanelen {#display-information-panel}
+### Visa informationspanel {#display-information-panel}
 
 Panelen **VISNINGSINFORMATION** innehåller visningsegenskaperna.
 
