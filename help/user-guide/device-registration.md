@@ -11,21 +11,21 @@ topic-tags: administering
 discoiquuid: 523084f6-bd71-4daf-95b7-fc4c481f76dc
 docset: aem65
 feature: Administrera skärmar, Device Registration
-role: Administrator
+role: Admin
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+exl-id: b2d3a2cd-263f-4142-80da-29ce54cbf391
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
 source-wordcount: '789'
 ht-degree: 0%
 
 ---
 
-
 # Enhetsregistrering {#device-registration}
 
 På följande sida beskrivs enhetsregistreringsprocessen i ett AEM Screens-projekt.
 
-## Registrerar en enhet {#registering-a-device}
+## Registrera en enhet {#registering-a-device}
 
 Enhetsregistreringsprocessen görs på två olika datorer:
 
