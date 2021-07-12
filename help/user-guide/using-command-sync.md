@@ -4,17 +4,17 @@ seo-title: Använda kommandosynkronisering
 description: Följ den här sidan om du vill veta mer om hur du använder kommandosynkronisering.
 seo-description: Följ den här sidan om du vill veta mer om hur du använder kommandosynkronisering.
 feature: Redigeringsskärmar
-role: Administrator, Developer
+role: Admin, Developer
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+exl-id: 3314e0b5-0001-4bce-8ec6-5a6ffbb20f7b
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
 source-wordcount: '796'
 ht-degree: 2%
 
 ---
 
-
-# Kommandosynkronisering {#command-sync}
+# Synkronisera kommandon {#command-sync}
 
 På följande sida beskrivs hur du använder kommandosynkronisering. Med kommandosynkronisering kan du synkronisera uppspelningen mellan olika spelare. Spelarna kan spela upp olika innehåll, men varje resurs måste ha samma längd.
 
@@ -108,7 +108,7 @@ De två enheterna (fönsterstandard och fönsterspelare) visas på panelen **ENH
 >
 >Du kan konfigurera flera enheter som överordnad.
 
-### Synkroniserar med Överordnad {#sync-up-master}
+### Synkronisera med Överordnad {#sync-up-master}
 
 1. När du har angett Chrome-enheten som överordnad kan du synkronisera den andra enheten (i det här fallet Windows-spelaren) så att den synkroniseras med den överordnad.
 Välj den andra enheten (i det här fallet Windows-spelaren) på panelen **ENHETER** och klicka på **Synkronisera till överordnad enhet**, vilket visas i bilden nedan.
