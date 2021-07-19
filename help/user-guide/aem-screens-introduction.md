@@ -6,9 +6,9 @@ feature: Översikt, digital signatur
 role: User
 level: Beginner
 exl-id: 3db8241d-03ed-4c87-bd3e-0ead2b44ae50
-source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
+source-git-commit: da5abdb3b12f8e1e71af2f9dbc80ec2434ae08ed
 workflow-type: tm+mt
-source-wordcount: '557'
+source-wordcount: '584'
 ht-degree: 6%
 
 ---
@@ -18,6 +18,8 @@ ht-degree: 6%
 **AEM (Adobe Experience Manager) Screens**  - en lösning för digital signering som gör det möjligt att publicera dynamiska och interaktiva digitala upplevelser och interaktioner som involverar olika typer av skärmar i kombination med en omfattande digital marknadsföringsplattform.
 
 Kom igång med en enkel digital signeringsupplevelse med [Kickstart för AEM Screens](kickstart-for-aem-screens.md).
+
+Mer information om hur du konfigurerar och skapar ditt AEM Screens-projekt i AEM som en Cloud Service finns här[här](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/screens-as-cloud-service/home.html?lang=en).
 
 ## Översikt {#overview}
 
