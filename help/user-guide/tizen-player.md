@@ -5,9 +5,9 @@ feature: Administrera skärmar, spelare
 role: Admin
 level: Intermediate
 exl-id: 45147959-b0ca-4d87-b89d-293e4b9af171
-source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
+source-git-commit: 3bda698ca44f58c177f8e87a5c50b789966909de
 workflow-type: tm+mt
-source-wordcount: '1208'
+source-wordcount: '1229'
 ht-degree: 0%
 
 ---
@@ -41,6 +41,9 @@ Följ stegen nedan:
 ### Namnge Tizen Player {#name-tizen}
 
 Du kan tilldela din Tizen-spelare ett användarvänligt enhetsnamn och därmed skicka det tilldelade enhetsnamnet till Adobe Experience Manager (AEM). Den här funktionen gör det inte bara möjligt att namnge Tizen-spelaren, utan även att du enkelt kan tilldela rätt innehåll.
+
+>[!NOTE]
+>Du kan bara välja spelarnamnet före registreringen. När spelaren har registrerats går det inte att ändra spelarens namn längre.
 
 Följ stegen nedan för att konfigurera namnet i Tizen-spelaren:
 
