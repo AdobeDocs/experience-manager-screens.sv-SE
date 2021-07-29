@@ -14,9 +14,9 @@ feature: Administrera skärmar, Android Player
 role: Admin
 level: Intermediate
 exl-id: d1331cb8-8bf6-4742-9525-acf18707b4d8
-source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
+source-git-commit: 3bda698ca44f58c177f8e87a5c50b789966909de
 workflow-type: tm+mt
-source-wordcount: '1513'
+source-wordcount: '1534'
 ht-degree: 0%
 
 ---
@@ -181,6 +181,9 @@ När du distribuerar Android-spelaren i grupp blir det omständligt att manuellt
 ## Namnge Android Player {#name-android}
 
 Du kan tilldela Android-spelaren ett användarvänligt enhetsnamn och därmed skicka det tilldelade enhetsnamnet till Adobe Experience Manager (AEM). Med den här funktionen kan du inte bara namnge Android-spelaren utan även enkelt tilldela rätt innehåll.
+
+>[!NOTE]
+>Du kan bara välja spelarnamnet före registreringen. När spelaren har registrerats går det inte att ändra spelarens namn längre.
 
 Följ stegen nedan för att konfigurera namnet i Android-spelaren:
 
