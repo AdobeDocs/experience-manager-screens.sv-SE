@@ -7,9 +7,9 @@ feature: Administrera skärmar
 role: Developer, User
 level: Intermediate
 exl-id: 8b281488-f54d-4f8a-acef-ca60fa2315ed
-source-git-commit: 7e4d3c5ed7299d6439bf9be6d49ec9224dcf71ed
+source-git-commit: 60922dfe062e3b0c8b4385833d8f19a5e1d38a6e
 workflow-type: tm+mt
-source-wordcount: '579'
+source-wordcount: '582'
 ht-degree: 2%
 
 ---
@@ -28,16 +28,15 @@ Följande sida innehåller riktlinjer för hur du konfigurerar dispatcher för e
 
 ## Krav {#prerequisites}
 
->[!IMPORTANT]
->Innan du konfigurerar dispatcher för ett AEM Screens-projekt måste du ha tidigare kunskaper om Dispatcher.
->Mer information finns i [Konfigurera Dispatcher](https://docs.adobe.com/content/help/en/experience-manager-dispatcher/using/configuring/dispatcher-configuration.html).
+Innan du konfigurerar dispatcher för ett AEM Screens-projekt måste du ha tidigare kunskaper om Dispatcher.
+Mer information finns i [Konfigurera Dispatcher](https://docs.adobe.com/content/help/en/experience-manager-dispatcher/using/configuring/dispatcher-configuration.html).
 
 ## Konfigurera Dispatcher {#configuring-dispatcher}
 
 >[!IMPORTANT]
->Följande Dispatcher-konfigurationer gäller endast Manifest version v2. Se [Dispatcher Configurations for Manifest version v3]{#configuring-dispatcherv3} för manifest version V3.
+>Följande Dispatcher-konfigurationer gäller endast Manifest version v2. Se [Dispatcher Configurations for Manifest version v3](#configuring-dispatcherv3) för manifestversion v3.
 
-AEM Screens spelare/enheter använder autentiserad session för att få tillgång till resurserna i publiceringsinstanserna. Om du har flera publiceringsinstanser bör förfrågningarna alltid gå till samma publiceringsinstans så att den autentiserade sessionen är giltig för alla förfrågningar som kommer från AEM Screens spelare/enheter.
+AEM Screens spelare eller enheter använder autentiserad session för att få tillgång till resurserna i publiceringsinstanserna. Om du har flera publiceringsinstanser bör förfrågningarna alltid gå till samma publiceringsinstans så att den autentiserade sessionen är giltig för alla förfrågningar som kommer från AEM Screens spelare/enheter.
 
 Följ stegen nedan för att konfigurera dispatcher för ett AEM Screens-projekt.
 
@@ -138,7 +137,7 @@ Se till att tillåta dessa filter och cachelagra regler i utskickare som kör pu
 
 ## Krav för manifestversion v3{#prerequisites3}
 
-Följ dessa två krav innan du konfigurerar Dispatcher för AEM Screens:
+Följ dessa två krav innan du konfigurerar Dispatcher (manifestversion v3) för AEM Screens:
 
 * Kontrollera att du använder `v3 manifests`. Navigera till `https://<server:port>/system/console/configMgr/com.adobe.cq.screens.offlinecontent.impl.ContentSyncCacheFeatureFlag` och kontrollera att `Enable ContentSync Cache` inte är markerat.
 
