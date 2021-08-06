@@ -7,9 +7,9 @@ feature: Administrera skärmar
 role: Developer, User
 level: Intermediate
 exl-id: 8b281488-f54d-4f8a-acef-ca60fa2315ed
-source-git-commit: 60922dfe062e3b0c8b4385833d8f19a5e1d38a6e
+source-git-commit: ee7e37c5a3b4fa20f1a5cb27ceaf8db4b56a03da
 workflow-type: tm+mt
-source-wordcount: '582'
+source-wordcount: '586'
 ht-degree: 2%
 
 ---
@@ -31,7 +31,7 @@ Följande sida innehåller riktlinjer för hur du konfigurerar dispatcher för e
 Innan du konfigurerar dispatcher för ett AEM Screens-projekt måste du ha tidigare kunskaper om Dispatcher.
 Mer information finns i [Konfigurera Dispatcher](https://docs.adobe.com/content/help/en/experience-manager-dispatcher/using/configuring/dispatcher-configuration.html).
 
-## Konfigurera Dispatcher {#configuring-dispatcher}
+## Konfigurera Dispatcher för manifestversion v2 {#configuring-dispatcher}
 
 >[!IMPORTANT]
 >Följande Dispatcher-konfigurationer gäller endast Manifest version v2. Se [Dispatcher Configurations for Manifest version v3](#configuring-dispatcherv3) för manifestversion v3.
