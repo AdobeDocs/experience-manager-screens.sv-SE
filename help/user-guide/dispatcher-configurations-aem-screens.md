@@ -7,9 +7,9 @@ feature: Administrera skärmar
 role: Developer, User
 level: Intermediate
 exl-id: 8b281488-f54d-4f8a-acef-ca60fa2315ed
-source-git-commit: 449f59f25f1164f1e638921192c538ac46d781d3
+source-git-commit: 0f32fc015729685c724176c25920da6f07707c00
 workflow-type: tm+mt
-source-wordcount: '585'
+source-wordcount: '586'
 ht-degree: 2%
 
 ---
@@ -142,6 +142,8 @@ Följ dessa två krav innan du konfigurerar Dispatcher (manifestversion v3) för
 * Kontrollera att dispatcher flush Agent har konfigurerats på `/etc/replication/agents.publish/dispatcher1useast1Agent` i publiceringsinstansen.
 
    ![bild](/help/user-guide/assets/dispatcher/dispatcher-1.png)
+
+   ![bild](/help/user-guide/assets/dispatcher/dispatcher-3.png)
 
 ### Filter  {#filter-v3}
 
