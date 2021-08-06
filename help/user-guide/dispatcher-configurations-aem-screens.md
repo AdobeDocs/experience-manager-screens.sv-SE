@@ -7,9 +7,9 @@ feature: Administrera skärmar
 role: Developer, User
 level: Intermediate
 exl-id: 8b281488-f54d-4f8a-acef-ca60fa2315ed
-source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
+source-git-commit: d3903605e50668a568e5c336b47ad4c6d8cd1dc0
 workflow-type: tm+mt
-source-wordcount: '393'
+source-wordcount: '432'
 ht-degree: 3%
 
 ---
@@ -26,11 +26,19 @@ Följande sida innehåller riktlinjer för hur du konfigurerar dispatcher för e
 >
 >Om det inte finns någon dispatcher inaktiverar du registreringstjänsten i OSGi-komponentlistan.
 
-## Krav {#pre-requisites}
+## Krav {#prerequisites}
 
-Innan du konfigurerar dispatcher för ett AEM Screens-projekt måste du ha tidigare kunskaper om Dispatcher.
+>[!IMPORTANT]
+>Innan du konfigurerar dispatcher för ett AEM Screens-projekt måste du ha tidigare kunskaper om Dispatcher.
+>Mer information finns i [Konfigurera Dispatcher](https://docs.adobe.com/content/help/en/experience-manager-dispatcher/using/configuring/dispatcher-configuration.html).
 
-Mer information finns i [Konfigurera Dispatcher](https://docs.adobe.com/content/help/en/experience-manager-dispatcher/using/configuring/dispatcher-configuration.html).
+Följ dessa två krav innan du konfigurerar Dispatcher för AEM Screens:
+
+* Kontrollera att du använder `v3 manifests`. Navigera till `https://<server:port>/system/console/configMgr/com.adobe.cq.screens.offlinecontent.impl.ContentSyncCacheFeatureFlag` och kontrollera att `Enable ContentSync Cache` inte är markerat.
+
+* Kontrollera att dispatcher flush Agent har konfigurerats på `/etc/replication/agents.publish/dispatcher1useast1Agent` i publiceringsinstansen.
+
+   ![bild](/help/user-guide/assets/dispatcher/dispatcher-1.png)
 
 ## Konfigurera Dispatcher {#configuring-dispatcher}
 
