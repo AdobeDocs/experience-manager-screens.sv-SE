@@ -1,24 +1,24 @@
 ---
 title: Bädda in ett REACT-program med AEM SPA Editor och Integrera med AEM Screens Analytics
-seo-title: Bädda in ett REACT-program med AEM SPA Editor och Integrera med AEM Screens Analytics
+seo-title: Embedding a REACT application using the AEM SPA Editor and Integrating with AEM Screens Analytics
 description: Följ den här sidan för att lära dig hur du bäddar in en interaktiv single page-applikation med REACT (eller Angular) med den AEM SPA redigeraren som kan konfigureras av affärsfolk i AEM och även hur du integrerar ditt interaktiva program med Adobe Analytics offline.
-seo-description: Följ den här sidan för att lära dig hur du bäddar in en interaktiv single page-applikation med REACT (eller Angular) med den AEM SPA redigeraren som kan konfigureras av affärsfolk i AEM och även hur du integrerar ditt interaktiva program med Adobe Analytics offline.
+seo-description: Follow this page to learn how to embed an interactive single page application using REACT (or Angular) using the AEM SPA editor that can be configured by business professionals in AEM and also how to integrate your interactive application with offline Adobe Analytics.
 uuid: fb56ede0-7b36-4f47-b9e5-d806c9a3c707
 content-type: reference
 topic-tags: developing
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 discoiquuid: e4ecc179-e421-4687-854c-14d31bed031d
 docset: aem65
-feature: Utveckla skärmar
+feature: Developing Screens
 role: Developer
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+exl-id: 7dc7d07e-cd94-4ce1-a106-98669be62046
+source-git-commit: ffc20b29b58e5fa39564d1e924832ff1c678f80c
 workflow-type: tm+mt
-source-wordcount: '722'
+source-wordcount: '723'
 ht-degree: 0%
 
 ---
-
 
 # Bädda in ett REACT-program med AEM SPA Editor och Integrera med AEM Screens Analytics {#embedding-a-react-application-using-the-aem-spa-editor-and-integrating-with-aem-screens-analytics}
 
@@ -67,14 +67,12 @@ Följ stegen nedan för att lägga till den interaktiva REACT-appen i AEM Screen
 
 1. Skapa ett nytt AEM Screens-projekt. Mer information finns i [Skapa och hantera projekt](creating-a-screens-project.md).
 
+1. Skapa en ny **programkanal** (helst) (eller 1x1-mall eller flerzonskanal) i mappen **Kanaler** i skärmsprojektet.
+
    >[!NOTE]
-   >
-   >Skapa en **sekvenskanal** när du skapar en kanal i mappen **Kanaler** i skärmprojektet.
-   >
-   >
+   >**Sekvenskanaler** rekommenderas inte för det här användningsfallet eftersom de i sig har en bildspelslogik som kommer att stå i konflikt med upplevelsens interaktiva karaktär
    >Mer information finns i [Skapa och hantera kanaler](managing-channels.md).
 
-   ![screen_shot_2019-02-15at100330am](assets/screen_shot_2019-02-15at100330am.png)
 
 1. Redigera valfri sekvenskanal och dra och släpp en inbäddad sidkomponent.
 
@@ -84,15 +82,21 @@ Följ stegen nedan för att lägga till den interaktiva REACT-appen i AEM Screen
    >
    >Se till att du lägger till användarinteraktionshändelsen när du tilldelar kanalen till visningen.
 
-1. Klicka på **Redigera** i åtgärdsfältet för att redigera egenskaperna för sekvenskanalen.
+1. Klicka på **Redigera** i åtgärdsfältet för att redigera kanalens egenskaper.
 
    ![screen_shot_2019-02-15at100555am](assets/screen_shot_2019-02-15at100555am.png)
 
-1. Dra och släpp **den inbäddade sidan** och välj hemsidan under mysamplespa-programmet, till exempel ***/content/mysamplespa/en/home***.
+1. Dra och släpp **den inbäddade sidan**-komponenten eller återanvänd den befintliga komponenten i en programkanal och välj startsidan under mysamplespa-programmet, till exempel ***/content/mysamplespa/en/home***.
 
    ![screen_shot_2019-02-15at10104am](assets/screen_shot_2019-02-15at101104am.png)
 
-1. Registrera en spelare för det här projektet så bör du nu kunna se att ditt interaktiva program körs på AEM Screens.
+1. Tilldela kanalen till en skärm
+
+   >[!NOTE]
+   >Se till att du lägger till användarinteraktionshändelsen när du tilldelar kanalen till visningen.
+
+1. 
+   1. Registrera en spelare för det här projektet och tilldela den till visningen. Nu bör du kunna se hur ditt interaktiva program körs på AEM Screens.
 
    Mer information om hur du registrerar en enhet finns i [Device Registration](device-registration.md).
 
@@ -138,4 +142,3 @@ Följ stegen nedan för att integrera SPA med Adobe Analytics med offlinefunktio
    >[!NOTE]
    >
    >Den inbyggda spelarprogramvaran lägger automatiskt till mer information om spelaren och dess körningsmiljö till de anpassade analysdata som du skickar. Därför behöver du kanske inte hämta information om operativsystem/enheter på låg nivå, såvida det inte är absolut nödvändigt. Ni behöver bara fokusera på affärsanalysdata.
-

@@ -1,20 +1,18 @@
 ---
 title: Vanliga frågor om AEM Screens
-seo-title: Vanliga frågor om AEM Screens
+seo-title: AEM Screens FAQs
 description: Följ den här sidan för att få svar på vanliga frågor om ett AEM Screens-projekt.
-seo-description: Följ den här sidan för att få svar på vanliga frågor om ett AEM Screens-projekt.
-uuid: 62e58f3b-0c0a-4006-b6d5-42d2090f47b5
-contentOwner: jsyal
-feature: Digital signatur, innehåll
+seo-description: Follow this page to get answers to FAQs related to an AEM Screens project.
+feature: Digital Signage, Content
 role: Developer
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+exl-id: 67204f04-5535-407c-bd4d-fabfbf850411
+source-git-commit: ffc20b29b58e5fa39564d1e924832ff1c678f80c
 workflow-type: tm+mt
-source-wordcount: '1903'
+source-wordcount: '1872'
 ht-degree: 0%
 
 ---
-
 
 # Vanliga frågor om AEM Screens {#aem-screens-faqs}
 
@@ -84,7 +82,7 @@ Vi rekommenderar att du hämtar enhets-ID från sessionen i stället för att sk
 
 ### 3. Finns det något sätt att neka en enhetsregistreringsbegäran? {#is-there-a-way-to-decline-a-device-registration-request}
 
-Du kan inte avböja registreringsbegäran. Registreringsbegäranden ska i stället upphöra att gälla efter en tidsgräns som har konfigurerats i [Adobe Experience Manager Web Console](https://localhost:4502/system/console/configMgr/com.adobe.cq.screens.device.registration.impl.RegistrationServiceImpl). Som standard är det här värdet inställt på en dag och lagras i en minnescache.
+Du kan inte avböja registreringsbegäran. Registreringsbegäranden ska i stället upphöra att gälla efter en tidsgräns som är konfigurerad i `Adobe Experience Manager Web Console`. Som standard är det här värdet inställt på en dag och lagras i en minnescache.
 
 ## Enhetsövervakning och hälsorapporter {#device-monitoring-and-health-reports}
 
@@ -152,7 +150,7 @@ Följ stegen nedan om du vill aktivera Var aktiv i en Android-spelare:
 
 Det finns inget fönsterläge i Windows Player. Det är alltid helskärmsläge.
 
-### 5. Hur felsöker man om en AEM Screens-spelare kontinuerligt skickar inloggningsbegäranden?{#requests-login}
+### 5. Hur felsöker man om en AEM Screens-spelare kontinuerligt skickar inloggningsförfrågningar?{#requests-login}
 
 Följ stegen nedan för att felsöka en AEM Screens-spelare som kontinuerligt skickar begäranden till `/content/screens/svc.json` och `/libs/granite/core/content/login.validate/j_security_check`:
 
@@ -206,9 +204,7 @@ Så här inaktiverar du Livefyre för att undvika loggfel:
 
 ### 2. Hur lägger jag till information om Oak Index? {#add-oak-index-info}
 
-AEM Screens skapar indexdefinitioner för frågor som används av produkten.
+AEM Screens skapar indexdefinitioner för de frågor som används av produkten.
 Om det finns *WARNs* i `error.log` skapar du ett anpassat index för frågan. Mer information finns i [Konfigurera index](https://experienceleague.adobe.com/docs/experience-manager-65/deploying/deploying/queries-and-indexing.html?lang=en#configuring-the-indexes).
 
 Du kan även referera till en ytterligare resurs på [Oak Documentation](https://jackrabbit.apache.org/oak/docs/query/lucene.html).
-
-
