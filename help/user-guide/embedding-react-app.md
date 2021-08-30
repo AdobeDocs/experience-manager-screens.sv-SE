@@ -13,7 +13,7 @@ feature: Developing Screens
 role: Developer
 level: Intermediate
 exl-id: 7dc7d07e-cd94-4ce1-a106-98669be62046
-source-git-commit: ffc20b29b58e5fa39564d1e924832ff1c678f80c
+source-git-commit: ffc44dbf1822ff4d0e875ef693d48dece248d555
 workflow-type: tm+mt
 source-wordcount: '723'
 ht-degree: 0%
@@ -90,13 +90,12 @@ Följ stegen nedan för att lägga till den interaktiva REACT-appen i AEM Screen
 
    ![screen_shot_2019-02-15at10104am](assets/screen_shot_2019-02-15at101104am.png)
 
-1. Tilldela kanalen till en skärm
+1. Tilldela kanalen till en skärm.
 
    >[!NOTE]
    >Se till att du lägger till användarinteraktionshändelsen när du tilldelar kanalen till visningen.
 
-1. 
-   1. Registrera en spelare för det här projektet och tilldela den till visningen. Nu bör du kunna se hur ditt interaktiva program körs på AEM Screens.
+1. Registrera en spelare för det här projektet och tilldela den till visningen. Nu bör du kunna se hur ditt interaktiva program körs på AEM Screens.
 
    Mer information om hur du registrerar en enhet finns i [Device Registration](device-registration.md).
 
