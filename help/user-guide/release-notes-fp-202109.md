@@ -5,9 +5,9 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 index: false
-source-git-commit: e96c314ea7487932d2ab994ffc41ca8d2af61c5c
+source-git-commit: e1f46a908a10bdf08985c857fb9302d3e111e9a1
 workflow-type: tm+mt
-source-wordcount: '376'
+source-wordcount: '334'
 ht-degree: 0%
 
 ---
@@ -29,30 +29,23 @@ Releasedatum för AEM Screens Feature Pack 202109 är 9 september 2021.
 
 ### Nyheter {#what-is-new}
 
-* **Låsa sida i en AEM Screens-kanal**
+* **Stöd för miniatyrbilder för videoklipp**
 
-   AEM Screens har nu stöd för *Låsning av en sida*, som redan har implementerats i AEM Sites. Med Adobe Experience Manager (AEM) kan du låsa en sida så att ingen annan kan ändra innehållet. Det här är användbart när du gör många ändringar på en viss sida eller när du behöver frysa en sida en kort stund.
+   Miniatyrbildsstöd för videor i stöds nu i AEM Screens. Innehållsförfattare kan definiera en miniatyrbild för videoklipp så att bilden kan användas som platshållare och testa uppspelning och målgruppsanpassning av innehållet medan videon färdigställs av rätt team. Bilden kan också användas om videouppspelningen misslyckas.
+Mer information finns i Stöd för miniatyrbilder för videoklipp.
 
-* **Namnge AEM Screens Player-enhet**
+* **Grundläggande uppspelningsövervakning**
 
-   AEM Screens-spelarna kan nu skicka ett enhetsnamn till Adobe Experience Manager (AEM).
-När gruppregistrering används som standard för att registrera en enhet anges ett systemgenererat användarnamn i namnfältet. Som ett alternativ kan kunden använda en tillgångstagg eller ett annat användarvänligt namn så att den syns i AEM och är lättare att tilldela rätt innehåll.
+   AEM Screens har nu stöd för grundläggande uppspelningsövervakning. Spelaren rapporterar nu olika uppspelningsmått för varje ping (standardvärdet är 30 sekunder). Baserat på mätvärden ger det möjlighet att upptäcka olika kantfall (fastnålade upplevelser, tom skärm, schemaläggningsproblem osv.). Med den här funktionen kan teamet fjärrövervaka om en spelare spelar upp innehåll, förbättrar reaktiviteten till tomma skärmar eller trasiga upplevelser i fältet och minskar risken för att slutanvändaren får en trasig upplevelse.
+Mer information finns i Grundläggande uppspelningsövervakning.
 
-   Läs följande dokumentation för att lära dig hur du konfigurerar namnet i varje operativsystem som stöds:
+* **Uppdateringar av rapporten för innehållstilldelning**
 
-   * [Android](/help/user-guide/implementing-android-player.md#name-android)
-   * [Windows](/help/user-guide/implementing-windows-player.md#name-windows)
-   * [Tizen](/help/user-guide/tizen-player.md#name-tizen)
-   * [Chrome OS](/help/user-guide/implementing-chrome-os-player.md#name-chrome)
 
-* **Generering av manifest**
-
-   Snabbare generering av kanalmanifest med förbättrade prestanda, till exempel tilldelning av mindre resurser på servern.
 
 ### Felkorrigeringar {#bug-fixes}
 
-* Spelaren visade en svart skärm vid växling till kanal som innehåller dynamisk inbäddad sekvens.
-* Skärmspelarna blockerar nu bytet till en trasig kanal som ytterligare undviker 404-fel eller en sida med ett felmeddelande.
+
 
 ### Lanserade AEM Screens-spelare {#released-aem-screens-players}
 
