@@ -5,9 +5,9 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 index: false
-source-git-commit: e1f46a908a10bdf08985c857fb9302d3e111e9a1
+source-git-commit: 33e71d5d9b02036aa91db093274dcb058769f288
 workflow-type: tm+mt
-source-wordcount: '334'
+source-wordcount: '397'
 ht-degree: 0%
 
 ---
@@ -41,6 +41,10 @@ Mer information finns i Grundläggande uppspelningsövervakning.
 
 * **Uppdateringar av rapporten för innehållstilldelning**
 
+* **Stöd för V3-manifestationer**
+
+   Du kan nu konfigurera Dispatcher för manifestversion v3. Mer information finns i [Configuring Dispatcher for Manifest Version v3](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/administering/dispatcher-configurations-aem-screens.html?lang=en#configuring-dispatcherv3).
+Om du dessutom använder anpassade komponenter som en del av v3-manifestet läser du [Mall för anpassade hanterare](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/developing/developing-custom-component-tutorial-develop.html?lang=en#custom-handlers).
 
 
 ### Felkorrigeringar {#bug-fixes}
