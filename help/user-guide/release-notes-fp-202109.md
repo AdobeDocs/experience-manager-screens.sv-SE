@@ -5,9 +5,9 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 index: false
-source-git-commit: 060ab6a906597ab8e8789fab6932cec310cc06f5
+source-git-commit: c6506ca62e806ec11d3380d6ac7670bcfcf13adb
 workflow-type: tm+mt
-source-wordcount: '720'
+source-wordcount: '763'
 ht-degree: 0%
 
 ---
@@ -40,6 +40,8 @@ Mer information finns i Stöd för miniatyrbilder för videoklipp.
 Mer information finns i Grundläggande uppspelningsövervakning.
 
 * **Uppdateringar av rapporten för innehållstilldelning**
+
+   Tilldelningsrapporten för innehåll har nu optimerats och förbättrats med förbättrad användarupplevelse. Den hämtningsbara rapporten innehåller förbättrade spelarrelaterade enheter som platser, skärmar och enheter på en kalkylbladsflik och information om innehållsleverantören, t.ex. kanaler och resurser på en annan flik.
 
 * **Stöd för V3-manifestationer**
 

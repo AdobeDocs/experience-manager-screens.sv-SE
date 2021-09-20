@@ -1,17 +1,17 @@
 ---
 title: Installera skärmuppspelaren
-seo-title: Installera skärmuppspelaren
+seo-title: Installing Screens Player
 description: Följ den här sidan om du vill veta mer om hur du installerar tillgängliga AEM Screens Player.
-seo-description: Installera skärmuppspelaren
+seo-description: Installing Screens Player
 contentOwner: jsyal
-feature: Administrera skärmar
+feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: bb979a71-7235-429f-b520-6d85b8b666fa
-source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
+source-git-commit: c6506ca62e806ec11d3380d6ac7670bcfcf13adb
 workflow-type: tm+mt
-source-wordcount: '190'
-ht-degree: 1%
+source-wordcount: '512'
+ht-degree: 0%
 
 ---
 
@@ -33,6 +33,49 @@ Om du vill hämta **AEM Screens Player** går du till sidan [AEM 6.5 Player Down
 >1. Navigera till **Konfiguration** på den vänstra åtgärdsmenyn och ange platsadressen för den AEM instansen i **Server** och klicka på **Spara**.
 >1. Klicka på länken **Registrering** i den vänstra åtgärdsmenyn och stegen nedan för att slutföra enhetsregistreringsprocessen.
 
+
+## Grundläggande uppspelningsövervakning {#playback-monitoring}
+
+Spelaren rapporterar olika uppspelningsmått med varje `ping` som har standardvärdet 30 sekunder. Baserat på dessa mätvärden kan vi identifiera olika kantfall, t.ex. problem med fastsittning, tomma skärmar och schemaläggning. Detta gör att vi kan förstå och felsöka problem på enheten och därmed underlätta en utredning och korrigerande åtgärder med dig.
+
+Med grundläggande uppspelningsövervakning i en AEM Screens-spelare kan vi:
+
+* Fjärrövervaka om en spelare spelar upp innehållet på rätt sätt.
+
+* Förbättra reaktiviteten till tomma skärmar eller trasiga upplevelser på fältet.
+
+* Minskar risken för att slutanvändaren får en trasig upplevelse.
+
+### Förstå egenskaper {#understand-properties}
+
+Följande egenskaper ingår i varje `ping`:
+
+| Egenskap | Beskrivning |
+|---|---|
+| id {string} | spelarens identifierare |
+| activeChannel {string} | spelar upp kanalsökvägen eller null om inget är schemalagt |
+| activeElements {string} | kommaavgränsad sträng, för närvarande synliga element i alla uppspelningskanaler (flera vid en flerzonslayout) |
+| isDefaultContent {boolean} | true om den spelande kanalen betraktas som en standard- eller reservkanal (d.v.s. har prioritet 1 och inget schema) |
+| hasContentChanged {boolean} | true om innehållet har ändrats under de senaste fem minuterna, annars false |
+| lastContentChange {string} | tidsstämpel för den senaste innehållsändringen |
+
+>[!NOTE]
+>Om du vill kan du aktivera en mer avancerad egenskap från spelarens inställningar (Aktivera övervakning av uppspelning). Det vill säga:
+>|Egenskap|Beskrivning|
+>|—|—|
+>|isContentRendering {boolean}|true om grafikprocessorn kan bekräfta att det faktiska innehållet spelas upp (baserat på pixelanalys)|
+
+### Begränsningar {#limitations}
+
+Några begränsningar för grundläggande uppspelningsövervakning visas nedan:
+
+* Spelaren rapporterar ett eget uppspelningsläge till servern, vilket kräver en aktiv anslutning.
+
+* Egenskapen `isContentRendering` som kontrollerar grafikprocessorn är för närvarande för resurskrävande för att aktiveras som standard och kräver explicit deltagande från spelarinställningarna. Du bör inte använda den tillsammans med videofilmer i produktionen.
+
+* Den här funktionen stöds bara för sekvenskanaler och täcker ännu inte de interaktiva kanalernas (SPA) användningsfall.
+
+* Måtten är ännu inte helt exponerade för våra kunder. Vi arbetar hårt med att aktivera kontrollpanelsliknande rapporterings- och varningsmekanismer inom den närmaste framtiden.
 
 ### Ytterligare resurser {#additional-resources}
 
