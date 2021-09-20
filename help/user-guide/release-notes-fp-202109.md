@@ -5,9 +5,9 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 index: false
-source-git-commit: 07b5b6159b09c0c1301a5e782dfe959d0b83a7d2
+source-git-commit: 060ab6a906597ab8e8789fab6932cec310cc06f5
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '720'
 ht-degree: 0%
 
 ---
@@ -49,11 +49,85 @@ Om du dessutom använder anpassade komponenter som en del av v3-manifestet läse
 
 ### Felkorrigeringar {#bug-fixes}
 
+**Spelarsida**
+
+* Åtgärdade fel vid filcachning genom att ersätta resurser med återgivningar.
+
+* Spelarna visar nu endast resursrenderingar om det finns renderingsmappning.
+
+* Du kan nu konfigurera slackvarningar baserat på skräppostloggar.
+
+* Förbättra ping för att återautentisera om svaret inte är giltigt i JSON.
+
+* Numeriska kanalnamn/roller orsakade en tom skärm.
+
+* Hämta optimerade renderingar via SmartSync.
+
+* Omvandla mappningen till en lista med återgivningsnycklar.
+
+* Ta bort åtkomsten till cmd.exe och reg.exe i Windows-spelaren.
+
+* Begränsa csrf-tokenanrop.
+
+* En spelare måste rapportera sin senaste lyckade uppspelningshändelse.
+
+* En spelare måste rapportera sin uppspelningsstatus.
+
+* Player hämtar inte resurser igen när `ALL`-cachen har rensats.
+
+* Som spelaradministratör kan du nu välja ett spelarnamn.
+
+* Att kanaltilldelning tas bort från visningen återspeglas inte i spelaren.
+
+* Om spelaren läses in igen medan kanaluppdateringen hämtas, ignorerar spelaren uppdateringen.
+
+* Den inbäddade sidkomponenten respekterar inte pekhändelser.
+
+* Fjärretablering av Tizen-spelaren stöds nu.
+
+**Serversida**
+
+* Målvideon visas inte
+* Ansiktsvillkor vid sändning av visningsdata till efterföljande aktiviteter.
+
+* Kanalförhandsgranskning fungerar inte för kanaler som innehåller videoklipp.
+
+* Förhandsgranskningsläget är tomt för den delade skärmkanalen.
+
+* Videominiatyrbilder återges tomma med aktiverade adaptiva renderingar.
+
+* Uppdatera automatiskt kanalmanifestet om den refererade sidan publiceras.
+
+* Kanaler som JSON inte inkluderar anpassade kanaler (#942)
+
+* Borttagna enheter blockerar nu inte skärmreplikeringskön.
+
+* Manifestet innehåller inte riktat innehåll eller platsinbäddade sidor.
+
+* Ny kärnbildkomponent har inte lagts till i kanalmanifestet.
+
+* Hämtning av optimerade återgivningar via SmartSync stöds nu.
+
+* Spela upp optimerad återgivning för alla resurser.
+
+* Stöd för flera typer av innehållsleverantörer har lagts till
+
+* Strategin för uppspelning av inbäddad sekvens har brutits och detta har nu åtgärdats.
+
+* Offlinemanifest med begärandeparametern `wcmmode` för HTML-posten, vilket gör den otillgänglig.
+
+* En tom dynamisk inbäddad sekvens kan ibland orsaka en tom skärm.
+
+* En spelare måste rapportera sin uppspelningsstatus.
+
+* Video spelas upp i `Tiny mode` och inte som helskärmsvideo på enheten.
+
+* OSGi-lösenord visas som klartext.
 
 
 ### Lanserade AEM Screens-spelare {#released-aem-screens-players}
 
-Följande AEM Screens-spelare finns för AEM 6.5 Feature Pack 8:
+Följande AEM Screens-spelare finns för AEM 6.5 Feature Pack 9:
 
 * ChromeOS
 * Windows
