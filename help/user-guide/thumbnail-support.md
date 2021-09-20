@@ -2,9 +2,9 @@
 title: Stöd för miniatyrbilder för videofilmer i AEM Screens
 description: På den här sidan beskrivs hur du lägger till stöd för miniatyrbilder för videoklipp på skärmar.
 index: false
-source-git-commit: e1f46a908a10bdf08985c857fb9302d3e111e9a1
+source-git-commit: 07b5b6159b09c0c1301a5e782dfe959d0b83a7d2
 workflow-type: tm+mt
-source-wordcount: '420'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,6 @@ Med stöd för miniatyrbilder kan du:
 Följ stegen nedan för att använda miniatyrbilden i videoklipp:
 
 1. Navigera till en befintlig skärmkanal eller skapa en ny kanal.
-
 
 1. Markera kanalen och klicka på **Redigera** i åtgärdsfältet för att öppna redigeraren.
 
