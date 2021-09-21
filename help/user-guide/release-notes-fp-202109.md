@@ -5,9 +5,9 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 index: false
-source-git-commit: c6506ca62e806ec11d3380d6ac7670bcfcf13adb
+source-git-commit: 898eb8e7e9b7442aead9fb6fb89c2646aef65e05
 workflow-type: tm+mt
-source-wordcount: '763'
+source-wordcount: '753'
 ht-degree: 0%
 
 ---
@@ -59,17 +59,15 @@ Om du dessutom använder anpassade komponenter som en del av v3-manifestet läse
 
 * Du kan nu konfigurera slackvarningar baserat på skräppostloggar.
 
-* Förbättra ping för att återautentisera om svaret inte är giltigt i JSON.
+* Förbättrad ping för att autentisera igen om svaret inte är giltigt i JSON.
 
 * Numeriska kanalnamn/roller orsakade en tom skärm.
 
 * Hämta optimerade renderingar via SmartSync.
 
-* Omvandla mappningen till en lista med återgivningsnycklar.
+* Mappningen omvandlades till en lista med återgivningsnycklar.
 
-* Ta bort åtkomsten till cmd.exe och reg.exe i Windows-spelaren.
-
-* Begränsa csrf-tokenanrop.
+* Åtkomsten till `cmd.exe` och `reg.exe` i Windows-spelaren har tagits bort.
 
 * En spelare måste rapportera sin senaste lyckade uppspelningshändelse.
 
@@ -83,7 +81,7 @@ Om du dessutom använder anpassade komponenter som en del av v3-manifestet läse
 
 * Om spelaren läses in igen medan kanaluppdateringen hämtas, ignorerar spelaren uppdateringen.
 
-* Den inbäddade sidkomponenten respekterar inte pekhändelser.
+* Den inbäddade sidkomponenten respekterar nu pekhändelser.
 
 * Fjärretablering av Tizen-spelaren stöds nu.
 
@@ -100,13 +98,11 @@ Om du dessutom använder anpassade komponenter som en del av v3-manifestet läse
 
 * Uppdatera automatiskt kanalmanifestet om den refererade sidan publiceras.
 
-* Kanaler som JSON inte inkluderar anpassade kanaler (#942)
-
 * Borttagna enheter blockerar nu inte skärmreplikeringskön.
 
-* Manifestet innehåller inte riktat innehåll eller platsinbäddade sidor.
+* Manifestet innehöll inte riktat innehåll eller platsinbäddade sidor. Detta har nu åtgärdats.
 
-* Ny kärnbildkomponent har inte lagts till i kanalmanifestet.
+* Ny kärnbildkomponent läggs nu till i kanalmanifestet.
 
 * Hämtning av optimerade återgivningar via SmartSync stöds nu.
 
@@ -118,14 +114,11 @@ Om du dessutom använder anpassade komponenter som en del av v3-manifestet läse
 
 * Offlinemanifest med begärandeparametern `wcmmode` för HTML-posten, vilket gör den otillgänglig.
 
-* En tom dynamisk inbäddad sekvens kan ibland orsaka en tom skärm.
+* En tom dynamisk inbäddad sekvens orsakade ibland en tom skärm.
 
-* En spelare måste rapportera sin uppspelningsstatus.
+* Spelaren rapporterar nu sin uppspelningsstatus.
 
-* Video spelas upp i `Tiny mode` och inte som helskärmsvideo på enheten.
-
-* OSGi-lösenord visas som klartext.
-
+* Videon spelades upp i `Tiny mode` och spelades inte upp som helskärmsvideo på enheten. Problemet har åtgärdats nu.
 
 ### Lanserade AEM Screens-spelare {#released-aem-screens-players}
 
