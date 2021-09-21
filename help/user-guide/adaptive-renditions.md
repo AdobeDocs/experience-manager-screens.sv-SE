@@ -1,15 +1,16 @@
 ---
 title: Adaptiva renderingar i AEM Screens
-description: På den här sidan beskrivs hur du använder adaptiva renderingar i AEM Screens.
+description: This page describes Architectures Overview and Configurations for Adaptive Renditions in AEM Screens.
 index: false
-source-git-commit: e56b14639370b9ecd8924270e827dbd70112581b
+source-git-commit: 773632de04b10b2e9040fede8e85e8d9092be5a6
 workflow-type: tm+mt
-source-wordcount: '666'
+source-wordcount: '683'
 ht-degree: 0%
 
 ---
 
-# Adaptiva renderingar {#adaptive-renditions}
+
+# Adaptiva renderingar: Arkitektöversikt och konfigurationer {#adaptive-renditions}
 
 ## Introduktion {#introduction}
 
@@ -59,12 +60,11 @@ Om du vill aktivera funktionen lägger du till minst en mappningsregel och kontr
 
 ## Konfigurera Författare och Publicera {#setup-author-publish}
 
-Följ stegen nedan för att konfigurera författare och publicera:
+Tänk på följande rekommendationer i Författare och Publicera innan du använder Adaptiv återgivning:
 
 * Återgivningsmappningen måste replikeras manuellt.
 
 * Resursåtergivningar replikeras inte som standard. Alla relevanta resurser måste replikeras manuellt.
-
 
 ## Lägga till återgivningsmappningsregler {#adding-rendition-mapping-rules}
 
@@ -90,4 +90,4 @@ Följ stegen nedan för att konfigurera författare och publicera:
 
 ## Nästa steg {#next-steps}
 
-När du har överfört renderingarna kan du nu använda adaptiva renderingar i dina AEM Screens-kanaler.
+När du har överfört renderingarna kan du nu använda adaptiva renderingar i dina AEM Screens-kanaler. Mer information finns i Använda adaptiva återgivningar.
