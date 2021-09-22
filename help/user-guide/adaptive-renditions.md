@@ -2,9 +2,9 @@
 title: Adaptiva renderingar i AEM Screens
 description: This page describes Architectures Overview and Configurations for Adaptive Renditions in AEM Screens.
 index: false
-source-git-commit: b597370d9ee9e2b06ebcd6915ecd949c003f8a50
+source-git-commit: f9e10463418ddc44f75c7d6c689298dcba20338f
 workflow-type: tm+mt
-source-wordcount: '545'
+source-wordcount: '525'
 ht-degree: 1%
 
 ---
@@ -20,24 +20,24 @@ Med adaptiva renderingar kan enheterna automatiskt välja den bästa renderingen
 
 Som AEM Screens-utvecklare kan du nu konfigurera enhetsspecifika resursrenderingar så att de hämtas och spelas upp automatiskt utan att du behöver skapa alla innehållsvarianter manuellt. Du måste konfigurera de adaptiva återgivningarna innan en innehållsförfattare kan använda den här funktionen i en AEM Screens-kanal.
 
-Om du har distribuerat en mängd olika enheter kan du använda den här funktionen för att automatiskt hämta och spela upp den lämpligaste återgivningen av en resurs baserat på reglerna.
-
 ## Arkitektöversikt {#architectural-overview}
 
-Anpassade återgivningar baseras på idén att ha flera resursåtergivningar namngivna efter en viss namnkonvention. Beslutet att spela upp en viss återgivning görs genom att utvärdera mediefrågeuttryck som bara kan matchas på enheter med förväntade funktioner. Möjligheten att ha ett associerat namngivningsmönster definierar en regel för återgivningsmappning. När alla tillgängliga uttryck har beräknats samlar skärmspelaren in de namngivningsmönster som motsvarar matchande regler. Mönstren används för att hitta rätt återgivningar under sekvensuppspelningen genom att leta efter mönstren i återgivningsnamnen.
+Anpassade återgivningar baseras på idén att ha flera resursåtergivningar namngivna efter en viss namnkonvention. Beslutet att spela upp en viss återgivning görs genom att utvärdera mediefrågeuttryck som bara kan matchas på enheter med förväntade funktioner.
+
+Möjligheten att ha ett associerat namngivningsmönster definierar en regel för återgivningsmappning, till exempel stående eller liggande, vilket visas i bilden nedan. När alla tillgängliga uttryck har beräknats samlar skärmspelaren in de namngivningsmönster som motsvarar matchande regler. Mönstren används för att hitta rätt återgivningar under sekvensuppspelningen genom att leta efter mönstren i återgivningsnamnen.
 
 ![bild](/help/user-guide/assets/adaptive-renditions/adaptive-renditions.png)
 
 ## Konfigurera inställningar för användning av adaptiva renderingar {#setup-adaptive-renditions}
 
-För att aktivera funktionen Adaptiva återgivningar bör mappningsreglerna finnas och kontextmedveten konfiguration (CA) kan lösas för kanaler och skärmar.
+Om du vill aktivera funktionen Adaptiv återgivning bör följande mappningsregler finnas och kontextmedveten konfiguration (CA) kan lösas för kanaler och skärmar.
 
 >[!NOTE]
 >Mer information om innehållsanpassade konfigurationer finns i [här](https://sling.apache.org/documentation/bundles/context-aware-configuration/context-aware-configuration.html).
 
 Konfigurera installationen genom att följa stegen nedan:
 
-1. Kontrollera om återgivningsmappningskonfigurationen finns i `JCR`. Alla de senaste funktionspaketen har den här nodstrukturen ifylld i förväg.
+1. Navigera till **CRXDE Lite**. Kontrollera om konfigurationen **rendering-mapping** finns i `JCR`, vilket visas i bilden nedan.
 
    >[!NOTE]
    >Alla de senaste funktionspaketen har den här nodstrukturen ifylld i förväg.
@@ -46,11 +46,11 @@ Konfigurera installationen genom att följa stegen nedan:
 
 1. Kontrollera att återgivningsmappningskonfigurationen är associerad med projektet Skärmar.
 
-   * Alla nya projekt som skapas med projektguiden för skärmar innehåller en referens som pekar på återgivningsmappningskonfigurationen.
+   * Alla nya projekt som skapas med projektguiden för skärmar innehåller en referens som pekar på konfigurationen **rendering-mapping**.
 
       ![bild](/help/user-guide/assets/adaptive-renditions/mapping-rules2.png)
 
-   * I en äldre version av Skärmprojekt måste associationen definieras explicit genom att lägga till `sling:configRef`-egenskapspunkterna vid `/conf/screens` till projektinnehållsnoden.
+   * I en äldre version av Skärmprojekt måste du explicit definiera associationen genom att lägga till `sling:configRef`-egenskapspunkterna vid `/conf/screens` till projektinnehållsnoden.
 
       ![bild](/help/user-guide/assets/adaptive-renditions/mapping-rules3.png)
 
@@ -64,7 +64,7 @@ Tänk på följande rekommendationer i Författare och Publicera innan du använ
 
 ## Lägga till återgivningsmappningsregler {#add-rendition-mapping-rules}
 
-1. Om du vill lägga till en mappningsregel måste du skapa en nod av typen `nt:unstructured` under noden för återgivningsmappning.
+1. Om du vill lägga till en mappningsregel måste du skapa en nod av typen `nt:unstructured` under noden **rendering-mapping**.
 
 1. Lägg till uttrycksegenskapen med värdet som innehåller frågeuttrycket.
 
@@ -74,7 +74,6 @@ Tänk på följande rekommendationer i Författare och Publicera innan du använ
 1. Lägg till egenskapen pattern med värdet som innehåller det namngivningsmönster som ska markeras, om uttrycket utvärderas som true.
 
    ![bild](/help/user-guide/assets/adaptive-renditions/mapping-rules4.png)
-
 
 
 ## Nästa steg {#next-steps}
