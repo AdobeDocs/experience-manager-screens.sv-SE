@@ -2,10 +2,10 @@
 title: Adaptiva renderingar i AEM Screens
 description: This page describes Architectures Overview and Configurations for Adaptive Renditions in AEM Screens.
 index: false
-source-git-commit: f9e10463418ddc44f75c7d6c689298dcba20338f
+source-git-commit: 951fd38d5f69cdab1bf9b23f07b4e92075e87baf
 workflow-type: tm+mt
-source-wordcount: '525'
-ht-degree: 1%
+source-wordcount: '552'
+ht-degree: 0%
 
 ---
 
@@ -28,7 +28,7 @@ Möjligheten att ha ett associerat namngivningsmönster definierar en regel för
 
 ![bild](/help/user-guide/assets/adaptive-renditions/adaptive-renditions.png)
 
-## Konfigurera inställningar för användning av adaptiva renderingar {#setup-adaptive-renditions}
+## Lägga till en återgivningsmappningsegenskap i skärmsprojektet {#rendition-mapping-new}
 
 Om du vill aktivera funktionen Adaptiv återgivning bör följande mappningsregler finnas och kontextmedveten konfiguration (CA) kan lösas för kanaler och skärmar.
 
@@ -37,22 +37,22 @@ Om du vill aktivera funktionen Adaptiv återgivning bör följande mappningsregl
 
 Konfigurera installationen genom att följa stegen nedan:
 
-1. Navigera till **CRXDE Lite**. Kontrollera om konfigurationen **rendering-mapping** finns i `JCR`, vilket visas i bilden nedan.
+1. Navigera till **CRXDE Lite**. Kontrollera om konfigurationen **rendering-mapping** finns i `/conf/screens/sling:configs/rendition-mapping`, vilket visas i bilden nedan.
 
-   >[!NOTE]
-   >Alla de senaste funktionspaketen har den här nodstrukturen ifylld i förväg.
+   >![bild](/help/user-guide/assets/adaptive-renditions/mapping-rules1.png)
 
-   ![bild](/help/user-guide/assets/adaptive-renditions/mapping-rules1.png)
+   >[!IMPORTANT]
+   >Om du installerade den senaste funktionspaketet 20109 visas **rendition-mapping**-nodstrukturen i `/conf/screens/sling:configs/rendition-mapping` i CRXDE Lite. Se [Versionsinformation för funktionspaket 20109](/help/user-guide/release-notes-fp-202109.md) för mer information om det senaste funktionspaketet.
+   >Kontrollera att konfigurationen **rendering-mapping** är associerad för befintliga projekt. Mer information finns i [Lägga till återgivningsmappning i ett befintligt projekt](#rendition-mapping-existing)-avsnitt.
 
-1. Kontrollera att återgivningsmappningskonfigurationen är associerad med projektet Skärmar.
+### Lägga till en återgivningsmappningsegenskap i ett befintligt projekt {#rendition-mapping-existing}
 
-   * Alla nya projekt som skapas med projektguiden för skärmar innehåller en referens som pekar på konfigurationen **rendering-mapping**.
+1. Navigera till **CRXDE Lite**.
 
-      ![bild](/help/user-guide/assets/adaptive-renditions/mapping-rules2.png)
+1. Definiera explicit återgivningsmappningsassociationen genom att lägga till `sling:configRef`-egenskapspunkterna vid `/conf/screens` till projektinnehållsnoden, vilket visas i bilden nedan.
 
-   * I en äldre version av Skärmprojekt måste du explicit definiera associationen genom att lägga till `sling:configRef`-egenskapspunkterna vid `/conf/screens` till projektinnehållsnoden.
+   ![bild](/help/user-guide/assets/adaptive-renditions/renditon-mapping2.png)
 
-      ![bild](/help/user-guide/assets/adaptive-renditions/mapping-rules3.png)
 
 ## Konfigurera Författare och Publicera {#setup-author-publish}
 
