@@ -2,10 +2,10 @@
 title: Använda adaptiva renderingar i AEM Screens
 description: På den här sidan beskrivs hur du använder adaptiva renderingar i AEM Screens.
 index: false
-source-git-commit: 773632de04b10b2e9040fede8e85e8d9092be5a6
+source-git-commit: 08f47e6542a7832f64d5d0dde9cdd463176f5f5d
 workflow-type: tm+mt
-source-wordcount: '195'
-ht-degree: 3%
+source-wordcount: '376'
+ht-degree: 0%
 
 ---
 
@@ -21,16 +21,39 @@ Som AEM Screens Content Author kan du nu konfigurera enhetsspecifika materialåt
 
 Om du har distribuerat en mängd olika enheter kan du använda den här funktionen för att automatiskt hämta och spela upp den lämpligaste återgivningen av en resurs baserat på reglerna.
 
-## Förutsättningar {#pre-reqs}
-
 >[!IMPORTANT]
 >Innan du börjar använda adaptiva renderingar i en AEM Screens-kanal bör du läsa mer om den här funktionens arkitektoniska översikt och konfiguration. Se Adaptiva renderingar: Arkitektöversikt och konfigurationer för mer information.
 
-## Använda adaptiva renderingar i en AEM Screens-kanal {#using-adaptive-renditions}
+## Migreringsstrategi {#migration-strategy}
 
-När du har lagt till mappningsregler och överfört återgivningar kan du nu använda adaptiva återgivningar i dina resurser i en AEM Screens-kanal.
+>[!IMPORTANT]
+>För stora nätverk rekommenderar vi att migreringen görs gradvis för att minska riskerna eftersom funktionen kommer att medföra förändringar i manifest- och fillagringsformatet.
 
-Följ stegen nedan:
+I följande diagram visas migreringsstrategin för stora nätverk:
+
+![bild](/help/user-guide/assets/adaptive-renditions/migration-strategy1.png)
+
+Om du vill aktivera funktionen lägger du till minst en mappningsregel och kontrollerar att konfigurationen för återgivningsmappning kan matchas i kontexten för skärmar och kanaler. Följ stegen nedan för att migrera:
+
+1. Lägg till [Återgivningsmappningsregler](/help/user-guide/adaptive-renditions.md).
+1. Skapa en mapp för nya kanaler och lägg till en referenspunkt vid återgivningsmappningskonfigurationen.
+1. Skapa nya kanaler som ersätter de gamla och överför renderingar.
+1. Tilldela om skärmar till de nya kanalerna.
+1. Lägg till en referens till de migrerade skärmarna eller platserna som pekar på återgivningsmappningskonfigurationen.
+1. Upprepa steg 3, 4 och 5 för alla återstående kanaler och skärmar.
+
+   >[!NOTE]
+   >När migreringen är klar måste du se till att ta bort alla konfigurationsreferenser från kanaler, skärmar och platser och lägga till en enda i projektinnehållsnoden.
 
 
+## Överföra renderingar och använda adaptiva renderingar i en AEM Screens-kanal {#upload-renditions}
 
+1. Skapa en version av resursen som bättre passar signeringsvisningen, till exempel `portrait orientation`.
+
+1. Välj namngivningsmönstret för återgivningen, till exempel`portrait`.
+
+1. Byt namn på resursfilen så att den innehåller mönstret, till exempel `my_asset_portrait.png`.
+
+1. Klicka på **Lägg till återgivning** för att överföra återgivningen, vilket visas i bilden nedan.
+
+   ![bild](/help/user-guide/assets/adaptive-renditions/add-rendition.png)
