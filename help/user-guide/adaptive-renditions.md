@@ -2,7 +2,7 @@
 title: Adaptiva renderingar i AEM Screens
 description: This page describes Architectures Overview and Configurations for Adaptive Renditions in AEM Screens.
 index: false
-source-git-commit: 08f47e6542a7832f64d5d0dde9cdd463176f5f5d
+source-git-commit: fcc7126ac545c80004d718888b39c6477624cd33
 workflow-type: tm+mt
 source-wordcount: '506'
 ht-degree: 1%
@@ -30,7 +30,7 @@ Anpassade återgivningar baseras på idén att ha flera resursåtergivningar nam
 
 ## Konfigurera inställningar för användning av adaptiva renderingar {#setup-adaptive-renditions}
 
-För att aktivera funktionen Adaptiva återgivningar bör mappningsreglerna finnas och CA-konfigurationen kan lösas för kanaler och skärmar:
+För att aktivera funktionen Adaptiva återgivningar bör mappningsreglerna finnas och den kontextmedvetna konfigurationen kan lösas för kanaler och skärmar:
 
 1. Kontrollera om återgivningsmappningskonfigurationen finns i `JCR`. Alla de senaste funktionspaketen har den här nodstrukturen ifylld i förväg.
 
