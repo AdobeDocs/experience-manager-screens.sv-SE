@@ -2,7 +2,7 @@
 title: Adaptiva renderingar i AEM Screens
 description: This page describes Architectures Overview and Configurations for Adaptive Renditions in AEM Screens.
 index: false
-source-git-commit: fcc7126ac545c80004d718888b39c6477624cd33
+source-git-commit: 375024848ed736104add828251ea494406a4f7ba
 workflow-type: tm+mt
 source-wordcount: '506'
 ht-degree: 1%
@@ -48,8 +48,6 @@ För att aktivera funktionen Adaptiva återgivningar bör mappningsreglerna finn
    * I en äldre version av Skärmprojekt måste associationen definieras explicit genom att lägga till `sling:configRef`-egenskapspunkterna vid `/conf/screens` till projektinnehållsnoden.
 
       ![bild](/help/user-guide/assets/adaptive-renditions/mapping-rules3.png)
-
-
 
 ## Konfigurera Författare och Publicera {#setup-author-publish}
 

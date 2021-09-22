@@ -5,9 +5,9 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 index: false
-source-git-commit: 898eb8e7e9b7442aead9fb6fb89c2646aef65e05
+source-git-commit: 375024848ed736104add828251ea494406a4f7ba
 workflow-type: tm+mt
-source-wordcount: '753'
+source-wordcount: '842'
 ht-degree: 0%
 
 ---
@@ -42,6 +42,14 @@ Mer information finns i Grundläggande uppspelningsövervakning.
 * **Uppdateringar av rapporten för innehållstilldelning**
 
    Tilldelningsrapporten för innehåll har nu optimerats och förbättrats med förbättrad användarupplevelse. Den hämtningsbara rapporten innehåller förbättrade spelarrelaterade enheter som platser, skärmar och enheter på en kalkylbladsflik och information om innehållsleverantören, t.ex. kanaler och resurser på en annan flik.
+
+* **Adaptiva renderingar**
+
+   Med adaptiva renderingar kan enheterna automatiskt välja den bästa renderingen för en enhet baserat på kunddefinierade regler.
+
+   Som AEM Screens-utvecklare kan du nu konfigurera enhetsspecifika resursrenderingar så att de hämtas och spelas upp automatiskt utan att du behöver skapa alla innehållsvarianter manuellt. Se Adaptiva renderingar: Arkitektöversikt och konfigurationer för mer information.
+
+   Som AEM Screens Content Author kan du nu använda adaptiva renderingar i ditt AEM Screens-projekt och även använda migreringsstrategi för stora nätverk. Mer information finns i Använda adaptiva återgivningar.
 
 * **Stöd för V3-manifestationer**
 
