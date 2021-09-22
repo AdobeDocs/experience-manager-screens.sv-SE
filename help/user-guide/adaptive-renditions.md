@@ -2,9 +2,9 @@
 title: Adaptiva renderingar i AEM Screens
 description: This page describes Architectures Overview and Configurations for Adaptive Renditions in AEM Screens.
 index: false
-source-git-commit: d3a2c7695afb296e9344aa55f6630798db5b1941
+source-git-commit: b597370d9ee9e2b06ebcd6915ecd949c003f8a50
 workflow-type: tm+mt
-source-wordcount: '519'
+source-wordcount: '545'
 ht-degree: 1%
 
 ---
@@ -30,7 +30,12 @@ Anpassade återgivningar baseras på idén att ha flera resursåtergivningar nam
 
 ## Konfigurera inställningar för användning av adaptiva renderingar {#setup-adaptive-renditions}
 
-För att aktivera funktionen Adaptiva återgivningar bör mappningsreglerna finnas och den kontextmedvetna konfigurationen kan lösas för kanaler och skärmar:
+För att aktivera funktionen Adaptiva återgivningar bör mappningsreglerna finnas och kontextmedveten konfiguration (CA) kan lösas för kanaler och skärmar.
+
+>[!NOTE]
+>Mer information om innehållsanpassade konfigurationer finns i [här](https://sling.apache.org/documentation/bundles/context-aware-configuration/context-aware-configuration.html).
+
+Konfigurera installationen genom att följa stegen nedan:
 
 1. Kontrollera om återgivningsmappningskonfigurationen finns i `JCR`. Alla de senaste funktionspaketen har den här nodstrukturen ifylld i förväg.
 
@@ -74,4 +79,4 @@ Tänk på följande rekommendationer i Författare och Publicera innan du använ
 
 ## Nästa steg {#next-steps}
 
-När du har konfigurerat och överfört återgivningarna som innehållsförfattare kan du nu använda adaptiva återgivningar och även migrera dina enheter för att använda den här funktionen i dina AEM Screens-kanaler. Mer information finns i [Använda adaptiva renderingar](/help/user-guide/using-adaptive-renditions.md).
+När du har konfigurerat och överfört återgivningarna som innehållsförfattare kan du nu använda adaptiva återgivningar och även migrera dina enheter för stora nätverk för att använda den här funktionen i dina AEM Screens-kanaler. Mer information finns i [Använda adaptiva renderingar](/help/user-guide/using-adaptive-renditions.md).
