@@ -2,9 +2,9 @@
 title: Adaptiva renderingar i AEM Screens
 description: This page describes Architectures Overview and Configurations for Adaptive Renditions in AEM Screens.
 index: false
-source-git-commit: 3ced907f4611ff7499ca4c013c4b25e1315e3726
+source-git-commit: 884bee85c6f081cbd0969a8b51125f18e2d85413
 workflow-type: tm+mt
-source-wordcount: '686'
+source-wordcount: '691'
 ht-degree: 1%
 
 ---
@@ -102,4 +102,4 @@ Följ stegen nedan för att lägga till en nod under Återgivningsmappning:
 
 ## Nästa steg {#next-steps}
 
-När du har konfigurerat och överfört återgivningarna som innehållsförfattare kan du nu använda adaptiva återgivningar och även migrera dina enheter för stora nätverk för att använda den här funktionen i dina AEM Screens-kanaler. Mer information finns i [Använda adaptiva renderingar](/help/user-guide/using-adaptive-renditions.md).
+När du har lagt till egenskaper och regler för renderingsmappning, nu som innehållsförfattare, kan du konfigurera dina resurser så att de använder adaptiva renderingar och även migrera dina enheter för stora nätverk så att de kan använda den här funktionen i dina AEM Screens-kanaler. Mer information finns i [Använda adaptiva renderingar](/help/user-guide/using-adaptive-renditions.md).
