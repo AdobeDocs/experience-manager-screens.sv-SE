@@ -2,9 +2,9 @@
 title: Använda adaptiva renderingar i AEM Screens
 description: På den här sidan beskrivs hur du använder adaptiva renderingar i AEM Screens.
 index: false
-source-git-commit: 97354c05f3b01dd76b6b8d4bdaf45c9be3ce4db2
+source-git-commit: d3a54ed85b9fa2ddf3918161566ba2c82c373be0
 workflow-type: tm+mt
-source-wordcount: '379'
+source-wordcount: '378'
 ht-degree: 0%
 
 ---
@@ -18,8 +18,7 @@ Med adaptiva renderingar kan enheterna automatiskt välja den bästa renderingen
 ## Syfte {#objective}
 
 Som AEM Screens Content Author kan du nu konfigurera enhetsspecifika materialåtergivningar så att de hämtas och spelas upp automatiskt utan att du behöver skapa alla innehållsvarianter manuellt.
-
-Om du har distribuerat en mängd olika enheter kan du använda den här funktionen för att automatiskt hämta och spela upp den lämpligaste återgivningen av en resurs baserat på reglerna.
+När en utvecklare lägger till egenskaperna och reglerna för renderingsmappning är du nu redo att tillämpa renderingsmappningen på resurser och sedan inkludera dem i en AEM Screens-kanal.
 
 >[!IMPORTANT]
 >Innan du börjar använda adaptiva renderingar i en AEM Screens-kanal bör du läsa mer om den här funktionens arkitektoniska översikt och konfiguration. Se Adaptiva renderingar: Arkitektöversikt och konfigurationer för mer information.
