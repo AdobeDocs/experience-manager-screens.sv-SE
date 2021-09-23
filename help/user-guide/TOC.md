@@ -6,15 +6,15 @@ user-guide-title: Hjälp om Adobe Experience Manager Screens
 breadcrumb-title: AEM Screens Guide
 user-guide-description: Lär dig använda en lösning för digital signering som gör att du kan publicera dynamiska och interaktiva digitala upplevelser och interaktioner.
 feature-set: Experience Manager Screens
-source-git-commit: 21bb9194d470bc4842a00e20ab3e3d7f517effed
+source-git-commit: a2a214964a2b2785bf9b57d7af4148e62d58245f
 workflow-type: tm+mt
-source-wordcount: '445'
+source-wordcount: '449'
 ht-degree: 1%
 
 ---
 
 
-# AEM Screens användarhandbok {#user-guide}
+# AEM Screens Användarhandbok {#user-guide}
 
 + [Introduktion till skärmar](aem-screens-introduction.md)
 + Översikt och snabbstartsguide {#overview}
@@ -38,6 +38,7 @@ ht-degree: 1%
    + [Övergång från ContentSync till SmartSync](smartsync.md)
    + [Ny projektimporterare från fil](project-importer.md)
    + [Replikera datutlösare till publiceringsservrar](replicating-data-triggers.md)
+   + [Stöd för miniatyrbilder för videoklipp](thumbnail-support.md)
    + Klientspecifika överväganden {#installing-client}
       + [Chrome OS Player](implementing-chrome-os-player.md)
       + [Använda Chrome Player som ett tillägg för felsökning](using-chrome-player-as-an-extension.md)
