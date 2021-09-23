@@ -5,7 +5,7 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 index: false
-source-git-commit: 375024848ed736104add828251ea494406a4f7ba
+source-git-commit: 9e750b874253a5d1786e5ef78fc41d96e72b702d
 workflow-type: tm+mt
 source-wordcount: '842'
 ht-degree: 0%
@@ -32,24 +32,25 @@ Releasedatum för AEM Screens Feature Pack 202109 är 23 september 2021.
 * **Stöd för miniatyrbilder för videoklipp**
 
    Miniatyrbildsstöd för videor i stöds nu i AEM Screens. Innehållsförfattare kan definiera en miniatyrbild för videoklipp så att bilden kan användas som platshållare och testa uppspelning och målgruppsanpassning av innehållet medan videon färdigställs av rätt team. Bilden kan också användas om videouppspelningen misslyckas.
-Mer information finns i Stöd för miniatyrbilder för videoklipp.
+Mer information finns i [Stöd för miniatyrbilder för videoklipp](/help/user-guide/thumbnail-support.md).
 
 * **Grundläggande uppspelningsövervakning**
 
    AEM Screens har nu stöd för grundläggande uppspelningsövervakning. Spelaren rapporterar nu olika uppspelningsmått för varje ping (standardvärdet är 30 sekunder). Baserat på mätvärden ger det möjlighet att upptäcka olika kantfall (fastnålade upplevelser, tom skärm, schemaläggningsproblem osv.). Med den här funktionen kan teamet fjärrövervaka om en spelare spelar upp innehåll, förbättrar reaktiviteten till tomma skärmar eller trasiga upplevelser i fältet och minskar risken för att slutanvändaren får en trasig upplevelse.
-Mer information finns i Grundläggande uppspelningsövervakning.
+Mer information finns i [Grundläggande uppspelningsövervakning](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/administering/installing-screens-player.html?lang=en#playback-monitoring).
 
 * **Uppdateringar av rapporten för innehållstilldelning**
 
    Tilldelningsrapporten för innehåll har nu optimerats och förbättrats med förbättrad användarupplevelse. Den hämtningsbara rapporten innehåller förbättrade spelarrelaterade enheter som platser, skärmar och enheter på en kalkylbladsflik och information om innehållsleverantören, t.ex. kanaler och resurser på en annan flik.
+Mer information finns i [Rapport om innehållstilldelning](/help/user-guide/content-assignment-report.md).
 
 * **Adaptiva renderingar**
 
    Med adaptiva renderingar kan enheterna automatiskt välja den bästa renderingen för en enhet baserat på kunddefinierade regler.
 
-   Som AEM Screens-utvecklare kan du nu konfigurera enhetsspecifika resursrenderingar så att de hämtas och spelas upp automatiskt utan att du behöver skapa alla innehållsvarianter manuellt. Se Adaptiva renderingar: Arkitektöversikt och konfigurationer för mer information.
+   Som AEM Screens-utvecklare kan du nu konfigurera enhetsspecifika resursrenderingar så att de hämtas och spelas upp automatiskt utan att du behöver skapa alla innehållsvarianter manuellt.
 
-   Som AEM Screens Content Author kan du nu använda adaptiva renderingar i ditt AEM Screens-projekt och även använda migreringsstrategi för stora nätverk. Mer information finns i Använda adaptiva återgivningar.
+   Som AEM Screens Content Author kan du nu använda adaptiva renderingar i ditt AEM Screens-projekt och även använda migreringsstrategi för stora nätverk.
 
 * **Stöd för V3-manifestationer**
 

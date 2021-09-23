@@ -1,16 +1,16 @@
 ---
 title: Tilldelningsrapport för innehåll
 description: Den här sidan beskriver hur du hämtar och använder Content Assignment Report.
-feature: Redigeringsskärmar
+feature: Authoring Screens
 role: Developer
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+exl-id: 7397aa99-97fc-45c2-a157-c1bd7b1700b5
+source-git-commit: 9e750b874253a5d1786e5ef78fc41d96e72b702d
 workflow-type: tm+mt
-source-wordcount: '334'
+source-wordcount: '372'
 ht-degree: 0%
 
 ---
-
 
 # Tilldelningsrapport för innehåll {#content-assignment-report}
 
@@ -36,7 +36,7 @@ Mer information finns på följande resurser:
 1. [Tilldela kanaler](/help/user-guide/channel-assignment-latest-fp.md)
 
 
-## Hämtar rapporten för innehållstilldelning {#downloading-content-assignment-report-fp}
+## Hämta rapporten för innehållstilldelning {#downloading-content-assignment-report-fp}
 
 När du har konfigurerat ditt AEM Screens-projekt och har tilldelat displayannonser till var och en av platserna enligt stegen ovan kan du ladda ned rapporten för innehållstilldelning.
 
@@ -51,10 +51,13 @@ Följ instruktionerna nedan för att hämta rapporten för innehållstilldelning
 
    ![bild](/help/user-guide/assets/content-assignment-report/can-download.png)
 
+1. Det hämtade kalkylbladet består av två flikar, till exempel **platser** och **Innehåll**. På fliken Plats visas fyra kolumner, till exempel **Platser**, **Visar**, **Kanaler** och **Enheter**, som kan användas för att ytterligare undersöka dessa fyra enheter som gäller ditt AEM Screens-projekt.
+
+   ![bild](/help/user-guide/assets/content-assignment-report/report-sheet1.png)
+
    >[!NOTE]
-   >Det hämtade kalkylbladet består av fyra kolumner, till exempel **Kanaler**, **Resurser**, **Bildskärmar** och **Enheter**, som kan användas för att ytterligare undersöka dessa fyra enheter som hör till ditt AEM Screens-projekt.
+   >De data som visas i kalkylbladet sorteras i bokstavsordning i ett format som är enkelt att läsa.
 
-1. Ett Excel-blad laddas ned till din dator med samma förinställda namn som ditt projektnamn i AEM Screens. Om ditt projektnamn till exempel är **DemoScreens** blir det hämtade filnamnet **demoscreens-content-assign-report.xlxs**.
+1. Du kan klicka på någon av kanalerna i kolumnen **Kanaler** för att öppna fliken **Innehåll** som kommer att navigera dig direkt till den kanalen och även visa information om resurser (bilder och videor) som är associerade med den specifika kanalen, vilket visas i bilden nedan.
 
-   ![bild](/help/user-guide/assets/content-assignment-report/car-download1.png)
-
+   ![bild](/help/user-guide/assets/content-assignment-report/report-sheet2.png)
