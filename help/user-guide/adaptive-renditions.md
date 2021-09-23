@@ -1,10 +1,9 @@
 ---
-title: Adaptiva renderingar i AEM Screens
-description: This page describes Architectures Overview and Configurations for Adaptive Renditions in AEM Screens.
-index: false
-source-git-commit: 884bee85c6f081cbd0969a8b51125f18e2d85413
+title: Adaptiva renderingar Arkitekturöversikt och konfigurationer
+description: This page describes Architectures Overview and Configurations in CRXDE Lite for Adaptive Renditions in AEM Screens.
+source-git-commit: d30426f871d319bcfacb7a832479b87400e18fc2
 workflow-type: tm+mt
-source-wordcount: '691'
+source-wordcount: '648'
 ht-degree: 1%
 
 ---
@@ -54,14 +53,6 @@ Konfigurera installationen genom att följa stegen nedan:
    ![bild](/help/user-guide/assets/adaptive-renditions/renditon-mapping2.png)
 
 
-## Konfigurera Författare och Publicera {#setup-author-publish}
-
-Tänk på följande rekommendationer i Författare och Publicera innan du använder Adaptiv återgivning:
-
-* Återgivningsmappningen måste replikeras manuellt.
-
-* Resursåtergivningar replikeras inte som standard. Alla relevanta resurser måste replikeras manuellt.
-
 ## Lägga till återgivningsmappningsregler {#add-rendition-mapping-rules}
 
 Följ stegen nedan för att lägga till en nod under Återgivningsmappning:
@@ -102,4 +93,4 @@ Följ stegen nedan för att lägga till en nod under Återgivningsmappning:
 
 ## Nästa steg {#next-steps}
 
-När du har lagt till egenskaper och regler för renderingsmappning, nu som innehållsförfattare, kan du konfigurera dina resurser så att de använder adaptiva renderingar och även migrera dina enheter för stora nätverk så att de kan använda den här funktionen i dina AEM Screens-kanaler. Mer information finns i [Använda adaptiva renderingar](/help/user-guide/using-adaptive-renditions.md).
+När du har lagt till egenskaper och regler för renderingsmappning, nu som innehållsförfattare, kan du konfigurera dina resurser så att de använder adaptiva renderingar och även migrera dina enheter för stora nätverk så att de kan använda den här funktionen i dina AEM Screens-kanaler.

@@ -2,7 +2,7 @@
 title: Använda adaptiva renderingar i AEM Screens
 description: På den här sidan beskrivs hur du använder adaptiva renderingar i AEM Screens.
 index: false
-source-git-commit: d3a54ed85b9fa2ddf3918161566ba2c82c373be0
+source-git-commit: 687b850860cc0576b9e3ee607cac2f9e5685d33e
 workflow-type: tm+mt
 source-wordcount: '378'
 ht-degree: 0%
@@ -43,7 +43,6 @@ Om du vill aktivera funktionen lägger du till minst en mappningsregel och kontr
 
    >[!NOTE]
    >När migreringen är klar måste du se till att ta bort alla konfigurationsreferenser från kanaler, skärmar och platser och lägga till en enda i projektinnehållsnoden.
-
 
 ## Överföra renderingar och använda adaptiva renderingar i en AEM Screens-kanal {#upload-renditions}
 

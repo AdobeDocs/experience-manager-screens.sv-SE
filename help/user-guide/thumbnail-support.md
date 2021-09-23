@@ -1,11 +1,11 @@
 ---
 title: Stöd för miniatyrbilder för videofilmer i AEM Screens
 description: På den här sidan beskrivs hur du lägger till stöd för miniatyrbilder för videoklipp på skärmar.
-index: false
-source-git-commit: 07b5b6159b09c0c1301a5e782dfe959d0b83a7d2
+exl-id: d2d87807-1699-47e3-b241-07c5b7e56f15
+source-git-commit: ec58cd9171e359b451eaad7015d42b41ef1bff3f
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '425'
+ht-degree: 1%
 
 ---
 
@@ -34,13 +34,23 @@ Följ stegen nedan för att använda miniatyrbilden i videoklipp:
 
 1. Markera kanalen och klicka på **Redigera** i åtgärdsfältet för att öppna redigeraren.
 
+   ![bild](/help/user-guide/assets/thumbnails/thumbnail-1.png)
+
 1. Lägg till eller redigera en befintlig videokomponent enligt bilden nedan.
+
+   ![bild](/help/user-guide/assets/thumbnails/thumbnail-2.png)
 
 1. Markera videon och klicka på ikonen *skiftnyckel* för att öppna videoegenskaperna.
 
+   ![bild](/help/user-guide/assets/thumbnails/thumbnail-3.png)
+
 1. Dialogrutan **Video** öppnas där du kan visa släppzonen **Miniatyrbild**.
 
+   ![bild](/help/user-guide/assets/thumbnails/thumbnail-4.png)
+
 1. Dra och släpp en bild från resursväljaren till släppzonen **Miniatyrbild** och klicka på **Klar**.
+
+   ![bild](/help/user-guide/assets/thumbnails/thumbnail-5.png)
 
 1. Klicka på **Förhandsgranska**.
 
