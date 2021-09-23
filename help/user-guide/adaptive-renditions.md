@@ -2,9 +2,9 @@
 title: Adaptiva renderingar i AEM Screens
 description: This page describes Architectures Overview and Configurations for Adaptive Renditions in AEM Screens.
 index: false
-source-git-commit: bbae7c8ba0f24b228221df8bc4c26cc5c4817ce0
+source-git-commit: 3ced907f4611ff7499ca4c013c4b25e1315e3726
 workflow-type: tm+mt
-source-wordcount: '671'
+source-wordcount: '686'
 ht-degree: 1%
 
 ---
@@ -86,9 +86,10 @@ Följ stegen nedan för att lägga till en nod under Återgivningsmappning:
 
    ![bild](/help/user-guide/assets/adaptive-renditions/add-node3.png)
 
+1. Lägg till egenskapen pattern med värdet som innehåller namngivningsmönstret.
 
-
-1. Lägg till egenskapen pattern med värdet som innehåller det namngivningsmönster som ska markeras, om uttrycket utvärderas som true.
+   >[!NOTE]
+   >Värdet som definieras i egenskapen pattern matchas mot den nya resursåtergivningen och markeras om uttrycket utvärderas till true.
 
    Om du vill lägga till mönsteregenskapen klickar du på **rule1** som du har skapat och anger **pattern** i **Name** och **landscape** i **Value** enligt nedan. Klicka på **Lägg till**.
 
