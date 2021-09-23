@@ -2,10 +2,10 @@
 title: Adaptiva renderingar i AEM Screens
 description: This page describes Architectures Overview and Configurations for Adaptive Renditions in AEM Screens.
 index: false
-source-git-commit: 951fd38d5f69cdab1bf9b23f07b4e92075e87baf
+source-git-commit: bbae7c8ba0f24b228221df8bc4c26cc5c4817ce0
 workflow-type: tm+mt
-source-wordcount: '552'
-ht-degree: 0%
+source-wordcount: '671'
+ht-degree: 1%
 
 ---
 
@@ -64,16 +64,39 @@ Tänk på följande rekommendationer i Författare och Publicera innan du använ
 
 ## Lägga till återgivningsmappningsregler {#add-rendition-mapping-rules}
 
-1. Om du vill lägga till en mappningsregel måste du skapa en nod av typen `nt:unstructured` under noden **rendering-mapping**.
+Följ stegen nedan för att lägga till en nod under Återgivningsmappning:
 
-1. Lägg till uttrycksegenskapen med värdet som innehåller frågeuttrycket.
+1. Navigera till den här sökvägen `/conf/screens/sling:configs/rendition-mapping` från **CRXDE Lite**.
+
+1. Skapa en nod under **renderingsmappning**. Högerklicka på **renderingsmappning** och klicka på **Create** —> **Skapa nod** enligt bilden nedan.
+
+   ![bild](/help/user-guide/assets/adaptive-renditions/add-node1.png)
+
+1. Ange **namnet** för mappningsregeln t.ex. **rule1** och noden **Skriv** som **nt:undefined** i dialogrutan **Skapa nod**. Klicka på **OK**.
+
+   ![bild](/help/user-guide/assets/adaptive-renditions/add-node2.png)
+
+
+1. Du måste lägga till uttrycksegenskapen med värdet som innehåller frågeuttrycket.
 
    >[!NOTE]
    >Mer information finns i [Använda Media Query Syntax](https://developer.mozilla.org/en-US/docs/Web/CSS/Media_Queries/Using_media_queries).
 
+   Klicka på **rule1** som du skapade och ange **expression** i **Name** och **(orientation:landscape)** i **Value**, som visas nedan. Klicka på **Lägg till**.
+
+   ![bild](/help/user-guide/assets/adaptive-renditions/add-node3.png)
+
+
+
 1. Lägg till egenskapen pattern med värdet som innehåller det namngivningsmönster som ska markeras, om uttrycket utvärderas som true.
 
-   ![bild](/help/user-guide/assets/adaptive-renditions/mapping-rules4.png)
+   Om du vill lägga till mönsteregenskapen klickar du på **rule1** som du har skapat och anger **pattern** i **Name** och **landscape** i **Value** enligt nedan. Klicka på **Lägg till**.
+
+   ![bild](/help/user-guide/assets/adaptive-renditions/add-node4.png)
+
+1. Klicka på **Spara alla** så ser du egenskaperna under noden som du skapade under **renderingsmappning**.
+
+   ![bild](/help/user-guide/assets/adaptive-renditions/add-node5.png)
 
 
 ## Nästa steg {#next-steps}

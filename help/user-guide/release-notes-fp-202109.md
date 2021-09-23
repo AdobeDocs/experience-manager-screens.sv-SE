@@ -5,9 +5,9 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 index: false
-source-git-commit: 9e750b874253a5d1786e5ef78fc41d96e72b702d
+source-git-commit: 0ffdf33afd6a97246e886fadb692d1b9a2ef55ab
 workflow-type: tm+mt
-source-wordcount: '842'
+source-wordcount: '832'
 ht-degree: 0%
 
 ---
@@ -65,8 +65,6 @@ Om du dessutom använder anpassade komponenter som en del av v3-manifestet läse
 * Åtgärdade fel vid filcachning genom att ersätta resurser med återgivningar.
 
 * Spelarna visar nu endast resursrenderingar om det finns renderingsmappning.
-
-* Du kan nu konfigurera slackvarningar baserat på skräppostloggar.
 
 * Förbättrad ping för att autentisera igen om svaret inte är giltigt i JSON.
 
