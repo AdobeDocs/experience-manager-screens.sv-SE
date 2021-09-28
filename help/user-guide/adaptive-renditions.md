@@ -1,13 +1,13 @@
 ---
 title: Adaptiva renderingar Arkitekturöversikt och konfigurationer
 description: This page describes Architectures Overview and Configurations in CRXDE Lite for Adaptive Renditions in AEM Screens.
-source-git-commit: d30426f871d319bcfacb7a832479b87400e18fc2
+exl-id: 0419b9c6-3c27-4a61-84ff-a6fe697e773f
+source-git-commit: e5da55eeb5da3d0ef9f21bd47bfec75d660a6a1e
 workflow-type: tm+mt
-source-wordcount: '648'
+source-wordcount: '658'
 ht-degree: 1%
 
 ---
-
 
 # Adaptiva renderingar: Arkitektöversikt och konfigurationer {#adaptive-renditions}
 
@@ -93,4 +93,4 @@ Följ stegen nedan för att lägga till en nod under Återgivningsmappning:
 
 ## Nästa steg {#next-steps}
 
-När du har lagt till egenskaper och regler för renderingsmappning, nu som innehållsförfattare, kan du konfigurera dina resurser så att de använder adaptiva renderingar och även migrera dina enheter för stora nätverk så att de kan använda den här funktionen i dina AEM Screens-kanaler.
+När du har lagt till egenskaper och regler för renderingsmappning, nu som innehållsförfattare, kan du konfigurera dina resurser så att de använder adaptiva renderingar och även migrera dina enheter för stora nätverk så att de kan använda den här funktionen i dina AEM Screens-kanaler. Mer information finns i [Använda adaptiva renderingar i AEM Screens](/help/user-guide/using-adaptive-renditions.md).
