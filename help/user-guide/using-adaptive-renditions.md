@@ -1,9 +1,9 @@
 ---
 title: Använda adaptiva renderingar i AEM Screens
 description: På den här sidan beskrivs hur du använder adaptiva renderingar i AEM Screens.
-source-git-commit: 99102513b100f1f3b086eff9dcd21e5afb4f493c
+source-git-commit: 68e7a47d7a9b10d1d3fecb7a7f7d96bbbde1c48a
 workflow-type: tm+mt
-source-wordcount: '500'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -38,11 +38,18 @@ Följ stegen nedan för att tillämpa renderingar på resurserna som du vill anv
 
 1. Välj namngivningsmönstret, till exempel`landscape`, som liknar det som definierats i **pattern**-egenskapen i **CRXDE Lite**. Mer information finns i [Lägga till regler för återgivningsmappning](/help/user-guide/adaptive-renditions.md#add-rendition-mapping-rules).
 
-1. Byt namn på resursfilen så att den innehåller mönstret (definierat i steg 3), till exempel `seahorse_landscape.png`.
+1. Byt namn på resursfilen så att den innehåller mönstret (definierat i steg 3), till exempel `seahorse-landscape.png`.
 
 1. Klicka på **Lägg till återgivning** för att överföra återgivningen, vilket visas i bilden nedan.
 
    ![bild](/help/user-guide/assets/adaptive-renditions/add-rendition.png)
+
+1. När du har lagt till resursen markerar du resursen och klickar på **Hantera publikation** i åtgärdsfältet för att publicera resursen.
+
+   ![bild](/help/user-guide/assets/adaptive-renditions/manage-pub-asset1.png)
+
+   >[!NOTE]
+   >Läs [On-Demand Content Update](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/authoring/content-updates/on-demand-content.html?lang=en) om du vill veta mer om hur du hanterar publikation och levererar innehållsuppdateringar från författare till publiceringsenhet.
 
 
 ## Migreringsstrategi {#migration-strategy}
