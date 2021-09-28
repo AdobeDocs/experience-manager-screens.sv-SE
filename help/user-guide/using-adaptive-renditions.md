@@ -1,13 +1,13 @@
 ---
 title: Använda adaptiva renderingar i AEM Screens
 description: På den här sidan beskrivs hur du använder adaptiva renderingar i AEM Screens.
-index: false
-source-git-commit: db6f8c438783725c6ea99e8e363f74e766a3767b
+source-git-commit: 99102513b100f1f3b086eff9dcd21e5afb4f493c
 workflow-type: tm+mt
-source-wordcount: '497'
+source-wordcount: '500'
 ht-degree: 0%
 
 ---
+
 
 # Använda adaptiva renderingar i AEM Screens {#adaptive-renditions}
 
@@ -36,9 +36,9 @@ Följ stegen nedan för att tillämpa renderingar på resurserna som du vill anv
 
 1. Skapa en version av resursen som bättre passar signeringsvisningen, till exempel `seahorse.jpg`.
 
-1. Välj namngivningsmönstret för återgivningen, till exempel`landscape`, som liknar det som har definierats i mönsteregenskapen i CRXDE Lite. Mer information finns i [Lägga till regler för återgivningsmappning](/help/user-guide/adaptive-renditions.md#add-rendition-mapping-rules).
+1. Välj namngivningsmönstret, till exempel`landscape`, som liknar det som definierats i **pattern**-egenskapen i **CRXDE Lite**. Mer information finns i [Lägga till regler för återgivningsmappning](/help/user-guide/adaptive-renditions.md#add-rendition-mapping-rules).
 
-1. Byt namn på resursfilen så att den innehåller mönstret, till exempel `seahorse_landscape.png`.
+1. Byt namn på resursfilen så att den innehåller mönstret (definierat i steg 3), till exempel `seahorse_landscape.png`.
 
 1. Klicka på **Lägg till återgivning** för att överföra återgivningen, vilket visas i bilden nedan.
 
