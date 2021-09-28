@@ -5,9 +5,9 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: e1794013-59ce-4ddc-93c0-601668c75cd1
-source-git-commit: 609cb66ea1cc34262bb57c020eb07fd18bd31f0d
+source-git-commit: 6d9dab9fd59289aafdb688682fea47589d3ec873
 workflow-type: tm+mt
-source-wordcount: '842'
+source-wordcount: '859'
 ht-degree: 0%
 
 ---
@@ -50,7 +50,7 @@ Mer information finns i [Rapport om innehållstilldelning](/help/user-guide/cont
 
    Som AEM Screens-utvecklare kan du nu konfigurera enhetsspecifika resursrenderingar så att de hämtas och spelas upp automatiskt utan att du behöver skapa alla innehållsvarianter manuellt. Se [Adaptiva renderingar: Arkitektöversikt och konfigurationer](/help/user-guide/adaptive-renditions.md) för mer information.
 
-   Som AEM Screens Content Author kan du nu använda adaptiva renderingar i ditt AEM Screens-projekt och även använda migreringsstrategi för stora nätverk.
+   Som AEM Screens Content Author kan du dessutom konfigurera dina resurser så att de använder adaptiva renderingar och även migrera dina enheter för stora nätverk så att de kan använda den här funktionen i dina AEM Screens-kanaler. Mer information finns i [Använda adaptiva renderingar i AEM Screens](/help/user-guide/using-adaptive-renditions.md).
 
 * **Stöd för V3-manifestationer**
 
