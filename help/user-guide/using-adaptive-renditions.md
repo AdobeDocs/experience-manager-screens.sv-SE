@@ -2,9 +2,9 @@
 title: Använda adaptiva renderingar i AEM Screens
 description: På den här sidan beskrivs hur du använder adaptiva renderingar i AEM Screens.
 index: false
-source-git-commit: 687b850860cc0576b9e3ee607cac2f9e5685d33e
+source-git-commit: db6f8c438783725c6ea99e8e363f74e766a3767b
 workflow-type: tm+mt
-source-wordcount: '378'
+source-wordcount: '497'
 ht-degree: 0%
 
 ---
@@ -21,12 +21,34 @@ Som AEM Screens Content Author kan du nu konfigurera enhetsspecifika materialåt
 När en utvecklare lägger till egenskaperna och reglerna för renderingsmappning är du nu redo att tillämpa renderingsmappningen på resurser och sedan inkludera dem i en AEM Screens-kanal.
 
 >[!IMPORTANT]
->Innan du börjar använda adaptiva renderingar i en AEM Screens-kanal bör du läsa mer om den här funktionens arkitektoniska översikt och konfiguration. Se Adaptiva renderingar: Arkitektöversikt och konfigurationer för mer information.
+>Innan du börjar använda adaptiva renderingar i en AEM Screens-kanal bör du läsa mer om den här funktionens arkitektoniska översikt och konfiguration. Se [Adaptiva renderingar: Arkitektöversikt och konfigurationer](/help/user-guide/adaptive-renditions.md) för mer information.
+
+## Använda adaptiva renderingar i kanaler {#using-adaptive-renditions}
+
+>[!NOTE]
+>När du har lagt till egenskapen [renderingsmappning i skärmsprojektet](/help/user-guide/adaptive-renditions.md#rendition-mapping-new) och [renderingsmappningsregler](/help/user-guide/adaptive-renditions.md#add-rendition-mapping-rules) är du nu klar att använda renderingarna i dina resurser som innehållsförfattare.
+
+### Använda återgivningar på resurser {#apply-renditions-assets}
+
+Följ stegen nedan för att tillämpa renderingar på resurserna som du vill använda i kanalen för visningsskärmar:
+
+1. Navigera till mappen **Resurser** i din AEM.
+
+1. Skapa en version av resursen som bättre passar signeringsvisningen, till exempel `seahorse.jpg`.
+
+1. Välj namngivningsmönstret för återgivningen, till exempel`landscape`, som liknar det som har definierats i mönsteregenskapen i CRXDE Lite. Mer information finns i [Lägga till regler för återgivningsmappning](/help/user-guide/adaptive-renditions.md#add-rendition-mapping-rules).
+
+1. Byt namn på resursfilen så att den innehåller mönstret, till exempel `seahorse_landscape.png`.
+
+1. Klicka på **Lägg till återgivning** för att överföra återgivningen, vilket visas i bilden nedan.
+
+   ![bild](/help/user-guide/assets/adaptive-renditions/add-rendition.png)
+
 
 ## Migreringsstrategi {#migration-strategy}
 
 >[!IMPORTANT]
->För stora nätverk rekommenderar vi att migreringen görs gradvis för att minska riskerna eftersom funktionen kommer att medföra förändringar i manifest- och fillagringsformatet.
+>För stora nätverk rekommenderar vi att migreringen görs gradvis för att minska riskerna eftersom funktionen kommer att medföra förändringar i manifest- och fillagringsformatet. Om du lägger till `sling:configRef` i hela projektet måste alla spelare uppdateras till Feature Pack 6.5.9. Om du har uppdaterat några av spelarna behöver du bara lägga till `sling:configRef` till de skärmar, platser eller kanalmappar där alla spelare har uppdaterats till Feature Pack 6.5.9.
 
 I följande diagram visas migreringsstrategin för stora nätverk:
 
@@ -44,14 +66,3 @@ Om du vill aktivera funktionen lägger du till minst en mappningsregel och kontr
    >[!NOTE]
    >När migreringen är klar måste du se till att ta bort alla konfigurationsreferenser från kanaler, skärmar och platser och lägga till en enda i projektinnehållsnoden.
 
-## Överföra renderingar och använda adaptiva renderingar i en AEM Screens-kanal {#upload-renditions}
-
-1. Skapa en version av resursen som bättre passar signeringsvisningen, till exempel `portrait orientation`.
-
-1. Välj namngivningsmönstret för återgivningen, till exempel`portrait`.
-
-1. Byt namn på resursfilen så att den innehåller mönstret, till exempel `my_asset_portrait.png`.
-
-1. Klicka på **Lägg till återgivning** för att överföra återgivningen, vilket visas i bilden nedan.
-
-   ![bild](/help/user-guide/assets/adaptive-renditions/add-rendition.png)
