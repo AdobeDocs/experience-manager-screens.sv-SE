@@ -2,7 +2,7 @@
 title: Content Update using Screens Launch
 seo-title: Content Update using Screens Launch
 description: Innehållsförfattare kan skapa framtida versioner av kanalerna, så kallade Launch och ange live-datum för den här starten, så att innehållet kan visas på enheter och spelare.
-seo-description: Innehållsförfattare kan skapa framtida versioner av kanalerna, så kallade Launch och ange live-datum för den här starten, så att innehållet kan visas på enheter och spelare.
+seo-description: Content authors can create future version of the channel(s), known as Launch and further setting live date for this launch allows content to be live in devices or players.
 uuid: fb13117c-b99b-48bd-adb6-040dbd13af16
 contentOwner: jsyal
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
@@ -10,13 +10,13 @@ content-type: reference
 topic-tags: authoring
 discoiquuid: 9cd8892b-fe5d-4ad3-9b10-10ff068adba6
 docset: aem65
-feature: redigeringsskärmar, startprogram
+feature: Authoring Screens, Launches
 role: Admin, Developer
 level: Intermediate
 exl-id: b610e5dd-e0c6-45e6-bf9b-27be2054bc8f
-source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
+source-git-commit: 2cc613454d0d20a42871858e3d754e1b0e161dc3
 workflow-type: tm+mt
-source-wordcount: '1619'
+source-wordcount: '1580'
 ht-degree: 0%
 
 ---
