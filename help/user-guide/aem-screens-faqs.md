@@ -7,9 +7,9 @@ feature: Digital Signage, Content
 role: Developer
 level: Intermediate
 exl-id: 67204f04-5535-407c-bd4d-fabfbf850411
-source-git-commit: ffc20b29b58e5fa39564d1e924832ff1c678f80c
+source-git-commit: 467526b82c07fd3594c704c1720477c72ecb9d38
 workflow-type: tm+mt
-source-wordcount: '1872'
+source-wordcount: '1978'
 ht-degree: 0%
 
 ---
@@ -65,6 +65,17 @@ För *dynamiska referenser* inträffar upplösningen när kanalen har tilldelats
 1. Den överordnade platsen för visningen har en underordnad nod som matchar det refererade kanalnamnet
 
 Och så vidare, tills du når platsmappen och stoppar den där just nu (så att du inte kan referera till en kanal som till exempel finns i kanalmappen, är det bara kanaler i platsernas underträd).
+
+### 5. Hur konfigurerar man en anpassad klientlib offline-konfiguration i AEM Screens Channel?
+
+När du använder en inbyggd anpassad klientkod `clientlib` i en AEM Screens-kanal måste du utföra följande steg för att säkerställa att `clientlib`-filerna läses in korrekt i kanalen (`manifest.json`) och att de innehåller sökvägen för `clientlib`.
+
+Följ stegen nedan i kanalredigeraren:
+
+1. Markera en kanal och klicka på **Redigera** i åtgärdsfältet för att öppna kanalredigeraren.
+1. Markera den komponent där du vill lägga till den anpassade `clientlib`.
+1. Klicka på knappen Konfigurera (skiftnyckelsikonen).
+1. Gå till fliken **Offline Config** och lägg till sökvägen till ditt anpassade klientbibliotek i **Klientbibliotek**.
 
 ## Enhetsregistrering {#device-registration}
 
@@ -204,7 +215,7 @@ Så här inaktiverar du Livefyre för att undvika loggfel:
 
 ### 2. Hur lägger jag till information om Oak Index? {#add-oak-index-info}
 
-AEM Screens skapar indexdefinitioner för de frågor som används av produkten.
+AEM Screens skapar indexdefinitioner för frågor som används av produkten.
 Om det finns *WARNs* i `error.log` skapar du ett anpassat index för frågan. Mer information finns i [Konfigurera index](https://experienceleague.adobe.com/docs/experience-manager-65/deploying/deploying/queries-and-indexing.html?lang=en#configuring-the-indexes).
 
 Du kan även referera till en ytterligare resurs på [Oak Documentation](https://jackrabbit.apache.org/oak/docs/query/lucene.html).
