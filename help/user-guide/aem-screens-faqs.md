@@ -7,7 +7,7 @@ feature: Digital Signage, Content
 role: Developer
 level: Intermediate
 exl-id: 67204f04-5535-407c-bd4d-fabfbf850411
-source-git-commit: 6f491825c8cbc7159de1a41dd6f902b086325606
+source-git-commit: 77ec3e6de6760bc5e31675399ed91bac4150ae69
 workflow-type: tm+mt
 source-wordcount: '2040'
 ht-degree: 0%
@@ -221,7 +221,7 @@ Om det finns några *Frågespårningsvarningar* i `error.log`skapar du ett anpas
 Du kan även referera till en ytterligare resurs på [Oak Documentation](https://jackrabbit.apache.org/oak/docs/query/lucene.html).
 
 
-### 3. Vad krävs för att konfigurera v3-manifestationer {#configure-v3}
+### 3. Vad krävs för att konfigurera v3-manifestationer? {#configure-v3}
 
 Om du vill aktivera v3-manifestet måste du:
 
