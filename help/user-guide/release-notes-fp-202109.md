@@ -5,9 +5,9 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: e1794013-59ce-4ddc-93c0-601668c75cd1
-source-git-commit: 6d9dab9fd59289aafdb688682fea47589d3ec873
+source-git-commit: 6433e586f505df889fef7ddb9ee5f530f5d6d46c
 workflow-type: tm+mt
-source-wordcount: '859'
+source-wordcount: '878'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 AEM Screens har släppt AEM 6.5 Feature Pack 9.
 
-Du kan hämta det senaste funktionspaketet för AEM Screens 6.5.9 från [Software Distribution Portal](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) med din Adobe ID. Gå till fliken **Adobe Experience Manager** och sök efter **skärmar** för att få den senaste funktionspaketet med namnet **AEM 6.5 skärmar FP9**.
+Du kan ladda ned det senaste funktionspaketet för AEM Screens 6.5.9 från [Programdistributionsportal](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) med din Adobe ID. Navigera till **Adobe Experience Manager** flik och sök efter **Skärmar** för att få det senaste funktionspaketet med namnet **AEM 6.5 skärmar FP9**.
 
 ## Releasedatum {#release-date}
 
@@ -32,17 +32,17 @@ Releasedatum för AEM Screens Feature Pack 202109 är 23 september 2021.
 * **Stöd för miniatyrbilder för videoklipp**
 
    Miniatyrbildsstöd för videor i stöds nu i AEM Screens. Innehållsförfattare kan definiera en miniatyrbild för videoklipp så att bilden kan användas som platshållare och testa uppspelning och målgruppsanpassning av innehållet medan videon färdigställs av rätt team. Bilden kan också användas om videouppspelningen misslyckas.
-Mer information finns i [Stöd för miniatyrbilder för videoklipp](/help/user-guide/thumbnail-support.md).
+Se [Stöd för miniatyrbilder för videoklipp](/help/user-guide/thumbnail-support.md) för mer information.
 
 * **Grundläggande uppspelningsövervakning**
 
    AEM Screens har nu stöd för grundläggande uppspelningsövervakning. Spelaren rapporterar nu olika uppspelningsmått för varje ping (standardvärdet är 30 sekunder). Baserat på mätvärden ger det möjlighet att upptäcka olika kantfall (fastnålade upplevelser, tom skärm, schemaläggningsproblem osv.). Med den här funktionen kan teamet fjärrövervaka om en spelare spelar upp innehåll, förbättrar reaktiviteten till tomma skärmar eller trasiga upplevelser i fältet och minskar risken för att slutanvändaren får en trasig upplevelse.
-Mer information finns i [Grundläggande uppspelningsövervakning](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/administering/installing-screens-player.html?lang=en#playback-monitoring).
+Se [Grundläggande uppspelningsövervakning](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/administering/installing-screens-player.html?lang=en#playback-monitoring) för mer information.
 
 * **Uppdateringar av rapporten för innehållstilldelning**
 
    Tilldelningsrapporten för innehåll har nu optimerats och förbättrats med förbättrad användarupplevelse. Den hämtningsbara rapporten innehåller förbättrade spelarrelaterade enheter som platser, skärmar och enheter på en kalkylbladsflik och information om innehållsleverantören, t.ex. kanaler och resurser på en annan flik.
-Mer information finns i [Rapport om innehållstilldelning](/help/user-guide/content-assignment-report.md).
+Se [Tilldelningsrapport för innehåll](/help/user-guide/content-assignment-report.md) för mer information.
 
 * **Adaptiva renderingar**
 
@@ -50,12 +50,15 @@ Mer information finns i [Rapport om innehållstilldelning](/help/user-guide/cont
 
    Som AEM Screens-utvecklare kan du nu konfigurera enhetsspecifika resursrenderingar så att de hämtas och spelas upp automatiskt utan att du behöver skapa alla innehållsvarianter manuellt. Se [Adaptiva renderingar: Arkitektöversikt och konfigurationer](/help/user-guide/adaptive-renditions.md) för mer information.
 
-   Som AEM Screens Content Author kan du dessutom konfigurera dina resurser så att de använder adaptiva renderingar och även migrera dina enheter för stora nätverk så att de kan använda den här funktionen i dina AEM Screens-kanaler. Mer information finns i [Använda adaptiva renderingar i AEM Screens](/help/user-guide/using-adaptive-renditions.md).
+   Som AEM Screens Content Author kan du dessutom konfigurera dina resurser så att de använder adaptiva renderingar och även migrera dina enheter för stora nätverk så att de kan använda den här funktionen i dina AEM Screens-kanaler. Se [Använda adaptiva renderingar i AEM Screens](/help/user-guide/using-adaptive-renditions.md) för mer information.
 
 * **Stöd för V3-manifestationer**
 
-   Du kan nu konfigurera Dispatcher för manifestversion v3. Mer information finns i [Configuring Dispatcher for Manifest Version v3](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/administering/dispatcher-configurations-aem-screens.html?lang=en#configuring-dispatcherv3).
-Om du dessutom använder anpassade komponenter som en del av v3-manifestet läser du [Mall för anpassade hanterare](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/developing/developing-custom-component-tutorial-develop.html?lang=en#custom-handlers).
+   Du kan nu konfigurera Dispatcher för manifestversion v3. Om du vill aktivera v3-manifestet måste du konfigurera: * Uppdatera dispatcher * Uppdatera anpassad komponent * Inaktivera ContentSync i `/system/console/configMgr/configMgr/com.adobe.cq.screens.offlinecontent.impl.ContentSyncCacheFeatureFlag`
+* Aktivera SmartSync i `/system/console/configMgr/com.adobe.cq.screens.offlinecontent.impl.OfflineContentServiceImpl`
+
+   Se [Konfigurera Dispatcher för manifestversion v3](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/administering/dispatcher-configurations-aem-screens.html?lang=en#configuring-dispatcherv3) för mer information.
+Om du dessutom använder anpassade komponenter som en del av v3-manifestationer, se [Mall för anpassade hanterare](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/developing/developing-custom-component-tutorial-develop.html?lang=en#custom-handlers).
 
 
 ### Felkorrigeringar {#bug-fixes}
@@ -74,13 +77,13 @@ Om du dessutom använder anpassade komponenter som en del av v3-manifestet läse
 
 * Mappningen omvandlades till en lista med återgivningsnycklar.
 
-* Åtkomsten till `cmd.exe` och `reg.exe` i Windows-spelaren har tagits bort.
+* Åtkomst till `cmd.exe` och `reg.exe` i Windows-spelaren.
 
 * En spelare måste rapportera sin senaste lyckade uppspelningshändelse.
 
 * En spelare måste rapportera sin uppspelningsstatus.
 
-* Player hämtar inte resurser igen när `ALL`-cachen har rensats.
+* Player hämtar inte resurser igen när `ALL` Cachen är rensad.
 
 * Som spelaradministratör kan du nu välja ett spelarnamn.
 
@@ -119,13 +122,13 @@ Om du dessutom använder anpassade komponenter som en del av v3-manifestet läse
 
 * Strategin för uppspelning av inbäddad sekvens har brutits och detta har nu åtgärdats.
 
-* Offlinemanifest med begärandeparametern `wcmmode` för HTML-posten, vilket gör den otillgänglig.
+* Offlinemanifest med parametern request `wcmmode` för html-post, vilket gör den oåtkomlig.
 
 * En tom dynamisk inbäddad sekvens orsakade ibland en tom skärm.
 
 * Spelaren rapporterar nu sin uppspelningsstatus.
 
-* Videon spelades upp i `Tiny mode` och spelades inte upp som helskärmsvideo på enheten. Problemet har åtgärdats nu.
+* Videon spelades upp i `Tiny mode` och inte spelas upp som helskärmsvideo på enheten och problemet har åtgärdats nu.
 
 ### Lanserade AEM Screens-spelare {#released-aem-screens-players}
 
@@ -139,4 +142,4 @@ Följande AEM Screens-spelare finns för AEM 6.5 Feature Pack 9:
 
 #### AEM Screens Player - nedladdningar  {#aem-screens-player-downloads}
 
-Om du vill hämta den senaste AEM Screens-spelaren och läsa mer om felkorrigeringarna kan du läsa **[AEM Screens Player Downloads](https://download.macromedia.com/screens/index.html)**.
+Om du vill hämta den senaste AEM Screens-spelaren och läsa mer om felkorrigeringarna kan du läsa **[AEM Screens Player - nedladdningar](https://download.macromedia.com/screens/index.html)**.

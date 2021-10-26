@@ -7,9 +7,9 @@ feature: Digital Signage, Content
 role: Developer
 level: Intermediate
 exl-id: 67204f04-5535-407c-bd4d-fabfbf850411
-source-git-commit: 467526b82c07fd3594c704c1720477c72ecb9d38
+source-git-commit: 6f491825c8cbc7159de1a41dd6f902b086325606
 workflow-type: tm+mt
-source-wordcount: '1978'
+source-wordcount: '2040'
 ht-degree: 0%
 
 ---
@@ -28,10 +28,10 @@ I följande avsnitt ges svar på några av de vanligaste frågorna och svaren om
 * Kontrollera om kanalförhandsgranskningen fungerar.
 * Kontrollera om förhandsvisningen fungerar
 * Prova att registrera spelaren som ett webbläsartillägg på datorn på samma skärm och kontrollera om det fungerar.
-* Navigera till `http://localhost:24502` när spelaren körs på datorn. Kontrollera om allt innehåll har laddats ned korrekt.
+* Navigera till `http://localhost:24502`. Kontrollera om allt innehåll har laddats ned korrekt.
 * Kontrollera de resurser som de lämpliga återgivningarna skapas för och att rätt återgivning spelas upp.
 * Kontrollera om det finns schemalagt innehåll och om tiderna är korrekta. Kontrollera om tiden som är inställd i spelaren är korrekt.
-* Inspect spelarkonsolen loggar och söker efter eventuella fel. Högerklicka och inspektera för att se konsolloggarna. Om du använder Windows-spelaren trycker du på `CTRL + ALT +I` för att öppna dev-konsolen för att visa loggarna.
+* Inspect spelarkonsolen loggar och söker efter eventuella fel. Högerklicka och inspektera för att se konsolloggarna. Om du använder Windows Player trycker du på `CTRL + ALT +I` för att öppna dev-konsolen för att visa loggarna.
 
 ### 2. Hur löser jag problem med gråskärm i AEM Screens genom att skapa en standardkanal eller ett schema?
 
@@ -43,11 +43,11 @@ Allt annat innehåll, som kanaler eller scheman, har högre prioritet än 1, så
 
 ### 1. Vad är skillnaden mellan en online- och en offlinekanal? {#what-is-the-difference-between-an-online-and-an-offline-channel}
 
-En ***onlinekanal*** visar det uppdaterade innehållet i realtidsmiljön medan en ***offlinekanal*** visar det cachelagrade innehållet.
+An ***Onlinekanal***, visar det uppdaterade innehållet i realtidsmiljön medan en ***Offlinekanal***, visar det cachelagrade innehållet.
 
 ### 2. Hur gör jag en kanal online? {#how-do-i-make-a-channel-online}
 
-Markera kanalen och navigera till kanalegenskaper i åtgärdsfältet. Markera **Utvecklarläge (tvinga kanalen att vara online)** under fliken **Kanal** för att göra kanalen online.
+Markera kanalen och navigera till kanalegenskaper i åtgärdsfältet. Kontrollera **Utvecklarläge (tvinga kanalen att vara online)** under **Kanal** för att göra kanalen online.
 
 ### 3. Hur används fältet Kanalroll? {#what-is-the-use-of-the-channel-role-field}
 
@@ -55,9 +55,9 @@ Kanalrollen är förkortningen av den faktiska kanal som körs så att författa
 
 ### 4. Hur sker faktisk kanalupplösning? {#how-does-actual-channel-resolution-happen}
 
-För *statiska referenser* följer upplösningen bara den angivna sökvägen.
+För *statiska referenser*, följer upplösningen bara den angivna sökvägen.
 
-För *dynamiska referenser* inträffar upplösningen när kanalen har tilldelats till visningen (inte schemat). Visningsbanan blir kontext för kanalen och upplösningen sker enligt följande (högsta till lägsta prioritet):
+För *dynamiska referenser*, inträffar upplösningen när kanalen har tilldelats visningen (inte schemat). Visningsbanan blir kontext för kanalen och upplösningen sker enligt följande (högsta till lägsta prioritet):
 
 1. Visningen har en underordnad nod som matchar det refererade kanalnamnet
 1. Visningen har en nod på samma nivå som det refererade kanalnamnet
@@ -68,14 +68,14 @@ Och så vidare, tills du når platsmappen och stoppar den där just nu (så att 
 
 ### 5. Hur konfigurerar man en anpassad klientlib offline-konfiguration i AEM Screens Channel?
 
-När du använder en inbyggd anpassad klientkod `clientlib` i en AEM Screens-kanal måste du utföra följande steg för att säkerställa att `clientlib`-filerna läses in korrekt i kanalen (`manifest.json`) och att de innehåller sökvägen för `clientlib`.
+När du använder en anpassad klientkod `clientlib` i en AEM Screens-kanal måste du följa de här stegen för att säkerställa att `clientlib` -filerna har lästs in i kanalen (`manifest.json`) och innehåller sökvägen till `clientlib`.
 
 Följ stegen nedan i kanalredigeraren:
 
-1. Markera en kanal och klicka på **Redigera** i åtgärdsfältet för att öppna kanalredigeraren.
-1. Markera den komponent där du vill lägga till den anpassade `clientlib`.
+1. Välj en kanal och klicka på **Redigera** i åtgärdsfältet för att öppna kanalredigeraren.
+1. Markera komponenten där du vill lägga till den anpassade `clientlib`.
 1. Klicka på knappen Konfigurera (skiftnyckelsikonen).
-1. Gå till fliken **Offline Config** och lägg till sökvägen till ditt anpassade klientbibliotek i **Klientbibliotek**.
+1. Navigera till **Offlinekonfiguration** och lägga till sökvägen till din anpassade klientlib i **Bibliotek på klientsidan**.
 
 ## Enhetsregistrering {#device-registration}
 
@@ -93,7 +93,7 @@ Vi rekommenderar att du hämtar enhets-ID från sessionen i stället för att sk
 
 ### 3. Finns det något sätt att neka en enhetsregistreringsbegäran? {#is-there-a-way-to-decline-a-device-registration-request}
 
-Du kan inte avböja registreringsbegäran. Registreringsbegäranden ska i stället upphöra att gälla efter en tidsgräns som är konfigurerad i `Adobe Experience Manager Web Console`. Som standard är det här värdet inställt på en dag och lagras i en minnescache.
+Du kan inte avböja registreringsbegäran. I stället bör registreringsförfrågningar upphöra att gälla efter en timeout som har konfigurerats i `Adobe Experience Manager Web Console`. Som standard är det här värdet inställt på en dag och lagras i en minnescache.
 
 ## Enhetsövervakning och hälsorapporter {#device-monitoring-and-health-reports}
 
@@ -109,9 +109,9 @@ Kontrollera om det finns följande möjligheter att felsöka det tomma skärmpro
 
 Du måste aktivera filtret Tillåt tomt för Apache Sling Referrer-filtret. Detta krävs för att kontrollprotokollet mellan AEM Screens Player och AEM Screens-servern ska fungera optimalt.
 
-1. Navigera till **Adobe Experience Manager Web Console Configuration**
-1. Markera alternativet **allow.empty**.
-1. Klicka på **Spara**.
+1. Navigera till **Konfiguration av Adobe Experience Manager Web Console**
+1. Kontrollera **allow.empty** alternativ.
+1. Klicka **Spara**.
 
 ### 3. Hur felsöker jag om enheten visar fel när en AEM Screens-spelare registreras och om konsolloggarna visar ett ENAME_NOT_FOUND-fel? {#how-to-troubleshoot-if-while-registering-an-aem-screens-player-device-shows-failure-and-the-console-logs-display-ename-not-found-error}
 
@@ -135,25 +135,25 @@ Mer information om var du kan övervaka enhetsaktivitet finns i [**AEM Screens N
 
 ChromeOS-spelaren kan installeras som Chrome Browser-plugin i utvecklarläge utan att den faktiska enheten för Chrome Player krävs. För installation, följ stegen nedan:
 
-1. Klicka [här](https://download.macromedia.com/screens/) för att hämta den senaste Chrome Player.
+1. Klicka [här](https://download.macromedia.com/screens/) för att ladda ned den senaste Chrome Player.
 1. Zippa upp och spara det på disken.
-1. Öppna webbläsaren Chrome och välj **Tillägg** på menyn eller navigera direkt till ***chrome://extensions***.
-1. Aktivera **utvecklarläget** i det övre högra hörnet.
-1. Klicka på **Läs in opackad** från det övre vänstra hörnet och läs in den uppackade Chrome Player.
-1. Kontrollera **AEM Screens Chrome Player**-plugin om det finns i listan över tillägg.
-1. Öppna en ny flik och klicka på ikonen **Apps** i det övre vänstra hörnet eller navigera direkt till ***chrome://apps***.
-1. Klicka på **AEM Screens** Plugin för att starta Chrome Player. Som standard startas spelaren i helskärmsläge. Tryck på **esc** för att avsluta helskärmsläget.
+1. Öppna Chrome-webbläsaren och välj **Tillägg** från menyn eller direkt navigera till ***chrome://extensions***.
+1. Aktivera **Utvecklarläge** från det övre högra hörnet.
+1. Klicka på **Läs in opackad** från det övre vänstra hörnet och ladda uppzippad Chrome Player.
+1. Kontrollera **AEM Screens Chrome Player** plugin-program, om det finns i listan över tillägg.
+1. Öppna en ny flik och klicka på **Appar** ikonen i det övre vänstra hörnet eller direkt navigera till ***chrome://apps***.
+1. Klicka på **AEM Screens** Plugin-program för att starta Chrome Player. Som standard startas spelaren i helskärmsläge. Tryck **esc** för att avsluta helskärmsläget.
 
 ### 2. Hur felsöker jag om skärmspelaren inte kan autentisera via en publiceringsinstans med en anpassad felhanterare? {#how-to-troubleshoot-if-screens-player-is-unable-to-authenticate-through-publish-instance-with-custom-error-handler}
 
-När AEM Screens-spelaren startas görs en begäran till ***/content/screens/svc.ping.json*** när spelaren får ett 404-fel. Spelaren initierar en autentiseringsbegäran att autentisera mot publiceringsinstansen. Om det finns en anpassad felhanterare i publiceringsinstansen måste du returnera 404-statuskoden för anonym användare på ***/content/screens/svc.ping.json***.
+När AEM Screens-spelaren startas begär den att ***/content/screens/svc.ping.json*** när spelaren får ett 404-fel. Spelaren initierar en autentiseringsbegäran att autentisera mot publiceringsinstansen. Om det finns en anpassad felhanterare i en publiceringsinstans måste du returnera 404-statuskoden för anonym användare på ***/content/screens/svc.ping.json***.
 
 ### 3. Hur du aktiverar enhetsskärmen i en Android-spelare? {#how-to-set-the-device-screen-stay-on-in-an-android-player}
 
 Följ stegen nedan om du vill aktivera Var aktiv i en Android-spelare:
 
 1. Navigera till Android-spelarens inställningar —> **Om**
-1. Tryck 7 gånger på versionsnumret för att aktivera **Utvecklaralternativ** i **Inställningar**
+1. Tryck 7 gånger på build number för att aktivera **Utvecklaralternativ** in **Inställningar**
 1. Navigera till **Utvecklaralternativ**
 1. Aktivera **Håll dig vaken**
 
@@ -165,15 +165,15 @@ Det finns inget fönsterläge i Windows Player. Det är alltid helskärmsläge.
 
 Följ stegen nedan för att felsöka en AEM Screens-spelare som kontinuerligt skickar begäranden till `/content/screens/svc.json` och `/libs/granite/core/content/login.validate/j_security_check`:
 
-1. När AEM Screens-spelaren startas begär den `/content/screens/svc.json`. När spelaren får en 404-statuskod i svaret initierar den en autentiseringsbegäran med `/libs/granite/core/content/login.validate/j_security_check` mot *publish*-instansen. Om det finns en anpassad felhanterare i *publish*-instansen måste du returnera 404-statuskoden för anonym användare på `/content/screens/svc.json` eller `/content/screens/svc.ping.json`.
+1. När AEM Screens Player startas begär den att `/content/screens/svc.json`. När spelaren får en 404-statuskod i svaret initierar den en autentiseringsbegäran med `/libs/granite/core/content/login.validate/j_security_check` mot *publicera* -instans. Om det finns en anpassad felhanterare i *publicera* ska du se till att returnera 404-statuskoden för anonym användare på `/content/screens/svc.json` eller `/content/screens/svc.ping.json`.
 
-1. Kontrollera om din dispatcherkonfiguration tillåter dessa förfrågningar i `/filters`.
+1. Kontrollera om din dispatcher-konfiguration tillåter dessa förfrågningar i `/filters`.
 
-   Mer information finns i [Konfigurera skärmfilter](https://docs.adobe.com/content/help/en/experience-manager-screens/user-guide/administering/dispatcher-configurations-aem-screens.html#step-configuring-screens-filters).
+   Se [Konfigurera skärmfilter](https://docs.adobe.com/content/help/en/experience-manager-screens/user-guide/administering/dispatcher-configurations-aem-screens.html#step-configuring-screens-filters) för mer information.
 
 1. Kontrollera om din dispatcher skriver om regler för skärmsökvägar till en annan sökväg.
 
-1. Kontrollera om du har `/etc/map`-regler för *författaren* eller *publish*-instansen och skärmsökvägarna matchar `sling:match` och omdirigeras internt till en annan sökväg. Genom att matcha den exakta URL:en i `/system/console/jcrresolver` blir det lättare att identifiera om *publish*-instansen skriver om dessa URL:er till någon annan sökväg.
+1. Kontrollera om du har `/etc/map` regler för *författare* eller *publicera* instans- och skärmbanor matchas mot `sling:match` och omdirigeras internt till en annan bana. Lösa den exakta URL:en i `/system/console/jcrresolver` hjälper till att identifiera om *publicera* den här instansen skriver om dessa URL:er till någon annan sökväg.
 
 1. Kontrollera om konfigurationen av Apache Sling Resource Resolver Factory orsakar interna omskrivningar.
 
@@ -182,7 +182,7 @@ Följ stegen nedan för att felsöka en AEM Screens-spelare som kontinuerligt sk
 Du kan hämta information om skärmen och enheten via:
 
 * **ett internt JS API**
-* **en ContextHub-butik**: Tre ContextHub-butiker definieras i  `/libs/screens/clientlibs/contexthub` för att visa kanaler, enheter och visningsinformation.
+* **ett ContextHub-arkiv**: Tre ContextHub-butiker har definierats i `/libs/screens/clientlibs/contexthub` för att visa kanaler, enheter och visningsinformation.
 
    Följ stegen nedan för att använda dessa ContentHub-butiksvärden:
 
@@ -205,17 +205,32 @@ Så här inaktiverar du Livefyre för att undvika loggfel:
 
    * Navigera till `https://&lt;host&gt;:&lt;port&gt;/system/console/bundles`
    * Sök efter AEM Livefyre-paketet: `com.adobe.cq.social.cq-social-livefyre`
-   * Klicka på **Stopp**
+   * Klicka **Stoppa**
 
 1. ***Inaktivera Livefyre poller:***
 
    * I CRXDE Lite går du till `/etc/importers/polling/livefyre-poller/jcr:content`
-   * Lägg till en ny egenskap *aktiverad* typ *Boolean*
-   * Ange **den aktiverade egenskapen** till **false**
+   * Lägg till en ny egenskap *aktiverad* type *Boolean*
+   * Ange **enabled, egenskap** till **false**
 
 ### 2. Hur lägger jag till information om Oak Index? {#add-oak-index-info}
 
 AEM Screens skapar indexdefinitioner för frågor som används av produkten.
-Om det finns *WARNs* i `error.log` skapar du ett anpassat index för frågan. Mer information finns i [Konfigurera index](https://experienceleague.adobe.com/docs/experience-manager-65/deploying/deploying/queries-and-indexing.html?lang=en#configuring-the-indexes).
+Om det finns några *Frågespårningsvarningar* i `error.log`skapar du ett anpassat index för din fråga. Se [Konfigurera index](https://experienceleague.adobe.com/docs/experience-manager-65/deploying/deploying/queries-and-indexing.html?lang=en#configuring-the-indexes) för mer information.
 
 Du kan även referera till en ytterligare resurs på [Oak Documentation](https://jackrabbit.apache.org/oak/docs/query/lucene.html).
+
+
+### 3. Vad krävs för att konfigurera v3-manifestationer {#configure-v3}
+
+Om du vill aktivera v3-manifestet måste du:
+
+* Uppdatera Dispatcher.
+Se [Konfigurera Dispatcher för manifestversion v3](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/administering/dispatcher-configurations-aem-screens.html?lang=en#configuring-dispatcherv3) för mer information.
+
+* Uppdatera anpassad komponent.
+Se [Mall för anpassade hanterare](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/developing/developing-custom-component-tutorial-develop.html?lang=en#custom-handlers) för mer information.
+
+* Inaktivera ContentSync i `/system/console/configMgr/configMgr/com.adobe.cq.screens.offlinecontent.impl.ContentSyncCacheFeatureFlag`.
+
+* Aktivera SmartSync i `/system/console/configMgr/com.adobe.cq.screens.offlinecontent.impl.OfflineContentServiceImpl`.
