@@ -3,9 +3,9 @@ title: Konfigurera agenten för skärmreplikering
 description: Följ den här sidan för att få information om hur du konfigurerar Screens Replication Agent.
 role: Developer
 level: Intermediate
-source-git-commit: 9f0beddf87d9f5473fdedc292d3c24e96b85cdd4
+source-git-commit: 75250cf11254499dbb30b3a5b04b1849753ea266
 workflow-type: tm+mt
-source-wordcount: '249'
+source-wordcount: '339'
 ht-degree: 6%
 
 ---
@@ -82,3 +82,29 @@ Följ avsnittet nedan för att uppdatera inställningarna i agenten för skärmr
 1. Klicka på verktygen —> **Distribution** —> **Replikering**.
 
    ![bild](/help/user-guide/assets/screens-replication/screens-replication1a.png)
+
+1. Klicka på **Agenter på författare**.
+
+   ![bild](/help/user-guide/assets/screens-replication/screens-replication1b.png)
+
+1. Klicka på länken enligt bilden nedan.
+
+   ![bild](/help/user-guide/assets/screens-replication/screens-replication1c.png)
+
+1. Klicka på **Redigera**.
+
+   ![bild](/help/user-guide/assets/screens-replication/screens-replication1d.png)
+
+1. Kontrollera **Aktiverad** från **Inställningar** -fliken.
+
+   ![bild](/help/user-guide/assets/screens-replication/screens-replication1e.png)
+
+1. Navigera till **Transport** från **Agentinställningar** och ange samma lösenord som du angav tidigare i steg 8 av [Aktivera användare och uppdatera lösenordet](#enable-users). Klicka på **OK**.
+
+   ![bild](/help/user-guide/assets/screens-replication/screens-replication1f.png)
+
+1. När du är klar med de föregående stegen kan du klicka på **Testanslutning** för att verifiera anslutningen.
+
+   ![bild](/help/user-guide/assets/screens-replication/screens-replication1g.png)
+
+   Om anslutningsverifieringen lyckas har du slutfört konfigurationen av skärmreplikeringsagenten.

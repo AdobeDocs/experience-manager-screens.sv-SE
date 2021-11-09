@@ -6,9 +6,9 @@ user-guide-title: Hjälp om Adobe Experience Manager Screens
 breadcrumb-title: AEM Screens Guide
 user-guide-description: Lär dig använda en lösning för digital signering som gör att du kan publicera dynamiska och interaktiva digitala upplevelser och interaktioner.
 feature-set: Experience Manager Screens
-source-git-commit: 8676b259304326ef3319ef40aa072b9d2a292a2e
+source-git-commit: 75250cf11254499dbb30b3a5b04b1849753ea266
 workflow-type: tm+mt
-source-wordcount: '466'
+source-wordcount: '470'
 ht-degree: 1%
 
 ---
@@ -38,6 +38,7 @@ ht-degree: 1%
    + [Övergång från ContentSync till SmartSync](smartsync.md)
    + [Ny projektimporterare från fil](project-importer.md)
    + [Replikera datutlösare till publiceringsservrar](replicating-data-triggers.md)
+   + [Konfigurerar agenter för skärmreplikering](configure-screens-replication.md)
    + Klientspecifika överväganden {#installing-client}
       + [Chrome OS Player](implementing-chrome-os-player.md)
       + [Använda Chrome Player som ett tillägg för felsökning](using-chrome-player-as-an-extension.md)
@@ -45,7 +46,7 @@ ht-degree: 1%
       + [Windows Player](implementing-windows-player.md)
       + [Tizen Player](tizen-player.md)
       + [Automatisk registrering av spelare](auto-registration-players.md)
-   + Författarpublicera {#author-publish}
+   + Author Publish {#author-publish}
       + [Författare/Publicera arkitektur - översikt](author-publish-architecture-overview.md)
       + [Konfigurera författare och publicera](author-and-publish.md)
    + Analysintegrering med AEM Screens {#analytics-integration}
@@ -107,7 +108,7 @@ ht-degree: 1%
    + [Skapa anpassade mallar för MultiZone-layouter](creating-custom-templates-multizone-layouts.md)
    + [Använda anpassad profilering och formatering för textövertäckningar](custom-branding-text-overlays.md)
    + [Adaptiva renderingar: Arkitektöversikt och konfigurationer](/help/user-guide/adaptive-renditions.md)
-+ Felsökning och vanliga frågor och svar {#troubleshooting}
++ Felsökning och vanliga frågor {#troubleshooting}
    + [Vanliga frågor om AEM Screens](aem-screens-faqs.md)
    + [Felsökning av Device Control Center](monitoring-screens.md)
    + [Videouppspelningskonfiguration](troubleshoot-videos.md)
