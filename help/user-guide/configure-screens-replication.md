@@ -1,23 +1,23 @@
 ---
-title: Configure Screens Replication Agents
+title: Konfigurera agenter för skärmreplikering
 description: Följ den här sidan för att få information om hur du konfigurerar agenter för skärmreplikering.
 role: Developer
 level: Intermediate
-source-git-commit: d35a8f1e4c8537560ca47c5a4ef4877137b8f7ea
+source-git-commit: 8f4aa5d33616275591c8b4c3bf0616c6cbd0ebf3
 workflow-type: tm+mt
-source-wordcount: '493'
+source-wordcount: '504'
 ht-degree: 3%
 
 ---
 
 
-# Configuring Screens Replication Agents {#configuring-screens-replication-agent}
+# Konfigurerar agenter för skärmreplikering {#configuring-screens-replication-agent}
 
 På följande sida beskrivs hur du konfigurerar Screens Replication Agents.
 
 ## Syfte {#objective}
 
-Agenten för skärmreplikering ansvarar för att pinga data från publicering till författare. Det är viktigt att konfigurera detta så att författaren kan visa enhetsping.
+Agenten för skärmreplikering ansvarar för att pinga data som *användare*, *lösenord*, *rebootSchedule*, *maxNumberOfLogFilesToKeep* och många fler sådana värden, från publicera till författare. Det är viktigt att konfigurera detta så att författaren kan visa enhetsping.
 
 >[!NOTE]
 >Mer information om agenter för skärmreplikering finns i [Skärmreplikeringsagenter och kommandon](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/administering/author-publish/author-publish-architecture-overview.html?lang=en#screens-replication-agents-and-commands).
@@ -34,7 +34,7 @@ Följ stegen nedan för att aktivera användare och uppdatera lösenordet för s
 >[!NOTE]
 >Av säkerhetsskäl bör du undvika att använda administratörslösenordet för skärmmottagare-användare.
 
-1. Navigate  to your AEM Author instance.
+1. Navigera till din AEM Author-instans.
 
 1. Klicka på verktygen —> **Säkerhet** —> **Användare**.
 
@@ -75,7 +75,7 @@ Följ stegen nedan för att aktivera användare och uppdatera lösenordet för s
 
    ![bild](/help/user-guide/assets/screens-replication/screens-replication8.png)
 
-1. Click on **OK** to confirm.
+1. Klicka på **OK** för att bekräfta.
 
    ![bild](/help/user-guide/assets/screens-replication/screens-replication9.png)
 
@@ -95,9 +95,9 @@ Följ avsnittet nedan för att uppdatera inställningarna i agenten för skärmr
 >[!IMPORTANT]
 >Du måste utföra följande steg på ALLA befintliga skärmreplikeringsagenter.
 
-1. Navigate to your AEM instance.
+1. Navigera till AEM.
 
-1. Click on tools --> **Deployment** --> **Replication**.
+1. Klicka på verktygen —> **Distribution** —> **Replikering**.
 
    ![bild](/help/user-guide/assets/screens-replication/screens-replication1a.png)
 
@@ -108,7 +108,7 @@ Följ avsnittet nedan för att uppdatera inställningarna i agenten för skärmr
 1. Sök efter Screens Replication Agent på författaren och klicka på länken enligt bilden nedan.
 
    >[!NOTE]
-   >Search for the Screens Replication agent with the letter **S** included in the name of the author.
+   >Sök efter skärmreplikeringsagenten med bokstaven **S** som ingår i författarens namn.
 
    ![bild](/help/user-guide/assets/screens-replication/screens-replication1c.png)
 
@@ -130,4 +130,4 @@ Följ avsnittet nedan för att uppdatera inställningarna i agenten för skärmr
 
    ![bild](/help/user-guide/assets/screens-replication/screens-replication1g.png)
 
-   If the connection verification is successful, you have completed configuring Screens Replication Agent.
+   Om anslutningsverifieringen lyckas har du slutfört konfigurationen av skärmreplikeringsagenten.
