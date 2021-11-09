@@ -3,17 +3,25 @@ title: Konfigurera agenten för skärmreplikering
 description: Följ den här sidan för att få information om hur du konfigurerar Screens Replication Agent.
 role: Developer
 level: Intermediate
-source-git-commit: 75250cf11254499dbb30b3a5b04b1849753ea266
+source-git-commit: 99d66e5ac4239a6e43c15bb835f1e41ca94d908b
 workflow-type: tm+mt
-source-wordcount: '339'
-ht-degree: 6%
+source-wordcount: '396'
+ht-degree: 5%
 
 ---
 
 
 # Konfigurerar agenten för skärmreplikering {#configuring-screens-replication-agent}
 
-I det här avsnittet beskrivs hur du konfigurerar Screens-replikeringsagenten.
+På följande sida beskrivs hur du konfigurerar Screens Replication Agent.
+
+>[!NOTE]
+>Mer information om agenter för skärmreplikering finns i [Skärmreplikeringsagenter och kommandon](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/administering/author-publish/author-publish-architecture-overview.html?lang=en#screens-replication-agents-and-commands).
+
+Du måste slutföra båda sektionerna för att slutföra konfigurationen för skärmreplikeringsagenten:
+
+1. [Aktivera användare och uppdatera lösenordet](#enable-users)
+1. [Replikeringsagenten för skärmar uppdateras](#replicate-agent)
 
 ## Aktivera användare och uppdatera lösenordet {#enable-users}
 
@@ -87,7 +95,7 @@ Följ avsnittet nedan för att uppdatera inställningarna i agenten för skärmr
 
    ![bild](/help/user-guide/assets/screens-replication/screens-replication1b.png)
 
-1. Klicka på länken enligt bilden nedan.
+1. Sök efter länken med brevet **S** och klicka på den enligt bilden nedan.
 
    ![bild](/help/user-guide/assets/screens-replication/screens-replication1c.png)
 
