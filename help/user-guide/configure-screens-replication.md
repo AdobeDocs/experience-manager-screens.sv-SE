@@ -3,10 +3,10 @@ title: Konfigurera agenten för skärmreplikering
 description: Följ den här sidan för att få information om hur du konfigurerar Screens Replication Agent.
 role: Developer
 level: Intermediate
-source-git-commit: 6f44bc9d28ed7fa3a9c8afef7ab7ecab64d53d36
+source-git-commit: 42e6adb7f8aa60854637a48fbb08525a0a971276
 workflow-type: tm+mt
-source-wordcount: '417'
-ht-degree: 5%
+source-wordcount: '440'
+ht-degree: 3%
 
 ---
 
@@ -25,7 +25,10 @@ Du måste slutföra båda sektionerna för att slutföra konfigurationen för sk
 
 ## Aktivera användare och uppdatera lösenordet {#enable-users}
 
-Följ stegen nedan:
+Följ stegen nedan för att aktivera användare och uppdatera lösenordet för skärmmottagare-användare:
+
+>[!NOTE]
+>Av säkerhetsskäl bör du undvika att använda administratörslösenordet för skärmmottagare-användare.
 
 1. Navigera till AEM.
 
