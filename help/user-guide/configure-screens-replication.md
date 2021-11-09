@@ -3,17 +3,17 @@ title: Konfigurera agenten för skärmreplikering
 description: Följ den här sidan för att få information om hur du konfigurerar Screens Replication Agent.
 role: Developer
 level: Intermediate
-source-git-commit: 99d66e5ac4239a6e43c15bb835f1e41ca94d908b
+source-git-commit: 6f44bc9d28ed7fa3a9c8afef7ab7ecab64d53d36
 workflow-type: tm+mt
-source-wordcount: '396'
+source-wordcount: '417'
 ht-degree: 5%
 
 ---
 
 
-# Konfigurerar agenten för skärmreplikering {#configuring-screens-replication-agent}
+# Konfigurerar agenter för skärmreplikering {#configuring-screens-replication-agent}
 
-På följande sida beskrivs hur du konfigurerar Screens Replication Agent.
+På följande sida beskrivs hur du konfigurerar Screens Replication Agents.
 
 >[!NOTE]
 >Mer information om agenter för skärmreplikering finns i [Skärmreplikeringsagenter och kommandon](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/administering/author-publish/author-publish-architecture-overview.html?lang=en#screens-replication-agents-and-commands).
@@ -21,7 +21,7 @@ På följande sida beskrivs hur du konfigurerar Screens Replication Agent.
 Du måste slutföra båda sektionerna för att slutföra konfigurationen för skärmreplikeringsagenten:
 
 1. [Aktivera användare och uppdatera lösenordet](#enable-users)
-1. [Replikeringsagenten för skärmar uppdateras](#replicate-agent)
+1. [Uppdaterar inställningar för skärmreplikeringsagenten](#replicate-agent)
 
 ## Aktivera användare och uppdatera lösenordet {#enable-users}
 
@@ -81,7 +81,7 @@ Följ stegen nedan:
 
 1. Klicka på **OK** för att bekräfta.
 
-## Replikeringsagenten för skärmar uppdateras {#replicate-agent}
+## Uppdaterar inställningar för skärmreplikeringsagenten {#replicate-agent}
 
 Följ avsnittet nedan för att uppdatera inställningarna i agenten för skärmreplikering:
 
@@ -95,7 +95,10 @@ Följ avsnittet nedan för att uppdatera inställningarna i agenten för skärmr
 
    ![bild](/help/user-guide/assets/screens-replication/screens-replication1b.png)
 
-1. Sök efter länken med brevet **S** och klicka på den enligt bilden nedan.
+1. Sök efter Screens Replication Agent på författaren och klicka på länken enligt bilden nedan.
+
+   >[!NOTE]
+   >Sök efter skärmreplikeringsagenten med bokstaven **S** som ingår i författarens namn.
 
    ![bild](/help/user-guide/assets/screens-replication/screens-replication1c.png)
 
