@@ -3,9 +3,9 @@ title: Konfigurera agenter för skärmreplikering
 description: Följ den här sidan för att få information om hur du konfigurerar agenter för skärmreplikering.
 role: Developer
 level: Intermediate
-source-git-commit: 8f4aa5d33616275591c8b4c3bf0616c6cbd0ebf3
+source-git-commit: 46b466d5d05700def4b2c290fa164fbdabae268a
 workflow-type: tm+mt
-source-wordcount: '504'
+source-wordcount: '507'
 ht-degree: 3%
 
 ---
@@ -105,10 +105,10 @@ Följ avsnittet nedan för att uppdatera inställningarna i agenten för skärmr
 
    ![bild](/help/user-guide/assets/screens-replication/screens-replication1b.png)
 
-1. Sök efter Screens Replication Agent på författaren och klicka på länken enligt bilden nedan.
+1. Sök efter alla skärmreplikeringsagenter på författaren och klicka på länken enligt bilden nedan.
 
    >[!NOTE]
-   >Sök efter skärmreplikeringsagenten med bokstaven **S** som ingår i författarens namn.
+   >Sök efter alla skärmreplikeringsagenter. Namnet på skärmreplikeringsagenten kommer att innehålla en bokstav **S** i titeln.
 
    ![bild](/help/user-guide/assets/screens-replication/screens-replication1c.png)
 
