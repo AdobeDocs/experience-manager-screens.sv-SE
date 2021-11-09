@@ -1,11 +1,11 @@
 ---
-title: Konfigurera agenten för skärmreplikering
-description: Följ den här sidan för att få information om hur du konfigurerar Screens Replication Agent.
+title: Konfigurera agenter för skärmreplikering
+description: Följ den här sidan för att få information om hur du konfigurerar agenter för skärmreplikering.
 role: Developer
 level: Intermediate
-source-git-commit: 42e6adb7f8aa60854637a48fbb08525a0a971276
+source-git-commit: 137480ddaf6d7b73452c26402d56588230aa8c30
 workflow-type: tm+mt
-source-wordcount: '440'
+source-wordcount: '470'
 ht-degree: 3%
 
 ---
@@ -14,6 +14,10 @@ ht-degree: 3%
 # Konfigurerar agenter för skärmreplikering {#configuring-screens-replication-agent}
 
 På följande sida beskrivs hur du konfigurerar Screens Replication Agents.
+
+## Syfte {#objective}
+
+Agenten för skärmreplikering ansvarar för att pinga data från publicering till författare. Det är viktigt att konfigurera detta så att författaren kan visa enhetsping.
 
 >[!NOTE]
 >Mer information om agenter för skärmreplikering finns i [Skärmreplikeringsagenter och kommandon](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/administering/author-publish/author-publish-architecture-overview.html?lang=en#screens-replication-agents-and-commands).
