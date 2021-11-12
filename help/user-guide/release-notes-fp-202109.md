@@ -5,9 +5,9 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: e1794013-59ce-4ddc-93c0-601668c75cd1
-source-git-commit: 6433e586f505df889fef7ddb9ee5f530f5d6d46c
+source-git-commit: c49cce64fe34e0611f086de5ac1c363589e3dc14
 workflow-type: tm+mt
-source-wordcount: '878'
+source-wordcount: '876'
 ht-degree: 0%
 
 ---
@@ -54,11 +54,18 @@ Se [Tilldelningsrapport för innehåll](/help/user-guide/content-assignment-repo
 
 * **Stöd för V3-manifestationer**
 
-   Du kan nu konfigurera Dispatcher för manifestversion v3. Om du vill aktivera v3-manifestet måste du konfigurera: * Uppdatera dispatcher * Uppdatera anpassad komponent * Inaktivera ContentSync i `/system/console/configMgr/configMgr/com.adobe.cq.screens.offlinecontent.impl.ContentSyncCacheFeatureFlag`
-* Aktivera SmartSync i `/system/console/configMgr/com.adobe.cq.screens.offlinecontent.impl.OfflineContentServiceImpl`
+   Du kan nu konfigurera Dispatcher för manifestversion v3. Om du vill aktivera v3-manifestet måste du konfigurera:
 
-   Se [Konfigurera Dispatcher för manifestversion v3](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/administering/dispatcher-configurations-aem-screens.html?lang=en#configuring-dispatcherv3) för mer information.
-Om du dessutom använder anpassade komponenter som en del av v3-manifestationer, se [Mall för anpassade hanterare](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/developing/developing-custom-component-tutorial-develop.html?lang=en#custom-handlers).
+   * Uppdatera avsändare
+
+   * Uppdatera anpassad komponent
+
+   * Inaktivera ContentSync i `/system/console/configMgr/configMgr/com.adobe.cq.screens.offlinecontent.impl.ContentSyncCacheFeatureFlag`
+
+   * Aktivera SmartSync i `/system/console/configMgr/com.adobe.cq.screens.offlinecontent.impl.OfflineContentServiceImpl`
+
+   * Se [Konfigurera Dispatcher för manifestversion v3](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/administering/dispatcher-configurations-aem-screens.html?lang=en#configuring-dispatcherv3) för mer information.
+   * Om du använder anpassade komponenter som en del av v3-manifestationer, se [Mall för anpassade hanterare](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/developing/developing-custom-component-tutorial-develop.html?lang=en#custom-handlers).
 
 
 ### Felkorrigeringar {#bug-fixes}
