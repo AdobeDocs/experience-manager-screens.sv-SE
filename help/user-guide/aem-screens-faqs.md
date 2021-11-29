@@ -7,9 +7,9 @@ feature: Digital Signage, Content
 role: Developer
 level: Intermediate
 exl-id: 67204f04-5535-407c-bd4d-fabfbf850411
-source-git-commit: c746fb991c02a015a5366187699e49d441ee2d88
+source-git-commit: a3bed3baf7e825299a82ccf624c3cdf876830cd0
 workflow-type: tm+mt
-source-wordcount: '2120'
+source-wordcount: '2119'
 ht-degree: 0%
 
 ---
@@ -243,4 +243,4 @@ Se [Mall för anpassade hanterare](https://experienceleague.adobe.com/docs/exper
 
 ### 4. Vad ska du göra om, efter paketet screens-cloud-ams-pkg-0.0.20, screens-cloud-ams-pkg-0.0.16 och skärmens kärnpaket är installerade men inte aktiva?
 
-Du måste installera en minimiversion av AEM 6.5 Feature Pack 8 AMS för att AMS-anslutningen ska fungera. Se [Tillgänglighet](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/release-notes/release-notes-fp-202105.html?lang=en#availability) för att få den lägsta versionen av funktionspaketet.
+Du måste installera minst AEM 6.5 Feature Pack 8 för att AMS-anslutningen ska fungera. Se [Tillgänglighet](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/release-notes/release-notes-fp-202105.html?lang=en#availability) för att få den lägsta versionen av funktionspaketet.
