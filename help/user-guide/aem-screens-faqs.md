@@ -7,9 +7,9 @@ feature: Digital Signage, Content
 role: Developer
 level: Intermediate
 exl-id: 67204f04-5535-407c-bd4d-fabfbf850411
-source-git-commit: 9e9c7d49db3e3745719ded2505b1c41358ceeddd
+source-git-commit: c746fb991c02a015a5366187699e49d441ee2d88
 workflow-type: tm+mt
-source-wordcount: '2061'
+source-wordcount: '2120'
 ht-degree: 0%
 
 ---
@@ -215,7 +215,7 @@ Så här inaktiverar du Livefyre för att undvika loggfel:
 
 ### 2. Hur lägger jag till information om Oak Index? {#add-oak-index-info}
 
-AEM Screens skapar indexdefinitioner för frågor som används av produkten.
+AEM Screens skapar indexdefinitioner för de frågor som används av produkten.
 Om det finns några *Frågespårningsvarningar* i `error.log`skapar du ett anpassat index för din fråga. Se [Konfigurera index](https://experienceleague.adobe.com/docs/experience-manager-65/deploying/deploying/queries-and-indexing.html?lang=en#configuring-the-indexes) för mer information.
 
 Du kan även referera till en ytterligare resurs på [Oak Documentation](https://jackrabbit.apache.org/oak/docs/query/lucene.html).
@@ -240,3 +240,7 @@ Se [Mall för anpassade hanterare](https://experienceleague.adobe.com/docs/exper
 * Navigera till **Offlinekonfiguration** -fliken.
 
 * Retur `clientlibs `och mappar för statiska filer som måste läggas till i manifestet.
+
+### 4. Vad ska du göra om, efter paketet screens-cloud-ams-pkg-0.0.20, screens-cloud-ams-pkg-0.0.16 och skärmens kärnpaket är installerade men inte aktiva?
+
+Du måste installera en minimiversion av AEM 6.5 Feature Pack 8 AMS för att AMS-anslutningen ska fungera. Se [Tillgänglighet](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/release-notes/release-notes-fp-202105.html?lang=en#availability) för att få den lägsta versionen av funktionspaketet.
