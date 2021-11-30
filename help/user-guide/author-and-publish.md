@@ -1,18 +1,14 @@
 ---
 title: Konfigurera författare och publicera i AEM Screens
-seo-title: Configuring Author and Publish in AEM Screens
-description: AEM Screens architecture resembles a traditional AEM Sites architecture. Innehållet skapas på en AEM författarinstans och sedan vidarebefordras till flera publiceringsinstanser. Följ den här sidan för att lära dig hur du konfigurerar författare och publicerar för AEM Screens.
-seo-description: AEM Screens architecture resembles a traditional AEM Sites architecture. Content is authored on an AEM author instance and then forward-replicated to multiple publish instances. Follow this page to learn how to configure author and publish for AEM Screens.
-feature: Administering Screens
-role: Admin, Developer
-level: Intermediate
+description: AEM Screens arkitektur liknar en traditionell AEM Sites-arkitektur. Innehållet skapas på en AEM författarinstans och sedan vidarebefordras till flera publiceringsinstanser. Följ den här sidan för att lära dig hur du konfigurerar författare och publicerar för AEM Screens.
 exl-id: 5aef5f35-d946-4bf8-a2a8-c3ed532b7eef
-source-git-commit: 6f44bc9d28ed7fa3a9c8afef7ab7ecab64d53d36
+source-git-commit: c152c6b46e33b42376cedeb7245d69c7c09ecd44
 workflow-type: tm+mt
-source-wordcount: '1882'
+source-wordcount: '2006'
 ht-degree: 0%
 
 ---
+
 
 # Konfigurera författare och publicera i AEM Screens {#configuring-author-and-publish-in-aem-screens}
 
@@ -78,7 +74,7 @@ Följ stegen nedan om du vill skapa en standardsvar för replikering:
 
    ![screen_shot_2019-02-25at25400pm](assets/screen_shot_2019-02-25at25400pm.png)
 
-1. Enter the **Title** and **Name** to create the replication agent and click **Create**.
+1. Ange **Titel** och **Namn** för att skapa replikeringsagenten och klicka på **Skapa**.
 
    ![screen_shot_2019-02-25at25737pm](assets/screen_shot_2019-02-25at25737pm.png)
 
@@ -86,7 +82,7 @@ Följ stegen nedan om du vill skapa en standardsvar för replikering:
 
    ![screen_shot_2019-02-25at30018pm](assets/screen_shot_2019-02-25at30018pm.png)
 
-1. Click **Edit** to open the **Agent Settings** dialog box to enter the details.
+1. Klicka **Redigera** för att öppna **Agentinställningar** för att ange information.
 
    >[!NOTE]
    >
@@ -106,36 +102,36 @@ Följ stegen nedan om du vill skapa en standardsvar för replikering:
 #### Skapar standardreplikeringsagenter  {#creating-standard-replication-agents}
 
 1. Skapa en standardobjektreplikeringsagent för pub1 (standardagenten som är färdig bör redan vara konfigurerad) (till exempel *https://&lt;hostname>:4503/bin/receive?sling:authRequestLogin=1*)
-1. Skapa en standardslikeringsagent för pub2. Du kan kopiera rep agent för pub1 och uppdatera transporten som ska användas för pub2 genom att ändra porten i transportkonfigurationen. (for example, *https://&lt;hostname>:4504/bin/receive?sling:authRequestLogin=1*)
+1. Skapa en standardslikeringsagent för pub2. Du kan kopiera rep agent för pub1 och uppdatera transporten som ska användas för pub2 genom att ändra porten i transportkonfigurationen. (t.ex. *https://&lt;hostname>:4504/bin/receive?sling:authRequestLogin=1*)
 
 #### Skapar agenter för skärmreplikering {#creating-screens-replication-agents}
 
 1. Skapa AEM Screens-replikeringsagent för pub1. Det finns en som heter Screens Replication Agent som pekar på port 4503. Detta måste aktiveras.
-1. Skapa AEM Screens replikeringsagent för pub2. Copy the Screens replication agent for pub1 and change the port to point to 4504 for pub2.
+1. Skapa AEM Screens replikeringsagent för pub2. Kopiera skärmreplikeringsagenten för pub1 och ändra porten till punkt 4504 för pub2.
 
    >[!NOTE]
-   >To learn how to configure Screens Replication Agents, see [Configuring Screens Replication Agent](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/administering/configure-screens-replication.html?lang=en).
+   >Mer information om hur du konfigurerar agenter för skärmreplikering finns i [Konfigurerar agenten för skärmreplikering](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/administering/configure-screens-replication.html?lang=en).
 
-#### Creating Screens Reverse Replication Agents {#creating-screens-reverse-replication-agents}
+#### Skapar agenter för omvänd rasterreplikering {#creating-screens-reverse-replication-agents}
 
-1. Create standard reverse replication agent for pub1.
-1. Create standard reverse replication agent for pub2. Du kan kopiera omvänd rep-agent för pub1 och uppdatera transporten som ska användas för pub2 genom att ändra porten i transportkonfigurationen.
+1. Skapa en standardinverterad replikeringsagent för pub1.
+1. Skapa en standardinverterad replikeringsagent för pub2. Du kan kopiera omvänd rep-agent för pub1 och uppdatera transporten som ska användas för pub2 genom att ändra porten i transportkonfigurationen.
 
 ## Konfigurera publiceringstopologi {#setting-up-publish-topology}
 
-### Step 1: Configure Apache Sling Oak-Based Discovery {#step-configure-apache-sling-oak-based-discovery}
+### Steg 1: Konfigurera Apache Sling Oak-Based Discovery {#step-configure-apache-sling-oak-based-discovery}
 
 Konfigurera Apache Sling Oak-Based Discovery för alla publiceringsinstanser i topologin
 
 För varje publiceringsinstans:
 
 1. Navigera till `https://<host>:<port>/system/console/configMgr`
-1. Select **Apache Sling Oak-Based Discovery Service** Configuration.
-1. Update Topology connector URLs: add URLs of all partaking publish instances that is:
+1. Välj **Apache Sling Oak-Based Discovery Service** Konfiguration.
+1. Uppdatera topologianslutnings-URL: lägga till URL:er för alla partakta publiceringsinstanser som är:
    * `https://localhost:4503/libs/sling/topology/connector`
    * `https://localhost:4504/libs/sling/topology/connector`
 1. **Vitlista för topologikoppling**: anpassa sig till IP-adresser eller undernät som omfattar partakta publiceringsinstanser
-1. Enable **Auto-Stop Local-Loops**
+1. Aktivera **Stoppa lokala loopar automatiskt**
 
 Konfigurationen ska vara identisk för varje publiceringsinstans och den automatiska stopploopen förhindrar en oändlig slinga.
 
@@ -143,7 +139,7 @@ Konfigurationen ska vara identisk för varje publiceringsinstans och den automat
 
 Navigera till för alla publiceringsinstanser `https://:/system/console/topology`. Du bör se alla publiceringsinstanser som representeras i topologin under **Utgående topologianslutningar**.
 
-#### Steg 3: Konfigurera ActiveMQ Artemis-kluster {#step-setup-activemq-artemis-cluster}
+#### Steg 3: Konfigurera ActiveMQ-objektkluster {#step-setup-activemq-artemis-cluster}
 
 I det här steget kan du skapa krypterat lösenord för ActiveMQ Artemis-klustret.
 Klusteranvändaren och lösenordet för alla publiceringsinstanser i topologin måste vara identiska. Lösenordet för ActiveMQ Artemis-konfigurationen måste krypteras. Eftersom varje instans har en egen krypteringsnyckel måste du använda krypteringsstöd för att skapa en krypterad lösenordssträng. Krypterat lösenord används sedan i OSGi-konfigurationen för ActiveMQ.
@@ -179,7 +175,7 @@ Följ stegen nedan för varje publiceringsinstans:
 
 1. Navigera till OSGi Console -> Meny > ActiveMQ Artemis `https://localhost:4505/system/console/mq`.
 1. Verifiera och kontrollera om du vill visa portar för andra instanser under Klusterinformation > Topologi > noder=2, members=2.
-1. Send a Test Message (top of the screen under Broker Information)
+1. Skicka ett testmeddelande (högst upp på skärmen under Information om mäklare)
 1. Ange följande ändringar i fält:
 
    1. **Mål**: /com.adobe.cq.screens/devTestTopic
@@ -201,7 +197,7 @@ Om du inte ser följande konfiguration från */system/console/mq* navigera sedan
 Följ stegen för varje publiceringsinstans:
 
 1. Navigera till **OSGi Console** > **Konfigurationshanteraren**
-1. Select **Apache Sling Referrer Filter**
+1. Välj **Apache Sling Referer-filter**
 1. Uppdatera konfiguration och **Markera Tillåt tomt**
 
 ### Konfigurera författare och publiceringsinstans {#configuring-author-and-publish-instance}
@@ -214,10 +210,10 @@ När du har konfigurerat publiceringstopologin måste du konfigurera författare
 >
 >För att komma igång med det här exemplet skapar du ett nytt AEM Screens-projekt följt av att du skapar en plats, visning och kanal i ditt projekt. Lägg till innehåll i kanalen och tilldela kanalen till en skärm.
 
-#### Step 1: Starting an AEM Screens Player (device) {#step-starting-an-aem-screens-player-device}
+#### Steg 1: Starta en AEM Screens Player (enhet) {#step-starting-an-aem-screens-player-device}
 
-1. Launch a separate browser window.
-1. Go to Screens player using the *web browser*, that is,`https://localhost:4502/content/mobileapps/cq-screens-player/firmware.html` or launch the AEM Screens app. När du öppnar enheten visas enhetens status som ej registrerad.
+1. Starta ett separat webbläsarfönster.
+1. Gå till Skärmspelaren med *webbläsare*, det vill säga`https://localhost:4502/content/mobileapps/cq-screens-player/firmware.html` eller starta AEM Screens. När du öppnar enheten visas enhetens status som ej registrerad.
 
 >[!NOTE]
 >
@@ -225,17 +221,17 @@ När du har konfigurerat publiceringstopologin måste du konfigurera författare
 
 #### Steg 2: Registrera en enhet på författaren {#step-registering-a-device-on-author}
 
-1. Go to `https://localhost:4502/screens.html/content/screens/we-retail` or select your project and navigate to Devices > Device Manager.
+1. Gå till `https://localhost:4502/screens.html/content/screens/we-retail` eller välj projektet och gå till Enheter > Enhetshanteraren.
 1. Välj **Registrera enhet**.
 1. Klicka **Enhetsregistrering** för att visa enheten.
 1. Välj den enhet som du vill registrera och klicka på **Registrera enhet**.
 1. Verifiera registreringskoden och klicka på **Validera**.
 1. Ange en rubrik för enheten och klicka på **Registrera**.
 
-#### Step 3: Assigning the Device to Display {#step-assigning-the-device-to-display}
+#### Steg 3: Tilldela enheten till visning {#step-assigning-the-device-to-display}
 
-1. Click **Assign Display** from the dialog box from the preceding step.
-1. Select the display path for your channel from the **Locations** folder.
+1. Klicka **Tilldela visning** i dialogrutan från föregående steg.
+1. Välj visningsbanan för kanalen i dialogrutan **Platser** mapp.
 1. Klicka **Tilldela**.
 1. Klicka **Slutför** för att slutföra processen och nu tilldelas enheten.
 
@@ -261,9 +257,9 @@ Du kan även aktivera enheten från enhetshanteringskonsolen. Följ stegen nedan
 
 1. Navigera till ditt skärpeprojekt —> **Enheter**.
 1. Klicka **Enhetshanteraren** i åtgärdsfältet.
-1. Select the device and click **Activate** from the action bar, as in shown in the figure below.
+1. Markera enheten och klicka på **Aktivera** i åtgärdsfältet, som i bilden nedan.
 
-![screen_shot_2019-02-21at111036am](assets/screen_shot_2019-02-21at111036am.png)
+![screen_shot_2019-02-21at11036am](assets/screen_shot_2019-02-21at111036am.png)
 
 >[!NOTE]
 >
@@ -304,9 +300,28 @@ Se ändringarna i din AEM Screens-spelare.
 Du kan även uppdatera/redigera server-URL:en från enhetshanteringskonsolen genom att följa följande steg:
 
 1. Navigera till ditt AEM Screens-projekt och välj **Enheter** mapp.
-1. Click **Device Manager** from the action bar.
+1. Klicka **Enhetshanteraren** i åtgärdsfältet.
 1. Markera enheten och klicka på **Redigera server-URL** från åtgärdsfältet, som visas i figuren nedan, och dina ändringar kommer att spridas till AEM Screens-spelaren.
 
 ![screen_shot_2019-02-07at31028pm](assets/screen_shot_2019-02-07at31028pm.png)
 
 The **Hantera publikation** Med kan du leverera innehållsuppdateringar från författare till publicering till enhet. Du kan publicera/avpublicera innehåll för hela AEM Screens-projektet eller bara för en av dina kanaler, platser, enheter, program eller scheman. Mer information om den här funktionen finns i [On Demand Content Update](on-demand-content.md).
+
+## Felsökningstips {#troubleshoot-tips}
+
+Följ avsnittet nedan för att få svar på vanliga frågor om författare/publiceringskonfiguration.
+
+### Hur lägger jag till en omdirigering från https till http efter den första registreringen och tilldelningen? {#add-redirect}
+
+**Lösning**
+Aktivera `Proxy/Load Balancer Connection in the Jetty configuration` till `true`.
+
+### Så här uppdaterar du offlineinnehåll och problem med hämtning av spelare med resurser utanför `/content/dam/projects/<project>`? {#update-offline-content}
+
+**Lösning**
+Ge läsbehörighet för användare och enheter som är överordnad för bulk-offline-update-screens-service för alla `/content/dam` eller de specifika resurser du vill använda, om du vill vara mer restriktiv.
+
+### Hur åtgärdar jag fel i skärmreplikeringsagenten? {#replication-agent}
+
+**Lösning**
+Kontrollera att du inte har markerat Använd för omvänd replikering i agentkonfigurationen. Det går inte att använda agenten för skärmreplikering som en omvänd replikeringsagent och omfattningen av den här funktionen är att vidarebefordra enhetskommandon från författare till publicering.
