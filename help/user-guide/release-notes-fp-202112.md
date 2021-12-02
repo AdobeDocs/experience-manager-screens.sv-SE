@@ -4,9 +4,9 @@ description: Följ den här sidan för att få information om AEM Screens Featur
 feature: Feature Pack
 role: Developer
 level: Intermediate
-source-git-commit: a01458fd34bb2fca01ef3f498ccaab1cf258e9f8
+source-git-commit: 2b1396762134c72836f6b05b6936a9cec380dd97
 workflow-type: tm+mt
-source-wordcount: '174'
+source-wordcount: '269'
 ht-degree: 1%
 
 ---
@@ -29,15 +29,26 @@ Releasedatum för AEM Screens Feature Pack 20212 är 3 december 2021.
 
 ### Nyheter {#what-is-new}
 
-* Appuppdateringar för Android måste ha Android 11 som mål (API-nivå 30).
+* Android-programuppdateringar har nu Android 11 som mål (API-nivå 30). Android-spelaren är för närvarande på API-nivå 29.
+
+* Som utvecklare kommer du nu att visa återgivningar av resurser som endast ska listas som återgivningsposter under motsvarande resurser i manifestet för att säkerställa att manifesthanteringen är omfattande, tydlig och enkel.
 
 ### Felkorrigeringar {#bug-fixes}
 
+* Nu kan du filtrera analyshändelser baserat på händelsetyp.
+
+* Samla in lokala spelarloggar och analysera dem för svart skärm.
+
+* Spelaren som visar en tom skärm med en delad skärmkanal har nu åtgärdats
+
+* Åtgärdade anpassade hanterardokument genom att lägga till kärnpaket på allmän maven.
+
+* Spelaren uppdaterade inte den fasta programversionen efter uppgraderingen. Den här är nu lagad.
 
 
 ### Lanserade AEM Screens-spelare {#released-aem-screens-players}
 
-Följande AEM Screens-spelare finns för AEM 6.5 Feature Pack 9:
+Följande AEM Screens-spelare finns för AEM 6.5 Feature Pack 10:
 
 * ChromeOS
 * Windows
