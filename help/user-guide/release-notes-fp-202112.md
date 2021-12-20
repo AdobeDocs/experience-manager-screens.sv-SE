@@ -4,7 +4,7 @@ description: Följ den här sidan för att få information om AEM Screens Featur
 feature: Feature Pack
 role: Developer
 level: Intermediate
-source-git-commit: a80b7d81df0ddcfad814e3462604e4d64f0c88ac
+source-git-commit: ab67ce4704b3e3cb3f38ffca6e6964d94709967d
 workflow-type: tm+mt
 source-wordcount: '269'
 ht-degree: 1%
@@ -25,7 +25,7 @@ Du kan ladda ned den senaste funktionspaketet för AEM Screens 6.5.10 från [Pro
 
 ## Releasedatum {#release-date}
 
-Releasedatum för AEM Screens Feature Pack 20212 är 6 december 2021.
+Releasedatum för AEM Screens Feature Pack 20212 är 17 december 2021.
 
 ### Nyheter {#what-is-new}
 
