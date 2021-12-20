@@ -1,10 +1,10 @@
 ---
 title: Versionsinformation för funktionspaket 2012
-description: Följ den här sidan för att få information om AEM Screens Feature Pack 2012 släppt den 6 december 2021.
+description: Följ den här sidan för att få information om AEM Screens Feature Pack 2012 som släpptes den 17 december 2021.
 feature: Feature Pack
 role: Developer
 level: Intermediate
-source-git-commit: ab67ce4704b3e3cb3f38ffca6e6964d94709967d
+source-git-commit: 2243a2a87fc5826a02c3eff60030dc296fa77a0f
 workflow-type: tm+mt
 source-wordcount: '269'
 ht-degree: 1%
