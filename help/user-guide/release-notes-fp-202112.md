@@ -4,13 +4,13 @@ description: Följ den här sidan för att få information om AEM Screens Featur
 feature: Feature Pack
 role: Developer
 level: Intermediate
-source-git-commit: 2243a2a87fc5826a02c3eff60030dc296fa77a0f
+exl-id: 3ff32a3d-9baf-4085-a775-bb5a76a1f5b3
+source-git-commit: 3366a918c75dd1485dfe8716797d7254b3b5c2b3
 workflow-type: tm+mt
-source-wordcount: '269'
+source-wordcount: '291'
 ht-degree: 1%
 
 ---
-
 
 # Versionsinformation för funktionspaket 2012 {#release-notes-for-feature-pack}
 
@@ -45,6 +45,11 @@ Releasedatum för AEM Screens Feature Pack 20212 är 17 december 2021.
 
 * Spelaren uppdaterade inte den fasta programversionen efter uppgraderingen. Den här är nu lagad.
 
+* Förhandsvisning av bildskärm har fastnat på en tidigare spelarkonfiguration.
+
+* Visningsförhandsvisning återges inte under vissa förhållanden.
+
+* Åtgärda samtidiga hämtningsfel i SmartSync.
 
 ### Lanserade AEM Screens-spelare {#released-aem-screens-players}
 
