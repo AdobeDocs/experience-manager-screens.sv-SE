@@ -5,9 +5,9 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: e1794013-59ce-4ddc-93c0-601668c75cd1
-source-git-commit: c49cce64fe34e0611f086de5ac1c363589e3dc14
+source-git-commit: b56844c66bfa980013b610523842c7ac0c30f44d
 workflow-type: tm+mt
-source-wordcount: '876'
+source-wordcount: '931'
 ht-degree: 0%
 
 ---
@@ -54,18 +54,31 @@ Se [Tilldelningsrapport för innehåll](/help/user-guide/content-assignment-repo
 
 * **Stöd för V3-manifestationer**
 
-   Du kan nu konfigurera Dispatcher för manifestversion v3. Om du vill aktivera v3-manifestet måste du konfigurera:
+   Du kan nu konfigurera Dispatcher för manifestversion v3. Om du vill aktivera v3-manifestet måste du:
+
+   * Rensa väntande offlineinnehållsjobb i både författare och publicerat
+
+      * Navigera till crx/de in author and publish
+
+      * Klicka på Verktyg —> Fråga
+
+      * I frågan använder du `/jcr:root/var/eventing/jobs/assgined//element(*,slingevent:Job)[\@event.job.topic='screens/offline_content_update']`
+
+      * Detta listar alla offlineinnehållsjobb som körs eller väntar i kön
+
+      * Vänta tills inga fler offlineinnehållsjobb har returnerats från frågan
+   * Inaktivera ContentSync i `/system/console/configMgr/configMgr/com.adobe.cq.screens.offlinecontent.impl.ContentSyncCacheFeatureFlag`
+
+   * Aktivera SmartSync i `/system/console/configMgr/com.adobe.cq.screens.offlinecontent.impl.OfflineContentServiceImpl`
 
    * Uppdatera avsändare
 
    * Uppdatera anpassad komponent
 
-   * Inaktivera ContentSync i `/system/console/configMgr/configMgr/com.adobe.cq.screens.offlinecontent.impl.ContentSyncCacheFeatureFlag`
-
-   * Aktivera SmartSync i `/system/console/configMgr/com.adobe.cq.screens.offlinecontent.impl.OfflineContentServiceImpl`
 
    * Se [Konfigurera Dispatcher för manifestversion v3](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/administering/dispatcher-configurations-aem-screens.html?lang=en#configuring-dispatcherv3) för mer information.
    * Om du använder anpassade komponenter som en del av v3-manifestationer, se [Mall för anpassade hanterare](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/developing/developing-custom-component-tutorial-develop.html?lang=en#custom-handlers).
+
 
 
 ### Felkorrigeringar {#bug-fixes}
