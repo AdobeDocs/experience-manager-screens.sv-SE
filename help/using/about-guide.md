@@ -1,15 +1,15 @@
 ---
 title: Om den här guiden
-seo-title: Beskrivning av guiden
-description: This page describes the intent of the Best Practices Guide
+seo-title: Description on the Guide
+description: Följ denna metodguide AEM 6.5 för AEM Screens-projekt för att planera och genomföra projekt, från strategiska genomgångar och designgenomgångar till driftsättning och efter support.
 seo-description: This page describes the intent of the Best Practices Guide
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+exl-id: b6db6df1-9fe4-40a6-88a9-9baed41a7492
+source-git-commit: 4817c02bf7f65edd1e55ab56f250cc982cc7c1ef
 workflow-type: tm+mt
-source-wordcount: '258'
+source-wordcount: '260'
 ht-degree: 0%
 
 ---
-
 
 # Om den här guiden {#about-guide}
 
@@ -43,6 +43,6 @@ Den här guiden ger inte bara en omfattande insikt och praktiska råd för att s
 >
 > Termer som används i den här handboken (i samband med AEM Screens):
 >
-> * **Med** användarupplevelsen avses de digitala signeringsupplevelser som levereras till slutkunderna.
-> * **Med** användargränssnittet menas användargränssnittet, som du använder för att skapa och hantera projekt på skärmar.
+> * **UX** anses betyda de digitala signeringsupplevelser som skickas till slutkunder.
+> * **UI** är det användargränssnitt som gör att du kan skapa och hantera projekt på skärmar.
 
