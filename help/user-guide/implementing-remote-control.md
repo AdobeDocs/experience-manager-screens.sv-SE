@@ -12,7 +12,7 @@ discoiquuid: 1be944f0-02ed-48c6-98bc-504d758ff866
 feature: Administering Screens
 role: Admin
 level: Intermediate
-source-git-commit: ff59c3748ea69a37ca68e81e5bf753881e8464b0
+source-git-commit: a256f624c4b647deb4cee7668665ad7b576932e7
 workflow-type: tm+mt
 source-wordcount: '354'
 ht-degree: 0%
@@ -52,4 +52,6 @@ I följande diagram visas nyckelanvändningen på en Samsung-fjärrdator:
 >[!NOTE]
 >Om du anger enhetskonfigurationsvärdena för enableAdminUI och/eller enableOSD till false växlar inte fjärråtkomstgränssnittet och kanalväljaren. Du kan inte heller använda piltangenterna för att navigera i administratörens gränssnitt eller kanaler. Du kan dock fortfarande rensa cache och läsa in spelaren igen. Du kan inaktivera fjärrkontrollsfunktionen om någon av tangentbordskombinationerna hamnar i konflikt med ditt interaktiva innehåll med den här koden:
 
-```javascript require(/['util/ScreensDisplay'/], function() /{window.ScreensDisplay.ignoreRemoteControl = true;/}); ```
+```
+require(['util/ScreensDisplay'], function() {window.ScreensDisplay.ignoreRemoteControl = true;}); 
+```
