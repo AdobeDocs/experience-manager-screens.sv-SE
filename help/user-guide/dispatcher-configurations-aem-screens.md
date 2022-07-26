@@ -2,14 +2,14 @@
 title: Dispatcher Configurations for AEM Screens
 seo-title: Dispatcher Configurations for AEM Screens
 description: På den här sidan hittar du riktlinjer för hur du konfigurerar dispatcher för ett AEM Screens-projekt.
-seo-description: På den här sidan hittar du riktlinjer för hur du konfigurerar dispatcher för ett AEM Screens-projekt.
-feature: Administrera skärmar
+seo-description: This page highlights guidelines for configuring dispatcher for an AEM Screens project.
+feature: Administering Screens
 role: Developer, User
 level: Intermediate
 exl-id: 8b281488-f54d-4f8a-acef-ca60fa2315ed
-source-git-commit: 0f32fc015729685c724176c25920da6f07707c00
+source-git-commit: 13c9ed116a310c2c17fd1cc3d2c56ef74620df4b
 workflow-type: tm+mt
-source-wordcount: '586'
+source-wordcount: '660'
 ht-degree: 2%
 
 ---
@@ -27,7 +27,7 @@ Följande sida innehåller riktlinjer för hur du konfigurerar dispatcher för e
 >Om det inte finns någon dispatcher inaktiverar du registreringstjänsten i OSGi-komponentlistan.
 
 Innan du konfigurerar dispatcher för ett AEM Screens-projekt måste du ha tidigare kunskaper om Dispatcher.
-Mer information finns i [Konfigurera Dispatcher](https://docs.adobe.com/content/help/en/experience-manager-dispatcher/using/configuring/dispatcher-configuration.html).
+Se [Konfigurera Dispatcher](https://docs.adobe.com/content/help/en/experience-manager-dispatcher/using/configuring/dispatcher-configuration.html) för mer information.
 
 ## Konfigurera Dispatcher för manifestversion v2 {#configuring-dispatcher}
 
@@ -40,7 +40,7 @@ Följ stegen nedan för att konfigurera dispatcher för ett AEM Screens-projekt.
 
 ### Aktivera anteckningssessioner {#enable-sticky-session}
 
-Om du vill använda flera publiceringsinstanser som körs med en enda dispatcher måste du uppdatera `dispatcher.any`-filen för att aktivera taggighet
+Om du vill använda flera publiceringsinstanser som föregås av en enda dispatcher måste du uppdatera `dispatcher.any` fil för att aktivera klickbarhet
 
 ```xml
 /stickyConnections {
@@ -51,15 +51,15 @@ Om du vill använda flera publiceringsinstanser som körs med en enda dispatcher
  }
 ```
 
-Om du har en publiceringsinstans framför en dispatcher kommer det inte att hjälpa om du aktiverar klisterlappningen vid dispatchern eftersom belastningsutjämnaren kan skicka varje begäran till dispatchern. I det här fallet klickar du på **Aktivera** i **aktivitetsfältet** för att aktivera det på belastningsutjämnarnivå, vilket visas i bilden nedan:
+Om du har en publiceringsinstans framför en dispatcher kommer det inte att hjälpa om du aktiverar klisterlappningen vid dispatchern eftersom belastningsutjämnaren kan skicka varje begäran till dispatchern. I så fall klickar du på **Aktivera** in **Stickande** -fält för att aktivera det på belastningsutjämnarnivå, enligt bilden nedan:
 
 ![bild](/help/user-guide/assets/dispatcher/dispatcher-enable.png)
 
-Om du till exempel använder AWS ALB läser du [Målgrupper för Utjämning av programbelastning](https://docs.aws.amazon.com/elasticloadbalancing/latest/application/load-balancer-target-groups.html) för att aktivera klisterhet på ALB-nivå. Aktivera klibbighet i en dag.
+Om du t.ex. använder AWS ALB, se [Målgrupper för programmets belastningsutjämnare](https://docs.aws.amazon.com/elasticloadbalancing/latest/application/load-balancer-target-groups.html) för att möjliggöra klisterhet på ALB-nivå. Aktivera klibbighet i en dag.
 
 ### Steg 1: Konfigurera klienthuvuden {#step-configuring-client-headers}
 
-Lägg till följande i `/clientheaders`avsnittet:
+Lägg till följande i `/clientheaders`avsnitt:
 
 **X-requested-with**
 
@@ -92,14 +92,14 @@ Om du vill konfigurera skärmfilter lägger du till följande i ***/filter***.
 
 ### Steg 3: Inaktiverar Dispatcher Cache {#step-disabling-dispatcher-cache}
 
-Inaktivera dispatcher-cachning för ***/content/screens path***.
+Inaktivera dispatcher-cachning för ***/content/screens sökväg***.
 
 Skärmspelare använder autentiserad session, så dispatchern cachelagrar inte någon av skärmspelarförfrågningarna för `channels/assets`.
 
 Om du vill aktivera cacheminnet för resurserna så att resurserna hanteras från dispatcherns cacheminne måste du:
 
-* Lägg till `/allowAuthorization 1` i `/cache`-avsnittet
-* Lägg till nedanstående regler i `/rules`-avsnittet i `/cache`
+* Lägg till `/allowAuthorization 1` in `/cache` section
+* Lägg till nedanstående regler i `/rules` avsnitt i `/cache`
 
 ```xml
 /0000
@@ -137,9 +137,9 @@ Se till att tillåta dessa filter och cachelagra regler i utskickare som kör pu
 
 Följ dessa två krav innan du konfigurerar Dispatcher (manifestversion v3) för AEM Screens:
 
-* Kontrollera att du använder `v3 manifests`. Navigera till `https://<server:port>/system/console/configMgr/com.adobe.cq.screens.offlinecontent.impl.ContentSyncCacheFeatureFlag` och kontrollera att `Enable ContentSync Cache` inte är markerat.
+* Se till att du använder `v3 manifests`. Navigera till `https://<server:port>/system/console/configMgr/com.adobe.cq.screens.offlinecontent.impl.ContentSyncCacheFeatureFlag` och se till att `Enable ContentSync Cache` är inte markerad.
 
-* Kontrollera att dispatcher flush Agent har konfigurerats på `/etc/replication/agents.publish/dispatcher1useast1Agent` i publiceringsinstansen.
+* Kontrollera att agenten för rensning av dispatcher är konfigurerad på `/etc/replication/agents.publish/dispatcher1useast1Agent` i publiceringsinstans.
 
    ![bild](/help/user-guide/assets/dispatcher/dispatcher-1.png)
 
@@ -173,11 +173,11 @@ Följ dessa två krav innan du konfigurerar Dispatcher (manifestversion v3) för
 
 ### Cache-regler {#cache-rules-v3}
 
-* Lägg till `/allowAuthorized "1"` i `/cache`-avsnittet i `publish_farm.any`.
+* Lägg till `/allowAuthorized "1"` till `/cache` avsnitt i `publish_farm.any`.
 
 * Alla skärmspelare använder autentiserad session för att ansluta till AEM (författare/publicering). Den färdiga Dispatcher cachelagrar inte dessa URL:er, så vi bör aktivera dessa.
 
-* Lägg till `statfileslevel "10"` i `/cache`-avsnittet i `publish_farm.any`
+* Lägg till `statfileslevel "10"` till `/cache` avsnitt i `publish_farm.any`
 Detta stöder cachelagring av upp till 10 nivåer från cachedokumentroten och gör innehållet ogiltigt när innehållet publiceras, i stället för att göra allt ogiltigt. Du kan ändra den här nivån baserat på hur detaljerad innehållsstrukturen är
 
 * Lägg till följande i `/invalidate section in publish_farm.any`
@@ -189,7 +189,7 @@ Detta stöder cachelagring av upp till 10 nivåer från cachedokumentroten och g
    }
    ```
 
-* Lägg till följande regler i `/rules`-avsnittet i `/cache` i `publish_farm.any` eller i en fil som inkluderas från `publish_farm.any`:
+* Lägg till följande regler i `/rules` avsnitt i `/cache` in `publish_farm.any` eller i en fil som inkluderas från `publish_farm.any`:
 
    ```
    ## Don't cache CSRF login tokens
@@ -230,3 +230,24 @@ Detta stöder cachelagring av upp till 10 nivåer från cachedokumentroten och g
        /type "deny"
        }
    ```
+
+### Lägg till ogiltighetsregel för segment.js {#invalidsegmentjs}
+
+Om du lägger till nya segment och publicerar dem kan du `segments.js` filen som hanteras av dispatchern har inte de nya posterna som bryter målflödet på skärmenheten. Filen segments.js cachelagras på dispatchernivå, men det fanns ingen ogiltighetsregel för den. Därför måste du lägga till en ogiltighetsregel.
+
+* Lägg till nya segment i `/conf/<project-name>/settings/wcm/segments.seg.js` -fil.
+
+* Lägg till en ogiltigförklaringsregel i `/etc/httpd/conf.dispatcher.d/available_farms/999_ams_publish_farm.any`. Här följer en regel som ska läggas till:
+
+```
+    /invalidate {
+                        .
+                        .
+                        /0004 {
+                               /glob "conf/personalisation-hub/settings/wcm/.js"
+                               /type "allow"
+                        }
+                }
+```
+
+* Den här regeln säkerställer att `segments.js` filen är ogiltig och den senaste hämtas när den ändras.
