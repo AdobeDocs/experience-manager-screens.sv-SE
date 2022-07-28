@@ -7,9 +7,9 @@ feature: Administering Screens
 role: Developer, User
 level: Intermediate
 exl-id: 8b281488-f54d-4f8a-acef-ca60fa2315ed
-source-git-commit: 13c9ed116a310c2c17fd1cc3d2c56ef74620df4b
+source-git-commit: 01d2245cca5757441ef2bd4e2c05c231b678ce48
 workflow-type: tm+mt
-source-wordcount: '660'
+source-wordcount: '645'
 ht-degree: 2%
 
 ---
@@ -233,9 +233,7 @@ Detta stöder cachelagring av upp till 10 nivåer från cachedokumentroten och g
 
 ### Lägg till ogiltighetsregel för segment.js {#invalidsegmentjs}
 
-Om du lägger till nya segment och publicerar dem kan du `segments.js` filen som hanteras av dispatchern har inte de nya posterna som bryter målflödet på skärmenheten. Filen segments.js cachelagras på dispatchernivå, men det fanns ingen ogiltighetsregel för den. Därför måste du lägga till en ogiltighetsregel.
-
-* Lägg till nya segment i `/conf/<project-name>/settings/wcm/segments.seg.js` -fil.
+Om ni använder målinriktade kampanjer med AEM Screens `segments.js file` som skickas av avsändaren måste ogiltigförklaras när du lägger till och publicerar nya segment på AEM. Utan den här ogiltigförklaringsregeln kommer nya riktade kampanjer inte att fungera i skärmspelaren (standardinnehållet visas i stället).
 
 * Lägg till en ogiltigförklaringsregel i `/etc/httpd/conf.dispatcher.d/available_farms/999_ams_publish_farm.any`. Här följer en regel som ska läggas till:
 
@@ -244,7 +242,7 @@ Om du lägger till nya segment och publicerar dem kan du `segments.js` filen som
                         .
                         .
                         /0004 {
-                               /glob "conf/personalisation-hub/settings/wcm/.js"
+                               /glob "conf/<project-name>/settings/wcm/.js"
                                /type "allow"
                         }
                 }
