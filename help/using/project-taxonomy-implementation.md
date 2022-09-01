@@ -1,15 +1,15 @@
 ---
 title: Projekttaxonomi
-seo-title: 'Projekttaxonomi '
+seo-title: Project Taxonomy
 description: Den här sidan beskriver Project Taxonomy
-seo-description: Sidan beskriver Project Taxonomy
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+seo-description: The page describes Project Taxonomy
+exl-id: be0ad77a-e593-4c95-8a58-4e5ccb974fcf
+source-git-commit: 10a4918eeb56df5e8542bbc2e8806f766a86f781
 workflow-type: tm+mt
-source-wordcount: '331'
+source-wordcount: '361'
 ht-degree: 0%
 
 ---
-
 
 # Projekttaxonomi {#project-taxonomy}
 
@@ -27,7 +27,7 @@ Tänk på följande innan du implementerar din digitala signeringslösning från
 * **Schemaläggning**
 * **Förhandsgranska innehållet**
 
-Mer information om dessa termer finns i [Ordlista](https://helpx.adobe.com/experience-manager/6-5/screens/using/screens-glossary.html).
+Mer information om dessa termer finns i [Ordlista](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/overview/screens-glossary.html?lang=en).
 
 >[!NOTE]
 >
@@ -47,14 +47,15 @@ En AEM Screens-författare ansvarar för att skapa och hantera en användarupple
 
 En författare startar vanligtvis ett AEM Screens-projekt av:
 
-* [skapa ett AEM Screens-projekt](https://helpx.adobe.com/experience-manager/6-5/screens/using/creating-a-screens-project.html)
-* [skapa kanaler](https://helpx.adobe.com/experience-manager/6-5/screens/using/managing-channels.html)
-* [lägga till komponenter och resurser i kanalen](https://helpx.adobe.com/experience-manager/6-5/screens/using/adding-components-to-a-channel.html)
-* [skapa tidsplaner](https://helpx.adobe.com/experience-manager/6-5/screens/using/managing-schedules.html)
-* [skapa platser](https://helpx.adobe.com/experience-manager/6-5/screens/using/managing-locations.html)
-* [skapa skärmar](https://helpx.adobe.com/experience-manager/6-5/screens/using/managing-displays.html)
-* [tilldela kanaler till skärmar](https://helpx.adobe.com/experience-manager/6-5/screens/using/channel-assignment.html)
-* [visa innehåll i en AEM Screens-spelare](https://helpx.adobe.com/experience-manager/6-5/screens/using/working-with-screens-player.html)
+* [skapa ett AEM Screens-projekt](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/authoring/setting-up-projects/creating-a-screens-project.html?lang=en)
+* [skapa kanaler](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/authoring/setting-up-projects/managing-channels.html?lang=en)
+* [lägga till komponenter och resurser i kanalen](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/authoring/product-features/adding-components-to-a-channel.html?lang=en)
+* [skapa tidsplaner](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/authoring/setting-up-projects/managing-schedules.html?lang=en)
+* [skapa platser](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/authoring/setting-up-projects/managing-locations.html?lang=en)
+* [skapa skärmar](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/authoring/setting-up-projects/managing-displays.html?lang=en)
+* [tilldela kanaler till skärmar](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/authoring/setting-up-projects/assigning-channels/channel-assignment.html?lang=en)
+
+* [visa innehåll i en AEM Screens-spelare](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/administering/working-with-screens-player.html?lang=en)
 
 >[!NOTE]
->Du kan även importera en uppsättning platser från ett CSV-/XLS-kalkylblad till ditt AEM Screens-projekt gruppvis. Följ [Ny projektimporterare från fil](https://helpx.adobe.com/experience-manager/6-5/screens/using/project-importer.html) om du vill ha mer information.
+>Du kan också importera en uppsättning platser gruppvis från ett CSV-/XLS-kalkylblad till ditt AEM Screens-projekt. Följ [Ny projektimporterare från fil](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/administering/project-importer.html?lang=en) för mer information.

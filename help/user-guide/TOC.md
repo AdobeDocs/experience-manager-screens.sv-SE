@@ -6,9 +6,9 @@ user-guide-title: Hjälp om Adobe Experience Manager Screens
 breadcrumb-title: AEM Screens Guide
 user-guide-description: Lär dig använda en lösning för digital signering som gör att du kan publicera dynamiska och interaktiva digitala upplevelser och interaktioner.
 feature-set: Experience Manager Screens
-source-git-commit: 8d4a7b2bc436d822c673a00437ee895c8ef5cb6f
+source-git-commit: ce0524a11f693e5413c08cc79b46121260333de2
 workflow-type: tm+mt
-source-wordcount: '484'
+source-wordcount: '482'
 ht-degree: 1%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 1%
 + [Introduktion till skärmar](aem-screens-introduction.md)
 + Översikt och snabbstartsguide {#overview}
    + [Kickstart Guide](kickstart-for-aem-screens.md)
-   + [Guide till bästa praxis för skärmar](https://docs.adobe.com/content/help/en/experience-manager-screens/using/about-guide.html)
+   + [Guide till bästa praxis för skärmar](https://experienceleague.adobe.com/docs/experience-manager-screens/using/about-guide.html)
    + [Nyckeltermer](screens-glossary.md)
 + Grundläggande om nätverk för digitala signaturer {#digital-signage-network}
    + [Del 1: Projektroller och ansvarsområden](project-roles-responsibilities.md)

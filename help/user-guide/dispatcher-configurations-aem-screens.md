@@ -7,9 +7,9 @@ feature: Administering Screens
 role: Developer, User
 level: Intermediate
 exl-id: 8b281488-f54d-4f8a-acef-ca60fa2315ed
-source-git-commit: 01d2245cca5757441ef2bd4e2c05c231b678ce48
+source-git-commit: 10a4918eeb56df5e8542bbc2e8806f766a86f781
 workflow-type: tm+mt
-source-wordcount: '645'
+source-wordcount: '643'
 ht-degree: 2%
 
 ---
@@ -27,7 +27,7 @@ Följande sida innehåller riktlinjer för hur du konfigurerar dispatcher för e
 >Om det inte finns någon dispatcher inaktiverar du registreringstjänsten i OSGi-komponentlistan.
 
 Innan du konfigurerar dispatcher för ett AEM Screens-projekt måste du ha tidigare kunskaper om Dispatcher.
-Se [Konfigurera Dispatcher](https://docs.adobe.com/content/help/en/experience-manager-dispatcher/using/configuring/dispatcher-configuration.html) för mer information.
+Se [Konfigurera Dispatcher](https://experienceleague.adobe.com/docs/experience-manager-dispatcher/using/configuring/dispatcher-configuration.html) för mer information.
 
 ## Konfigurera Dispatcher för manifestversion v2 {#configuring-dispatcher}
 
