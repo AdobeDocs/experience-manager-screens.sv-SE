@@ -1,15 +1,15 @@
 ---
 title: Använda kommandosynkronisering
-seo-title: Använda kommandosynkronisering
+seo-title: Using Command Sync
 description: Följ den här sidan om du vill veta mer om hur du använder kommandosynkronisering.
-seo-description: Följ den här sidan om du vill veta mer om hur du använder kommandosynkronisering.
-feature: Redigeringsskärmar
+seo-description: Follow this page to learn about how to use Command Sync.
+feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 3314e0b5-0001-4bce-8ec6-5a6ffbb20f7b
-source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
+source-git-commit: 43ac19cf7ef63ec17611cf19ca357f791dca6e87
 workflow-type: tm+mt
-source-wordcount: '796'
+source-wordcount: '780'
 ht-degree: 2%
 
 ---
@@ -26,9 +26,9 @@ På följande sida beskrivs hur du använder kommandosynkronisering. Med kommand
 
 Digitala signeringslösningar måste ha stöd för videoväggar och synkroniserad uppspelning för scenarier som nyårsräkning eller stor video som segmenterats upp för uppspelning på flera skärmar, och det är här som kommandosynkronisering spelas upp.
 
-Om du vill använda kommandosynkronisering fungerar en spelare som *överordnad* och skickar kommando, och alla andra spelare fungerar som *klienter* och spelar när de tar emot kommandot.
+Om du vill använda kommandosynkronisering fungerar en spelare som en *primär* och skickar kommando och alla andra spelare agerar som *klienter* och spelas upp när de får kommandot.
 
-*överordnad* skickar ett kommando till alla registrerade klienter när uppspelningen av ett objekt ska börja. Nyttolasten för detta kan vara indexvärdet för det objekt som ska spelas upp och/eller den yttre HTML-koden för det element som ska spelas upp.
+The *primär* skickar ett kommando till alla registrerade klienter när uppspelningen av ett objekt ska börja. Nyttolasten för detta kan vara indexvärdet för det objekt som ska spelas upp och/eller den yttre HTML-koden för det element som ska spelas upp.
 
 ## Implementera kommandosynkronisering {#using-command-sync}
 
@@ -54,93 +54,93 @@ Innan du använder funktionen Kommandosynkronisering måste du kontrollera att d
 
    ![image1](assets/command-sync/command-sync2-1.png)
 
-1. Skapa en plats **Lobby** och därefter en visning med namnet **LobbyDisplay** i mappen **Platser**, vilket visas i bilden nedan.
+1. Skapa en plats **Lobby** och därefter en skärm med namnet **LobbyDisplay** i **Platser** enligt bilden nedan.
    ![image1](assets/command-sync/command-sync3-1.png)
 
-1. Tilldela kanalen **ChannelLobby** till din **LobbyDisplay**. Nu kan du visa den tilldelade kanalen för visning från kontrollpanelen.
+1. Tilldela kanalen, **ChannelLobby** till **LobbyDisplay**. Nu kan du visa den tilldelade kanalen för visning från kontrollpanelen.
    ![image1](assets/command-sync/command-sync4-1.png)
 
    >[!NOTE]
    >
    >Mer information om hur du tilldelar en kanal till en skärm finns i [Skapa och hantera skärmar](/help/user-guide/managing-displays.md).
 
-1. Gå till mappen **Enheter** och klicka på **Enhetshanteraren** i åtgärdsfältet för att registrera enheterna.
+1. Navigera till **Enheter** mapp och klicka på **Enhetshanteraren** från åtgärdsfältet för att registrera enheterna.
 
    ![image1](assets/command-sync5.png)
 
    >[!NOTE]
    >
-   >Mer information om hur du registrerar en enhet finns i [Device Registration](/help/user-guide/device-registration.md)
+   >Mer information om hur du registrerar en enhet finns i [Enhetsregistrering](/help/user-guide/device-registration.md)
 
 1. I det här exemplet visas en fönsterenhet och en Windows-spelare som två separata enheter. Båda enheterna pekar på samma skärm.
    ![image1](assets/command-sync6.png)
 
 ### Uppdaterar kanalinställningar
 
-1. Navigera till **ChannelLobby** och klicka på **Redigera** i åtgärdsfältet för att uppdatera kanalinställningarna.
+1. Navigera till **ChannelLobby** och klicka **Redigera** från åtgärdsfältet för att uppdatera kanalinställningarna.
 
 1. Markera hela kanalen enligt bilden nedan.
    ![image1](assets/command-sync/command-sync7-1.png)
 
-1. Klicka på växlingsikonen för att öppna dialogrutan **Sida**.
+1. Klicka på skiftnyckelsikonen för att öppna **Sida** -dialogrutan.
    ![image1](assets/command-sync/command-sync8-1.png)
 
-1. Ange *synkroniserat*-nyckelord i fältet **Strategi**.
+1. Ange *synkad* nyckelord i **Strategi** fält.
 
    ![image1](assets/command-sync/command-sync9-1.png)
 
 
-### Konfigurera en överordnad {#setting-up-master}
+### Konfigurera en primär {#setting-up-primary}
 
-1. Navigera till kontrollpanelen från **CommandSyncDemo** —> **Platser** —> **Lobby** —> **LobbyDisplay** och klicka på **Kontrollpanelen** från åtgärdsfältet.
-De två enheterna (fönsterstandard och fönsterspelare) visas på panelen **ENHETER**, vilket visas i bilden nedan.
+1. Navigera till kontrollpanelen från **CommandSyncDemo** —> **Platser**  —> **Lobby** —> **LobbyDisplay** och klicka på **Kontrollpanel** i åtgärdsfältet.
+De två enheterna (fönsterstandard och Windows Player) visas i **ENHETER** enligt bilden nedan.
    ![image1](assets/command-sync/command-sync10-1.png)
 
-1. På panelen **ENHETER** väljer du den enhet som du vill ange som överordnad. I följande exempel visas hur du ställer in Chrome-enheten som överordnad. Klicka på **Ange som överordnad enhet**.
+1. Från **ENHETER** markerar du den enhet som du vill ange som primär. I följande exempel visas hur du ställer in Chrome-enheten som primär. Klicka på **Ange som primär enhet**.
 
    ![image1](assets/command-sync/command-sync11-1.png)
 
-1. Ange IP-adressen i **Ange som överordnad enhet** och klicka på **Spara**.
+1. Ange IP-adressen i **Ange som primär enhet** och klicka på **Spara**.
 
    ![image1](assets/command-sync/command-sync12-1.png)
 
 >[!NOTE]
 >
->Du kan konfigurera flera enheter som överordnad.
+>Du kan konfigurera flera enheter som primära.
 
-### Synkronisera med Överordnad {#sync-up-master}
+### Synkroniserar med primär {#sync-up-primary}
 
-1. När du har angett Chrome-enheten som överordnad kan du synkronisera den andra enheten (i det här fallet Windows-spelaren) så att den synkroniseras med den överordnad.
-Välj den andra enheten (i det här fallet Windows-spelaren) på panelen **ENHETER** och klicka på **Synkronisera till överordnad enhet**, vilket visas i bilden nedan.
+1. När du har angett Chrome-enheten som primär kan du synkronisera den andra enheten (i det här fallet Windows-spelaren) så att den synkroniseras med den primära.
+Välj den andra enheten (i det här fallet Windows Player) på menyn **ENHETER** panel och klicka på **Synkronisera med primär enhet**, vilket visas i figuren nedan.
 
    ![image1](assets/command-sync/command-sync13-1.png)
 
-1. Markera enheten i listan och klicka på **Spara**.
+1. Välj enheten i listan och klicka på **Spara**.
 
    >[OBS!]
-   > Dialogrutan **Synkronisera med överordnad enhet** visar en lista över överordnad enheter. Du kan välja en av dina inställningar.
+   > The **Synkronisera med primär enhet** visas en lista med primära enheter. Du kan välja en av dina inställningar.
 
-1. När enheten (Windows-spelaren) har synkroniserats till den överordnad (Chrome-spelaren) visas den synkroniserade enheten på panelen **DEVICES**.
+1. När enheten (Windows-spelaren) har synkroniserats till den primära (Chrome Player), visas enheten synkroniserad i **ENHETER** -panelen.
 
    ![image1](assets/command-sync/command-sync14-1.png)
 
-### Synkronisering med Överordnad {#desync-up-master}
+### Synkronisering med den primära {#desync-up-primary}
 
-När du har synkroniserat en eller flera enheter till en överordnad kan du avsynkronisera uppdraget från den enheten.
+När du har synkroniserat en eller flera enheter till en primär enhet kan du avsynkronisera tilldelningen från den enheten.
 
 >[!NOTE]
 >
->Om du avsynkroniserar en överordnad enhet bryts även länken till alla klientenheter som är kopplade till den överordnad enheten.
+>Om du avsynkroniserar en primär enhet bryts även länken till alla klientenheter som är kopplade till den primära enheten.
 
-Följ stegen nedan för att ta bort synkroniseringen från den överordnad enheten:
+Följ stegen nedan för att ta bort synkroniseringen från den primära enheten:
 
-1. Navigera till panelen **ENHETER** och markera enheten.
+1. Navigera till **ENHETER** och välj enhet.
 
-1. Klicka på **Avsynkronisera enheten/enheterna** för att avsynkronisera klienten från den överordnad enheten.
+1. Klicka på **Desynkrona enheter** för att avsynkronisera klienten från den primära enheten.
 
    ![image1](assets/command-sync/command-sync15-1.png)
 
-1. Klicka på **Bekräfta** för att avsynkronisera den markerade enheten från överordnad.
+1. Klicka **Bekräfta** om du vill avsynkronisera den valda enheten från den primära enheten.
 
    >[OBS!]
-   > Om du väljer den överordnad enheten och använder alternativet för avsynkronisering kommer alla enheter som är anslutna till den överordnad att avsynkroniseras i ett steg.
+   > Om du väljer den primära enheten och använder alternativet för avsynkronisering kommer alla enheter som är anslutna till den primära att avsynkroniseras i ett steg.
