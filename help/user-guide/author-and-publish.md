@@ -2,9 +2,9 @@
 title: Konfigurera författare och publicera i AEM Screens
 description: AEM Screens arkitektur liknar en traditionell AEM Sites-arkitektur. Innehållet skapas på en AEM författarinstans och sedan vidarebefordras till flera publiceringsinstanser. Följ den här sidan för att lära dig hur du konfigurerar författare och publicerar för AEM Screens.
 exl-id: 5aef5f35-d946-4bf8-a2a8-c3ed532b7eef
-source-git-commit: c152c6b46e33b42376cedeb7245d69c7c09ecd44
+source-git-commit: 458ecfbbfb072a07d97d68f2a7ef1eb51f3db598
 workflow-type: tm+mt
-source-wordcount: '2006'
+source-wordcount: '1974'
 ht-degree: 0%
 
 ---
@@ -240,8 +240,6 @@ Kontrollera spelaren så ser du innehållet som du har lagt till i kanalen.
 #### Steg 4: Publicera enhetskonfiguration för publiceringsinstanser {#step-publishing-device-configuration-to-publish-instances}
 
 **Verifiera enheten**
-
-Innan du utför stegen nedan kontrollerar du att enhets-ID är verifierat. Om du vill verifiera söker du efter enhets-ID i CRXDE Lite, med sökvägen som */home/users/screens/we-retail/devices*.
 
 Så här replikerar du enhetsanvändaren:
 

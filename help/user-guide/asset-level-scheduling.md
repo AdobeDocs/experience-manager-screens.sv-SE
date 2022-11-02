@@ -1,15 +1,15 @@
 ---
 title: Aktivering på tillgångsnivå
-seo-title: Aktivering på tillgångsnivå
+seo-title: Asset Level Activation
 description: Följ den här sidan för att lära dig hur du aktiverar en specifik resurs i en kanal för en schemalagd tidsram i spelarens lokala tidszon.
-seo-description: Följ den här sidan för att lära dig hur du aktiverar en specifik resurs i en kanal för en schemalagd tidsram i spelarens lokala tidszon.
-feature: redigeringsskärmar, aktivering på tillgångsnivå
+seo-description: Follow this page to learn how to activate a specific asset in a channel for a scheduled time frame in the player's local timezone.
+feature: Authoring Screens, Asset Level Activation
 role: Admin, Developer
 level: Intermediate
 exl-id: a2f5b2cc-6797-4397-b49c-72175a2d2ef7
-source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
+source-git-commit: 939d078def133e0db0e61ec80167f496c65ade46
 workflow-type: tm+mt
-source-wordcount: '1450'
+source-wordcount: '1641'
 ht-degree: 0%
 
 ---
@@ -29,6 +29,7 @@ Följande ämnen behandlas i detta avsnitt:
    * MånadDelning
    * Kombination av partner
 * Aktivering av flera resurser
+* Global åsidosättning för universell starttid
 
 >[!CAUTION]
 >
@@ -38,19 +39,19 @@ Följande ämnen behandlas i detta avsnitt:
 
 ## Översikt {#overview}
 
-***Aktivering*** på tillgångsnivå gör att du kan aktivera en viss resurs i en kanal för en schemalagd tidsram i spelarens lokala tidszon. Detta är tillgängligt för bilder, videoklipp, övergångar, sidor och inbäddade kanaler (dynamiska eller statiska).
+***Aktivering på tillgångsnivå*** kan du aktivera en viss resurs i en kanal för en schemalagd tidsram i spelarens lokala tidszon. Detta är tillgängligt för bilder, videoklipp, övergångar, sidor och inbäddade kanaler (dynamiska eller statiska).
 
-*Du vill till exempel* att en specialkampanj endast ska visas under en glad timme (2:00 till 5:00) på måndagar och onsdagar.
+*Till exempel* vill du att en specialkampanj bara ska visas under en glad timme (2:00 till 17:00) på måndagar och onsdagar.
 
 Med den här funktionen kan du inte bara ange start- och slutdatum och sluttid utan även ett upprepningsmönster.
 
 ## Aktiveringsfönster {#single-event-playback}
 
-Aktivering på resursnivå görs genom att fliken **Aktivering** konfigureras medan egenskaperna för en resurs nås.
+Aktivering på tillgångsnivå görs genom att konfigurera **Aktivering** när du får åtkomst till egenskaper för en resurs.
 
 Följ stegen nedan för att utföra planering på tillgångsnivå:
 
-1. Markera en kanal och klicka på **Redigera** i åtgärdsfältet för att lägga till eller redigera innehåll i kanalen.
+1. Välj valfri kanal och klicka på **Redigera** från åtgärdsfältet för att lägga till eller redigera innehåll i kanalen.
 
    ![screen_shot_2018-04-23at11422am](/help/user-guide/assets/asset-activation/asset-level1.png)
 
@@ -62,19 +63,19 @@ Följ stegen nedan för att utföra planering på tillgångsnivå:
    >* Skapa och lägga till innehåll i en kanal, se [Hantera kanaler](managing-channels.md).
 
 
-1. Klicka på **Redigera** för att öppna kanalredigeraren och välja en resurs som du vill använda schemaläggningen på.
+1. Klicka **Redigera** för att öppna kanalredigeraren och välja en resurs som du vill använda schemaläggningen på.
 
    ![bild](/help/user-guide/assets/asset-activation/asset-level2.png)
 
-1. Markera resursen och klicka på överst till vänster **Konfigurera** (skiftnyckelsikon) för att öppna bildens egenskaper.
+1. Markera resursen och klicka på uppe till vänster **Konfigurera** (skiftnyckelsikon) om du vill öppna bildens egenskaper.
 
-   Klicka på fliken **Aktivering**.
+   Klicka på **Aktivering** -fliken.
 
    ![bild](/help/user-guide/assets/asset-activation/asset-level3.png)
 
-1. Du kan ange datumet från datumväljaren med hjälp av fälten **Aktiv från** och **Aktiv tills**.
+1. Du kan ange datumet från datumväljaren med **Aktiv från** och **Aktiv tills** fält.
 
-   Om du väljer **Aktiv från** och **Aktiv till** datum och tid visas och upprepas resursen endast mellan startdatumet/tiden respektive slutdatumet/sluttiden.
+   Om du väljer **Aktiv från** och **Aktiv tills** datum och tid, kommer resursen endast att visas och slingras mellan startdatum/tid respektive slutdatum/tid.
 
    ![bild](/help/user-guide/assets/asset-activation/asset-level3.png)
 
@@ -82,18 +83,18 @@ Följ stegen nedan för att utföra planering på tillgångsnivå:
 
 Du kan schemalägga att mediefiler ska återkomma med vissa intervall på daglig, veckovis eller månadsbasis efter behov.
 
-Anta att du bara vill visa en bild på fredag från 1:00 till 10:00. Du kan använda fliken **Aktivering** för att ange önskat intervall för resursen.
+Anta att du bara vill visa en bild på fredag från 1:00 till 10:00. Du kan använda **Aktivering** för att ange önskat återkommande intervall för resursen.
 
 ### Dag-parsning {#day-parting}
 
-1. Markera resursen och klicka på **Konfigurera** (skiftnyckelsikon) för att öppna dialogrutan för egenskaper.
+1. Markera resursen och klicka på **Konfigurera** (skiftnyckelsikon) för att öppna dialogrutan Egenskaper.
 
 1. När du har angett startdatum/tid och slutdatum/tid kan du använda ett uttryck eller en naturlig textversion för att ange upprepningsschemat.
 
    >[!NOTE]
-   >Du kan hoppa över eller ta med fälten **Aktiv från** och **Aktiv tills** och lägga till uttrycket i fältet Scheman efter behov.
+   >Du kan hoppa över eller ta med **Aktiv från** och **Aktiv tills** fält och lägg till uttrycket i fältet Scheman enligt dina önskemål.
 
-1. Ange uttrycket i **Schedule** så visas resursen för det angivna intervallet för dag och tid.
+1. Ange uttrycket i **Schema** och resursen visas för det angivna intervallet på dag och tid.
 
 #### Exempeluttryck för dagdelning {#example-one}
 
@@ -109,18 +110,18 @@ I följande tabell sammanfattas några exempeluttryck som du kan lägga till i s
 
 >[!NOTE]
 >
->Du kan också använda _militär tid_-notation (d.v.s. 14:00) i stället för *am/pm*-notation (d.v.s. 2:00).
+>Du kan också använda _militär tid_ notation (d.v.s. 14:00) i stället för *fm/em* notation (d.v.s. 2:00).
 
 ### WeekParting {#week-parting}
 
-1. Markera resursen och klicka på **Konfigurera** (skiftnyckelsikon) för att öppna dialogrutan för egenskaper.
+1. Markera resursen och klicka på **Konfigurera** (skiftnyckelsikon) för att öppna dialogrutan Egenskaper.
 
 1. När du har angett startdatum/tid och slutdatum/tid kan du använda ett uttryck eller en naturlig textversion för att ange upprepningsschemat.
 
    >[!NOTE]
-   >Du kan hoppa över eller ta med fälten **Aktiv från** och **Aktiv tills** och lägga till uttrycket i fältet Scheman efter behov.
+   >Du kan hoppa över eller ta med **Aktiv från** och **Aktiv tills** fält och lägg till uttrycket i fältet Scheman enligt dina önskemål.
 
-1. Ange uttrycket i **Schedule** så visas resursen för det angivna intervallet för dag och tid.
+1. Ange uttrycket i **Schema** och resursen visas för det angivna intervallet på dag och tid.
 
 #### Exempeluttryck för WeekParting {#example-two}
 
@@ -133,19 +134,19 @@ I följande tabell sammanfattas några exempeluttryck som du kan lägga till i s
 
 >[!NOTE]
 >
->Du kan också använda _full_-notation (d.v.s. måndag,onsdag,fredag) i stället för _kort_-notation (d.v.s. Mon,Wed,Fri).
+>Du kan också använda _full_ (dvs. måndag, onsdag, fredag) i stället för _kort_ notation (d.v.s. Mon, Wed, Fri).
 
 
 ### MånadDelning {#month-parting}
 
-1. Markera resursen och klicka på **Konfigurera** (skiftnyckelsikon) för att öppna dialogrutan för egenskaper.
+1. Markera resursen och klicka på **Konfigurera** (skiftnyckelsikon) för att öppna dialogrutan Egenskaper.
 
 1. När du har angett startdatum/tid och slutdatum/tid kan du använda ett uttryck eller en naturlig textversion för att ange upprepningsschemat.
 
    >[!NOTE]
-   >Du kan hoppa över eller ta med fälten **Aktiv från** och **Aktiv tills** och lägga till uttrycket i fältet Scheman efter behov.
+   >Du kan hoppa över eller ta med **Aktiv från** och **Aktiv tills** fält och lägg till uttrycket i fältet Scheman enligt dina önskemål.
 
-1. Ange uttrycket i **Schedule** så visas resursen för det angivna intervallet för dag och tid.
+1. Ange uttrycket i **Schema** och resursen visas för det angivna intervallet på dag och tid.
 
 #### Exempeluttryck för MonthParting {#example-three}
 
@@ -161,14 +162,14 @@ I följande tabell sammanfattas några exempeluttryck som du kan lägga till i s
 
 ### Kombination av partner {#combined-parting}
 
-1. Markera resursen och klicka på **Konfigurera** (skiftnyckelsikon) för att öppna dialogrutan för egenskaper.
+1. Markera resursen och klicka på **Konfigurera** (skiftnyckelsikon) för att öppna dialogrutan Egenskaper.
 
 1. När du har angett startdatum/tid och slutdatum/tid kan du använda ett uttryck eller en naturlig textversion för att ange upprepningsschemat.
 
    >[!NOTE]
-   >Du kan hoppa över eller ta med fälten **Aktiv från** och **Aktiv tills** och lägga till uttrycket i fältet Scheman efter behov.
+   >Du kan hoppa över eller ta med **Aktiv från** och **Aktiv tills** fält och lägg till uttrycket i fältet Scheman enligt dina önskemål.
 
-1. Ange uttrycket i **Schedule** så visas resursen för det angivna intervallet för dag och tid.
+1. Ange uttrycket i **Schema** och resursen visas för det angivna intervallet på dag och tid.
 
 #### Exempeluttryck för en kombination av partner {#example-four}
 
@@ -181,37 +182,37 @@ I följande tabell sammanfattas några exempeluttryck som du kan lägga till i s
 | den 1-2 januari efter kl. 2:00 också den 2-3 januari före kl. 3:00 | resursen i kanalen startar spelaren efter kl. 2:00 den 1 januari, fortsätter att spelas upp till kl. 17:00 den 2 januari och börjar igen kl. 2:00 och fortsätter att spelas upp till kl. 3:00 den 3 januari |
 
 >[!NOTE]
->När du definierar veckodagar och månader kan du både använda kort- och fullnamnsnoteringar, till exempel måndag/måndag och januari.  Dessutom kan du använda _militär tid_-notation (d.v.s. 14:00) i stället för *am/pm*-notation (d.v.s. 2:00).
+>När du definierar veckodagar och månader kan du både använda kort- och fullnamnsnoteringar, till exempel måndag/måndag och januari.  Du kan även använda _militär tid_ notation (d.v.s. 14:00) i stället för *fm/em* notation (d.v.s. 2:00).
 
 
 ## Aktivering av flera resurser {#multi-asset-scheduling}
 
 >[!CAUTION]
 >
->Funktionen **Aktivering av flera resurser** är bara tillgänglig om du har installerat AEM 6.3 Feature Pack 5 eller AEM 6.4 Feature Pack 3.
+>The **Aktivering av flera resurser** finns bara om du har AEM 6.3 Feature Pack 5 eller AEM 6.4 Feature Pack 3.
 
-***Aktivering av flera resurser*** gör att användaren kan välja flera resurser och tillämpa ett uppspelningsschema för alla valda resurser.
+***Aktivering av flera resurser*** gör att användaren kan välja flera resurser och tillämpa ett uppspelningsschema på alla markerade resurser.
 
 ### Förutsättningar {#prerequisites}
 
 Skapa ett AEM Screens-projekt med en sekvenskanal om du vill använda multimedieaktivering för dina resurser. I följande exempel visas implementeringen av funktionen:
 
 * Skapa ett AEM Screens-projekt med namnet **MultiAssetDemo**
-* Skapa en kanal med namnet **MultiAssetChannel** och lägg till innehåll i kanalen enligt bilden nedan
+* Skapa en kanal med namnet som **MultiAssetChannel** och lägga till innehåll i kanalen enligt bilden nedan
 
 ![screen_shot_2018-12-21at70128am](assets/screen_shot_2018-12-21at70128am.png)
 
 Följ stegen nedan för att välja flera resurser och schemalägga hur de ska visas i ett AEM Screens-projekt:
 
-1. Välj **MultiAssetChannel** och klicka på **Redigera** i åtgärdsfältet för att öppna redigeraren.
+1. Välj **MultiAssetChannel** och klicka **Redigera** i åtgärdsfältet för att öppna redigeraren.
 
    ![screen_shot_2018-12-21at70313am](assets/screen_shot_2018-12-21at70313am.png)
 
-1. Markera flera resurser i redigeraren och klicka på **Redigera aktivering** (ikonen längst upp till vänster).
+1. Markera flera resurser i redigeraren och klicka på **Redigera aktivering** (ikon längst upp till vänster).
 
    ![screen_shot_2018-12-21at70550am](assets/screen_shot_2018-12-21at70550am.png)
 
-1. Välj datum och tid i **Aktiv från** och **Aktiv tills** i dialogrutan **Aktivering av komponent**. Klicka på bockmarkeringsikonen när du är klar med att välja scheman.
+1. Välj datum och tid i **Aktiv från** och **Aktiv tills** från **Komponentaktivering** -dialogrutan. Klicka på bockmarkeringsikonen när du är klar med att välja scheman.
 
    ![screen_shot_2018-12-17at20337pm](assets/screen_shot_2018-12-17at20337pm.png)
 
@@ -222,3 +223,25 @@ Följ stegen nedan för att välja flera resurser och schemalägga hur de ska vi
    >Schemaikonen visas i det övre högra hörnet för resurser som har aktivering av flera resurser.
 
    ![screen_shot_2018-12-21at70722am](assets/screen_shot_2018-12-21at70722am.png)
+
+## Global åsidosättning för universell starttid {#global-override-scheduling}
+
+***Global åsidosättning för universell starttid***, är en inställning som gör det möjligt för innehållsförfattaren att definiera uppspelningen av en bild eller videoklipp baserat på en viss tid. Inställningen time/timezone för en enskild spelare används inte.
+
+I vanliga fall bestäms uppspelningen av den lokala tiden för en viss spelare, men med den globala åsidosättningen kan en specifik universell starttid användas för att initiera uppspelningen av resursen.
+
+Detta gör att innehållsförfattaren kan ange att uppspelning av en viss resurs ska ske vid ett visst datum/tid, oavsett lokal klocka för alla spelare som har det tilldelade innehållet.
+
+Global åsidosättning för universell starttid görs genom att konfigurera **Aktivering** när du får åtkomst till egenskaper för en resurs. Följ stegen nedan för att utföra en global åsidosättning för tillgångsplanering:
+
+1. Välj valfri kanal och klicka på **Redigera** från åtgärdsfältet för att lägga till eller redigera innehåll i kanalen.
+
+   ![screen_shot_2018-04-23at11422am](/help/user-guide/assets/asset-activation/asset-level1.png)
+
+1. Klicka **Redigera** för att öppna kanalredigeraren och välja en resurs som du vill använda schemaläggningen på.
+
+   ![screen_shot_2018-12-21at70550am](/help/user-guide/assets/asset-activation/Asset-level4.png)
+
+1. För en global åsidosättning anger du aktiveringstiden i **Åsidosättning av tidszon** för resursen. Om du inte anger något i det här området används spelarens tidszon.
+
+
