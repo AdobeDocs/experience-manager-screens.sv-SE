@@ -2,7 +2,7 @@
 title: Konfigurera författare och publicera i AEM Screens
 description: AEM Screens arkitektur liknar en traditionell AEM Sites-arkitektur. Innehållet skapas på en AEM författarinstans och sedan vidarebefordras till flera publiceringsinstanser. Följ den här sidan för att lära dig hur du konfigurerar författare och publicerar för AEM Screens.
 exl-id: 5aef5f35-d946-4bf8-a2a8-c3ed532b7eef
-source-git-commit: 458ecfbbfb072a07d97d68f2a7ef1eb51f3db598
+source-git-commit: ed9debd55cc4e142a46eda05e9e1aabc32532311
 workflow-type: tm+mt
 source-wordcount: '1974'
 ht-degree: 0%
@@ -102,20 +102,20 @@ Följ stegen nedan om du vill skapa en standardsvar för replikering:
 #### Skapar standardreplikeringsagenter  {#creating-standard-replication-agents}
 
 1. Skapa en standardobjektreplikeringsagent för pub1 (standardagenten som är färdig bör redan vara konfigurerad) (till exempel *https://&lt;hostname>:4503/bin/receive?sling:authRequestLogin=1*)
-1. Skapa en standardslikeringsagent för pub2. Du kan kopiera rep agent för pub1 och uppdatera transporten som ska användas för pub2 genom att ändra porten i transportkonfigurationen. (t.ex. *https://&lt;hostname>:4504/bin/receive?sling:authRequestLogin=1*)
+1. Skapa en standardslikeringsagent för pub2. Du kan kopiera som replikeringsagent för pub1 och uppdatera transporten som ska användas för pub2 genom att ändra porten i transportkonfigurationen. (t.ex. *https://&lt;hostname>:4504/bin/receive?sling:authRequestLogin=1*)
 
 #### Skapar agenter för skärmreplikering {#creating-screens-replication-agents}
 
-1. Skapa AEM Screens-replikeringsagent för pub1. Det finns en som heter Screens Replication Agent som pekar på port 4503. Detta måste aktiveras.
-1. Skapa AEM Screens replikeringsagent för pub2. Kopiera skärmreplikeringsagenten för pub1 och ändra porten till punkt 4504 för pub2.
+1. Skapa en skärmreplikeringsagent för pub1. Det finns en färdig Screens Replication Agent som pekar på port 4503. Detta måste aktiveras.
+1. Skapa en skärmreplikeringsagent för pub2. Kopiera skärmreplikeringsagenten för pub1 och ändra porten till 4504 för pub2.
 
    >[!NOTE]
    >Mer information om hur du konfigurerar agenter för skärmreplikering finns i [Konfigurerar agenten för skärmreplikering](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/administering/configure-screens-replication.html?lang=en).
 
 #### Skapar agenter för omvänd rasterreplikering {#creating-screens-reverse-replication-agents}
 
-1. Skapa en standardinverterad replikeringsagent för pub1.
-1. Skapa en standardinverterad replikeringsagent för pub2. Du kan kopiera omvänd rep-agent för pub1 och uppdatera transporten som ska användas för pub2 genom att ändra porten i transportkonfigurationen.
+1. Skapa en omvänd replikeringsagent för pub1.
+1. Skapa en omvänd replikeringsagent för pub2. Du kan kopiera omvänd replikeringsagent för pub1 och uppdatera transporten som ska användas för pub2 genom att ändra porten i transportkonfigurationen.
 
 ## Konfigurera publiceringstopologi {#setting-up-publish-topology}
 
