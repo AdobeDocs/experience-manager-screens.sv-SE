@@ -1,14 +1,14 @@
 ---
 title: Versionsinformation för funktionspaket 2012
-description: Följ den här sidan för att få information om AEM Screens Feature Pack 2012 som släpptes den 17 december 2021.
+description: Följ den här sidan för att få information om AEM Screens Feature Pack 2012 släppt den 12 januari 2022.
 feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: 3ff32a3d-9baf-4085-a775-bb5a76a1f5b3
-source-git-commit: 3366a918c75dd1485dfe8716797d7254b3b5c2b3
+source-git-commit: 9d8b336c12d5e44beb831ba41f3df5031a6ca32d
 workflow-type: tm+mt
-source-wordcount: '291'
-ht-degree: 1%
+source-wordcount: '313'
+ht-degree: 0%
 
 ---
 
@@ -25,11 +25,17 @@ Du kan ladda ned den senaste funktionspaketet för AEM Screens 6.5.10 från [Pro
 
 ## Releasedatum {#release-date}
 
-Releasedatum för AEM Screens Feature Pack 20212 är 17 december 2021.
+Releasedatum för AEM Screens Feature Pack 20212 är 12 januari 2022.
 
 ### Nyheter {#what-is-new}
 
 * Android-programuppdateringar har nu Android 11 som mål (API-nivå 30). Android-spelaren är för närvarande på API-nivå 29.
+
+* Förhandsvisning av bildskärm har fastnat i den tidigare spelarkonfigurationen
+
+* Visningsförhandsvisningen återges inte under vissa förhållanden
+
+* Åtgärda samtidiga hämtningsfel i SmartSync
 
 * Som utvecklare kommer du nu att visa återgivningar av resurser som endast ska listas som återgivningsposter under motsvarande resurser i manifestet för att säkerställa att manifesthanteringen är omfattande, tydlig och enkel.
 

@@ -13,9 +13,9 @@ feature: Developing Screens
 role: Developer
 level: Intermediate
 exl-id: d14f8c55-dc09-4ac9-8d75-bafffa82ccc0
-source-git-commit: 10a4918eeb56df5e8542bbc2e8806f766a86f781
+source-git-commit: 9d8b336c12d5e44beb831ba41f3df5031a6ca32d
 workflow-type: tm+mt
-source-wordcount: '2127'
+source-wordcount: '2275'
 ht-degree: 0%
 
 ---
@@ -553,6 +553,15 @@ Följande kod innehåller minimikraven i `pom.xml` för det specifika projektet:
 I videon nedan visas den färdiga komponenten och hur den kan läggas till i en sekvenskanal. Kanalen läggs sedan till i en platsvisning och tilldelas till en skärmspelare.
 
 >[!VIDEO](https://video.tv.adobe.com/v/22385?quaity=9)
+
+## Ytterligare överväganden för anpassade komponenter som bäddar in andra sidor eller fragment {#additional-considerations}
+
+Om den anpassade komponent som du utvecklar ska inkludera andra sidor eller upplevelsefragment, och om du vill att ändringar i det inbäddade innehållet ska hämtas automatiskt av spelaren utan att behöva publicera om kanalen, måste du ta hänsyn till följande två begränsningar:
+
+1. I stället för att utöka direkt `foundation/components/parbase`, måste du utöka antingen `screens/core/components/content/page` eller `screens/core/components/content/experiencefragment`
+2. Namnet på egenskapen som du använder för att referera till det inbäddade innehållet måste vara `pagePath`
+
+Genom att utnyttja dessa två komponenter för skärmar får de också en extra fördel som de kan ta hand om genom att kombinera vissa av de beroenden du behöver (bibliotek på klientsidan, teckensnitt osv.) via offlinekonfigurationsalternativen i komponentdialogrutan, som sedan minskar ansvaret för alla anpassade offlinehanterare som du skulle behöva använda för detta, vilket ibland till och med helt tar bort behovet av att använda en.
 
 ## Kod klar {#finished-code}
 
