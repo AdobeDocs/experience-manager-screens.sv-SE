@@ -2,9 +2,9 @@
 title: Konfigurera författare och publicera i AEM Screens
 description: AEM Screens arkitektur liknar en traditionell AEM Sites-arkitektur. Innehållet skapas på en AEM författarinstans och sedan vidarebefordras till flera publiceringsinstanser. Följ den här sidan för att lära dig hur du konfigurerar författare och publicerar för AEM Screens.
 exl-id: 5aef5f35-d946-4bf8-a2a8-c3ed532b7eef
-source-git-commit: ed9debd55cc4e142a46eda05e9e1aabc32532311
+source-git-commit: ab959584c01c10f76c231ab89b574886ad7346c5
 workflow-type: tm+mt
-source-wordcount: '1974'
+source-wordcount: '1988'
 ht-degree: 0%
 
 ---
@@ -128,9 +128,10 @@ För varje publiceringsinstans:
 1. Navigera till `https://<host>:<port>/system/console/configMgr`
 1. Välj **Apache Sling Oak-Based Discovery Service** Konfiguration.
 1. Uppdatera topologianslutnings-URL: lägga till URL:er för alla partakta publiceringsinstanser som är:
-   * `https://localhost:4503/libs/sling/topology/connector`
-   * `https://localhost:4504/libs/sling/topology/connector`
-1. **Vitlista för topologikoppling**: anpassa sig till IP-adresser eller undernät som omfattar partakta publiceringsinstanser
+   * `https://publish:4503/libs/sling/topology/connector`
+   * `https://publish:4504/libs/sling/topology/connector`
+1. **Vitlista för topologikoppling**: Anpassa till IP-adresser eller undernät som omfattar alla publiceringsinstanser. Se till att du vitlistar IP-/värdnamnet för alla publiceringsinstanser utan portnumret.
+
 1. Aktivera **Stoppa lokala loopar automatiskt**
 
 Konfigurationen ska vara identisk för varje publiceringsinstans och den automatiska stopploopen förhindrar en oändlig slinga.
