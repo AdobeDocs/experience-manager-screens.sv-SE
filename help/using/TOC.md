@@ -1,6 +1,6 @@
 ---
-user-guide-title: Best Practices Guide for AEM Screens Projects
-breadcrumb-title: AEM Screens Best Practices Guide
+user-guide-title: Användarhandbok om bästa praxis för AEM Screens-projekt
+breadcrumb-title: Användarhandbok om bästa praxis för AEM Screens
 solution-title: AEM Screens
 getting-started-title: AEM Screens Best Practices Guide
 getting-started-description: AEM Screens Best Practices Guide provides guidance on how to successfully plan and execute an AEM Screens project.
@@ -10,12 +10,12 @@ audience: end-user
 source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
 workflow-type: tm+mt
 source-wordcount: '131'
-ht-degree: 1%
+ht-degree: 16%
 
 ---
 
 
-# Best Practices Guide for AEM Screens Projects {#using}
+# Användarhandbok om bästa praxis för AEM Screens-projekt {#using}
 
 + [Om den här guiden](about-guide.md)
 + Översikt {#overview}
