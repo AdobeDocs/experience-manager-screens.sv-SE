@@ -13,9 +13,9 @@ feature: Developing Screens
 role: Developer
 level: Intermediate
 exl-id: e316614f-2d40-4b62-a1e5-f30817def742
-source-git-commit: 10a4918eeb56df5e8542bbc2e8806f766a86f781
+source-git-commit: 29116a15d5486b2c446cae0d092c4d4b802fe9e7
 workflow-type: tm+mt
-source-wordcount: '1786'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -40,11 +40,11 @@ En anpassad filmminiatyrkomponent skapas genom att bildkomponenten utökas.
 
 Du behöver följande för att kunna slutföra den här självstudiekursen:
 
-1. [AEM 6.4](https://experienceleague.adobe.com/docs/experience-manager-64/release-notes/release-notes.html) eller [AEM 6.3](https://experienceleague.adobe.com/docs/experience-manager-release-information/aem-release-updates/previous-updates/aem-previous-versions.html) + Senaste skärmfunktionspaket
+1. AEM 6.5 + Senaste skärmfunktionspaket
 1. [AEM Screens Player](/help/user-guide/aem-screens-introduction.md)
 1. Lokal utvecklingsmiljö
 
-Självstudiestegen och skärmbilderna utförs med CRXDE-Lite. [Eclipse](https://experienceleague.adobe.com/docs/experience-manager-64/developing/devtools/aem-eclipse.html) eller [IntelliJ](https://experienceleague.adobe.com/docs/experience-manager-64/developing/devtools/ht-intellij.html) IDE kan också användas för att slutföra självstudiekursen. Mer information om hur du använder en IDE till [utvecklas med AEM finns här](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/project-archetype/project-setup.html).
+Självstudiestegen och skärmbilderna utförs med CRXDE-Lite. [Eclipse](https://experienceleague.adobe.com/docs/experience-manager-65/developing/devtools/aem-eclipse.html) eller [IntelliJ](https://experienceleague.adobe.com/docs/experience-manager-65/developing/devtools/ht-intellij.html) IDE kan också användas för att slutföra självstudiekursen. Mer information om hur du använder en IDE till [utvecklas med AEM finns här](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/project-archetype/project-setup.html).
 
 ## Projektinställningar {#project-setup}
 
@@ -334,7 +334,7 @@ AEM Screens-komponenter återges annorlunda i redigeringsläget jämfört med i 
 
 1. Lägg till följande egenskaper i det delade klientbiblioteket:
 
-   * `allowProxy` | Boolesk | `true`
+   * `allowProxy` | Boolean | `true`
    * `categories` | Sträng[] | `cq.screens.components`
 
    ![Egenskaper för /apps/weretail-run/components/content/affisch/clientlibs/shared](assets/2018-05-03_at_1026pm-1.png)
