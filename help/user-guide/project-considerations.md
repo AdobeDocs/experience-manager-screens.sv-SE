@@ -1,8 +1,8 @@
 ---
-title: '"Del 2: Att tänka på när projekt är omfång"'
-seo-title: '"Del 2: Att tänka på när projekt är omfång"'
+title: "Del 2: Att tänka på när projekt är omfång"
+seo-title: "Part 2: Considerations as Projects are Scoped"
 description: Följ den här självstudiekursen för att lära dig mer om innehållsstrategi, I/O-lager, tillgångstyper, målgruppssegmentering, dagdelar, verksamhetskrav och överväganden som rör beredskap för webbplatser.
-seo-description: Följ den här självstudiekursen för att lära dig mer om innehållsstrategi, I/O-lager, tillgångstyper, målgruppssegmentering, dagdelar, verksamhetskrav och överväganden som rör beredskap för webbplatser.
+seo-description: Follow this tutorial to learn about the content strategy, I/O layers, asset types, audience segmentation, day parts, business operations requirements, and site readiness considerations.
 uuid: 96359202-8f55-4330-97c5-fc8f8c916a8d
 contentOwner: jsyal
 content-type: reference
@@ -10,13 +10,13 @@ topic-tags: digital-signage-networks-basics
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 discoiquuid: 10b81628-46db-4122-bf9e-96f41f080055
 docset: aem65
-feature: Översikt
+feature: Overview
 role: User, Data Architect
 level: Beginner
 exl-id: 7814ee96-9220-45b6-b56e-b48a9da9a319
 source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
-source-wordcount: '667'
+source-wordcount: '635'
 ht-degree: 0%
 
 ---
@@ -57,7 +57,7 @@ Följande punkter anses förstå vad kunden tänker sig när det gäller innehå
 * Anger om innehållet ska återanvändas i tryck-, tv- eller webbkampanjer?
 * Om innehållet består av statiska bilder eller mallar som innehåller dynamiskt matade komponenter?
 * Kommer animeringar att spelas upp som video- eller HTML-program?
-* Finns det tredjepartsintegreringar från Content Subscription Services, Social Media eller RSS-aggregation eller API-anrop?
+* Finns det tredjepartsintegreringar från Content Subscription Services, Social Media eller RSS-aggregation Services eller API-anrop?
 * Vilka krav gäller för bildupplösning?
 * Är skärmarna 16:9-standardproportioner eller anpassade? Stående eller Liggande?
 * Krävs det videomonger för flera skärmar, och i så fall, hur ser det ut?
@@ -93,4 +93,4 @@ Följ självstudiekursen nedan för att lära dig mer om innehållsstrategi, I/O
 
 När du förstår vilka element som identifieras vid projektidentifiering och vad berörda parter har skrivit för att utvärdera projektet och förbereda en lämplig design, måste du lära dig de viktigaste villkoren i en övergripande projektplan, som projektcykel, åtgärder som omger maskinvarutester, konceptbevis, piloter och rollouts.
 
-Gå till **[Testning, POC, Pilot &amp; Rollouts](testing-pocs-pilots-rollouts.md)** om du vill ha mer information.
+Navigera till **[Testning, POC, piloter &amp; Rollouts](testing-pocs-pilots-rollouts.md)** för mer information.

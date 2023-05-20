@@ -1,29 +1,29 @@
 ---
 title: Använda övergångar
-seo-title: Använda övergångar
+seo-title: Applying Transitions
 description: Följ den här sidan om du vill lära dig hur du använder övergångar i skärmsprojekt.
-seo-description: Följ den här sidan om du vill lära dig hur du använder övergångar i skärmsprojekt.
+seo-description: Follow this page to learn how to apply transitions to your Screens projects.
 uuid: b79d521b-19d4-47c8-a41a-148d7bbf6ac9
 contentOwner: jsyal
-feature: Redigeringsskärmar
+feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 757e6751-8008-487f-be89-9f53ac898928
 source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
-source-wordcount: '289'
+source-wordcount: '272'
 ht-degree: 1%
 
 ---
 
 # Använda övergångar {#applying-transitions}
 
-I det här avsnittet beskrivs hur du kan använda komponenten **Transition** mellan olika resurser (bilder och videoklipp) och inbäddade sekvenser i en kanal.
+I det här avsnittet beskrivs hur du kan använda **Övergång** mellan olika resurser (bilder och videoklipp) och inbäddade sekvenser i en kanal.
 
 
 >[!CAUTION]
 >
->Mer information om egenskaperna för komponenten **Transition** finns i [Transitions](adding-components-to-a-channel.md#transition).
+>Mer information om egenskaperna för **Övergång** -komponent, se [Övergångar](adding-components-to-a-channel.md#transition).
 
 ## Lägga till övergångskomponent i resurser i en kanal {#adding-transition}
 
@@ -35,18 +35,18 @@ Följ stegen nedan för att lägga till en övergångskomponent i ditt AEM Scree
 >
 >Skapa ett AEM Screens-projekt **TestProject** med en kanal **TestTransition**. Dessutom kan du ställa in en plats och en visning för att visa utdata.
 
-1. Navigera till kanalen **TestTransition** och klicka på **Redigera** i åtgärdsfältet.
+1. Navigera till kanalen **TestTransition** och klicka **Redigera** i åtgärdsfältet.
 
    ![image1](assets/transitions1.png)
 
    >[!NOTE]
    >
-   >Kanalen **TestTransition** innehåller redan få resurser (bilder och videor). Kanalen **TestTransition** innehåller till exempel tre bilder och två videoklipp, vilket visas nedan:
+   >The **TestTransition** kanalen innehåller redan få resurser (bilder och videor). Till exempel **TestTransition** Kanalen innehåller tre bilder och två videoklipp, vilket visas nedan:
 
    ![image2](assets/transitions2.png)
 
 
-1. Dra och släpp komponenten **Transition** till redigeraren.
+1. Dra och släpp **Övergång** till redigeraren.
    >[!CAUTION]
    >
    >Innan du lägger till övergången till dina resurser i din kanal måste du se till att du inte lägger till en övergång före den första resursen i den sekventiella kanalen. Det första objektet i kanalen måste vara en resurs och inte en övergång.
@@ -55,8 +55,8 @@ Följ stegen nedan för att lägga till en övergångskomponent i ditt AEM Scree
 
    >[!NOTE]
    >
-   >Som standard är egenskaperna för övergångskomponenten som **Typ** inställda på **Tona** och **Varaktighet** inställda på *1600 ms*.  Dessutom är det inte tillrådligt att ange en tidslängd för övergången som är längre än den tillgång den används på.
+   >Som standard är övergångskomponentens egenskaper, som **Typ** är inställd på **Tona** och **Varaktighet** är inställd på *1 600 ms*.  Dessutom är det inte tillrådligt att ange en tidslängd för övergången som är längre än den tillgång den används på.
 
-1. Om du dessutom lägger till en **inbäddad sekvens**-komponent (som inkluderar en sekvenskanal) i den här kanalredigeraren kan du lägga till en övergångskomponent i slutet så att innehållet spelas upp i rätt ordning, vilket visas i figuren nedan:
+1. Om du dessutom lägger till en **Inbäddad sekvens** -komponent (som inkluderar en sekvenskanal) i den här kanalredigeraren kan du lägga till en övergångskomponent i slutet så att innehållet spelas upp i rätt ordning, vilket visas i figuren nedan:
 
    ![image3](assets/transitions5.png)

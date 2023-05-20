@@ -1,22 +1,22 @@
 ---
 title: Arbeta med AEM Screens Player
-seo-title: Arbeta med skärmuppspelaren
+seo-title: Working with Screens Player
 description: Följ den här sidan om du vill veta mer om Screens Player. Det förklarar även administratörsgränssnittet och kanalväljaren.
-seo-description: Följ den här sidan om du vill veta mer om Screens Player. Det förklarar även administratörsgränssnittet och kanalväljaren.
+seo-description: Follow this page to learn about Screens Player. It also explains the Admin UI and the Channel Switcher.
 uuid: 93e113ea-fbef-4757-982b-b7dc52fc76a7
 contentOwner: jyotika syal
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
 discoiquuid: 4ad51b5e-c628-4440-9f2e-41d17cb10bc3
-feature: Administrera skärmar
+feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: 4faac090-ad8a-4d7e-a502-6fb63f6b2761
 source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
-source-wordcount: '1068'
-ht-degree: 1%
+source-wordcount: '1044'
+ht-degree: 0%
 
 ---
 
@@ -26,7 +26,7 @@ Du kan hantera kanalinnehållet och andra inställningar i AEM Screens Player.
 
 >[!NOTE]
 >
->Tryck på ***Ctrl+Cmd+F*** för att avsluta helskärmsläget för OS X AEM Screens Player.
+>Tryck ***Ctrl+Cmd+F*** för att avsluta helskärmsläget för OS X AEM Screens Player.
 
 När du har tilldelat en kanal till en skärm visas innehållet i AEM Screens Player. Du kan antingen konfigurera inställningar för spelaren med hjälp av inställningarna för administratörsgränssnittet (från kontrollpanelen) eller från spelaren.
 
@@ -34,7 +34,7 @@ När du har tilldelat en kanal till en skärm visas innehållet i AEM Screens Pl
 
 Du kan konfigurera inställningar för enheten från enhetskontrollpanelen, som du kommer åt via AEM.
 
-1. Navigera till enhetskonsolen från ditt projekt, till exempel ***Testa projekt*** —> ***Enheter***.
+1. Navigera till kontrollpanelen för enheten från ditt projekt, till exempel ***Testa projekt*** —> ***Enheter***.
 
    Välj **Enheter** och **Enhetshanteraren** i åtgärdsfältet.
 
@@ -44,13 +44,13 @@ Du kan konfigurera inställningar för enheten från enhetskontrollpanelen, som 
 
    ![chlimage_1-67](assets/chlimage_1-67.png)
 
-1. Kontrollera panelen **INSTÄLLNINGAR**. Du kan aktivera/inaktivera **Admin-gränssnittet** och **kanalväljaren** för spelaren bland dessa två alternativ.
+1. Kontrollera **INSTÄLLNINGAR** -panelen. Du kan aktivera/inaktivera **Administratörsgränssnitt** och **Kanalväljare** för din spelare av dessa två alternativ.
 
    ![chlimage_1-68](assets/chlimage_1-68.png)
 
 ### Användargränssnittet för administratörer {#the-admin-ui}
 
-Om du aktiverar **administratörsgränssnittet** från inställningspanelen kan användaren öppna administratörsinställningarna från skärmspelaren. Om du inaktiverar det här alternativet från enhetspanelen kan användaren inte öppna administratörsgränssnittet från spelaren.
+Aktivera **Administratörsgränssnitt** på inställningspanelen kan användaren öppna administratörsinställningarna från skärmspelaren. Om du inaktiverar det här alternativet från enhetspanelen kan användaren inte öppna administratörsgränssnittet från spelaren.
 
 Om du vill visa administratörsgränssnittet från Skärmspelaren trycker du länge på det övre vänstra hörnet för att öppna Admin-menyn, på den pekaktiverade AEM Screens-spelaren eller med en mus. Den visar information när registreringen är klar och kanalerna har lästs in.
 
@@ -62,41 +62,41 @@ Om du vill visa administratörsgränssnittet från Skärmspelaren trycker du lä
 
 #### Åtkomst till alternativen på menyn Konfiguration {#configuration-options}
 
-Du kan uppdatera dina konfigurationer om du väljer alternativet **Konfiguration** på sidomenyn, vilket visas i bilden nedan:
+Du kan uppdatera dina konfigurationer om du väljer **Konfiguration** från sidomenyn, enligt bilden nedan:
 
 ![screen_shot_2018-10-15at101257am](assets/screen_shot_2018-10-15at101257am.png)
 
 På menyn Konfiguration kan du ändra följande inställningar:
 
-* Återställ **Firmware**, **Inställningar** eller **Till fabrik** från den här dialogrutan.
+* Återställ **Firmware**, **Inställningar**, eller **Till fabrik** från den här dialogrutan.
 
-* Ange det maximala antalet loggfiler som ska behållas för en AEM Screens-spelare i **Max antal. av loggfiler som ska sparas**.
+* Ange det maximala antalet loggfiler som ska sparas för en AEM Screens-spelare i **Max. nr av loggfiler som ska behållas**.
 
-* Aktivera eller inaktivera **Admin Menu**, **Channel Switcher** och **Activity UI** för skärmspelaren.
+* Aktivera eller inaktivera **Admin-menyn**, **Kanalväljare** och **Aktivitetsgränssnitt** för skärmspelaren.
 
-   Om **Aktivitetsgränssnittet** är aktiverat på menyn **Konfiguration**, visar AEM Screens-spelaren *aktivitetsmeddelanden* i det övre högra hörnet av spelaren, vilket visas i figuren nedan.
+   Om **Aktivitetsgränssnitt** är aktiverat från **Konfiguration** visas AEM Screens-spelaren *meddelanden om spelaraktivitet* i det övre högra hörnet av spelaren, vilket visas i bilden nedan.
 
    ![bild](/help/user-guide/assets/activity_ui.png)
 
 >[!NOTE]
 >
->Alternativet **Uppdatera inbyggd programvara** fungerar bara på cordova, till exempel Android-spelare.
+>The **Uppdatera inbyggd programvara** fungerar bara på cordova, till exempel Android-spelare.
 
 >[!NOTE]
 >
->Vi rekommenderar att användargränssnittet **för administratörer** inaktiveras i produktionsdistributioner.
+>Vi rekommenderar att **Administratörsgränssnitt** inaktiveras i produktionsdistributioner.
 
 #### Åtkomst till menyalternativ för innehållscache {#content-cache-options}
 
 Du kan rensa cache för kanaler och program från administratörsgränssnittet i AEM Screens Player.
 
-Välj **innehållscachen** från sidospåret för att uppdatera cacheminnet.
+Välj **Innehållscache** från sidospåret för att uppdatera cacheminnet.
 
 ![screen_shot_2018-10-15at105717am](assets/screen_shot_2018-10-15at105717am.png)
 
 ### Kanalväxlaren {#the-channel-switcher}
 
-Om du aktiverar **kanalväljaren** från panelen Inställningar kan användaren öppna kanalvalet/inställningarna från skärmspelaren.
+Aktivera **Kanalväljare** på panelen Inställningar kan användaren öppna kanalvalet/inställningarna från Skärmspelaren.
 
 Om du inaktiverar det här alternativet från enhetspanelen kan användaren inte styra kanalinställningarna från Skärmspelaren.
 
@@ -110,7 +110,7 @@ Om du vill visa kanalväljaren från spelaren trycker du länge på det nedre v�
 >
 >Du kan också aktivera eller inaktivera admin-menyn och kanalväljaren för spelaren från skärmspelaren.
 >
->(Se *Ändra inställningar från Skärmspelaren* enligt avsnittet nedan.)
+>(Se *Ändra inställningar från Skärmspelaren* (se avsnittet nedan).
 
 ### Hantera inställningar från AEM Screens Player {#managing-preferences-from-the-aem-screens-player}
 
@@ -120,7 +120,7 @@ Följ de här stegen för att ändra inställningarna för spelaren:
 
 1. Tryck länge på det övre vänstra hörnet i den inaktiva kanalen för att öppna administrationspanelen.
 1. Navigera till **Konfiguration** från den vänstra åtgärdsmenyn.
-1. Aktivera/inaktivera konfiguration för **Admin-användargränssnitt** eller **kanalväxlare**.
+1. Aktivera/inaktivera konfiguration för **Administratörsgränssnitt** eller **Kanalväljare**.
 
 ![screen_shot_2018-10-15at101257am-1](assets/screen_shot_2018-10-15at101257am-1.png)
 
@@ -141,16 +141,16 @@ Du kan felsöka olika problem som rör AEM Screens Player (maskinvara och progra
 
 Det finns två typer av uppdateringar för AEM Screens Player:
 
-| **Metod** | **Information** | **via fjärranslutning** | **Automatiserad** | **0 Driftavbrott** |
+| **Metod** | **Detaljer** | **via fjärranslutning** | **Automatiserad** | **0 Driftavbrott** |
 |---|---|---|---|---|
-| Uppdatering av inbyggd programvara | Används på befintliga installerade spelare via fjärrkommando. Efter uppdateringen läses Player in automatiskt igen med det befintliga innehållet. | Ja | Anpassat | Nästan - 1-3 sekunder |
-| Uppdateringar för spelargränssnitt | Det här är en ny körbar fil som ska distribueras på spelaren. Detta kräver att du fjärrkopierar en ny binär fil i spelaren och stoppar den pågående körningen och startar den nya versionen. Detta kan kräva att du hämtar förinläsningen av paketen igen. | Ja (via fjärrgränssnitt) | Anpassat | Nej |
+| Uppdatering av inbyggd programvara | Används på befintliga installerade spelare via fjärrkommando. Efter uppdateringen läses Player in automatiskt igen med det befintliga innehållet. | Ja | Egen | Nästan - 1-3 sekunder |
+| Uppdateringar för spelargränssnitt | Det här är en ny körbar fil som ska distribueras på spelaren. Detta kräver att du fjärrkopierar en ny binär fil i spelaren och stoppar den pågående körningen och startar den nya versionen. Detta kan kräva att du hämtar förinläsningen av paketen igen. | Ja (via fjärrgränssnitt) | Egen | Nej |
 
 ## Riktlinjer för val av maskinvara för spelarenhet {#hardware-selection-guidelines-for-player-device}
 
 Följande avsnitt innehåller riktlinjer för val av maskinvara för ett skärmsprojekt:
 
-* Källa alltid ***Commercial*** eller ***Industrial*** Grade-komponenter för både PC Player och Display Panel eller Projector.
+* Alltid källa ***Kommersiellt*** eller ***Industriindustri*** Betygsätt komponenter för både PC Player och Display Panel eller Projector.
 
 * Samarbeta alltid med leverantörer som levererar digitala signaturer.
 * Ta alltid hänsyn till miljöfaktorer som omgivningstemperatur och relativ luftfuktighet.
@@ -178,10 +178,10 @@ I följande tabell sammanfattas maskinvarukonfigurationerna med typiska användn
    <td><p>・ChromeOS 32 GB</p> <p>・Windows 128 GB</p> </td>
    <td>OnBoard</td>
    <td>1920 x 1080</td>
-   <td>DVI,<br /> Ethernet/trådlöst,<br /> 2x USB</td>
+   <td>DVI,<br /> Ethernet/trådlöst,<br /> 2 x USB</td>
    <td>
     <ul>
-     <li>Standardrepetition i helskärmsläge<br /> </li>
+     <li>Helskärmsloop som standard<br /> </li>
      <li>Dag-parsning</li>
     </ul> </td>
   </tr>
@@ -192,7 +192,7 @@ I följande tabell sammanfattas maskinvarukonfigurationerna med typiska användn
    <td>128 GBB</td>
    <td>OnBoard</td>
    <td>3840x2160 (4K)</td>
-   <td>DVI, HDMI<br /> Ethernet/trådlöst,<br /> 2x USB</td>
+   <td>DVI, HDMI<br /> Ethernet/trådlöst,<br /> 2 x USB</td>
    <td>
     <ul>
      <li>Dynamiskt innehåll med en källa</li>
@@ -207,7 +207,7 @@ I följande tabell sammanfattas maskinvarukonfigurationerna med typiska användn
    <td>256 GB</td>
    <td>Dedikerad grafikprocessor</td>
    <td>3840x2160 (4K)</td>
-   <td>DVI, HDMI<br /> Ethernet/trådlöst,<br /> 4x USB</td>
+   <td>DVI, HDMI<br /> Ethernet/trådlöst,<br /> 4 x USB</td>
    <td>
     <ul>
      <li>4 eller fler innehållszoner, samtidiga videouppspelningar</li>

@@ -1,15 +1,15 @@
 ---
 title: Använda Chrome Player som tillägg
-seo-title: Använda Chrome Player som tillägg
+seo-title: Using Chrome Player as an Extension
 description: Följ den här sidan om du vill veta mer om hur du installerar färgspelaren som ett webbläsartillägg.
-seo-description: 'null'
-feature: Administrera skärmar
+seo-description: null
+feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: 53d5bd81-0853-47b0-9798-01d8fd5612e6
 source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
-source-wordcount: '467'
+source-wordcount: '458'
 ht-degree: 0%
 
 ---
@@ -24,15 +24,15 @@ ChromeOS-spelaren kan installeras som Chrome Browser-plugin i utvecklarläge uta
 
 Följ den här sidan om du vill veta mer om hur du installerar färgspelaren som ett webbläsartillägg.
 
-1. Klicka [här](https://download.macromedia.com/screens/) för att hämta den senaste Chrome Player.
+1. Klicka [här](https://download.macromedia.com/screens/) för att ladda ned den senaste Chrome Player.
 
 1. Zippa upp och spara det på disken.
 
-1. Öppna webbläsaren Chrome och klicka på menyn med tre punkter och välj **Fler verktyg** från **Tillägg** i det övre högra hörnet eller navigera direkt till `chrome://extensions`.
+1. Öppna webbläsaren Chrome och klicka på menyn med tre punkter och välj **Fler verktyg** från **Tillägg** längst upp till höger eller direkt navigera till `chrome://extensions`.
 
-1. Aktivera läget **Utvecklare** i det övre högra hörnet.
+1. Aktivera **Utvecklare** från det övre högra hörnet.
 
-1. Klicka på **Läs in opackad** från det övre vänstra hörnet och läs in den uppackade Chrome Player.
+1. Klicka på **Läs in opackad** från det övre vänstra hörnet och ladda uppzippad Chrome Player.
 
 1. Kontrollera AEM Screens Chrome Player-plugin om det finns i listan över tillägg.
 
@@ -41,12 +41,12 @@ Följ den här sidan om du vill veta mer om hur du installerar färgspelaren som
 1. Klicka på **AEM Screens Plugin** för att starta Chrome Player.
    >[!NOTE]
    >
-   > Som standard startas spelaren i helskärmsläge. Tryck på **esc** för att avsluta helskärmsläget.
+   > Som standard startas spelaren i helskärmsläge. Tryck **esc** för att avsluta helskärmsläget.
 
 
 ## Avancerade felsökningstips {#advanced-debugging-tips}
 
-1. När spelaren har hämtat innehåll lokalt kan du bläddra i lokalt hämtat innehåll genom att gå till `http://localhost:24502`.
+1. När spelaren har laddat ned innehåll lokalt kan du bläddra i det lokalt nedladdade innehållet genom att gå till `http://localhost:24502`.
 
    >[!NOTE]
    >
@@ -55,9 +55,9 @@ Följ den här sidan om du vill veta mer om hur du installerar färgspelaren som
 1. Du kan högerklicka och inspektera tre lager i färgspelaren
    **Felsöka innehåll**: Högerklicka och inspektera innehållet för att felsöka det innehåll som körs (det ska finnas ett objekt med namnet&quot;Inspect&quot; på snabbmenyn)
 
-   **Inbyggd programvara** för felsökning: Ta fram administratörsgränssnittet och högerklicka och inspektera sedan för att felsöka den inbyggda programkoden (spelaren) (det bör finnas ett alternativ för att inspektera och inspektera bakgrundssidan och simulera webbläsaromstart)
+   **Felsöka inbyggd programvara**: Ta fram administratörsgränssnittet och högerklicka och inspektera sedan för att felsöka den inbyggda programkoden (spelaren) (det bör finnas ett alternativ för att inspektera och inspektera bakgrundssidan och simulera webbläsaromstart)
 
-   **Felsök bakgrundssida**: Ta fram administratörsgränssnittet och högerklicka och inspektera bakgrundssidan (för bakgrundstjänster som http-server)
+   **Felsöka bakgrundssida**: Ta fram administratörsgränssnittet och högerklicka och inspektera bakgrundssidan (för bakgrundstjänster som http-server)
 
 ## Uppgradera Player-tillägget {#upgrading-player}
 

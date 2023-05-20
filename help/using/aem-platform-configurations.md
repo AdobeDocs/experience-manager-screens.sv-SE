@@ -1,16 +1,17 @@
 ---
 title: AEM plattformskonfigurationer
-seo-title: AEM plattformskonfigurationer
+seo-title: AEM Platform Configurations
 description: Sidan beskriver AEM plattformskonfigurationer
-seo-description: Sidan beskriver AEM plattformskonfigurationer
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+seo-description: The page describes AEM Platform Configurations
+exl-id: cfe1769b-4da2-430d-a7b1-10dbcaf9f51b
+source-git-commit: 707833ddd8ab2573abcac4e9a77ec88778624435
 workflow-type: tm+mt
-source-wordcount: '522'
+source-wordcount: '513'
 ht-degree: 18%
 
 ---
 
-# AEM plattformskonfigurationer {#platform-configurations}
+# AEM plattformskonfigurationer  {#platform-configurations}
 
 >[!NOTE]
 >
@@ -24,19 +25,19 @@ Information om hur du konfigurerar servrar finns i [Serverkonfigurationer](https
 
 ## Författare-Publicera {#author-publish}
 
-Mer information om hur du konfigurerar författarpublicering finns i [Konfigurera författare och publicera i AEM Screens](https://helpx.adobe.com/se/experience-manager/6-5/screens/using/author-and-publish.html)
+Om du vill konfigurera författarpublicering, se [Konfigurera författare och publicera i AEM Screens](https://helpx.adobe.com/se/experience-manager/6-5/screens/using/author-and-publish.html)
 
 >[!NOTE]
 >
->Om det bara finns en författare och en publicering behöver du bara följa stegen under **Konfigurera replikeringsagenter på författare** på sidan [Konfigurera redigering och publicering i AEM Screens](https://helpx.adobe.com/experience-manager/6-5/screens/using/author-and-publish.html).
+>Om det bara finns en författare och en publicering behöver du bara följa stegen under **Konfigurera replikeringsagenter på författare** på sidan [Konfigurera redigering och publicering i AEM Screens](https://helpx.adobe.com/se/experience-manager/6-5/screens/using/author-and-publish.html).
 
 ## Dispatcher Configurations {#dispatcher-configurations}
 
 Dispatcher är Adobe Experience Managers verktyg för cachelagring och/eller belastningsutjämning. AEM:s Dispatcher skyddar också AEM-servern mot angrepp. Därför kan du öka säkerheten för din AEM-instans genom att använda Dispatcher tillsammans med en företagswebbserver.
 
-Mer information finns i **[Dispatcher Configurations for AEM Screens](https://helpx.adobe.com/experience-manager/6-5/screens/using/dispatcher-configurations-aem-screens.html)** som beskriver riktlinjer för konfigurering av dispatcher för ett AEM Screens-projekt.
+Se **[Dispatcher Configurations for AEM Screens](https://helpx.adobe.com/experience-manager/6-5/screens/using/dispatcher-configurations-aem-screens.html)** som belyser riktlinjer för konfigurering av dispatcher för ett AEM Screens-projekt.
 
-## Installerar FFMpeg och videoåtergivningar {#installing-ffmpeg}
+## Installera FFMpeg och videoåtergivningar {#installing-ffmpeg}
 
 Installera FFMpeg genom att följa stegen för lämpligt operativsystem (vanligen RHEL):
 
@@ -49,8 +50,8 @@ Installera FFMpeg genom att följa stegen för lämpligt operativsystem (vanlige
 
 ## Lösenordsbegränsningar {#password-restrictions}
 
-Lösenordsprincipen för AEM måste inaktiveras för AMS-instansen. Detta kan konfigureras växelvis i webbkonsolen med hjälp av skärmenhetstjänsten *com.adobe.cq.screens.device.impl.DeviceService*
-Se **Lösenordsbegränsningar** i[Konfigurera författare och publicera i AEM Screens](https://helpx.adobe.com/experience-manager/6-5/screens/using/author-and-publish.html)
+Lösenordsprincipen för AEM måste inaktiveras för AMS-instansen. Detta kan konfigureras växelvis i webbkonsolen med hjälp av enhetstjänsten Skärmar *com.adobe.cq.screens.device.impl.DeviceService*
+Se **Lösenordsbegränsningar** avsnitt i[Konfigurera författare och publicera i AEM Screens](https://helpx.adobe.com/se/experience-manager/6-5/screens/using/author-and-publish.html)
 
 ## Konfigurera miljöer {#setting-up-environments}
 
@@ -60,8 +61,7 @@ Installera och kör de senaste versionerna av följande paket för din version a
 * Funktionspaket för skärmar
 * AEM Kumulativt korrigeringspaket
 
-Förutom ovanstående kan du även identifiera utvecklingspaket (t.ex. WCM Core
--komponenter) eller tredjepartsverktyg (till exempel SAP Hybris) som krävs.
+Förutom ovanstående bör du även identifiera eventuella utvecklingspaket (till exempel WCM Core-komponenter) eller tredjepartsverktyg (till exempel SAP Hybris) som krävs.
 Installera samma programvarupaket i dina lokala utvecklingsmiljöer. Instruera klienten att använda samma konfiguration på alla QA-, Stage- och Production-servrar. Serverkonfigurationer som inte matchar skapar problem vid distribution och testning.
 
 >[!NOTE]
@@ -72,4 +72,4 @@ Installera samma programvarupaket i dina lokala utvecklingsmiljöer. Instruera k
 
 När du konfigurerar åtkomstkontrollistor beskrivs hur du skiljer ut projekt så att varje enskild person eller grupp hanterar sitt eget projekt.
 
-Mer information finns i [Konfigurera åtkomstkontrollistor](https://helpx.adobe.com/experience-manager/6-5/screens/using/setting-up-acls.html).
+Se [Konfigurera åtkomstkontrollistor](https://helpx.adobe.com/experience-manager/6-5/screens/using/setting-up-acls.html) för mer information.

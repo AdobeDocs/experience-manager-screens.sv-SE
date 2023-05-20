@@ -1,18 +1,17 @@
 ---
 title: Säkerhetschecklista för AEM Screens
-seo-title: Säkerhetschecklista för AEM Screens
+seo-title: Security Checklist for AEM Screens
 description: På sidan beskrivs säkerhetschecklistan för AEM Screens
-seo-description: På sidan beskrivs säkerhetschecklistan för AEM Screens
-translation-type: tm+mt
+seo-description: The page describes Security Checklist for AEM Screens
 source-git-commit: 54c5a2f2f3f755e4da4028d54042f4bd8f2df369
 workflow-type: tm+mt
-source-wordcount: '473'
+source-wordcount: '460'
 ht-degree: 0%
 
 ---
 
 
-# Systemsäkerhetsaspekter för AEM Screens {#security-checklist}
+# Systemsäkerhetsfrågor för AEM Screens {#security-checklist}
 
 >[!IMPORTANT]
 >Detta är en intern Git-resurs.
@@ -25,7 +24,7 @@ På den här sidan visas systemsäkerhetsfrågor för AEM Screens.
 I det här avsnittet beskrivs rapporten. (Väntande vitpappersbilaga)
 
 
-## Vanliga frågor om AEM Screens Security {#faqs-screens}
+## Frågor och svar om AEM Screens Security {#faqs-screens}
 
 Följande frågor och svar förutsätter en autentiserad, registrerad spelararkitektur med HTTPS som kommunikationsprotokoll mellan spelare och AEM Server.
 
@@ -38,7 +37,7 @@ Kan spelartrafik dirigeras om till en skadlig server och instrueras att hämta o
 Det är inte möjligt eftersom HTTP-anslutningen identifierar båda ändar av anslutningen och krypterar den. Om du försöker vara i mitten och tolka det visas bara krypterat innehåll, och om du försöker personifiera servern kommer spelaren att neka dig eftersom ditt certifikat är annorlunda.
 
 
-### Vanliga frågor 2 {#faq2}
+### Frågor och svar 2 {#faq2}
 
 Ska jag använda HTTP eller HTTP?
 
@@ -57,7 +56,7 @@ Alla resurser signeras (SHA) av servern och valideras sedan av spelaren för sam
 Om hashen inte matchar försöker vi verifiera igen 3 gånger. Efter tre försök anser vi att nedladdningskommandot är ogiltigt.
 
 
-### Vanliga frågor 4 {#faq4}
+### Frågor och svar 4 {#faq4}
 
 Är AEM server säker?
 

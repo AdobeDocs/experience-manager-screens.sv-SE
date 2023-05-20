@@ -1,18 +1,17 @@
 ---
 title: Stöd efter start
-seo-title: Stöd för efterstart av AEM Screens
+seo-title: Post Launch Support for AEM Screens
 description: På sidan beskrivs Post Launch Support for AEM Screens Best Practices Guide
-seo-description: På sidan beskrivs Post Launch Support for AEM Screens Best Practices Guide
-translation-type: tm+mt
+seo-description: The page describes Post Launch Support for AEM Screens Best Practices Guide
 source-git-commit: 9b54b153676852742859b704ac9aedf908fceecf
 workflow-type: tm+mt
-source-wordcount: '413'
-ht-degree: 7%
+source-wordcount: '395'
+ht-degree: 8%
 
 ---
 
 
-# Stöd för efterstart {#post-launch-support}
+# Stöd efter start {#post-launch-support}
 
 
 Support efter start får inte förbises i det tidiga skedet.
@@ -31,7 +30,7 @@ För att förbereda sig för långsiktiga framgångar är det dessutom av störs
 >
 >Ni måste definiera driftsparametrar som är tidigt inräknade i driftbudgeten samt anpassa ansvarsområdena till AEM och AV Integrator.
 >
->* Är driftsättningen ett annonsnätverk med många intressenter kopplade till ett nätverk med intäkter?  Detta kan leda till mycket kortare tidsramar jämfört med ett Corporate Communications-nätverk.
+>* Är driftsättningen ett annonsnätverk med många intressenter kopplade till ett nätverk med intäkter? Detta kan tyda på mycket kortare tidsramar jämfört med ett Corporate Communications-nätverk.
 >* Är programmet mycket synligt för kundens chefer? Webbplatser med hög synlighet kan behöva olika behandlingar.
 >* Är programmet viktigt för affärsverksamhet som menybord i snabbmatskedjor? I dessa fall kan slutklienten behöva lösningar på plats med mycket korta svarstider samt redundans i uppspelningsmaskinvaran.
 
@@ -40,7 +39,7 @@ För att förbereda sig för långsiktiga framgångar är det dessutom av störs
 
 Det finns få saker du bör tänka på och frågor som hjälper dig att definiera stöd för programstart:
 
-1. Är driftsättningen ett annonsnätverk med många intressenter kopplade till ett nätverk med intäkter?  Detta kan leda till mycket kortare tidsramar jämfört med ett Corporate Communications-nätverk.
+1. Är driftsättningen ett annonsnätverk med många intressenter kopplade till ett nätverk med intäkter? Detta kan tyda på mycket kortare tidsramar jämfört med ett Corporate Communications-nätverk.
  
    >[!NOTE]
    >

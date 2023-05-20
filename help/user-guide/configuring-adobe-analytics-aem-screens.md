@@ -1,8 +1,8 @@
 ---
 title: Konfigurera Adobe Analytics med AEM Screens
-seo-title: Konfigurera Adobe Analytics med AEM Screens
+seo-title: Configuring Adobe Analytics with AEM Screens
 description: Följ det här avsnittet om du vill veta mer om sekvensering och hur du skickar anpassade händelser med Offline Adobe Analytics
-seo-description: Följ det här avsnittet om du vill veta mer om sekvensering och hur du skickar anpassade händelser med Offline Adobe Analytics
+seo-description: Follow this section to learn more about sequencing and sending custom events using Offline Adobe Analytics
 uuid: e685e553-c05b-4db4-8fa5-9ef45268b094
 contentOwner: jsyal
 content-type: reference
@@ -10,14 +10,14 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: developing
 discoiquuid: 3cec9266-4032-46b9-9c75-16da64bfea7d
 docset: aem65
-feature: Administrera skärmar
+feature: Administering Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 4ecc1fb1-2437-449a-a085-66b2a85f4053
 source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
-source-wordcount: '696'
-ht-degree: 8%
+source-wordcount: '672'
+ht-degree: 0%
 
 ---
 
@@ -36,7 +36,7 @@ Detta avsnitt behandlar följande ämnen:
 
 ## Sekvenser i Adobe Analytics med AEM Screens {#sequencing-in-adobe-analytics-with-aem-screens}
 
-Sekvensprocessen ****** startar med datalagringstjänsten som aktiverar Adobe Analytics-tjänsten. Kanalinnehåll skickar Adobe Analytics-händelser med lön, det vill säga datatestning som utförs i Windows I/O och stannar-händelser aktiveras. Händelserna sparas i indexdatabasen och placeras sedan i objektarkivet. Baserat på schemat klipper administratören in data från objektarkivet och överför dem vidare till segmentlagret. Den försöker skicka maximalt med data när den är ansluten.
+The ***sekvenseringsprocess*** börjar med datalagringstjänsten som aktiverar Adobe Analytics-tjänsten. Kanalinnehåll skickar Adobe Analytics-händelser med lön, det vill säga datatestning som utförs i Windows I/O och stannar-händelser aktiveras. Händelserna sparas i indexdatabasen och placeras sedan i objektarkivet. Baserat på schemat klipper administratören in data från objektarkivet och överför dem vidare till segmentlagret. Den försöker skicka maximalt med data när den är ansluten.
 
 ### Sekvensdiagram {#sequencing-diagram}
 
@@ -54,7 +54,7 @@ I följande tabell sammanfattas standarddatamodellen för händelser. Här visas
    <td><strong>Avsnitt</strong></td> 
    <td><strong>Egenskapsetikett</strong></td> 
    <td><strong>Egenskapsnamn/nyckel</strong></td> 
-   <td><strong>Krävs</strong></td> 
+   <td><strong>Obligatoriskt</strong></td> 
    <td><strong>Datatyp</strong></td> 
    <td><strong>Egenskapstyp</strong><br /> </td> 
    <td><strong>Beskrivning</strong></td> 
@@ -72,7 +72,7 @@ I följande tabell sammanfattas standarddatamodellen för händelser. Här visas
    <td> </td> 
    <td>Datum och tid för insamling av händelse</td> 
    <td>event.coll_dts</td> 
-   <td>valfritt</td> 
+   <td>valfri</td> 
    <td>string</td> 
    <td>tidsstämpel - UTC</td> 
    <td>Datum och tid för samling</td> 
@@ -90,7 +90,7 @@ I följande tabell sammanfattas standarddatamodellen för händelser. Här visas
    <td> </td> 
    <td>Datum och tid för händelse (slut)</td> 
    <td>event.dts_end</td> 
-   <td>valfritt</td> 
+   <td>valfri</td> 
    <td>string</td> 
    <td>tidsstämpel - UTC</td> 
    <td>Datum och tid för slutförande av händelse</td> 
@@ -108,10 +108,10 @@ I följande tabell sammanfattas standarddatamodellen för händelser. Här visas
    <td> </td> 
    <td>Main DMe Category</td> 
    <td>event.category</td> 
-   <td>required</td> 
+   <td>obligatoriskt</td> 
    <td>string</td> 
    <td> </td> 
-   <td>Huvudkategori (DESKTOP, MOBILE, WEB, PROCESS, SDK, SERVICE, ECOSYSTEM) - Gruppering av händelsetyper - <strong>Vi skickar Player</strong></td> 
+   <td>Huvudkategori (DATOR, MOBIL, WEB, PROCESS, SDK, SERVICE, EKOSYSTEM) - Gruppering av händelsetyper - <strong>Vi skickar Player</strong></td> 
   </tr>
   <tr>
    <td> </td> 
@@ -144,8 +144,8 @@ I följande tabell sammanfattas standarddatamodellen för händelser. Här visas
    <td> </td> 
    <td>Offline</td> 
    <td>event.offline</td> 
-   <td>valfritt</td> 
-   <td>boolean</td> 
+   <td>valfri</td> 
+   <td>boolesk</td> 
    <td> </td> 
    <td>Händelsen genererades när åtgärden var offline/online (true/false)</td> 
   </tr>
@@ -171,16 +171,16 @@ I följande tabell sammanfattas standarddatamodellen för händelser. Här visas
    <td> </td> 
    <td>Enhets-GUID</td> 
    <td>event.device_guid</td> 
-   <td>valfritt</td> 
-   <td>sträng<br /> </td> 
+   <td>valfri</td> 
+   <td>string<br /> </td> 
    <td>UUID</td> 
    <td>Identifierar enhets-GUID (t.ex. dator-ID eller hash för IP-adressen + nätmasken + nätverks-ID + användaragent) - Här skickar vi användarnamnet för spelaren som genereras vid registreringen.</td> 
   </tr>
   <tr>
    <td> </td> 
-   <td>Count</td> 
+   <td>Antal</td> 
    <td>event.count</td> 
-   <td>valfritt</td> 
+   <td>valfri</td> 
    <td>tal</td> 
    <td> </td> 
    <td>Antal gånger händelsen har inträffat - Här skickar vi videons längd</td> 
@@ -189,7 +189,7 @@ I följande tabell sammanfattas standarddatamodellen för händelser. Här visas
    <td> </td> 
    <td>Värde</td> 
    <td>event.value</td> 
-   <td>valfritt</td> 
+   <td>valfri</td> 
    <td>string</td> 
    <td> </td> 
    <td>Händelsens värde (t.ex. på/av-inställningar)</td> 
@@ -205,9 +205,9 @@ I följande tabell sammanfattas standarddatamodellen för händelser. Här visas
   </tr>
   <tr>
    <td> </td> 
-   <td>Webbadress</td> 
+   <td>URL</td> 
    <td>event.url</td> 
-   <td>valfritt</td> 
+   <td>valfri</td> 
    <td>string</td> 
    <td> </td> 
    <td>URL för webbegenskapen eller mobilschemat - måste innehålla en fullständigt kvalificerad URL</td> 
@@ -297,7 +297,7 @@ I följande tabell sammanfattas standarddatamodellen för händelser. Här visas
    <td> </td> 
    <td>Mime-typ</td> 
    <td>content.mimetype</td> 
-   <td>valfritt</td> 
+   <td>valfri</td> 
    <td>string</td> 
    <td> </td> 
    <td>Innehållets Mime-typ</td> 

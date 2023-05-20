@@ -1,13 +1,13 @@
 ---
 title: Direkt mobilnätverk
 description: Sidan beskriver Direct Mobile Network Setup
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+exl-id: 6775bd10-7625-422f-a7af-4f7b8793fa42
+source-git-commit: 707833ddd8ab2573abcac4e9a77ec88778624435
 workflow-type: tm+mt
 source-wordcount: '861'
 ht-degree: 0%
 
 ---
-
 
 # Direkt mobilnätverk {#mobile-network-setup}
 
@@ -44,7 +44,7 @@ Nätverksinstallationen kan logiskt separeras i två block:
 
 * Lokalt nätverk
 
-### Mobil internetanslutning {#mobile-internet-connection}
+### Mobil Internetanslutning {#mobile-internet-connection}
 
 Prestandan för internetanslutningen ger inte bara tillräcklig bandbredd för att AEM Screens ska fungera smidigt.
 
@@ -56,7 +56,7 @@ I följande tabell visas datanätverken med sin standardbandbredd:
 |--- |--- |
 | 3G | 42 Mbit/s |
 | 4G | 150 Mbit/s |
-| 5 G | 1 000 - 1 000 Mbit/s |
+| 5G | 1 000 - 1 000 Mbit/s |
 
 När du överväger vilket datanätverk som ska användas bör du svara på följande frågor:
 
@@ -68,10 +68,10 @@ Som en uppföljning måste det nödvändiga datapaketet vara minst:
 
 
 >[!IMPORTANT]
->För inledande överföring av mediefiler, t.ex. genom integrering av nya spelare, måste en större mängd data och en ökad hämtningstid förväntas och återspeglas i ovanstående antaganden. Ett 4G-nätverk med *bra* täckning och *obegränsade* data bör matcha de vanligaste installationerna i den här nätverksinställningarna.
+>För inledande överföring av mediefiler, t.ex. genom integrering av nya spelare, måste en större mängd data och en ökad hämtningstid förväntas och återspeglas i ovanstående antaganden. Ett 4G-nätverk med *bra* täckning och *obegränsad* data ska överensstämma med de vanligaste installationerna i den här nätverksinställningarna.
 
 >[!NOTE]
->En lägsta 3G-plan med bra nätverkstäckning bör leda till acceptabel nedladdningsprestanda för en AEM Screens-spelare. Om det bara finns en rimlig täckning tillgänglig på en viss plats bör man överväga att ändra den övergripande nätverksinställningen till [Mobilnätverk med mobil datarouter och aktiva nätverkskomponenter](/help/using/mobile-network-router.md).
+>En lägsta 3G-plan med bra nätverkstäckning bör leda till acceptabel nedladdningsprestanda för en AEM Screens-spelare. Om det bara finns en rimlig täckning tillgänglig på en viss plats bör man överväga att byta ut den övergripande nätverksinställningen till [Mobilnätverk med mobil datarouter och aktiva nätverkskomponenter](/help/using/mobile-network-router.md).
 
 
 ### Lokalt nätverk {#lan-connection}
@@ -95,6 +95,3 @@ Följande tabell ger en översikt över data för nätverksanslutningsnycklar.
 >All information avser förbrukningen av varje enhet i nätverket som begär och hämtar en Internetkälla. Var och en av dessa förfrågningar sammanfattar och förlänger hämtningstiden.
 
 ![](/help/using/assets/download-times-mobile.png)
-
-
-

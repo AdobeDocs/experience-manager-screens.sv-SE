@@ -1,8 +1,8 @@
 ---
-title: '"Del 3: Testing, POCs, Pilots & Rollouts"'
-seo-title: '"Del 3: Testing, POCs, Pilots & Rollouts"'
+title: "Del 3: Testing, POCs, Pilots & Rollouts"
+seo-title: "Part 3: Testing, POCs, Pilots & Rollouts"
 description: Följ den här självstudiekursen för att lära dig de viktigaste villkoren i en övergripande projektplan, som projektcykel, åtgärder runt maskinvarutestning, konceptbevis, piloter och rollouts.
-seo-description: Följ den här självstudiekursen för att lära dig de viktigaste villkoren i en övergripande projektplan, som projektcykel, åtgärder runt maskinvarutestning, konceptbevis, piloter och rollouts.
+seo-description: Follow this tutorial to learn the key terms involved in an overall project plan such as project cycle, actions surrounding hardware testing, Proof Of Concept, pilots and rollouts.
 uuid: 8e9b4f8f-cc09-4cd6-9465-c8eedb639dd8
 contentOwner: jsyal
 content-type: reference
@@ -10,13 +10,13 @@ topic-tags: digital-signage-networks-basics
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 discoiquuid: 157185f9-c5e3-4a5b-badc-9becb26f1b27
 docset: aem65
-feature: Översikt
+feature: Overview
 role: User, Data Architect
 level: Beginner
 exl-id: 0e29f095-7f9d-49ea-8dda-9141402a4159
 source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
-source-wordcount: '566'
+source-wordcount: '532'
 ht-degree: 0%
 
 ---
@@ -78,4 +78,4 @@ Om man ser på alla dessa faser som en del av den övergripande projektplanen ka
 
 När du är noggrann med testning, konceptkorrektur, pilotprojekt och utrullningar följer du nästa självstudiekurs som är djupdykt i Project Management och de processer som ingår.
 
-Navigera till **[Del 4: Projekthantering och distribution](project-management-and-deployment.md)** för mer information.
+Navigera till **[Del 4: Projektledning och driftsättning](project-management-and-deployment.md)** för mer information.

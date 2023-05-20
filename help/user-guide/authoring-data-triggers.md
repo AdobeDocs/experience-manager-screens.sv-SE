@@ -1,14 +1,14 @@
 ---
 title: Skapa med Data Triggers
-seo-title: Skapa med Data Triggers
+seo-title: Authoring with Data Triggers
 description: Följ den här sidan för att lära dig hur du skapar med datautlösare.
-feature: Redigeringsskärmar
+feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: c95da2e9-a216-4d0a-85d0-a0fb895a8d8a
 source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
-source-wordcount: '377'
+source-wordcount: '371'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ I det här avsnittet beskrivs hur du aktiverar målinriktning i dina kanaler.
 
 ## Förutsättningar {#prereqs}
 
-Innan du följer stegen nedan för att aktivera mål i kanaler måste du lära dig de [nyckeltermer i Konfigurera i AEM Screens](configuring-context-hub.md) som krävs för att förstå ContextHub och Target i AEM Screens.
+Innan du följer stegen nedan för att aktivera målinriktning i kanaler måste du lära dig [Viktiga termer i Konfigurera i AEM Screens](configuring-context-hub.md) krävs för att förstå ContextHub och Targeting i AEM Screens.
 
 >[!IMPORTANT]
 >
@@ -44,36 +44,36 @@ När du har slutfört de föregående stegen är du redo att aktivera målinrikt
 
 Följ stegen nedan för att aktivera målinriktning i dina kanaler.
 
-1. Navigera till en av AEM Screens-kanalerna. Följande steg visar hur du aktiverar mål genom att använda **DataDrivenRetail** *(sekvenskanal)* som skapats i en AEM Screens-kanal.
+1. Navigera till en av AEM Screens-kanalerna. I följande steg visas hur du aktiverar målinriktning genom att använda **DataDrivenRetail** *(sekvenskanal)* som har skapats i en AEM Screens-kanal.
 
-1. Markera kanalen **DataDrivenRetail** och klicka på **Egenskaper** i åtgärdsfältet.
+1. Välj kanalen **DataDrivenRetail** och klicka **Egenskaper** i åtgärdsfältet.
 
    ![screen_shot_2019-05-01at43332pm](assets/screen_shot_2019-05-01at43332pm.png)
 
-1. Välj fliken **Personalisering** för att konfigurera ContextHub-konfigurationer och välj ContextHub- och Segments-sökvägen.
+1. Välj **Personalisering** för att konfigurera ContextHub-konfigurationer och välja ContextHub- och Segments-sökvägen.
 
-   1. Välj **ContextHub-sökvägen** som **libs** > **inställningar** > **molninställningar** > **standard** > **ContextHub Configurations** och klicka på &lt;a 12/>Välj **.**
+   1. Välj **ContextHub-sökväg** as **libs** > **inställningar** > **molninställningar** > **standard** > **ContextHub-konfigurationer** och klicka **Välj**.
 
-   1. Välj **Segmentsökväg** som **conf** > **We.Retail** > **inställningar** > **wcm** > **segment** och klicka på **Markera&lt;a1 3/>.**
+   1. Välj **Segmentsökväg** as **conf** > **Vi.butik** > **inställningar** > **wcm** > **segment** och klicka **Välj**.
 
-   1. Klicka på **Spara och stäng**.
+   1. Klicka **Spara och stäng**.
    >[!NOTE]
    >
    >Använd ContextHub och Segments-sökvägen, där du först sparade dina kontextnavkonfigurationer och segment.
 
    ![screen_shot_2019-05-01at44030pm](assets/screen_shot_2019-05-01at44030pm.png)
 
-1. Navigera och välj **DataDrivenRetail** från **DataDrivenAssets** > **Kanaler** och klicka på **Redigera** i åtgärdsfältet. Dra och släpp resurserna i kanalredigeraren.
+1. Navigera och markera **DataDrivenRetail** från **DataDrivenAssets** > **Kanaler** och klicka **Redigera** i åtgärdsfältet. Dra och släpp resurserna i kanalredigeraren.
 
    >[!NOTE]
    >
-   >Om du har konfigurerat allt korrekt visas alternativet **Målinriktning** i listrutan från redigeraren, vilket visas i bilden nedan.
+   >Om du har konfigurerat allt korrekt visas **Målinriktning** i listrutan i redigeraren, vilket visas i bilden nedan.
 
    ![screen_shot_2019-05-01at44231pm](assets/screen_shot_2019-05-01at44231pm.png)
 
-1. Klicka på **Mål**.
+1. Klicka **Målinriktning**.
 
-1. Välj **Varumärke** och **Aktivitet** i listrutan och klicka på **Starta målgruppsanpassning**.
+1. Välj **Varumärke** och **Aktivitet** i listrutan och klicka på **Börja målinrikta**.
 
 ### Läs mer: Exempel på användningsfall {#learn-more-example-use-cases}
 

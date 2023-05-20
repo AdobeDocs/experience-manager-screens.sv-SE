@@ -2,15 +2,15 @@
 title: Perpetual TakeOver Channel
 seo-title: Perpetual TakeOver Channel
 description: Följ det här användningsexemplet för att skapa en permanent TakeOver-kanal.
-seo-description: Följ det här användningsexemplet när du ställer in ett projekt som skapar en permanent TakeOver-kanal som spelas upp en viss tid och dag kontinuerligt.
+seo-description: Follow this Use Case on setting up a project that creates a Perpetual TakeOver channel that plays for a specific time day and time continuously.
 contentOwner: jsyal
-feature: Redigeringsskärmar
+feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 5d112f33-a7cf-415e-9ea7-dc18a0356a8d
 source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
-source-wordcount: '860'
+source-wordcount: '830'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ På följande sida visas ett exempel på hur du använder ett projekt för att s
 
 ## Använd fallbeskrivning {#use-case-description}
 
-Det här Use Case-uttrycket förklarar hur du skapar en kanal som *tar över* från den kanal som spelas upp normalt för en visning eller grupp av skärmar. Övertagandet kommer att ske för en viss dag och tid permanent.
+I det här Use Case-exemplet beskrivs hur du skapar en kanal som *tar över* från den kanal som spelas upp normalt för en visning eller grupp av skärmar. Övertagandet kommer att ske för en viss dag och tid permanent.
 Det finns till exempel en permanent TakeOver-kanal som spelas upp varje fredag från 09:00 till 10:00. Under den här tiden ska ingen annan kanal spelas upp. I följande exempel visas hur man skapar en permanent övertagningskanal som spelas upp så att innehållet kan spelas upp varje onsdag i 2 timmar från kl. 2:00 till kl. 17:00.
 
 ### Förhandsvillkor {#preconditions}
@@ -43,73 +43,73 @@ Följ stegen nedan för att konfigurera ett projekt:
 
 **Konfigurera kanaler och visning**
 
-1. Skapa ett AEM Screens-projekt med namnet **PerpetualTakeOver**, enligt nedan.
+1. Skapa ett AEM Screens-projekt med namnet **PerpetualTakeOver**, vilket visas nedan.
 
    ![resurs](assets/p_usecase1.png)
 
-1. Skapa en **MainAdChannel** i mappen **Kanaler**.
+1. Skapa en **MainAdChannel** i **Kanaler** mapp.
 
    ![resurs](assets/p_usecase2.png)
 
-1. Välj **MainAdChannel** och klicka på **Redigera** i åtgärdsfältet. Dra och släpp resurser (bilder, videoklipp, inbäddade sekvenser) i kanalen.
+1. Välj **MainAdChannel** och klicka **Redigera** i åtgärdsfältet. Dra och släpp resurser (bilder, videoklipp, inbäddade sekvenser) i kanalen.
 
    ![resurs](assets/p_usecase3.png)
 
 
    >[!NOTE]
-   >**MainAdChannel** i det här exemplet visar en sekvenskanal som spelar upp innehåll kontinuerligt.
+   >The **MainAdChannel** i det här exemplet demonstrerar en sekvenskanal som spelar upp innehåll kontinuerligt.
 
-1. Skapa en **TakeOver**-kanal som tar över innehållet i **MainAdChannel** och spelas upp varje onsdag från kl. 2:00 till kl. 23:00.
+1. Skapa en **TakeOver** kanal som tar över innehållet i **MainAdChannel** och kommer att spelas varje onsdag från kl. 17.00 till kl. 17.00.
 
-1. Markera **TakeOver** och klicka på **Edit** i åtgärdsfältet. Dra och släpp resurser i kanalen. I följande exempel visas en enzonsbild som lagts till i den här kanalen.
+1. Välj **TakeOver** och klicka **Redigera** i åtgärdsfältet. Dra och släpp resurser i kanalen. I följande exempel visas en enzonsbild som lagts till i den här kanalen.
 
    ![resurs](assets/p_usecase4.png)
 
-1. Konfigurera en plats och visning för kanalerna. Följande plats **MainLobby** och display **MainLobbyDisplay** har till exempel konfigurerats för det här projektet.
+1. Konfigurera en plats och visning för kanalerna. Till exempel följande plats **MainLobby** och visa **MainLobbyDisplay** har konfigurerats för det här projektet.
 
    ![resurs](assets/p_usecase5.png)
 
 **Tilldela kanaler till en visning**
 
-1. Välj visningen **MainLobbyDisplay** i mappen **Platser**. Klicka på **Tilldela kanal** i åtgärdsfältet för att öppna dialogrutan **Kanaltilldelning**.
+1. Välj visning **MainLobbyDisplay** från **Platser** mapp. Klicka **Tilldela kanal** från åtgärdsfältet för att öppna **Kanaltilldelning** -dialogrutan.
 
    >[!NOTE]
-   >Mer information om hur du tilldelar en kanal till en visning finns i **[Kanaltilldelning](channel-assignment.md)**.
+   >Mer information om hur du tilldelar en kanal till en skärm finns i **[Kanaltilldelning](channel-assignment.md)**.
 
-1. Fyll i fälten (**Kanalsökväg**, **Prioritet** och **Händelser som stöds**) i dialogrutan **Kanaltilldelning** och klicka på **Spara** för att tilldela **MainAdChannel&lt;a1 1/> till din bildskärm.**
+1. Fyll i fälten (**Kanalsökväg**, **Prioritet** och **Händelser som stöds**) från **Kanaltilldelning** och klicka **Spara** för att tilldela **MainAdChannel** på skärmen.
 
-   * **Kanalsökväg**: Markera sökvägen till  **** MainAdChannel
+   * **Kanalsökväg**: Markera banan till **MainAdChannel** kanal
    * **Prioritet**: Ange den här kanalens prioritet som 1.
-   * **Händelser** som stöds: Välj  **Inledande** inläsning och  **Inaktiv skärm**.
+   * **Händelser som stöds**: Välj **Inledande inläsning** och **Inaktiv skärm**.
 
    ![resurs](assets/p_usecase6.png)
 
-1. Markera visningen **TakeOver** i mappen **Platser**. Klicka på **Tilldela kanal** i åtgärdsfältet för att tilldela övertagandekanalen.
+1. Välj visning **TakeOver** från **Platser** mapp. Klicka **Tilldela kanal** från åtgärdsfältet för att tilldela övertagandekanalen.
 
-1. Så här tilldelar du kanalen **TakeOver** till visningen vid en schemalagd tidpunkt och fyller i följande fält från dialogrutan **Kanaltilldelning** och klickar på **Spara**:
+1. Tilldela **TakeOver** kanal till din skärm vid en schemalagd tidpunkt och fyll i följande fält från **Kanaltilldelning** och klicka **Spara**:
 
-   * **Kanalsökväg**: Markera banan till  **** TakeOverchannel
-   * **Prioritet**: Ange prioriteten för den här kanalen som är större än  **MainAdChannel**. Prioriteten i det här exemplet är till exempel 8.
-   * **Händelser** som stöds: Välj  **Inaktiv** skärm och  **Timer**.
-   * **Schema**: Ange texten för schemat som du vill att den här kanalen ska visa. Texten i **Schedule** som omnämns i det här exemplet är *på onsdagen efter 14:00 och före 16:00*.
+   * **Kanalsökväg**: Markera banan till **TakeOver** kanal
+   * **Prioritet**: Ange den här kanalens prioritet som är större än **MainAdChannel**. Prioriteten i det här exemplet är till exempel 8.
+   * **Händelser som stöds**: Välj **Inaktiv skärm** och **Timer**.
+   * **Schema**: Ange texten för schemat som du vill att den här kanalen ska visa. Texten i **Schema** som nämns i det här exemplet *på onsdagen efter kl. 14.00 och före kl. 16.00*.
 
       >[!NOTE]
-      >Mer information om de uttryck du kan lägga till i **Schedule** finns i avsnittet [Exempeluttryck](#example-expressions) nedan.
+      >Om du vill veta mer om de uttryck du kan lägga till i **Schema**, se [Exempeluttryck](#example-expressions) nedan.
    * **aktiv från**: Startdatum och -tid.
-   * **aktiv till**: Slutdatum och sluttid.
+   * **aktiv tills**: Slutdatum och sluttid.
 
-      Texten i **Schedule** och **aktiv från** och **aktiv till** datum och tid här gör att innehållet kan spelas upp varje onsdag från kl. 2:00 till kl. 17:00.
+      Texten i **Schema** och **aktiv från** och **aktiv tills** Datum och tid här gör att innehållet kan spelas upp varje onsdag från kl. 23.00 till kl. 17.00.
 
 
       ![resurs](assets/p_usecase7.png)
 
-      Navigera till visningen från **TakeOver** —> **Platser** —> **MainLobby** —> **MainLobbyDisplay** och klicka på **Dashboard** i åtgärdsfältet för att visa de tilldelade kanalerna med deras prioriteringar, som visas nedan .
+      Navigera till visningen från **TakeOver** —> **Platser** —> **MainLobby** —> **MainLobbyDisplay** och klicka **Kontrollpanel** från åtgärdsfältet för att visa de tilldelade kanalerna med deras prioriteringar, vilket visas nedan.
 
       >[!NOTE]
       >Det är obligatoriskt att ange övertagskanalens högsta prioritet.
 
-      ![](assets/p_usecase8.png)
-assetNow, kommer  **** TakeOverchannel att ta över  **** MainAdChannelat 2:00 i två timmar till 17:00 varje onsdag och spela upp innehållet från 9 januari 2020 till 31 januari 2020.
+      ![resurs](assets/p_usecase8.png)
+Nu **TakeOver** kanalen tar över **MainAdChannel** klockan 2:00 i två timmar till 17:00 varje onsdag och spela upp innehållet från 9 januari 2020 till 31 januari 2020.
 
 ## Exempeluttryck {#example-expressions}
 
@@ -126,4 +126,4 @@ I följande tabell sammanfattas några exempeluttryck som du kan lägga till i s
 
 >[!NOTE]
 >
->Du kan också använda _militär tid_-notation (d.v.s. 14:00) i stället för *am/pm*-notation (d.v.s. 2:00).
+>Du kan också använda _militär tid_ notation (d.v.s. 14:00) i stället för *fm/em* notation (d.v.s. 2:00).

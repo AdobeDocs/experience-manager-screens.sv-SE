@@ -1,17 +1,17 @@
 ---
 title: Övergång till plattform
-seo-title: Övergång till plattform för AEM Screens
+seo-title: Transition to Platform for AEM Screens
 description: Sidan beskriver övergång till plattform
-seo-description: Sidan beskriver övergång till plattform
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+seo-description: The page describes Transition to Platform
+exl-id: e69f504f-d20b-4cdb-b567-5c9c1df4d331
+source-git-commit: 707833ddd8ab2573abcac4e9a77ec88778624435
 workflow-type: tm+mt
-source-wordcount: '193'
+source-wordcount: '181'
 ht-degree: 0%
 
 ---
 
-
-# Övergång till plattformen {#transition-platform}
+# Övergång till plattform {#transition-platform}
 
 >[!NOTE]
 >
@@ -23,15 +23,15 @@ Detta inkluderar mappning av plattformsspecifika konfigurationer till löst defi
 
 Exempel är hur och när man ska använda:
 
-* **Upplevelsefragmenterför** att skapa innehållsgrupperingar
-* **Innehållsfragmenterför** att skapa textvarianter
-* **Context** Hubbar för att skapa externa datalager, SPA för interaktiva upplevelser
-* **OSGi-** tjänster för nätverksaviseringar
-* **Resurslänkar** för Creative Cloud
-* **Nätverksmappar** för resurstilldelning
-* **Textöverlägg** för realtidsdata
-* **** Scheman för displaygruppering/kanalgruppering
-* **** arbetsflöden för automatiserade innehållsredigeringar.
+* **Upplevelsefragment** för att skapa innehållsgrupperingar
+* **Innehållsfragment** för att skapa textvariationer
+* **Kontextnav** för att skapa externa datalager, SPA för interaktiva upplevelser
+* **OSGi-tjänster** för nätverksvarningar
+* **Resurslänk** för Creative Cloud
+* **Nätverksmappar** för resursallokering
+* **Textövertäckning** för realtidsdata
+* **Scheman** för displaygruppering/kanalgruppering
+* **Arbetsflöden** för automatiserade innehållsredigeringar.
 
 I den här fasen är det viktigt att granska alla nödvändiga uppgifter och aktiviteter som behöver åtgärdas och dokumentera dem på rätt sätt så att tilldelade uppgifter kan spåras korrekt i distributionsfasen.
 

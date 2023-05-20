@@ -1,21 +1,21 @@
 ---
 title: Skapa och publicera arkitekturöversikt
-seo-title: Skapa och publicera arkitekturöversikt
+seo-title: Author and Publish Architectural Overview
 description: AEM Screens arkitektur liknar en traditionell AEM Sites-arkitektur. Innehållet skapas på en AEM författarinstans och sedan vidarebefordras till flera publiceringsinstanser. Följ den här sidan om du vill veta mer om författare och publicera en översikt över arkitekturen.
-seo-description: AEM Screens arkitektur liknar en traditionell AEM Sites-arkitektur. Innehållet skapas på en AEM författarinstans och sedan vidarebefordras till flera publiceringsinstanser. Följ den här sidan om du vill veta mer om författare och publicera en översikt över arkitekturen.
+seo-description: AEM Screens architecture resembles a traditional AEM Sites architecture. Content is authored on an AEM author instance and then forward-replicated to multiple publish instances. Follow this page to learn more on author and publish architectural overview.
 uuid: 19bac3de-8938-4339-82f0-6ccb932b6684
 content-type: reference
 topic-tags: administering
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 discoiquuid: 112404de-5a5a-4b37-b87c-d02029933c8a
 docset: aem65
-feature: Administrera skärmar
+feature: Administering Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: ba23eb8e-bbde-4a6e-8cfb-ae98176ed890
 source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
-source-wordcount: '1028'
+source-wordcount: '985'
 ht-degree: 0%
 
 ---
@@ -44,7 +44,7 @@ Innan du börjar med författare och publiceringsservrar bör du ha kunskap om:
 
 AEM Screens arkitektur liknar en traditionell AEM Sites-arkitektur. Innehållet skapas på en AEM författarinstans och sedan vidarebefordras till flera publiceringsinstanser. AEM Screens-enheter kan nu ansluta till en AEM publiceringsgrupp via belastningsutjämnaren. Det går att lägga till flera AEM publiceringsinstanser för att fortsätta att skala publiceringsgruppen.
 
-*En AEM Screens-innehållsförfattare skapar till exempel* ett kommando i redigeringssystemet för en viss enhet som är konfigurerad att interagera med en publiceringsgrupp eller en AEM Screens-innehållsförfattare som hämtar information om enheter som är konfigurerade att interagera med publiceringsgrupper.
+*Till exempel* skapar ett AEM Screens-innehåll ett kommando i redigeringssystemet för en viss enhet som är konfigurerad att interagera med en publiceringsgrupp eller en AEM Screens-innehållsförfattare som hämtar information om enheter som är konfigurerade att interagera med publiceringsgrupper.
 
 I följande diagram visas författarmiljön och publiceringsmiljön.
 
@@ -54,12 +54,12 @@ I följande diagram visas författarmiljön och publiceringsmiljön.
 
 Det finns fem arkitektoniska komponenter som underlättar denna lösning:
 
-* ***Replikera*** innehåll från författare till publicering för visning på enheter
+* ***Replikerar innehåll*** från författare till publicering för visning på enheter
 
-* ***Återge*** replikering av binärt innehåll från publicering (mottaget från enheter) till författare
-* ***Skicka*** kommandon från författaren till publicering via särskilda REST API:er
+* ***Invertera*** replikera binärt innehåll från publicering (tas emot från enheter) till författare
+* ***Skickar*** kommandon från författaren för att publicera via särskilda REST API:er
 * ***Meddelanden*** mellan publiceringsinstanser för att synkronisera uppdateringar och kommandon för enhetsinformation
-* ***Avfrågning*** från författaren av publiceringsinstanser för att få enhetsinformation via specifika REST API:er
+* ***Avsökning*** av författaren till publiceringsinstanser för att få enhetsinformation via särskilda REST API:er
 
 ### Replikering (framåt) av innehåll och konfigurationer  {#replication-forward-of-content-and-configurations}
 
@@ -81,7 +81,7 @@ Detta gör att författare kan fortsätta att hantera enheten, till exempel skic
 
 ### Meddelanden mellan publiceringsinstanser  {#messaging-between-publish-instances}
 
-I många fall är det bara meningen att ett kommando ska skickas till en enhet en gång. I en belastningsutjämnad publiceringsarkitektur är det dock okänt vilken publiceringsinstans enheten ansluter till.
+I många fall är ett kommando bara avsett att skickas till en enhet en gång. I en belastningsutjämnad publiceringsarkitektur är det dock okänt vilken publiceringsinstans enheten ansluter till.
 
 Därför skickar författarinstansen meddelandet till alla publiceringsinstanser. Sedan bör bara ett meddelande vidarebefordras till enheten. För att meddelandet ska bli korrekt måste viss kommunikation ske mellan publiceringsinstanser. Detta uppnås med *Apache ActiveMQ Artemis*. Varje publiceringsinstans placeras i en löst kopplad topologi med hjälp av Oak-baserad Sling-identifieringstjänst och ActiveMQ har konfigurerats så att varje publiceringsinstans kan kommunicera och skapa en enda meddelandekö. Enheten Skärmar avsöker publiceringsgruppen via belastningsutjämnaren och hämtar kommandot från köns övre del.
 
@@ -98,9 +98,9 @@ I många fall, efter ett kommando, förväntas något svar från skärmenheten v
 
 Författarinstansen måste kunna avfråga enheterna för att få pulsslag och veta hälsostatusen för en ansluten enhet.
 
-Enheter som pingar belastningsutjämnaren och dirigeras till en publiceringsinstans. Enhetens status visas sedan av publiceringsinstansen via ett publicerings-API (**api/screens-dcc/devices/static**) för alla aktiva enheter och **api/screens-dcc/devices/&lt;device_id>/status.json** för en enskild enhet.
+Enheter som pingar belastningsutjämnaren och dirigeras till en publiceringsinstans. Enhetens status visas sedan av publiceringsinstansen via ett publicerings-API som hanteras med @ **api/screens-dcc/devices/static** för alla aktiva enheter och **api/screens-dcc/devices/&lt;device_id>/status.json** för en enda enhet.
 
-Författarinstansen avsöker alla publiceringsinstanser och sammanfogar enhetsstatussvaren till en enda status. Det schemalagda jobbet som avfrågar författaren är `com.adobe.cq.screens.impl.jobs.DistributedDevicesStatiUpdateJob` och kan konfigureras baserat på ett cron-uttryck.
+Författarinstansen avsöker alla publiceringsinstanser och sammanfogar enhetsstatussvaren till en enda status. Det schemalagda jobbet som avfrågar efter författare är `com.adobe.cq.screens.impl.jobs.DistributedDevicesStatiUpdateJob` och kan konfigureras baserat på ett cron-uttryck.
 
 ## Registrering {#registration}
 
@@ -112,4 +112,4 @@ När en enhet har registrerats i redigeringsmiljön replikeras enhetskonfigurati
 
 ### Nästa steg {#the-next-steps}
 
-När du har lärt dig den arkitektoniska designen för författaren och publiceringsinställningarna i AEM Screens finns mer information i [Configuring Author and Publish for AEM Screens](author-and-publish.md).
+När du har fått en förståelse för den arkitektoniska designen hos författaren och publicerat installationsprogrammet i AEM Screens, se [Konfigurera författare och publicera för AEM Screens](author-and-publish.md) för mer information.

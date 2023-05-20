@@ -1,13 +1,13 @@
 ---
 title: Enclosed Corporate Network
 description: Enclosed Corporate Network
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+exl-id: b8c52e72-86da-4089-ba02-0c643862419f
+source-git-commit: 707833ddd8ab2573abcac4e9a77ec88778624435
 workflow-type: tm+mt
 source-wordcount: '709'
 ht-degree: 0%
 
 ---
-
 
 # Enclosed Corporate Network (Wired/Wireless) {#enclosed-corporate-networks}
 
@@ -38,11 +38,11 @@ Följ stegen nedan för att se till att AEM skärmspelare är korrekt anslutna i
    >**Felsökningstips**
    >Om AEM Screens inte ansluter korrekt och det förväntade innehållet inte visas:
    >
-   >1. Kontrollera brandväggen för Internetroutern om det finns begränsningar för `TCP/IP Port 80/443`.
+   >1. Kontrollera brandväggen för Internetroutern om det finns några begränsningar gällande `TCP/IP Port 80/443`.
    >1. Kontrollera att alla portar som krävs tillåts.
 
 
-## Konfigurera Enclosed Corporate Networks {#requirements-enclosed-networks}
+## Konfigurera anslutna företagsnätverk {#requirements-enclosed-networks}
 
 Enclosed Corporate Network Setup kan separeras logiskt i två block:
 
@@ -52,7 +52,7 @@ Enclosed Corporate Network Setup kan separeras logiskt i två block:
 ### Wide Area Network {#wan-connection}
 
 Prestandan för internetanslutningen måste, förutom nätverkets nåbarhet, tillhandahålla tillräcklig bandbredd för att AEM Screens-innehållsuppdateringar ska fungera smidigt.
-*Tillräcklig* bandbredd beror på mängden anslutna AEM och hur många andra användare som använder nätverket, till exempel smarttelefoner, surfplattor, kassörer, datorer eller Wi-Fi-gäster.
+*Tillräcklig bandbredd* beror på hur många anslutna AEM som visas och på hur andra användare i nätverket använder sig, till exempel smarttelefoner, surfplattor, kassörer, datorer eller Wi-Fi-gäster.
 
 >[!NOTE]
 >
@@ -71,7 +71,7 @@ Nätverkskomponenterna bör till exempel minst matcha 100 Mbit/s-standarden och 
 Företagsnätverk har ett antal anslutna enheter, är indelade i olika undernätverk och har redundanta eller multiplexade internetanslutningar för att ge tillräcklig prestanda för många tusen samtidiga åtkomster.
 Det här schemat är förenklat och passar de flesta miljöer som är tillgängliga för klienten.
 
-Om en Wi-Fi-lösning planeras för att ansluta skärmar till Internet Link rekommenderar vi att du åtminstone använder moderna Wi-Fi-standarder som `IEEE 802.11g`. Denna standard stöder anslutningar upp till 54 Mbit/s. Alla *nyare*-standarder som `802.11h-n` har bättre kvalitet. Om en Wi-Fi Repeater krävs rekommenderar vi starkt åtkomstpunktsteknologier som Google Nest Mesh Wi-Fi eller liknande.
+Om en Wi-Fi-lösning planeras för att ansluta skärmar till Internet Link rekommenderar vi att man använder moderna Wi-Fi-standarder som `IEEE 802.11g` som ett minimum. Denna standard stöder anslutningar upp till 54 Mbit/s. Alla *nyare* Standarder som `802.11h-n` är av bättre kvalitet. Om en Wi-Fi-repeater krävs rekommenderar vi starkt åtkomstpunktstekniker för Mesh Wi-Fi som Google Nest Mesh Wi-Fi eller liknande.
 Andra Wi-Fi-upprepande tekniker slutar med en enorm förlust av bandbredd i hela nätverket.
 
 ## Hämta media och resurser {#download}

@@ -1,15 +1,15 @@
 ---
 title: Förutsättningar [!UICONTROL AEM Screens]
-seo-title: Krav för [!UICONTROL AEM Screens]-projekt
+seo-title: Prerequisites for [!UICONTROL AEM Screens] Projects
 description: Handboken beskriver vad som krävs innan ett AEM Screens-projekt startas.
-seo-description: Handboken beskriver vad som krävs innan ett AEM Screens-projekt startas.
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+seo-description: The guide describes what are the pre-requisites before starting an AEM Screens project.
+exl-id: ff305a6c-02cb-4c06-a457-9a22f525fab5
+source-git-commit: 707833ddd8ab2573abcac4e9a77ec88778624435
 workflow-type: tm+mt
-source-wordcount: '612'
+source-wordcount: '596'
 ht-degree: 0%
 
 ---
-
 
 # Krav {#prerequisites}
 
@@ -33,11 +33,11 @@ Se följande självstudiekurser och resurser för att lära dig Adobe Experience
 
 Läs mer om grunderna i ett AEM Screens-projekt i följande resurser:
 
-* **[AEM Screens användarhandbok](https://helpx.adobe.com/experience-manager/6-5/screens/user-guide.html)**: Innehåller detaljerad dokumentation om funktioner och funktioner för olika personer som används i ett AEM Screens-projekt.
+* **[AEM Screens Användarhandbok](https://helpx.adobe.com/experience-manager/6-5/screens/user-guide.html)**: Innehåller detaljerad dokumentation om funktioner och funktioner för olika personer som används i ett AEM Screens-projekt.
 
-* **[AEM Screens implementeringsfunktioner](https://experienceleague.adobe.com/?launch=AEM-7a#recommended/solutions/experience-manager)**: Innehåller en guidad självstudiekurs som belyser grunderna för AEM Screens-implementering.
+* **[AEM Screens - grundläggande implementering](https://experienceleague.adobe.com/?launch=AEM-7a#recommended/solutions/experience-manager)**: Innehåller en guidad självstudiekurs som belyser grunderna för AEM Screens-implementering.
 
-* **[Videofilmer om grunderna](https://helpx.adobe.com/experience-manager/6-5/screens/user-guide.html?topic=/experience-manager/6-5/screens/morehelp/digital-signage-networks-basics.ug.js)** i nätverket för digitala signaturer: Innehåller fem grundläggande videoklipp som sätter fokus på nyckelelement om A/V, maskinvara för digitala signaturer, signeringsnätverk och arbetar med A/V-integratörer.
+* **[Videofilmer om grunderna i nätverk för digital signering](https://helpx.adobe.com/experience-manager/6-5/screens/user-guide.html?topic=/experience-manager/6-5/screens/morehelp/digital-signage-networks-basics.ug.js)**: Innehåller fem grundläggande videoklipp som sätter fokus på nyckelelement om A/V, maskinvara för digitala signaturer, signeringsnätverk och arbetar med A/V-integratörer.
    * *[Del 1: Projektroller och ansvarsområden](https://helpx.adobe.com/experience-manager/6-5/screens/using/project-roles-responsibilities.html)*: Visar del 1 i en 5-delsserie som är utformad för att hjälpa teammedlemmarna att bättre förstå roller, ansvarsområden och tidslinjer som krävs under försäljnings- och projektlivscykeln för ett digitalt signeringsprojekt. Omfattar projektroller och ansvar för Adobe, AEM implementatorer och AV-integratörer på en hög nivå.
    * *[Del 2: Att tänka på när projekt är omfång](https://helpx.adobe.com/experience-manager/6-5/screens/using/project-considerations.html)*: delar 2 i en 5-delsserie som är utformad för att hjälpa teammedlemmarna att bättre förstå försäljningsaspekterna för att utveckla framgångsrika AEM Screens-driftsättningar. Täcker element som måste identifieras vid projektidentifiering tillsammans med synpunkter från berörda parter för att utvärdera projektet och förbereda en lämplig design.
    * *[Del 3: Testning, POC, piloter &amp; Rollouts](https://helpx.adobe.com/experience-manager/6-5/screens/using/testing-pocs-pilots-rollouts.html)*: Visar del 3 i en 5-delsserie som är utformad för att hjälpa teammedlemmarna att bättre förstå de viktiga termer som är viktiga för att säkerställa att en lyckad lösning kan utvecklas före lanseringen. Omfattar åtgärder som rör testning och validering av maskinvarulabbprestanda, konceptkorrektur (kallas även POC) och pilotprogram.

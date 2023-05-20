@@ -1,15 +1,15 @@
 ---
 title: Testning och kvalitetssäkring
-seo-title: Testning och kvalitetssäkring för AEM Screens
+seo-title: Testing and Quality Assurance for AEM Screens
 description: På sidan beskrivs Testing and Quality Assurance for AEM Screens Best Practices Guide
-seo-description: På sidan beskrivs Testing and Quality Assurance for AEM Screens Best Practices Guide
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+seo-description: The page describes Testing and Quality Assurance for AEM Screens Best Practices Guide
+exl-id: cc3bfb88-1341-43f8-b247-6a41f1d1a963
+source-git-commit: 707833ddd8ab2573abcac4e9a77ec88778624435
 workflow-type: tm+mt
-source-wordcount: '361'
+source-wordcount: '341'
 ht-degree: 0%
 
 ---
-
 
 # Testning och kvalitetssäkring {#testing-quality}
 
@@ -38,7 +38,7 @@ Följande mekaniska överväganden rekommenderas:
 * kabelhantering
 * enhetsnätverk
 
-## 2. Viktigt om programvara {#software-considerations}
+## 2. Överväganden gällande programvara {#software-considerations}
 
 Följande programvaruöverväganden rekommenderas:
 
@@ -48,11 +48,11 @@ Följande programvaruöverväganden rekommenderas:
 * databasberoenden (tidigare definierade)
 
 
-## 3. Överväganden om enhetshantering {#device-management-considerations}
+## 3. Överväganden gällande enhetshantering {#device-management-considerations}
 
 AEM Screens har en Device Control Center-modul som gör att du kan hantera slutpunkter för skärmsspelarprogram.
 
-Detta avser alla *spelare*-maskinvaruenheter som har programmet Skärmspelaren installerat och som är registrerade för en instans av AEM.
+Detta avser alla *player* maskinvaruenhet som har programmet Skärmspelaren installerat och som är registrerad för en instans av AEM.
 Med den här modulen kan du:
 
 1. Felloggar för bildspelsprogram
@@ -60,7 +60,7 @@ Med den här modulen kan du:
 1. Hantera innehållsnedladdningar
 1. Hantera problem med programomstart
 
-Mer information om ***Device Control Center*** finns i [Troubleshooting Device Control Center](https://helpx.adobe.com/experience-manager/6-5/screens/using/monitoring-screens.html) i **AEM Screens User Guide**.
+Mer detaljerad information om ***Device Control Center***, se [Felsökning av Device Control Center](https://helpx.adobe.com/experience-manager/6-5/screens/using/monitoring-screens.html) in **AEM Screens Användarhandbok**.
 
 >[!CAUTION]
 >
@@ -76,12 +76,12 @@ Mer information om ***Device Control Center*** finns i [Troubleshooting Device C
 >
 > Adobe rekommenderar att dedikerade enhetshanteringsplattformar från tredje part används för alla distributioner.
 
-Vilken plattform som väljs beror på ett antal faktorer, bland annat ***måloperativsystemet***, ***projektkraven*** och ***antalet slutpunkter***.
+Vilken plattform man väljer beror på ett antal faktorer, bland annat ***måloperativsystem***, ***projektkrav*** och ***antal slutpunkter***.
 
 Det finns få exempel:
 
-* Google Chrome-enhetshantering
+* Google Chrome Device Management
 * TeamViewer
 * AirWatch
-* 42 växlar
+* 42Gears
 * Äkta AV-integratör för mellanvara

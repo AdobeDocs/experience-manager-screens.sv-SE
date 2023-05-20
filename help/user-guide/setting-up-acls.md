@@ -1,21 +1,21 @@
 ---
 title: Konfigurera åtkomstkontrollistor
-seo-title: Konfigurera åtkomstkontrollistor
+seo-title: Setting up ACLs
 description: Följ den här sidan om du vill lära dig att dela upp projekt med hjälp av åtkomstkontrollistor så att varje enskild person eller grupp hanterar sitt eget projekt.
-seo-description: Följ den här sidan om du vill lära dig att dela upp projekt med hjälp av åtkomstkontrollistor så att varje enskild person eller grupp hanterar sitt eget projekt.
+seo-description: Follow this page to learn how to segregate projects using ACLs so that each individual or team handles their own project.
 uuid: d5609bd9-3f13-4f11-ad4f-23c2ac3aa8fc
 contentOwner: jsyal
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: administering
 discoiquuid: 64e4d6ae-3fd3-41ec-84e1-cc2cac7b2519
-feature: Administrera skärmar
+feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: b40bcc9f-307c-422c-8abb-5c15965772d4
 source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
-source-wordcount: '561'
+source-wordcount: '535'
 ht-degree: 0%
 
 ---
@@ -30,23 +30,23 @@ Som AEM vill du se till att teammedlemmar i ett projekt inte stör andra projekt
 
 I följande steg sammanfattas proceduren för att konfigurera åtkomstkontrollistor för ett projekt:
 
-1. Logga in på AEM och navigera till **Verktyg** > **Säkerhet**.
+1. Logga in på AEM och navigera till **verktyg** > **Säkerhet**.
 
    ![screen_shot_2018-02-16at10156pm](assets/screen_shot_2018-02-16at10156pm.png)
 
-1. Klicka på **Grupper** och ange ett ID (till exempel Acme).
+1. Klicka **Grupper** och ange ett ID (till exempel Acme).
 
-   Du kan också använda den här länken, `http://localhost:4502/libs/granite/security/content/groupadmin.html`.
+   Du kan även använda den här länken, `http://localhost:4502/libs/granite/security/content/groupadmin.html`.
 
    Klicka sedan på **Spara**.
 
    ![screen_shot_2018-02-16at12648pm](assets/screen_shot_2018-02-16at12648pm.png)
 
-1. Välj **Deltagare** i listan och dubbelklicka på den.
+1. Välj **Medarbetare** i listan och dubbelklicka på den.
 
    ![screen_shot_2018-02-18at33938pm](assets/screen_shot_2018-02-18at33938pm.png)
 
-1. Lägg till **Acme** (projekt du skapade) i **Lägg till medlemmar i grupp**. Klicka på **Spara**.
+1. Lägg till **Acme** (projekt du skapat) till **Lägg till medlemmar i grupp**. Klicka **Spara**.
 
    ![screen_shot_2018-02-18at35630pm](assets/screen_shot_2018-02-18at35630pm.png)
 
@@ -54,13 +54,13 @@ I följande steg sammanfattas proceduren för att konfigurera åtkomstkontrollis
    >
    >Om du vill att projektgruppsmedlemmar ska registrera spelare (vilket innebär att en användare skapas för varje spelare), söker du efter gruppanvändaradministratörerna och lägger till ACME-gruppen i användaradministratörerna
 
-1. Lägg till alla användare som ska arbeta med **Acme**-projektet i **Acme**-gruppen.
+1. Lägg till alla användare som ska arbeta med **Acme** Projekt till **Acme** grupp.
 
    ![screen_shot_2018-02-18at41320pm](assets/screen_shot_2018-02-18at41320pm.png)
 
-1. Konfigurera behörigheter för gruppen **Acme** med denna `(http://localhost:4502/useradmin)`.
+1. Konfigurera behörigheter för gruppen **Acme** använda `(http://localhost:4502/useradmin)`.
 
-   Markera gruppen **Acme** och klicka på **behörigheten**.
+   Markera gruppen **Acme** och klicka på **behörigheter**.
 
    ![screen_shot_2018-02-18at41534pm](assets/screen_shot_2018-02-18at41534pm.png)
 
@@ -101,7 +101,7 @@ I följande tabell sammanfattas grupperna med beskrivning och behörighet för e
    <td><strong>Behörigheter</strong></td>
   </tr>
   <tr>
-   <td>Skärmadministratörer<br /> <em>screens-admins</em></td>
+   <td>Skärmadministratörer<br /> <em>skärmadministratörer</em></td>
    <td>Åtkomst på administratörsnivå till AEM Screens-funktioner</td>
    <td>
     <ul>
@@ -114,7 +114,7 @@ I följande tabell sammanfattas grupperna med beskrivning och behörighet för e
     </ul> </td>
   </tr>
   <tr>
-   <td>Skärmanvändare<br /> <em>screens-users</em></td>
+   <td>Skärmanvändare<br /> <em>skärmanvändare</em></td>
    <td>Skapa och uppdatera kanaler och tidsplaner och tilldela till platser i AEM Screens</td>
    <td>
     <ul>
@@ -125,7 +125,7 @@ I följande tabell sammanfattas grupperna med beskrivning och behörighet för e
     </ul> </td>
   </tr>
   <tr>
-   <td>Skärmoperatorer<br /> <em>screens-operatorer</em></td>
+   <td>Skärmoperatorer<br /> <em>skärmoperatorer</em></td>
    <td>Skapa och uppdatera platsstruktur och registrera spelare i AEM Screens</td>
    <td>
     <ul>

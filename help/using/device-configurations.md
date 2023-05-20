@@ -1,15 +1,15 @@
 ---
 title: Enhetsspecifikationer
-seo-title: Enhetsspecifikationer
+seo-title: Device Specifications
 description: Sidan beskriver enhetsspecifikationerna
-seo-description: Sidan beskriver enhetsspecifikationerna
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+seo-description: The page describes device specifications
+exl-id: c2e521b3-89f5-4537-a751-0bfa031286c4
+source-git-commit: 707833ddd8ab2573abcac4e9a77ec88778624435
 workflow-type: tm+mt
-source-wordcount: '209'
+source-wordcount: '202'
 ht-degree: 0%
 
 ---
-
 
 # Enhetskonfigurationer {#device-configurations}
 
@@ -17,7 +17,7 @@ ht-degree: 0%
 >
 >En typisk intressent för den här aktiviteten är en A/V-integratör.
 
-Baserat på den information som samlats in under *Day Zero*, bekräftar du följande information innan du börjar utveckla:
+Baserat på den information som samlats in under *Dag noll* bekräftar du följande information innan du börjar utveckla:
 
 * Vilken orientering, dimensioner och upplösning används för skärmarna?
 

@@ -1,13 +1,13 @@
 ---
 title: Hantera nätverkstrafik
 description: På sidan beskrivs standardnätverksinställningar och hur du hanterar nätverkstrafik.
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+exl-id: b6d8f4a3-fca2-4556-9455-b9e27b138154
+source-git-commit: 707833ddd8ab2573abcac4e9a77ec88778624435
 workflow-type: tm+mt
 source-wordcount: '559'
 ht-degree: 0%
 
 ---
-
 
 # Hantera nätverkstrafik {#managing-network-traffic}
 
@@ -17,7 +17,7 @@ Den här guiden belyser en introduktion till proxyservrar följt av olika nätve
 
 >[!NOTE]
 >**AEM Screens nätverkskrav**
->AEM Screens kommunicerar direkt med AEM som Cloud Service och måste därför upprätta en stabil koppling mellan de två noderna. Brandväggar är absolut obligatoriska för kommersiell internetåtkomst och som kund måste du förstå vilka kommunikationsportar som måste öppnas i dessa brandväggar och andra IT-säkerhetsrelaterade nätverkskomponenter.
+>AEM Screens kommunicerar direkt med den AEM as a Cloud Service och måste därför upprätta en stabil koppling mellan de två noderna. Brandväggar är absolut obligatoriska för kommersiell internetåtkomst och som kund måste du förstå vilka kommunikationsportar som måste öppnas i dessa brandväggar och andra IT-säkerhetsrelaterade nätverkskomponenter.
 
 ## Översikt över proxyservrar {#proxy-servers}
 
@@ -27,7 +27,7 @@ En fördel med en proxyserver är att dess cache kan användas av alla användar
 
 När en proxyserver tar emot en begäran om en Internet-resurs (till exempel en webbsida eller vid anslutning till en AEM Publisher), söker den i sin lokala cache efter tidigare anropade URL:er. Om sidan hittas returneras den till användaren utan att begäran vidarebefordras till Internet. Om sidan inte finns i cachen fungerar proxyservern (som klient) för användaren och begär sidan från servern på Internet. När innehållet returneras relaterar proxyservern det till den ursprungliga begäran och vidarebefordrar det till användaren.
 
-## Standardnätverksinställningarna {#network-setups}
+## Förstå standardnätverksinställningarna {#network-setups}
 
 Om du vill implementera en nätverksinstallation måste du hänvisa till följande scenarier med deras styrkor och distributionsinformation.
 
@@ -42,7 +42,7 @@ I följande tabell visas de olika typerna av nätverksinställningar med fördel
 
 | Nätverksinställningar | Fördelar | Nackdelar |
 |--- |--- |--- |
-| **Direkt Internet-nätverk (trådlöst/trådlöst)** | Enkelt och rakt fram till SetUp<br>Ett bra val för medelstora eller större installationer<br>Dedikerat nätverk kan kapslas in<br>Några felpunkter<br>relativt billigt<br>Bra skalbarhet | Obligatorisk internetdataplan |
-| **Direkt mobilnätverk** | Enkelt att installera<br>Bra val för medelstora eller större installationer<br>Bra skalbarhet<br>Encapsulated Screens | Obligatorisk internetuppkoppling |
-| **Mobilnätverk med mobil datarouter och aktiva nätverkskomponenter** | Enkelt att installera<br>Bra val för medelstora eller större installationer<br>Dedikerat nätverk kan kapslas in<br>Några felpunkter<br>relativt billigt<br>Bra skalbarhet | Obligatorisk internetdataplan |
-| **Enclosed Corporate Network (Wired/Wireless)** | Hög flexibilitet och skalbarhet<br>Mycket säker på grund av olika försvarsrader<br>Encapsulated Networks<br>Enkelt att övervaka och underhålla<br>Tillförlitligt | Komplicerade och dyra<br>Rekommenderas för nätverksspecialister eller systemintegratörer |
+| **Direkt Internet-nätverk (trådlöst/trådlöst)** | Enkelt och rakt fram till SetUp<br>Bra val för medelstora eller större installationer<br>Dedikerat nätverk kan kapslas in<br>Få felpunkter<br>relativt prisvärd<br>Bra skalbarhet | Obligatorisk internetdataplan |
+| **Direkt mobilnätverk** | Lätt att installera<br>Bra val för medelstora eller större installationer<br>Bra skalbarhet<br>Inkapslade skärmar | Obligatorisk internetuppkoppling |
+| **Mobilnätverk med mobil datarouter och aktiva nätverkskomponenter** | Lätt att installera<br>Bra val för medelstora eller större installationer<br>Dedikerat nätverk kan kapslas in<br>Få felpunkter<br>relativt prisvärd<br>Bra skalbarhet | Obligatorisk internetdataplan |
+| **Enclosed Corporate Network (Wired/Wireless)** | Hög flexibilitet och skalbarhet<br>Hög säkerhet på grund av olika försvarslinjer<br>Encapsulated Networks<br>Lätt att övervaka och underhålla<br>Tillförlitlig | Komplicerade och dyra<br>Rekommenderas för nätverksspecialister eller systemintegratörer |

@@ -1,12 +1,11 @@
 ---
 title: Aktivering av Experience Fragments
-seo-title: Aktivering av Experience Fragments
+seo-title: Experience Fragments Activation
 description: Följ det här exemplet för att lära dig mer om aktivering av upplevelsefragment.
-seo-description: Följ det här exemplet för att lära dig mer om aktivering av upplevelsefragment.
-translation-type: tm+mt
+seo-description: Follow this use case example to learn about experience fragments activation.
 source-git-commit: 7876c5eed8d23bbe566645feefd8eefb9aeac3f3
 workflow-type: tm+mt
-source-wordcount: '200'
+source-wordcount: '186'
 ht-degree: 0%
 
 ---
@@ -27,7 +26,7 @@ I följande exempel kan du implementera ett demoprojekt där Experience Fragment
 
 >[!NOTE]
 >**Förutsättningar
->Du måste ha en tidigare kunskap om grunderna i en Experience Fragments och hur du använder en Experience Fragments i ett AEM Screens-projekt. Se [Använda Experience Fragments](/help/user-guide/experience-fragments-in-screens.md)
+>Du måste ha en tidigare kunskap om grunderna i en Experience Fragments och hur du använder en Experience Fragments i ett AEM Screens-projekt. Se [Använda upplevelsefragment](/help/user-guide/experience-fragments-in-screens.md)
 
 ### Konfigurera demonstrationsprojektet {#demo-project-setup}
 
@@ -35,7 +34,7 @@ Skapa ett projekt med namnet **DemoProject** och en sekvenskanal med namnet **Te
 
 ### Implementera Experience Fragment i ett AEM Screens-projekt {#experience-fragments-implementation}
 
-När du har skapat en Experience Fragment och använt den i ditt AEM Screens-projekt, **DemoProject**, kan du nu förbättra upplevelsefragmentet efter dina behov.
+När du har skapat en Experience Fragment och använt den i ditt AEM Screens-projekt, **DemoProject** kan ni nu förbättra upplevelsefragmentet efter era behov.
 
 ### Öka textstorlek {#increasing-text-size}
 

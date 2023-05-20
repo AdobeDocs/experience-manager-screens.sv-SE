@@ -1,12 +1,11 @@
 ---
 title: Miljöer för [!UICONTROL AEM Screens]
-seo-title: Miljöer för [!UICONTROL AEM Screens]
+seo-title: Environments for [!UICONTROL AEM Screens]
 description: På den här sidan beskrivs miljöerna för ett AEM Screens-projekt.
-seo-description: På den här sidan beskrivs miljöerna för ett AEM Screens-projekt.
-translation-type: tm+mt
+seo-description: This page highlights the environments for an AEM Screens project.
 source-git-commit: 54c5a2f2f3f755e4da4028d54042f4bd8f2df369
 workflow-type: tm+mt
-source-wordcount: '166'
+source-wordcount: '154'
 ht-degree: 0%
 
 ---
@@ -14,7 +13,7 @@ ht-degree: 0%
 
 # Miljöer {#environments}
 
-Bestäm i förväg vilka AEM miljöer klienten har och kommer att förvänta sig att du använder, både för *utveckling* och *distribution*.
+Avgör i förväg vilka AEM som kunden har och kommer att förvänta sig att du använder, båda för *utveckling* och *distribution*.
 
 >[!NOTE]
 >

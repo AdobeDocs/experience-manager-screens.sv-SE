@@ -1,20 +1,20 @@
 ---
 title: Replikera datautlösare till publiceringsservrar
-seo-title: Replikera datautlösare till publiceringsservern
+seo-title: Replicate data-triggers to publish server
 description: Följ den här sidan om du vill lära dig hur du replikerar datautlösare till publiceringsservern.
-seo-description: Replikera datautlösare till publiceringsservern.
-feature: Administrera skärmar, Datautlösare
+seo-description: Replicate data-triggers to publish server.
+feature: Administering Screens, Data Trigger
 role: Developer
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+exl-id: 6f90b864-eaa0-4b74-a47e-b0967a550552
+source-git-commit: 707833ddd8ab2573abcac4e9a77ec88778624435
 workflow-type: tm+mt
-source-wordcount: '536'
+source-wordcount: '522'
 ht-degree: 2%
 
 ---
 
-
-# Replikerar datutlösare till publiceringsservrar {#replicating-data-triggers}
+# Replikera datutlösare till publiceringsservrar {#replicating-data-triggers}
 
 När du använder ContextHub och AEM Target Engine för att anpassa innehåll baserat på datautlösare i en författar-/publiceringskonfiguration, replikeras inte alla ContextHub- och personaliseringsrelaterade konfigurationer automatiskt med kanalerna när de publiceras.
 
@@ -26,13 +26,13 @@ Det handlar om manuell publicering:
 1. Målgrupper inom personalisering
 1. Personaliseringsaktiviteter
 
-## Steg för replikering av datutlösare till publiceringsservern {#replicating-data-triggers-publish}
+## Steg för replikering av datautlösare till Publish Server {#replicating-data-triggers-publish}
 
 Följ stegen nedan för att replikera datautlösarna till publiceringsservern.
 
 ### Steg 1: Replikerar ContextHub-konfigurationer {#replicating-contexthub-configurations}
 
-1. Navigera till **Verktyg** > **Distribution** > **Distribution** > **Publiceringsagent** och klicka på publiceringsagenten för att konfigurera inställningarna.
+1. Navigera till **verktyg** > **Distribution** > **Distribution** > **Publish Agent** och klicka på publiceringsagenten för att konfigurera inställningarna.
 
    ![image1](/help/user-guide/assets/replicating-triggers/replicating-triggers1.png)
 
@@ -40,21 +40,21 @@ Följ stegen nedan för att replikera datautlösarna till publiceringsservern.
    >
    >Du kan också använda `http://localhost:4502/libs/granite/distribution/content/distribution-agent.html?agentName=publish` för att navigera direkt till skärmen för att konfigurera och testa anslutningen.
 
-1. Klicka på **Testa anslutning** i åtgärdsfältet för att validera kommunikationen mellan författaren och publiceringsinstansen, vilket visas i bilden nedan.
+1. Klicka **Testanslutning** från åtgärdsfältet för att validera kommunikationen mellan författaren och publiceringsinstansen, vilket visas i bilden nedan.
 
    ![image1](/help/user-guide/assets/replicating-triggers/replicating-triggers2.png)
 
    >[!NOTE]
    >
-   >Om testet misslyckas måste du åtgärda replikeringsagentens konfiguration mellan författaren och publiceringsinstansen. Mer information finns i [Troubleshooting Test Connection](/help/user-guide/replicating-data-triggers.md#troubleshoot-test).
+   >Om testet misslyckas måste du åtgärda replikeringsagentens konfiguration mellan författaren och publiceringsinstansen. Se [Felsökning av testanslutning](/help/user-guide/replicating-data-triggers.md#troubleshoot-test) för mer information.
 
-1. Välj **Lägg till** i skärmträdet **Distributionsagent** och välj konfigurationssökvägen för projektet, till exempel `/conf/screens/settings/cloudsettings/configuration`.
+1. Välj **Lägg till** från **Distributionsagent** skärmträd och välj konfigurationssökvägen för projektet, till exempel `/conf/screens/settings/cloudsettings/configuration`.
 
-1. Klicka på **Skicka**.
+1. Klicka **Skicka**.
 
-### Replikerar målgrupperna {#replicating-audiences}
+### Replikera målgrupperna {#replicating-audiences}
 
-1. Navigera till din AEM > **Personalisering** > **Publiker** eller använd `http://localhost:4502/libs/cq/personalization/touch-ui/content/v2/audiences.html` för att navigera direkt.
+1. Navigera till AEM > **Personalisering** > **Målgrupper** eller använda `http://localhost:4502/libs/cq/personalization/touch-ui/content/v2/audiences.html` navigera direkt.
 
 1. Gå ned i projektmappen, till exempel `/conf/screens/`.
 
@@ -62,21 +62,21 @@ Följ stegen nedan för att replikera datautlösarna till publiceringsservern.
 
 1. Välj alla målgrupper och segment i användargränssnittet.
 
-1. Klicka på **Hantera publikation** i åtgärdsfältet.
+1. Klicka **Hantera publikation** i åtgärdsfältet.
 
-1. Klicka på **Nästa** och **Publicera**.
+1. Klicka **Nästa** och **Publicera**.
 
-### Replikerar aktiviteterna {#replicating-activities}
+### Replikera aktiviteterna  {#replicating-activities}
 
-1. Navigera till din AEM > **Personalisering** > **Aktiviteter** eller använd `http://localhost:4502/libs/cq/personalization/touch-ui/content/v2/activities.html` för att navigera direkt.
+1. Navigera till AEM > **Personalisering** > **Verksamhet** eller använda `http://localhost:4502/libs/cq/personalization/touch-ui/content/v2/activities.html` navigera direkt.
 
 1. Gå ned i projektmappen, d.v.s. `/content/campaigns/screens/…`.
 
 1. Välj alla aktiviteter i användargränssnittet.
 
-1. Klicka på **Hantera publikation** i åtgärdsfältet.
+1. Klicka **Hantera publikation** i åtgärdsfältet.
 
-1. Klicka på **Nästa** och **Publicera**.
+1. Klicka **Nästa** och **Publicera**.
 
 >[!IMPORTANT]
 >
@@ -94,16 +94,16 @@ Om replikeringen lyckas bör du visa följande struktur på publiceringsinstanse
 
 Om testanslutningen misslyckas när ContextHub-konfigurationerna replikeras, följ avsnittet nedan för att felsöka problemet:
 
-1. Navigera till Verktyg > **Distribution** > **Distribution** > **Publiceringsagent**.
+1. Navigera till Verktyg > **Distribution** > **Distribution** > **Publish Agent**.
 
-1. Klicka på **Redigera** i åtgärdsfältet och kontrollera att slutpunkts-URL:en i **fältet Importerarslutpunkter** även pekar på publiceringsserverns URL i Distribution Agent.
+1. Klicka **Redigera** från åtgärdsfältet och kontrollera slutpunktens URL i **Importerarslutpunkter** fältet pekar också på publiceringsserverns URL i Distribution Agent.
    ![image1](/help/user-guide/assets/replicating-triggers/replicating-triggers9.png)
 
 1. Om du inte använder standardadministratörsautentiseringsuppgifterna måste du konfigurera distributionsagenten med ett annat användarnamn och lösenord.
 
    Följ stegen nedan:
 
-   1. Gå till Verktyg > **Åtgärder** > **Webbkonsol** `http://localhost:4502/system/console/configMgr`för att öppna **Adobe Experience Manager Web Console-skärmen**.
+   1. Navigera till Verktyg > **Operationer** > **Webbkonsol** `http://localhost:4502/system/console/configMgr`för att öppna **Adobe Experience Manager Web Console**.
    1. Sök efter **Transportreferenser för Apache Sling Distribution - Användarreferenser baserade DistributionTransportSecretProvider**
 
       ![image1](/help/user-guide/assets/replicating-triggers/replicating-triggers6.png)
@@ -112,10 +112,10 @@ Om testanslutningen misslyckas när ContextHub-konfigurationerna replikeras, fö
 
       ![image1](/help/user-guide/assets/replicating-triggers/replicating-triggers7.png)
 
-   1. Klicka på **Spara**
-   1. Använd `Cmd +F` för att söka efter **Apache Sling Distribution Agent - Forward Agents Factory** för att öppna konfigurationerna och söka efter **Transporthemlig provider**.
+   1. Klicka **Spara**
+   1. Använd `Cmd +F` att söka efter **Apache Sling Distribution Agent - Forward Agents Factory** för att öppna konfigurationerna och söka efter **Transporthemlighetsprovider**.
 
       ![image1](/help/user-guide/assets/replicating-triggers/replicating-triggers8.png)
 
    1. Uppdatera `(name=default)` med `(name=slingTransportSecretProvider)`.
-   1. Klicka på **Spara** och kör testanslutningen igen från skärmen **Distributionsagent** från AEM igen.
+   1. Klicka **Spara** och kör testanslutningen igen från **Distributionsagent** skärmbild från AEM igen.

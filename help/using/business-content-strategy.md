@@ -2,16 +2,16 @@
 title: Business Content Strategy for [!UICONTROL AEM Screens]
 seo-title: Business Content Strategy for [!UICONTROL AEM Screens]
 description: Guiden beskriver affärsstrategin för innehåll
-seo-description: Guiden beskriver Business Content Strategy
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+seo-description: The guide describes Business Content Strategy
+exl-id: efb8ea95-62c0-41ed-9e67-23d76ad12a4c
+source-git-commit: 707833ddd8ab2573abcac4e9a77ec88778624435
 workflow-type: tm+mt
-source-wordcount: '439'
+source-wordcount: '429'
 ht-degree: 0%
 
 ---
 
-
-# Business Content Strategy {#business-content}
+# Strategi för företagsinnehåll {#business-content}
 
 >[!NOTE]
 >
@@ -35,7 +35,7 @@ Du måste hänvisa till följande frågor som ska besvaras när du skapar en inn
 * När är det idealiska tillfället att engagera publiken?
 * Vem skapar innehållet?
 * Varför ska målgruppen bry sig om innehållet?
-* Vilka problem har innehållet som hjälper dem att lösa? (Får kunden hjälp att hitta de lämpligaste skorna för extrem bergsklättring eller en perfekt enhet för sitt nya hem?)
+* Vilka problem har innehållet som hjälper dem att lösa? (Gör till exempel Screens-programmet det enklare för kunden att hitta de lämpligaste skorna för extrem bergsklättring eller en perfekt apparat för sitt nya hem?)
 * Hur interagerar kunden med applikationen eller hur fungerar användarupplevelsen?
 * Vad är er uppdaterings- och uppgraderingsstrategi?
 * Hur ofta behövs nytt innehåll?

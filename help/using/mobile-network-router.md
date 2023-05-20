@@ -1,13 +1,13 @@
 ---
 title: Mobilnätverk med mobil datarouter och aktiva nätverkskomponenter
 description: Sidan beskriver mobilnätverk med Mobile Data Router och Active Network Components
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+exl-id: a6b44a04-438d-49d4-ac98-32629c11dcdb
+source-git-commit: 707833ddd8ab2573abcac4e9a77ec88778624435
 workflow-type: tm+mt
 source-wordcount: '1035'
 ht-degree: 0%
 
 ---
-
 
 # Mobilnätverk med mobil datarouter och aktiva nätverkskomponenter {#mobile-network-setup}
 
@@ -22,7 +22,7 @@ I följande diagram visas Mobile Network with Mobile Data Router and Active Netw
 
 ![](/help/using/assets/mobile-network-1.png)
 
-## Ansluta AEM Screens Player till mobilnätverk med Mobile Data Router och aktiva nätverkskomponenter {#connecting-aem-screens-players}
+## Ansluta AEM Screens Player till mobilnätverk med mobil datarouter och aktiva nätverkskomponenter {#connecting-aem-screens-players}
 
 Följ stegen nedan för att se till att AEM skärmspelare är korrekt anslutna i den här konfigurationen:
 
@@ -43,7 +43,7 @@ Konfigurationen tilldelar en Internet-åtkomst för varje AEM Screens-styrenhet 
 
    >[!NOTE]
    >**Felsökningstips**
-   >Om AEM Screens inte ansluter korrekt och det förväntade innehållet inte visas, bör du kontrollera i Internet Router-brandväggen om det finns några begränsningar för `TCP/IP Port 80/443`.
+   >Om AEM Screens inte ansluter som det ska och det förväntade innehållet inte visas, bör du kontrollera om det finns några begränsningar för Internet Router-brandväggen `TCP/IP Port 80/443`.
 
 
 ## Konfigurera mobilnätverk med mobil datarouter och aktiva nätverkskomponenter {#requirements-direct}
@@ -54,13 +54,13 @@ Nätverksinstallationen kan logiskt separeras i två block:
 
 * Lokalt nätverk
 
-### Mobil internetanslutning {#mobile-internet-connection}
+### Mobil Internetanslutning {#mobile-internet-connection}
 
 Prestandan för internetanslutningen måste, förutom den redan beskrivna nätverksanslutningen, tillhandahålla tillräcklig bandbredd för att AEM Screens-nedladdningar ska fungera smidigt.
 
-*Tillräcklig* effektivitet beror på mängden anslutna AEM skärmar och på hur andra konsumenter använder nätverket, till exempel smarttelefoner, surfplattor, kassörer, datorer eller Gästnätverk för trådlösa nätverk.
+*Tillräckligt* beror på mängden anslutna AEM skärmar och på hur andra användare i nätverket använder sig, t.ex. smarttelefoner, surfplattor, kassörer, datorer eller Gästnätverk för Wi-Fi.
 Tänk på att alla enheter har samtidig åtkomst till Internet och att bandbredden vanligtvis minskar linjärt samtidigt som fler användare/datorer läggs till i nätverket.
-Förutom den specifika teoretiska nätverksanslutningen måste det säkerställas att mobilrouterns täckning är åtminstone&quot;god&quot;. Dessutom måste den underliggande månadsplanen täcka in tillräckligt med datakapacitet och tillräcklig bandbredd för att alla anslutna klienter ska kunna betjäna det anslutna nätverket.
+Förutom den specifika teoretiska nätverksanslutningen måste det säkerställas att mobilrouterns täckning är åtminstone&quot;god&quot;. Den underliggande månadsplanen måste även täcka in tillräckligt med datapacitet och tillräcklig bandbredd för att alla anslutna klienter ska kunna betjäna det anslutna nätverket.
 
 I följande tabell visas datanätverken med sin standardbandbredd:
 
@@ -68,7 +68,7 @@ I följande tabell visas datanätverken med sin standardbandbredd:
 |--- |--- |
 | 3G | 42 Mbit/s |
 | 4G | 150 Mbit/s |
-| 5 G | 1 000 - 1 000 Mbit/s |
+| 5G | 1 000 - 1 000 Mbit/s |
 
 När du överväger vilket datanätverk som ska användas bör du svara på följande frågor:
 
@@ -84,7 +84,7 @@ När du överväger vilket datanätverk som ska användas bör du svara på föl
 
 >[!IMPORTANT]
 >
->För inledande överföring av mediefiler, till exempel, måste en högre datamängd och en ökad hämtningstid förväntas och återspeglas i ovanstående antaganden, samtidigt som nya spelare integreras. Ett 4G-nätverk med *bra* täckning och obegränsade data bör matcha de vanligaste installationerna i den här nätverksinställningarna.
+>För inledande överföring av mediefiler, till exempel, måste en högre datamängd och en ökad hämtningstid förväntas och återspeglas i ovanstående antaganden, samtidigt som nya spelare integreras. Ett 4G-nätverk med *bra* täckning och obegränsat antal data bör matcha de vanligaste installationerna i den här nätverksinställningarna.
 
 
 ### Lokalt nätverk {#lan-connection}
@@ -93,7 +93,7 @@ LAN-nätverkets prestanda, förutom den redan beskrivna nätverkets nåbarhet, m
 
 Nätverkskomponenterna bör till exempel minst matcha 100 Mbit/s-standarden och matcha den bandbredd som anges i specifikationen Internet Access/Router.
 
-Om en Wi-Fi-lösning planeras för att ansluta skärmen till Internet Link rekommenderar vi att du åtminstone använder moderna Wi-Fi-standarder som IEEE 802.11g. Den här standarden stöder anslutningar på upp till 54 Mbit/s. Alla *nyare*-standarder som 802.11h-n har bättre kvalitet. Om en Wi-Fi Repeater krävs rekommenderar vi starkt trådlös nätanslutningspunktsteknik som Google Nest Mesh Wi-Fi eller liknande.
+Om en Wi-Fi-lösning planeras för att ansluta skärmen till Internet Link rekommenderar vi att du åtminstone använder moderna Wi-Fi-standarder som IEEE 802.11g. Den här standarden stöder anslutningar på upp till 54 Mbit/s. Alla *nyare* Standarder som 802.11h-n har bättre kvalitet. Om en Wi-Fi Repeater krävs rekommenderar vi starkt trådlös nätanslutningspunkt som Google Nest Mesh Wi-Fi eller liknande.
 
 ## Hämta media och resurser {#download}
 

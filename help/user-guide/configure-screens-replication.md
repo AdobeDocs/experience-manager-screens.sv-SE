@@ -1,15 +1,15 @@
 ---
 title: Konfigurera agenter för skärmreplikering
-description: Follow this page to get information on how to configure Screens Replication Agents.
+description: Följ den här sidan för att få information om hur du konfigurerar agenter för skärmreplikering.
 role: Developer
 level: Intermediate
-source-git-commit: ede0eb02c97c99732c64a92c603e51bedecdbac8
+exl-id: 40877547-5027-41eb-8d66-d4a2d7b9af70
+source-git-commit: 93bbffa2d752bfbd92702487802d40e7e8e287b8
 workflow-type: tm+mt
 source-wordcount: '507'
 ht-degree: 3%
 
 ---
-
 
 # Konfigurerar agenter för skärmreplikering {#configuring-screens-replication-agent}
 
@@ -17,14 +17,14 @@ På följande sida beskrivs hur du konfigurerar Screens Replication Agents.
 
 ## Syfte {#objective}
 
-Agenten för skärmreplikering ansvarar för att hämta kommandodata som, *användare*, *lösenord*, *rebootSchedule*, *maxNumberOfLogFilesToKeep* och många fler sådana värden, från publicera till författare. It is essential to configure this so that the author can show the device ping.
+Agenten för skärmreplikering ansvarar för att hämta kommandodata som, *användare*, *lösenord*, *rebootSchedule*, *maxNumberOfLogFilesToKeep* och många fler sådana värden, från publicera till författare. Det är viktigt att konfigurera detta så att författaren kan visa enhetsping.
 
 >[!NOTE]
 >Mer information om agenter för skärmreplikering finns i [Skärmreplikeringsagenter och kommandon](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/administering/author-publish/author-publish-architecture-overview.html?lang=en#screens-replication-agents-and-commands).
 
-You must complete both the sections to complete the configuration for Screens Replication Agent:
+Du måste slutföra båda sektionerna för att slutföra konfigurationen för skärmreplikeringsagenten:
 
-1. [Enabling Users and Updating the Password](#enable-users)
+1. [Aktivera användare och uppdatera lösenordet](#enable-users)
 1. [Uppdaterar inställningar för skärmreplikeringsagenten](#replicate-agent)
 
 ## Aktivera användare och uppdatera lösenordet {#enable-users}
@@ -32,11 +32,11 @@ You must complete both the sections to complete the configuration for Screens Re
 Följ stegen nedan för att aktivera användare och uppdatera lösenordet för skärmmottagare-användare:
 
 >[!NOTE]
->For security reasons, it is recommended to avoid using the admin password for screens-receiver-user.
+>Av säkerhetsskäl bör du undvika att använda administratörslösenordet för skärmmottagare-användare.
 
-1. Navigate  to your AEM Author instance.
+1. Navigera till din AEM Author-instans.
 
-1. Click on tools --> **Security** --> **Users**.
+1. Klicka på verktygen —> **Säkerhet** —> **Användare**.
 
    ![bild](/help/user-guide/assets/screens-replication/screens-replication1.png)
 
@@ -46,7 +46,7 @@ Följ stegen nedan för att aktivera användare och uppdatera lösenordet för s
 
    ![bild](/help/user-guide/assets/screens-replication/screens-replication2.png)
 
-1. Click on **OK** to confirm.
+1. Klicka på **OK** för att bekräfta.
 
    ![bild](/help/user-guide/assets/screens-replication/screens-replication3.png)
 
@@ -75,7 +75,7 @@ Följ stegen nedan för att aktivera användare och uppdatera lösenordet för s
 
    ![bild](/help/user-guide/assets/screens-replication/screens-replication8.png)
 
-1. Click on **OK** to confirm.
+1. Klicka på **OK** för att bekräfta.
 
    ![bild](/help/user-guide/assets/screens-replication/screens-replication9.png)
 
@@ -90,10 +90,10 @@ Följ stegen nedan för att aktivera användare och uppdatera lösenordet för s
 
 ## Uppdaterar inställningar för skärmreplikeringsagenten {#replicate-agent}
 
-Follow the section below to update settings in Screens Replication agent:
+Följ avsnittet nedan för att uppdatera inställningarna i agenten för skärmreplikering:
 
 >[!IMPORTANT]
->You must complete the following steps on ALL existing screens replication agents.
+>Du måste utföra följande steg på ALLA befintliga skärmreplikeringsagenter.
 
 1. Navigera till AEM.
 
@@ -101,7 +101,7 @@ Follow the section below to update settings in Screens Replication agent:
 
    ![bild](/help/user-guide/assets/screens-replication/screens-replication1a.png)
 
-1. Click on **Agents on author**.
+1. Klicka på **Agenter på författare**.
 
    ![bild](/help/user-guide/assets/screens-replication/screens-replication1b.png)
 
@@ -112,7 +112,7 @@ Follow the section below to update settings in Screens Replication agent:
 
    ![bild](/help/user-guide/assets/screens-replication/screens-replication1c.png)
 
-1. Click on **Edit**.
+1. Klicka på **Redigera**.
 
    ![bild](/help/user-guide/assets/screens-replication/screens-replication1d.png)
 
@@ -130,4 +130,4 @@ Follow the section below to update settings in Screens Replication agent:
 
    ![bild](/help/user-guide/assets/screens-replication/screens-replication1g.png)
 
-   If the connection verification is successful, you have completed configuring Screens Replication Agent.
+   Om anslutningsverifieringen lyckas har du slutfört konfigurationen av skärmreplikeringsagenten.

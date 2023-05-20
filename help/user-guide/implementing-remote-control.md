@@ -12,7 +12,8 @@ discoiquuid: 1be944f0-02ed-48c6-98bc-504d758ff866
 feature: Administering Screens
 role: Admin
 level: Intermediate
-source-git-commit: a256f624c4b647deb4cee7668665ad7b576932e7
+exl-id: 6cb2705e-83e6-46f3-bd71-6688d7edc11f
+source-git-commit: 6cd68194bf3128464ec368f3e7fd69d20925c3d6
 workflow-type: tm+mt
 source-wordcount: '354'
 ht-degree: 0%

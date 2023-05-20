@@ -1,19 +1,19 @@
 ---
 title: Använda adaptiva renderingar i AEM Screens
 description: På den här sidan beskrivs hur du använder adaptiva renderingar i AEM Screens.
-source-git-commit: 6d9dab9fd59289aafdb688682fea47589d3ec873
+exl-id: e7f68ed4-73c3-492a-b33a-dd915ef1f8be
+source-git-commit: cd26f77b9b41a5854aaa1f936abed3b410533684
 workflow-type: tm+mt
 source-wordcount: '561'
 ht-degree: 0%
 
 ---
 
-
 # Använda adaptiva renderingar i AEM Screens {#adaptive-renditions}
 
 ## Introduktion {#introduction}
 
-Med adaptiva renderingar kan enheterna automatiskt välja den bästa renderingen för en enhet baserat på kunddefinierade regler. Enheterna laddar automatiskt ned och spelar upp den lämpligaste återgivningen av en resurs baserat på dessa regler, vilket gör att kunderna bara kan fokusera på att utforma *main*-upplevelsen.
+Med adaptiva renderingar kan enheterna automatiskt välja den bästa renderingen för en enhet baserat på kunddefinierade regler. Enheterna laddar automatiskt ned och spelar upp den lämpligaste återgivningen av en mediefil baserat på dessa regler, så att kunderna bara kan fokusera på att utforma *main* upplevelse.
 
 ## Syfte {#objective}
 
@@ -26,36 +26,36 @@ När en utvecklare lägger till egenskaperna och reglerna för renderingsmappnin
 ## Använda adaptiva renderingar i kanaler {#using-adaptive-renditions}
 
 >[!NOTE]
->När du har lagt till egenskapen [renderingsmappning i skärmsprojektet](/help/user-guide/adaptive-renditions.md#rendition-mapping-new) och [renderingsmappningsregler](/help/user-guide/adaptive-renditions.md#add-rendition-mapping-rules) är du nu klar att använda renderingarna i dina resurser som innehållsförfattare.
+>När du har lagt till [återgivningsmappningsegenskapen till skärpeprojektet](/help/user-guide/adaptive-renditions.md#rendition-mapping-new) och [regler för återgivningsmappning](/help/user-guide/adaptive-renditions.md#add-rendition-mapping-rules)som innehållsförfattare är du nu redo att använda återgivningarna på dina resurser.
 
 ### Använda återgivningar på resurser {#apply-renditions-assets}
 
 Följ stegen nedan för att tillämpa renderingar på resurserna som du vill använda i kanalen för visningsskärmar:
 
-1. Navigera till mappen **Resurser** i din AEM.
+1. Navigera till **Resurser** i din AEM.
 
 1. Skapa en version av resursen som bättre passar signeringsvisningen, till exempel `seahorse.jpg`.
 
-1. Välj namngivningsmönstret, till exempel`landscape`, som liknar det som definierats i **pattern**-egenskapen i **CRXDE Lite**. Mer information finns i [Lägga till regler för återgivningsmappning](/help/user-guide/adaptive-renditions.md#add-rendition-mapping-rules).
+1. Välj namngivningsmönstret för återgivningen, till exempel`landscape`, som det som definierades i **mönster** egenskap i **CRXDE Lite**. Se [Lägga till återgivningsmappningsregler](/help/user-guide/adaptive-renditions.md#add-rendition-mapping-rules) för mer information.
 
-1. Klicka på **Lägg till återgivning** för att överföra återgivningen, vilket visas i bilden nedan.
+1. Klicka på **Lägg till återgivning** för att överföra återgivningen enligt bilden nedan.
 
    ![bild](/help/user-guide/assets/adaptive-renditions/manage-pub-asset2.png)
 
-1. Markera resursens nya namn. Den återgivning som du lägger till måste innehålla mönstret (som definieras i steg 3), till exempel `seahorse-landscape.png`.
+1. Markera resursens nya namn. Den återgivning som du lägger till måste innehålla mönstret (definierat i steg 3), till exempel `seahorse-landscape.png`.
 
-1. När du har lagt till resursen markerar du resursen och klickar på **Hantera publikation** i åtgärdsfältet för att publicera resursen.
+1. När du har lagt till resursen markerar du resursen och klickar på **Hantera publikation** från åtgärdsfältet för att publicera resursen.
 
    ![bild](/help/user-guide/assets/adaptive-renditions/manage-pub-asset1.png)
 
    >[!NOTE]
-   >Läs [On-Demand Content Update](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/authoring/content-updates/on-demand-content.html?lang=en) om du vill veta mer om hur du hanterar publikation och levererar innehållsuppdateringar från författare till publiceringsenhet.
+   >Se [On Demand Content Update](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/authoring/content-updates/on-demand-content.html?lang=en) om du vill veta mer om hur du hanterar publikation och levererar innehållsuppdateringar från författare till publiceringsenhet.
 
 
 ## Migreringsstrategi {#migration-strategy}
 
 >[!IMPORTANT]
->För stora nätverk rekommenderar vi att migreringen görs gradvis för att minska riskerna eftersom funktionen kommer att medföra förändringar i manifest- och fillagringsformatet. Om du lägger till `sling:configRef` i hela projektet måste alla spelare uppdateras till Feature Pack 6.5.9. Om du har uppdaterat några av spelarna behöver du bara lägga till `sling:configRef` till de skärmar, platser eller kanalmappar där alla spelare har uppdaterats till Feature Pack 6.5.9.
+>För stora nätverk rekommenderar vi att migreringen görs gradvis för att minska riskerna eftersom funktionen kommer att medföra förändringar i manifest- och fillagringsformatet. Lägga till `sling:configRef` till hela projektet med att alla spelare har uppdaterats till Feature Pack 6.5.9. Om du har uppdaterat några av spelarna måste du lägga till `sling:configRef` endast till de skärmar, platser eller kanalmappar där alla spelare har uppdaterats till Feature Pack 6.5.9.
 
 I följande diagram visas migreringsstrategin för stora nätverk:
 
@@ -63,7 +63,7 @@ I följande diagram visas migreringsstrategin för stora nätverk:
 
 Om du vill aktivera funktionen lägger du till minst en mappningsregel och kontrollerar att konfigurationen för återgivningsmappning kan matchas i kontexten för skärmar och kanaler. Följ stegen nedan för att migrera:
 
-1. Lägg till [Återgivningsmappningsregler](/help/user-guide/adaptive-renditions.md).
+1. Lägg till [Regler för återgivningsmappning](/help/user-guide/adaptive-renditions.md).
 1. Skapa en mapp för nya kanaler och lägg till en referenspunkt vid återgivningsmappningskonfigurationen.
 1. Skapa nya kanaler som ersätter de gamla och överför renderingar.
 1. Tilldela om skärmar till de nya kanalerna.
@@ -72,4 +72,3 @@ Om du vill aktivera funktionen lägger du till minst en mappningsregel och kontr
 
    >[!NOTE]
    >När migreringen är klar måste du se till att ta bort alla konfigurationsreferenser från kanaler, skärmar och platser och lägga till en enda i projektinnehållsnoden.
-

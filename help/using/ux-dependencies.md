@@ -1,15 +1,15 @@
 ---
 title: UX-beroenden för [!UICONTROL AEM Screens]
-seo-title: UX-beroenden för [!UICONTROL AEM Screens]
+seo-title: UX Dependencies for [!UICONTROL AEM Screens]
 description: Guiden beskriver UX-beroenden för [!UICONTROL AEM Screens]
-seo-description: Guiden beskriver UX-beroenden för [!UICONTROL AEM Screens]
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+seo-description: The guide describes UX Dependencies for [!UICONTROL AEM Screens]
+exl-id: 05a4a7a7-0a97-47a1-b371-056ab31f4ed5
+source-git-commit: 707833ddd8ab2573abcac4e9a77ec88778624435
 workflow-type: tm+mt
-source-wordcount: '143'
+source-wordcount: '134'
 ht-degree: 0%
 
 ---
-
 
 # UX-beroenden {#ux-dependencies}
 
@@ -40,5 +40,3 @@ Följande frågor bör beaktas när du definierar strategi för maskinvaruinneh�
 1. Krävs det flera enheter för en skärm (till exempel flera zoner, extra stora ritytor)?
 
 1. Vilka är miljöaspekterna, till exempel ljusstyrka, temperatur och årstid?
-
-

@@ -1,16 +1,16 @@
 ---
 title: Versionsinformation för funktionspaket 2008
-description: '"Följ den här sidan för att få information om AEM Screens Feature Pack 2008 släppt den 3 september 2020."'
-feature: Funktionspaket
+description: "Följ den här sidan för att få information om AEM Screens Feature Pack 2008 släppt den 3 september 2020."
+feature: Feature Pack
 role: Developer
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+exl-id: bd466576-a6d3-494c-82e5-c5326b6e0aca
+source-git-commit: 707833ddd8ab2573abcac4e9a77ec88778624435
 workflow-type: tm+mt
-source-wordcount: '341'
+source-wordcount: '339'
 ht-degree: 0%
 
 ---
-
 
 # Versionsinformation för funktionspaket 2008 {#release-notes-for-feature-pack}
 
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 AEM Screens har släppt AEM 6.5 Feature Pack 5.
 
-Du kan hämta det senaste funktionspaketet för AEM Screens 6.5.5 från [Software Distribution Portal](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) med din Adobe ID. Navigera till fliken **Adobe Experience Manager** och sök efter **skärmar** för att hämta det senaste funktionspaketet.
+Du kan ladda ned det senaste funktionspaketet för AEM Screens 6.5.5 från [Programdistributionsportal](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) med din Adobe ID. Navigera till **Adobe Experience Manager** flik och sök efter **Skärmar** för att få det senaste funktionspaketet.
 
 ## Releasedatum {#release-date}
 
@@ -34,13 +34,13 @@ Releasedatum för AEM Screens Feature Pack 2008 är 3 september 2020.
 
    I tidslinjevyn kan användaren visa de tilldelade tidsplanerna för kanalen från kontrollpanelen.
 
-   Mer information finns i [Tidslinjevyn](/help/user-guide/channel-assignment-latest-fp.md#timeline-view).
+   Se [Tidslinjevy](/help/user-guide/channel-assignment-latest-fp.md#timeline-view) för mer information.
 
 * **Återkommande schema**
 
    Med upprepningsschemat kan du ange ett återkommande schema för din kanal. Du ställer in flera upprepningsscheman för en kanal.
 
-   Mer information finns i [Återkommande schema](/help/user-guide/channel-assignment-latest-fp.md#recurrence-schedule).
+   Se [Återkommande schema](/help/user-guide/channel-assignment-latest-fp.md#recurrence-schedule) för mer information.
 
 * **Röstigenkänning till AEM Screens**
 
@@ -48,20 +48,19 @@ Releasedatum för AEM Screens Feature Pack 2008 är 3 september 2020.
 
    En innehållsförfattare kan konfigurera en visning som röstaktiverad. Syftet med den här funktionen är att ge kunderna möjlighet att använda tal som sätt att interagera med sina bildskärmar.
 
-   Mer information finns i [Röstigenkänning](voice-recognition.md).
+   Se [Röstigenkänning](voice-recognition.md) för mer information.
 
 ### Kända fel och korrigeringar {#known-issues}
 
 Du måste konfigurera en miljö för Windows- eller Android-spelare om du använder AEM Screens 6.5.5 Service Pack.
 
-Ange **SameSite-attributet för inloggningstokencookies** från **Lax** till **Ingen** från **Adobe Experience Manager Web Console
-Konfiguration** för alla AEM författare och publiceringsinstanser.
+Ange **Attributet SameSite för cookies för inloggningstoken** från **Lax** till **Ingen** från **Konfiguration av Adobe Experience Manager Web Console** på alla AEM författare och publiceringsinstanser.
 
-* Mer information finns i [Implementera Windows 10 Player](implementing-windows-player.md#fp-environment-setup).
+* Se [Implementera Windows 10 Player](implementing-windows-player.md#fp-environment-setup) för mer information.
 
-* Mer information finns i [Implementera Android Player](implementing-android-player.md#fp-environment-setup).
+* Se [Implementera Android Player](implementing-android-player.md#fp-environment-setup) för mer information.
 
-### Lanserade AEM Screens Players {#released-aem-screens-players}
+### Lanserade AEM Screens-spelare {#released-aem-screens-players}
 
 Följande AEM Screens-spelare släpps för AEM Screens som släpps AEM 6.5 Feature Pack 5.
 
@@ -69,6 +68,6 @@ Följande AEM Screens-spelare släpps för AEM Screens som släpps AEM 6.5 Featu
 * Windows
 * Android
 
-#### AEM Screens Player Downloads {#aem-screens-player-downloads}
+#### AEM Screens Player - nedladdningar  {#aem-screens-player-downloads}
 
-Om du vill hämta den senaste AEM Screens-spelaren och läsa mer om felkorrigeringarna kan du läsa **[AEM Screens Player Downloads](https://download.macromedia.com/screens/index.html)**.
+Om du vill hämta den senaste AEM Screens-spelaren och läsa mer om felkorrigeringarna kan du läsa **[AEM Screens Player - nedladdningar](https://download.macromedia.com/screens/index.html)**.

@@ -1,15 +1,15 @@
 ---
 title: Skapa och hantera kanaler
-seo-title: Hantera kanaler
+seo-title: Managing Channels
 description: Följ den här sidan om du vill veta mer om hur du skapar och hanterar kanaler. Den förklarar även kanalkontrollpanelen och redigerar innehåll för en kanal.
-seo-description: Följ den här sidan om du vill veta mer om hur du skapar och hanterar kanaler. Den förklarar även kanalkontrollpanelen och redigerar innehåll för en kanal.
-feature: Redigeringsskärmar
+seo-description: Follow this page to learn about creating and managing channels. It also explains channel dashboard and editing content for a channel.
+feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 7bbd211a-f54f-42b9-a1b3-516efe6fb579
 source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
-source-wordcount: '1328'
+source-wordcount: '1303'
 ht-degree: 0%
 
 ---
@@ -29,23 +29,23 @@ På den här sidan visas hur du skapar och hanterar kanaler för AEM Screens.
 
 När du har skapat ditt projekt för AEM Screens följer du stegen nedan för att skapa en ny kanal för ditt projekt:
 
-1. Klicka på länken Adobe Experience Manager (längst upp till vänster) och sedan på Skärmar. Du kan också navigera direkt till `https://localhost:4502/screens.html/content/screens`.
+1. Klicka på länken Adobe Experience Manager (längst upp till vänster) och sedan på Skärmar. Du kan även navigera direkt till `https://localhost:4502/screens.html/content/screens`.
 
-1. Navigera till ditt skärmsprojekt och välj mappen **Kanaler**.
+1. Navigera till ditt skärmsprojekt och välj **Kanaler** mapp.
 
-1. Klicka på **Skapa** i åtgärdsfältet.
+1. Klicka **Skapa** i åtgärdsfältet.
 
    ![demochannel](assets/create-channel1.png)
 
-1. Välj mallen **Sekvenskanal** i guiden **Skapa** och klicka på **Nästa**.
+1. Välj **Sekvenskanal** mall från **Skapa** guide och klicka **Nästa**.
 
    ![demochannel](assets/create-channel2.png)
 
-1. Ange titeln som **ScreensChannel** och klicka på **Skapa**.
+1. Ange titeln som **ScreensChannel** och klicka **Skapa**.
 
    ![demochannel](assets/create-project4.png)
 
-1. En sekvenskanal har nu lagts till i mappen **Kanaler**.
+1. En sekvenskanal har nu lagts till i din **Kanaler** mapp.
 
 ### Kanaltyper {#channel-types}
 
@@ -83,10 +83,10 @@ Du kan redigera, visa egenskaper och kontrollpanel, kopiera, förhandsgranska oc
 Följ stegen nedan om du vill lägga till eller redigera innehåll i en kanal:
 
 1. Markera kanalen som du vill redigera (se bilden ovan).
-1. Klicka på **Redigera** i det övre vänstra hörnet av åtgärdsfältet för att redigera kanalegenskaperna. Redigeraren öppnas och du kan lägga till resurser/komponenter i kanalen som du vill publicera.
+1. Klicka **Redigera** i åtgärdsfältets övre vänstra hörn för att redigera kanalegenskaperna. Redigeraren öppnas och du kan lägga till resurser/komponenter i kanalen som du vill publicera.
 
 >[!NOTE]
->Du kan lägga till komponenter i kanalen. Mer information finns i **[Lägga till komponenter i en kanal](adding-components-to-a-channel.md)**.
+>Du kan lägga till komponenter i kanalen. Se **[Lägga till komponenter i en kanal](adding-components-to-a-channel.md)** för mer information.
 
 ![demochannel1](assets/demochannel1.gif)
 
@@ -95,8 +95,8 @@ Följ stegen nedan om du vill lägga till eller redigera innehåll i en kanal:
 Följ stegen nedan för att överföra videoklipp till din kanal:
 
 1. Markera kanalen där du vill överföra videon.
-1. Klicka på **Redigera** i åtgärdsfältet för att öppna redigeraren.
-1. Välj **Videofilmer** under Resurser och dra och släpp önskade videoklipp.
+1. Klicka **Redigera** i åtgärdsfältet för att öppna redigeraren.
+1. Välj **Videor** under Resurser och dra och släpp önskade videoklipp.
 
 >[!NOTE]
 >Om du får problem med att överföra videoklipp i din kanal kan du läsa [Felsöka videoklipp](troubleshoot-videos.md).
@@ -106,7 +106,7 @@ Följ stegen nedan för att överföra videoklipp till din kanal:
 Följ stegen nedan om du vill visa eller redigera egenskaper för en kanal:
 
 1. Klicka på den kanal som du vill redigera.
-1. Klicka på **Egenskaper** i åtgärdsfältet för att visa/redigera kanalegenskaperna. På följande flikar kan du ändra alternativen.
+1. Klicka **Egenskaper** i åtgärdsfältet för att visa/redigera kanalegenskaperna. På följande flikar kan du ändra alternativen.
 
 ![egenskaper](assets/properties.gif)
 
@@ -115,7 +115,7 @@ Följ stegen nedan om du vill visa eller redigera egenskaper för en kanal:
 Följ stegen nedan för att visa kontrollpanelen för en kanal:
 
 1. Markera kanalen som du vill redigera.
-1. Klicka på **Kontrollpanel** i åtgärdsfältet för att visa instrumentpanelen. Panelen **KANALINFORMATION**,**TILLDELADE VISNINGAR** och **VÄNTANDE LAUNCHES** öppnas, vilket visas i figuren nedan:
+1. Klicka **Kontrollpanel** från åtgärdsfältet för att visa kontrollpanelen. The **KANALINFORMATION**,**TILLDELADE VISNINGAR** och **VÄNTANDE START** öppnas enligt bilden nedan:
 
 ![kontrollpanel](assets/dashboard.gif)
 
@@ -123,7 +123,7 @@ Följ stegen nedan för att visa kontrollpanelen för en kanal:
 
 Panelen Kanalinformation beskriver kanalegenskaperna tillsammans med förhandsvisningen av kanalen. Dessutom innehåller det information om huruvida kanalen är offline eller online.
 
-Klicka på (**)..**) i **KANALINFORMATION**-åtgärdsfältet om du vill visa egenskaper, redigera innehållet eller uppdatera cache (offlineinnehåll) för kanalen.
+Klicka på knappen (**...**) från **KANALINFORMATION** åtgärdsfältet om du vill visa egenskaper, redigera innehållet eller uppdatera cache-minnet (offlineinnehåll) för kanalen.
 
 ![screen_shot_2017-12-20at82048am](assets/screen_shot_2017-12-20at82048am.png)
 
@@ -138,14 +138,14 @@ Följ de här stegen för att aktivera det här alternativet från kanalkontroll
 
 1. **Ange att kanalen ska vara offline**
    1. Markera kanalen och välj **Egenskaper** i åtgärdsfältet
-   1. Navigera till fliken **Kanal** och se till att du avmarkerar alternativet **Utvecklarläge (framtvinga att kanalen är online)**
-   1. Klicka på **Spara och stäng**
+   1. Navigera till **Kanal** och se till att du avmarkerar **Utvecklarläge (tvinga kanaler att vara online)** option
+   1. Klicka **Spara och stäng**
 1. **Uppdatera offlineinnehåll**
    1. Markera kanalen och välj **Kontrollpanel** i åtgärdsfältet
-   1. Navigera till panelen **KANALINFORMATION** och klicka på *..*
+   1. Navigera till **KANALINFORMATION** panel och klicka *...*
    1. Klicka **Uppdatera offlineinnehåll**
 
-Du kan visa alternativet **Visa manifest** på panelen **KANALINFORMATION** på kontrollpanelen Kanal.
+Du borde se **Visa manifest** från **KANALINFORMATION** i panelen Kanal.
 
 ![image1](assets/channel-one.png)
 
@@ -157,7 +157,7 @@ Du kan visa alternativet **Visa manifest** på panelen **KANALINFORMATION** på 
 
 När du skapar en kanal kan den antingen definieras som en online- eller offlinekanal.
 
-En ***onlinekanal*** visar det uppdaterade innehållet i realtidsmiljön medan en ***offlinekanal*** visar det cachelagrade innehållet.
+An ***Onlinekanal***, visar det uppdaterade innehållet i realtidsmiljön medan en ***Offlinekanal***, visar det cachelagrade innehållet.
 
 Följ stegen nedan för att göra kanalen online:
 
@@ -167,28 +167,28 @@ Följ stegen nedan för att göra kanalen online:
 
    ![screen_shot_2019-08-01at31406pm](assets/screen_shot_2019-08-01at31406pm.png)
 
-   Klicka på **Kontrollpanel** i åtgärdsfältet för att visa spelarens status. Panelen **KANALINFORMATION** innehåller information om huruvida kanalen är online eller offline.
+   Klicka **Kontrollpanel** från åtgärdsfältet för att visa spelarens status. The **KANALINFORMATION** ger information om huruvida kanalen är online eller offline.
 
    ![screen_shot_2019-08-01at31458pm](assets/screen_shot_2019-08-01at31458pm.png)
 
-1. Klicka på **Egenskaper** i åtgärdsfältet och navigera till fliken **Kanal** enligt nedan:
+1. Klicka **Egenskaper** i åtgärdsfältet och navigera till **Kanal** enligt nedan:
 
    ![screen_shot_2019-08-01at31542pm](assets/screen_shot_2019-08-01at31542pm.png)
 
-1. Kontrollera **utvecklarläget** **(tvinga kanalen att vara online)** för att göra kanalen online.
+1. Kontrollera **Utvecklare** **läge (tvinga kanalen att vara online)** för att göra kanalen online.
 
-   Klicka på **Spara och stäng** för att spara alternativet.
+   Klicka **Spara och stäng** för att spara ditt alternativ.
 
    ![screen_shot_2019-08-01at31658pm](assets/screen_shot_2019-08-01at31658pm.png)
 
-   Gå tillbaka till kanalkontrollpanelen och nu visar panelen **KANALINFORMATION** spelarens onlinestatus.
+   Navigera tillbaka till kanalkontrollpanelen och nu till **KANALINFORMATION** visas spelarens onlinestatus.
 
    ![screen_shot_2019-08-01at31821pm](assets/screen_shot_2019-08-01at31821pm.png)
 
 >[!NOTE]
->Om du vill konfigurera din kanal igen som offline avmarkerar du alternativet Utvecklarläge på fliken **Egenskaper** (som i steg 3) och klickar sedan på **KANALINFORMATION** på panelen **Uppdatera offlineinnehåll**, som i bilden nedan.
+>Om du vill konfigurera din kanal igen som offline avmarkerar du alternativet för utvecklarläge i dialogrutan **Egenskaper** -fliken (som i steg 3) och sedan från **KANALINFORMATION** klicka på panelen **Uppdatera offlineinnehåll**, vilket visas i figuren nedan.
 
-![kontrollpanel2](assets/dashboard2.gif)
+![dashboard2](assets/dashboard2.gif)
 
 #### Automatiska eller manuella uppdateringar från enhetskontrollpanelen {#automatic-versus-manual-updates-from-the-device-dashboard}
 
@@ -204,7 +204,7 @@ I följande tabell sammanfattas de händelser som är associerade med de automat
   <tr>
    <td>Ändring i onlinekanal</td>
    <td>Innehåll uppdateras automatiskt</td>
-   <td><p>Innehåll uppdaterat på "Enhet: Push Config"</p> <p>Eller</p> <p>Innehåll uppdaterat på <strong><i>enhet: Starta om</i></strong></p> </td>
+   <td><p>Innehåll uppdaterat på "Enhet: Push Config"</p> <p>Eller</p> <p>Innehåll uppdaterat den <strong><i>Enhet: Starta om</i></strong></p> </td>
   </tr>
   <tr>
    <td>Ändring i offlinekanal, men kanalen "push-innehåll" aktiveras INTE (inget offlinepaket återskapas)</td>
@@ -214,7 +214,7 @@ I följande tabell sammanfattas de händelser som är associerade med de automat
   <tr>
    <td>Ändringen i offlinekanalen och kanalen "push-innehåll" aktiveras (nytt offlinepaket)</td>
    <td>Innehåll uppdateras automatiskt</td>
-   <td><p>Innehåll uppdaterat på <strong><i>enhet: Push-konfiguration</i></strong></p> <p>Eller</p> <p>Innehåll uppdaterat på <strong><i>enhet: Starta om</i></strong></p> </td>
+   <td><p>Innehåll uppdaterat den <strong><i>Enhet: Push-konfiguration</i></strong></p> <p>Eller</p> <p>Innehåll uppdaterat den <strong><i>Enhet: Starta om</i></strong></p> </td>
   </tr>
   <tr>
    <td><p>Ändringar i konfiguration</p>
@@ -225,7 +225,7 @@ I följande tabell sammanfattas de händelser som är associerade med de automat
      <li>Kanaltilldelning (roll, händelse, planering)</li>
     </ul> </td>
    <td>Konfigurationen uppdateras automatiskt</td>
-   <td><p>Konfigurationen har uppdaterats på <strong><i>Enhet: Push-konfiguration</i></strong></p> <p>Eller</p> <p>Konfigurationen har uppdaterats på <strong><i>Enhet: Starta om</i></strong></p> </td>
+   <td><p>Konfigurationen uppdaterades den <strong><i>Enhet: Push-konfiguration</i></strong></p> <p>Eller</p> <p>Konfigurationen uppdaterades den <strong><i>Enhet: Starta om</i></strong></p> </td>
   </tr>
  </tbody>
 </table>
@@ -234,7 +234,7 @@ I följande tabell sammanfattas de händelser som är associerade med de automat
 
 Den tilldelade visningspanelen visar den visning som är associerad med kanalen. Den innehåller en ögonblicksbild av den tilldelade visningen tillsammans med upplösningen.
 
-De associerade skärmarna visas på panelen **Tilldelade skärmar** enligt nedan:
+De associerade skärmarna visas i listan **Tilldelade bildskärmar** enligt nedan:
 
 ![chlimage_1-27](assets/chlimage_1-27.png)
 
@@ -242,11 +242,11 @@ De associerade skärmarna visas på panelen **Tilldelade skärmar** enligt nedan
 >Mer information om hur du skapar en visning på en plats finns i:
 >
 >* [Skapa och hantera platser](managing-locations.md)
-* [Skapa och hantera bildskärmar](managing-displays.md)
+>* [Skapa och hantera bildskärmar](managing-displays.md)
+>
 
 
-
-Klicka dessutom på visningen på panelen **TILLDELADE VISNINGAR** för att visa visningsinformationen enligt nedan:
+Klicka dessutom på visningen i **TILLDELADE VISNINGAR** för att visa visningsinformationen enligt nedan:
 
 ![chlimage_1-28](assets/chlimage_1-28.png)
 

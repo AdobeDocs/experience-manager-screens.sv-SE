@@ -1,8 +1,8 @@
 ---
 title: Versionsinformation för funktionspaket 201907
-seo-title: Versionsinformation för funktionspaket 201907
+seo-title: Release Notes for Feature Pack 201907
 description: Följ den här sidan för att få information om AEM Screens Feature Pack 201907 släppt den 31 juli 2019.
-seo-description: Följ den här sidan för att få information om AEM Screens Feature Pack 201907 släppt den 31 juli 2019.
+seo-description: Follow this page to get information for AEM Screens Feature Pack 201907 released on July 31, 2019.
 uuid: e5349c92-d532-4f04-a757-7c4545cdb074
 contentOwner: jsyal
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
@@ -10,16 +10,16 @@ topic-tags: release-notes
 content-type: reference
 discoiquuid: 826d1599-02d1-4d24-b15d-26c1ffee36a2
 docset: aem65
-feature: Funktionspaket
+feature: Feature Pack
 role: Developer
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+exl-id: 6a05a014-aedf-4261-849d-abf1ce070964
+source-git-commit: 707833ddd8ab2573abcac4e9a77ec88778624435
 workflow-type: tm+mt
-source-wordcount: '386'
+source-wordcount: '365'
 ht-degree: 0%
 
 ---
-
 
 # Versionsinformation för funktionspaket 201907 {#release-notes-for-feature-pack}
 
@@ -39,13 +39,13 @@ Releasedatum för AEM Screens Feature Pack 201907 är 31 juli 2019.
 
 Spelaren växlar till en kanal som visar nödinformationen när den tar emot en händelse som utlösts av nödsystemet. Kanalen fungerar bara tills krissituationen är över.
 
-Se [Nödkanal](emergency-channel.md) Användningsfall för implementering.
+Se [Nödkanal](emergency-channel.md) Använd fall för implementering.
 
 * **Målgruppsanpassning aktiverad för asynkrona komponenter
 
 Målinriktning kan nu aktiveras för resurser som används i AEM Screens-projekt.
 
-Mer information om hur du kan aktivera målinriktning för resurser i AEM Screens-projekt finns i [Konfigurera ContextHub i AEM Screens](configuring-context-hub.md).
+Mer information om hur du kan aktivera målinriktning för resurser i AEM Screens-projekt finns i [ContextHub konfigureras i AEM Screens](configuring-context-hub.md).
 
 När du har konfigurerat ContextHub för ditt AEM Screens-projekt kan du följa olika användningsexempel för att förstå hur datainlösande resurser spelar en viktig roll i olika branscher:
 
@@ -62,13 +62,13 @@ Uppdateringshanteraren tolkar nu upplevelsefragmenten och samlar in alla bilder,
 * **Launches**
 
 Med det här alternativet kan innehållsförfattare skapa framtida versioner av kanalerna. Med hjälp av startguider kan man förhandsgranska varje kanal i lanseringen och bör kunna initiera en granskningsförfrågan. Godkännargruppen får meddelanden och kan godkänna eller avvisa begäran. När live-datumet nås spelas innehållet upp på enheterna.
-Mer information finns i [Startar](launches.md).
+Se [Startar](launches.md) för mer information.
 
 * **Offlinekonfigurationer i Experience Fragments**
 
-Nu kan du lägga till offlinekonfigurationer (klientbibliotek och statiska filer) när du konfigurerar fragment för skärmar. Mer information finns i [Använda Experience Fragments](experience-fragments-in-screens.md).
+Nu kan du lägga till offlinekonfigurationer (klientbibliotek och statiska filer) när du konfigurerar fragment för skärmar. Se [Använda upplevelsefragment](experience-fragments-in-screens.md) för mer information.
 
-### Lanserade AEM Screens Players {#released-aem-screens-players}
+### Lanserade AEM Screens-spelare {#released-aem-screens-players}
 
 Följande AEM Screens-spelare finns för AEM 6.4.5 Feature Pack 5 och AEM 6.5.1 Feature Pack 1:
 
@@ -76,6 +76,6 @@ Följande AEM Screens-spelare finns för AEM 6.4.5 Feature Pack 5 och AEM 6.5.1 
 * Windows
 * Android
 
-#### AEM Screens Player Downloads {#aem-screens-player-downloads}
+#### AEM Screens Player - nedladdningar  {#aem-screens-player-downloads}
 
-Om du vill hämta den senaste AEM Screens-spelaren och läsa mer om felkorrigeringarna kan du läsa [AEM Screens Player Downloads](https://download.macromedia.com/screens/).
+Om du vill hämta den senaste AEM Screens-spelaren och läsa mer om felkorrigeringarna kan du läsa [AEM Screens Player - nedladdningar](https://download.macromedia.com/screens/).

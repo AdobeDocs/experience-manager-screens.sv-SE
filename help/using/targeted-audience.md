@@ -1,12 +1,11 @@
 ---
 title: Målgrupp
-seo-title: Målgrupp för AEM Screens
+seo-title: Target Audience for AEM Screens
 description: På sidan beskrivs vilka som är målgrupp för AEM Screens Best Practices Guide
-seo-description: På sidan beskrivs vilka som är målgrupp för AEM Screens Best Practices Guide
-translation-type: tm+mt
+seo-description: The page describes who are the target audience for AEM Screens Best Practices Guide
 source-git-commit: 54c5a2f2f3f755e4da4028d54042f4bd8f2df369
 workflow-type: tm+mt
-source-wordcount: '520'
+source-wordcount: '501'
 ht-degree: 4%
 
 ---
@@ -68,4 +67,4 @@ Kreatörerna och Content Management kan vara något av följande:
 Projektledare hanterar vanligtvis hela distributionen av AEM Screens. En projektledare är punktpersonen för hela genomförandet av det utsedda projektet och har ett viktigt ansvar, till exempel att ställa in tidslinjer, hantera teambehov och kommunikation, möta utmaningar och se till att målen uppfylls.
 
 >[!NOTE]
->Om du vill veta mer om olika roller och ansvarsområden och målgruppen för ett digitalt signeringsprojekt går du till **[Projektroller och ansvarsområden](https://helpx.adobe.com/experience-manager/6-5/screens/using/project-roles-responsibilities.html)**.
+>Om du vill veta mer om olika roller och ansvarsområden och målgruppen för ett projekt för digitala signaturer kan du besöka **[Projektroller och ansvarsområden](https://helpx.adobe.com/experience-manager/6-5/screens/using/project-roles-responsibilities.html)**.

@@ -1,13 +1,13 @@
 ---
 title: Direktåtkomst till Internet
 description: Direktåtkomst till Internet
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+exl-id: a393ce2f-b774-4cd5-9001-c5cc24d445ae
+source-git-commit: 707833ddd8ab2573abcac4e9a77ec88778624435
 workflow-type: tm+mt
 source-wordcount: '697'
 ht-degree: 0%
 
 ---
-
 
 # Direkt Internet-nätverk (trådlöst/trådlöst) {#direct-internet-access}
 
@@ -48,7 +48,7 @@ Följ stegen nedan för att se till att AEM skärmspelare är korrekt anslutna i
    >**Felsökningstips**
    >Om AEM Screens inte ansluter korrekt och det förväntade innehållet inte visas:
    >
-   >1. Kontrollera brandväggen för Internetroutern om det finns begränsningar för `TCP/IP Port 80/443`.
+   >1. Kontrollera brandväggen för Internetroutern om det finns några begränsningar gällande `TCP/IP Port 80/443`.
    >1. Kontrollera att alla portar som krävs tillåts.
 
 
@@ -64,7 +64,7 @@ Direct Internet Network är logiskt uppdelat i två block:
 
 Prestandan för internetanslutningen, förutom att nätverket kan nås, är att tillhandahålla tillräcklig bandbredd för att AEM Screens ska fungera.
 
-*Tillräcklig* effektivitet beror på antalet anslutna AEM och på hur andra konsumenter använder nätverket, till exempel smarttelefoner, surfplattor, kassörer, datorer eller Wi-Fi-gäster.
+*Tillräckligt* beror på antalet anslutna AEM och på hur andra konsumenter i nätverket använder sig, t.ex. smarttelefoner, surfplattor, kassörer, datorer eller Wi-Fi-gäster.
 
 >[!NOTE]
 >
@@ -75,7 +75,7 @@ Prestandan för internetanslutningen, förutom att nätverket kan nås, är att 
 Prestandan för det lokala nätverket (LAN), förutom att nätverket kan nås, ger tillräcklig bandbredd för att AEM Screens ska fungera.
 
 LAN-nätverket matchar vanligtvis minst ett 100 Mbit/s-nätverk, så att det finns tillräckligt med bandbredd för att ansluta många enheter med bra prestanda till systemet.
-Om en Wi-Fi-lösning planeras för att ansluta AEM Screens till Internet Link rekommenderar vi att du åtminstone använder moderna Wi-Fi-standarder som `IEEE 802.11g`. Den här standarden stöder anslutningar på upp till 54 Mbit/s. Alla *nyare*-standarder som `802.11h-n` har bättre kvalitet.
+Om en Wi-Fi-lösning planeras för att ansluta AEM Screens till Internet Link rekommenderar vi att man använder moderna Wi-Fi-standarder som `IEEE 802.11g` som ett minimum. Den här standarden stöder anslutningar på upp till 54 Mbit/s. Alla *nyare* Standarder som `802.11h-n` är av bättre kvalitet.
 
 >[!NOTE]
 >
@@ -96,4 +96,3 @@ Följande tabell ger en översikt över data för nätverksanslutningsnycklar.
 >Med hjälp av informationen kan du visa förbrukningen för varje enhet i nätverket som begär och hämtar en Internetkälla. Var och en av dessa förfrågningar sammanfattar och förlänger hämtningstiden.
 
 ![](/help/assets/download-times-direct.png)
-

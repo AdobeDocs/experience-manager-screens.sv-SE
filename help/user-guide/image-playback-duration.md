@@ -1,13 +1,12 @@
 ---
 title: Varaktighet för bilduppspelning
-seo-title: Varaktighet för bilduppspelning
+seo-title: Image Playback Duration
 description: Följ den här sidan om du vill veta mer om hur lång uppspelningen är.
-seo-description: Följ den här sidan om du vill veta mer om hur lång uppspelningen är.
+seo-description: Follow this page to learn about image playback duration.
 contentOwner: jsyal
-translation-type: tm+mt
 source-git-commit: 69a40e437fa9b19e283bcf1a1322d18e17990a49
 workflow-type: tm+mt
-source-wordcount: '341'
+source-wordcount: '329'
 ht-degree: 1%
 
 ---
@@ -25,7 +24,7 @@ Innan du börjar implementera den här funktionen måste du se till att du har k
 
 1. Skapa ett AEM Screens-projekt (i det här exemplet **ChannelLevelPlayback**)
 
-1. Skapa en sekvenskanal som **PlaybackChannel** under **Kanaler**-mapp
+1. Skapa en sekvenskanal som **PlaybackChannel** under **Kanaler** mapp
 
 1. Lägg till innehåll i **PlaybackChannel**
 
@@ -41,11 +40,11 @@ Följ stegen nedan för att lära dig hur du uppdaterar tilldelning för bildspe
 
    ![screen_shot_2019-06-24at62818pm](assets/screen_shot_2019-06-24at62818pm.png)
 
-1. Klicka på **Redigera** i åtgärdsfältet för att öppna redigeraren.
+1. Klicka **Redigera** i åtgärdsfältet för att öppna redigeraren.
 
    ![screen_shot_2019-06-24at70141pm](assets/screen_shot_2019-06-24at70141pm.png)
 
-1. Lägg till två eller flera bilder i kanalredigeraren, enligt bilden nedan.
+1. Lägg till två eller flera bilder i kanalredigeraren, vilket visas i bilden nedan.
 
    ![screen_shot_2019-06-24at90534pm](assets/screen_shot_2019-06-24at90534pm.png)
 
@@ -53,7 +52,7 @@ Följ stegen nedan för att lära dig hur du uppdaterar tilldelning för bildspe
 
    ![screen_shot_2019-06-25at95945am](assets/screen_shot_2019-06-25at95945am.png)
 
-1. **Dialogrutan** Sidor öppnas.
+1. **Sida** öppnas.
 
    >[!NOTE]
    >
@@ -61,7 +60,7 @@ Följ stegen nedan för att lära dig hur du uppdaterar tilldelning för bildspe
 
    ![screen_shot_2019-06-25at100343am](assets/screen_shot_2019-06-25at100343am.png)
 
-   Redigera **Varaktighet** från 8 000 (ms) till 3 000 (ms), d.v.s. 3 sekunder. Klicka på bockmarkeringen längst upp till höger i dialogrutan **Sida** för att spara ändringarna.
+   Redigera **Varaktighet** från 8 000 (ms) till 3 000 (ms), dvs. 3 sekunder. Klicka på bockmarkeringen längst upp till höger på **Sida** för att spara ändringarna.
 
    ![screen_shot_2019-06-25at101527am](assets/screen_shot_2019-06-25at101527am.png)
 

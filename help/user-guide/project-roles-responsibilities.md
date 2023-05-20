@@ -1,14 +1,14 @@
 ---
-title: '"Del 1: Projektroller och ansvarsområden"'
-seo-title: '"Del 1: Projektroller och ansvarsområden"'
+title: "Del 1: Projektroller och ansvarsområden"
+seo-title: "Part 1: Project Roles and Responsibilities"
 description: Följ den här självstudiekursen för att få en bättre förståelse för roller, ansvarsområden och tidslinjer som krävs under försäljnings- och projektlivscykeln för ett digitalt signeringsprojekt.
-feature: Översikt
+feature: Overview
 role: User, Data Architect
 level: Beginner
 exl-id: 313cc26f-c509-4b28-a185-4e530e826b83
 source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
-source-wordcount: '472'
+source-wordcount: '466'
 ht-degree: 0%
 
 ---
@@ -41,7 +41,7 @@ Adobe innehåller Adobe Managed Services-resurser som CSE (Customer Success Engi
 
 #### AEM {#aem-implementors}
 
-En **AEM implementor** ansvarar för att utföra utvecklings- och integreringsuppgifter för att utveckla användarupplevelsen, anpassade mallar och serverintegreringar för AEM.
+An **AEM** ansvarar för utvecklings- och integreringsuppgifter för att utveckla användarupplevelsen, anpassade mallar och bakomliggande integreringar för AEM.
 
 Anpassade funktioner som krävs för att hantera parametrar för användarupplevelse hämtas och levereras via den här processen.
 
@@ -49,7 +49,7 @@ AEM implementerare distribuerar vanligtvis anpassade funktioner i faser över ti
 
 #### AV-integratörer {#av-integrators}
 
-En **AV-integrator** ansvarar för att utföra identifiering med slutkunder för att definiera krav som bestämmer projektets omfång för att utforma, bygga och effektivt hantera distributioner kring maskinvara för digitala signaturer.
+An **AV-integratör** ansvarar för att utföra identifieringar med slutkunder för att definiera krav som avgör projektets omfattning för att utforma, bygga och effektivt hantera driftsättningar kring maskinvara för digitala signaturer.
 
 ## Del 1: Videosjälvstudiekurs om projektroller och ansvarsområden {#part-video-tutorial-on-project-roles-and-responsibilities}
 
@@ -65,4 +65,4 @@ Följ självstudiekursen nedan för att få en förståelse för hur alla faktor
 
 När du har förstått projektrollerna och ansvarsområdena i implementeringen av ett projekt för digitala signaturer kan du följa nästa självstudiekurs som fördjupar dig i ämnen som testning och överväganden före försäljning när projektet är omfång när du utvecklar möjligheter för AEM Screens.
 
-Navigera till **[Del 2: Om du vill ha mer information kan du ta hänsyn till att projekt är omfång](project-considerations.md)**.
+Navigera till **[Del 2: Att tänka på när projekt är omfång](project-considerations.md)** för mer information.

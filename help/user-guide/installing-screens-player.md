@@ -23,20 +23,20 @@ På den här sidan beskrivs hur du installerar AEM Screens Player.
 
 AEM Screens Player finns för Android, Chrome OS och Windows.
 
-Om du vill hämta **AEM Screens Player** går du till sidan [AEM 6.5 Player Downloads](https://download.macromedia.com/screens/).
+För nedladdning **AEM Screens Player**, går till [AEM 6.5 Player Downloads](https://download.macromedia.com/screens/) sida.
 
 >[!NOTE]
 >
->När du har laddat ned den senaste spelaren (*.exe*) följer du stegen på spelaren för att slutföra ad hoc-installationen:
+>När du laddat ned den senaste spelaren (*.exe*) följer du stegen på spelaren för att slutföra ad hoc-installationen:
 >
 >1. Tryck länge på det övre vänstra hörnet för att öppna administrationspanelen.
->1. Navigera till **Konfiguration** på den vänstra åtgärdsmenyn och ange platsadressen för den AEM instansen i **Server** och klicka på **Spara**.
->1. Klicka på länken **Registrering** i den vänstra åtgärdsmenyn och stegen nedan för att slutföra enhetsregistreringsprocessen.
+>1. Navigera till **Konfiguration** från den vänstra åtgärdsmenyn och ange platsadressen för den AEM instansen i **Server** och klicka **Spara**.
+>1. Klicka på **Registrering** från den vänstra åtgärdsmenyn och stegen nedan för att slutföra enhetsregistreringsprocessen.
 
 
 ## Grundläggande uppspelningsövervakning {#playback-monitoring}
 
-Spelaren rapporterar olika uppspelningsmått med varje `ping` som har standardvärdet 30 sekunder. Baserat på dessa mätvärden kan vi identifiera olika kantfall, t.ex. problem med fastsittning, tomma skärmar och schemaläggning. Detta gör att vi kan förstå och felsöka problem på enheten och därmed underlätta en utredning och korrigerande åtgärder med dig.
+Spelaren rapporterar olika uppspelningsmått för varje `ping` som standard är 30 sekunder. Baserat på dessa mätvärden kan vi identifiera olika kantfall, t.ex. problem med fastsittning, tomma skärmar och schemaläggning. Detta gör att vi kan förstå och felsöka problem på enheten och därmed underlätta en utredning och korrigerande åtgärder med dig.
 
 Med grundläggande uppspelningsövervakning i en AEM Screens-spelare kan vi:
 
@@ -71,7 +71,7 @@ Några begränsningar för grundläggande uppspelningsövervakning visas nedan:
 
 * Spelaren rapporterar ett eget uppspelningsläge till servern, vilket kräver en aktiv anslutning.
 
-* Egenskapen `isContentRendering` som kontrollerar grafikprocessorn är för närvarande för resurskrävande för att aktiveras som standard och kräver explicit deltagande från spelarinställningarna. Du bör inte använda den tillsammans med videofilmer i produktionen.
+* The `isContentRendering` som kontrollerar att grafikprocessorn för tillfället är för resurskrävande för att aktiveras som standard och kräver explicit deltagande från spelarens inställningar. Du bör inte använda den tillsammans med videofilmer i produktionen.
 
 * Den här funktionen stöds bara för sekvenskanaler och täcker ännu inte de interaktiva kanalernas (SPA) användningsfall.
 
@@ -83,6 +83,6 @@ Mer information finns i följande avsnitt:
 
 * Om du vill hämta Android Player går du till **Google Play**. Mer information om hur du implementerar Android-övervakning finns i [Implementera Android-spelare](implementing-android-player.md).
 
-* Mer information om hur du implementerar Chrome OS Player finns i [Chrome Management Console](implementing-chrome-os-player.md).
+* För implementering av Chrome OS Player, se [Chrome Management Console](implementing-chrome-os-player.md) för mer information.
 
-* Information om hur du konfigurerar AEM Screens Windows Player finns i [Implementera Windows Player](implementing-windows-player.md).
+* Om du vill konfigurera AEM Screens Windows Player går du till [Implementera Windows Player](implementing-windows-player.md).

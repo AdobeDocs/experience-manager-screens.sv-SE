@@ -4,7 +4,8 @@ description: Följ den här sidan för att få information om AEM Screens Featur
 feature: Feature Pack
 role: Developer
 level: Intermediate
-source-git-commit: 6c1576a46511b172e703de59414e301fdffe2992
+exl-id: 5fd41f3a-212d-4179-8e59-22c0a32a1e19
+source-git-commit: 2db3ebae489bc0fcc435e21e45e41c995d3a617e
 workflow-type: tm+mt
 source-wordcount: '295'
 ht-degree: 1%

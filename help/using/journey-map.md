@@ -1,15 +1,15 @@
 ---
 title: Resekarta
-seo-title: Resekarta för AEM Screens
+seo-title: Journey Map for AEM Screens
 description: Sidan beskriver Journey Map for AEM Screens
-seo-description: Sidan beskriver Journey Map for AEM Screens
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+seo-description: The page describes Journey Map for AEM Screens
+exl-id: 23c368aa-5c5e-4bc8-802f-6ff53ec9e63a
+source-git-commit: 707833ddd8ab2573abcac4e9a77ec88778624435
 workflow-type: tm+mt
-source-wordcount: '294'
+source-wordcount: '281'
 ht-degree: 0%
 
 ---
-
 
 # UX-resekarta {#journey-map}
 
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 En karta över användarupplevelser är utformad för att ge insyn i hur och varför användarna kommer att uppleva det digitala innehåll som levereras via nätverket.
 
-## Bygger UX Journey Map {#building-map}
+## Bygga UX Journey Map {#building-map}
 
 Att förstå hur konsumenterna kommer att interagera med ett digitalt signeringsnätverk i en fysisk rymd är avgörande för att det nätverket ska lyckas och ge mervärde. Det hjälper också till att förstå hur de digitala upplevelserna kommer att konsumeras i samband med alla andra kanaler som en kund kan träffa på.
 

@@ -1,21 +1,21 @@
 ---
 title: Skapa och hantera skärmar
-seo-title: Hantera skärmar
+seo-title: Managing Displays
 description: Följ den här sidan om du vill veta mer om hur du skapar en ny skärm- och enhetskonfiguration. Lär dig dessutom om kontrollpanelen för visning.
-seo-description: Följ den här sidan om du vill veta mer om hur du skapar en ny skärm- och enhetskonfiguration. Lär dig dessutom om kontrollpanelen för visning.
+seo-description: Follow this page to learn about creating a new display and device config. Additionally, learn about the display dashboard.
 uuid: dfde0740-5c8b-4e6c-bc83-bf8fbb31a16a
 contentOwner: Jyotika syal
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
 discoiquuid: f8e2e7a3-f3a1-4c35-b055-166752c3fb86
-feature: Redigeringsskärmar
+feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: c55dc128-208d-4379-95a8-60a39d495dc0
 source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
-source-wordcount: '775'
+source-wordcount: '752'
 ht-degree: 0%
 
 ---
@@ -39,19 +39,19 @@ På den här sidan visas hur du skapar och hanterar skärmar.
 
 >[!NOTE]
 >
->Du måste skapa en plats innan du skapar en visning. Mer information om hur du skapar en plats finns i [Skapa och hantera platser](managing-locations.md).
+>Du måste skapa en plats innan du skapar en visning. Om du vill se hur du skapar en plats kan du gå till [Skapa och hantera platser](managing-locations.md) för mer information.
 
 Följ stegen nedan för att skapa en ny visning på din plats:
 
 1. Navigera till lämplig plats, till exempel `http://localhost:4502/screens.html/content/screens/TestProject`.
-1. Välj din platsmapp och tryck/klicka på **Skapa** bredvid plusikonen i åtgärdsfältet. En guide öppnas.
-1. Välj **Visa** i guiden **Skapa** och klicka på **Nästa**.
+1. Välj din platsmapp och tryck/klicka **Skapa** bredvid plusikonen i åtgärdsfältet. En guide öppnas.
+1. Välj **Visa** från **Skapa** guide och klicka **Nästa**.
 
-1. Ange **Namn** och **Titel** som visningsplats.
+1. Retur **Namn** och **Titel** för din visningsplats.
 
-1. Välj information om layouten under fliken **Visa**. Välj önskad **upplösning** (till exempel **Full HD**). Dessutom kan du välja antalet enheter vågrätt och lodrätt.
+1. Under **Visa** väljer du information om layouten. Välj önskat **Upplösning** (exempel som **Full HD**). Dessutom kan du välja antalet enheter vågrätt och lodrätt.
 
-1. Klicka på **Skapa**.
+1. Klicka **Skapa**.
 
 Visningen (*StoreDisplay*) skapas och läggs till på platsen (*SanJose*).
 
@@ -65,7 +65,7 @@ När du har visat på plats är nästa steg att skapa en enhetskonfiguration fö
 >
 >När du har skapat en visning för din plats måste du tilldela en kanal till din skärm för att kunna utnyttja innehållet.
 >
->Avsnittet [Tilldela kanaler](channel-assignment.md) innehåller information om hur du tilldelar en kanal till visningen.
+>Se [Tilldela kanaler](channel-assignment.md) för att lära dig hur du tilldelar en kanal till visningen.
 
 ## Skapa en ny enhetskonfiguration {#creating-a-new-device-config}
 
@@ -74,14 +74,14 @@ En enhetskonfiguration fungerar som platshållare för en faktisk digital signer
 Följ stegen nedan för att skapa en ny enhetskonfiguration:
 
 1. Navigera till lämplig visning, till exempel `http://localhost:4502/screens.html/content/screens/TestProject/locations/newlocation`.
-1. Markera visningsmappen och tryck/klicka på **Visa instrumentpanel** i åtgärdsfältet.
-1. Tryck/klicka på **+ Add Device Config** överst till höger på panelen **Devices**.
+1. Välj visningsmapp och tryck/klicka **Visa instrumentpanel** i åtgärdsfältet.
+1. Tryck/klicka på **+ Lägg till enhetskonfiguration** överst till höger på **Enheter** -panelen.
 
-1. Välj **Device Config** som önskad mall och tryck/klicka på **Nästa**.
+1. Välj **Enhetskonfiguration** som önskad mall och tryck/klicka **Nästa**.
 
-1. Ange egenskaperna efter behov och tryck/klicka på **Skapa**.
+1. Ange egenskaperna efter behov och tryck/klicka **Skapa**.
 
-Enhetskonfigurationen skapas och läggs till i den aktuella skärmen (i följande demonstration är den nya enhetskonfigurationen *DeviceConfig*).
+Enhetskonfigurationen skapas och läggs till i den aktuella skärmen (i följande exempel är den nya enhetskonfigurationen *DeviceConfig*).
 
 ![deviceconfig](assets/deviceconfig.gif)
 
@@ -91,9 +91,9 @@ När en enhetskonfiguration är inställd på din skärm på platsen blir nästa
 >
 >När en enhetskonfiguration är inställd på din skärm på platsen blir nästa steg att tilldela en kanal till din skärm.
 >
->Om enhetskonfigurationen visas som ej tilldelad i panelen **DEVICES**, om ingen kanal har tilldelats den aktuella enhetskonfigurationen, vilket visas i figuren nedan.
+>Så som visas i figuren nedan, om enhetskonfigurationen visas som ej tilldelad i **ENHETER** om ingen kanal har tilldelats den aktuella enhetskonfigurationen.
 >
->Du bör ha en förståelse för att skapa och hantera kanaler. Mer information finns i [Skapa och hantera kanaler](managing-channels.md).
+>Du bör ha en förståelse för att skapa och hantera kanaler. Se [Skapa och hantera kanaler](managing-channels.md) för mer information.
 
 ![chlimage_1-9](assets/chlimage_1-9.png)
 
@@ -113,30 +113,30 @@ På kontrollpanelen visas olika paneler för att hantera visningsenheter och enh
 
 ### Visa informationspanel {#display-information-panel}
 
-Panelen **VISNINGSINFORMATION** innehåller visningsegenskaperna.
+The **VISNINGSINFORMATION** Panelen innehåller visningsegenskaperna.
 
-Klicka på (**)..**) i det övre högra hörnet i panelen **VISNINGSINFORMATION** för att visa egenskaperna och förhandsgranska visningen.
+Klicka på knappen (**...**) i det övre högra hörnet i **VISNINGSINFORMATION** för att visa egenskaperna och förhandsgranska visningen.
 
 
 #### Visningsegenskaper {#viewing-properties}
 
-Klicka på **Egenskaper** för att visa eller ändra egenskaperna för visningen.
+Klicka **Egenskaper** om du vill visa eller ändra egenskaperna för visningen.
 
-Dessutom kan du justera händelsens timervärde för den interaktiva kanalen i egenskapen **Timeout för inaktivitet** under fliken **Visa**. Standardvärdet är *300 sekunder*.
+Dessutom kan du justera händelsens timervärde för den interaktiva kanalen i **Timeout för inaktivitet** egenskap under **Visa** -fliken. Standardvärdet är *300 sekunder*.
 
-Använd **CRXDE Lite** för att komma åt egenskapen **idleTimeout**, d.v.s. `http://localhost:4502/crx/de/index.jsp#/content/screens/we-retail/locations/demo/flagship/single/jcr%3Acontent/channels`.
+Använd **CRXDE Lite** för att få åtkomst till **idleTimeout** property, d.v.s. `http://localhost:4502/crx/de/index.jsp#/content/screens/we-retail/locations/demo/flagship/single/jcr%3Acontent/channels` .
 
 
 ### Panelen Tilldelade kanaler {#assigned-channels-panel}
 
-På panelen **TILLDELADE KANALER** visas de tilldelade kanalerna för den här enheten.
+The **TILLDELADE KANALER** visas de tilldelade kanalerna för den här enheten.
 
 
 ### Panelen Enheter {#devices-panel}
 
-Panelen **ENHETER** innehåller information om enhetskonfigurationerna.
+The **ENHETER** Panelen innehåller information om enhetskonfigurationerna.
 
-Klicka på (**)..**) i det övre högra hörnet i panelen **ENHETER** om du vill lägga till enhetskonfigurationer och uppdatera enheter.
+Klicka på knappen (**...**) i det övre högra hörnet i **ENHETER** för att lägga till enhetskonfigurationer och uppdatera enheter.
 
 Klicka dessutom på enhetskonfigurationen för att visa egenskaper, tilldela en enhet eller ta bort den helt.
 
@@ -146,4 +146,4 @@ Klicka dessutom på enhetskonfigurationen för att visa egenskaper, tilldela en 
 
 När du är klar med att skapa en visning för din plats måste du tilldela en kanal för din visning.
 
-Mer information finns i [Tilldela kanaler](channel-assignment.md).
+Se [Tilldela kanaler](channel-assignment.md) för mer information.

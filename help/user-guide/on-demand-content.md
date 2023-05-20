@@ -1,47 +1,47 @@
 ---
 title: On Demand Content Update
-seo-title: On Demand Content Update
-description: 'Följ den här sidan om du vill veta mer om innehållsuppdatering på begäran.  '
-seo-description: 'Följ den här sidan om du vill veta mer om innehållsuppdatering på begäran.  '
+seo-title: On-Demand Content Update
+description: Följ den här sidan om du vill veta mer om innehållsuppdatering på begäran.
+seo-description: Follow this page to learn about On-Demand Content Update.
 uuid: 18b9d175-ff26-42db-86aa-5ea978909f71
 contentOwner: Jyotika Syal
-feature: Redigeringsskärmar
+feature: Authoring Screens
 role: Developer
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+exl-id: 9ffdb1eb-a1ba-42ac-a30f-260004e5b165
+source-git-commit: 707833ddd8ab2573abcac4e9a77ec88778624435
 workflow-type: tm+mt
-source-wordcount: '856'
+source-wordcount: '842'
 ht-degree: 0%
 
 ---
 
-
-# Uppdatera on demand-innehåll {#on-demand}
+# On Demand Content Update {#on-demand}
 
 I det här avsnittet beskrivs on-demand-innehåll för hantering av publikationer.
 
-## Hantera publikation: Levererar innehållsuppdateringar från författare till publicering till enhet {#managing-publication-delivering-content-updates-from-author-to-publish-to-device}
+## Hantera publikation: Leverera innehållsuppdateringar från författare till enhet {#managing-publication-delivering-content-updates-from-author-to-publish-to-device}
 
 Du kan publicera och avpublicera innehåll från AEM Screens. Med funktionen Hantera publikation kan du leverera innehållsuppdateringar från författare till publicering till enhet. Du kan publicera/avpublicera innehåll för hela AEM Screens-projektet eller bara för en av dina kanaler, platser, enheter, program eller scheman.
 
-### Hantera publikation för ett AEM Screens-projekt {#managing-publication-for-an-aem-screens-project}
+### Hantera publikationer för ett AEM Screens-projekt {#managing-publication-for-an-aem-screens-project}
 
 Följ stegen nedan för att leverera innehållsuppdateringar från författaren till en enhet för ett AEM Screens-projekt:
 
 1. Gå till ditt AEM Screens-projekt.
-1. Klicka på **Hantera publikation** i åtgärdsfältet för att publicera projektet till publiceringsinstansen.
+1. Klicka **Hantera publikation** från åtgärdsfältet för att publicera projektet till publiceringsinstansen.
 
    ![screen_shot_2019-02-25at21420pm](assets/screen_shot_2019-02-25at21420pm.png)
 
-1. Guiden **Hantera publikation** öppnas. Du kan välja **åtgärden** och schemalägga publiceringstiden för tillfället eller senare. Klicka på **Nästa**.
+1. The **Hantera publikation** öppnas. Du kan välja **Åtgärd** och schemalägger även publiceringstiden för tillfället eller senare. Klicka på **Nästa**.
 
    ![screen_shot_2019-02-07at120304pm](assets/screen_shot_2019-02-07at120304pm.png)
 
-1. Markera kryssrutan för att markera hela projektet i guiden **Hantera publikation**.
+1. Markera kryssrutan för att markera hela projektet från **Hantera publikation** guide.
 
    ![screen_shot_2019-02-25at22712pm](assets/screen_shot_2019-02-25at22712pm.png)
 
-1. Klicka på **+ Inkludera underordnade** i åtgärdsfältet och avmarkera alla alternativ för att publicera alla moduler i projektet och klicka på **Lägg till** för att publicera.
+1. Klicka **+ Inkludera underordnade** från åtgärdsfältet och avmarkera alla alternativ för att publicera alla moduler i projektet och klicka på **Lägg till** att publicera.
 
    >[!NOTE]
    >
@@ -62,7 +62,7 @@ I följande bild kan du till exempel bara hantera och uppdatera de ändrade sido
    1. **Inkludera endast redan publicerade sidor**: Med det här alternativet kan du bara hantera uppdateringar av sidor som publicerats tidigare.
 
 
-1. Klicka på **Publicera** i **guiden Hantera publikation.**
+1. Klicka **Publicera** från **Guiden Hantera publikation.**
 
    ![screen_shot_2019-02-25at23341pm](assets/screen_shot_2019-02-25at23341pm.png)
 
@@ -72,11 +72,11 @@ I följande bild kan du till exempel bara hantera och uppdatera de ändrade sido
    >
    >
    >    1. Arbetsflödet fungerar inte om det inte finns några ändringar i projektet och inget för **Uppdatera offlineinnehåll**.
-   >    1. Arbetsflödet fungerar inte om författaren inte slutför replikeringsprocessen (innehållet överförs fortfarande till publiceringsinstansen) efter att ha klickat på knappen **Publicera** i arbetsflödet för att hantera publiceringen.
+   >    1. Arbetsflödet fungerar inte om författaren inte slutför replikeringsprocessen (innehållet överförs fortfarande till publiceringsinstansen) efter att ha klickat på **Publicera** i arbetsflödet för publicering.
 
 
    >[!CAUTION]
-   >Om du som författare eller innehållsskapare vill se ändringarna i de enheter som är kopplade till författarinstansen klickar du på **Uppdatera offlineinnehåll** från kanalkontrollpanelen eller genom att markera projektet. I det här fallet utförs uppdateringen av offlineinnehåll endast i författarinstansen.
+   >Om du som författare eller innehållsskapare vill se ändringarna i enheterna som är kopplade till författarinstansen klickar du på **Uppdatera offlineinnehåll** från kanalkontrollpanelen eller genom att välja projektet. I det här fallet utförs uppdateringen av offlineinnehåll endast i författarinstansen.
 
 1. Navigera till projektet och klicka på **Uppdatera offlineinnehåll** i åtgärdsfältet. Den här åtgärden vidarebefordrar samma kommando för att publicera instansen, så att offlinepostmeddelandena även skapas i publiceringsinstansen.
 
@@ -100,15 +100,15 @@ Följ stegen nedan för att leverera innehållsuppdateringar från författaren 
 >Följ bara det här avsnittet om det finns ändringar i en kanal. Om en kanal inte har några ändringar efter den tidigare uppdateringen av offlineinnehåll, kommer arbetsflödet för att hantera publicering för en enskild kanal inte att fungera.
 
 1. Navigera till ditt skärmsprojekt och markera kanalen.
-1. Klicka på **Hantera publikation** i åtgärdsfältet för att publicera kanalen till publiceringsinstansen.
+1. Klicka **Hantera publikation** från åtgärdsfältet för att publicera kanalen till publiceringsinstansen.
 
    ![screen_shot_2019-02-07at115800am](assets/screen_shot_2019-02-07at115800am.png)
 
-1. Guiden **Hantera publikation** öppnas. Du kan välja **åtgärden** och schemalägga publiceringstiden för tillfället eller senare. Klicka på **Nästa**.
+1. The **Hantera publikation** öppnas. Du kan välja **Åtgärd** och schemalägger även publiceringstiden för tillfället eller senare. Klicka på **Nästa**.
 
    ![screen_shot_2019-02-07at120304pm](assets/screen_shot_2019-02-07at120304pm.png)
 
-1. Klicka på **Publicera** i **guiden Hantera publikation.**
+1. Klicka **Publicera** från **Guiden Hantera publikation.**
 
    ![screen_shot_2019-02-07at120507pm](assets/screen_shot_2019-02-07at120507pm.png)
 
@@ -116,7 +116,7 @@ Följ stegen nedan för att leverera innehållsuppdateringar från författaren 
    >
    >Vänta i några sekunder/minuter så att innehållet når publiceringsinstansen.
 
-1. Utlösare **Uppdatera offlineinnehåll** i kanalkontrollpanelen skickar bara offlineinnehållet till författarinstansen, men inte till publiceringsinstansen. Steg 1-4 används för att överföra offlineinnehåll till publiceringsinstans.
+1. Utlösare **Uppdatera offlineinnehåll** i kanalkontrollpanelen flyttar bara offlineinnehållet till författarinstansen, men inte publiceringsinstansen. Steg 1-4 används för att överföra offlineinnehåll till publiceringsinstans.
 
    ![screen_shot_2019-02-07at21608pm](assets/screen_shot_2019-02-07at21608pm.png)
 

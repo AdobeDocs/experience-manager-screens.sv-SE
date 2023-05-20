@@ -1,8 +1,8 @@
 ---
 title: Uppdatera gruppvis offline
-seo-title: Uppdatera gruppvis offline
+seo-title: Bulk Offline Update
 description: Följ den här sidan för att lära dig hur du kan uppdatera alla kanaler samtidigt.
-seo-description: Följ den här sidan för att lära dig hur du kan uppdatera alla kanaler samtidigt.
+seo-description: Follow this page to learn how you can update all the channels in bulk.
 uuid: 9b52c5e7-aa6d-4f55-b23c-8bd923723552
 contentOwner: jsyal
 content-type: reference
@@ -10,13 +10,13 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
 discoiquuid: 5d4ca652-d918-4b2b-b239-a2be9255ef0d
 noindex: true
-feature: Redigeringsskärmar
+feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: d0a0b065-798e-4108-86ac-0a1f4e211cfc
 source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
-source-wordcount: '359'
+source-wordcount: '340'
 ht-degree: 1%
 
 ---
@@ -53,7 +53,7 @@ Du kan manuellt använda bulkuppdatering offline från användargränssnittet (U
 Följ stegen nedan om du vill använda en bulkuppdatering för ett AEM Screens-projekt:
 
 1. Gå till ditt AEM Screens-projekt.
-1. Markera projektet och klicka på **Uppdatera offlineinnehåll** i åtgärdsfältet om du vill uppdatera kanalinnehållet manuellt.
+1. Välj projektet och klicka på **Uppdatera offlineinnehåll** från åtgärdsfältet för att manuellt uppdatera kanalinnehållet.
 
    ![screen_shot_2018-04-24at122256pm](assets/screen_shot_2018-04-24at122256pm.png)
 
@@ -68,7 +68,7 @@ Följ stegen nedan om du vill använda en bulkuppdatering för ett AEM Screens-p
 
 1. Lägg till följande egenskaper:
 
-   **Projektsökväg** Ange sökvägen till ditt AEM Screens-projekt. Sökvägen är vanligtvis `/content/screens/<Name of your project>`.
+   **Projektsökväg** Ange sökvägen till ditt AEM Screens-projekt. Banan är vanligtvis `/content/screens/<Name of your project>`.
 
    *Till exempel*, `/content/screens/we-retail`. Du hittar den här sökvägen i URL:en genom att välja ett projekt under AEM Screens (klicka inte på ikonen).
 
@@ -76,6 +76,6 @@ Följ stegen nedan om du vill använda en bulkuppdatering för ett AEM Screens-p
    >
    >Ange projektsökvägen i förhållande till kanalen.
 
-   **Schemalägg** frekvensAnge en tidpunkt, till exempel klockan 17:00 eller 17:00, då den här tjänsten ska uppdatera offlineinnehåll.
+   **Schemaläggningsfrekvens** Ange en tidpunkt, till exempel 05:00 eller 17:00, då den här tjänsten ska uppdatera offlineinnehåll.
 
-1. Klicka på **Spara** om du vill spara inställningarna så uppdateras innehållet vid den angivna tidpunkten.
+1. Klicka **Spara** för att spara inställningarna så uppdateras innehållet vid den angivna tidpunkten.

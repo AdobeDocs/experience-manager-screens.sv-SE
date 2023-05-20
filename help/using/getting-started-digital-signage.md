@@ -1,15 +1,15 @@
 ---
 title: Grunderna för digital signering för [!UICONTROL AEM Screens]
-seo-title: Grunderna för digital signering för [!UICONTROL AEM Screens]
+seo-title: Basics Of Digital  Signage for [!UICONTROL AEM Screens]
 description: Guiden beskriver grunderna i ett digitalt signeringsprojekt
-seo-description: Guiden beskriver grunderna i ett digitalt signeringsprojekt
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+seo-description: The guide describes the basics of a digital signage project
+exl-id: e3913be2-9028-4773-a034-e16924a71e04
+source-git-commit: 707833ddd8ab2573abcac4e9a77ec88778624435
 workflow-type: tm+mt
-source-wordcount: '424'
+source-wordcount: '409'
 ht-degree: 0%
 
 ---
-
 
 # Grunderna i ett projekt för digital signering {#basics-digital-signage}
 
@@ -17,9 +17,9 @@ Innan man börjar använda sig av AEM Screens bästa praxis för implementering 
 
 I det här avsnittet ges rekommendationer om viktiga nyckelelement som är viktiga innan AEM Screens implementeras.
 
-## Nyckelelement i digital signatur {#key-elements}
+## Viktiga element i digital signering {#key-elements}
 
-*Nyckelelementen* i ett projekt för digitala signaturer är:
+The *Nyckelelement* i ett digitalt signeringsprojekt:
 
 ![](/help/assets/Elements-Revised.png)
 
@@ -33,7 +33,7 @@ Det är viktigt att du definierar nyckelelementen innan du implementerar ett pro
    * Användning av fysisk koppartråd
    * Skärmstorlek
    * Antal skärmar
-      * orientation
+      * orientering
       * proportioner
       * upplösning, inställning
 

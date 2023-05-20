@@ -40,15 +40,15 @@ Följ stegen nedan för att använda miniatyrbilden i videoklipp:
 
    ![bild](/help/user-guide/assets/thumbnails/thumbnail-2.png)
 
-1. Markera videon och klicka på ikonen *skiftnyckel* för att öppna videoegenskaperna.
+1. Markera videon och klicka på *wrench* -ikonen för att öppna videoegenskaperna.
 
    ![bild](/help/user-guide/assets/thumbnails/thumbnail-3.png)
 
-1. Dialogrutan **Video** öppnas där du kan visa släppzonen **Miniatyrbild**.
+1. The **Video** öppnas där du kan se **Miniatyrbild** släppzon.
 
    ![bild](/help/user-guide/assets/thumbnails/thumbnail-4.png)
 
-1. Dra och släpp en bild från resursväljaren till släppzonen **Miniatyrbild** och klicka på **Klar**.
+1. Dra och släpp en bild från resursväljaren till **Miniatyrbild** släppa zon och klicka på **Klar**.
 
    ![bild](/help/user-guide/assets/thumbnails/thumbnail-5.png)
 

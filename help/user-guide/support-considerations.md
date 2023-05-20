@@ -1,8 +1,8 @@
 ---
-title: '"Del 5: Supportöverväganden"'
-seo-title: '"Del 5: Supportöverväganden"'
+title: "Del 5: Supportöverväganden"
+seo-title: "Part 5: Support Considerations"
 description: Följ den här självstudiekursen för att lära dig hur maskinvaru-, programvaru- och anslutningsproblem hanteras. Utforska kostnadsberäkningar och ramverk för support på plats. Lär dig också hur parametrar för serviceavtal, driftsbudgetar och överlämnande av information från NOC hanteras.
-seo-description: Följ den här självstudiekursen för att lära dig hur maskinvaru-, programvaru- och anslutningsproblem hanteras. Utforska kostnadsberäkningar och ramverk för support på plats. Lär dig också hur parametrar för serviceavtal, driftsbudgetar och överlämnande av information från NOC hanteras.
+seo-description: Follow this tutorial to learn how hardware, software and connectivity issues are addressed. Explore cost estimations and frameworks for onsite support. Additionally learn how SLA parameters, operational budgets, and NOC handoffs are managed.
 uuid: da2f82e2-81e7-490e-9123-6479f05918a4
 contentOwner: jsyal
 content-type: reference
@@ -10,13 +10,13 @@ topic-tags: digital-signage-networks-basics
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 discoiquuid: 59430d38-b441-4488-934e-74a55122b063
 docset: aem65
-feature: Översikt
+feature: Overview
 role: User, Data Architect
 level: Beginner
 exl-id: d1472137-c15f-44fb-89c3-d251a06c392b
 source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
-source-wordcount: '635'
+source-wordcount: '598'
 ht-degree: 0%
 
 ---
@@ -33,10 +33,8 @@ Den här sidan belyser den avslutande delen i en 5-delsserie som utformats för 
 >
 >* Projektdistribution till fältet
 >* Verifiering av enhetsanslutning och drift mellan installationsteknikern och NOC (Network Operations Center)
-
 >
->
-Före dag 2 ska man planera för löpande livscykelbudgetar.
+>Före dag 2 ska man planera för löpande livscykelbudgetar.
 
 Planeringen innehåller följande:
 
@@ -71,4 +69,4 @@ Följ den här självstudiekursen för att komma till en 5-delsserie nedan som b
 
 ## Slutsats {#conclusion}
 
-Dessa 5-delsserier fokuserar på viktiga faktorer för att säkerställa att projektet blir framgångsrikt. Se andra avsnitt i användarhandboken för AEM Screens för mer information om implementeringen.
+Dessa 5-delsserier fokuserar på viktiga faktorer för att projektet ska lyckas. Se andra avsnitt i användarhandboken för AEM Screens för mer information om implementeringen.

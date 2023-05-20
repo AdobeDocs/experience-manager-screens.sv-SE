@@ -1,8 +1,8 @@
 ---
 title: Felsökning av Device Control Center
-seo-title: Övervaka skärmar
+seo-title: Monitoring Screens
 description: Följ den här sidan för att övervaka och felsöka prestanda för din aktivitet och enhet för skärmuppspelning med hjälp av enhetskonsolen.
-seo-description: Följ den här sidan för att övervaka och felsöka prestanda för din aktivitet och enhet för skärmuppspelning med hjälp av enhetskonsolen.
+seo-description: Follow this page to monitor and troubleshoot performance for your Screens player activity and device usingtheDevice dashboard.
 uuid: b6895d5d-c743-4e10-a166-de573e122335
 contentOwner: Jyotika Syal
 content-type: reference
@@ -10,16 +10,16 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: troubleshoot
 discoiquuid: 3f130808-71e8-4710-8181-021d953660f8
 docset: aem65
-feature: Digital skylt, innehåll, spelare
+feature: Digital Signage, Content, Players
 role: Developer
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+exl-id: 57105d6d-51ff-44ca-bbf2-ae9cce8addd0
+source-git-commit: 707833ddd8ab2573abcac4e9a77ec88778624435
 workflow-type: tm+mt
-source-wordcount: '805'
+source-wordcount: '782'
 ht-degree: 1%
 
 ---
-
 
 # Felsökning av Device Control Center {#troubleshooting-device-control-center}
 
@@ -29,11 +29,11 @@ Du kan övervaka och felsöka prestanda för din aktivitet och enhet för skärm
 
 Du kan övervaka aktiviteten och därmed felsöka skärmspelaren med Device Dashboard.
 
-### Enhetens instrumentpanel {#device-dashboard}
+### Instrumentpanel för enhet {#device-dashboard}
 
 Följ stegen nedan för att navigera till kontrollpanelen för enheter:
 
-1. Navigera till enhetskonsolen från ditt projekt, till exempel ***Testa projekt*** —> ***Enheter***.
+1. Navigera till kontrollpanelen för enheten från ditt projekt, till exempel ***Testa projekt*** —> ***Enheter***.
 
    Välj **Enheter** och **Enhetshanteraren** i åtgärdsfältet.
 
@@ -43,7 +43,7 @@ Följ stegen nedan för att navigera till kontrollpanelen för enheter:
 
    ![screen_shot_2019-09-05at12823pm](assets/screen_shot_2019-09-05at12823pm.png)
 
-1. Markera enheten (**NewTestDevice**) och klicka på **Kontrollpanel** i åtgärdsfältet.
+1. Välj enhet (**NewTestDevice**) och klicka på **Kontrollpanel** i åtgärdsfältet.
 
    ![screen_shot_2019-09-05at13341pm](assets/screen_shot_2019-09-05at13341pm.png)
 
@@ -53,65 +53,65 @@ Följ stegen nedan för att navigera till kontrollpanelen för enheter:
 
 ### Övervaka enhetsaktivitet {#monitor-device-activity}
 
-På panelen **Aktivitet** visas den senaste pingen av skärmspelaren med tidsstämpeln. Den senaste penseln motsvarar den senaste gången som enheten kontaktade servern.
+The **Aktivitet** på panelen visas den senaste pingen av skärmspelaren med tidsstämpeln. Den senaste penseln motsvarar den senaste gången som enheten kontaktade servern.
 
 ![chlimage_1](assets/chlimage_1.png)
 
-Klicka på **Samla in loggar** i det övre högra hörnet av panelen **Aktivitet** för att visa loggarna för spelaren.
+Klicka på **Samla in loggar** från det övre högra hörnet av **Aktivitet** för att visa loggarna för spelaren.
 
 ### Uppdatera enhetsinformation {#update-device-details}
 
-Kontrollera panelen **Enhetsinformation** för att visa enhetens IP-adress, lagringsanvändning, version av inbyggd programvara och spelarens drifttid för enheten.
+Kontrollera **Enhetsinformation** för att visa enhetens IP-adress, lagringsanvändning, firmware-version och spelarens drifttid för enheten.
 
 ![chlimage_1-1](assets/chlimage_1-1.png)
 
-Klicka dessutom på **Rensa cacheminne** och **Uppdatera** för att rensa cacheminnet för enheten och uppdatera [versionen av den inbyggda programvaran](screens-glossary.md) från den här panelen.
+Klicka på **Rensa cache** och **Uppdatera** för att rensa cacheminnet på din enhet och uppdatera [firmware](screens-glossary.md) från den här panelen.
 
-Klicka på **..** i det övre högra hörnet av panelen **Enhetsinformation** om du vill starta om eller uppdatera spelarens status.
+Klicka även på **...** från det övre högra hörnet av **Enhetsinformation** för att starta om eller uppdatera spelarens status.
 
 ![chlimage_1-2](assets/chlimage_1-2.png)
 
 ### Uppdatera enhetsinformation {#update-device-information}
 
-Kontrollera panelen **ENHETSINFORMATION** för att visa konfigurationsuppdateringen, enhetsmodellen, enhets-OS och gränssnittsinformationen.
+Kontrollera **ENHETSINFORMATION** för att visa konfigurationsuppdateringen, enhetsmodellen, enhets-OS och gränssnittsinformationen.
 
 ![screen_shot_2019-09-05at13853pm](assets/screen_shot_2019-09-05at13853pm.png)
 
-Klicka på (**)..**) i det övre högra hörnet av panelen Enhetsinformation om du vill visa egenskaper eller uppdatera enheten.
+Klicka på&#x200B;**...**) i det övre högra hörnet av panelen Enhetsinformation för att visa egenskaper eller uppdatera enheten.
 
 ![screen_shot_2019-09-05at14017pm](assets/screen_shot_2019-09-05at14017pm.png)
 
-Klicka på **Egenskaper** för att visa dialogrutan **Enhetsegenskaper**. Du kan redigera enhetens titel eller välja alternativet för konfigurationsuppdateringar som **Manuell** eller **Automatisk**.
+Klicka **Egenskaper** för att visa **Enhetsegenskaper** -dialogrutan. Du kan redigera enhetens titel eller välja alternativet för konfigurationsuppdateringar som **Manuell** eller **Automatisk**.
 
 >[!NOTE]
 >
->Mer information om de händelser som är associerade med enhetens automatiska eller manuella uppdateringar finns i avsnittet ***Automatiska eller Manuella uppdateringar från Device Dashboard*** i [Hantera kanaler](managing-channels.md).
+>Mer information om de händelser som är associerade med enhetens automatiska eller manuella uppdateringar finns i avsnittet ***Automatiska eller manuella uppdateringar från enhetskontrollpanelen*** in [Hantera kanaler](managing-channels.md).
 
 ![screen_shot_2019-09-05at14112pm](assets/screen_shot_2019-09-05at14112pm.png)
 
-### Visa skärmbild för spelaren {#view-player-screenshot}
+### View Player Screenshot {#view-player-screenshot}
 
-Du kan visa skärmbilden för spelaren från enheten på panelen **PLAYER SCREENSHOT**.
+Du kan visa skärmbilden för spelaren från enheten från **SPELARSKÄRMBILD** -panelen.
 
-Klicka på (**)...**) i det övre högra hörnet av panelen Player-skärmbild och välj **Uppdatera skärmbild** för att visa ögonblicksbilden av spelaren som körs.
+Klicka (**...**) i det övre högra hörnet av panelen Player-skärmbild och väljer **Uppdatera skärmbild** för att visa ögonblicksbilden av spelaren som körs.
 
 ![screen_shot_2019-09-05at14205pm](assets/screen_shot_2019-09-05at14205pm.png)
 
 ### Hantera inställningar {#manage-preferences}
 
-På panelen **INSTÄLLNINGAR** kan användaren ändra inställningar för **Admin-användargränssnitt**, **kanalväxlare** och **fjärrfelsökning** för enheten.
+The **INSTÄLLNINGAR** kan användaren ändra inställningar för **Administratörsgränssnitt**, **Kanalväljare** och **Fjärrfelsökning** för enheten.
 
 >[!NOTE]
 >Mer information om detta alternativ finns i [AEM Screens Player](working-with-screens-player.md).
 
 ![screen_shot_2019-09-05at14250pm](assets/screen_shot_2019-09-05at14250pm.png)
 
-Klicka dessutom på **Inställningar** i det övre högra hörnet för att uppdatera enhetsinställningarna. Du kan uppdatera följande inställningar:
+Klicka på **Inställningar** från det övre högra hörnet för att uppdatera enhetsinställningarna. Du kan uppdatera följande inställningar:
 
 * **Server-URL**
 * **Upplösning**
 * **Starta om schemat**
-* **Max. nr av loggfiler som ska sparas**
+* **Max. nr av loggfiler som ska behållas**
 * **Loggnivå**
 
 ![screen_shot_2019-09-05at14511pm](assets/screen_shot_2019-09-05at14511pm.png)
@@ -120,7 +120,7 @@ Klicka dessutom på **Inställningar** i det övre högra hörnet för att uppda
 >Du kan välja någon av följande loggnivåer:
 >* **Inaktivera**
 >* **Felsök**
->* **Information**
+>* **Info**
 >* **Varning**
 >* **Fel**
 
@@ -131,13 +131,13 @@ Klicka dessutom på **Inställningar** i det övre högra hörnet för att uppda
 
 Du måste aktivera den tomma referenten för att enheten ska kunna skicka data till servern. Om t.ex. den tomma refereraregenskapen är inaktiverad, kan enheten inte publicera en skärmdump.
 
-Vissa av dessa funktioner är för närvarande bara tillgängliga om *Refererarfiltret för Apache Sling Tillåt tom* är aktiverat i OSGi-konfigurationen. Kontrollpanelen kan visa en varning om att skyddsinställningarna kan förhindra vissa av dessa funktioner från att fungera.
+Vissa av dessa funktioner är för närvarande bara tillgängliga om *Apache Sling Referer-filtret Tillåt tomt* är aktiverat i OSGi-konfigurationen. Kontrollpanelen kan visa en varning om att skyddsinställningarna kan förhindra vissa av dessa funktioner från att fungera.
 
 Följ stegen nedan för att aktivera filtret Tillåt tomt för Apache Sling Referrer-filtret
 
-1. Navigera till **Adobe Experience Manager Web Console Configuration**, d.v.s. `https://localhost:4502/system/console/configMgr/org.apache.sling.security.impl.ReferrerFilter`.
-1. Markera alternativet **allow.empty**.
-1. Klicka på **Spara**.
+1. Navigera till **Konfiguration av Adobe Experience Manager Web Console**, det vill säga `https://localhost:4502/system/console/configMgr/org.apache.sling.security.impl.ReferrerFilter`.
+1. Kontrollera **allow.empty** alternativ.
+1. Klicka **Spara**.
 
 ![chlimage_1-3](assets/chlimage_1-3.png)
 
@@ -147,10 +147,10 @@ I följande avsnitt rekommenderas övervakning av nätverkslänkar, servrar och 
 
 AEM har inbyggd övervakning för:
 
-* *Varannan* sekund visar att AEM Screens Player är i drift.
-* *Skärmbild* från spelaren som visar vad som för närvarande visas i spelaren.
-* Den version av *AEM Screens Player Firmware* som är installerad på spelaren.
-* *Spelaren har* lagringsutrymme utan extra kostnad.
+* *pulsslag* var 5:e sekund för att indikera att AEM Screens Player är i drift.
+* *Skärmbild* från spelaren som visar vad som visas i spelaren.
+* The *AEM Screens Player Firmware* version som är installerad på spelaren.
+* *Ledigt lagringsutrymme* på spelaren.
 
 Recommendations för fjärrövervakning med program från tredje part:
 
@@ -163,4 +163,4 @@ Vi rekommenderar att du driftsätter Player-maskinvaran och operativsystemet på
 
 #### Ytterligare resurser {#additional-resources}
 
-Se [Konfiguration av videouppspelning och felsökning](troubleshoot-videos.md) för att felsöka och felsöka videoklipp som spelas upp i din kanal.
+Se [Konfiguration och felsökning av videouppspelning](troubleshoot-videos.md) för att felsöka och felsöka videor som spelas upp i din kanal.

@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # Tilldelningsrapport för innehåll {#content-assignment-report}
 
-Med rapportfunktionen Innehållstilldelning kan en AEM Screens-administratör eller författare exportera en *rapport om innehållstilldelning* i ett kalkylbladsformat.
+Med rapportfunktionen Innehållstilldelning kan en AEM Screens-administratör eller författare exportera en *Tilldelningsrapport för innehåll* i kalkylbladsformat.
 
 ## Använda rapporten för innehållstilldelning {#using-content-assignment-report}
 
@@ -45,19 +45,19 @@ När du har konfigurerat ditt AEM Screens-projekt och har tilldelat displayannon
 
 Följ instruktionerna nedan för att hämta rapporten för innehållstilldelning:
 
-1. Gå till ditt AEM Screens-projekt och välj projektet **DemoScreens**.
+1. Navigera till ditt AEM Screens-projekt och markera projektet **DemoScreens**.
 
-1. Klicka på **Rapport om innehållstilldelning** i åtgärdsfältet.
+1. Klicka på **Tilldelningsrapport för innehåll** i åtgärdsfältet.
 
    ![bild](/help/user-guide/assets/content-assignment-report/can-download.png)
 
-1. Det hämtade kalkylbladet består av två flikar, till exempel **platser** och **Innehåll**. På fliken Plats visas fyra kolumner, till exempel **Platser**, **Visar**, **Kanaler** och **Enheter**, som kan användas för att ytterligare undersöka dessa fyra enheter som gäller ditt AEM Screens-projekt.
+1. Det hämtade kalkylbladet består av två flikar, till exempel **Platser** och **Innehåll**. På fliken Plats visas fyra kolumner, till exempel **Platser**, **Visar**, **Kanaler** och **Enheter** som kan användas för att ytterligare undersöka dessa fyra enheter som hör till ditt AEM Screens-projekt.
 
    ![bild](/help/user-guide/assets/content-assignment-report/report-sheet1.png)
 
    >[!NOTE]
    >De data som visas i kalkylbladet sorteras i bokstavsordning i ett format som är enkelt att läsa.
 
-1. Du kan klicka på någon av kanalerna i kolumnen **Kanaler** för att öppna fliken **Innehåll** som kommer att navigera dig direkt till den kanalen och även visa information om resurser (bilder och videor) som är associerade med den specifika kanalen, vilket visas i bilden nedan.
+1. Du kan klicka på någon av kanalerna i **Kanaler** kolumnen som ska öppnas **Innehåll** som direkt navigerar dig till den kanalen och även ger dig information om resurser (bilder och videor) som är kopplade till den kanalen, vilket visas i bilden nedan.
 
    ![bild](/help/user-guide/assets/content-assignment-report/report-sheet2.png)

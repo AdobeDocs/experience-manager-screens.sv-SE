@@ -1,33 +1,33 @@
 ---
 title: Rekommenderat tillvägagångssätt
-seo-title: Rekommenderat tillvägagångssätt i ett AEM Screens-projekt
+seo-title: Recommended Approach in an AEM Screens Project
 description: Sidan beskriver rekommenderat tillvägagångssätt i ett AEM Screens-projekt
-seo-description: Sidan beskriver rekommenderat tillvägagångssätt i ett AEM Screens-projekt
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+seo-description: The page describes recommended approach in an AEM Screens project
+exl-id: 28aacffa-e9c9-4ccb-8038-720bb3e02a3f
+source-git-commit: 707833ddd8ab2573abcac4e9a77ec88778624435
 workflow-type: tm+mt
-source-wordcount: '456'
+source-wordcount: '439'
 ht-degree: 0%
 
 ---
 
-
-# Rekommenderad metod {#recommended-approach}
+# Rekommenderat tillvägagångssätt {#recommended-approach}
 
 Vi rekommenderar att man ser AEM Screens-projekt på företagsnivå som ett långsiktigt företag. Det är troligt att projektet varar i ett eller flera år, särskilt om lösningen tillåter komplex användarinteraktion eller kommer att användas på flera olika enheter och platser.
 
-## Riktlinjer innan du utvecklar en strategi för digital signering {#signage-strategy}
+## Riktlinjer innan en strategi för digital signering utvecklas {#signage-strategy}
 
 Läs de få rekommendationerna innan du utvecklar och distribuerar ett projekt för digitala signaturer:
 
 * **Omfångskontroll**: Om lösningen är ambitiös bör du dela upp slutprodukterna i separata faser för att styra projektets omfattning.
 
-* **Exempel** på definierad användning: Projektfaserna bör ge väldefinierade användningsfall med tydligt identifierade kriterier.
+* **Definierade användningsfall**: Projektfaserna bör ge väldefinierade användningsfall med tydligt identifierade kriterier.
 
 * **Inkrementella slutprodukter**: Fokusera på att leverera funktioner stegvis.
 
-* **Beräknar önskat resultat**: Börja med färdiga AEM Screens-funktioner innan du skapar anpassade komponenter och integreringar. Brainstorm om önskat resultat kan uppnås med de komponenter och funktioner som medföljer som standard med AEM Screens.
+* **Uppskattar önskat resultat**: Börja med färdiga AEM Screens-funktioner innan du skapar anpassade komponenter och integreringar. Brainstorm om önskat resultat kan uppnås med de komponenter och funktioner som medföljer som standard med AEM Screens.
 
-* **Definiera piloter, rollouts och POC**: Utveckla ett konceptbevis (Proof of Concept, POC) och anpassa efter behov genom en pilot och utrullning.
+* **Definiera piloter, rollouts och POC:er**: Utveckla ett konceptbevis (Proof of Concept, POC) och anpassa efter behov genom en pilot och utrullning.
 
 * **Fördefinierad innehållsstrategi**: Upprätta en innehållsstrategi, inklusive kortsiktiga och långsiktiga mål. Anpassa dessutom varumärkesmål/nyckeltal med funktionsförbättringar.
 
@@ -45,5 +45,4 @@ Läs de få rekommendationerna innan du utvecklar och distribuerar ett projekt f
 
 * **Utveckla en färdplan**: Om kunden vill ha en funktionsrik produkt kan du leverera en del av den planerade funktionaliteten tidigt i projektet och schemalägga andra funktioner för framtida faser. En funktionsrik första leverans medför större risk och blir svårare att validera med kunden.
 
-* **Förstå omfattningen av anpassade integreringar**: Interaktiva komponenter med pekskärmsinteraktion, rörelsesensor eller RFID kräver en betydande anpassad utveckling i implementeringsmetoden. Ett bildspel, en videoannons eller en statisk meny kan levereras som grafiskt innehåll eller HTML på en skärmkanal.
-
+* **Förstå omfattningen av anpassade integreringar**: Interaktiva komponenter med pekskärmsinteraktion, rörelsesensor eller RFID kräver en betydande anpassad utveckling i implementeringsmetoden. Ett bildspel, en videoannons eller en statisk meny kan levereras som grafiskt innehåll eller HTML i en skärmkanal.

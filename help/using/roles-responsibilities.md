@@ -1,15 +1,15 @@
 ---
 title: AEM Screens projektroller och ansvarsområden
-seo-title: AEM Screens projektroller och ansvarsområden
+seo-title: AEM Screens Project Roles  and Responsibilities
 description: På sidan beskrivs AEM Screens Project Rolands and Responsibility
-seo-description: På sidan beskrivs AEM Screens Project Rolands and Responsibility
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+seo-description: The page describes AEM Screens Project Roles  and Responsibilities
+exl-id: 9377625b-529a-4b46-89d9-f526de398639
+source-git-commit: 707833ddd8ab2573abcac4e9a77ec88778624435
 workflow-type: tm+mt
-source-wordcount: '1263'
-ht-degree: 9%
+source-wordcount: '1248'
+ht-degree: 3%
 
 ---
-
 
 # Projektroller och ansvarsområden {#roles-responsibilities}
 
@@ -83,22 +83,22 @@ Projektledare hanterar vanligtvis hela distributionen av AEM Screens. En projekt
 
 >[!NOTE]
 >
->Om du vill veta mer om olika roller och ansvarsområden och målgruppen för ett digitalt signeringsprojekt går du till **[Projektroller och ansvarsområden](https://helpx.adobe.com/experience-manager/6-5/screens/using/project-roles-responsibilities.html)**.
+>Om du vill veta mer om olika roller och ansvarsområden och målgruppen för ett projekt för digitala signaturer kan du besöka **[Projektroller och ansvarsområden](https://helpx.adobe.com/experience-manager/6-5/screens/using/project-roles-responsibilities.html)**.
 
 
 ## Projektfaser {#project-stages}
 
-För att stödja en framgångsrik driftsättning av digitala signaturer är det vanligt att segmentera projektet i tre faser.  Dessa stadier kallas vanligen **dagar**. Det rör sig inte om litterala dagar utan om benämningar för varje större del av projektet.
+För att stödja en framgångsrik driftsättning av digitala signaturer är det vanligt att segmentera projektet i tre faser.  Dessa stadier kallas ofta **Dagar**. Det rör sig inte om litterala dagar utan om benämningar för varje större del av projektet.
 
-1. Det första steget kallas *Day Zero*. I det här steget ingår alla förberedelser och identifieringsåtgärder som krävs för att helt definiera projektets omfattning.
-1. Den andra fasen, *Dag ett*, avser alla aktiviteter som ingår i distributionsinsatsen.
-1. Den tredje och sista fasen *Dag två* avser alla pågående åtgärder och supportelement som en del av den totala lösningen.
+1. Den första fasen kallas *Dag noll*. I det här steget ingår alla förberedelser och identifieringsåtgärder som krävs för att helt definiera projektets omfattning.
+1. Den andra etappen *Dag ett*, avser alla aktiviteter som ingår i driftsättningen.
+1. Det tredje och sista steget *Dag två* avser alla pågående operationer och supportelement som en del av den totala lösningen.
 
 >[!NOTE]
 >
 >Även om den här guiden främst fokuserar på *dag ett* och *dag två*, så är alla tre faserna viktiga för att lyckas med digitala skyltningsprojekt.
 >
->Följ ytterligare en video på **[Project Management and Deployment](https://helpx.adobe.com/experience-manager/6-5/screens/using/project-management-and-deployment.html)** om du vill veta mer om förproduktion av projekt, initiering av projekt och projektets förlopp.
+>Följ ytterligare en video på **[Projektledning och driftsättning](https://helpx.adobe.com/experience-manager/6-5/screens/using/project-management-and-deployment.html)** om du vill veta mer om förproduktion, projektinitiering och projektutveckling.
 
 ## RACI-diagram {#raci-chart}
 
@@ -120,7 +120,7 @@ Följande är ett exempel på RACI-diagram som använder rolldefinitionerna.
 
 Följande är ett exempel på ett RACI-diagram som använder rolldefinitionerna och ger ett exempel på vanliga uppgifter och överväganden i ett AEM Screens-projekt.
 
-I följande tabell sammanfattas **Day Zero: Överväganden före försäljning**:
+I följande tabell sammanfattas **Dag noll: Överväganden före försäljning**:
 
 | **Fas** | **A/V-integratör** | **AEM** | **Affärsstrategi** | **Innehållshantering** |
 |---|---|---|---|---|
@@ -177,13 +177,13 @@ I följande tabell sammanfattas **Dag ett: Dag ett: Projektimplementering (maski
 >
 >Roller ändras under dag två (stöd efter start).
 
-* **Författare**: Innehållshantering + strategi
+* **Upphovsman**: Innehållshantering + strategi
 
 * **Utvecklare**: Vanligtvis en medlem i AEM Screens implementeringsteam, eller lämna över till den interna utvecklingsgruppen
 
 * **Tekniker**: Antingen har den avtalats av AV-integratorn eller är en del av samma företag.
 
-I följande tabell sammanfattas **Dag två: RACI-diagram** för stöd efter start:
+I följande tabell sammanfattas **Dag två: RACI-diagram för stöd efter start**:
 
 | **Fas** | **Författare** | **Developer** | **Tekniker** |
 |---|---|---|---|

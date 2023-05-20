@@ -1,15 +1,15 @@
 ---
 title: Användningsfall för övergångar mellan MultiZone och SingleZone
 description: Följ den här sidan om du vill veta mer om hur MultiZone till SingleZone-övergångar används.
-seo-description: MultiZone till SingleZone-övergångar - exempel.
+seo-description: MultiZone to SingleZone Transitions use case.
 contentOwner: Jyotika Syal
-feature: Redigeringsskärmar
+feature: Authoring Screens
 role: Developer, User
 level: Intermediate
 exl-id: 15632f31-1e92-40e5-b567-8705e27bdc93
 source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
-source-wordcount: '403'
+source-wordcount: '395'
 ht-degree: 0%
 
 ---
@@ -38,49 +38,49 @@ Innehållsförfattare
 
 Följ stegen nedan för att konfigurera ett projekt:
 
-1. Skapa ett AEM Screens-projekt med namnet **TakeoverLoop**, enligt nedan.
+1. Skapa ett AEM Screens-projekt med namnet **TakeoverLoop**, vilket visas nedan.
 
    ![resurs](assets/mz-to-sz1.png)
 
 
 1. **Skapa en skärmkanal för flera zoner**
 
-   1. Välj mappen **Kanaler** och klicka på **Skapa** i åtgärdsfältet för att öppna guiden och skapa en kanal.
-   1. Välj **Delad skärmkanal för vänster-L-fält** i guiden och skapa kanalen **MultiZoneLayout**.
-   1. Lägg till innehåll i kanalen. Dra och släpp resurserna till var och en av zonerna. I följande exempel visas en **MultiZoneLayout**-kanal som består av en video, en bild och en textbanderoll (i en inbäddad sekvens), vilket visas nedan.
+   1. Välj **Kanaler** mapp och klicka på **Skapa** i åtgärdsfältet för att öppna guiden och skapa en kanal.
+   1. Välj **Vänster-L-fält, delad skärmkanal** från guiden och skapa kanalen som **MultiZoneLayout**.
+   1. Lägg till innehåll i kanalen. Dra och släpp resurserna till var och en av zonerna. I följande exempel visas en **MultiZoneLayout** kanal som består av en video, en bild och en textbanderoll (i en inbäddad sekvens), vilket visas nedan.
 
    ![resurs](assets/mz-to-sz2.png)
 
    >[!NOTE]
    >
-   >Mer information om hur du skapar en layout för flera zoner i din kanal finns i [Layout för flera zoner](multi-zone-layout-aem-screens.md).
+   >Mer information om hur du skapar en layout för flera zoner i din kanal finns i [Layout med flera zoner](multi-zone-layout-aem-screens.md).
 
 
-1. Skapa en annan kanal med namnet **TakeoverChannel** till mappen **Kanaler**.
+1. Skapa en annan kanal med namnet som **TakeoverChannel** till **Kanaler** mapp.
 
    ![resurs](assets/mz-to-sz3.png)
 
-1. Klicka på **Redigera** i åtgärdsfältet för att lägga till innehåll i den här kanalen. Lägg till en **Channel**-komponent och en bildresurs som du vill växla till i den här kanalen enligt bilden nedan:
+1. Klicka **Redigera** från åtgärdsfältet för att lägga till innehåll i den här kanalen. Lägg till en **Kanal** -komponenten och en bildresurs som du vill växla till till den här kanalen, enligt bilden nedan:
 
    ![resurs](assets/mz-to-sz4.png)
 
-1. Öppna inställningarna för Channel-komponenten och peka på den **MultiZoneLayout**-kanal som du skapade i *steg 2*.
+1. Öppna inställningarna för kanalkomponenten och peka på den **MultiZoneLayout** kanal som du skapade i *steg 2*.
 
    ![resurs](assets/mz-to-sz5.png)
 
-1. Ange längden från fältet **Sekvens** till **10000 ms**.
+1. Ange varaktighet från **Sekvens** fält till **10000 ms**.
 
    ![resurs](assets/mz-to-sz6.png)
 
-1. Öppna på samma sätt inställningarna för bilden (resursen som du lade till) och ange dess varaktighet från fältet **Sequence** till **3000 ms**.
+1. Öppna på liknande sätt inställningarna för bilden (resursen som du lade till) och ange dess varaktighet från **Sekvens** fält till **3 000 ms**.
 
    ![resurs](assets/mz-to-sz7.png)
 
 ## Kontrollera förhandsvisningen {#checking-the-preview}
 
-Du kan visa önskade utdata från spelaren eller bara genom att klicka på **Förhandsgranska** i redigeraren.
+Du kan visa önskade utdata från spelaren eller bara genom att klicka på knappen **Förhandsgranska** från redigeraren.
 
-Utdata visar hur en layout med flera zoner spelas upp för *10000 ms* och växlar sedan till layout med en zon som har uppspelningstiden *3000 ms* och växlar sedan tillbaka till layouten med flera zoner.
+Utdata visar hur en flerzonslayout spelas upp för *10000 ms* och växlar sedan till layout med en zon som har uppspelningstiden *3 000 ms* och växlar sedan tillbaka till flerzonslayouten.
 
 >[!VIDEO](https://video.tv.adobe.com/v/30366)
 

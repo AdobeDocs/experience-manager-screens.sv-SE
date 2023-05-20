@@ -1,8 +1,8 @@
 ---
 title: Ny projektimporterare från fil
-seo-title: Ny projektimporterare från fil
+seo-title: New Project Importer from File
 description: Med den här funktionen kan du massimportera en uppsättning platser från ett CSV-/XLS-kalkylblad till ditt AEM Screens-projekt.
-seo-description: Med den här funktionen kan du massimportera en uppsättning platser från ett CSV-/XLS-kalkylblad till ditt AEM Screens-projekt.
+seo-description: This functionality allows you to bulk-import a set of locations from a CSV/XLS spreadsheet to your AEM Screens project.
 uuid: e1ad76ae-6925-4d72-80ce-8343a76125ce
 contentOwner: jsyal
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
@@ -10,14 +10,14 @@ content-type: reference
 topic-tags: administering
 discoiquuid: f1df8d05-bb61-4bc9-aea1-c6af9e3519b4
 docset: aem65
-feature: Administrera skärmar
+feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: 3bff9ef3-0d6f-41d8-a8ef-bcc5a795990e
 source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
-source-wordcount: '700'
-ht-degree: 1%
+source-wordcount: '673'
+ht-degree: 0%
 
 ---
 
@@ -55,20 +55,20 @@ Datamodellen för Project Importer beskrivs nedan:
 | **Egenskap** | **Beskrivning** |
 |---|---|
 | ***path {string*}** | Resurssökvägen för platsen |
-| ***[./jcr:title] {string*}** | Namnet på mallen som ska användas (d.v.s. platsen för *skärmar/core/templates/location*) |
+| ***[./jcr:titel] {string*}** | Namnet på mallen som ska användas (d.v.s. platsen för *skärmar/kärna/mallar/plats*) |
 | ***template {string}*** | Valfri titel att använda för sidan |
 | ***[./jcr:description] {string}*** | Valfri beskrivning som ska användas för sidan |
 
 Kalkylbladsfilen (CSV/XLS) kräver därför följande kolumner:
 
-* **sökväg {string}** Sökvägen till platsen som ska importeras, där sökvägen är platsmappen för projektet (d.v.s.  */* foto importeras till  */content/screens/&lt;project>/locations/foo*)
+* **path {string}** Sökvägen till platsen som ska importeras, där sökvägen är platsmappen för projektet (d.v.s. */foo* kommer att importeras till */content/screens/&lt;project>/locations/foo*)
 
-* **mall {string}** Den mall som ska användas för den nya platsen är för närvarande det enda tillåtna värdet&quot;location&quot;, men detta kommer att utökas till alla skärmmallar i framtiden (&quot;display&quot;,&quot;sequencechannel, o.s.v.)
-* **[./*] {string}** Valfri egenskap som ska anges på platsen (det vill säga, ./jcr:title, ./jcr:description, ./foo, ./bar). Den aktuella versionen tillåter för närvarande ingen filtrering
+* **template {string}** Mallen som ska användas för den nya platsen är för närvarande det enda tillåtna värdet&quot;location&quot;, men det kommer att utvidgas till att omfatta alla skärmmallar i framtiden (&quot;display&quot;,&quot;sequencechannel, osv.)
+* **[./*] {string}** Valfri egenskap som ska anges för platsen (d.v.s., ./jcr:title, ./jcr:description, ./foo, ./bar). Den aktuella versionen tillåter för närvarande ingen filtrering
 
 >[!NOTE]
 >
->Alla kolumner som inte matchar villkoren ovan ignoreras. Om du t.ex. har en annan definierad kolumn i din bladfil (CSV/XLS) som inte är **sökväg**,**mall**,**titel** och **beskrivning** i filen, kommer dessa fält att ignoreras och **projektimporteraren** kommer inte att validera ytterligare kolumner fält för import av projekt till ditt AEM Screens-projekt.
+>Alla kolumner som inte matchar villkoren ovan ignoreras. Om du t.ex. har en annan kolumn definierad i din bladfil (CSV/XLS) som inte är **bana**,**mall**,**title** och **description** i filen kommer dessa fält att ignoreras och **Projektimporterare** validerar inte dessa ytterligare fält för import av ditt projekt till ditt AEM Screens-projekt.
 
 ## Använda projektimporteraren {#using-project-importer}
 
@@ -80,14 +80,12 @@ I följande avsnitt beskrivs hur projektimporteraren används i ett AEM Screens-
 >
 >* Andra filer än CSV/XLS/XLSX-tillägg stöds inte i den aktuella versionen.
 >* Det finns ingen filtrering av egenskaperna för importerade filer och något som börjar med &quot;./&quot; importeras.
-
 >
-
 
 
 ### Förutsättningar {#prerequisites}
 
-* Skapa ett nytt projekt med namnet **DemoProjectImport**
+* Skapa ett nytt projekt med namnet **DemoProjektImportera**
 
 * Använd en CSV-exempelfil eller Excel-fil som du behöver importera.
 
@@ -105,21 +103,21 @@ Följ stegen nedan för att importera en fil till platsmappen med obligatoriska 
 
 ![screen_shot_2019-05-14at21523pm](assets/screen_shot_2019-05-14at21523pm.png)
 
-1. Gå till ditt AEM Screens-projekt (**DemoProjectImport**).
+1. Gå till ditt AEM Screens-projekt (**DemoProjektImportera**).
 
    ![screen_shot_2019-05-12at52651am](assets/screen_shot_2019-05-12at52651am.png)
 
-1. Välj projektet,** DemoProjectImporter **—>** Create **—>** Import Locations** från sidofältet.
+1. Välj projektet,** DemoProjectImporter **—>** Skapa **—>** Importera platser** från sidofältet.
 
    ![screen_shot_2019-05-12at52433am](assets/screen_shot_2019-05-12at52433am.png)
 
-1. Guiden **Importera** är öppen. Välj den fil som du har för ditt projekt med platser eller välj den fil (***minimum-file.xls***) som du hämtade från *Förutsättningar*.
+1. The **Importera** guiden öppnas. Välj den fil du har för projektet med platser eller markera filen (***minimum-file.xls***) du hämtade från *Förutsättningar* -avsnitt.
 
    När du har markerat filen klickar du på **Nästa**.
 
    ![screen_shot_2019-05-15at113718am](assets/screen_shot_2019-05-15at113718am.png)
 
-1. Kontrollera filens innehåll (platserna) i importguiden och klicka på **Importera**.
+1. Kontrollera innehållet i filen (platserna) i importguiden och klicka på **Importera**.
 
    ![screen_shot_2019-05-12at53131am](assets/screen_shot_2019-05-12at53131am.png)
 

@@ -1,21 +1,21 @@
 ---
 title: Övergång från ContentSync till SmartSync
-seo-title: Övergång från ContentSync till SmartSync
+seo-title: Transitioning from ContentSync to SmartSync
 description: Följ den här sidan om du vill veta mer om funktionen SmartSync och hur du kan gå över från ContentSync till SmartSync.
-seo-description: Följ den här sidan om du vill veta mer om funktionen SmartSync och hur du kan gå över från ContentSync till SmartSync.
+seo-description: Follow this page to learn about SmartSync feature and how you can transition from ContentSync to SmartSync.
 uuid: c0619b56-1f6f-465a-a428-6df28e40b555
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: administering
 content-type: reference
 discoiquuid: 822dfbc1-3584-4509-a35c-1d68e5f84509
 docset: aem65
-feature: Administrera skärmar
+feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: b8d0c089-af79-403e-870f-fb46b66fecd3
 source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
-source-wordcount: '467'
+source-wordcount: '443'
 ht-degree: 0%
 
 ---
@@ -59,7 +59,7 @@ SmartSync-funktionen ger ett antal fördelar för ditt AEM Screens-projekt. Den 
 >
 >SmartSync är tillgängligt för skärmspelaren med servrar som stöds AEM 6.4.3 FP3.
 >
->Läs [AEM Screens Player Downloads](https://download.macromedia.com/screens/) om du vill hämta den senaste spelaren. I följande tabell beskrivs den lägsta spelarversion som krävs för varje plattform:
+>Se [AEM Screens Player - nedladdningar](https://download.macromedia.com/screens/) för att ladda ned den senaste spelaren. I följande tabell beskrivs den lägsta spelarversion som krävs för varje plattform:
 
 | **Plattform** | **Lägsta spelarversion som stöds** |
 |---|---|
@@ -71,7 +71,7 @@ Följ stegen nedan för att gå över från ContentSync till SmartSync:
 
 1. Migrering från ContentSync till SmartSync kräver att ContentSync-cachen rensas innan SmartSync aktiveras.
 
-   Gå till ContentSync-konsolen från din instans via länken ***https://localhost:4502/libs/cq/contentsync/content/console.html*** och klicka på **Rensa cachen**, vilket visas i figuren nedan:
+   Navigera till ContentSync-konsolen från din instans via länken ***https://localhost:4502/libs/cq/contentsync/content/console.html*** och klicka **Rensa cache**, vilket visas i figuren nedan:
 
    ![clear_contesync_cache](assets/clear_contesync_cache.png)
 
@@ -79,17 +79,17 @@ Följ stegen nedan för att gå över från ContentSync till SmartSync:
    >
    >Alla innehållscache måste rensas innan SmartSync kan användas för första gången.
 
-1. Navigera till **Adobe Experience Manager Web Console Configuration** via AEM:> hammer icon —> **Åtgärder** —> **Webbkonsol**.
+1. Navigera till **Konfiguration av Adobe Experience Manager Web Console** via AEM instance —> hammer icon —> **Operationer** —> **Webbkonsol**.
 
    ![screen_shot_2019-02-11at15339pm](assets/screen_shot_2019-02-11at15339pm.png)
 
-1. **Adobe Experience Manager Web Console-** konfigurationöppnas. Sök efter *offlinecontentservice*.
+1. **Konfiguration av Adobe Experience Manager Web Console** öppnas. Sök efter *offlinecontentservice*.
 
-   Om du vill söka efter egenskapen **Skärmar som är offline i innehållstjänsten** trycker du på **Command+F** för **Mac** och **Ctrl+F** för **Windows**.
+   För sökning i **Innehållstjänst för offlineskärmar** egenskap, tryck **Kommando+F** for **Mac** och **Ctrl+F** for **Windows**.
 
    ![screen_shot_2019-02-19at22643pm](assets/screen_shot_2019-02-19at22643pm.png)
 
-1. Klicka på **Spara** om du vill aktivera egenskapen **Skärmar som är offline (Offline Content Services)** och därför använda SmartSync för AEM Screens.
-1. När du har aktiverat SmartSync måste du navigera till projektet och klicka på **Uppdatera offlineinnehåll** *(från åtgärdsfältet),* enligt bilden nedan.
+1. Klicka **Spara** för att aktivera **Skärmar offline Innehållstjänster** och använder därför SmartSync för AEM Screens.
+1. När du har aktiverat SmartSync måste du navigera till projektet och klicka på **Uppdatera offlineinnehåll** *(från åtgärdsfältet),* som visas i figuren nedan.
 
    ![screen_shot_2019-02-25at102605am](assets/screen_shot_2019-02-25at102605am.png)

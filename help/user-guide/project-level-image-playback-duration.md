@@ -1,13 +1,12 @@
 ---
 title: Uppspelningstid för bild på projektnivå
-seo-title: Uppspelningstid för bild på projektnivå
-description: 'Med den här funktionen kan du definiera längden för bilduppspelningen på projektnivå. '
-seo-description: 'Med den här funktionen kan du definiera längden för bilduppspelningen på projektnivå. '
+seo-title: Project Level Image Playback Duration
+description: Med den här funktionen kan du definiera längden för bilduppspelningen på projektnivå.
+seo-description: This functionality allows you to define image playback duration at the project level.
 contentOwner: jsyal
-translation-type: tm+mt
 source-git-commit: f25176be89424059b8c51296969f069687328536
 workflow-type: tm+mt
-source-wordcount: '351'
+source-wordcount: '333'
 ht-degree: 1%
 
 ---
@@ -23,15 +22,15 @@ Med den här funktionen kan du definiera längden för bilduppspelningen på pro
 
 Innan du använder den här funktionen måste du konfigurera ett projekt som en förutsättning för att du ska kunna börja implementera den här funktionen. Till exempel,
 
-1. Skapa ett AEM Screens-projekt (i det här exemplet **ProjectLevelPlayback**)
+1. Skapa ett AEM Screens-projekt (i det här exemplet **ProjektNivåUppspelning**)
 
-1. Skapa en sekvenskanal som **PlayBackChannel** under **Kanaler**-mapp
+1. Skapa en sekvenskanal som **PlayBackChannel** under **Kanaler** mapp
 
 1. Lägg till innehåll i **PlayBackChannel**
 
    ![resurser](assets/image_playback1.png)
 
-   I följande bild visas de bilder som har lagts till i redigeraren **PlayBackChannel**:
+   I följande bild visas de bilder som lagts till i **PlayBackChannel** redigerare:
 
    ![resurser](assets/image_playback2.png)
 
@@ -44,18 +43,18 @@ I avsnittet nedan beskrivs hur du redigerar uppspelningstiden för innehåll i e
 
 >[!NOTE]
 >
->Om du vill uppdatera uppspelningstiden på bild- eller kanalnivå läser du [Bilduppspelningstid på kanalnivå](channel-level-image-playback.md).
+>Om du vill uppdatera uppspelningstiden på bild- eller kanalnivå läser du [Uppspelningstid för bild på kanalnivå](channel-level-image-playback.md).
 
 Följ stegen nedan för att lära dig hur du uppdaterar bilduppspelningstiden på projektnivå:
 
-1. Navigera till ditt projekt **ProjectLevelPlayback** och klicka på **Egenskaper** i åtgärdsfältet.
+1. Navigera till ditt projekt **ProjektNivåUppspelning** och klicka **Egenskaper** i åtgärdsfältet.
    ![resurser](assets/image_playback3.png)
 
 1. Markera alla bilder i kanalen och klicka på skiftnyckelsikonen i det övre vänstra hörnet (som visas i bilden nedan) för att öppna dialogrutan Konfigurera på kanalnivå.
 
    ![screen_shot_2019-06-25at95945am](assets/screen_shot_2019-06-25at95945am.png)
 
-1. **Dialogrutan** Sidor öppnas.
+1. **Sida** öppnas.
 
    >[!NOTE]
    >
@@ -63,7 +62,7 @@ Följ stegen nedan för att lära dig hur du uppdaterar bilduppspelningstiden p�
 
    ![screen_shot_2019-06-25at100343am](assets/screen_shot_2019-06-25at100343am.png)
 
-   Redigera **Varaktighet** från 8 000 (ms) till 3 000 (ms), d.v.s. 3 sekunder. Klicka på bockmarkeringen längst upp till höger i dialogrutan **Sida** för att spara ändringarna.
+   Redigera **Varaktighet** från 8 000 (ms) till 3 000 (ms), dvs. 3 sekunder. Klicka på bockmarkeringen längst upp till höger på **Sida** för att spara ändringarna.
 
    ![screen_shot_2019-06-25at101527am](assets/screen_shot_2019-06-25at101527am.png)
 

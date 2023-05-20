@@ -1,8 +1,8 @@
 ---
 title: Offlinekanaler
-seo-title: Offlinekanaler
-description: 'AEM Screens-spelaren ger offlinesupport för kanalerna genom att utnyttja tekniken ContentSync. Följ den här sidan för att lära dig mer om uppdateringshanterare och aktivering av offlinekonfiguration för en kanal.  '
-seo-description: 'AEM Screens-spelaren ger offlinesupport för kanalerna genom att utnyttja tekniken ContentSync. Följ den här sidan för att lära dig mer om uppdateringshanterare och aktivering av offlinekonfiguration för en kanal.  '
+seo-title: Offline Channels
+description: AEM Screens-spelaren ger offlinesupport för kanalerna genom att utnyttja tekniken ContentSync. Följ den här sidan för att lära dig mer om uppdateringshanterare och aktivering av offlinekonfiguration för en kanal.
+seo-description: The AEM Screens player provides offline support for channels by leveraging the ContentSync technology. Follow this page to learn more about update handlers and enabling offline configuration for a channel.
 uuid: 18b9d175-ff26-42db-86aa-5ea978909f71
 contentOwner: Jyotika Syal
 content-type: reference
@@ -10,24 +10,24 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: developing
 discoiquuid: bd572743-652f-4fc5-8b75-a3c4c74536f4
 docset: aem65
-feature: Utveckla skärmar
+feature: Developing Screens
 role: Developer
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+exl-id: 5ad1046f-8b64-490b-9966-ce9008180d54
+source-git-commit: 707833ddd8ab2573abcac4e9a77ec88778624435
 workflow-type: tm+mt
-source-wordcount: '483'
+source-wordcount: '449'
 ht-degree: 1%
 
 ---
 
-
 # Offlinekanaler {#offline-channels}
 
-Skärmspelaren tillhandahåller offlinesupport för kanalerna genom att utnyttja tekniken ***ContentSync***.
+Screens Player ger stöd offline för kanalerna genom att utnyttja ***ContentSync*** teknik.
 
 Spelarna använder en lokal http-server för att hantera det uppackade innehållet.
 
-När en kanal är konfigurerad att köra *online* visar spelaren kanalresurserna genom åtkomst till AEM, men när kanalen är konfigurerad att köra *offline* visar spelaren kanalresurserna från en lokal http-server.
+När en kanal är konfigurerad att köras *online* spelaren levererar kanalresurserna genom åtkomst till AEM, men när kanalen är konfigurerad att köras *offline* spelaren visar kanalresurserna från en lokal http-server.
 
 Arbetsflödet för processen är följande:
 
@@ -39,12 +39,12 @@ Arbetsflödet för processen är följande:
 
 ## Uppdatera hanterare {#update-handlers}
 
-***ContentSync*** använder uppdateringshanterare för att analysera och samla in alla nödvändiga sidor och resurser för ett visst projekt. AEM Screens använder följande uppdateringshanterare:
+The ***ContentSync*** använder uppdateringshanterare för att analysera och samla in alla nödvändiga sidor och resurser för ett visst projekt. AEM Screens använder följande uppdateringshanterare:
 
-### Gemensamma alternativ {#common-options}
+### Vanliga alternativ {#common-options}
 
-* *typ*: den uppdateringshanterartyp som ska användas
-* *sökväg*: sökväg till resursen
+* *type*: den uppdateringshanterartyp som ska användas
+* *bana*: sökväg till resursen
 * *[targetRootDirectory]*: målmapp i zip-filen
 
 <table>
@@ -77,7 +77,7 @@ Arbetsflödet för processen är följande:
  </tbody>
 </table>
 
-### Testar ContentSync-konfigurationen {#testing-contentsync-configuration}
+### Testar konfigurationen av ContentSync {#testing-contentsync-configuration}
 
 Följ stegen nedan för att testa ContentSync-konfigurationen:
 
@@ -98,19 +98,19 @@ Följ stegen nedan för att aktivera offlinekonfiguration för en kanal:
 
    ![chlimage_1-24](assets/chlimage_1-24.png)
 
-1. Navigera till kanalkontrollpanelen och klicka på **..** i panelen **KANALINFORMATION** om du vill ändra egenskaperna.
+1. Navigera till kanalkontrollpanelen och klicka på **...** i **KANALINFORMATION** Panel för att ändra egenskaperna.
 
    ![chlimage_1-25](assets/chlimage_1-25.png)
 
-1. Navigera till kanalegenskaperna och se till att kryssrutan är inaktiverad på fliken **Kanal**. Klicka på **Spara och stäng**.
+1. Navigera till kanalegenskaperna och se till att kryssrutan är inaktiverad under **Kanal** -fliken. Klicka **Spara och stäng**.
 
    ![screen_shot_2017-12-19at122422pm](assets/screen_shot_2017-12-19at122422pm.png)
 
-   Klicka på **Uppdatera offlineinnehåll** innan innehållet distribueras korrekt till enheten.
+   Klicka på knappen **Uppdatera offlineinnehåll**.
 
    ![screen_shot_2017-12-19at122637pm](assets/screen_shot_2017-12-19at122637pm.png)
 
-   **Offline**-statusen under **EGENSKAPER** uppdateras också.
+   The **Offline** status under **EGENSKAPER** uppdateras även i enlighet med detta.
 
    ![screen_shot_2017-12-19at124735pm](assets/screen_shot_2017-12-19at124735pm.png)
 
@@ -120,4 +120,4 @@ Följ stegen nedan för att aktivera offlinekonfiguration för en kanal:
 
 >[!NOTE]
 >
->Mer information om mallen för anpassade offline-resurshanterare och minimikraven i `pom.xml` för det specifika projektet finns i [Template for Custom Handlers](/help/user-guide/developing-custom-component-tutorial-develop.md#custom-handlers) i **Developing a Custom Component for AEM Screens**.
+>Mer information om mallen för anpassade offlineresurshanterare och minimikraven i `pom.xml` för det specifika projektet, se [Mall för anpassade hanterare](/help/user-guide/developing-custom-component-tutorial-develop.md#custom-handlers) in **Utveckla en anpassad komponent för AEM Screens**.

@@ -1,15 +1,15 @@
 ---
 title: Kanaltilldelning
-seo-title: Kanaltilldelning
+seo-title: Channel Assignment
 description: Följ den här sidan om du vill veta mer om kanaltilldelning och Dag-delning.
-feature: redigeringsskärmar, kanaltilldelning
+feature: Authoring Screens, Channel Assignment
 role: Admin, Developer
 level: Intermediate
 exl-id: 6ed86bfc-38c7-4ced-b472-db2a362585c5
 source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
-source-wordcount: '1219'
-ht-degree: 1%
+source-wordcount: '1213'
+ht-degree: 0%
 
 ---
 
@@ -33,15 +33,15 @@ Följ stegen nedan för att tilldela en kanal till en skärm:
 
    ![bild](assets/screen_shot_2018-08-23at25359pm.png)
 
-1. Tryck/klicka på **Tilldela kanal** i åtgärdsfältet
+1. Tryck/klicka **Tilldela kanal** i åtgärdsfältet
 
    Eller
 
-   Tryck/klicka på **Kontrollpanel** och klicka på **+Tilldela kanal** på panelen **TILLDELADE KANALER** för att öppna dialogrutan **Kanaltilldelning**.
+   Tryck/klicka **Kontrollpanel** och klicka **+Tilldela kanal** från **TILLDELADE KANALER** för att öppna **Kanaltilldelning** -dialogrutan.
 
    ![bild](/help/user-guide/assets/channel-assign1.png)
 
-   Du kan konfigurera egenskaperna från dialogrutan **Kanaltilldelning** i avsnittet nedan. Mer information om kanalegenskaper finns i [avsnittet Kanalegenskaper](#channel-properties).
+   Du kan konfigurera egenskaperna från **Kanaltilldelning** från avsnittet nedan. Se [Kanalegenskaper](#channel-properties) om du vill veta mer om kanalegenskaper.
 
 
 ## Förstå kanalegenskaper från kanaltilldelning {#channel-properties}
@@ -50,9 +50,9 @@ Följ stegen nedan för att tilldela en kanal till en skärm:
 
 Med referenskanalen kan du ange en referens till den önskade kanalen, antingen efter kanalnamn eller efter kanalsökväg.
 
-* **efter sökväg**: du anger en explicit referens med kanalens absoluta sökväg.
+* **efter bana**: du anger en explicit referens med kanalens absoluta sökväg.
 
-* **efter namn**: Du anger namnet på den kanal som ska matchas mot en faktisk kanal efter kontext. Med den här funktionen kan du skapa en lokal version av en kanal för att dynamiskt matcha platsspecifikt innehåll. En kanal med namnet *erbjudanden på dagen*, där det faktiska innehållet skulle vara annorlunda i två städer, men du har fortfarande den tillräkneliga kanalrollen på alla skärmar.
+* **efter namn**: Du anger namnet på den kanal som ska matchas mot en faktisk kanal efter kontext. Med den här funktionen kan du skapa en lokal version av en kanal för att dynamiskt matcha platsspecifikt innehåll. En kanal med namnet *dagens erbjudanden*, där det faktiska innehållet skulle vara annorlunda i två städer, men du fortfarande har den tillräkneliga kanalrollen på alla skärmar.
 
 ### Kanalroll {#role-channel}
 
@@ -63,7 +63,7 @@ Kanalrollen definierar visningssammanhanget. Rollen är inriktad på olika åtg�
 Prioritet används för att ordna tilldelningarna om flera matchar uppspelningsvillkoren. Den som har det högsta värdet har alltid företräde framför de lägre värdena. Om det till exempel finns två kanaler A och B. A har prioriteten 1 och B har prioriteten 2, och sedan visas kanal B eftersom den har högre prioritet än A.
 
 >[!NOTE]
->Prioriteten för en kanal anges som ett tal (1 för minimum) i dialogrutan **Kanaltilldelning**, som nämns ovan. Dessutom sorteras de tilldelade kanalerna baserat på fallande prioritet.
+>Prioriteten för en kanal anges som ett tal (1 för minimum) i **Kanaltilldelning** som nämns ovan. Dessutom sorteras de tilldelade kanalerna baserat på fallande prioritet.
 
 ### Händelser som stöds {#supported-events-channel}
 
@@ -80,10 +80,10 @@ Prioritet används för att ordna tilldelningarna om flera matchar uppspelningsv
 
 Som innehållsförfattare bör du kunna ange när en kanal avbryts så att du kan välja att avbryta icke-kritiskt innehåll, men du kan välja att låta viktigt innehåll spelas upp helt innan uppspelningen avbryts på grund av schemaläggning.
 
-Välj något av följande alternativ som är tillgängliga för att ställa in avbrottsmetoden i dialogrutan **Kanaltilldelning**:
+Välj något av följande alternativ som är tillgängliga för att ställa in avbrottsmetoden på menyn **Kanaltilldelning** dialogruta:
 
 * **Omedelbart**: När schemat aktiveras eller en uppdatering tas emot kan du avbryta uppspelningen och omedelbart uppdatera eller spela upp det nya innehållet
-* **I slutet av det aktuella objektet**: När ett nytt schema aktiveras eller en uppdatering tas emot kan du välja att vänta tills det aktuella objektet i sekvensen har spelats upp, och först efter det kan du uppdatera eller spela upp det nya innehållet
+* **I slutet av den aktuella artikeln**: När ett nytt schema aktiveras eller en uppdatering tas emot kan du välja att vänta tills det aktuella objektet i sekvensen har spelats upp, och först efter det kan du uppdatera eller spela upp det nya innehållet
    >[!NOTE]
    >Det här alternativet är markerat som standard.
 * **I slutet av sekvensen**: När ett nytt schema aktiveras eller en uppdatering tas emot kan du välja att vänta tills hela sekvensen är klar, och precis före den önskade sekvensen går du tillbaka till det första elementet och uppdaterar eller spelar upp det nya innehållet
@@ -93,15 +93,15 @@ Välj något av följande alternativ som är tillgängliga för att ställa in a
 
 ### Schema {#schedule-channel}
 
-Med Schema kan du ange en beskrivning i text när kanalen ska visas. Här kan du också definiera ett startdatum (**active from**) och ett slutdatum (**active until**) för den kanal som ska visas.
+Med Schema kan du ange en beskrivning i text när kanalen ska visas. Här kan du också definiera ett startdatum (**aktiv från**) och ett slutdatum (**aktiv tills**) för den kanal som ska visas.
 
-**Visa funktionsbeskrivning**:
+**Visa tips för Attraktion**:
 
-Show Attaction tooltip definierar om attributets funktionsbeskrivning (&quot;*Peka var som helst för att börja*&quot;) måste visas eller inte medan kanalen körs.
+Visa verktygstipset för attribut anger om verktygstipset för attributet (&quot;*Peka var som helst för att börja*&quot;) måste visas eller inte medan kanalen körs.
 
 ### DayParting {#dayparting}
 
-När du kombinerar scheman med **DayParting** kan du ange ett globalt schema med flera kanaler som körs vid specifika tidpunkter på dagen och återanvända inställningarna för alla skärmar samtidigt.
+Scheman i kombination med **DayParting** kan du ange ett globalt schema med flera kanaler som körs vid specifika tidpunkter på dygnet och återanvända det för alla skärmar samtidigt.
 
 DayParting innebär att dela upp en dag i tidskortplatser och ange vilket innehåll som spelas upp vid önskad tidpunkt. Med AEM Screens kan ni schemalägga kanaler som dagliga delningar inom en dag, vecka eller månad efter behov.
 
@@ -159,7 +159,7 @@ Här skapar du delningar per månad så att kanalinnehållet spelas upp enligt �
 
 >[!NOTE]
 >
->Dessutom kan du definiera ***prioritet*** för var och en av kanalerna. Om till exempel två kanaler är inställda för samma dag och tid eller för samma månad, spelas den kanal som har högre prioritet upp först. Minimivärdet för prioritet kan anges till 0.
+>Dessutom kan du definiera ***Prioritet*** för varje kanal. Om till exempel två kanaler är inställda för samma dag och tid eller för samma månad, spelas den kanal som har högre prioritet upp först. Minimivärdet för prioritet kan anges till 0.
 
 #### Spela upp innehåll för kanaler med samma prioritet {#playing-content-for-channels-with-same-priority}
 

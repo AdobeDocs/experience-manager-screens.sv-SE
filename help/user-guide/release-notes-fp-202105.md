@@ -1,6 +1,6 @@
 ---
 title: Versionsinformation för funktionspaket 202105
-description: '"Följ den här sidan för att få information om AEM Screens Feature Pack 202105 släppt den 4 juni 2021."'
+description: "Följ den här sidan för att få information om AEM Screens Feature Pack 202105 släppt den 4 juni 2021."
 feature: Feature Pack
 role: Developer
 level: Intermediate
