@@ -6,7 +6,9 @@ user-guide-title: Hjälp med Adobe Experience Manager Screens
 breadcrumb-title: Användarhandbok om AEM Screens
 user-guide-description: Lär dig använda en lösning för digital signering som gör att du kan publicera dynamiska och interaktiva digitala upplevelser och interaktioner.
 feature-set: Experience Manager Screens
-source-git-commit: 9d8b336c12d5e44beb831ba41f3df5031a6ca32d
+feature: Content
+role: User
+source-git-commit: 0286497306276c45c126b83b4c799970b145f42d
 workflow-type: tm+mt
 source-wordcount: '487'
 ht-degree: 6%
