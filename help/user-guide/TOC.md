@@ -8,9 +8,9 @@ user-guide-description: Lär dig använda en lösning för digital signering som
 feature-set: Experience Manager Screens
 feature: Content
 role: User
-source-git-commit: 0286497306276c45c126b83b4c799970b145f42d
+source-git-commit: b055ab685a1dcf5d53552971ecea42bffd81b848
 workflow-type: tm+mt
-source-wordcount: '487'
+source-wordcount: '489'
 ht-degree: 6%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 6%
    + [Nyckeltermer](screens-glossary.md)
 + Grundläggande om nätverk för digitala signaturer {#digital-signage-network}
    + [Del 1: Projektroller och ansvarsområden](project-roles-responsibilities.md)
-   + [Del 2: Att tänka på när projekt är omfång](project-considerations.md)
+   + [Del 2: Att tänka på som projekt omfång](project-considerations.md)
    + [Del 3: Testning, POC, piloter &amp; Rollouts](testing-pocs-pilots-rollouts.md)
    + [Del 4: Projektledning och driftsättning](project-management-and-deployment.md)
    + [Del 5: Supportöverväganden](support-considerations.md)
@@ -47,16 +47,17 @@ ht-degree: 6%
       + [Android Player](implementing-android-player.md)
       + [Windows Player](implementing-windows-player.md)
       + [Tizen Player](tizen-player.md)
+      + [Cloud Player](implementing-cloud-player.md)
       + [Automatisk registrering av spelare](auto-registration-players.md)
       + [Använda fjärrkontrollen](implementing-remote-control.md)
    + Author Publish {#author-publish}
-      + [Författare/Publicera arkitektur - översikt](author-publish-architecture-overview.md)
+      + [Author-Publish Architectional Overview](author-publish-architecture-overview.md)
       + [Konfigurera författare och publicera](author-and-publish.md)
    + Analysintegrering med AEM Screens {#analytics-integration}
       + [Adobe Analytics Integration](adobe-analytics-integration-aem-screens.md)
       + [Konfigurera Adobe Analytics med AEM Screens](configuring-adobe-analytics-aem-screens.md)
 + Exempel på redigerings- och användningsfall {#authoring}
-   + Konfigurera ett skärmprojekt {#setting-up-projects}
+   + Konfigurera ett skärmsprojekt {#setting-up-projects}
       + [Skapa och hantera projekt](creating-a-screens-project.md)
       + [Skapa och hantera kanaler](managing-channels.md)
       + [Skapa och hantera skärmar](managing-displays.md)
@@ -79,13 +80,13 @@ ht-degree: 6%
       + [Inbäddade sekvenser](embedded-sequences.md)
       + [Layout med flera zoner](multi-zone-layout-aem-screens.md)
       + [Videoåtergivningar](generating-renditions.md)
-      + [Dynamisk inbäddad sekvens](dynamic-embedded-sequences.md)
+      + [Dynamisk inbyggd sekvens](dynamic-embedded-sequences.md)
       + [Varaktighet för massbildsuppspelning på kanalnivå](channel-level-image-playback.md)
       + [Synkronisera kommandon](using-command-sync.md)
       + [Skapa med Data Triggers](authoring-data-triggers.md)
       + [Röstigenkänning](voice-recognition.md)
       + [Tilldelningsrapport för innehåll](content-assignment-report.md)
-      + [Stöd för miniatyrbilder för videoklipp](thumbnail-support.md)
+      + [Stöd för miniatyrbilder för videor](thumbnail-support.md)
       + [Använda adaptiva renderingar i AEM Screens](using-adaptive-renditions.md)
    + Hantera innehållsuppdateringar {#content-updates}
       + [On Demand Content Update](on-demand-content.md)
@@ -110,7 +111,7 @@ ht-degree: 6%
    + [ContextHub konfigureras i AEM Screens](configuring-context-hub.md)
    + [Skapa anpassade mallar för MultiZone-layouter](creating-custom-templates-multizone-layouts.md)
    + [Använda anpassad profilering och formatering för textövertäckningar](custom-branding-text-overlays.md)
-   + [Adaptiva renderingar: Arkitektöversikt och konfigurationer](/help/user-guide/adaptive-renditions.md)
+   + [Adaptiva renderingar: Arkitektur - översikt och konfigurationer](/help/user-guide/adaptive-renditions.md)
 + Felsökning och vanliga frågor {#troubleshooting}
    + [Vanliga frågor om AEM Screens](aem-screens-faqs.md)
    + [Felsökning av Device Control Center](monitoring-screens.md)
@@ -119,7 +120,7 @@ ht-degree: 6%
    + [Versionsinformation för funktionspaket 202204](release-notes-fp-202204.md)
    + [Versionsinformation för funktionspaket 202203](release-notes-fp-202203.md)
    + [Versionsinformation för funktionspaket 2012](release-notes-fp-202112.md)
-   + [Versionsinformation för funktionspaket 202109](release-notes-fp-202109.md)
+   + [Versionsinformation för funktionspaket 20109](release-notes-fp-202109.md)
    + [Versionsinformation för funktionspaket 202105](release-notes-fp-202105.md)
    + [Versionsinformation för funktionspaket 2013](release-notes-fp-202103.md)
    + [Versionsinformation för funktionspaket 2011](release-notes-fp-202011.md)
