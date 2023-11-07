@@ -14,9 +14,9 @@ feature: Administering Screens, Windows Player
 role: Admin
 level: Intermediate
 exl-id: 50b6d9ba-e672-4f4d-a9a8-fb8387685057
-source-git-commit: 97bc64ce3c01ac2de301b17bf9f8610662d45f88
+source-git-commit: 970762bb08f19ab07917dd5a21f67a007ec1143f
 workflow-type: tm+mt
-source-wordcount: '1097'
+source-wordcount: '1148'
 ht-degree: 0%
 
 ---
@@ -64,7 +64,7 @@ När du har hämtat programmet följer du stegen på spelaren för att slutföra
 
 >[!NOTE]
 >
->Om **Läge** är **REGISTRERAD** kommer du att lägga märke till **Enhets-ID** fältet fylls i.
+>Om **Läge** är **REGISTRERAD** kommer du att märka **Enhets-ID** fältet fylls i.
 >
 >Om **Läge** är **OREGISTRERAD** kan du använda **Token** för att registrera enheten.
 
@@ -120,14 +120,18 @@ Följ stegen nedan för att konfigurera Windows 10 Player:
 
 I följande tabell sammanfattas principattributen med en exempelpolicy-JSON för referens:
 
+
 | **Principnamn** | **Syfte** |
 |---|---|
 | server | URL:en till Adobe Experience Manager-servern (AEM). |
+| registrationKey | Används för massregistrering av enheter med hjälp av i förväg delad nyckel. |
 | upplösning | Enhetens upplösning. |
 | rebootSchedule | Schemat för att starta om spelaren. |
 | enableAdminUI | Aktivera administratörsgränssnittet för att konfigurera enheten på platsen. Anges till false när den är helt konfigurerad och i produktion. |
-| enableOSD | Aktivera kanalväljarens användargränssnitt så att användare kan växla kanaler på enheten. Överväg att ställa in på false när den är helt konfigurerad och i produktion. |
+| enableOSD | Aktivera kanalväljarens användargränssnitt för att användare ska kunna växla kanaler på enheten. Överväg att ställa in på false när den är helt konfigurerad och i produktion. |
 | enableActivityUI | Aktivera om du vill visa förloppet för aktiviteter som hämtning och synkronisering. Aktivera för felsökning och inaktivera när den är helt konfigurerad och i produktion. |
+| cloudMode | Ange true om du vill att Tizen-spelaren ska ansluta till skärmar as a Cloud Service. Ange som false för att ansluta till AMS eller AEM. |
+| cloudToken | Registreringstoken för registrering mot skärmar as a Cloud Service. |
 
 #### Exempel på princip-JSON-fil {#example-policy-json-file}
 
@@ -162,7 +166,7 @@ Aktivera Kiosk-läget genom att följa stegen nedan:
 
 1. Skapa en icke-administrativ användare (om du inte redan har någon) som ska användas för Kiosk. Detta kan vara en lokal användare eller en domänanvändare.
 1. Installera Windows-spelaren för den Kiosk-användaren från [AEM Screens Player - nedladdningar](https://download.macromedia.com/screens/) sida.
-1. Se [Använd Shell Launcher för att skapa en Windows 10-kioskdator](https://docs.microsoft.com/en-us/windows/configuration/kiosk-shelllauncher) om du vill ändra PowerShell-skriptet för mer information.
+1. Se [Använd Shell Launcher för att skapa en dator med Windows 10](https://docs.microsoft.com/en-us/windows/configuration/kiosk-shelllauncher) om du vill ändra PowerShell-skriptet för mer information.
 
    Ändra PowerShell-skriptet så att användarnamnet ersätts med det du skapade. Kontrollera att sökvägen till den körbara programfilen är korrekt. Detta anger det anpassade skalet som Windows-spelarprogram för heltalsanvändaren och anger standardinställningen som explorer.exe för andra användare.
 

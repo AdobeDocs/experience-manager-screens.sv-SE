@@ -13,9 +13,9 @@ feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: 4f16605b-aec1-45fa-a110-0af6925b74b0
-source-git-commit: 8d4a7b2bc436d822c673a00437ee895c8ef5cb6f
+source-git-commit: 970762bb08f19ab07917dd5a21f67a007ec1143f
 workflow-type: tm+mt
-source-wordcount: '846'
+source-wordcount: '893'
 ht-degree: 0%
 
 ---
@@ -79,7 +79,7 @@ Aktivera Kiosk-läget genom att följa stegen nedan:
    >
    >En nyligen publicerad app kan ta ca 15 minuter att visa i den här listan.
 
-1. Välj **AEM Screens Player** från **Starta Kiosk-appen automatiskt** listruta.
+1. Välj **AEM Screens Player** från **Starta Kiosk-appen automatiskt** nedrullningsbar meny.
 
    Det kan ta några minuter beroende på nätverket för att ändringarna ska börja gälla. Omstart rekommenderas.
 
@@ -142,12 +142,15 @@ I följande tabell sammanfattas profilerna med deras funktioner.
 
 | **Principnamn** | **Syfte** |
 |---|---|
-| *server* | URL:en till Adobe Experience Manager Server |
-| *upplösning* | Upplösningen för Chrome OS-enheten |
-| *rebootSchedule* | Schemat för att starta om Chrome-spelaren |
-| *enableAdminUI* | Aktivera administratörsgränssnittet för tekniker för att konfigurera enheten på plats. Anges till false när den är helt konfigurerad och i produktion. |
-| *enableOSD* | Aktivera kanalväljarens användargränssnitt så att användare kan växla kanaler på enheten. Överväg att ställa in på false när den är helt konfigurerad och i produktion. |
-| *enableActivityUI* | Aktivera om du vill visa förloppet för aktiviteter som hämtning och synkronisering. Aktivera för felsökning och inaktivera när den är helt konfigurerad och i produktion. |
+| server | URL:en till Adobe Experience Manager-servern (AEM). |
+| registrationKey | Används för massregistrering av enheter med hjälp av i förväg delad nyckel. |
+| upplösning | Enhetens upplösning. |
+| rebootSchedule | Schemat för att starta om spelaren. |
+| enableAdminUI | Aktivera administratörsgränssnittet för att konfigurera enheten på platsen. Anges till false när den är helt konfigurerad och i produktion. |
+| enableOSD | Aktivera kanalväljarens användargränssnitt för att användare ska kunna växla kanaler på enheten. Överväg att ställa in på false när den är helt konfigurerad och i produktion. |
+| enableActivityUI | Aktivera om du vill visa förloppet för aktiviteter som hämtning och synkronisering. Aktivera för felsökning och inaktivera när den är helt konfigurerad och i produktion. |
+| cloudMode | Ange true om du vill att Tizen-spelaren ska ansluta till skärmar as a Cloud Service. Ange som false för att ansluta till AMS eller AEM. |
+| cloudToken | Registreringstoken för registrering mot skärmar as a Cloud Service. |
 
 >[!NOTE]
 >
