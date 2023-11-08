@@ -13,7 +13,7 @@ feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: 4f16605b-aec1-45fa-a110-0af6925b74b0
-source-git-commit: 970762bb08f19ab07917dd5a21f67a007ec1143f
+source-git-commit: d8c420c289452e3ddb1be42c8f170758385ff7af
 workflow-type: tm+mt
 source-wordcount: '893'
 ht-degree: 0%
@@ -149,7 +149,7 @@ I följande tabell sammanfattas profilerna med deras funktioner.
 | enableAdminUI | Aktivera administratörsgränssnittet för att konfigurera enheten på platsen. Anges till false när den är helt konfigurerad och i produktion. |
 | enableOSD | Aktivera kanalväljarens användargränssnitt för att användare ska kunna växla kanaler på enheten. Överväg att ställa in på false när den är helt konfigurerad och i produktion. |
 | enableActivityUI | Aktivera om du vill visa förloppet för aktiviteter som hämtning och synkronisering. Aktivera för felsökning och inaktivera när den är helt konfigurerad och i produktion. |
-| cloudMode | Ange true om du vill att Tizen-spelaren ska ansluta till skärmar as a Cloud Service. Ange som false för att ansluta till AMS eller AEM. |
+| cloudMode | Ange true om du vill att Chrome Player ska ansluta till skärmar as a Cloud Service. Ange som false för att ansluta till AMS eller AEM. |
 | cloudToken | Registreringstoken för registrering mot skärmar as a Cloud Service. |
 
 >[!NOTE]
