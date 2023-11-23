@@ -11,9 +11,10 @@ discoiquuid: 1be944f0-02ed-48c6-98bc-504d758ff866
 feature: Administering Screens
 role: Admin
 level: Intermediate
-source-git-commit: 718ef76b620accd7096be2e4b7ac53658cb7fce7
+exl-id: 184168f5-6070-4c33-a2c5-5429061dac75
+source-git-commit: 8d1b955e54650daf3a09b5f1c16f92f2e1143f2c
 workflow-type: tm+mt
-source-wordcount: '455'
+source-wordcount: '582'
 ht-degree: 0%
 
 ---
@@ -67,3 +68,24 @@ Beroende på vilken typ av AEM som används väljer du en av följande stödlinj
 * [AEM On-Premises/AMS](https://main--screens-franklin-documentation--hlxscreens.hlx.live/updates/cloud-player/guides/cors-settings-aem-onpremandams)
 * [AEM Cloud Service](https://main--screens-franklin-documentation--hlxscreens.hlx.live/updates/cloud-player/guides/cors-settings-aem-cs)
 
+## Offline-stöd för extern innehållshämtning {#offline-support}
+
+I olika användningsscenarier kan kanalerna kräva hämtning av innehåll från en extern källa (t.ex. väderwidgetar eller Commerce-integrerade Single Page-program) som inte kan tillhandahålla offlinesupport. För att aktivera offlinefunktioner för dessa specifika användningsområden har molnspelaren stöd för anpassade sidhuvuden.
+I molnspelaren används en strategi för Network First Cache, vilket innebär att den försöker hämta innehåll från nätverket (och sedan uppdatera cachen med senaste) och återgå till cachelagrat innehåll om möjligt. Om du vill implementera offlinesupport för sådan innehållshämtning måste den anpassade rubriken inkluderas i begäran. Därefter cachelagras begäran med det anpassade huvudet i spelaren, vilket underlättar offlineåtkomst till innehållet samtidigt som strategin för nätverkets första cache bevaras.
+
+```
+// Sample fetch request with the 'X-Cache-Strategy' header
+fetch(externalUrl, {
+  headers: {
+    'X-Cache-Strategy': 'external-cache'
+  }
+})
+  .then(response => {
+    // Handle the response, which may be from the network or cache.
+    // Your logic here.
+  })
+  .catch(error => {
+    // Handle any errors that may occur during the fetch operation.
+    // Your error handling logic here.
+  }); 
+```
