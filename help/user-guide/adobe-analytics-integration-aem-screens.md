@@ -14,9 +14,9 @@ feature: Administering Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 92c8c42b-7c1e-4d4a-8662-18c99666e9c6
-source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
+source-git-commit: 97820c602885ecf581ae1e6bada6c104aeeb4c70
 workflow-type: tm+mt
-source-wordcount: '671'
+source-wordcount: '690'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 0%
 
 >[!CAUTION]
 >
->Den här AEM Screens-funktionen är endast tillgänglig om du har installerat minimiversionen av AEM 6.4.2 Feature Pack 2 eller AEM 6.3.3 Feature Pack 4.
+>Den här AEM Screens-funktionen är endast tillgänglig om du har installerat minimiversionen av AEM 6.4.2 Feature Pack 2 eller AEM 6.3.3 Feature Pack 4. För molntjänstkunder i AEM Screens kontaktar du Adobe Relationship Manager för att aktivera Adobe Analytics i Creative Cloud.
 
 >[!NOTE]
 >
@@ -73,11 +73,11 @@ Navigera till **Konfiguration av Adobe Experience Manager Web Console** konfigur
 
 ![screen_shot_2018-09-04at25550pm](assets/screen_shot_2018-09-04at25550pm.png)
 
-## Skärmanalys: Aktivera flöde {#screens-analytics-enablement-flow}
+## Skärmanalys: Aktiveringsflöde {#screens-analytics-enablement-flow}
 
 >[!CAUTION]
 >
->Innan du konfigurerar egenskaperna bör du kontakta din Adobe Relationship Manager och skapa en biljett för att få en **API-nyckel för analyser** och **Analysprojekt** för användning med AEM Screens.
+>Innan du konfigurerar egenskaperna bör du kontakta din Adobe Relationship Manager och skapa en biljett för att få en **API-nyckel för analyser** och **Analysprojekt** för AEM Screens.
 
 ![]()
 
@@ -85,7 +85,7 @@ Navigera till **Konfiguration av Adobe Experience Manager Web Console** konfigur
 
 >[!CAUTION]
 >
->Innan du konfigurerar egenskaperna bör du kontakta din Adobe Relationship Manager och skapa en biljett för att få en **API-nyckel för analyser** och **Analysprojekt** för användning med AEM Screens.
+>Innan du konfigurerar egenskaperna bör du kontakta din Adobe Relationship Manager och skapa en biljett för att få en **API-nyckel för analyser** och **Analysprojekt** för AEM Screens.
 
 I följande tabell visas egenskaperna med en beskrivning av hur du konfigurerar Adobe Analytics för AEM Screens:
 
@@ -96,9 +96,9 @@ I följande tabell visas egenskaperna med en beskrivning av hur du konfigurerar 
    <td><strong>Beskrivning</strong></td>
   </tr>
   <tr>
-   <td><strong>Analytics URL</strong></td>
+   <td><strong>Analytics-URL</strong></td>
    <td>URL för att publicera analysdata från spelaren. <br>
-   För utveckling/fas</em> - https://cc-api-data-stage.adobe.io/ingest/<br /> <em>För produktion</em> - https://cc-api-data.adobe.io/ingest/</em><br /> <br /></td>
+   För utveckling/fas</em> - https://cc-api-data-stage.adobe.io/ingest/<br /> <em>För produktion</em> - https://cc-api-data.adobe.io/ingest/<br /> <br /></td>
   </tr>
   <tr>
    <td><strong>API-nyckel för analyser</strong></td>
@@ -131,4 +131,4 @@ Analyshändelser lagras offline i indexedDB och sedan i chunked-läge och skicka
 
 >[!NOTE]
 >
->Läs mer om ***Ordning*** och ***Standarddatamodell för händelser***, se **[Konfigurera Adobe Analytics för AEM Screens](configuring-adobe-analytics-aem-screens.md)**.
+>Läs mer om ***Sekvenser*** och ***Standarddatamodell för händelser***, se **[Konfigurera Adobe Analytics för AEM Screens](configuring-adobe-analytics-aem-screens.md)**.
