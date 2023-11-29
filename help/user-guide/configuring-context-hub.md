@@ -14,9 +14,9 @@ feature: Developing Screens
 role: Developer
 level: Intermediate
 exl-id: 04072107-d6be-4030-bb79-1f1a7609f37e
-source-git-commit: 707833ddd8ab2573abcac4e9a77ec88778624435
+source-git-commit: 93e9514ebd25a4d84076174c4d90a0325b167393
 workflow-type: tm+mt
-source-wordcount: '1503'
+source-wordcount: '1513'
 ht-degree: 1%
 
 ---
@@ -31,7 +31,7 @@ Innan vi får in mer ingående information om hur ni skapar och hanterar lagerdr
 
 **Varumärke** Avser din projektbeskrivning på hög nivå.
 
-**Yta** Hänvisar till ditt projektnamn för AEM Screens, t.ex. Digital Ad Signage
+**Område** Hänvisar till ditt projektnamn för AEM Screens, till exempel Digital Ad Signage
 
 **Aktivitet** Definierar regelkategorin som Inventory-Driven, Weather-Driven, Department Availability-Driven osv.
 
@@ -92,7 +92,7 @@ Följande validering är vad du kommer att se när du kontrollerar anslutningen 
    1. **Navigera** till **ContextHubDemo** > **Skapa** **Konfiguration av ContentHub** och klicka **Spara**.
 
       >[!NOTE]
-      > När du har klickat **Spara** du kommer att vara i **KontextHub-konfiguration** skärm.
+      > När du klickat **Spara** du kommer att vara i **KontextHub-konfiguration** skärm.
 
    1. Från **KontextHub-konfiguration** skärm, klicka **Skapa** > **Konfiguration av ContentHub Store..**
 
@@ -111,7 +111,6 @@ Följande validering är vad du kommer att se när du kontrollerar anslutningen 
       >1. Ta bort `cloudsettings` och spara.
       >1. Byt namn `cloudsettings1` till `cloudsettings` och spara.
       >1. Du bör nu observera att /conf/screens/settings/cloudsettings har `jcr:primaryType` as `sling:Folder`.
-
       >
       >Följ dessa steg i programmet och publicera före eller efter uppgraderingen.
 
@@ -144,10 +143,13 @@ Följande validering är vad du kommer att se när du kontrollerar anslutningen 
       ```
 
       >[!NOTE]
+      >
       I ovanstående exempelkod **pollInterval** definierar den frekvens med vilken värdena uppdateras (i ms).
+      >
       Ersätt koden med *&lt;sheet id=&quot;&quot;>* och *&lt;api key=&quot;&quot;>*, som du hämtade när du konfigurerade Google-bladen.
 
       >[!CAUTION]
+      >
       Om du skapar dina Google Sheets-lagringskonfigurationer utanför den globala mappen (t.ex. i din egen projektmapp) kommer målanpassning inte att fungera som den ska.
 
 1. **Konfigurera butikssegmentering**
@@ -159,7 +161,7 @@ Följande validering är vad du kommer att se när du kontrollerar anslutningen 
    1. Klicka **Nästa** och sedan **Spara**.
 
       >[!NOTE]
-Du måste hoppa över processen att definiera json och lämna den tom.
+Du måste hoppa över processen att definiera jsonen och lämna den tom.
 
 
 ## Steg 3: Konfigurera segment i målgruppen {#setting-up-audience}
@@ -170,14 +172,14 @@ Du måste hoppa över processen att definiera json och lämna den tom.
 
    1. Klicka **Skapa** > **Skapa kontextnavsegment.** The **Nytt ContextHub-segment** öppnas.
 
-   1. Ange **Titel** as **Högre än50** och klicka **Skapa**. På samma sätt kan du skapa ett annat segment med namnet som **Lägsta50**.
+   1. Ange **Titel** as **Högre än50** och klicka **Skapa**. Skapa på samma sätt ett annat segment med namnet som **Lägsta50**.
 
       ![bild](/help/user-guide/assets/context-hub/context-hub11.png)
 
    1. Markera segmentet **Högre än50** och klicka **Egenskaper** i åtgärdsfältet.
       ![bild](/help/user-guide/assets/context-hub/context-hub12.png)
 
-   1. Välj **Personalisering** från **Segmentegenskaper**. Ange **ContextHub-sökväg** till `/conf/screens/settings/cloudsettings/ContextHubDemo/contexthub configurations` och **Segmentsökväg** till `/conf/screens/settings/wcm/segments` och klicka **Spara**, vilket visas i figuren nedan.
+   1. Välj **Personalisering** -fliken från **Segmentegenskaper**. Ange **ContextHub-sökväg** till `/conf/screens/settings/cloudsettings/ContextHubDemo/contexthub configurations` och **Segmentsökväg** till `/conf/screens/settings/wcm/segments` och klicka **Spara**, vilket visas i figuren nedan.
 
       ![bild](/help/user-guide/assets/context-hub/context-hub13.png)
 
@@ -195,13 +197,14 @@ Följ stegen nedan för att skapa ett varumärke i era aktiviteter och i ert omr
 
    1. Välj **Varumärke** från **Skapa sida** guide och klicka **Nästa**.
 
-   1. Ange **Titel** as **SkärmarVarumärke** och klicka **Skapa**. Ditt varumärke har nu skapats enligt nedan.
+   1. Ange **Titel** as **Skärmmärke** och klicka **Skapa**. Ditt varumärke har nu skapats enligt nedan.
 
       ![bild](/help/user-guide/assets/context-hub/context-hub8.png)
 
 
       >[!CAUTION]
-      Känt fel: Om du vill lägga till ett område tar du bort överordnad från URL-adressen, till exempel
+      >
+      Känt fel: Om du vill lägga till ett område tar du bort mallen från URL:en, t.ex.
       `http://localhost:4502/libs/cq/personalization/touch-ui/content/v2/activities.html/content/campaigns/screensbrand/master`.
 
 1. **Skapa ett område i ditt varumärke**
@@ -212,18 +215,18 @@ Följ stegen nedan för att skapa ett varumärke i era aktiviteter och i ert omr
 
       ![bild](/help/user-guide/assets/context-hub/context-hub9.png)
 
-   1. Välj **Yta** från **Skapa sida** guide och klicka **Nästa**.
+   1. Välj **Område** från **Skapa sida** guide och klicka **Nästa**.
 
    1. Ange **Titel** as **ScreensValue** och klicka **Skapa**.
 Ett område kommer att skapas i ert varumärke.
 
-## Steg 5: Skapa segment i en aktivitet {#step-setting-up-audience-segmentation}
+## Steg 5: Skapa segmenten i en aktivitet {#step-setting-up-audience-segmentation}
 
 När du har konfigurerat ett datalager och definierat din aktivitet (varumärke och område) följer du stegen nedan för att skapa segment i din aktivitet.
 
 1. **Skapa segment i aktiviteter**
 
-   1. Navigera från AEM till **Personalisering** > **Verksamhet** > **SkärmarVarumärke** >**ScreensValue**.
+   1. Navigera från AEM till **Personalisering** > **Verksamhet** > **Skärmmärke** >**ScreensValue**.
 
    1. Klicka **Skapa** > **Skapa aktivitet.** The **Guiden Konfigurera aktivitet** öppnas.
 
@@ -245,7 +248,7 @@ När du har konfigurerat ett datalager och definierat din aktivitet (varumärke 
 
 ## Steg 5: Redigera segment i publiker{#editing-audience-segmentation}
 
-1. **Redigera segment**
+1. **Redigera segmenten**
 
    1. Navigera från AEM till **Personalisering** > **Målgrupper** > **skärmar**.
 
@@ -267,9 +270,11 @@ The **googlesheets/value/1/0** hänvisar till rad 2 och kolumn som är ifylld i 
    1. Ange **Värde** as **70**.
 
       >[!NOTE]
+      >
       AEM validerar data från Google Sheet genom att visa segmentet som grönt.
 
       ![bild](/help/user-guide/assets/context-hub/context-hub18.png)
+
    Redigera på samma sätt egenskapsvärdena till **Lägsta50**.
 
    1. Dra och släpp **Jämförelse: Egenskap - värde** till redigeraren.
@@ -281,7 +286,6 @@ The **googlesheets/value/1/0** hänvisar till rad 2 och kolumn som är ifylld i 
    1. Välj **Operator** as **mindre än** i listrutan.
 
    1. Ange **Värde** as **50**.
-
 
 
 ## Aktivera mål i kanaler {#step-enabling-targeting-in-channels}
@@ -296,18 +300,21 @@ Följ stegen nedan för att aktivera målinriktning i dina kanaler.
 
 1. Välj **Personalisering** för att konfigurera ContextHub-konfigurationer.
 
-   1. Ange **ContextHub-sökväg** till `/conf/screens/settings/cloudsettings/ContextHubDemo/contexthub configurations` och **Segmentsökväg** till `/conf/screens/settings/wcm/segments` och klicka **Spara**.
+   1. Ange **ContextHub-sökväg** till `/conf/screens/settings/wcm/segments` och **Segmentsökväg** till `/conf/screens/settings/wcm/segments`.
+   1. Ställ in varumärket till **Skärmmärke** från listrutan och **Ange områdesreferens** till **ScreensValue**.
 
    1. Klicka **Spara och stäng**.
 
       >[!NOTE]
+      >
       Använd ContextHub och Segments-sökvägen, där du först sparade dina kontextnavkonfigurationer och segment.
 
-      ![bild](/help/user-guide/assets/context-hub/context-hub20.png)
+      ![bild](/help/user-guide/assets/context-hub/context-hub20New.png)
 
-   1. Navigera och markera **TargetChannel** kanal och klicka **Redigera** i åtgärdsfältet.
+   1. Navigera och markera **TargetChannel** och klicka på **Redigera** i åtgärdsfältet.
 
       >[!NOTE]
+      >
       Om du har konfigurerat allt korrekt visas **Målinriktning** i listrutan i redigeraren, vilket visas i bilden nedan.
 
       ![bild](/help/user-guide/assets/context-hub/context-hub21.png)
