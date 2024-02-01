@@ -5,9 +5,10 @@ solution: Experience Manager, Experience Manager Screens
 type: Documentation
 index: y
 git-repo: https://github.com/AdobeDocs/experience-manager-screens.sv-SE
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+recommendations: noDisplay
+source-git-commit: b12f093c80d0c61094dd26015cbc952ae3c37658
 workflow-type: tm+mt
-source-wordcount: '42'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
