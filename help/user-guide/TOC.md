@@ -8,10 +8,10 @@ user-guide-description: Lär dig använda en lösning för digital signering som
 feature-set: Experience Manager Screens
 feature: Content
 role: User
-source-git-commit: b055ab685a1dcf5d53552971ecea42bffd81b848
+source-git-commit: f20cdc76eb599000b4da4b2c654b3c191d963ed6
 workflow-type: tm+mt
-source-wordcount: '489'
-ht-degree: 6%
+source-wordcount: '510'
+ht-degree: 5%
 
 ---
 
@@ -71,7 +71,7 @@ ht-degree: 6%
       + [Textövertäckning](text-overlay.md)
       + [Uppdatera gruppvis offline](bulk-offline-update.md)
       + [AEM Screens Notifications Service](screens-notifications-service.md)
-      + [Använda Experience Fragments](experience-fragments-in-screens.md)
+      + [Använda upplevelsefragment](experience-fragments-in-screens.md)
       + [Aktivering på tillgångsnivå](asset-level-scheduling.md)
       + [Aktivering på kanalnivå](channel-level-activation.md)
       + [Skapa och hantera en Live-kopia](managing-livecopy.md)
@@ -117,6 +117,7 @@ ht-degree: 6%
    + [Felsökning av Device Control Center](monitoring-screens.md)
    + [Videouppspelningskonfiguration](troubleshoot-videos.md)
 + Versionsinformation {#release-notes}
+   + [Versionsinformation för funktionspaket 20240166](release-notes-fp-20240116.md)
    + [Versionsinformation för funktionspaket 202204](release-notes-fp-202204.md)
    + [Versionsinformation för funktionspaket 202203](release-notes-fp-202203.md)
    + [Versionsinformation för funktionspaket 2012](release-notes-fp-202112.md)
