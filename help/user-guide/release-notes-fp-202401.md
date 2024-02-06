@@ -4,9 +4,9 @@ description: Följ den här sidan för att få information om AEM Screens Featur
 feature: Feature Pack
 role: Developer
 level: Intermediate
-source-git-commit: e172d2a4a3d2c1f3b555edc8f8ea41b663fc0a30
+source-git-commit: bdc8ff6c1291b7f0dc749e4a9f3a4c1d21678303
 workflow-type: tm+mt
-source-wordcount: '250'
+source-wordcount: '232'
 ht-degree: 0%
 
 ---
@@ -53,7 +53,3 @@ Den här versionen innehåller endast säkerhetskorrigeringar.
 * XSS-problem `libs/screens/dcc/components/clientlibs/actions/cq.screens.dcc.openLink.js`. (SCRNS-3459)
 
 * Åtgärdade, saknade upprepningsschema och Lägg till schemaknappar: Ett problem upptäcktes i kanalschemaläggningen. (SCRNS-2739)
-
-#### AEM Screens Player - nedladdningar  {#aem-screens-player-downloads}
-
-Om du vill hämta den senaste AEM Screens-spelaren går du till **[AEM Screens Player - nedladdningar](https://download.macromedia.com/screens/index.html)**.
