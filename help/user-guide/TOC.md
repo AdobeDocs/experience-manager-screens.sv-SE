@@ -8,9 +8,9 @@ user-guide-description: Lär dig använda en lösning för digital signering som
 feature-set: Experience Manager Screens
 feature: Content
 role: User
-source-git-commit: 5f67d469bb6e562e0bc91f098e1941aeea923c9e
+source-git-commit: 705540969c96d143294953d4fa391ad97a3aa0f5
 workflow-type: tm+mt
-source-wordcount: '516'
+source-wordcount: '522'
 ht-degree: 5%
 
 ---
@@ -119,6 +119,7 @@ ht-degree: 5%
 + Versionsinformation {#release-notes}
    + [Versionsinformation för funktionspaket 202401](release-notes-fp-202401.md)
    + [Versionsinformation för funktionspaket 20240116](release-notes-fp-20240116.md)
+   + [Versionsinformation för funktionspaket 20240215](release-notes-fp-20240215.md)
    + [Versionsinformation för funktionspaket 202204](release-notes-fp-202204.md)
    + [Versionsinformation för funktionspaket 202203](release-notes-fp-202203.md)
    + [Versionsinformation för funktionspaket 2012](release-notes-fp-202112.md)
