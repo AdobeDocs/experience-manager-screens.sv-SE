@@ -76,9 +76,11 @@ Beroende på vilken typ av AEM som används väljer du en av följande stödlinj
 
 >[!NOTE]
 >
-## Chrome Apps Deprecation by Google
-1. Chrome Apps on Chrome OS Hardware: Google har aktivt ersatt Chrome Apps med stöd för PWA-appar, med en planerad migrering fram till januari 2025. Därför kommer AEM Screens Player-appen i Chrome OS inte längre att fungera baserat på den delade tidslinjen. Vi uppmanar våra kunder som för närvarande använder Chrome Player i produktion att planera för övergång till Screens Cloud Player.
-2. Chrome Extension Player på Mac, Windows och Linux: På grund av Google borttagningsprocess stöds inte längre Screens Chrome Extension Player från och med Google Chrome version 114. Vi rekommenderar starkt att du går över till Adobe Screens Cloud Player för alla utvecklings- och testningskrav.
+>## Chrome Apps Deprecation by Google
+>1. Chrome Apps on Chrome OS Hardware: 
+>Google har aktivt ersatt Chrome Apps med stöd för PWA-appar, med en planerad migrering fram till januari 2025. Därför kommer AEM Screens Player-appen i Chrome OS inte längre att fungera baserat på den delade tidslinjen. Vi uppmanar våra kunder som för närvarande använder Chrome Player i produktion att planera för övergång till Screens Cloud Player.
+>2. Chrome Extension Player på Mac, Windows och Linux: 
+>På grund av Google borttagningsprocess stöds inte längre Screens Chrome Extension Player från och med Google Chrome version 114. Vi rekommenderar starkt att du går över till Adobe Screens Cloud Player för alla utvecklings- och testningskrav.
 
 ## Offline-stöd för extern innehållshämtning {#offline-support}
 
