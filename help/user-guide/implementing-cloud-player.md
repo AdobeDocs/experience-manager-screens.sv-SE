@@ -12,7 +12,7 @@ feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: 184168f5-6070-4c33-a2c5-5429061dac75
-source-git-commit: ea1c90cf915e83709131ed4b877788ed3ffea59e
+source-git-commit: 5b64ab8eea274aa85c61311d34b1ce065a5ba601
 workflow-type: tm+mt
 source-wordcount: '858'
 ht-degree: 0%
@@ -44,15 +44,17 @@ Installationen av Cloud Player kan variera mellan olika plattformar. I allmänhe
 
 1. Klicka på installationsikonen och installationsknappen i bekräftelsedialogrutan. Cloud Player installeras som ett fristående program på enheten och kan startas med en ikon.
 
-### Installationsalternativ för molnspelare {#cloud-player-install-option}
-
+>[!NOTE]
+>
+>### Installationsalternativ för molnspelare {#cloud-player-install-option}
+>
 1. Installationsalternativet för en PWA kallas även&quot;Lägg till på hemskärmen&quot; eller A2HS-funktion.  Stödet för att installera PWA från webben varierar beroende på webbläsare och plattform.
 1. Alla webbläsare har olika villkor för att kontrollera om appen PWA är installerbar eller inte. Webbläsaren kontrollerar vanligtvis dessa (mer information här):
-
-   * Om programmet har en manifest json-fil med minimalt antal nödvändiga nycklar för installation av programmet på plattformen, dvs. namn, ikoner, start_url, visa
-   * Om programmet har en servicearbetarfil med en hämtningshändelseavlyssnare.
-   * Appen måste serveras via https.
-
+>
+* Om programmet har en manifest json-fil med minimalt antal nödvändiga nycklar för installation av programmet på plattformen, dvs. namn, ikoner, start_url, visa
+* Om programmet har en servicearbetarfil med en hämtningshändelseavlyssnare.
+* Appen måste serveras via https.
+>
 1. Installationsalternativet kan vara synligt på olika platser i olika webbläsare och på olika enheter. I vissa webbläsare kan installationsikonen döljas i alternativmenyraden.
 
 ## Massetablering av molnspelare {#bulk-provisioning}
@@ -77,15 +79,17 @@ Beroende på vilken typ av AEM som används väljer du en av följande stödlinj
 * [AEM On-Premises/AMS](https://main--screens-franklin-documentation--hlxscreens.hlx.live/updates/cloud-player/guides/cors-settings-aem-onpremandams)
 * [AEM Cloud Service](https://main--screens-franklin-documentation--hlxscreens.hlx.live/updates/cloud-player/guides/cors-settings-aem-cs)
 
+>[!NOTE]
+>
 ## Chrome Apps Deprecation by Google
-
+>
 1. Chrome Apps on Chrome OS Hardware:
-
-   Google har aktivt ersatt Chrome Apps med stöd för PWA-appar, med en planerad migrering fram till januari 2025. Därför kommer AEM Screens Player-appen i Chrome OS inte längre att fungera baserat på den delade tidslinjen. Vi uppmanar våra kunder som för närvarande använder Chrome Player i produktion att planera för övergång till Screens Cloud Player.
-
+>
+Google har aktivt ersatt Chrome Apps med stöd för PWA-appar, med en planerad migrering fram till januari 2025. Därför kommer AEM Screens Player-appen i Chrome OS inte längre att fungera baserat på den delade tidslinjen. Vi uppmanar våra kunder som för närvarande använder Chrome Player i produktion att planera för övergång till Screens Cloud Player.
+>
 1. Chrome Extension Player på Mac, Windows och Linux:
-
-   På grund av Google borttagningsprocess, från och med Google Chrome version 114, stöds inte längre Screens Chrome Extension Player. Vi rekommenderar starkt att du går över till Adobe Screens Cloud Player för alla utvecklings- och testningskrav.
+>
+På grund av Google borttagningsprocess, från och med Google Chrome version 114, stöds inte längre Screens Chrome Extension Player. Vi rekommenderar starkt att du går över till Adobe Screens Cloud Player för alla utvecklings- och testningskrav.
 
 ## Offline-stöd för extern innehållshämtning {#offline-support}
 
