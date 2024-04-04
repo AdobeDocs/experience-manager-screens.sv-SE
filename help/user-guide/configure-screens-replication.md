@@ -4,9 +4,9 @@ description: Följ den här sidan för att få information om hur du konfigurera
 role: Developer
 level: Intermediate
 exl-id: 40877547-5027-41eb-8d66-d4a2d7b9af70
-source-git-commit: 93bbffa2d752bfbd92702487802d40e7e8e287b8
+source-git-commit: d1adadbab2cb13626dd8ce70deacced9f55aa4c9
 workflow-type: tm+mt
-source-wordcount: '507'
+source-wordcount: '498'
 ht-degree: 3%
 
 ---
@@ -34,9 +34,9 @@ Följ stegen nedan för att aktivera användare och uppdatera lösenordet för s
 >[!NOTE]
 >Av säkerhetsskäl bör du undvika att använda administratörslösenordet för skärmmottagare-användare.
 
-1. Navigera till din AEM Author-instans.
+1. Navigera till AEM Author-instansen.
 
-1. Klicka på verktygen —> **Säkerhet** —> **Användare**.
+1. Klicka på verktygen > **Säkerhet** > **Användare**.
 
    ![bild](/help/user-guide/assets/screens-replication/screens-replication1.png)
 
@@ -58,7 +58,7 @@ Följ stegen nedan för att aktivera användare och uppdatera lösenordet för s
 
    ![bild](/help/user-guide/assets/screens-replication/screens-replication5.png)
 
-1. Klicka på **Ändra lösenord** under **Kontoinställningar** från **Detaljer** enligt bilden nedan.
+1. Klicka på **Ändra lösenord** under **Kontoinställningar** från **Information** enligt bilden nedan.
 
    ![bild](/help/user-guide/assets/screens-replication/screens-replication6.png)
 
@@ -97,7 +97,7 @@ Följ avsnittet nedan för att uppdatera inställningarna i agenten för skärmr
 
 1. Navigera till AEM.
 
-1. Klicka på verktygen —> **Distribution** —> **Replikering**.
+1. Klicka på verktygen > **Distribution** > **Replikering**.
 
    ![bild](/help/user-guide/assets/screens-replication/screens-replication1a.png)
 
@@ -108,7 +108,7 @@ Följ avsnittet nedan för att uppdatera inställningarna i agenten för skärmr
 1. Sök efter alla skärmreplikeringsagenter på författaren och klicka på länken enligt bilden nedan.
 
    >[!NOTE]
-   >Sök efter alla skärmreplikeringsagenter. Namnet på skärmreplikeringsagenten kommer att innehålla en bokstav **S** i titeln.
+   >Sök efter alla skärmreplikeringsagenter. Namnet på skärmreplikeringsagenten innehåller en bokstav **S** i titeln.
 
    ![bild](/help/user-guide/assets/screens-replication/screens-replication1c.png)
 
@@ -120,7 +120,7 @@ Följ avsnittet nedan för att uppdatera inställningarna i agenten för skärmr
 
    ![bild](/help/user-guide/assets/screens-replication/screens-replication1e.png)
 
-1. Navigera till **Transport** från **Agentinställningar** och uppdatera **Användare** till **screens-receiver-user** och ange samma lösenord som du angav tidigare i steg 8 av [Aktivera användare och uppdatera lösenordet](#enable-users).
+1. Navigera till **Transport** -fliken från **Agentinställningar** och uppdatera **Användare** till **screens-receiver-user** och ange samma lösenord som du angav tidigare i steg 8 av [Aktivera användare och uppdatera lösenordet](#enable-users).
 
    ![bild](/help/user-guide/assets/screens-replication/screens-replication1-f.png)
 

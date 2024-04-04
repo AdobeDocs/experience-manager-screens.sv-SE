@@ -14,9 +14,9 @@ feature: Administering Screens, Device Registration
 role: Admin
 level: Intermediate
 exl-id: b2d3a2cd-263f-4142-80da-29ce54cbf391
-source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
+source-git-commit: d1adadbab2cb13626dd8ce70deacced9f55aa4c9
 workflow-type: tm+mt
-source-wordcount: '771'
+source-wordcount: '761'
 ht-degree: 0%
 
 ---
@@ -37,11 +37,9 @@ Enhetsregistreringsprocessen görs på två olika datorer:
 >När du har laddat ned den senaste versionen av Windows Player (*.exe*), från [AEM 6.4 Player Downloads](https://download.macromedia.com/screens/) följer du stegen på spelaren för att slutföra ad hoc-installationen:
 >
 >1. Tryck länge på det övre vänstra hörnet för att öppna administrationspanelen.
->1. Navigera till **Konfiguration** från den vänstra åtgärdsmenyn och ange platsadressen för den AEM instansen i **Server** och klicka **Spara**.
+>1. Navigera till **Konfiguration** från den vänstra åtgärdsmenyn och ange platsadressen för AEM i **Server** och klicka **Spara**.
 >1. Klicka på **Registrering** från den vänstra åtgärdsmenyn och stegen nedan för att slutföra enhetsregistreringsprocessen.
-
 >
-
 
 ![screen_shot_2018-11-26at12118pm](assets/screen_shot_2018-11-26at12118pm.png)
 
@@ -75,7 +73,7 @@ Enhetsregistreringsprocessen görs på två olika datorer:
 
    ![screen_shot_2018-11-26at105227am](assets/screen_shot_2018-11-26at105227am.png)
 
-1. Om **Registreringskod** är samma på båda datorerna, tryck/klicka **Validera** i AEM, som i steg 6.
+1. Om **Registreringskod** är samma på båda datorerna, tryck/klicka **Validera** i AEM, vilket visas i steg 6.
 1. Ange önskat namn för enheten och klicka på **Registrera**.
 
    ![screen_shot_2018-11-26at105357am](assets/screen_shot_2018-11-26at105357am.png)
@@ -86,11 +84,11 @@ Enhetsregistreringsprocessen görs på två olika datorer:
 
    >[!NOTE]
    >
-   >The **Registrera nytt** låter dig registrera en ny enhet.
+   >The **Registrera nytt** gör att du kan registrera en ny enhet.
    >
    >The **Tilldela visning** gör att du kan lägga till enheten direkt på en skärm.
 
-   Om du klickar **Slutför** måste du tilldela enheten till en skärm.
+   Klicka **Slutför** måste du tilldela enheten till en skärm.
 
    ![screen_shot_2018-11-26at105740am](assets/screen_shot_2018-11-26at105740am.png)
 
@@ -126,7 +124,7 @@ Om du inte har tilldelat enheten till en skärm följer du stegen nedan för att
 
 När du har registrerat enheter till spelaren kan du visa alla enheter från användargränssnittet i Enhetshanteraren.
 
-1. Navigera till användargränssnittet i Enhetshanteraren från ditt AEM Screens-projekt, till exempel **DemoScreens** —> **Enheter**.
+1. Navigera till användargränssnittet i Enhetshanteraren från ditt AEM Screens-projekt, till exempel **DemoScreens** > **Enheter**.
 
 1. Välj **Enheter** mapp och klicka på **Enhetshanteraren** i åtgärdsfältet.
 
@@ -149,10 +147,10 @@ När du har registrerat enheter till spelaren kan du visa alla enheter från anv
 
 * Användaren kan söka efter alla ord som finns i *Enhets-ID* eller *Enhetsnamn*.
 
-   >[!NOTE]
-   >Vi rekommenderar att du skapar enhetsnamnen med flera ord, t.ex. *Boston Store Lobby* i stället för en enstaka *BostonStoreLobby*.
+  >[!NOTE]
+  >Vi rekommenderar att du skapar enhetsnamnen med flera ord, t.ex. *Boston Store Lobby* i stället för en enstaka *BostonStoreLobby*.
 
-* Om du skapar enhetsnamn som *Boston Store Lobby* kan du söka efter alla ord *boston*, *store* eller *lobby* men om enhetsnamnet kallas *BostonStoreLobby* söka *boston* visar inte resultaten.
+* Om du skapar enhetsnamn som *Boston Store Lobby* kan du söka efter alla ord *boston*, *store* eller *lobby* men om enhetsnamnet kallas för *BostonStoreLobby* söka *boston* visar inte resultaten.
 
 * Vildkort, `*` stöds för sökning. Om du vill söka efter alla enheter med namn som börjar med *boston* kan du använda *boston**.
 
@@ -162,7 +160,7 @@ När du har registrerat enheter till spelaren kan du visa alla enheter från anv
 
 Användarlösenordsbegränsningar för hela systemet kan orsaka fel i enhetsregistreringen. Enhetsregistreringen använder ett slumpmässigt genererat lösenord för att skapa enhetsanvändaren.
 
-Om lösenordet är begränsat av *AuthorizableActionProvider* konfiguration kan det hända att det inte går att skapa enhetsanvändaren.
+Om lösenordet är begränsat av *AuthorizableActionProvider* konfiguration, det kan hända att det inte går att skapa enhetsanvändaren.
 
 >[!NOTE]
 >

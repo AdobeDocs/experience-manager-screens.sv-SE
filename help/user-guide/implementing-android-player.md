@@ -14,9 +14,9 @@ feature: Administering Screens, Android Player
 role: Admin
 level: Intermediate
 exl-id: d1331cb8-8bf6-4742-9525-acf18707b4d8
-source-git-commit: 8d4a7b2bc436d822c673a00437ee895c8ef5cb6f
+source-git-commit: d1adadbab2cb13626dd8ce70deacced9f55aa4c9
 workflow-type: tm+mt
-source-wordcount: '1529'
+source-wordcount: '1510'
 ht-degree: 0%
 
 ---
@@ -65,7 +65,7 @@ När du har hämtat programmet följer du stegen på spelaren för att slutföra
 
 >[!NOTE]
 >
->Om **Läge** är **REGISTRERAD** kommer du att lägga märke till **Enhets-ID** fältet fylls i.
+>Om **Läge** är **REGISTRERAD** kommer du att märka **Enhets-ID** fältet fylls i.
 >
 >Om **Läge** är **OREGISTRERAD** kan du använda **Token** för att registrera enheten.
 
@@ -104,7 +104,7 @@ I följande diagram visas implementeringen av tjänsten watchdog:
 
 **1. Initiering** När cordova-plugin-programmet initieras kontrolleras behörigheterna för att se om vi har systembehörighet och därmed behörighet att starta om. Om dessa två villkor är uppfyllda skapas en väntande metod för omstart, annars skapas en väntande metod för att starta om programmet (baserat på dess startaktivitet).
 
-**2. Behåll livetid** En keep alive-timer används för att utlösa en händelse var 15:e sekund. I så fall måste du avbryta den befintliga väntande metoden (för att starta om eller starta om programmet) och registrera en ny väntande metod för samma 60 sekunder i framtiden (vilket i själva verket innebär att omstarten skjuts upp).
+**2. Behåll livetid** En keep alive-timer används för att utlösa en händelse var 15:e sekund. I så fall måste du avbryta den befintliga väntande metoden (för att starta om eller starta om programmet) och registrera en ny väntande metod för samma 60 sekunder i framtiden (vilket i själva verket innebär att omstart skjuts).
 
 >[!NOTE]
 >
@@ -114,7 +114,7 @@ I följande diagram visas implementeringen av tjänsten watchdog:
 
 ## Massetablering av Android Player {#bulk-provision-android-player}
 
-När du distribuerar Android-spelaren i grupp behöver du etablera spelaren så att den pekar på en AEM och konfigurera andra egenskaper utan att ange dem i administratörens användargränssnitt manuellt.
+När du distribuerar Android-spelaren i grupp behöver du etablera spelaren så att den pekar på en AEM och konfigurera andra egenskaper utan att ange dem manuellt i administratörsgränssnittet.
 
 >[!NOTE]
 >Den här funktionen är tillgänglig från Android Player 42.0.372.
@@ -139,11 +139,11 @@ I följande tabell sammanfattas principattributen med en exempelpolicy-JSON för
 
 | **Principnamn** | **Syfte** |
 |---|---|
-| *server* | URL:en till Adobe Experience Manager-servern. |
+| *server* | URL till Adobe Experience Manager-servern. |
 | *upplösning* | Enhetens upplösning. |
 | *rebootSchedule* | Schemat för omstart gäller alla plattformar. |
 | *enableAdminUI* | Aktivera administratörsgränssnittet för att konfigurera enheten på platsen. Ange till *false* när den är helt konfigurerad och i produktion. |
-| *enableOSD* | Aktivera kanalväljarens användargränssnitt så att användare kan växla kanaler på enheten. Överväg att ställa in på *false* när den är helt konfigurerad och i produktion. |
+| *enableOSD* | Aktivera kanalväljarens användargränssnitt för att användare ska kunna växla kanaler på enheten. Överväg att ställa in på *false* när den är helt konfigurerad och i produktion. |
 | *enableActivityUI* | Aktivera om du vill visa förloppet för aktiviteter som hämtning och synkronisering. Aktivera för felsökning och inaktivera när den är helt konfigurerad och i produktion. |
 | *enableNativeVideo* | Aktivera det här alternativet om du vill använda inbyggd maskinvaruacceleration för videouppspelning (endast Android). |
 
@@ -187,7 +187,7 @@ Du kan tilldela Android-spelaren ett användarvänligt enhetsnamn och därmed sk
 
 Följ stegen nedan för att konfigurera namnet i Android-spelaren:
 
-1. Navigera till **inställningar** —> **Om enhet**
+1. Navigera till **inställningar** > **Om enhet**
 1. Redigera och ange namnet på din Android-spelare
 
 ### Implementera massetablering av Android Player med Enterprise Mobility Management {#implementation}
@@ -204,7 +204,7 @@ Följ stegen nedan för att tillåta massetablering i Android Player:
    >[!NOTE]
    >Enheterna bör ta emot programmet tillsammans med konfigurationen och peka på rätt AEM med den valda konfigurationen. Om du väljer att konfigurera gruppregistreringskoden och behåller den som den konfigurerats i AEM, bör spelaren kunna registrera sig automatiskt. Om du har konfigurerat en standardskärm kan den även hämta och visa visst standardinnehåll (som senare kan ändras efter behov).
 
-Dessutom bör du fråga EMM-leverantören om AppConfig-stöd. De populäraste som [VMWare Airwatch](https://docs.samsungknox.com/admin/uem/vm-configure-appconfig.htm), [Mobil järn](https://docs.samsungknox.com/admin/uem/mobileiron2-configure-appconfig.htm), [SOTI](https://docs.samsungknox.com/admin/uem/soti-configure-appconfig.htm), [Blackberry UEM](https://docs.samsungknox.com/admin/uem/bb-configure-appconfig.htm), [IBM Maas360](https://docs.samsungknox.com/admin/uem/ibm-configure-appconfig.htm) och [Samsung Knox](https://docs.samsungknox.com/admin/uem/km-configure-appconfig.htm) bland annat stöder den här branschstandarden.
+Dessutom bör du höra med din EMM-leverantör om AppConfig-stöd. De populäraste som [VMWare Airwatch](https://docs.samsungknox.com/admin/uem/vm-configure-appconfig.htm), [Mobil järn](https://docs.samsungknox.com/admin/uem/mobileiron2-configure-appconfig.htm), [SOTI](https://docs.samsungknox.com/admin/uem/soti-configure-appconfig.htm), [Blackberry UEM](https://docs.samsungknox.com/admin/uem/bb-configure-appconfig.htm), [IBM Maas360](https://docs.samsungknox.com/admin/uem/ibm-configure-appconfig.htm) och [Samsung Knox](https://docs.samsungknox.com/admin/uem/km-configure-appconfig.htm) bland annat stöder den här branschstandarden.
 
 ### Använda fjärrkontrollen till skärmar {#using-remote-control}
 

@@ -1,15 +1,15 @@
 ---
-title: Adaptiva renderingar Arkitekturöversikt och konfigurationer
+title: Adaptiva renderingar Arkitektur - översikt och konfigurationer
 description: This page describes Architectures Overview and Configurations in CRXDE Lite for Adaptive Renditions in AEM Screens.
 exl-id: 0419b9c6-3c27-4a61-84ff-a6fe697e773f
-source-git-commit: e5da55eeb5da3d0ef9f21bd47bfec75d660a6a1e
+source-git-commit: d1adadbab2cb13626dd8ce70deacced9f55aa4c9
 workflow-type: tm+mt
-source-wordcount: '658'
+source-wordcount: '645'
 ht-degree: 1%
 
 ---
 
-# Adaptiva renderingar: Arkitektöversikt och konfigurationer {#adaptive-renditions}
+# Adaptiva renderingar: Arkitektur - översikt och konfigurationer {#adaptive-renditions}
 
 ## Introduktion {#introduction}
 
@@ -41,7 +41,7 @@ Konfigurera installationen genom att följa stegen nedan:
    >![bild](/help/user-guide/assets/adaptive-renditions/mapping-rules1.png)
 
    >[!IMPORTANT]
-   >Om du har installerat det senaste funktionspaketet 2012, visas **återgivningsmappning** nodstruktur förifylld i `/conf/screens/sling:configs/rendition-mapping` i CRXDE Lite. Se [Versionsinformation för funktionspaket 202109](/help/user-guide/release-notes-fp-202109.md) om du vill ha information om det senaste funktionspaketet.
+   >Om du har installerat det senaste funktionspaketet 2012, visas **återgivningsmappning** nodstruktur förifylld i `/conf/screens/sling:configs/rendition-mapping` i CRXDE Lite. Se [Versionsinformation för funktionspaket 20109](/help/user-guide/release-notes-fp-202109.md) om du vill ha information om det senaste funktionspaketet.
    >För befintliga projekt måste du se till att projektet Skärmar har **återgivningsmappning** associerad konfiguration. Se [Lägga till återgivningsmappning i ett befintligt projekt](#rendition-mapping-existing) för mer information.
 
 ### Lägga till en återgivningsmappningsegenskap i ett befintligt projekt {#rendition-mapping-existing}
@@ -59,7 +59,7 @@ Följ stegen nedan för att lägga till en nod under Återgivningsmappning:
 
 1. Navigera till den här sökvägen `/conf/screens/sling:configs/rendition-mapping` från **CRXDE Lite**.
 
-1. Skapa en nod under **återgivningsmappning**. Högerklicka på **återgivningsmappning** och klicka på **Skapa** —> **Skapa nod**, vilket visas i figuren nedan.
+1. Skapa en nod under **återgivningsmappning**. Högerklicka på **återgivningsmappning** och klicka på **Skapa** > **Skapa nod**, vilket visas i figuren nedan.
 
    ![bild](/help/user-guide/assets/adaptive-renditions/add-node1.png)
 

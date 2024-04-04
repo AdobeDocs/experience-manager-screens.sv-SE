@@ -1,16 +1,14 @@
 ---
 title: Perpetual TakeOver Channel
-seo-title: Perpetual TakeOver Channel
 description: Följ det här användningsexemplet för att skapa en permanent TakeOver-kanal.
-seo-description: Follow this Use Case on setting up a project that creates a Perpetual TakeOver channel that plays for a specific time day and time continuously.
 contentOwner: jsyal
 feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 5d112f33-a7cf-415e-9ea7-dc18a0356a8d
-source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
+source-git-commit: d1adadbab2cb13626dd8ce70deacced9f55aa4c9
 workflow-type: tm+mt
-source-wordcount: '830'
+source-wordcount: '853'
 ht-degree: 0%
 
 ---
@@ -21,8 +19,8 @@ På följande sida visas ett exempel på hur du använder ett projekt för att s
 
 ## Använd fallbeskrivning {#use-case-description}
 
-I det här Use Case-exemplet beskrivs hur du skapar en kanal som *tar över* från den kanal som spelas upp normalt för en visning eller grupp av skärmar. Övertagandet kommer att ske för en viss dag och tid permanent.
-Det finns till exempel en permanent TakeOver-kanal som spelas upp varje fredag från 09:00 till 10:00. Under den här tiden ska ingen annan kanal spelas upp. I följande exempel visas hur man skapar en permanent övertagningskanal som spelas upp så att innehållet kan spelas upp varje onsdag i 2 timmar från kl. 2:00 till kl. 17:00.
+I det här Use Case-exemplet beskrivs hur du skapar en kanal som *tar över* från den normala uppspelningskanalen för en visning eller grupp av skärmar. Övertagandet sker för en viss dag och tid permanent.
+Det finns till exempel en permanent TakeOver-kanal som spelas upp varje fredag från 9.00 till 10.00 Under den här tiden ska ingen annan kanal spelas upp. I följande exempel visas hur man skapar en permanent köpkanal som spelas upp så att innehållet kan spelas upp varje onsdag i två timmar mellan kl. 2:00 och kl. 17:00
 
 ### Förhandsvillkor {#preconditions}
 
@@ -59,7 +57,7 @@ Följ stegen nedan för att konfigurera ett projekt:
    >[!NOTE]
    >The **MainAdChannel** i det här exemplet demonstrerar en sekvenskanal som spelar upp innehåll kontinuerligt.
 
-1. Skapa en **TakeOver** kanal som tar över innehållet i **MainAdChannel** och kommer att spelas varje onsdag från kl. 17.00 till kl. 17.00.
+1. Skapa en **TakeOver** kanal som tar över innehållet i **MainAdChannel** och spelar varje onsdag mellan kl. 17.00 och 17.00
 
 1. Välj **TakeOver** och klicka **Redigera** i åtgärdsfältet. Dra och släpp resurser i kanalen. I följande exempel visas en enzonsbild som lagts till i den här kanalen.
 
@@ -71,45 +69,45 @@ Följ stegen nedan för att konfigurera ett projekt:
 
 **Tilldela kanaler till en visning**
 
-1. Välj visning **MainLobbyDisplay** från **Platser** mapp. Klicka **Tilldela kanal** från åtgärdsfältet för att öppna **Kanaltilldelning** -dialogrutan.
+1. Välj visning **MainLobbyDisplay** från **Platser** mapp. Klicka **Tilldela kanal** i åtgärdsfältet så att du kan öppna **Kanaltilldelning** -dialogrutan.
 
    >[!NOTE]
    >Mer information om hur du tilldelar en kanal till en skärm finns i **[Kanaltilldelning](channel-assignment.md)**.
 
 1. Fyll i fälten (**Kanalsökväg**, **Prioritet** och **Händelser som stöds**) från **Kanaltilldelning** och klicka **Spara** för att tilldela **MainAdChannel** på skärmen.
 
-   * **Kanalsökväg**: Markera banan till **MainAdChannel** kanal
+   * **Kanalsökväg**: Markera sökvägen till **MainAdChannel** kanal
    * **Prioritet**: Ange den här kanalens prioritet som 1.
    * **Händelser som stöds**: Välj **Inledande inläsning** och **Inaktiv skärm**.
 
    ![resurs](assets/p_usecase6.png)
 
-1. Välj visning **TakeOver** från **Platser** mapp. Klicka **Tilldela kanal** från åtgärdsfältet för att tilldela övertagandekanalen.
+1. Välj visning **TakeOver** från **Platser** mapp. Klicka **Tilldela kanal** från åtgärdsfältet så att du kan tilldela övertagandekanalen.
 
-1. Tilldela **TakeOver** kanal till din skärm vid en schemalagd tidpunkt och fyll i följande fält från **Kanaltilldelning** och klicka **Spara**:
+1. Tilldela **TakeOver** kanalen till din skärm vid en schemalagd tidpunkt och fyller i följande fält från **Kanaltilldelning** och klicka **Spara**:
 
-   * **Kanalsökväg**: Markera banan till **TakeOver** kanal
-   * **Prioritet**: Ange den här kanalens prioritet som är större än **MainAdChannel**. Prioriteten i det här exemplet är till exempel 8.
+   * **Kanalsökväg**: Markera sökvägen till **TakeOver** kanal
+   * **Prioritet**: Ange den här kanalens prioritet som är högre än **MainAdChannel**. Prioriteten i det här exemplet är till exempel 8.
    * **Händelser som stöds**: Välj **Inaktiv skärm** och **Timer**.
-   * **Schema**: Ange texten för schemat som du vill att den här kanalen ska visa. Texten i **Schema** som nämns i det här exemplet *på onsdagen efter kl. 14.00 och före kl. 16.00*.
+   * **Schema**: Ange texten för schemat som du vill att den här kanalen ska köra visningen. Texten i **Schema** som nämns i det här exemplet *på onsdagen efter kl. 14.00 och före kl. 16.00*.
 
-      >[!NOTE]
-      >Om du vill veta mer om de uttryck du kan lägga till i **Schema**, se [Exempeluttryck](#example-expressions) nedan.
+     >[!NOTE]
+     >Om du vill veta mer om de uttryck du kan lägga till i **Schema**, se [Exempeluttryck](#example-expressions) nedan.
    * **aktiv från**: Startdatum och -tid.
    * **aktiv tills**: Slutdatum och sluttid.
 
-      Texten i **Schema** och **aktiv från** och **aktiv tills** Datum och tid här gör att innehållet kan spelas upp varje onsdag från kl. 23.00 till kl. 17.00.
+     Till exempel texten i **Schema** och **aktiv från** och **aktiv tills** Datum och tid här gör att innehållet kan spelas upp varje onsdag från kl. 23.00 till kl. 17.00.
 
 
-      ![resurs](assets/p_usecase7.png)
+     ![resurs](assets/p_usecase7.png)
 
-      Navigera till visningen från **TakeOver** —> **Platser** —> **MainLobby** —> **MainLobbyDisplay** och klicka **Kontrollpanel** från åtgärdsfältet för att visa de tilldelade kanalerna med deras prioriteringar, vilket visas nedan.
+     Navigera till visningen från **TakeOver** > **Platser** > **MainLobby** > **MainLobbyDisplay** och klicka **Kontrollpanel** i åtgärdsfältet så att du kan visa de tilldelade kanalerna med deras prioriteringar, vilket visas nedan.
 
-      >[!NOTE]
-      >Det är obligatoriskt att ange övertagskanalens högsta prioritet.
+     >[!NOTE]
+     >Det är obligatoriskt att ange övertagskanalens högsta prioritet.
 
-      ![resurs](assets/p_usecase8.png)
-Nu **TakeOver** kanalen tar över **MainAdChannel** klockan 2:00 i två timmar till 17:00 varje onsdag och spela upp innehållet från 9 januari 2020 till 31 januari 2020.
+     ![resurs](assets/p_usecase8.png)
+Nu **TakeOver** kanalen tar över **MainAdChannel** kl. 2:00 i två timmar till kl. 17:00 varje onsdag och spelar upp innehållet från 9 januari 2020 till 31 januari 2020.
 
 ## Exempeluttryck {#example-expressions}
 
@@ -121,8 +119,8 @@ I följande tabell sammanfattas några exempeluttryck som du kan lägga till i s
 | efter klockan 2:00 | kanalen spelas upp efter klockan 17:00 varje dag |
 | efter 12:15 och före 12:45 | kanalen spelas upp efter klockan 12:15 varje dag i 30 minuter |
 | före 12:15 även efter 12:45 | kanalen spelas upp före kl. 12.15 varje dag och även efter kl. 12.45 |
-| den första dagen i januari efter kl. 2:00 också den andra dagen i januari, även den tredje dagen i januari före kl. 3:00 | kanalen börjar spelas upp efter kl. 17.00 den 1 januari och fortsätter att spela för hela dagen den 2 januari ända till kl. 17.00 den 3 januari |
-| den 1-2 januari efter kl. 2:00 också den 2-3 januari före kl. 3:00 | kanalen startar spelaren efter kl. 17:00 den 1 januari, fortsätter att spelas upp till kl. 17:00 den 2 januari och börjar igen kl. 2:00 och fortsätter att spelas upp till kl. 3:00 den 3 januari |
+| den första dagen i januari efter kl. 2:00 också den andra dagen i januari, även den tredje dagen i januari före kl. 3:00 | kanalen börjar spelas upp efter kl. 17.00 den 1 januari och fortsätter att spelas hela dagen den 2 januari ända till kl. 3.00 den 3 januari |
+| 1-2 dagar i januari efter kl. 2:00 också 2-3 dagar i januari före kl. 3:00 . | kanalen startar spelaren efter kl. 17.00 den 1 januari, fortsätter att spelas upp till kl. 23.00 den 2 januari och börjar igen kl. 2:00 och fortsätter att spelas upp till kl. 3:00 den 3 januari |
 
 >[!NOTE]
 >

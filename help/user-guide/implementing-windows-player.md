@@ -14,9 +14,9 @@ feature: Administering Screens, Windows Player
 role: Admin
 level: Intermediate
 exl-id: 50b6d9ba-e672-4f4d-a9a8-fb8387685057
-source-git-commit: d8c420c289452e3ddb1be42c8f170758385ff7af
+source-git-commit: d1adadbab2cb13626dd8ce70deacced9f55aa4c9
 workflow-type: tm+mt
-source-wordcount: '1148'
+source-wordcount: '1145'
 ht-degree: 0%
 
 ---
@@ -77,7 +77,7 @@ Du kan tilldela din Windows-spelare ett användarvänligt enhetsnamn och därmed
 
 Följ stegen nedan för att konfigurera namnet i Windows Player:
 
-1. Klicka på **start** —> **run**
+1. Klicka på **start** > **run**
 1. Retur `system.cpl`
 1. Använd fliken Datornamn för att ange datorns värdnamn
 

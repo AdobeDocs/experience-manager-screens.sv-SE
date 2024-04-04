@@ -1,29 +1,28 @@
 ---
 title: Ta över kanal för engångsbruk
-seo-title: Single Use TakeOver Channel
-description: Följ det här användningsexemplet när du vill skapa en överföringskanal.
-seo-description: Follow this Use Case for creating a Single Use TakeOver Channel.
+description: Följ det här användningsexemplet när du skapar en överföringskanal för engångsbruk.
 contentOwner: jsyal
 feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 3317f07a-784f-4c4a-93ea-c84f4e42e9f2
-source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
+source-git-commit: d1adadbab2cb13626dd8ce70deacced9f55aa4c9
 workflow-type: tm+mt
-source-wordcount: '614'
+source-wordcount: '618'
 ht-degree: 0%
 
 ---
 
 # Ta över kanal för engångsbruk {#single-use-takeover-channel}
 
-På följande sida visas ett exempel på hur du använder ett projekt för att skapa en Single TakeOver-kanal som bara spelas upp en gång för en viss tid.
+På följande sida visas ett exempel på hur du använder ett projekt för att skapa en Single TakeOver-kanal som spelas upp en gång för en viss tid.
 
 
 ## Använd fallbeskrivning {#use-case-description}
 
-I det här Use Case-exemplet beskrivs hur du skapar en kanal som *tar över* från den kanal som spelas upp normalt för en visning eller grupp av skärmar. Övertagandet sker endast en gång och för en viss tid.
-Det finns till exempel en Single TakeOver-kanal som spelas upp på fredag från 09:00 till 10:00. Under den här tiden ska ingen annan kanal spelas upp. Före och efter denna tidpunkt kommer kanalen för engångsbruk inte att spelas upp. I följande exempel visas hur man skapar en enda köpkanal som spelas upp så att innehållet kan spelas upp i 2 minuter före klockan 12.00 på 31 dec till kl. 12.01.
+I det här Use Case-exemplet beskrivs hur du skapar en kanal som *tar över* från den normala uppspelningskanalen för en visning eller grupp av skärmar. Övertagandet sker endast en gång och för en viss tid.
+
+Det finns till exempel en Single TakeOver-kanal som spelas på fredag 9:00 till 10:00 Under den här tiden ska ingen annan kanal spelas upp. Före och efter den här gången spelas kanalen för engångsbruk inte upp. I följande exempel visas hur du skapar en enda köpkanal som gör att innehållet kan spelas upp i 2 minuter före klockan 12:00 på 31 dec tills klockan 12:01
 
 ### Förhandsvillkor {#preconditions}
 
@@ -62,13 +61,13 @@ Följ stegen nedan för att konfigurera ett projekt:
 
    ![resurs](assets/single-takeover3.png)
 
-1. Skapa en **TakeOver** kanal som tar över innehållet i **MainAdChannel** och spelas endast upp en viss dag och tid.
+1. Skapa en **TakeOver** kanal som tar över innehållet i **MainAdChannel** och spelas endast upp för en viss dag och tid.
 
 1. Välj **TakeOver** och klicka **Redigera** i åtgärdsfältet. Dra och släpp resurser i kanalen. I följande exempel visas en enzonsbild som lagts till i den här kanalen.
 
    ![resurs](assets/single-takeover4.png)
 
-1. Konfigurera en plats och visning för kanalerna. Till exempel följande plats **Lobby** och visa **MainLobbyDisplay** har konfigurerats för det här projektet.
+1. Konfigurera en plats och visning för kanalerna. Till exempel följande **Lobby** plats och  **MainLobbyDisplay** visas för det här projektet.
 
    ![resurs](assets/single-takeover5.png)
 
@@ -85,27 +84,26 @@ Följ stegen nedan för att konfigurera ett projekt:
 
    ![resurs](assets/single-takeover7.png)
 
-1. Välj visning **TakeOver** från **Platser** mapp. Klicka **Tilldela kanal** från åtgärdsfältet för att tilldela övertagningskanalen för engångsbruk.
+1. Välj visning **TakeOver** från **Platser** mapp. Klicka **Tilldela kanal** från åtgärdsfältet så att du kan tilldela en övertagningskanal för engångsbruk.
 
 1. Tilldela **TakeOver** kanal till din skärm vid en schemalagd tidpunkt och fyll i följande fält från **Kanaltilldelning** och klicka **Spara**:
 
-   * **Kanalsökväg**: Markera banan för TakeOver-kanalen
-   * **Prioritet**: Ange den här kanalens prioritet som är större än **MainAdChannel**. Prioriteten i det här exemplet är till exempel 8.
+   * **Kanalsökväg**: Välj sökvägen till TakeOver-kanalen
+   * **Prioritet**: Ange den här kanalens prioritet som är högre än **MainAdChannel**. Prioriteten i det här exemplet är till exempel 8.
 
-      >[!NOTE]
-      >Prioriteten kan vara vilket värde som helst som är högre än prioritetsvärdet för den kanal som spelas upp normalt.
+     >[!NOTE]
+     >Prioriteten kan vara vilket värde som helst som är högre än prioritetsvärdet för den normala uppspelningskanalen.
    * **Händelser som stöds**: Välj **Inaktiv skärm** och **Timer**.
-   * **Schema**: Ange texten för schemat som du vill att den här kanalen ska visa. Texten här tillåter till exempel att innehållet spelas upp 2 minuter före 01:00 på 31 dec till kl. 12:01.
-Texten i **Schema** som nämns i det här exemplet *den 31 december efter 23.58 och även den 1 januari före 00.01*.
+   * **Schema**: Ange texten för schemat som du vill att den här kanalen ska köra visningen. Texten här gör att innehållet kan spelas upp 2 minuter före 02:00 på 31 dec tills 12:01 är texten i **Schema** som nämns i det här exemplet *den 31 december efter 23.58 och även den 1 januari före 00.01*.
 
-      ![resurs](assets/single-takeover8.png)
+     ![resurs](assets/single-takeover8.png)
 
-      Navigera till visningen från **SingleUseTakeOver** —> **Platser** —> **Lobby** —> **MainLobbyDisplay** och klicka **Kontrollpanel** från åtgärdsfältet för att visa de tilldelade kanalerna med deras prioriteringar, vilket visas nedan.
+     Navigera till visningen från **SingleUseTakeOver** > **Platser** > **Lobby** > **MainLobbyDisplay** och klicka **Kontrollpanel** i åtgärdsfältet så att du kan visa de tilldelade kanalerna med deras prioriteringar, vilket visas nedan.
 
-      >[!NOTE]
-      >Det är obligatoriskt att ange övertagskanalens högsta prioritet.
+     >[!NOTE]
+     >Det är obligatoriskt att ange övertagskanalens högsta prioritet.
 
-      ![resurs](assets/single-takeover9.png)
+     ![resurs](assets/single-takeover9.png)
 
 >[!NOTE]
 >

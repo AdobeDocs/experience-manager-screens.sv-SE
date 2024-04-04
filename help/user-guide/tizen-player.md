@@ -5,9 +5,9 @@ feature: Administering Screens, Players
 role: Admin
 level: Intermediate
 exl-id: 45147959-b0ca-4d87-b89d-293e4b9af171
-source-git-commit: 8d4a7b2bc436d822c673a00437ee895c8ef5cb6f
+source-git-commit: d1adadbab2cb13626dd8ce70deacced9f55aa4c9
 workflow-type: tm+mt
-source-wordcount: '1242'
+source-wordcount: '1247'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ Följ stegen nedan för att implementera Tizen Player för AEM Screens:
 
 1. Navigera till [AEM Screens Player - nedladdningar](https://download.macromedia.com/screens/) för att ladda ned Tizen Player.
 
-1. Installera Tizen-spelaren *(.zip)* från den lokala datorn.
+1. Installera Tizen Player *(.zip)* från den lokala datorn.
 
 ## Konfigurera http-servern {#setting-local-server}
 
@@ -48,13 +48,13 @@ Du kan tilldela din Tizen-spelare ett användarvänligt enhetsnamn och därmed s
 Följ stegen nedan för att konfigurera namnet i Tizen-spelaren:
 
 1. Klicka på menyknappen på fjärrkontrollen.
-1. Navigera till **nätverk** —> **Enhetsnamn** för att tilldela spelaren ett namn.
+1. Navigera till **nätverk** > **Enhetsnamn** för att tilldela spelaren ett namn.
 
 ### Konfigurera uppdateringar på Samsung-enheten {#config-updates}
 
 Följ stegen nedan på Samsung-enheten för att slutföra installationen av AEM Screens-spelaren på enheten:
 
-1. Navigera till din Samsung-enhet och aktivera.
+1. Navigera till din Samsung-enhet och slå på.
 
 1. Klicka på **MENY** från enhetens fjärrdator och rulla nedåt till **System** i det vänstra navigeringsfältet.
 
@@ -97,7 +97,7 @@ Genom att fjärrdistribuera Tizen Player kan du utan ansträngning driftsätta h
 
 Med den här funktionen kan du fjärrkonfigurera Tizen-spelaren och även uppdatera dessa konfigurationer centralt, om det behövs. Allt du behöver är `HTTP` server som används som värd för Tizen-programmet `(wgt and xml file)` och en textredigerare för att spara `config.json` med lämpliga parametrar.
 
-Kontrollera att du har konfigurerat startadressen för URL:en på enheten Tizen, det vill säga startinställningarna för knappen Hem —> URL-startinställningar.
+Kontrollera att du har konfigurerat startadressen för URL-adressen på enheten Tizen, det vill säga, Hemknapp > Inställningar för URL-start.
 På `HTTP` server som är värd för Tizen-programmet, montera filen `config.json` på samma plats som `wgt` -fil. Filnamnet måste vara `config.json`.
 Tizen-spelaren installeras och vid start (och varje omstart) görs en kontroll och inställningarna i `config.json` -fil.
 
@@ -127,7 +127,7 @@ I följande tabell sammanfattas profilerna med deras funktioner.
 | upplösning | Enhetens upplösning. |
 | rebootSchedule | Schemat för att starta om spelaren. |
 | enableAdminUI | Aktivera administratörsgränssnittet för att konfigurera enheten på platsen. Anges till false när den är helt konfigurerad och i produktion. |
-| enableOSD | Aktivera kanalväljarens användargränssnitt så att användare kan växla kanaler på enheten. Överväg att ställa in på false när den är helt konfigurerad och i produktion. |
+| enableOSD | Aktivera kanalväljarens användargränssnitt för att användare ska kunna växla kanaler på enheten. Överväg att ställa in på false när den är helt konfigurerad och i produktion. |
 | enableActivityUI | Aktivera om du vill visa förloppet för aktiviteter som hämtning och synkronisering. Aktivera för felsökning och inaktivera när den är helt konfigurerad och i produktion. |
 | cloudMode | Ange true om du vill att Tizen-spelaren ska ansluta till skärmar as a Cloud Service. Ange som false för att ansluta till AMS eller AEM. |
 | cloudToken | Registreringstoken för registrering mot skärmar as a Cloud Service. |
@@ -158,7 +158,7 @@ Följ stegen nedan för att registrera Tizen-enheten till Samsung Remote Managem
 
    >![bild](/help/user-guide/assets/tizen/rms-6.png)
 
-1. Dialogrutan för enhetsinformation visas. Välj **Enhetsinformation** och klicka på **Redigera**.
+1. Dialogrutan för enhetsinformation visas. Välj **Enhetsinfo** och klicka på **Redigera**.
 
    >![bild](/help/user-guide/assets/tizen/rms-5.png)
 

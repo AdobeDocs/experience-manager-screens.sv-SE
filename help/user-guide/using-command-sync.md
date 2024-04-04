@@ -7,10 +7,10 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 3314e0b5-0001-4bce-8ec6-5a6ffbb20f7b
-source-git-commit: 43ac19cf7ef63ec17611cf19ca357f791dca6e87
+source-git-commit: d1adadbab2cb13626dd8ce70deacced9f55aa4c9
 workflow-type: tm+mt
-source-wordcount: '780'
-ht-degree: 2%
+source-wordcount: '779'
+ht-degree: 0%
 
 ---
 
@@ -22,7 +22,7 @@ På följande sida beskrivs hur du använder kommandosynkronisering. Med kommand
 >
 >Den här funktionen stöder inte inbäddade sekvenser, dynamiska inbäddade sekvenser, programkanaler eller övergångar.
 
-## Översikt {#overview}
+## Ökning {#overview}
 
 Digitala signeringslösningar måste ha stöd för videoväggar och synkroniserad uppspelning för scenarier som nyårsräkning eller stor video som segmenterats upp för uppspelning på flera skärmar, och det är här som kommandosynkronisering spelas upp.
 
@@ -92,7 +92,7 @@ Innan du använder funktionen Kommandosynkronisering måste du kontrollera att d
 
 ### Konfigurera en primär {#setting-up-primary}
 
-1. Navigera till kontrollpanelen från **CommandSyncDemo** —> **Platser**  —> **Lobby** —> **LobbyDisplay** och klicka på **Kontrollpanel** i åtgärdsfältet.
+1. Navigera till kontrollpanelen från **CommandSyncDemo** > **Platser**  > **Lobby** > **LobbyDisplay** och klicka på **Kontrollpanel** i åtgärdsfältet.
 De två enheterna (fönsterstandard och Windows Player) visas i **ENHETER** enligt bilden nedan.
    ![image1](assets/command-sync/command-sync10-1.png)
 

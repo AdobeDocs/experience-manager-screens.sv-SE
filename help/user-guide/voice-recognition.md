@@ -5,9 +5,9 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 6cf0aa9f-7bac-403f-a113-51727c1f5374
-source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
+source-git-commit: d1adadbab2cb13626dd8ce70deacced9f55aa4c9
 workflow-type: tm+mt
-source-wordcount: '1124'
+source-wordcount: '1119'
 ht-degree: 1%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 1%
 >
 >När du använder funktionen för röstigenkänning ska du följa alla tillämpliga juridiska och etiska riktlinjer för din region (inklusive, men inte begränsat till, att ge slutanvändarna ett synligt meddelande om att spelaren använder röstigenkänning). Adobe Inc., tar inte emot, lagrar eller bearbetar någon röstrelaterad information. AEM Screens-spelarna använder det standardwebbtal-API som är inbyggt i webbläsarmotorn. Bakom kulisserna skickar denna API en vågform av ditt tal till Google-servrar för konvertering från tal till text och den här texten matchas av spelaren mot konfigurerade nyckelord.
 >
->Se [Google sekretessrapport om webbtalets API](https://www.google.com/chrome/privacy/whitepaper.html#speech) för mer information.
+>Se [Google sekretessrapport om webbtalets-API](https://www.google.com/chrome/privacy/whitepaper.html#speech) för mer information.
 
 
 Röstigenkänningsfunktionen tillåter innehållsändringar i en AEM Screens-kanal som styrs av röstinteraktion.
@@ -30,7 +30,7 @@ En innehållsförfattare kan konfigurera en visning som röstaktiverad. Syftet m
 >[!NOTE]
 >Spelarens maskinvara måste stödja röstindata, t.ex. en mikrofon.
 
-## Implementera röstigenkänning {#implementing}
+## Implementera röstidentifiering {#implementing}
 
 >[!IMPORTANT]
 > Röstigenkänningsfunktionen är bara tillgänglig i Chrome OS- och Windows-spelare.
@@ -57,7 +57,7 @@ Innan du använder funktionen för röstigenkänning bör du kontrollera att du 
 
    ![bild](assets/voice-recognition/vr-emb-1.png)
 
-1. Navigera till varje kanal och lägg till innehåll. Navigera till exempel till **VoiceDemo** —> **Kanaler** —> **Huvud** och markera kanalen. Klicka **Redigera** i åtgärdsfältet för att öppna redigeraren och lägga till innehåll (bilder/videor) efter behov. Lägg på samma sätt till innehåll i båda **ColdDrinks** och **HotDrinks** kanal.
+1. Navigera till varje kanal och lägg till innehåll. Navigera till exempel **VoiceDemo** > **Kanaler** > **Huvud** och markera kanalen. Klicka **Redigera** i åtgärdsfältet för att öppna redigeraren och lägga till innehåll (bilder/videor) efter behov. Lägg på samma sätt till innehåll i båda **ColdDrinks** och **HotDrinks** kanal.
 
    Kanalerna innehåller nu resurser (bilder), vilket visas i figurerna nedan.
 
@@ -83,7 +83,7 @@ När du har lagt till innehåll i kanalerna måste du navigera till var och en a
 
 Följ stegen nedan för att lägga till taggar i din kanal:
 
-1. Navigera till varje kanal och lägg till innehåll. Navigera till exempel till **VoiceDemo** —> **Kanaler** —> **Huvud** och markera kanalen.
+1. Navigera till varje kanal och lägg till innehåll. Navigera till exempel **VoiceDemo** > **Kanaler** > **Huvud** och markera kanalen.
 
 1. Klicka **Egenskaper** i åtgärdsfältet.
 
@@ -116,10 +116,10 @@ Skapa taggar genom att följa stegen nedan:
 
 1. Navigera till AEM.
 
-1. Klicka på verktygsikonen —> **Taggning**.
+1. Klicka på verktygsikonen > **Taggning**.
    ![bild](assets/voice-recognition/vr-7.png)
 
-1. Klicka **Skapa** —> **Skapa namnutrymme**.
+1. Klicka **Skapa** > **Skapa namnutrymme**.
    ![bild](assets/voice-recognition/vr-tag3.png)
 
 1. Ange namnet på projektet, till exempel **VoiceDemo** och klicka **Skapa**.
@@ -130,7 +130,7 @@ Skapa taggar genom att följa stegen nedan:
 1. Ange namnet på taggen och klicka på **Skicka**.
    ![bild](assets/voice-recognition/vr-tag5.png)
 
-Nu kan du använda dessa taggar i ditt AEM Screens-projekt.
+Nu kan du använda de här taggarna i ditt AEM Screens-projekt.
 
 ### Tilldela kanal till en bildskärm och aktivera röstigenkänning {#channel-assignment}
 
@@ -150,7 +150,7 @@ Nu kan du använda dessa taggar i ditt AEM Screens-projekt.
 
    | **Kanalnamn** | **Prioritet** | **Händelser som stöds** |
    |---|---|---|
-   | Huvud | 2 | Inledande inläsning, inaktiv skärm, timer |
+   | Huvud | 2 | Inledande inläsning, inaktivitetsskärm, timer |
    | HotDrinks | 1 | Användarinteraktion |
    | ColdDrinks | 1 | Användarinteraktion |
    | SplitScreen | 1 | Användarinteraktion |
@@ -159,7 +159,7 @@ Nu kan du använda dessa taggar i ditt AEM Screens-projekt.
    >
    >Mer information om hur du tilldelar en kanal till en skärm finns i [Skapa och hantera skärmar](/help/user-guide/managing-displays.md).
 
-1. Navigera till **LobbyDisplay** och väljer visningen. Välj **Egenskaper** i åtgärdsfältet.
+1. När du har tilldelat kanaler till en skärm går du till **LobbyDisplay** och väljer visningen. Välj **Egenskaper** i åtgärdsfältet.
 
 1. Navigera till **Visa** och aktivera **Röstaktivering** option under **Innehåll**.
 

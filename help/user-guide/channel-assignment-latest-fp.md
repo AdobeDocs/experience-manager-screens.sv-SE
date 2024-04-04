@@ -1,14 +1,14 @@
 ---
-title: Kanaltilldelning - senaste offertförfrågan
+title: Kanaltilldelning - senaste FP
 seo-title: Channel Assignment - Latest FP
 description: Följ den här sidan om du vill veta mer om kanaltilldelning och DagParting.
 feature: Authoring Screens, Channel Assignment
 role: Admin, Developer
 level: Intermediate
 exl-id: 346eec9a-e291-4b0d-9686-fee1d5a0e7dd
-source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
+source-git-commit: d1adadbab2cb13626dd8ce70deacced9f55aa4c9
 workflow-type: tm+mt
-source-wordcount: '1467'
+source-wordcount: '1476'
 ht-degree: 0%
 
 ---
@@ -43,7 +43,7 @@ Följ stegen nedan för att konfigurera ett projekt och en kanal:
    >[!NOTE]
    >Se [Skapa och hantera projekt](creating-a-screens-project.md) för att lära dig hur man skapar ett AEM Screens-projekt.
 
-1. Skapa en sekvenskanal med namnet som **Cafeteria** i **Kanaler** mapp.
+1. Skapa en sekvenskanal med namnet **Cafeteria** i **Kanaler** mapp.
 
 1. Markera kanalen och klicka på **Redigera** från åtgärdsfältet för att lägga till innehåll i kanalen.
 
@@ -53,7 +53,7 @@ Följ stegen nedan för att konfigurera ett projekt och en kanal:
 
    ![bild](/help/user-guide/assets/channel-assignment/channel-assign-fp3.png)
 
-1. Skapa en plats med namnet som **SanJose** och visas som **Lobby**.
+1. Skapa en plats med namnet som **SanJose** och en skärm som **Lobby**.
 
    ![bild](/help/user-guide/assets/channel-assignment/channel-assign-fp4.png)
 
@@ -83,14 +83,14 @@ När projektkonfigurationen är klar måste du tilldela kanalen till en skärm f
 
    >[!NOTE]
    >
-   >Se [Kanalegenskaper](#channel-properties) om du vill veta mer om egenskaper för kanaltilldelning.
+   >Se [Kanalegenskaper](#channel-properties) om du vill veta mer om kanaltilldelningsegenskaper.
 
 1. Från **Schema** välj **Aktiveringsfönster** och **Återkommande schema**.
    ![bild](/help/user-guide/assets/channel-assignment/channel-assign-fp8.png)
 
    >[!NOTE]
    >
-   >Se [Kanalegenskaper](#channel-properties) om du vill veta mer om egenskaper för kanaltilldelning.
+   >Se [Kanalegenskaper](#channel-properties) om du vill veta mer om kanaltilldelningsegenskaper.
 
 1. Klicka **Spara** när du har konfigurerat dina inställningar.
 
@@ -132,7 +132,7 @@ Om du väljer en kanal kan du ange en referens till den önskade kanalen, anting
 
 * **efter bana**: du anger en explicit referens med kanalens absoluta sökväg.
 
-* **efter namn**: Du anger namnet på den kanal som ska matchas mot en faktisk kanal efter kontext. Med den här funktionen kan du skapa en lokal version av en kanal för att dynamiskt matcha platsspecifikt innehåll. En kanal med namnet *dagens erbjudanden*, där det faktiska innehållet skulle vara annorlunda i två städer, men du fortfarande har den tillräkneliga kanalrollen på alla skärmar.
+* **efter namn**: Du anger namnet på den kanal som ska tolkas som en faktisk kanal efter kontext. Med den här funktionen kan du skapa en lokal version av en kanal för att dynamiskt matcha platsspecifikt innehåll. En kanal med namnet *dagens erbjudanden*, där det faktiska innehållet skulle vara annorlunda i två städer, men du fortfarande har den tillräkneliga kanalrollen på alla skärmar.
 
 ### Kanalroll {#role-channel}
 
@@ -151,7 +151,7 @@ Prioritet används för att ordna tilldelningarna om flera matchar uppspelningsv
 * **Inledande inläsning**: läser in kanalen när spelaren startas. Den kan tilldelas flera kanaler i kombination med ett schema
 * **Inaktiv skärm**: läses in när skärmen är inaktiv. Den kan tilldelas flera kanaler i kombination med ett schema
 * **Timer**: måste anges när ett schema anges
-* **Användarinteraktion**: spelaren växlar till den angivna kanalen, om det finns en användarinteraktion på skärmen (pekning) i en inaktiv kanal och kommer att läsas in när skärmen rörs
+* **Användarinteraktion**: spelaren växlar till den angivna kanalen om det finns en användarinteraktion på skärmen (pekning) i en inaktiv kanal och den läses in när skärmen rör vid
 
 ### Avbrottsmetod {#interruption-method-channel}
 
@@ -162,16 +162,16 @@ Som innehållsförfattare bör du kunna ange när en kanal avbryts så att du ka
 
 Välj något av följande alternativ som är tillgängliga för att ställa in avbrottsmetoden på menyn **Kanaltilldelning** dialogruta:
 
-* **Omedelbart**: När schemat aktiveras eller en uppdatering tas emot kan du avbryta uppspelningen och omedelbart uppdatera eller spela upp det nya innehållet
-* **I slutet av den aktuella artikeln**: När ett nytt schema aktiveras eller en uppdatering tas emot kan du välja att vänta tills det aktuella objektet i sekvensen har spelats upp, och först efter det kan du uppdatera eller spela upp det nya innehållet
+* **Omedelbart**: när schemat aktiveras eller en uppdatering tas emot kan du avbryta uppspelningen och omedelbart uppdatera eller spela upp det nya innehållet
+* **I slutet av den aktuella artikeln**: när ett nytt schema aktiveras eller en uppdatering tas emot kan du välja att vänta tills det aktuella objektet i sekvensen har spelats upp, och först efter det att du har uppdaterat eller spelat upp det nya innehållet
 
-   >[!NOTE]
-   >Det här alternativet är markerat som standard.
+  >[!NOTE]
+  >Det här alternativet är markerat som standard.
 
-* **I slutet av sekvensen**: När ett nytt schema aktiveras eller en uppdatering tas emot kan du välja att vänta tills hela sekvensen är klar, och precis före den önskade sekvensen går du tillbaka till det första elementet och uppdaterar eller spelar upp det nya innehållet
+* **I slutet av sekvensen**: när ett nytt schema aktiveras eller en uppdatering tas emot kan du välja att vänta tills hela sekvensen är klar, och precis före den önskade sekvensen går du tillbaka till det första elementet och uppdaterar eller spelar upp det nya innehållet
 
-   >[!NOTE]
-   >Om du använder det andra eller tredje alternativet kan schemaläggningstiderna som är definierade för tilldelningen fördröjas något eftersom spelaren väntar på slutet av objektet eller sekvensen (efter den angivna tiden) innan den uppdateras. Fördröjningen beror på objektets uppspelningstid.
+  >[!NOTE]
+  >Om du använder det andra eller tredje alternativet kan schemaläggningstiderna som är definierade för tilldelningen fördröjas något eftersom spelaren väntar på slutet av objektet eller sekvensen (efter den angivna tiden) innan den uppdateras. Fördröjningen beror på objektets uppspelningstid.
 
 Följande egenskaper ställs in från **Schema** i **Kanaltilldelning** -dialogrutan.
 
@@ -179,7 +179,7 @@ Följande egenskaper ställs in från **Schema** i **Kanaltilldelning** -dialogr
 
 ### Aktiveringsfönster {#activation-window}
 
-I aktiveringsfönstret kan du välja en **Startdatum** och **Slutdatum** för att visa innehållet.
+I aktiveringsfönstret kan du välja **Startdatum** och **Slutdatum** för att visa innehållet.
 
 ### Återkommande schema {#recurrence-schedule}
 
@@ -191,12 +191,12 @@ Med upprepningsschemat kan du ange ett återkommande schema för ditt innehåll.
 
 Du kan ange följande alternativ:
 
-* **Namn**: Namn på ditt återkommande schema.
+* **Namn**: Namn på upprepningsschema.
 * **Upprepa**: Välj om schemat ska köras **Dagligen**, **Vecka**, **Månadsvis**, eller **Årsvis**.
-* **Starta**: Starttiden för ditt schema.
+* **Starta**: Starttiden för schemat.
 * **End**: Sluttiden för ditt schema. Du kan ställa in den efter tid eller varaktighet.
    * **Tid**: Schemat avslutas vid en angiven tidpunkt.
-   * **Varaktighet**: Schemat körs för en viss tidsperiod i timmar eller minuter.
+   * **Varaktighet**: Schemat körs under en viss tid i timmar eller minuter.
 
 ### DayParting {#dayparting}
 
@@ -218,12 +218,12 @@ Här delar vi upp varje dag i olika tidsplatser, så att kanalinnehållet spelas
 
 #### Spela upp innehåll en viss veckodag {#playing-content-on-a-particular-day-of-the-week}
 
-I det här exemplet visas DayParting som implementerats i ett kasino där live-event inträffar varje helg från kl. 20.00 till kl. 23.00 och erbjudanden är tillgängliga för middagsmeny efter kl. 10.00 till kl. 13.00.
+I det här exemplet visas DayParting som implementerats i ett kasino där live-event inträffar varje helg från kl. 20.00 till kl. 23.00 och erbjudanden är tillgängliga för middagsmeny efter kl. 10.00 till kl. 13.00
 
 | **Namn** | **Upprepningar** | **Starta** | **End** |
 |---|---|---|---|
-| Weekend | Vecka: Lördag,Söndag | 8:00 PM | 10:00 PM |
-| Specialerbjudanden | Dagligen: Måndag-fredag | 10:00 PM | 1:00 |
+| Weekend | Vecka: lördag,söndag | 8:00 PM | 10:00 PM |
+| Specialer | Dagligen: måndag-fredag | 10:00 PM | 1:00 |
 
 >[!NOTE]
 >

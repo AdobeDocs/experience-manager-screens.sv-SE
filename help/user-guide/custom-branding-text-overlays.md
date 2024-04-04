@@ -8,9 +8,9 @@ feature: Developing Screens
 role: Developer
 level: Intermediate
 exl-id: 059e1b19-e9b5-48f0-8f2f-141f0c2f7842
-source-git-commit: 707833ddd8ab2573abcac4e9a77ec88778624435
+source-git-commit: d1adadbab2cb13626dd8ce70deacced9f55aa4c9
 workflow-type: tm+mt
-source-wordcount: '603'
+source-wordcount: '604'
 ht-degree: 1%
 
 ---
@@ -34,7 +34,7 @@ Följ stegen nedan för att skapa anpassade märkesnamn och format för textöve
    >[!NOTE]
    >Om du vill veta hur du lägger till en textövertäckning i resursen i en kanalredigerare läser du i [Textövertäckning](/help/user-guide/text-overlay.md).
 
-1. Navigera till CRXDE Lite från din AEM instans —> verktyg —> **CRXDE Lite**.
+1. Navigera till CRXDE Lite från AEM > verktyg > **CRXDE Lite**.
 
 1. Du måste skapa en egen design i `/apps/settings/wcm/designs/<your-project>/`I det här fallet navigerar du till `/apps/settings/wcm/designs/customstyle/`
 
@@ -77,7 +77,7 @@ Följ stegen nedan för att skapa anpassade märkesnamn och format för textöve
    >[!NOTE]
    >Som standard är **Design** I det här fältet visas sökvägen till designen i mappen libs.
 
-1. Uppdatera **Design** med sökvägen till projektmappen. I det här fallet blir det `/apps/settings/wcm/designs/customstyle`.
+1. Uppdatera **Design** med sökvägen till projektmappen. I det här fallet kommer det att `/apps/settings/wcm/designs/customstyle`.
 
    ![bild](/help/user-guide/assets/custom-brand/custom-brand6.png)
 
@@ -110,9 +110,9 @@ När du har utfört de föregående stegen kan du uppdatera *static.css* fil fr�
 
 Följ stegen nedan för att visa den uppdaterade designen för textövertäckning:
 
-1. Gå till ditt AEM Screens-projekt med namnet **egen stil** —> **Kanaler** —> **DemoBrand**. Markera kanalen och klicka på **Redigera** i åtgärdsfältet för att öppna redigeraren.
+1. Gå till ditt AEM Screens-projekt med namnet **egen stil** > **Kanaler** > **DemoBrand**. Markera kanalen och klicka på **Redigera** i åtgärdsfältet för att öppna redigeraren.
 
-1. Sedan du lagt till designen i **Designs** fält, enligt ovan, klicka **Förhandsgranska** om du vill visa den aktuella stilen för bilden med textövertäckning.
+1. Sedan du lagt till designen i **Designer** fält, enligt ovan, klicka **Förhandsgranska** om du vill visa den aktuella stilen för bilden med textövertäckning.
 
    ![bild](/help/user-guide/assets/custom-brand/custom-brand7.png)
 
