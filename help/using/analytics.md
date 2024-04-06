@@ -1,12 +1,10 @@
 ---
 title: Analyser med AEM Screens
-seo-title: Analytics with AEM Screens
-description: Sidan beskriver Analytics med AEM Screens
-seo-description: The page describes the analytics with AEM Screens
+description: Läs om Adobe Analytics med Adobe Experience Manager Screens.
 exl-id: cfb47e94-9f65-43f3-b197-07222f3f6424
-source-git-commit: 707833ddd8ab2573abcac4e9a77ec88778624435
+source-git-commit: 299018986ae58ecbdb51a30413222a9682fffc76
 workflow-type: tm+mt
-source-wordcount: '285'
+source-wordcount: '288'
 ht-degree: 0%
 
 ---
@@ -15,15 +13,15 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Typiska intressenter för denna verksamhet är en marknadsförings-/affärsstrateg.
+>Typiska intressenter för denna verksamhet är marknadsföring/affärsstrategier.
 
-AEM Screens ger möjlighet att lokalt hämta alla spårbara händelser som körs på alla spelarenheter. Dessa data lagras lokalt tills de kan överföras till molnet för bearbetning. Förutom alla händelsedata läggs även ett deviceID och tidsstämpel till. Detta gör att data från en spelare kan särskiljas från en annan spelare och data som körs vid olika tidpunkter på dagen kan utvärderas separat om det behövs.
+AEM Screens ger möjlighet att lokalt hämta alla spårbara händelser som körs på alla spelarenheter. Dessa data lagras lokalt tills de kan överföras till molnet för bearbetning. Förutom alla händelsedata läggs även ett deviceID och tidsstämpel till. Detta gör att data från en spelare kan särskiljas från en annan spelare och data som körs vid olika tidpunkter på dagen kan vid behov utvärderas separat.
 
-Det finns två grundläggande skäl till att vi kanske vill hämta in dessa data.
+Det finns två grundläggande skäl till att du kanske vill hämta in dessa data.
 
-Den första innefattar **feedback-slingor och maskininlärning** medan den andra involverar **skapa diagram, kontrollpaneler och rapporter** som är avsedda att användas som livsmedel.
+Den första innefattar **feedback-slingor och maskininlärning** medan den andra involverar **skapa diagram, kontrollpaneler och rapporter** som är avsedda som livsmedel.
 
-I det här fallet är vi inte intresserade av visuella rapporter eller kontrollpaneler, utan vill i stället definiera regler som AEM kan tillämpa för innehållsändringar. Genom att använda och bearbeta alla data för skärmspelarhändelser från en viss tidsperiod kan vi definiera en regel som utvärderar effekten av image1 jämfört med image2. Genom att kombinera säljdata med uppspelningsdata kan AEM fastställa att image1 har en mycket större inverkan på försäljningen och automatiskt instruerar alla spelare att använda image1.
+I det här fallet behöver du inte bekymra dig om visuella rapporter eller kontrollpaneler, utan i stället vill du definiera regler som AEM kan köra på för innehållsändringar. Genom att använda och bearbeta alla data för skärmspelarhändelser från en viss tidsperiod kan du definiera en regel som utvärderar effekten av image1 jämfört med image2. Genom att kombinera säljdata med uppspelningsdata kan AEM fastställa att bild1 har större påverkan på försäljningen och automatiskt instruerar alla spelare att använda bild1.
 
 Det andra användningsexemplet med analys är att bearbeta uppspelningshändelser och användningsdata som ska användas som livsmedel via rapporter och kontrollpaneler.
-Vi kan använda dessa data för att skapa en värmekarta av en interaktiv upplevelse för att fastställa den önskade färdplanen genom vår applikation. Vi kan också välja att skapa en kontrollpanel som ger en grafisk tolkning av hur många gånger konsumenterna interagerar med vår applikation.
+Du kan använda dessa data för att skapa en värmekarta av en interaktiv upplevelse för att fastställa vilken färdplan som ska användas genom programmet. Du kan också välja att skapa en kontrollpanel som ger en grafisk tolkning av hur många gånger konsumenterna interagerar med programmet.

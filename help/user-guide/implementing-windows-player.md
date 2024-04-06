@@ -14,9 +14,9 @@ feature: Administering Screens, Windows Player
 role: Admin
 level: Intermediate
 exl-id: 50b6d9ba-e672-4f4d-a9a8-fb8387685057
-source-git-commit: d1adadbab2cb13626dd8ce70deacced9f55aa4c9
+source-git-commit: 299018986ae58ecbdb51a30413222a9682fffc76
 workflow-type: tm+mt
-source-wordcount: '1145'
+source-wordcount: '1143'
 ht-degree: 0%
 
 ---
@@ -179,7 +179,7 @@ Om du får en svart skärm när du loggar in som Kiosk-användare betyder det at
 
 Standardinstallationssökvägen för Windows Player är:
 
-***C:\Users\&amp;lt;din användare>\AppData\Local\Programs\@aem-screensscreens-player-electron\AEM Screens Player.exe***
+***C:\Users\&lt;your user=&quot;&quot;>\AppData\Local\Programs\@aem-screensscreens-player-electron\AEM Screens Player.exe***
 
 Exempelskriptet i länkarna aktiverar och inaktiverar det anpassade skalet. Därför kan du behöva dela upp skriptet i två delar och aktivera/inaktivera nedanstående tillämpliga rader:
 

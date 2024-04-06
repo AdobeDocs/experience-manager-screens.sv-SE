@@ -6,7 +6,7 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: c95da2e9-a216-4d0a-85d0-a0fb895a8d8a
-source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
+source-git-commit: 299018986ae58ecbdb51a30413222a9682fffc76
 workflow-type: tm+mt
 source-wordcount: '371'
 ht-degree: 0%
@@ -23,15 +23,15 @@ I det här avsnittet beskrivs hur du aktiverar målinriktning i dina kanaler.
 
 ## Förutsättningar {#prereqs}
 
-Innan du följer stegen nedan för att aktivera målinriktning i kanaler måste du lära dig [Viktiga termer i Konfigurera i AEM Screens](configuring-context-hub.md) krävs för att förstå ContextHub och Targeting i AEM Screens.
+Innan du följer stegen nedan för att aktivera målinriktning i kanaler måste du lära dig [Viktiga termer i Konfigurera i AEM Screens](configuring-context-hub.md) krävs för att förstå ContextHub och Target i AEM Screens.
 
 >[!IMPORTANT]
 >
->Vi rekommenderar att du förstår och konfigurerar ContextHub-konfigurationer innan du aktiverar målinriktning i en AEM Screens-kanal.
+>Vi rekommenderar att du förstår och konfigurerar ContextHub-konfigurationer innan du aktiverar anpassning i en AEM Screens-kanal.
 
 Följ länkarna nedan för mer information:
 
-1. **[Konfigurera datalager](configuring-context-hub.md)**
+1. **[Konfigurera datalagret](configuring-context-hub.md)**
 1. **[Konfigurera målgruppssegmentering](configuring-context-hub.md)**
 
 När du har slutfört de föregående stegen är du redo att aktivera målinriktning i dina kanaler.
@@ -57,6 +57,7 @@ Följ stegen nedan för att aktivera målinriktning i dina kanaler.
    1. Välj **Segmentsökväg** as **conf** > **Vi.butik** > **inställningar** > **wcm** > **segment** och klicka **Välj**.
 
    1. Klicka **Spara och stäng**.
+
    >[!NOTE]
    >
    >Använd ContextHub och Segments-sökvägen, där du först sparade dina kontextnavkonfigurationer och segment.

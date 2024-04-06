@@ -14,9 +14,9 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: ae032042-fa2b-49cd-91fe-ce50f3ce9867
-source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
+source-git-commit: 299018986ae58ecbdb51a30413222a9682fffc76
 workflow-type: tm+mt
-source-wordcount: '451'
+source-wordcount: '463'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ Följande exempel visar hur man använder aktivering av sjukhusbokning baserat p
 
 I det här användningsfallet fylls Google Sheet i med en procentandel reservationer på två restauranger **Restaurant1** och **Restaurant2**. En formel tillämpas baserat på värdena för Restaurant1 och Restaurant2 och baserat på formeln tilldelas värdet 1 eller 2 till **AdTarget** Kolumn.
 
-Om värdet för **Restaurant1** > **Restaurant2** sedan **AdTaget** är tilldelat värde **1** annars **AdTarget** är tilldelat värde **2**. Värde 1 genererar *Svag mat* option and Value 2 results in display of *Thailändska livsmedel* på skärmen.
+Om värdet för **Restaurant1** > **Restaurant2** sedan **AdTaget** är tilldelat värde **1** annars **AdTarget** är tilldelat värde **2**. Värde 1 genererar *Svag mat* option and Value 2 results in display of *Thailändska livsmedel* på bildskärmen.
 
 ## Förhandsvillkor {#preconditions}
 
@@ -43,7 +43,7 @@ Följ stegen nedan för att implementera användningsexemplet för aktivering av
 
 1. **Fylla i Google-bladen och lägga till formeln.**
 
-   Du kan till exempel använda formeln på den tredje kolumnen **AdTarget**, vilket visas i figuren nedan.
+   Använd till exempel formeln på den tredje kolumnen **AdTarget**, vilket visas i figuren nedan.
 
    ![screen_shot_2019-04-29at94132am](assets/screen_shot_2019-04-29at94132am.png)
 
@@ -77,7 +77,7 @@ Följ stegen nedan för att implementera användningsexemplet för aktivering av
 
    >[!CAUTION]
    >
-   >Du borde ha konfigurerat **ContextHub** **Konfigurationer** använda kanalen **Egenskaper** —> **Personalisering** -fliken.
+   >Du borde ha konfigurerat **ContextHub** **Konfigurationer** använda kanalen **Egenskaper** > **Personalisering** -fliken.
 
    ![screen_shot_2019-05-08at114106am](assets/screen_shot_2019-05-08at114106am.png)
 
@@ -86,4 +86,5 @@ Följ stegen nedan för att implementera användningsexemplet för aktivering av
 
    1. Klicka **Förhandsgranska.** Du kan även öppna dina Google-blad och uppdatera deras värde.
    1. Uppdatera värdet i **Restaurant1** och **Restaurant2** kolumner. If **Restaurant1** > **Restaurant2,** du bör kunna visa en bild av *Stopp* annan mat, *Thailändska* matbilden visas på skärmen.
+
    ![result5](assets/result5.gif)

@@ -6,9 +6,9 @@ feature: Overview, Digital Signage
 role: User
 level: Beginner
 exl-id: 9b7c7f50-2846-4727-a0ec-0220b4cd52c4
-source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
+source-git-commit: 299018986ae58ecbdb51a30413222a9682fffc76
 workflow-type: tm+mt
-source-wordcount: '1315'
+source-wordcount: '1308'
 ht-degree: 1%
 
 ---
@@ -35,7 +35,7 @@ Följ stegen nedan för att skapa ett exempelprojekt för AEM Screens och public
 
 ## Tillåt tomma referentförfrågningar {#allow-empty-referrer-requests}
 
-1. Navigera till **Konfiguration av Adobe Experience Manager Web Console** via AEM instance —> hammer icon —> **Operationer** —> **Webbkonsol**.
+1. Navigera till **Konfiguration av Adobe Experience Manager Web Console** via AEM > hammarikon > **Operationer** > **Webbkonsol**.
 
    ![bild](assets/config/empty-ref1.png)
 
@@ -91,7 +91,7 @@ När ni väl har er kanal på plats måste ni lägga till innehåll i kanalen so
 
 Följ stegen nedan för att lägga till innehåll i kanalen (**TestChannel**) i ditt projekt:
 
-1. Navigera till **DemoProject** du skapade och väljer **TestChannel** från **Kanaler** mapp.
+1. Navigera till **DemoProject** du har skapat och väljer **TestChannel** från **Kanaler** mapp.
 
 1. Klicka **Redigera** i åtgärdsfältet (se figuren nedan). Redigeraren för **TestChannel** öppnas.
 
@@ -112,7 +112,7 @@ När du väl har skapat kanalen måste du skapa en plats.
 
 Följ stegen nedan för att skapa en ny plats för ditt projekt:
 
-1. Navigera till **DemoProject** du skapade och väljer **Platser** mapp.
+1. Navigera till **DemoProject** du har skapat och väljer **Platser** mapp.
 
 1. Klicka **+ Skapa** i åtgärdsfältet.
 
@@ -152,7 +152,7 @@ När du har skapat en plats måste du skapa en ny skärm för platsen.
 
 När projektkonfigurationen är klar måste du tilldela kanalen till en skärm för att kunna visa innehållet.
 
-1. Navigera till önskad visning från **DemoScreens** —> **Platser** —> **TestLocation** —> **LobbyDisplay**.
+1. Navigera till önskad visning från **DemoScreens** > **Platser** > **TestLocation** > **LobbyDisplay**.
 
 1. Tryck/klicka **Tilldela kanal** i åtgärdsfältet.
 
@@ -170,7 +170,7 @@ När projektkonfigurationen är klar måste du tilldela kanalen till en skärm f
 
    >[!NOTE]
    >
-   >The **Kanalroll**, **Prioritet** och **Avbrottsmetoder** fylls alla i som standard. Se [Kanalegenskaper](/help/user-guide/channel-assignment-latest-fp.md#channel-properties) om du vill veta mer om egenskaper för kanaltilldelning.
+   >The **Kanalroll**, **Prioritet** och **Avbrottsmetoder** fylls alla i som standard. Se [Kanalegenskaper](/help/user-guide/channel-assignment-latest-fp.md#channel-properties) om du vill veta mer om kanaltilldelningsegenskaper.
 
    ![bild](assets/kickstart/demo-assign3.png)
 
@@ -193,11 +193,10 @@ Du måste registrera din enhet med AEM kontrollpanel.
 >1. Zippa upp och spara det på disken.
 >1. Öppna Chrome-webbläsaren och välj **Tillägg** från menyn eller direkt navigera till ***chrome://extensions***.
 >1. Aktivera **Utvecklarläge** från det övre högra hörnet.
->1. Klicka på **Läs in opackad** från det övre vänstra hörnet och ladda uppzippad Chrome Player.
+>1. Klicka på **Läs in opackad** från det övre vänstra hörnet och läsa in den uppzippade Chrome Player.
 >1. Kontrollera **AEM Screens Chrome Player** plugin-program, om det finns i listan över tillägg.
 >1. Öppna en ny flik och klicka på **Appar** ikonen i det övre vänstra hörnet eller direkt navigera till ***chrome://apps***.
 >1. Klicka på **AEM Screens** Plugin-program för att starta Chrome Player. Som standard startas spelaren i helskärmsläge. Tryck **esc** för att avsluta helskärmsläget.
-
 
 När du har aktiverat Chrome OS-spelaren följer du stegen nedan för att registrera en Chrome-enhet.
 
@@ -226,7 +225,7 @@ När du har aktiverat Chrome OS-spelaren följer du stegen nedan för att regist
 
    ![bild](assets/kickstart/demo-register5.png)
 
-1. Markera sökvägen till din visning som **DemoScreens** —> **Platser** —> **TestLocation** —> **LobbyDisplay** och klicka **Tilldela**.
+1. Markera sökvägen till din visning som **DemoScreens** > **Platser** > **TestLocation** > **LobbyDisplay** och klicka **Tilldela**.
 
    ![bild](assets/kickstart/demo-device6.png)
 

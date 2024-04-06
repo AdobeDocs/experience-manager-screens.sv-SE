@@ -6,7 +6,7 @@ feature: Authoring Screens, Channel Assignment
 role: Admin, Developer
 level: Intermediate
 exl-id: 346eec9a-e291-4b0d-9686-fee1d5a0e7dd
-source-git-commit: d1adadbab2cb13626dd8ce70deacced9f55aa4c9
+source-git-commit: 299018986ae58ecbdb51a30413222a9682fffc76
 workflow-type: tm+mt
 source-wordcount: '1476'
 ht-degree: 0%
@@ -61,7 +61,7 @@ Följ stegen nedan för att konfigurera ett projekt och en kanal:
 
 När projektkonfigurationen är klar måste du tilldela kanalen till en skärm för att kunna visa innehållet.
 
-1. Navigera till önskad visning, till exempel **DemoScreens** —> **Platser** —> **SanJose** —> **Lobby**.
+1. Navigera till önskad visning, till exempel **DemoScreens** > **Platser** > **SanJose** > **Lobby**.
 
 1. Tryck/klicka **Tilldela kanal** i åtgärdsfältet.
 
@@ -110,7 +110,7 @@ När du har tilldelat en kanal till en visning och konfigurerat ett upprepningss
 
 Följ stegen nedan för att navigera till tidslinjevyn:
 
-1. Navigera till önskad visning, till exempel **DemoScreens** —> **Platser** —> **SanJose** —> **Lobby**.
+1. Navigera till önskad visning, till exempel **DemoScreens** > **Platser** > **SanJose** > **Lobby**.
 
 1. Tryck/klicka **Tilldela kanal** i åtgärdsfältet.
 

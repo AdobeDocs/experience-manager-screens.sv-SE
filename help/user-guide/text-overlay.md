@@ -14,10 +14,10 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: bbc719df-24a7-4cfb-9786-1c3496f9f082
-source-git-commit: 10a4918eeb56df5e8542bbc2e8806f766a86f781
+source-git-commit: 299018986ae58ecbdb51a30413222a9682fffc76
 workflow-type: tm+mt
-source-wordcount: '797'
-ht-degree: 1%
+source-wordcount: '796'
+ht-degree: 0%
 
 ---
 
@@ -34,7 +34,7 @@ Detta avsnitt behandlar följande ämnen:
 >
 >The **Textövertäckning** finns bara om du har AEM 6.3 Feature Pack 5 eller AEM 6.4 Feature Pack 3.
 
-## Översikt {#overview}
+## Ökning {#overview}
 
 Textövertäckning är en funktion i AEM Screens som gör att du kan skapa en övertygande upplevelse i en sekvenskanal genom att ange en rubrik eller en beskrivning som läggs ovanpå en bild.
 
@@ -48,21 +48,21 @@ I följande avsnitt beskrivs hur du använder textövertäckning i ett AEM Scree
 
 **Förutsättningar**
 
-Innan du börjar implementera den här funktionen bör du kontrollera att du har konfigurerat ett projekt som en förutsättning för att börja implementera textövertäckning. Till exempel,
+Innan du börjar implementera den här funktionen bör du kontrollera att du har konfigurerat ett projekt som en förutsättning för att börja implementera textövertäckning. Exempel:
 
 * Skapa ett AEM Screens-projekt (i det här exemplet **TextOverlayDemo**)
 
-* Skapa en sekvenskanal med namnet som **TextSample** under **Kanaler** mapp
+* Skapa en sekvenskanal med namnet **TextExempel** under **Kanaler** mapp
 
-* Lägg till innehåll i **TextSample** Kanal
+* Lägg till innehåll i **TextExempel** Kanal
 
-Följande bild visar **TextOverlayDemo** projekt med **TextSample** kanal in **Kanaler** mapp.
+Följande bild visar **TextOverlayDemo** projekt med **TextExempel** kanal in **Kanaler** mapp.
 
 ![screen_shot_2018-12-16at75908pm](assets/screen_shot_2018-12-16at75908pm.png)
 
 Följ stegen nedan för att använda textövertäckning i en AEM Screens-kanal:
 
-1. Navigera till **TextOverlayDemo** —> **Kanaler** —> **TextSample** och klicka **Redigera** i åtgärdsfältet för att öppna redigeraren.
+1. Navigera till **TextOverlayDemo** > **Kanaler** > **TextExempel** och klicka **Redigera** i åtgärdsfältet för att öppna redigeraren.
 
    ![screen_shot_2018-12-16at80017pm](assets/screen_shot_2018-12-16at80017pm.png)
 
@@ -102,7 +102,7 @@ Mer information om hur du konfigurerar och hanterar datadrivna resursändringar 
 
 När du har ställt in de konfigurationer som krävs för ditt projekt följer du stegen nedan för att använda värden från Google Sheets:
 
-1. Navigera till **TextOverlayDemo** —> **Kanaler** —> **TextSample** och klicka **Egenskaper** i åtgärdsfältet.
+1. Navigera till **TextOverlayDemo** > **Kanaler** > **TextExempel** och klicka **Egenskaper** i åtgärdsfältet.
 
 1. Välj **Personalisering** för att konfigurera ContextHub-konfigurationer.
 
@@ -118,7 +118,7 @@ När du har ställt in de konfigurationer som krävs för ditt projekt följer d
 
       ![image1](/help/user-guide/assets/text-overlay/text-overlay8.png)
 
-1. Navigera till **TextOverlayDemo** —> **Kanaler** —> **TextSample** och klicka **Redigera** i åtgärdsfältet för att öppna redigeraren.
+1. Navigera till **TextOverlayDemo** > **Kanaler** > **TextExempel** och klicka **Redigera** i åtgärdsfältet för att öppna redigeraren.
 
    ![image1](/help/user-guide/assets/text-overlay/text-overlay1.png)
 
@@ -128,7 +128,7 @@ När du har ställt in de konfigurationer som krävs för ditt projekt följer d
 
    ![image1](/help/user-guide/assets/text-overlay/text-overlay4.png)
 
-1. Navigera till **ContextHub** från **Bild** -dialogrutan. Klicka **Lägg till**.
+1. Navigera till **ContextHub** -fliken från **Bild** -dialogrutan. Klicka **Lägg till**.
 
    >[!NOTE]
    >Om du inte har konfigurerat dina ContextHub-konfigurationer inaktiveras det här alternativet för ditt projekt.

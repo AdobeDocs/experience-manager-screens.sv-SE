@@ -13,9 +13,9 @@ feature: Administering Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: ba23eb8e-bbde-4a6e-8cfb-ae98176ed890
-source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
+source-git-commit: 299018986ae58ecbdb51a30413222a9682fffc76
 workflow-type: tm+mt
-source-wordcount: '985'
+source-wordcount: '983'
 ht-degree: 0%
 
 ---
@@ -75,19 +75,19 @@ I följande diagram visas replikeringsprocessen:
 
 ### Skärmreplikeringsagenter och kommandon  {#screens-replication-agents-and-commands}
 
-Specifika replikeringsagenter för anpassade skärmar skapas för att skicka kommandon från författarinstansen till AEM Screens-enheten. AEM Publish-instanserna fungerar som en mellanhand för att vidarebefordra dessa kommandon till enheten.
+Specifika replikeringsagenter för anpassade skärmar skapas för att skicka kommandon från författarinstansen till AEM Screens-enheten. AEM Publish-instanser fungerar som en mellanhand för att vidarebefordra dessa kommandon till enheten.
 
 Detta gör att författare kan fortsätta att hantera enheten, till exempel skicka enhetsuppdateringar och ta skärmbilder från redigeringsmiljön. AEM Screens replikeringsagenter har en anpassad transportkonfiguration, som vanliga replikeringsagenter.
 
 ### Meddelanden mellan publiceringsinstanser  {#messaging-between-publish-instances}
 
-I många fall är ett kommando bara avsett att skickas till en enhet en gång. I en belastningsutjämnad publiceringsarkitektur är det dock okänt vilken publiceringsinstans enheten ansluter till.
+I många fall är det bara meningen att ett kommando ska skickas till en enhet en gång. I en belastningsutjämnad publiceringsarkitektur är det dock okänt vilken publiceringsinstans enheten ansluter till.
 
 Därför skickar författarinstansen meddelandet till alla publiceringsinstanser. Sedan bör bara ett meddelande vidarebefordras till enheten. För att meddelandet ska bli korrekt måste viss kommunikation ske mellan publiceringsinstanser. Detta uppnås med *Apache ActiveMQ Artemis*. Varje publiceringsinstans placeras i en löst kopplad topologi med hjälp av Oak-baserad Sling-identifieringstjänst och ActiveMQ har konfigurerats så att varje publiceringsinstans kan kommunicera och skapa en enda meddelandekö. Enheten Skärmar avsöker publiceringsgruppen via belastningsutjämnaren och hämtar kommandot från köns övre del.
 
 ### Omvänd replikering {#reverse-replication}
 
-I många fall, efter ett kommando, förväntas något svar från skärmenheten vidarebefordras till författarinstansen. För att uppnå detta AEM ***Omvänd replikering*** används.
+I många fall, efter ett kommando, förväntas något svar från skärmenheten vidarebefordras till författarinstansen. För att uppnå AEM ***Omvänd replikering*** används.
 
 * Skapa en omvänd replikeringsagent för varje publiceringsinstans, precis som standardsreplikeringsagenterna och skärmreplikeringsagenterna.
 * En arbetsflödeskonfiguration lyssnar efter noder som ändrats på publiceringsinstansen och utlöser i sin tur ett arbetsflöde för att placera enhetens svar i publiceringsinstansens utkorg.
@@ -106,7 +106,7 @@ Författarinstansen avsöker alla publiceringsinstanser och sammanfogar enhetsst
 
 Registreringen fortsätter att ha sitt ursprung i AEM författarinstans. AEM Screens Device hänvisas till författarinstansen och registreringen är klar.
 
-När en enhet har registrerats i redigeringsmiljön replikeras enhetskonfigurationen och tilldelningarna av kanaler/scheman till AEM publiceringsinstanser. AEM Screens-enhetskonfigurationen uppdateras sedan så att den pekar på belastningsutjämnaren framför AEM publiceringsgrupp. Detta är avsett att vara en engångskonfiguration, och när skärmenheten har anslutits till publiceringsmiljön kan den fortsätta att ta emot kommandon från författarmiljön och du behöver aldrig ansluta skärmenheten direkt till redigeringsmiljön.
+När en enhet har registrerats i redigeringsmiljön replikeras enhetskonfigurationen och tilldelningarna av kanaler/scheman till de AEM publiceringsinstanserna. AEM Screens-enhetskonfigurationen uppdateras sedan så att den pekar på belastningsutjämnaren framför AEM publiceringsgrupp. Detta är avsett att vara en engångskonfiguration, och när skärmenheten har anslutits till publiceringsmiljön kan den fortsätta att ta emot kommandon från författarmiljön och du behöver aldrig ansluta skärmenheten direkt till redigeringsmiljön.
 
 ![screen_shot_2019-02-25at15218pm](assets/screen_shot_2019-02-25at15218pm.png)
 

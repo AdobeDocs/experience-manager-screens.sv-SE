@@ -14,9 +14,9 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 2ec2891f-0fbe-4812-b3c4-ff160ead36b8
-source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
+source-git-commit: 299018986ae58ecbdb51a30413222a9682fffc76
 workflow-type: tm+mt
-source-wordcount: '451'
+source-wordcount: '460'
 ht-degree: 0%
 
 ---
@@ -78,7 +78,7 @@ Följ stegen nedan för att implementera användningsexemplet för aktivering av
 
    >[!CAUTION]
    >
-   >Du borde ha konfigurerat **ContextHub** **Konfigurationer** använda kanalen **Egenskaper** —> **Personalisering** -fliken.
+   >Du borde ha konfigurerat **ContextHub** **Konfigurationer** använda kanalen **Egenskaper** > **Personalisering** -fliken.
 
    ![screen_shot_2019-05-08at114106am](assets/screen_shot_2019-05-08at114106am.png)
 
@@ -88,6 +88,7 @@ Följ stegen nedan för att implementera användningsexemplet för aktivering av
 
 1. **Kontrollera förhandsvisningen**
 
-   1. Klicka **Förhandsgranska.** Öppna även Google Sheet och uppdatera värdet.
+   1. Klicka **Förhandsgranska.** Du kan även öppna Google Sheet och uppdatera värdet.
    1. Om du ändrar värdet till mindre än 50 bör du kunna se en bild av sommardrycker. Om värdet i Google Sheet är 50 eller högre än vad som ska kunna visas på en bild av en het drink.
+
    ![result3](assets/result3.gif)

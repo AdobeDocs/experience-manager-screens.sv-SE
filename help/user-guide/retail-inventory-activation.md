@@ -14,9 +14,9 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 926f529b-f3cf-471d-83b4-6ccb628cf160
-source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
+source-git-commit: 299018986ae58ecbdb51a30413222a9682fffc76
 workflow-type: tm+mt
-source-wordcount: '644'
+source-wordcount: '632'
 ht-degree: 0%
 
 ---
@@ -56,7 +56,7 @@ Följ stegen nedan för att implementera användningsexemplet för butikslagerak
 
    1. Välj **For_Red** och klicka **Redigera** i åtgärdsfältet.
 
-   1. Dra och släpp **Jämförelse: Egenskap - Egenskap** till redigeraren och klicka på konfigurationsikonen för att redigera egenskaperna.
+   1. Dra och släpp **Comparison : Property - Property** till redigeraren och klicka på konfigurationsikonen för att redigera egenskaperna.
    1. Välj **googlesheets/value/1/2** från listrutan i **Första egenskapsnamnet**
 
    1. Välj **Operator** as **större än** i listrutan
@@ -65,7 +65,7 @@ Följ stegen nedan för att implementera användningsexemplet för butikslagerak
 
    1. Välj **googlesheets/value/1/1** från listrutan i **Andra egenskapsnamnet**.
 
-   1. Dra och släpp **en annan jämförelse: Egenskap - Egenskap** till redigeraren och klicka på konfigurationsikonen för att redigera egenskaperna.
+   1. Dra och släpp **en annan jämförelse: property - property** till redigeraren och klicka på konfigurationsikonen för att redigera egenskaperna.
    1. Välj **googlesheets/value/1/2** från listrutan i **Första egenskapsnamnet**.
 
    1. Välj **Operator** as **större än** i listrutan
@@ -94,12 +94,13 @@ Följ stegen nedan för att implementera användningsexemplet för butikslagerak
 
    >[!CAUTION]
    >
-   >Du borde ha konfigurerat **ContextHub** **Konfigurationer** använda kanalen **Egenskaper** —> **Personalisering** -fliken.
+   >Du borde ha konfigurerat **ContextHub** **Konfigurationer** använda kanalen **Egenskaper** > **Personalisering** -fliken.
 
    ![screen_shot_2019-05-06at105214am](assets/screen_shot_2019-05-06at105214am.png)
 
    >[!NOTE]
-   Du måste markera båda **Varumärke** och **Yta** för att aktiviteterna ska visas korrekt när du startar målprocessen.
+   >
+   >Du måste markera båda **Varumärke** och **Område** för att aktiviteterna ska visas korrekt när du startar målprocessen.
 
 1. **Lägga till en standardbild**
 
@@ -111,7 +112,8 @@ Följ stegen nedan för att implementera användningsexemplet för butikslagerak
    ![screen_shot_2019-05-06at121253pm](assets/screen_shot_2019-05-06at121253pm.png)
 
    >[!NOTE]
-   Innan du börjar målinrikta måste du lägga till segmenten (**For_Green**, **For_Red** och **För_blå**) genom att klicka på **+ Lägg till Experience Targeting** från sidospåret enligt figuren nedan.
+   >
+   >Innan du börjar målinrikta måste du lägga till segmenten (**For_Green**, **For_Red** och **För_blå**) genom att klicka på **+ Lägg till Experience Targeting** från sidospåret enligt figuren nedan.
 
    ![screen_shot_2019-05-06at123554pm](assets/screen_shot_2019-05-06at123554pm.png)
 
@@ -121,6 +123,7 @@ Följ stegen nedan för att implementera användningsexemplet för butikslagerak
 
 1. **Kontrollera förhandsvisningen**
 
-   1. Klicka **Förhandsgranska.** Öppna även Google Sheet och uppdatera värdet.
+   1. Klicka **Förhandsgranska.** Du kan även öppna Google Sheet och uppdatera värdet.
    1. Ändra värdet för alla tre olika kolumner så kommer du att märka att visningsbilden uppdateras enligt det högsta värdet i lagret.
+
    ![retail_result](assets/retail_result.gif)

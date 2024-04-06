@@ -13,10 +13,10 @@ feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: 4faac090-ad8a-4d7e-a502-6fb63f6b2761
-source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
+source-git-commit: 299018986ae58ecbdb51a30413222a9682fffc76
 workflow-type: tm+mt
-source-wordcount: '1044'
-ht-degree: 0%
+source-wordcount: '1058'
+ht-degree: 1%
 
 ---
 
@@ -34,7 +34,7 @@ När du har tilldelat en kanal till en skärm visas innehållet i AEM Screens Pl
 
 Du kan konfigurera inställningar för enheten från enhetskontrollpanelen, som du kommer åt via AEM.
 
-1. Navigera till kontrollpanelen för enheten från ditt projekt, till exempel ***Testa projekt*** —> ***Enheter***.
+1. Navigera till kontrollpanelen för enheten från ditt projekt, till exempel ***Testa projekt*** > ***Enheter***.
 
    Välj **Enheter** och **Enhetshanteraren** i åtgärdsfältet.
 
@@ -74,9 +74,9 @@ På menyn Konfiguration kan du ändra följande inställningar:
 
 * Aktivera eller inaktivera **Admin-menyn**, **Kanalväljare** och **Aktivitetsgränssnitt** för skärmspelaren.
 
-   Om **Aktivitetsgränssnitt** är aktiverat från **Konfiguration** visas AEM Screens-spelaren *meddelanden om spelaraktivitet* i det övre högra hörnet av spelaren, vilket visas i bilden nedan.
+  Om **Aktivitetsgränssnitt** är aktiverat från **Konfiguration** visas AEM Screens-spelaren *meddelanden om spelaraktivitet* i det övre högra hörnet av spelaren, vilket visas i bilden nedan.
 
-   ![bild](/help/user-guide/assets/activity_ui.png)
+  ![bild](/help/user-guide/assets/activity_ui.png)
 
 >[!NOTE]
 >
@@ -90,7 +90,7 @@ På menyn Konfiguration kan du ändra följande inställningar:
 
 Du kan rensa cache för kanaler och program från administratörsgränssnittet i AEM Screens Player.
 
-Välj **Innehållscache** från sidospåret för att uppdatera cacheminnet.
+Välj **Innehållscache** från sidospåret för att uppdatera cachen.
 
 ![screen_shot_2018-10-15at105717am](assets/screen_shot_2018-10-15at105717am.png)
 
@@ -132,7 +132,7 @@ Du kan felsöka olika problem som rör AEM Screens Player (maskinvara och progra
 |---|---|
 | Spelarlagringen är full | Eliminera onödiga filer |
 | Spelaren förlorade nätverket | Använd katt-5/katt-6-kabel. För wifi ska du minska avståndet från routern till spelarenheten |
-| AEM Screens Player kraschade | Vi rekommenderar att du har en övervakningsapp som ser till att AEM Screens Player alltid körs |
+| AEM Screens Player kraschade | Vi rekommenderar att du har en app som kontrollerar att AEM Screens Player alltid körs |
 | Inställningar för förlorad AEM Screens Player | Kontrollera anslutning till AEM server |
 | AEM Screens Player startar inte automatiskt efter omstart/omstart av spelaren | Kontrollera operativsystemets startmapp eller initieringsprocedur |
 | AEM Screens Player visar fel/gammalt innehåll | Kontrollera nätverksanslutning |
@@ -141,7 +141,7 @@ Du kan felsöka olika problem som rör AEM Screens Player (maskinvara och progra
 
 Det finns två typer av uppdateringar för AEM Screens Player:
 
-| **Metod** | **Detaljer** | **via fjärranslutning** | **Automatiserad** | **0 Driftavbrott** |
+| **Metod** | **Information** | **via fjärranslutning** | **Automatiserad** | **0 Driftavbrott** |
 |---|---|---|---|---|
 | Uppdatering av inbyggd programvara | Används på befintliga installerade spelare via fjärrkommando. Efter uppdateringen läses Player in automatiskt igen med det befintliga innehållet. | Ja | Egen | Nästan - 1-3 sekunder |
 | Uppdateringar för spelargränssnitt | Det här är en ny körbar fil som ska distribueras på spelaren. Detta kräver att du fjärrkopierar en ny binär fil i spelaren och stoppar den pågående körningen och startar den nya versionen. Detta kan kräva att du hämtar förinläsningen av paketen igen. | Ja (via fjärrgränssnitt) | Egen | Nej |
@@ -169,7 +169,7 @@ I följande tabell sammanfattas maskinvarukonfigurationerna med typiska användn
    <td>GPU</td>
    <td>Visa</td>
    <td>I/O</td>
-   <td>Vanliga användningsområden</td>
+   <td>Vanliga användningsfall</td>
   </tr>
   <tr>
    <td>Grundläggande</td>
@@ -207,11 +207,11 @@ I följande tabell sammanfattas maskinvarukonfigurationerna med typiska användn
    <td>256 GB</td>
    <td>Dedikerad grafikprocessor</td>
    <td>3840x2160 (4K)</td>
-   <td>DVI, HDMI<br /> Ethernet/trådlöst,<br /> 4 x USB</td>
+   <td>DVI, HDMI<br /> Ethernet/trådlöst,<br /> 4xUSB</td>
    <td>
     <ul>
      <li>4 eller fler innehållszoner, samtidiga videouppspelningar</li>
-     <li>Interaktiv flersidig</li>
+     <li>Flersidig interaktiv</li>
      <li>Datautlösare med flera källor</li>
     </ul> </td>
   </tr>

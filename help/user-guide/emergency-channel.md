@@ -13,9 +13,9 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: d409ba46-b48a-44db-b305-27c392cd55de
-source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
+source-git-commit: 299018986ae58ecbdb51a30413222a9682fffc76
 workflow-type: tm+mt
-source-wordcount: '781'
+source-wordcount: '769'
 ht-degree: 0%
 
 ---
@@ -93,7 +93,7 @@ Följ stegen nedan för att konfigurera en nödkanal:
 
 1. **Skapar bildskärmar på din plats**
 
-   Navigera till din plats (**Butik**) och klicka på **Skapa** i åtgärdsfältet. Följ guiden för att skapa två **Visar** titled som **StoreFront** och **StoreRear**.
+   Navigera till din plats (**Butik**) och klicka på **Skapa** i åtgärdsfältet. Följ guiden och skapa två **Visar** titled som **StoreFront** och **StoreRear**.
 
    ![screen_shot_2019-02-22at122556pm](assets/screen_shot_2019-02-22at122556pm.png)
 
@@ -118,6 +118,7 @@ Följ stegen nedan för att konfigurera en nödkanal:
       1. Klicka **Spara**
 
       På samma sätt måste du utföra samma steg igen för att tilldela **EmergencyChannel** och ange **Prioritet**.
+
    >[!NOTE]
    >
    >Prioritet används för att ordna tilldelningarna om flera matchar uppspelningsvillkoren. Den som har det högsta värdet har alltid företräde framför de lägre värdena.
@@ -143,12 +144,12 @@ Följ stegen nedan för att konfigurera en nödkanal:
 
 1. **Tilldela schema till varje skärm**
 
-   1. Navigera till varje visning, till exempel **EmergencyChannel** —> **Platser** —> **Butik** —>**StoreFront**.
+   1. Navigera till varje visning, till exempel **EmergencyChannel** > **Platser** > **Butik** >**StoreFront**.
 
    1. Klicka **Kontrollpanel** från åtgärden för att öppna kontrollpanelen.
    1. Klicka **...** från **TILLDELADE KANALER OCH SCHEMAN** panel och ytterligare klicka **+Tilldela schema**.
 
-   1. Välj sökvägen till schemat (till exempel här, **EmergencyChannel** —> **Scheman** —>**StoreSchedule**).
+   1. Välj sökvägen till schemat (till exempel här, **EmergencyChannel** > **Scheman** >**StoreSchedule**).
 
    1. Klicka **Spara**.
 
@@ -165,7 +166,7 @@ Följ stegen nedan för att konfigurera en nödkanal:
 
 I händelse av en kris utför du följande steg:
 
-1. Navigera till **EmergencyChannel** —> **Scheman** —> **StoreSchedule** och markera **Kontrollpanel** i åtgärdsfältet.
+1. Navigera till **EmergencyChannel** > **Scheman** > **StoreSchedule** och markera **Kontrollpanel** i åtgärdsfältet.
 
    ![screen_shot_2019-02-25at10112pm](assets/screen_shot_2019-02-25at101112pm.png)
 

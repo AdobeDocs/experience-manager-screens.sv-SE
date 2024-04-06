@@ -14,10 +14,10 @@ feature: Digital Signage, Content, Players
 role: Developer
 level: Intermediate
 exl-id: 57105d6d-51ff-44ca-bbf2-ae9cce8addd0
-source-git-commit: 707833ddd8ab2573abcac4e9a77ec88778624435
+source-git-commit: 299018986ae58ecbdb51a30413222a9682fffc76
 workflow-type: tm+mt
-source-wordcount: '782'
-ht-degree: 1%
+source-wordcount: '775'
+ht-degree: 0%
 
 ---
 
@@ -33,7 +33,7 @@ Du kan övervaka aktiviteten och därmed felsöka skärmspelaren med Device Dash
 
 Följ stegen nedan för att navigera till kontrollpanelen för enheter:
 
-1. Navigera till kontrollpanelen för enheten från ditt projekt, till exempel ***Testa projekt*** —> ***Enheter***.
+1. Navigera till kontrollpanelen för enheten från ditt projekt, till exempel ***Testa projekt*** > ***Enheter***.
 
    Välj **Enheter** och **Enhetshanteraren** i åtgärdsfältet.
 
@@ -77,7 +77,7 @@ Kontrollera **ENHETSINFORMATION** för att visa konfigurationsuppdateringen, enh
 
 ![screen_shot_2019-09-05at13853pm](assets/screen_shot_2019-09-05at13853pm.png)
 
-Klicka på&#x200B;**...**) i det övre högra hörnet av panelen Enhetsinformation för att visa egenskaper eller uppdatera enheten.
+Klicka på (**...**) i det övre högra hörnet av panelen Enhetsinformation för att visa egenskaper eller uppdatera enheten.
 
 ![screen_shot_2019-09-05at14017pm](assets/screen_shot_2019-09-05at14017pm.png)
 
@@ -124,7 +124,6 @@ Klicka på **Inställningar** från det övre högra hörnet för att uppdatera 
 >* **Varning**
 >* **Fel**
 
-
 ![screen_shot_2019-09-05at15645pm](assets/screen_shot_2019-09-05at15645pm.png)
 
 ## Felsöka OSGi-inställningar {#troubleshoot-osgi-settings}
@@ -133,7 +132,7 @@ Du måste aktivera den tomma referenten för att enheten ska kunna skicka data t
 
 Vissa av dessa funktioner är för närvarande bara tillgängliga om *Apache Sling Referer-filtret Tillåt tomt* är aktiverat i OSGi-konfigurationen. Kontrollpanelen kan visa en varning om att skyddsinställningarna kan förhindra vissa av dessa funktioner från att fungera.
 
-Följ stegen nedan för att aktivera filtret Tillåt tomt för Apache Sling Referrer-filtret
+Följ stegen nedan för att aktivera filtret Tillåt tomt för Apache Sling Referrer
 
 1. Navigera till **Konfiguration av Adobe Experience Manager Web Console**, det vill säga `https://localhost:4502/system/console/configMgr/org.apache.sling.security.impl.ReferrerFilter`.
 1. Kontrollera **allow.empty** alternativ.
@@ -147,7 +146,7 @@ I följande avsnitt rekommenderas övervakning av nätverkslänkar, servrar och 
 
 AEM har inbyggd övervakning för:
 
-* *pulsslag* var 5:e sekund för att indikera att AEM Screens Player är i drift.
+* *Hjärtslag* var 5:e sekund för att indikera att AEM Screens Player är i drift.
 * *Skärmbild* från spelaren som visar vad som visas i spelaren.
 * The *AEM Screens Player Firmware* version som är installerad på spelaren.
 * *Ledigt lagringsutrymme* på spelaren.

@@ -14,9 +14,9 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 56dbe098-05db-4fc3-977f-e50a0a312d64
-source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
+source-git-commit: 299018986ae58ecbdb51a30413222a9682fffc76
 workflow-type: tm+mt
-source-wordcount: '1443'
+source-wordcount: '1450'
 ht-degree: 0%
 
 ---
@@ -35,9 +35,9 @@ När du skapar ett AEM Screens-projekt visas en lista med standardkomponenter so
 
 Följ stegen nedan om du vill visa standardkomponenterna för ditt skärmsprojekt:
 
-1. Markera kanalen. Till exempel: **Store** —> **Kanaler** —> **Inaktiv kanal**.
+1. Markera kanalen. Till exempel: **Store** > **Kanaler** > **Inaktiv kanal**.
 
-1. Klicka **Redigera** i åtgärdsfältet för att öppna AEM.
+1. Klicka **Redigera** i åtgärdsfältet för att öppna AEM redigerare.
 1. Klicka på **+** -ikonen från sidofältet för att öppna komponenterna.
 1. Alla komponenter som ingår som standard i ett AEM Screens-projekt visas, vilket visas i bilden nedan.
 
@@ -49,7 +49,7 @@ AEM innehåller ett antal andra komponenter. Du kan alltid lägga till andra kom
 
 I följande exempel visas hur en Livefyre-komponent läggs till i ett AEM Screens-projekt:
 
-1. Markera kanalen där du vill lägga till en ny komponent. Till exempel: **Store** —> **Kanaler** —> **Inaktiv kanal**.
+1. Markera kanalen där du vill lägga till en ny komponent. Till exempel: **Store** > **Kanaler** > **Inaktiv kanal**.
 
 1. Klicka **Redigera** i åtgärdsfältet för att öppna redigeraren.
 1. Välj **Design** läge.
@@ -62,7 +62,7 @@ I följande exempel visas hur en Livefyre-komponent läggs till i ett AEM Screen
 >
 >På samma sätt kan du lägga till valfritt antal andra komponenter som är kompatibla med AEM Screens i ditt projekt.
 
-## AEM skärmkomponenter {#understanding-aem-screen-components}
+## Förstå AEM skärmkomponenter {#understanding-aem-screen-components}
 
 I följande avsnitt förklaras vilka AEM Screens-komponenter du kan använda i ditt projekt.
 
@@ -166,7 +166,7 @@ Den inbäddade sekvensen har följande sidegenskaper:
  </tbody>
 </table>
 
-### Dynamisk inbäddad sekvens {#dynamic-embedded-sequence}
+### Dynamisk inbyggd sekvens {#dynamic-embedded-sequence}
 
 Med en dynamisk inbäddad sekvens kan du lägga till en sekvens som liknar den ovan nämnda förutom efter kanalroll.
 

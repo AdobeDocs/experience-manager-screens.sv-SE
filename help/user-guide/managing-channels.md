@@ -7,9 +7,9 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 7bbd211a-f54f-42b9-a1b3-516efe6fb579
-source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
+source-git-commit: 299018986ae58ecbdb51a30413222a9682fffc76
 workflow-type: tm+mt
-source-wordcount: '1303'
+source-wordcount: '1305'
 ht-degree: 0%
 
 ---
@@ -99,7 +99,7 @@ Följ stegen nedan för att överföra videoklipp till din kanal:
 1. Välj **Videor** under Resurser och dra och släpp önskade videoklipp.
 
 >[!NOTE]
->Om du får problem med att överföra videoklipp i din kanal kan du läsa [Felsöka videoklipp](troubleshoot-videos.md).
+>Om du får problem med att överföra videoklipp i din kanal kan du läsa mer i [Felsöka videoklipp](troubleshoot-videos.md).
 
 ### Visningsegenskaper {#viewing-properties}
 
@@ -115,7 +115,7 @@ Följ stegen nedan om du vill visa eller redigera egenskaper för en kanal:
 Följ stegen nedan för att visa kontrollpanelen för en kanal:
 
 1. Markera kanalen som du vill redigera.
-1. Klicka **Kontrollpanel** från åtgärdsfältet för att visa kontrollpanelen. The **KANALINFORMATION**,**TILLDELADE VISNINGAR** och **VÄNTANDE START** öppnas enligt bilden nedan:
+1. Klicka **Kontrollpanel** från åtgärdsfältet för att visa kontrollpanelen. The **KANALINFORMATION**,**TILLDELADE VISNINGAR** och **VÄNTANDE START** som visas på bilden nedan:
 
 ![kontrollpanel](assets/dashboard.gif)
 
@@ -161,7 +161,7 @@ An ***Onlinekanal***, visar det uppdaterade innehållet i realtidsmiljön medan 
 
 Följ stegen nedan för att göra kanalen online:
 
-1. Navigera till kanalen som **TestProject** —> **Kanaler** —> **TestChannel**.
+1. Navigera till kanalen som **TestProject** > **Kanaler** > **TestChannel**.
 
    Markera kanalen.
 
@@ -188,7 +188,7 @@ Följ stegen nedan för att göra kanalen online:
 >[!NOTE]
 >Om du vill konfigurera din kanal igen som offline avmarkerar du alternativet för utvecklarläge i dialogrutan **Egenskaper** -fliken (som i steg 3) och sedan från **KANALINFORMATION** klicka på panelen **Uppdatera offlineinnehåll**, vilket visas i figuren nedan.
 
-![dashboard2](assets/dashboard2.gif)
+![kontrollpanel2](assets/dashboard2.gif)
 
 #### Automatiska eller manuella uppdateringar från enhetskontrollpanelen {#automatic-versus-manual-updates-from-the-device-dashboard}
 
@@ -204,7 +204,7 @@ I följande tabell sammanfattas de händelser som är associerade med de automat
   <tr>
    <td>Ändring i onlinekanal</td>
    <td>Innehåll uppdateras automatiskt</td>
-   <td><p>Innehåll uppdaterat på "Enhet: Push Config"</p> <p>Eller</p> <p>Innehåll uppdaterat den <strong><i>Enhet: Starta om</i></strong></p> </td>
+   <td><p>Innehåll uppdaterat på "Enhet: push-konfiguration"</p> <p>Eller</p> <p>Innehåll uppdaterat den <strong><i>Enhet: Starta om</i></strong></p> </td>
   </tr>
   <tr>
    <td>Ändring i offlinekanal, men kanalen "push-innehåll" aktiveras INTE (inget offlinepaket återskapas)</td>
@@ -214,7 +214,7 @@ I följande tabell sammanfattas de händelser som är associerade med de automat
   <tr>
    <td>Ändringen i offlinekanalen och kanalen "push-innehåll" aktiveras (nytt offlinepaket)</td>
    <td>Innehåll uppdateras automatiskt</td>
-   <td><p>Innehåll uppdaterat den <strong><i>Enhet: Push-konfiguration</i></strong></p> <p>Eller</p> <p>Innehåll uppdaterat den <strong><i>Enhet: Starta om</i></strong></p> </td>
+   <td><p>Innehåll uppdaterat den <strong><i>Enhet: Push Config</i></strong></p> <p>Eller</p> <p>Innehåll uppdaterat den <strong><i>Enhet: Starta om</i></strong></p> </td>
   </tr>
   <tr>
    <td><p>Ändringar i konfiguration</p>
@@ -225,7 +225,7 @@ I följande tabell sammanfattas de händelser som är associerade med de automat
      <li>Kanaltilldelning (roll, händelse, planering)</li>
     </ul> </td>
    <td>Konfigurationen uppdateras automatiskt</td>
-   <td><p>Konfigurationen uppdaterades den <strong><i>Enhet: Push-konfiguration</i></strong></p> <p>Eller</p> <p>Konfigurationen uppdaterades den <strong><i>Enhet: Starta om</i></strong></p> </td>
+   <td><p>Konfigurationen uppdaterades den <strong><i>Enhet: Push Config</i></strong></p> <p>Eller</p> <p>Konfigurationen uppdaterades den <strong><i>Enhet: Starta om</i></strong></p> </td>
   </tr>
  </tbody>
 </table>
@@ -245,8 +245,7 @@ De associerade skärmarna visas i listan **Tilldelade bildskärmar** enligt neda
 >* [Skapa och hantera bildskärmar](managing-displays.md)
 >
 
-
-Klicka dessutom på visningen i **TILLDELADE VISNINGAR** för att visa visningsinformationen enligt nedan:
+Klicka dessutom på skärmen i dialogrutan **TILLDELADE VISNINGAR** för att visa visningsinformationen enligt nedan:
 
 ![chlimage_1-28](assets/chlimage_1-28.png)
 

@@ -7,7 +7,7 @@ feature: Authoring Screens, Channels
 role: Admin, Developer
 level: Intermediate
 exl-id: 51a63429-2488-45be-b8f5-cb755ca69c7f
-source-git-commit: d1adadbab2cb13626dd8ce70deacced9f55aa4c9
+source-git-commit: 299018986ae58ecbdb51a30413222a9682fffc76
 workflow-type: tm+mt
 source-wordcount: '1792'
 ht-degree: 0%
@@ -104,7 +104,7 @@ Följ stegen nedan för att implementera funktionen:
    1. Navigera till **Aktivering på kanalnivå** > **Platser** > **Län** > **RegionDisplay** och klicka **Tilldela kanal** i åtgärdsfältet.
    1. **Kanaltilldelning** öppnas.
    1. Välj **Referenskanal**.. efter bana.
-   1. Välj **Kanalsökväg** as **Aktivering på kanalnivå** —> ***Kanaler*** —> ***MainAdChannel***.
+   1. Välj **Kanalsökväg** as **Aktivering på kanalnivå** > ***Kanaler*** > ***MainAdChannel***.
    1. The **Kanalroll** fylls i som **huvudkanal**.
    1. Välj **Prioritet** as **1**.
    1. Välj **Händelser som stöds** as **Inledande inläsning** och **Inaktiv skärm**.
@@ -114,14 +114,14 @@ Följ stegen nedan för att implementera funktionen:
 
    >[!NOTE]
    >
-   >Du kan också tilldela kanal från kontrollpanelen genom att navigera till **Aktivering på kanalnivå** —> **Platser** —> **Län** —> **RegionDisplay** och klicka **Kontrollpanel** i åtgärdsfältet. Klicka **+ Tilldela kanal** från **TILLDELADE KANALER OCH SCHEMAN** -panelen.
+   >Du kan också tilldela kanal från kontrollpanelen genom att navigera till **Aktivering på kanalnivå** > **Platser** > **Län** > **RegionDisplay** och klicka **Kontrollpanel** i åtgärdsfältet. Klicka **+ Tilldela kanal** från **TILLDELADE KANALER OCH SCHEMAN** -panelen.
 
    Tilldela kanal på samma sätt **TargetedSinglePlay** för bildskärm**:
 
-   1. Navigera till **Aktivering på kanalnivå** —> **Platser** —> **Län** —> **RegionDisplay** och klicka **Tilldela kanal** i åtgärdsfältet.
+   1. Navigera till **Aktivering på kanalnivå** > **Platser** > **Län** > **RegionDisplay** och klicka **Tilldela kanal** i åtgärdsfältet.
    1. **Kanaltilldelning** öppnas.
    1. Välj **Referenskanal**.. efter bana.
-   1. Välj **Kanalsökväg** as **Aktivering på kanalnivå*** —> ***Kanaler*** —> ***TargetedSinglePlay***.
+   1. Välj **Kanalsökväg** as **Aktivering på kanalnivå*** > ***Kanaler*** > ***TargetedSinglePlay***.
    1. The **Kanalroll** fylls i som **målsingleplay**.
    1. Ange **Prioritet** as **2**.
    1. Välj **Händelser som stöds** as **Inledande inläsning**, **Inaktiv skärm** och **Timer**, *enligt bilden nedan.
@@ -130,13 +130,13 @@ Följ stegen nedan för att implementera funktionen:
 
    >[!CAUTION]
    >
-   Du måste ange prioritet för **TargetedSinglePlay** kanal högre än **MainAdSegment** kanal.
+   >Du måste ange prioritet för **TargetedSinglePlay** kanal högre än **MainAdSegment** kanal.
 
    ![screen_shot_2018-11-27at31206pm](assets/screen_shot_2018-11-27at31206pm.png)
 
    >[!NOTE]
    >
-   Om du vill välja samma dag måste du markera nästa dag och manuellt redigera datumet till samma dag, men för en senare tid. Detta hindrar användaren från att välja ett tidigare datum. Se exemplet nedan:
+   >Om du vill välja samma dag måste du markera nästa dag och manuellt redigera datumet till samma dag, men för en senare tid. Detta hindrar användaren från att välja ett tidigare datum. Se exemplet nedan:
 
    ![new1](assets/new1.gif)
 
@@ -148,9 +148,9 @@ Spelaren visar innehållet i **MainAdChannel** och exakt klockan 11:59 (enligt s
 
 >[!NOTE]
 >
-Läs mer om AEM Screen Player här:
-[AEM Screens Player - nedladdningar](https://download.macromedia.com/screens/)
-[Arbeta med AEM Screens Player](working-with-screens-player.md)
+>Läs mer om AEM Screen Player här:
+>[AEM Screens Player - nedladdningar](https://download.macromedia.com/screens/)
+>[Arbeta med AEM Screens Player](working-with-screens-player.md)
 
 
 ## Hantera återkommande för resurser i en kanal {#handling-recurrence-in-assets}
@@ -167,7 +167,7 @@ Anta att du bara vill visa innehållet i en kanal på fredag från 1:00 till 10:
 
    >[!NOTE]
    >
-   Du kan hoppa över eller ta med **Aktiv från** och **Aktiv tills** fält och lägg till uttrycket i fältet Scheman enligt dina önskemål.
+   >Du kan hoppa över eller ta med **Aktiv från** och **Aktiv tills** fält och lägg till uttrycket i fältet Scheman enligt dina önskemål.
 
 1. Ange uttrycket i **Schema** och resursen visas för det angivna intervallet på dag och tid.
 
@@ -187,7 +187,7 @@ I följande tabell sammanfattas några exempeluttryck som du kan lägga till i s
 
 >[!NOTE]
 >
-Du kan också använda _militär tid_ notation (d.v.s. 14:00) i stället för *fm/em* notation (d.v.s. 2:00).
+>Du kan också använda _militär tid_ notation (d.v.s. 14:00) i stället för *fm/em* notation (d.v.s. 2:00).
 
 ### WeekParting {#week-parting}
 
@@ -197,7 +197,7 @@ Du kan också använda _militär tid_ notation (d.v.s. 14:00) i stället för *f
 
    >[!NOTE]
    >
-   Du kan hoppa över eller ta med **Aktiv från** och **Aktiv tills** fält och lägg till uttrycket i fältet Scheman enligt dina önskemål.
+   >Du kan hoppa över eller ta med **Aktiv från** och **Aktiv tills** fält och lägg till uttrycket i fältet Scheman enligt dina önskemål.
 
 1. Ange uttrycket i **Schema** och resursen visas för det angivna intervallet på dag och tid.
 
@@ -215,7 +215,7 @@ I följande tabell sammanfattas några exempeluttryck som du kan lägga till i s
 
 >[!NOTE]
 >
-Du kan också använda _militär tid_ notation (d.v.s. 14:00) i stället för *fm/em* notation (d.v.s. 2:00).
+>Du kan också använda _militär tid_ notation (d.v.s. 14:00) i stället för *fm/em* notation (d.v.s. 2:00).
 
 
 ### MånadDelning {#month-parting}
@@ -226,7 +226,7 @@ Du kan också använda _militär tid_ notation (d.v.s. 14:00) i stället för *f
 
    >[!NOTE]
    >
-   Du kan hoppa över eller ta med **Aktiv från** och **Aktiv tills** fält och lägg till uttrycket i fältet Scheman enligt dina önskemål.
+   >Du kan hoppa över eller ta med **Aktiv från** och **Aktiv tills** fält och lägg till uttrycket i fältet Scheman enligt dina önskemål.
 
 1. Ange uttrycket i **Schema** och resursen visas för det angivna intervallet på dag och tid.
 
@@ -240,11 +240,11 @@ I följande tabell sammanfattas några exempeluttryck som du kan lägga till i s
 
 >[!NOTE]
 >
-När du definierar veckodagar och månader kan du både använda kort- och fullnamnsnoteringar, till exempel måndag/måndag och januari.
+>När du definierar veckodagar och månader kan du både använda kort- och fullnamnsnoteringar, till exempel måndag/måndag och januari.
 
 >[!NOTE]
 >
-Du kan också använda _militär tid_ notation (d.v.s. 14:00) i stället för *fm/em* notation (d.v.s. 2:00).
+>Du kan också använda _militär tid_ notation (d.v.s. 14:00) i stället för *fm/em* notation (d.v.s. 2:00).
 
 ### Kombination av partner {#combined-parting}
 
@@ -254,7 +254,7 @@ Du kan också använda _militär tid_ notation (d.v.s. 14:00) i stället för *f
 
    >[!NOTE]
    >
-   Du kan hoppa över eller ta med **Aktiv från** och **Aktiv tills** fält och lägg till uttrycket i fältet Scheman enligt dina önskemål.
+   >Du kan hoppa över eller ta med **Aktiv från** och **Aktiv tills** fält och lägg till uttrycket i fältet Scheman enligt dina önskemål.
 
 1. Ange uttrycket i **Schema** och resursen visas för det angivna intervallet på dag och tid.
 
@@ -270,4 +270,4 @@ I följande tabell sammanfattas några exempeluttryck som du kan lägga till i s
 
 >[!NOTE]
 >
-När du definierar veckodagar och månader kan du både använda kort- och fullnamnsnoteringar, till exempel måndag/måndag och januari.  Du kan även använda _militär tid_ notation (d.v.s. 14:00) i stället för *fm/em* notation (d.v.s. 2:00).
+>När du definierar veckodagar och månader kan du både använda kort- och fullnamnsnoteringar, till exempel måndag/måndag och januari.  Du kan även använda _militär tid_ notation (d.v.s. 14:00) i stället för *fm/em* notation (d.v.s. 2:00).

@@ -14,9 +14,9 @@ feature: Authoring Screens, Launches
 role: Admin, Developer
 level: Intermediate
 exl-id: b610e5dd-e0c6-45e6-bf9b-27be2054bc8f
-source-git-commit: 2cc613454d0d20a42871858e3d754e1b0e161dc3
+source-git-commit: 299018986ae58ecbdb51a30413222a9682fffc76
 workflow-type: tm+mt
-source-wordcount: '1580'
+source-wordcount: '1593'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ Med hjälp av ***Skärmstart***, kan författarna förhandsgranska varje kanal i
 
 Om författaren till exempel vill skapa framtida versioner av c1, c2 (kanaler) skapas en start och ett live-datum ställs in (till exempel 10 november 8:00). Ytterligare uppdateringar skickas ut för granskning.
 
-När den har godkänts och på live-datumet (10 november 08:00) spelas innehållet upp på enheterna eller spelarna.
+När den har godkänts och på live-datumet (10 nov 08:00) spelas innehållet upp på enheterna eller spelarna.
 
 ## Krav {#requirements}
 
@@ -51,7 +51,7 @@ När du kör en upplevelse på det angivna live-datumet på spelaren ingår föl
 
 För att spelaren ska kunna börja spela upp innehållet på angivet live-datum måste föregående aktiviteter startas före live-datumet.
 
-Om live-datumet är *24 nov 9:00* och respitperioden är *24 timmar*, kommer ovanstående åtgärdssekvens att börja på (live-datum - respitperiod), d.v.s. 23 nov, 9:00 servertid. Detta ger 24 timmar på sig att slutföra alla de ovannämnda åtgärderna och innehållet kommer att nå fram till aktörerna. Spelarna kommer att förstå att det här är ett startinnehåll, så innehållet spelas inte upp direkt, men spelarna kommer att lagra innehållet som en framtida version och börja spela upp exakt på det angivna direktdatumet i spelarens tidszon.
+Om live-datumet är *24 nov 9:00* och respitperioden är *24 timmar*, kommer ovanstående åtgärdssekvens att börja på (live-datum - respitperiod), d.v.s. 23 nov, 9:00 servertid. Detta ger 24 timmar på sig att slutföra alla de ovannämnda åtgärderna och innehållet kommer att nå fram till aktörerna. Spelarna kommer att förstå att det här är ett startinnehåll, så innehållet spelas inte upp direkt, men spelarna kommer att lagra innehållet som en framtida version och börja spela upp exakt på det angivna livedatumet i spelarens tidszon.
 
 Exempel: servern är i PST och enheterna är i EST, den maximala tidsskillnaden är 3 timmar i det här fallet och förutsätter att erbjudandet tar 1 minut och att publiceringen tar 10 minuter att publicera och spelaren kan hämta resurserna i vanliga fall på 10-15 minuter. Fristen = tidsskillnad (3 timmar) + tid för att starta programmet (1 min) + tid för att publicera starten (10 min) + tid för nedladdning vid spelaren (10-15 min) + buffert (för att vara säker, till exempel 30 min) = 3 timmar 56 min = 14 160 sekunder.
 
@@ -68,7 +68,7 @@ I det här avsnittet beskrivs hur du kan uppdatera en körklar respitperiod till
 1. Navigera till CRXDE Lite och sedan till `/libs/system/config.author/com.adobe.cq.wcm.launches.impl.LaunchesEventHandler.config`.
 2. Högerklicka och kopiera filen.
 3. Navigera till `/apps/system/config` och högerklicka och klistra in.
-4. Dubbelklicka på `/apps/system/config/com.adobe.cq.wcm.launches.impl.LaunchesEventHandler.config` för att öppna filen i redigeraren i CRXDE Lite. Den måste visa respitperioden för sökvägen */content/screens/* as **86400**. Ändra värdet till **600**.
+4. Dubbelklicka på `/apps/system/config/com.adobe.cq.wcm.launches.impl.LaunchesEventHandler.config` om du vill öppna filen i redigeraren i CRXDE Lite. Den måste visa respitperioden för sökvägen */content/screens/* as **86400**. Ändra värdet till **600**.
 
 Nu bör innehållet i textfilen se ut ungefär så här:
 
@@ -86,11 +86,11 @@ Om till exempel live-datumet är inställt på 24 november, 9:00 och respitperio
 
 I det här avsnittet visas hur du implementerar Screens Launch i ditt AEM Screens-projekt.
 
-### Skapa en skärmstart {#creating-a-launch}
+### Creating a Screens Launch {#creating-a-launch}
 
 Följ stegen nedan för att implementera funktionen Screens Launch i ditt AEM Screens-projekt:
 
-1. Skapa en sekvenskanal i ett AEM Screens-projekt, till exempel **StartarDemo** —> **Kanaler** —> **FutureLaunch**, vilket visas nedan.
+1. Skapa en sekvenskanal i ett AEM Screens-projekt, till exempel **StartarDemo** > **Kanaler** > **FutureLaunch**, vilket visas nedan.
 
    >[!CAUTION]
    >
@@ -111,7 +111,7 @@ Följ stegen nedan för att implementera funktionen Screens Launch i ditt AEM Sc
    >[!NOTE]
    >Du kan använda **+ Lägg till kanaler** alternativ för att lägga till en annan kanal som du vill skapa starten för.
 
-   Används **Lägg till kanaler** , navigera till kanalen som du vill starta programmet för och klicka på **Välj**.
+   Används **Lägg till kanaler** , navigera till den kanal som du vill starta programmet för och klicka på **Välj**.
 
    The **Välj** Alternativet inaktiveras om du försöker markera flera kanaler eller en mapp för att lägga till starten.
 
@@ -137,13 +137,13 @@ Följ stegen nedan för att implementera funktionen Screens Launch i ditt AEM Sc
 
    **Förstå starterbjudandeomfång**
 
-   * **Befordra en fullständig lansering**: Alla kanaler för lanseringen befordras vid angivet live-datum.
+   * **Befordra en fullständig start**: Alla kanaler för lanseringen befordras vid angivet live-datum.
    * **Befordra ändrade sidor**: Endast ändrade startresurser kommer att befordras. Vi rekommenderar att du använder det här alternativet när startgranskningen inte behövs.
    * **Befordra godkända sidor**: Det här alternativet kräver att arbetsflödet för godkännande vid start körs på startkanalerna. Endast godkända sidor befordras vid angivet live-datum.
 
-      >[!CAUTION]
-      >
-      >Lansering av live-datum respekterar spelarens/enhetens tidszon i stället för serverns.
+     >[!CAUTION]
+     >
+     >Lansering av live-datum respekterar spelarens/enhetens tidszon i stället för serverns.
 
 1. Du kommer att se att du har startat programmet. Du kan antingen klicka **Öppna** för att visa sidorna i redigeraren eller klicka på **Klar** för att gå tillbaka till ditt projekt.
 
@@ -156,10 +156,10 @@ Följ stegen nedan för att implementera funktionen Screens Launch i ditt AEM Sc
 
 ### Redigera Launch-egenskaperna för att ange Live-datum och -omfång {#editing-the-launch-properties-to-set-the-live-date-and-scope}
 
-När lanseringen har skapats kan du uppdatera egenskaperna, till exempel live-datum, starttitel och kampanjomfång, med hjälp av **Startegenskaper**.
+När lanseringen har skapats kan du uppdatera egenskaperna, till exempel live-datum, starttitel och kampanjomfång, med **Startegenskaper**.
 
 * **Startdatum**, hänvisar till live-datumet, det vill säga det datum eller den tidpunkt då innehållet spelas upp i skärmspelaren enligt spelarens tidszon.
-* **Produktionsklar**, gör att kanalerna kan publiceras efter att de har befordrats. Detta är aktiverat och behöver därför inte ändras.
+* **Produktionsklar**, gör att kanalerna kan publiceras efter att de har befordrats. Detta är aktiverat, så du behöver inte ändra detta.
 * **Omfång**, avgör vilka kanaler som kommer att befordras under lanseringskampanjen.
 
 
@@ -169,7 +169,7 @@ Följ stegen nedan för att redigera startegenskaperna:
 
    ![bild](/help/user-guide/assets/launches-images/launches-17.png)
 
-1. Klicka på **Kontrollpanel** i åtgärdsfältet så ser du **VÄNTANDE START** från kanalkontrollpanelen.
+1. Klicka på **Kontrollpanel** i åtgärdsfältet visas **VÄNTANDE START** från kanalkontrollpanelen.
 
    ![bild](/help/user-guide/assets/launches-images/launches-18.png)
 
@@ -181,7 +181,7 @@ Följ stegen nedan för att redigera startegenskaperna:
 
 När du har skapat starten kan du lägga till eller ta bort kanaler i den befintliga starten med **Redigera start** alternativ.
 
-När du är klar klickar du på **Spara** för att gå tillbaka till **FutureLaunch** kanal.
+När du är klar klickar du **Spara** för att gå tillbaka till **FutureLaunch** kanal.
 
 ### Marknadsför att starta skärmar manuellt{#promote-the-screens-launch-manually}
 
@@ -193,7 +193,7 @@ Du kan välja vilka resurser du vill befordra som en del av den här manuella be
 
 1. Du kan aktivera eller inaktivera alternativet att ta bort starten efter produktionen.
 1. Du kan ange **Omfång** vid starten, med följande alternativ:
-   1. **Befordra en fullständig lansering**: Alla kanaler för lanseringen befordras vid angivet live-datum.
+   1. **Befordra en fullständig start**: Alla kanaler för lanseringen befordras vid angivet live-datum.
    1. **Befordra ändrade sidor**: Endast ändrade startresurser kommer att befordras. Vi rekommenderar att du använder det här alternativet när startgranskningen inte behövs.
    1. **Befordra godkända sidor**: Det här alternativet kräver att arbetsflödet för godkännande vid start körs på startkanalerna. Endast godkända sidor befordras vid angivet live-datum.
    1. **Höj upp aktuell sida**: Det här alternativet kräver att arbetsflödet för godkännande vid start endast körs för den aktuella sidan.
@@ -202,7 +202,7 @@ Du kan välja vilka resurser du vill befordra som en del av den här manuella be
 
 ### Ta bort skärmstart {#deleting-the-screens-launch}
 
-Du kan ta bort programstarten med **Ta bort start** från **VÄNTANDE START** -panelen.
+Du kan ta bort starten med **Ta bort start** från **VÄNTANDE START** -panelen.
 
 >[!CAUTION]
 >

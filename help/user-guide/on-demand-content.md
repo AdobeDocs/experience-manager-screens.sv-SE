@@ -1,17 +1,14 @@
 ---
 title: On Demand Content Update
-seo-title: On-Demand Content Update
-description: Följ den här sidan om du vill veta mer om innehållsuppdatering på begäran.
-seo-description: Follow this page to learn about On-Demand Content Update.
-uuid: 18b9d175-ff26-42db-86aa-5ea978909f71
+description: Läs mer om innehållsuppdatering on-demand för hantering av publikationer.
 contentOwner: Jyotika Syal
 feature: Authoring Screens
 role: Developer
 level: Intermediate
 exl-id: 9ffdb1eb-a1ba-42ac-a30f-260004e5b165
-source-git-commit: 707833ddd8ab2573abcac4e9a77ec88778624435
+source-git-commit: 299018986ae58ecbdb51a30413222a9682fffc76
 workflow-type: tm+mt
-source-wordcount: '842'
+source-wordcount: '828'
 ht-degree: 0%
 
 ---
@@ -20,49 +17,49 @@ ht-degree: 0%
 
 I det här avsnittet beskrivs on-demand-innehåll för hantering av publikationer.
 
-## Hantera publikation: Leverera innehållsuppdateringar från författare till enhet {#managing-publication-delivering-content-updates-from-author-to-publish-to-device}
+## Hantera publikation: Leverera innehållsuppdateringar från författare till publicering på enhet {#managing-publication-delivering-content-updates-from-author-to-publish-to-device}
 
 Du kan publicera och avpublicera innehåll från AEM Screens. Med funktionen Hantera publikation kan du leverera innehållsuppdateringar från författare till publicering till enhet. Du kan publicera/avpublicera innehåll för hela AEM Screens-projektet eller bara för en av dina kanaler, platser, enheter, program eller scheman.
 
 ### Hantera publikationer för ett AEM Screens-projekt {#managing-publication-for-an-aem-screens-project}
 
-Följ stegen nedan för att leverera innehållsuppdateringar från författaren till en enhet för ett AEM Screens-projekt:
+Följ stegen nedan för att leverera innehållsuppdateringar från författare till publiceringsenhet för ett AEM Screens-projekt:
 
 1. Gå till ditt AEM Screens-projekt.
-1. Klicka **Hantera publikation** från åtgärdsfältet för att publicera projektet till publiceringsinstansen.
+1. Välj **Hantera publikation** i åtgärdsfältet så att du kan publicera projektet i din Publish-instans.
 
    ![screen_shot_2019-02-25at21420pm](assets/screen_shot_2019-02-25at21420pm.png)
 
-1. The **Hantera publikation** öppnas. Du kan välja **Åtgärd** och schemalägger även publiceringstiden för tillfället eller senare. Klicka på **Nästa**.
+1. The **Hantera publikation** öppnas. Du kan välja **Åtgärd** och schemalägger även publiceringstiden för tillfället eller senare. Välj **Nästa**.
 
    ![screen_shot_2019-02-07at120304pm](assets/screen_shot_2019-02-07at120304pm.png)
 
-1. Markera kryssrutan för att markera hela projektet från **Hantera publikation** guide.
+1. Markera kryssrutan så att du kan välja hela projektet från **`Manage Publication`** guide.
 
    ![screen_shot_2019-02-25at22712pm](assets/screen_shot_2019-02-25at22712pm.png)
 
-1. Klicka **+ Inkludera underordnade** från åtgärdsfältet och avmarkera alla alternativ för att publicera alla moduler i projektet och klicka på **Lägg till** att publicera.
+1. Välj **+ Inkludera underordnade** från åtgärdsfältet och avmarkera alla alternativ så att du kan publicera alla moduler i projektet och välja **Lägg till** att publicera.
 
    >[!NOTE]
    >
-   >Som standard markeras alla rutor och du måste avmarkera kryssrutorna manuellt för att publicera alla moduler i projektet.
+   >Som standard är alla rutor markerade och du måste avmarkera rutorna manuellt för att publicera alla moduler i projektet.
 
    ![screen_shot_2019-02-25at23116pm](assets/screen_shot_2019-02-25at23116pm.png)
 
    **Dialogrutan Inkludera underordnade**
 
-   Steget ovan visar hur du kan publicera hela innehållet. Om du vill använda de andra tre alternativen måste du markera det alternativet.
-I följande bild kan du till exempel bara hantera och uppdatera de ändrade sidorna i ditt projekt:
+   Stegen ovan visar hur du kan publicera hela innehållet. Om du vill använda de andra tre alternativen måste du markera det alternativet.
+I följande bild visas hur du kan hantera och uppdatera endast de ändrade sidorna i ditt projekt:
    ![bild](assets/author-publish-manage.png)
 
-   Följ förklaringarna nedan för att förstå de tillgängliga alternativen:
+   Följ förklaringarna nedan för att förstå vilka alternativ som är tillgängliga:
 
-   1. **Inkludera endast omedelbart underordnade**: Med det här alternativet kan du bara hantera uppdateringar till undernoderna i projektstrukturen.
+   1. **Inkludera endast omedelbart underordnade**: Med det här alternativet kan du bara hantera uppdateringar av delnoderna i projektstrukturen.
    1. **Inkludera endast ändrade sidor**: Med det här alternativet kan du bara hantera uppdateringar av de ändrade sidorna i projektet där ändringarna finns i projektstrukturen.
    1. **Inkludera endast redan publicerade sidor**: Med det här alternativet kan du bara hantera uppdateringar av sidor som publicerats tidigare.
 
 
-1. Klicka **Publicera** från **Guiden Hantera publikation.**
+1. Från **`Manage Publication wizard`**, markera **Publicera**.
 
    ![screen_shot_2019-02-25at23341pm](assets/screen_shot_2019-02-25at23341pm.png)
 
@@ -74,41 +71,40 @@ I följande bild kan du till exempel bara hantera och uppdatera de ändrade sido
    >    1. Arbetsflödet fungerar inte om det inte finns några ändringar i projektet och inget för **Uppdatera offlineinnehåll**.
    >    1. Arbetsflödet fungerar inte om författaren inte slutför replikeringsprocessen (innehållet överförs fortfarande till publiceringsinstansen) efter att ha klickat på **Publicera** i arbetsflödet för publicering.
 
-
    >[!CAUTION]
    >Om du som författare eller innehållsskapare vill se ändringarna i enheterna som är kopplade till författarinstansen klickar du på **Uppdatera offlineinnehåll** från kanalkontrollpanelen eller genom att välja projektet. I det här fallet utförs uppdateringen av offlineinnehåll endast i författarinstansen.
 
-1. Navigera till projektet och klicka på **Uppdatera offlineinnehåll** i åtgärdsfältet. Den här åtgärden vidarebefordrar samma kommando för att publicera instansen, så att offlinepostmeddelandena även skapas i publiceringsinstansen.
+1. Navigera till projektet och klicka på **Uppdatera offlineinnehåll** i åtgärdsfältet. Den här åtgärden vidarebefordrar samma kommando för att publicera instansen, så att offlinepostmeddelandena skapas även i din Publish-instans.
 
    ![screen_shot_2019-02-25at23451pm](assets/screen_shot_2019-02-25at23451pm.png)
 
 
    >[!NOTE]
    >
-   >När du har slutfört arbetsflödet för att hantera publicering, och om det finns en spelare som pekar på författarinstansen, måste du utlösa uppdateringens offlineinnehåll i författaren, som skapar uppdateringen offline på författarinstansen.
+   >När du har slutfört arbetsflödet för publicering, och om det finns en spelare som pekar på Author-instansen, utlöser du uppdateringen av offlineinnehåll i författaren. När du gör det skapas uppdateringen offline på författarinstansen.
 
    >[!CAUTION]
    >
-   >Du måste utlösa uppdateringens offlineinnehåll i författarinstansen om du har en spelare registrerad på författarservern. Uppdatering av offlineinnehåll krävs inte för spelaren som är registrerad för publiceringsinstansen.
+   >Utlös uppdateringsinnehållet offline i Author-instansen om du har en spelare registrerad på författarservern. Uppdatering av offlineinnehåll krävs inte för spelaren som är registrerad för Publishing-instansen.
 
 ### Hantera publikation för en kanal {#managing-publication-for-a-channel}
 
-Följ stegen nedan för att leverera innehållsuppdateringar från författaren till en enhet för en kanal i ett AEM Screens-projekt:
+Följ stegen nedan för att leverera innehållsuppdateringar från författare > Publicera > enhet för en kanal i ett AEM Screens-projekt:
 
 >[!NOTE]
 >
->Följ bara det här avsnittet om det finns ändringar i en kanal. Om en kanal inte har några ändringar efter den tidigare uppdateringen av offlineinnehåll, kommer arbetsflödet för att hantera publicering för en enskild kanal inte att fungera.
+>Följ bara det här avsnittet om en kanal har ändrats. Om en kanal inte har några ändringar efter den tidigare uppdateringen av offlineinnehåll, kommer arbetsflödet för att hantera publicering för en enskild kanal inte att fungera.
 
-1. Navigera till ditt skärmsprojekt och markera kanalen.
-1. Klicka **Hantera publikation** från åtgärdsfältet för att publicera kanalen till publiceringsinstansen.
+1. Navigera till ditt AEM Screens-projekt och markera kanalen.
+1. Välj **Hantera publikation** från åtgärdsfältet så att du kan publicera kanalen till din Publish-instans.
 
    ![screen_shot_2019-02-07at115800am](assets/screen_shot_2019-02-07at115800am.png)
 
-1. The **Hantera publikation** öppnas. Du kan välja **Åtgärd** och schemalägger även publiceringstiden för tillfället eller senare. Klicka på **Nästa**.
+1. The **Hantera publikation** öppnas. Du kan välja **Åtgärd** och schemalägger även publiceringstiden för tillfället eller senare. Välj **Nästa**.
 
    ![screen_shot_2019-02-07at120304pm](assets/screen_shot_2019-02-07at120304pm.png)
 
-1. Klicka **Publicera** från **Guiden Hantera publikation.**
+1. Välj **Publicera** från **`Manage Publication`** guide.
 
    ![screen_shot_2019-02-07at120507pm](assets/screen_shot_2019-02-07at120507pm.png)
 
@@ -116,16 +112,16 @@ Följ stegen nedan för att leverera innehållsuppdateringar från författaren 
    >
    >Vänta i några sekunder/minuter så att innehållet når publiceringsinstansen.
 
-1. Utlösare **Uppdatera offlineinnehåll** i kanalkontrollpanelen flyttar bara offlineinnehållet till författarinstansen, men inte publiceringsinstansen. Steg 1-4 används för att överföra offlineinnehåll till publiceringsinstans.
+1. Utlösande **Uppdatera offlineinnehåll** i kanalkontrollpanelen skickar bara offlineinnehållet till författarinstansen, men inte till publiceringsinstansen. Steg 1-4 används för att överföra offlineinnehåll till Publish-instansen.
 
    ![screen_shot_2019-02-07at21608pm](assets/screen_shot_2019-02-07at21608pm.png)
 
    >[!CAUTION]
    >
-   >Du måste först publicera och sedan utlösa uppdateringen av offlineinnehållet, vilket sammanfattas i föregående steg.
+   >Publicera först och utlösa sedan uppdateringen av offlineinnehåll enligt sammanfattningen i föregående steg.
 
 ### Kanal- och enhetsomtilldelning: {#channel-and-device-re-assignment}
 
-Om du har tilldelat om en enhet måste du publicera både den första och den nya skärmen när enheten har tilldelats till den nya skärmen.
+Om du har tilldelat om en enhet måste du publicera både den första och den nya skärmen när enheten har tilldelats om till den nya skärmen.
 
-Om du har omtilldelat en kanal måste du publicera både den inledande och den nya visningen när kanalen har omtilldelats den nya visningen.
+Om du har omtilldelat en kanal måste du publicera både den inledande och den nya visningen när kanalen har omtilldelats till den nya skärmen.

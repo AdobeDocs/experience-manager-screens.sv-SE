@@ -13,9 +13,9 @@ feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: b8d0c089-af79-403e-870f-fb46b66fecd3
-source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
+source-git-commit: 299018986ae58ecbdb51a30413222a9682fffc76
 workflow-type: tm+mt
-source-wordcount: '443'
+source-wordcount: '439'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 0%
 
 I det här avsnittet ges en översikt över SmartSync-funktionen och hur den minimerar belastningen på servern/lagringen och nätverkstrafiken för att minska kostnaderna.
 
-## Översikt {#overview}
+## Ökning {#overview}
 
 SmartSync är den senaste mekanismen som används av AEM Screens. Den ersätter den nuvarande metoden som används för att cachelagra offlinekanaler och leverera dem till spelaren.
 
@@ -32,7 +32,7 @@ Det körs både på serversidan och på klientsidan.
 
 **På serversidan**:
 
-* Kanalernas innehåll, inklusive resurser, cachelagras i */var/contentsync*.
+* Kanalernas innehåll, inklusive resurser, cachas i */var/contentsync*.
 * Cachen visas för spelarna via ett manifest som beskriver det tillgängliga innehållet för en skärm.
 
 **På klientsidan**:
@@ -79,13 +79,13 @@ Följ stegen nedan för att gå över från ContentSync till SmartSync:
    >
    >Alla innehållscache måste rensas innan SmartSync kan användas för första gången.
 
-1. Navigera till **Konfiguration av Adobe Experience Manager Web Console** via AEM instance —> hammer icon —> **Operationer** —> **Webbkonsol**.
+1. Navigera till **Konfiguration av Adobe Experience Manager Web Console** via AEM > hammarikon > **Operationer** > **Webbkonsol**.
 
    ![screen_shot_2019-02-11at15339pm](assets/screen_shot_2019-02-11at15339pm.png)
 
 1. **Konfiguration av Adobe Experience Manager Web Console** öppnas. Sök efter *offlinecontentservice*.
 
-   För sökning i **Innehållstjänst för offlineskärmar** egenskap, tryck **Kommando+F** for **Mac** och **Ctrl+F** for **Windows**.
+   För sökning i **Skärmar som är offline Innehållstjänst** egenskap, tryck **Kommando+F** for **Mac** och **Ctrl+F** for **Windows**.
 
    ![screen_shot_2019-02-19at22643pm](assets/screen_shot_2019-02-19at22643pm.png)
 
