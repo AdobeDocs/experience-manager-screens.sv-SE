@@ -1,12 +1,13 @@
 ---
 title: Versionsinformation för skärmar, funktionspaket 202401
-description: Följ den här sidan för att få information om AEM Screens Feature Pack 202401 släppt den 2 januari 2024.
+description: Läs om AEM Screens Feature Pack 202401 släppt den 2 januari 2024.
 feature: Feature Pack
 role: Developer
 level: Intermediate
-source-git-commit: bdc8ff6c1291b7f0dc749e4a9f3a4c1d21678303
+exl-id: 9879f339-e70f-446d-acd3-380016269f27
+source-git-commit: c0fa0717034e5094108eb1e23d4e9f1f16aeb57e
 workflow-type: tm+mt
-source-wordcount: '232'
+source-wordcount: '223'
 ht-degree: 0%
 
 ---
@@ -14,7 +15,7 @@ ht-degree: 0%
 # Versionsinformation för funktionspaket 202401 {#release-notes-for-screens-feature-pack}
 
 >[!CAUTION]
->Du bör uppgradera till den senaste versionen av 6.5 Adobe Experience Manager (AEM 6.5). Vi kan hämta den senaste versionsinformationen från [här](https://experienceleague.adobe.com/docs/experience-manager-65/content/release-notes/release-notes.html?lang=en)
+>Du bör uppgradera till den senaste versionen av 6.5 Adobe Experience Manager (AEM 6.5). Du kan hämta den senaste versionsinformationen från [här](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/release-notes/release-notes)
 
 ## Tillgänglighet {#availability}
 
@@ -24,7 +25,7 @@ Du kan ladda ned den senaste funktionspaketet för AEM Screens 6.5.11.1 från [P
 
 ## Releasedatum {#release-date}
 
-Releasedatum för AEM Screens Feature Pack 202204 är 2024-01-01.
+Releasedatum för AEM Screens Feature Pack 202204 är 2 januari 2024.
 
 ### Nyheter {#what-is-new}
 

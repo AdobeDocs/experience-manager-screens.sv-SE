@@ -1,12 +1,13 @@
 ---
 title: Versionsinformation för skärmar, funktionspaket 20240116
-description: Följ den här sidan för att få information om AEM Screens Feature Pack 2024016 släppt den 16 januari 2024.
+description: Läs mer om AEM Screens Feature Pack 20240116 släppt den 16 januari 2024.
 feature: Feature Pack
 role: Developer
 level: Intermediate
-source-git-commit: f20cdc76eb599000b4da4b2c654b3c191d963ed6
+exl-id: b26ed2de-2e47-4dd5-be1c-4c46971e9f6d
+source-git-commit: c0fa0717034e5094108eb1e23d4e9f1f16aeb57e
 workflow-type: tm+mt
-source-wordcount: '163'
+source-wordcount: '155'
 ht-degree: 1%
 
 ---
@@ -14,7 +15,7 @@ ht-degree: 1%
 # Versionsinformation för funktionspaket 20240116 {#release-notes-for-screens-feature-pack}
 
 >[!CAUTION]
->Du bör uppgradera till den senaste versionen av 6.5 Adobe Experience Manager (AEM 6.5). Vi kan hämta den senaste versionsinformationen från [här](https://experienceleague.adobe.com/docs/experience-manager-65/content/release-notes/release-notes.html?lang=en)
+>Du bör uppgradera till den senaste versionen av 6.5 Adobe Experience Manager (AEM 6.5). Du kan hämta den senaste versionsinformationen från [här](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/release-notes/release-notes)
 
 ## Tillgänglighet {#availability}
 
@@ -24,7 +25,7 @@ Du kan hämta det senaste funktionspaketet för AEM Screens 6.5.11.2 från [Prog
 
 ## Releasedatum {#release-date}
 
-Releasedatum för AEM Screens Feature Pack 202204 är 16 januari 2024.
+Lanseringsdatumet för AEM Screens Feature Pack 202204 är 16 januari 2024.
 
 ### Nyheter {#what-is-new}
 
@@ -36,6 +37,6 @@ Den här versionen innehåller endast säkerhetskorrigeringar.
 
 * XSS-problem `libs/screens/dcc/components/fileuploaddrop/clientlibs/js/dropzone.js`. (SCRNS-3906)
 
-#### AEM Screens Player - nedladdningar  {#aem-screens-player-downloads}
+#### AEM Screens Player - nedladdningar
 
 Om du vill hämta den senaste AEM Screens-spelaren går du till **[AEM Screens Player - nedladdningar](https://download.macromedia.com/screens/index.html)**.

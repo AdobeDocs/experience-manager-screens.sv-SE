@@ -1,23 +1,19 @@
 ---
 title: Uppdatera gruppvis offline
-seo-title: Bulk Offline Update
-description: Följ den här sidan för att lära dig hur du kan uppdatera alla kanaler samtidigt.
-seo-description: Follow this page to learn how you can update all the channels in bulk.
-uuid: 9b52c5e7-aa6d-4f55-b23c-8bd923723552
+description: Lär dig hur du kan uppdatera alla kanaler samtidigt.
 contentOwner: jsyal
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
-discoiquuid: 5d4ca652-d918-4b2b-b239-a2be9255ef0d
 noindex: true
 feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: d0a0b065-798e-4108-86ac-0a1f4e211cfc
-source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
+source-git-commit: c0fa0717034e5094108eb1e23d4e9f1f16aeb57e
 workflow-type: tm+mt
-source-wordcount: '340'
-ht-degree: 1%
+source-wordcount: '290'
+ht-degree: 0%
 
 ---
 
@@ -28,13 +24,14 @@ I det här avsnittet beskrivs följande ämnen om Uppdatera gruppvis offline:
 * **Översikt**
 * **Använda Uppdatera gruppvis offline**
 
+<!-- OBSOLETE VERSIONS
 >[!CAUTION]
 >
->Denna AEM Screens-funktionalitet är endast tillgänglig om du har installerat AEM 6.3 Feature Pack 3 eller AEM 6.4 Screens Feature Pack 1.
+>This AEM Screens functionality is only available, if you have installed AEM 6.3 Feature Pack 3 or AEM 6.4 Screens Feature Pack 1.
 >
->Om du vill få tillgång till det här funktionspaketet måste du kontakta Adobe Support och begära åtkomst. När du har behörighet kan du hämta den från paketresursen.
+>To get access to this Feature Pack, you must contact Adobe Support and request access. Once you have permissions you can download it from Package Share. -->
 
-## Översikt {#overview}
+## Ökning {#overview}
 
 Uppdatera gruppvis offline gör att du kan uppdatera alla kanaler samtidigt. Då slipper du krånglet med att navigera till en viss kanal och uppdatera innehållet. I stället kan du uppdatera allt innehåll i kanaler för ett visst projekt på en gång.
 
@@ -53,7 +50,7 @@ Du kan manuellt använda bulkuppdatering offline från användargränssnittet (U
 Följ stegen nedan om du vill använda en bulkuppdatering för ett AEM Screens-projekt:
 
 1. Gå till ditt AEM Screens-projekt.
-1. Välj projektet och klicka på **Uppdatera offlineinnehåll** från åtgärdsfältet för att manuellt uppdatera kanalinnehållet.
+1. Välj projektet och välj sedan **Uppdatera offlineinnehåll** i åtgärdsfältet så att du kan uppdatera kanalinnehållet manuellt.
 
    ![screen_shot_2018-04-24at122256pm](assets/screen_shot_2018-04-24at122256pm.png)
 
@@ -76,6 +73,6 @@ Följ stegen nedan om du vill använda en bulkuppdatering för ett AEM Screens-p
    >
    >Ange projektsökvägen i förhållande till kanalen.
 
-   **Schemaläggningsfrekvens** Ange en tidpunkt, till exempel 05:00 eller 17:00, då den här tjänsten ska uppdatera offlineinnehåll.
+   **Schemaläggningsfrekvens** Ange t.ex. en tidpunkt, 05:00 eller 17:00, då den här tjänsten ska uppdatera offlineinnehåll.
 
-1. Klicka **Spara** för att spara inställningarna så uppdateras innehållet vid den angivna tidpunkten.
+1. Välj **Spara** för att spara inställningarna. Innehållet uppdateras vid den angivna tidpunkten.

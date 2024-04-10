@@ -1,14 +1,13 @@
 ---
 title: Kanaltilldelning
-seo-title: Channel Assignment
-description: Följ den här sidan om du vill veta mer om kanaltilldelning och Dag-delning.
+description: Lär dig mer om kanaltilldelning och dagsdelning.
 feature: Authoring Screens, Channel Assignment
 role: Admin, Developer
 level: Intermediate
 exl-id: 6ed86bfc-38c7-4ced-b472-db2a362585c5
-source-git-commit: 299018986ae58ecbdb51a30413222a9682fffc76
+source-git-commit: c0fa0717034e5094108eb1e23d4e9f1f16aeb57e
 workflow-type: tm+mt
-source-wordcount: '1233'
+source-wordcount: '1178'
 ht-degree: 0%
 
 ---
@@ -33,16 +32,15 @@ Följ stegen nedan för att tilldela en kanal till en skärm:
 
    ![bild](assets/screen_shot_2018-08-23at25359pm.png)
 
-1. Tryck/klicka **Tilldela kanal** i åtgärdsfältet
+1. Välj **Tilldela kanal** i åtgärdsfältet.
 
-   Eller
+   eller
 
-   Tryck/klicka **Kontrollpanel** och klicka **+Tilldela kanal** från **TILLDELADE KANALER** för att öppna **Kanaltilldelning** -dialogrutan.
+   Välj **Kontrollpanel** och markera **+Tilldela kanal** från **TILLDELADE KANALER** så att du kan öppna **Kanaltilldelning** -dialogrutan.
 
    ![bild](/help/user-guide/assets/channel-assign1.png)
 
    Du kan konfigurera egenskaperna från **Kanaltilldelning** från avsnittet nedan. Se [Kanalegenskaper](#channel-properties) om du vill veta mer om kanalegenskaper.
-
 
 ## Förstå kanalegenskaper från kanaltilldelning {#channel-properties}
 
@@ -50,9 +48,9 @@ Följ stegen nedan för att tilldela en kanal till en skärm:
 
 Med referenskanalen kan du ange en referens till den önskade kanalen, antingen efter kanalnamn eller efter kanalsökväg.
 
-* **efter bana**: du anger en explicit referens med kanalens absoluta sökväg.
+* **efter bana** - Du anger en explicit referens med kanalens absoluta sökväg.
 
-* **efter namn**: Du anger namnet på den kanal som ska tolkas som en faktisk kanal efter kontext. Med den här funktionen kan du skapa en lokal version av en kanal för att dynamiskt matcha platsspecifikt innehåll. En kanal med namnet *dagens erbjudanden*, där det faktiska innehållet skulle vara annorlunda i två städer, men du fortfarande har den tillräkneliga kanalrollen på alla skärmar.
+* **efter namn** - Du anger namnet på den kanal som matchar en faktisk kanal efter kontext. Med den här funktionen kan du skapa en lokal version av en kanal för att dynamiskt matcha platsspecifikt innehåll. En kanal med namnet *dagens erbjudanden*, där det faktiska innehållet skulle vara annorlunda i två städer, men du fortfarande har den tillräkneliga kanalrollen på alla skärmar.
 
 ### Kanalroll {#role-channel}
 
@@ -67,61 +65,62 @@ Prioritet används för att ordna tilldelningarna om flera matchar uppspelningsv
 
 ### Händelser som stöds {#supported-events-channel}
 
-* **Inledande inläsning**: läser in kanalen när spelaren startas. Den kan tilldelas flera kanaler i kombination med ett schema
-* **Inaktiv skärm**: läses in när skärmen är inaktiv. Den kan tilldelas flera kanaler i kombination med ett schema
-* **Timer**: måste anges när ett schema anges
-* **Användarinteraktion**: spelaren växlar till den angivna kanalen om det finns en användarinteraktion på skärmen (pekning) i en inaktiv kanal och den läses in när skärmen rör vid
+* **Inledande inläsning** - Läser in kanalen när spelaren startas. Den kan tilldelas flera kanaler med ett schema.
+* **Inaktiv skärm** - Läser in när skärmen är inaktiv. Den kan tilldelas flera kanaler med ett schema.
+* **Timer** - Måste anges när ett schema anges.
+* **Användarinteraktion** - Spelaren växlar till den angivna kanalen om det finns en användarinteraktion på skärmen (beröring) i en inaktiv kanal och läses in när skärmen rörs.
 
 ### Avbrottsmetod {#interruption-method-channel}
 
 >[!IMPORTANT]
 >
-> Det här alternativet är endast tillgängligt med AEM 6.4 Feature Pack 8 eller AEM 6.5 Feature Pack 4.
+> Det här alternativet är bara tillgängligt med <!--AEM 6.4 Feature Pack 8 or -->AEM 6.5 Feature Pack 4.
 
-Som innehållsförfattare bör du kunna ange när en kanal avbryts så att du kan välja att avbryta icke-kritiskt innehåll, men du kan välja att låta viktigt innehåll spelas upp helt innan uppspelningen avbryts på grund av schemaläggning.
+Som innehållsförfattare anger du när en kanal avbryts så att du kan välja att klippa ut icke-kritiskt innehåll, men om du vill kan du låta viktigt innehåll spelas upp innan uppspelningen avbryts på grund av schemaläggning.
 
 Välj något av följande alternativ som är tillgängliga för att ställa in avbrottsmetoden på menyn **Kanaltilldelning** dialogruta:
 
-* **Omedelbart**: när schemat aktiveras eller en uppdatering tas emot kan du avbryta uppspelningen och omedelbart uppdatera eller spela upp det nya innehållet
-* **I slutet av den aktuella artikeln**: när ett nytt schema aktiveras eller en uppdatering tas emot kan du välja att vänta tills det aktuella objektet i sekvensen har spelats upp, och först efter det att du har uppdaterat eller spelat upp det nya innehållet
-  >[!NOTE]
-  >Det här alternativet är markerat som standard.
-* **I slutet av sekvensen**: när ett nytt schema aktiveras eller en uppdatering tas emot kan du välja att vänta tills hela sekvensen är klar, och precis före den önskade sekvensen går du tillbaka till det första elementet och uppdaterar eller spelar upp det nya innehållet
+* **Omedelbart** - När schemat aktiveras eller en uppdatering tas emot kan du avbryta uppspelningen och omedelbart uppdatera eller spela upp det nya innehållet.
+* **Vid slutet av aktuell artikel** - När ett nytt schema aktiveras eller en uppdatering tas emot kan du välja att vänta tills det aktuella objektet i sekvensen har spelats upp. Först därefter kan du uppdatera eller spela upp det nya innehållet.
 
   >[!NOTE]
-  >Om du använder det andra eller tredje alternativet kan schemaläggningstiderna som är definierade för tilldelningen fördröjas något eftersom spelaren väntar på slutet av objektet eller sekvensen (efter den angivna tiden) innan den uppdateras. Fördröjningen beror på objektets uppspelningstid.
+  >Det här alternativet är markerat som standard.
+* **I slutet av sekvensen** - När ett nytt schema aktiveras eller en uppdatering tas emot, kan du välja att vänta tills hela sekvensen är klar. Precis före den önskade sekvensen kan du sedan repetera det första elementet, uppdatera eller spela upp det nya innehållet.
+
+  >[!NOTE]
+  >Om du använder det andra eller tredje alternativet kan schemaläggningstiderna som har definierats för tilldelningen bli något fördröjda. Orsaken är att spelaren väntar på slutet av objektet eller sekvensen (efter den angivna tiden) innan den uppdateras. Fördröjningen beror på objektets uppspelningstid.
 
 ### Schema {#schedule-channel}
 
-Med Schema kan du ange en beskrivning i text när kanalen ska visas. Här kan du också definiera ett startdatum (**aktiv från**) och ett slutdatum (**aktiv tills**) för den kanal som ska visas.
+Med Schema kan du ange en beskrivning i texten när kanalen ska visas. Här kan du också definiera ett startdatum (**aktiv från**) och ett slutdatum (**aktiv tills**) för den kanal som ska visas.
 
-**Visa tips för Attraktion**:
+**Visa tips för Attraktion**
 
 Visa verktygstipset för attribut anger om verktygstipset för attributet (&quot;*Peka var som helst för att börja*&quot;) måste visas eller inte medan kanalen körs.
 
 ### DayParting {#dayparting}
 
-Scheman i kombination med **DayParting** kan du ange ett globalt schema med flera kanaler som körs vid specifika tidpunkter på dygnet och återanvända det för alla skärmar samtidigt.
+Scheman i kombination med **DayParting** kan du ange ett globalt schema med flera kanaler som körs vid specifika tidpunkter på dygnet och återanvända det som är inställt för alla skärmar samtidigt.
 
-DayParting innebär att dela upp en dag i tidskortplatser och ange vilket innehåll som spelas upp vid önskad tidpunkt. Med AEM Screens kan ni schemalägga kanaler som dagliga delningar inom en dag, vecka eller månad efter behov.
+DayParting innebär att dela upp en dag i tidskortplatser och ange vilket innehåll som spelas upp vid önskad tidpunkt. Med AEM Screens kan ni schemalägga kanaler i form av DayPparting inom en dag, vecka eller månad efter behov.
 
-I följande exempel förklaras den dagliga delningen i kanaler i tre olika scenarier:
+I följande exempel förklaras Dag-delning i kanaler i tre olika scenarier:
 
 #### Spela upp innehåll på en dag uppdelat i flera tidsplatser {#playing-content-on-a-single-day-divided-into-multiple-time-slots}
 
-I det här exemplet visas hur en Restaurant använder dagavskiljning för att visa sin frukost-, lunch- och middagsmeny.
+I det här exemplet visas hur en Restaurant använder DayParting för att visa sin frukost-, lunch- och middagsmeny.
 
-Här delar vi upp varje dag i tre olika tidsplatser, så att kanalinnehållet spelas upp enligt den angivna tiden på dagen:
+Här delar du upp varje dag i tre olika tidsplatser så att kanalinnehållet spelas upp enligt den angivna tiden på dagen:
 
 | **Kanal** | **Roll** | **Prioritet** | **Schema** |
 |---|---|---|---|
-| Meny_A | Frukosten |  | efter 6:00 och före 11:00 |
-| Meny_B | Lunch |  | efter 11:00 och före 15:00 |
-| Meny_C | Middag |  | efter 15:00 och före 20:00 |
+| Meny_A | Frukosten |  | Efter 6:00 och före 11:00 |
+| Meny_B | Lunch |  | Efter 11:00 och före 15:00 |
+| Meny_C | Middag |  | Efter 15:00 och före 20:00 |
 
 #### Spela upp innehåll en viss veckodag {#playing-content-on-a-particular-day-of-the-week}
 
-I det här exemplet visas dagenParting som uppnåtts i ett kasino där live-event inträffar varje helg från klockan 20.00 till 23.00 och erbjudanden är tillgängliga för middagsmeny efter klockan 10.00 till 13.00
+I det här exemplet visas dagenParting som uppnåtts i ett kasino där live-event inträffar varje helg från klockan åtta till klockan 10.00 och erbjudanden finns tillgängliga för middagsmeny efter klockan 10.00 till klockan 10.00.
 
 <table>
  <tbody>
@@ -135,13 +134,13 @@ I det här exemplet visas dagenParting som uppnåtts i ett kasino där live-even
    <td>LiveConvert</td>
    <td>Weekend</td>
    <td> </td>
-   <td>21 okt 2017 - 22 okt 2017 <br /> efter 20:00 före 22:00</td>
+   <td>21 oktober 2017-22 oktober 2017 <br /> efter 20:00 före 22:00</td>
   </tr>
   <tr>
    <td>SpecialMiddag</td>
    <td>Weekend</td>
    <td> </td>
-   <td>21 okt 2017 - 22 okt 2017 <br /> efter 22:00 före 1:00</td>
+   <td>21 oktober 2017-22 oktober 2017 <br /> efter 22:00 före 1:00</td>
   </tr>
  </tbody>
 </table>
@@ -150,16 +149,16 @@ I det här exemplet visas dagenParting som uppnåtts i ett kasino där live-even
 
 I det här exemplet visas DayParting för en butik som visar sin sommarsamling från juni till augusti och höstsamlingen från september till slutet av oktober.
 
-Här skapar du delningar per månad så att kanalinnehållet spelas upp enligt årets angivna månader.
+Här skapar du DayParting som per månad, så att kanalinnehållet spelas upp enligt årets angivna månader.
 
 | **Kanal** | **Roll** | **Prioritet** | **Schema** |
 |---|---|---|---|
-| SummerCollection | Sommar |  | 1 juni 2017 - 31 aug 2017 |
-| FallCollection | Höst |  | 1 september 2017 - 30 oktober 2017 |
+| SummerCollection | Sommar |  | 1 juni 2017-31 augusti 2017 |
+| FallCollection | Höst |  | 1 september 2017-30 oktober 2017 |
 
 >[!NOTE]
 >
->Dessutom kan du definiera ***Prioritet*** för varje kanal. Om till exempel två kanaler är inställda för samma dag och tid eller för samma månad, spelas den kanal som har högre prioritet upp först. Minimivärdet för prioritet kan anges till 0.
+>Du kan också definiera ***Prioritet*** för varje kanal. Om till exempel två kanaler är inställda för samma dag och tid eller för samma månad, spelas den kanal som har högre prioritet upp först. Minimivärdet för prioritet kan anges till 0.
 
 #### Spela upp innehåll för kanaler med samma prioritet {#playing-content-for-channels-with-same-priority}
 
@@ -167,13 +166,13 @@ I det här exemplet visas DayParting för en butik som visar sin vintersamling m
 
 | **Kanal** | **Roll** | **Prioritet** | **Schema** |
 |---|---|---|---|
-| A | Vinter | 1 | 1 dec 2017 - 31 dec 2017 |
-| B | Jul | 2 | 24 dec 2017 - 31 dec 2017 |
+| A | Vinter | 1 | 1 december 2017-31 december 2017 |
+| B | Jul | 2 | 24 december 2017-31 december 2017 |
 
 
 >[!NOTE]
 >
 > Mer information om DayParting finns i avsnitten nedan:
 >
->* [Hantera återkommande i resurser](https://docs.adobe.com/content/help/en/experience-manager-screens/user-guide/authoring/product-features/asset-level-scheduling.html#handling-recurrence-in-assets)
->* [Hantera återkommande för resurser i en kanal](https://docs.adobe.com/content/help/en/experience-manager-screens/user-guide/authoring/product-features/channel-level-activation.html#handling-recurrence-in-assets)
+>* [Hantera återkommande i resurser](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/authoring/product-features/asset-level-scheduling)
+>* [Hantera återkommande för resurser i en kanal](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/authoring/product-features/channel-level-activation)

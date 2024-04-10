@@ -1,33 +1,30 @@
 ---
 title: Konfigurera Adobe Analytics med AEM Screens
-seo-title: Configuring Adobe Analytics with AEM Screens
-description: Följ det här avsnittet om du vill veta mer om sekvensering och hur du skickar anpassade händelser med Offline Adobe Analytics
-seo-description: Follow this section to learn more about sequencing and sending custom events using Offline Adobe Analytics
-uuid: e685e553-c05b-4db4-8fa5-9ef45268b094
+description: Läs mer om sekvensering och hur du skickar anpassade händelser med Offline Adobe Analytics.
 contentOwner: jsyal
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: developing
-discoiquuid: 3cec9266-4032-46b9-9c75-16da64bfea7d
 docset: aem65
 feature: Administering Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 4ecc1fb1-2437-449a-a085-66b2a85f4053
-source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
+source-git-commit: c142830a37461a36baae15f543bd43b0ae8a62a7
 workflow-type: tm+mt
-source-wordcount: '672'
+source-wordcount: '614'
 ht-degree: 0%
 
 ---
 
 # Konfigurera Adobe Analytics med AEM Screens {#configuring-adobe-analytics-with-aem-screens}
 
+<!-- OBSOLETE NOTE>
 >[!CAUTION]
 >
->Denna AEM Screens-funktionalitet är endast tillgänglig om du har installerat AEM 6.4.2 Feature Pack 2 och AEM 6.3.3 Feature Pack 4.
+>This AEM Screens functionality is only available if you have installed AEM 6.4.2 Feature Pack 2 and AEM 6.3.3 Feature Pack 4.
 >
->Om du vill få tillgång till något av dessa funktionspaket måste du kontakta Adobe Support och begära åtkomst. När du har behörighet kan du hämta den från paketresursen.
+>To get access to either of these Feature Packs, you must contact Adobe Support and request access. Once you have permissions, download it from Package Share. -->
 
 Detta avsnitt behandlar följande ämnen:
 
@@ -36,7 +33,7 @@ Detta avsnitt behandlar följande ämnen:
 
 ## Sekvenser i Adobe Analytics med AEM Screens {#sequencing-in-adobe-analytics-with-aem-screens}
 
-The ***sekvenseringsprocess*** börjar med datalagringstjänsten som aktiverar Adobe Analytics-tjänsten. Kanalinnehåll skickar Adobe Analytics-händelser med lön, det vill säga datatestning som utförs i Windows I/O och stannar-händelser aktiveras. Händelserna sparas i indexdatabasen och placeras sedan i objektarkivet. Baserat på schemat klipper administratören in data från objektarkivet och överför dem vidare till segmentlagret. Den försöker skicka maximalt med data när den är ansluten.
+The ***sekvenseringsprocess*** börjar med datalagringstjänsten som aktiverar Adobe Analytics-tjänsten. Kanalinnehåll skickar Adobe Analytics-händelser med lön, det vill säga datatestning som utförs i Windows I/O och stannar-händelser aktiveras. Händelserna sparas i indexdatabasen och placeras sedan i objektarkivet. Baserat på det schema som administratören ställer in, klipper den ut data från objektarkivet och överför dem vidare till segmentlagret. Den försöker skicka maximalt med data när den är ansluten.
 
 ### Sekvensdiagram {#sequencing-diagram}
 
@@ -60,7 +57,7 @@ I följande tabell sammanfattas standarddatamodellen för händelser. Här visas
    <td><strong>Beskrivning</strong></td> 
   </tr>
   <tr>
-   <td><strong><em>Core/Event</em></strong></td> 
+   <td><strong><em>Kärna/händelse</em></strong></td> 
    <td>Händelse-GUID</td> 
    <td>event.guid</td> 
    <td>rekommenderas</td> 
@@ -84,7 +81,7 @@ I följande tabell sammanfattas standarddatamodellen för händelser. Här visas
    <td>rekommenderas</td> 
    <td>string</td> 
    <td>tidsstämpel - UTC</td> 
-   <td>Händelsens startdatum och starttid, om du INTE anger detta, antas händelsetiden vara den tidpunkt då den togs emot av servern</td> 
+   <td>Händelsens startdatum, om du inte angav detta, antas händelsetiden vara den tidpunkt då den togs emot av servern</td> 
   </tr>
   <tr>
    <td> </td> 
@@ -111,7 +108,7 @@ I följande tabell sammanfattas standarddatamodellen för händelser. Här visas
    <td>obligatoriskt</td> 
    <td>string</td> 
    <td> </td> 
-   <td>Huvudkategori (DATOR, MOBIL, WEB, PROCESS, SDK, SERVICE, EKOSYSTEM) - Gruppering av händelsetyper - <strong>Vi skickar Player</strong></td> 
+   <td>Huvudkategori (DATOR, MOBIL, WEB, PROCESS, SDK, SERVICE, EKOSYSTEM) - Gruppering av händelsetyper - <strong>Spelaren har skickats</strong></td> 
   </tr>
   <tr>
    <td> </td> 
@@ -120,7 +117,7 @@ I följande tabell sammanfattas standarddatamodellen för händelser. Här visas
    <td>rekommenderas</td> 
    <td>string</td> 
    <td> </td> 
-   <td>Underkategori - Avsnitt i ett arbetsflöde eller område på en skärm osv. (Senaste filer, CC-filer, mobila arbeten osv.)</td> 
+   <td>Underkategori - del av ett arbetsflöde, eller del av en skärm, och så vidare. (Senaste filer, CC-filer, mobila arbeten osv.)</td> 
   </tr>
   <tr>
    <td> </td> 
@@ -138,7 +135,7 @@ I följande tabell sammanfattas standarddatamodellen för händelser. Här visas
    <td>rekommenderas</td> 
    <td>string</td> 
    <td> </td> 
-   <td>Händelsetyp (skapa, uppdatera, ta bort, publicera osv.) - Ytterligare information om användaråtgärden</td> 
+   <td>Händelsetyp (skapa, uppdatera, ta bort, publicera och så vidare) - Mer information om användaråtgärden</td> 
   </tr>
   <tr>
    <td> </td> 
@@ -165,7 +162,7 @@ I följande tabell sammanfattas standarddatamodellen för händelser. Här visas
    <td>rekommenderas</td> 
    <td>string</td> 
    <td> </td> 
-   <td>Användarens språkområde är en sträng som baseras på konventionerna för språktaggning i RFC 3066 (t.ex. en-US, fr-FR eller es-ES)</td> 
+   <td>Användarens språkområde är en sträng som baseras på konventionerna för språktaggning i RFC 3066 (till exempel en-US, fr-FR eller es-ES)</td> 
   </tr>
   <tr>
    <td> </td> 
@@ -174,7 +171,7 @@ I följande tabell sammanfattas standarddatamodellen för händelser. Här visas
    <td>valfri</td> 
    <td>string<br /> </td> 
    <td>UUID</td> 
-   <td>Identifierar enhets-GUID (t.ex. dator-ID eller hash för IP-adressen + nätmasken + nätverks-ID + användaragent) - Här skickar vi användarnamnet för spelaren som genereras vid registreringen.</td> 
+   <td>Identifierar enhets-GUID (t.ex. dator-ID eller hash för IP-adressen + nätmasken + nätverks-ID + användaragent) - Här skickas användarnamnet för spelaren som skapades vid registreringen.</td> 
   </tr>
   <tr>
    <td> </td> 
@@ -183,7 +180,7 @@ I följande tabell sammanfattas standarddatamodellen för händelser. Här visas
    <td>valfri</td> 
    <td>tal</td> 
    <td> </td> 
-   <td>Antal gånger händelsen har inträffat - Här skickar vi videons längd</td> 
+   <td>Antal gånger händelsen har inträffat - videons längd skickas</td> 
   </tr>
   <tr>
    <td> </td> 
@@ -192,7 +189,7 @@ I följande tabell sammanfattas standarddatamodellen för händelser. Här visas
    <td>valfri</td> 
    <td>string</td> 
    <td> </td> 
-   <td>Händelsens värde (t.ex. på/av-inställningar)</td> 
+   <td>Händelsens värde (till exempel på/av-inställningar)</td> 
   </tr>
   <tr>
    <td> </td> 
@@ -282,7 +279,7 @@ I följande tabell sammanfattas standarddatamodellen för händelser. Här visas
    <td>obligatoriska med undantag</td> 
    <td>string</td> 
    <td> </td> 
-   <td>O/S-version</td> 
+   <td>OS-version</td> 
   </tr>
   <tr>
    <td><strong><em>Innehåll</em></strong></td> 

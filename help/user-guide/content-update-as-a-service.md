@@ -1,18 +1,15 @@
 ---
 title: Innehållsuppdatering som tjänst
-seo-title: Content Update As a Service
-description: Följ den här sidan om du vill veta mer om innehållsuppdatering som en tjänst.
-seo-description: Follow this page to learn about Content Update As a Service.
-uuid: c73126ca-18d0-45b4-bdde-a3653082bfc4
+description: Läs om innehållsuppdatering som en tjänst.
 contentOwner: Jyotika syal
 feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: de9f669b-9ce7-4d70-99b4-0b69ef3c1af5
-source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
+source-git-commit: c0fa0717034e5094108eb1e23d4e9f1f16aeb57e
 workflow-type: tm+mt
-source-wordcount: '340'
-ht-degree: 1%
+source-wordcount: '291'
+ht-degree: 0%
 
 ---
 
@@ -23,13 +20,14 @@ I det här avsnittet beskrivs följande ämnen om uppdatering av innehåll som e
 * **Översikt**
 * **Använda Uppdatera gruppvis offline**
 
+<!--
 >[!CAUTION]
 >
->Denna AEM Screens-funktionalitet är endast tillgänglig om du har installerat AEM 6.3 Feature Pack 3 eller AEM 6.4 Screens Feature Pack 1.
+>This AEM Screens functionality is only available, if you have installed AEM 6.3 Feature Pack 3 or AEM 6.4 Screens Feature Pack 1.
 >
->Om du vill få tillgång till det här funktionspaketet måste du kontakta Adobe Support och begära åtkomst. När du har behörighet kan du hämta den från paketresursen.
+>To get access to this Feature Pack, you must contact Adobe Support and request access. When you have permission you can download it from Package Share. -->
 
-## Översikt {#overview}
+## Ökning {#overview}
 
 Uppdatera gruppvis offline gör att du kan uppdatera alla kanaler samtidigt. Då slipper du krånglet med att navigera till en viss kanal och uppdatera innehållet. I stället kan du uppdatera allt innehåll i kanaler för ett visst projekt på en gång.
 
@@ -71,6 +69,6 @@ Följ stegen nedan om du vill använda en bulkuppdatering för ett AEM Screens-p
    >
    >Ange projektsökvägen i förhållande till kanalen.
 
-   **Schemaläggningsfrekvens** Ange en tidpunkt, till exempel 05:00 eller 17:00, då den här tjänsten ska uppdatera offlineinnehåll.
+   **Schemaläggningsfrekvens** Ange t.ex. en tidpunkt, 05:00 eller 17:00, då den här tjänsten ska uppdatera offlineinnehåll.
 
-1. Klicka **Spara** för att spara inställningarna så uppdateras innehållet vid den angivna tidpunkten.
+1. Välj **Spara** så att du kan spara inställningarna. Allt innehåll uppdateras vid den angivna tidpunkten.

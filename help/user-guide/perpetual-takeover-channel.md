@@ -6,9 +6,9 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 5d112f33-a7cf-415e-9ea7-dc18a0356a8d
-source-git-commit: d1adadbab2cb13626dd8ce70deacced9f55aa4c9
+source-git-commit: c0fa0717034e5094108eb1e23d4e9f1f16aeb57e
 workflow-type: tm+mt
-source-wordcount: '853'
+source-wordcount: '871'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ På följande sida visas ett exempel på hur du använder ett projekt för att s
 ## Använd fallbeskrivning {#use-case-description}
 
 I det här Use Case-exemplet beskrivs hur du skapar en kanal som *tar över* från den normala uppspelningskanalen för en visning eller grupp av skärmar. Övertagandet sker för en viss dag och tid permanent.
-Det finns till exempel en permanent TakeOver-kanal som spelas upp varje fredag från 9.00 till 10.00 Under den här tiden ska ingen annan kanal spelas upp. I följande exempel visas hur man skapar en permanent köpkanal som spelas upp så att innehållet kan spelas upp varje onsdag i två timmar mellan kl. 2:00 och kl. 17:00
+Det finns till exempel en permanent TakeOver-kanal som spelas upp varje fredag från 9:00 till 10:00. Under den här tiden ska ingen annan kanal spelas upp. I följande exempel visas hur man skapar en permanent köpkanal som spelas upp så att innehållet kan spelas upp varje onsdag i två timmar mellan kl. 2:00 och kl. 17:00.
 
 ### Förhandsvillkor {#preconditions}
 
@@ -57,7 +57,7 @@ Följ stegen nedan för att konfigurera ett projekt:
    >[!NOTE]
    >The **MainAdChannel** i det här exemplet demonstrerar en sekvenskanal som spelar upp innehåll kontinuerligt.
 
-1. Skapa en **TakeOver** kanal som tar över innehållet i **MainAdChannel** och spelar varje onsdag mellan kl. 17.00 och 17.00
+1. Skapa en **TakeOver** kanal som tar över innehållet i **MainAdChannel** och spelar varje onsdag från kl. 02.00 till kl. 17.00.
 
 1. Välj **TakeOver** och klicka **Redigera** i åtgärdsfältet. Dra och släpp resurser i kanalen. I följande exempel visas en enzonsbild som lagts till i den här kanalen.
 
@@ -96,7 +96,7 @@ Följ stegen nedan för att konfigurera ett projekt:
    * **aktiv från**: Startdatum och -tid.
    * **aktiv tills**: Slutdatum och sluttid.
 
-     Till exempel texten i **Schema** och **aktiv från** och **aktiv tills** Datum och tid här gör att innehållet kan spelas upp varje onsdag från kl. 23.00 till kl. 17.00.
+     Till exempel texten i **Schema** och **aktiv från** och **aktiv tills** datum och tid här gör att innehållet kan spelas upp varje onsdag från kl. 02.00 till kl. 17.00.
 
 
      ![resurs](assets/p_usecase7.png)
@@ -107,7 +107,7 @@ Följ stegen nedan för att konfigurera ett projekt:
      >Det är obligatoriskt att ange övertagskanalens högsta prioritet.
 
      ![resurs](assets/p_usecase8.png)
-Nu **TakeOver** kanalen tar över **MainAdChannel** kl. 2:00 i två timmar till kl. 17:00 varje onsdag och spelar upp innehållet från 9 januari 2020 till 31 januari 2020.
+Nu **TakeOver** kanalen tar över **MainAdChannel** kl. 02.00 i två timmar till kl. 17.00 varje onsdag och spelar upp innehållet mellan den 9 januari och den 31 januari 2020.
 
 ## Exempeluttryck {#example-expressions}
 
@@ -115,13 +115,13 @@ I följande tabell sammanfattas några exempeluttryck som du kan lägga till i s
 
 | **Uttryck** | **Tolkning** |
 |---|---|
-| före 08:00 | kanalen spelas upp innan klockan åtta varje dag |
-| efter klockan 2:00 | kanalen spelas upp efter klockan 17:00 varje dag |
-| efter 12:15 och före 12:45 | kanalen spelas upp efter klockan 12:15 varje dag i 30 minuter |
-| före 12:15 även efter 12:45 | kanalen spelas upp före kl. 12.15 varje dag och även efter kl. 12.45 |
-| den första dagen i januari efter kl. 2:00 också den andra dagen i januari, även den tredje dagen i januari före kl. 3:00 | kanalen börjar spelas upp efter kl. 17.00 den 1 januari och fortsätter att spelas hela dagen den 2 januari ända till kl. 3.00 den 3 januari |
-| 1-2 dagar i januari efter kl. 2:00 också 2-3 dagar i januari före kl. 3:00 . | kanalen startar spelaren efter kl. 17.00 den 1 januari, fortsätter att spelas upp till kl. 23.00 den 2 januari och börjar igen kl. 2:00 och fortsätter att spelas upp till kl. 3:00 den 3 januari |
+| före 08.00 | kanalen spelas upp före 08.00 varje dag |
+| efter kl. 2:00. | kanalen spelas upp efter kl. 2.00 varje dag |
+| efter 12:15 och före 12:45 | kanalen spelas upp efter 12.15 varje dag i 30 minuter |
+| före 12:15 även efter 12:45 | Kanalen spelas upp före kl. 12.15 varje dag och sedan även efter kl. 12.45. |
+| den första dagen i januari efter kl. 2.00, även den andra dagen i januari, den tredje dagen i januari före kl. 17.00. | kanalen börjar spelas upp efter kl. 17.00 den 1 januari och fortsätter hela dagen den 2 januari ända till kl. 17.00 den 3 januari |
+| 1-2 dagar i januari efter kl. 2:00 också 2-3 dagar i januari före kl. 3:00 . | kanalen börjar spelas upp efter kl. 17.00 den 1 januari, fortsätter att spelas upp till kl. 17.00 den 2 januari, börjar den igen kl. 2:00 och fortsätter att spela fram till kl. 17.00 den 3 januari |
 
 >[!NOTE]
 >
->Du kan också använda _militär tid_ notation (d.v.s. 14:00) i stället för *fm/em* notation (d.v.s. 2:00).
+>Du kan också använda _militär tid_ notation (14:00) i stället för *A.M./P.M.* (2:00).

@@ -6,9 +6,9 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 3317f07a-784f-4c4a-93ea-c84f4e42e9f2
-source-git-commit: d1adadbab2cb13626dd8ce70deacced9f55aa4c9
+source-git-commit: c142830a37461a36baae15f543bd43b0ae8a62a7
 workflow-type: tm+mt
-source-wordcount: '618'
+source-wordcount: '624'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ På följande sida visas ett exempel på hur du använder ett projekt för att s
 
 I det här Use Case-exemplet beskrivs hur du skapar en kanal som *tar över* från den normala uppspelningskanalen för en visning eller grupp av skärmar. Övertagandet sker endast en gång och för en viss tid.
 
-Det finns till exempel en Single TakeOver-kanal som spelas på fredag 9:00 till 10:00 Under den här tiden ska ingen annan kanal spelas upp. Före och efter den här gången spelas kanalen för engångsbruk inte upp. I följande exempel visas hur du skapar en enda köpkanal som gör att innehållet kan spelas upp i 2 minuter före klockan 12:00 på 31 dec tills klockan 12:01
+Det finns till exempel en Single TakeOver-kanal som spelas upp fredag 9:00 till 10:00. Under den här tiden ska ingen annan kanal spelas upp. Före och efter den här gången spelas kanalen för engångsbruk inte upp. I följande exempel visas hur en enda köpkanal skapas som gör att innehållet kan spelas upp i 2 minuter före 12:00 den 31 december till 12:01.
 
 ### Förhandsvillkor {#preconditions}
 
@@ -94,7 +94,7 @@ Följ stegen nedan för att konfigurera ett projekt:
      >[!NOTE]
      >Prioriteten kan vara vilket värde som helst som är högre än prioritetsvärdet för den normala uppspelningskanalen.
    * **Händelser som stöds**: Välj **Inaktiv skärm** och **Timer**.
-   * **Schema**: Ange texten för schemat som du vill att den här kanalen ska köra visningen. Texten här gör att innehållet kan spelas upp 2 minuter före 02:00 på 31 dec tills 12:01 är texten i **Schema** som nämns i det här exemplet *den 31 december efter 23.58 och även den 1 januari före 00.01*.
+   * **Schema**: Ange texten för schemat som du vill att den här kanalen ska köra visningen. Texten här tillåter till exempel att innehållet spelas upp 2 minuter före 12:00 den 31 december till 12:01. Texten i **Schema** som nämns i det här exemplet *den 31 december efter 23.58 och även den 1 januari före 00.01*.
 
      ![resurs](assets/single-takeover8.png)
 

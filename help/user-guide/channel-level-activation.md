@@ -1,15 +1,14 @@
 ---
 title: Aktivering på kanalnivå - uppspelning av enstaka händelse
-seo-title: Channel Level Activation - Single Event Playback
-description: Följ den här vägledningen när du vill veta mer om aktivering på kanalnivå med en enda händelseuppspelning.
+description: Läs om aktivering på kanalnivå med en enda händelseuppspelning.
 topic-tags: authoring
 feature: Authoring Screens, Channels
 role: Admin, Developer
 level: Intermediate
 exl-id: 51a63429-2488-45be-b8f5-cb755ca69c7f
-source-git-commit: 299018986ae58ecbdb51a30413222a9682fffc76
+source-git-commit: c142830a37461a36baae15f543bd43b0ae8a62a7
 workflow-type: tm+mt
-source-wordcount: '1792'
+source-wordcount: '1769'
 ht-degree: 0%
 
 ---
@@ -62,7 +61,7 @@ Följande bild visar **Aktivering på kanalnivå** projekt med **MainAdChannel**
 
 >[!NOTE]
 >
->Mer information om hur du skapar ett projekt och hur du skapar en sekvenskanal finns i resurserna nedan:
+>Mer information om hur du skapar ett projekt och hur du skapar en sekvenskanal finns i följande resurser:
 >
 >* [Skapa och hantera projekt](creating-a-screens-project.md)
 >
@@ -103,12 +102,12 @@ Följ stegen nedan för att implementera funktionen:
 
    1. Navigera till **Aktivering på kanalnivå** > **Platser** > **Län** > **RegionDisplay** och klicka **Tilldela kanal** i åtgärdsfältet.
    1. **Kanaltilldelning** öppnas.
-   1. Välj **Referenskanal**.. efter bana.
+   1. Välj **Referenskanal** efter bana.
    1. Välj **Kanalsökväg** as **Aktivering på kanalnivå** > ***Kanaler*** > ***MainAdChannel***.
    1. The **Kanalroll** fylls i som **huvudkanal**.
    1. Välj **Prioritet** as **1**.
    1. Välj **Händelser som stöds** as **Inledande inläsning** och **Inaktiv skärm**.
-   1. Klicka **Spara**.
+   1. Välj **Spara**.
 
    ![screen_shot_2018-11-27at124626pm](assets/screen_shot_2018-11-27at124626pm.png)
 
@@ -120,23 +119,23 @@ Följ stegen nedan för att implementera funktionen:
 
    1. Navigera till **Aktivering på kanalnivå** > **Platser** > **Län** > **RegionDisplay** och klicka **Tilldela kanal** i åtgärdsfältet.
    1. **Kanaltilldelning** öppnas.
-   1. Välj **Referenskanal**.. efter bana.
+   1. Välj **Referenskanal** efter bana.
    1. Välj **Kanalsökväg** as **Aktivering på kanalnivå*** > ***Kanaler*** > ***TargetedSinglePlay***.
    1. The **Kanalroll** fylls i som **målsingleplay**.
    1. Ange **Prioritet** as **2**.
-   1. Välj **Händelser som stöds** as **Inledande inläsning**, **Inaktiv skärm** och **Timer**, *enligt bilden nedan.
-   1. Välj datum i **aktiv från** den 27 november 2018 kl. 11.59 och **aktiv tills** den 28 november 2018 kl. 12:05
-   1. Klicka **Spara**.
+   1. Välj **Händelser som stöds** as **Inledande inläsning**, **Inaktiv skärm** och **Timer**, vilket visas i figuren nedan.
+   1. Välj datum i **aktiv från** den 27 november 2018 kl. 11:59 och i **aktiv tills** 28 november 2018 12:05
+   1. Välj **Spara**.
 
    >[!CAUTION]
    >
-   >Du måste ange prioritet för **TargetedSinglePlay** kanal högre än **MainAdSegment** kanal.
+   >Ange prioritet för **TargetedSinglePlay** kanal högre än **MainAdSegment** kanal.
 
    ![screen_shot_2018-11-27at31206pm](assets/screen_shot_2018-11-27at31206pm.png)
 
    >[!NOTE]
    >
-   >Om du vill välja samma dag måste du markera nästa dag och manuellt redigera datumet till samma dag, men för en senare tid. Detta hindrar användaren från att välja ett tidigare datum. Se exemplet nedan:
+   >Om du vill välja samma dag väljer du nästa dag och redigerar sedan datumet manuellt till samma dag men för en senare tid. Detta begränsar användaren från att välja ett tidigare datum. Se följande exempel:
 
    ![new1](assets/new1.gif)
 
@@ -144,11 +143,11 @@ Följ stegen nedan för att implementera funktionen:
 
 När du har konfigurerat kanalerna och visningen är klar startar du AEM Screens-spelaren för att visa innehållet.
 
-Spelaren visar innehållet i **MainAdChannel** och exakt klockan 11:59 (enligt schemat), **TargetedSinglePlay** Kanalen visar sitt innehåll fram till kl. 12.05 och sedan **MainAdChannel** kommer att fortsätta spela upp innehållet igen.
+Spelaren visar innehållet i **MainAdChannel** och exakt klockan 11:59 (enligt schemat), **TargetedSinglePlay** -kanalen visar innehållet till kl. 12.05 och sedan **MainAdChannel** fortsätter att spela upp innehållet igen.
 
 >[!NOTE]
 >
->Läs mer om AEM Screen Player här:
+>Mer information om AEM finns i följande resurser:
 >[AEM Screens Player - nedladdningar](https://download.macromedia.com/screens/)
 >[Arbeta med AEM Screens Player](working-with-screens-player.md)
 
@@ -161,7 +160,7 @@ Anta att du bara vill visa innehållet i en kanal på fredag från 1:00 till 10:
 
 ### Dag-parsning {#day-parting}
 
-1. Markera kanalen och klicka på **Kontrollpanel** från åtgärdsfältet för att öppna kanalkontrollpanelen.
+1. Markera kanalen och välj sedan **Kontrollpanel** i åtgärdsfältet.
 
 1. Efter att du angett startdatum/tid och sluttid/tid från **Kanaltilldelning** kan du använda ett uttryck eller en naturlig textversion för att ange upprepningsschema.
 
@@ -169,7 +168,7 @@ Anta att du bara vill visa innehållet i en kanal på fredag från 1:00 till 10:
    >
    >Du kan hoppa över eller ta med **Aktiv från** och **Aktiv tills** fält och lägg till uttrycket i fältet Scheman enligt dina önskemål.
 
-1. Ange uttrycket i **Schema** och resursen visas för det angivna intervallet på dag och tid.
+1. Ange uttrycket i **Schema** och resursen visas för det angivna intervallet för dag och tid.
 
 #### Exempeluttryck för dagdelning {#example-one}
 
@@ -177,21 +176,21 @@ I följande tabell sammanfattas några exempeluttryck som du kan lägga till i s
 
 | **Uttryck** | **Tolkning** |
 |---|---|
-| före 08:00 | resursen i kanalen spelas upp innan klockan åtta varje dag |
-| efter klockan 2:00 | resursen i kanalen spelas upp efter klockan 17:00 varje dag |
-| efter 12:15 och före 12:45 | resursen i kanalen spelas upp efter klockan 12:15 varje dag i 30 minuter |
-| före 12:15 även efter 12:45 | resursen i kanalen spelas upp före kl. 12.15 varje dag och även efter kl. 12.45 |
-| Mån,Nyans,Ved eller mån | resursen spelas upp i kanalen från måndag till onsdag |
-| den första dagen i januari efter kl. 2:00 också den andra dagen i januari, även den tredje dagen i januari före kl. 3:00 | resursen i kanalen börjar spelas upp efter kl. 2:00 den 1 januari och fortsätter att spela för hela dagen den 2 januari ända till kl. 3:00 den 3 januari |
-| den 1-2 januari efter kl. 2:00 också den 2-3 januari före kl. 3:00 | resursen i kanalen startar spelaren efter kl. 2:00 den 1 januari, fortsätter att spelas upp till kl. 17:00 den 2 januari och börjar igen kl. 2:00 och fortsätter att spelas upp till kl. 3:00 den 3 januari |
+| före 08.00 | resursen i kanalen spelas upp före 08.00 varje dag |
+| efter kl. 2:00. | resursen i kanalen spelas upp efter kl. 2.00 varje dag |
+| efter 12:15 och före 12:45 | mediefilen spelas upp efter kl. 12.15 varje dag i 30 minuter |
+| före 12:15 även efter 12:45 | resursen i kanalen spelas upp före kl. 12.15 varje dag och sedan även efter kl. 12.45. |
+| Mån,Tue,Wed eller Mon-Wed | resursen spelas upp i kanalen från måndag till onsdag |
+| den första dagen i januari efter kl. 2.00, även den andra dagen i januari, den tredje dagen i januari före kl. 17.00. | resursen i kanalen börjar spelas upp efter kl. 2:00 den 1 januari och fortsätter att spela för hela dagen den 2 januari ända till kl. 3:00 den 3 januari |
+| 1-2 dagar i januari efter kl. 2:00 också 2-3 dagar i januari före kl. 3:00. | resursen i kanalen startar spelaren efter kl. 17.00 den 1 januari, fortsätter att spelas upp till kl. 17.00 den 2 januari, börjar den igen kl. 2:00 och fortsätter att spela fram till kl. 17.00 den 3 januari |
 
 >[!NOTE]
 >
->Du kan också använda _militär tid_ notation (d.v.s. 14:00) i stället för *fm/em* notation (d.v.s. 2:00).
+>Du kan också använda _militär tid_ notation (14:00) i stället för *A.M./P.M.* (2:00).
 
 ### WeekParting {#week-parting}
 
-1. Markera kanalen och klicka på **Kontrollpanel** från åtgärdsfältet för att öppna kanalkontrollpanelen.
+1. Markera kanalen och välj sedan **Kontrollpanel** i åtgärdsfältet.
 
 1. Efter att du angett startdatum/tid och sluttid/tid från **Kanaltilldelning** kan du använda ett uttryck eller en naturlig textversion för att ange upprepningsschema.
 
@@ -199,7 +198,7 @@ I följande tabell sammanfattas några exempeluttryck som du kan lägga till i s
    >
    >Du kan hoppa över eller ta med **Aktiv från** och **Aktiv tills** fält och lägg till uttrycket i fältet Scheman enligt dina önskemål.
 
-1. Ange uttrycket i **Schema** och resursen visas för det angivna intervallet på dag och tid.
+1. Ange uttrycket i **Schema** och resursen visas för det angivna intervallet för dag och tid.
 
 #### Exempeluttryck för WeekParting {#example-two}
 
@@ -207,20 +206,20 @@ I följande tabell sammanfattas några exempeluttryck som du kan lägga till i s
 
 | **Uttryck** | **Tolkning** |
 |---|---|
-| Mån,Nyans,Ved eller mån | resursen spelas upp i kanalen från måndag till onsdag |
-| före 08:00 | resursen i kanalen spelas upp innan klockan åtta varje dag |
-| efter klockan 2:00 | resursen i kanalen spelas upp efter klockan 17:00 varje dag |
-| efter 12:15 och före 12:45 | resursen i kanalen spelas upp efter klockan 12:15 varje dag i 30 minuter |
-| före 12:15 även efter 12:45 | kanalen spelas upp före kl. 12.15 varje dag och även efter kl. 12.45 |
+| Mån,Tue,Wed eller Mon-Wed | resursen spelas upp i kanalen från måndag till onsdag |
+| före 08.00 | resursen i kanalen spelas upp före 08.00 varje dag |
+| efter kl. 2:00. | resursen i kanalen spelas upp efter kl. 2.00 varje dag |
+| efter 12:15 och före 12:45 | mediefilen spelas upp efter kl. 12.15 varje dag i 30 minuter |
+| före 12:15 även efter 12:45 | Kanalen spelas upp före kl. 12.15 varje dag och sedan även efter kl. 12.45. |
 
 >[!NOTE]
 >
->Du kan också använda _militär tid_ notation (d.v.s. 14:00) i stället för *fm/em* notation (d.v.s. 2:00).
+>Du kan också använda _militär tid_ notation (14:00) i stället för *A.M./P.M.* (2:00).
 
 
 ### MånadDelning {#month-parting}
 
-1. Markera kanalen och klicka på **Kontrollpanel** från åtgärdsfältet för att öppna kanalkontrollpanelen.
+1. Markera kanalen och välj sedan **Kontrollpanel** i åtgärdsfältet.
 
 1. Efter att du angett startdatum/tid och sluttid/tid från **Kanaltilldelning** kan du använda ett uttryck eller en naturlig textversion för att ange upprepningsschema.
 
@@ -228,7 +227,7 @@ I följande tabell sammanfattas några exempeluttryck som du kan lägga till i s
    >
    >Du kan hoppa över eller ta med **Aktiv från** och **Aktiv tills** fält och lägg till uttrycket i fältet Scheman enligt dina önskemål.
 
-1. Ange uttrycket i **Schema** och resursen visas för det angivna intervallet på dag och tid.
+1. Ange uttrycket i **Schema** och resursen visas för det angivna intervallet för dag och tid.
 
 #### Exempeluttryck för MonthParting {#example-three}
 
@@ -236,19 +235,19 @@ I följande tabell sammanfattas några exempeluttryck som du kan lägga till i s
 
 | **Uttryck** | **Tolkning** |
 |---|---|
-| februari,maj,augusti,november | resursen spelas upp i kanalen i februari,maj,augusti,november |
+| av `February,May,August,November` | mediefilen spelas upp i februari, maj, augusti, november |
 
 >[!NOTE]
 >
->När du definierar veckodagar och månader kan du både använda kort- och fullnamnsnoteringar, till exempel måndag/måndag och januari.
+>När du definierar veckodagar och månader kan du använda både kort- och fullnamnsnoteringar, till exempel måndag/måndag och januari/januari.
 
 >[!NOTE]
 >
->Du kan också använda _militär tid_ notation (d.v.s. 14:00) i stället för *fm/em* notation (d.v.s. 2:00).
+>Du kan också använda _militär tid_ notation (14:00) i stället för *A.M./P.M.* (2:00).
 
 ### Kombination av partner {#combined-parting}
 
-1. Markera kanalen och klicka på **Kontrollpanel** från åtgärdsfältet för att öppna kanalkontrollpanelen.
+1. Markera kanalen och välj sedan **Kontrollpanel** i åtgärdsfältet.
 
 1. Efter att du angett startdatum/tid och sluttid/tid från **Kanaltilldelning** kan du använda ett uttryck eller en naturlig textversion för att ange upprepningsschema.
 
@@ -256,7 +255,7 @@ I följande tabell sammanfattas några exempeluttryck som du kan lägga till i s
    >
    >Du kan hoppa över eller ta med **Aktiv från** och **Aktiv tills** fält och lägg till uttrycket i fältet Scheman enligt dina önskemål.
 
-1. Ange uttrycket i **Schema** och resursen visas för det angivna intervallet på dag och tid.
+1. Ange uttrycket i **Schema** och resursen visas för det angivna intervallet för dag och tid.
 
 #### Exempeluttryck för en kombination av partner {#example-four}
 
@@ -264,10 +263,10 @@ I följande tabell sammanfattas några exempeluttryck som du kan lägga till i s
 
 | **Uttryck** | **Tolkning** |
 |---|---|
-| efter 6:00 och före 18:00 i Mon, Wed of Jan-Mar | tillgången spelas upp i kanalen mellan kl. 6.00 och kl. 18.00 måndag och onsdag från januari till slutet av mars |
-| den första dagen i januari efter kl. 2:00 också den andra dagen i januari, även den tredje dagen i januari före kl. 3:00 | resursen i kanalen börjar spelas upp efter kl. 2:00 den 1 januari och fortsätter att spela för hela dagen den 2 januari ända till kl. 3:00 den 3 januari |
-| den 1-2 januari efter kl. 2:00 också den 2-3 januari före kl. 3:00 | resursen i kanalen startar spelaren efter kl. 2:00 den 1 januari, fortsätter att spelas upp till kl. 17:00 den 2 januari och börjar igen kl. 2:00 och fortsätter att spelas upp till kl. 3:00 den 3 januari |
+| efter kl. 6.00 och före kl. 18.00 på Mån, Wed från januari-mars | tillgången spelas upp i kanalen mellan kl. 6.00 och kl. 18.00 måndag och onsdag från januari till slutet av mars |
+| den första dagen i januari efter kl. 2.00, även den andra dagen i januari, den tredje dagen i januari före kl. 17.00. | resursen i kanalen börjar spelas upp efter kl. 2:00 den 1 januari och fortsätter att spela för hela dagen den 2 januari ända till kl. 3:00 den 3 januari |
+| 1-2 dagar i januari efter kl. 2:00 också 2-3 dagar i januari före kl. 3:00. | resursen i kanalen startar spelaren efter kl. 17.00 den 1 januari, fortsätter att spelas upp till kl. 17.00 den 2 januari, börjar den igen kl. 2:00 och fortsätter att spela fram till kl. 17.00 den 3 januari |
 
 >[!NOTE]
 >
->När du definierar veckodagar och månader kan du både använda kort- och fullnamnsnoteringar, till exempel måndag/måndag och januari.  Du kan även använda _militär tid_ notation (d.v.s. 14:00) i stället för *fm/em* notation (d.v.s. 2:00).
+>När du definierar veckodagar och månader kan du både använda kort- och fullnamnsnoteringar, till exempel måndag/måndag och januari. Du kan även använda _militär tid_ notation (14:00) i stället för *A.M./P.M.* (2:00).

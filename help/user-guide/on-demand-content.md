@@ -6,9 +6,9 @@ feature: Authoring Screens
 role: Developer
 level: Intermediate
 exl-id: 9ffdb1eb-a1ba-42ac-a30f-260004e5b165
-source-git-commit: 299018986ae58ecbdb51a30413222a9682fffc76
+source-git-commit: c0fa0717034e5094108eb1e23d4e9f1f16aeb57e
 workflow-type: tm+mt
-source-wordcount: '828'
+source-wordcount: '827'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ I det här avsnittet beskrivs on-demand-innehåll för hantering av publikatione
 
 ## Hantera publikation: Leverera innehållsuppdateringar från författare till publicering på enhet {#managing-publication-delivering-content-updates-from-author-to-publish-to-device}
 
-Du kan publicera och avpublicera innehåll från AEM Screens. Med funktionen Hantera publikation kan du leverera innehållsuppdateringar från författare till publicering till enhet. Du kan publicera/avpublicera innehåll för hela AEM Screens-projektet eller bara för en av dina kanaler, platser, enheter, program eller scheman.
+Du kan publicera och avpublicera innehåll från AEM Screens. Med funktionen Hantera publikation kan du leverera innehållsuppdateringar från författare till publiceringsenhet. Du kan publicera/avpublicera innehåll för hela AEM Screens-projektet eller bara för en av dina kanaler, platser, enheter, program eller scheman.
 
 ### Hantera publikationer för ett AEM Screens-projekt {#managing-publication-for-an-aem-screens-project}
 

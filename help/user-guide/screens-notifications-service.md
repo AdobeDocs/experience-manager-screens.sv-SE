@@ -1,21 +1,17 @@
 ---
 title: AEM Screens Notifications Service
-seo-title: AEM Screens Notifications Service
-description: Följ den här sidan om du vill veta mer om hur du kan övervaka enhetsaktivitet.
-seo-description: Follow this page to learn more about how you can monitor device activity.
-uuid: 9843219d-ed39-4e4f-bef4-e500528ff9f1
+description: Läs mer om hur du kan övervaka enhetsaktiviteter för AEM Screens.
 contentOwner: jsyal
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
-discoiquuid: 8879e510-4f0e-46da-87d2-77c5aaacb26e
 feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 205235d7-e621-4134-975c-257ae60939bc
-source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
+source-git-commit: c0fa0717034e5094108eb1e23d4e9f1f16aeb57e
 workflow-type: tm+mt
-source-wordcount: '539'
+source-wordcount: '489'
 ht-degree: 0%
 
 ---
@@ -24,7 +20,7 @@ ht-degree: 0%
 
 <!--removed from metadata: admitteddomains: @adobe.com;@caesars.com-->
 
-***AEM Screens Notifications Service***, beskriver funktionen där du kan övervaka enhetsaktivitet.
+***AEM Screens Notifications Service*** beskriver aktivitet för bildskärmar.
 
 Detta avsnitt behandlar följande ämnen:
 
@@ -33,17 +29,18 @@ Detta avsnitt behandlar följande ämnen:
 * **E-postmeddelande**
 * **Exempel på användningsfall**
 
+<!-- OBSOLETE NOTE>
 >[!CAUTION]
 >
->Denna AEM Screens-funktionalitet är endast tillgänglig om du har installerat AEM 6.3.2 Feature Pack 3 eller AEM 6.4.1 Screens Feature Pack 1.
+>This AEM Screens functionality is only available, if you have installed AEM 6.3.2 Feature Pack 3 or AEM 6.4.1 Screens Feature Pack 1.
 >
->Om du vill få tillgång till det här funktionspaketet måste du kontakta Adobe Support och begära åtkomst. När du har behörighet kan du hämta den från paketresursen.
+>To get access to this Feature Pack, you must contact Adobe Support and request access. Once you have permissions you can download it from Package Share. -->
 
-## Översikt {#overview}
+## Ökning {#overview}
 
-***AEM Screens Notifications Service***, gör att administratörer kan ta emot ett e-postmeddelande om en AEM inte pingar under en konfigurerbar tidsperiod.
+***AEM Screens Notifications Service*** gör att administratörer kan få ett e-postmeddelande om en AEM Screens-spelare inte pingar under en konfigurerbar tid.
 
-Den här tjänsten kan konfigureras i OSGi-webbkonsolen.
+Tjänsten kan konfigureras i OSGi-webbkonsolen.
 
 ## Konfigurerar e-postinställningar {#configuring-email-settings}
 
@@ -54,45 +51,45 @@ Följ stegen nedan för att konfigurera inställningarna för e-postmeddelanden:
 
    ![screen_shot_2018-04-26at44602pm](assets/screen_shot_2018-04-26at44602pm.png)
 
-1. Definiera följande fält för att konfigurera inställningarna för e-postmeddelandet:
+1. Definiera följande fält så att du kan konfigurera inställningarna för e-postmeddelandet:
 
-   **Sökväg till enheter** Ange sökvägen till de skärmprojekt som du vill övervaka. Banan är vanligtvis `/home/users/screens/<Name of your project>`.
+   **Sökväg till enheter** Ange sökvägen till de skärpeprojekt som du vill övervaka. Banan är vanligtvis `/home/users/screens/<Name of your project>`.
 
-   Om ditt projekt till exempel är **Vi.butik** använder du projektsökvägen som ***/home/users/screens/we-retail***.
+   Om ditt projekt till exempel är **`We.Retail`**, använder du projektsökvägen som ***/home/users/screens/we-retail***.
 
    >[!NOTE]
    >
    >Ange projektsökvägen där enhetsanvändarna finns.
 
-   **Schemaläggningsfrekvens** Ange en tid (t.ex. 17:00 eller 17:00) eller frekvens i timmar (t.ex. 1) som den här övervakaren ska skicka e-post med.
+   **Schemaläggningsfrekvens** - Ange en tid (t.ex. 05:00 eller 17:00) eller frekvens i timmar (t.ex. 1) som den här övervakaren ska skicka e-post med.
 
-   **Ping-timeout** Detta anger intervallet i minuter efter vilket en enhet inte kan nås.
+   **Ping-timeout** - Detta anger intervallet i minuter efter vilket en enhet inte kan nås.
 
-   **SMTP-server** Anger den SMTP-server som används för att skicka e-post.
+   **SMTP-server** - Anger SMTP-servern som används för att skicka e-post.
 
-   **SMTP-port** Ange SMTP-porten.
+   **SMTP-port** - Ange SMTP-porten.
 
-   **Använd TLS** TLS (Transport Layer Security) gör att du kan använda säker kommunikation med SMTP-servern.
+   **Använd TLS** - TLS (Transport Layer Security) gör att du kan använda säker kommunikation med SMTP-servern.
 
-   TLS rekommenderas för säker anslutning till företagets e-postservrar. Kontrollera med e-postadministratören om du har rätt värden.
+   Adobe rekommenderar att du använder TLS för säker anslutning till företagets e-postservrar. Fråga e-postadministratören om lämpliga värden.
 
-   **användarnamn** Ange användarnamn för att skicka e-post.
+   **användarnamn** - Ange användarnamn för att skicka e-post.
 
-   **lösenord** Ange lösenordet för att skicka e-post.
+   **lösenord** - Ange lösenordet för att skicka e-post.
 
-   **Mottagare** Ange mottagarens e-postadress.
+   **Mottagare** - Ange mottagarens e-postadress.
 
    >[!NOTE]
    >
-   >Du kan bara ange en e-postadress. Skapa en grupp eller distributionslista med de relevanta användarna för att kunna skicka ett större e-postmeddelande.
+   >Du kan bara ange en e-postadress. Om du vill skicka ett större e-postmeddelande skapar du en grupp eller distributionslista med de relevanta användarna.
 
-1. Klicka **Spara** för att konfigurera övervakningsaktiviteten via ett e-postmeddelande för din AEM Screens-enhet.
+1. Välj **Spara** för att konfigurera övervakningsaktiviteten via ett e-postmeddelande för din AEM Screens-enhet.
 
 ## E-postmeddelande {#email-notification}
 
 När du har angett konfigurationen för dina e-postmeddelanden får du ett e-postmeddelande som innehåller länken till den faktiska enheten som rapporteras om inaktivitet.
 
-Om du får åtkomst till den länken kommer du direkt till kontrollpanelen för enheten.
+Om du får åtkomst till den länken navigerar du direkt till enhetens kontrollpanel.
 
 E-postmeddelanden skickas endast om det finns minst en enhet som inte har pingats för den angivna pingtidsgränsen och som fortfarande inte pingas när e-postmeddelandet genereras.
 
@@ -100,10 +97,10 @@ E-postmeddelanden skickas endast om det finns minst en enhet som inte har pingat
 
 I följande exempel beskrivs ett fåtal referensscenarier för att konfigurera egenskaperna från E-postövervakningstjänsten för skärmar.
 
-**Scenario 1**:
+**Scenario 1**
 
-Om du ställer in schemafrekvensen till 1:00 och pingtidsgränsen till 60 får du ett e-postmeddelande som bekräftar inaktivitet på enheten om skärmarna inte växlar mellan 12:00 och 13:00.
+Du ställer in schemafrekvensen till 1:00 och pingtidsgränsen till 60. Om din AEM Screens-enhet inte växlar mellan kl. 12.00 till kl. 13.00 får du ett e-postmeddelande som bekräftar inaktivitet i enheten.
 
-**Scenario 2**:
+**Scenario 2**
 
-Om du ställer in schemafrekvensen till 1 och ping-tidsgränsen till 60, kommer du att få ett e-postmeddelande som bekräftar enhetens inaktivitet om skärmenheten inte växlar mellan en gång vid en viss tidpunkt på dagen.
+Du ställer in schemafrekvensen till 1 och pingtidsgränsen till 60. Om din AEM Screens-enhet inte växlar mellan en och samma gång vid en viss tidpunkt på dagen får du ett e-postmeddelande som bekräftar att enheten är inaktiv.

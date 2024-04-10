@@ -1,26 +1,24 @@
 ---
 title: Uppspelningstid för bild på projektnivå
-seo-title: Project Level Image Playback Duration
-description: Med den här funktionen kan du definiera längden för bilduppspelningen på projektnivå.
-seo-description: This functionality allows you to define image playback duration at the project level.
+description: Lär dig hur du definierar uppspelningstiden för bilder på projektnivå.
 contentOwner: jsyal
-source-git-commit: f25176be89424059b8c51296969f069687328536
+source-git-commit: c0fa0717034e5094108eb1e23d4e9f1f16aeb57e
 workflow-type: tm+mt
 source-wordcount: '333'
-ht-degree: 1%
+ht-degree: 0%
 
 ---
 
 
 # Uppspelningstid för bild på projektnivå {#project-level-image-playback}
 
-## Översikt {#overview}
+## Ökning {#overview}
 
 Med den här funktionen kan du definiera längden för bilduppspelningen på projektnivå. Alla bilder ärver den här uppspelningstiden som standard. Om ingen varaktighet definieras på projektnivå fortsätter standarduppspelningen på 8 sekunder.
 
 ### Förutsättningar {#prerequisites}
 
-Innan du använder den här funktionen måste du konfigurera ett projekt som en förutsättning för att du ska kunna börja implementera den här funktionen. Till exempel,
+Innan du använder den här funktionen måste du konfigurera ett projekt som en förutsättning för att du ska kunna börja implementera den här funktionen. Exempel:
 
 1. Skapa ett AEM Screens-projekt (i det här exemplet **ProjektNivåUppspelning**)
 

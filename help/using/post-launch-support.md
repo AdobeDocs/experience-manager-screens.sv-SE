@@ -1,66 +1,63 @@
 ---
-title: Stöd efter start
-seo-title: Post Launch Support for AEM Screens
-description: På sidan beskrivs Post Launch Support for AEM Screens Best Practices Guide
-seo-description: The page describes Post Launch Support for AEM Screens Best Practices Guide
-source-git-commit: 9b54b153676852742859b704ac9aedf908fceecf
+title: Stöd efter lansering
+description: Läs mer om stöd för AEM Screens efter lansering i Best Practices Guide.
+source-git-commit: c142830a37461a36baae15f543bd43b0ae8a62a7
 workflow-type: tm+mt
-source-wordcount: '395'
-ht-degree: 8%
+source-wordcount: '373'
+ht-degree: 4%
 
 ---
 
 
-# Stöd efter start {#post-launch-support}
+# Stöd efter lansering {#post-launch-support}
 
 
-Support efter start får inte förbises i det tidiga skedet.
+Glöm inte stödet efter lanseringen i ett tidigt skede.
 
-Att se till att webbplatserna får tillräcklig support från maskinvaruleverantören är avgörande för deras verksamhet. **A/V-integratorn** bör ha ett nära samarbete med företagsintressenter och identifiera de krav som krävs från olika aspekter.
+Att se till att webbplatserna får tillräcklig support från maskinvaruleverantören är avgörande för deras verksamhet. The **A/V-integratör** bör ha ett nära samarbete med affärsintressenter och identifiera de krav som krävs från olika aspekter.
 Tänk på följande under support efter start:
 
 * fjärrhantering av enheter
 * tillgänglighet för supportcenter
-* support på plats
+* support på plats för tekniker
 * enhetshantering (garantisupport och lagring på reservenheter)
 
-För att förbereda sig för långsiktiga framgångar är det dessutom av största vikt att upprätta ett servicenivåavtal (Dag 2) i partnerskap med AV-integratorn. SLA-avtalet bör innehålla detaljerade uppgifter om alla supporttjänster efter driftsättningen för att hjälpa till att ställa in kundens förväntningar korrekt.
+För att förbereda sig för långsiktiga framgångar är det också av största vikt att upprätta ett servicenivåavtal (Dag 2) i partnerskap med AV-integratorn. SLA-avtalet bör innehålla detaljerad information om alla supporttjänster efter driftsättning för att hjälpa till att exakt ställa kundens förväntningar.
 
 >[!NOTE]
 >
->Ni måste definiera driftsparametrar som är tidigt inräknade i driftbudgeten samt anpassa ansvarsområdena till AEM och AV Integrator.
+>Definiera driftsparametrar som är tidiga inräknade i driftsbudgeten och anpassa ansvarsområdena efter AEM och AV-integratorn.
 >
->* Är driftsättningen ett annonsnätverk med många intressenter kopplade till ett nätverk med intäkter? Detta kan tyda på mycket kortare tidsramar jämfört med ett Corporate Communications-nätverk.
+>* Är driftsättningen ett annonsnätverk med många intressenter kopplade till ett nätverk med intäkter? Detta kan leda till kortare tidsramar jämfört med ett Corporate Communications-nätverk.
 >* Är programmet mycket synligt för kundens chefer? Webbplatser med hög synlighet kan behöva olika behandlingar.
->* Är programmet viktigt för affärsverksamhet som menybord i snabbmatskedjor? I dessa fall kan slutklienten behöva lösningar på plats med mycket korta svarstider samt redundans i uppspelningsmaskinvaran.
-
+>* Är programmet viktigt för affärsverksamhet som menybord i snabbmatskedjor? I dessa fall kan slutklienten behöva lösningar på plats med korta svarstider och redundans i uppspelningsmaskinvaran.
 
 ## Överväganden och frågor efter start {#considerations-queries}
 
-Det finns få saker du bör tänka på och frågor som hjälper dig att definiera stöd för programstart:
+Några saker du bör tänka på och få frågor som kan hjälpa dig att definiera support efter lanseringen är:
 
-1. Är driftsättningen ett annonsnätverk med många intressenter kopplade till ett nätverk med intäkter? Detta kan tyda på mycket kortare tidsramar jämfört med ett Corporate Communications-nätverk.
+1. Är driftsättningen ett annonsnätverk med många intressenter kopplade till ett nätverk med intäkter? Detta kan leda till kortare tidsramar jämfört med ett Corporate Communications-nätverk.
  
    >[!NOTE]
    >
-   > Detta innebär mycket kortare tidsramar jämfört med ett Corporate Communications-nätverk.
+   > Detta innebär kortare tidsramar jämfört med ett Corporate Communications-nätverk.
 
 1. Är programmet mycket synligt för kundens chefer?
 
    >[!NOTE]
    >
-   > Detta innebär mycket kortare tidsramar jämfört med ett Corporate Communications-nätverk. Webbplatser med hög synlighet kan behöva olika behandlingar.
+   > Detta innebär kortare tidsramar jämfört med ett Corporate Communications-nätverk. Webbplatser med hög synlighet kan behöva olika behandlingar.
 
 1. Är programmet viktigt för affärsverksamhet som menybord i snabbmatskedjor?
 
    >[!NOTE]
    >
-   > I dessa fall kan slutklienten behöva lösningar på plats med mycket korta svarstider samt redundans i uppspelningsmaskinvaran.
+   > I dessa fall kan slutklienten behöva lösningar på plats med korta svarstider och redundans i uppspelningsmaskinvaran.
 
-1. Vem kommer att vara huvudkontaktperson för support?
+1. Vem är huvudkontaktperson för support?
 
 1. Vem svarar på supportförfrågningar?
 
 1. Vilken av dina butiksplatser kräver övervakning dygnet runt, alla dagar?
 
-1. Är bildskärmarna en viktig del av ditt företag? (d.v.s. bilkonfiguration, säljvarningar)
+1. Är bildskärmarna en del av ditt företag? (d.v.s. bilkonfiguration, säljvarningar)

@@ -1,29 +1,25 @@
 ---
 title: Lägga till komponenter i en kanal
-seo-title: Adding Components to a Channel
-description: Följ den här sidan om du vill veta mer om hur du lägger till komponenter i kanaler i ett AEM Screens-projekt.
-seo-description: Follow this page to learn more about adding components to channels in an AEM Screens project.
-uuid: 205d0edd-a696-47d0-a859-5f44d48c5e4a
+description: Läs mer om hur du lägger till komponenter i kanaler i ett AEM Screens-projekt.
 contentOwner: jsyal
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
-discoiquuid: bfbdd6eb-4921-4c2d-a179-1cac4583d568
 docset: aem65
 feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 56dbe098-05db-4fc3-977f-e50a0a312d64
-source-git-commit: 299018986ae58ecbdb51a30413222a9682fffc76
+source-git-commit: c0fa0717034e5094108eb1e23d4e9f1f16aeb57e
 workflow-type: tm+mt
-source-wordcount: '1450'
+source-wordcount: '1403'
 ht-degree: 0%
 
 ---
 
 # Lägga till komponenter i en kanal{#adding-components-to-a-channel}
 
-Komponenter är de grundläggande elementen i AEM (Adobe Experience Manager). Du kan använda ett antal komponenter och lägga till dem i din kanal i ett AEM Screens-projekt.
+Komponenter är de grundläggande elementen i AEM (Adobe Experience Manager). Du kan använda flera komponenter och lägga till dem i en kanal i ett AEM Screens-projekt.
 
 ## Komponenter i AEM Screens {#components-in-aem-screens}
 
@@ -35,25 +31,25 @@ När du skapar ett AEM Screens-projekt visas en lista med standardkomponenter so
 
 Följ stegen nedan om du vill visa standardkomponenterna för ditt skärmsprojekt:
 
-1. Markera kanalen. Till exempel: **Store** > **Kanaler** > **Inaktiv kanal**.
+1. Markera kanalen. Till exempel: **`We.Retail In Store`** > **Kanaler** > **Inaktiv kanal**.
 
-1. Klicka **Redigera** i åtgärdsfältet för att öppna AEM redigerare.
-1. Klicka på **+** -ikonen från sidofältet för att öppna komponenterna.
+1. Välj **Redigera** i åtgärdsfältet.
+1. I AEM Editor väljer du **+** -ikonen från sidorutan.
 1. Alla komponenter som ingår som standard i ett AEM Screens-projekt visas, vilket visas i bilden nedan.
 
 ![screen_shot_2017-12-18at21350pm](assets/screen_shot_2017-12-18at21350pm.png)
 
 ### Lägga till en ny komponent {#adding-a-new-component}
 
-AEM innehåller ett antal andra komponenter. Du kan alltid lägga till andra komponenter (som inte ingår som standard) i ditt projekt, eftersom de är kompatibla med AEM Screens.
+AEM innehåller flera andra komponenter. Du kan alltid lägga till andra komponenter (som inte ingår som standard) i ditt projekt, eftersom de är kompatibla med AEM Screens.
 
 I följande exempel visas hur en Livefyre-komponent läggs till i ett AEM Screens-projekt:
 
-1. Markera kanalen där du vill lägga till en ny komponent. Till exempel: **Store** > **Kanaler** > **Inaktiv kanal**.
+1. Markera kanalen där du vill lägga till en komponent. Till exempel: **`We.Retail In Store`** > **Kanaler** > **Inaktiv kanal**.
 
-1. Klicka **Redigera** i åtgärdsfältet för att öppna redigeraren.
+1. Välj **Redigera** i åtgärdsfältet.
 1. Välj **Design** läge.
-1. Markera hela designredigeraren till höger och klicka på inställningssymbolen för att öppna **ParSys Design** -dialogrutan.
+1. Markera hela designredigeraren till höger och välj inställningssymbolen så att du kan öppna **Parsys Design** -dialogrutan.
 1. Du kan välja vilka komponenter du vill importera till ditt AEM Screens-projekt. I följande exempel visas tillägget **Livefyre** till ett AEM Screens-projekt.
 
 ![adding_components](assets/adding_components.gif)
@@ -68,7 +64,7 @@ I följande avsnitt förklaras vilka AEM Screens-komponenter du kan använda i d
 
 >[!NOTE]
 >
->Om du vill visa egenskaperna för en komponent markerar du komponenten och klickar på hamsikonen för att öppna/visa egenskaper.
+>Om du vill visa egenskaperna för en komponent markerar du komponenten och väljer hammikonen för att öppna/visa egenskaper.
 
 ### Program {#application}
 
@@ -79,7 +75,7 @@ Programkomponenten har följande egenskaper:
 | **Egenskap** | **Beskrivning** |
 |---|---|
 | ***Programsökväg*** | Välj den absoluta sökvägen där programmet finns. |
-| ***Varaktighet (ms)*** | Välj varaktighet för programmet. Som standard är längden inställd på -1, vilket innebär att elementet körs för alltid (det vill säga ett enkelsidigt program). Om du ställer in varaktighetsvärdet >0 visas elementet för den angivna varaktigheten och fortsätter sedan till nästa. |
+| ***Varaktighet (millisekunder)*** | Välj varaktighet för programmet. Som standard är längden inställd på -1, vilket innebär att elementet körs för alltid (det vill säga ett enkelsidigt program). Om du ställer in varaktighetsvärdet >0 visas elementet för den angivna varaktigheten och fortsätter sedan till nästa. |
 
 I följande exempel visas hur du bäddar in en programkomponent tillsammans med förhandsgranskningen av dess egenskaper:
 
@@ -106,8 +102,8 @@ Komponenten Channel har följande egenskaper:
    <td>Välj den absoluta sökvägen där programmet finns.<br /> </td>
   </tr>
   <tr>
-   <td><strong><em>Varaktighet (ms)</em></strong></td>
-   <td>Markera kanalens hela längd. Om du anger längden som -1 anger du att den inbäddade kanalen kommer att köra hela längden i en viss kanal.</td>
+   <td><strong><em>Varaktighet (millisekunder)</em></strong></td>
+   <td>Markera kanalens hela längd. Om du anger längden som -1 anger du att den inbäddade kanalen körs i sin fulla längd i en viss kanal.</td>
   </tr>
  </tbody>
 </table>
@@ -129,8 +125,8 @@ Den inbäddade sidan har följande egenskaper:
    <td>Välj den här absoluta sökvägen där kanalen finns.<br /> </td>
   </tr>
   <tr>
-   <td><strong><em>Varaktighet (ms)</em></strong></td>
-   <td>Markera kanalens hela längd. Om du anger längden som -1 anger du att den inbäddade kanalen kommer att köra hela längden i en viss kanal.</td>
+   <td><strong><em>Varaktighet (millisekunder)</em></strong></td>
+   <td>Markera kanalens hela längd. Om du anger längden som -1 anger du att den inbäddade kanalen körs i sin fulla längd i en viss kanal.</td>
   </tr>
  </tbody>
 </table>
@@ -139,7 +135,7 @@ Den inbäddade sidan har följande egenskaper:
 
 >[!NOTE]
 >
->Se [Inbäddade sekvenser](embedded-sequences.md) under Redigeringsskärmar om du vill veta mer om inbäddade sekvenser.
+>Mer information om inbäddade sekvenser finns i [Inbäddade sekvenser](embedded-sequences.md) under Redigeringsskärmar.
 
 Med en inbäddad sekvens kan du lägga till en inbäddad sekvenskanal i den befintliga kanalen (med andra resurser).
 
@@ -156,21 +152,21 @@ Den inbäddade sekvensen har följande sidegenskaper:
    <td>Välj den absoluta sökvägen för den sekvens som du vill ta med i kanalen.<br /> </td>
   </tr>
   <tr>
-   <td><strong><em>Varaktighet (ms)</em></strong></td>
-   <td>Markera kanalens hela längd. Om du anger längden som -1 anger du att den inbäddade kanalen kommer att köra hela längden i en viss kanal.</td>
+   <td><strong><em>Varaktighet (millisekunder)</em></strong></td>
+   <td>Markera kanalens hela längd. Om du anger längden som -1 anger du att den inbäddade kanalen körs i sin fulla längd i en viss kanal.</td>
   </tr>
   <tr>
    <td><strong><em>Strategi</em></strong></td>
-   <td>Ställ in den på <strong>original</strong> eller <strong>enkel</strong>. Ange värdet till <strong>original</strong> betyder att efterföljande körning kommer att köras helt och hållet på varje cykel i den överordnade sekvensen. Det andra möjliga värdet är <strong>enkel</strong> och som bara visar ett objekt i efterföljande körningar (till exempel det första objektet i den första slingan, det andra objektet i den andra slingan och så vidare).</td>
+   <td>Ställ in den på <strong>original</strong> eller <strong>enkel</strong>. Ange värdet till <strong>original</strong> betyder att efterföljande körning körs helt och hållet på varje cykel i den överordnade sekvensen. Det andra möjliga värdet är <strong>enkel</strong>. Ett sådant värde visar bara en post i varje efterföljande körning. Det första objektet i den första slingan och det andra objektet i den andra slingan.</td>
   </tr>
  </tbody>
 </table>
 
 ### Dynamisk inbyggd sekvens {#dynamic-embedded-sequence}
 
-Med en dynamisk inbäddad sekvens kan du lägga till en sekvens som liknar den ovan nämnda förutom efter kanalroll.
+Med en dynamisk inbäddad sekvens kan du lägga till en sekvens som liknar den ovan nämnda, förutom efter kanalroll.
 
-Se [Inbäddade sekvenser](embedded-sequences.md) under Redigeringsskärmar om du vill veta mer om inbäddade sekvenser.
+Mer information om inbäddade sekvenser finns i [Inbäddade sekvenser](embedded-sequences.md) under Redigeringsskärmar.
 
 Den dynamiska inbäddade sekvensen har följande egenskaper:
 
@@ -185,36 +181,36 @@ Den dynamiska inbäddade sekvensen har följande egenskaper:
    <td>Ange kanalrollen.<br /> </td>
   </tr>
   <tr>
-   <td><strong><em>Varaktighet (ms)</em></strong></td>
-   <td>Markera kanalens hela längd. Om du anger längden som -1 anger du att den inbäddade kanalen kommer att köra hela längden i en viss kanal.</td>
+   <td><strong><em>Varaktighet (millisekunder)</em></strong></td>
+   <td>Markera kanalens hela längd. Om du anger längden som -1 anger du att den inbäddade kanalen körs i sin fulla längd i en viss kanal.</td>
   </tr>
   <tr>
    <td><strong><em>Strategi</em></strong></td>
-   <td>Ställ in den på <strong>original</strong> eller <strong>enkel</strong>. Ange värdet till <strong>original</strong> betyder att efterföljande körning kommer att köras helt och hållet på varje cykel i den överordnade sekvensen. Det andra möjliga värdet är <strong>enkel</strong> och som bara visar ett objekt i efterföljande körningar (till exempel det första objektet i den första slingan, det andra objektet i den andra slingan och så vidare).</td>
+   <td>Ställ in den på <strong>original</strong> eller <strong>enkel</strong>. Ange värdet till <strong>original</strong> betyder att efterföljande körning körs helt och hållet på varje cykel i den överordnade sekvensen. Det andra möjliga värdet är <strong>enkel</strong>. Ett sådant värde visar bara en post i efterföljande körningar. Det första objektet i den första slingan och det andra objektet i den andra slingan.</td>
   </tr>
  </tbody>
 </table>
 
 ### Experience Fragment {#experience-fragment}
 
-Med Experience Fragment kan ni lägga till ett upplevelsefragment (en grupp med en eller flera komponenter, inklusive innehåll och layout som kan refereras på sidor) i er AEM Screens-kanal. Dra och släpp komponenten AEM redigeraren och markera upplevelsefragmentet.
+Med ett Experience Fragment kan du lägga till ett Experience Fragment (en grupp med en eller flera komponenter, inklusive innehåll och layout som kan refereras på sidor) i din AEM Screens-kanal. Dra och släpp komponenten till AEM Editor och välj Experience Fragment.
 
-Mer information om hur du skapar ett upplevelsefragment och använder det i ett AEM Screens-projekt finns i [Använda upplevelsefragment](experience-fragments-in-screens.md).
+Mer information om hur du skapar en Experience Fragment och använder den i ett AEM Screens-projekt finns i [Använda upplevelsefragment](experience-fragments-in-screens.md).
 
 ![exp](assets/exp.gif)
 
 | **Egenskap** | **Beskrivning** |
 |---|---|
 | **Experience Fragment** |
-| ***Experience Fragment*** | Välj upplevelsefragmentet. |
-| ***Varaktighet*** | Markera hela varaktigheten för det upplevelsefragment som spelas upp i kanalen. |
+| ***Experience Fragment*** | Välj Experience Fragment. |
+| ***Varaktighet*** | Markera hela längden på Experience Fragment som spelas upp i kanalen. |
 | **Offlinekonfiguration** |
-| ***Bibliotek på klientsidan*** | Javascript- och CSS-filer. |
-| ***Statiska filer*** | Statiska filer som du kan lägga till som offlinekonfigurationer i ditt upplevelsefragment. |
+| ***Bibliotek på klientsidan*** | JavaScript- och CSS-filer. |
+| ***Statiska filer*** | Statiska filer som du kan lägga till som offlinekonfigurationer i din Experience Fragment. |
 
 >[!NOTE]
 >
->The **Bibliotek på klientsidan** och **Statiska filer** som du lägger till från den här komponenten kommer att läggas till i tillägg till redan konfigurerade **Bibliotek på klientsidan** och statiska filer som läggs till från upplevelsefragmenten **Egenskaper**.
+>The **Bibliotek på klientsidan** och **Statiska filer** som du lägger till från den här komponenten förutom redan konfigurerade **Bibliotek på klientsidan** och de statiska filer som läggs till från Experience Fragment **Egenskaper**.
 
 ### Bild {#image}
 
@@ -233,17 +229,17 @@ Bildresursen har tre flikar, nämligen **Bild**, **Tillgänglighet** och **Sekve
 | **Tillgänglighet** |
 | ***Alternativ text*** | Alternativ text till bilden. |
 | **Sekvens** |
-| ***Varaktighet*** | Som standard är längden inställd på *8 000 ms*. Om du vill ändra uppspelningstiden för bilden uppdaterar du **Varaktighet** fält. |
+| ***Varaktighet*** | Som standard är längden inställd på *8 000 millisekunder*. Om du vill ändra uppspelningstiden för bilden uppdaterar du **Varaktighet** fält. |
 
 ### Övergång {#transition}
 
-Med komponenten Transition kan du lägga till en övergång i skärmsprojektet.
+Med komponenten Övergång kan du lägga till en övergång i skärmsprojektet.
 
 I följande bild visas övergångskomponenten (som lagts till med dra och släpp) i redigeraren.
 
 ![screen_shot_2019-07-25at104237am](assets/screen_shot_2019-07-25at104237am.png)
 
-Markera övergångsikonen och klicka på **Konfigurera** (skiftnyckelsikon) för att öppna **Övergång** -dialogrutan. Den här dialogrutan innehåller tre flikar:
+Markera övergångsikonen och välj **Konfigurera** (skiftnyckelsikon) för att öppna **Övergång** -dialogrutan. Den här dialogrutan innehåller tre flikar:
 
 * **Övergång**
 * **Sekvens**
@@ -251,7 +247,7 @@ Markera övergångsikonen och klicka på **Konfigurera** (skiftnyckelsikon) för
 
 >[!NOTE]
 >
->Som standard är sekvensen inställd på 600 ms. Du kan uppdatera övergångssekvensen till ett annat värde med **Sekvens** -fliken.
+>Som standard är sekvensen inställd på 600 millisekunder. Du kan uppdatera övergångssekvensen till andra värden med **Sekvens** -fliken.
 
 ![övergång](assets/transition.gif)
 
@@ -285,7 +281,7 @@ Markera övergångsikonen och klicka på **Konfigurera** (skiftnyckelsikon) för
   </tr>
   <tr>
    <td><strong><em>Varaktighet</em></strong></td>
-   <td>Markera hela övergångstiden. Som standard är den inställd på 600 ms.</td>
+   <td>Markera hela övergångstiden. Standardinställningen är 600 millisekunder.</td>
   </tr>
   <tr>
    <td><strong>Aktivering</strong></td>
