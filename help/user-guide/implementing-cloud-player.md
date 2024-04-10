@@ -8,7 +8,7 @@ feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: 184168f5-6070-4c33-a2c5-5429061dac75
-source-git-commit: 2b865165793b1c0f90f1351518e41096a57ea2ff
+source-git-commit: 10375baae631d46e9003240149a3e16d5605e7b6
 workflow-type: tm+mt
 source-wordcount: '844'
 ht-degree: 0%
@@ -33,7 +33,7 @@ I det här avsnittet beskrivs hur du implementerar molnspelaren.
 
 Installationen av Cloud Player kan variera mellan olika plattformar. I allmänhet kan alla plattformar som har en modern webbläsare köra molnspelarprogrammet genom att följa dessa steg:
 
-1. Öppna webbläsaren och ange [molnspelarens URL](https://player.adobescreens.com) i adressfältet.
+1. Öppna webbläsaren och ange [molnspelarens URL](https://player.adobescreens.com/content/dam/universal-player/firmware.html) i adressfältet.
 1. Webbläsaren kontrollerar om molnspelaren är installerbar och visar sedan en installationsikon i adressfältet.
 
    ![bild](/help/user-guide/assets/cloud-player-install.png)
@@ -67,13 +67,13 @@ Så här gör du massetablering av molnspelaren på flera enheter:
 
 ## Massetablering i Chrome OS {#bulk-provisioning-chrome}
 
-Läs mer om massetablering i Chrome OS på [Installera Cloud Player på Chrome OS](https://main--screens-franklin-documentation--hlxscreens.hlx.page/updates/cloud-player/guides/chromeos-install-cloud-player).
+Läs mer om massetablering i Chrome OS på [Installera Cloud Player på Chrome OS](https://www.adobe.com/go/aem_screens_cloud_player_en).
 
 ## Konfiguration krävs för AEM instanser {#bulk-provisioning-config-aem}
 
 Beroende på vilken typ av AEM som används väljer du en av följande stödlinjer för att aktivera CORS b/w AEM &amp; cloud player:
-* [AEM On-Premises/AMS](https://main--screens-franklin-documentation--hlxscreens.hlx.live/updates/cloud-player/guides/cors-settings-aem-onpremandams)
-* [AEM Cloud Service](https://main--screens-franklin-documentation--hlxscreens.hlx.live/updates/cloud-player/guides/cors-settings-aem-cs)
+* [AEM On-Premises/AMS](https://www.adobe.com/go/aem_screens_cors_ams_en)
+* [AEM Cloud Service](https://www.adobe.com/go/aem_screens_cors_aemaacs_en)
 
 >[!NOTE]
 >
