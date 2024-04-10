@@ -1,17 +1,17 @@
 ---
-cloud: experience-cloud
+cloud: Experience Cloud
 product: experience manager
 audience: end-user
 user-guide-title: Hjälp med Adobe Experience Manager Screens
 breadcrumb-title: Användarhandbok om AEM Screens
-user-guide-description: Lär dig använda en lösning för digital signering som gör att du kan publicera dynamiska och interaktiva digitala upplevelser och interaktioner.
+user-guide-description: Lär dig använda en digital signeringslösning som gör att du kan publicera dynamiska och interaktiva digitala upplevelser och interaktioner.
 feature-set: Experience Manager Screens
 feature: Content
 role: User
-source-git-commit: 705540969c96d143294953d4fa391ad97a3aa0f5
+source-git-commit: 1e8beb9dfaf579250138d4a41eeec88cc81f2d39
 workflow-type: tm+mt
-source-wordcount: '522'
-ht-degree: 5%
+source-wordcount: '518'
+ht-degree: 1%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 5%
 + [Introduktion till skärmar](aem-screens-introduction.md)
 + Översikt och snabbstartsguide {#overview}
    + [Kickstart Guide](kickstart-for-aem-screens.md)
-   + [Guide till bästa praxis för skärmar](https://experienceleague.adobe.com/docs/experience-manager-screens/using/about-guide.html)
+   + [Guide till bästa praxis för skärmar](https://experienceleague.adobe.com/en/docs/experience-manager-screens/using/about-guide)
    + [Nyckeltermer](screens-glossary.md)
 + Grundläggande om nätverk för digitala signaturer {#digital-signage-network}
    + [Del 1: Projektroller och ansvarsområden](project-roles-responsibilities.md)
@@ -44,7 +44,7 @@ ht-degree: 5%
    + Klientspecifika överväganden {#installing-client}
       + [Chrome OS Player](implementing-chrome-os-player.md)
       + [Använda Chrome Player som ett tillägg för felsökning](using-chrome-player-as-an-extension.md)
-      + [Android Player](implementing-android-player.md)
+      + [Android](implementing-android-player.md)
       + [Windows Player](implementing-windows-player.md)
       + [Tizen Player](tizen-player.md)
       + [Cloud Player](implementing-cloud-player.md)
