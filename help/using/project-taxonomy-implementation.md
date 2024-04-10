@@ -4,9 +4,9 @@ seo-title: Project Taxonomy
 description: Den här sidan beskriver Project Taxonomy
 seo-description: The page describes Project Taxonomy
 exl-id: be0ad77a-e593-4c95-8a58-4e5ccb974fcf
-source-git-commit: 10a4918eeb56df5e8542bbc2e8806f766a86f781
+source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
 workflow-type: tm+mt
-source-wordcount: '361'
+source-wordcount: '272'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,7 @@ Tänk på följande innan du implementerar din digitala signeringslösning från
 * **Schemaläggning**
 * **Förhandsgranska innehållet**
 
-Mer information om dessa termer finns i [Ordlista](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/overview/screens-glossary.html?lang=en).
+Mer information om dessa villkor finns i [Ordlista](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/overview/screens-glossary.html?lang=en).
 
 >[!NOTE]
 >
@@ -35,7 +35,6 @@ Mer information om dessa termer finns i [Ordlista](https://experienceleague.adob
 >
 >* databas för maskinvaruresurser för att automatiskt fylla i ett skärmsprojekt
 >* textkonfigurationsfil som automatiskt pekar varje spelare mot en viss instans av en AEM
-
 
 ## Implementera ett AEM Screens-projekt {#creating-a-project}
 

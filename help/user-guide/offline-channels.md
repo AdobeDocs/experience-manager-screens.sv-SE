@@ -1,7 +1,7 @@
 ---
 title: Offlinekanaler
 seo-title: Offline Channels
-description: AEM Screens-spelaren ger offlinesupport för kanalerna genom att utnyttja tekniken ContentSync. Följ den här sidan för att lära dig mer om uppdateringshanterare och aktivering av offlinekonfiguration för en kanal.
+description: AEM Screens-spelaren ger offlinesupport för kanalerna genom att utnyttja tekniken ContentSync. Följ den här sidan om du vill veta mer om uppdateringshanterare och aktivera offlinekonfiguration för en kanal.
 seo-description: The AEM Screens player provides offline support for channels by leveraging the ContentSync technology. Follow this page to learn more about update handlers and enabling offline configuration for a channel.
 uuid: 18b9d175-ff26-42db-86aa-5ea978909f71
 contentOwner: Jyotika Syal
@@ -14,9 +14,9 @@ feature: Developing Screens
 role: Developer
 level: Intermediate
 exl-id: 5ad1046f-8b64-490b-9966-ce9008180d54
-source-git-commit: 707833ddd8ab2573abcac4e9a77ec88778624435
+source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
 workflow-type: tm+mt
-source-wordcount: '449'
+source-wordcount: '448'
 ht-degree: 1%
 
 ---
@@ -34,7 +34,7 @@ Arbetsflödet för processen är följande:
 1. Tolka de önskade sidorna
 1. Samla in alla relaterade resurser
 1. Paketera allt i en zip-fil
-1. Ladda ned zip-filen och extrahera den lokalt
+1. Hämta zip-filen och extrahera den lokalt
 1. Visa lokal kopia av innehållet
 
 ## Uppdatera hanterare {#update-handlers}
@@ -57,17 +57,17 @@ The ***ContentSync*** använder uppdateringshanterare för att analysera och sam
   <tr>
    <td>kanaler</td> 
    <td>samlar in en kanal</td> 
-   <td>tillägg: tillägg för resursen som ska samlas in<br /> [pathSuffix='']: suffix som ska läggas till i kanalsökvägen<br /> </td> 
+   <td>tillägg: tillägg för resursen som ska samlas in<br /> [pathSuffix='']: suffix att lägga till i kanalsökvägen<br /> </td> 
   </tr>
   <tr>
    <td>clientlib</td> 
-   <td>samla in det angivna klientbiblioteket</td> 
-   <td>[extension='']: kan vara antingen css eller js, för att endast samla in den första, eller bara den senare</td> 
+   <td>samla in angivet klientbibliotek</td> 
+   <td>[extension='']: kan vara antingen css eller js, för att bara samla in den första, eller bara den senare</td> 
   </tr>
   <tr>
    <td>assetrenditions</td> 
    <td>samla in resursåtergivningar</td> 
-   <td>[renditions=[]]: lista över återgivningar som ska samlas in. Standardvärdet är den ursprungliga återgivningen</td> 
+   <td>[renditions=[]]: lista över renderingar som ska samlas in. Standardvärdet är den ursprungliga återgivningen</td> 
   </tr>
   <tr>
    <td>copy</td> 
@@ -106,7 +106,7 @@ Följ stegen nedan för att aktivera offlinekonfiguration för en kanal:
 
    ![screen_shot_2017-12-19at122422pm](assets/screen_shot_2017-12-19at122422pm.png)
 
-   Klicka på knappen **Uppdatera offlineinnehåll**.
+   Innan innehållet distribueras till enheten klickar du på **Uppdatera offlineinnehåll**.
 
    ![screen_shot_2017-12-19at122637pm](assets/screen_shot_2017-12-19at122637pm.png)
 
@@ -120,4 +120,4 @@ Följ stegen nedan för att aktivera offlinekonfiguration för en kanal:
 
 >[!NOTE]
 >
->Mer information om mallen för anpassade offlineresurshanterare och minimikraven i `pom.xml` för det specifika projektet, se [Mall för anpassade hanterare](/help/user-guide/developing-custom-component-tutorial-develop.md#custom-handlers) in **Utveckla en anpassad komponent för AEM Screens**.
+>Mer information om mallen för anpassade offlineresurshanterare och minimikraven i `pom.xml` för just det projektet, se [Mall för anpassade hanterare](/help/user-guide/developing-custom-component-tutorial-develop.md#custom-handlers) in **Utveckla en anpassad komponent för AEM Screens**.

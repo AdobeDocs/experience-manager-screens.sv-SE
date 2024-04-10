@@ -9,9 +9,9 @@ feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: b40bcc9f-307c-422c-8abb-5c15965772d4
-source-git-commit: 2b865165793b1c0f90f1351518e41096a57ea2ff
+source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
 workflow-type: tm+mt
-source-wordcount: '519'
+source-wordcount: '491'
 ht-degree: 0%
 
 ---
@@ -97,7 +97,7 @@ I följande tabell sammanfattas grupperna med beskrivning och behörighet för e
    <td><strong>Behörigheter</strong></td>
   </tr>
   <tr>
-   <td>Skärmadministratörer<br /> <em>skärmadministratörer</em></td>
+   <td>Skärmadministratörer<br /> <em><code>screens-admins</code></em></td>
    <td>Åtkomst på administratörsnivå till AEM Screens-funktioner</td>
    <td>
     <ul>
@@ -110,29 +110,29 @@ I följande tabell sammanfattas grupperna med beskrivning och behörighet för e
     </ul> </td>
   </tr>
   <tr>
-   <td>Skärmanvändare<br /> <em>skärmanvändare</em></td>
+   <td>Skärmanvändare<br /> <em><code>screens-users</code></em></td>
    <td>Skapa och uppdatera kanaler och tidsplaner och tilldela till platser i AEM Screens</td>
    <td>
     <ul>
      <li>Medverkande</li>
-     <li>&lt;project&gt; /content/screens</li>
-     <li>&lt;project&gt; /content/dam</li>
-     <li>&lt;project&gt; /content/experience-fragments</li>
+     <li><code>&lt;project&gt; /content/screens</code></li>
+     <li><code>&lt;project&gt; /content/dam</code></li>
+     <li><code>&lt;project&gt; /content/experience-fragments</code></li>
     </ul> </td>
   </tr>
   <tr>
-   <td>Skärmoperatorer<br /> <em>skärmoperatorer</em></td>
+   <td>Skärmoperatorer<br /> <em><code>screens-operators</code></em></td>
    <td>Skapa och uppdatera platsstruktur och registrera spelare i AEM Screens</td>
    <td>
     <ul>
      <li>Medverkande</li>
-     <li>jcr:all /home/users/screens</li>
-     <li>jcr:all /home/groups/screens</li>
-     <li>&lt;project&gt; /content/screens</li>
+     <li><code>jcr:all /home/users/screens</code></li>
+     <li><code>jcr:all /home/groups/screens</code></li>
+     <li><code>&lt;project&gt; /content/screens</code></li>
     </ul> </td>
   </tr>
   <tr>
-   <td>Skärmspelare<br /> <em>skärmar-&lt;project&gt;-devices</em></td>
+   <td>Skärmspelare<br /> <em><code>screens-&lt;project&gt;-devices</code></em></td>
    <td>Grupperar alla spelare och alla spelare/enheter automatiskt.</td>
    <td><p> Medverkande</p> </td>
   </tr>

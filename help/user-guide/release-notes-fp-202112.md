@@ -5,9 +5,9 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: 3ff32a3d-9baf-4085-a775-bb5a76a1f5b3
-source-git-commit: 9d8b336c12d5e44beb831ba41f3df5031a6ca32d
+source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
 workflow-type: tm+mt
-source-wordcount: '313'
+source-wordcount: '318'
 ht-degree: 0%
 
 ---
@@ -15,21 +15,21 @@ ht-degree: 0%
 # Versionsinformation för funktionspaket 2012 {#release-notes-for-feature-pack}
 
 >[!CAUTION]
->Vi rekommenderar att du uppgraderar till den senaste versionen av Adobe Experience Manager (AEM). Skärmar har underhållsstöd för AEM 6.3 Screens-plattformen.
+>Du bör uppgradera till den senaste versionen av Adobe Experience Manager (AEM). Skärmar har underhållsstöd för AEM 6.3 Screens-plattformen.
 
 ## Tillgänglighet {#availability}
 
-AEM Screens har släppt AEM 6.5 Feature Pack 10.
+AEM Screens AEM 6.5 Feature Pack 10.
 
 Du kan ladda ned den senaste funktionspaketet för AEM Screens 6.5.10 från [Programdistributionsportal](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) med din Adobe ID. Navigera till **Adobe Experience Manager** flik och sök efter **Skärmar** för att få det senaste funktionspaketet med namnet **AEM 6.5 skärmar FP10**.
 
 ## Releasedatum {#release-date}
 
-Releasedatum för AEM Screens Feature Pack 20212 är 12 januari 2022.
+Releasedatum för AEM Screens Feature Pack 2012 är 12 januari 2022.
 
 ### Nyheter {#what-is-new}
 
-* Android-programuppdateringar har nu Android 11 som mål (API-nivå 30). Android-spelaren är för närvarande på API-nivå 29.
+* Android-programuppdateringar har nu Android 11 som mål (API-nivå 30). Android-spelaren är för närvarande på API-nivå 29 som mål.
 
 * Förhandsvisning av bildskärm har fastnat i den tidigare spelarkonfigurationen
 
@@ -57,7 +57,7 @@ Releasedatum för AEM Screens Feature Pack 20212 är 12 januari 2022.
 
 * Åtgärda samtidiga hämtningsfel i SmartSync.
 
-### Lanserade AEM Screens-spelare {#released-aem-screens-players}
+### Släppta AEM Screens-spelare {#released-aem-screens-players}
 
 Följande AEM Screens-spelare finns för AEM 6.5 Feature Pack 10:
 

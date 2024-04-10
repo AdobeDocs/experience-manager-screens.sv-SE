@@ -1,28 +1,24 @@
 ---
 title: Implementera fjärrkontrollen
-seo-title: Impementing the Remote Control
-description: Följ den här sidan om du vill veta mer om funktionen Fjärrkontroll för skärmar.
-seo-description: Follow  this page to learn about using the Screens Remote Control Feature.
-uuid: eee84286-fa81-475c-ad6f-db2d6cf1fed5
+description: Läs mer om funktionen Fjärrkontroll för skärmar i AEM Screens.
 contentOwner: jsyal
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: administering
-discoiquuid: 1be944f0-02ed-48c6-98bc-504d758ff866
 feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: 6cb2705e-83e6-46f3-bd71-6688d7edc11f
-source-git-commit: 6cd68194bf3128464ec368f3e7fd69d20925c3d6
+source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
 workflow-type: tm+mt
-source-wordcount: '354'
+source-wordcount: '351'
 ht-degree: 0%
 
 ---
 
 # Använda fjärrkontrollen till skärmar  {#implementing-remote-control}
 
-Fjärrstyrningsfunktionen gör det enklare att komma åt administratörsgränssnittet, kanalväljaren eller funktioner som Rensa cache och Läs in igen. Dessutom får du en metod för att se den lokala versionen av den inbyggda programvaran och systeminformationen om spelaren. Detta är särskilt användbart eftersom det kan vara svårt att ansluta en mus och arbeta på produktionsenheter som är utom räckhåll och ännu mer om spelaren tappar kontakten med AEM. Detta är också användbart när du använder Samsung RMS eftersom upplösningsskillnaden kan göra det mycket svårt att hitta och öppna administratörsgränssnittet med en mus.
+Fjärrstyrningsfunktionen gör det enklare att komma åt administratörsgränssnittet, kanalväljaren eller funktioner som Rensa cache och Läs in igen. Den ger dig även en metod för att se den lokala versionen av den inbyggda programvaran och systeminformationen om spelaren. Detta är särskilt användbart eftersom det kan vara svårt att ansluta en mus och arbeta på produktionsenheter som är utom räckhåll och ännu mer om spelaren tappar kontakten med AEM. Detta är också användbart när du använder Samsung RMS eftersom upplösningsskillnaden kan göra det svårt att hitta och öppna administratörsgränssnittet med en mus.
 
 ## Vanliga tangentkombinationer för fjärrstyrning {#using-common-remote-control}
 
@@ -42,16 +38,16 @@ Specifikt för Tizen-spelaren kan du använda antingen maskinvarans fjärr- elle
 1. C - Rensa cache
 1. D - Läs in spelare igen
 
-## Ytterligare användningsinformation {#using-additional-remote-control}
+## Mer användningsinformation {#using-additional-remote-control}
 
 1. När administratörsgränssnittet är öppet kan du använda upp- och nedpilarna för att navigera mellan flikarna och visa information på flikarna.
-1. När kanalväljaren är öppen kan du använda upp- och nedpilarna för att navigera i kanalerna och du kan trycka på Retur-tangenten (eller knappen i mitten av pilarna på fjärrkontrollen) för att växla kanaler.
+1. När kanalväljaren är öppen kan du använda upp- och nedpilarna för att navigera i kanalerna. Du kan också trycka på `Enter` (eller knappen i mitten av pilarna på fjärrkontrollen) för att växla mellan kanaler.
 
 I följande diagram visas nyckelanvändningen på en Samsung-fjärrdator:
 ![image](assets/tizen/remote.png)
 
 >[!NOTE]
->Om du anger enhetskonfigurationsvärdena för enableAdminUI och/eller enableOSD till false växlar inte fjärråtkomstgränssnittet och kanalväljaren. Du kan inte heller använda piltangenterna för att navigera i administratörens gränssnitt eller kanaler. Du kan dock fortfarande rensa cache och läsa in spelaren igen. Du kan inaktivera fjärrkontrollsfunktionen om någon av tangentbordskombinationerna hamnar i konflikt med ditt interaktiva innehåll med den här koden:
+>Om du anger enhetskonfigurationsvärdena för enableAdminUI och/eller enableOSD till false växlar inte fjärråtkomstgränssnittet och kanalväljaren. Du kan inte använda piltangenterna för att navigera i administratörens gränssnitt eller kanaler. Du kan dock rensa cacheminnet och läsa in spelaren igen. Du kan inaktivera fjärrkontrollsfunktionen om någon av tangentbordskombinationerna hamnar i konflikt med ditt interaktiva innehåll med den här koden:
 
 ```
 require(['util/ScreensDisplay'], function() {window.ScreensDisplay.ignoreRemoteControl = true;}); 

@@ -13,9 +13,9 @@ feature: Developing Screens
 role: Developer
 level: Intermediate
 exl-id: 7dc7d07e-cd94-4ce1-a106-98669be62046
-source-git-commit: ffc44dbf1822ff4d0e875ef693d48dece248d555
+source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
 workflow-type: tm+mt
-source-wordcount: '723'
+source-wordcount: '709'
 ht-degree: 0%
 
 ---
@@ -114,7 +114,7 @@ Följ stegen nedan för att integrera SPA med Adobe Analytics med offlinefunktio
 
 1. Anropa AEM Screens Analytics API för att spara händelsen offline och skicka den i bursts till Adobe Analytics.
 
-   Till exempel,
+   Exempel:
 
    ```
    handleClick() {

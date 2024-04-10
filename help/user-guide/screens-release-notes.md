@@ -13,9 +13,9 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: abeaed51-b18c-4366-93ef-4f05f33af649
-source-git-commit: 707833ddd8ab2573abcac4e9a77ec88778624435
+source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
 workflow-type: tm+mt
-source-wordcount: '246'
+source-wordcount: '251'
 ht-degree: 0%
 
 ---
@@ -24,13 +24,13 @@ ht-degree: 0%
 
 >[!CAUTION]
 >
->Vi rekommenderar att du uppgraderar till den senaste versionen av Adobe Experience Manager (AEM). Skärmar har underhållsstöd för AEM 6.3 Screens-plattformen.
+>Du bör uppgradera till den senaste versionen av Adobe Experience Manager (AEM). Skärmar har underhållsstöd för AEM 6.3 Screens-plattformen.
 
 AEM Screens har släppt AEM 6.4.2 Feature Pack 2 och AEM 6.3.3 Feature Pack 4 med följande information.
 
 ## Releasedatum {#release-date}
 
-Releasedatum för AEM Screens Feature Pack 201809 är 1 oktober 2018.
+Releasedatum för AEM Screens Feature Pack 2018 är 1 oktober 2018.
 
 ### Nyheter {#what-s-new}
 
@@ -45,7 +45,7 @@ Releasedatum för AEM Screens Feature Pack 201809 är 1 oktober 2018.
 
 * **Författare/Publicera distribution (Förbättring)**
 
-### Lanserade AEM Screens-spelare {#released-aem-screens-players}
+### Släppta AEM Screens-spelare {#released-aem-screens-players}
 
 Följande AEM Screens-spelare finns för AEM 6.4.2 Feature Pack 2 och AEM 6.3.3 Feature Pack 4:
 

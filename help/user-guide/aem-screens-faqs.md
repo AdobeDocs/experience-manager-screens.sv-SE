@@ -5,9 +5,9 @@ feature: Digital Signage, Content
 role: Developer
 level: Intermediate
 exl-id: 67204f04-5535-407c-bd4d-fabfbf850411
-source-git-commit: c142830a37461a36baae15f543bd43b0ae8a62a7
+source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
 workflow-type: tm+mt
-source-wordcount: '2123'
+source-wordcount: '2121'
 ht-degree: 0%
 
 ---
@@ -216,7 +216,7 @@ Inaktivera Livefyre för att undvika loggfel genom att göra följande.
 AEM Screens skapar indexdefinitioner för de frågor som används av produkten.
 Om det finns *Frågespårningsvarningar* i `error.log`skapar du ett anpassat index för din fråga. Se [Konfigurera index](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/deploying/deploying/queries-and-indexing#configuring-the-indexes) för mer information.
 
-Du kan även referera till en ytterligare resurs på [Oak Documentation](https://jackrabbit.apache.org/oak/docs/query/lucene.html).
+Du kan även se ytterligare en resurs på [Oak Documentation](https://jackrabbit.apache.org/oak/docs/query/lucene.html).
 
 
 ### 3. Vad krävs för att konfigurera v3-manifestet? {#configure-v3}

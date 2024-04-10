@@ -4,9 +4,9 @@ seo-title: Business Content Strategy for [!UICONTROL AEM Screens]
 description: Guiden beskriver affärsstrategin för innehåll
 seo-description: The guide describes Business Content Strategy
 exl-id: efb8ea95-62c0-41ed-9e67-23d76ad12a4c
-source-git-commit: 707833ddd8ab2573abcac4e9a77ec88778624435
+source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
 workflow-type: tm+mt
-source-wordcount: '429'
+source-wordcount: '428'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,7 @@ Fundera över hur skärmprogrammet kan bidra till att uppnå detta och faststäl
 >
 >Du måste tänka på att upplevelsen måste fungera offline med begränsad bandbredd.
 
-Du måste hänvisa till följande frågor som ska besvaras när du skapar en innehållsstrategi för ditt AEM Screens-projekt:
+Du måste få svar på följande frågor när du skapar en innehållsstrategi för ditt AEM Screens-projekt:
 
 * Vem är målgruppen och vad är den förväntade uppehållstiden?
 * Vilket innehåll behöver visas för dem?
@@ -40,9 +40,9 @@ Du måste hänvisa till följande frågor som ska besvaras när du skapar en inn
 * Vad är er uppdaterings- och uppgraderingsstrategi?
 * Hur ofta behövs nytt innehåll?
 
-   >[!NOTE]
-   >
-   >Under förförsäljningsfasen är det viktigt att börja ställa frågor inte bara om vilket innehåll som ska delas, utan även om var innehållsdata för närvarande finns och hur de ska användas i skärmsprojektet. Ni måste försöka fördjupa er i innehållet under implementeringen, men ni måste i förväg fastställa vilka data som är tillgängliga och i vilket format.
+  >[!NOTE]
+  >
+  >Under förförsäljningsfasen är det viktigt att börja ställa frågor inte bara om vilket innehåll som ska delas, utan även om var innehållsdata för närvarande finns och hur de ska användas i skärmsprojektet. Ni måste försöka fördjupa er i innehållet under implementeringen, men ni måste i förväg fastställa vilka data som är tillgängliga och i vilket format.
 
 ## Viktiga överväganden {#important-considerations}
 

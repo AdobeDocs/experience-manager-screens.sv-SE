@@ -8,9 +8,9 @@ feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: bb979a71-7235-429f-b520-6d85b8b666fa
-source-git-commit: c6506ca62e806ec11d3380d6ac7670bcfcf13adb
+source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
 workflow-type: tm+mt
-source-wordcount: '512'
+source-wordcount: '510'
 ht-degree: 0%
 
 ---
@@ -30,9 +30,8 @@ För nedladdning **AEM Screens Player**, går till [AEM 6.5 Player Downloads](ht
 >När du laddat ned den senaste spelaren (*.exe*) följer du stegen på spelaren för att slutföra ad hoc-installationen:
 >
 >1. Tryck länge på det övre vänstra hörnet för att öppna administrationspanelen.
->1. Navigera till **Konfiguration** från den vänstra åtgärdsmenyn och ange platsadressen för den AEM instansen i **Server** och klicka **Spara**.
+>1. Navigera till **Konfiguration** från den vänstra åtgärdsmenyn och ange platsadressen för AEM i **Server** och klicka **Spara**.
 >1. Klicka på **Registrering** från den vänstra åtgärdsmenyn och stegen nedan för att slutföra enhetsregistreringsprocessen.
-
 
 ## Grundläggande uppspelningsövervakning {#playback-monitoring}
 
@@ -40,7 +39,7 @@ Spelaren rapporterar olika uppspelningsmått för varje `ping` som standard är 
 
 Med grundläggande uppspelningsövervakning i en AEM Screens-spelare kan vi:
 
-* Fjärrövervaka om en spelare spelar upp innehållet på rätt sätt.
+* Fjärrövervaka om en spelare spelar upp innehållet korrekt.
 
 * Förbättra reaktiviteten till tomma skärmar eller trasiga upplevelser på fältet.
 
@@ -83,6 +82,6 @@ Mer information finns i följande avsnitt:
 
 * Om du vill hämta Android Player går du till **Google Play**. Mer information om hur du implementerar Android-övervakning finns i [Implementera Android-spelare](implementing-android-player.md).
 
-* För implementering av Chrome OS Player, se [Chrome Management Console](implementing-chrome-os-player.md) för mer information.
+* Information om hur du implementerar Chrome OS Player finns i [Chrome Management Console](implementing-chrome-os-player.md) för mer information.
 
-* Om du vill konfigurera AEM Screens Windows Player går du till [Implementera Windows Player](implementing-windows-player.md).
+* Information om hur du konfigurerar AEM Screens Windows Player finns i [Implementera Windows Player](implementing-windows-player.md).

@@ -1,22 +1,18 @@
 ---
 title: Versionsinformation för funktionspaket 201905
-seo-title: Release Notes for Feature Pack 201905
-description: Följ den här sidan för att få information om AEM Screens Feature Pack 201905 släppt den 16 maj 2019.
-seo-description: Follow this page to get information for AEM Screens Feature Pack 201905 released on May 16, 2019.
-uuid: ebbaa7bb-4672-4a07-bcb7-67a778c72db8
+description: Läs mer om AEM Screens Feature Pack 201905 som släpptes 16 maj 2019.
 contentOwner: jsyal
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 content-type: reference
 topic-tags: release-notes
-discoiquuid: 1209bd96-9de5-428e-a1b5-950507e66c0b
 docset: aem65
 feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: e4562547-2829-4a53-8e37-2cd637cef7c8
-source-git-commit: 707833ddd8ab2573abcac4e9a77ec88778624435
+source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
 workflow-type: tm+mt
-source-wordcount: '306'
+source-wordcount: '312'
 ht-degree: 0%
 
 ---
@@ -25,13 +21,13 @@ ht-degree: 0%
 
 >[!CAUTION]
 >
->Vi rekommenderar att du uppgraderar till den senaste versionen av Adobe Experience Manager (AEM). Skärmar har underhållsstöd för AEM 6.3 Screens-plattformen.
+>Du bör uppgradera till den senaste versionen av Adobe Experience Manager (AEM). AEM Screens har underhållsstöd för AEM 6.3 Screens Platform.
 
 AEM Screens har släppt AEM 6.3.3.3 Feature Pack 6 och AEM 6.4.4.0 Feature Pack 4 med följande information.
 
 ## Releasedatum {#release-date}
 
-Releasedatum för AEM Screens Feature Pack 201905 är 16 maj 2019.
+Releasedatum för AEM Screens Feature Pack 2019 är 16 maj 2019.
 
 ### Nyheter {#what-s-new}
 
@@ -49,24 +45,24 @@ Se **[Övergång från ContentSync till SmartSync](smartsync.md)** för mer info
 
 * **Nödkanal**
 
-I det här exemplet framhävs hur man skapar och hanterar en nödkanal som innehållsförfattaren kan växla från en sekvenskanal om ett förhandsvillkor föreligger.
+I det här exemplet med användningsexempel betonas hur du skapar och hanterar en nödkanal som innehållsförfattaren kan växla från en sekvenskanal om det finns ett förhandsvillkor.
 
 Se **[Nödkanal](emergency-channel.md)** Använd skiftläge om du vill ha mer information.
 
 * **Bädda in ett REACT-program med AEM SPA Editor och Integrera med AEM Screens Analytics**
 
-I det här avsnittet beskrivs hur du bäddar in en interaktiv single page-applikation med hjälp av REACT (eller Angular) med AEM redigerare som kan konfigureras av affärsfolk i AEM och hur du integrerar dina interaktiva applikationer med Adobe Analytics offline.
+I det här avsnittet beskrivs hur du bäddar in en interaktiv enkelsidig applikation med REACT (eller Angular) med AEM SPA. Redigeraren kan konfigureras av AEM. Här beskrivs också hur du integrerar dina interaktiva program med offline-Adobe Analytics.
 
 Se **[Bädda in ett REACT-program med AEM SPA Editor och Integrera med AEM Screens Analytics](embedding-react-app.md)** för mer information.
 
-### Lanserade AEM Screens-spelare  {#released-aem-screens-players}
+### Släppta AEM Screens-spelare
 
 Följande AEM Screens-spelare finns för AEM 6.3.3.3 Feature Pack 6 och AEM 6.4.4.0 Feature Pack 4:
 
 * ChromeOS
 * Windows
-* Android
+* Android™
 
-#### AEM Screens Player - nedladdningar  {#aem-screens-player-downloads}
+#### AEM Screens Player - nedladdningar
 
 Om du vill hämta den senaste AEM Screens-spelaren och läsa mer om felkorrigeringarna kan du läsa **[AEM Screens Player - nedladdningar](https://download.macromedia.com/screens/)**.

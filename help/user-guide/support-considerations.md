@@ -14,9 +14,9 @@ feature: Overview
 role: User, Data Architect
 level: Beginner
 exl-id: d1472137-c15f-44fb-89c3-d251a06c392b
-source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
+source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
 workflow-type: tm+mt
-source-wordcount: '598'
+source-wordcount: '608'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 0%
 
 Den här sidan belyser den avslutande delen i en 5-delsserie som utformats för att hjälpa teammedlemmarna att lära sig hur maskinvaru-, programvaru- och anslutningsproblem hanteras. I den här fasen undersöks kostnadsberäkningar och ramverk för support på plats. Dessutom beskrivs hur SLA-parametrar, driftsbudgetar och överlämningar från NOC hanteras.
 
-## Översikt {#overview}
+## Ökning {#overview}
 
 >[!NOTE]
 >
@@ -34,14 +34,14 @@ Den här sidan belyser den avslutande delen i en 5-delsserie som utformats för 
 >* Projektdistribution till fältet
 >* Verifiering av enhetsanslutning och drift mellan installationsteknikern och NOC (Network Operations Center)
 >
->Före dag 2 ska man planera för löpande livscykelbudgetar.
+>Före dag 2 ska man planera för de löpande budgetarna för livscykeln.
 
 Planeringen innehåller följande:
 
 * Åtgärdar maskinvaru-, programvaru- eller anslutningsfel
 * Balanserar problemlösningskostnaderna mot kundens affärskrav.
 * Identifiera den bästa metoden för att förmedla problem i nätverket.
-* Främja anpassningen mellan AEM och AV-integratorn vid upprättandet av supportplaner för dag 2
+* Främja anpassningen mellan AEM och AV-integratorn vid upprättande av supportplaner för dag 2
 
 ## Sammanfattning av viktiga överväganden som ingår i stöd för dag 2 {#summary-of-key-considerations-involved-in-day-support}
 
@@ -69,4 +69,4 @@ Följ den här självstudiekursen för att komma till en 5-delsserie nedan som b
 
 ## Slutsats {#conclusion}
 
-Dessa 5-delsserier fokuserar på viktiga faktorer för att projektet ska lyckas. Se andra avsnitt i användarhandboken för AEM Screens för mer information om implementeringen.
+Dessa 5-delsserier fokuserar på viktiga faktorer för att projektet ska lyckas. Se andra avsnitt i AEM Screens användarhandbok för mer information om implementeringen.

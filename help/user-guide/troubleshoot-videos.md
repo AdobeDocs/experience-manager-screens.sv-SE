@@ -1,28 +1,24 @@
 ---
 title: Konfiguration och felsökning av videouppspelning
-seo-title: Troubleshooting Videos
-description: Följ den här sidan för att lära dig hur du felsöker och felsöker videouppspelning i din kanal.
-seo-description: Follow this page to learn how to troubleshoot videos. When you upload a video to the DAM and add it your channel, you might encounter issues that video might not play in Screens player and this section describes how to debug and troubleshoot video playing in your channel.
-uuid: 825b2440-5626-40d5-8c93-7689c24474d4
+description: Lär dig hur du felsöker och felsöker videouppspelning i din kanal för AEM Screens.
 contentOwner: Jyotika Syal
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: troubleshoot
-discoiquuid: 65ecc6f1-ba0e-443f-85a1-ac19f9a52c2c
 feature: Channels, Interactive
 role: Developer
 level: Intermediate
 exl-id: dfdd58b6-689b-47ca-9459-9c205f1841eb
-source-git-commit: 707833ddd8ab2573abcac4e9a77ec88778624435
+source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
 workflow-type: tm+mt
-source-wordcount: '794'
-ht-degree: 0%
+source-wordcount: '798'
+ht-degree: 1%
 
 ---
 
 # Konfiguration och felsökning av videouppspelning {#video-playback-configuration-and-troubleshooting}
 
-När du överför en video till DAM och lägger till den i din kanal kan du stöta på problem som videon kanske inte kan spelas upp i skärmspelaren.
+När du överför en video till DAM och lägger till den i din kanal kan det uppstå problem där videon inte kan spelas upp i AEM Screens-spelaren.
 
 I följande avsnitt beskrivs hur du felsöker och felsöker videouppspelning i din kanal.
 
@@ -33,7 +29,7 @@ När du har överfört videon till kanalen bör AEM börja skapa vissa återgivn
 Så här visar du videon:
 
 1. Navigera till videon, till exempel `http://localhost:4502/assets.html/content/dam/we-retail/en/videos`.
-1. Klicka på videon och utöka den övre vänstra menyn och klicka på **Återgivningar**.
+1. Klicka på videon och expandera den övre vänstra menyn och klicka på **Återgivningar**.
 
 Det ska finnas olika renderingar (MP4 eller M4V).
 
@@ -47,7 +43,7 @@ Om det inte finns någon återgivning kontrollerar du att du har ffmpeg installe
 
 ## Videoresurser {#video-assets}
 
-Om du inte ser något källattribut under video kan det bero på att videon inte har transkodats. Om videon är korrekt transkodad visas den på kontrollpanelen, vilket visas i figuren nedan.
+Om du inte ser något källattribut under video kan det bero på att videon inte har transkodats. Om videon omkodas korrekt visas den på kontrollpanelen, vilket visas i följande exempel:
 
 Kontrollera att fmpeg är installerat och videoprofilerna.
 
@@ -59,9 +55,9 @@ Kontrollera att fmpeg är installerat och videoprofilerna.
 
    ![chlimage_1-3](assets/chlimage_1-3.png)
 
-1. Överför en testvideo och klicka på **OK** för att påbörja omkodningen.
+1. Överför en testvideo och klicka på **OK** så att du kan börja omkodningen.
 
-   Om omkodningen misslyckas expanderar du ffmpeg-utdata för att förstå eventuella fel i konsolutdata för ffmpeg.
+   Om den kodade videon misslyckas expanderar du ffmpeg-utdata för att förstå eventuella fel i konsolutdata för ffmpeg.
 
    ![chlimage_1-4](assets/chlimage_1-4.png)
 
@@ -71,7 +67,7 @@ Kontrollera att fmpeg är installerat och videoprofilerna.
 
    >[!NOTE]
    >
-   >Se till att du hinner koda om videon tillräckligt mycket innan du lägger till den i någon kanal (taggen ska visas ny i stället för att bearbetas).
+   >Se till att du hinner koda om videon tillräckligt mycket innan du lägger till den i någon kanal (den nya taggen ska visas i stället för att bearbetas).
 
 ### Kontrollera profil med en videokomponent {#checking-profile-with-a-video-component}
 
@@ -88,18 +84,17 @@ Kontrollera listan med profiler från siddesignen om videokomponenten inte är k
 
 ### Kontrollera videon i webbspelaren {#checking-the-video-in-the-web-player}
 
-Använd **Web Player** `http://localhost:4502/content/mobileapps/cq-screens-player/firmware.html/content/screens/we-retail/locations/demo/flagship/single/device0` för att validera uppspelningen i webbläsare (Chrome och Safari). Chrome används på Android-enheter medan Safari är OSX- och iOS-webbläsare.
+Använd **Web Player** `http://localhost:4502/content/mobileapps/cq-screens-player/firmware.html/content/screens/we-retail/locations/demo/flagship/single/device0` för att validera uppspelningen i webbläsare (Chrome och Safari). Chrome används på Android™-enheter medan Safari är OS X- och iOS-webbläsare.
 
-Om videon inte kan köras på Safari kommer den inte att köras i OSX- och iOS-spelare. Detta är antagligen ett kodningsproblem och videon måste kodas om.
+Om videon inte kan köras på Safari körs den inte heller i OS X- och iOS-spelare. Detta är troligen ett kodningsproblem och videon måste kodas om.
 
-Följ de här stegen för att använda ett DAM-arbetsflöde för att skapa FullHD-renderingar:
+Så här använder du ett DAM-arbetsflöde för att skapa FullHD-renderingar:
 
-1. Navigera till *administratör för arbetsflödesmodell*, det vill säga `http://localhost:4502/libs/cq/workflow/admin/console/content/models.html/etc/workflow/models`.
+1. Navigera till *administratör för arbetsflödesmodell* det är `http://localhost:4502/libs/cq/workflow/admin/console/content/models.html/etc/workflow/models`.
 1. Välj **Skärmar - uppdatera resurs** modell.
-1. klicka **Starta arbetsflöde** i åtgärdsfältet för att öppna **Kör arbetsflöde** -dialogrutan.
-
-1. Välj videoresurs i **Nyttolast**.
-1. Klicka **Kör**.
+1. Välj **Starta arbetsflöde** i åtgärdsfältet.
+1. Från **Kör arbetsflöde** väljer du din videoresurs i dialogrutan **Nyttolast**.
+1. Välj **Kör**.
 
 >[!NOTE]
 >
@@ -107,9 +102,9 @@ Följ de här stegen för att använda ett DAM-arbetsflöde för att skapa FullH
 
 #### Felsökning av flaggan för automatisk uppspelningsprincip {#troubleshooting-autoplay-policy-flag}
 
-Om AEM Screens-spelaren hämtar videon men inte visar den måste du felsöka flaggan för automatisk uppspelningspolicy.
+Om AEM Screens-spelaren hämtar videon men inte visar den felsöker du flaggan för automatisk uppspelningspolicy.
 
-Följ stegen nedan för att felsöka Googles problem med automatisk uppspelningspolicyflagga:
+Följ stegen nedan för att felsöka Google problem med automatisk uppspelningspolicy:
 
 1. Navigera till ***chrome://flags/#autoplay-policy***
 1. Ändra **Spela upp automatiskt** från **Standard** till **ingen användargest krävs**
@@ -118,7 +113,7 @@ Följ stegen nedan för att felsöka Googles problem med automatisk uppspelnings
 
 >[!NOTE]
 >
->Mer information om de bästa sätten att använda de nya automatiska uppspelningsprinciperna i Chrome finns i dokumentationen för *Spela upp principändringar automatiskt*, det vill säga `https://developers.google.com/web/updates/2017/09/autoplay-policy-changes#webaudio`.
+>Mer information om de bästa sätten att använda de nya automatiska uppspelningsprinciperna i Chrome finns i dokumentationen för *Spela upp principändringar automatiskt* på `https://developers.google.com/web/updates/2017/09/autoplay-policy-changes#webaudio`.
 
 ### Synkronisera video mellan flera spelare {#syncing-video-across-multiple-players}
 
@@ -134,9 +129,9 @@ Om du vill spela upp videofilmer synkront på flera enheter bör du använda den
 
 Den absoluta strategin:
 
-* beräknar en ankartid (midnatt den aktuella dagen)
-* beräknar sekvensens varaktighet (summan av längden för alla dess objekt)
-* beräknar när som helst vilket objekt som ska spelas upp och nästa objekt genom att lösa sekvensen _remain_time = (current_time - anchor_time) % sequence_duration.
+* Beräknar en fästpunktstid (midnatt den aktuella dagen).
+* Beräknar sekvensens varaktighet (summan av längden för alla dess objekt).
+* När som helst beräknas vilket objekt som ska spelas upp och nästa objekt genom att sekvensen _remain_time = (current_time - anchor_time) % sequence_duration löses.
 
 Följ stegen nedan för att konfigurera en absolut strategi:
 
@@ -149,9 +144,9 @@ Följ stegen nedan för att konfigurera en absolut strategi:
    >[!NOTE]
    >Spelarnas operativsystem måste ha samma klocka.
 
-**Justera klockor i OS X** Följ stegen nedan för att justera klockorna i OSX:
+**Justera klockor i OS X** Följ stegen nedan för att justera klockorna i OS X:
 
-1. Öppna **Datum och tid** inställningar för varje OSX-ruta
+1. Öppna **Datum och tid** inställningar för varje OS X-ruta
 1. Kontrollera **Ange datum och tid automatiskt**
 1. Klistra in värdet 0.pool.ntp.org, 1.pool.ntp.org, 2.pool.ntp.org, 3.pool.ntp.org, time.apple.com i listrutan eller kör bara *sudo ntpdate -u -v 0.pool.ntp.org*
 1. Starta 2+ spelare

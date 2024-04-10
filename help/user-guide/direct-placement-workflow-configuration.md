@@ -1,11 +1,9 @@
 ---
 title: Arbetsflödeskonfiguration för direktplacering
-seo-title: Direct Placement Workflow Configuration
 description: På den här sidan visas arbetsflödeskonfiguration för direktplacering.
-seo-description: This page highlights Direct Placement Workflow Configuration.
-source-git-commit: d1adadbab2cb13626dd8ce70deacced9f55aa4c9
+source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
 workflow-type: tm+mt
-source-wordcount: '195'
+source-wordcount: '190'
 ht-degree: 0%
 
 ---
@@ -13,7 +11,7 @@ ht-degree: 0%
 
 # Arbetsflödeskonfiguration för direktplacering {#direct-placement-workflow}
 
-Följ den här sidan om du vill veta mer om hur du konfigurerar ett resursarbetsflöde som gör att du kan infoga en resurs i en fördefinierad AEM Screens-kanal via programmering.
+Följ den här sidan så att du kan lära dig mer om hur du konfigurerar ett resursarbetsflöde som gör att du kan infoga en resurs programmatiskt i en fördefinierad AEM Screens-kanal.
 
 Detta avsnitt behandlar följande ämnen:
 
@@ -22,7 +20,7 @@ Detta avsnitt behandlar följande ämnen:
 
 ## Ökning {#overview}
 
-Arbetsflödeskonfiguration för direktplacering mappar en AEM Screens-projektkanal till en viss mapp i resurser och gör det möjligt att placera resurser i den mappen. Vi rekommenderar att du aktiverar en satsvis offlineuppdatering för att slutföra publiceringen.
+Arbetsflödeskonfiguration för direktplacering mappar en AEM Screens-projektkanal till en viss mapp i resurser och gör det möjligt att placera resurser i den mappen. Adobe rekommenderar att du aktiverar en bulkuppdatering offline för att slutföra publikationen.
 
 Som innehållsförfattare kan du också klicka manuellt **Uppdatera offlineinnehåll**.
 
@@ -34,11 +32,11 @@ Som innehållsförfattare kan du också klicka manuellt **Uppdatera offlineinneh
 
 >[!IMPORTANT]
 >
->Innan du startar konfigurationen måste du installera [Demonspaket](https://github.com/godanny86/screens-demo/releases/download/v.0.0.1/screens-demo.all-1.0-SNAPSHOT.zip). När du har installerat paketet kan du visa det och få åtkomst till det från AEM > Verktyg (ikon) > **Arbetsflöde** > **Arbetsflödesmodeller**.
+>Innan du startar konfigurationen måste du installera `[Demo  Package](https://github.com/godanny86/screens-demo/releases/download/v.0.0.1/screens-demo.all-1.0-SNAPSHOT.zip)`. När du har installerat paketet kan du visa det och få åtkomst till det från AEM > Verktyg (ikon) > **Arbetsflöde** > **Arbetsflödesmodeller**.
 
 Följ stegen nedan för att konfigurera arbetsflödet för direktplacering:
 
-1. Navigera till AEM Screens från din AEM och skapa ett skärmsprojekt med namnet **Resursarbetsflöde**.
+1. Navigera till AEM Screens från AEM och skapa ett skärmsprojekt med namnet **Resursarbetsflöde**.
 
 1. Skapa en kanal med namnet som **Arbetsflöden - resurser** under **Kanaler** mapp.
 

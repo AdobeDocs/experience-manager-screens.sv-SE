@@ -10,9 +10,9 @@ feature: Administering Screens, Android Player
 role: Admin
 level: Intermediate
 exl-id: d1331cb8-8bf6-4742-9525-acf18707b4d8
-source-git-commit: c0fa0717034e5094108eb1e23d4e9f1f16aeb57e
+source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
 workflow-type: tm+mt
-source-wordcount: '1464'
+source-wordcount: '1462'
 ht-degree: 0%
 
 ---
@@ -168,7 +168,7 @@ I följande tabell sammanfattas principattributen med en exempelpolicy-JSON för
 ```
 
 >[!NOTE]
->Alla Android™-enheter har en `*sdcard*` mapp om en faktisk `*sdcard*` infogas eller inte. Den här filen är på samma nivå som mappen Hämtningar när den distribueras. Vissa MDM-moduler som Samsung Knox kan referera till detta *sdcard* mappsökväg som *Intern lagring*.
+>Alla Android™-enheter har en `*sdcard*` mapp om en faktisk `*sdcard*` infogas eller inte. Den här filen är på samma nivå som mappen Hämtningar när den distribueras. Vissa MDM-moduler, som Samsung Knox, kan se detta *sdcard* mappsökväg som *Intern lagring*.
 
 ## Massetablering av Android™ Player med Enterprise Mobility Management {#bulk-provisioning}
 

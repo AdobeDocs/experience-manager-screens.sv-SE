@@ -4,9 +4,9 @@ seo-title: Considerations as Projects are Scoped
 description: Sidan beskriver överväganden när projekt är omfång
 seo-description: The page describes Considerations as Projects are Scoped
 exl-id: 6e27b0f1-3c31-4d9b-8fa2-b4ec2e9bf7b0
-source-git-commit: 707833ddd8ab2573abcac4e9a77ec88778624435
+source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
 workflow-type: tm+mt
-source-wordcount: '288'
+source-wordcount: '282'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ I det här skedet identifieras och sammanförs nyckelleverantörer för att hjä
 
 ## Viktiga slutprodukter {#key-deliverables}
 
-Bland huvudresultaten finns följande:
+De viktigaste produkterna i detta skede är:
 
 * Godkänd projektplan (inklusive arbetets omfattning, projektschema och budget) med inköp från viktiga intressenter.
 * Definierade team med tydliga roller och tydligt ansvar.
@@ -33,4 +33,4 @@ Bland huvudresultaten finns följande:
 >
 >Identifiera de data som behövs för programmet och varifrån de kommer så snart som möjligt. Medan djupare utforskning sker under implementeringen kan du ta tid under *Dag noll* för att ta reda på vilka data klienten har för avsikt att använda, var dessa data lagras för närvarande och hur de kan nås av det program som byggs. Genom att meddela utvecklingsteamet i förväg om utmaningar som kan komma att uppstå kommer implementeringen att gå smidigare.
 
-Se videosjälvstudiekursen om [Att tänka på när projekt är omfång](https://helpx.adobe.com/experience-manager/6-5/screens/using/project-considerations.html) för mer information.
+Se videosjälvstudiekursen på [Att tänka på när projekt är omfång](https://helpx.adobe.com/experience-manager/6-5/screens/using/project-considerations.html) för mer information.

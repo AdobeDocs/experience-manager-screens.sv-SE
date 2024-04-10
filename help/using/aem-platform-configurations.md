@@ -1,13 +1,11 @@
 ---
 title: AEM plattformskonfigurationer
-seo-title: AEM Platform Configurations
 description: Sidan beskriver AEM plattformskonfigurationer
-seo-description: The page describes AEM Platform Configurations
 exl-id: cfe1769b-4da2-430d-a7b1-10dbcaf9f51b
-source-git-commit: 707833ddd8ab2573abcac4e9a77ec88778624435
+source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
 workflow-type: tm+mt
-source-wordcount: '513'
-ht-degree: 18%
+source-wordcount: '447'
+ht-degree: 2%
 
 ---
 
@@ -17,41 +15,42 @@ ht-degree: 18%
 >
 >En typisk intressent för den här aktiviteten är en AEM implementerare.
 
-Följ avsnitten nedan för att konfigurera AEM plattformskonfigurationer för att komma igång med AEM Screens.
+Kom igång med AEM Screens genom att följa avsnitten nedan för att konfigurera AEM plattformskonfigurationer
 
 ## Serverkonfigurationer {#server-configurations}
 
-Information om hur du konfigurerar servrar finns i [Serverkonfigurationer](https://helpx.adobe.com/experience-manager/6-5/screens/using/configuring-screens-introduction.html#ServerConfiguration).
+Information om hur du konfigurerar servrar finns i [Serverkonfigurationer](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/administering/configuring-screens-introduction#ServerConfiguration).
 
 ## Författare-Publicera {#author-publish}
 
-Om du vill konfigurera författarpublicering, se [Konfigurera författare och publicera i AEM Screens](https://helpx.adobe.com/se/experience-manager/6-5/screens/using/author-and-publish.html)
+Se [Konfigurera författare och publicera i AEM Screens](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/administering/author-publish/author-and-publish).
 
 >[!NOTE]
 >
->Om det bara finns en författare och en publicering behöver du bara följa stegen under **Konfigurera replikeringsagenter på författare** på sidan [Konfigurera redigering och publicering i AEM Screens](https://helpx.adobe.com/se/experience-manager/6-5/screens/using/author-and-publish.html).
+>Om det bara finns en författare och en publicering följer du bara stegen under **Konfigurera replikeringsagenter på författare** in [Konfigurera författare och publicera i AEM Screens](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/administering/author-publish/author-and-publish) sida.
 
 ## Dispatcher Configurations {#dispatcher-configurations}
 
-Dispatcher är Adobe Experience Managers verktyg för cachelagring och/eller belastningsutjämning. AEM:s Dispatcher skyddar också AEM-servern mot angrepp. Därför kan du öka säkerheten för din AEM-instans genom att använda Dispatcher tillsammans med en företagswebbserver.
+Dispatcher är ett Adobe Experience Manager verktyg för cachelagring och lastbalansering. AEM:s Dispatcher skyddar också AEM-servern mot angrepp. Därför kan du öka säkerheten för AEM genom att använda Dispatcher med en webbserver i företagsklass.
 
-Se **[Dispatcher Configurations for AEM Screens](https://helpx.adobe.com/experience-manager/6-5/screens/using/dispatcher-configurations-aem-screens.html)** som belyser riktlinjer för konfigurering av dispatcher för ett AEM Screens-projekt.
+Se **[Dispatcher Configurations for AEM Screens](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/administering/dispatcher-configurations-aem-screens)** som innehåller riktlinjer för hur du konfigurerar Dispatcher för ett AEM Screens-projekt.
 
 ## Installera FFMpeg och videoåtergivningar {#installing-ffmpeg}
 
 Installera FFMpeg genom att följa stegen för lämpligt operativsystem (vanligen RHEL):
 
 1. Om du installerar genom att aktivera EPEL och RPMFusion kan du installera alla gstreamer-kodekar för att bredda stödet för FFmpeg-konverteringar
-1. Om AAC-kodeken markeras som experimentell misslyckas ffmpeg-konverteringarna. För att undvika detta lägger du till -strict -2 i videoprofilerna (/etc/dam/video i AEM 6.3 och flyttar till /libs/settings/dam/video i AEM 6.4)
+1. Om AAC-kodeken markeras som experimentell misslyckas ffmpeg-konverteringarna. För att undvika det här tillägget `-strict -2` till videoprofilerna (/etc/dam/video i AEM 6.3 och flyttad till /libs/settings/dam/video i AEM 6.4)
+
    >[!NOTE]
    >
-   > Observera att -strict -2 måste vara den sista parametern i parameterlistan. I AEM 6.4 måste du dessutom kopiera noderna under */libs/settings/dam/video* till */conf/global/settings/dam/video* som anges i [Videoåtergivningar](https://helpx.adobe.com/experience-manager/6-5/screens/using/generating-renditions.html).
+   >The `-strict -2` måste vara den sista parametern i parameterlistan. I AEM 6.4 måste du dessutom kopiera noderna under */libs/settings/dam/video* till */conf/global/settings/dam/video* som anges i [Videoåtergivningar](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/authoring/product-features/generating-renditions).
 1. Kontrollera att videokonverteringar pågår och att återgivningar skapas.
 
 ## Lösenordsbegränsningar {#password-restrictions}
 
-Lösenordsprincipen för AEM måste inaktiveras för AMS-instansen. Detta kan konfigureras växelvis i webbkonsolen med hjälp av enhetstjänsten Skärmar *com.adobe.cq.screens.device.impl.DeviceService*
-Se **Lösenordsbegränsningar** avsnitt i[Konfigurera författare och publicera i AEM Screens](https://helpx.adobe.com/se/experience-manager/6-5/screens/using/author-and-publish.html)
+Lösenordsprincipen för AEM måste inaktiveras för AMS-instansen. Detta kan konfigureras växelvis i webbkonsolen med enhetstjänsten Skärmar *com.adobe.cq.screens.device.impl.DeviceService*
+Se **Lösenordsbegränsningar** avsnitt i[Konfigurera författare och publicera i AEM Screens](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/administering/author-publish/author-and-publish)
 
 ## Konfigurera miljöer {#setting-up-environments}
 
@@ -62,14 +61,14 @@ Installera och kör de senaste versionerna av följande paket för din version a
 * AEM Kumulativt korrigeringspaket
 
 Förutom ovanstående bör du även identifiera eventuella utvecklingspaket (till exempel WCM Core-komponenter) eller tredjepartsverktyg (till exempel SAP Hybris) som krävs.
-Installera samma programvarupaket i dina lokala utvecklingsmiljöer. Instruera klienten att använda samma konfiguration på alla QA-, Stage- och Production-servrar. Serverkonfigurationer som inte matchar skapar problem vid distribution och testning.
+Installera samma programvarupaket på den lokala utvecklingsmiljön. Instruera klienten att använda samma konfiguration på alla QA-, Stage- och Production-servrar. Felmatchade serverkonfigurationer skapar problem vid distribuering och testning.
 
 >[!NOTE]
 >
->Information om hur du installerar det senaste funktionspaketet för AEM Screens finns i [Versionsinformation](https://helpx.adobe.com/experience-manager/6-5/screens/user-guide.html?topic=/experience-manager/6-5/screens/morehelp/release-notes.ug.js).
+>Information om hur du installerar det senaste funktionspaketet för AEM Screens finns i [Versionsinformation](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/aem-screens-introduction).
 
 ## Konfigurera åtkomstkontrollistor {#setting-up-acls}
 
 När du konfigurerar åtkomstkontrollistor beskrivs hur du skiljer ut projekt så att varje enskild person eller grupp hanterar sitt eget projekt.
 
-Se [Konfigurera åtkomstkontrollistor](https://helpx.adobe.com/experience-manager/6-5/screens/using/setting-up-acls.html) för mer information.
+Se [Konfigurera åtkomstkontrollistor](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/administering/setting-up-acls) för mer information.

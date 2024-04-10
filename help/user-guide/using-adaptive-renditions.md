@@ -2,9 +2,9 @@
 title: Använda adaptiva renderingar i AEM Screens
 description: På den här sidan beskrivs hur du använder adaptiva renderingar i AEM Screens.
 exl-id: e7f68ed4-73c3-492a-b33a-dd915ef1f8be
-source-git-commit: cd26f77b9b41a5854aaa1f936abed3b410533684
+source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
 workflow-type: tm+mt
-source-wordcount: '561'
+source-wordcount: '558'
 ht-degree: 0%
 
 ---
@@ -21,12 +21,12 @@ Som AEM Screens Content Author kan du nu konfigurera enhetsspecifika materialåt
 När en utvecklare lägger till egenskaperna och reglerna för renderingsmappning är du nu redo att tillämpa renderingsmappningen på resurser och sedan inkludera dem i en AEM Screens-kanal.
 
 >[!IMPORTANT]
->Innan du börjar använda adaptiva renderingar i en AEM Screens-kanal bör du läsa mer om den här funktionens arkitektoniska översikt och konfiguration. Se [Adaptiva renderingar: Arkitektöversikt och konfigurationer](/help/user-guide/adaptive-renditions.md) för mer information.
+>Innan du börjar använda adaptiva renderingar i en AEM Screens-kanal bör du läsa mer om den här funktionens arkitektoniska översikt och konfiguration. Se [Adaptiva renderingar: Arkitektur - översikt och konfigurationer](/help/user-guide/adaptive-renditions.md) för mer information.
 
 ## Använda adaptiva renderingar i kanaler {#using-adaptive-renditions}
 
 >[!NOTE]
->När du har lagt till [återgivningsmappningsegenskapen till skärpeprojektet](/help/user-guide/adaptive-renditions.md#rendition-mapping-new) och [regler för återgivningsmappning](/help/user-guide/adaptive-renditions.md#add-rendition-mapping-rules)som innehållsförfattare är du nu redo att använda återgivningarna på dina resurser.
+>När du har lagt till [återgivningsmappningsegenskapen till skärpeprojektet](/help/user-guide/adaptive-renditions.md#rendition-mapping-new) och [regler för renderingsmappning](/help/user-guide/adaptive-renditions.md#add-rendition-mapping-rules)som innehållsförfattare är du nu redo att använda återgivningarna på dina resurser.
 
 ### Använda återgivningar på resurser {#apply-renditions-assets}
 
@@ -55,7 +55,7 @@ Följ stegen nedan för att tillämpa renderingar på resurserna som du vill anv
 ## Migreringsstrategi {#migration-strategy}
 
 >[!IMPORTANT]
->För stora nätverk rekommenderar vi att migreringen görs gradvis för att minska riskerna eftersom funktionen kommer att medföra förändringar i manifest- och fillagringsformatet. Lägga till `sling:configRef` till hela projektet med att alla spelare har uppdaterats till Feature Pack 6.5.9. Om du har uppdaterat några av spelarna måste du lägga till `sling:configRef` endast till de skärmar, platser eller kanalmappar där alla spelare har uppdaterats till Feature Pack 6.5.9.
+>För stora nätverk rekommenderar vi att migreringen görs gradvis för att minska riskerna eftersom funktionen kommer att medföra förändringar i manifest- och fillagringsformatet. Lägga till `sling:configRef` till hela projektet med att uppdatera alla spelare till Feature Pack 6.5.9. Om du har uppdaterat några spelare måste du lägga till `sling:configRef` endast till de skärmar, platser eller kanalmappar där alla spelare har uppdaterats till Feature Pack 6.5.9.
 
 I följande diagram visas migreringsstrategin för stora nätverk:
 
@@ -66,7 +66,7 @@ Om du vill aktivera funktionen lägger du till minst en mappningsregel och kontr
 1. Lägg till [Regler för återgivningsmappning](/help/user-guide/adaptive-renditions.md).
 1. Skapa en mapp för nya kanaler och lägg till en referenspunkt vid återgivningsmappningskonfigurationen.
 1. Skapa nya kanaler som ersätter de gamla och överför renderingar.
-1. Tilldela om skärmar till de nya kanalerna.
+1. Tilldela om skärmar till nya kanaler.
 1. Lägg till en referens till de migrerade skärmarna eller platserna som pekar på återgivningsmappningskonfigurationen.
 1. Upprepa steg 3, 4 och 5 för alla återstående kanaler och skärmar.
 

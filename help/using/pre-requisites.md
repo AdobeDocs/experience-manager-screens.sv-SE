@@ -2,9 +2,9 @@
 title: Förutsättningar [!UICONTROL AEM Screens]
 description: Läs vad som krävs innan du påbörjar ett AEM Screens-projekt.
 exl-id: ff305a6c-02cb-4c06-a457-9a22f525fab5
-source-git-commit: 299018986ae58ecbdb51a30413222a9682fffc76
+source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
 workflow-type: tm+mt
-source-wordcount: '552'
+source-wordcount: '550'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ Se följande självstudiekurser och resurser så att du kan lära dig Adobe Expe
 
 ## Lär dig produktfunktioner och personligheter i AEM Screens {#product-features}
 
-Läs mer om grunderna i ett AEM Screens-projekt i följande resurser:
+Om du vill lära dig grunderna i ett AEM Screens-projekt kan du läsa resurserna nedan:
 
 * **[AEM Screens Användarhandbok](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/aem-screens-introduction)**: Innehåller detaljerad dokumentation om funktioner och funktioner för olika personer som används i ett AEM Screens-projekt.
 

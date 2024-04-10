@@ -5,21 +5,21 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: 570003d8-216d-4dcf-b03e-3a0dde818a43
-source-git-commit: a6708e1d91383c076ed822b50b9f37de163361c8
+source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
 workflow-type: tm+mt
-source-wordcount: '263'
-ht-degree: 1%
+source-wordcount: '265'
+ht-degree: 0%
 
 ---
 
 # Versionsinformation för funktionspaket 2012 {#release-notes-for-feature-pack}
 
 >[!CAUTION]
->Vi rekommenderar att du uppgraderar till den senaste versionen av Adobe Experience Manager (AEM). Skärmar har underhållsstöd för AEM 6.3 Screens-plattformen.
+>Du bör uppgradera till den senaste versionen av Adobe Experience Manager (AEM). Skärmar har underhållsstöd för AEM 6.3 Screens-plattformen.
 
 ## Tillgänglighet {#availability}
 
-AEM Screens har släppt AEM 6.5 Feature Pack 11.
+AEM Screens AEM 6.5 Feature Pack 11.
 
 Du kan hämta det senaste funktionspaketet för AEM Screens 6.5.11 från [Programdistributionsportal](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) med din Adobe ID. Navigera till **Adobe Experience Manager** flik och sök efter **Skärmar** för att få det senaste funktionspaketet med namnet **AEM 6.5 skärmar FP11**.
 
@@ -45,9 +45,9 @@ Den här versionen innehåller endast felkorrigeringar.
 
 * Användargränssnittet Spelaraktivitet fungerar nu som förväntat.
 
-* Spelaren kunde inte hämta den senaste uppdateringen via Hantera publikation. Den här är nu lagad.
+* Spelaren kunde inte hämta den senaste uppdateringen genom att hantera publikationen. Den här är nu lagad.
 
-### Lanserade AEM Screens-spelare {#released-aem-screens-players}
+### Släppta AEM Screens-spelare {#released-aem-screens-players}
 
 Följande AEM Screens-spelare finns för AEM 6.5 Feature Pack 11:
 

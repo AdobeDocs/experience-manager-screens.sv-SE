@@ -1,12 +1,12 @@
 ---
 title: Konfigurera agenter för skärmreplikering
-description: Följ den här sidan för att få information om hur du konfigurerar agenter för skärmreplikering.
+description: Lär dig hur du konfigurerar agenter för skärmreplikering.
 role: Developer
 level: Intermediate
 exl-id: 40877547-5027-41eb-8d66-d4a2d7b9af70
-source-git-commit: d1adadbab2cb13626dd8ce70deacced9f55aa4c9
+source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
 workflow-type: tm+mt
-source-wordcount: '498'
+source-wordcount: '464'
 ht-degree: 3%
 
 ---
@@ -20,99 +20,98 @@ På följande sida beskrivs hur du konfigurerar Screens Replication Agents.
 Agenten för skärmreplikering ansvarar för att hämta kommandodata som, *användare*, *lösenord*, *rebootSchedule*, *maxNumberOfLogFilesToKeep* och många fler sådana värden, från publicera till författare. Det är viktigt att konfigurera detta så att författaren kan visa enhetsping.
 
 >[!NOTE]
->Mer information om agenter för skärmreplikering finns i [Skärmreplikeringsagenter och kommandon](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/administering/author-publish/author-publish-architecture-overview.html?lang=en#screens-replication-agents-and-commands).
+>Mer information om agenter för skärmreplikering finns i [Skärmreplikeringsagenter och kommandon](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/administering/author-publish/author-publish-architecture-overview#screens-replication-agents-and-commands).
 
-Du måste slutföra båda sektionerna för att slutföra konfigurationen för skärmreplikeringsagenten:
+Fyll i båda avsnitten om du vill slutföra konfigurationen för skärmreplikeringsagenten:
 
 1. [Aktivera användare och uppdatera lösenordet](#enable-users)
 1. [Uppdaterar inställningar för skärmreplikeringsagenten](#replicate-agent)
 
 ## Aktivera användare och uppdatera lösenordet {#enable-users}
 
-Följ stegen nedan för att aktivera användare och uppdatera lösenordet för skärmmottagare-användare:
+Följ stegen nedan för att aktivera användare och uppdatera lösenordet för `screens-receiver-user`:
 
 >[!NOTE]
->Av säkerhetsskäl bör du undvika att använda administratörslösenordet för skärmmottagare-användare.
+>Av säkerhetsskäl bör du undvika att använda adminlösenordet för `screens-receiver-user`.
 
 1. Navigera till AEM Author-instansen.
 
-1. Klicka på verktygen > **Säkerhet** > **Användare**.
+1. Klicka på verktyg > **Säkerhet** > **Användare**.
 
    ![bild](/help/user-guide/assets/screens-replication/screens-replication1.png)
 
-1. Sök efter **screens-receiver-user**.
+1. Sök efter **`screens-receiver-user`**.
 
-1. Välj **screens-receiver-user** och klicka på **Aktivera** i åtgärdsfältet.
+1. Välj **`screens-receiver-user`** och klicka **Aktivera** i åtgärdsfältet.
 
    ![bild](/help/user-guide/assets/screens-replication/screens-replication2.png)
 
-1. Klicka på **OK** för att bekräfta.
+1. Klicka **OK** för att bekräfta.
 
    ![bild](/help/user-guide/assets/screens-replication/screens-replication3.png)
 
-   När du har aktiverat användaren visas **screens-receiver-user** as **Aktiverad** under **Status** fält.
+   När du har aktiverat användaren visas **`screens-receiver-user`** as **Aktiverad** under **Status** fält.
 
    ![bild](/help/user-guide/assets/screens-replication/screens-replication4.png)
 
-1. Välj **screens-receiver-user** och klicka på **Egenskaper** i åtgärdsfältet.
+1. Välj **`screens-receiver-user`** och klicka **Egenskaper** i åtgärdsfältet.
 
    ![bild](/help/user-guide/assets/screens-replication/screens-replication5.png)
 
-1. Klicka på **Ändra lösenord** under **Kontoinställningar** från **Information** enligt bilden nedan.
+1. Klicka **Ändra lösenord** under **Kontoinställningar** från **Information** enligt bilden nedan.
 
    ![bild](/help/user-guide/assets/screens-replication/screens-replication6.png)
 
-1. Ange ett nytt lösenord i dialogrutan **Ändra lösenord** och klicka på **Spara**.
+1. Ange ett nytt lösenord i dialogrutan **Ändra lösenord** och klicka **Spara**.
 
    >[!NOTE]
-   >Du bör ange det befintliga administratörslösenordet i **Ditt lösenord** fält.
+   >Ange det befintliga administratörslösenordet i **Ditt lösenord** fält.
 
    ![bild](/help/user-guide/assets/screens-replication/screens-replication7.png)
 
-1. Klicka på **Spara och stäng**.
+1. Klicka **Spara och stäng**.
 
-1. Välj **screens-receiver-user** och klicka på **Aktivera** i åtgärdsfältet.
+1. Välj **`screens-receiver-user`** och klicka **Aktivera** i åtgärdsfältet.
 
    ![bild](/help/user-guide/assets/screens-replication/screens-replication8.png)
 
-1. Klicka på **OK** för att bekräfta.
+1. Klicka **OK** för att bekräfta.
 
    ![bild](/help/user-guide/assets/screens-replication/screens-replication9.png)
 
-1. Välj **screens-receiver-user** och klicka på **Inaktivera** i åtgärdsfältet.
+1. Välj **`screens-receiver-user`** och klicka **Inaktivera** i åtgärdsfältet.
 
    >[!IMPORTANT]
-   > Inaktiverar **screens-receiver-user** inaktiverar bara den här användaren från författarinstansen och alla användare i publiceringsinstansen förblir aktiva. Klicka inte på **Inaktivera** i åtgärdsfältet, eftersom inaktivering tar bort användaren även från publiceringsinstanserna.
+   > Inaktiverar **`screens-receiver-user`** inaktiverar bara den här användaren från redigeringsinstansen och alla användare i publiceringsinstansen förblir aktiva. Klicka inte **Inaktivera** från åtgärdsfältet, eftersom inaktivering tar bort användaren även från Publishing-instanserna.
 
    ![bild](/help/user-guide/assets/screens-replication/screens-replication10.png)
 
-1. Klicka på **OK** för att bekräfta.
+1. Klicka **OK** för att bekräfta.
 
 ## Uppdaterar inställningar för skärmreplikeringsagenten {#replicate-agent}
 
-Följ avsnittet nedan för att uppdatera inställningarna i agenten för skärmreplikering:
+Följ avsnittet nedan för att uppdatera inställningarna i AEM Screens Replication Agent:
 
 >[!IMPORTANT]
->Du måste utföra följande steg på ALLA befintliga skärmreplikeringsagenter.
+>Utför följande steg på ALLA befintliga AEM Screens-replikeringsagenter.
 
 1. Navigera till AEM.
-
-1. Klicka på verktygen > **Distribution** > **Replikering**.
+1. Klicka på verktyg > **Distribution** > **Replikering**.
 
    ![bild](/help/user-guide/assets/screens-replication/screens-replication1a.png)
 
-1. Klicka på **Agenter på författare**.
+1. Klicka **Agenter på författare**.
 
    ![bild](/help/user-guide/assets/screens-replication/screens-replication1b.png)
 
-1. Sök efter alla skärmreplikeringsagenter på författaren och klicka på länken enligt bilden nedan.
+1. Sök efter alla AEM Screens Replikeringsagenter på författaren och klicka på länken enligt bilden nedan.
 
    >[!NOTE]
-   >Sök efter alla skärmreplikeringsagenter. Namnet på skärmreplikeringsagenten innehåller en bokstav **S** i titeln.
+   >Sök efter alla AEM Screens-replikeringsagenter. Namnet på skärmreplikeringsagenten innehåller bokstaven **S** i titeln.
 
    ![bild](/help/user-guide/assets/screens-replication/screens-replication1c.png)
 
-1. Klicka på **Redigera**.
+1. Klicka **Redigera**.
 
    ![bild](/help/user-guide/assets/screens-replication/screens-replication1d.png)
 
@@ -120,13 +119,13 @@ Följ avsnittet nedan för att uppdatera inställningarna i agenten för skärmr
 
    ![bild](/help/user-guide/assets/screens-replication/screens-replication1e.png)
 
-1. Navigera till **Transport** -fliken från **Agentinställningar** och uppdatera **Användare** till **screens-receiver-user** och ange samma lösenord som du angav tidigare i steg 8 av [Aktivera användare och uppdatera lösenordet](#enable-users).
+1. Navigera till **Transport** -fliken från **Agentinställningar** och uppdatera **Användare** till **`screens-receiver-user`** och ange samma lösenord som du angav tidigare i steg 8 av [Aktivera användare och uppdatera lösenordet](#enable-users).
 
    ![bild](/help/user-guide/assets/screens-replication/screens-replication1-f.png)
 
-1. Klicka på **OK**.
+1. Klicka **OK**.
 
-1. När du är klar med de föregående stegen kan du klicka på **Testanslutning** för att verifiera anslutningen.
+1. När du är klar med de föregående stegen kan du klicka **Testanslutning** för att verifiera anslutningen.
 
    ![bild](/help/user-guide/assets/screens-replication/screens-replication1g.png)
 

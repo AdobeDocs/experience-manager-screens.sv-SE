@@ -1,22 +1,18 @@
 ---
 title: Adobe Analytics Integration med AEM Screens
-seo-title: Adobe Analytics Integration with AEM Screens
 description: Följ den här sidan om du vill veta mer om hur AEM Screens kan integreras med Adobe Analytics och få ett spelbevis.
-seo-description: Follow this page to learn about out of the box integration of AEM Screens with Adobe Analytics and provides you with a proof of play.
-uuid: 80d61af7-bf4d-46ca-a026-99a666c2e1a0
 contentOwner: jsyal
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: administering
-discoiquuid: b1a0e00e-0368-42c9-8bcd-5f00b4d0990c
 docset: aem65
 feature: Administering Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 92c8c42b-7c1e-4d4a-8662-18c99666e9c6
-source-git-commit: 97820c602885ecf581ae1e6bada6c104aeeb4c70
+source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
 workflow-type: tm+mt
-source-wordcount: '690'
+source-wordcount: '681'
 ht-degree: 0%
 
 ---
@@ -25,7 +21,7 @@ ht-degree: 0%
 
 >[!CAUTION]
 >
->Den här AEM Screens-funktionen är endast tillgänglig om du har installerat minimiversionen av AEM 6.4.2 Feature Pack 2 eller AEM 6.3.3 Feature Pack 4. För molntjänstkunder i AEM Screens kontaktar du Adobe Relationship Manager för att aktivera Adobe Analytics i Creative Cloud.
+>Den här AEM Screens-funktionen är endast tillgänglig om du har installerat minimiversionen av AEM 6.4.2 Feature Pack 2 eller AEM 6.3.3 Feature Pack 4. För molntjänstkunder som använder AEM Screens kontaktar du Adobe Relationship Manager för att aktivera Adobe Analytics i Creative Cloud.
 
 >[!NOTE]
 >
@@ -37,7 +33,7 @@ Detta avsnitt behandlar följande ämnen:
 * **Arkitekturinformation**
 * **Konfigurera egenskaperna**
 
-## Översikt {#overview}
+## Ökning {#overview}
 
 ***AEM Screens*** utnyttjar Adobe Analytics och med det kan ni uppnå något unikt på marknaden - flerkanalsanalyser som hjälper er att korrelera innehåll som visas på plats med andra datakällor.
 

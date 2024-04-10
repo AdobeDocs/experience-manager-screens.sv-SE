@@ -2,9 +2,9 @@
 title: Konfigurera författare- och publiceringsinstanser i AEM Screens
 description: Lär dig hur du konfigurerar en Author-instans och en Publish-instans för AEM Screens.
 exl-id: 5aef5f35-d946-4bf8-a2a8-c3ed532b7eef
-source-git-commit: 4b8013873be87d4d118f627d6131ff3e2fd087de
+source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
 workflow-type: tm+mt
-source-wordcount: '1937'
+source-wordcount: '1933'
 ht-degree: 0%
 
 ---
@@ -38,7 +38,7 @@ Innan du börjar använda författar- och publiceringsservrar bör du ha känned
 
 >[!NOTE]
 >
->Om du vill veta mer om arkitekturen Författare och Publicera och hur innehållet skapas i en AEM Författare-instans och sedan publiceras vidare till flera publiceringsinstanser kan du läsa [Skapa och publicera arkitekturöversikt](author-publish-architecture-overview.md).
+>Om du vill veta mer om arkitekturen Författare och Publicera och hur innehållet skapas i en AEM Författare-instans och sedan publiceras vidare till flera publiceringsinstanser går du till [Skapa och publicera arkitekturöversikt](author-publish-architecture-overview.md).
 
 I följande avsnitt beskrivs hur du konfigurerar replikeringsagenter i topologin Författare och Publicera.
 
@@ -132,7 +132,7 @@ För varje publiceringsinstans:
 1. Uppdatera topologianslutnings-URL:er: lägg till URL:er för alla tolkande publiceringsinstanser:
    * `https://publish:4503/libs/sling/topology/connector`
    * `https://publish:4504/libs/sling/topology/connector`
-1. **Vitlista för topologikoppling**: Anpassa till IP-adresser eller undernät som omfattar alla publiceringsinstanser. Se till att du vitlistar IP-/värdnamnet för alla Publicera-instanser utan portnumret.
+1. **Topologikoppling `Whitelist` Lista**: Anpassa till IP-adresser eller undernät som omfattar alla publiceringsinstanser. Se till att du `whitelist` IP-/värdnamnet för alla publiceringsinstanser utan portnummer.
 
 1. Aktivera **Stoppa lokala loopar automatiskt**
 
@@ -213,7 +213,7 @@ När du har konfigurerat publiceringstopologin konfigurerar du författar- och p
 >
 >För att komma igång med det här exemplet skapar du ett AEM Screens-projekt följt av att du skapar en plats, visning och kanal i ditt projekt. Lägg till innehåll i kanalen och tilldela kanalen till en skärm.
 
-#### Steg 1: Starta en AEM Screens Player (enhet) {#step-starting-an-aem-screens-player-device}
+#### Steg 1: Starta en AEM Screens Player (enhet)
 
 1. Starta ett separat webbläsarfönster.
 1. Gå till Skärmspelaren med *webbläsare*, det vill säga`https://localhost:4502/content/mobileapps/cq-screens-player/firmware.html` eller starta AEM Screens. När du öppnar enheten bör du observera att enhetens status är oregistrerad.
@@ -280,7 +280,7 @@ Följande punkter sammanfattar publiceringskontrolllistan:
 * *Schema* - om du använder ett schema, se till att det publiceras
 * *Plats, scheman och kanalmapp* - om motsvarande resurser finns i en mapp.
 
-Följ stegen nedan för att verifiera beteendet Författare/Publicera:
+Följ stegen nedan för att verifiera hur redigering och publicering fungerar:
 
 1. Uppdatera visst kanalinnehåll på Author-instansen.
 1. Utför **Hantera publikation** för att publicera nya ändringar i alla publiceringsinstanser.

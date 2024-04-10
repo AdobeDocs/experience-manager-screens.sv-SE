@@ -5,9 +5,9 @@ feature: Administering Screens
 role: Developer, User
 level: Intermediate
 exl-id: 8b281488-f54d-4f8a-acef-ca60fa2315ed
-source-git-commit: 299018986ae58ecbdb51a30413222a9682fffc76
+source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
 workflow-type: tm+mt
-source-wordcount: '627'
+source-wordcount: '624'
 ht-degree: 0%
 
 ---
@@ -53,7 +53,7 @@ Om du har en publiceringsinstans som föregås av en Dispatcher hjälper inte ak
 
 ![bild](/help/user-guide/assets/dispatcher/dispatcher-enable.png)
 
-Om du t.ex. använder AWS ALB, se [Målgrupper för programmets belastningsutjämnare](https://docs.aws.amazon.com/elasticloadbalancing/latest/application/load-balancer-target-groups.html) för att möjliggöra klisterhet på ALB-nivå. Gör klivet i en dag.
+Om du till exempel använder AWS ALB läser du [Målgrupper för programmets belastningsutjämnare](https://docs.aws.amazon.com/elasticloadbalancing/latest/application/load-balancer-target-groups.html) för att möjliggöra klisterhet på ALB-nivå. Gör klivet i en dag.
 
 ### Steg 1: Konfigurera klienthuvuden {#step-configuring-client-headers}
 

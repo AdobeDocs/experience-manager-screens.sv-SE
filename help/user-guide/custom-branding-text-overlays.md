@@ -8,9 +8,9 @@ feature: Developing Screens
 role: Developer
 level: Intermediate
 exl-id: 059e1b19-e9b5-48f0-8f2f-141f0c2f7842
-source-git-commit: d1adadbab2cb13626dd8ce70deacced9f55aa4c9
+source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
 workflow-type: tm+mt
-source-wordcount: '604'
+source-wordcount: '602'
 ht-degree: 1%
 
 ---
@@ -32,7 +32,7 @@ Följ stegen nedan för att skapa anpassade märkesnamn och format för textöve
    ![bild](/help/user-guide/assets/custom-brand/custom-brand2.png)
 
    >[!NOTE]
-   >Om du vill veta hur du lägger till en textövertäckning i resursen i en kanalredigerare läser du i [Textövertäckning](/help/user-guide/text-overlay.md).
+   >Mer information om hur du lägger till en textövertäckning i en resurs i en kanalredigerare finns i [Textövertäckning](/help/user-guide/text-overlay.md).
 
 1. Navigera till CRXDE Lite från AEM > verktyg > **CRXDE Lite**.
 
@@ -84,7 +84,7 @@ Följ stegen nedan för att skapa anpassade märkesnamn och format för textöve
 1. Klicka **Spara och stäng** för att uppdatera designsökvägen.
 
    >[!IMPORTANT]
-   >Du kan välja att täcka över de befintliga skärmmallarna för att mata in dina egna designer som standard eller skapa en egen mall helt och hållet. Mer information finns i stegen nedan.
+   >Du kan välja att täcka över de befintliga skärmmallarna för att mata in dina egna designer som standard eller skapa en egen mall helt och hållet. Se stegen nedan för mer information.
 
 1. Så här övertäcker du de befintliga skärmmallarna så att du kan mata in din egen design som standard:
 

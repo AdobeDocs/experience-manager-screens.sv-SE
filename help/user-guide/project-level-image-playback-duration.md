@@ -2,9 +2,9 @@
 title: Uppspelningstid för bild på projektnivå
 description: Lär dig hur du definierar uppspelningstiden för bilder på projektnivå.
 contentOwner: jsyal
-source-git-commit: c0fa0717034e5094108eb1e23d4e9f1f16aeb57e
+source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
 workflow-type: tm+mt
-source-wordcount: '333'
+source-wordcount: '327'
 ht-degree: 0%
 
 ---
@@ -20,11 +20,9 @@ Med den här funktionen kan du definiera längden för bilduppspelningen på pro
 
 Innan du använder den här funktionen måste du konfigurera ett projekt som en förutsättning för att du ska kunna börja implementera den här funktionen. Exempel:
 
-1. Skapa ett AEM Screens-projekt (i det här exemplet **ProjektNivåUppspelning**)
-
-1. Skapa en sekvenskanal som **PlayBackChannel** under **Kanaler** mapp
-
-1. Lägg till innehåll i **PlayBackChannel**
+1. Skapa ett AEM Screens-projekt (i det här exemplet **ProjektNivåUppspelning**).
+1. Skapa en sekvenskanal som **PlayBackChannel** under **Kanaler** mapp.
+1. Lägg till innehåll i **PlayBackChannel**.
 
    ![resurser](assets/image_playback1.png)
 
@@ -48,11 +46,11 @@ Följ stegen nedan för att lära dig hur du uppdaterar bilduppspelningstiden p�
 1. Navigera till ditt projekt **ProjektNivåUppspelning** och klicka **Egenskaper** i åtgärdsfältet.
    ![resurser](assets/image_playback3.png)
 
-1. Markera alla bilder i kanalen och klicka på skiftnyckelsikonen i det övre vänstra hörnet (som visas i bilden nedan) för att öppna dialogrutan Konfigurera på kanalnivå.
+1. Markera alla bilder i kanalen och klicka på skiftnyckelsikonen i det övre vänstra hörnet (som bilden nedan visar) så att du kan öppna dialogrutan Konfigurera kanalnivå.
 
    ![screen_shot_2019-06-25at95945am](assets/screen_shot_2019-06-25at95945am.png)
 
-1. **Sida** öppnas.
+1. The **Sida** öppnas.
 
    >[!NOTE]
    >
@@ -60,13 +58,13 @@ Följ stegen nedan för att lära dig hur du uppdaterar bilduppspelningstiden p�
 
    ![screen_shot_2019-06-25at100343am](assets/screen_shot_2019-06-25at100343am.png)
 
-   Redigera **Varaktighet** från 8 000 (ms) till 3 000 (ms), dvs. 3 sekunder. Klicka på bockmarkeringen längst upp till höger på **Sida** för att spara ändringarna.
+   Redigera **Varaktighet** från 8 000 (millisekunder) till 3 000 (millisekunder), dvs. 3 sekunder. Klicka på bockmarkeringen längst upp till höger på **Sida** så att ändringarna sparas.
 
    ![screen_shot_2019-06-25at101527am](assets/screen_shot_2019-06-25at101527am.png)
 
 ### Visa resultatet {#viewing-the-result}
 
-När du har uppdaterat kanalens uppspelningstid (i det här exemplet alla tre bilderna) kommer du att märka att bilderna nu spelas upp i 3 sekunder i stället för 8 sekunder (standardvärde).
+När du har uppdaterat kanalens uppspelningstid (i det här exemplet alla tre bilderna) kan du se att bilderna spelas upp i 3 sekunder i stället för 8 sekunder (standardvärde).
 
 ![channel_preview](assets/channel_preview.gif)
 

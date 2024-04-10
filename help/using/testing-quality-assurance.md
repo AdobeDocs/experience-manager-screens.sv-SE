@@ -2,9 +2,9 @@
 title: Testning och kvalitetssäkring
 description: Läs mer om testning och kvalitetssäkring av AEM Screens i Best Practices Guide.
 exl-id: cc3bfb88-1341-43f8-b247-6a41f1d1a963
-source-git-commit: a22702998599ea184529ab62eb8bd5113ad58e2c
+source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
 workflow-type: tm+mt
-source-wordcount: '333'
+source-wordcount: '332'
 ht-degree: 0%
 
 ---

@@ -1,15 +1,13 @@
 ---
 title: Skapa och hantera kanaler
-seo-title: Managing Channels
-description: Följ den här sidan om du vill veta mer om hur du skapar och hanterar kanaler. Den förklarar även kanalkontrollpanelen och redigerar innehåll för en kanal.
-seo-description: Follow this page to learn about creating and managing channels. It also explains channel dashboard and editing content for a channel.
+description: Lär dig hur du skapar och hanterar kanaler. Den förklarar även kanalkontrollpanelen och redigerar innehåll för en kanal.
 feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 7bbd211a-f54f-42b9-a1b3-516efe6fb579
-source-git-commit: 299018986ae58ecbdb51a30413222a9682fffc76
+source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
 workflow-type: tm+mt
-source-wordcount: '1305'
+source-wordcount: '1258'
 ht-degree: 0%
 
 ---
@@ -27,7 +25,7 @@ På den här sidan visas hur du skapar och hanterar kanaler för AEM Screens.
 
 ## Skapa en ny kanal {#creating-a-new-channel}
 
-När du har skapat ditt projekt för AEM Screens följer du stegen nedan för att skapa en ny kanal för ditt projekt:
+När du har skapat ditt projekt för AEM Screens följer du stegen nedan för att skapa en kanal för ditt projekt:
 
 1. Klicka på länken Adobe Experience Manager (längst upp till vänster) och sedan på Skärmar. Du kan även navigera direkt till `https://localhost:4502/screens.html/content/screens`.
 
@@ -45,7 +43,7 @@ När du har skapat ditt projekt för AEM Screens följer du stegen nedan för at
 
    ![demochannel](assets/create-project4.png)
 
-1. En sekvenskanal har nu lagts till i din **Kanaler** mapp.
+1. En sekvenskanal har nu lagts till i **Kanaler** mapp.
 
 ### Kanaltyper {#channel-types}
 
@@ -54,14 +52,14 @@ Följande mallalternativ är tillgängliga när du använder guiden, till exempe
 | **Mallalternativ** | **Beskrivning** |
 |---|---|
 | Mappen Kanaler | Gör att du kan skapa en mapp för lagring av kanalsamlingar. |
-| Sekvenskanal | Gör att du kan skapa en kanal som spelar upp komponenterna sekventiellt (en i taget i ett bildspel). |
+| Sekvenskanal | Skapa en kanal som spelar upp komponenterna sekventiellt (en i taget i ett bildspel). |
 | Programkanal | Gör att du kan visa ditt anpassade webbprogram i skärmspelaren. |
-| 1x1 Delad skärmkanal | Gör att komponenten kan visas i en enda zon. |
-| 1x2 Delad skärmkanal | Gör att resurserna kan visas i två zoner (delas vågrätt). |
-| 2X1 Delad skärmkanal | Gör att resurserna kan visas i två zoner (lodrätt uppdelade). |
-| 2x2 Delad skärmkanal | Gör det möjligt att visa resurserna i fyra zoner (dela vågrätt och lodrätt i en matris). |
-| 2 till 3 kanaler för delad skärm | Gör att resurserna kan visas i två zoner (delas vågrätt) där en av zonerna är större än den andra. |
-| Vänster eller höger L-streckkanal för delad skärm | Innehållsförfattare kan visa olika typer av resurser i zoner med lämplig storlek. |
+| 1x1 Delad skärmkanal | Gör att du kan visa en komponent i en enskild zon. |
+| 1x2 Delad skärmkanal | Gör att du kan visa resurserna i två zoner (dela vågrätt). |
+| 2X1 Delad skärmkanal | Gör att du kan visa resurserna i två zoner (lodrätt delade). |
+| 2x2 Delad skärmkanal | Gör att du kan visa resurserna i fyra zoner (dela vågrätt och lodrätt i en matris). |
+| 2 till 3 kanaler för delad skärm | Gör att du kan visa resurserna i två zoner (dela vågrätt) där en av zonerna är större än den andra. |
+| Vänster eller höger L-streckkanal för delad skärm | Gör att innehållsförfattare kan visa olika typer av resurser i zoner med lämplig storlek. |
 
 >[!NOTE]
 >
@@ -69,7 +67,7 @@ Följande mallalternativ är tillgängliga när du använder guiden, till exempe
 
 >[!IMPORTANT]
 >
-> När du har skapat och lagt till innehåll i kanalen är nästa steg att skapa en plats följt av att skapa en skärm. Dessutom måste du tilldela den kanalen till en skärm. Läs mer i resurserna nedan i slutet av avsnittet.
+> När du har skapat och lagt till innehåll i kanalen är nästa steg att skapa en plats följt av att skapa en skärm. Dessutom måste du tilldela den kanalen till en skärm. Se resurserna nedan i slutet av avsnittet.
 
 ## Arbeta med kanaler {#working-with-channels}
 
@@ -82,8 +80,8 @@ Du kan redigera, visa egenskaper och kontrollpanel, kopiera, förhandsgranska oc
 
 Följ stegen nedan om du vill lägga till eller redigera innehåll i en kanal:
 
-1. Markera kanalen som du vill redigera (se bilden ovan).
-1. Klicka **Redigera** i åtgärdsfältets övre vänstra hörn för att redigera kanalegenskaperna. Redigeraren öppnas och du kan lägga till resurser/komponenter i kanalen som du vill publicera.
+1. Markera den kanal som du vill redigera (se bilden ovan).
+1. Klicka **Redigera** i åtgärdsfältets övre vänstra hörn så att du kan redigera kanalegenskaperna. Redigeraren öppnas och du kan lägga till resurser/komponenter i kanalen som du vill publicera.
 
 >[!NOTE]
 >Du kan lägga till komponenter i kanalen. Se **[Lägga till komponenter i en kanal](adding-components-to-a-channel.md)** för mer information.
@@ -95,27 +93,23 @@ Följ stegen nedan om du vill lägga till eller redigera innehåll i en kanal:
 Följ stegen nedan för att överföra videoklipp till din kanal:
 
 1. Markera kanalen där du vill överföra videon.
-1. Klicka **Redigera** i åtgärdsfältet för att öppna redigeraren.
+1. Klicka **Redigera** i åtgärdsfältet.
 1. Välj **Videor** under Resurser och dra och släpp önskade videoklipp.
 
 >[!NOTE]
 >Om du får problem med att överföra videoklipp i din kanal kan du läsa mer i [Felsöka videoklipp](troubleshoot-videos.md).
 
-### Visningsegenskaper {#viewing-properties}
-
-Följ stegen nedan om du vill visa eller redigera egenskaper för en kanal:
+### Visa eller redigera egenskaper för en kanal {#viewing-properties}
 
 1. Klicka på den kanal som du vill redigera.
-1. Klicka **Egenskaper** i åtgärdsfältet för att visa/redigera kanalegenskaperna. På följande flikar kan du ändra alternativen.
+1. Klicka **Egenskaper** i åtgärdsfältet så att du kan visa/redigera kanalegenskaperna. På följande flik kan du ändra alternativen.
 
 ![egenskaper](assets/properties.gif)
 
 ### Visa instrumentpanel {#viewing-dashboard}
 
-Följ stegen nedan för att visa kontrollpanelen för en kanal:
-
 1. Markera kanalen som du vill redigera.
-1. Klicka **Kontrollpanel** från åtgärdsfältet för att visa kontrollpanelen. The **KANALINFORMATION**,**TILLDELADE VISNINGAR** och **VÄNTANDE START** som visas på bilden nedan:
+1. Klicka **Kontrollpanel** i åtgärdsfältet.
 
 ![kontrollpanel](assets/dashboard.gif)
 
@@ -123,7 +117,7 @@ Följ stegen nedan för att visa kontrollpanelen för en kanal:
 
 Panelen Kanalinformation beskriver kanalegenskaperna tillsammans med förhandsvisningen av kanalen. Dessutom innehåller det information om huruvida kanalen är offline eller online.
 
-Klicka på knappen (**...**) från **KANALINFORMATION** åtgärdsfältet om du vill visa egenskaper, redigera innehållet eller uppdatera cache-minnet (offlineinnehåll) för kanalen.
+Klicka på (**...**) från **KANALINFORMATION** åtgärdsfältet så att du kan visa egenskaper, redigera innehållet eller uppdatera cacheminnet (offlineinnehåll) för kanalen.
 
 ![screen_shot_2017-12-20at82048am](assets/screen_shot_2017-12-20at82048am.png)
 
@@ -157,7 +151,7 @@ Du borde se **Visa manifest** från **KANALINFORMATION** i panelen Kanal.
 
 När du skapar en kanal kan den antingen definieras som en online- eller offlinekanal.
 
-An ***Onlinekanal***, visar det uppdaterade innehållet i realtidsmiljön medan en ***Offlinekanal***, visar det cachelagrade innehållet.
+An ***Onlinekanal*** visar det uppdaterade innehållet i realtidsmiljön medan en ***Offlinekanal*** visar det cachelagrade innehållet.
 
 Följ stegen nedan för att göra kanalen online:
 
@@ -167,7 +161,7 @@ Följ stegen nedan för att göra kanalen online:
 
    ![screen_shot_2019-08-01at31406pm](assets/screen_shot_2019-08-01at31406pm.png)
 
-   Klicka **Kontrollpanel** från åtgärdsfältet för att visa spelarens status. The **KANALINFORMATION** ger information om huruvida kanalen är online eller offline.
+   Klicka **Kontrollpanel** i åtgärdsfältet så att du kan se spelarens status. The **KANALINFORMATION** ger information om huruvida kanalen är online eller offline.
 
    ![screen_shot_2019-08-01at31458pm](assets/screen_shot_2019-08-01at31458pm.png)
 
@@ -186,7 +180,7 @@ Följ stegen nedan för att göra kanalen online:
    ![screen_shot_2019-08-01at31821pm](assets/screen_shot_2019-08-01at31821pm.png)
 
 >[!NOTE]
->Om du vill konfigurera din kanal igen som offline avmarkerar du alternativet för utvecklarläge i dialogrutan **Egenskaper** -fliken (som i steg 3) och sedan från **KANALINFORMATION** klicka på panelen **Uppdatera offlineinnehåll**, vilket visas i figuren nedan.
+>Om du vill konfigurera din kanal som offline avmarkerar du alternativet för utvecklarläge på menyn **Egenskaper** som i steg 3). Sedan, från **KANALINFORMATION** klicka på panelen **Uppdatera offlineinnehåll**, vilket visas i figuren nedan.
 
 ![kontrollpanel2](assets/dashboard2.gif)
 
@@ -232,9 +226,9 @@ I följande tabell sammanfattas de händelser som är associerade med de automat
 
 ### Tilldelade bildskärmar {#assigned-displays}
 
-Den tilldelade visningspanelen visar den visning som är associerad med kanalen. Den innehåller en ögonblicksbild av den tilldelade visningen tillsammans med upplösningen.
+The **Tilldelade bildskärmar** på panelen visas den visning som är associerad med kanalen. Den innehåller en ögonblicksbild av den tilldelade visningen tillsammans med upplösningen.
 
-De associerade skärmarna visas i listan **Tilldelade bildskärmar** enligt nedan:
+De associerade skärmarna visas i **Tilldelade bildskärmar** enligt nedan:
 
 ![chlimage_1-27](assets/chlimage_1-27.png)
 
@@ -245,7 +239,7 @@ De associerade skärmarna visas i listan **Tilldelade bildskärmar** enligt neda
 >* [Skapa och hantera bildskärmar](managing-displays.md)
 >
 
-Klicka dessutom på skärmen i dialogrutan **TILLDELADE VISNINGAR** för att visa visningsinformationen enligt nedan:
+Klicka också på visningen i **TILLDELADE VISNINGAR** för att visa visningsinformationen enligt nedan:
 
 ![chlimage_1-28](assets/chlimage_1-28.png)
 
@@ -253,7 +247,7 @@ Klicka dessutom på skärmen i dialogrutan **TILLDELADE VISNINGAR** för att vis
 
 Nästa steg när du har skapat en kanal och lagt till/redigerat innehåll i din kanal är att lära dig hur du skapar en plats och visar. Tilldela sedan en kanal till den visningen.
 
-Se följande resurser för nästa steg:
+Följande resurser innehåller mer information om nästa steg:
 
 * [Skapa och hantera kanaler](managing-channels.md)
 * [Skapa och hantera platser](managing-locations.md)

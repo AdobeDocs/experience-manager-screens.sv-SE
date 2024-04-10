@@ -3,9 +3,9 @@ title: Målgrupp
 seo-title: Target Audience for AEM Screens
 description: På sidan beskrivs vilka som är målgrupp för AEM Screens Best Practices Guide
 seo-description: The page describes who are the target audience for AEM Screens Best Practices Guide
-source-git-commit: 54c5a2f2f3f755e4da4028d54042f4bd8f2df369
+source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
 workflow-type: tm+mt
-source-wordcount: '501'
+source-wordcount: '495'
 ht-degree: 4%
 
 ---
@@ -17,7 +17,7 @@ Som erfaren AEM-implementerare har du troligtvis sett rollerna, som kallas *för
 
 I ett typiskt AEM Screens-projekt har rollerna förfinats ytterligare eftersom de har ett viktigt syfte i projektet.
 
-Diagrammet nedan visar rollerna som vi kommer att hänvisa till i hela guiden.
+Diagrammet nedan visar rollerna som vi kommer att se i hela guiden.
 
 ![](/help/assets/roles-used.png)
 
@@ -30,7 +30,7 @@ I följande avsnitt finns en översikt över målgruppen:
 
 ### Adobe {#adobe-audience}
 
-Adobe innehåller Adobe Managed Services-resurser som CSE (Customer Success Engineer) och Adobe Support.
+Adobe omfattar Adobe Managed Services-resurser som CSE (Customer Success Engineer) och Adobe Support.
 
 ### AEM {#aem-implementors}
 
@@ -44,11 +44,11 @@ AEM implementerare distribuerar vanligtvis anpassade funktioner i faser över ti
 
 A/V-integratorn är maskinvaruleverantör/partner. Det här är den part som arbetar med design och förberedelse av webbplatser i detaljhandeln, inklusive maskinvaruförvärv, konfigurering och driftsättning. Det är vanligtvis en avtalad tredje part som har åtkomst till ett Network Operations Center (NOC). I många fall är A/V-integratorn projektägare på grund av dess kontinuerliga engagemang efter lanseringen.
 
-En AV-integratör ansvarar för att utföra identifieringar med slutkunder för att definiera krav som avgör projektets omfattning för att utforma, bygga och effektivt hantera driftsättningar kring maskinvara för digitala signaturer.
+En AV-integratör ansvarar för att utföra identifieringar med slutkunder för att definiera krav som avgör projektets omfång för att utforma, bygga och effektivt hantera driftsättningar kring maskinvara för digitala signaturer.
 
 ### Affärsstrateg {#business-strategist}
 
-Affärsstrategierna representerar företagets beslutsfattare. Denna roll är mycket involverad i de olika stadierna av identifiering och krav och är den viktigaste drivkraften för projektet.
+Business Strategists är företagets beslutsfattare. Denna roll är mycket involverad i de olika stadierna av identifiering och krav och är den viktigaste drivkraften för projektet.
 
 Det är de som definierar krav och ställer in KPI-mått. En affärsstrateg kan vara följande:
 
@@ -57,7 +57,7 @@ Det är de som definierar krav och ställer in KPI-mått. En affärsstrateg kan 
 
 Kreatörerna och Content Management-teamet samarbetar nära med strategigruppen och omvandlar kraven till kundupplevelser. De driver den övergripande UX-designen och kuraterar innehåll som kompletterar varumärket.
 
-Kreatörerna och Content Management kan vara något av följande:
+Creative Cloud och Content Management kan vara något av följande:
 
 * eller
 * Varumärkeshanteraren

@@ -14,9 +14,9 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: 6a05a014-aedf-4261-849d-abf1ce070964
-source-git-commit: 707833ddd8ab2573abcac4e9a77ec88778624435
+source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
 workflow-type: tm+mt
-source-wordcount: '365'
+source-wordcount: '375'
 ht-degree: 0%
 
 ---
@@ -25,13 +25,13 @@ ht-degree: 0%
 
 >[!CAUTION]
 >
->Vi rekommenderar att du uppgraderar till den senaste versionen av Adobe Experience Manager (AEM). Skärmar har underhållsstöd för AEM 6.3 Screens-plattformen.
+>Du bör uppgradera till den senaste versionen av Adobe Experience Manager (AEM). Skärmar har underhållsstöd för AEM 6.3 Screens-plattformen.
 
 AEM Screens har släppt AEM 6.4.5 Feature Pack 5 och AEM 6.5.1 Feature Pack 1 med följande information.
 
 ## Releasedatum {#release-date}
 
-Releasedatum för AEM Screens Feature Pack 201907 är 31 juli 2019.
+Releasedatum för AEM Screens Feature Pack 2019 är 31 juli 2019.
 
 ### Nyheter {#what-s-new}
 
@@ -57,9 +57,9 @@ När du har konfigurerat ContextHub för ditt AEM Screens-projekt kan du följa 
 
 * **Förbättringar i uppdateringshanterare**
 
-Uppdateringshanteraren tolkar nu upplevelsefragmenten och samlar in alla bilder, videor eller produkter som är kopplade till dem.
+Uppdateringshanteraren tolkar nu upplevelsefragmenten och samlar in alla bilder, videoklipp och produkter som är kopplade till dem.
 
-* **Launches**
+* **Startar**
 
 Med det här alternativet kan innehållsförfattare skapa framtida versioner av kanalerna. Med hjälp av startguider kan man förhandsgranska varje kanal i lanseringen och bör kunna initiera en granskningsförfrågan. Godkännargruppen får meddelanden och kan godkänna eller avvisa begäran. När live-datumet nås spelas innehållet upp på enheterna.
 Se [Startar](launches.md) för mer information.
@@ -68,7 +68,7 @@ Se [Startar](launches.md) för mer information.
 
 Nu kan du lägga till offlinekonfigurationer (klientbibliotek och statiska filer) när du konfigurerar fragment för skärmar. Se [Använda upplevelsefragment](experience-fragments-in-screens.md) för mer information.
 
-### Lanserade AEM Screens-spelare {#released-aem-screens-players}
+### Släppta AEM Screens-spelare {#released-aem-screens-players}
 
 Följande AEM Screens-spelare finns för AEM 6.4.5 Feature Pack 5 och AEM 6.5.1 Feature Pack 1:
 
