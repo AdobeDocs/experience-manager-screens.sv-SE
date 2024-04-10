@@ -1,4 +1,5 @@
 ---
+cloud: Experience Cloud
 user-guide-title: Användarhandbok om bästa praxis för AEM Screens-projekt
 breadcrumb-title: Användarhandbok om bästa praxis för AEM Screens
 solution-title: AEM Screens
@@ -9,10 +10,10 @@ product: experience manager
 audience: end-user
 feature: Content
 role: User
-source-git-commit: 0286497306276c45c126b83b4c799970b145f42d
+source-git-commit: cd3c7e0766aebd0fd5cb0ae52c0bf72095308bb5
 workflow-type: tm+mt
 source-wordcount: '131'
-ht-degree: 16%
+ht-degree: 15%
 
 ---
 
@@ -43,7 +44,7 @@ ht-degree: 16%
    + Nätverkstrafikhantering {#manage-network-traffic}
       + [Hantera nätverkstrafik](/help/using/managing-network-traffic.md)
       + [Direkt Internet-nätverk (trådlöst/trådlöst)](/help/using/direct-internet-network.md)
-      + [Direkt mobilnätverk](/help/using/mobile-network.md)
+      + [Direkt mobilt nätverk](/help/using/mobile-network.md)
       + [Mobilnätverk med mobil datarouter och aktiva nätverkskomponenter](/help/using/mobile-network-router.md)
       + [Enclosed Corporate Network (Wired/Wireless)](/help/using/enclosed-corporate-network.md)
    + [Enhetskonfigurationer](device-configurations.md)
