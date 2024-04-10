@@ -10,9 +10,9 @@ feature: Developing Screens
 role: Developer
 level: Intermediate
 exl-id: 04072107-d6be-4030-bb79-1f1a7609f37e
-source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
+source-git-commit: 02929219a064e3b936440431e77e67e0bf511bf6
 workflow-type: tm+mt
-source-wordcount: '1452'
+source-wordcount: '1447'
 ht-degree: 1%
 
 ---
@@ -102,7 +102,7 @@ Följande validering är den du ser när du kontrollerar anslutningen genom att 
    >
    >1. Navigera till CRXDE Lite och sedan till `/conf/screens/settings/cloudsettings`.
    >1. Kontrollera om `cloudsettings jcr:primaryType` är i `sling:Folder`. Om `jcr:primaryType` är inte i `sling:folder`fortsätter du till nästa steg.
-   >1. Högerklicka `/conf/screens/settings` och skapa en nod med *name* as **molninställningar1** och *Typ* as **sling:mapp** och spara ändringarna.
+   >1. Högerklicka `/conf/screens/settings` och skapa en nod med *name* as **`cloudsettings1`** och *Typ* as **`sling:Folder`** och spara ändringarna.
    >1. Flytta alla noder under `/conf/screens/settings/cloudsettings` till `cloudsettings1`.
    >1. Ta bort `cloudsettings` och spara.
    >1. Byt namn `cloudsettings1` till `cloudsettings` och spara.
@@ -110,10 +110,10 @@ Följande validering är den du ser när du kontrollerar anslutningen genom att 
    >
    >Följ de här stegen i Författare och Publicera före eller efter uppgraderingen.
 
-   1. Ange **Titel** as **Google Sheets**, **Butiksnamn** as **googlesheet** och **Butikstyp** as **contexthub.generic-jsonp** och klicka **Nästa**.
+   1. Ange **Titel** as **Google Sheets**, **Butiksnamn** as **`googlesheets`** och **Butikstyp** as **c`ontexthub.generic-jsonp`** och klicka **Nästa**.
 
       >[!CAUTION]
-      >Om du använder Adobe Experience Manager (AEM) 6.4 anger du **Konfigurationstitel** as **googlesheet** och **Butikstyp** as **contexthub.generic-jsonp**.
+      >Om du använder Adobe Experience Manager (AEM) 6.4 anger du **Konfigurationstitel** as **`googlesheets`** och **Butikstyp** as **c`ontexthub.generic-jsonp`**.
 
       ![bild](/help/user-guide/assets/context-hub/context-hub6.png)
 
