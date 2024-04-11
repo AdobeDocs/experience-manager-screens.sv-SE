@@ -3,8 +3,7 @@ title: Datadrivna händelser
 description: null
 page-status-flag: never-activated
 contentOwner: jsyal
-discoiquuid: b662831c-8cb0-48d8-9b4b-cc11a573d1b5
-source-git-commit: c0fa0717034e5094108eb1e23d4e9f1f16aeb57e
+source-git-commit: a8055c5f859e401f7b1da4f5d95f1268dee243ad
 workflow-type: tm+mt
 source-wordcount: '162'
 ht-degree: 0%
@@ -22,24 +21,24 @@ AEM Screens möjliggör datadrivna händelser via Context Hub. Med Context Hub k
 
 ### Kategorisera datadrivna händelser {#categorizing-data-driven-events}
 
-Datadrivna händelser indelas i fyra olika kategorier:
+Datadrivna händelser indelas i följande fyra kategorier:
 
-* Data i drift
-* Data i presentation
-* Data ut som kan användas
-* Presentera data
+* Uppgifter i drift
+* Data i presentationen
+* Data ut åtgärdbara
+* Data ut presentationen
 
-#### Data i drift {#data-in-operational}
+#### Uppgifter i drift {#data-in-operational}
 
 Detta kan även kategoriseras i Channel Interrupt och Placeholder.
 
-#### Data i presentation {#data-in-presentation}
+#### Data i presentationen {#data-in-presentation}
 
 Data körs i den temporära kanalen och efter en utlösare ändras en resurs i en kanal.
 
 #### Data ut åtgärdbara {#data-out-actionable}
 
-När ett kommando skickas till LCD-skärmen för att slå på och av skärmen. Exempel: skärmens ljusstyrka eller volym.
+När ett kommando skickas till LCD-skärmen för att slå på och av skärmen. Exempel, skärmens ljusstyrka eller volym.
 
 #### Data ut presentationen {#data-out-presentational}
 

@@ -1,12 +1,10 @@
 ---
 title: Datautlösare
-seo-title: Data Triggers
-description: Sidan beskriver datautlösare
-seo-description: The page describes data triggers
+description: Läs mer om datautlösare i AEM Screens.
 exl-id: 23c4268e-48be-4c84-b5eb-c96152b166f7
-source-git-commit: 707833ddd8ab2573abcac4e9a77ec88778624435
+source-git-commit: a8055c5f859e401f7b1da4f5d95f1268dee243ad
 workflow-type: tm+mt
-source-wordcount: '261'
+source-wordcount: '257'
 ht-degree: 0%
 
 ---
@@ -21,9 +19,9 @@ ht-degree: 0%
 
 Detta kallas även för förenkling på klientsidan av innehåll.
 
-Det främsta skälet till att vi vill göra detta är att varje spelarenhet eller slutpunkt kan använda datauppsättningar för att automatiskt avgöra vilket innehåll som ska spelas upp baserat på en mängd olika faktorer.
+Orsaken till detta är att se till att varje spelarenhet eller slutpunkt kan använda datauppsättningar för att automatiskt avgöra vilket innehåll som ska spelas upp baserat på olika faktorer.
 
-På så sätt elimineras behovet av ständiga mänskliga insatser när det gäller att skapa innehåll, vilket minskar den totala ägandekostnaden för att driva nätverket och gör de digitala upplevelserna mer relevanta, mer kontextuella och effektiva.
+På så sätt elimineras behovet av konstant mänsklig inblandning vid innehållsutveckling. Det minskar också den totala ägandekostnaden för att driva nätverket och gör de digitala upplevelserna mer relevanta, mer kontextuella och effektiva.
 
 Exempel:
 
@@ -39,4 +37,4 @@ En visuell marknadsföringsstrategi som inkluderar DCO kan dramatiskt öka titta
 Det finns två huvudtyper av datautlösare:
 
 * **Lokala datautlösare**: Dessa utlösare är lokala på enheten. Om du till exempel rör vid skärmen aktiveras en sensor som utlöser en lokal dataresurs eller kanalväxling.
-* **Utlösare för fjärrdata**: Detta involverade datautlösande kanalväxling eller en resursväxling baserat på värden som returneras av ett API för webbtjänster.
+* **Utlösare för fjärrdata**: Detta involverade datautlösande kanalväxling eller en resursväxling som baseras på värden som returneras av ett Web Service API.

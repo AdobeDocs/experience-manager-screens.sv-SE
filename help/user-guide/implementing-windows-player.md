@@ -1,22 +1,18 @@
 ---
 title: Implementera Windows 10 Player
-seo-title: Implementing Windows 10 Player
-description: Följ den här sidan om du vill veta mer om hur du konfigurerar AEM Screens Windows 10 Player.
-seo-description: Follow this page to learn about configuring AEM Screens Windows 10 player.
-uuid: da7e88bf-c251-481e-9029-f8fc4768b309
+description: Läs om hur du konfigurerar AEM Screens Windows 10 Player.
 contentOwner: jsyal
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: administering
 content-type: reference
-discoiquuid: 4228e8a1-9749-49a6-a1bb-365492bc2a3d
 docset: aem65
 feature: Administering Screens, Windows Player
 role: Admin
 level: Intermediate
 exl-id: 50b6d9ba-e672-4f4d-a9a8-fb8387685057
-source-git-commit: 299018986ae58ecbdb51a30413222a9682fffc76
+source-git-commit: a8055c5f859e401f7b1da4f5d95f1268dee243ad
 workflow-type: tm+mt
-source-wordcount: '1143'
+source-wordcount: '1114'
 ht-degree: 0%
 
 ---
@@ -37,7 +33,7 @@ Besök [**AEM 6.5 Player Downloads**](https://download.macromedia.com/screens/) 
 ### Konfigurera miljö för AEM Screens 6.5.5 Service Pack {#fp-environment-setup}
 
 >[!NOTE]
->Du måste konfigurera en miljö för Windows Player om du använder AEM Screens 6.5.5 Service Pack.
+>Konfigurera en miljö för Windows Player om du använder AEM Screens 6.5.5 Service Pack.
 
 Ange **Attributet SameSite för cookies för inloggningstoken** från **Lax** till **Ingen** från **Konfiguration av Adobe Experience Manager Web Console** på alla AEM författare och publiceringsinstanser.
 
@@ -58,13 +54,13 @@ Med metoden Ad-Hoc kan du installera den senaste Windows Player (*.exe*). Besök
 
 När du har hämtat programmet följer du stegen på spelaren för att slutföra ad hoc-installationen:
 
-1. Tryck länge på det övre vänstra hörnet för att öppna administrationspanelen.
+1. Tryck länge på det övre vänstra hörnet för att öppna administratörspanelen.
 1. Navigera till **Konfiguration** på den vänstra åtgärdsmenyn och ange platsen (adressen) för den AEM instansen som du vill ansluta till och klicka på **Spara**.
-1. Navigera till **Enhet** **Registrering** på den vänstra åtgärdsmenyn för att kontrollera status för enhetsregistreringsprocessen.
+1. Navigera till **Enhet** **Registrering** på den vänstra åtgärdsmenyn så att du kan kontrollera status för enhetsregistreringsprocessen.
 
 >[!NOTE]
 >
->Om **Läge** är **REGISTRERAD** kommer du att märka **Enhets-ID** fältet fylls i.
+>Om **Läge** är **REGISTRERAD** lägger du märke till att **Enhets-ID** fältet är ifyllt.
 >
 >Om **Läge** är **OREGISTRERAD** kan du använda **Token** för att registrera enheten.
 
@@ -77,13 +73,13 @@ Du kan tilldela din Windows-spelare ett användarvänligt enhetsnamn och därmed
 
 Följ stegen nedan för att konfigurera namnet i Windows Player:
 
-1. Klicka på **start** > **run**
-1. Retur `system.cpl`
-1. Använd fliken Datornamn för att ange datorns värdnamn
+1. Klicka **start** > **run**.
+1. Retur `system.cpl`.
+1. Använd fliken Datornamn för att ange datorns värdnamn.
 
 ## Ändra standardalternativen i Windows Installer {#changing-default-options}
 
-Följ det här avsnittet för att lära dig hur du ändrar standardalternativen i Windows Installer och listan över tillgängliga anpassningar.
+Följ det här avsnittet så får du lära dig hur du ändrar standardalternativen i Windows Installer och listan över tillgängliga anpassningar.
 
 ## Installation med CLI (PowerShell) {#install-powershell}
 
@@ -106,9 +102,9 @@ C:\Users\User\Downloads> Start-Process C:\Users\User\Downloads\screens-player\AE
 
 ## Massregistrering av Windows Player {#bulk-registration}
 
-När du implementerar Windows-spelaren behöver du inte konfigurera varje enskild spelare manuellt. I stället kan du uppdatera JSON-konfigurationsfilen när den har testats och är klar för distribution.
+När du implementerar Windows-spelaren behöver du inte konfigurera varje spelare manuellt. I stället kan du uppdatera JSON-konfigurationsfilen när den har testats och är klar för distribution.
 
-Konfigurationen ser till att alla spelare pingar samma server som finns i konfigurationsfilen. Du måste fortfarande registrera varje spelare manuellt.
+Konfigurationen ser till att alla spelare pingar samma server som finns i konfigurationsfilen. Registrera varje spelare manuellt.
 
 Följ stegen nedan för att konfigurera Windows 10 Player:
 
@@ -129,8 +125,8 @@ I följande tabell sammanfattas principattributen med en exempelpolicy-JSON för
 | rebootSchedule | Schemat för att starta om spelaren. |
 | enableAdminUI | Aktivera administratörsgränssnittet för att konfigurera enheten på platsen. Anges till false när den är helt konfigurerad och i produktion. |
 | enableOSD | Aktivera kanalväljarens användargränssnitt för att användare ska kunna växla kanaler på enheten. Överväg att ställa in på false när den är helt konfigurerad och i produktion. |
-| enableActivityUI | Aktivera om du vill visa förloppet för aktiviteter som hämtning och synkronisering. Aktivera för felsökning och inaktivera när den är helt konfigurerad och i produktion. |
-| cloudMode | Ange true om du vill att Windows-spelaren ska ansluta till skärmar as a Cloud Service. Ange som false för att ansluta till AMS eller AEM. |
+| enableActivityUI | Aktivera så att du kan visa förloppet för aktiviteter som hämtning och synkronisering. Aktivera för felsökning och inaktivera när den är helt konfigurerad och i produktion. |
+| cloudMode | Ange true om du vill att Windows-spelaren ska ansluta till skärmar as a Cloud Service. Ange som false om du vill ansluta till AMS eller AEM. |
 | cloudToken | Registreringstoken för registrering mot skärmar as a Cloud Service. |
 
 #### Exempel på princip-JSON-fil {#example-policy-json-file}
@@ -148,11 +144,11 @@ I följande tabell sammanfattas principattributen med en exempelpolicy-JSON för
 
 ## Aktivera helskärmsläge {#enabling-kiosk-mode}
 
-När du distribuerar Windows-spelaren är det viktigt att aktivera ett Kiosk-läge så att andra program eller aktivitetsfältet inte visas på Windows-skrivbordet.
+När du distribuerar Windows-spelaren är det viktigt att aktivera ett Kiosk-läge så att andra program eller aktivitetsfältet inte visas på skrivbordet i Windows.
 
 >[!CAUTION]
 >
->Adobe rekommenderar en enhetshanteringslösning för att aktivera Kiosk för Windows. Följ stegen nedan om du inte har någon enhetshanteringslösning för att aktivera Kiosk-läget. Den här metoden använder Shell Launcher-funktionen som finns i Windows 10 Enterprise och Edu. Alla andra av Microsoft rekommenderade metoder för icke-UWP-program kan också användas för att aktivera Kiosk, särskilt i andra utgåvor av Windows.
+>Adobe rekommenderar en enhetshanteringslösning för att aktivera Kiosk för Windows. Följ stegen nedan om du inte har någon enhetshanteringslösning för att aktivera Kiosk-läget. Den här metoden använder Shell Launcher-funktionen som finns i Windows 10 Enterprise och Edu. Alla andra sätt som rekommenderas av Microsoft för icke-UWP-program kan också användas för att aktivera Kiosk, särskilt i andra utgåvor av Windows.
 
 Aktivera Kiosk-läget genom att följa stegen nedan:
 
@@ -162,34 +158,34 @@ Aktivera Kiosk-läget genom att följa stegen nedan:
 
 1. Aktivera Shell Launcher.
 
-   Se avsnittet ***Konfigurera Shell Launcher*** in **[Shell Launcher](https://docs.microsoft.com/en-us/windows-hardware/customize/enterprise/shell-launcher)** sida med Microsoft Windows-stöd för mer information.
+   Se ***Konfigurera Shell Launcher*** in **[Shell Launcher](https://learn.microsoft.com/en-us/windows/iot/iot-enterprise/customize/shell-launcher)** sida med Microsoft® Windows-stöd för ytterligare information.
 
 1. Skapa en icke-administrativ användare (om du inte redan har någon) som ska användas för Kiosk. Detta kan vara en lokal användare eller en domänanvändare.
 1. Installera Windows-spelaren för den Kiosk-användaren från [AEM Screens Player - nedladdningar](https://download.macromedia.com/screens/) sida.
-1. Se [Använd Shell Launcher för att skapa en dator med Windows 10](https://docs.microsoft.com/en-us/windows/configuration/kiosk-shelllauncher) om du vill ändra PowerShell-skriptet för mer information.
+1. Se [Använd Shell Launcher för att skapa en dator med Windows 10](https://learn.microsoft.com/en-us/windows/configuration/assigned-access/shell-launcher/?tabs=intune) om du vill ändra PowerShell-skriptet för mer information.
 
-   Ändra PowerShell-skriptet så att användarnamnet ersätts med det du skapade. Kontrollera att sökvägen till den körbara programfilen är korrekt. Detta anger det anpassade skalet som Windows-spelarprogram för heltalsanvändaren och anger standardinställningen som explorer.exe för andra användare.
+   Ändra PowerShell-skriptet så att du kan ersätta användarnamnet med det du skapade. Kontrollera att sökvägen till den körbara programfilen är korrekt. Detta anger det anpassade skalet som Windows-spelarprogram för heltalsanvändaren och anger standardvärdet som explorer.exe för andra användare.
 
 1. Kör PowerShell-skriptet som administratör.
 1. Starta om och logga in som Kiosk-användare och uppspelningsprogrammet bör starta direkt.
 
 ### Felsökning {#troubleshooting}
 
-Om du får en svart skärm när du loggar in som Kiosk-användare betyder det att du felaktigt har angett sökvägen till den körbara Windows-spelaren. Logga in igen som administratör och verifiera och kör skriptet igen.
+Om du får en svart skärm när du har loggat in som Kiosk-användare betyder det att du felaktigt har angett sökvägen till den körbara Windows-spelaren. Logga in igen som administratör och verifiera och kör skriptet igen.
 
 Standardinstallationssökvägen för Windows Player är:
 
 ***C:\Users\&lt;your user=&quot;&quot;>\AppData\Local\Programs\@aem-screensscreens-player-electron\AEM Screens Player.exe***
 
-Exempelskriptet i länkarna aktiverar och inaktiverar det anpassade skalet. Därför kan du behöva dela upp skriptet i två delar och aktivera/inaktivera nedanstående tillämpliga rader:
+Exempelskriptet i länkarna aktiverar och inaktiverar det anpassade skalet. Dela därför upp skriptet i två delar och aktivera/inaktivera nedanstående rader:
 
 >[!NOTE]
 >
->I vissa Windows-miljöer kan PowerShell-skript begränsas av en princip (särskilt osignerade skript). Om du vill köra skriptet kan du behöva inaktivera och aktivera den här begränsningen tillfälligt igen för att köra skriptet. Öppna ett PowerShell-fönster och använd dessa kommandon.
+>I vissa Windows-miljöer kan PowerShell-skript begränsas av en princip (särskilt osignerade skript). Om du vill köra skriptet inaktiverar och aktiverar du den här begränsningen tillfälligt för att köra skriptet. Öppna ett PowerShell-fönster och använd dessa kommandon.
 >
->*exekveringsprincip utan begränsningar* - för att tillfälligt ta bort begränsningar
+>*`set-executionpolicy unrestricted`* - för att tillfälligt ta bort begränsningar.
 >
->*exekveringsprincip begränsad* - för att återaktivera begränsning efter att skriptet har körts
+>*`set-executionpolicy restricted`* - för att återaktivera begränsning efter att skriptet har körts.
 
 ```
 # Remove the new custom shells.
