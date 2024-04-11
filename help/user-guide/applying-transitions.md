@@ -1,15 +1,12 @@
 ---
 title: Använda övergångar
-seo-title: Applying Transitions
-description: Följ den här sidan om du vill lära dig hur du använder övergångar i skärmsprojekt.
-seo-description: Follow this page to learn how to apply transitions to your Screens projects.
-uuid: b79d521b-19d4-47c8-a41a-148d7bbf6ac9
+description: Lär dig använda övergångar i dina AEM Screens-projekt.
 contentOwner: jsyal
 feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 757e6751-8008-487f-be89-9f53ac898928
-source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
+source-git-commit: 97084aee861e152abcc5f117a2a4759dced038cc
 workflow-type: tm+mt
 source-wordcount: '272'
 ht-degree: 0%
@@ -19,7 +16,6 @@ ht-degree: 0%
 # Använda övergångar {#applying-transitions}
 
 I det här avsnittet beskrivs hur du kan använda **Övergång** mellan olika resurser (bilder och videor) och inbäddade sekvenser i en kanal.
-
 
 >[!CAUTION]
 >
@@ -33,7 +29,7 @@ Följ stegen nedan för att lägga till en övergångskomponent i ditt AEM Scree
 >
 >**Förutsättningar**
 >
->Skapa ett AEM Screens-projekt **TestProject** med en kanal **TestTransition**. Dessutom kan du ställa in en plats och en visning för att visa utdata.
+>Skapa ett AEM Screens-projekt **TestProject** med en kanal **TestTransition**. Du kan även ställa in en plats och en visning för att visa utdata.
 
 1. Navigera till kanalen **TestTransition** och klicka **Redigera** i åtgärdsfältet.
 
@@ -47,6 +43,7 @@ Följ stegen nedan för att lägga till en övergångskomponent i ditt AEM Scree
 
 
 1. Dra och släpp **Övergång** till redigeraren.
+
    >[!CAUTION]
    >
    >Innan du lägger till övergången till dina resurser i din kanal måste du se till att du inte lägger till en övergång före den första resursen i den sekventiella kanalen. Det första objektet i kanalen måste vara en resurs och inte en övergång.
@@ -55,8 +52,8 @@ Följ stegen nedan för att lägga till en övergångskomponent i ditt AEM Scree
 
    >[!NOTE]
    >
-   >Som standard är övergångskomponentens egenskaper, som **Typ** är inställd på **Tona** och **Varaktighet** är inställd på *1 600 ms*.  Dessutom är det inte tillrådligt att ange en tidslängd för övergången som är längre än den tillgång den används på.
+   >Som standard är övergångskomponentens egenskaper, som **Typ** är inställd på **Tona** och **Varaktighet** är inställd på *1 600 millisekunder*. Det är inte heller tillrådligt att ange en tidslängd för övergången som är längre än den tillgång den används på.
 
-1. Om du dessutom lägger till en **Inbäddad sekvens** -komponent (som inkluderar en sekvenskanal) i den här kanalredigeraren kan du lägga till en övergångskomponent i slutet så att innehållet spelas upp i rätt ordning, vilket visas i figuren nedan:
+1. Om du lägger till en **Inbäddad sekvens** -komponenten (som inkluderar en sekvenskanal) i den här kanalredigeraren kan du lägga till en övergångskomponent i slutet. Detta garanterar att innehållet spelas upp i rätt ordning, vilket visas i följande bild:
 
    ![image3](assets/transitions5.png)

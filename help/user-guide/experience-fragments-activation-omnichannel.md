@@ -1,11 +1,9 @@
 ---
 title: Aktivering av Experience Fragments
-seo-title: Experience Fragments Activation
-description: Följ det här exemplet för att lära dig mer om aktivering av upplevelsefragment.
-seo-description: Follow this use case example to learn about experience fragments activation.
-source-git-commit: 7876c5eed8d23bbe566645feefd8eefb9aeac3f3
+description: Ett exempel som hjälper dig att lära dig mer om aktivering av upplevelsefragment när det gäller AEM Screens.
+source-git-commit: 97084aee861e152abcc5f117a2a4759dced038cc
 workflow-type: tm+mt
-source-wordcount: '186'
+source-wordcount: '194'
 ht-degree: 0%
 
 ---
@@ -17,7 +15,7 @@ ht-degree: 0%
 
 Ett Experience Fragment är en grupp med en eller flera komponenter, inklusive innehåll och layout, som refereras till på sidor.
 
-I följande exempel kan du implementera ett demoprojekt där Experience Fragment används i ett AEM Screens-projekt. Viktiga faktorer i detta fall är:
+I följande exempel kan du implementera ett demoprojekt från vilket Experience Fragment används i ett AEM Screens-projekt. Viktiga faktorer i det här användningsfallet är följande:
 
 * Öka textstorlek
 * Vända bilderna
@@ -34,7 +32,7 @@ Skapa ett projekt med namnet **DemoProject** och en sekvenskanal med namnet **Te
 
 ### Implementera Experience Fragment i ett AEM Screens-projekt {#experience-fragments-implementation}
 
-När du har skapat en Experience Fragment och använt den i ditt AEM Screens-projekt, **DemoProject** kan ni nu förbättra upplevelsefragmentet efter era behov.
+När du har skapat en Experience Fragment och använt den i ditt AEM Screens-projekt, **DemoProject** ni kan förbättra upplevelsefragmentet efter era behov.
 
 ### Öka textstorlek {#increasing-text-size}
 
