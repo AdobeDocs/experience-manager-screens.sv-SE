@@ -1,22 +1,18 @@
 ---
 title: Versionsinformation för funktionspaket 201907
-seo-title: Release Notes for Feature Pack 201907
-description: Följ den här sidan för att få information om AEM Screens Feature Pack 201907 släppt den 31 juli 2019.
-seo-description: Follow this page to get information for AEM Screens Feature Pack 201907 released on July 31, 2019.
-uuid: e5349c92-d532-4f04-a757-7c4545cdb074
+description: Läs om AEM Screens Feature Pack 201907 som släpptes den 31 juli 2019.
 contentOwner: jsyal
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: release-notes
 content-type: reference
-discoiquuid: 826d1599-02d1-4d24-b15d-26c1ffee36a2
 docset: aem65
 feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: 6a05a014-aedf-4261-849d-abf1ce070964
-source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
+source-git-commit: 43e89ddc3eb6baffca75d730a978e60e234aaee4
 workflow-type: tm+mt
-source-wordcount: '375'
+source-wordcount: '370'
 ht-degree: 0%
 
 ---
@@ -25,7 +21,7 @@ ht-degree: 0%
 
 >[!CAUTION]
 >
->Du bör uppgradera till den senaste versionen av Adobe Experience Manager (AEM). Skärmar har underhållsstöd för AEM 6.3 Screens-plattformen.
+>Adobe rekommenderar att du uppgraderar till den senaste versionen av Adobe Experience Manager (AEM). AEM Screens har underhållsstöd för AEM 6.3 Screens Platform.
 
 AEM Screens har släppt AEM 6.4.5 Feature Pack 5 och AEM 6.5.1 Feature Pack 1 med följande information.
 
@@ -61,21 +57,21 @@ Uppdateringshanteraren tolkar nu upplevelsefragmenten och samlar in alla bilder,
 
 * **Startar**
 
-Med det här alternativet kan innehållsförfattare skapa framtida versioner av kanalerna. Med hjälp av startguider kan man förhandsgranska varje kanal i lanseringen och bör kunna initiera en granskningsförfrågan. Godkännargruppen får meddelanden och kan godkänna eller avvisa begäran. När live-datumet nås spelas innehållet upp på enheterna.
+Med det här alternativet kan innehållsförfattare skapa framtida versioner av kanalerna. Med hjälp av Launches kan författarna förhandsgranska varje kanal i lanseringen och bör kunna initiera en begäran om granskning. Godkännargruppen får meddelanden och kan godkänna eller avvisa begäran. När live-datumet nås spelas innehållet upp på enheterna.
 Se [Startar](launches.md) för mer information.
 
 * **Offlinekonfigurationer i Experience Fragments**
 
-Nu kan du lägga till offlinekonfigurationer (klientbibliotek och statiska filer) när du konfigurerar fragment för skärmar. Se [Använda upplevelsefragment](experience-fragments-in-screens.md) för mer information.
+Nu kan du lägga till offlinekonfigurationer (klientbibliotek och statiska filer) när du konfigurerar skärmar med Experience Fragment. Se [Använda upplevelsefragment](experience-fragments-in-screens.md) för mer information.
 
-### Släppta AEM Screens-spelare {#released-aem-screens-players}
+### Släppta AEM Screens-spelare
 
 Följande AEM Screens-spelare finns för AEM 6.4.5 Feature Pack 5 och AEM 6.5.1 Feature Pack 1:
 
 * ChromeOS
 * Windows
-* Android
+* Android™
 
-#### AEM Screens Player - nedladdningar  {#aem-screens-player-downloads}
+#### AEM Screens Player - nedladdningar
 
 Om du vill hämta den senaste AEM Screens-spelaren och läsa mer om felkorrigeringarna kan du läsa [AEM Screens Player - nedladdningar](https://download.macromedia.com/screens/).
