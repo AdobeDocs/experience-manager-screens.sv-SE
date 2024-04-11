@@ -1,15 +1,13 @@
 ---
 title: Använda Chrome Player som tillägg
-seo-title: Using Chrome Player as an Extension
-description: Följ den här sidan om du vill veta mer om hur du installerar färgspelaren som ett webbläsartillägg.
-seo-description: null
+description: Lär dig hur du installerar färgspelaren som ett webbläsartillägg för AEM Screens.
 feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: 53d5bd81-0853-47b0-9798-01d8fd5612e6
-source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
+source-git-commit: 4102c2b2291c92823a36f87f07d5b5ca87cfa48f
 workflow-type: tm+mt
-source-wordcount: '458'
+source-wordcount: '446'
 ht-degree: 0%
 
 ---
@@ -20,44 +18,45 @@ ChromeOS-spelaren kan installeras som Chrome Browser-plugin i utvecklarläge uta
 
 >[!CAUTION]
 >
-> Vi rekommenderar att du använder Chrome Player som ett tillägg för felsökning för snabbdemonstrationer, felsökning och även för att felsöka kundproblem. Denna mekanism bör inte användas för produktionsdistributioner som kräver helskärmsläge och central hantering.
+> Vi rekommenderar att du använder Chrome Player som ett tillägg för felsökning för snabbdemonstrationer, felsökning och även för att felsöka kundproblem. Använd inte den här mekanismen för produktionsdistributioner som kräver helskärmsläge och central hantering.
 
-Följ den här sidan om du vill veta mer om hur du installerar färgspelaren som ett webbläsartillägg.
+Följ den här sidan om du vill ha information om hur du installerar färgspelaren som ett webbläsartillägg.
 
 1. Klicka [här](https://download.macromedia.com/screens/) för att ladda ned den senaste Chrome Player.
 
 1. Zippa upp och spara det på disken.
 
-1. Öppna webbläsaren Chrome och klicka på menyn med tre punkter och välj **Fler verktyg** från **Tillägg** längst upp till höger eller direkt navigera till `chrome://extensions`.
+1. Öppna webbläsaren Chrome och klicka på menyn med tre punkter och välj **Fler verktyg** från **Tillägg** i det övre högra hörnet eller navigera direkt till `chrome://extensions`.
 
 1. Aktivera **Utvecklare** från det övre högra hörnet.
 
-1. Klicka på **Läs in opackad** från det övre vänstra hörnet och ladda uppzippad Chrome Player.
+1. Klicka **Läs in opackad** från det övre vänstra hörnet och ladda uppzippad Chrome Player.
 
 1. Kontrollera AEM Screens Chrome Player-plugin om det finns i listan över tillägg.
 
 1. Öppna en ny flik och klicka på Apps-ikonen i det övre vänstra hörnet eller navigera direkt till `chrome://apps`.
 
-1. Klicka på **AEM Screens Plugin** för att starta Chrome Player.
+1. Klicka **AEM Screens Plugin** så att du kan starta Chrome Player.
+
    >[!NOTE]
    >
-   > Som standard startas spelaren i helskärmsläge. Tryck **esc** för att avsluta helskärmsläget.
+   > Som standard startas spelaren i helskärmsläge. Tryck **Esc** för att avsluta helskärmsläget.
 
 
 ## Avancerade felsökningstips {#advanced-debugging-tips}
 
-1. När spelaren har laddat ned innehåll lokalt kan du bläddra i det lokalt nedladdade innehållet genom att gå till `http://localhost:24502`.
+1. När spelaren har hämtat innehåll lokalt kan du bläddra i lokalt hämtat innehåll genom att gå till `http://localhost:24502`.
 
    >[!NOTE]
    >
-   > Om den ovannämnda URL:en inte fungerar innebär det antingen att spelaren inte har tilldelats någon visning eller att innehållet inte har hämtats. På nätverksfliken för spelarkonfigurationen JSON kan du se om spelaren har fått rätt information och om det finns nätverksproblem vid hämtning.
+   > Om den ovannämnda URL:en inte fungerar betyder det att spelaren inte har tilldelats någon visning eller att innehållet inte har hämtats. På nätverksfliken för spelarkonfigurationens JSON kan du se om spelaren har fått rätt information och om det finns nätverksproblem vid hämtning.
 
-1. Du kan högerklicka och inspektera tre lager i färgspelaren
+1. Högerklicka och inspektera tre lager i Chrome Player.
    **Felsöka innehåll**: Högerklicka och inspektera innehållet för att felsöka det innehåll som körs (det ska finnas ett objekt med namnet&quot;Inspect&quot; på snabbmenyn)
 
-   **Felsöka inbyggd programvara**: Ta fram administratörsgränssnittet och högerklicka och inspektera sedan för att felsöka den inbyggda programkoden (spelaren) (det bör finnas ett alternativ för att inspektera och inspektera bakgrundssidan och simulera webbläsaromstart)
+   **Felsöka inbyggd programvara**: Ta fram administratörsgränssnittet och högerklicka och inspektera sedan för att felsöka den inbyggda programkoden (spelare). (Det bör finnas ett alternativ för att inspektera och inspektera bakgrundssidan och simulera omstart av webbläsaren.)
 
-   **Felsöka bakgrundssida**: Ta fram administratörsgränssnittet och högerklicka och inspektera bakgrundssidan (för bakgrundstjänster som http-server)
+   **Felsöka bakgrundssida**: Ta fram administratörsgränssnittet och högerklicka och inspektera sedan bakgrundssidan (för bakgrundstjänster som http-server).
 
 ## Uppgradera Player-tillägget {#upgrading-player}
 

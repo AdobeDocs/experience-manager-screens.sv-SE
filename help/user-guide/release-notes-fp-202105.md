@@ -5,9 +5,9 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: fc210d9d-5fac-4147-849d-182ffbaf0a5e
-source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
+source-git-commit: 4102c2b2291c92823a36f87f07d5b5ca87cfa48f
 workflow-type: tm+mt
-source-wordcount: '393'
+source-wordcount: '394'
 ht-degree: 0%
 
 ---
@@ -41,7 +41,7 @@ Releasedatum för AEM Screens Feature Pack 202105 är 4 juni 2021.
   AEM Screens-spelarna kan nu skicka ett enhetsnamn till Adobe Experience Manager (AEM).
 När gruppregistrering används som standard för att registrera en enhet anges ett systemgenererat användarnamn i namnfältet. Som ett alternativ kan kunden använda en tillgångstagg eller ett annat användarvänligt namn så att den syns i AEM och är lättare att tilldela rätt innehåll.
 
-  Läs följande dokumentation om du vill veta mer om hur du konfigurerar namnet i varje operativsystem som stöds:
+  I följande dokumentation finns information om hur du konfigurerar namnet i varje operativsystem som stöds:
 
    * [Android](/help/user-guide/implementing-android-player.md#name-android)
    * [Windows](/help/user-guide/implementing-windows-player.md#name-windows)
