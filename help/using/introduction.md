@@ -1,17 +1,17 @@
 ---
-title: Introduktion till [!UICONTROL AEM Screens]
-description: Den här sidan är en introduktion till AEM Screens
+title: Introduktion till AEM Screens
+description: Läs om AEM Screens och vad det kan göra för dig.
 exl-id: 11781e0b-0aca-4d08-aaad-87a7aaf28c24
-source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
+source-git-commit: ba5327077e4a2d30cc7b77f02123da5a240c67ae
 workflow-type: tm+mt
-source-wordcount: '659'
+source-wordcount: '660'
 ht-degree: 8%
 
 ---
 
 # Introduktion till AEM Screens {#introduction}
 
-**AEM (Adobe Experience Manager) skärmar** är en lösning för digitala signaturer som gör att du kan skapa, publicera och spela upp dynamiska och interaktiva digitala upplevelser. Det omfattar olika typer av skärmar på plats i kombination med en omfattande strategi för digital marknadsföring i flera kanaler.
+**AEM Screens** är en lösning för digitala signaturer som gör att du kan skapa, publicera och spela upp dynamiska och interaktiva digitala upplevelser. Det omfattar olika typer av skärmar på plats i kombination med en omfattande strategi för digital marknadsföring i flera kanaler.
 
 Med AEM Screens kan du skapa:
 

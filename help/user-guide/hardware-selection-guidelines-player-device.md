@@ -1,9 +1,9 @@
 ---
 title: Riktlinjer för val av maskinvara för spelarenheter
-description: Riktlinjer för val av maskinvara för spelarenheter
-source-git-commit: 7fdd812c71c995424a27db18264ef2db420d5717
+description: Läs mer om riktlinjer för val av maskinvara för AEM Screens Player-enheter.
+source-git-commit: ba5327077e4a2d30cc7b77f02123da5a240c67ae
 workflow-type: tm+mt
-source-wordcount: '220'
+source-wordcount: '227'
 ht-degree: 0%
 
 ---
@@ -37,16 +37,16 @@ I följande tabell sammanfattas maskinvarukonfigurationerna med typiska användn
    <td><strong>GPU</strong></td>
    <td><strong>Visa</strong></td>
    <td><strong>I/O</strong></td>
-   <td><strong>Vanliga användningsområden</strong></td>
+   <td><strong>Vanliga användningsfall</strong></td>
   </tr>
   <tr>
    <td>Grundläggande</td>
    <td>Intel® Atom-processor med dubbla kärnor, i3 eller fyra kärnor på ingångsnivå</td>
    <td><p>4 GB minne</p> <p>2 MB cache</p> </td>
-   <td><p>・ChromeOS 32 GB</p> <p>・Windows 128 GB</p> </td>
+   <td><p>*ChromeOS 32 GB</p> <p>*Windows 128 GB</p> </td>
    <td>OnBoard</td>
    <td>1920 x 1080</td>
-   <td>DVI,<br /> Ethernet/trådlöst,<br /> 2 x USB</td>
+   <td>DVI<br /> Ethernet/trådlöst,<br /> 2 x USB</td>
    <td>
     <ul>
      <li>Helskärmsloop som standard<br /> </li>
@@ -55,11 +55,11 @@ I följande tabell sammanfattas maskinvarukonfigurationerna med typiska användn
   </tr>
   <tr>
    <td>Standard</td>
-   <td>Processor med fyra kärnor, Intel® Core i5</td>
+   <td>Intel® Core™ i5-processor med fyra kärnor</td>
    <td><p>8 GB minne</p> <p>4 MB cache</p> </td>
-   <td>128 GBB</td>
+   <td>128 GB</td>
    <td>OnBoard</td>
-   <td>3840x2160 (4K)</td>
+   <td>3840x2160 (<code>4K</code>)</td>
    <td>DVI, HDMI<br /> Ethernet/trådlöst,<br /> 2 x USB</td>
    <td>
     <ul>
@@ -70,16 +70,16 @@ I följande tabell sammanfattas maskinvarukonfigurationerna med typiska användn
   </tr>
   <tr>
    <td>Avancerat</td>
-   <td>Intel® Core i7-processor med fyra kärnor och hypertrådning</td>
+   <td>Intel® Core™ i7-processor med fyra kärnor och hypertrådning</td>
    <td><p>16 GB minne</p> <p>8 MB cache</p> </td>
    <td>256 GB</td>
    <td>Dedikerad grafikprocessor</td>
-   <td>3840x2160 (4K)</td>
-   <td>DVI, HDMI<br /> Ethernet/trådlöst,<br /> 4 x USB</td>
+   <td>3840x2160 (<code>4K</code>)</td>
+   <td>DVI, HDMI<br /> Ethernet/trådlöst,<br /> 4xUSB</td>
    <td>
     <ul>
      <li>4 eller fler innehållszoner, samtidiga videouppspelningar</li>
-     <li>Interaktiv flersidig</li>
+     <li>Flersidig interaktiv</li>
      <li>Datautlösare med flera källor</li>
     </ul> </td>
   </tr>

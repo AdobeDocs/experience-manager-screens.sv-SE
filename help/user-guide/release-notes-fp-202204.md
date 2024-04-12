@@ -1,13 +1,13 @@
 ---
 title: Versionsinformation för funktionspaket 202204
-description: Följ den här sidan för att få information om AEM Screens Feature Pack 202204 släppt den 26 april 2022.
+description: Läs mer om AEM Screens Feature Pack 202204 som släpptes den 26 april 2022.
 feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: 5fd41f3a-212d-4179-8e59-22c0a32a1e19
-source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
+source-git-commit: ba5327077e4a2d30cc7b77f02123da5a240c67ae
 workflow-type: tm+mt
-source-wordcount: '297'
+source-wordcount: '298'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 # Versionsinformation för funktionspaket 202204 {#release-notes-for-feature-pack}
 
 >[!CAUTION]
->Du bör uppgradera till den senaste versionen av Adobe Experience Manager (AEM). Skärmar har underhållsstöd för AEM 6.3 Screens-plattformen.
+>Adobe rekommenderar att du uppgraderar till den senaste versionen av Adobe Experience Manager (AEM). AEM Screens har underhållsstöd för AEM 6.3 Screens Platform.
 
 ## Tillgänglighet {#availability}
 
@@ -47,16 +47,16 @@ Releasedatum för AEM Screens Feature Pack 202204 är 26 april 2022.
 
 * Spelaren kunde inte hämta den senaste uppdateringen genom att hantera publikationen. Den här är nu lagad.
 
-### Släppta AEM Screens-spelare {#released-aem-screens-players}
+### Släppta AEM Screens-spelare
 
 Följande AEM Screens-spelare finns för AEM 6.5 Feature Pack 11:
 
 * ChromeOS
 * Windows
 * Tizen
-* Android
-* Linux
+* Android™
+* Linux®
 
-#### AEM Screens Player - nedladdningar  {#aem-screens-player-downloads}
+#### AEM Screens Player - nedladdningar
 
 Om du vill hämta den senaste AEM Screens-spelaren och läsa mer om felkorrigeringarna kan du läsa **[AEM Screens Player - nedladdningar](https://download.macromedia.com/screens/index.html)**.

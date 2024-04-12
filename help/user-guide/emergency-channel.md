@@ -1,21 +1,17 @@
 ---
 title: Nödkanal
-seo-title: Emergency Channel
-description: Följ det här exemplet om hur du skapar och hanterar en nödkanal som innehållsförfattaren kan växla från en sekvenskanal om ett villkor uppfylls.
-seo-description: Follow this use case example to learn about creating and managing an emergency channel that the content author can switch from a sequence channel in case of a precondition.
-uuid: 612917c9-a832-453b-970c-f4365f7b105d
+description: Lär dig hur du skapar och hanterar en nödkanal som innehållsförfattaren kan växla från en sekvenskanal om det finns ett förhandsvillkor.
 content-type: example
 topic-tags: use-case-examples
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
-discoiquuid: dbb4fae6-f3fb-496a-9bd6-1151e2862b5b
 docset: aem65
 feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: d409ba46-b48a-44db-b305-27c392cd55de
-source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
+source-git-commit: ba5327077e4a2d30cc7b77f02123da5a240c67ae
 workflow-type: tm+mt
-source-wordcount: '768'
+source-wordcount: '710'
 ht-degree: 0%
 
 ---
@@ -24,7 +20,7 @@ ht-degree: 0%
 
 ## Använd fallbeskrivning {#use-case-description}
 
-I det här avsnittet beskrivs ett exempel på hur du använder ett användningsexempel som fokuserar på att skapa och hantera en nödkanal som innehållsförfattaren kan växla från en sekvenskanal om ett villkor uppfylls.
+I det här avsnittet beskrivs ett exempel på hur du använder ett användningsexempel som fokuserar på att skapa och hantera en nödkanal som innehållsförfattaren kan växla från en sekvenskanal om det finns ett förhandsvillkor.
 
 ### Förhandsvillkor {#preconditions}
 
@@ -52,7 +48,7 @@ Följ stegen nedan för att konfigurera en nödkanal:
 
 1. **Skapa en sekvenskanal**
 
-   1. Välj **Kanaler** mapp och klicka på **Skapa** för att öppna guiden och skapa en kanal.
+   1. Välj **Kanaler** mapp och klicka på **Skapa**.
 
    1. Välj **Sekvenskanal** från guiden och skapa kanalen som **MainAdChannel**.
 
@@ -61,14 +57,15 @@ Följ stegen nedan för att konfigurera en nödkanal:
 1. **Lägga till innehåll i sekvenskanalen**
 
    1. Markera kanalen (**MainAdChannel**).
-   1. Klicka **Redigera** i åtgärdsfältet för att öppna redigeraren. Dra och släpp några resurser i kanalen.
+   1. Klicka **Redigera** i åtgärdsfältet.
+   1. Dra och släpp några resurser i kanalen.
 
    ![screen_shot_2019-02-21at40053pm](assets/screen_shot_2019-02-21at40053pm.png)
 
 1. **Skapa en nödkanal**
 
    1. Välj **Kanaler** mapp.
-   1. Klicka på **Skapa** för att öppna guiden och skapa en kanal.
+   1. Klicka **Skapa**.
    1. Välj **Sekvenskanal** från guiden och skapa kanalen som **EmergencyChannel**.
 
    >[!NOTE]
@@ -80,7 +77,8 @@ Följ stegen nedan för att konfigurera en nödkanal:
 1. **Lägga till innehåll i en nödkanal**
 
    1. Markera kanalen (**Nödkanal)**.
-   1. Klicka **Redigera** i åtgärdsfältet för att öppna redigeraren. Dra och släpp den resurs som du vill ska köras i en nödsituation till kanalen.
+   1. Klicka **Redigera** i åtgärdsfältet.
+   1. Dra och släpp den resurs du vill köra i en nödsituation till kanalen.
 
    ![screen_shot_2019-02-21at40516pm](assets/screen_shot_2019-02-21at40516pm.png)
 
@@ -93,14 +91,15 @@ Följ stegen nedan för att konfigurera en nödkanal:
 
 1. **Skapar bildskärmar på din plats**
 
-   Navigera till din plats (**Butik**) och klicka på **Skapa** i åtgärdsfältet. Följ guiden och skapa två **Visar** titled som **StoreFront** och **StoreRear**.
+   Navigera till din plats (**Butik**) och klicka på **Skapa** i åtgärdsfältet. Skapa två efter guiden **Visar** titled som **StoreFront** och **StoreRear**.
 
    ![screen_shot_2019-02-22at122556pm](assets/screen_shot_2019-02-22at122556pm.png)
 
 1. **Skapa ett schema**
 
    1. Navigera till **Scheman** mapp.
-   1. Klicka **Skapa** i åtgärdsfältet. Följ guiden för att skapa ett schema med namnet **StoreSchedule**.
+   1. Klicka **Skapa** i åtgärdsfältet.
+   1. Skapa ett schema som heter som efter guiden **StoreSchedule**.
 
    ![screen_shot_2019-02-22at122845pm](assets/screen_shot_2019-02-22at122845pm.png)
 
@@ -117,7 +116,7 @@ Följ stegen nedan för att konfigurera en nödkanal:
       1. Ange händelser som stöds som **Inledande inläsning** och **Inaktiv skärm**.
       1. Klicka **Spara**
 
-      På samma sätt måste du utföra samma steg igen för att tilldela **EmergencyChannel** och ange **Prioritet**.
+      Följ samma steg igen för att tilldela **EmergencyChannel** och ange **Prioritet**.
 
    >[!NOTE]
    >
@@ -146,7 +145,7 @@ Följ stegen nedan för att konfigurera en nödkanal:
 
    1. Navigera till varje visning, till exempel **EmergencyChannel** > **Platser** > **Butik** >**StoreFront**.
 
-   1. Klicka **Kontrollpanel** från åtgärden för att öppna kontrollpanelen.
+   1. Klicka **Kontrollpanel** i åtgärdsfältet.
    1. Klicka **...** från **TILLDELADE KANALER OCH SCHEMAN** panel och ytterligare klicka **+Tilldela schema**.
 
    1. Välj sökvägen till schemat (till exempel här, **EmergencyChannel** > **Scheman** >**StoreSchedule**).
@@ -158,13 +157,13 @@ Följ stegen nedan för att konfigurera en nödkanal:
 
 1. **Enhetsregistrering**
 
-   Slutför registreringsprocessen och när du har registrerat dig ser du följande utdata på din AEM Screens-spelare.
+   Slutför registreringsprocessen. När du har registrerat dig kan du visa följande utdata i din AEM Screens-spelare.
 
    ![new30](assets/new30.gif)
 
 ## Växla till nödkanal {#switching-to-emergency-channel}
 
-I händelse av en kris utför du följande steg:
+Utför följande steg om det uppstår en kris:
 
 1. Navigera till **EmergencyChannel** > **Scheman** > **StoreSchedule** och markera **Kontrollpanel** i åtgärdsfältet.
 
@@ -178,7 +177,7 @@ I händelse av en kris utför du följande steg:
 
    ![screen_shot_2019-02-25at101622pm](assets/screen_shot_2019-02-25at101622pm.png)
 
-1. Så snart kanalens prioritet har uppdaterats visar alla AEM Screens-spelare **EmergencyChannel** innehåll enligt nedan.
+1. När kanalens prioritet uppdateras visas den **EmergencyChannel** innehåll.
 
    ![screen_shot_2019-02-25at101742pm](assets/screen_shot_2019-02-25at101742pm.png)
 
@@ -186,4 +185,4 @@ I händelse av en kris utför du följande steg:
 
 The **EmergencyChannel** fortsätter att visa innehållet tills innehållsförfattaren återställer prioritetsvärdet till 1.
 
-När innehållsförfattaren får instruktionerna om att nödläget har åtgärdats bör han/hon uppdatera prioriteten för **MainAdChannel** vilket gör att den normala uppspelningen återupptas.
+När innehållsförfattaren får instruktionerna om att nödläget har åtgärdats bör han/hon uppdatera prioriteten för **MainAdChannel** vilket gör att normal uppspelning återupptas.

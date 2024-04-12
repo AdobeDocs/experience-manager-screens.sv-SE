@@ -1,13 +1,13 @@
 ---
 title: Tilldelningsrapport för innehåll
-description: På den här sidan beskrivs hur du hämtar och använder Content Assignment Report.
+description: Lär dig hur du hämtar och använder Content Assignment Report när det gäller AEM Screens.
 feature: Authoring Screens
 role: Developer
 level: Intermediate
 exl-id: 7397aa99-97fc-45c2-a157-c1bd7b1700b5
-source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
+source-git-commit: ba5327077e4a2d30cc7b77f02123da5a240c67ae
 workflow-type: tm+mt
-source-wordcount: '371'
+source-wordcount: '359'
 ht-degree: 0%
 
 ---
@@ -18,14 +18,14 @@ Med rapportfunktionen Innehållstilldelning kan en AEM Screens-administratör el
 
 ## Använda rapporten för innehållstilldelning {#using-content-assignment-report}
 
-Med rapporten Innehållstilldelning kan en AEM Screens-författare eller en administratör hämta rapporten som innehåller alla resurser, till exempel bilder, videor i alla kanaler som har skapats i ett AEM Screens-projekt. Dessutom innehåller det information om alla kanaler som är tilldelade till alla avsedda skärmar och hädanefter alla enheter som är tilldelade till deras avsedda bildskärmar.
+Med rapporten Innehållstilldelning kan en AEM Screens-författare eller en administratör hämta rapporten som innehåller alla resurser, till exempel bilder, videor i alla kanaler som har skapats i ett AEM Screens-projekt. Dessutom innehåller det information om alla kanaler som är tilldelade till alla avsedda skärmar och hädanefter alla enheter som är tilldelade till deras avsedda skärmar.
 
-Tilldelningsrapporten för innehåll tillåter inte bara en förhandsgranskning av alla kanaler, resurser, skärmar och enheter i det valda AEM Screens-projektet, utan även en högnivåstruktur i ditt projekt.
+I rapporten Innehållstilldelning kan du inte bara förhandsgranska alla kanaler, resurser, skärmar och enheter i det valda AEM Screens-projektet, utan även få en högnivåstruktur i ditt projekt.
 
 
 ### Krav {#pre-reqs}
 
-Innan du hämtar rapporten för innehållstilldelning bör du kontrollera att du har konfigurerat ett AEM Screens-projekt med kanaler, platser och enheter.
+Innan du laddar ned rapporten för innehållstilldelning bör du kontrollera att du har konfigurerat ett AEM Screens-projekt med kanaler, platser och enheter.
 Mer information finns i följande resurser:
 
 1. [Skapa och hantera projekt](/help/user-guide/creating-a-screens-project.md)
@@ -47,7 +47,7 @@ Följ instruktionerna nedan för att hämta rapporten för innehållstilldelning
 
 1. Navigera till ditt AEM Screens-projekt och markera projektet **DemoScreens**.
 
-1. Klicka på **Tilldelningsrapport för innehåll** i åtgärdsfältet.
+1. Klicka **Tilldelningsrapport för innehåll** i åtgärdsfältet.
 
    ![bild](/help/user-guide/assets/content-assignment-report/can-download.png)
 
@@ -56,8 +56,8 @@ Följ instruktionerna nedan för att hämta rapporten för innehållstilldelning
    ![bild](/help/user-guide/assets/content-assignment-report/report-sheet1.png)
 
    >[!NOTE]
-   >De data som visas i kalkylbladet sorteras i bokstavsordning i ett format som är enkelt att läsa.
+   >De data som visas i kalkylbladet sorteras i bokstavsordning i ett lättläst format.
 
-1. Du kan klicka på någon av kanalerna i **Kanaler** kolumnen som ska öppnas **Innehåll** som direkt navigerar dig till den kanalen och också ger dig information om resurser (bilder och videor) som är kopplade till den kanalen, vilket visas i bilden nedan.
+1. Klicka på någon av kanalerna från **Kanaler** kolumnen öppnar **Innehåll** -fliken. I sin tur navigerar den direkt till den kanalen och ger dig information om resurser (bilder och videor) som är kopplade till den specifika kanalen.
 
    ![bild](/help/user-guide/assets/content-assignment-report/report-sheet2.png)

@@ -5,7 +5,7 @@ feature: Authoring Screens, Channel Assignment
 role: Admin, Developer
 level: Intermediate
 exl-id: 346eec9a-e291-4b0d-9686-fee1d5a0e7dd
-source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
+source-git-commit: ba5327077e4a2d30cc7b77f02123da5a240c67ae
 workflow-type: tm+mt
 source-wordcount: '1458'
 ht-degree: 0%
@@ -40,7 +40,7 @@ Följ stegen nedan för att konfigurera ett projekt och en kanal:
    ![bild](/help/user-guide/assets/channel-assignment/channel-assign-fp1.png)
 
    >[!NOTE]
-   >Se [Skapa och hantera projekt](creating-a-screens-project.md) för att lära dig hur man skapar ett AEM Screens-projekt.
+   >Mer information om hur du skapar ett AEM Screens-projekt finns i [Skapa och hantera projekt](creating-a-screens-project.md).
 
 1. Skapa en sekvenskanal med namnet **Cafeteria** i **Kanaler** mapp.
 
@@ -82,14 +82,14 @@ När projektkonfigurationen är klar måste du tilldela kanalen till en skärm f
 
    >[!NOTE]
    >
-   >Se [Kanalegenskaper](#channel-properties) om du vill veta mer om kanaltilldelningsegenskaper.
+   >Mer information om kanaltilldelningsegenskaper finns i [Kanalegenskaper](#channel-properties) -avsnitt.
 
 1. Från **Schema** väljer du **Aktiveringsfönster** och **Återkommande schema**.
    ![bild](/help/user-guide/assets/channel-assignment/channel-assign-fp8.png)
 
    >[!NOTE]
    >
-   >Se [Kanalegenskaper](#channel-properties) om du vill veta mer om kanaltilldelningsegenskaper.
+   >Mer information om kanaltilldelningsegenskaper finns i [Kanalegenskaper](#channel-properties) -avsnitt.
 
 1. Klicka **Spara** när du har konfigurerat dina inställningar.
 
@@ -97,7 +97,7 @@ När projektkonfigurationen är klar måste du tilldela kanalen till en skärm f
 
 I det här exemplet visas utdata på en Chrome Player. När du har tilldelat kanalen till din skärm måste du registrera enheten för en spelare.
 
-Se [Enhetsregistrering](device-registration.md) om du vill lära dig hur du registrerar en enhet på en AEM Screens-spelare.
+Mer information om hur du registrerar en enhet på en AEM Screens-spelare finns i [Enhetsregistrering](device-registration.md).
 
 Du kan visa följande utdata när du väljer spelare:
 

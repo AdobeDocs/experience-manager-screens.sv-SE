@@ -1,12 +1,13 @@
 ---
 title: Versionsinformation för skärmar, funktionspaket 20240215
-description: Följ den här sidan för att få information om AEM Screens Feature Pack 20240215 som släpptes den 15 februari 2024.
+description: Läs mer om AEM Screens Feature Pack 20240215 som släpptes den 15 februari 2024.
 feature: Feature Pack
 role: Developer
 level: Intermediate
-source-git-commit: d5b94814df33f00e23fcd22e85e50d6f02947d45
+exl-id: e4149f5b-42c0-43c8-b275-ecbe90104a98
+source-git-commit: ba5327077e4a2d30cc7b77f02123da5a240c67ae
 workflow-type: tm+mt
-source-wordcount: '155'
+source-wordcount: '151'
 ht-degree: 1%
 
 ---
@@ -14,7 +15,7 @@ ht-degree: 1%
 # Versionsinformation för funktionspaket 20240215 {#release-notes-for-screens-feature-pack}
 
 >[!CAUTION]
->Du bör uppgradera till den senaste versionen av 6.5 Adobe Experience Manager (AEM 6.5). Vi kan hämta den senaste versionsinformationen från [här](https://experienceleague.adobe.com/docs/experience-manager-65/content/release-notes/release-notes.html?lang=en)
+>Adobe rekommenderar att du uppgraderar till den senaste versionen av 6.5 Adobe Experience Manager (AEM 6.5). Du kan hämta den senaste versionsinformationen från [här](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/release-notes/release-notes)
 
 ## Tillgänglighet {#availability}
 

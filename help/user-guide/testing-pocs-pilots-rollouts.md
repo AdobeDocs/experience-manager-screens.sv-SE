@@ -10,9 +10,9 @@ feature: Overview
 role: User, Data Architect
 level: Beginner
 exl-id: 0e29f095-7f9d-49ea-8dda-9141402a4159
-source-git-commit: d1adadbab2cb13626dd8ce70deacced9f55aa4c9
+source-git-commit: ba5327077e4a2d30cc7b77f02123da5a240c67ae
 workflow-type: tm+mt
-source-wordcount: '531'
+source-wordcount: '532'
 ht-degree: 0%
 
 ---
@@ -33,7 +33,7 @@ I den här självstudiekursen beskrivs följande punkter som är relevanta för 
 
 >[!NOTE]
 >
->Vanliga säljcykler för distribution av digitala signaturer kan vara mellan 9 och 18 månader. Det finns många faktorer som påverkar den sista tidslinjen, inte minst hur slutkunden mäter framgång och hur riskkänslig deras affärspartners är när de inför en ny lösning.
+>Vanliga säljcykler för distribution av digitala signaturer kan ligga mellan 9 och 18 månader. Det finns många faktorer som påverkar den sista tidslinjen, inte minst hur slutkunden mäter framgång och hur riskkänslig deras affärspartners är när de inför en ny lösning.
 
 Till exempel kan intressenter för ett program för digitala signaturer i en detaljhandelsmiljö inkludera följande:
 

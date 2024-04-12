@@ -1,29 +1,27 @@
 ---
 title: Använda anpassad profilering och formatering för textövertäckningar
-seo-title: Applying Custom Branding and Styling for Text Overlays
-description: Följ den här sidan om du vill veta mer om hur du använder anpassad profilering och formatering för textövertäckningar.
-seo-description: Follow this page to learn how to apply custom branding and styling for Text Overlays.
+description: Lär dig hur du använder anpassad varumärkesprofilering och formatering för textövertäckningar för resurser i en AEM Screens-kanal.
 contentOwner: Jyotika Syal
 feature: Developing Screens
 role: Developer
 level: Intermediate
 exl-id: 059e1b19-e9b5-48f0-8f2f-141f0c2f7842
-source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
+source-git-commit: ba5327077e4a2d30cc7b77f02123da5a240c67ae
 workflow-type: tm+mt
-source-wordcount: '602'
+source-wordcount: '581'
 ht-degree: 1%
 
 ---
 
 # Anpassad profilering och formatering för textövertäckningar {#creating-custom-branding-styling}
 
-Följ den här sidan om du vill lära dig hur du använder anpassade märkesinställningar och format för textövertäckningar på dina resurser i en AEM Screens-kanal.
+Lär dig hur du använder anpassad varumärkesprofilering och formatering för textövertäckningar på dina resurser i en AEM Screens-kanal.
 
 ## Skapa anpassad profilering och formatering för textövertäckningar {#steps-custom-branding}
 
 Följ stegen nedan för att skapa anpassade märkesnamn och format för textövertäckningar:
 
-1. Skapa ett AEM Screens-projekt. I det här exemplet visas funktionen genom att ett projekt med namnet skapas **egen stil** och en kanal med namnet **DemoBrand** , vilket visas i figuren nedan.
+1. Skapa ett AEM Screens-projekt. I det här exemplet visas funktionen genom att ett projekt med namnet skapas **`customstyle`** och en kanal med namnet **DemoBrand** , vilket visas i figuren nedan.
 
    ![bild](/help/user-guide/assets/custom-brand/custom-brand1.png)
 
@@ -36,7 +34,7 @@ Följ stegen nedan för att skapa anpassade märkesnamn och format för textöve
 
 1. Navigera till CRXDE Lite från AEM > verktyg > **CRXDE Lite**.
 
-1. Du måste skapa en egen design i `/apps/settings/wcm/designs/<your-project>/`I det här fallet navigerar du till `/apps/settings/wcm/designs/customstyle/`
+1. Skapa en egen design i `/apps/settings/wcm/designs/<your-project>/`I det här fallet navigerar du till `/apps/settings/wcm/designs/customstyle/`
 
    ![bild](/help/user-guide/assets/custom-brand/custom-brand3.png)
 
@@ -67,7 +65,7 @@ Följ stegen nedan för att skapa anpassade märkesnamn och format för textöve
 
    ![bild](/help/user-guide/assets/custom-brand/custom-brand4.png)
 
-1. Kopiera sökvägen till ditt projekt, i det här fallet blir sökvägen `/apps/settings/wcm/designs/customstyle`.
+1. Kopiera sökvägen till ditt projekt, i det här fallet är sökvägen `/apps/settings/wcm/designs/customstyle`.
 
 1. Navigera till kanalen som heter **DemoBrand** (skapat i steg 1) och klicka **Egenskaper** i åtgärdsfältet när du har valt kanalen.
 
@@ -77,28 +75,28 @@ Följ stegen nedan för att skapa anpassade märkesnamn och format för textöve
    >[!NOTE]
    >Som standard är **Design** I det här fältet visas sökvägen till designen i mappen libs.
 
-1. Uppdatera **Design** med sökvägen till projektmappen. I det här fallet kommer det att `/apps/settings/wcm/designs/customstyle`.
+1. Uppdatera **Design** med sökvägen till projektmappen. I det här fallet är det `/apps/settings/wcm/designs/customstyle`.
 
    ![bild](/help/user-guide/assets/custom-brand/custom-brand6.png)
 
 1. Klicka **Spara och stäng** för att uppdatera designsökvägen.
 
    >[!IMPORTANT]
-   >Du kan välja att täcka över de befintliga skärmmallarna för att mata in dina egna designer som standard eller skapa en egen mall helt och hållet. Se stegen nedan för mer information.
+   >Om du vill kan du täcka över befintliga mallar för skärmar så att du kan mata in dina egna bilder som standard eller skapa en egen mall helt och hållet. Se stegen nedan för mer information.
 
 1. Så här övertäcker du de befintliga skärmmallarna så att du kan mata in din egen design som standard:
 
    1. Övertäckning `/libs/screens/core/templates/sequencechannel` in `/apps/screens/core/templates/sequencechannel`.
-   1. Ändra *cq:designPath* egenskap i `/apps/screens/core/templates/sequencechannel/jcr:content` för att peka på den nya designen.
+   1. Ändra *`cq:designPath`* egenskap i `/apps/screens/core/templates/sequencechannel/jcr:content` så att den pekar på den nya designen.
 
 1. Så här skapar du en egen mall:
    1. Kopiera `/libs/screens/core/templates/sequencechannel` till `/apps/customstyle/templates/styled-sequencechannel`.
-   1. Ändra *cq:designPath* egenskap i `/apps/customstyle/templates/styled-sequencechannel/jcr:content` för att peka på den nya designen.
+   1. Ändra *`cq:designPath`* egenskap i `/apps/customstyle/templates/styled-sequencechannel/jcr:content` så att den pekar på den nya designen.
 
 
 ### Uppdaterar åtkomstkontrollistor {#updating-acls}
 
-Du måste uppdatera åtkomstkontrollistorna för dessa designer så att de kan hämtas av spelaren.
+Uppdatera åtkomstkontrollistorna för dessa designer så att de kan hämtas av spelaren.
 
 1. Navigera till användaradministratören och välj `screens-<project>-devices group` och ge den läsbehörighet till den anpassade designsökvägen.
 
@@ -106,27 +104,29 @@ Du måste uppdatera åtkomstkontrollistorna för dessa designer så att de kan h
 
 ## Visa resultatet {#viewing-the-result}
 
-När du har utfört de föregående stegen kan du uppdatera *static.css* fil från **CRXDE Lite** och därför kan du visa uppdateringen av textöverlägget som redan har lagts till i resursen.
+När du har utfört stegen ovan kan du uppdatera *static.css* fil från **CRXDE Lite** och därför kan du visa uppdateringen av textövertäckningen som redan har lagts till i resursen.
 
 Följ stegen nedan för att visa den uppdaterade designen för textövertäckning:
 
-1. Gå till ditt AEM Screens-projekt med namnet **egen stil** > **Kanaler** > **DemoBrand**. Markera kanalen och klicka på **Redigera** i åtgärdsfältet för att öppna redigeraren.
+1. Gå till ditt AEM Screens-projekt med namnet **`customstyle`** > **Kanaler** > **DemoBrand**. Markera kanalen och klicka på **Redigera** i åtgärdsfältet.
 
 1. Sedan du lagt till designen i **Designer** fält, enligt ovan, klicka **Förhandsgranska** om du vill visa den aktuella stilen för bilden med textövertäckning.
 
    ![bild](/help/user-guide/assets/custom-brand/custom-brand7.png)
 
 1. Navigera till *static.css* i CRXDE Lite och lägg till teckensnittet som `font-family: "Lucida Console", Courier, monospace;` till den här filen, som visas nedan.
+
    ![bild](/help/user-guide/assets/custom-brand/custom-brand8.png)
 
-1. När du har sparat ändringarna och läst in förhandsvisningen igen visas en uppdatering av teckensnittet för textövertäckning, vilket visas i bilden nedan.
+1. När du sparar ändringarna och läser in förhandsvisningen igen visas en uppdatering av teckensnittet för textövertäckning, vilket visas i bilden nedan.
 
    ![bild](/help/user-guide/assets/custom-brand/custom-brand9.png)
 
-1. Du kan även ta bort de sista två kodblocken från *static.css* om du vill ta bort den rutformade stilen runt textövertäckningen.
-   ![bild](/help/user-guide/assets/custom-brand/custom-brand10.png)
+1. Du kan även ta bort de två sista kodblocken från *static.css* om du vill ta bort den rutformade stilen runt textövertäckningen.
 
-1. Du kommer att se den uppdaterade ändringen i förhandsvisningen där textöverlägget läggs till i bilden.
+![bild](/help/user-guide/assets/custom-brand/custom-brand10.png)
+
+1. Visa den uppdaterade ändringen i förhandsgranskningen där textöverlägget läggs till i bilden.
 
    ![bild](/help/user-guide/assets/custom-brand/custom-brand11.png)
 

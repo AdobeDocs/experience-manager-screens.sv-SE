@@ -1,6 +1,6 @@
 ---
 title: Adobe Analytics Integration med AEM Screens
-description: Följ den här sidan om du vill veta mer om hur AEM Screens kan integreras med Adobe Analytics och få ett spelbevis.
+description: Läs mer om hur du kan integrera AEM Screens med Adobe Analytics och få ett spelbevis.
 contentOwner: jsyal
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
@@ -10,9 +10,9 @@ feature: Administering Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 92c8c42b-7c1e-4d4a-8662-18c99666e9c6
-source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
+source-git-commit: ba5327077e4a2d30cc7b77f02123da5a240c67ae
 workflow-type: tm+mt
-source-wordcount: '681'
+source-wordcount: '676'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,7 @@ Detta avsnitt behandlar följande ämnen:
 
 ## Ökning {#overview}
 
-***AEM Screens*** utnyttjar Adobe Analytics och med det kan ni uppnå något unikt på marknaden - flerkanalsanalyser som hjälper er att korrelera innehåll som visas på plats med andra datakällor.
+***AEM Screens*** använder Adobe Analytics, och med det kan ni uppnå något unikt på marknaden - flerkanalsanalyser som hjälper er att korrelera innehåll som visas på plats med andra datakällor.
 
 AEM Screens är en färdig integrerad lösning med Adobe Analytics och ger dig ett bevis på uppspelning.
 
@@ -55,7 +55,7 @@ Adobe Analytics Integration med AEM Screens har alltså följande begränsningar
 
 ## Arkitekturinformation {#architectural-details}
 
-En AEM Screens-kund vill förstå vilket innehåll som visades vid vilken tidpunkt och hur länge (aggregerat). Detta är en vanlig funktion för signeringslösning. I stället för att bygga upp våra egna analyser kommer AEM Screens att utnyttja Adobe Analytics, och med det kan vi uppnå något unikt på marknaden - flerkanalsanalyser som hjälper till att korrelera innehåll som visas på plats med andra datakällor.
+En AEM Screens-kund vill förstå vilket innehåll som visades vid vilken tidpunkt och hur länge (aggregerat). Detta är en vanlig funktion för signeringslösning. I stället för att bygga ett separat analysprogram använder AEM Screens Adobe Analytics. Med kombinationen kan vi uppnå något unikt på marknaden - flerkanalsanalyser som hjälper oss att korrelera innehåll som visas på plats med andra datakällor.
 
 I följande diagram förklaras Adobe Analytics Integration med AEM Screens:
 
@@ -65,7 +65,7 @@ I följande diagram förklaras Adobe Analytics Integration med AEM Screens:
 
 Adobe Analytics-inställningarna kan konfigureras från OSGi-konsolen.
 
-Navigera till **Konfiguration av Adobe Experience Manager Web Console** konfigurera Adobe Analytics för AEM Screens enligt bilden nedan:
+Navigera till **Konfiguration av Adobe Experience Manager Web Console** så att du kan konfigurera Adobe Analytics för AEM Screens.
 
 ![screen_shot_2018-09-04at25550pm](assets/screen_shot_2018-09-04at25550pm.png)
 
@@ -121,7 +121,7 @@ I följande tabell visas egenskaperna med en beskrivning av hur du konfigurerar 
 
 #### Använda Adobe Analytics-tjänsten i AEM Screens {#using-adobe-analytics-service-in-aem-screens}
 
-Det här scenariot anropar Analytics API via REST-anrop från en analystjänst i den inbyggda programvaran och kärnkomponenter för instrumentskärmar för att explicit skapa och skicka händelser som är specifika för ett visst användningsfall, samtidigt som det tillåter utökningsmöjligheter där anpassade meddelanden kan skickas till Analytics från en anpassad utvecklad kanal.
+Detta scenario anropar Analytics API via REST-anrop från en analystjänst i den inbyggda programvaran. Den AEM också skärmar-kärnkomponenter för att explicit skapa och skicka händelser som är specifika för ett visst användningsfall. Allt detta samtidigt som man tillåter utbyggbarhet där det går att skicka anpassade meddelanden till Analytics från en anpassad kanal.
 
 Analyshändelser lagras offline i indexedDB och sedan i chunked-läge och skickas till molnet.
 

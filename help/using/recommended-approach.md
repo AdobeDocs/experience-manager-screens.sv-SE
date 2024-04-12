@@ -1,19 +1,17 @@
 ---
 title: Rekommenderat tillvägagångssätt
-seo-title: Recommended Approach in an AEM Screens Project
-description: Sidan beskriver rekommenderat tillvägagångssätt i ett AEM Screens-projekt
-seo-description: The page describes recommended approach in an AEM Screens project
+description: Läs mer om det rekommenderade tillvägagångssättet i ett AEM Screens-projekt.
 exl-id: 28aacffa-e9c9-4ccb-8038-720bb3e02a3f
-source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
+source-git-commit: ba5327077e4a2d30cc7b77f02123da5a240c67ae
 workflow-type: tm+mt
-source-wordcount: '438'
+source-wordcount: '430'
 ht-degree: 0%
 
 ---
 
 # Rekommenderat tillvägagångssätt {#recommended-approach}
 
-Vi rekommenderar att man ser AEM Screens-projekt på företagsnivå som ett långsiktigt företag. Det är troligt att projektet varar i ett eller flera år, särskilt om lösningen tillåter komplex användarinteraktion eller kommer att användas på flera olika enheter och platser.
+Vi rekommenderar att man ser AEM Screens-projekt på företagsnivå som ett långsiktigt företag. Det är troligt att projektet varar i ett eller flera år, särskilt om lösningen tillåter komplex användarinteraktion eller distribueras till olika enheter och platser.
 
 ## Riktlinjer innan en strategi för digital signering utvecklas {#signage-strategy}
 
@@ -29,20 +27,20 @@ Se de få rekommendationerna innan du börjar utveckla och driftsätta ett proje
 
 * **Definiera piloter, rollouts och POC:er**: Ta fram ett utkast till koncept (utkast till utkast) och anpassa efter behov genom en pilot och utrullning.
 
-* **Fördefinierad innehållsstrategi**: Upprätta en innehållsstrategi, inklusive kortsiktiga och långsiktiga mål. Anpassa dessutom varumärkesmål/nyckeltal med funktionsförbättringar.
+* **Fördefinierad innehållsstrategi**: Upprätta en innehållsstrategi, inklusive kortsiktiga och långsiktiga mål. Anpassa också varumärkesmål/nyckeltal till funktionsförbättringar.
 
   >[!NOTE]
   >
-  > Startkostnaderna är ofta högre för ett AEM Screens-projekt på grund av behovet av att investera i maskinvara, korrigeringar och webbplatsdesign. Därför kan enklare lösningar för det inledande innehållet hjälpa till att hantera budgetens förväntningar.
+  > Startkostnaderna för ett AEM Screens-projekt är ofta högre på grund av behovet av att investera i maskinvara, korrigeringar och webbplatsdesign. Det innebär att enklare innehållslösningar kan hjälpa er att hantera budgetens förväntningar.
 
-* **Beräknar slutprodukter i stor skala**: Om lösningen kommer att levereras i stor skala rekommenderar vi att du rullar ut komponenterna i programmet till noggrant utvalda pilotplatser för testanvändning. Leverera till nya platser och enheter när programmet godkänns i valideringen.
+* **Uppskattar storskaliga slutprodukter**: Om lösningen levereras i stor skala rekommenderar vi att du rullar ut komponenterna i programmet till noggrant utvalda pilotplatser för testanvändning. Leverera till nya platser och enheter när programmet godkänns i valideringen.
 
   >[!NOTE]
   >
-  > Börja samla in analyser under piloten för att hjälpa affärsteamen att validera lösningens framgångar mot de specifika mätvärden de försöker uppnå. Genom att veta hur pilotprojektet fungerar kan affärsteamet avgöra vilka förbättringar som behöver göras.
+  > Börja samla in analyser under piloten så att affärsteamen kan validera lösningens framgångar mot de specifika mätvärden de försöker uppnå. Genom att veta hur pilotprojektet fungerar kan affärsteamet avgöra vilka förbättringar som måste göras.
 
-* **Dela upp slutprodukter i mätbara uppgifter**: Genom att dela upp leveransen av funktioner i mätbara uppgifter kan man få snabb feedback, nå mer uppnåeliga mål och minska de övergripande projektriskerna.
+* **Dela upp slutprodukter i mätbara uppgifter**: Genom att dela upp hanteringen av funktioner i mätbara uppgifter kan du få feedback, nå mer uppnåeliga mål och minska de totala projektriskerna.
 
-* **Utveckla en färdplan**: Om kunden vill ha en funktionsrik produkt kan du leverera en del av den planerade funktionaliteten tidigt i projektet och schemalägga andra funktioner för framtida faser. En funktionsrik första leverans innebär större risk och blir svårare att validera med kunden.
+* **Utveckla en färdplan**: Om kunden vill ha en funktionsrik produkt kan du leverera en del av den planerade funktionen tidigt i projektet och schemalägga andra funktioner för framtida faser. En funktionsrik första leverans medför större risk och är svårare att validera med kunden.
 
-* **Förstå omfattningen av anpassade integreringar**: Interaktiva komponenter med pekskärmsinteraktion, rörelsesensor eller RFID kräver en betydande anpassad utveckling i implementeringsmetoden. Ett bildspel, en videoannons eller en statisk meny kan levereras som grafiskt innehåll eller HTML i en skärmkanal.
+* **Förstå omfattningen av anpassade integreringar**: Interaktiva komponenter med pekskärmsinteraktion, rörelsesensor eller RFID kräver betydande anpassad utveckling i implementeringsmetoden. Ett bildspel, en videoannons eller en statisk meny kan levereras som grafiskt innehåll eller HTML i en skärmkanal.
