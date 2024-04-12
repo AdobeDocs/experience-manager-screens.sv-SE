@@ -1,22 +1,18 @@
 ---
 title: Textövertäckning
-seo-title: Text Overlay
-description: Textövertäckning är en funktion i AEM Screens som gör att du kan skapa en övertygande upplevelse i en sekvenskanal genom att ange en rubrik eller en beskrivning som läggs ovanpå en bild. Följ den här sidan om du vill veta mer.
-seo-description: Text Overlay is a feature available in AEM Screens that allows you to create a compelling experience in a Sequence Channel by providing a title or a description overlaid on top of an image. Follow this page to learn more.
-uuid: 944477e8-0025-4cc7-aa61-6b72f4a245fd
+description: Lär dig mer om textövertäckning i AEM Screens där du kan skapa en övertygande upplevelse i en sekvenskanal genom att ange en rubrik eller en beskrivning som läggs ovanpå en bild.
 contentOwner: jsyal
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 content-type: reference
 topic-tags: authoring
-discoiquuid: b6fdb5a0-5601-4443-a3f4-85cc90c49914
 noindex: true
 feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: bbc719df-24a7-4cfb-9786-1c3496f9f082
-source-git-commit: 299018986ae58ecbdb51a30413222a9682fffc76
+source-git-commit: 1e8beb9dfaf579250138d4a41eeec88cc81f2d39
 workflow-type: tm+mt
-source-wordcount: '796'
+source-wordcount: '767'
 ht-degree: 0%
 
 ---
@@ -32,7 +28,7 @@ Detta avsnitt behandlar följande ämnen:
 
 >[!CAUTION]
 >
->The **Textövertäckning** finns bara om du har AEM 6.3 Feature Pack 5 eller AEM 6.4 Feature Pack 3.
+>The **Textövertäckning** Funktionen är bara tillgänglig om du har AEM 6.3 Feature Pack 5 eller AEM 6.4 Feature Pack 3.
 
 ## Ökning {#overview}
 
@@ -48,7 +44,7 @@ I följande avsnitt beskrivs hur du använder textövertäckning i ett AEM Scree
 
 **Förutsättningar**
 
-Innan du börjar implementera den här funktionen bör du kontrollera att du har konfigurerat ett projekt som en förutsättning för att börja implementera textövertäckning. Exempel:
+Innan du implementerar den här funktionen bör du kontrollera att du har konfigurerat ett projekt som en förutsättning för att börja implementera textövertäckning. Exempel:
 
 * Skapa ett AEM Screens-projekt (i det här exemplet **TextOverlayDemo**)
 
@@ -62,7 +58,7 @@ Följande bild visar **TextOverlayDemo** projekt med **TextExempel** kanal in **
 
 Följ stegen nedan för att använda textövertäckning i en AEM Screens-kanal:
 
-1. Navigera till **TextOverlayDemo** > **Kanaler** > **TextExempel** och klicka **Redigera** i åtgärdsfältet för att öppna redigeraren.
+1. Navigera till **TextOverlayDemo** > **Kanaler** > **TextExempel** och klicka **Redigera** i åtgärdsfältet.
 
    ![screen_shot_2018-12-16at80017pm](assets/screen_shot_2018-12-16at80017pm.png)
 
@@ -98,19 +94,19 @@ I följande avsnitt beskrivs användningen av värden från ett datalager, till 
 
 Konfigurera ContextHub för ditt AEM Screens-projekt.
 
-Mer information om hur du konfigurerar och hanterar datadrivna resursändringar med hjälp av ett datalager finns i [ContextHub konfigureras i AEM Screens](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/developing/configuring-context-hub.html).
+Mer information om hur du konfigurerar och hanterar datadrivna resursändringar med hjälp av ett datalager finns i [ContextHub konfigureras i AEM Screens](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/developing/configuring-context-hub).
 
 När du har ställt in de konfigurationer som krävs för ditt projekt följer du stegen nedan för att använda värden från Google Sheets:
 
-1. Navigera till **TextOverlayDemo** > **Kanaler** > **TextExempel** och klicka **Egenskaper** i åtgärdsfältet.
+1. Navigera till **TextOverlayDemo** > **Kanaler** > **TextExempel** och markera **Egenskaper** i åtgärdsfältet.
 
-1. Välj **Personalisering** för att konfigurera ContextHub-konfigurationer.
+1. Välj **Personalisering** så att du kan konfigurera ContextHub-konfigurationer.
 
-   1. Välj **ContextHub-sökväg** as **libs** > **inställningar** > **molninställningar** > **standard** > **ContextHub-konfigurationer** och klicka **Välj**.
+   1. Välj **ContextHub-sökväg** as **libs** > **inställningar** > **molninställningar** > **standard** > **ContextHub-konfigurationer** och markera **Välj**.
 
-   1. Välj **Segmentsökväg** as **conf** > **skärmar** > **inställningar** > **wcm** > **segment** och klicka **Välj**.
+   1. Välj **Segmentsökväg** as **conf** > **skärmar** > **inställningar** > **wcm** > **segment** och markera **Välj**.
 
-   1. Klicka **Spara och stäng**.
+   1. Välj **Spara och stäng**.
 
       >[!NOTE]
       >
@@ -118,20 +114,20 @@ När du har ställt in de konfigurationer som krävs för ditt projekt följer d
 
       ![image1](/help/user-guide/assets/text-overlay/text-overlay8.png)
 
-1. Navigera till **TextOverlayDemo** > **Kanaler** > **TextExempel** och klicka **Redigera** i åtgärdsfältet för att öppna redigeraren.
+1. Navigera till **TextOverlayDemo** > **Kanaler** > **TextExempel** och klicka **Redigera** i åtgärdsfältet.
 
    ![image1](/help/user-guide/assets/text-overlay/text-overlay1.png)
 
 1. Lägga till en bild- och textövertäckningskomponent i bilden enligt beskrivningen i [Använda textövertäckning](/help/user-guide/text-overlay.md#using-text-overlay) på den här sidan.
 
-1. Klicka på **Konfigurera** (skiftnyckelsikon) för att öppna **Bild** -dialogrutan.
+1. Välj på **Konfigurera** (skiftnyckelsikon) för att öppna **Bild** -dialogrutan.
 
    ![image1](/help/user-guide/assets/text-overlay/text-overlay4.png)
 
-1. Navigera till **ContextHub** -fliken från **Bild** -dialogrutan. Klicka **Lägg till**.
+1. Navigera till **ContextHub** -fliken från **Bild** -dialogrutan. Välj **Lägg till**.
 
    >[!NOTE]
-   >Om du inte har konfigurerat dina ContextHub-konfigurationer inaktiveras det här alternativet för ditt projekt.
+   >Om du inte har konfigurerat din ContextHub-konfiguration inaktiveras det här alternativet för ditt projekt.
 
 1. Retur **Värde** i **Platshållare** fält. Markera raden där du vill hämta värdet från ditt Google-blad i **ContextHub-variabel**. I det här fallet hämtas värdet från rad 2 och kolumn 1 från Google-bladen. Nu öppnar du **Standardvärde** as **20**, vilket visas i bilden nedan. När du är klar klickar du på bockmarkeringen.
 
@@ -146,6 +142,6 @@ När du har ställt in de konfigurationer som krävs för ditt projekt följer d
 
    ![image1](/help/user-guide/assets/text-overlay/text-overlay7.png)
 
-1. Klicka på **Förhandsgranska** för att visa önskade utdata.
+1. Välj **Förhandsgranska**.
 
    ![image1](/help/user-guide/assets/text-overlay/text-overlay10.png)

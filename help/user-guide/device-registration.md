@@ -1,22 +1,18 @@
 ---
 title: Enhetsregistrering
-seo-title: Device Registration
-description: På den här sidan beskrivs enhetsregistreringsprocessen i ett AEM Screens-projekt.
-seo-description: This page describes the device registration process in an AEM Screens project.
-uuid: 5365e506-1641-4a0c-b34d-c39da02f700b
+description: Läs mer om enhetsregistreringsprocessen i ett AEM Screens-projekt.
 contentOwner: jsyal
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 content-type: reference
 topic-tags: administering
-discoiquuid: 523084f6-bd71-4daf-95b7-fc4c481f76dc
 docset: aem65
 feature: Administering Screens, Device Registration
 role: Admin
 level: Intermediate
 exl-id: b2d3a2cd-263f-4142-80da-29ce54cbf391
-source-git-commit: d1adadbab2cb13626dd8ce70deacced9f55aa4c9
+source-git-commit: 1e8beb9dfaf579250138d4a41eeec88cc81f2d39
 workflow-type: tm+mt
-source-wordcount: '761'
+source-wordcount: '745'
 ht-degree: 0%
 
 ---
@@ -36,9 +32,9 @@ Enhetsregistreringsprocessen görs på två olika datorer:
 >
 >När du har laddat ned den senaste versionen av Windows Player (*.exe*), från [AEM 6.4 Player Downloads](https://download.macromedia.com/screens/) följer du stegen på spelaren för att slutföra ad hoc-installationen:
 >
->1. Tryck länge på det övre vänstra hörnet för att öppna administrationspanelen.
+>1. Tryck länge på det övre vänstra hörnet för att öppna administratörspanelen.
 >1. Navigera till **Konfiguration** från den vänstra åtgärdsmenyn och ange platsadressen för AEM i **Server** och klicka **Spara**.
->1. Klicka på **Registrering** från den vänstra åtgärdsmenyn och stegen nedan för att slutföra enhetsregistreringsprocessen.
+>1. Välj **Registrering** från den vänstra åtgärdsmenyn och stegen nedan för att slutföra enhetsregistreringsprocessen.
 >
 
 ![screen_shot_2018-11-26at12118pm](assets/screen_shot_2018-11-26at12118pm.png)
@@ -51,7 +47,7 @@ Enhetsregistreringsprocessen görs på två olika datorer:
 
    >[!NOTE]
    >
-   >Mer information om hur du skapar ett nytt projekt för skärmar AEM kontrollpanelen finns i [Skapa och hantera skärmsprojekt](creating-a-screens-project.md).
+   >Mer information om hur du skapar ett projekt för skärmar AEM kontrollpanelen finns i [Skapa och hantera skärmsprojekt](creating-a-screens-project.md).
 
 1. Tryck/klicka på **Enhetshanteraren** i åtgärdsfältet.
 
@@ -116,7 +112,7 @@ Om du inte har tilldelat enheten till en skärm följer du stegen nedan för att
 
    ![screen_shot_2018-11-26at112041am](assets/screen_shot_2018-11-26at112041am.png)
 
-   Dessutom kan du visa kontrollpanelen när du klickar **Slutför**.
+   Du kan även visa kontrollpanelen när du klickar **Slutför**.
 
    ![screen_shot_2018-11-26at112154am](assets/screen_shot_2018-11-26at112154am.png)
 
@@ -150,11 +146,11 @@ När du har registrerat enheter till spelaren kan du visa alla enheter från anv
   >[!NOTE]
   >Vi rekommenderar att du skapar enhetsnamnen med flera ord, t.ex. *Boston Store Lobby* i stället för en enstaka *BostonStoreLobby*.
 
-* Om du skapar enhetsnamn som *Boston Store Lobby* kan du söka efter alla ord *boston*, *store* eller *lobby* men om enhetsnamnet kallas för *BostonStoreLobby* söka *boston* visar inte resultaten.
+* Om du skapar enhetsnamn som *Boston Store Lobby* söker den efter alla ord *boston*, *store*, eller *lobby*. Om enhetsnamnet är *BostonStoreLobby* söker sedan efter *boston* visar inga resultat.
 
-* Vildkort, `*` stöds för sökning. Om du vill söka efter alla enheter med namn som börjar med *boston* kan du använda *boston**.
+* Vildkort, `*` stöds för sökning. Om du vill hitta alla enheter med namn som börjar med *boston* kan du använda *boston**.
 
-* Om enhetsnamnet är *BostonStoreLobby* och söka efter *boston* returnerar inte resultatet i stället med *boston** i sökvillkoren returnerar resultatet.
+* Om enhetsnamnet är *BostonStoreLobby* och söka efter *boston* returnerar inte resultatet, och använder *boston** i sökvillkoren returnerar resultatet.
 
 ## Begränsningar för enhetsregistrering {#limitations-on-device-registration}
 
@@ -174,6 +170,6 @@ javax.jcr.nodetype.ConstraintViolationException: Password violates password cons
         at org.apache.jackrabbit.oak.security.user.UserManagerImpl.onPasswordChange(UserManagerImpl.java:308)
 ```
 
-### Ytterligare resurser {#additional-resources}
+### Andra resurser {#additional-resources}
 
 Mer information om AEM Screens Player finns i [AEM Screens Player](working-with-screens-player.md).

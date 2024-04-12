@@ -1,12 +1,10 @@
 ---
 title: Om den här guiden
-seo-title: Description on the Guide
-description: Följ denna metodguide AEM 6.5 för AEM Screens-projekt för att planera och genomföra projekt, från strategiska genomgångar och designgenomgångar till driftsättning och efter support.
-seo-description: This page describes the intent of the Best Practices Guide
+description: Läs om de effektivaste strategierna för AEM Screens-projekt när det gäller att planera och genomföra projekt, från strategisk genomgång och designgenomgång till driftsättning och eftersupport.
 exl-id: b6db6df1-9fe4-40a6-88a9-9baed41a7492
-source-git-commit: 4817c02bf7f65edd1e55ab56f250cc982cc7c1ef
+source-git-commit: 1e8beb9dfaf579250138d4a41eeec88cc81f2d39
 workflow-type: tm+mt
-source-wordcount: '260'
+source-wordcount: '254'
 ht-degree: 0%
 
 ---
@@ -15,7 +13,7 @@ ht-degree: 0%
 
 AEM Screens Best Practices Guide ger vägledning om hur man framgångsrikt planerar och genomför ett AEM Screens-projekt.
 
-Målgruppen för det här dokumentet är:
+Målgruppen för dokumentet är:
 
 * *AEM*
 * *AV-integratörer*
@@ -25,9 +23,9 @@ Målgruppen för det här dokumentet är:
 
 Det bör dock framhållas att många andra roller också kan dra nytta av att läsa den här handboken.
 
-AEM Screens är en ny utökning av Adobe Experience Manager (AEM) och eftersom verktygen är nya och deras potentiella tillämpningar varierar är det viktigt att identifiera viktiga överväganden och vanliga riskfaktorer som är förknippade med utveckling och driftsättning av AEM Screens.
+AEM Screens är ett nytt tillägg till Adobe Experience Manager (AEM). Eftersom verktygen är nya och deras potentiella tillämpningar varierar är det viktigt att identifiera viktiga överväganden och vanliga riskfaktorer som är förknippade med utveckling och driftsättning av AEM Screens.
 
-Den här guiden ger inte bara en omfattande insikt och praktiska råd för att skapa, utforma och föra in avsiktliga kundupplevelser i er digitala signeringsimplementering, utan även vägleder dig hur du skapar en positiv effekt på ditt företag med hjälp av några av de bästa metoderna som följer när du distribuerar ett digitalt signeringsprojekt i AEM Screens.
+Den här guiden ger en omfattande insikt och praktiska råd för att skapa, utforma och föra in avsiktliga kundupplevelser i er digitala signeringsimplementering. Här får du också hjälp med att skapa en positiv effekt på ditt företag genom att använda några av de bästa metoderna som följs när du distribuerar ett projekt för digitala signaturer i AEM Screens.
 
 >[!IMPORTANT]
 >
@@ -38,11 +36,9 @@ Den här guiden ger inte bara en omfattande insikt och praktiska råd för att s
 > * **[AEM plattformskonfigurationer](aem-platform-configurations.md)**
 > * **[Support och övervakning](support-monitoring.md)**
 
-
 >[!NOTE]
 >
 > Termer som används i den här handboken (i samband med AEM Screens):
 >
 > * **UX** anses betyda de digitala signeringsupplevelser som skickas till slutkunder.
-> * **UI** är det användargränssnitt som gör att du kan skapa och hantera projekt på skärmar.
-
+> * **UI** är det användargränssnitt som du använder för att skapa och hantera projekt på skärmar.
