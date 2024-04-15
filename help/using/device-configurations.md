@@ -1,12 +1,10 @@
 ---
 title: Enhetsspecifikationer
-seo-title: Device Specifications
-description: Sidan beskriver enhetsspecifikationerna
-seo-description: The page describes device specifications
+description: Läs mer om enhetsspecifikationerna i AEM Screens.
 exl-id: c2e521b3-89f5-4537-a751-0bfa031286c4
-source-git-commit: 3c4b37b3b9f268b500562fa4ce3782b7be1e7d74
+source-git-commit: 10c168cd00b79964d229e3d2a14049e799d89d77
 workflow-type: tm+mt
-source-wordcount: '202'
+source-wordcount: '209'
 ht-degree: 0%
 
 ---
@@ -25,9 +23,9 @@ Baserat på den information som samlats in under *Dag noll* bekräftar du följa
 
 * Vilka program och operativsystem måste installeras på visningsenheter?
 
-* Kommer det att krävas en Internetanslutning för spelare för att synkronisera skärmarna med AEM servrar?
+* Krävs en internetanslutning för spelare för att synkronisera skärmarna med AEM servrar?
 
-* När kommer innehåll på spelare att uppdateras?
+* När uppdateras innehåll på spelare?
 
 * Om du kör videofilmer måste du känna till enhetens specifikationer, så att innehållet visas korrekt.
 
@@ -40,4 +38,4 @@ Baserat på den information som samlats in under *Dag noll* bekräftar du följa
 
 >[!NOTE]
 >
->Det är också viktigt att validera specifikationerna för den maskinvara som valts för att säkerställa att den kan stödja det program som utvecklas. Om programmet till exempel är avsett att köra fem HD-videor samtidigt, kommer maskinvaran att stödja det?
+>Det är också viktigt att validera specifikationerna för den maskinvara som valts för att säkerställa att den kan stödja det program som utvecklas. Om programmet till exempel ska köra fem HD-videor samtidigt, stöder maskinvaran det?

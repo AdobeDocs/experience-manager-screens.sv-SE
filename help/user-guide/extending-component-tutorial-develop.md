@@ -1,30 +1,26 @@
 ---
 title: Utöka en AEM Screens-komponent
-seo-title: Extending an AEM Screens Component
-description: I följande självstudiekurs går du igenom de olika stegen och de bästa sätten att utöka AEM Screens-komponenterna direkt. Bildkomponenten utökas för att lägga till en redigerbar textövertäckning.
-seo-description: The following tutorial walks through the steps and best practices for extending out of the box AEM Screens components. The Image component is extended to add an authorable text overlay.
-uuid: 38ee3a2b-a51a-4c35-b93a-89a0e5fc3837
+description: I den här självstudiekursen får du lära dig hur du utökar AEM Screens-komponenter utan att behöva göra det. Bildkomponenten utökas för att lägga till en redigerbar textövertäckning.
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 content-type: reference
 topic-tags: developing
-discoiquuid: 46bdc191-5056-41a4-9804-8f7c4a035abf
 targetaudience: target-audience new
 feature: Developing Screens
 role: Developer
 level: Intermediate
 exl-id: e316614f-2d40-4b62-a1e5-f30817def742
-source-git-commit: 29116a15d5486b2c446cae0d092c4d4b802fe9e7
+source-git-commit: 10c168cd00b79964d229e3d2a14049e799d89d77
 workflow-type: tm+mt
-source-wordcount: '1771'
+source-wordcount: '1696'
 ht-degree: 0%
 
 ---
 
-# Utöka en AEM Screens-komponent {#extending-an-aem-screens-component}
+# Utöka en AEM Screens-komponent
 
 I följande självstudiekurs går du igenom de olika stegen och de bästa sätten att utöka AEM Screens-komponenterna direkt. Bildkomponenten utökas för att lägga till en redigerbar textövertäckning.
 
-## Översikt {#overview}
+## Ökning {#overview}
 
 Den här självstudiekursen är avsedd för utvecklare som inte har använt AEM Screens tidigare. I den här självstudiekursen utökas komponenten Skärmbild för att skapa en Poster-komponent. En titel, beskrivning och logotyp läggs ovanpå en bild för att skapa en övertygande upplevelse i en sekvenskanal.
 
@@ -32,7 +28,7 @@ Den här självstudiekursen är avsedd för utvecklare som inte har använt AEM 
 >
 >Innan du startar den här självstudiekursen rekommenderar vi att du slutför självstudiekursen: [Utveckla en anpassad komponent för AEM Screens](developing-custom-component-tutorial-develop.md).
 
-![Egen förhandsgranskningskomponent](assets/2018-05-07_at_4_09pm.png)
+![Egen förhandsgranskning-komponent](assets/2018-05-07_at_4_09pm.png)
 
 En anpassad filmminiatyrkomponent skapas genom att bildkomponenten utökas.
 
@@ -44,11 +40,11 @@ Du behöver följande för att kunna slutföra den här självstudiekursen:
 1. [AEM Screens Player](/help/user-guide/aem-screens-introduction.md)
 1. Lokal utvecklingsmiljö
 
-Självstudiestegen och skärmbilderna utförs med CRXDE-Lite. [Eclipse](https://experienceleague.adobe.com/docs/experience-manager-65/developing/devtools/aem-eclipse.html) eller [IntelliJ](https://experienceleague.adobe.com/docs/experience-manager-65/developing/devtools/ht-intellij.html) IDE kan också användas för att slutföra självstudiekursen. Mer information om hur du använder en IDE till [utvecklas med AEM finns här](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/project-archetype/project-setup.html).
+Självstudiestegen och skärmbilderna utförs med CRXDE-Lite. [Eclipse](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/developing/devtools/aem-eclipse) eller [IntelliJ](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/developing/devtools/ht-intellij) IDE kan också användas för att slutföra självstudiekursen. Mer information om hur du använder en IDE till [AEM finns här](https://experienceleague.adobe.com/en/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/project-archetype/project-setup).
 
 ## Projektinställningar {#project-setup}
 
-Källkoden för ett skärmsprojekt hanteras vanligtvis som ett Maven-projekt med flera moduler. För att underlätta självstudiekursen har ett projekt förskapats med [AEM Project Archetype 13](https://github.com/adobe/aem-project-archetype). Mer information om [skapa ett projekt med Maven AEM Project Archetype finns här](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/project-archetype/project-setup.html).
+Källkoden för ett skärmsprojekt hanteras vanligtvis som ett Maven-projekt med flera moduler. För att underlätta självstudiekursen har ett projekt förskapats med [AEM Project Archetype 13](https://github.com/adobe/aem-project-archetype). Mer information om [skapa ett projekt med Maven AEM Project Archetype finns här](https://experienceleague.adobe.com/en/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/project-archetype/project-setup).
 
 1. Hämta och installera följande paket med **Hantera CRX-paket** `http://localhost:4502/crx/packmgr/index.jsp)r:`
 
@@ -59,24 +55,24 @@ Källkoden för ett skärmsprojekt hanteras vanligtvis som ett Maven-projekt med
 
    **`mvn -PautoInstallPackage clean install`**
 
-   SRC-startskärmar - webb.Kör projekt
+   Startskärmar för SRC `We.Retail` Kör projekt
 
 [Hämta fil](assets/start-poster-screens-weretail-run.zip)
 
 1. I **CRX Package Manager** `http://localhost:4502/crx/packmgr/index.jsp` följande två paket är installerade:
 
-   1. **screens-weretail-run.ui.content-0.0.1-SNAPSHOT.zip**
-   1. **screens-weretail-run.ui.apps-0.0.1-SNAPSHOT.zip**
+   1. **`screens-weretail-run.ui.content-0.0.1-SNAPSHOT.zip`**
+   1. **`screens-weretail-run.ui.apps-0.0.1-SNAPSHOT.zip`**
 
-   ![Skärmar, Web.Retail Kör Ui.Apps och Ui.Innehållspaket som installeras via CRX Package Manager](assets/crx-packages.png)
+   ![SkärmarVi.Retail Kör Ui.Apps och Ui.Content-paket som installeras med CRX Package Manager](assets/crx-packages.png)
 
-   Skärmar, Web.Retail Kör Ui.Apps och Ui.Innehållspaket som installeras via CRX Package Manager
+   AEM Screens `We.Retail Run Ui.Apps` och `Ui.Content` paket som installerats med CRX Package Manager
 
 ## Skapa förhandsgranskningskomponenten {#poster-cmp}
 
-Komponenten Poster utökar bildskärmskomponenten utanför rutan. En Sling-mekanism, `sling:resourceSuperType`, används för att ärva huvudfunktionerna i Image-komponenten utan att behöva kopiera och klistra in. Mer information om grunderna i [Bearbetning av försäljningsbegäran finns här.](https://experienceleague.adobe.com/docs/experience-manager-65/developing/introduction/the-basics.html)
+Komponenten Poster utökar den färdiga AEM Screens Image-komponenten. En Sling-mekanism, `sling:resourceSuperType`, används för att ärva huvudfunktionerna i Image-komponenten utan att behöva kopiera och klistra in. Mer information om grunderna i [Bearbetning av försäljningsbegäran finns här.](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/developing/introduction/the-basics)
 
-Komponenten Poster återges i helskärmsläge i förhandsgransknings-/produktionsläge. I redigeringsläge är det viktigt att återge komponenten på ett annat sätt för att underlätta redigeringen av sekvenskanalen.
+Komponenten Poster återges i helskärmsläge i förhandsgransknings-/produktionsläge. I redigeringsläge är det viktigt att återge komponenten på ett annat sätt för att underlätta redigering av sekvenskanalen.
 
 1. I **CRXDE-Lite** `http://localhost:4502/crx/de/index.jsp` (eller valfri IDE) under `/apps/weretail-run/components/content`skapa en `cq:Component` namngiven `poster`.
 
@@ -95,15 +91,15 @@ Komponenten Poster återges i helskärmsläge i förhandsgransknings-/produktion
 
    Egenskaper för /apps/weretail-run/components/content/affisch
 
-   Genom att ange `sling:resourceSuperType`egenskap lika med `screens/core/components/content/image` Poster-komponenten ärver effektivt alla funktioner i Image-komponenten. Motsvarande noder och filer hittades under `screens/core/components/content/image` kan läggas till under `poster` -komponent för att åsidosätta och utöka funktionaliteten.
+   Genom att ange `sling:resourceSuperType`egenskap lika med `screens/core/components/content/image`, ärver Poster-komponenten alla funktioner i Image-komponenten. Motsvarande noder och filer hittades under `screens/core/components/content/image` kan läggas till under `poster` för att åsidosätta och utöka funktionaliteten.
 
-1. Kopiera `cq:editConfig` nod under `/libs/screens/core/components/content/image.`Klistra in `cq:editConfig` under `/apps/weretail-run/components/content/poster` -komponenten.
+1. Kopiera `cq:editConfig` nod under `/libs/screens/core/components/content/image`. Klistra in `cq:editConfig` under `/apps/weretail-run/components/content/poster` -komponenten.
 
-   På `cq:editConfig/cq:dropTargets/image/parameters` noden uppdaterar `sling:resourceType` egenskap som är lika med `weretail-run/components/content/poster`.
+   På `cq:editConfig/cq:dropTargets/image/parameters` nod, uppdatera `sling:resourceType` egenskap som är lika med `weretail-run/components/content/poster`.
 
    ![edit-config](assets/edit-config.png)
 
-   XML-representation av cq:editConfig som återges nedan:
+   XML-representation av `cq:editConfig` visas nedan:
 
    ```xml
    <?xml version="1.0" encoding="UTF-8"?>
@@ -135,11 +131,11 @@ Komponenten Poster återges i helskärmsläge i förhandsgransknings-/produktion
 
    ![Dialogrutan har kopierats från /libs/wcm/foundation/components/image/cq:dialog till /apps/weretail-run/components/content/affisch](assets/2018-05-03_at_4_13pm.png)
 
-   Dialogrutan har kopierats från /libs/wcm/foundation/components/image/cq:dialog till /apps/weretail-run/components/content/affisch
+   Dialogrutan har kopierats från `/libs/wcm/foundation/components/image/cq:dialog` till `/apps/weretail-run/components/content/poster`
 
-   Skärmarna `image` -komponenten är supertypifierad till WCM Foundation `image` -komponenten. Därför `poster` -komponenten ärver funktioner från båda. Dialogrutan för förhandsgranskningskomponenten består av en kombination av dialogrutorna Skärmar och Foundation. Funktioner i **Samla resurser** används för att dölja irrelevanta dialogrutefält och flikar som ärvs från de överordnade typkomponenterna.
+   AEM Screens `image` -komponenten är supertypifierad till WCM Foundation `image` -komponenten. Därför `poster` -komponenten ärver funktioner från båda. Dialogrutan för förhandsgranskningskomponenten består av en kombination av dialogrutorna Skärmar och Foundation. Funktioner i **Samla resurser** används för att dölja irrelevanta dialogrutefält och flikar som ärvs från de överordnade typkomponenterna.
 
-1. Uppdatera cq:dialog under `/apps/weretail-run/components/content/poster` med följande ändringar representerade i XML:
+1. Uppdatera `cq:dialog` under `/apps/weretail-run/components/content/poster` med följande ändringar representerade i XML:
 
    ```xml
    <?xml version="1.0" encoding="UTF-8"?>
@@ -250,7 +246,7 @@ Komponenten Poster återges i helskärmsläge i förhandsgransknings-/produktion
 
    Affisch - Slutlig dialogstruktur
 
-   I det här skedet finns en instans av `poster` kan läggas till i **Inaktiv kanal** sidan i projektet We.Retail Run: `http://localhost:4502/editor.html/content/screens/we-retail-run/channels/idle-channel.edit.html`.
+   I det här skedet finns en instans av `poster` kan läggas till i **Inaktiv kanal** sidan i`We.Retail` Kör projekt: `http://localhost:4502/editor.html/content/screens/we-retail-run/channels/idle-channel.edit.html`.
 
    ![Dialogrutefält för förhandsgranskning](assets/poster-dialog-full.png)
 
@@ -280,13 +276,13 @@ Komponenten Poster återges i helskärmsläge i förhandsgransknings-/produktion
    </div>
    ```
 
-   Ovanför är produktionsmarkeringen för Poster Component. HTML-skriptet åsidosätter `screens/core/components/content/image/production.html`. The `image.js` är ett skript på serversidan som skapar ett POJO-liknande bildobjekt. Bildobjektet kan sedan anropas för att återge `src` som en bakgrundsbild i textformat.
+   Produktionsmärkningen för förhandsgranskningskomponenten visas direkt ovan. HTML-skriptet åsidosätter `screens/core/components/content/image/production.html`. The `image.js` är ett skript på serversidan som skapar ett POJO-liknande bildobjekt. Bildobjektet kan sedan anropas för att återge `src` som en bakgrundsbild i textformat.
 
    `The h1` och h2-taggar läggs till visar titel och beskrivning baserat på komponentegenskaperna: `${properties.jcr:title}` och `${properties.jcr:description}`.
 
    Omgivande `h1` och `h2` taggar är en div wrapper med tre CSS-klasser med variationer av &quot; `cmp-poster__text`&quot;. Värdet för `textPosition` och `textColor` används för att ändra CSS-klassen som återges baserat på författarens val i dialogrutan. I nästa avsnitt skrivs CSS från klientbibliotek för att aktivera dessa ändringar i visningen.
 
-   En logotyp ingår också som ett överlägg i komponenten. I det här exemplet är sökvägen till logotypen We.Retail hårdkodad i DAM. Beroende på användningsfallet kan det vara mer praktiskt att skapa ett dialogfält för att göra logotypsökvägen till ett dynamiskt ifyllt värde.
+   En logotyp ingår också som ett överlägg i komponenten. I det här exemplet är sökvägen till` We.Retail` logotypen är hårdkodad i DAM. Beroende på användningsfallet kan det vara mer praktiskt att skapa ett dialogfält för att göra logotypsökvägen till ett dynamiskt ifyllt värde.
 
    Observera också att BEM-notation (Block Element Modifier) används med komponenten. BEM är en CSS-kodkonvention som gör det enklare att skapa återanvändbara komponenter. BEM är den beteckning som används av [AEM kärnkomponenter](https://github.com/adobe/aem-core-wcm-components/wiki/CSS-coding-conventions). <!-- DEAD LINK More info can be found at: [https://getbem.com/](https://getbem.com/) -->
 
@@ -312,23 +308,23 @@ Komponenten Poster återges i helskärmsläge i förhandsgransknings-/produktion
    </div>
    ```
 
-   Ovanför är **redigera** -kod för Poster-komponenten. HTML-skriptet åsidosätter `/libs/screens/core/components/content/image/edit.html`. Koden liknar `production.html` och visar titeln och beskrivningen ovanpå bilden.
+   The **redigera** markering för förhandsgranskningskomponenten visas direkt ovanför. HTML-skriptet åsidosätter `/libs/screens/core/components/content/image/edit.html`. Koden liknar `production.html` och visar titeln och beskrivningen ovanpå bilden.
 
    The `aem-Screens-editWrapper`läggs till så att komponenten inte återges i helskärmsläge i redigeraren. The `data-emptytext` -attribut ser till att en platshållare visas när ingen bild eller inget innehåll har fyllts i.
 
 ## Skapa bibliotek på klientsidan {#clientlibs}
 
-Med bibliotek på klientsidan kan du ordna och hantera CSS- och JavaScript-filer som behövs för en AEM implementering. Mer information om hur du använder [Bibliotek på klientsidan finns här.](https://experienceleague.adobe.com/docs/experience-manager-65/developing/introduction/clientlibs.html?lang=en)
+Med bibliotek på klientsidan kan du ordna och hantera CSS- och JavaScript-filer som behövs för en AEM implementering. Mer information om hur du använder [Bibliotek på klientsidan finns här.](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/developing/introduction/clientlibs)
 
 AEM Screens-komponenter återges annorlunda i redigeringsläget jämfört med i förhandsgransknings-/produktionsläget. Två uppsättningar klientbibliotek skapas, en för redigeringsläget och en andra för Förhandsvisa/Produktion.
 
 1. Skapa en mapp för klientbibliotek för komponenten Poster.
 
-   Under `/apps/weretail-run/components/content/poster,`skapa en mapp med namnet `clientlibs`.
+   Under `/apps/weretail-run/components/content/poster`, skapa en mapp med namnet `clientlibs`.
 
    ![2018-05-03_at_1008pm](assets/2018-05-03_at_1008pm.png)
 
-1. Under `clientlibs` mapp skapa en nod med namnet `shared` av typen `cq:ClientLibraryFolder.`
+1. Under `clientlibs` mapp, skapa en nod med namnet `shared` av typen `cq:ClientLibraryFolder.`
 
    ![2018-05-03_at_1011pm](assets/2018-05-03_at_1011pm.png)
 
@@ -343,7 +339,7 @@ AEM Screens-komponenter återges annorlunda i redigeringsläget jämfört med i 
 
    The `categories` egenskapen är en sträng som identifierar klientbiblioteket. The `cq.screens.components` används i både redigeringsläget och läget Förhandsgranska/Produktion. Därför definieras alla CSS/JS i `shared` clientlib läses in i alla lägen.
 
-   Det är en god vana att aldrig visa några sökvägar direkt för /apps i en produktionsmiljö. The `allowProxy` egenskapen ser till att klientbibliotekets CSS och JS refereras via ett prefix på `/etc.clientlibs`. Mer information om [Egenskapen allowProxy finns här.](https://experienceleague.adobe.com/docs/experience-manager-65/developing/introduction/clientlibs.html?lang=en)
+   Det är en god vana att aldrig visa några sökvägar direkt för /apps i en produktionsmiljö. The `allowProxy` egenskapen ser till att klientbibliotekets CSS och JS refereras via ett prefix på `/etc.clientlibs`. Mer information om [Egenskapen allowProxy finns här.](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/developing/introduction/clientlibs)
 
 1. Skapa en fil med namnet `css.txt` under den delade mappen.
 
@@ -355,7 +351,7 @@ AEM Screens-komponenter återges annorlunda i redigeringsläget jämfört med i 
    styles.less
    ```
 
-1. Skapa en mapp med namnet `css` under `shared` mapp. Lägg till en fil med namnet `style.less` under `css` mapp. Klientbibliotekens struktur bör nu se ut så här:
+1. Skapa en mapp med namnet `css` under `shared` mapp. Lägga till en fil med namnet `style.less` under `css` mapp. Klientbibliotekens struktur bör nu se ut så här:
 
    ![2018-05-03_at_1057pm](assets/2018-05-03_at_1057pm.png)
 
@@ -416,9 +412,9 @@ AEM Screens-komponenter återges annorlunda i redigeringsläget jämfört med i 
 
    >[!NOTE]
    >
-   >Google Web Fonts används för teckensnittsfamiljer. Web Fonts kräver internetanslutning och inte alla skärmimplementeringar är tillförlitliga. Planering för offlineläge är en viktig faktor för skärmdistributioner.
+   >Google Web Fonts används för teckensnittsfamiljer. Web Fonts kräver internetanslutning och inte alla AEM Screens-implementeringar har en tillförlitlig anslutning. Planering för offlineläge är en viktig faktor för AEM Screens-distributioner.
 
-1. Kopiera `shared` biblioteksmapp för klient. Klistra in den på samma nivå och byt namn på den till `production`.
+1. Kopiera `shared` biblioteksmapp för klient. Klistra in den på samma nivå och ändra namnet till `production`.
 
    ![2018-05-03_at_114pm](assets/2018-05-03_at_1114pm.png)
 
@@ -495,18 +491,18 @@ En tredje klientbibliotekskategori: `cq.screens.components.edit` kan användas f
 
 ## Lägg till filmminiatyrkomponent i en sekvenskanal {#add-sequence-channel}
 
-Poster-komponenten används på en sekvenskanal. Startpaketet för kursen innehöll en inaktivitetskanal. Inaktivitetskanalen är förkonfigurerad för att tillåta komponenter i gruppen **Vi.Retail Run - Innehåll**. Poster-komponentens grupp är inställd på `We.Retail Run - Content` och är tillgängligt att läggas till i kanalen.
+Poster-komponenten används på en sekvenskanal. Startpaketet för den här självstudiekursen innehöll en inaktivitetskanal. Inaktivitetskanalen är förkonfigurerad för att tillåta komponenter i gruppen **`We.Retail Run - Content`**. Poster-komponentens grupp är inställd på `We.Retail Run - Content` och är tillgängligt att läggas till i kanalen.
 
-1. Öppna Idle Channel från projektet We.Retail Run: **`http://localhost:4502/editor.html/content/screens/we-retail-run/channels/idle-channel.edit.html`**
+1. Öppna inaktivitetskanalen från `We.Retail` Kör projekt: **`http://localhost:4502/editor.html/content/screens/we-retail-run/channels/idle-channel.edit.html`**
 1. Dra och släpp en ny förekomst av **Affisch** från sidorutan till sidan.
 
    ![2018-05-07_at_3_23pm](assets/2018-05-07_at_3_23pm.png)
 
-1. Redigera dialogrutan för förhandsgranskningskomponenten för att lägga till en bild, titel, beskrivning. Använd alternativen Textplacering och Textfärg för att säkerställa att titeln/beskrivningen kan läsas över bilden.
+1. Redigera dialogrutan för förhandsgranskningskomponenten så att du kan lägga till en bild, titel, beskrivning. Använd alternativen Textplacering och Textfärg för att säkerställa att titeln/beskrivningen kan läsas över bilden.
 
    ![2018-05-07_at_3_25pm](assets/2018-05-07_at_3_25pm.png)
 
-1. Upprepa stegen ovan om du vill lägga till några Poster-komponenter. Lägg till övergångar mellan komponenterna.
+1. Om du vill lägga till några Poster-komponenter upprepar du stegen ovan. Lägg till övergångar mellan komponenterna.
 
    ![2018-05-07_at_3_28pm](assets/2018-05-07_at_3_28pm.png)
 
@@ -518,12 +514,12 @@ I videon nedan visas den färdiga komponenten och hur den kan läggas till i en 
 
 ## Kod klar {#finished-code}
 
-Nedan visas den färdiga koden från självstudiekursen. The **screens-weretail-run.ui.apps-0.0.1-SNAPSHOT.zip** och **screens-weretail-run.ui.content-0.0.1-SNAPSHOT.zip** är de kompilerade AEM. **SRC-screens-weretail-run-0.0.1.zip **är den okompilerade källkoden som kan distribueras med Maven.
+Nedan visas den färdiga koden från självstudiekursen. The **screens-weretail-run.ui.apps-0.0.1-SNAPSHOT.zip** och **screens-weretail-run.ui.content-0.0.1-SNAPSHOT.zip** är de kompilerade AEM. The **SRC-screens-weretail-run-0.0.1.zip** är den okompilerade källkoden som kan distribueras med Maven.
 
 [Hämta fil](assets/final-poster-screens-weretail-runuiapps-001-snapshot.zip)
 
 [Hämta fil](assets/final-poster-screens-weretail-runuicontent-001-snapshot.zip)
 
-SRC Final Screens We.Retail Run Project
+SRC Final AEM Screens `We.Retail` Kör projekt
 
 [Hämta fil](assets/src-screens-weretail-run-001.zip)

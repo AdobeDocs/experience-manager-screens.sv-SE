@@ -1,11 +1,11 @@
 ---
 title: Versionsinformation för funktionspaket 2008
-description: Läs mer om AEM Screens Feature Pack 2008 som släpptes 3 september 2020.
+description: Läs mer om AEM Screens Feature Pack 2008 som släpptes den 3 september 2020.
 feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: bd466576-a6d3-494c-82e5-c5326b6e0aca
-source-git-commit: 1e8beb9dfaf579250138d4a41eeec88cc81f2d39
+source-git-commit: 10c168cd00b79964d229e3d2a14049e799d89d77
 workflow-type: tm+mt
 source-wordcount: '338'
 ht-degree: 0%
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 >[!CAUTION]
 >
->Du bör uppgradera till den senaste versionen av Adobe Experience Manager (AEM). AEM Screens har underhållsstöd för AEM 6.3 Screens Platform.
+>Adobe rekommenderar att du uppgraderar till den senaste versionen av Adobe Experience Manager (AEM). AEM Screens har underhållsstöd för AEM 6.3 Screens Platform.
 
 ## Tillgänglighet {#availability}
 

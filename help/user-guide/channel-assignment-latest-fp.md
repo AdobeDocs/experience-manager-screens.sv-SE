@@ -5,9 +5,9 @@ feature: Authoring Screens, Channel Assignment
 role: Admin, Developer
 level: Intermediate
 exl-id: 346eec9a-e291-4b0d-9686-fee1d5a0e7dd
-source-git-commit: ba5327077e4a2d30cc7b77f02123da5a240c67ae
+source-git-commit: 10c168cd00b79964d229e3d2a14049e799d89d77
 workflow-type: tm+mt
-source-wordcount: '1458'
+source-wordcount: '1454'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 >
 >I det här avsnittet beskrivs kanaltilldelning och planering av kanaler för AEM 6.5.5 Screens Feature Pack och senare.
 
-När du har konfigurerat en skärm måste du tilldela en kanal till en skärm för att kunna visa innehållet.
+När du har konfigurerat en visning tilldelar du en kanal till en visning för att visa innehållet.
 
 På den här sidan visas hur du tilldelar en kanal till visningen, hur du förstår kanalegenskaper och DayParting.
 
@@ -95,7 +95,7 @@ När projektkonfigurationen är klar måste du tilldela kanalen till en skärm f
 
 ### Visa innehållet i Chrome Player {#viewing-content-output}
 
-I det här exemplet visas utdata på en Chrome Player. När du har tilldelat kanalen till din skärm måste du registrera enheten för en spelare.
+I det här exemplet visas utdata på en Chrome Player. När du har tilldelat kanalen till din skärm registrerar du enheten till en spelare.
 
 Mer information om hur du registrerar en enhet på en AEM Screens-spelare finns i [Enhetsregistrering](device-registration.md).
 

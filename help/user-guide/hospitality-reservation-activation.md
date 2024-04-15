@@ -1,22 +1,18 @@
 ---
 title: Aktivering av hotellreservation
-seo-title: Hospitality Reservation Activation
-description: Följande exempel visar hur man använder aktivering av sjukhusbokning baserat på de värden som anges i Google Sheets.
-seo-description: The following use case demonstrates the usage of hospital reservation activation based on the values populated in Google Sheets.
-uuid: 7692d616-2b00-4d9a-9d3f-211c089b29af
+description: Se hur det här användningsexemplet visar hur man använder aktivering av gästreservation baserat på de värden som anges i Google Sheets.
 contentOwner: jsyal
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 content-type: reference
 topic-tags: use-case-examples
-discoiquuid: ef3e5dce-e36a-45d3-ad5e-db01430477c6
 docset: aem65
 feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: ae032042-fa2b-49cd-91fe-ce50f3ce9867
-source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
+source-git-commit: 10c168cd00b79964d229e3d2a14049e799d89d77
 workflow-type: tm+mt
-source-wordcount: '461'
+source-wordcount: '444'
 ht-degree: 0%
 
 ---
@@ -27,9 +23,9 @@ Följande exempel visar hur man använder aktivering av sjukhusbokning baserat p
 
 ## Beskrivning {#description}
 
-I det här användningsfallet fylls Google Sheet i med en procentandel reservationer på två restauranger **Restaurant1** och **Restaurant2**. En formel tillämpas baserat på värdena för Restaurant1 och Restaurant2 och baserat på formeln tilldelas värdet 1 eller 2 till **AdTarget** Kolumn.
+I det här användningsfallet fylls Google Sheet i med en procentandel reservationer på två restauranger **`Restaurant1`** och **`Restaurant2`**. En formel används baserat på värden för `Restaurant1` och `Restaurant2` och baserat på formeln tilldelas värdet 1 eller 2 till **AdTarget** Kolumn.
 
-Om värdet för **Restaurant1** > **Restaurant2** sedan **AdTaget** är tilldelat värde **1** annars **AdTarget** är tilldelat värde **2**. Värde 1 genererar *Svag mat* option and Value 2 results in display of *Thailändska livsmedel* på bildskärmen.
+Om värdet för **`Restaurant1`** > **`Restaurant2`** sedan **AdTaget** är tilldelat värde **1** annars **AdTarget** är tilldelat värde **2**. Värde 1 genererar *Svag mat* option och Value two results in display of *Thailändska livsmedel* på bildskärmen.
 
 ## Förhandsvillkor {#preconditions}
 
@@ -39,9 +35,9 @@ Se [ContextHub konfigureras i AEM Screens](configuring-context-hub.md) för deta
 
 ## Grundläggande flöde {#basic-flow}
 
-Följ stegen nedan för att implementera användningsexemplet för aktivering av gästreservation för ditt AEM Screens-projekt:
+Följ instruktionerna nedan för att implementera aktivering av gästreservation för ditt AEM Screens-projekt:
 
-1. **Fylla i Google-bladen och lägga till formeln.**
+1. **Fylla i Google-bladen och lägga till formeln**.
 
    Använd till exempel formeln på den tredje kolumnen **AdTarget**, vilket visas i figuren nedan.
 
@@ -50,22 +46,15 @@ Följ stegen nedan för att implementera användningsexemplet för aktivering av
 1. **Konfigurera segmenten i publiker enligt kraven**
 
    1. Navigera till segmenten i målgruppen (se ***Steg 2: Konfigurera målgruppssegmentering*** in **[ContextHub konfigureras i AEM Screens](configuring-context-hub.md)** sida för mer information).
-
    1. Välj **Blad A1 1** och klicka **Redigera**.
-
-   1. Markera jämförelseegenskapen och klicka på konfigurationsikonen för att redigera egenskaperna.
-   1. Välj **googlesheets/value/1/2** från listrutan i **Egenskapsnamn**
-
-   1. Välj **Operator** as **likhet** i listrutan
-
-   1. Ange **Värde** as **1**
-
+   1. Välj jämförelseegenskapen och klicka på **Konfiguration** -ikon.
+   1. Välj **googlesheets/value/1/2** från listrutan i **Egenskapsnamn**.
+   1. Välj **Operator** as **likhet** i listrutan.
+   1. Ange **Värde** as **1**.
    1. På samma sätt väljer du **Blad A1 2** och klicka **Redigera**.
-
-   1. Markera jämförelseegenskapen och klicka på konfigurationsikonen för att redigera egenskaperna.
-   1. Välj **googlesheets/value/1/2** från listrutan i **Egenskapsnamn**
-
-   1. Välj **Operator** as **2**
+   1. Välj jämförelseegenskapen och klicka på **Konfiguration** -ikon.
+   1. Välj **googlesheets/value/1/2** från listrutan i **Egenskapsnamn**.
+   1. Välj **Operator** as **2**.
 
 1. Navigera och markera kanalen () och klicka på **Redigera** i åtgärdsfältet. I följande exempel **DataDrivenRestaurant**, används en sekventiell kanal för att visa funktionaliteten.
 
@@ -85,6 +74,6 @@ Följ stegen nedan för att implementera användningsexemplet för aktivering av
 1. **Kontrollera förhandsvisningen**
 
    1. Klicka **Förhandsgranska.** Du kan även öppna dina Google-blad och uppdatera deras värde.
-   1. Uppdatera värdet i **Restaurant1** och **Restaurant2** kolumner. If **Restaurant1** > **Restaurant2,** du bör kunna visa en bild av *Stopp* annan mat, *Thailändska* matbilden visas på skärmen.
+   1. Uppdatera värdet i **`Restaurant1`** och **`Restaurant2`** kolumner. If **`Restaurant1`** > **`Restaurant2`,** du bör kunna visa en bild av *Stopp* annan mat, *Thailändska* matbilden visas på skärmen.
 
    ![result5](assets/result5.gif)

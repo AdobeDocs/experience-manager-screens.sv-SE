@@ -1,13 +1,13 @@
 ---
 title: Röstigenkänning i AEM Screens
-description: Sidan beskriver röstigenkänningsfunktionen i AEM Screens.
+description: Läs mer om röstigenkänning och hur du använder det i AEM Screens.
 feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 6cf0aa9f-7bac-403f-a113-51727c1f5374
-source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
+source-git-commit: 10c168cd00b79964d229e3d2a14049e799d89d77
 workflow-type: tm+mt
-source-wordcount: '1114'
+source-wordcount: '1090'
 ht-degree: 1%
 
 ---
@@ -18,14 +18,14 @@ ht-degree: 1%
 >
 >**Viktig sekretessinformation**
 >
->När du använder funktionen för röstigenkänning ska du följa alla tillämpliga juridiska och etiska riktlinjer för din region (inklusive, men inte begränsat till, att ge slutanvändarna ett synligt meddelande om att spelaren använder röstigenkänning). Adobe Inc., tar inte emot, lagrar eller bearbetar någon röstrelaterad information. AEM Screens-spelarna använder det standardwebbtal-API som är inbyggt i webbläsarmotorn. Bakom kulisserna skickar denna API en vågform av ditt tal till Google-servrar för konvertering från tal till text och den här texten matchas av spelaren mot konfigurerade nyckelord.
+>När du använder funktionen för röstigenkänning ska du följa alla tillämpliga juridiska och etiska riktlinjer för din region (inklusive, men inte begränsat till, att ge slutanvändarna ett synligt meddelande om att spelaren använder röstigenkänning). Adobe tar inte emot, lagrar eller bearbetar någon röstrelaterad information. AEM Screens-spelarna använder det standardwebbtal-API som är inbyggt i webbläsarmotorn. Bakom kulisserna skickar denna API en vågform av ditt tal till Google-servrar för konvertering från tal till text och den här texten matchas av spelaren mot konfigurerade nyckelord.
 >
 >Se [Google sekretessrapport om webbtalets-API](https://www.google.com/chrome/privacy/whitepaper.html#speech) för mer information.
 
 
 Röstigenkänningsfunktionen tillåter innehållsändringar i en AEM Screens-kanal som styrs av röstinteraktion.
 
-En innehållsförfattare kan konfigurera en visning som röstaktiverad. Syftet med den här funktionen är att ge kunderna möjlighet att använda tal som sätt att interagera med sina bildskärmar. Exempel på liknande användningsområden är att hitta produktrekommendationer i butiker, beställa menyalternativ på materier och restauranger. Den här funktionen ökar tillgängligheten för användarna och kan förbättra kundupplevelsen avsevärt.
+En innehållsförfattare kan konfigurera en visning som röstaktiverad. Syftet med den här funktionen är att låta kunderna använda tal som sätt att interagera med sina bildskärmar. Exempel på liknande användningsområden är att hitta produktrekommendationer i butiker, beställa menyalternativ på materier och restauranger. Den här funktionen ökar tillgängligheten för användarna och kan förbättra kundupplevelsen avsevärt.
 
 >[!NOTE]
 >Spelarens maskinvara måste stödja röstindata, t.ex. en mikrofon.
@@ -53,11 +53,11 @@ Innan du använder funktionen för röstigenkänning bör du kontrollera att du 
 
    Eller
 
-   Du kan skapa tre sekvenskanaler **Huvud**, **ColdDrinks** och **HotDrinks** och ytterligare en 1 x 2-kanal för delade skärmar **SplitScreen** som visas i figuren nedan.
+   Du kan skapa tre sekvenskanaler **Huvud**, **ColdDrinks** och **HotDrinks** och ytterligare en 1x2-kanal för delade skärmar **SplitScreen** som visas i figuren nedan.
 
    ![bild](assets/voice-recognition/vr-emb-1.png)
 
-1. Navigera till varje kanal och lägg till innehåll. Navigera till exempel **VoiceDemo** > **Kanaler** > **Huvud** och markera kanalen. Klicka **Redigera** i åtgärdsfältet för att öppna redigeraren och lägga till innehåll (bilder/videor) efter behov. Lägg på samma sätt till innehåll i båda **ColdDrinks** och **HotDrinks** kanal.
+1. Navigera till var och en av kanalerna och lägg till innehåll. Navigera till exempel **VoiceDemo** > **Kanaler** > **Huvud** och markera kanalen. Klicka **Redigera** i åtgärdsfältet och lägg sedan till innehåll (bilder/videor) efter behov. Lägg på samma sätt till innehåll i båda **ColdDrinks** och **HotDrinks** kanal.
 
    Kanalerna innehåller nu resurser (bilder), vilket visas i figurerna nedan.
 
@@ -79,19 +79,19 @@ Innan du använder funktionen för röstigenkänning bör du kontrollera att du 
 
 ### Konfigurera taggar för kanaler {#setting-tags}
 
-När du har lagt till innehåll i kanalerna måste du navigera till var och en av kanalerna och lägga till lämpliga taggar som skulle utlösa röstigenkänningen.
+När du har lagt till innehåll i kanalerna navigerar du till var och en av kanalerna och lägger till lämpliga taggar som skulle utlösa röstigenkänningen.
 
 Följ stegen nedan för att lägga till taggar i din kanal:
 
-1. Navigera till varje kanal och lägg till innehåll. Navigera till exempel **VoiceDemo** > **Kanaler** > **Huvud** och markera kanalen.
+1. Navigera till var och en av kanalerna och lägg till innehåll. Navigera till exempel **VoiceDemo** > **Kanaler** > **Huvud** och markera kanalen.
 
 1. Klicka **Egenskaper** i åtgärdsfältet.
 
    ![bild](assets/voice-recognition/vr-5.png)
 
-1. Navigera till **Grunderna** och väljer en tagg som redan finns i **Taggar** eller skapa ett nytt fält.
+1. Navigera till **Grunderna** väljer du en befintlig tagg på fliken **Taggar** eller skapa ett.
 
-   Du kan antingen skapa en ny tagg genom att ange ett nytt namn för taggen och trycka på `return` enligt figuren nedan:
+   Du kan antingen skapa en tagg genom att ange ett nytt namn för taggen och trycka på `return` enligt figuren nedan:
 
    ![bild](assets/voice-recognition/vr-6.png)
 
@@ -159,7 +159,7 @@ Nu kan du använda de här taggarna i ditt AEM Screens-projekt.
    >
    >Mer information om hur du tilldelar en kanal till en skärm finns i [Skapa och hantera skärmar](/help/user-guide/managing-displays.md).
 
-1. När du har tilldelat kanaler till en skärm går du till **LobbyDisplay** och väljer visningen. Välj **Egenskaper** i åtgärdsfältet.
+1. När du har tilldelat kanaler till en visning går du till **LobbyDisplay** och väljer visningen. Välj **Egenskaper** i åtgärdsfältet.
 
 1. Navigera till **Visa** och aktivera **Röstaktivering** option under **Innehåll**.
 
@@ -173,7 +173,7 @@ Nu kan du använda de här taggarna i ditt AEM Screens-projekt.
 När de föregående stegen är slutförda kan du registrera din fönsterenhet för att visa utdata.
 
 >[!NOTE]
->Se [Enhetsregistrering](device-registration.md) om du vill lära dig hur du registrerar en enhet på en AEM Screens-spelare.
+>Se [Enhetsregistrering](device-registration.md).
 
 **Önskad utdata för sekvenskanal**
 
@@ -183,4 +183,4 @@ På samma sätt om du använder ord med ett nyckelord **kall** som *Jag skulle v
 
 **Önskad utdata för kanalen för delade skärmar**
 
-The **Huvud** innehållet spelas upp i kanalen, men när du använder ord med nyckelord **hot** och **kall** tillsammans med *Jag vill se menyn för varma och kalla drycker* börjar kanalen spela upp innehållet i **SplitScreen** kanal. Om du säger *tillbaka till huvudmenyn*, går den tillbaka till huvudkanalen.
+The **Huvud** Kanalen spelar upp innehållet. När du använder ord med nyckelord **hot** och **kall** tillsammans med *Jag vill se menyn för varma och kalla drycker* spelas innehållet upp i **SplitScreen** kanal. Om du säger *tillbaka till huvudmenyn*&#x200B;återgår den till **Huvud** kanal.

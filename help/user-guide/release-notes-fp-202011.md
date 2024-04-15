@@ -1,13 +1,13 @@
 ---
 title: Versionsinformation för funktionspaket 2011
-description: "Följ den här sidan för att få information om AEM Screens Feature Pack 2011 släppt den 30 november 2020."
+description: Läs mer om AEM Screens Feature Pack 2011 som släpptes den 30 november 2020.
 feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: b080a697-0e65-4ae1-a161-669c3098246b
-source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
+source-git-commit: 10c168cd00b79964d229e3d2a14049e799d89d77
 workflow-type: tm+mt
-source-wordcount: '285'
+source-wordcount: '284'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 # Versionsinformation för funktionspaket 2011 {#release-notes-for-feature-pack}
 
 >[!CAUTION]
->Du bör uppgradera till den senaste versionen av Adobe Experience Manager (AEM). Skärmar har underhållsstöd för AEM 6.3 Screens-plattformen.
+>Adobe rekommenderar att du uppgraderar till den senaste versionen av Adobe Experience Manager (AEM). AEM Screens har underhållsstöd för AEM 6.3 Screens Platform.
 
 ## Tillgänglighet {#availability}
 
@@ -49,16 +49,16 @@ Se [Söka efter en enhet från Enhetshanteraren](/help/user-guide/device-registr
 
   Standardintervallet för ping är nu inställt på 30 sekunder i den här versionen.
 
-### Släppta AEM Screens-spelare {#released-aem-screens-players}
+### Släppta AEM Screens-spelare
 
 Följande AEM Screens-spelare finns för AEM 6.5 Feature Pack 6:
 
 * Chrome OS
 * Windows
-* Android
+* Android™
 * Tizen
-* Linux
+* Linux®
 
-#### AEM Screens Player - nedladdningar  {#aem-screens-player-downloads}
+#### AEM Screens Player - nedladdningar
 
 Om du vill hämta den senaste AEM Screens-spelaren och läsa mer om felkorrigeringarna kan du läsa **[AEM Screens Player - nedladdningar](https://download.macromedia.com/screens/index.html)**.

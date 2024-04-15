@@ -6,7 +6,7 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 3317f07a-784f-4c4a-93ea-c84f4e42e9f2
-source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
+source-git-commit: 10c168cd00b79964d229e3d2a14049e799d89d77
 workflow-type: tm+mt
 source-wordcount: '623'
 ht-degree: 0%
@@ -17,10 +17,9 @@ ht-degree: 0%
 
 På följande sida visas ett exempel på hur du använder ett projekt för att skapa en Single TakeOver-kanal som spelas upp en gång för en viss tid.
 
-
 ## Använd fallbeskrivning {#use-case-description}
 
-I det här Use Case-exemplet beskrivs hur du skapar en kanal som *tar över* från den normala uppspelningskanalen för en visning eller grupp av skärmar. Övertagandet sker endast en gång och för en viss tid.
+Det här användningsexemplet förklarar hur du skapar en kanal som *tar över* från den normala uppspelningskanalen för en visning eller grupp av skärmar. Övertagandet sker endast en gång och för en viss tid.
 
 Det finns till exempel en Single TakeOver-kanal som spelas upp fredag 9:00 till 10:00. Under den här tiden ska ingen annan kanal spelas upp. Före och efter den här gången spelas kanalen för engångsbruk inte upp. I följande exempel visas hur en enda köpkanal skapas som gör att innehållet kan spelas upp i 2 minuter före 12:00 den 31 december till 12:01.
 

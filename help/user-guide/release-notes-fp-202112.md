@@ -1,13 +1,13 @@
 ---
 title: Versionsinformation för funktionspaket 2012
-description: Följ den här sidan för att få information om AEM Screens Feature Pack 2012 släppt den 12 januari 2022.
+description: Läs mer om AEM Screens Feature Pack 20212 som släpptes 12 januari 2022.
 feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: 3ff32a3d-9baf-4085-a775-bb5a76a1f5b3
-source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
+source-git-commit: 10c168cd00b79964d229e3d2a14049e799d89d77
 workflow-type: tm+mt
-source-wordcount: '318'
+source-wordcount: '315'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 # Versionsinformation för funktionspaket 2012 {#release-notes-for-feature-pack}
 
 >[!CAUTION]
->Du bör uppgradera till den senaste versionen av Adobe Experience Manager (AEM). Skärmar har underhållsstöd för AEM 6.3 Screens-plattformen.
+>Adobe rekommenderar att du uppgraderar till den senaste versionen av Adobe Experience Manager (AEM). AEM Screens har underhållsstöd för AEM 6.3 Screens Platform.
 
 ## Tillgänglighet {#availability}
 
@@ -29,7 +29,7 @@ Releasedatum för AEM Screens Feature Pack 2012 är 12 januari 2022.
 
 ### Nyheter {#what-is-new}
 
-* Android-programuppdateringar har nu Android 11 som mål (API-nivå 30). Android-spelaren är för närvarande på API-nivå 29 som mål.
+* Android™-programuppdateringar är nu avsedda för Android™ 11 (API-nivå 30). Android™-spelaren är för närvarande på API-nivå 29.
 
 * Förhandsvisning av bildskärm har fastnat i den tidigare spelarkonfigurationen
 
@@ -37,7 +37,7 @@ Releasedatum för AEM Screens Feature Pack 2012 är 12 januari 2022.
 
 * Åtgärda samtidiga hämtningsfel i SmartSync
 
-* Som utvecklare kommer du nu att visa återgivningar av resurser som endast ska listas som återgivningsposter under motsvarande resurser i manifestet för att säkerställa att manifesthanteringen är omfattande, tydlig och enkel.
+* Som utvecklare kan du visa återgivningar av resurser som du bara vill visa som återgivningsposter under motsvarande resurser i manifestet för att säkerställa att manifesthanteringen blir mer omfattande, tydlig och enkel.
 
 ### Felkorrigeringar {#bug-fixes}
 
@@ -57,16 +57,16 @@ Releasedatum för AEM Screens Feature Pack 2012 är 12 januari 2022.
 
 * Åtgärda samtidiga hämtningsfel i SmartSync.
 
-### Släppta AEM Screens-spelare {#released-aem-screens-players}
+### Släppta AEM Screens-spelare
 
 Följande AEM Screens-spelare finns för AEM 6.5 Feature Pack 10:
 
 * ChromeOS
 * Windows
 * Tizen
-* Android
-* Linux
+* Android™
+* Linux®
 
-#### AEM Screens Player - nedladdningar  {#aem-screens-player-downloads}
+#### AEM Screens Player - nedladdningar
 
 Om du vill hämta den senaste AEM Screens-spelaren och läsa mer om felkorrigeringarna kan du läsa **[AEM Screens Player - nedladdningar](https://download.macromedia.com/screens/index.html)**.

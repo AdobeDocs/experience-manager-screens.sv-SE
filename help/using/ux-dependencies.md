@@ -1,12 +1,10 @@
 ---
-title: UX-beroenden för [!UICONTROL AEM Screens]
-seo-title: UX Dependencies for [!UICONTROL AEM Screens]
-description: Guiden beskriver UX-beroenden för [!UICONTROL AEM Screens]
-seo-description: The guide describes UX Dependencies for [!UICONTROL AEM Screens]
+title: UX-beroenden för AEM Screens
+description: Läs mer om UX-beroenden för AEM Screens.
 exl-id: 05a4a7a7-0a97-47a1-b371-056ab31f4ed5
-source-git-commit: 707833ddd8ab2573abcac4e9a77ec88778624435
+source-git-commit: 10c168cd00b79964d229e3d2a14049e799d89d77
 workflow-type: tm+mt
-source-wordcount: '134'
+source-wordcount: '137'
 ht-degree: 0%
 
 ---
@@ -33,7 +31,7 @@ Följande frågor bör beaktas när du definierar strategi för maskinvaruinneh�
 
 1. Hur konfigureras anslutningar och nätverksanslutningar?
 
-1. Hur ofta kommer datorer och anslutningar att vara på och av?
+1. Hur ofta är datorerna och anslutningarna på och av?
 
 1. Stöder fixturen tillgänglighet?
 

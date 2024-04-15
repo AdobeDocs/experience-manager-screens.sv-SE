@@ -1,13 +1,13 @@
 ---
 title: Versionsinformation för funktionspaket 201909
-description: Versionsinformation om AEM Screens Feature Pack 201909 släppt den 31 juli 2019.
+description: Läs mer om AEM Screens Feature Pack 201909 som släpptes den 31 juli 2019.
 feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: 577228c1-8d90-47b5-8600-7e2f1004e928
-source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
+source-git-commit: 10c168cd00b79964d229e3d2a14049e799d89d77
 workflow-type: tm+mt
-source-wordcount: '281'
+source-wordcount: '283'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 >[!CAUTION]
 >
->Du bör uppgradera till den senaste versionen av Adobe Experience Manager (AEM). AEM Screens har underhållsstöd för AEM 6.3 Screens Platform.
+>Adobe rekommenderar att du uppgraderar till den senaste versionen av Adobe Experience Manager (AEM). AEM Screens har underhållsstöd för AEM 6.3 Screens Platform.
 
 AEM Screens har släppt AEM 6.4.6 Feature Pack 6 och AEM 6.5.2 Feature Pack 2 med följande information.
 

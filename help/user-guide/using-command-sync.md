@@ -1,15 +1,13 @@
 ---
 title: Använda kommandosynkronisering
-seo-title: Using Command Sync
-description: Följ den här sidan om du vill veta mer om hur du använder kommandosynkronisering.
-seo-description: Follow this page to learn about how to use Command Sync.
+description: Läs mer om hur du använder kommandosynkronisering i AEM Screens.
 feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 3314e0b5-0001-4bce-8ec6-5a6ffbb20f7b
-source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
+source-git-commit: 10c168cd00b79964d229e3d2a14049e799d89d77
 workflow-type: tm+mt
-source-wordcount: '776'
+source-wordcount: '748'
 ht-degree: 0%
 
 ---
@@ -54,7 +52,7 @@ Innan du använder funktionen Kommandosynkronisering måste du kontrollera att d
 
    ![image1](assets/command-sync/command-sync2-1.png)
 
-1. Skapa en plats **Lobby** och därefter en skärm med namnet **LobbyDisplay** i **Platser** enligt bilden nedan.
+1. Skapa en plats **Lobby** och sedan en skärm med namnet **LobbyDisplay** i **Platser** enligt bilden nedan.
    ![image1](assets/command-sync/command-sync3-1.png)
 
 1. Tilldela kanalen, **ChannelLobby** till **LobbyDisplay**. Nu kan du visa den tilldelade kanalen för visning från kontrollpanelen.
@@ -64,7 +62,8 @@ Innan du använder funktionen Kommandosynkronisering måste du kontrollera att d
    >
    >Mer information om hur du tilldelar en kanal till en skärm finns i [Skapa och hantera skärmar](/help/user-guide/managing-displays.md).
 
-1. Navigera till **Enheter** mapp och klicka på **Enhetshanteraren** från åtgärdsfältet för att registrera enheterna.
+1. Navigera till **Enheter** mapp.
+1. Klicka **Enhetshanteraren** i åtgärdsfältet.
 
    ![image1](assets/command-sync5.png)
 
@@ -77,30 +76,29 @@ Innan du använder funktionen Kommandosynkronisering måste du kontrollera att d
 
 ### Uppdaterar kanalinställningar
 
-1. Navigera till **ChannelLobby** och klicka **Redigera** från åtgärdsfältet för att uppdatera kanalinställningarna.
-
+1. Navigera till **ChannelLobby**.
+1. Klicka **Redigera** i åtgärdsfältet.
 1. Markera hela kanalen enligt bilden nedan.
    ![image1](assets/command-sync/command-sync7-1.png)
 
-1. Klicka på skiftnyckelsikonen för att öppna **Sida** -dialogrutan.
+1. Klicka på skiftnyckelsikonen.
    ![image1](assets/command-sync/command-sync8-1.png)
 
-1. Ange *synkad* nyckelord i **Strategi** fält.
-
+1. I **Sida** anger du *synkad* nyckelord i **Strategi** fält.
    ![image1](assets/command-sync/command-sync9-1.png)
 
 
 ### Konfigurera en primär {#setting-up-primary}
 
-1. Navigera till kontrollpanelen från **CommandSyncDemo** > **Platser**  > **Lobby** > **LobbyDisplay** och klicka på **Kontrollpanel** i åtgärdsfältet.
-De två enheterna (fönsterstandard och Windows Player) visas i **ENHETER** enligt bilden nedan.
+1. Navigera till kontrollpanelen från **CommandSyncDemo** > **Platser**  > **Lobby** > **LobbyDisplay** och klicka **Kontrollpanel** i åtgärdsfältet.
+Lägg märke till de två enheterna (fönsterstandard och Windows Player) i **ENHETER** enligt följande:
    ![image1](assets/command-sync/command-sync10-1.png)
 
-1. Från **ENHETER** markerar du den enhet som du vill ange som primär. I följande exempel visas hur du ställer in Chrome-enheten som primär. Klicka på **Ange som primär enhet**.
+1. Från **ENHETER** väljer du den enhet som du vill ange som primär. I följande exempel visas hur du ställer in Chrome-enheten som primär. Klicka **Ange som primär enhet**.
 
    ![image1](assets/command-sync/command-sync11-1.png)
 
-1. Ange IP-adressen i **Ange som primär enhet** och klicka på **Spara**.
+1. Ange IP-adressen i **Ange som primär enhet** och klicka **Spara**.
 
    ![image1](assets/command-sync/command-sync12-1.png)
 
@@ -111,16 +109,16 @@ De två enheterna (fönsterstandard och Windows Player) visas i **ENHETER** enli
 ### Synkroniserar med primär {#sync-up-primary}
 
 1. När du har angett Chrome-enheten som primär kan du synkronisera den andra enheten (i det här fallet Windows-spelaren) så att den synkroniseras med den primära.
-Välj den andra enheten (i det här fallet Windows Player) på menyn **ENHETER** panel och klicka på **Synkronisera med primär enhet**, vilket visas i figuren nedan.
+Välj den andra enheten (i det här fallet Windows Player) på menyn **ENHETER** panel och klicka **Synkronisera med primär enhet**, vilket visas i figuren nedan.
 
    ![image1](assets/command-sync/command-sync13-1.png)
 
 1. Välj enheten i listan och klicka på **Spara**.
 
    >[OBS!]
-   > The **Synkronisera med primär enhet** visas en lista med primära enheter. Du kan välja en av dina inställningar.
+   > The **Synkronisera med primär enhet** visas en lista med primära enheter. Välj önskad.
 
-1. När enheten (Windows-spelaren) har synkroniserats till den primära (Chrome Player), visas enheten synkroniserad i **ENHETER** -panelen.
+1. När enheten (Windows-spelaren) synkroniseras till den primära (Chrome Player) kan du se enheten synkroniserad i **ENHETER** -panelen.
 
    ![image1](assets/command-sync/command-sync14-1.png)
 
@@ -136,11 +134,11 @@ Följ stegen nedan för att ta bort synkroniseringen från den primära enheten:
 
 1. Navigera till **ENHETER** och välj enhet.
 
-1. Klicka på **Desynkrona enheter** för att avsynkronisera klienten från den primära enheten.
+1. Klicka **Desynkrona enheter** så att du kan desynkronisera klienten från den primära enheten.
 
    ![image1](assets/command-sync/command-sync15-1.png)
 
 1. Klicka **Bekräfta** om du vill avsynkronisera den valda enheten från den primära enheten.
 
    >[OBS!]
-   > Om du väljer den primära enheten och använder alternativet för avsynkronisering kommer alla enheter som är anslutna till den primära att avsynkroniseras i ett steg.
+   > Om du väljer den primära enheten och använder alternativet för avsynkronisering, kommer alla enheter som är anslutna till den primära att avsynkroniseras i ett steg.

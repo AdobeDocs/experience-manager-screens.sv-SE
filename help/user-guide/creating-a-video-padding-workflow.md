@@ -1,22 +1,18 @@
 ---
 title: Skapa ett arbetsflöde för videoutfyllnad
-seo-title: Creating a Video Padding Workflow
-description: Följ den här sidan om du vill veta mer om hur du skapar en videoutfyllnad i arbetsflödet för dina resurser.
-seo-description: Follow this page to learn about creating a video padding in the workflow for your assets.
-uuid: c0f004ca-c934-47f8-bcdc-da58ea62118e
+description: Lär dig mer om hur du skapar en videoutfyllnad i arbetsflödet för dina resurser.
 contentOwner: jsyal
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
 content-type: reference
-discoiquuid: a90e3950-c95a-4aff-8cb3-9229c660a815
 docset: aem65
 feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 16180f96-2855-4250-9d55-24ed77a908b7
-source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
+source-git-commit: 10c168cd00b79964d229e3d2a14049e799d89d77
 workflow-type: tm+mt
-source-wordcount: '576'
+source-wordcount: '563'
 ht-degree: 0%
 
 ---
@@ -37,7 +33,7 @@ Detta avsnitt behandlar följande ämnen:
 
 I följande exempel placeras en video (exempel: 1 280 x 720) i en kanal där skärmen är 1 920 x 1 080 och där videon är placerad på 0x0 (övre vänstra). Videon får inte sträckas ut eller ändras på något sätt och får inte användas **Omslag** i videokomponenten.
 
-Videon visas som ett objekt från pixel 1 till pixel 1280 över och från pixel 1 till pixel 720 ned och resten av kanalen blir standardfärg.
+Videon visas som ett objekt från pixel 1 till pixel 1280 över och från pixel 1 till pixel 720 ned och resten av kanalen är standardfärgen.
 
 ## Förutsättningar {#prerequisites}
 
@@ -61,7 +57,9 @@ Följ stegen nedan för att skapa och använda arbetsflödet:
 
 Följ stegen nedan för att skapa ett arbetsflöde för videon:
 
-1. Navigera till AEM och klicka på verktyg från sidospåret. Välj **Arbetsflöde** > **Models** för att skapa en ny modell.
+1. Navigera till AEM.
+1. Klicka på verktyg från sidospåret.
+1. Välj **Arbetsflöde** > **Models** så att du kan skapa en modell.
 
    ![screen_shot_2018-10-17at90025pm](assets/screen_shot_2018-10-17at90025pm.png)
 
@@ -73,27 +71,27 @@ Följ stegen nedan för att skapa ett arbetsflöde för videon:
 
    ![screen_shot_2018-10-17at91256pm](assets/screen_shot_2018-10-17at91256pm.png)
 
-1. Dra och släpp **Kommandorad** till arbetsflödet.
+1. Dra och släpp **`Command Line`** till arbetsflödet.
 
    ![screen_shot_2018-10-22at14846pm](assets/screen_shot_2018-10-22at14846pm.png)
 
-1. Välj **Kommandorad** och öppna egenskapsdialogrutan.
+1. Välj **`Command Line`** och öppna egenskapsdialogrutan.
 
    ![screen_shot_2018-10-17at95752pm](assets/screen_shot_2018-10-17at95752pm.png)
 
-1. Välj **Argument** för att ange fälten i **Kommandorad - Stegegenskaper** -dialogrutan.
-
-   Ange formatet i dialogrutan **Mime-typer** (as ***video/mp4***) och kommandot som (***/usr/local/Cellar/ffmpeg -i ${filename} -vf &quot;pad=1920:height=1080:x=0:y=0:color=black&quot; cq5dam.video.fullhd-hp.mp4**) för att starta arbetsflödet i **Kommandon** fält.
+1. Välj **Argument** -fliken.
+1. I **Kommandorad - Stegegenskaper** anger du formatet i dialogrutan **Mime-typer** (as ***video/mp4***) och kommandot som (***/usr/local/Cellar/ffmpeg -i ${filename} -vf &quot;pad=1920:height=1080:x=0:y=0:color=black&quot; cq5dam.video.fullhd-hp.mp4**). Det här kommandot startar arbetsflödet i **Kommandon** fält.
 
    Läs mer om **Mime-typer** och **Kommandon** i anmärkningen nedan.
 
    ![screen_shot_2018-10-18at105300am](assets/screen_shot_2018-10-18at105300am.png)
 
-1. Välj arbetsflöde (**VideoRenditions**) och klicka på **Starta arbetsflöde** i åtgärdsfältet för att öppna **Kör arbetsflöde** -dialogrutan.
+1. Välj arbetsflöde (**VideoRenditions**).
+1. Klicka **Starta arbetsflöde** i åtgärdsfältet.
 
    ![screen_shot_2018-10-18at105335am](assets/screen_shot_2018-10-18at105335am.png)
 
-1. Välj sökvägen till resursen i **Nyttolast** (as ***/content/dam/huseinpeyda-crossroad01_512kb 2.mp4***) och anger **Titel** as ***RunVideo*** och klicka **Kör**.
+1. I **Kör arbetsflöde** väljer du resursens sökväg i dialogrutan **Nyttolast** (as ***/content/dam/huseinpeyda-crossroad01_512kb 2.mp4***) och anger **Titel** as ***RunVideo*** och klicka **Kör**.
 
    ![screen_shot_2018-10-18at112043am](assets/screen_shot_2018-10-18at112043am.png)
 
