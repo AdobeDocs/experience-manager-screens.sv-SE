@@ -10,9 +10,9 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 901ed50e-d3f0-4c85-ad79-6c4595382759
-source-git-commit: 1e8beb9dfaf579250138d4a41eeec88cc81f2d39
+source-git-commit: c440527b80a3899fd45ec2d20d8cb48ffe85f6f3
 workflow-type: tm+mt
-source-wordcount: '1082'
+source-wordcount: '1126'
 ht-degree: 0%
 
 ---
@@ -33,6 +33,8 @@ På följande sida beskrivs användningen av layout med flera zoner och följand
 
 Enligt projektkraven behöver du ibland flera zoner i en kanal och kan redigera dem som en enda heltäckande enhet. Till exempel en produktsekvens med en relaterad feed för sociala medier som körs i tre separata zoner på en enda kanal.
 
+>[!NOTE]
+>I kanaler med flera zoner rekommenderas inte schemaläggning på tillgångsnivå på grund av potentiella konflikter och oavsiktligt beteende. Om schemaläggning på tillgångsnivå är nödvändig bör du skapa en separat sekvenskanal och använda schemaläggningslogik i den kanalen. Bädda sedan in sekvenskanalen i flerzonskanalen.
 
 ### Förutsättningar {#prerequisites}
 
