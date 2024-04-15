@@ -1,23 +1,21 @@
 ---
 title: AEM Screens projektroller och ansvarsområden
-seo-title: AEM Screens Project Roles  and Responsibilities
-description: På sidan beskrivs AEM Screens Project Rolands and Responsibility
-seo-description: The page describes AEM Screens Project Roles  and Responsibilities
+description: Läs om AEM Screens projektroller och ansvarsområden.
 exl-id: 9377625b-529a-4b46-89d9-f526de398639
-source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
+source-git-commit: 3c4b37b3b9f268b500562fa4ce3782b7be1e7d74
 workflow-type: tm+mt
-source-wordcount: '1242'
-ht-degree: 3%
+source-wordcount: '1241'
+ht-degree: 0%
 
 ---
 
 # Projektroller och ansvarsområden {#roles-responsibilities}
 
-Som erfaren AEM-implementerare har du troligtvis sett rollerna, som kallas *författare*, *utvecklare* och *IT/tekniker*.
+Som erfaren AEM har du förmodligen sett rollerna som *Författare*, *Utvecklare* och *IT/tekniker*.
 
 I ett typiskt AEM Screens-projekt har rollerna förfinats ytterligare eftersom de har ett viktigt syfte i projektet.
 
-Diagrammet nedan visar rollerna som vi kommer att se i hela guiden.
+I följande diagram visas vilka roller du kan förvänta dig att se i hela guiden.
 
 ![](/help/assets/project-roles-revised.png)
 
@@ -39,13 +37,13 @@ AEM implementerare ansvarar för utvecklings- och integreringsuppgifter för att
 
 Anpassade funktioner som krävs för att hantera parametrar för användarupplevelse hämtas och levereras via den här processen.
 
-AEM implementerare distribuerar vanligtvis anpassade funktioner i faser över tid till platser. De kan till exempel först skapa stöd för uppspelning av grundläggande loopad video eller statiskt grafiskt innehåll. I nästa fas kan det finnas funktioner för uppspelning av lokaliserat innehåll via dynamiska mallar och metadatataggar, med ytterligare faser som har stöd för interaktiva element via pekskärmar, sensorer, dynamiska utlösare osv.
+AEM implementerare distribuerar vanligtvis anpassade funktioner i faser över tid till platser. De kan till exempel först skapa stöd för uppspelning av grundläggande loopad video eller statiskt grafiskt innehåll. I nästa fas finns möjligheten att stödja uppspelning av lokaliserat innehåll via dynamiska mallar och metadatataggar, där andra faser innehåller stöd för interaktiva element via pekskärmar, sensorer, dynamiska utlösare och så vidare.
 
-### AV-integratörer {#av-integrators}
+### Ljud-/videointegratörer {#av-integrators}
 
-A/V-integratorn är maskinvaruleverantör/partner. Det här är den part som arbetar med design och förberedelse av webbplatser i detaljhandeln, inklusive maskinvaruförvärv, konfigurering och driftsättning. Det är vanligtvis en avtalad tredje part som har åtkomst till ett Network Operations Center (NOC). I många fall är A/V-integratorn projektägare på grund av dess kontinuerliga engagemang efter lanseringen.
+Ljud-/videointegreraren är maskinvaruleverantör/partner. Det här är den part som arbetar med design och förberedelse av webbplatser i detaljhandeln, inklusive maskinvaruförvärv, konfigurering och driftsättning. Det är vanligtvis en avtalad tredje part som har tillgång till ett Network Operations Center (NOC). Ljud-/videointegratorn är ofta projektägare på grund av dess kontinuerliga engagemang efter lanseringen.
 
-En AV-integratör ansvarar för att utföra identifieringar med slutkunder för att definiera krav som avgör projektets omfång för att utforma, bygga och effektivt hantera driftsättningar kring maskinvara för digitala signaturer.
+En ljud-/videointegratör ansvarar för att utföra identifieringar med slutkunder för att definiera krav som avgör projektets omfång för att utforma, bygga och effektivt hantera driftsättningar kring maskinvara för digitala signaturer.
 
 #### Övervägande av maskinvarupartner {#selecting-hardware-partner}
 
@@ -55,7 +53,7 @@ Det är viktigt att välja rätt maskinvarupartner. Följande frågor måste bea
 
 1. Vad är Global täckning?
 
-1. Är det 24 timmars support?
+1. Är det 24-timmarsstöd?
 
 1. Hur hanteras enheterna?
 
@@ -79,26 +77,26 @@ Kreatörerna och Content Management kan vara följande:
 
 ### Projektledare {#project-managers}
 
-Projektledare hanterar vanligtvis hela distributionen av AEM Screens. En projektledare är punktpersonen för hela genomförandet av det utsedda projektet och har ett viktigt ansvar, till exempel att ställa in tidslinjer, hantera teambehov och kommunikation, möta utmaningar och se till att målen uppfylls.
+Projektledare hanterar vanligtvis hela distributionen av AEM Screens. En projektledare är punktperson för hela genomförandet av det utsedda projektet. De har ett viktigt ansvar, till exempel att ställa in tidslinjer, hantera teambehov och kommunikation, ta itu med utmaningar och se till att målen uppfylls.
 
 >[!NOTE]
 >
->Om du vill veta mer om olika roller och ansvarsområden och målgruppen för ett projekt för digitala signaturer kan du besöka **[Projektroller och ansvarsområden](https://helpx.adobe.com/experience-manager/6-5/screens/using/project-roles-responsibilities.html)**.
+>Om du vill veta mer om olika roller och ansvarsområden och målgruppen för ett projekt för digitala signaturer kan du besöka **[Projektroller och ansvarsområden](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/digital-signage-network/project-roles-responsibilities)**.
 
 
 ## Projektfaser {#project-stages}
 
-För att stödja en framgångsrik driftsättning av digitala signaturer är det vanligt att segmentera projektet i tre faser.  Dessa stadier kallas ofta **Dagar**. Det rör sig inte om litterala dagar utan om benämningar för varje större del av projektet.
+För att stödja en framgångsrik driftsättning av digitala signaturer är det vanligt att segmentera projektet i tre steg. Dessa stadier kallas ofta **Dagar**. Det rör sig inte om litterala dagar utan om benämningar för varje större del av projektet.
 
-1. Den första etappen kallas *Dag noll*. I det här steget ingår alla förberedelser och identifieringsåtgärder som krävs för att helt definiera projektets omfattning.
+1. Den första etappen kallas *Dag noll*. I det här steget ingår alla förberedelser och identifieringsåtgärder som krävs för att helt definiera projektets omfattning.
 1. Den andra etappen, *Dag ett*, avser alla aktiviteter som ingår i driftsättningen.
 1. Det tredje och sista steget *Dag två* avser alla pågående operationer och supportelement som en del av den totala lösningen.
 
 >[!NOTE]
 >
->Även om den här guiden främst fokuserar på *dag ett* och *dag två*, så är alla tre faserna viktiga för att lyckas med digitala skyltningsprojekt.
+>Den här guiden fokuserar främst på *Dag ett* och *Dag två* måste alla tre faserna uppmärksammas för att ett digitalt signeringsprojekt ska kunna köras.
 >
->Följ ytterligare en video på **[Projektledning och driftsättning](https://helpx.adobe.com/experience-manager/6-5/screens/using/project-management-and-deployment.html)** om du vill veta mer om förproduktion av projekt, projektinitiering och projektutveckling.
+>Om du vill veta mer om förproduktion, projektinitiering och projektförlopp kan du titta på en video om **[Projektledning och driftsättning](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/digital-signage-network/project-management-and-deployment)**.
 
 ## RACI-diagram {#raci-chart}
 
@@ -106,7 +104,7 @@ Följande är ett exempel på RACI-diagram som använder rolldefinitionerna.
 
 >[!NOTE]
 >
->Diagrammet är inte avsett att följas exakt, utan är ett exempel på vanliga uppgifter och överväganden i ett AEM Screens-projekt.
+>Du behöver inte följa diagrammet exakt. Istället ska den ge ett exempel på vanliga uppgifter och överväganden i ett AEM Screens-projekt.
 
 ### RACI-definitioner {#raci-definitions}
 
@@ -122,7 +120,7 @@ Följande är ett exempel på ett RACI-diagram som använder rolldefinitionerna 
 
 I följande tabell sammanfattas **Dag noll: överväganden före försäljning**:
 
-| **Fas** | **A/V-integratör** | **AEM** | **Affärsstrategi** | **Innehållshantering** |
+| **Fas** | **Ljud-/videointegratör** | **AEM** | **Affärsstrategi** | **Innehållshantering** |
 |---|---|---|---|---|
 | Gruppformatering och leverantörsval | I | I | RA | RA |
 | Avtal om roller och ansvar | RA | RA | RA | RA |
@@ -134,7 +132,7 @@ I följande tabell sammanfattas **Dag noll: överväganden före försäljning**
 
 I följande tabell sammanfattas **Dag ett: Projektimplementering (programdesign)**:
 
-| **Fas** | **A/V-integratör** | **AEM** | **Affärsstrategi** | **Innehållshantering** |
+| **Fas** | **Ljud-/videointegratör** | **AEM** | **Affärsstrategi** | **Innehållshantering** |
 |---|---|---|---|---|
 | Avtal om roller och ansvar | RA | RA | RA | RA |
 | Justering av projektplan och schema | RA | RA | C | C |
@@ -154,7 +152,7 @@ I följande tabell sammanfattas **Dag ett: Projektimplementering (programdesign)
 
 I följande tabell sammanfattas **Dag ett: Projektimplementering (beredskap för detaljhandel)**:
 
-| **Fas** | **A/V-integratör** | **AEM** | **Affärsstrategi** | **Innehållshantering** |
+| **Fas** | **Ljud-/videointegratör** | **AEM** | **Affärsstrategi** | **Innehållshantering** |
 |---|---|---|---|---|
 | Maskinvarubeställning och lagring | RA | I | I | I |
 | Butiksintroduktionsplan | I | I | C | RA |
@@ -164,12 +162,12 @@ I följande tabell sammanfattas **Dag ett: Projektimplementering (beredskap för
 
 I följande tabell sammanfattas **Dag ett: Dag ett: Projektimplementering (maskinvara)**:
 
-| **Fas** | **A/V-integratör** | **AEM** | **Affärsstrategi** | **Innehållshantering** |
+| **Fas** | **Ljud-/videointegratör** | **AEM** | **Affärsstrategi** | **Innehållshantering** |
 |---|---|---|---|---|
 | Avtal om roller och ansvar | RA | RA | RA | RA |
 | Detaljhandelsdesign omfattar kabeldragningar | - | - | - | - |
 | Välj maskinvara | RAC | - | - | - |
-| Enhetshantering för master | RA | I | - | - |
+| Enhetshantering för primär | RA | I | - | - |
 | Enhetsbeställning och lagring &amp; konfigurering | RA | CI | I | - |
 | Processdefinition för support | RA | I | RA | C |
 
@@ -181,7 +179,7 @@ I följande tabell sammanfattas **Dag ett: Dag ett: Projektimplementering (maski
 
 * **Utvecklare**: Vanligtvis medlem i AEM Screens implementeringsteam, eller lämna över till den interna utvecklingsgruppen
 
-* **Tekniker**: Antingen har den avtalats av AV-integratorn eller är en del av samma företag.
+* **Tekniker**: Antingen har avtal med ljud-/videointegreraren eller så ingår de i samma företag.
 
 I följande tabell sammanfattas **Dag två: RACI-diagram för stöd efter start**:
 
@@ -193,4 +191,4 @@ I följande tabell sammanfattas **Dag två: RACI-diagram för stöd efter start*
 | Stöd för nivå 2 | I | C | RA |
 | Stöd för nivå 3 | I | RA | C |
 | Innehållsuppdatering | RA | I | I |
-| Utvärdera hur användarupplevelsen fungerar och identifiera områden med förbättringar | RA | C | I |
+| Utvärdera UX-framgången och identifiera områden med förbättring | RA | C | I |

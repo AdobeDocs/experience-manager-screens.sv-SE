@@ -10,9 +10,9 @@ feature: Overview
 role: User, Data Architect
 level: Beginner
 exl-id: 7814ee96-9220-45b6-b56e-b48a9da9a319
-source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
+source-git-commit: 3c4b37b3b9f268b500562fa4ce3782b7be1e7d74
 workflow-type: tm+mt
-source-wordcount: '625'
+source-wordcount: '626'
 ht-degree: 0%
 
 ---
@@ -30,7 +30,7 @@ De viktigaste komponenterna i ett program för digitala signaturer som krävs f�
 * Innehållsstrategi
 * Krav för affärsverksamhet
 * Identifiering av IT- och nätverksmiljö
-* AV-krav
+* Krav för ljud/video
 * Utrustningsspecifikation
 * Webbplatsberedskap
 
@@ -67,7 +67,7 @@ Genom att tillämpa Day-Part-strategier kan slutkunder segmentera sitt innehåll
 
 Affärsverksamhet är också viktig för att definiera i konversationer om innehållsstrategi. Genom att formatera klienternas supportbehov kan ni hantera förväntningarna efter driftsättningen och säkerställa att supportarbetet mäts korrekt.
 
-### A/V-krav {#a-v-requirements}
+### Krav för ljud/video {#a-v-requirements}
 
 Monteringsscenarier måste också definieras, liksom överväganden kring enhetsåtkomst för service av utrustning. Detta påverkar inte bara inledande installationsuppgifter och rekommendationer om utrustning, utan också de löpande service- och supportkraven.
 

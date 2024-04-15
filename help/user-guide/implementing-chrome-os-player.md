@@ -9,9 +9,9 @@ feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: 4f16605b-aec1-45fa-a110-0af6925b74b0
-source-git-commit: 1e8beb9dfaf579250138d4a41eeec88cc81f2d39
+source-git-commit: 3c4b37b3b9f268b500562fa4ce3782b7be1e7d74
 workflow-type: tm+mt
-source-wordcount: '866'
+source-wordcount: '867'
 ht-degree: 0%
 
 ---
@@ -41,7 +41,7 @@ Du kan tilldela din Chrome-spelare ett användarvänligt enhetsnamn och på så 
 
 Följ stegen nedan för att konfigurera namnet i Chrome Player:
 
-1. Om du vill kan du tillåta AV-integratörer eller IT-administratörer att ange tillgångs-ID och plats som en del av företagsregistreringen.
+1. Du kan också tillåta att ljud-/videointegratörer eller IT-administratörer ställer in resurs-ID och plats som en del av företagsregistreringen.
 
    ![bild](/help/user-guide/assets/chrome-device/chrome1.png)
 

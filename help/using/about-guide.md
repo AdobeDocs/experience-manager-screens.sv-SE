@@ -2,9 +2,9 @@
 title: Om den här guiden
 description: Läs om de effektivaste strategierna för AEM Screens-projekt när det gäller att planera och genomföra projekt, från strategisk genomgång och designgenomgång till driftsättning och eftersupport.
 exl-id: b6db6df1-9fe4-40a6-88a9-9baed41a7492
-source-git-commit: 1e8beb9dfaf579250138d4a41eeec88cc81f2d39
+source-git-commit: 3c4b37b3b9f268b500562fa4ce3782b7be1e7d74
 workflow-type: tm+mt
-source-wordcount: '254'
+source-wordcount: '255'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ AEM Screens Best Practices Guide ger vägledning om hur man framgångsrikt plane
 Målgruppen för dokumentet är:
 
 * *AEM*
-* *AV-integratörer*
+* *Ljud-/videointegratörer*
 * *Affärsstrategier*
 * *Projektledare*
 * *Konsulter*

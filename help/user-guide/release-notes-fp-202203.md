@@ -1,13 +1,13 @@
 ---
 title: Versionsinformation för funktionspaket 202203
-description: Följ den här sidan för att få information om AEM Screens Feature Pack 202203 släppt den 25 mars 2022.
+description: Läs mer om AEM Screens Feature Pack 202203 som släpptes den 25 mars 2022.
 feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: 570003d8-216d-4dcf-b03e-3a0dde818a43
-source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
+source-git-commit: 3c4b37b3b9f268b500562fa4ce3782b7be1e7d74
 workflow-type: tm+mt
-source-wordcount: '265'
+source-wordcount: '267'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 # Versionsinformation för funktionspaket 2012 {#release-notes-for-feature-pack}
 
 >[!CAUTION]
->Du bör uppgradera till den senaste versionen av Adobe Experience Manager (AEM). Skärmar har underhållsstöd för AEM 6.3 Screens-plattformen.
+>Adobe rekommenderar att du uppgraderar till den senaste versionen av Adobe Experience Manager (AEM). AEM Screens har underhållsstöd för AEM 6.3 Screens Platform.
 
 ## Tillgänglighet {#availability}
 
@@ -41,23 +41,23 @@ Den här versionen innehåller endast felkorrigeringar.
 
 * Skärmkanalen SPA en vit skärm med Windows Player. Den här är nu lagad.
 
-* The *wcmmode* Parametern har tagits bort från alla skärmar-begäranden i publiceringsinstansen.
+* The *wcmmode* parametern har tagits bort från alla skärpebegäranden i publiceringsinstansen.
 
 * Användargränssnittet Spelaraktivitet fungerar nu som förväntat.
 
-* Spelaren kunde inte hämta den senaste uppdateringen genom att hantera publikationen. Den här är nu lagad.
+* Spelaren kunde inte ta sig igenom den senaste uppdateringen genom att hantera publikationen. Den här är nu lagad.
 
-### Släppta AEM Screens-spelare {#released-aem-screens-players}
+### Släppta AEM Screens-spelare
 
 Följande AEM Screens-spelare finns för AEM 6.5 Feature Pack 11:
 
 * ChromeOS
 * Windows
 * Tizen
-* Android
-* Linux
+* Android™
+* Linux®
 * iOS
 
-#### AEM Screens Player - nedladdningar  {#aem-screens-player-downloads}
+#### AEM Screens Player - nedladdningar
 
 Om du vill hämta den senaste AEM Screens-spelaren och läsa mer om felkorrigeringarna kan du läsa **[AEM Screens Player - nedladdningar](https://download.macromedia.com/screens/index.html)**.

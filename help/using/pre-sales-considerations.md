@@ -1,12 +1,10 @@
 ---
 title: Att tänka på när projekt är omfång
-seo-title: Considerations as Projects are Scoped
-description: Sidan beskriver överväganden när projekt är omfång
-seo-description: The page describes Considerations as Projects are Scoped
+description: Läs mer om vad man bör tänka på när ett AEM Screens-projekt omfattar flera projekt.
 exl-id: 6e27b0f1-3c31-4d9b-8fa2-b4ec2e9bf7b0
-source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
+source-git-commit: 3c4b37b3b9f268b500562fa4ce3782b7be1e7d74
 workflow-type: tm+mt
-source-wordcount: '282'
+source-wordcount: '279'
 ht-degree: 0%
 
 ---
@@ -17,7 +15,7 @@ ht-degree: 0%
 >En typisk aktör inom denna verksamhet är en marknadsförings-/affärsstrategi.
 
 I det här steget ingår alla förberedelser och identifieringsåtgärder som krävs för att helt definiera projektets omfattning. Det arbete som utförs med Day Zero anger tonen för resten av projektet och påverkar den övergripande framgången för programmet som byggs.
-I det här skedet identifieras och sammanförs nyckelleverantörer för att hjälpa till att utforma projektplanen. Under den här fasen är det viktigt att köpa in med viktiga projektintressenter i kundföretaget, t.ex. säljchefer, marknadschefer och IT-team, eftersom de alla kommer att ha en viktig roll att spela i utvecklingen av applikationen och det fortsatta underhållet av den.
+I det här skedet identifieras och sammanförs nyckelleverantörer för att hjälpa till att utforma projektplanen. Under den här fasen är det viktigt att köpa in med viktiga projektintressenter i kundföretaget. Bland dessa intressenter finns säljchefer, marknadschefer och IT-team. Dessa personer har alla en viktig roll att spela i utvecklingen av applikationen och dess fortsatta underhåll.
 
 ## Viktiga slutprodukter {#key-deliverables}
 
@@ -31,6 +29,6 @@ De viktigaste produkterna i detta skede är:
 
 >[!NOTE]
 >
->Identifiera de data som behövs för programmet och varifrån de kommer så snart som möjligt. Medan djupare utforskning sker under implementeringen kan du ta tid under *Dag noll* för att ta reda på vilka data klienten har för avsikt att använda, var dessa data lagras för närvarande och hur de kan nås av det program som byggs. Genom att meddela utvecklingsteamet i förväg om utmaningar som kan komma att uppstå kommer implementeringen att gå smidigare.
+>Identifiera de data som behövs för programmet och varifrån de kommer så snart som möjligt. Djupare utforskning sker under implementeringen. Se dock till att du tar tid under *Dag noll* för att ta reda på vilka data kunden har för avsikt att använda. Ta reda på var dessa data lagras för närvarande och hur de kan nås av det program som byggs. Att meddela utvecklingsteamet innan det uppstår problem gör att implementeringen blir smidigare.
 
-Se videosjälvstudiekursen på [Att tänka på när projekt är omfång](https://helpx.adobe.com/experience-manager/6-5/screens/using/project-considerations.html) för mer information.
+Se videosjälvstudiekurs [&quot;Att tänka på när projekt är omfång&quot;](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/digital-signage-network/project-considerations).
