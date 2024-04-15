@@ -9,7 +9,7 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: d98b449f-6b7d-4c08-b507-a64dece84ba8
-source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
+source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
 workflow-type: tm+mt
 source-wordcount: '317'
 ht-degree: 0%
@@ -29,8 +29,8 @@ Du kan även navigera direkt till: `http://localhost:4502/screens.html/content/s
 ## Skapa ett nytt skärmsprojekt
 
 1. Välj **Skärmar** från AEM.
-1. Klicka **Skapa skärmsprojekt**.
-1. Ange titeln som **TestScreens** och klicka **Spara**.
+1. Välj **Skapa skärmsprojekt**.
+1. Ange titeln som **TestScreens** och markera **Spara**.
 
 Projektet skapas och du kommer tillbaka till konsolen Skärmprojekt. Nu kan du välja ditt projekt.
 
@@ -51,7 +51,7 @@ I ett projekt finns det fem typer av mappar, vilket visas i bilden nedan:
 
 ## Visningsegenskaper {#viewing-properties}
 
-När du har skapat skärmprojektet markerar du projektet och klickar på **Egenskaper** i åtgärdsfältet så att du kan redigera egenskaperna för projektet.
+När du har skapat skärmprojektet markerar du projektet och väljer **Egenskaper** i åtgärdsfältet så att du kan redigera egenskaperna för projektet.
 
 Med följande alternativ kan du redigera/ändra egenskaper för **TestScreens**.
 
@@ -63,10 +63,10 @@ Du kan också skapa en egen anpassad mapp under **Scheman**, **Platser**, **Prog
 
 Så här skapar du en anpassad mapp:
 
-1. Välj projektet och klicka på **Skapa** bredvid plusikonen i åtgärdsfältet.
+1. Välj projektet och välj **Skapa** bredvid plusikonen i åtgärdsfältet.
 1. The **Skapa** öppnas och välj lämpligt alternativ.
-1. Klicka på **Nästa**.
-1. Ange egenskaperna och klicka på **Skapa**.
+1. Välj **Nästa**.
+1. Ange egenskaperna och välj **Skapa**.
 
 I följande steg visas hur du skapar en programmapp i **Program** primär sida i **TestScreens**.
 

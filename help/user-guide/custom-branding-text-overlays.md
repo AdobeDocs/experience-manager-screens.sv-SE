@@ -6,7 +6,7 @@ feature: Developing Screens
 role: Developer
 level: Intermediate
 exl-id: 059e1b19-e9b5-48f0-8f2f-141f0c2f7842
-source-git-commit: ba5327077e4a2d30cc7b77f02123da5a240c67ae
+source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
 workflow-type: tm+mt
 source-wordcount: '581'
 ht-degree: 1%
@@ -67,7 +67,7 @@ Följ stegen nedan för att skapa anpassade märkesnamn och format för textöve
 
 1. Kopiera sökvägen till ditt projekt, i det här fallet är sökvägen `/apps/settings/wcm/designs/customstyle`.
 
-1. Navigera till kanalen som heter **DemoBrand** (skapat i steg 1) och klicka **Egenskaper** i åtgärdsfältet när du har valt kanalen.
+1. Navigera till kanalen som heter **DemoBrand** (skapat i steg(1)) och välj **Egenskaper** i åtgärdsfältet när du har valt kanalen.
 
 1. Navigera till **Avancerat** -fliken och kontrollera **Design** fält.
    ![bild](/help/user-guide/assets/custom-brand/custom-brand5.png)
@@ -79,7 +79,7 @@ Följ stegen nedan för att skapa anpassade märkesnamn och format för textöve
 
    ![bild](/help/user-guide/assets/custom-brand/custom-brand6.png)
 
-1. Klicka **Spara och stäng** för att uppdatera designsökvägen.
+1. Välj **Spara och stäng** för att uppdatera designsökvägen.
 
    >[!IMPORTANT]
    >Om du vill kan du täcka över befintliga mallar för skärmar så att du kan mata in dina egna bilder som standard eller skapa en egen mall helt och hållet. Se stegen nedan för mer information.
@@ -108,9 +108,9 @@ När du har utfört stegen ovan kan du uppdatera *static.css* fil från **CRXDE 
 
 Följ stegen nedan för att visa den uppdaterade designen för textövertäckning:
 
-1. Gå till ditt AEM Screens-projekt med namnet **`customstyle`** > **Kanaler** > **DemoBrand**. Markera kanalen och klicka på **Redigera** i åtgärdsfältet.
+1. Gå till ditt AEM Screens-projekt med namnet **`customstyle`** > **Kanaler** > **DemoBrand**. Markera kanalen och välj **Redigera** i åtgärdsfältet.
 
-1. Sedan du lagt till designen i **Designer** fält, enligt ovan, klicka **Förhandsgranska** om du vill visa den aktuella stilen för bilden med textövertäckning.
+1. Sedan du lagt till designen i **Designer** fält, enligt ovan, markera **Förhandsgranska** om du vill visa den aktuella stilen för bilden med textövertäckning.
 
    ![bild](/help/user-guide/assets/custom-brand/custom-brand7.png)
 

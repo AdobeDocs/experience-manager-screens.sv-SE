@@ -10,7 +10,7 @@ feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: 3bff9ef3-0d6f-41d8-a8ef-bcc5a795990e
-source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
+source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
 workflow-type: tm+mt
 source-wordcount: '619'
 ht-degree: 0%
@@ -23,13 +23,13 @@ I det här avsnittet beskrivs en funktion för att massimportera en uppsättning
 
 ## Introduktion {#introduction}
 
-När du skapar ett AEM Screens-projekt för första gången i organisationen skapar du även alla platser. Om ditt projekt omfattar många platser resulterar det i en långsam uppgift som innebär att du klickar och väntar mycket i användargränssnittet.
+När du skapar ett AEM Screens-projekt för första gången i organisationen skapar du även alla platser. Om ditt projekt omfattar många platser resulterar det i en långsam uppgift som innebär att du väljer och väntar mycket i användargränssnittet.
 
 Målet med den här funktionen är att minska den tid som krävs för att ställa in projektet och därmed lösa budgeteringsproblem.
 
 Genom att låta författaren tillhandahålla ett kalkylblad som en indatafil, och låta systemet automatiskt skapa platsträdet i bakänden, den här funktionen:
 
-* *ger mycket bättre prestanda än att klicka i användargränssnittet manuellt*
+* *ger mycket bättre prestanda än att välja manuellt via användargränssnittet*
 * *låter kunderna exportera de platser de har från sitt eget system och enkelt importera dem direkt till AEM*
 
 Detta sparar både tid och pengar vid den första projektinstallationen eller vid utvidgning av den befintliga AEM Screens till nya platser.
@@ -107,11 +107,11 @@ Följ stegen nedan för att importera en fil till en platsmapp med minst obligat
 
 1. The **Importera** visas. Välj en fil för projektet med platser eller välj filen (***minimum-file.xls***) du hämtade från *Förutsättningar* -avsnitt.
 
-   När du har valt filen klickar du på **Nästa**.
+   När du har valt filen väljer du **Nästa**.
 
    ![screen_shot_2019-05-15at113718am](assets/screen_shot_2019-05-15at113718am.png)
 
-1. Kontrollera innehållet i filen (platserna) i importguiden och klicka på **Importera**.
+1. Kontrollera innehållet i filen (platserna) i importguiden och välj **Importera**.
 
    ![screen_shot_2019-05-12at53131am](assets/screen_shot_2019-05-12at53131am.png)
 

@@ -2,7 +2,7 @@
 title: Använda adaptiva renderingar i AEM Screens
 description: Lär dig hur du använder adaptiva renderingar i AEM Screens.
 exl-id: e7f68ed4-73c3-492a-b33a-dd915ef1f8be
-source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
+source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
 workflow-type: tm+mt
 source-wordcount: '540'
 ht-degree: 0%
@@ -35,12 +35,12 @@ Gör så här om du vill använda återgivningar på resurser som du vill använ
 1. Navigera till **Resurser** i din AEM.
 1. Skapa en version av resursen som bättre passar signeringsvisningen, till exempel `seahorse.jpg`.
 1. Välj namngivningsmönstret för återgivningen, till exempel`landscape`, som det som definierades i **mönster** egenskap i **CRXDE Lite**. Se [Lägga till återgivningsmappningsregler](/help/user-guide/adaptive-renditions.md#add-rendition-mapping-rules) för mer information.
-1. Klicka **Lägg till återgivning** för att överföra återgivningen enligt bilden nedan.
+1. Välj **Lägg till återgivning** för att överföra återgivningen enligt bilden nedan.
 
    ![bild](/help/user-guide/assets/adaptive-renditions/manage-pub-asset2.png)
 
 1. Markera resursens nya namn. Den återgivning som du lägger till måste innehålla mönstret (definierat i steg 3), till exempel `seahorse-landscape.png`.
-1. När du har lagt till resursen markerar du resursen och klickar på **Hantera publikation** från åtgärdsfältet för att publicera resursen.
+1. När du har lagt till resursen markerar du resursen och väljer **Hantera publikation** från åtgärdsfältet för att publicera resursen.
 
    ![bild](/help/user-guide/assets/adaptive-renditions/manage-pub-asset1.png)
 

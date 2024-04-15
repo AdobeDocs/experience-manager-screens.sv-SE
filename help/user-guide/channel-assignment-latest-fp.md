@@ -5,9 +5,9 @@ feature: Authoring Screens, Channel Assignment
 role: Admin, Developer
 level: Intermediate
 exl-id: 346eec9a-e291-4b0d-9686-fee1d5a0e7dd
-source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
+source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
 workflow-type: tm+mt
-source-wordcount: '1452'
+source-wordcount: '1448'
 ht-degree: 0%
 
 ---
@@ -62,13 +62,13 @@ När projektkonfigurationen är klar tilldelar du kanalen till en visning för a
 
 1. Navigera till önskad visning, till exempel **DemoScreens** > **Platser** > **SanJose** > **Lobby**.
 
-1. Tryck/klicka **Tilldela kanal** i åtgärdsfältet.
+1. Välj **Tilldela kanal** i åtgärdsfältet.
 
    ![bild](/help/user-guide/assets/channel-assignment/channel-assign-fp5.png)
 
    Eller
 
-   Tryck/klicka **Kontrollpanel** i åtgärdsfältet och klicka på **+Tilldela kanal** från **TILLDELADE KANALER OCH SCHEMAN** -panelen.
+   Välj **Kontrollpanel** i åtgärdsfältet och välj **+Tilldela kanal** från **TILLDELADE KANALER OCH SCHEMAN** -panelen.
 
    ![bild](/help/user-guide/assets/channel-assignment/channel-assign-fp6.png)
 
@@ -91,7 +91,7 @@ När projektkonfigurationen är klar tilldelar du kanalen till en visning för a
    >
    >Mer information om kanaltilldelningsegenskaper finns i [Kanalegenskaper](#channel-properties) -avsnitt.
 
-1. Klicka **Spara** när du har konfigurerat dina inställningar.
+1. Välj **Spara** när du har konfigurerat dina inställningar.
 
 ### Visa innehållet i Chrome Player {#viewing-content-output}
 
@@ -111,11 +111,11 @@ Följ stegen nedan för att navigera till tidslinjevyn:
 
 1. Navigera till önskad visning, till exempel **DemoScreens** > **Platser** > **SanJose** > **Lobby**.
 
-1. Tryck/klicka **Tilldela kanal** i åtgärdsfältet.
+1. Välj **Tilldela kanal** i åtgärdsfältet.
 
    Eller
 
-   Tryck/klicka **Kontrollpanel** och klicka **Tidslinje** från **TILLDELADE KANALER OCH SCHEMAN** -panelen.
+   Välj **Kontrollpanel** och markera **Tidslinje** från **TILLDELADE KANALER OCH SCHEMAN** -panelen.
 
    ![bild](/help/user-guide/assets/channel-assignment/timeline-1.png)
 

@@ -5,7 +5,7 @@ feature: Authoring Screens
 role: Developer
 level: Intermediate
 exl-id: 7397aa99-97fc-45c2-a157-c1bd7b1700b5
-source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
+source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
 workflow-type: tm+mt
 source-wordcount: '355'
 ht-degree: 0%
@@ -47,7 +47,7 @@ Följ instruktionerna nedan för att hämta rapporten för innehållstilldelning
 
 1. Navigera till ditt AEM Screens-projekt och markera projektet **DemoScreens**.
 
-1. Klicka **Tilldelningsrapport för innehåll** i åtgärdsfältet.
+1. Välj **Tilldelningsrapport för innehåll** i åtgärdsfältet.
 
    ![bild](/help/user-guide/assets/content-assignment-report/can-download.png)
 
@@ -58,6 +58,6 @@ Följ instruktionerna nedan för att hämta rapporten för innehållstilldelning
    >[!NOTE]
    >De data som visas i kalkylbladet sorteras i bokstavsordning i ett lättläst format.
 
-1. Klicka på någon av kanalerna från **Kanaler** kolumnen öppnar **Innehåll** -fliken. I sin tur navigerar den direkt till den kanalen och ger dig information om resurser (bilder och videor) som är kopplade till den specifika kanalen.
+1. Markera någon av kanalerna på panelen **Kanaler** kolumnen öppnar **Innehåll** -fliken. I sin tur navigerar den direkt till den kanalen och ger dig information om resurser (bilder och videor) som är kopplade till den specifika kanalen.
 
    ![bild](/help/user-guide/assets/content-assignment-report/report-sheet2.png)

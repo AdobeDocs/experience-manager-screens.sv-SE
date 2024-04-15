@@ -10,7 +10,7 @@ feature: Administering Screens, Android Player
 role: Admin
 level: Intermediate
 exl-id: d1331cb8-8bf6-4742-9525-acf18707b4d8
-source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
+source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
 workflow-type: tm+mt
 source-wordcount: '1462'
 ht-degree: 0%
@@ -45,7 +45,7 @@ Följ stegen nedan:
 1. Ange **Attributet SameSite för cookies för inloggningstoken** från **Lax** till **Ingen**.
    ![bild](/help/user-guide/assets/granite-updates.png)
 
-1. Klicka **Spara**.
+1. Välj **Spara**.
 
 
 ### Ad hoc-metod {#ad-hoc-method}
@@ -55,7 +55,7 @@ Med Ad-Hoc-metoden kan du installera den senaste Android™-spelaren (*.exe*). B
 När du har hämtat programmet följer du stegen på spelaren för att slutföra ad hoc-installationen:
 
 1. Tryck länge på det övre vänstra hörnet för att öppna administratörspanelen.
-1. Navigera till **Konfiguration** på den vänstra åtgärdsmenyn och ange platsen (adressen) för den AEM instansen som du vill ansluta till och klicka på **Spara**.
+1. Navigera till **Konfiguration** på den vänstra åtgärdsmenyn och ange platsen (adressen) för den AEM instansen som du vill ansluta till och markera **Spara**.
 
 1. Navigera till **Enhet** **Registrering** på den vänstra åtgärdsmenyn så att du kan kontrollera status för enhetsregistreringsprocessen.
 

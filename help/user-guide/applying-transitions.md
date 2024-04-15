@@ -6,7 +6,7 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 757e6751-8008-487f-be89-9f53ac898928
-source-git-commit: 97084aee861e152abcc5f117a2a4759dced038cc
+source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
 workflow-type: tm+mt
 source-wordcount: '272'
 ht-degree: 0%
@@ -31,7 +31,7 @@ Följ stegen nedan för att lägga till en övergångskomponent i ditt AEM Scree
 >
 >Skapa ett AEM Screens-projekt **TestProject** med en kanal **TestTransition**. Du kan även ställa in en plats och en visning för att visa utdata.
 
-1. Navigera till kanalen **TestTransition** och klicka **Redigera** i åtgärdsfältet.
+1. Navigera till kanalen **TestTransition** och markera **Redigera** i åtgärdsfältet.
 
    ![image1](assets/transitions1.png)
 

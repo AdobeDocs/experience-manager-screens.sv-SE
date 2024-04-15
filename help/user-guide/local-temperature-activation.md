@@ -10,7 +10,7 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 2ec2891f-0fbe-4812-b3c4-ff160ead36b8
-source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
+source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
 workflow-type: tm+mt
 source-wordcount: '447'
 ht-degree: 0%
@@ -46,25 +46,25 @@ Följ stegen nedan för att implementera användningsexemplet för aktivering av
 
    1. Navigera till segmenten i målgruppen (se ***Steg 2: Konfigurera målgruppssegmentering*** in **[ContextHub konfigureras i AEM Screens](configuring-context-hub.md)** sida för mer information).
 
-   1. Välj **Blad A1 1** och klicka **Redigera**.
+   1. Välj **Blad A1 1** och markera **Redigera**.
 
-   1. Välj jämförelseegenskapen och klicka på konfigurationsikonen.
+   1. Välj jämförelseegenskapen och välj konfigurationsikonen.
    1. Välj **googlesheets/value/1/0** från listrutan i **Egenskapsnamn**
 
    1. Välj **Operator** as **större än eller lika med** i listrutan
 
    1. Ange **Värde** as **50**
 
-   1. På samma sätt väljer du **Blad A1 2** och klicka **Redigera**.
+   1. På samma sätt väljer du **Blad A1 2** och markera **Redigera**.
 
-   1. Välj **Jämförelseegenskap - värde** och klicka på konfigurationsikonen.
+   1. Välj **Jämförelseegenskap - värde** och välj konfigurationsikonen.
    1. Välj **googlesheets/value/1/0** från listrutan i **Egenskapsnamn**
 
    1. Välj **Operator** as **mindre än** i listrutan
 
    1. Ange **Värde** as **50**
 
-1. Navigera och markera kanalen () och klicka på **Redigera** i åtgärdsfältet. I följande exempel **DataDrivenVäder**, används en sekventiell kanal för att visa funktionaliteten.
+1. Navigera och markera kanalen () och markera **Redigera** i åtgärdsfältet. I följande exempel **DataDrivenVäder**, används en sekventiell kanal för att visa funktionaliteten.
 
    >[!NOTE]
    >
@@ -78,13 +78,13 @@ Följ stegen nedan för att implementera användningsexemplet för aktivering av
 
    ![screen_shot_2019-05-08at114106am](assets/screen_shot_2019-05-08at114106am.png)
 
-1. Välj **Målinriktning** i redigeraren och väljer **Varumärke** och **Aktivitet** i listrutan och klicka på **Börja målinrikta**.
+1. Välj **Målinriktning** i redigeraren och väljer **Varumärke** och **Aktivitet** i listrutan och väljer **Börja målinrikta**.
 
    ![new_activity3](assets/new_activity3.gif)
 
 1. **Kontrollera förhandsvisningen**
 
-   1. Klicka **Förhandsgranska.** Du kan även öppna Google Sheet och uppdatera värdet.
+   1. Välj **Förhandsgranska.** Du kan även öppna Google Sheet och uppdatera värdet.
    1. Ändra värdet till mindre än 50. Du bör kunna se en bild av en kalldrink. Om värdet i Google Sheets är 50 eller högre bör du se en bild på en het drink.
 
    ![result3](assets/result3.gif)

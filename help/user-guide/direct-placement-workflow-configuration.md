@@ -1,7 +1,7 @@
 ---
 title: Arbetsflödeskonfiguration för direktplacering
 description: På den här sidan visas arbetsflödeskonfiguration för direktplacering.
-source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
+source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
 workflow-type: tm+mt
 source-wordcount: '188'
 ht-degree: 0%
@@ -22,7 +22,7 @@ Detta avsnitt behandlar följande ämnen:
 
 Arbetsflödeskonfiguration för direktplacering mappar en AEM Screens-projektkanal till en viss mapp i resurser och gör det möjligt att placera resurser i den mappen. Adobe rekommenderar att du aktiverar en bulkuppdatering offline för att slutföra publikationen.
 
-Som innehållsförfattare kan du också klicka manuellt **Uppdatera offlineinnehåll**.
+Som innehållsförfattare kan du också välja **Uppdatera offlineinnehåll**.
 
 >[!NOTE]
 >

@@ -10,9 +10,9 @@ feature: Administering Screens, Device Registration
 role: Admin
 level: Intermediate
 exl-id: b2d3a2cd-263f-4142-80da-29ce54cbf391
-source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
+source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
 workflow-type: tm+mt
-source-wordcount: '743'
+source-wordcount: '738'
 ht-degree: 0%
 
 ---
@@ -33,7 +33,7 @@ Enhetsregistreringsprocessen görs på två olika datorer:
 >När du har laddat ned den senaste versionen av Windows Player (*.exe*), från [AEM 6.4 Player Downloads](https://download.macromedia.com/screens/) följer du stegen på spelaren för att slutföra ad hoc-installationen:
 >
 >1. Tryck länge på det övre vänstra hörnet för att öppna administratörspanelen.
->1. Navigera till **Konfiguration** från den vänstra åtgärdsmenyn och ange platsadressen för AEM i **Server** och klicka **Spara**.
+>1. Navigera till **Konfiguration** från den vänstra åtgärdsmenyn och ange platsadressen för AEM i **Server** och markera **Spara**.
 >1. Välj **Registrering** från den vänstra åtgärdsmenyn och stegen nedan för att slutföra enhetsregistreringsprocessen.
 >
 
@@ -49,15 +49,15 @@ Enhetsregistreringsprocessen görs på två olika datorer:
    >
    >Mer information om hur du skapar ett projekt för skärmar AEM kontrollpanelen finns i [Skapa och hantera skärmsprojekt](creating-a-screens-project.md).
 
-1. Tryck/klicka på **Enhetshanteraren** i åtgärdsfältet.
+1. Välj **Enhetshanteraren** i åtgärdsfältet.
 
    ![screen_shot_2018-11-26at104702am](assets/screen_shot_2018-11-26at104702am.png)
 
-1. Tryck/klicka på **Enhetsregistrering** överst till höger.
+1. Välj **Enhetsregistrering** överst till höger.
 
    ![screen_shot_2018-11-26at104815am](assets/screen_shot_2018-11-26at104815am.png)
 
-1. Välj önskad enhet (samma som steg 1) och tryck/klicka på **Registrera enhet**.
+1. Välj önskad enhet (samma som steg 1) och välj **Registrera enhet**.
 
    ![screen_shot_2018-11-26at105112am](assets/screen_shot_2018-11-26at105112am.png)
 
@@ -69,12 +69,12 @@ Enhetsregistreringsprocessen görs på två olika datorer:
 
    ![screen_shot_2018-11-26at105227am](assets/screen_shot_2018-11-26at105227am.png)
 
-1. Om **Registreringskod** är samma på båda datorerna, tryck/klicka **Validera** i AEM, vilket visas i steg 6.
-1. Ange önskat namn för enheten och klicka på **Registrera**.
+1. Om **Registreringskod** är samma på båda datorerna, välj **Validera** i AEM, vilket visas i steg 6.
+1. Ange önskat namn för enheten och välj **Registrera**.
 
    ![screen_shot_2018-11-26at105357am](assets/screen_shot_2018-11-26at105357am.png)
 
-1. Tryck/klicka **Slutför** för att slutföra registreringsprocessen.
+1. Välj **Slutför** för att slutföra registreringsprocessen.
 
    ![screen_shot_2018-11-26at105456am](assets/screen_shot_2018-11-26at105456am.png)
 
@@ -84,7 +84,7 @@ Enhetsregistreringsprocessen görs på två olika datorer:
    >
    >The **Tilldela visning** gör att du kan lägga till enheten direkt på en skärm.
 
-   Klicka **Slutför** tilldelar du enheten till en skärm.
+   Om du väljer **Slutför** tilldelar du enheten till en skärm.
 
    ![screen_shot_2018-11-26at105740am](assets/screen_shot_2018-11-26at105740am.png)
 
@@ -96,7 +96,7 @@ Enhetsregistreringsprocessen görs på två olika datorer:
 
 Om du inte har tilldelat enheten till en skärm följer du stegen nedan för att tilldela enheten till en skärm i ditt AEM Screens-projekt:
 
-1. Markera enheten och klicka på **Tilldela enhet** i åtgärdsfältet.
+1. Markera enheten och välj **Tilldela enhet** i åtgärdsfältet.
 
    ![screen_shot_2018-11-26at11026am](assets/screen_shot_2018-11-26at111026am.png)
 
@@ -104,15 +104,15 @@ Om du inte har tilldelat enheten till en skärm följer du stegen nedan för att
 
    ![screen_shot_2018-11-26at11252am](assets/screen_shot_2018-11-26at111252am.png)
 
-1. Klicka **Tilldela** när du markerar banan.
+1. Välj **Tilldela** när du markerar banan.
 
    ![screen_shot_2018-11-26at11722am](assets/screen_shot_2018-11-26at111722am.png)
 
-1. Klicka **Slutför** när enheten har tilldelats korrekt, vilket visas i bilden nedan.
+1. Välj **Slutför** när enheten har tilldelats korrekt, vilket visas i bilden nedan.
 
    ![screen_shot_2018-11-26at112041am](assets/screen_shot_2018-11-26at112041am.png)
 
-   Du kan även visa kontrollpanelen när du klickar **Slutför**.
+   Du kan även visa kontrollpanelen när du väljer **Slutför**.
 
    ![screen_shot_2018-11-26at112154am](assets/screen_shot_2018-11-26at112154am.png)
 
@@ -122,7 +122,7 @@ När du har registrerat enheter till spelaren kan du visa alla enheter från anv
 
 1. Navigera till användargränssnittet i Enhetshanteraren från ditt AEM Screens-projekt, till exempel **DemoScreens** > **Enheter**.
 
-1. Välj **Enheter** mapp och klicka på **Enhetshanteraren** i åtgärdsfältet.
+1. Välj **Enheter** mapp och markera **Enhetshanteraren** i åtgärdsfältet.
 
    ![bild](/help/user-guide/assets/device-manager/device-manager-1.png)
 
@@ -134,7 +134,7 @@ När du har registrerat enheter till spelaren kan du visa alla enheter från anv
 
    Eller
 
-   Klicka `/` (snedstreck) för att aktivera sökfunktionen.
+   Välj `/` (snedstreck) för att aktivera sökfunktionen.
 
    ![bild](/help/user-guide/assets/device-manager/device-manager-3.png)
 

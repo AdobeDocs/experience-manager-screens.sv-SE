@@ -5,7 +5,7 @@ feature: Digital Signage, Content
 role: Developer
 level: Intermediate
 exl-id: 67204f04-5535-407c-bd4d-fabfbf850411
-source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
+source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
 workflow-type: tm+mt
 source-wordcount: '2118'
 ht-degree: 0%
@@ -109,7 +109,7 @@ Aktivera filtret Apache Sling Referrer Tillåt tomt. Detta krävs för att kontr
 
 1. Navigera till **Konfiguration av Adobe Experience Manager Web Console**
 1. Kontrollera **allow.empty** alternativ.
-1. Klicka **Spara**.
+1. Välj **Spara**.
 
 ### 3. Hur felsöker man om fel uppstår när en AEM Screens-spelare registreras och när konsolloggarna visas ett ENAME_NOT_FOUND-fel?
 
@@ -133,13 +133,13 @@ Mer information om var du kan övervaka enhetsaktivitet finns i [**Tjänsten AEM
 
 ChromeOS-spelaren kan installeras som Chrome Browser-plugin i utvecklarläge utan att den faktiska enheten för Chrome Player krävs. För installation, följ stegen nedan:
 
-1. Klicka [här](https://download.macromedia.com/screens/) för att ladda ned den senaste Chrome Player.
+1. Välj [här](https://download.macromedia.com/screens/) för att ladda ned den senaste Chrome Player.
 1. Zippa upp och spara det på disken.
 1. Öppna Chrome-webbläsaren och välj **Tillägg** från menyn eller direkt navigera till ***chrome://extensions***.
 1. Aktivera **Utvecklarläge** från det övre högra hörnet.
 1. Välj **Läs in opackad** från det övre vänstra hörnet och läsa in uppzippad Chrome Player.
 1. Kontrollera om det finns i listan över tillägg **AEM Screens Chrome Player** plugin-program.
-1. Öppna en ny flik och klicka på **Appar** ikonen i det övre vänstra hörnet eller navigera direkt till ***chrome://apps***.
+1. Öppna en ny flik och välj **Appar** ikonen i det övre vänstra hörnet eller navigera direkt till ***chrome://apps***.
 1. Välj **AEM Screens** Plugin. Som standard startas spelaren i helskärmsläge. Tryck **Esc** för att avsluta helskärmsläget.
 
 ### 2. Hur felsöker jag om skärmspelaren inte kan autentisera via en publiceringsinstans med en anpassad felhanterare?

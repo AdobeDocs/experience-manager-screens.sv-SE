@@ -6,7 +6,7 @@ feature: Authoring Screens, Channels
 role: Admin, Developer
 level: Intermediate
 exl-id: 51a63429-2488-45be-b8f5-cb755ca69c7f
-source-git-commit: c142830a37461a36baae15f543bd43b0ae8a62a7
+source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
 workflow-type: tm+mt
 source-wordcount: '1769'
 ht-degree: 0%
@@ -91,7 +91,7 @@ Följ stegen nedan för att implementera funktionen:
 1. **Skapa visning under Plats**
 
    1. Navigera till **Aktivering på kanalnivå** > **Platser** > **Län**.
-   1. Välj **Län** och klicka **+ Skapa** i åtgärdsfältet.
+   1. Välj **Län** och markera **+ Skapa** i åtgärdsfältet.
    1. Välj **Visa** från guiden och skapa en skärm med namnet **RegionDisplay.**
 
    ![screen_shot_2018-11-27at112216am](assets/screen_shot_2018-11-27at112216am.png)
@@ -100,7 +100,7 @@ Följ stegen nedan för att implementera funktionen:
 
    För **Huvudkanal:**
 
-   1. Navigera till **Aktivering på kanalnivå** > **Platser** > **Län** > **RegionDisplay** och klicka **Tilldela kanal** i åtgärdsfältet.
+   1. Navigera till **Aktivering på kanalnivå** > **Platser** > **Län** > **RegionDisplay** och markera **Tilldela kanal** i åtgärdsfältet.
    1. **Kanaltilldelning** öppnas.
    1. Välj **Referenskanal** efter bana.
    1. Välj **Kanalsökväg** as **Aktivering på kanalnivå** > ***Kanaler*** > ***MainAdChannel***.
@@ -113,11 +113,11 @@ Följ stegen nedan för att implementera funktionen:
 
    >[!NOTE]
    >
-   >Du kan också tilldela kanal från kontrollpanelen genom att navigera till **Aktivering på kanalnivå** > **Platser** > **Län** > **RegionDisplay** och klicka **Kontrollpanel** i åtgärdsfältet. Klicka **+ Tilldela kanal** från **TILLDELADE KANALER OCH SCHEMAN** -panelen.
+   >Du kan också tilldela kanal från kontrollpanelen genom att navigera till **Aktivering på kanalnivå** > **Platser** > **Län** > **RegionDisplay** och markera **Kontrollpanel** i åtgärdsfältet. Välj **+ Tilldela kanal** från **TILLDELADE KANALER OCH SCHEMAN** -panelen.
 
    Tilldela kanal på samma sätt **TargetedSinglePlay** för bildskärm**:
 
-   1. Navigera till **Aktivering på kanalnivå** > **Platser** > **Län** > **RegionDisplay** och klicka **Tilldela kanal** i åtgärdsfältet.
+   1. Navigera till **Aktivering på kanalnivå** > **Platser** > **Län** > **RegionDisplay** och markera **Tilldela kanal** i åtgärdsfältet.
    1. **Kanaltilldelning** öppnas.
    1. Välj **Referenskanal** efter bana.
    1. Välj **Kanalsökväg** as **Aktivering på kanalnivå*** > ***Kanaler*** > ***TargetedSinglePlay***.

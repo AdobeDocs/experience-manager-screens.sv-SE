@@ -10,7 +10,7 @@ feature: Developing Screens
 role: Developer
 level: Intermediate
 exl-id: 04072107-d6be-4030-bb79-1f1a7609f37e
-source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
+source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
 workflow-type: tm+mt
 source-wordcount: '1445'
 ht-degree: 1%
@@ -73,7 +73,7 @@ Följande validering är den du ser när du kontrollerar anslutningen genom att 
 
 1. **Navigera till ContextHub**
 
-   Navigera till din AEM och klicka på verktygsikonen från vänster sidofält. Klicka **Webbplatser** > **ContextHub**, vilket visas i figuren nedan.
+   Navigera till din AEM och välj verktygsikonen från vänster sidofält. Välj **Webbplatser** > **ContextHub**, vilket visas i figuren nedan.
 
    ![bild](/help/user-guide/assets/context-hub/context-hub3.png)
 
@@ -85,7 +85,7 @@ Följande validering är den du ser när du kontrollerar anslutningen genom att 
 
       ![bild](/help/user-guide/assets/context-hub/context-hub4.png)
 
-   1. **Navigera** till **ContextHubDemo** > **Skapa** **Konfiguration av ContentHub** och klicka **Spara**.
+   1. **Navigera** till **ContextHubDemo** > **Skapa** **Konfiguration av ContentHub** och markera **Spara**.
 
       >[!NOTE]
       > När du har valt **Spara** finns du i **KontextHub-konfiguration** skärm.
@@ -110,7 +110,7 @@ Följande validering är den du ser när du kontrollerar anslutningen genom att 
    >
    >Följ de här stegen i Författare och Publicera före eller efter uppgraderingen.
 
-   1. Ange **Titel** as **Google Sheets**, **Butiksnamn** as **`googlesheets`** och **Butikstyp** as **c`ontexthub.generic-jsonp`** och klicka **Nästa**.
+   1. Ange **Titel** as **Google Sheets**, **Butiksnamn** as **`googlesheets`** och **Butikstyp** as **c`ontexthub.generic-jsonp`** och markera **Nästa**.
 
       >[!CAUTION]
       >Om du använder Adobe Experience Manager (AEM) 6.4 anger du **Konfigurationstitel** as **`googlesheets`** och **Butikstyp** as **c`ontexthub.generic-jsonp`**.
@@ -154,7 +154,7 @@ Följande validering är den du ser när du kontrollerar anslutningen genom att 
 
       ![bild](/help/user-guide/assets/context-hub/context-hub7.png)
 
-   1. Klicka **Nästa** och sedan **Spara**.
+   1. Välj **Nästa** och sedan **Spara**.
 
       >[!NOTE]
       >Hoppa över processen att definiera json och lämna den tom.
@@ -166,16 +166,16 @@ Följande validering är den du ser när du kontrollerar anslutningen genom att 
 
    1. Navigera från AEM till **Personalisering** > **Målgrupper** > **skärmar**.
 
-   1. Klicka **Skapa** > **Skapa kontextnavsegment.** The **Nytt ContextHub-segment** öppnas.
+   1. Välj **Skapa** > **Skapa kontextnavsegment.** The **Nytt ContextHub-segment** öppnas.
 
-   1. Ange **Titel** as `**Higherthan50**` och klicka **Skapa**. Skapa på samma sätt ett annat segment med namnet som `**Lowerthan50**`.
+   1. Ange **Titel** as `**Higherthan50**` och markera **Skapa**. Skapa på samma sätt ett annat segment med namnet som `**Lowerthan50**`.
 
       ![bild](/help/user-guide/assets/context-hub/context-hub11.png)
 
-   1. Markera segmentet `**Higherthan50**` och klicka **Egenskaper** i åtgärdsfältet.
+   1. Markera segmentet `**Higherthan50**` och markera **Egenskaper** i åtgärdsfältet.
       ![bild](/help/user-guide/assets/context-hub/context-hub12.png)
 
-   1. Välj **Personalisering** -fliken från **Segmentegenskaper**. Ange **ContextHub-sökväg** till `/conf/screens/settings/cloudsettings/ContextHubDemo/contexthub configurations` och **Segmentsökväg** till `/conf/screens/settings/wcm/segments` och klicka **Spara**, vilket visas i figuren nedan.
+   1. Välj **Personalisering** -fliken från **Segmentegenskaper**. Ange **ContextHub-sökväg** till `/conf/screens/settings/cloudsettings/ContextHubDemo/contexthub configurations` och **Segmentsökväg** till `/conf/screens/settings/wcm/segments` och markera **Spara**, vilket visas i figuren nedan.
 
    ![bild](/help/user-guide/assets/context-hub/context-hub13.png)
 
@@ -191,9 +191,9 @@ Följ stegen nedan för att skapa ett varumärke i era aktiviteter och områden 
 
    1. Välj **Skapa** > **Skapa varumärke**.
 
-   1. Välj **Varumärke** från **Skapa sida** guide och klicka **Nästa**.
+   1. Välj **Varumärke** från **Skapa sida** guide och välj **Nästa**.
 
-   1. Ange **Titel** as **Skärmmärke** och klicka **Skapa**. Ditt varumärke har nu skapats enligt nedan.
+   1. Ange **Titel** as **Skärmmärke** och markera **Skapa**. Ditt varumärke har nu skapats enligt nedan.
 
       ![bild](/help/user-guide/assets/context-hub/context-hub8.png)
 
@@ -253,7 +253,7 @@ När du har konfigurerat ett datalager och definierat din aktivitet (varumärke 
 
    1. Dra och släpp **Jämförelse: Egenskap - värde** till redigeraren.
 
-   1. Klicka på skiftnyckelsikonen så att du kan öppna **Jämföra en egenskap med ett värde** -dialogrutan.
+   1. Markera skiftnyckelsikonen så att du kan öppna **Jämföra en egenskap med ett värde** -dialogrutan.
 
    1. Välj **googlesheets/value/1/0** från listrutan i **Egenskapsnamn**.
 
@@ -291,7 +291,7 @@ Följ stegen nedan för att aktivera målinriktning i dina kanaler.
 
 1. Navigera till någon av AEM Screens-kanalerna. I följande steg visas hur du aktiverar målinriktning genom att använda **DataDrivenKanal** som har skapats i en AEM Screens-kanal.
 
-1. Välj kanalen **TargetChannel** och klicka **Egenskaper** i åtgärdsfältet.
+1. Välj kanalen **TargetChannel** och markera **Egenskaper** i åtgärdsfältet.
 
    ![bild](/help/user-guide/assets/context-hub/context-hub19.png)
 
@@ -300,7 +300,7 @@ Följ stegen nedan för att aktivera målinriktning i dina kanaler.
    1. Ange **ContextHub-sökväg** till `/conf/screens/settings/wcm/segments` och **Segmentsökväg** till `/conf/screens/settings/wcm/segments`.
    1. Ställ in varumärket till **Skärmmärke** från listrutan och **Ange områdesreferens** till **ScreensValue**.
 
-   1. Klicka **Spara och stäng**.
+   1. Välj **Spara och stäng**.
 
       >[!NOTE]
       >
@@ -308,7 +308,7 @@ Följ stegen nedan för att aktivera målinriktning i dina kanaler.
 
       ![bild](/help/user-guide/assets/context-hub/context-hub20New.png)
 
-   1. Navigera och markera **TargetChannel** och klicka på **Redigera** i åtgärdsfältet.
+   1. Navigera och markera **TargetChannel** kanal och markera **Redigera** i åtgärdsfältet.
 
       >[!NOTE]
       >

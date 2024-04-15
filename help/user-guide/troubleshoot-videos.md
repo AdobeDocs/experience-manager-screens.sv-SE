@@ -9,7 +9,7 @@ feature: Channels, Interactive
 role: Developer
 level: Intermediate
 exl-id: dfdd58b6-689b-47ca-9459-9c205f1841eb
-source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
+source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
 workflow-type: tm+mt
 source-wordcount: '798'
 ht-degree: 1%
@@ -29,7 +29,7 @@ När du har överfört videon till kanalen bör AEM börja skapa vissa återgivn
 Så här visar du videon:
 
 1. Navigera till videon, till exempel `http://localhost:4502/assets.html/content/dam/we-retail/en/videos`.
-1. Klicka på videon och expandera den övre vänstra menyn och klicka på **Återgivningar**.
+1. Markera videon och expandera den övre vänstra menyn och välj **Återgivningar**.
 
 Det ska finnas olika renderingar (MP4 eller M4V).
 
@@ -39,7 +39,7 @@ Om det inte finns någon återgivning kontrollerar du att du har ffmpeg installe
 >
 >Om det inte finns någon återgivning kontrollerar du att du har ffmpeg installerat på det operativsystem där AEM körs.
 >
->Klicka [här](https://www.ffmpeg.org/download.html) för att installera ffmpeg.
+>Välj [här](https://www.ffmpeg.org/download.html) för att installera ffmpeg.
 
 ## Videoresurser {#video-assets}
 
@@ -51,11 +51,11 @@ Kontrollera att fmpeg är installerat och videoprofilerna.
 
 ### Kontrollerar videoprofil {#checking-video-profile}
 
-1. Navigera till **Videoprofil**, det vill säga `http://localhost:4502/etc/dam/video.html` och klicka **Ladda upp testvideo**.
+1. Navigera till **Videoprofil**, det vill säga `http://localhost:4502/etc/dam/video.html` och markera **Ladda upp testvideo**.
 
    ![chlimage_1-3](assets/chlimage_1-3.png)
 
-1. Överför en testvideo och klicka på **OK** så att du kan börja omkodningen.
+1. Överför en testvideo och välj **OK** så att du kan börja omkodningen.
 
    Om den kodade videon misslyckas expanderar du ffmpeg-utdata för att förstå eventuella fel i konsolutdata för ffmpeg.
 

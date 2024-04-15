@@ -10,7 +10,7 @@ feature: Authoring Screens, Experience Fragments
 role: Admin, Developer
 level: Intermediate
 exl-id: 13c0d75e-435f-433e-8886-f451df863517
-source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
+source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
 workflow-type: tm+mt
 source-wordcount: '1095'
 ht-degree: 0%
@@ -97,11 +97,11 @@ Följ stegen nedan för att tillämpa innehållet från **`We.Retail`** till **T
 1. **Skapa Live Copy of Experience Fragment**
 
    1. Navigera till AEM startsida.
-   1. Välj **Upplevelsefragment** och markera **SkärmarFragment** och klicka **Variation som live-copy**, vilket visas i figuren nedan:
+   1. Välj **Upplevelsefragment** och markera **SkärmarFragment** och markera **Variation som live-copy**, vilket visas i figuren nedan:
 
    ![screen_shot_2019-07-29at110443am](assets/screen_shot_2019-07-29at110443am.png)
 
-   c. Välj **SkärmarFragment** från **Skapa Live Copy** guide och klicka **Nästa**.
+   c. Välj **SkärmarFragment** från **Skapa Live Copy** guide och välj **Nästa**.
 
    d. Ange **Titel** och **Namn** as **Skärmar**.
 
@@ -113,11 +113,11 @@ Följ stegen nedan för att tillämpa innehållet från **`We.Retail`** till **T
 
    >[!NOTE]
    >
-   >När du har skapat ett AEM Screens-fragment kan du redigera egenskaperna för fragmentet. Markera fragmentet och klicka på **Egenskaper** i åtgärdsfältet.
+   >När du har skapat ett AEM Screens-fragment kan du redigera egenskaperna för fragmentet. Markera fragmentet och välj **Egenskaper** i åtgärdsfältet.
 
    **Redigera egenskaper för ett skärmsfragment**
 
-   1. Navigera till **SkärmarFragment** (du skapade i föregående steg) och klicka på **Egenskaper** i åtgärdsfältet.
+   1. Navigera till **SkärmarFragment** (du skapade i föregående steg) och väljer **Egenskaper** i åtgärdsfältet.
 
    1. Välj **Offlinekonfiguration** enligt bilden nedan.
 
@@ -128,9 +128,9 @@ Följ stegen nedan för att tillämpa innehållet från **`We.Retail`** till **T
 1. **Använda Experience Fragment som en komponent i Skärmkanalen**
 
    1. Navigera till kanalen Skärmar där du vill använda **Skärmar** fragment.
-   1. Välj **TestChannel** och klicka **Redigera** i åtgärdsfältet.
+   1. Välj **TestChannel** och markera **Redigera** i åtgärdsfältet.
 
-   1. Klicka på komponentikonen på sidofliken.
+   1. Välj komponentikonen på sidofliken.
    1. Dra och släpp **Experience Fragment** till er kanal.
 
    ![screen_shot_2019-07-29at123115pm](assets/screen_shot_2019-07-29at123115pm.png)
@@ -179,11 +179,11 @@ Eftersom den Experience Fragment ni skapade är en live-kopia från **Webbplatse
 
 Följ stegen nedan för att sprida ändringar från den primära kanalen till målkanalen:
 
-1. Välj Experience Fragment på menyn **Webbplatser** (primär) och klicka på pennikonen så att du kan redigera objekten i Experience Fragment.
+1. Välj Experience Fragment på menyn **Webbplatser** (primär) och väljer pennikonen så att du kan redigera objekten i Experience Fragment.
 
    ![screen_shot_2018-06-08at122655pm](assets/screen_shot_2018-06-08at122655pm.png)
 
-1. Välj Experience Fragment och klicka på skiftnyckelsikonen så att du kan öppna dialogrutan för att redigera bilderna.
+1. Välj Experience Fragment och välj skiftnyckelsikonen så att du kan öppna dialogrutan för att redigera bilderna.
 
    ![screen_shot_2018-06-08at25031pm](assets/screen_shot_2018-06-08at25031pm.png)
 
@@ -195,7 +195,7 @@ Följ stegen nedan för att sprida ändringar från den primära kanalen till m�
 
    ![screen_shot_2018-06-08at25608pm](assets/screen_shot_2018-06-08at25608pm.png)
 
-1. Välj Experience Fragment och klicka på ikonen Rollout så att du kan sprida ändringarna till det fragment som används i din kanal.
+1. Välj Experience Fragment och välj ikonen Rollout så att du kan sprida ändringarna till det fragment som används i din kanal.
 
    ![screen_shot_2018-06-08at31352pm](assets/screen_shot_2018-06-08at31352pm.png)
 
@@ -211,7 +211,7 @@ Följ stegen nedan för att bekräfta ändringarna i din kanal:
 
 1. Navigera till **Skärmar** > **Kanaler** > **TestChannel**.
 
-1. Klicka **Förhandsgranska** i åtgärdsfältet.
+1. Välj **Förhandsgranska** i åtgärdsfältet.
 
 Följande bild visar ändringarna i **TestChannel**:\
 ![screen_shot_2018-06-08at3351pm](assets/screen_shot_2018-06-08at33351pm.png)

@@ -9,7 +9,7 @@ feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: 4f16605b-aec1-45fa-a110-0af6925b74b0
-source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
+source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
 workflow-type: tm+mt
 source-wordcount: '867'
 ht-degree: 0%
@@ -25,7 +25,7 @@ I det här avsnittet beskrivs hur du implementerar Chrome OS Player med Chrome M
 Följ stegen nedan för att konfigurera en kromhanteringskonsol:
 
 1. Registrera dig för Chrome Management Console. Du måste skaffa en licens för Chrome Management Console. Kontakt [Google Support](https://support.google.com/chrome/a/answer/1375678?hl=en&amp;ref_topic=2935995) om du vill ha mer information om hur du hanterar Chrome-enhetsinställningar.
-1. Registrera din Chrome OS-enhet i domänen och vänta i 15 minuter på att enheten ska synkroniseras med Chrome Management Console. Om du vill veta mer om att registrera en enhet för fönsterstandard klickar du på [här](https://support.google.com/chrome/a/answer/1360534?hl=en).
+1. Registrera din Chrome OS-enhet i domänen och vänta i 15 minuter på att enheten ska synkroniseras med Chrome Management Console. Om du vill veta mer om att registrera en enhet med krom väljer du [här](https://support.google.com/chrome/a/answer/1360534?hl=en).
 1. Chrome Player finns i Chrome Web Store.
 
 >[!NOTE]
@@ -65,7 +65,7 @@ Aktivera Kiosk-läget genom att följa stegen nedan:
    ![screen_shot_2017-12-08at20303pm](assets/screen_shot_2017-12-08at20303pm.png)
 
 1. Bläddra till **Enhetshantering** > **Chrome Management** > **Enhetsinställningar**.
-1. Bläddra nedåt till **Kiosk-inställningar** och klicka **Hantera Kiosk-program**.
+1. Bläddra nedåt till **Kiosk-inställningar** och markera **Hantera Kiosk-program**.
 
    ![kiosk](assets/kiosk.png)
 
@@ -83,7 +83,7 @@ Aktivera Kiosk-läget genom att följa stegen nedan:
 
 1. Logga in på Chrome Developer Console.
 1. Bläddra till **Enhetshantering** > **Chrome Devices** och välj den enhet som du vill styra.
-1. Klicka **Systemaktivitet och felsökning**.
+1. Välj **Systemaktivitet och felsökning**.
 1. Kontrollera **Starta om enhet** och **Skärminspelning** egenskaper för enheten. Du kan även kontrollera enhetsstatus och hälsoinformation.
 
 >[!NOTE]
@@ -97,11 +97,11 @@ AEM Screens Player är ett program som stöder Kiosk och som även aktiverar Rem
 Följ stegen nedan för att konfigurera olika alternativ för spelaren:
 
 1. Logga in på Chrome Management Console.
-1. Klicka **Enhetshantering** > **Chrome Management** > **Apphantering**. AEM Screens Player visas i listan.
-1. Klicka på programmet **AEM Screens Player**.
-1. Klicka **Kiosk-inställningar** och välj organisation (*om en testmiljö används*).
-1. Klicka **överför konfigurationsfil** och överför konfigurationsprincipen (*JSon-fil*).
-1. Klicka **Spara**. Starta om enheten så att du kan synkronisera principen.
+1. Välj **Enhetshantering** > **Chrome Management** > **Apphantering**. AEM Screens Player visas i listan.
+1. Välj programmet **AEM Screens Player**.
+1. Välj **Kiosk-inställningar** och välj organisation (*om en testmiljö används*).
+1. Välj **överför konfigurationsfil** och överför konfigurationsprincipen (*JSon-fil*).
+1. Välj **Spara**. Starta om enheten så att du kan synkronisera principen.
 
 >[!NOTE]
 >

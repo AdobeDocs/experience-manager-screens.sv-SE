@@ -10,7 +10,7 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 901ed50e-d3f0-4c85-ad79-6c4595382759
-source-git-commit: 510a621902eed9302232ed3b6c462b42c5849d79
+source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
 workflow-type: tm+mt
 source-wordcount: '1124'
 ht-degree: 0%
@@ -51,13 +51,13 @@ När du skapar en kanal kan du använda olika mallar för att skapa zoner i kana
 **Skapa en kanal**
 
 1. Klicka på länken Adobe Experience Manager (överst till vänster) och sedan **Skärmar**. Du kan också gå direkt till: `http://localhost:4502/screens.html/content/screens`.
-1. Navigera till **Kanaler** mapp och klicka på **Skapa** i åtgärdsfältet.
+1. Navigera till **Kanaler** mapp och markera **Skapa** i åtgärdsfältet.
 
 1. Välj **1x2 Delad skärmkanal** från **Skapa** guide.
 
-1. Klicka **Nästa** och anger **title** as **MultiZone**.
+1. Välj **Nästa** och anger **title** as **MultiZone**.
 
-1. Klicka **Skapa** för att slutföra kanalskapandet.
+1. Välj **Skapa** för att slutföra kanalskapandet.
 
 ### Använda enskilda resurser i en eller flera zoner {#using-single-assets-in-one-or-more-zones}
 
@@ -66,7 +66,7 @@ Du kan använda enstaka resurser som en bild eller en video i alla enskilda zone
 1. **Lägga till innehåll i kanalen**
 
    1. Navigera till **Zoner** > **Kanaler**> **MultiZone**.
-   1. Välj **MultiZone** och klicka på **Redigera** i åtgärdsfältet.
+   1. Välj **MultiZone** kanal och markera **Redigera** i åtgärdsfältet.
 
 1. **Lägga till bilder i kanalen**
 
@@ -80,17 +80,17 @@ Om du vill att zonerna ska visa bildsekvenser och en video i olika zoner följer
 
 1. **Skapa en kanalmapp**
 
-   1. Navigera till **Zoner** > **MultiZone** > **Kanaler** och klicka **Skapa** i åtgärdsfältet.
-   1. Välj **Mappen Kanaler** från **Skapa** guide och klicka **Nästa**.
-   1. Ange titeln som **InbäddadeKanaler** och klicka **Skapa**.
+   1. Navigera till **Zoner** > **MultiZone** > **Kanaler** och markera **Skapa** i åtgärdsfältet.
+   1. Välj **Mappen Kanaler** från **Skapa** guide och välj **Nästa**.
+   1. Ange titeln som **InbäddadeKanaler** och markera **Skapa**.
 
    ![screen_shot_2018-12-19at125428pm](assets/screen_shot_2018-12-19at125428pm.png)
 
 1. **Lägga till ytterligare två kanaler i kanalmappen**
 
-   1. Navigera till **Zoner** > **Kanaler** > **InbäddadeKanaler** och klicka **Skapa** i åtgärdsfältet.
+   1. Navigera till **Zoner** > **Kanaler** > **InbäddadeKanaler** och markera **Skapa** i åtgärdsfältet.
    1. Välj **Sekvenskanal** från **Skapa** guide för att skapa en kanal med namnet **`Zone1`**.
-   1. Välj **`Zone1`** och klicka **Redigera** i åtgärdsfältet.
+   1. Välj **`Zone1`** och markera **Redigera** i åtgärdsfältet.
    1. Dra och släpp några bilder i den här kanalen.
    1. Skapa en annan sekvenskanal med namnet som **`Zone2`** in **InbäddadeKanaler** mapp.
    1. Dra och släpp en video i den här kanalen.
@@ -110,10 +110,10 @@ Om du vill att zonerna ska visa bildsekvenser och en video i olika zoner följer
 1. **Lägga till inbäddade sekvenser (komponent) i huvudkanalen (MultiZone)**
 
    1. Navigera till **Zoner** > **Kanaler** > **MultiZone**.
-   1. Klicka **Redigera** i åtgärdsfältet.
+   1. Välj **Redigera** i åtgärdsfältet.
    1. Dra och släpp **Inbäddad sekvens** till båda zonerna.
    1. Markera den inbäddade sekvensen i någon av zonerna.
-   1. Klicka på **Konfigurera** (skiftnyckel) till en av de inbäddade sekvenserna i redigeraren.
+   1. Välj **Konfigurera** (skiftnyckel) till en av de inbäddade sekvenserna i redigeraren.
    1. Markera kanalbanan som **Zoner** > **Kanaler** > **InbäddadeKanaler** > **`Zone1`**, vilket visas i figuren nedan.
    1. Lägg på samma sätt till **`Zone2`** till en annan inbäddad sekvenskomponent i redigeraren.
 

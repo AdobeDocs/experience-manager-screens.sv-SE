@@ -5,7 +5,7 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 6cf0aa9f-7bac-403f-a113-51727c1f5374
-source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
+source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
 workflow-type: tm+mt
 source-wordcount: '1088'
 ht-degree: 1%
@@ -57,7 +57,7 @@ Innan du använder funktionen för röstigenkänning bör du kontrollera att du 
 
    ![bild](assets/voice-recognition/vr-emb-1.png)
 
-1. Navigera till var och en av kanalerna och lägg till innehåll. Navigera till exempel **VoiceDemo** > **Kanaler** > **Huvud** och markera kanalen. Klicka **Redigera** i åtgärdsfältet och lägg sedan till innehåll (bilder/videor) efter behov. Lägg på samma sätt till innehåll i båda **ColdDrinks** och **HotDrinks** kanal.
+1. Navigera till var och en av kanalerna och lägg till innehåll. Navigera till exempel **VoiceDemo** > **Kanaler** > **Huvud** och markera kanalen. Välj **Redigera** i åtgärdsfältet och lägg sedan till innehåll (bilder/videor) efter behov. Lägg på samma sätt till innehåll i båda **ColdDrinks** och **HotDrinks** kanal.
 
    Kanalerna innehåller nu resurser (bilder), vilket visas i figurerna nedan.
 
@@ -85,7 +85,7 @@ Följ stegen nedan för att lägga till taggar i din kanal:
 
 1. Navigera till var och en av kanalerna och lägg till innehåll. Navigera till exempel **VoiceDemo** > **Kanaler** > **Huvud** och markera kanalen.
 
-1. Klicka **Egenskaper** i åtgärdsfältet.
+1. Välj **Egenskaper** i åtgärdsfältet.
 
    ![bild](assets/voice-recognition/vr-5.png)
 
@@ -107,7 +107,7 @@ Följ stegen nedan för att lägga till taggar i din kanal:
 
    ![bild](assets/voice-recognition/vr-emb-7.png)
 
-1. Klicka **Spara och stäng** när du är klar.
+1. Välj **Spara och stäng** när du är klar.
 
 
 ### Skapa taggar {#creating-tags}
@@ -116,18 +116,18 @@ Skapa taggar genom att följa stegen nedan:
 
 1. Navigera till AEM.
 
-1. Klicka på verktygsikonen > **Taggning**.
+1. Välj verktygsikon > **Taggning**.
    ![bild](assets/voice-recognition/vr-7.png)
 
-1. Klicka **Skapa** > **Skapa namnutrymme**.
+1. Välj **Skapa** > **Skapa namnutrymme**.
    ![bild](assets/voice-recognition/vr-tag3.png)
 
-1. Ange namnet på projektet, till exempel **VoiceDemo** och klicka **Skapa**.
+1. Ange namnet på projektet, till exempel **VoiceDemo** och markera **Skapa**.
 
-1. Välj **VoiceDemo** projekt och klicka på **Skapa tagg** i åtgärdsfältet.
+1. Välj **VoiceDemo** projekt och välj **Skapa tagg** i åtgärdsfältet.
    ![bild](assets/voice-recognition/vr-tag4.png)
 
-1. Ange namnet på taggen och klicka på **Skicka**.
+1. Ange namnet på taggen och välj **Skicka**.
    ![bild](assets/voice-recognition/vr-tag5.png)
 
 Nu kan du använda de här taggarna i ditt AEM Screens-projekt.

@@ -10,7 +10,7 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 16180f96-2855-4250-9d55-24ed77a908b7
-source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
+source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
 workflow-type: tm+mt
 source-wordcount: '561'
 ht-degree: 0%
@@ -58,16 +58,16 @@ Följ stegen nedan för att skapa och använda arbetsflödet:
 Följ stegen nedan för att skapa ett arbetsflöde för videon:
 
 1. Navigera till AEM.
-1. Klicka på verktyg från sidospåret.
+1. Välj verktyg från sidospåret.
 1. Välj **Arbetsflöde** > **Models** så att du kan skapa en modell.
 
    ![screen_shot_2018-10-17at90025pm](assets/screen_shot_2018-10-17at90025pm.png)
 
-1. Klicka **Models** > **Skapa** > **Skapa modell**. Ange **Titel** (as **VideoRendition**) och **Namn** i **Lägg till arbetsflödesmodell**. Klicka **Klar** för att lägga till arbetsflödesmodellen.
+1. Välj **Models** > **Skapa** > **Skapa modell**. Ange **Titel** (as **VideoRendition**) och **Namn** i **Lägg till arbetsflödesmodell**. Välj **Klar** för att lägga till arbetsflödesmodellen.
 
    ![screen_shot_2018-10-17at90747pm](assets/screen_shot_2018-10-17at90747pm.png)
 
-1. När du har skapat arbetsflödesmodellen väljer du modellen (**VideoRendition**) och klicka på **Redigera** i åtgärdsfältet.
+1. När du har skapat arbetsflödesmodellen väljer du modellen (**VideoRendition**), och markera **Redigera** i åtgärdsfältet.
 
    ![screen_shot_2018-10-17at91256pm](assets/screen_shot_2018-10-17at91256pm.png)
 
@@ -87,11 +87,11 @@ Följ stegen nedan för att skapa ett arbetsflöde för videon:
    ![screen_shot_2018-10-18at105300am](assets/screen_shot_2018-10-18at105300am.png)
 
 1. Välj arbetsflöde (**VideoRenditions**).
-1. Klicka **Starta arbetsflöde** i åtgärdsfältet.
+1. Välj **Starta arbetsflöde** i åtgärdsfältet.
 
    ![screen_shot_2018-10-18at105335am](assets/screen_shot_2018-10-18at105335am.png)
 
-1. I **Kör arbetsflöde** väljer du resursens sökväg i dialogrutan **Nyttolast** (as ***/content/dam/huseinpeyda-crossroad01_512kb 2.mp4***) och anger **Titel** as ***RunVideo*** och klicka **Kör**.
+1. I **Kör arbetsflöde** väljer du resursens sökväg i dialogrutan **Nyttolast** (as ***/content/dam/huseinpeyda-crossroad01_512kb 2.mp4***) och anger **Titel** as ***RunVideo*** och markera **Kör**.
 
    ![screen_shot_2018-10-18at112043am](assets/screen_shot_2018-10-18at112043am.png)
 
@@ -103,11 +103,11 @@ Följ stegen nedan för att använda arbetsflödet i ditt AEM Screens-projekt:
 
    ![screen_shot_2018-10-17at100715pm](assets/screen_shot_2018-10-17at100715pm.png)
 
-1. Klicka **Redigera** i åtgärdsfältet. Dra och släpp videon som du ursprungligen överförde till **Resurser**.
+1. Välj **Redigera** i åtgärdsfältet. Dra och släpp videon som du ursprungligen överförde till **Resurser**.
 
    ![screen_shot_2018-10-17at102806pm](assets/screen_shot_2018-10-17at102806pm.png)
 
-1. När du har överfört videon klickar du på **Förhandsgranska** för att visa utdata.
+1. När du har överfört videon väljer du **Förhandsgranska** för att visa utdata.
 
    ![screen_shot_2018-10-22at15151pm](assets/screen_shot_2018-10-22at15151pm.png)
 

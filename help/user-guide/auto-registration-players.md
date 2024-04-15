@@ -5,7 +5,7 @@ feature: Administering Screens, Players
 role: Admin
 level: Intermediate
 exl-id: 28449523-a44d-4260-9771-f1987686cbb6
-source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
+source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
 workflow-type: tm+mt
 source-wordcount: '332'
 ht-degree: 0%
@@ -20,7 +20,7 @@ Om du registrerar tusentals spelare manuellt blir det krångligt och kostar mer 
 
 Följ stegen nedan för att implementera automatisk registrering av spelare:
 
-1. Logga in på AEM och välj ditt AEM Screens-projekt och klicka på **Egenskaper** i åtgärdsfältet.
+1. Logga in på AEM och välj ditt AEM Screens-projekt och välj **Egenskaper** i åtgärdsfältet.
 1. Välj **Avancerat** så att du kan visa **Enhetsregistrering** -avsnitt.
 
 1. Ange en kod för automatisk registrering i **Registreringskod för massutskick** fält och en valfri standardvisning i **Standardvisningstilldelning** som tilldelas den spelare som registreras automatiskt.

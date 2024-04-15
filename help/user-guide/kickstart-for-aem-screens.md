@@ -5,9 +5,9 @@ feature: Overview, Digital Signage
 role: User
 level: Beginner
 exl-id: 9b7c7f50-2846-4727-a0ec-0220b4cd52c4
-source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
+source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
 workflow-type: tm+mt
-source-wordcount: '1276'
+source-wordcount: '1270'
 ht-degree: 1%
 
 ---
@@ -46,7 +46,7 @@ Följ stegen nedan för att skapa ett exempelprojekt för AEM Screens och public
 
    ![bild](assets/config/empty-ref2.png)
 
-1. Klicka **Spara** om du vill aktivera referensfiltret för Apache Sling Tillåt tomt.
+1. Välj **Spara** om du vill aktivera referensfiltret för Apache Sling Tillåt tomt.
 
 ## Skapa en upplevelse av en digital skylt på 5 minuter {#creating-a-digital-signage-experience-in-minutes}
 
@@ -54,10 +54,10 @@ Följ stegen nedan för att skapa ett exempelprojekt för AEM Screens och public
 
 Det första steget är att skapa ett AEM Screens-projekt.
 
-1. Navigera till din Adobe Experience Manager-instans (AEM) och klicka på **Skärmar**. Du kan även navigera direkt från `https://localhost:4502/screens.html/content/screens](https://localhost:4502/screens.html/content/screens`.
+1. Navigera till din Adobe Experience Manager-instans (AEM) och markera **Skärmar**. Du kan även navigera direkt från `https://localhost:4502/screens.html/content/screens](https://localhost:4502/screens.html/content/screens`.
 
-1. Klicka **Skapa skärmsprojekt** så att du kan skapa ett skärmsprojekt.
-1. Ange titeln som **DemoScreens** och sedan klicka **Spara**.
+1. Välj **Skapa skärmsprojekt** så att du kan skapa ett skärmsprojekt.
+1. Ange titeln som **DemoScreens** väljer **Spara**.
 
    ![bild](assets/kickstart/demo-1.png)
 
@@ -70,14 +70,14 @@ När du har skapat ditt AEM Screens-projekt skapar du en kanal där du hanterar 
 
 Följ stegen nedan för att skapa en kanal för ditt projekt:
 
-1. När du har skapat ett projekt väljer du **DemoScreens** projektet och välj **Kanaler** enligt bilden nedan. Klicka **+ Skapa** i åtgärdsfältet.
+1. När du har skapat ett projekt väljer du **DemoScreens** projektet och välj **Kanaler** enligt bilden nedan. Välj **+ Skapa** i åtgärdsfältet.
 
    ![bild](assets/kickstart/demo-2.png)
 
-1. Välj **Sekvenskanal** från guiden och klicka på **Nästa**.
+1. Välj **Sekvenskanal** från guiden och välj **Nästa**.
    ![bild](assets/kickstart/demo-3.png)
 
-1. Ange **Titel** as **TestChannel** och klicka **Skapa**.
+1. Ange **Titel** as **TestChannel** och markera **Skapa**.
 
    ![bild](assets/kickstart/demo-4.png)
 
@@ -93,11 +93,11 @@ Följ stegen nedan för att lägga till innehåll i kanalen (**TestChannel**) i 
 
 1. Navigera till **DemoProject** du har skapat och väljer **TestChannel** från **Kanaler** mapp.
 
-1. Klicka **Redigera** i åtgärdsfältet (se figuren nedan). Redigeraren för **TestChannel** öppnas.
+1. Välj **Redigera** i åtgärdsfältet (se figuren nedan). Redigeraren för **TestChannel** öppnas.
 
    ![bild](assets/kickstart/demo-6.png)
 
-1. Klicka på ikonen som växlar sidopanelen till vänster i åtgärdsfältet för att öppna resurserna och komponenterna.
+1. Markera ikonen som växlar sidopanelen till vänster i åtgärdsfältet för att öppna resurserna och komponenterna.
 
 1. Dra och släpp de komponenter du vill lägga till i kanalen.
 
@@ -113,9 +113,9 @@ Skapa en plats när du har din kanal på plats.
 Följ stegen nedan för att skapa en plats för ditt projekt:
 
 1. Navigera till **DemoProject** du har skapat och väljer **Platser** mapp.
-1. Klicka **+ Skapa** i åtgärdsfältet.
-1. Välj **Plats** från guiden och klicka på **Nästa**.
-1. Ange **Namn** för din plats (ange titeln som **TestLocation**) och klicka på **Skapa**.
+1. Välj **+ Skapa** i åtgärdsfältet.
+1. Välj **Plats** från guiden och välj **Nästa**.
+1. Ange **Namn** för din plats (ange titeln som **TestLocation**) och markera **Skapa**.
 
 The **TestLocation** skapas och läggs till i **Platser** mapp.
 
@@ -128,15 +128,15 @@ När du har skapat en plats skapar du en visning för platsen.
 >***Visa*** representerar den digitala upplevelse som körs på en eller flera skärmar.
 
 1. Navigera till **TestLocation** och markera den.
-1. Klicka **Skapa** i åtgärdsfältet.
+1. Välj **Skapa** i åtgärdsfältet.
 
    ![bild](assets/kickstart/demo-disp1.png)
 
-1. Välj **Visa** från **Skapa** guide och klicka **Nästa**.
+1. Välj **Visa** från **Skapa** guide och välj **Nästa**.
 
    ![bild](assets/kickstart/demo-disp2.png)
 
-1. Ange **Titel** as **LobbyDisplay** och klicka **Skapa**.
+1. Ange **Titel** as **LobbyDisplay** och markera **Skapa**.
 
    ![bild](assets/kickstart/demo-disp3.png)
 
@@ -150,13 +150,13 @@ När projektkonfigurationen är klar tilldelar du kanalen till en visning för a
 
 1. Navigera till önskad visning från **DemoScreens** > **Platser** > **TestLocation** > **LobbyDisplay**.
 
-1. Tryck/klicka **Tilldela kanal** i åtgärdsfältet.
+1. Välj **Tilldela kanal** i åtgärdsfältet.
 
    ![bild](assets/kickstart/demo-assign1.png)
 
    Eller
 
-   Tryck/klicka **Kontrollpanel** i åtgärdsfältet och klicka på **+Tilldela kanal** från **TILLDELADE KANALER OCH SCHEMAN** -panelen.
+   Välj **Kontrollpanel** i åtgärdsfältet och välj **+Tilldela kanal** från **TILLDELADE KANALER OCH SCHEMAN** -panelen.
 
    ![bild](assets/kickstart/demo-assign2.png)
 
@@ -176,7 +176,7 @@ När projektkonfigurationen är klar tilldelar du kanalen till en visning för a
    >The *Återkommande schema* gör att du kan ange ett återkommande schema för din kanal. Du ställer in flera upprepningsscheman för en kanal.
    >Se [Återkommande schema](/help/user-guide/channel-assignment-latest-fp.md#recurrence-schedule) för mer information.
 
-1. Klicka **Spara** när du har konfigurerat dina inställningar.
+1. Välj **Spara** när du har konfigurerat dina inställningar.
 
 ### Registrera en enhet och tilldela en enhet till en skärm {#registering-device}
 
@@ -185,43 +185,43 @@ Registrera din enhet med AEM kontrollpanel.
 >[!IMPORTANT]
 >Chrome OS-spelaren kan installeras som Chrome Browser-plugin i utvecklarläge utan att den faktiska enheten för Chrome Player krävs. För installation, följ stegen nedan:
 >
->1. Klicka [här](https://download.macromedia.com/screens/) för att ladda ned den senaste Chrome Player.
+>1. Välj [här](https://download.macromedia.com/screens/) för att ladda ned den senaste Chrome Player.
 >1. Zippa upp och spara det på disken.
 >1. Öppna Chrome-webbläsaren och välj **Tillägg** från menyn eller direkt navigera till ***chrome://extensions***.
 >1. Aktivera **Utvecklarläge** från det övre högra hörnet.
->1. Klicka **Läs in opackad** från det övre vänstra hörnet och ladda uppzippad Chrome Player.
+>1. Välj **Läs in opackad** från det övre vänstra hörnet och ladda uppzippad Chrome Player.
 >1. Kontrollera **AEM Screens Chrome Player** plugin-programmet om det finns i listan över tillägg.
->1. Öppna en ny flik och klicka på **Appar** ikonen i det övre vänstra hörnet eller navigera direkt till ***chrome://apps***.
->1. Klicka **AEM Screens** Plugin-program så att du kan starta Chrome Player. Som standard startas spelaren i helskärmsläge. Tryck **Esc** för att avsluta helskärmsläget.
+>1. Öppna en ny flik och välj **Appar** ikonen i det övre vänstra hörnet eller navigera direkt till ***chrome://apps***.
+>1. Välj **AEM Screens** Plugin-program så att du kan starta Chrome Player. Som standard startas spelaren i helskärmsläge. Tryck **Esc** för att avsluta helskärmsläget.
 
 När du har aktiverat Chrome OS-spelaren följer du stegen nedan för att registrera en Chrome-enhet.
 
 1. Navigera till **Enheter** projektmapp från AEM.
 
-1. Tryck/klicka på **Enhetshanteraren** i åtgärdsfältet.
+1. Välj **Enhetshanteraren** i åtgärdsfältet.
 
    ![bild](assets/kickstart/demo-register1.png)
 
-1. Tryck/klicka på **Enhetsregistrering** uppifrån till höger.
+1. Välj **Enhetsregistrering** uppifrån till höger.
 
-1. Välj önskad enhet och tryck/klicka **Registrera enhet**.
+1. Välj önskad enhet och välj **Registrera enhet**.
 
    ![bild](assets/kickstart/demo-register2.png)
 
 1. Vänta tills enheten skickar sin registreringskod och kontrollera samtidigt **Registreringskod** från din Chrome-enhet.
    ![bild](assets/kickstart/demo-register3.png)
 
-1. Om **Registreringskod** är samma på båda datorerna, tryck/klicka **Validera** AEM.
+1. Om **Registreringskod** är samma på båda datorerna, välj **Validera** AEM.
 
-1. Ange önskat namn som **ChromeDevice forDemo** för enheten och klicka på **Registrera**.
+1. Ange önskat namn som **ChromeDevice forDemo** för enheten och välj **Registrera**.
 
    ![bild](assets/kickstart/demo-register4.png)
 
-1. Klicka **Tilldela visning** från **Enhetsregistrering lyckades** -dialogrutan.
+1. Välj **Tilldela visning** från **Enhetsregistrering lyckades** -dialogrutan.
 
    ![bild](assets/kickstart/demo-register5.png)
 
-1. Markera sökvägen till din visning som **DemoScreens** > **Platser** > **TestLocation** > **LobbyDisplay** och klicka **Tilldela**.
+1. Markera sökvägen till din visning som **DemoScreens** > **Platser** > **TestLocation** > **LobbyDisplay** och markera **Tilldela**.
 
    ![bild](assets/kickstart/demo-device6.png)
 

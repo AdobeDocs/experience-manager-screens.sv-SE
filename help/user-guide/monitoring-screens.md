@@ -10,7 +10,7 @@ feature: Digital Signage, Content, Players
 role: Developer
 level: Intermediate
 exl-id: 57105d6d-51ff-44ca-bbf2-ae9cce8addd0
-source-git-commit: 1e8beb9dfaf579250138d4a41eeec88cc81f2d39
+source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
 workflow-type: tm+mt
 source-wordcount: '777'
 ht-degree: 0%
@@ -39,7 +39,7 @@ Följ stegen nedan för att navigera till enhetens instrumentpanel:
 
    ![screen_shot_2019-09-05at12823pm](assets/screen_shot_2019-09-05at12823pm.png)
 
-1. Välj enhet (**NewTestDevice**) och klicka på **Kontrollpanel** i åtgärdsfältet.
+1. Välj enhet (**NewTestDevice**) och markera **Kontrollpanel** i åtgärdsfältet.
 
    ![screen_shot_2019-09-05at13341pm](assets/screen_shot_2019-09-05at13341pm.png)
 
@@ -89,7 +89,7 @@ Välj **Egenskaper** så att du kan se **Enhetsegenskaper** -dialogrutan. Du kan
 
 Du kan visa skärmbilden för spelaren från enheten från **SPELARSKÄRMBILD** -panelen.
 
-Klicka (**...**) i det övre högra hörnet av panelen Player-skärmbild och väljer **Uppdatera skärmbild** för att visa ögonblicksbilden av spelaren som körs.
+Markera (**...**) i det övre högra hörnet av panelen Player-skärmbild och väljer **Uppdatera skärmbild** för att visa ögonblicksbilden av spelaren som körs.
 
 ![screen_shot_2019-09-05at14205pm](assets/screen_shot_2019-09-05at14205pm.png)
 
@@ -132,7 +132,7 @@ Följ stegen nedan för att aktivera filtret Tillåt tomt för Apache Sling Refe
 
 1. Navigera till **Adobe Experience Manager Web Console Configuration**, d.v.s. `https://localhost:4502/system/console/configMgr/org.apache.sling.security.impl.ReferrerFilter`.
 1. **Markera alternativet allow.empty**.
-1. Klicka på **Spara**.
+1. Välj **Spara**.
 
 ![chlimage_1-3](assets/chlimage_1-3.png)
 

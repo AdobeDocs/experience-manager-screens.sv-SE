@@ -5,7 +5,7 @@ feature: Administering Screens, Players
 role: Admin
 level: Intermediate
 exl-id: 45147959-b0ca-4d87-b89d-293e4b9af171
-source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
+source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
 workflow-type: tm+mt
 source-wordcount: '1208'
 ht-degree: 0%
@@ -47,7 +47,7 @@ Du kan tilldela din Tizen-spelare ett användarvänligt enhetsnamn och därmed s
 
 Följ stegen nedan för att konfigurera namnet i Tizen-spelaren:
 
-1. Klicka på menyknappen på fjärrkontrollen.
+1. Välj menyknappen på fjärrkontrollen.
 1. Navigera till **nätverk** > **Enhetsnamn** så att du kan ge spelaren ett namn.
 
 ### Konfigurera uppdateringar på Samsung-enheten {#config-updates}
@@ -55,11 +55,11 @@ Följ stegen nedan för att konfigurera namnet i Tizen-spelaren:
 Följ stegen nedan på Samsung-enheten så att du kan slutföra installationen av AEM Screens-spelaren på enheten:
 
 1. Navigera till din Samsung-enhet och slå på.
-1. Klicka på **MENY** från enhetens fjärrdator och rulla nedåt till **System** i det vänstra navigeringsfältet.
+1. Välj **MENY** från enhetens fjärrdator och rulla nedåt till **System** i det vänstra navigeringsfältet.
 1. Bläddra nedåt och välj **Spela upp via** och ändra det till **URL Launcher** alternativ.
    ![bild](/help/user-guide/assets/tizen/rms-2.png)
 1. När URL Launcher är inställd trycker du på **Startsida** från fjärrkontrollen.
-1. Navigera till **Inställningar för URL-start** och ange IP-adressen till den lokala värdservern och klicka på **Klar**.
+1. Navigera till **Inställningar för URL-start** och ange IP-adressen till den lokala värdservern och välj **Klar**.
 
    >[!NOTE]
    >Tizen-spelaren bör kunna ansluta till http-servern.

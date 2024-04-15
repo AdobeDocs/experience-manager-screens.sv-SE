@@ -6,7 +6,7 @@ feature: Authoring Screens
 role: Developer
 level: Intermediate
 exl-id: 9ffdb1eb-a1ba-42ac-a30f-260004e5b165
-source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
+source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
 workflow-type: tm+mt
 source-wordcount: '823'
 ht-degree: 0%
@@ -69,12 +69,12 @@ I följande bild visas hur du kan hantera och uppdatera endast de ändrade sidor
    >
    >
    >    1. Arbetsflödet fungerar inte om det inte finns några ändringar i projektet och inget för **Uppdatera offlineinnehåll**.
-   >    1. Arbetsflödet fungerar inte om författaren inte slutför replikeringsprocessen (innehållet överförs fortfarande till publiceringsinstansen) efter att ha klickat på **Publicera** i arbetsflödet för publicering.
+   >    1. Arbetsflödet fungerar inte om författaren inte slutför replikeringsprocessen (innehållet överförs fortfarande till publiceringsinstansen) efter att ha valt **Publicera** i arbetsflödet för publicering.
 
    >[!CAUTION]
-   >Om du som författare eller innehållsskapare vill se ändringarna i enheterna som är kopplade till författarinstansen klickar du på **Uppdatera offlineinnehåll** från kanalkontrollpanelen eller genom att välja projektet. I det här fallet utförs uppdateringen av offlineinnehåll endast i författarinstansen.
+   >Om du som författare eller innehållsskapare vill se ändringarna i enheterna som är kopplade till författarinstansen väljer du **Uppdatera offlineinnehåll** från kanalkontrollpanelen eller genom att välja projektet. I det här fallet utförs uppdateringen av offlineinnehåll endast i författarinstansen.
 
-1. Navigera till projektet och klicka på **Uppdatera offlineinnehåll** i åtgärdsfältet. Den här åtgärden vidarebefordrar samma kommando för att publicera instansen, så att offlinepostmeddelandena skapas även i din Publish-instans.
+1. Navigera till projektet och markera **Uppdatera offlineinnehåll** i åtgärdsfältet. Den här åtgärden vidarebefordrar samma kommando för att publicera instansen, så att offlinepostmeddelandena skapas även i din Publish-instans.
 
    ![screen_shot_2019-02-25at23451pm](assets/screen_shot_2019-02-25at23451pm.png)
 

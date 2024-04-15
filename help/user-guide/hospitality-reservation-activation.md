@@ -10,7 +10,7 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: ae032042-fa2b-49cd-91fe-ce50f3ce9867
-source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
+source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
 workflow-type: tm+mt
 source-wordcount: '442'
 ht-degree: 0%
@@ -46,17 +46,17 @@ Följ instruktionerna nedan för att implementera aktivering av gästreservation
 1. **Konfigurera segmenten i publiker enligt kraven**
 
    1. Navigera till segmenten i målgruppen (se ***Steg 2: Konfigurera målgruppssegmentering*** in **[ContextHub konfigureras i AEM Screens](configuring-context-hub.md)** sida för mer information).
-   1. Välj **Blad A1 1** och klicka **Redigera**.
-   1. Välj jämförelseegenskapen och klicka på **Konfiguration** -ikon.
+   1. Välj **Blad A1 1** och markera **Redigera**.
+   1. Välj jämförelseegenskapen och välj **Konfiguration** -ikon.
    1. Välj **googlesheets/value/1/2** från listrutan i **Egenskapsnamn**.
    1. Välj **Operator** as **likhet** i listrutan.
    1. Ange **Värde** as **1**.
-   1. På samma sätt väljer du **Blad A1 2** och klicka **Redigera**.
-   1. Välj jämförelseegenskapen och klicka på **Konfiguration** -ikon.
+   1. På samma sätt väljer du **Blad A1 2** och markera **Redigera**.
+   1. Välj jämförelseegenskapen och välj **Konfiguration** -ikon.
    1. Välj **googlesheets/value/1/2** från listrutan i **Egenskapsnamn**.
    1. Välj **Operator** as **2**.
 
-1. Navigera och markera kanalen () och klicka på **Redigera** i åtgärdsfältet. I följande exempel **DataDrivenRestaurant**, används en sekventiell kanal för att visa funktionaliteten.
+1. Navigera och markera kanalen () och markera **Redigera** i åtgärdsfältet. I följande exempel **DataDrivenRestaurant**, används en sekventiell kanal för att visa funktionaliteten.
 
    >[!NOTE]
    >
@@ -70,10 +70,10 @@ Följ instruktionerna nedan för att implementera aktivering av gästreservation
 
    ![screen_shot_2019-05-08at114106am](assets/screen_shot_2019-05-08at114106am.png)
 
-1. Välj **Målinriktning** i redigeraren och väljer **Varumärke** och **Aktivitet** i listrutan och klicka på **Börja målinrikta**.
+1. Välj **Målinriktning** i redigeraren och väljer **Varumärke** och **Aktivitet** i listrutan och väljer **Börja målinrikta**.
 1. **Kontrollera förhandsvisningen**
 
-   1. Klicka **Förhandsgranska.** Du kan även öppna dina Google-blad och uppdatera deras värde.
+   1. Välj **Förhandsgranska.** Du kan även öppna dina Google-blad och uppdatera deras värde.
    1. Uppdatera värdet i **`Restaurant1`** och **`Restaurant2`** kolumner. If **`Restaurant1`** > **`Restaurant2`,** du bör kunna visa en bild av *Stopp* annan mat, *Thailändska* matbilden visas på skärmen.
 
    ![result5](assets/result5.gif)

@@ -9,9 +9,9 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: c55dc128-208d-4379-95a8-60a39d495dc0
-source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
+source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
 workflow-type: tm+mt
-source-wordcount: '661'
+source-wordcount: '659'
 ht-degree: 0%
 
 ---
@@ -66,9 +66,9 @@ En enhetskonfiguration fungerar som platshållare för en faktisk digital signer
 1. Välj visningsmapp och välj **Visa instrumentpanel** i åtgärdsfältet.
 1. Välj **+ Lägg till enhetskonfiguration** överst till höger på **Enheter** -panelen.
 
-1. Välj **Enhetskonfiguration** som önskad mall och tryck/klicka **Nästa**.
+1. Välj **Enhetskonfiguration** som den obligatoriska mallen som och väljer **Nästa**.
 
-1. Ange egenskaperna efter behov och tryck/klicka **Skapa**.
+1. Ange egenskaperna efter behov och välj **Skapa**.
 
 Enhetskonfigurationen skapas och läggs till i den aktuella skärmen (i följande exempel är den nya enhetskonfigurationen *DeviceConfig*).
 
@@ -102,12 +102,12 @@ På kontrollpanelen visas olika paneler för att hantera visningsenheter och enh
 
 The **VISNINGSINFORMATION** Panelen innehåller visningsegenskaperna.
 
-Klicka (**...**) i det övre högra hörnet i **VISNINGSINFORMATION** så att du kan visa egenskaperna och förhandsgranska visningen.
+Markera (**...**) i det övre högra hörnet i **VISNINGSINFORMATION** så att du kan visa egenskaperna och förhandsgranska visningen.
 
 
 #### Visningsegenskaper {#viewing-properties}
 
-Klicka **Egenskaper** så att du kan visa eller ändra egenskaperna för visningen.
+Välj **Egenskaper** så att du kan visa eller ändra egenskaperna för visningen.
 
 Du kan även justera händelsens timervärde för den interaktiva kanalen i **Timeout för inaktivitet** egenskap under **Visa** -fliken. Standardvärdet är *300 sekunder*.
 
@@ -125,7 +125,7 @@ The **ENHETER** Panelen innehåller information om enhetskonfigurationerna.
 
 Markera (**...**) i det övre högra hörnet i **ENHETER** så att du kan lägga till enhetskonfigurationer och uppdatera enheter.
 
-Klicka också på enhetskonfigurationen för att visa egenskaper, tilldela en enhet eller ta bort den helt.
+Markera även enhetskonfigurationen om du vill visa egenskaper, tilldela en enhet eller ta bort den helt.
 
 ![chlimage_1-13](assets/chlimage_1-13.png)
 

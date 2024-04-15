@@ -10,7 +10,7 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: bbc719df-24a7-4cfb-9786-1c3496f9f082
-source-git-commit: 1e8beb9dfaf579250138d4a41eeec88cc81f2d39
+source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
 workflow-type: tm+mt
 source-wordcount: '767'
 ht-degree: 0%
@@ -58,11 +58,11 @@ Följande bild visar **TextOverlayDemo** projekt med **TextExempel** kanal in **
 
 Följ stegen nedan för att använda textövertäckning i en AEM Screens-kanal:
 
-1. Navigera till **TextOverlayDemo** > **Kanaler** > **TextExempel** och klicka **Redigera** i åtgärdsfältet.
+1. Navigera till **TextOverlayDemo** > **Kanaler** > **TextExempel** och markera **Redigera** i åtgärdsfältet.
 
    ![screen_shot_2018-12-16at80017pm](assets/screen_shot_2018-12-16at80017pm.png)
 
-1. Markera bilden och klicka på **Konfigurera** (skiftnyckelsikon) för att öppna dialogrutan Egenskaper.
+1. Markera bilden och markera **Konfigurera** (skiftnyckelsikon) för att öppna dialogrutan Egenskaper.
 
    ![screen_shot_2018-12-16at80221pm](assets/screen_shot_2018-12-16at80221pm.png)
 
@@ -114,7 +114,7 @@ När du har ställt in de konfigurationer som krävs för ditt projekt följer d
 
       ![image1](/help/user-guide/assets/text-overlay/text-overlay8.png)
 
-1. Navigera till **TextOverlayDemo** > **Kanaler** > **TextExempel** och klicka **Redigera** i åtgärdsfältet.
+1. Navigera till **TextOverlayDemo** > **Kanaler** > **TextExempel** och markera **Redigera** i åtgärdsfältet.
 
    ![image1](/help/user-guide/assets/text-overlay/text-overlay1.png)
 
@@ -129,7 +129,7 @@ När du har ställt in de konfigurationer som krävs för ditt projekt följer d
    >[!NOTE]
    >Om du inte har konfigurerat din ContextHub-konfiguration inaktiveras det här alternativet för ditt projekt.
 
-1. Retur **Värde** i **Platshållare** fält. Markera raden där du vill hämta värdet från ditt Google-blad i **ContextHub-variabel**. I det här fallet hämtas värdet från rad 2 och kolumn 1 från Google-bladen. Nu öppnar du **Standardvärde** as **20**, vilket visas i bilden nedan. När du är klar klickar du på bockmarkeringen.
+1. Retur **Värde** i **Platshållare** fält. Markera raden där du vill hämta värdet från ditt Google-blad i **ContextHub-variabel**. I det här fallet hämtas värdet från rad 2 och kolumn 1 från Google-bladen. Nu öppnar du **Standardvärde** as **20**, vilket visas i bilden nedan. Markera bockmarkeringen när du är klar.
 
    ![image1](/help/user-guide/assets/text-overlay/text-overlay5.png)
 

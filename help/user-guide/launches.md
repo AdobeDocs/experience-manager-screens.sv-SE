@@ -10,7 +10,7 @@ feature: Authoring Screens, Launches
 role: Admin, Developer
 level: Intermediate
 exl-id: b610e5dd-e0c6-45e6-bf9b-27be2054bc8f
-source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
+source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
 workflow-type: tm+mt
 source-wordcount: '1556'
 ht-degree: 0%
@@ -101,29 +101,29 @@ Följ stegen nedan för att implementera funktionen Screens Launch i ditt AEM Sc
 
    ![Bild](/help/user-guide/assets/launches-images/launches-11.png)
 
-1. Välj kanalen **FutureLaunch** och klicka **Skapa start** i åtgärdsfältet.
+1. Välj kanalen **FutureLaunch** och markera **Skapa start** i åtgärdsfältet.
 
    ![Bild](/help/user-guide/assets/launches-images/launches-12.png)
 
-1. The **Skapa start** öppnas. Du kan antingen välja kanalen som redan visas i guiden eller klicka på **+ Lägg till kanaler** om du vill lägga till kanalen som du vill skapa starten för.
+1. The **Skapa start** öppnas. Du kan antingen välja kanalen som redan visas i guiden eller välja **+ Lägg till kanaler** om du vill lägga till kanalen som du vill skapa starten för.
 
-1. Klicka **Nästa** från **Skapa start** guide. The **Inkludera undersidor** är markerat som standard.
+1. Välj **Nästa** från **Skapa start** guide. The **Inkludera undersidor** är markerat som standard.
 
    ![bild](/help/user-guide/assets/launches-images/launches-d.png)
 
    >[!NOTE]
    >Du kan använda **+ Lägg till kanaler** alternativ för att lägga till en annan kanal som du vill skapa starten för.
 
-   Används **Lägg till kanaler** , navigera till den kanal som du vill starta programmet för och klicka på **Välj**.
+   Används **Lägg till kanaler** , navigera till den kanal som du vill starta programmet för och markera **Välj**.
 
    The **Välj** är inaktiverat om du försöker markera flera kanaler eller en mapp för att lägga till starten.
 
    ![bild](/help/user-guide/assets/launches-images/launches-14.png)
 
-   När du har valt kanal/kanaler klickar du på **Nästa**.
+   När du har valt kanalen/kanalerna väljer du **Nästa**.
 
 
-1. Ange **Starta titel** as **Sommarkampanjer** och du behöver inte ange **Startdatum**, vilket visas i figuren nedan. Klicka **Skapa**.
+1. Ange **Starta titel** as **Sommarkampanjer** och du behöver inte ange **Startdatum**, vilket visas i figuren nedan. Välj **Skapa**.
 
    >[!NOTE]
    >
@@ -175,7 +175,7 @@ Följ stegen nedan för att redigera startegenskaperna:
 
    ![bild](/help/user-guide/assets/launches-images/launches-18.png)
 
-1. Välj programstart och klicka på **Startegenskaper** från **VÄNTANDE START** -panelen.
+1. Välj programstart och välj **Startegenskaper** från **VÄNTANDE START** -panelen.
 
    ![bild](/help/user-guide/assets/launches-images/launches-19.png)
 

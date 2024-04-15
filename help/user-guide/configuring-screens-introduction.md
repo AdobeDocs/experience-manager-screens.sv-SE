@@ -9,7 +9,7 @@ docset: aem65
 role: Admin
 level: Intermediate
 exl-id: 8cf4240c-1d6c-441d-b8a0-f01516455543
-source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
+source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
 workflow-type: tm+mt
 source-wordcount: '679'
 ht-degree: 0%
@@ -76,7 +76,7 @@ Följande huvudpunkter nedan hjälper dig att konfigurera och AEM servern som sk
 
    ![bild](assets/config/empty-ref2.png)
 
-1. Klicka **Spara** om du vill aktivera referensfiltret för Apache Sling Tillåt tomt.
+1. Välj **Spara** om du vill aktivera referensfiltret för Apache Sling Tillåt tomt.
 
 
 #### Apache Felix Jetty Based HTTP Service {#allow-apache-felix-service}
@@ -93,7 +93,7 @@ Följande huvudpunkter nedan hjälper dig att konfigurera och AEM servern som sk
 
    ![bild](assets/config/config-1.png)
 
-1. Klicka **Spara** för att aktivera *http* service.
+1. Välj **Spara** för att aktivera *http* service.
 
 #### Aktivera Touch UI för AEM Screens {#enable-touch-ui-for-aem-screens}
 

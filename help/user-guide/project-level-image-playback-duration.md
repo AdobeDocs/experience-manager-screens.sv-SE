@@ -2,7 +2,7 @@
 title: Uppspelningstid för bild på projektnivå
 description: Lär dig hur du definierar uppspelningstiden för bilder på projektnivå.
 contentOwner: jsyal
-source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
+source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
 workflow-type: tm+mt
 source-wordcount: '327'
 ht-degree: 0%
@@ -43,10 +43,10 @@ I avsnittet nedan beskrivs hur du redigerar uppspelningstiden för innehåll i e
 
 Följ stegen nedan för att lära dig hur du uppdaterar bilduppspelningstiden på projektnivå:
 
-1. Navigera till ditt projekt **ProjektNivåUppspelning** och klicka **Egenskaper** i åtgärdsfältet.
+1. Navigera till ditt projekt **ProjektNivåUppspelning** och markera **Egenskaper** i åtgärdsfältet.
    ![resurser](assets/image_playback3.png)
 
-1. Markera alla bilder i kanalen och klicka på skiftnyckelsikonen i det övre vänstra hörnet (som bilden nedan visar) så att du kan öppna dialogrutan Konfigurera kanalnivå.
+1. Markera alla bilder i kanalen och välj skiftnyckelsikonen i det övre vänstra hörnet (som bilden nedan visar) så att du kan öppna dialogrutan Konfigurera kanalnivå.
 
    ![screen_shot_2019-06-25at95945am](assets/screen_shot_2019-06-25at95945am.png)
 
@@ -58,7 +58,7 @@ Följ stegen nedan för att lära dig hur du uppdaterar bilduppspelningstiden p�
 
    ![screen_shot_2019-06-25at100343am](assets/screen_shot_2019-06-25at100343am.png)
 
-   Redigera **Varaktighet** från 8 000 (millisekunder) till 3 000 (millisekunder), dvs. 3 sekunder. Klicka på bockmarkeringen längst upp till höger på **Sida** så att ändringarna sparas.
+   Redigera **Varaktighet** från 8 000 (millisekunder) till 3 000 (millisekunder), dvs. 3 sekunder. Markera bockmarkeringen längst upp till höger på sidan **Sida** så att ändringarna sparas.
 
    ![screen_shot_2019-06-25at101527am](assets/screen_shot_2019-06-25at101527am.png)
 

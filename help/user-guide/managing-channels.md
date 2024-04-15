@@ -5,7 +5,7 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 7bbd211a-f54f-42b9-a1b3-516efe6fb579
-source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
+source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
 workflow-type: tm+mt
 source-wordcount: '1256'
 ht-degree: 0%
@@ -31,15 +31,15 @@ När du har skapat ditt projekt för AEM Screens följer du stegen nedan för at
 
 1. Navigera till ditt skärmsprojekt och välj **Kanaler** mapp.
 
-1. Klicka **Skapa** i åtgärdsfältet.
+1. Välj **Skapa** i åtgärdsfältet.
 
    ![demochannel](assets/create-channel1.png)
 
-1. Välj **Sekvenskanal** mall från **Skapa** guide och klicka **Nästa**.
+1. Välj **Sekvenskanal** mall från **Skapa** guide och välj **Nästa**.
 
    ![demochannel](assets/create-channel2.png)
 
-1. Ange titeln som **ScreensChannel** och klicka **Skapa**.
+1. Ange titeln som **ScreensChannel** och markera **Skapa**.
 
    ![demochannel](assets/create-project4.png)
 
@@ -81,7 +81,7 @@ Du kan redigera, visa egenskaper och kontrollpanel, kopiera, förhandsgranska oc
 Följ stegen nedan om du vill lägga till eller redigera innehåll i en kanal:
 
 1. Markera den kanal som du vill redigera (se bilden ovan).
-1. Klicka **Redigera** i åtgärdsfältets övre vänstra hörn så att du kan redigera kanalegenskaperna. Redigeraren öppnas och du kan lägga till resurser/komponenter i kanalen som du vill publicera.
+1. Välj **Redigera** i åtgärdsfältets övre vänstra hörn så att du kan redigera kanalegenskaperna. Redigeraren öppnas och du kan lägga till resurser/komponenter i kanalen som du vill publicera.
 
 >[!NOTE]
 >Du kan lägga till komponenter i kanalen. Se **[Lägga till komponenter i en kanal](adding-components-to-a-channel.md)** för mer information.
@@ -93,7 +93,7 @@ Följ stegen nedan om du vill lägga till eller redigera innehåll i en kanal:
 Följ stegen nedan för att överföra videoklipp till din kanal:
 
 1. Markera kanalen där du vill överföra videon.
-1. Klicka **Redigera** i åtgärdsfältet.
+1. Välj **Redigera** i åtgärdsfältet.
 1. Välj **Videor** under Resurser och dra och släpp önskade videoklipp.
 
 >[!NOTE]
@@ -101,15 +101,15 @@ Följ stegen nedan för att överföra videoklipp till din kanal:
 
 ### Visa eller redigera egenskaper för en kanal {#viewing-properties}
 
-1. Klicka på den kanal som du vill redigera.
-1. Klicka **Egenskaper** i åtgärdsfältet så att du kan visa/redigera kanalegenskaperna. På följande flik kan du ändra alternativen.
+1. Markera den kanal som du vill redigera.
+1. Välj **Egenskaper** i åtgärdsfältet så att du kan visa/redigera kanalegenskaperna. På följande flik kan du ändra alternativen.
 
 ![egenskaper](assets/properties.gif)
 
 ### Visa instrumentpanel {#viewing-dashboard}
 
 1. Markera kanalen som du vill redigera.
-1. Klicka **Kontrollpanel** i åtgärdsfältet.
+1. Välj **Kontrollpanel** i åtgärdsfältet.
 
 ![kontrollpanel](assets/dashboard.gif)
 
@@ -117,7 +117,7 @@ Följ stegen nedan för att överföra videoklipp till din kanal:
 
 Panelen Kanalinformation beskriver kanalegenskaperna tillsammans med förhandsvisningen av kanalen. Dessutom innehåller det information om huruvida kanalen är offline eller online.
 
-Klicka på (**...**) från **KANALINFORMATION** åtgärdsfältet så att du kan visa egenskaper, redigera innehållet eller uppdatera cacheminnet (offlineinnehåll) för kanalen.
+Välj (**...**) från **KANALINFORMATION** åtgärdsfältet så att du kan visa egenskaper, redigera innehållet eller uppdatera cacheminnet (offlineinnehåll) för kanalen.
 
 ![screen_shot_2017-12-20at82048am](assets/screen_shot_2017-12-20at82048am.png)
 
@@ -133,11 +133,11 @@ Följ de här stegen för att aktivera det här alternativet från kanalkontroll
 1. **Ange att kanalen ska vara offline**
    1. Markera kanalen och välj **Egenskaper** i åtgärdsfältet
    1. Navigera till **Kanal** och se till att du avmarkerar **Utvecklarläge (tvinga kanaler att vara online)** option
-   1. Klicka **Spara och stäng**
+   1. Välj **Spara och stäng**
 1. **Uppdatera offlineinnehåll**
    1. Markera kanalen och välj **Kontrollpanel** i åtgärdsfältet
-   1. Navigera till **KANALINFORMATION** panel och klicka *...*
-   1. Klicka **Uppdatera offlineinnehåll**
+   1. Navigera till **KANALINFORMATION** panel och markera *...*
+   1. Välj **Uppdatera offlineinnehåll**
 
 Du borde se **Visa manifest** från **KANALINFORMATION** i panelen Kanal.
 
@@ -161,17 +161,17 @@ Följ stegen nedan för att göra kanalen online:
 
    ![screen_shot_2019-08-01at31406pm](assets/screen_shot_2019-08-01at31406pm.png)
 
-   Klicka **Kontrollpanel** i åtgärdsfältet så att du kan se spelarens status. The **KANALINFORMATION** ger information om huruvida kanalen är online eller offline.
+   Välj **Kontrollpanel** i åtgärdsfältet så att du kan se spelarens status. The **KANALINFORMATION** ger information om huruvida kanalen är online eller offline.
 
    ![screen_shot_2019-08-01at31458pm](assets/screen_shot_2019-08-01at31458pm.png)
 
-1. Klicka **Egenskaper** i åtgärdsfältet och navigera till **Kanal** enligt nedan:
+1. Välj **Egenskaper** i åtgärdsfältet och navigera till **Kanal** enligt nedan:
 
    ![screen_shot_2019-08-01at31542pm](assets/screen_shot_2019-08-01at31542pm.png)
 
 1. Kontrollera **Utvecklare** **läge (tvinga kanalen att vara online)** för att göra kanalen online.
 
-   Klicka **Spara och stäng** för att spara ditt alternativ.
+   Välj **Spara och stäng** för att spara ditt alternativ.
 
    ![screen_shot_2019-08-01at31658pm](assets/screen_shot_2019-08-01at31658pm.png)
 
@@ -180,7 +180,7 @@ Följ stegen nedan för att göra kanalen online:
    ![screen_shot_2019-08-01at31821pm](assets/screen_shot_2019-08-01at31821pm.png)
 
 >[!NOTE]
->Om du vill konfigurera din kanal som offline avmarkerar du alternativet för utvecklarläge på menyn **Egenskaper** som i steg 3). Sedan, från **KANALINFORMATION** klicka på panelen **Uppdatera offlineinnehåll**, vilket visas i figuren nedan.
+>Om du vill konfigurera din kanal som offline avmarkerar du alternativet för utvecklarläge på menyn **Egenskaper** som i steg 3). Sedan, från **KANALINFORMATION** panelmarkera **Uppdatera offlineinnehåll**, vilket visas i figuren nedan.
 
 ![kontrollpanel2](assets/dashboard2.gif)
 
@@ -239,7 +239,7 @@ De associerade skärmarna visas i **Tilldelade bildskärmar** enligt nedan:
 >* [Skapa och hantera bildskärmar](managing-displays.md)
 >
 
-Klicka också på visningen i **TILLDELADE VISNINGAR** för att visa visningsinformationen enligt nedan:
+Markera även visningen i **TILLDELADE VISNINGAR** för att visa visningsinformationen enligt nedan:
 
 ![chlimage_1-28](assets/chlimage_1-28.png)
 

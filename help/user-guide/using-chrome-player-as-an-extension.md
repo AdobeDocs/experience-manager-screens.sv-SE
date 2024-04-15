@@ -5,7 +5,7 @@ feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: 53d5bd81-0853-47b0-9798-01d8fd5612e6
-source-git-commit: 4102c2b2291c92823a36f87f07d5b5ca87cfa48f
+source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
 workflow-type: tm+mt
 source-wordcount: '446'
 ht-degree: 0%
@@ -22,21 +22,21 @@ ChromeOS-spelaren kan installeras som Chrome Browser-plugin i utvecklarläge uta
 
 Följ den här sidan om du vill ha information om hur du installerar färgspelaren som ett webbläsartillägg.
 
-1. Klicka [här](https://download.macromedia.com/screens/) för att ladda ned den senaste Chrome Player.
+1. Välj [här](https://download.macromedia.com/screens/) för att ladda ned den senaste Chrome Player.
 
 1. Zippa upp och spara det på disken.
 
-1. Öppna webbläsaren Chrome och klicka på menyn med tre punkter och välj **Fler verktyg** från **Tillägg** i det övre högra hörnet eller navigera direkt till `chrome://extensions`.
+1. Öppna webbläsaren Chrome och välj menyn med tre punkter och välj **Fler verktyg** från **Tillägg** i det övre högra hörnet eller navigera direkt till `chrome://extensions`.
 
 1. Aktivera **Utvecklare** från det övre högra hörnet.
 
-1. Klicka **Läs in opackad** från det övre vänstra hörnet och ladda uppzippad Chrome Player.
+1. Välj **Läs in opackad** från det övre vänstra hörnet och ladda uppzippad Chrome Player.
 
 1. Kontrollera AEM Screens Chrome Player-plugin om det finns i listan över tillägg.
 
-1. Öppna en ny flik och klicka på Apps-ikonen i det övre vänstra hörnet eller navigera direkt till `chrome://apps`.
+1. Öppna en ny flik och välj ikonen Apps i det övre vänstra hörnet, eller navigera direkt till `chrome://apps`.
 
-1. Klicka **AEM Screens Plugin** så att du kan starta Chrome Player.
+1. Välj **AEM Screens Plugin** så att du kan starta Chrome Player.
 
    >[!NOTE]
    >
@@ -66,4 +66,4 @@ Följ stegen nedan för att uppgradera spelartillägget om en ny version av spel
 1. Byt namn på den gamla mappen med spelarfiler
 1. Extrahera den nya zippen på samma plats som den gamla mappen
 1. Starta Chrome och navigera till `chrome://extensions`
-1. Markera spelarikonen och klicka på knappen Uppdatera eller Läs in igen
+1. Markera spelarikonen och välj knappen Uppdatera eller Läs in igen

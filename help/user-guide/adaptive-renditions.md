@@ -2,7 +2,7 @@
 title: Adaptiva renderingar Arkitektur - översikt och konfigurationer
 description: Läs mer om översikten och konfigurationerna för arkitekturen i CRXDE Lite för adaptiva renderingar i AEM Screens.
 exl-id: 0419b9c6-3c27-4a61-84ff-a6fe697e773f
-source-git-commit: 97084aee861e152abcc5f117a2a4759dced038cc
+source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
 workflow-type: tm+mt
 source-wordcount: '622'
 ht-degree: 1%
@@ -58,11 +58,11 @@ Konfigurera installationen genom att följa stegen nedan:
 Följ stegen nedan för att lägga till en nod under Återgivningsmappning:
 
 1. Navigera till den här sökvägen `/conf/screens/sling:configs/rendition-mapping` från **CRXDE Lite**.
-1. Skapa en nod under **återgivningsmappning**. Högerklicka **återgivningsmappning** och klicka **Skapa** > **Skapa nod**, vilket visas i figuren nedan.
+1. Skapa en nod under **återgivningsmappning**. Högerklicka **återgivningsmappning** och markera **Skapa** > **Skapa nod**, vilket visas i figuren nedan.
 
    ![bild](/help/user-guide/assets/adaptive-renditions/add-node1.png)
 
-1. Ange **Namn** för din mappningsregel som **rule1** och noden **Typ** as **`nt:unstructured`** in **Skapa nod** -dialogrutan. Klicka **OK**.
+1. Ange **Namn** för din mappningsregel som **rule1** och noden **Typ** as **`nt:unstructured`** in **Skapa nod** -dialogrutan. Välj **OK**.
 
    ![bild](/help/user-guide/assets/adaptive-renditions/add-node2.png)
 
@@ -72,7 +72,7 @@ Följ stegen nedan för att lägga till en nod under Återgivningsmappning:
    >[!NOTE]
    >Se [Använda Media Query Syntax](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_media_queries/Using_media_queries) om du vill veta mer.
 
-   Klicka **rule1** som du har skapat och anger **uttryck** in **Namn** och **(orientering:liggande)** in **Värde**, vilket visas nedan. Klicka **Lägg till**.
+   Välj **rule1** som du har skapat och anger **uttryck** in **Namn** och **(orientering:liggande)** in **Värde**, vilket visas nedan. Välj **Lägg till**.
 
    ![bild](/help/user-guide/assets/adaptive-renditions/add-node3.png)
 
@@ -81,11 +81,11 @@ Följ stegen nedan för att lägga till en nod under Återgivningsmappning:
    >[!NOTE]
    >Värdet som definieras i egenskapen pattern matchas mot den nya resursåtergivningen och väljs om uttrycket utvärderas till true.
 
-   Om du vill lägga till mönsteregenskapen klickar du på **rule1** som du har skapat och anger **mönster** in **Namn** och **liggande** in **Värde**, vilket visas nedan. Klicka **Lägg till**.
+   Om du vill lägga till mönsteregenskapen väljer du **rule1** som du har skapat och anger **mönster** in **Namn** och **liggande** in **Värde**, vilket visas nedan. Välj **Lägg till**.
 
    ![bild](/help/user-guide/assets/adaptive-renditions/add-node4.png)
 
-1. Klicka **Spara alla** och observera egenskaperna under noden som du skapade under **återgivningsmappning**.
+1. Välj **Spara alla** och observera egenskaperna under noden som du skapade under **återgivningsmappning**.
 
    ![bild](/help/user-guide/assets/adaptive-renditions/add-node5.png)
 
