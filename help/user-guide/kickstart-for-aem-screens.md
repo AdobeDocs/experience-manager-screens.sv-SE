@@ -5,9 +5,9 @@ feature: Overview, Digital Signage
 role: User
 level: Beginner
 exl-id: 9b7c7f50-2846-4727-a0ec-0220b4cd52c4
-source-git-commit: 1e8beb9dfaf579250138d4a41eeec88cc81f2d39
+source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
 workflow-type: tm+mt
-source-wordcount: '1279'
+source-wordcount: '1276'
 ht-degree: 1%
 
 ---
@@ -62,11 +62,11 @@ Det första steget är att skapa ett AEM Screens-projekt.
    ![bild](assets/kickstart/demo-1.png)
 
    >[!NOTE]
-   >När du har skapat projektet återgår du till startsidan för Skärmprojekt. Nu kan du välja ditt projekt. I ett projekt finns det fem olika mappar **Program**, **Kanaler**, **Enheter**, **Platser** och **Scheman**.
+   >När du har skapat projektet återgår du till startsidan för AEM Screens Project. Nu kan du välja ditt projekt. I ett projekt finns det fem olika mappar **Program**, **Kanaler**, **Enheter**, **Platser** och **Scheman**.
 
 ### Skapa en kanal {#creating-channel}
 
-När du har skapat ditt AEM Screens-projekt måste du skapa en kanal där du hanterar innehållet.
+När du har skapat ditt AEM Screens-projekt skapar du en kanal där du hanterar innehållet.
 
 Följ stegen nedan för att skapa en kanal för ditt projekt:
 
@@ -146,7 +146,7 @@ När du har skapat en plats skapar du en visning för platsen.
 
 ### Tilldela en kanal {#assigning-channel}
 
-När projektkonfigurationen är klar måste du tilldela kanalen till en skärm för att kunna visa innehållet.
+När projektkonfigurationen är klar tilldelar du kanalen till en visning för att visa innehållet.
 
 1. Navigera till önskad visning från **DemoScreens** > **Platser** > **TestLocation** > **LobbyDisplay**.
 

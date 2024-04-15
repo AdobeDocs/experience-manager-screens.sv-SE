@@ -10,9 +10,9 @@ feature: Overview
 role: User, Data Architect
 level: Beginner
 exl-id: 0e29f095-7f9d-49ea-8dda-9141402a4159
-source-git-commit: 3c4b37b3b9f268b500562fa4ce3782b7be1e7d74
+source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
 workflow-type: tm+mt
-source-wordcount: '535'
+source-wordcount: '536'
 ht-degree: 0%
 
 ---
@@ -56,13 +56,13 @@ Syftet med en operativ lösning är att få inledande feedback på en lösnings 
 
 Testning av system- och programvaruintegrering börjar med IT-tekniker för ljud-/videointegratorteamet. Med hänvisning till den godkända systemdesignen konfigurerar, implementerar och övervakar IT-teamet installationen av maskinvarukomponenter i en&quot;Lab-miljö&quot; i Audio/Video Integrators anläggning. Detta gör att hela lösningen kan granskas och testas noggrant för att få en bra kvalitetskontroll.
 
-När QC-testningen är klar skapar IT-teamet dokumentation, arbetsflöden och utbildning som referens under dag 2-support. Systemaspekter som ska testas är:
+När QC-testningen är klar skapar IT-teamet dokumentation, arbetsflöden och utbildning som referens under dag 2-support. Systemaspekter som ska testas omfattar följande:
 
-* Integrering av AEM
-* Integrering av tredjepartssystem
-* Programvara
-* Maskinvara
-* Anslutningar
+* AEM integreringar.
+* Systemintegreringar från tredje part.
+* Programvara.
+* Maskinvara.
+* Anslutning.
 * Arbetsflöden för innehållsdistribution, inklusive manuell, automatiserad och villkorsstyrd driftsättning.
 
 ## Del 3: Videosjälvstudiekurs om testning, POC, piloter &amp; Rollouts {#part-video-tutorial-on-testing-pocs-pilots-rollouts}
@@ -79,6 +79,6 @@ Om man ser på alla dessa faser som en del av den övergripande projektplanen ka
 
 ## Nästa steg {#the-next-step}
 
-När du är noggrann med testning, konceptkorrektur, pilotprojekt och utrullningar följer du nästa självstudiekurs som är djupdykt i Project Management och de processer som ingår.
+När du är klar med testning, konceptkorrektur, pilotprojekt och utrullningar följer du nästa självstudiekurs som är djupdykt i Project Management och de processer som ingår.
 
 Navigera till **[Del 4: Projektledning och driftsättning](project-management-and-deployment.md)** för mer information.

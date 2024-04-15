@@ -5,9 +5,9 @@ feature: Administering Screens
 role: Developer, User
 level: Intermediate
 exl-id: 8b281488-f54d-4f8a-acef-ca60fa2315ed
-source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
+source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
 workflow-type: tm+mt
-source-wordcount: '624'
+source-wordcount: '623'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ Följande sida innehåller riktlinjer för hur du konfigurerar Dispatcher för e
 >
 >Om det inte finns någon Dispatcher inaktiverar du registreringstjänsten i OSGi-komponentlistan.
 
-Innan du konfigurerar Dispatcher för ett AEM Screens-projekt måste du ha kunskap om Dispatcher.
+Innan du konfigurerar Dispatcher för ett AEM Screens-projekt måste du ha tidigare kunskaper om Dispatcher.
 Se [Konfigurera Dispatcher](https://experienceleague.adobe.com/en/docs/experience-manager-dispatcher/using/configuring/dispatcher-configuration) för mer information.
 
 ## Konfigurera Dispatcher för manifestversion v2 {#configuring-dispatcher}
@@ -94,7 +94,7 @@ Inaktivera Dispatcher-cachning för ***/content/screens sökväg***.
 
 Skärmspelare använder autentiserade sessioner, så Dispatcher cachelagrar inte någon av skärmspelarförfrågningarna för `channels/assets`.
 
-Om du vill aktivera cacheminnet för resurserna så att resurserna hanteras från Dispatcher-cachen, måste du:
+Så här aktiverar du cachen för resurserna så att resurserna hanteras från Dispatcher-cachen:
 
 * Lägg till `/allowAuthorization 1` in `/cache` section
 * Lägg till nedanstående regler i `/rules` avsnitt i `/cache`

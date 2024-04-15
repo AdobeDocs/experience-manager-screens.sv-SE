@@ -5,9 +5,9 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: e1794013-59ce-4ddc-93c0-601668c75cd1
-source-git-commit: 10c168cd00b79964d229e3d2a14049e799d89d77
+source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
 workflow-type: tm+mt
-source-wordcount: '896'
+source-wordcount: '897'
 ht-degree: 0%
 
 ---
@@ -54,7 +54,7 @@ Se [Tilldelningsrapport för innehåll](/help/user-guide/content-assignment-repo
 
 * **Stöd för V3 Manifester**
 
-  Du kan nu konfigurera Dispatcher för manifestversion v3. Om du vill aktivera v3-manifestet måste du:
+  Du kan nu konfigurera Dispatcher för manifestversion v3. Så här aktiverar du v3-manifestet:
 
    * Rensa alla väntande offlineinnehållsjobb i både författaren och publicerad.
 

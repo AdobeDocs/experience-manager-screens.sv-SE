@@ -4,9 +4,9 @@ description: Lär dig hur du konfigurerar agenter för skärmreplikering.
 role: Developer
 level: Intermediate
 exl-id: 40877547-5027-41eb-8d66-d4a2d7b9af70
-source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
+source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
 workflow-type: tm+mt
-source-wordcount: '464'
+source-wordcount: '462'
 ht-degree: 3%
 
 ---
@@ -50,7 +50,7 @@ Följ stegen nedan för att aktivera användare och uppdatera lösenordet för `
 
    ![bild](/help/user-guide/assets/screens-replication/screens-replication3.png)
 
-   När du har aktiverat användaren visas **`screens-receiver-user`** as **Aktiverad** under **Status** fält.
+   När du har aktiverat användaren ser du **`screens-receiver-user`** as **Aktiverad** under **Status** fält.
 
    ![bild](/help/user-guide/assets/screens-replication/screens-replication4.png)
 
@@ -125,7 +125,7 @@ Följ avsnittet nedan för att uppdatera inställningarna i AEM Screens Replicat
 
 1. Klicka **OK**.
 
-1. När du är klar med de föregående stegen kan du klicka **Testanslutning** för att verifiera anslutningen.
+1. När du är klar med de föregående stegen klickar du på **Testanslutning** för att verifiera anslutningen.
 
    ![bild](/help/user-guide/assets/screens-replication/screens-replication1g.png)
 

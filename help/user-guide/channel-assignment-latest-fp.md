@@ -5,9 +5,9 @@ feature: Authoring Screens, Channel Assignment
 role: Admin, Developer
 level: Intermediate
 exl-id: 346eec9a-e291-4b0d-9686-fee1d5a0e7dd
-source-git-commit: 10c168cd00b79964d229e3d2a14049e799d89d77
+source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
 workflow-type: tm+mt
-source-wordcount: '1454'
+source-wordcount: '1452'
 ht-degree: 0%
 
 ---
@@ -58,7 +58,7 @@ Följ stegen nedan för att konfigurera ett projekt och en kanal:
 
 ### Tilldela kanal till en skärm {#assigning-channel-to-display}
 
-När projektkonfigurationen är klar måste du tilldela kanalen till en skärm för att kunna visa innehållet.
+När projektkonfigurationen är klar tilldelar du kanalen till en visning för att visa innehållet.
 
 1. Navigera till önskad visning, till exempel **DemoScreens** > **Platser** > **SanJose** > **Lobby**.
 

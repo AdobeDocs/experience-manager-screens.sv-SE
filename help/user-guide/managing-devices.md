@@ -9,9 +9,9 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 10749ff2-9128-44e7-9f10-c8e783a6f695
-source-git-commit: 1e8beb9dfaf579250138d4a41eeec88cc81f2d39
+source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
 workflow-type: tm+mt
-source-wordcount: '249'
+source-wordcount: '242'
 ht-degree: 5%
 
 ---
@@ -24,7 +24,7 @@ Med enhetskonsolen kan du komma åt enhetshanteraren och tilldela enheten till e
 
 >[!CAUTION]
 >
->Innan du tilldelar din enhet måste du registrera den. Mer information finns i [Enhetsregistrering](device-registration.md).
+>Registrera enheten innan du tilldelar den. Se [Enhetsregistrering](device-registration.md).
 
 ## Enhetstilldelning {#device-assignment}
 
@@ -69,6 +69,4 @@ Följ stegen nedan för att tilldela en enhet till en skärm:
 
 ### Nästa steg {#the-next-steps}
 
-När du känner till hur du tilldelar kanal till en skärm kan du läsa följande resurser:
-
-* [Övervaka och felsöka](monitoring-screens.md)
+När du har lärt dig att tilldela en kanal till en skärm kan du läsa det[Övervaka och felsöka](monitoring-screens.md).

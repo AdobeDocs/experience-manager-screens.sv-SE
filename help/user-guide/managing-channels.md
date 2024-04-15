@@ -5,9 +5,9 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 7bbd211a-f54f-42b9-a1b3-516efe6fb579
-source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
+source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
 workflow-type: tm+mt
-source-wordcount: '1258'
+source-wordcount: '1256'
 ht-degree: 0%
 
 ---
@@ -67,7 +67,7 @@ Följande mallalternativ är tillgängliga när du använder guiden, till exempe
 
 >[!IMPORTANT]
 >
-> När du har skapat och lagt till innehåll i kanalen är nästa steg att skapa en plats följt av att skapa en skärm. Dessutom måste du tilldela den kanalen till en skärm. Se resurserna nedan i slutet av avsnittet.
+>När du har skapat och lagt till innehåll i kanalen är nästa steg att skapa en plats följt av att skapa en skärm. Tilldela dessutom den kanalen till en skärm. Se resurserna nedan i slutet av avsnittet.
 
 ## Arbeta med kanaler {#working-with-channels}
 

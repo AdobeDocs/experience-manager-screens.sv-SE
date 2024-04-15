@@ -10,7 +10,7 @@ feature: Overview
 role: User, Data Architect
 level: Beginner
 exl-id: d4c84d4b-3229-4fbe-a533-66daa382ed10
-source-git-commit: 3c4b37b3b9f268b500562fa4ce3782b7be1e7d74
+source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
 workflow-type: tm+mt
 source-wordcount: '662'
 ht-degree: 0%
@@ -86,6 +86,4 @@ Lär dig mer om projekthantering och förberedelse av driftsättning och definie
 
 ## Nästa steg {#the-next-step}
 
-När du är grundlig på de viktigaste sakerna att tänka på när det gäller Project Management för AEM Screens-distributioner;
-
-Navigera till **[Del 5: Supportöverväganden](support-considerations.md)** så att ni förstår support för dag 2 och de processer som ingår.
+När du är klar med viktiga frågor om Project Management för AEM Screens-distributioner går du till **[Del 5: Supportöverväganden](support-considerations.md)** så att ni förstår support för dag 2 och de processer som ingår.

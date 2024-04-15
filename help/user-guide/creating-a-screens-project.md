@@ -9,9 +9,9 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: d98b449f-6b7d-4c08-b507-a64dece84ba8
-source-git-commit: ba5327077e4a2d30cc7b77f02123da5a240c67ae
+source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
 workflow-type: tm+mt
-source-wordcount: '314'
+source-wordcount: '317'
 ht-degree: 0%
 
 ---
@@ -51,7 +51,7 @@ I ett projekt finns det fem typer av mappar, vilket visas i bilden nedan:
 
 ## Visningsegenskaper {#viewing-properties}
 
-När du har skapat skärmprojektet markerar du projektet och klickar på **Egenskaper** från åtgärdsfältet för att redigera egenskaper för projektet.
+När du har skapat skärmprojektet markerar du projektet och klickar på **Egenskaper** i åtgärdsfältet så att du kan redigera egenskaperna för projektet.
 
 Med följande alternativ kan du redigera/ändra egenskaper för **TestScreens**.
 

@@ -1,22 +1,18 @@
 ---
 title: Målinställd aktivering för butikslager
-seo-title: Retail Inventory Targeted Activation
-description: Denna Use Case visar butikslagret för tre olika färgade tröjor. Beroende på hur många tröjor som finns i lager och som är inspelade i Google Sheets, visas bilden (röd, grön eller blå tröja) med det högsta antalet på skärmen.
-seo-description: This Use Case showcases the retail inventory stock for three different colored sweatshirts. Depending on the number of sweatshirts available in stock that is recorded in Google Sheets, the image (red, green, or blue sweatshirt) with highest number is displayed on the screen.
-uuid: 8e7faa65-b004-42b3-8865-4f71eb5dc1b1
+description: Läs mer om AEM Screens exempel på hur man använder detaljhandelslagret för tre olika färgade tröjor.
 contentOwner: jsyal
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 content-type: reference
 topic-tags: use-case-examples
-discoiquuid: 70147920-5bdb-401c-884e-51d268d40585
 docset: aem65
 feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 926f529b-f3cf-471d-83b4-6ccb628cf160
-source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
+source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
 workflow-type: tm+mt
-source-wordcount: '630'
+source-wordcount: '578'
 ht-degree: 0%
 
 ---
@@ -29,11 +25,11 @@ I följande exempel visas tre olika bilder baserat på värdena i Google-bladet.
 
 Denna Use Case visar butikslagret för tre olika färgade tröjor. Beroende på hur många tröjor som finns i lager och som är inspelade i Google Sheets, visas bilden (röd, grön eller blå tröja) med det högsta antalet på skärmen.
 
-I det här fallet visas den röda, gröna eller blå tröjan på skärmen baserat på det högsta antalet svettare som är tillgängliga.
+I det här fallet visas den röda, gröna eller blå tröjan på skärmen baserat på det högsta antalet tröjor som är tillgängliga.
 
 ## Förhandsvillkor {#preconditions}
 
-Innan du börjar implementera aktiveringen av lagermålinriktning måste du lära dig hur du konfigurerar ***Datalager***, ***Målgruppssegmentering*** och ***Aktivera mål för kanaler*** i ett AEM Screens-projekt.
+Innan du börjar implementera aktivering av lagerriktad marknadsföring (butik) ska du lära dig hur du ställer in ***Datalager***, ***Målgruppssegmentering*** och ***Aktivera mål för kanaler*** i ett AEM Screens-projekt.
 
 Se [ContextHub konfigureras i AEM Screens](configuring-context-hub.md) för detaljerad information.
 
@@ -56,23 +52,17 @@ Följ stegen nedan för att implementera användningsexemplet för butikslagerak
 
    1. Välj **For_Red** och klicka **Redigera** i åtgärdsfältet.
 
-   1. Dra och släpp **Comparison : Property - Property** till redigeraren och klicka på konfigurationsikonen för att redigera egenskaperna.
-   1. Välj **googlesheets/value/1/2** från listrutan i **Första egenskapsnamnet**
-
-   1. Välj **Operator** as **större än** i listrutan
-
-   1. Markera **Datatyp** as **tal**
-
-   1. Välj **googlesheets/value/1/1** från listrutan i **Andra egenskapsnamnet**.
-
-   1. Dra och släpp **en annan jämförelse: property - property** till redigeraren och klicka på konfigurationsikonen för att redigera egenskaperna.
+   1. Dra och släpp **Comparison : Property - Property** till redigeraren.
+   1. Klicka på **Konfiguration** -ikon.
    1. Välj **googlesheets/value/1/2** från listrutan i **Första egenskapsnamnet**.
-
-   1. Välj **Operator** as **större än** i listrutan
-
-   1. Välj **Datatyp** as **tal**
-
-   1. Välj **googlesheets/value/1/0** från listrutan i **Andra egenskapsnamnet**
+   1. Välj **Operator** as **större än** i listrutan.
+   1. Välj **Datatyp** as **tal**.
+   1. Välj **googlesheets/value/1/1** från listrutan i **Andra egenskapsnamnet**.
+   1. Dra och släppa **en annan jämförelse: property - property** till redigeraren och klicka på **Konfiguration** -ikon.
+   1. Välj **googlesheets/value/1/2** från listrutan i **Första egenskapsnamnet**.
+   1. Välj **Operator** as **större än** i listrutan.
+   1. Välj **Datatyp** as **tal**.
+   1. Välj **googlesheets/value/1/0** från listrutan i **Andra egenskapsnamnet**.
 
    ![screen_shot_2019-05-06at102600am](assets/screen_shot_2019-05-06at102600am.png)
 
@@ -80,15 +70,16 @@ Följ stegen nedan för att implementera användningsexemplet för butikslagerak
 
    ![screen_shot_2019-05-06at103728am](assets/screen_shot_2019-05-06at103728am.png)
 
-   Du kan på liknande sätt redigera och lägga till egenskapsregler för jämförelse i** For_Green **segment enligt bilden nedan:
+   På samma sätt kan du redigera och lägga till egenskapsregler för jämförelse i **For_Green** segmentet enligt figuren nedan:
 
    ![screen_shot_2019-05-06at103418am](assets/screen_shot_2019-05-06at103418am.png)
 
    >[!NOTE]
    >
-   >Du kommer att märka det för segment **For_Green** och **For_Green** går det inte att matcha data i redigeraren eftersom endast den första jämförelsen är giltig från och med nu enligt värdena i Google Sheet.
+   >Observera att för segment **For_Green** och **For_Green** går det inte att matcha data i redigeraren eftersom endast den första jämförelsen är giltig från och med nu enligt värdena i Google Sheet.
 
-1. Navigera och markera **DataDrivenRetail** kanal (en sekvenskanal) och klicka på **Redigera** i åtgärdsfältet.
+1. Navigera och markera **DataDrivenRetail** kanal (en sekvenskanal).
+1. Klicka **Redigera** i åtgärdsfältet.
 
    ![screen_shot_2019-05-06at104257am](assets/screen_shot_2019-05-06at104257am.png)
 
@@ -100,20 +91,19 @@ Följ stegen nedan för att implementera användningsexemplet för butikslagerak
 
    >[!NOTE]
    >
-   >Du måste markera båda **Varumärke** och **Område** för att aktiviteterna ska visas korrekt när du startar målprocessen.
+   >Markera båda **Varumärke** och **Område** för att aktiviteterna ska visas korrekt när du startar målprocessen.
 
 1. **Lägga till en standardbild**
 
    1. Lägg till en standardbild i kanalen och klicka på **Målinriktning**.
    1. Välj **Varumärke** och **Aktivitet** i listrutan och klicka på **Börja målinrikta**.
-
    1. Klicka **Börja målinrikta**.
 
    ![screen_shot_2019-05-06at121253pm](assets/screen_shot_2019-05-06at121253pm.png)
 
    >[!NOTE]
    >
-   >Innan du börjar målinrikta måste du lägga till segmenten (**For_Green**, **For_Red** och **För_blå**) genom att klicka på **+ Lägg till Experience Targeting** från sidospåret enligt figuren nedan.
+   >Lägg till segmenten innan du börjar målinrikta (**For_Green**, **For_Red** och **För_blå**) genom att klicka på **+ Lägg till Experience Targeting** från sidospåret enligt figuren nedan.
 
    ![screen_shot_2019-05-06at123554pm](assets/screen_shot_2019-05-06at123554pm.png)
 
@@ -124,6 +114,6 @@ Följ stegen nedan för att implementera användningsexemplet för butikslagerak
 1. **Kontrollera förhandsvisningen**
 
    1. Klicka **Förhandsgranska.** Du kan även öppna Google Sheet och uppdatera värdet.
-   1. Ändra värdet för alla tre olika kolumner så kommer du att märka att visningsbilden uppdateras enligt det högsta värdet i lagret.
+   1. Ändra värdet för alla tre olika kolumner. Lägg märke till att visningsbilden uppdateras enligt det högsta värdet i lagret.
 
    ![retail_result](assets/retail_result.gif)

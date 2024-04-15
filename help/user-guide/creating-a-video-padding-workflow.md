@@ -10,9 +10,9 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 16180f96-2855-4250-9d55-24ed77a908b7
-source-git-commit: 10c168cd00b79964d229e3d2a14049e799d89d77
+source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
 workflow-type: tm+mt
-source-wordcount: '563'
+source-wordcount: '561'
 ht-degree: 0%
 
 ---
@@ -46,7 +46,7 @@ Innan du skapar ett arbetsflöde för video ska du uppfylla följande krav:
 
 ## Skapa ett arbetsflöde för videoutfyllnad {#creating-a-video-padding-workflow-1}
 
-Om du vill skapa ett arbetsflöde för videoutfyllnad måste du skapa ett arbetsflöde för videon och sedan använda samma arbetsflöde i din AEM Screens-projektkanal.
+Om du vill skapa ett arbetsflöde för videoutfyllnad skapar du ett arbetsflöde för videon och använder sedan samma arbetsflöde i din AEM Screens-projektkanal.
 
 Följ stegen nedan för att skapa och använda arbetsflödet:
 

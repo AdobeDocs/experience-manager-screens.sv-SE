@@ -5,9 +5,9 @@ feature: Authoring Screens
 role: Developer
 level: Intermediate
 exl-id: 7397aa99-97fc-45c2-a157-c1bd7b1700b5
-source-git-commit: ba5327077e4a2d30cc7b77f02123da5a240c67ae
+source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
 workflow-type: tm+mt
-source-wordcount: '359'
+source-wordcount: '355'
 ht-degree: 0%
 
 ---
@@ -38,7 +38,7 @@ Mer information finns i följande resurser:
 
 ## Hämtar rapporten för innehållstilldelning {#downloading-content-assignment-report-fp}
 
-När du har konfigurerat ditt AEM Screens-projekt och har tilldelat displayannonser till var och en av platserna enligt stegen ovan kan du ladda ned rapporten för innehållstilldelning.
+När du har konfigurerat ditt AEM Screens-projekt och har tilldelat visningar för var och en av platserna enligt stegen ovan, hämtar du rapporten för innehållstilldelning.
 
 >[!NOTE]
 >Det går bara att komma åt funktionen för innehållstilldelningsrapport på projektnivå.

@@ -5,7 +5,7 @@ feature: Administering Screens, Players
 role: Admin
 level: Intermediate
 exl-id: 45147959-b0ca-4d87-b89d-293e4b9af171
-source-git-commit: 1e8beb9dfaf579250138d4a41eeec88cc81f2d39
+source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
 workflow-type: tm+mt
 source-wordcount: '1208'
 ht-degree: 0%
@@ -58,7 +58,7 @@ Följ stegen nedan på Samsung-enheten så att du kan slutföra installationen a
 1. Klicka på **MENY** från enhetens fjärrdator och rulla nedåt till **System** i det vänstra navigeringsfältet.
 1. Bläddra nedåt och välj **Spela upp via** och ändra det till **URL Launcher** alternativ.
    ![bild](/help/user-guide/assets/tizen/rms-2.png)
-1. När URL-startaren är inställd trycker du på **Startsida** från fjärrkontrollen.
+1. När URL Launcher är inställd trycker du på **Startsida** från fjärrkontrollen.
 1. Navigera till **Inställningar för URL-start** och ange IP-adressen till den lokala värdservern och klicka på **Klar**.
 
    >[!NOTE]

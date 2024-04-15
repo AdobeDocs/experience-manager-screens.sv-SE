@@ -10,9 +10,9 @@ feature: Administering Screens, Device Registration
 role: Admin
 level: Intermediate
 exl-id: b2d3a2cd-263f-4142-80da-29ce54cbf391
-source-git-commit: 1e8beb9dfaf579250138d4a41eeec88cc81f2d39
+source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
 workflow-type: tm+mt
-source-wordcount: '745'
+source-wordcount: '743'
 ht-degree: 0%
 
 ---
@@ -84,7 +84,7 @@ Enhetsregistreringsprocessen görs på två olika datorer:
    >
    >The **Tilldela visning** gör att du kan lägga till enheten direkt på en skärm.
 
-   Klicka **Slutför** måste du tilldela enheten till en skärm.
+   Klicka **Slutför** tilldelar du enheten till en skärm.
 
    ![screen_shot_2018-11-26at105740am](assets/screen_shot_2018-11-26at105740am.png)
 

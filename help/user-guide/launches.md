@@ -10,9 +10,9 @@ feature: Authoring Screens, Launches
 role: Admin, Developer
 level: Intermediate
 exl-id: b610e5dd-e0c6-45e6-bf9b-27be2054bc8f
-source-git-commit: c142830a37461a36baae15f543bd43b0ae8a62a7
+source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
 workflow-type: tm+mt
-source-wordcount: '1559'
+source-wordcount: '1556'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,7 @@ Med hjälp av ***Skärmstart***, kan författarna förhandsgranska varje kanal i
 
 Om författaren till exempel vill skapa framtida versioner av c1, c2 (kanaler) skapas en start och ett live-datum ställs in (till exempel 10 november 8:00 A.M.). Fler uppdateringar av innehållet skickas ut för granskning.
 
-När den har godkänts och på live-datumet (10 november, 8:00) spelas innehållet upp på enheterna eller spelarna.
+Efter godkännande och på live-datum (10 november, 8:00) spelas innehållet upp på enheterna eller spelarna.
 
 ## Krav {#requirements}
 
@@ -45,7 +45,7 @@ När du kör en upplevelse på det angivna live-datumet på spelaren ingår föl
 
 ### Förstå respitperiod {#understanding-grace-period}
 
-För att spelaren ska kunna börja spela upp innehållet på angivet live-datum måste du starta föregående aktiviteter före live-datumet.
+För att spelaren ska kunna börja spela upp innehållet på angivet live-datum startar du föregående aktiviteter före live-datumet.
 
 Om live-datumet är *24 november 2000* och respitperioden är *24 timmar*, kommer ovanstående åtgärdssekvens att börja vid (live-datum - respitperiod), det vill säga den 23 november, 9:00 A.M.-servertid. Det ger 24 timmar att slutföra alla de ovannämnda åtgärderna för att innehållet ska nå ut till spelarna. Spelarna förstår att detta är ett startmaterial. Det innebär att innehållet inte spelas upp omedelbart, men spelarna kan lagra innehållet som en framtida version och låta det börja spelas upp exakt på det angivna livedatumet i spelarens tidszon.
 
@@ -120,7 +120,7 @@ Följ stegen nedan för att implementera funktionen Screens Launch i ditt AEM Sc
 
    ![bild](/help/user-guide/assets/launches-images/launches-14.png)
 
-   När du har valt kanalen/kanalerna klickar du på **Nästa**.
+   När du har valt kanal/kanaler klickar du på **Nästa**.
 
 
 1. Ange **Starta titel** as **Sommarkampanjer** och du behöver inte ange **Startdatum**, vilket visas i figuren nedan. Klicka **Skapa**.

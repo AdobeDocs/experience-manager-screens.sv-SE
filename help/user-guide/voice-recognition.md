@@ -5,9 +5,9 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 6cf0aa9f-7bac-403f-a113-51727c1f5374
-source-git-commit: 10c168cd00b79964d229e3d2a14049e799d89d77
+source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
 workflow-type: tm+mt
-source-wordcount: '1090'
+source-wordcount: '1088'
 ht-degree: 1%
 
 ---
@@ -35,7 +35,7 @@ En innehållsförfattare kan konfigurera en visning som röstaktiverad. Syftet m
 >[!IMPORTANT]
 > Röstigenkänningsfunktionen är bara tillgänglig i Chrome OS- och Windows-spelare.
 
-Om du vill implementera röstigenkänning i ditt AEM Screens-projekt måste du aktivera röstigenkänningen för bildskärmen och associera varje kanal med en unik tagg för att utlösa en kanalövergång.
+Om du vill implementera röstigenkänning i ditt AEM Screens-projekt aktiverar du röstigenkänningen för bildskärmen och associerar varje kanal med en unik tagg för att aktivera en kanalövergång.
 
 I följande avsnitt beskrivs hur du kan aktivera och använda funktionen för röstigenkänning i ett AEM Screens-projekt.
 

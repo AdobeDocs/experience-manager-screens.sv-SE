@@ -2,7 +2,7 @@
 title: Använda adaptiva renderingar i AEM Screens
 description: Lär dig hur du använder adaptiva renderingar i AEM Screens.
 exl-id: e7f68ed4-73c3-492a-b33a-dd915ef1f8be
-source-git-commit: ba5327077e4a2d30cc7b77f02123da5a240c67ae
+source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
 workflow-type: tm+mt
 source-wordcount: '540'
 ht-degree: 0%

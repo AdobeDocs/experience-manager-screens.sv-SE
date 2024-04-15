@@ -1,41 +1,37 @@
 ---
 title: Offlinekanaler
-seo-title: Offline Channels
-description: AEM Screens-spelaren ger offlinesupport för kanalerna genom att utnyttja tekniken ContentSync. Följ den här sidan om du vill veta mer om uppdateringshanterare och aktivera offlinekonfiguration för en kanal.
-seo-description: The AEM Screens player provides offline support for channels by leveraging the ContentSync technology. Follow this page to learn more about update handlers and enabling offline configuration for a channel.
-uuid: 18b9d175-ff26-42db-86aa-5ea978909f71
+description: Läs mer om hur AEM Screens Player ger offlinesupport för kanaler med hjälp av ContentSync-tekniken.
 contentOwner: Jyotika Syal
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: developing
-discoiquuid: bd572743-652f-4fc5-8b75-a3c4c74536f4
 docset: aem65
 feature: Developing Screens
 role: Developer
 level: Intermediate
 exl-id: 5ad1046f-8b64-490b-9966-ce9008180d54
-source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
+source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
 workflow-type: tm+mt
-source-wordcount: '448'
+source-wordcount: '425'
 ht-degree: 1%
 
 ---
 
 # Offlinekanaler {#offline-channels}
 
-Screens Player ger stöd offline för kanalerna genom att utnyttja ***ContentSync*** teknik.
+Screens Player ger kanalerna offlinesupport med ***ContentSync*** teknik.
 
 Spelarna använder en lokal http-server för att hantera det uppackade innehållet.
 
-När en kanal är konfigurerad att köras *online* spelaren levererar kanalresurserna genom åtkomst till AEM, men när kanalen är konfigurerad att köras *offline* spelaren visar kanalresurserna från en lokal http-server.
+När en kanal är konfigurerad att köras *online*, används för att visa kanalresurserna genom åtkomst till AEM. När kanalen är konfigurerad att köras *offline* spelaren visar kanalresurserna från en lokal http-server.
 
-Arbetsflödet för processen är följande:
+Arbetsflödet är följande:
 
-1. Tolka de önskade sidorna
-1. Samla in alla relaterade resurser
-1. Paketera allt i en zip-fil
-1. Hämta zip-filen och extrahera den lokalt
-1. Visa lokal kopia av innehållet
+1. Tolka de önskade sidorna.
+1. Samla in alla relaterade resurser.
+1. Paketera allt i en zip-fil.
+1. Ladda ned zip-filen och extrahera den lokalt.
+1. Visa lokal kopia av innehållet.
 
 ## Uppdatera hanterare {#update-handlers}
 
@@ -55,22 +51,22 @@ The ***ContentSync*** använder uppdateringshanterare för att analysera och sam
    <td><strong>Alternativ</strong></td> 
   </tr>
   <tr>
-   <td>kanaler</td> 
+   <td><code>channels</code></td> 
    <td>samlar in en kanal</td> 
    <td>tillägg: tillägg för resursen som ska samlas in<br /> [pathSuffix='']: suffix att lägga till i kanalsökvägen<br /> </td> 
   </tr>
   <tr>
-   <td>clientlib</td> 
+   <td><code>clientlib</code></td> 
    <td>samla in angivet klientbibliotek</td> 
    <td>[extension='']: kan vara antingen css eller js, för att bara samla in den första, eller bara den senare</td> 
   </tr>
   <tr>
-   <td>assetrenditions</td> 
+   <td><code>assetrenditions</code></td> 
    <td>samla in resursåtergivningar</td> 
    <td>[renditions=[]]: lista över renderingar som ska samlas in. Standardvärdet är den ursprungliga återgivningen</td> 
   </tr>
   <tr>
-   <td>copy</td> 
+   <td><code>copy</code></td> 
    <td>kopiera den angivna strukturen från sökvägen</td> 
    <td> </td> 
   </tr>
@@ -98,11 +94,13 @@ Följ stegen nedan för att aktivera offlinekonfiguration för en kanal:
 
    ![chlimage_1-24](assets/chlimage_1-24.png)
 
-1. Navigera till kanalkontrollpanelen och klicka på **...** i **KANALINFORMATION** Panel för att ändra egenskaperna.
+1. Navigera till kanalkontrollpanelen.
+1. Klicka **...** i **KANALINFORMATION** Panel.
 
    ![chlimage_1-25](assets/chlimage_1-25.png)
 
-1. Navigera till kanalegenskaperna och se till att kryssrutan är inaktiverad under **Kanal** -fliken. Klicka **Spara och stäng**.
+1. Navigera till kanalegenskaperna.
+1. Kontrollera att kryssrutan är inaktiverad på fliken (Kanal) och klicka sedan på **Spara och stäng**.
 
    ![screen_shot_2017-12-19at122422pm](assets/screen_shot_2017-12-19at122422pm.png)
 

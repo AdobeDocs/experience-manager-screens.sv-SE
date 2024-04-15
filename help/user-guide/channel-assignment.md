@@ -5,9 +5,9 @@ feature: Authoring Screens, Channel Assignment
 role: Admin, Developer
 level: Intermediate
 exl-id: 6ed86bfc-38c7-4ced-b472-db2a362585c5
-source-git-commit: 02929219a064e3b936440431e77e67e0bf511bf6
+source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
 workflow-type: tm+mt
-source-wordcount: '1176'
+source-wordcount: '1174'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 0%
 >[!IMPORTANT]
 >I det här avsnittet beskrivs kanaltilldelning och planering av kanaler för funktionspaket som är äldre än AEM 6.5.5-skärmar.
 
-När du har konfigurerat en skärm måste du tilldela en kanal till en skärm för att kunna visa innehållet.
+När du har konfigurerat en visning tilldelar du en kanal till en visning för att visa innehållet.
 
 På den här sidan visas hur du tilldelar en kanal till visningen.
 

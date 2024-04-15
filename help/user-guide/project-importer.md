@@ -10,9 +10,9 @@ feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: 3bff9ef3-0d6f-41d8-a8ef-bcc5a795990e
-source-git-commit: c0fa0717034e5094108eb1e23d4e9f1f16aeb57e
+source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
 workflow-type: tm+mt
-source-wordcount: '621'
+source-wordcount: '619'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ I det här avsnittet beskrivs en funktion för att massimportera en uppsättning
 
 ## Introduktion {#introduction}
 
-När du skapar ett AEM Screens-projekt för första gången i organisationen måste du också skapa alla platser. Om ditt projekt omfattar många platser resulterar det i en långsam uppgift som innebär att du klickar och väntar mycket i användargränssnittet.
+När du skapar ett AEM Screens-projekt för första gången i organisationen skapar du även alla platser. Om ditt projekt omfattar många platser resulterar det i en långsam uppgift som innebär att du klickar och väntar mycket i användargränssnittet.
 
 Målet med den här funktionen är att minska den tid som krävs för att ställa in projektet och därmed lösa budgeteringsproblem.
 

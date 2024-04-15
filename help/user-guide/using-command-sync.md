@@ -5,9 +5,9 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 3314e0b5-0001-4bce-8ec6-5a6ffbb20f7b
-source-git-commit: 10c168cd00b79964d229e3d2a14049e799d89d77
+source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
 workflow-type: tm+mt
-source-wordcount: '748'
+source-wordcount: '740'
 ht-degree: 0%
 
 ---
@@ -108,8 +108,8 @@ Lägg märke till de två enheterna (fönsterstandard och Windows Player) i **EN
 
 ### Synkroniserar med primär {#sync-up-primary}
 
-1. När du har angett Chrome-enheten som primär kan du synkronisera den andra enheten (i det här fallet Windows-spelaren) så att den synkroniseras med den primära.
-Välj den andra enheten (i det här fallet Windows Player) på menyn **ENHETER** panel och klicka **Synkronisera med primär enhet**, vilket visas i figuren nedan.
+1. När du har angett Chrome-enheten som primär synkroniserar du den andra enheten (i det här fallet Windows-spelaren) så att den synkroniseras med den primära.
+Välj den andra enheten (i det här fallet Windows Player) på menyn **ENHETER** panel och klicka **Synkronisera med primär enhet**.
 
    ![image1](assets/command-sync/command-sync13-1.png)
 

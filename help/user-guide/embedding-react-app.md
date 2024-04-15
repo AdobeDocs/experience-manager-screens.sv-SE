@@ -10,7 +10,7 @@ feature: Developing Screens
 role: Developer
 level: Intermediate
 exl-id: 7dc7d07e-cd94-4ce1-a106-98669be62046
-source-git-commit: 02929219a064e3b936440431e77e67e0bf511bf6
+source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
 workflow-type: tm+mt
 source-wordcount: '681'
 ht-degree: 0%

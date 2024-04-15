@@ -9,9 +9,9 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 3208d058-0812-44e1-83e3-b727b384876a
-source-git-commit: 1e8beb9dfaf579250138d4a41eeec88cc81f2d39
+source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
 workflow-type: tm+mt
-source-wordcount: '2428'
+source-wordcount: '2426'
 ht-degree: 0%
 
 ---
@@ -45,7 +45,7 @@ Referera till en *Kanal efter roll* Med kan du skapa en lokal version av en kana
 >
 >En dynamisk inbäddad sekvens liknar en inbäddad sekvens men gör det möjligt för användaren att följa en hierarki där ändringar/uppdateringar som görs i en kanal sprids till en annan i relation till den. Den följer hierarkin för överordnade och underordnade och innehåller även resurser som bilder eller videoklipp.
 >
->***Dynamiska inbäddade sekvenser*** gör att du kan visa platsspecifikt innehåll medan ***Inbäddade sekvenser*** bara visa det allmänna bildspelet av innehållet. När du konfigurerar dynamiska inbäddade sekvenser måste du konfigurera kanalen med kanalroll och namn. Se stegen nedan för en praktisk implementering.
+>***Dynamiska inbäddade sekvenser*** gör att du kan visa platsspecifikt innehåll medan ***Inbäddade sekvenser*** bara visa det allmänna bildspelet av innehållet. När du konfigurerar dynamiska inbäddade sekvenser konfigurerar du kanalen med kanalroll och namn. Se stegen nedan för en praktisk implementering.
 >
 >Mer information om hur du implementerar inbäddade sekvenser finns i [Inbäddade sekvenser](embedded-sequences.md) i AEM Screens.
 

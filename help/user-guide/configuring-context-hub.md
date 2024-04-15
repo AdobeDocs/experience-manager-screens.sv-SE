@@ -10,9 +10,9 @@ feature: Developing Screens
 role: Developer
 level: Intermediate
 exl-id: 04072107-d6be-4030-bb79-1f1a7609f37e
-source-git-commit: 02929219a064e3b936440431e77e67e0bf511bf6
+source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
 workflow-type: tm+mt
-source-wordcount: '1447'
+source-wordcount: '1445'
 ht-degree: 1%
 
 ---
@@ -41,7 +41,7 @@ I följande diagram visas hur ContextHub-konfigurationer sammanfaller med Activi
 
 ## Förhandsvillkor {#preconditions}
 
-Innan du börjar konfigurera Context Hub-konfigurationer för ett AEM Screens-projekt måste du konfigurera Google Sheets (i demonstrationssyfte).
+Innan du börjar konfigurera Context Hub Configurations för ett AEM Screens-projekt måste du konfigurera Google Sheets (i demonstrationssyfte).
 
 >[!IMPORTANT]
 >

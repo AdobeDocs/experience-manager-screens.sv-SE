@@ -10,7 +10,7 @@ feature: Administering Screens, Android Player
 role: Admin
 level: Intermediate
 exl-id: d1331cb8-8bf6-4742-9525-acf18707b4d8
-source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
+source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
 workflow-type: tm+mt
 source-wordcount: '1462'
 ht-degree: 0%
@@ -122,7 +122,7 @@ Se en [Exempel på JSON-princip](#example-json) och en tabell som beskriver hur 
 
 1. Använd en MDM- eller ADB- eller Android™ Studio-filutforskare för att släppa denna JSON-principfil i *sdcard* på Android™-enheten.
 
-1. När filen har distribuerats använder du MDM-modulen för att installera spelarprogrammet.
+1. När filen distribueras använder du MDM-modulen för att installera spelarprogrammet.
 
 1. När spelarprogrammet startas läses den här konfigurationsfilen in och pekar på den tillämpliga AEM där den är registrerad och sedan styrd.
 

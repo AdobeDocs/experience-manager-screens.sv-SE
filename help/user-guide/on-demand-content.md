@@ -6,9 +6,9 @@ feature: Authoring Screens
 role: Developer
 level: Intermediate
 exl-id: 9ffdb1eb-a1ba-42ac-a30f-260004e5b165
-source-git-commit: c0fa0717034e5094108eb1e23d4e9f1f16aeb57e
+source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
 workflow-type: tm+mt
-source-wordcount: '827'
+source-wordcount: '823'
 ht-degree: 0%
 
 ---
@@ -122,6 +122,6 @@ Följ stegen nedan för att leverera innehållsuppdateringar från författare >
 
 ### Kanal- och enhetsomtilldelning: {#channel-and-device-re-assignment}
 
-Om du har tilldelat om en enhet måste du publicera både den första och den nya skärmen när enheten har tilldelats om till den nya skärmen.
+Om du har tilldelat om en enhet kan du publicera både den första och den nya skärmen när enheten har tilldelats om till den nya skärmen.
 
-Om du har omtilldelat en kanal måste du publicera både den inledande och den nya visningen när kanalen har omtilldelats till den nya skärmen.
+Om du har omtilldelat en kanal kan du publicera både den inledande och den nya visningen när kanalen har omtilldelats till den nya skärmen.

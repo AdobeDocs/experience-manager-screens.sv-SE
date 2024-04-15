@@ -1,12 +1,10 @@
 ---
-title: Business Content Strategy for [!UICONTROL AEM Screens]
-seo-title: Business Content Strategy for [!UICONTROL AEM Screens]
-description: Guiden beskriver affärsstrategin för innehåll
-seo-description: The guide describes Business Content Strategy
+title: Business Content Strategy for AEM Screens
+description: Läs mer om strategi för marknadsföring och affärsinnehåll när det gäller AEM Screens.
 exl-id: efb8ea95-62c0-41ed-9e67-23d76ad12a4c
-source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
+source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
 workflow-type: tm+mt
-source-wordcount: '428'
+source-wordcount: '432'
 ht-degree: 0%
 
 ---
@@ -17,7 +15,7 @@ ht-degree: 0%
 >
 >En typisk aktör inom denna verksamhet är en marknadsförings-/affärsstrategi.
 
-Innehåll är en viktig faktor när det gäller att öka engagemanget, och i fasen före försäljningen är det viktigt att definiera en innehållsstrategi för företag som tar hänsyn till hur programmet utnyttjar maskinvara, programvara och anslutningsresurser för att kunna leverera det avsedda värdet till kundens kunder.
+Innehåll är en viktig faktor för att öka engagemanget. I fasen före försäljningen är det viktigt att definiera en innehållsstrategi för företag som tar hänsyn till hur programmet använder maskinvara, programvara och anslutningsresurser för att leverera det avsedda värdet till kundens kunder.
 
 En väldefinierad innehållsstrategi för företag sätter en väg för att skapa, distribuera och spåra användningen av innehåll i relation till köparens resa och kontaktytorna för marknadsföring i säljprocessen. Att få rätt budskap till rätt kund vid rätt tidpunkt är avgörande.
 
@@ -25,24 +23,24 @@ Fundera över hur skärmprogrammet kan bidra till att uppnå detta och faststäl
 
 >[!NOTE]
 >
->Du måste tänka på att upplevelsen måste fungera offline med begränsad bandbredd.
+>Tänk på att upplevelsen måste fungera offline med begränsad bandbredd.
 
-Du måste få svar på följande frågor när du skapar en innehållsstrategi för ditt AEM Screens-projekt:
+Granska och svara på följande frågor när du skapar en innehållsstrategi för ditt AEM Screens-projekt:
 
 * Vem är målgruppen och vad är den förväntade uppehållstiden?
-* Vilket innehåll behöver visas för dem?
-* Var kommer innehållet att få störst effekt?
+* Vilket innehåll måste visas för dem?
+* Var tror ni att innehåll kommer att få störst effekt?
 * När är det idealiska tillfället att engagera publiken?
-* Vem skapar innehållet?
+* Vem ska skapa innehållet?
 * Varför ska målgruppen bry sig om innehållet?
 * Vilka problem har innehållet som hjälper dem att lösa? (Gör till exempel Screens-programmet det enklare för kunden att hitta de lämpligaste skorna för extrem bergsklättring eller en perfekt apparat för sitt nya hem?)
 * Hur interagerar kunden med applikationen eller hur fungerar användarupplevelsen?
 * Vad är er uppdaterings- och uppgraderingsstrategi?
-* Hur ofta behövs nytt innehåll?
+* Hur ofta förutser du att nytt, nödvändigt innehåll ska skapas?
 
   >[!NOTE]
   >
-  >Under förförsäljningsfasen är det viktigt att börja ställa frågor inte bara om vilket innehåll som ska delas, utan även om var innehållsdata för närvarande finns och hur de ska användas i skärmsprojektet. Ni måste försöka fördjupa er i innehållet under implementeringen, men ni måste i förväg fastställa vilka data som är tillgängliga och i vilket format.
+  >Under förförsäljningsfasen börjar du inte bara ställa frågor om vilket innehåll som ska delas, utan även om var innehållsdata för närvarande finns. Hur kommer det att användas i ett AEM Screens-projekt? Fördjupa dig i innehållet under implementeringen men ta reda på vilka data som är tillgängliga och i vilket format.
 
 ## Viktiga överväganden {#important-considerations}
 

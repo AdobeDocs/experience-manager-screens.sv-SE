@@ -9,9 +9,9 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: dc9c5413-3b03-4f1f-bac5-aa599443254a
-source-git-commit: c0fa0717034e5094108eb1e23d4e9f1f16aeb57e
+source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
 workflow-type: tm+mt
-source-wordcount: '377'
+source-wordcount: '375'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ Scheman, när de kombineras med ***DayParting*** kan du ange ett globalt schema 
 
 >[!NOTE]
 >
->Den här AEM Screens-funktionen är bara tillgänglig om du har installerat AEM 6.3 Sites Feature Pack 1. Om du vill få tillgång till det här funktionspaketet måste du kontakta Adobe Support och begära åtkomst. När du har de behörigheter som krävs kan du hämta den från paketresursen.
+>Den här AEM Screens-funktionen är bara tillgänglig om du har installerat AEM 6.3 Sites Feature Pack 1. Kontakta Adobe Support och begär åtkomst till detta funktionspaket. När du har de behörigheter som krävs kan du hämta den från paketresursen.
 
 ## Skapa ett schema {#creating-a-schedule}
 

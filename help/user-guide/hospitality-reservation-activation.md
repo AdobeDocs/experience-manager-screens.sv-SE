@@ -10,9 +10,9 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: ae032042-fa2b-49cd-91fe-ce50f3ce9867
-source-git-commit: 10c168cd00b79964d229e3d2a14049e799d89d77
+source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
 workflow-type: tm+mt
-source-wordcount: '444'
+source-wordcount: '442'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ Om värdet för **`Restaurant1`** > **`Restaurant2`** sedan **AdTaget** är till
 
 ## Förhandsvillkor {#preconditions}
 
-Innan du börjar implementera aktiveringen av reservationen måste du lära dig hur du konfigurerar ***Datalager***, ***Målgruppssegmentering*** och ***Aktivera mål för kanaler*** i ett AEM Screens-projekt.
+Läs om hur du konfigurerar innan du börjar implementera reservationsaktiveringen ***Datalager***, ***Målgruppssegmentering*** och ***Aktivera mål för kanaler*** i ett AEM Screens-projekt.
 
 Se [ContextHub konfigureras i AEM Screens](configuring-context-hub.md) för detaljerad information.
 

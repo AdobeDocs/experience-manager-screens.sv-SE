@@ -5,9 +5,9 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: c95da2e9-a216-4d0a-85d0-a0fb895a8d8a
-source-git-commit: 10c168cd00b79964d229e3d2a14049e799d89d77
+source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
 workflow-type: tm+mt
-source-wordcount: '375'
+source-wordcount: '373'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ I det här avsnittet beskrivs hur du aktiverar målinriktning i dina kanaler.
 
 ## Förutsättningar {#prereqs}
 
-Innan du följer stegen nedan för att aktivera målinriktning i kanaler måste du lära dig [Viktiga termer i Konfigurera i AEM Screens](configuring-context-hub.md) krävs för att förstå ContextHub och Target i AEM Screens.
+Innan du följer stegen nedan för att aktivera målinriktning i kanaler bör du läsa om [Viktiga termer i Konfigurera i AEM Screens](configuring-context-hub.md) krävs för att förstå ContextHub och Target i AEM Screens.
 
 >[!IMPORTANT]
 >

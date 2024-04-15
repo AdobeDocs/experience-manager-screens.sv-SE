@@ -9,9 +9,9 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: c55dc128-208d-4379-95a8-60a39d495dc0
-source-git-commit: 1e8beb9dfaf579250138d4a41eeec88cc81f2d39
+source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
 workflow-type: tm+mt
-source-wordcount: '687'
+source-wordcount: '661'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 En skärm är en virtuell gruppering av skärmar som är placerade bredvid varandra. Bildskärmen är permanent med avseende på en installation. Det här är det objekt som författare arbetar med och refererar alltid till som logisk visning i stället för deras fysiska räknardelar.
 
-När du har skapat en plats måste du skapa en visning för platsen.
+När du skapar en plats måste du skapa en visning för platsen.
 
 På den här sidan visas hur du skapar och hanterar skärmar.
 
@@ -54,7 +54,7 @@ När du har visat på plats är nästa steg att skapa en enhetskonfiguration fö
 >
 >**Nästa steg**:
 >
->När du skapar en visning för din plats måste du tilldela en kanal till visningen för att kunna använda innehållet.
+>När du skapar en visning för din plats tilldelar du en kanal till visningen för att använda innehållet.
 >
 >Se [Tilldela kanaler](channel-assignment.md) för att lära dig hur du tilldelar en kanal till visningen.
 
@@ -74,11 +74,9 @@ Enhetskonfigurationen skapas och läggs till i den aktuella skärmen (i följand
 
 ![deviceconfig](assets/deviceconfig.gif)
 
-När en enhetskonfiguration är inställd på din skärm på platsen blir nästa steg att tilldela en kanal till din skärm.
-
 >[!NOTE]
 >
->När en enhetskonfiguration är inställd på din skärm på platsen blir nästa steg att tilldela en kanal till din skärm.
+>När en enhetskonfiguration ställs in på din skärm på platsen blir nästa steg att tilldela en kanal till din skärm.
 >
 >Så som visas i figuren nedan, om enhetskonfigurationen visas som ej tilldelad i **ENHETER** om ingen kanal har tilldelats den aktuella enhetskonfigurationen.
 >

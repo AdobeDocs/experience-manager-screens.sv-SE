@@ -2,9 +2,9 @@
 title: Hantera nätverkstrafik
 description: På sidan beskrivs standardnätverksinställningar och hur du hanterar nätverkstrafik.
 exl-id: b6d8f4a3-fca2-4556-9455-b9e27b138154
-source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
+source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
 workflow-type: tm+mt
-source-wordcount: '556'
+source-wordcount: '549'
 ht-degree: 0%
 
 ---
@@ -13,15 +13,15 @@ ht-degree: 0%
 
 En nätverksinställning kan ha olika strukturer. I det här avsnittet beskrivs de vanligaste nätverksinställningarna och de allmänna strategier som används inom en organisation.
 
-Den här guiden belyser en introduktion till proxyservrar följt av olika nätverksstrukturer som är konfigurerade inom olika organisationer.
+Den här guiden belyser en introduktion till proxyservrar följt av de olika nätverksstrukturer som är konfigurerade inom olika organisationer.
 
 >[!NOTE]
 >**AEM Screens nätverkskrav**
->AEM Screens kommunicerar direkt med den AEM as a Cloud Service och måste därför upprätta en stabil koppling mellan de två noderna. Brandväggar är absolut obligatoriska för kommersiell internetåtkomst och som kund måste du förstå vilka kommunikationsportar som måste öppnas i dessa brandväggar och andra IT-säkerhetsrelaterade nätverkskomponenter.
+>AEM Screens kommunicerar direkt med den AEM as a Cloud Service och måste därför upprätta en stabil anslutning mellan de två noderna. Brandväggar är obligatoriska för kommersiell internetåtkomst. Kunden måste förstå vilka kommunikationsportar som måste öppnas i dessa brandväggar och andra IT-säkerhetsrelaterade nätverkskomponenter.
 
 ## Översikt över proxyservrar {#proxy-servers}
 
-En Internetanslutning är beroende av att en proxyserver används. En proxyserver är en dedikerad dator eller ett programvarusystem som körs på en dator som fungerar som mellanhand mellan en slutpunktsenhet, till exempel en dator, och en annan server från vilken en användare eller klient begär en tjänst. Proxyservern kan finnas på samma dator som en brandväggsserver eller på en separat server som vidarebefordrar begäranden via brandväggen.
+En Internetanslutning är beroende av att en proxyserver används. En proxyserver är en dedikerad dator eller ett programvarusystem som körs på en dator. Den fungerar som en mellanhand mellan en slutpunktsenhet, till exempel en dator, och en annan server från vilken en användare eller klient begär en tjänst. Proxyservern kan finnas på samma dator som en brandväggsserver eller på en separat server som vidarebefordrar begäranden via brandväggen.
 
 En fördel med en proxyserver är att dess cache kan användas av alla användare. Om en eller flera webbplatser ofta efterfrågas finns de förmodligen i proxyns cacheminne, vilket ytterligare förbättrar användarens svarstid. En proxy kan också logga interaktionen som kan användas för felsökning.
 

@@ -1,9 +1,9 @@
 ---
 title: Arbetsflödeskonfiguration för direktplacering
 description: På den här sidan visas arbetsflödeskonfiguration för direktplacering.
-source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
+source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
 workflow-type: tm+mt
-source-wordcount: '190'
+source-wordcount: '188'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ Som innehållsförfattare kan du också klicka manuellt **Uppdatera offlineinneh
 
 >[!IMPORTANT]
 >
->Innan du startar konfigurationen måste du installera `[Demo  Package](https://github.com/godanny86/screens-demo/releases/download/v.0.0.1/screens-demo.all-1.0-SNAPSHOT.zip)`. När du har installerat paketet kan du visa det och få åtkomst till det från AEM > Verktyg (ikon) > **Arbetsflöde** > **Arbetsflödesmodeller**.
+>Installera `[Demo  Package](https://github.com/godanny86/screens-demo/releases/download/v.0.0.1/screens-demo.all-1.0-SNAPSHOT.zip)`. När du har installerat paketet kan du visa det och få åtkomst till det från AEM > Verktyg (ikon) > **Arbetsflöde** > **Arbetsflödesmodeller**.
 
 Följ stegen nedan för att konfigurera arbetsflödet för direktplacering:
 

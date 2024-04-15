@@ -2,9 +2,9 @@
 title: Konfigurera författare- och publiceringsinstanser i AEM Screens
 description: Lär dig hur du konfigurerar en Author-instans och en Publish-instans för AEM Screens.
 exl-id: 5aef5f35-d946-4bf8-a2a8-c3ed532b7eef
-source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
+source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
 workflow-type: tm+mt
-source-wordcount: '1933'
+source-wordcount: '1924'
 ht-degree: 0%
 
 ---
@@ -28,11 +28,11 @@ Innan du börjar använda författar- och publiceringsservrar bör du ha känned
 
 >[!NOTE]
 >
->Den här AEM Screens-funktionen är bara tillgänglig om du har AEM 6.4 Screens Feature Pack 2. Om du vill få tillgång till det här funktionspaketet måste du kontakta Adobe Support och begära åtkomst. När du har behörighet kan du hämta den från paketresursen.
+>Den här AEM Screens-funktionen är bara tillgänglig om du har AEM 6.4 Screens Feature Pack 2. Kontakta Adobe Support och begär åtkomst till detta funktionspaket. När du har behörighet kan du hämta den från paketresursen.
 
 >[!IMPORTANT]
 >
->Om du vill använda mer än en Publish-instans med Dispatcher måste du uppdatera Dispatcher. Se [Aktivera anteckningssessioner](dispatcher-configurations-aem-screens.md#enable-sticky-session) för mer information.
+>Uppdatera Dispatcher om du vill använda mer än en Publish-instans med Dispatcher. Se [Aktivera anteckningssessioner](dispatcher-configurations-aem-screens.md#enable-sticky-session).
 
 ## Konfigurera författare- och publiceringsinstanser {#configuring-author-and-publish-instances}
 
@@ -50,7 +50,7 @@ Du kan skapa ett enkelt exempel där du har en författare och två publicerings
 
 ## Konfigurera replikeringsagenter på författare {#setting-replication-agents}
 
-Om du vill skapa replikeringsagenter måste du lära dig hur du skapar en standardredigeringsagent.
+Lär dig hur du skapar en standardoperationsagent för replikering när du vill skapa replikeringsagenter.
 
 Det finns tre replikeringsagenter som behövs för skärmar:
 

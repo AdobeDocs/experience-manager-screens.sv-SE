@@ -10,7 +10,7 @@ feature: Administering Screens, Windows Player
 role: Admin
 level: Intermediate
 exl-id: 50b6d9ba-e672-4f4d-a9a8-fb8387685057
-source-git-commit: a8055c5f859e401f7b1da4f5d95f1268dee243ad
+source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
 workflow-type: tm+mt
 source-wordcount: '1114'
 ht-degree: 0%

@@ -10,7 +10,7 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: d0a0b065-798e-4108-86ac-0a1f4e211cfc
-source-git-commit: 10c168cd00b79964d229e3d2a14049e799d89d77
+source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
 workflow-type: tm+mt
 source-wordcount: '290'
 ht-degree: 0%
@@ -29,7 +29,7 @@ I det här avsnittet beskrivs följande ämnen om Uppdatera gruppvis offline:
 >
 >This AEM Screens functionality is only available, if you have installed AEM 6.3 Feature Pack 3 or AEM 6.4 Screens Feature Pack 1.
 >
->To get access to this Feature Pack, you must contact Adobe Support and request access. When you have permissions you can download it from Package Share. -->
+>To get access to this Feature Pack, contact Adobe Support and request access. When you have permissions you can download it from Package Share. -->
 
 ## Ökning {#overview}
 
