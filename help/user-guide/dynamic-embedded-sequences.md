@@ -9,7 +9,7 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 3208d058-0812-44e1-83e3-b727b384876a
-source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '2426'
 ht-degree: 0%
@@ -118,9 +118,9 @@ Följ stegen nedan för att implementera funktionen:
 1. **Skapa två platser och en kanal under varje platsmapp.**
 
    1. Navigera till **Demo** > **Platser** > **Region A**.
-   1. Välj **Region A** och markera **+ Skapa** i åtgärdsfältet.
-   1. Välj **Plats** från guiden med **Titel** as **Butik 1**. På samma sätt kan du skapa en annan plats från guiden med namnet som **Butik 2** med **Titel** as **Butik 2**. Du kan lämna **Namn** fältet är tomt när du skapar **Butik 1** och **Butik 2**.
-   1. Upprepa steg b och välj nu **Sekvenskanal** från guiden. Ange **Titel** as **Region A** och **Namn** as **region** för den här kanalen.
+   1. Klicka **Region A** och klicka **+ Skapa** i åtgärdsfältet.
+   1. Klicka **Plats** från guiden med **Titel** as **Butik 1**. På samma sätt kan du skapa en annan plats från guiden med namnet som **Butik 2** med **Titel** as **Butik 2**. Du kan lämna **Namn** fältet är tomt när du skapar **Butik 1** och **Butik 2**.
+   1. Upprepa steg b och klicka nu **Sekvenskanal** från guiden. Ange **Titel** as **Region A** och **Namn** as **region** för den här kanalen.
 
    >[!CAUTION]
    >
@@ -139,9 +139,9 @@ Följ stegen nedan för att implementera funktionen:
 1. **Skapa Visning och Kanal under varje plats.**
 
    1. Navigera till **Demo** > **Platser** > **Region A** > **Butik 1**.
-   1. Välj **Butik 1** och markera **+ Skapa** i åtgärdsfältet.
-   1. Välj **Visa** från guiden och skapa **`Store1Display`**.
-   1. Upprepa steg b och välj den här gången **Sekvenskanal** från guiden. Ange **Titel** as **`Store1Channel`** och **Namn** as **store**.
+   1. Klicka **Butik 1** och klicka **+ Skapa** i åtgärdsfältet.
+   1. Klicka **Visa** från guiden och skapa **`Store1Display`**.
+   1. Upprepa steg b och klicka den här gången **Sekvenskanal** från guiden. Ange **Titel** as **`Store1Channel`** och **Namn** as **store**.
 
    >[!CAUTION]
    >
@@ -169,14 +169,14 @@ Följ stegen nedan för att implementera funktionen:
 
 1. **Lägg till innehåll i kanalerna på deras respektive platser.**
 
-   Navigera till **Demo** > **Platser** > **Region A** > **Region A** och markera **Redigera** i åtgärdsfältet. Dra och släpp de resurser du vill lägga till i kanalen.
+   Navigera till **Demo** > **Platser** > **Region A** > **Region A** och klicka **Redigera** i åtgärdsfältet. Dra och släpp de resurser du vill lägga till i kanalen.
 
    >[!NOTE]
    >Du kan använda ***Resources.zip*** från **Resurs** ovan om du vill använda bilderna som resurser för ditt kanalinnehåll.
 
    ![screen_shot_2018-09-12at12438pm](assets/screen_shot_2018-09-12at12438pm.png)
 
-   Navigera på samma sätt till **Demo** > **Platser** > **Region B** > **Region B** och markera **Redigera** från åtgärdsfältet för att dra och släppa resurserna i din kanal, vilket visas nedan:
+   Navigera på samma sätt till **Demo** > **Platser** > **Region B** > **Region B** och klicka **Redigera** från åtgärdsfältet för att dra och släppa resurserna i din kanal, vilket visas nedan:
 
    ![screen_shot_2018-09-12at13133pm](assets/screen_shot_2018-09-12at13133pm.png)
 
@@ -189,7 +189,7 @@ Följ stegen nedan för att implementera funktionen:
 
 1. **Skapa ett schema**
 
-   Navigera och markera **Scheman** i ditt AEM Screens-projekt. Välj sedan **Skapa** i åtgärdsfältet.
+   Navigera och klicka **Scheman** i ditt AEM Screens-projekt. Klicka sedan på **Skapa** i åtgärdsfältet.
 
    Följande bild visar **AdSchedule** som **Demo** projekt.
 
@@ -197,29 +197,29 @@ Följ stegen nedan för att implementera funktionen:
 
 1. **Tilldela kanaler till ett schema**
 
-   1. Navigera till **Demo** > **Scheman** > **AdSchedule** och markera **Kontrollpanel** i åtgärdsfältet.
-   1. Välj **+ Tilldela kanal** från **TILLDELADE KANALER** så att du kan öppna **Kanaltilldelning** -dialogrutan.
-   1. Välj **Referenskanal** efter bana.
-   1. Välj **Kanalsökväg** as **Demo** > ***Kanaler*** > ***Global***.
+   1. Navigera till **Demo** > **Scheman** > **AdSchedule** och klicka **Kontrollpanel** i åtgärdsfältet.
+   1. Klicka **+ Tilldela kanal** från **TILLDELADE KANALER** så att du kan öppna **Kanaltilldelning** -dialogrutan.
+   1. Klicka **Referenskanal** efter bana.
+   1. Klicka på **Kanalsökväg** as **Demo** > ***Kanaler*** > ***Global***.
    1. Ange **Kanalroll** as **GlobalAdSegment**.
-   1. Välj **Händelser som stöds** as **Inledande inläsning**, **Inaktiv skärm** och **Användarinteraktion**.
-   1. Välj **Spara**.
+   1. Klicka på **Händelser som stöds** as **Inledande inläsning**, **Inaktiv skärm** och **Användarinteraktion**.
+   1. Klicka **Spara**.
 
    **Tilldela kanal efter roll för region:**
 
-   1. Välj **+ Tilldela kanal** från **TILLDELADE KANALER** -panelen.
-   1. Välj i dialogrutan Kanaltilldelning **Referenskanal** efter namn.
+   1. Klicka **+ Tilldela kanal** från **TILLDELADE KANALER** -panelen.
+   1. I dialogrutan Kanaltilldelning klickar du på **Referenskanal** efter namn.
    1. Ange **Kanalnamn** as **region***.
    1. Ange **Kanalroll** as **RegionAdSegment**.
-   1. Välj **Spara**.
+   1. Klicka **Spara**.
 
    **Tilldela kanal efter roll för butik:**
 
-   1. Välj **+ Tilldela kanal** från **TILLDELADE KANALER** -panelen.
-   1. Välj i dialogrutan Kanaltilldelning **Referenskanal** efter namn.
+   1. Klicka **+ Tilldela kanal** från **TILLDELADE KANALER** -panelen.
+   1. I dialogrutan Kanaltilldelning klickar du på **Referenskanal** efter namn.
    1. Ange **Kanalnamn** as **store**.
    1. Ange **Kanalroll** as **StoreAdSegment**.
-   1. Välj **Spara**.
+   1. Klicka **Spara**.
 
    I följande bild visas de tilldelade kanalerna per sökväg och roll.
 
@@ -229,7 +229,7 @@ Följ stegen nedan för att implementera funktionen:
 
    Navigera till **Global** Kanal som du ursprungligen skapade i **Demo** projekt.
 
-   Välj **Redigera** i åtgärdsfältet.
+   Klicka **Redigera** i åtgärdsfältet.
 
    ![screen_shot_2018-09-13at52754pm](assets/screen_shot_2018-09-13at52754pm.png)
 
@@ -237,17 +237,17 @@ Följ stegen nedan för att implementera funktionen:
 
    Öppna egenskaperna från en av komponenterna och ange **Kanaltilldelningsroll** as **RegionAdSegment**.
 
-   På samma sätt markerar du de andra komponenterna och öppnar egenskaper för att ange **Kanaltilldelningsroll** as **StoreAdSegment**.
+   På samma sätt klickar du på de andra komponenterna och öppnar egenskaperna för att öppna **Kanaltilldelningsroll** as **StoreAdSegment**.
 
    ![channelDisplay4](assets/channeldisplay4.gif)
 
 1. **Tilldela schema till varje skärm**
 
    1. Navigera till varje visning, till exempel **Demo** > **Platser** > **Region A** >**Butik 1** >**`Store1Display`**.
-   1. Välj **Kontrollpanel** i åtgärdsfältet.
-   1. På kontrollpanelen väljer du **...** från **TILLDELADE KANALER OCH SCHEMAN** och sedan markera **+Tilldela schema**.
-   1. Välj sökvägen till schemat (till exempel här, **Demo** > **Scheman** > **AdSchedule**).
-   1. Välj **Spara**.
+   1. Klicka **Kontrollpanel** i åtgärdsfältet.
+   1. Klicka på **...** från **TILLDELADE KANALER OCH SCHEMAN** och klicka sedan på **+Tilldela schema**.
+   1. Klicka på sökvägen till schemat (till exempel här, **Demo** > **Scheman** > **AdSchedule**).
+   1. Klicka **Spara**.
 
 ## Visa resultaten {#viewing-the-results}
 
@@ -306,9 +306,9 @@ Följ stegen nedan för att skapa grupper, användare och ändra åtkomstkontrol
 1. **Skapa grupper**
 
    1. Navigera till **Adobe Experience Manager**.
-   1. Välj **verktyg** > **Säkerhet** > **Grupper**.
-   1. Välj **Skapa grupp** och ange **Global-Author** in **ID**.
-   1. Välj **Spara och stäng**.
+   1. Klicka **verktyg** > **Säkerhet** > **Grupper**.
+   1. Klicka **Skapa grupp** och ange **Global-Author** in **ID**.
+   1. Klicka **Spara och stäng**.
 
    Skapa på samma sätt två andra grupper, som **Region-Author** och **Store-Author**.
 
@@ -317,11 +317,11 @@ Följ stegen nedan för att skapa grupper, användare och ändra åtkomstkontrol
 1. **Skapa användare och lägga till användare i grupper**
 
    1. Navigera till **Adobe Experience Manager**.
-   1. Välj **verktyg** > **Säkerhet** > **Användare**.
-   1. Välj **Skapa användare** och ange **Global-användare** in **ID**.
+   1. Klicka **verktyg** > **Säkerhet** > **Användare**.
+   1. Klicka **Skapa användare** och ange **Global-användare** in **ID**.
    1. Retur **Lösenord** och bekräfta lösenordet för användaren.
-   1. Välj **Grupper** och ange gruppnamnet i **Välj grupp**, t.ex. enter **Global-Author** att lägga till **Global-användare** till den specifika gruppen.
-   1. Välj **Spara och stäng**.
+   1. Klicka på **Grupper** och ange gruppnamnet i **Klicka på Grupp**, t.ex. enter **Global-Author** att lägga till **Global-användare** till den specifika gruppen.
+   1. Klicka **Spara och stäng**.
 
    På samma sätt kan du skapa två andra användare, som **Region-användare** och **Butiksanvändare** och lägga till dem i **Region-Author** och **Store-Author** respektive.
 
@@ -333,15 +333,15 @@ Följ stegen nedan för att skapa grupper, användare och ändra åtkomstkontrol
 1. **Lägg till alla grupper till deltagare**
 
    1. Navigera till **Adobe Experience Manager**.
-   1. Välj **verktyg** > **Säkerhet** > **Grupper**.
-   1. Välj **Medarbetare** i listan och välj **Medlemmar** -fliken.
-   1. Välj **Grupp** som **Global-Author**, **Region-Author,** och **Store-Author** till medverkande.
-   1. Välj **Spara och stäng**.
+   1. Klicka **verktyg** > **Säkerhet** > **Grupper**.
+   1. Klicka **Medarbetare** från listan och klicka på **Medlemmar** -fliken.
+   1. Klicka på **Grupp** som **Global-Author**, **Region-Author,** och **Store-Author** till medverkande.
+   1. Klicka **Spara och stäng**.
 
 1. **Åtkomst till behörigheter för varje grupp**
 
    1. Navigera till *Användaradministratör* och använd det här användargränssnittet för att ändra behörigheter för olika grupper.
-   1. Sök efter **Global-Author** och markera **Behörigheter** enligt bilden nedan.
+   1. Sök efter **Global-Author** och klicka **Behörigheter** enligt bilden nedan.
    1. På samma sätt kan du komma åt behörigheterna för **Region-Author** och **Store-Author**.
 
    ![screen_shot_2018-09-18at73523am](assets/screen_shot_2018-09-18at73523am.png)

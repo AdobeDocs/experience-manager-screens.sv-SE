@@ -9,7 +9,7 @@ feature: Developing Screens
 role: Developer
 level: Intermediate
 exl-id: e316614f-2d40-4b62-a1e5-f30817def742
-source-git-commit: 10c168cd00b79964d229e3d2a14049e799d89d77
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '1696'
 ht-degree: 0%
@@ -192,7 +192,7 @@ Komponenten Poster återges i helskärmsläge i förhandsgransknings-/produktion
                                    name="./jcr:description"/>
                                <position
                                    jcr:primaryType="nt:unstructured"
-                                   sling:resourceType="granite/ui/components/coral/foundation/form/select"
+                                   sling:resourceType="granite/ui/components/coral/foundation/form/click"
                                    fieldLabel="Text Position"
                                    name="./textPosition">
                                    <items jcr:primaryType="nt:unstructured">
@@ -212,7 +212,7 @@ Komponenten Poster återges i helskärmsläge i förhandsgransknings-/produktion
                                </position>
                                <color
                                    jcr:primaryType="nt:unstructured"
-                                   sling:resourceType="granite/ui/components/coral/foundation/form/select"
+                                   sling:resourceType="granite/ui/components/coral/foundation/form/click"
                                    fieldLabel="Text Color"
                                    name="./textColor">
                                    <items jcr:primaryType="nt:unstructured">
@@ -240,7 +240,7 @@ Komponenten Poster återges i helskärmsläge i förhandsgransknings-/produktion
 
    Egenskapen `sling:hideChildren`= `"[linkURL,size]`&quot; används på `items` nod för att säkerställa att **linkURL** och **size** fält är dolda i dialogrutan. Det räcker inte att ta bort de här noderna från förhandsgranskningsdialogrutan. Egenskapen `sling:hideResource="{Boolean}true"` på fliken Tillgänglighet används för att dölja hela fliken.
 
-   Två markeringsfält läggs till i dialogrutan så att författarna kan styra textpositionen och färgen för titeln och beskrivningen.
+   Dubbelklicksfält läggs till i dialogrutan för att ge författarna kontroll över textpositionen och färgen för titeln och beskrivningen.
 
    ![Affisch - Slutlig dialogstruktur](assets/2018-05-03_at_4_49pm.png)
 

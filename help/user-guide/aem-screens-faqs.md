@@ -5,7 +5,7 @@ feature: Digital Signage, Content
 role: Developer
 level: Intermediate
 exl-id: 67204f04-5535-407c-bd4d-fabfbf850411
-source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '2118'
 ht-degree: 0%
@@ -45,7 +45,7 @@ An ***Onlinekanal*** visar det uppdaterade innehållet i realtidsmiljön medan e
 
 ### 2. Hur skapar jag en kanal online? {#how-do-i-make-a-channel-online}
 
-Markera kanalen och navigera till kanalegenskaper i åtgärdsfältet. Kontrollera **Utvecklarläge (tvinga kanalen att vara online)** under **Kanal** för att göra kanalen online.
+Klicka på kanalen och navigera till kanalegenskaper från åtgärdsfältet. Kontrollera **Utvecklarläge (tvinga kanalen att vara online)** under **Kanal** för att göra kanalen online.
 
 ### 3. Hur används fältet Kanalroll? {#what-is-the-use-of-the-channel-role-field}
 
@@ -70,9 +70,9 @@ När du använder en anpassad klientkod `clientlib` i en AEM Screens-kanal måst
 
 Följ stegen nedan i kanalredigeraren:
 
-1. Markera en kanal och välj sedan **Redigera** i åtgärdsfältet.
-1. Markera komponenten där du vill lägga till den anpassade `clientlib`.
-1. Välj knappen Konfigurera (skiftnyckelsikonen).
+1. Klicka på en kanal och sedan på **Redigera** i åtgärdsfältet.
+1. Klicka på komponenten där du vill lägga till den anpassade `clientlib`.
+1. Klicka på knappen Konfigurera (skiftnyckelsikonen).
 1. Navigera till **Offlinekonfiguration** och lägga till sökvägen till din anpassade klientlib i **Bibliotek på klientsidan**.
 
 ## Enhetsregistrering {#device-registration}
@@ -109,7 +109,7 @@ Aktivera filtret Apache Sling Referrer Tillåt tomt. Detta krävs för att kontr
 
 1. Navigera till **Konfiguration av Adobe Experience Manager Web Console**
 1. Kontrollera **allow.empty** alternativ.
-1. Välj **Spara**.
+1. Klicka **Spara**.
 
 ### 3. Hur felsöker man om fel uppstår när en AEM Screens-spelare registreras och när konsolloggarna visas ett ENAME_NOT_FOUND-fel?
 
@@ -133,14 +133,14 @@ Mer information om var du kan övervaka enhetsaktivitet finns i [**Tjänsten AEM
 
 ChromeOS-spelaren kan installeras som Chrome Browser-plugin i utvecklarläge utan att den faktiska enheten för Chrome Player krävs. För installation, följ stegen nedan:
 
-1. Välj [här](https://download.macromedia.com/screens/) för att ladda ned den senaste Chrome Player.
+1. Klicka [här](https://download.macromedia.com/screens/) för att ladda ned den senaste Chrome Player.
 1. Zippa upp och spara det på disken.
-1. Öppna Chrome-webbläsaren och välj **Tillägg** från menyn eller direkt navigera till ***chrome://extensions***.
+1. Öppna Chrome-webbläsaren och klicka på **Tillägg** från menyn eller direkt navigera till ***chrome://extensions***.
 1. Aktivera **Utvecklarläge** från det övre högra hörnet.
-1. Välj **Läs in opackad** från det övre vänstra hörnet och läsa in uppzippad Chrome Player.
+1. Klicka **Läs in opackad** från det övre vänstra hörnet och läsa in uppzippad Chrome Player.
 1. Kontrollera om det finns i listan över tillägg **AEM Screens Chrome Player** plugin-program.
-1. Öppna en ny flik och välj **Appar** ikonen i det övre vänstra hörnet eller navigera direkt till ***chrome://apps***.
-1. Välj **AEM Screens** Plugin. Som standard startas spelaren i helskärmsläge. Tryck **Esc** för att avsluta helskärmsläget.
+1. Öppna en ny flik och klicka på **Appar** ikonen i det övre vänstra hörnet eller navigera direkt till ***chrome://apps***.
+1. Klicka på **AEM Screens** Plugin. Som standard startas spelaren i helskärmsläge. Tryck **Esc** för att avsluta helskärmsläget.
 
 ### 2. Hur felsöker jag om skärmspelaren inte kan autentisera via en publiceringsinstans med en anpassad felhanterare?
 
@@ -203,7 +203,7 @@ Inaktivera Livefyre för att undvika loggfel genom att göra följande.
 
    * Navigera till `https://<host>:<port>/system/console/bundles`.
    * Sök efter AEM Livefyre-paketet: `com.adobe.cq.social.cq-social-livefyre`.
-   * Välj **Stoppa**.
+   * Klicka **Stoppa**.
 
 1. ***Inaktivera Livefyre poller:***
 

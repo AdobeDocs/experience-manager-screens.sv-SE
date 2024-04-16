@@ -10,7 +10,7 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: d0a0b065-798e-4108-86ac-0a1f4e211cfc
-source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '290'
 ht-degree: 0%
@@ -50,7 +50,7 @@ Du kan manuellt använda bulkuppdatering offline från användargränssnittet (U
 Följ stegen nedan om du vill använda en bulkuppdatering för ett AEM Screens-projekt:
 
 1. Gå till ditt AEM Screens-projekt.
-1. Välj projektet och välj sedan **Uppdatera offlineinnehåll** i åtgärdsfältet så att du kan uppdatera kanalinnehållet manuellt.
+1. Klicka på projektet och sedan på **Uppdatera offlineinnehåll** i åtgärdsfältet så att du kan uppdatera kanalinnehållet manuellt.
 
    ![screen_shot_2018-04-24at122256pm](assets/screen_shot_2018-04-24at122256pm.png)
 
@@ -67,7 +67,7 @@ Följ stegen nedan om du vill använda en bulkuppdatering för ett AEM Screens-p
 
    **Projektsökväg** Ange sökvägen till ditt AEM Screens-projekt. Banan är vanligtvis `/content/screens/<Name of your project>`.
 
-   *Till exempel*, `/content/screens/we-retail`. Du hittar den här sökvägen i URL:en genom att välja ett projekt under AEM Screens (markera inte ikonen).
+   *Till exempel*, `/content/screens/we-retail`. Du hittar den här sökvägen i URL:en genom att välja ett projekt under AEM Screens (klicka inte på ikonen).
 
    >[!NOTE]
    >
@@ -75,4 +75,4 @@ Följ stegen nedan om du vill använda en bulkuppdatering för ett AEM Screens-p
 
    **Schemaläggningsfrekvens** Ange t.ex. en tidpunkt, 05:00 eller 17:00, då den här tjänsten ska uppdatera offlineinnehåll.
 
-1. Välj **Spara** för att spara inställningarna. Innehållet uppdateras vid den angivna tidpunkten.
+1. Klicka **Spara** för att spara inställningarna. Innehållet uppdateras vid den angivna tidpunkten.

@@ -4,7 +4,7 @@ description: Lär dig hur du konfigurerar agenter för skärmreplikering.
 role: Developer
 level: Intermediate
 exl-id: 40877547-5027-41eb-8d66-d4a2d7b9af70
-source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '462'
 ht-degree: 3%
@@ -36,17 +36,17 @@ Följ stegen nedan för att aktivera användare och uppdatera lösenordet för `
 
 1. Navigera till AEM Author-instansen.
 
-1. Välj verktyg > **Säkerhet** > **Användare**.
+1. Klicka på verktyg > **Säkerhet** > **Användare**.
 
    ![bild](/help/user-guide/assets/screens-replication/screens-replication1.png)
 
 1. Sök efter **`screens-receiver-user`**.
 
-1. Välj **`screens-receiver-user`** och markera **Aktivera** i åtgärdsfältet.
+1. Klicka på **`screens-receiver-user`** och klicka **Aktivera** i åtgärdsfältet.
 
    ![bild](/help/user-guide/assets/screens-replication/screens-replication2.png)
 
-1. Välj **OK** för att bekräfta.
+1. Klicka **OK** för att bekräfta.
 
    ![bild](/help/user-guide/assets/screens-replication/screens-replication3.png)
 
@@ -54,39 +54,39 @@ Följ stegen nedan för att aktivera användare och uppdatera lösenordet för `
 
    ![bild](/help/user-guide/assets/screens-replication/screens-replication4.png)
 
-1. Välj **`screens-receiver-user`** och markera **Egenskaper** i åtgärdsfältet.
+1. Klicka på **`screens-receiver-user`** och klicka **Egenskaper** i åtgärdsfältet.
 
    ![bild](/help/user-guide/assets/screens-replication/screens-replication5.png)
 
-1. Välj **Ändra lösenord** under **Kontoinställningar** från **Information** enligt bilden nedan.
+1. Klicka **Ändra lösenord** under **Kontoinställningar** från **Information** enligt bilden nedan.
 
    ![bild](/help/user-guide/assets/screens-replication/screens-replication6.png)
 
-1. Ange ett nytt lösenord i dialogrutan **Ändra lösenord** och välj **Spara**.
+1. Ange ett nytt lösenord i dialogrutan **Ändra lösenord** och klicka **Spara**.
 
    >[!NOTE]
    >Ange det befintliga administratörslösenordet i **Ditt lösenord** fält.
 
    ![bild](/help/user-guide/assets/screens-replication/screens-replication7.png)
 
-1. Välj **Spara och stäng**.
+1. Klicka **Spara och stäng**.
 
-1. Välj **`screens-receiver-user`** och markera **Aktivera** i åtgärdsfältet.
+1. Klicka på **`screens-receiver-user`** och klicka **Aktivera** i åtgärdsfältet.
 
    ![bild](/help/user-guide/assets/screens-replication/screens-replication8.png)
 
-1. Välj **OK** för att bekräfta.
+1. Klicka **OK** för att bekräfta.
 
    ![bild](/help/user-guide/assets/screens-replication/screens-replication9.png)
 
-1. Välj **`screens-receiver-user`** och markera **Inaktivera** i åtgärdsfältet.
+1. Klicka på **`screens-receiver-user`** och klicka **Inaktivera** i åtgärdsfältet.
 
    >[!IMPORTANT]
-   > Inaktiverar **`screens-receiver-user`** inaktiverar bara den här användaren från redigeringsinstansen och alla användare i publiceringsinstansen förblir aktiva. Markera inte **Inaktivera** från åtgärdsfältet, eftersom inaktivering tar bort användaren även från Publishing-instanserna.
+   > Inaktiverar **`screens-receiver-user`** inaktiverar bara den här användaren från redigeringsinstansen och alla användare i publiceringsinstansen förblir aktiva. Klicka inte **Inaktivera** från åtgärdsfältet, eftersom inaktivering tar bort användaren även från Publishing-instanserna.
 
    ![bild](/help/user-guide/assets/screens-replication/screens-replication10.png)
 
-1. Välj **OK** för att bekräfta.
+1. Klicka **OK** för att bekräfta.
 
 ## Uppdaterar inställningar för skärmreplikeringsagenten {#replicate-agent}
 
@@ -96,22 +96,22 @@ Följ avsnittet nedan för att uppdatera inställningarna i AEM Screens Replicat
 >Utför följande steg på ALLA befintliga AEM Screens-replikeringsagenter.
 
 1. Navigera till AEM.
-1. Välj verktyg > **Distribution** > **Replikering**.
+1. Klicka på verktyg > **Distribution** > **Replikering**.
 
    ![bild](/help/user-guide/assets/screens-replication/screens-replication1a.png)
 
-1. Välj **Agenter på författare**.
+1. Klicka **Agenter på författare**.
 
    ![bild](/help/user-guide/assets/screens-replication/screens-replication1b.png)
 
-1. Sök efter alla AEM Screens Replication-agenter på författaren och välj länken enligt bilden nedan.
+1. Sök efter alla AEM Screens Replikeringsagenter på författaren och klicka på länken enligt bilden nedan.
 
    >[!NOTE]
    >Sök efter alla AEM Screens-replikeringsagenter. Namnet på skärmreplikeringsagenten innehåller bokstaven **S** i titeln.
 
    ![bild](/help/user-guide/assets/screens-replication/screens-replication1c.png)
 
-1. Välj **Redigera**.
+1. Klicka **Redigera**.
 
    ![bild](/help/user-guide/assets/screens-replication/screens-replication1d.png)
 
@@ -123,9 +123,9 @@ Följ avsnittet nedan för att uppdatera inställningarna i AEM Screens Replicat
 
    ![bild](/help/user-guide/assets/screens-replication/screens-replication1-f.png)
 
-1. Välj **OK**.
+1. Klicka **OK**.
 
-1. När du är klar med stegen ovan väljer du **Testanslutning** för att verifiera anslutningen.
+1. När du är klar med de föregående stegen klickar du på **Testanslutning** för att verifiera anslutningen.
 
    ![bild](/help/user-guide/assets/screens-replication/screens-replication1g.png)
 

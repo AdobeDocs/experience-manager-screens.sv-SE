@@ -9,7 +9,7 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: dc9c5413-3b03-4f1f-bac5-aa599443254a
-source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '375'
 ht-degree: 0%
@@ -32,12 +32,12 @@ Du kan skapa ett schema för ditt skärmsprojekt som kan hantera alla aktivitete
 
 Följ stegen nedan för att skapa ett schema för din kanal:
 
-1. Klicka på länken Adobe Experience Manager (längst upp till vänster) och sedan på Skärmar. Du kan också gå direkt till: `http://localhost:4502/screens.html/content/screens`.
-1. Navigera till Skärmprojekt och välj **Scheman**.
-1. Välj **Skapa** i åtgärdsfältet.
-1. Välj **Schema** från **Skapa** guide och välj **Nästa**.
+1. Klicka på länken Adobe Experience Manager (överst till vänster) och sedan på Skärmar. Du kan också gå direkt till: `http://localhost:4502/screens.html/content/screens`.
+1. Navigera till Skärmprojekt och klicka **Scheman**.
+1. Klicka **Skapa** i åtgärdsfältet.
+1. Klicka **Schema** från **Skapa** guide och klicka **Nästa**.
 
-1. Ange **Namn** och **Titel** och markera **Skapa**.
+1. Ange **Namn** och **Titel** och klicka **Skapa**.
 
 Du kan se en schemamapp med det angivna namnet och titeln i ditt projekt.
 
@@ -52,14 +52,14 @@ Följ stegen nedan för att visa kontrollpanelen för schemat. I följande exemp
 
    ![chlimage_1](assets/chlimage_1.png)
 
-1. Välj **Kontrollpanel** i åtgärdsfältet.
+1. Klicka **Kontrollpanel** i åtgärdsfältet.
 
    Du kan visa tre olika paneler som **SCHEMALÄGGSINFORMATION**, **TILLDELADE KANALER** och **TILLDELADE VISNINGAR**.
 
    ![chlimage_1-1](assets/chlimage_1-1.png)
 
-   **Panelen Schemalägg information** Välj Egenskaper i det övre högra hörnet på SCHEMALÄGGNINGENS INFORMATIONspanel för att visa/ändra schemats egenskaper.
+   **Panelen Schemalägg information** Klicka på Egenskaper i det övre högra hörnet på SCHEMALÄGGNINGENS INFORMATIONspanel för att visa/ändra schemats egenskaper.
 
-   **Panelen Tilldelade kanaler** Välj +Tilldela kanal i det övre högra hörnet på panelen Tilldelade kanaler för att öppna dialogrutan Kanaltilldelning.
+   **Panelen Tilldelade kanaler** Klicka på +Tilldela kanal i det övre högra hörnet på panelen Tilldelade kanaler för att öppna dialogrutan Kanaltilldelning.
 
-   **Tilldelad visningspanel** Välj någon av visningslägena på panelen TILLDELADE VISNINGAR för att öppna kontrollpanelen.
+   **Tilldelad visningspanel** Klicka på någon av skärmarna på panelen TILLDELADE VISNINGAR för att öppna kontrollpanelen.

@@ -6,7 +6,7 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 5d112f33-a7cf-415e-9ea7-dc18a0356a8d
-source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '869'
 ht-degree: 0%
@@ -49,7 +49,7 @@ Följ stegen nedan för att konfigurera ett projekt:
 
    ![resurs](assets/p_usecase2.png)
 
-1. Välj **MainAdChannel** och markera **Redigera** i åtgärdsfältet. Dra och släpp resurser (bilder, videoklipp, inbäddade sekvenser) i kanalen.
+1. Klicka på **MainAdChannel** och klicka **Redigera** i åtgärdsfältet. Dra och släpp resurser (bilder, videoklipp, inbäddade sekvenser) i kanalen.
 
    ![resurs](assets/p_usecase3.png)
 
@@ -59,7 +59,7 @@ Följ stegen nedan för att konfigurera ett projekt:
 
 1. Skapa en **TakeOver** kanal som tar över innehållet i **MainAdChannel** och spelar varje onsdag från kl. 02.00 till kl. 17.00.
 
-1. Välj **TakeOver** och markera **Redigera** i åtgärdsfältet. Dra och släpp resurser i kanalen. I följande exempel visas en enzonsbild som lagts till i den här kanalen.
+1. Klicka på **TakeOver** och klicka **Redigera** i åtgärdsfältet. Dra och släpp resurser i kanalen. I följande exempel visas en enzonsbild som lagts till i den här kanalen.
 
    ![resurs](assets/p_usecase4.png)
 
@@ -69,26 +69,26 @@ Följ stegen nedan för att konfigurera ett projekt:
 
 **Tilldela kanaler till en visning**
 
-1. Välj visning **MainLobbyDisplay** från **Platser** mapp. Välj **Tilldela kanal** i åtgärdsfältet så att du kan öppna **Kanaltilldelning** -dialogrutan.
+1. Klicka på visningen **MainLobbyDisplay** från **Platser** mapp. Klicka **Tilldela kanal** i åtgärdsfältet så att du kan öppna **Kanaltilldelning** -dialogrutan.
 
    >[!NOTE]
    >Mer information om hur du tilldelar en kanal till en skärm finns i **[Kanaltilldelning](channel-assignment.md)**.
 
-1. Fyll i fälten (**Kanalsökväg**, **Prioritet** och **Händelser som stöds**) från **Kanaltilldelning** och välj **Spara** för att tilldela **MainAdChannel** på skärmen.
+1. Fyll i fälten (**Kanalsökväg**, **Prioritet** och **Händelser som stöds**) från **Kanaltilldelning** och klicka **Spara** för att tilldela **MainAdChannel** på skärmen.
 
-   * **Kanalsökväg**: Markera sökvägen till **MainAdChannel** kanal
+   * **Kanalsökväg**: Klicka på sökvägen till **MainAdChannel** kanal
    * **Prioritet**: Ange den här kanalens prioritet som 1.
-   * **Händelser som stöds**: Välj **Inledande inläsning** och **Inaktiv skärm**.
+   * **Händelser som stöds**: Klicka på **Inledande inläsning** och **Inaktiv skärm**.
 
    ![resurs](assets/p_usecase6.png)
 
-1. Välj visning **TakeOver** från **Platser** mapp. Välj **Tilldela kanal** från åtgärdsfältet så att du kan tilldela övertagandekanalen.
+1. Klicka på visningen **TakeOver** från **Platser** mapp. Klicka **Tilldela kanal** från åtgärdsfältet så att du kan tilldela övertagandekanalen.
 
 1. Tilldela **TakeOver** kanalen till din skärm vid en schemalagd tidpunkt och fyller i följande fält från **Kanaltilldelning** dialogruta och välja **Spara**:
 
-   * **Kanalsökväg**: Markera sökvägen till **TakeOver** kanal
+   * **Kanalsökväg**: Klicka på sökvägen till **TakeOver** kanal
    * **Prioritet**: Ange den här kanalens prioritet som är högre än **MainAdChannel**. Prioriteten i det här exemplet är till exempel 8.
-   * **Händelser som stöds**: Välj **Inaktiv skärm** och **Timer**.
+   * **Händelser som stöds**: Klicka på **Inaktiv skärm** och **Timer**.
    * **Schema**: Ange texten för schemat som du vill att den här kanalen ska köra visningen. Texten i **Schema** som nämns i det här exemplet *på onsdagen efter kl. 14.00 och före kl. 16.00*.
 
      >[!NOTE]
@@ -101,7 +101,7 @@ Följ stegen nedan för att konfigurera ett projekt:
 
      ![resurs](assets/p_usecase7.png)
 
-     Navigera till visningen från **TakeOver** > **Platser** > **MainLobby** > **MainLobbyDisplay** och markera **Kontrollpanel** i åtgärdsfältet så att du kan visa de tilldelade kanalerna med deras prioriteringar, vilket visas nedan.
+     Navigera till visningen från **TakeOver** > **Platser** > **MainLobby** > **MainLobbyDisplay** och klicka **Kontrollpanel** i åtgärdsfältet så att du kan visa de tilldelade kanalerna med deras prioriteringar, vilket visas nedan.
 
      >[!NOTE]
      >Det är obligatoriskt att ange övertagskanalens högsta prioritet.

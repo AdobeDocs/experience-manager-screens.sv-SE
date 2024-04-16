@@ -10,7 +10,7 @@ feature: Authoring Screens, Launches
 role: Admin, Developer
 level: Intermediate
 exl-id: b610e5dd-e0c6-45e6-bf9b-27be2054bc8f
-source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '1556'
 ht-degree: 0%
@@ -101,29 +101,29 @@ Följ stegen nedan för att implementera funktionen Screens Launch i ditt AEM Sc
 
    ![Bild](/help/user-guide/assets/launches-images/launches-11.png)
 
-1. Välj kanalen **FutureLaunch** och markera **Skapa start** i åtgärdsfältet.
+1. Klicka på kanalen **FutureLaunch** och klicka **Skapa start** i åtgärdsfältet.
 
    ![Bild](/help/user-guide/assets/launches-images/launches-12.png)
 
-1. The **Skapa start** öppnas. Du kan antingen välja kanalen som redan visas i guiden eller välja **+ Lägg till kanaler** om du vill lägga till kanalen som du vill skapa starten för.
+1. The **Skapa start** öppnas. Du kan antingen klicka på kanalen som redan visas i guiden eller klicka på **+ Lägg till kanaler** om du vill lägga till kanalen som du vill skapa starten för.
 
-1. Välj **Nästa** från **Skapa start** guide. The **Inkludera undersidor** är markerat som standard.
+1. Klicka **Nästa** från **Skapa start** guide. The **Inkludera undersidor** är markerat som standard.
 
    ![bild](/help/user-guide/assets/launches-images/launches-d.png)
 
    >[!NOTE]
    >Du kan använda **+ Lägg till kanaler** alternativ för att lägga till en annan kanal som du vill skapa starten för.
 
-   Används **Lägg till kanaler** , navigera till den kanal som du vill starta programmet för och markera **Välj**.
+   Används **Lägg till kanaler** , navigera till den kanal som du vill starta programmet för och klicka på **Välj**.
 
-   The **Välj** är inaktiverat om du försöker markera flera kanaler eller en mapp för att lägga till starten.
+   The **Välj** är inaktiverat om du försöker klicka på flera kanaler eller en mapp för att lägga till starten.
 
    ![bild](/help/user-guide/assets/launches-images/launches-14.png)
 
-   När du har valt kanalen/kanalerna väljer du **Nästa**.
+   När du klickat på kanalen/kanalerna klickar du på **Nästa**.
 
 
-1. Ange **Starta titel** as **Sommarkampanjer** och du behöver inte ange **Startdatum**, vilket visas i figuren nedan. Välj **Skapa**.
+1. Ange **Starta titel** as **Sommarkampanjer** och du behöver inte ange **Startdatum**, vilket visas i figuren nedan. Klicka **Skapa**.
 
    >[!NOTE]
    >
@@ -148,7 +148,7 @@ Följ stegen nedan för att implementera funktionen Screens Launch i ditt AEM Sc
      >
      >Lansering av live-datum respekterar spelarens/enhetens tidszon i stället för serverns.
 
-1. Observera att du har startat programmet. Du kan antingen välja **Öppna** för att visa sidorna i redigeraren eller välja **Klar** för att gå tillbaka till ditt projekt.
+1. Observera att du har startat programmet. Du kan antingen klicka **Öppna** för att visa sidorna i redigeraren eller klicka på **Klar** för att gå tillbaka till ditt projekt.
 
    ![screen_shot_2019-06-25at20355pm](assets/screen_shot_2019-06-25at20355pm.png)
 
@@ -167,15 +167,15 @@ När lanseringen har skapats kan du uppdatera egenskaperna, till exempel live-da
 
 Följ stegen nedan för att redigera startegenskaperna:
 
-1. Navigera till kanalen **FutureLaunch** *(väntande start)* och välj kanalen enligt bilden nedan.
+1. Navigera till kanalen **FutureLaunch** *(väntande start)* och klicka på kanalen enligt bilden nedan.
 
    ![bild](/help/user-guide/assets/launches-images/launches-17.png)
 
-1. Välj **Kontrollpanel** i åtgärdsfältet visas **VÄNTANDE START** från kanalkontrollpanelen.
+1. Klicka **Kontrollpanel** i åtgärdsfältet visas **VÄNTANDE START** från kanalkontrollpanelen.
 
    ![bild](/help/user-guide/assets/launches-images/launches-18.png)
 
-1. Välj programstart och välj **Startegenskaper** från **VÄNTANDE START** -panelen.
+1. Klicka på startsidan och klicka på **Startegenskaper** från **VÄNTANDE START** -panelen.
 
    ![bild](/help/user-guide/assets/launches-images/launches-19.png)
 
@@ -183,7 +183,7 @@ Följ stegen nedan för att redigera startegenskaperna:
 
 När du har skapat starten kan du lägga till eller ta bort kanaler i den befintliga starten med **Redigera start** alternativ.
 
-När du är klar väljer du **Spara** för att gå tillbaka till **FutureLaunch** kanal.
+Klicka på **Spara** för att gå tillbaka till **FutureLaunch** kanal.
 
 ### Marknadsför att starta skärmar manuellt{#promote-the-screens-launch-manually}
 
@@ -199,8 +199,8 @@ Du kan välja vilka resurser du vill befordra som en del av den här manuella be
    * **Befordra ändrade sidor** - Endast ändrade startresurser befordras. Använd det här alternativet när startgranskning inte krävs.
    * **Befordra godkända sidor** - Det här alternativet kräver att arbetsflödet för godkännande vid start körs på startkanalerna. Endast godkända sidor befordras vid angivet live-datum.
    * **Höj upp aktuell sida** - Det här alternativet kräver att arbetsflödet för godkännande vid start endast körs för den aktuella sidan.
-1. Välj **Nästa** i **Promote Launch** guide.
-1. Välj **Befordra** för att marknadsföra lanseringen.
+1. Klicka **Nästa** i **Promote Launch** guide.
+1. Klicka **Befordra** för att marknadsföra lanseringen.
 
 ### Ta bort skärmstart
 

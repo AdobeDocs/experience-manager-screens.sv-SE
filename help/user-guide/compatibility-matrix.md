@@ -4,7 +4,7 @@ description: Läs mer om AEM Screens Players och deras respektive AEM Screens-ve
 page-status-flag: de-activated
 contentOwner: jsyal
 docset: aem65
-source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '301'
 ht-degree: 0%
@@ -45,7 +45,7 @@ I följande avsnitt visas Adobe Experience Manager (AEM) skärmuppspelare med re
 
 ### Hämta länk {#download-link}
 
-Välj nedladdningslänk för iOS Player:
+Klicka på nedladdningslänk för iOS Player:
 
 aem-screens-player-ios-3.3.0.ipa.zip
 
@@ -76,7 +76,7 @@ aem-screens-player-ios-3.3.0.ipa.zip
 
 ### Hämta länk {#download-link-1}
 
-Välj nedladdningslänk för Windows 10 Player:
+Klicka på nedladdningslänk för Windows 10 Player:
 
 aem-screens-player-windows-1.0.48-signed.exe.zip
 
@@ -92,7 +92,7 @@ aem-screens-player-windows-1.0.48-signed.exe.zip
 
 ### Hämta länk {#download-link-2}
 
-Välj nedladdningslänk för Android™ Player:
+Klicka på nedladdningslänk för Android™ Player:
 
 aem-screens-player-android-3.3.0.apk.zip
 

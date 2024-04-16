@@ -8,7 +8,7 @@ feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: 184168f5-6070-4c33-a2c5-5429061dac75
-source-git-commit: 10375baae631d46e9003240149a3e16d5605e7b6
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '844'
 ht-degree: 0%
@@ -38,7 +38,7 @@ Installationen av Cloud Player kan variera mellan olika plattformar. I allmänhe
 
    ![bild](/help/user-guide/assets/cloud-player-install.png)
 
-1. Välj installationsikonen och installationsknappen i bekräftelsedialogrutan. Cloud Player installeras som ett fristående program på enheten och kan startas med en ikon.
+1. Klicka på installationsikonen och installationsknappen i bekräftelsedialogrutan. Cloud Player installeras som ett fristående program på enheten och kan startas med en ikon.
 
 >[!NOTE]
 >
@@ -71,7 +71,7 @@ Läs mer om massetablering i Chrome OS på [Installera Cloud Player på Chrome O
 
 ## Konfiguration krävs för AEM instanser {#bulk-provisioning-config-aem}
 
-Beroende på vilken typ av AEM som används väljer du en av följande stödlinjer för att aktivera CORS b/w AEM &amp; cloud player:
+Beroende på vilken typ av AEM som används kan du aktivera CORS b/w AEM &amp; cloud player genom att klicka på någon av följande stödlinjer:
 * [AEM On-Premises/AMS](https://www.adobe.com/go/aem_screens_cors_ams_en)
 * [AEM Cloud Service](https://www.adobe.com/go/aem_screens_cors_aemaacs_en)
 

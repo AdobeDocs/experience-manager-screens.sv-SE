@@ -9,7 +9,7 @@ feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: 4faac090-ad8a-4d7e-a502-6fb63f6b2761
-source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '1057'
 ht-degree: 1%
@@ -32,11 +32,11 @@ Du kan konfigurera inställningar för enheten från enhetskontrollpanelen, som 
 
 1. Navigera till kontrollpanelen för enheten från ditt projekt, till exempel ***Testa projekt*** > ***Enheter***.
 
-   Välj **Enheter** och **Enhetshanteraren** i åtgärdsfältet.
+   Klicka **Enheter** och **Enhetshanteraren** i åtgärdsfältet.
 
    ![chlimage_1-66](assets/chlimage_1-66.png)
 
-1. Välj enheten så att du kan öppna enhetskontrollpanelen.
+1. Klicka på enheten så att du kan öppna enhetens kontrollpanel.
 
    ![chlimage_1-67](assets/chlimage_1-67.png)
 
@@ -58,7 +58,7 @@ Om du vill visa administratörsgränssnittet från skärmspelaren trycker du lä
 
 #### Åtkomst till alternativen på menyn Konfiguration {#configuration-options}
 
-Du kan uppdatera dina konfigurationer om du väljer **Konfiguration** från sidomenyn, enligt bilden nedan:
+Du kan uppdatera dina konfigurationer om du klickar på **Konfiguration** från sidomenyn, enligt bilden nedan:
 
 ![screen_shot_2018-10-15at101257am](assets/screen_shot_2018-10-15at101257am.png)
 
@@ -86,7 +86,7 @@ På menyn Konfiguration kan du ändra följande inställningar:
 
 Du kan rensa cache för kanaler och program från administratörsgränssnittet i AEM Screens Player.
 
-Välj **Innehållscache** från sidospåret så att du kan uppdatera cachen.
+Klicka på **Innehållscache** från sidospåret så att du kan uppdatera cachen.
 
 ![screen_shot_2018-10-15at105717am](assets/screen_shot_2018-10-15at105717am.png)
 

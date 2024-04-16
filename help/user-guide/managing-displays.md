@@ -9,7 +9,7 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: c55dc128-208d-4379-95a8-60a39d495dc0
-source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '659'
 ht-degree: 0%
@@ -38,11 +38,11 @@ På den här sidan visas hur du skapar och hanterar skärmar.
 >Skapa en plats innan du skapar en visning. Se [Skapa och hantera platser](managing-locations.md) för mer information.
 
 1. Navigera till lämplig plats, till exempel `http://localhost:4502/screens.html/content/screens/TestProject`.
-1. Välj din platsmapp och välj **Skapa** bredvid plusikonen i åtgärdsfältet.
-1. Välj **Visa** från **Skapa** guide, välj **Nästa**.
+1. Klicka på din platsmapp och klicka på **Skapa** bredvid plusikonen i åtgärdsfältet.
+1. Klicka **Visa** från **Skapa** guide, klicka sedan på **Nästa**.
 1. Retur **Namn** och **Titel** för din visningsplats.
 1. Under **Visa** väljer du information om layouten. Välj önskat **Upplösning**, till exempel **Full HD**. Välj antalet enheter vågrätt och lodrätt.
-1. Välj **Skapa**.
+1. Klicka **Skapa**.
 
 Visningen (*StoreDisplay*) skapas och läggs till på platsen (*SanJose*).
 
@@ -63,12 +63,12 @@ När du har visat på plats är nästa steg att skapa en enhetskonfiguration fö
 En enhetskonfiguration fungerar som platshållare för en faktisk digital signeringsenhet som inte är installerad än.
 
 1. Navigera till lämplig visning, till exempel `http://localhost:4502/screens.html/content/screens/TestProject/locations/newlocation`.
-1. Välj visningsmapp och välj **Visa instrumentpanel** i åtgärdsfältet.
-1. Välj **+ Lägg till enhetskonfiguration** överst till höger på **Enheter** -panelen.
+1. Klicka på visningsmappen och klicka på **Visa instrumentpanel** i åtgärdsfältet.
+1. Klicka **+ Lägg till enhetskonfiguration** överst till höger på **Enheter** -panelen.
 
-1. Välj **Enhetskonfiguration** som den obligatoriska mallen som och väljer **Nästa**.
+1. Klicka på **Enhetskonfiguration** som önskad mall och klicka på **Nästa**.
 
-1. Ange egenskaperna efter behov och välj **Skapa**.
+1. Ange egenskaperna efter behov och klicka på **Skapa**.
 
 Enhetskonfigurationen skapas och läggs till i den aktuella skärmen (i följande exempel är den nya enhetskonfigurationen *DeviceConfig*).
 
@@ -92,9 +92,9 @@ På kontrollpanelen visas olika paneler för att hantera visningsenheter och enh
 
 >[!NOTE]
 >
->Du kan välja kontrollpanelslistor och aktivera massåtgärder för objekt, i stället för att gå igenom varje objekt individuellt.
+>Du kan klicka på kontrollpanelens listor och aktivera massåtgärder för objekt, i stället för att gå igenom varje objekt individuellt.
 >
->I följande bild visas hur du kan välja flera kanaler från kontrollpanelen.
+>I följande bild visas hur du kan klicka på flera kanaler från kontrollpanelen.
 
 ![cqdoc9456](assets/cqdoc9456.gif)
 
@@ -102,12 +102,12 @@ På kontrollpanelen visas olika paneler för att hantera visningsenheter och enh
 
 The **VISNINGSINFORMATION** Panelen innehåller visningsegenskaperna.
 
-Markera (**...**) i det övre högra hörnet i **VISNINGSINFORMATION** så att du kan visa egenskaperna och förhandsgranska visningen.
+Klicka (**...**) i det övre högra hörnet i **VISNINGSINFORMATION** så att du kan visa egenskaperna och förhandsgranska visningen.
 
 
 #### Visningsegenskaper {#viewing-properties}
 
-Välj **Egenskaper** så att du kan visa eller ändra egenskaperna för visningen.
+Klicka **Egenskaper** så att du kan visa eller ändra egenskaperna för visningen.
 
 Du kan även justera händelsens timervärde för den interaktiva kanalen i **Timeout för inaktivitet** egenskap under **Visa** -fliken. Standardvärdet är *300 sekunder*.
 
@@ -123,9 +123,9 @@ The **TILLDELADE KANALER** visas de tilldelade kanalerna för den här enheten.
 
 The **ENHETER** Panelen innehåller information om enhetskonfigurationerna.
 
-Markera (**...**) i det övre högra hörnet i **ENHETER** så att du kan lägga till enhetskonfigurationer och uppdatera enheter.
+Klicka (**...**) i det övre högra hörnet i **ENHETER** så att du kan lägga till enhetskonfigurationer och uppdatera enheter.
 
-Markera även enhetskonfigurationen om du vill visa egenskaper, tilldela en enhet eller ta bort den helt.
+Klicka också på enhetskonfigurationen för att visa egenskaper, tilldela en enhet eller ta bort den helt.
 
 ![chlimage_1-13](assets/chlimage_1-13.png)
 

@@ -2,7 +2,7 @@
 title: Uppspelningstid för bild på projektnivå
 description: Lär dig hur du definierar uppspelningstiden för bilder på projektnivå.
 contentOwner: jsyal
-source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '327'
 ht-degree: 0%
@@ -43,10 +43,10 @@ I avsnittet nedan beskrivs hur du redigerar uppspelningstiden för innehåll i e
 
 Följ stegen nedan för att lära dig hur du uppdaterar bilduppspelningstiden på projektnivå:
 
-1. Navigera till ditt projekt **ProjektNivåUppspelning** och markera **Egenskaper** i åtgärdsfältet.
+1. Navigera till ditt projekt **ProjektNivåUppspelning** och klicka **Egenskaper** i åtgärdsfältet.
    ![resurser](assets/image_playback3.png)
 
-1. Markera alla bilder i kanalen och välj skiftnyckelsikonen i det övre vänstra hörnet (som bilden nedan visar) så att du kan öppna dialogrutan Konfigurera kanalnivå.
+1. Klicka på alla bilder i kanalen och klicka på skiftnyckelsikonen högst upp till vänster (som bilden nedan visar) så att du kan öppna dialogrutan Konfigurera kanalnivå.
 
    ![screen_shot_2019-06-25at95945am](assets/screen_shot_2019-06-25at95945am.png)
 

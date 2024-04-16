@@ -5,7 +5,7 @@ feature: Authoring Screens, Channel Assignment
 role: Admin, Developer
 level: Intermediate
 exl-id: 6ed86bfc-38c7-4ced-b472-db2a362585c5
-source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '1174'
 ht-degree: 0%
@@ -32,11 +32,11 @@ Följ stegen nedan för att tilldela en kanal till en skärm:
 
    ![bild](assets/screen_shot_2018-08-23at25359pm.png)
 
-1. Välj **Tilldela kanal** i åtgärdsfältet.
+1. Klicka **Tilldela kanal** i åtgärdsfältet.
 
    eller
 
-   Välj **Kontrollpanel** och markera **+Tilldela kanal** från **TILLDELADE KANALER** så att du kan öppna **Kanaltilldelning** -dialogrutan.
+   Klicka **Kontrollpanel** och klicka **+Tilldela kanal** från **TILLDELADE KANALER** så att du kan öppna **Kanaltilldelning** -dialogrutan.
 
    ![bild](/help/user-guide/assets/channel-assign1.png)
 
@@ -78,7 +78,7 @@ Prioritet används för att ordna tilldelningarna om flera matchar uppspelningsv
 
 Som innehållsförfattare anger du när en kanal avbryts så att du kan välja att klippa ut icke-kritiskt innehåll, men om du vill kan du låta viktigt innehåll spelas upp innan uppspelningen avbryts på grund av schemaläggning.
 
-Välj något av följande alternativ som är tillgängliga för att ställa in avbrottsmetoden på menyn **Kanaltilldelning** dialogruta:
+Klicka på ett av följande alternativ som är tillgängliga för att ange avbrottsmetoden i dialogrutan **Kanaltilldelning** dialogruta:
 
 * **Omedelbart** - När schemat aktiveras eller en uppdatering tas emot kan du avbryta uppspelningen och omedelbart uppdatera eller spela upp det nya innehållet.
 * **Vid slutet av aktuell artikel** - När ett nytt schema aktiveras eller en uppdatering tas emot kan du välja att vänta tills det aktuella objektet i sekvensen har spelats upp. Först därefter kan du uppdatera eller spela upp det nya innehållet.

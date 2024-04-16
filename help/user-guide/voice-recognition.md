@@ -5,7 +5,7 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 6cf0aa9f-7bac-403f-a113-51727c1f5374
-source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '1088'
 ht-degree: 1%
@@ -57,7 +57,7 @@ Innan du använder funktionen för röstigenkänning bör du kontrollera att du 
 
    ![bild](assets/voice-recognition/vr-emb-1.png)
 
-1. Navigera till var och en av kanalerna och lägg till innehåll. Navigera till exempel **VoiceDemo** > **Kanaler** > **Huvud** och markera kanalen. Välj **Redigera** i åtgärdsfältet och lägg sedan till innehåll (bilder/videor) efter behov. Lägg på samma sätt till innehåll i båda **ColdDrinks** och **HotDrinks** kanal.
+1. Navigera till var och en av kanalerna och lägg till innehåll. Navigera till exempel **VoiceDemo** > **Kanaler** > **Huvud** och klicka på kanalen. Klicka **Redigera** i åtgärdsfältet och lägg sedan till innehåll (bilder/videor) efter behov. Lägg på samma sätt till innehåll i båda **ColdDrinks** och **HotDrinks** kanal.
 
    Kanalerna innehåller nu resurser (bilder), vilket visas i figurerna nedan.
 
@@ -83,13 +83,13 @@ När du har lagt till innehåll i kanalerna navigerar du till var och en av kana
 
 Följ stegen nedan för att lägga till taggar i din kanal:
 
-1. Navigera till var och en av kanalerna och lägg till innehåll. Navigera till exempel **VoiceDemo** > **Kanaler** > **Huvud** och markera kanalen.
+1. Navigera till var och en av kanalerna och lägg till innehåll. Navigera till exempel **VoiceDemo** > **Kanaler** > **Huvud** och klicka på kanalen.
 
-1. Välj **Egenskaper** i åtgärdsfältet.
+1. Klicka **Egenskaper** i åtgärdsfältet.
 
    ![bild](assets/voice-recognition/vr-5.png)
 
-1. Navigera till **Grunderna** väljer du en befintlig tagg på fliken **Taggar** eller skapa ett.
+1. Navigera till **Grunderna** klickar du på en befintlig tagg på **Taggar** eller skapa ett.
 
    Du kan antingen skapa en tagg genom att ange ett nytt namn för taggen och trycka på `return` enligt figuren nedan:
 
@@ -97,7 +97,7 @@ Följ stegen nedan för att lägga till taggar i din kanal:
 
    Eller
 
-   Du kan också skapa taggar från AEM i förväg för ditt projekt och sedan markera dem. När du har följt de steg som beskrivs i [Skapa taggar](#creating-tags)kan du markera taggen från platsen och lägga till den i kanalen, vilket visas i bilden nedan:
+   Du kan också skapa taggar från AEM i förväg för ditt projekt och klicka på dem. När du har följt de steg som beskrivs i [Skapa taggar](#creating-tags)kan du klicka på taggen från platsen och lägga till den i kanalen, vilket visas i bilden nedan:
 
    ![bild](assets/voice-recognition/vr-tag1.png)
 
@@ -107,7 +107,7 @@ Följ stegen nedan för att lägga till taggar i din kanal:
 
    ![bild](assets/voice-recognition/vr-emb-7.png)
 
-1. Välj **Spara och stäng** när du är klar.
+1. Klicka **Spara och stäng** när du är klar.
 
 
 ### Skapa taggar {#creating-tags}
@@ -116,18 +116,18 @@ Skapa taggar genom att följa stegen nedan:
 
 1. Navigera till AEM.
 
-1. Välj verktygsikon > **Taggning**.
+1. Klicka på verktygsikonen > **Taggning**.
    ![bild](assets/voice-recognition/vr-7.png)
 
-1. Välj **Skapa** > **Skapa namnutrymme**.
+1. Klicka **Skapa** > **Skapa namnutrymme**.
    ![bild](assets/voice-recognition/vr-tag3.png)
 
-1. Ange namnet på projektet, till exempel **VoiceDemo** och markera **Skapa**.
+1. Ange namnet på projektet, till exempel **VoiceDemo** och klicka **Skapa**.
 
-1. Välj **VoiceDemo** projekt och välj **Skapa tagg** i åtgärdsfältet.
+1. Klicka på **VoiceDemo** projekt och klicka på **Skapa tagg** i åtgärdsfältet.
    ![bild](assets/voice-recognition/vr-tag4.png)
 
-1. Ange namnet på taggen och välj **Skicka**.
+1. Ange namnet på taggen och klicka på **Skicka**.
    ![bild](assets/voice-recognition/vr-tag5.png)
 
 Nu kan du använda de här taggarna i ditt AEM Screens-projekt.
@@ -159,7 +159,7 @@ Nu kan du använda de här taggarna i ditt AEM Screens-projekt.
    >
    >Mer information om hur du tilldelar en kanal till en skärm finns i [Skapa och hantera skärmar](/help/user-guide/managing-displays.md).
 
-1. När du har tilldelat kanaler till en visning går du till **LobbyDisplay** och väljer visningen. Välj **Egenskaper** i åtgärdsfältet.
+1. När du har tilldelat kanaler till en visning går du till **LobbyDisplay** och klicka på visningen. Klicka **Egenskaper** i åtgärdsfältet.
 
 1. Navigera till **Visa** och aktivera **Röstaktivering** option under **Innehåll**.
 

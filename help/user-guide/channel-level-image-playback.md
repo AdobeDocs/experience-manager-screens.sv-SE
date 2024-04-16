@@ -10,7 +10,7 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 95aa761a-1449-4e18-8115-3b151036dc54
-source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '336'
 ht-degree: 0%
@@ -45,7 +45,7 @@ Följ stegen nedan för att lära dig hur du uppdaterar tilldelning för bildspe
 
    ![screen_shot_2019-06-24at62818pm](assets/screen_shot_2019-06-24at62818pm.png)
 
-1. Välj **Redigera** i åtgärdsfältet.
+1. Klicka **Redigera** i åtgärdsfältet.
 
    ![screen_shot_2019-06-24at70141pm](assets/screen_shot_2019-06-24at70141pm.png)
 
@@ -53,7 +53,7 @@ Följ stegen nedan för att lära dig hur du uppdaterar tilldelning för bildspe
 
    ![screen_shot_2019-06-24at90534pm](assets/screen_shot_2019-06-24at90534pm.png)
 
-1. Markera alla bilder i kanalen och välj skiftnyckelsikonen i det övre vänstra hörnet (som bilden nedan visar) så att du kan öppna dialogrutan Konfigurera på kanalnivå.
+1. Klicka på alla bilder i kanalen och klicka på skiftnyckelsikonen högst upp till vänster (som bilden nedan visar) så att du kan öppna dialogrutan Konfigurera på kanalnivå.
 
    ![screen_shot_2019-06-25at95945am](assets/screen_shot_2019-06-25at95945am.png)
 
@@ -64,7 +64,7 @@ Följ stegen nedan för att lära dig hur du uppdaterar tilldelning för bildspe
 
    ![screen_shot_2019-06-25at100343am](assets/screen_shot_2019-06-25at100343am.png)
 
-   Redigera **Varaktighet** från 8 000 (millisekunder) till 3 000 (millisekunder), dvs. 3 sekunder. Markera bockmarkeringen längst upp till höger i dialogrutan **Sida** så att du kan spara ändringarna.
+   Redigera **Varaktighet** från 8 000 (millisekunder) till 3 000 (millisekunder), dvs. 3 sekunder. Klicka på bockmarkeringen längst upp till höger på **Sida** så att du kan spara ändringarna.
 
    ![screen_shot_2019-06-25at101527am](assets/screen_shot_2019-06-25at101527am.png)
 

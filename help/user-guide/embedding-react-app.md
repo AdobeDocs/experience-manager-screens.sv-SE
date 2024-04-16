@@ -10,7 +10,7 @@ feature: Developing Screens
 role: Developer
 level: Intermediate
 exl-id: 7dc7d07e-cd94-4ce1-a106-98669be62046
-source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '681'
 ht-degree: 0%
@@ -77,11 +77,11 @@ Följ stegen nedan för att lägga till den interaktiva REACT-appen i AEM Screen
    >
    >Se till att du lägger till användarinteraktionshändelsen när du tilldelar kanalen till visningen.
 
-1. Välj **Redigera** i åtgärdsfältet så att du kan redigera kanalens egenskaper.
+1. Klicka **Redigera** i åtgärdsfältet så att du kan redigera kanalens egenskaper.
 
    ![screen_shot_2019-02-15at100555am](assets/screen_shot_2019-02-15at100555am.png)
 
-1. Dra och släpp **Inbäddad sida** eller återanvända den befintliga komponenten i en programkanal, och markera startsidan under mysamplespa-programmet, till exempel ***/content/mysamplespa/en/home***.
+1. Dra och släpp **Inbäddad sida** eller återanvända den befintliga komponenten i en programkanal och klicka på startsidan under mysamplespa-programmet, till exempel ***/content/mysamplespa/en/home***.
 
    ![screen_shot_2019-02-15at10104am](assets/screen_shot_2019-02-15at101104am.png)
 
@@ -103,7 +103,7 @@ Följ stegen nedan för att integrera SPA med Adobe Analytics med offlinefunktio
    Se [Konfigurera Adobe Analytics med AEM Screens](configuring-adobe-analytics-aem-screens.md) om du vill ha mer information om hur du utför sekvensering i Adobe Analytics med AEM Screens och skickar anpassade händelser med Adobe Analytics offline.
 
 1. Redigera din reaktionsapp i den utvecklingsmiljö/redigerare du väljer (särskilt textkomponenten eller någon annan komponent som du vill börja skicka händelser för).
-1. Lägg till analysinformationen med standarddatamodellen i select-händelsen eller i någon annan händelse som du vill hämta för komponenten.
+1. Lägg till analysinformationen med standarddatamodellen i klickhändelsen eller i någon annan händelse som du vill hämta för komponenten.
 
    Se [Konfigurera Adobe Analytics med AEM Screens](configuring-adobe-analytics-aem-screens.md) för mer information.
 

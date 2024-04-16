@@ -6,7 +6,7 @@ feature: Developing Screens
 role: Developer
 level: Intermediate
 exl-id: 3f4813f8-0438-4ce0-9046-84025de0ddd1
-source-git-commit: c142830a37461a36baae15f543bd43b0ae8a62a7
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '849'
 ht-degree: 1%
@@ -71,7 +71,7 @@ Följ stegen nedan för att skapa en `Left20-LandscapeHD3Zone` Layout för ett A
    ![bild](/help/user-guide/assets/custom-multizone/custom-template1.png)
 
    >[!NOTE]
-   >Välj **Spara alla** från åtgärdsfältet i CRXDE Lite varje gång du skapar, redigerar eller kopierar innehåll till någon av noderna. Annars kan du inte genomföra uppdateringarna.
+   >Klicka **Spara alla** från åtgärdsfältet i CRXDE Lite varje gång du skapar, redigerar eller kopierar innehåll till någon av noderna. Annars kan du inte genomföra uppdateringarna.
 
 1. Kopiera mallen längst till vänster från `/libs/screens/core/templates/splitscreenchannel/lbar-left` till `/apps/customtemplate/template`.
 
@@ -140,11 +140,11 @@ Följ stegen nedan för att skapa en `Left20-LandscapeHD3Zone` Layout för ett A
 
 Följ stegen nedan för att använda ovanstående anpassade mall i ditt AEM Screens-projekt:
 
-1. Navigera till skärmsprojektet som du skapade i steg (1) och välj **Kanaler** mapp.
+1. Navigera till skärmsprojektet som du skapade i steg 1 och klicka på **Kanaler** mapp.
 
    ![bild](/help/user-guide/assets/custom-multizone/custom-template8.png)
 
-1. Välj **Skapa** i åtgärdsfältet och välj mallen **`Left20-LandscapeHD3Zone`** från **Skapa** guide.
+1. Klicka **Skapa** från åtgärdsfältet och klicka på mallen **`Left20-LandscapeHD3Zone`** från **Skapa** guide.
 
    ![bild](/help/user-guide/assets/custom-multizone/custom-template9.png)
 

@@ -5,7 +5,7 @@ feature: Authoring Screens, Channel Assignment
 role: Admin, Developer
 level: Intermediate
 exl-id: 346eec9a-e291-4b0d-9686-fee1d5a0e7dd
-source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '1448'
 ht-degree: 0%
@@ -44,7 +44,7 @@ Följ stegen nedan för att konfigurera ett projekt och en kanal:
 
 1. Skapa en sekvenskanal med namnet **Cafeteria** i **Kanaler** mapp.
 
-1. Markera kanalen och välj sedan **Redigera** i åtgärdsfältet.
+1. Klicka på kanalen och sedan på **Redigera** i åtgärdsfältet.
 
    ![bild](/help/user-guide/assets/channel-assignment/channel-assign-fp2.png)
 
@@ -62,13 +62,13 @@ När projektkonfigurationen är klar tilldelar du kanalen till en visning för a
 
 1. Navigera till önskad visning, till exempel **DemoScreens** > **Platser** > **SanJose** > **Lobby**.
 
-1. Välj **Tilldela kanal** i åtgärdsfältet.
+1. Klicka **Tilldela kanal** i åtgärdsfältet.
 
    ![bild](/help/user-guide/assets/channel-assignment/channel-assign-fp5.png)
 
    Eller
 
-   Välj **Kontrollpanel** i åtgärdsfältet och välj **+Tilldela kanal** från **TILLDELADE KANALER OCH SCHEMAN** -panelen.
+   Klicka **Kontrollpanel** i åtgärdsfältet och klicka på **+Tilldela kanal** från **TILLDELADE KANALER OCH SCHEMAN** -panelen.
 
    ![bild](/help/user-guide/assets/channel-assignment/channel-assign-fp6.png)
 
@@ -84,14 +84,14 @@ När projektkonfigurationen är klar tilldelar du kanalen till en visning för a
    >
    >Mer information om kanaltilldelningsegenskaper finns i [Kanalegenskaper](#channel-properties) -avsnitt.
 
-1. Från **Schema** väljer du **Aktiveringsfönster** och **Återkommande schema**.
+1. Från **Schema** klickar du på **Aktiveringsfönster** och **Återkommande schema**.
    ![bild](/help/user-guide/assets/channel-assignment/channel-assign-fp8.png)
 
    >[!NOTE]
    >
    >Mer information om kanaltilldelningsegenskaper finns i [Kanalegenskaper](#channel-properties) -avsnitt.
 
-1. Välj **Spara** när du har konfigurerat dina inställningar.
+1. Klicka **Spara** när du har konfigurerat dina inställningar.
 
 ### Visa innehållet i Chrome Player {#viewing-content-output}
 
@@ -111,11 +111,11 @@ Följ stegen nedan för att navigera till tidslinjevyn:
 
 1. Navigera till önskad visning, till exempel **DemoScreens** > **Platser** > **SanJose** > **Lobby**.
 
-1. Välj **Tilldela kanal** i åtgärdsfältet.
+1. Klicka **Tilldela kanal** i åtgärdsfältet.
 
    Eller
 
-   Välj **Kontrollpanel** och markera **Tidslinje** från **TILLDELADE KANALER OCH SCHEMAN** -panelen.
+   Klicka **Kontrollpanel** och klicka **Tidslinje** från **TILLDELADE KANALER OCH SCHEMAN** -panelen.
 
    ![bild](/help/user-guide/assets/channel-assignment/timeline-1.png)
 
@@ -181,7 +181,7 @@ I aktiveringsfönstret kan du välja en **Startdatum** och **Slutdatum** för at
 
 ### Återkommande schema {#recurrence-schedule}
 
-Med upprepningsschemat kan du ange ett återkommande schema för ditt innehåll. Välj **+ Lägg till schema** för att lägga till ett upprepningsschema i kanalen.
+Med upprepningsschemat kan du ange ett återkommande schema för ditt innehåll. Klicka **+ Lägg till schema** för att lägga till ett upprepningsschema i kanalen.
 
 >[!NOTE]
 >Du kan lägga till flera återkommande scheman i din kanal.

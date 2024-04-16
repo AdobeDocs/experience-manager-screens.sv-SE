@@ -9,7 +9,7 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 10749ff2-9128-44e7-9f10-c8e783a6f695
-source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '238'
 ht-degree: 5%
@@ -36,26 +36,26 @@ Följ stegen nedan för att tilldela en enhet till en skärm:
 
    ![chlimage_1-32](assets/chlimage_1-32.png)
 
-1. Välj **Enheter** mapp och markera **Enhetshanteraren** i åtgärdsfältet. De tilldelade och ej tilldelade enheterna visas.
+1. Klicka på **Enheter** mapp och klicka på **Enhetshanteraren** i åtgärdsfältet. De tilldelade och ej tilldelade enheterna visas.
 
    ![chlimage_1-33](assets/chlimage_1-33.png)
 
-1. Välj en ej tilldelad enhet i listan och välj **Tilldela enhet** i åtgärdsfältet.
+1. Klicka på en ej tilldelad enhet i listan och klicka på **Tilldela enhet** i åtgärdsfältet.
 
    ![chlimage_1-34](assets/chlimage_1-34.png)
 
-1. Välj den skärm som du vill tilldela enheten till i listan och välj **Tilldela**.
+1. Klicka på den skärm som du vill tilldela enheten till i listan och klicka på knappen **Tilldela**.
 
    ![chlimage_1-35](assets/chlimage_1-35.png)
 
-1. Välj **Slutför** för att slutföra tilldelningsprocessen.
+1. Klicka på **Slutför** för att slutföra tilldelningsprocessen.
 
 
    På kontrollpanelen visas den tilldelade enheten i **ENHETER** -panelen.
 
    ![chlimage_1-37](assets/chlimage_1-37.png)
 
-   Välj (**...**) i det övre högra hörnet av **ENHETER** för att antingen lägga till enhetskonfiguration eller uppdatera enheterna.
+   Klicka på (**...**) i det övre högra hörnet av **ENHETER** för att antingen lägga till enhetskonfiguration eller uppdatera enheterna.
 
    ![chlimage_1-38](assets/chlimage_1-38.png)
 

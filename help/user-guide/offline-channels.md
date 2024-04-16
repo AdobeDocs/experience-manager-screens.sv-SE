@@ -10,7 +10,7 @@ feature: Developing Screens
 role: Developer
 level: Intermediate
 exl-id: 5ad1046f-8b64-490b-9966-ce9008180d54
-source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '425'
 ht-degree: 1%
@@ -78,10 +78,10 @@ The ***ContentSync*** använder uppdateringshanterare för att analysera och sam
 Följ stegen nedan för att testa ContentSync-konfigurationen:
 
 1. Öppna `https://localhost:4502/libs/cq/contentsync/content/console.html`
-1. Välj din konfiguration i listan
-1. Välj Rensa cache
-1. Välj uppdateringscache
-1. Välj Ladda ned fullständigt
+1. Klicka på konfigurationen i listan
+1. Klicka på Rensa cache
+1. Klicka på Uppdatera cache
+1. Klicka på Hämta fullständig
 1. Extrahera zip-filen
 1. Starta en lokal server i den extraherade mappen
 1. Öppna din startsida och kontrollera din appstatus
@@ -95,16 +95,16 @@ Följ stegen nedan för att aktivera offlinekonfiguration för en kanal:
    ![chlimage_1-24](assets/chlimage_1-24.png)
 
 1. Navigera till kanalkontrollpanelen.
-1. Välj **...** i **KANALINFORMATION** Panel.
+1. Klicka **...** i **KANALINFORMATION** Panel.
 
    ![chlimage_1-25](assets/chlimage_1-25.png)
 
 1. Navigera till kanalegenskaperna.
-1. Kontrollera att kryssrutan är inaktiverad under fliken (Kanal) och välj sedan **Spara och stäng**.
+1. Kontrollera att kryssrutan är inaktiverad på fliken (Kanal) och klicka sedan på **Spara och stäng**.
 
    ![screen_shot_2017-12-19at122422pm](assets/screen_shot_2017-12-19at122422pm.png)
 
-   Innan innehållet distribueras på rätt sätt till enheten väljer du **Uppdatera offlineinnehåll**.
+   Innan innehållet distribueras till enheten klickar du på **Uppdatera offlineinnehåll**.
 
    ![screen_shot_2017-12-19at122637pm](assets/screen_shot_2017-12-19at122637pm.png)
 

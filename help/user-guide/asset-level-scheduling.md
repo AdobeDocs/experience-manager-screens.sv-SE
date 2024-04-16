@@ -5,7 +5,7 @@ feature: Authoring Screens, Asset Level Activation
 role: Admin, Developer
 level: Intermediate
 exl-id: a2f5b2cc-6797-4397-b49c-72175a2d2ef7
-source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '1460'
 ht-degree: 0%
@@ -50,7 +50,7 @@ Aktivering på tillgångsnivå görs genom att konfigurera **Aktivering** när d
 
 Följ stegen nedan för att utföra planering på tillgångsnivå:
 
-1. Välj valfri kanal och välj sedan **Redigera** i åtgärdsfältet.
+1. Klicka på valfri kanal och klicka sedan på **Redigera** i åtgärdsfältet.
 
    ![screen_shot_2018-04-23at11422am](/help/user-guide/assets/asset-activation/asset-level1.png)
 
@@ -61,19 +61,19 @@ Följ stegen nedan för att utföra planering på tillgångsnivå:
    >* Skapa ett projekt, se [Skapa ett nytt projekt](creating-a-screens-project.md).
    >* Skapa och lägga till innehåll i en kanal, se [Hantera kanaler](managing-channels.md).
 
-1. Välj **Redigera** så att du kan öppna kanalredigeraren och välja en resurs som du vill använda schemaläggningen på.
+1. Klicka **Redigera** så att du kan öppna kanalredigeraren och klicka på en resurs som du vill använda schemaläggningen på.
 
    ![bild](/help/user-guide/assets/asset-activation/asset-level2.png)
 
-1. Markera resursen och välj sedan överst till vänster **Konfigurera** (skiftnyckelsikon).
+1. Klicka på resursen och klicka sedan på uppe till vänster **Konfigurera** (skiftnyckelsikon).
 
-   Välj **Aktivering** -fliken.
+   Klicka på **Aktivering** -fliken.
 
    ![bild](/help/user-guide/assets/asset-activation/asset-level3.png)
 
 1. Du kan ange datumet från datumväljaren med **Aktiv från** och **Aktiv tills** fält.
 
-   Om du väljer **Aktiv från** och **Aktiv tills** datum och tid, visar och gör en slinga endast mellan startdatumet/tiden respektive slutdatumet/sluttiden.
+   Klicka på **Aktiv från** och **Aktiv tills** datum och tid, visar och gör en slinga endast mellan startdatumet/tiden respektive slutdatumet/sluttiden.
 
    ![bild](/help/user-guide/assets/asset-activation/asset-level3.png)
 
@@ -85,7 +85,7 @@ Anta att du bara vill visa en bild på fredag från 1:00 till 10:00. Du kan anv�
 
 ### Dag-parsning {#day-parting}
 
-1. Markera resursen och välj **Konfigurera** (skiftnyckelsikon) för att öppna dialogrutan Egenskaper.
+1. Klicka på resursen och klicka på **Konfigurera** (skiftnyckelsikon) för att öppna dialogrutan Egenskaper.
 
 1. När du har angett startdatum/tid och slutdatum/tid kan du använda ett uttryck eller en naturlig textversion för att ange upprepningsschemat.
 
@@ -111,7 +111,7 @@ I följande tabell sammanfattas några exempeluttryck som du kan lägga till i s
 
 ### WeekParting {#week-parting}
 
-1. Markera resursen och välj sedan **Konfigurera** (skiftnyckelsikon).
+1. Klicka på resursen och sedan på **Konfigurera** (skiftnyckelsikon).
 
 1. När du har angett startdatum/tid och slutdatum/tid kan du använda ett uttryck eller en naturlig textversion för att ange upprepningsschemat.
 
@@ -136,7 +136,7 @@ I följande tabell sammanfattas några exempeluttryck som du kan lägga till i s
 
 ### MånadDelning {#month-parting}
 
-1. Markera resursen och välj sedan **Konfigurera** (skiftnyckelsikon).
+1. Klicka på resursen och sedan på **Konfigurera** (skiftnyckelsikon).
 
 1. När du har angett startdatum/tid och slutdatum/tid kan du använda ett uttryck eller en naturlig textversion för att ange upprepningsschemat.
 
@@ -159,7 +159,7 @@ I följande tabell sammanfattas några exempeluttryck som du kan lägga till i s
 
 ### Kombination av partner {#combined-parting}
 
-1. Markera resursen och välj sedan **Konfigurera** (skiftnyckelsikon).
+1. Klicka på resursen och sedan på **Konfigurera** (skiftnyckelsikon).
 
 1. När du har angett startdatum/tid och slutdatum/tid kan du använda ett uttryck eller en naturlig textversion för att ange upprepningsschemat.
 
@@ -189,7 +189,7 @@ I följande tabell sammanfattas några exempeluttryck som du kan lägga till i s
 >
 >The **Multi-asset Activation** feature is only available if you have installed AEM 6.3 Feature Pack 5 or AEM 6.4 Feature Pack 3. -->
 
-***Aktivering av flera resurser*** gör att användaren kan välja flera resurser och tillämpa ett uppspelningsschema på alla markerade resurser.
+***Aktivering av flera resurser*** gör att användaren kan klicka på flera resurser och tillämpa ett uppspelningsschema på alla markerade resurser.
 
 ### Förutsättningar {#prerequisites}
 
@@ -200,21 +200,21 @@ Skapa ett AEM Screens-projekt med en sekvenskanal om du vill använda multimedie
 
 ![screen_shot_2018-12-21at70128am](assets/screen_shot_2018-12-21at70128am.png)
 
-Följ stegen nedan för att välja flera resurser och schemalägga hur de ska visas i ett AEM Screens-projekt:
+Följ stegen nedan för att klicka på flera resurser och schemalägga hur de ska visas i ett AEM Screens-projekt:
 
-1. Välj **MultiAssetChannel** väljer **Redigera** i åtgärdsfältet.
+1. Klicka **MultiAssetChannel** och sedan klicka **Redigera** i åtgärdsfältet.
 
    ![screen_shot_2018-12-21at70313am](assets/screen_shot_2018-12-21at70313am.png)
 
-1. Markera flera resurser i redigeraren och välj sedan **Redigera aktivering** (ikon längst upp till vänster).
+1. Klicka på flera resurser i redigeraren och klicka sedan på **Redigera aktivering** (ikon längst upp till vänster).
 
    ![screen_shot_2018-12-21at70550am](assets/screen_shot_2018-12-21at70550am.png)
 
-1. Välj datum och tid i **Aktiv från** och **Aktiv tills** från **Komponentaktivering** -dialogrutan. Markera bockmarkeringsikonen när du är klar med att välja scheman.
+1. Klicka på datumet och tiden i **Aktiv från** och **Aktiv tills** från **Komponentaktivering** -dialogrutan. Klicka på bockmarkeringsikonen när du är klar med att välja scheman.
 
    ![screen_shot_2018-12-17at20337pm](assets/screen_shot_2018-12-17at20337pm.png)
 
-1. Välj Uppdatera om du vill kontrollera de resurser som används i ett schema för flera resurser.
+1. Klicka på Uppdatera för att kontrollera de resurser som används i ett schema för flera resurser.
 
    >[!NOTE]
    >
@@ -232,12 +232,12 @@ Detta gör att innehållsförfattaren kan ange att uppspelning av en viss resurs
 
 Global åsidosättning för universell starttid görs genom att konfigurera **Aktivering** när du får åtkomst till egenskaper för en resurs. Följ stegen nedan för att utföra en global åsidosättning för resursplanering:
 
-1. Välj valfri kanal och välj sedan **Redigera** i åtgärdsfältet så att du kan lägga till eller redigera innehåll i kanalen.
+1. Klicka på valfri kanal och klicka sedan på **Redigera** i åtgärdsfältet så att du kan lägga till eller redigera innehåll i kanalen.
 
    ![screen_shot_2018-04-23at11422am](/help/user-guide/assets/asset-activation/asset-level1.png)
 
-1. Välj **Redigera**.
-1. I kanalredigeraren väljer du en resurs vars schema du vill använda.
+1. Klicka **Redigera**.
+1. Klicka på en resurs vars schema du vill använda i kanalredigeraren.
 
    ![screen_shot_2018-12-21at70550am](/help/user-guide/assets/asset-activation/Asset-level4.png)
 

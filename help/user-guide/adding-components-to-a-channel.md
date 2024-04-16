@@ -10,7 +10,7 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 56dbe098-05db-4fc3-977f-e50a0a312d64
-source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '1402'
 ht-degree: 0%
@@ -31,10 +31,10 @@ När du skapar ett AEM Screens-projekt visas en lista med standardkomponenter so
 
 Följ stegen nedan om du vill visa standardkomponenterna för ditt skärmsprojekt:
 
-1. Markera kanalen. Till exempel: **`We.Retail In Store`** > **Kanaler** > **Inaktiv kanal**.
+1. Klicka på kanalen. Till exempel: **`We.Retail In Store`** > **Kanaler** > **Inaktiv kanal**.
 
-1. Välj **Redigera** i åtgärdsfältet.
-1. I AEM Editor väljer du **+** -ikonen från sidorutan.
+1. Klicka **Redigera** i åtgärdsfältet.
+1. I AEM Editor klickar du på **+** -ikonen från sidorutan.
 1. Alla komponenter som ingår som standard i ett AEM Screens-projekt visas, vilket visas i bilden nedan.
 
 ![screen_shot_2017-12-18at21350pm](assets/screen_shot_2017-12-18at21350pm.png)
@@ -45,12 +45,12 @@ AEM innehåller flera andra komponenter. Du kan alltid lägga till andra kompone
 
 I följande exempel visas hur en Livefyre-komponent läggs till i ett AEM Screens-projekt:
 
-1. Markera kanalen där du vill lägga till en komponent. Till exempel: **`We.Retail In Store`** > **Kanaler** > **Inaktiv kanal**.
+1. Klicka på den kanal där du vill lägga till en komponent. Till exempel: **`We.Retail In Store`** > **Kanaler** > **Inaktiv kanal**.
 
-1. Välj **Redigera** i åtgärdsfältet.
-1. Välj **Design** läge.
-1. Markera hela designredigeraren till höger och välj inställningssymbolen så att du kan öppna **Parsys Design** -dialogrutan.
-1. Du kan välja vilka komponenter du vill importera till ditt AEM Screens-projekt. I följande exempel visas tillägget **Livefyre** till ett AEM Screens-projekt.
+1. Klicka **Redigera** i åtgärdsfältet.
+1. Klicka **Design** läge.
+1. Klicka på hela designredigeraren till höger och klicka på inställningssymbolen så att du kan öppna **Parsys Design** -dialogrutan.
+1. Du kan klicka på de komponenter du vill importera till ditt AEM Screens-projekt. I följande exempel visas tillägget **Livefyre** till ett AEM Screens-projekt.
 
 ![adding_components](assets/adding_components.gif)
 
@@ -64,7 +64,7 @@ I följande avsnitt förklaras vilka AEM Screens-komponenter du kan använda i d
 
 >[!NOTE]
 >
->Om du vill visa egenskaperna för en komponent markerar du komponenten och väljer hammikonen för att öppna/visa egenskaper.
+>Om du vill visa egenskaperna för en komponent klickar du på komponenten och sedan på hamsikonen för att öppna/visa egenskaper.
 
 ### Program {#application}
 
@@ -74,8 +74,8 @@ Programkomponenten har följande egenskaper:
 
 | **Egenskap** | **Beskrivning** |
 |---|---|
-| ***Programsökväg*** | Välj den absoluta sökvägen där programmet finns. |
-| ***Varaktighet (millisekunder)*** | Välj varaktighet för programmet. Som standard är längden inställd på -1, vilket innebär att elementet körs för alltid (det vill säga ett enkelsidigt program). Om du ställer in varaktighetsvärdet >0 visas elementet för den angivna varaktigheten och fortsätter sedan till nästa. |
+| ***Programsökväg*** | Klicka på den absoluta sökvägen där programmet finns. |
+| ***Varaktighet (millisekunder)*** | Klicka på programmets varaktighet. Som standard är längden inställd på -1, vilket innebär att elementet körs för alltid (det vill säga ett enkelsidigt program). Om du ställer in varaktighetsvärdet >0 visas elementet för den angivna varaktigheten och fortsätter sedan till nästa. |
 
 I följande exempel visas hur du bäddar in en programkomponent tillsammans med förhandsgranskningen av dess egenskaper:
 
@@ -193,7 +193,7 @@ Den dynamiska inbäddade sekvensen har följande egenskaper:
 
 ### Experience Fragment {#experience-fragment}
 
-Med ett Experience Fragment kan du lägga till ett Experience Fragment (en grupp med en eller flera komponenter, inklusive innehåll och layout som kan refereras på sidor) i din AEM Screens-kanal. Dra och släpp komponenten till AEM Editor och välj Experience Fragment.
+Med ett Experience Fragment kan du lägga till ett Experience Fragment (en grupp med en eller flera komponenter, inklusive innehåll och layout som kan refereras på sidor) i din AEM Screens-kanal. Dra och släpp komponenten till AEM Editor och klicka på Experience Fragment.
 
 Mer information om hur du skapar en Experience Fragment och använder den i ett AEM Screens-projekt finns i [Använda upplevelsefragment](experience-fragments-in-screens.md).
 
@@ -221,7 +221,7 @@ Bildresursen har tre flikar, nämligen **Bild**, **Tillgänglighet** och **Sekve
 | **Egenskap** | **Beskrivning** |
 |---|---|
 | **Bild** |
-| ***Bildresurs*** | Välj bildresurs. |
+| ***Bildresurs*** | Klicka på bildresursen. |
 | ***Titel*** | Bildens namn. |
 | ***Länka till*** | Lägg till en länk till bilden. |
 | ***Beskrivning*** | Kort beskrivning av bilden. |
@@ -239,7 +239,7 @@ I följande bild visas övergångskomponenten (som lagts till med dra och släpp
 
 ![screen_shot_2019-07-25at104237am](assets/screen_shot_2019-07-25at104237am.png)
 
-Markera övergångsikonen och välj **Konfigurera** (skiftnyckelsikon) för att öppna **Övergång** -dialogrutan. Den här dialogrutan innehåller tre flikar:
+Klicka på övergångsikonen och klicka på **Konfigurera** (skiftnyckelsikon) för att öppna **Övergång** -dialogrutan. Den här dialogrutan innehåller tre flikar:
 
 * **Övergång**
 * **Sekvens**
@@ -316,7 +316,7 @@ Videokomponenten har följande egenskaper:
   </tr>
   <tr>
    <td><em><strong>Videoresurs</strong></em></td>
-   <td>Markera länken till videon.</td>
+   <td>Klicka på länken till videon.</td>
   </tr>
   <tr>
    <td><em><strong>Varaktighet</strong></em></td>

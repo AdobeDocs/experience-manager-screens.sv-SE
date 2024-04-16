@@ -5,7 +5,7 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: e1794013-59ce-4ddc-93c0-601668c75cd1
-source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '897'
 ht-degree: 0%
@@ -46,7 +46,7 @@ Se [Tilldelningsrapport för innehåll](/help/user-guide/content-assignment-repo
 
 * **Adaptiva renderingar**
 
-  Med adaptiva renderingar kan enheterna automatiskt välja den bästa renderingen för en enhet baserat på kunddefinierade regler.
+  Med adaptiva renderingar kan enheterna automatiskt klicka på den bästa renderingen för en enhet baserat på kunddefinierade regler.
 
   Som AEM Screens-utvecklare kan du nu konfigurera enhetsspecifika resursrenderingar så att de hämtas och spelas upp automatiskt utan att du behöver skapa alla innehållsvarianter manuellt. Se [Adaptiva renderingar: Arkitektur - översikt och konfigurationer](/help/user-guide/adaptive-renditions.md) för mer information.
 
@@ -60,7 +60,7 @@ Se [Tilldelningsrapport för innehåll](/help/user-guide/content-assignment-repo
 
       * Navigera till CRXDE Lite i Författare och Publicera.
 
-      * Välj Verktyg > Fråga.
+      * Klicka på Verktyg > Fråga.
 
       * Använd `/jcr:root/var/eventing/jobs/assgined//element(*,slingevent:Job)[\@event.job.topic='screens/offline_content_update']`.
 

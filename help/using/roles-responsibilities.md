@@ -2,7 +2,7 @@
 title: AEM Screens projektroller och ansvarsområden
 description: Läs om AEM Screens projektroller och ansvarsområden.
 exl-id: 9377625b-529a-4b46-89d9-f526de398639
-source-git-commit: 3c4b37b3b9f268b500562fa4ce3782b7be1e7d74
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '1241'
 ht-degree: 0%
@@ -47,7 +47,7 @@ En ljud-/videointegratör ansvarar för att utföra identifieringar med slutkund
 
 #### Övervägande av maskinvarupartner {#selecting-hardware-partner}
 
-Det är viktigt att välja rätt maskinvarupartner. Följande frågor måste beaktas:
+Det är viktigt att klicka på rätt maskinvarupartner. Följande frågor måste beaktas:
 
 1. Vilka är villkoren i servicenivåavtalet?
 

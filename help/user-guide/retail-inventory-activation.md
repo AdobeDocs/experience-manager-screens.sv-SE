@@ -10,7 +10,7 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 926f529b-f3cf-471d-83b4-6ccb628cf160
-source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '578'
 ht-degree: 0%
@@ -50,19 +50,19 @@ Följ stegen nedan för att implementera användningsexemplet för butikslagerak
 
    1. Lägg till tre nya segment **For_Red**, **For_Green** och **För_blå**.
 
-   1. Välj **For_Red** och markera **Redigera** i åtgärdsfältet.
+   1. Klicka **For_Red** och klicka **Redigera** i åtgärdsfältet.
 
    1. Dra och släpp **Comparison : Property - Property** till redigeraren.
-   1. Välj **Konfiguration** -ikon.
-   1. Välj **googlesheets/value/1/2** från listrutan i **Första egenskapsnamnet**.
-   1. Välj **Operator** as **större än** i listrutan.
-   1. Välj **Datatyp** as **tal**.
-   1. Välj **googlesheets/value/1/1** från listrutan i **Andra egenskapsnamnet**.
-   1. Dra och släppa **en annan jämförelse: property - property** till redigeraren och väljer **Konfiguration** -ikon.
-   1. Välj **googlesheets/value/1/2** från listrutan i **Första egenskapsnamnet**.
-   1. Välj **Operator** as **större än** i listrutan.
-   1. Välj **Datatyp** as **tal**.
-   1. Välj **googlesheets/value/1/0** från listrutan i **Andra egenskapsnamnet**.
+   1. Klicka på **Konfiguration** -ikon.
+   1. Klicka **googlesheets/value/1/2** från listrutan i **Första egenskapsnamnet**.
+   1. Klicka på **Operator** as **större än** i listrutan.
+   1. Klicka **Datatyp** as **tal**.
+   1. Klicka **googlesheets/value/1/1** från listrutan i **Andra egenskapsnamnet**.
+   1. Dra och släppa **en annan jämförelse: property - property** till redigeraren och klicka på **Konfiguration** -ikon.
+   1. Klicka **googlesheets/value/1/2** från listrutan i **Första egenskapsnamnet**.
+   1. Klicka på **Operator** as **större än** i listrutan.
+   1. Klicka **Datatyp** as **tal**.
+   1. Klicka **googlesheets/value/1/0** från listrutan i **Andra egenskapsnamnet**.
 
    ![screen_shot_2019-05-06at102600am](assets/screen_shot_2019-05-06at102600am.png)
 
@@ -78,8 +78,8 @@ Följ stegen nedan för att implementera användningsexemplet för butikslagerak
    >
    >Observera att för segment **For_Green** och **For_Green** går det inte att matcha data i redigeraren eftersom endast den första jämförelsen är giltig från och med nu enligt värdena i Google Sheet.
 
-1. Navigera och markera **DataDrivenRetail** kanal (en sekvenskanal).
-1. Välj **Redigera** i åtgärdsfältet.
+1. Navigera och klicka på **DataDrivenRetail** kanal (en sekvenskanal).
+1. Klicka **Redigera** i åtgärdsfältet.
 
    ![screen_shot_2019-05-06at104257am](assets/screen_shot_2019-05-06at104257am.png)
 
@@ -91,13 +91,13 @@ Följ stegen nedan för att implementera användningsexemplet för butikslagerak
 
    >[!NOTE]
    >
-   >Markera båda **Varumärke** och **Område** för att aktiviteterna ska visas korrekt när du startar målprocessen.
+   >Klicka på båda **Varumärke** och **Område** för att aktiviteterna ska visas korrekt när du startar målprocessen.
 
 1. **Lägga till en standardbild**
 
-   1. Lägg till en standardbild i kanalen och välj **Målinriktning**.
-   1. Välj **Varumärke** och **Aktivitet** i listrutan och väljer **Börja målinrikta**.
-   1. Välj **Börja målinrikta**.
+   1. Lägg till en standardbild i kanalen och klicka på **Målinriktning**.
+   1. Klicka **Varumärke** och **Aktivitet** i listrutan och klicka på **Börja målinrikta**.
+   1. Klicka **Börja målinrikta**.
 
    ![screen_shot_2019-05-06at121253pm](assets/screen_shot_2019-05-06at121253pm.png)
 
@@ -113,7 +113,7 @@ Följ stegen nedan för att implementera användningsexemplet för butikslagerak
 
 1. **Kontrollera förhandsvisningen**
 
-   1. Välj **Förhandsgranska.** Du kan även öppna Google Sheet och uppdatera värdet.
+   1. Klicka **Förhandsgranska.** Du kan även öppna Google Sheet och uppdatera värdet.
    1. Ändra värdet för alla tre olika kolumner. Lägg märke till att visningsbilden uppdateras enligt det högsta värdet i lagret.
 
    ![retail_result](assets/retail_result.gif)

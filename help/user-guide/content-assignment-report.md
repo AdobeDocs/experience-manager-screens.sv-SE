@@ -5,7 +5,7 @@ feature: Authoring Screens
 role: Developer
 level: Intermediate
 exl-id: 7397aa99-97fc-45c2-a157-c1bd7b1700b5
-source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '355'
 ht-degree: 0%
@@ -45,9 +45,9 @@ När du har konfigurerat ditt AEM Screens-projekt och har tilldelat visningar f�
 
 Följ instruktionerna nedan för att hämta rapporten för innehållstilldelning:
 
-1. Navigera till ditt AEM Screens-projekt och markera projektet **DemoScreens**.
+1. Navigera till ditt AEM Screens-projekt och klicka på projektet **DemoScreens**.
 
-1. Välj **Tilldelningsrapport för innehåll** i åtgärdsfältet.
+1. Klicka **Tilldelningsrapport för innehåll** i åtgärdsfältet.
 
    ![bild](/help/user-guide/assets/content-assignment-report/can-download.png)
 

@@ -9,7 +9,7 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 752c74d7-5d6d-4363-97ef-b96e97d2f6b1
-source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '363'
 ht-degree: 0%
@@ -30,13 +30,13 @@ Du kan generera manuella och automatiska Full HD-renderingar. I följande avsnit
 
 Följ stegen nedan för att automatiskt generera fullständiga HD-renderingar:
 
-1. Markera länken Adobe Experience Manager (överst till vänster) och markera hammikonen så att du kan välja **Arbetsflöde**.
+1. Klicka på länken Adobe Experience Manager (överst till vänster) och klicka på hamsikonen så att du kan klicka **Arbetsflöde**.
 
-   Välj **Models**.
+   Klicka **Models**.
 
    ![screen_shot_2018-02-01at123407pm](assets/screen_shot_2018-02-01at123407pm.png)
 
-1. I arbetsflödesmodellhanteringen väljer du **DAM-uppdateringsresurs** modell och markera **Redigera** i åtgärdsfältet.
+1. Klicka på knappen **DAM-uppdateringsresurs** modell och klicka **Redigera** i åtgärdsfältet.
 
    ![step5_-_edit_thedamupdateassetmodel](assets/step5_-_edit_thedamupdateassetmodel.png)
 
@@ -44,18 +44,18 @@ Följ stegen nedan för att automatiskt generera fullständiga HD-renderingar:
 
    ![screen_shot_2018-02-01at124454pm](assets/screen_shot_2018-02-01at124454pm.png)
 
-1. Välj **Process** -fliken.
+1. Klicka på **Process** -fliken.
 1. Ange de fullständiga HD-profilerna i listan **Argument** som följande:
    ***`,profile:fullhd-bp,profile:fullhd-hp`***
-1. Välj **OK**.
+1. Klicka **OK**.
 
    ![screen_shot_2018-02-02at103340am](assets/screen_shot_2018-02-02at103340am.png)
 
-1. Välj **Spara** längst upp till vänster i **DAM-uppdateringsresurs** skärm.
+1. Klicka **Spara** längst upp till vänster i **DAM-uppdateringsresurs** skärm.
 
    ![screen_shot_2018-02-02at101830am](assets/screen_shot_2018-02-02at101830am.png)
 
-1. Navigera till **Resurser** och ladda upp en ny video. Markera videon och öppna sidolisten Återgivningar. Lägg märke till de två HD-videorna.
+1. Navigera till **Resurser** och ladda upp en ny video. Klicka på videon och öppna sidolisten Återgivningar. Lägg märke till de två HD-videorna.
 
    ![step10_-_open_thevideoasset](assets/step10_-_open_thevideoasset.png)
 
@@ -71,21 +71,21 @@ Följ stegen nedan för att automatiskt generera fullständiga HD-renderingar:
 
 Följ stegen nedan om du vill generera fullständiga HD-renderingar manuellt:
 
-1. Markera länken Adobe Experience Manager (längst upp till vänster) och markera hammikonen så att du kan välja verktyg och välja **Arbetsflöde**.
+1. Klicka på länken Adobe Experience Manager (längst upp till vänster) och klicka på hammikonen så att du kan klicka på verktygen och klicka på **Arbetsflöde**.
 
-   Välj **Models**.
+   Klicka **Models**.
 
    ![screen_shot_2018-02-01at123407pm-1](assets/screen_shot_2018-02-01at123407pm-1.png)
 
-1. I arbetsflödesmodellhantering väljer du **Skärmar - uppdatera resurs** och väljer **Starta arbetsflöde** för att öppna **Kör arbetsflöde** -dialogrutan.
+1. Klicka på knappen **Skärmar - uppdatera resurs** och klicka på **Starta arbetsflöde** för att öppna **Kör arbetsflöde** -dialogrutan.
 
    ![step5_-_start_a_newscreensupdateassetworkflow](assets/step5_-_start_a_newscreensupdateassetworkflow.png)
 
-1. Välj önskad video i **Nyttolast** och markera **Kör**.
+1. Klicka på önskad video i **Nyttolast** och klicka **Kör**.
 
    ![step6_-_select_thedesiredvideo](assets/step6_-_select_thedesiredvideo.png)
 
-1. Navigera till **Resurser**, gå ned till resursen och markera den.
+1. Navigera till **Resurser**, gå ned till resursen och klicka på den.
 
    ![step7_-_open_thevideoasset](assets/step7_-_open_thevideoasset.png)
 

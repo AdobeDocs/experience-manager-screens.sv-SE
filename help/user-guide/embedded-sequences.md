@@ -10,7 +10,7 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: cdfaee19-15d9-4bcb-bc85-0b43c59d88d2
-source-git-commit: 299018986ae58ecbdb51a30413222a9682fffc76
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '771'
 ht-degree: 0%
@@ -42,13 +42,13 @@ Du kan lägga till en inbäddad sekvens i kanalen. En inbäddad sekvens är en a
 
 Följ stegen nedan för att lägga till en inbäddad sekvens i kanalen:
 
-1. Markera kanalen där du vill bädda in en sida. Till exempel: **`We.Retail`I butik** > **Kanaler** > **Inaktiv kanal**.
+1. Klicka på den kanal där du vill bädda in en sida. Till exempel: **`We.Retail`I butik** > **Kanaler** > **Inaktiv kanal**.
 
-1. Välj **Redigera** i åtgärdsfältet.
-1. I redigeringsläget väljer du komponentikonen i det vänstra fältet så att du kan lägga till den inbäddade sidan. Dra och släpp **Inbäddad sekvens** till redigeraren.
+1. Klicka **Redigera** i åtgärdsfältet.
+1. Klicka på komponentikonen i det vänstra fältet i redigeringsläget så att du kan lägga till den inbäddade sidan. Dra och släpp **Inbäddad sekvens** till redigeraren.
 1. Dubbelklicka på **Inbäddad sekvens** så att du kan lägga till kanalen i den ursprungliga sekvenskanalen.
-1. Välj **Kanalsökväg** av kanalen.
-1. Välj **Varaktighet (millisekunder)** för den inbäddade kanalen i **Sekvens** -fliken. Som standard är längden inställd på **-1**, vilket innebär att inbäddad kanal körs helt. Om användaren anger en varaktighet avbryts efterföljande (d.v.s. den avbryts) vid den angivna tidpunkten.
+1. Klicka på **Kanalsökväg** av kanalen.
+1. Klicka på **Varaktighet (millisekunder)** för den inbäddade kanalen i **Sekvens** -fliken. Som standard är längden inställd på **-1**, vilket innebär att inbäddad kanal körs helt. Om användaren anger en varaktighet avbryts efterföljande (d.v.s. den avbryts) vid den angivna tidpunkten.
 
 1. Ange **Metered Playback Strategy** till **normal**.
 
@@ -60,15 +60,15 @@ Som standard är den inställd på **normal**. Ange värdet till **normal** (Spe
 >
 >Följ stegen nedan när du har lagt till en inbäddad sekvens i kanalen från de föregående stegen:
 >
->1. Navigera till visningen och välj visningen från **Platser** mapp.
->1. Välj **Kontrollpanel** i åtgärdsfältet.
->1. På kontrollpanelen väljer du **+ Tilldela kanaler** från **TILLDELADE KANALER OCH SCHEMALAGDA PANELER** så att du kan öppna **Dialogrutan Kanaltilldelning**.
+>1. Navigera till visningen och klicka på visningen från **Platser** mapp.
+>1. Klicka **Kontrollpanel** i åtgärdsfältet.
+>1. Klicka på **+ Tilldela kanaler** från **TILLDELADE KANALER OCH SCHEMALAGDA PANELER** så att du kan öppna **Dialogrutan Kanaltilldelning**.
 >
->1. Markera banan för kanalen som du (används i inbäddad sekvens) i **Kanalsökväg**.
+>1. Klicka på banan för kanalen som du (används i inbäddad sekvens) i **Kanalsökväg**.
 >1. Se till att **Prioritet** är lägre än huvudkanalen.
 >
->1. Markera inga **Händelser som stöds**.
->1. Välj **Spara** när det är klart.
+>1. Klicka inte på någon **Händelser som stöds**.
+>1. Klicka **Spara** när det är klart.
 >
 
 I följande exempel visas tillägget av en inbäddad sekvens (**Inaktiv kanal - Natt**) till en befintlig kanal (**Inaktiv kanal**).
@@ -87,16 +87,16 @@ Du kan lägga till en dynamisk inbäddad sekvens i kanalen. En dynamisk inbädda
 
 Följ stegen nedan för att lägga till en inbäddad sekvens i kanalen:
 
-1. Markera kanalen där du vill bädda in en dynamisk sekvens. Till exempel: **`We.Retail`I butik** > **Kanaler** > **Inaktiv kanal**.
+1. Klicka på den kanal där du vill bädda in en dynamisk sekvens. Till exempel: **`We.Retail`I butik** > **Kanaler** > **Inaktiv kanal**.
 
-1. Välj **Redigera** i åtgärdsfältet.
-1. I redigeringsläget väljer du komponentikonen i det vänstra fältet så att du kan lägga till den dynamiska inbäddade sekvensen. Dra och släpp **Dynamisk** **Inbäddad sekvens** till redigeraren.
+1. Klicka **Redigera** i åtgärdsfältet.
+1. Klicka på komponentikonen i det vänstra fältet i redigeringsläget så att du kan lägga till den dynamiska inbäddade sekvensen. Dra och släpp **Dynamisk** **Inbäddad sekvens** till redigeraren.
 
 1. Dubbelklicka på **Dynamisk** **Inbäddad sekvens** så att du kan lägga till sidan i sekvenskanalen.
 
 1. Ange **Kanaltilldelningsroll**.
 1. Ange **Metered Playback Strategy** till **normal**. Som standard är den inställd på **normal**. Ange värdet till **normal** (Spela upp alla objekt) innebär att efterföljande körs helt och hållet på varje cykel i den överordnade sekvensen. Det andra möjliga värdet är **Spela upp ett enstaka objekt**. Det värdet visar bara ett objekt i efterföljande körningar. Det första objektet i den första slingan och det andra objektet i den andra slingan.
 
-1. Välj **Varaktighet (millisekunder)** in **Sekvens** -fliken för den inbäddade kanalen i sekvensen.
+1. Klicka på **Varaktighet (millisekunder)** in **Sekvens** -fliken för den inbäddade kanalen i sekvensen.
 
 ![senaste](assets/latest.gif)

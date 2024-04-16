@@ -10,7 +10,7 @@ feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: 3bff9ef3-0d6f-41d8-a8ef-bcc5a795990e
-source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '619'
 ht-degree: 0%
@@ -101,17 +101,17 @@ Följ stegen nedan för att importera en fil till en platsmapp med minst obligat
 
    ![screen_shot_2019-05-12at52651am](assets/screen_shot_2019-05-12at52651am.png)
 
-1. Välj projektet,** DemoProjectImporter **>** Skapa **>** Importera platser** från sidofältet.
+1. Klicka på projektet* DemoProjectImporter **>** Skapa **>** Importera platser** från sidofältet.
 
    ![screen_shot_2019-05-12at52433am](assets/screen_shot_2019-05-12at52433am.png)
 
-1. The **Importera** visas. Välj en fil för projektet med platser eller välj filen (***minimum-file.xls***) du hämtade från *Förutsättningar* -avsnitt.
+1. The **Importera** visas. Klicka på filen för projektet med platser eller klicka på filen (***minimum-file.xls***) du hämtade från *Förutsättningar* -avsnitt.
 
-   När du har valt filen väljer du **Nästa**.
+   När du har valt filen klickar du på **Nästa**.
 
    ![screen_shot_2019-05-15at113718am](assets/screen_shot_2019-05-15at113718am.png)
 
-1. Kontrollera innehållet i filen (platserna) i importguiden och välj **Importera**.
+1. Kontrollera innehållet i filen (platserna) i importguiden och klicka på **Importera**.
 
    ![screen_shot_2019-05-12at53131am](assets/screen_shot_2019-05-12at53131am.png)
 

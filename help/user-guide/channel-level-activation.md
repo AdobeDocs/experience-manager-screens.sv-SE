@@ -6,7 +6,7 @@ feature: Authoring Screens, Channels
 role: Admin, Developer
 level: Intermediate
 exl-id: 51a63429-2488-45be-b8f5-cb755ca69c7f
-source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '1769'
 ht-degree: 0%
@@ -91,8 +91,8 @@ Följ stegen nedan för att implementera funktionen:
 1. **Skapa visning under Plats**
 
    1. Navigera till **Aktivering på kanalnivå** > **Platser** > **Län**.
-   1. Välj **Län** och markera **+ Skapa** i åtgärdsfältet.
-   1. Välj **Visa** från guiden och skapa en skärm med namnet **RegionDisplay.**
+   1. Klicka **Län** och klicka **+ Skapa** i åtgärdsfältet.
+   1. Klicka **Visa** från guiden och skapa en skärm med namnet **RegionDisplay.**
 
    ![screen_shot_2018-11-27at112216am](assets/screen_shot_2018-11-27at112216am.png)
 
@@ -100,32 +100,32 @@ Följ stegen nedan för att implementera funktionen:
 
    För **Huvudkanal:**
 
-   1. Navigera till **Aktivering på kanalnivå** > **Platser** > **Län** > **RegionDisplay** och markera **Tilldela kanal** i åtgärdsfältet.
+   1. Navigera till **Aktivering på kanalnivå** > **Platser** > **Län** > **RegionDisplay** och klicka **Tilldela kanal** i åtgärdsfältet.
    1. **Kanaltilldelning** öppnas.
-   1. Välj **Referenskanal** efter bana.
-   1. Välj **Kanalsökväg** as **Aktivering på kanalnivå** > ***Kanaler*** > ***MainAdChannel***.
+   1. Klicka **Referenskanal** efter bana.
+   1. Klicka på **Kanalsökväg** as **Aktivering på kanalnivå** > ***Kanaler*** > ***MainAdChannel***.
    1. The **Kanalroll** fylls i som **huvudkanal**.
-   1. Välj **Prioritet** as **1**.
-   1. Välj **Händelser som stöds** as **Inledande inläsning** och **Inaktiv skärm**.
-   1. Välj **Spara**.
+   1. Klicka på **Prioritet** as **1**.
+   1. Klicka på **Händelser som stöds** as **Inledande inläsning** och **Inaktiv skärm**.
+   1. Klicka **Spara**.
 
    ![screen_shot_2018-11-27at124626pm](assets/screen_shot_2018-11-27at124626pm.png)
 
    >[!NOTE]
    >
-   >Du kan också tilldela kanal från kontrollpanelen genom att navigera till **Aktivering på kanalnivå** > **Platser** > **Län** > **RegionDisplay** och markera **Kontrollpanel** i åtgärdsfältet. Välj **+ Tilldela kanal** från **TILLDELADE KANALER OCH SCHEMAN** -panelen.
+   >Du kan också tilldela kanal från kontrollpanelen genom att navigera till **Aktivering på kanalnivå** > **Platser** > **Län** > **RegionDisplay** och markera **Kontrollpanel** i åtgärdsfältet. Klicka **+ Tilldela kanal** från **TILLDELADE KANALER OCH SCHEMAN** -panelen.
 
    Tilldela kanal på samma sätt **TargetedSinglePlay** för bildskärm**:
 
-   1. Navigera till **Aktivering på kanalnivå** > **Platser** > **Län** > **RegionDisplay** och markera **Tilldela kanal** i åtgärdsfältet.
+   1. Navigera till **Aktivering på kanalnivå** > **Platser** > **Län** > **RegionDisplay** och klicka **Tilldela kanal** i åtgärdsfältet.
    1. **Kanaltilldelning** öppnas.
-   1. Välj **Referenskanal** efter bana.
-   1. Välj **Kanalsökväg** as **Aktivering på kanalnivå*** > ***Kanaler*** > ***TargetedSinglePlay***.
+   1. Klicka **Referenskanal** efter bana.
+   1. Klicka på **Kanalsökväg** as **Aktivering på kanalnivå*** > ***Kanaler*** > ***TargetedSinglePlay***.
    1. The **Kanalroll** fylls i som **målsingleplay**.
    1. Ange **Prioritet** as **2**.
-   1. Välj **Händelser som stöds** as **Inledande inläsning**, **Inaktiv skärm** och **Timer**, vilket visas i figuren nedan.
+   1. Klicka på **Händelser som stöds** as **Inledande inläsning**, **Inaktiv skärm** och **Timer**, vilket visas i figuren nedan.
    1. Välj datum i **aktiv från** den 27 november 2018 kl. 11:59 och i **aktiv tills** 28 november 2018 12:05
-   1. Välj **Spara**.
+   1. Klicka **Spara**.
 
    >[!CAUTION]
    >
@@ -135,7 +135,7 @@ Följ stegen nedan för att implementera funktionen:
 
    >[!NOTE]
    >
-   >Om du vill välja samma dag väljer du nästa dag och redigerar sedan datumet manuellt till samma dag men för en senare tid. Detta begränsar användaren från att välja ett tidigare datum. Se följande exempel:
+   >Om du vill välja samma dag klickar du på nästa dag och redigerar sedan datumet manuellt till samma dag men för en senare tid. Detta begränsar användaren från att välja ett tidigare datum. Se följande exempel:
 
    ![new1](assets/new1.gif)
 
@@ -160,7 +160,7 @@ Anta att du bara vill visa innehållet i en kanal på fredag från 1:00 till 10:
 
 ### Dag-parsning {#day-parting}
 
-1. Markera kanalen och välj sedan **Kontrollpanel** i åtgärdsfältet.
+1. Klicka på kanalen och sedan på **Kontrollpanel** i åtgärdsfältet.
 
 1. Efter att du angett startdatum/tid och sluttid/tid från **Kanaltilldelning** kan du använda ett uttryck eller en naturlig textversion för att ange upprepningsschema.
 
@@ -190,7 +190,7 @@ I följande tabell sammanfattas några exempeluttryck som du kan lägga till i s
 
 ### WeekParting {#week-parting}
 
-1. Markera kanalen och välj sedan **Kontrollpanel** i åtgärdsfältet.
+1. Klicka på kanalen och sedan på **Kontrollpanel** i åtgärdsfältet.
 
 1. Efter att du angett startdatum/tid och sluttid/tid från **Kanaltilldelning** kan du använda ett uttryck eller en naturlig textversion för att ange upprepningsschema.
 
@@ -219,7 +219,7 @@ I följande tabell sammanfattas några exempeluttryck som du kan lägga till i s
 
 ### MånadDelning {#month-parting}
 
-1. Markera kanalen och välj sedan **Kontrollpanel** i åtgärdsfältet.
+1. Klicka på kanalen och sedan på **Kontrollpanel** i åtgärdsfältet.
 
 1. Efter att du angett startdatum/tid och sluttid/tid från **Kanaltilldelning** kan du använda ett uttryck eller en naturlig textversion för att ange upprepningsschema.
 
@@ -247,7 +247,7 @@ I följande tabell sammanfattas några exempeluttryck som du kan lägga till i s
 
 ### Kombination av partner {#combined-parting}
 
-1. Markera kanalen och välj sedan **Kontrollpanel** i åtgärdsfältet.
+1. Klicka på kanalen och sedan på **Kontrollpanel** i åtgärdsfältet.
 
 1. Efter att du angett startdatum/tid och sluttid/tid från **Kanaltilldelning** kan du använda ett uttryck eller en naturlig textversion för att ange upprepningsschema.
 

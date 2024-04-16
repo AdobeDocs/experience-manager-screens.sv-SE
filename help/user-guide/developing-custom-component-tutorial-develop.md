@@ -9,7 +9,7 @@ feature: Developing Screens
 role: Developer
 level: Intermediate
 exl-id: d14f8c55-dc09-4ac9-8d75-bafffa82ccc0
-source-git-commit: 97084aee861e152abcc5f117a2a4759dced038cc
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '2135'
 ht-degree: 0%
@@ -88,7 +88,7 @@ Källkoden för ett skärmsprojekt hanteras vanligtvis som ett Maven-projekt med
 
 1. **Navigera till AEM Screens > `We.Retail` Kör projekt:**
 
-   Välj ikonen Skärmar på AEM Start-meny. Verifiera `We.Retail` Kör projekt visas.
+   Klicka på ikonen Skärmar på AEM Start-meny. Verifiera `We.Retail` Kör projekt visas.
 
    ![we-retaiul-run-starter](assets/we-retaiul-run-starter.png)
 
@@ -405,9 +405,9 @@ Under a `We.Retail` Sidan Kör design skapas med alla konfigurationer som är sp
 
 Komponenten Hello World är till för användning på en sekvenskanal. Om du vill testa komponenten skapas en ny sekvenskanal.
 
-1. Navigera AEM Start-menyn till **Skärmar** > **`We.Retail`Kör** > och markera **Kanaler**.
+1. Navigera AEM Start-menyn till **Skärmar** > **`We.Retail`Kör** > och klicka **Kanaler**.
 
-1. Välj **Skapa** knapp
+1. Klicka på **Skapa** knapp
 
    1. Välj **Skapa entitet**
 
@@ -435,9 +435,9 @@ Komponenten Hello World är till för användning på en sekvenskanal. Om du vil
 
 1. Växla sidläge till **Design** Läge.
 
-   1. Välj **wrench** Ikon i Parsys så att du kan konfigurera tillåtna komponenter.
+   1. Klicka på **wrench** Ikon i Parsys så att du kan konfigurera tillåtna komponenter.
 
-   1. Välj **Skärmar** gruppen och **`We.Retail`Kör - Innehåll** grupp.
+   1. Klicka på **Skärmar** gruppen och **`We.Retail`Kör - Innehåll** grupp.
 
    ![2018-04-30_at_5_43pm](assets/2018-04-30_at_5_43pm.png)
 

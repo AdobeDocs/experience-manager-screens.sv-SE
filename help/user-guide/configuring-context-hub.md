@@ -10,7 +10,7 @@ feature: Developing Screens
 role: Developer
 level: Intermediate
 exl-id: 04072107-d6be-4030-bb79-1f1a7609f37e
-source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '1445'
 ht-degree: 1%
@@ -73,7 +73,7 @@ Följande validering är den du ser när du kontrollerar anslutningen genom att 
 
 1. **Navigera till ContextHub**
 
-   Navigera till din AEM och välj verktygsikonen från vänster sidofält. Välj **Webbplatser** > **ContextHub**, vilket visas i figuren nedan.
+   Navigera till din AEM och klicka på verktygsikonen från vänster sidofält. Klicka **Webbplatser** > **ContextHub**, vilket visas i figuren nedan.
 
    ![bild](/help/user-guide/assets/context-hub/context-hub3.png)
 
@@ -81,16 +81,16 @@ Följande validering är den du ser när du kontrollerar anslutningen genom att 
 
    1. Navigera till konfigurationsbehållaren med namnet som **skärmar**.
 
-   1. Välj **Skapa** > **Skapa konfigurationsbehållare** och ange titeln som **ContextHubDemo**.
+   1. Klicka **Skapa** > **Skapa konfigurationsbehållare** och ange titeln som **ContextHubDemo**.
 
       ![bild](/help/user-guide/assets/context-hub/context-hub4.png)
 
-   1. **Navigera** till **ContextHubDemo** > **Skapa** **Konfiguration av ContentHub** och markera **Spara**.
+   1. **Navigera** till **ContextHubDemo** > **Skapa** **Konfiguration av ContentHub** och klicka **Spara**.
 
       >[!NOTE]
-      > När du har valt **Spara** finns du i **KontextHub-konfiguration** skärm.
+      > När du klickat **Spara** finns du i **KontextHub-konfiguration** skärm.
 
-   1. Från **KontextHub-konfiguration** skärm, välja **Skapa** > **Konfiguration av ContentHub Store**
+   1. Från **KontextHub-konfiguration** skärm, klicka **Skapa** > **Konfiguration av ContentHub Store**
 
    ![bild](/help/user-guide/assets/context-hub/context-hub5.png)
 
@@ -110,14 +110,14 @@ Följande validering är den du ser när du kontrollerar anslutningen genom att 
    >
    >Följ de här stegen i Författare och Publicera före eller efter uppgraderingen.
 
-   1. Ange **Titel** as **Google Sheets**, **Butiksnamn** as **`googlesheets`** och **Butikstyp** as **c`ontexthub.generic-jsonp`** och markera **Nästa**.
+   1. Ange **Titel** as **Google Sheets**, **Butiksnamn** as **`googlesheets`** och **Butikstyp** as **c`ontexthub.generic-jsonp`** och klicka **Nästa**.
 
       >[!CAUTION]
       >Om du använder Adobe Experience Manager (AEM) 6.4 anger du **Konfigurationstitel** as **`googlesheets`** och **Butikstyp** as **c`ontexthub.generic-jsonp`**.
 
       ![bild](/help/user-guide/assets/context-hub/context-hub6.png)
 
-   1. Ange din specifika json-konfiguration. Du kan till exempel använda följande json för demoändamål och välja **Spara**. Du ser butikskonfigurationen som **Google Sheets** i ContextHub-konfigurationen.
+   1. Ange din specifika json-konfiguration. Du kan till exempel använda följande json för demoändamål och klicka på **Spara**. Du ser butikskonfigurationen som **Google Sheets** i ContextHub-konfigurationen.
 
       >[!IMPORTANT]
       >Se till att ersätta koden med `*<Sheet ID>*` och `*<API Key>*`, som du hämtade när du konfigurerade Google-bladen.
@@ -154,7 +154,7 @@ Följande validering är den du ser när du kontrollerar anslutningen genom att 
 
       ![bild](/help/user-guide/assets/context-hub/context-hub7.png)
 
-   1. Välj **Nästa** och sedan **Spara**.
+   1. Klicka **Nästa** och sedan **Spara**.
 
       >[!NOTE]
       >Hoppa över processen att definiera json och lämna den tom.
@@ -166,16 +166,16 @@ Följande validering är den du ser när du kontrollerar anslutningen genom att 
 
    1. Navigera från AEM till **Personalisering** > **Målgrupper** > **skärmar**.
 
-   1. Välj **Skapa** > **Skapa kontextnavsegment.** The **Nytt ContextHub-segment** öppnas.
+   1. Klicka **Skapa** > **Skapa kontextnavsegment.** The **Nytt ContextHub-segment** öppnas.
 
-   1. Ange **Titel** as `**Higherthan50**` och markera **Skapa**. Skapa på samma sätt ett annat segment med namnet som `**Lowerthan50**`.
+   1. Ange **Titel** as `**Higherthan50**` och klicka **Skapa**. Skapa på samma sätt ett annat segment med namnet som `**Lowerthan50**`.
 
       ![bild](/help/user-guide/assets/context-hub/context-hub11.png)
 
-   1. Markera segmentet `**Higherthan50**` och markera **Egenskaper** i åtgärdsfältet.
+   1. Klicka på segmentet `**Higherthan50**` och klicka **Egenskaper** i åtgärdsfältet.
       ![bild](/help/user-guide/assets/context-hub/context-hub12.png)
 
-   1. Välj **Personalisering** -fliken från **Segmentegenskaper**. Ange **ContextHub-sökväg** till `/conf/screens/settings/cloudsettings/ContextHubDemo/contexthub configurations` och **Segmentsökväg** till `/conf/screens/settings/wcm/segments` och markera **Spara**, vilket visas i figuren nedan.
+   1. Klicka på **Personalisering** -fliken från **Segmentegenskaper**. Ange **ContextHub-sökväg** till `/conf/screens/settings/cloudsettings/ContextHubDemo/contexthub configurations` och **Segmentsökväg** till `/conf/screens/settings/wcm/segments` och klicka **Spara**, vilket visas i figuren nedan.
 
    ![bild](/help/user-guide/assets/context-hub/context-hub13.png)
 
@@ -189,11 +189,11 @@ Följ stegen nedan för att skapa ett varumärke i era aktiviteter och områden 
 
    1. Navigera från AEM till **Personalisering** > **Verksamhet**.
 
-   1. Välj **Skapa** > **Skapa varumärke**.
+   1. Klicka **Skapa** > **Skapa varumärke**.
 
-   1. Välj **Varumärke** från **Skapa sida** guide och välj **Nästa**.
+   1. Klicka **Varumärke** från **Skapa sida** guide och klicka **Nästa**.
 
-   1. Ange **Titel** as **Skärmmärke** och markera **Skapa**. Ditt varumärke har nu skapats enligt nedan.
+   1. Ange **Titel** as **Skärmmärke** och klicka **Skapa**. Ditt varumärke har nu skapats enligt nedan.
 
       ![bild](/help/user-guide/assets/context-hub/context-hub8.png)
 
@@ -208,13 +208,13 @@ Följ stegen nedan för att skapa ett varumärke i era aktiviteter och områden 
 
    Följ stegen nedan för att skapa ett område i varumärket:
 
-   1. Välj **Skapa** och sedan **Skapa område**.
+   1. Klicka **Skapa** och sedan **Skapa område**.
 
       ![bild](/help/user-guide/assets/context-hub/context-hub9.png)
 
-   1. Välj **Område** från **Skapa sida** guide och välj **Nästa**.
+   1. Klicka **Område** från **Skapa sida** guide och klicka **Nästa**.
 
-   1. Ange **Titel** as **ScreensValue** och markera **Skapa**.
+   1. Ange **Titel** as **ScreensValue** och klicka **Skapa**.
 Ett område skapas i ert varumärke.
 
 ## Steg 5: Skapa segmenten i en aktivitet {#step-setting-up-audience-segmentation}
@@ -225,21 +225,21 @@ När du har konfigurerat ett datalager och definierat din aktivitet (varumärke 
 
    1. Navigera från AEM till **Personalisering** > **Verksamhet** > **Skärmmärke** >**ScreensValue**.
 
-   1. Välj **Skapa** > **Skapa aktivitet.** The **Guiden Konfigurera aktivitet** öppnas.
+   1. Klicka **Skapa** > **Skapa aktivitet.** The **Guiden Konfigurera aktivitet** öppnas.
 
-   1. Ange **Titel** as **ValueCheck50** och **Namn** as **valuecheck50**. Välj **Målmotor** as **ContextHub (AEM)** i listrutan och välj **Nästa**.
+   1. Ange **Titel** as **ValueCheck50** och **Namn** as **valuecheck50**. Klicka på **Målmotor** as **ContextHub (AEM)** från listrutan och klicka på **Nästa**.
 
       ![bild](/help/user-guide/assets/context-hub/context-hub14.png)
 
-   1. Välj **Lägg till upplevelse** från `**Configure Activity**` guide.
+   1. Klicka **Lägg till upplevelse** från `**Configure Activity**` guide.
 
-   1. Från **Målgrupper** väljer du `**Higherthan50**` och markera **Lägg till upplevelse** och anger **Titel** as `**higherthan50**` **Namn** as `**higherthan50**`. Välj **OK**.
+   1. Från **Målgrupper** klickar du på `**Higherthan50**` och klicka **Lägg till upplevelse** och anger **Titel** as `**higherthan50**` **Namn** as `**higherthan50**`. Klicka **OK**.
 
-   1. Från **Målgrupper** väljer du `**Lowerthan50**` och markera **Lägg till upplevelse** och anger **Titel** as `**lowerthan50**` **Namn** as `**lowerthan50**`. Välj **OK**.
+   1. Från **Målgrupper** klickar du på `**Lowerthan50**` och klicka **Lägg till upplevelse** och anger **Titel** as `**lowerthan50**` **Namn** as `**lowerthan50**`. Klicka **OK**.
 
    ![bild](/help/user-guide/assets/context-hub/context-hub15.png)
 
-   1. Välj **Nästa** och sedan **Spara**. `**ValueCheck50**` aktiviteten har nu skapats och konfigurerats.
+   1. Klicka **Nästa** och sedan **Spara**. `**ValueCheck50**` aktiviteten har nu skapats och konfigurerats.
 
       ![bild](/help/user-guide/assets/context-hub/context-hub16.png)
 
@@ -249,20 +249,20 @@ När du har konfigurerat ett datalager och definierat din aktivitet (varumärke 
 
    1. Navigera från AEM till **Personalisering** > **Målgrupper** > **skärmar**.
 
-   1. Markera segmentet `**Higherthan50**`och markera **Redigera** i åtgärdsfältet.
+   1. Klicka på segmentet `**Higherthan50**`och klicka **Redigera** i åtgärdsfältet.
 
    1. Dra och släpp **Jämförelse: Egenskap - värde** till redigeraren.
 
-   1. Markera skiftnyckelsikonen så att du kan öppna **Jämföra en egenskap med ett värde** -dialogrutan.
+   1. Klicka på skiftnyckelsikonen så att du kan öppna **Jämföra en egenskap med ett värde** -dialogrutan.
 
-   1. Välj **googlesheets/value/1/0** från listrutan i **Egenskapsnamn**.
+   1. Klicka **googlesheets/value/1/0** från listrutan i **Egenskapsnamn**.
 
       >[!NOTE]
       > The **googlesheets/value/1/0** refererar till rad 2 och kolumn som är ifylld i `google` ark i figuren nedan:
 
       ![bild](/help/user-guide/assets/context-hub/context-hub17.png)
 
-   1. Välj **Operator** as **större än** i listrutan.
+   1. Klicka på **Operator** as **större än** i listrutan.
 
    1. Ange **Värde** as **70**.
 
@@ -276,11 +276,11 @@ När du har konfigurerat ett datalager och definierat din aktivitet (varumärke 
 
    1. Dra och släpp **Jämförelse: Egenskap - värde** till redigeraren.
 
-   1. Välj skiftnyckelsikonen.
+   1. Klicka på skiftnyckelsikonen.
 
-   1. I **Jämföra en egenskap med ett värde** väljer **googlesheets/value/1/0** från listrutan i **Egenskapsnamn**.
+   1. I **Jämföra en egenskap med ett värde** klickar du på **googlesheets/value/1/0** från listrutan i **Egenskapsnamn**.
 
-   1. Välj **Operator** as **mindre än** i listrutan.
+   1. Klicka på **Operator** as **mindre än** i listrutan.
 
    1. Ange **Värde** as **50**.
 
@@ -291,16 +291,16 @@ Följ stegen nedan för att aktivera målinriktning i dina kanaler.
 
 1. Navigera till någon av AEM Screens-kanalerna. I följande steg visas hur du aktiverar målinriktning genom att använda **DataDrivenKanal** som har skapats i en AEM Screens-kanal.
 
-1. Välj kanalen **TargetChannel** och markera **Egenskaper** i åtgärdsfältet.
+1. Klicka på kanalen **TargetChannel** och klicka **Egenskaper** i åtgärdsfältet.
 
    ![bild](/help/user-guide/assets/context-hub/context-hub19.png)
 
-1. Välj **Personalisering** så att du kan konfigurera ContextHub-konfigurationer.
+1. Klicka på **Personalisering** så att du kan konfigurera ContextHub-konfigurationer.
 
    1. Ange **ContextHub-sökväg** till `/conf/screens/settings/wcm/segments` och **Segmentsökväg** till `/conf/screens/settings/wcm/segments`.
    1. Ställ in varumärket till **Skärmmärke** från listrutan och **Ange områdesreferens** till **ScreensValue**.
 
-   1. Välj **Spara och stäng**.
+   1. Klicka **Spara och stäng**.
 
       >[!NOTE]
       >
@@ -308,7 +308,7 @@ Följ stegen nedan för att aktivera målinriktning i dina kanaler.
 
       ![bild](/help/user-guide/assets/context-hub/context-hub20New.png)
 
-   1. Navigera och markera **TargetChannel** kanal och markera **Redigera** i åtgärdsfältet.
+   1. Navigera och klicka på **TargetChannel** och klicka på **Redigera** i åtgärdsfältet.
 
       >[!NOTE]
       >

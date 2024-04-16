@@ -5,7 +5,7 @@ feature: Administering Screens, Data Trigger
 role: Developer
 level: Intermediate
 exl-id: 6f90b864-eaa0-4b74-a47e-b0967a550552
-source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '521'
 ht-degree: 0%
@@ -30,7 +30,7 @@ Följ stegen nedan för att replikera datautlösarna till publiceringsservern.
 
 ### Steg 1: Replikerar ContextHub-konfigurationer {#replicating-contexthub-configurations}
 
-1. Navigera till **verktyg** > **Distribution** > **Distribution** > **Publish Agent** och väljer publiceringsagent så att du kan konfigurera inställningarna.
+1. Navigera till **verktyg** > **Distribution** > **Distribution** > **Publish Agent** och klicka på publiceringsagenten så att du kan konfigurera inställningarna.
 
    ![image1](/help/user-guide/assets/replicating-triggers/replicating-triggers1.png)
 
@@ -38,7 +38,7 @@ Följ stegen nedan för att replikera datautlösarna till publiceringsservern.
    >
    >Du kan också använda `http://localhost:4502/libs/granite/distribution/content/distribution-agent.html?agentName=publish` för att navigera direkt till skärmen för att konfigurera och testa anslutningen.
 
-1. Välj **Testanslutning** från åtgärdsfältet så att du kan validera kommunikationen mellan författaren och publiceringsinstansen, vilket visas i följande exempel:
+1. Klicka **Testanslutning** från åtgärdsfältet så att du kan validera kommunikationen mellan författaren och publiceringsinstansen, vilket visas i följande exempel:
 
    ![image1](/help/user-guide/assets/replicating-triggers/replicating-triggers2.png)
 
@@ -46,9 +46,9 @@ Följ stegen nedan för att replikera datautlösarna till publiceringsservern.
    >
    >Om testet misslyckas korrigerar du replikeringsagentens konfiguration mellan författaren och publiceringsinstansen. Se [Felsökning av testanslutning](/help/user-guide/replicating-data-triggers.md#troubleshoot-test) för mer information.
 
-1. Välj **Lägg till** från **Distributionsagent** skärmträd och välj konfigurationssökvägen för projektet, till exempel `/conf/screens/settings/cloudsettings/configuration`.
+1. Klicka **Lägg till** från **Distributionsagent** skärmträd och klicka på konfigurationssökvägen för projektet, till exempel `/conf/screens/settings/cloudsettings/configuration`.
 
-1. Välj **Skicka**.
+1. Klicka **Skicka**.
 
 ### Replikera målgrupperna {#replicating-audiences}
 
@@ -58,11 +58,11 @@ Följ stegen nedan för att replikera datautlösarna till publiceringsservern.
 
    ![image1](/help/user-guide/assets/replicating-triggers/replicating-triggers10.png)
 
-1. Välj alla målgrupper och segment i användargränssnittet.
+1. Klicka på alla målgrupper och segment i användargränssnittet.
 
-1. Välj **Hantera publikation** i åtgärdsfältet.
+1. Klicka **Hantera publikation** i åtgärdsfältet.
 
-1. Välj **Nästa** och **Publicera**.
+1. Klicka **Nästa** och **Publicera**.
 
 ### Replikera aktiviteterna  {#replicating-activities}
 
@@ -70,11 +70,11 @@ Följ stegen nedan för att replikera datautlösarna till publiceringsservern.
 
 1. Gå ned i projektmappen, det vill säga `/content/campaigns/screens/…`.
 
-1. Välj alla aktiviteter i användargränssnittet.
+1. Klicka på alla aktiviteter i användargränssnittet.
 
-1. Välj **Hantera publikation** i åtgärdsfältet.
+1. Klicka **Hantera publikation** i åtgärdsfältet.
 
-1. Välj **Nästa** och **Publicera**.
+1. Klicka **Nästa** och **Publicera**.
 
 >[!IMPORTANT]
 >
@@ -94,7 +94,7 @@ Om testanslutningen misslyckas när ContextHub-konfigurationerna replikeras, fö
 
 1. Navigera till Verktyg > **Distribution** > **Distribution** > **Publish Agent**.
 
-1. Välj **Redigera** från åtgärdsfältet och kontrollera att slutpunktens URL i **Importerarslutpunkter** fältet pekar också på publiceringsserverns URL i Distribution Agent.
+1. Klicka **Redigera** från åtgärdsfältet och kontrollera att slutpunktens URL i **Importerarslutpunkter** fältet pekar också på publiceringsserverns URL i Distribution Agent.
    ![image1](/help/user-guide/assets/replicating-triggers/replicating-triggers9.png)
 
 1. Om du inte använder standardadministratörsautentiseringsuppgifterna måste du konfigurera distributionsagenten med ett annat användarnamn och lösenord.
@@ -110,10 +110,10 @@ Om testanslutningen misslyckas när ContextHub-konfigurationerna replikeras, fö
 
       ![image1](/help/user-guide/assets/replicating-triggers/replicating-triggers7.png)
 
-   1. Välj **Spara**
+   1. Klicka **Spara**
    1. Använd `Cmd +F` att söka efter **Apache Sling Distribution Agent - Forward Agents Factory** för att öppna konfigurationerna och söka efter **Transporthemlighetsprovider**.
 
       ![image1](/help/user-guide/assets/replicating-triggers/replicating-triggers8.png)
 
    1. Uppdatera `(name=default)` med `(name=slingTransportSecretProvider)`.
-   1. Välj **Spara** och kör testanslutningen igen från **Distributionsagent** från AEM igen.
+   1. Klicka **Spara** och kör testanslutningen igen från **Distributionsagent** från AEM igen.

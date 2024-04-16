@@ -9,7 +9,7 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 205235d7-e621-4134-975c-257ae60939bc
-source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '489'
 ht-degree: 0%
@@ -83,7 +83,7 @@ Följ stegen nedan för att konfigurera inställningarna för e-postmeddelanden:
    >
    >Du kan bara ange en e-postadress. Om du vill skicka ett större e-postmeddelande skapar du en grupp eller distributionslista med de relevanta användarna.
 
-1. Välj **Spara** för att konfigurera övervakningsaktiviteten via ett e-postmeddelande för din AEM Screens-enhet.
+1. Klicka **Spara** för att konfigurera övervakningsaktiviteten via ett e-postmeddelande för din AEM Screens-enhet.
 
 ## E-postmeddelande {#email-notification}
 

@@ -10,7 +10,7 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: 3b127311-32d1-402c-97a1-e799e9f3f95e
-source-git-commit: 10c168cd00b79964d229e3d2a14049e799d89d77
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '243'
 ht-degree: 0%
@@ -37,7 +37,7 @@ Releasedatum för AEM Screens Feature Pack 201812 är 16 januari 2019.
 
 * **Schemaläggning av flera resurser**:
 
-  Schemaläggning av flera resurser gör att användaren kan välja flera resurser och tillämpa ett uppspelningsschema för alla valda resurser. Se **Schemaläggning av flera resurser** avsnitt i **[Resursplanering](asset-level-scheduling.md)**.
+  Med schemaläggning av flera resurser kan användaren klicka på flera resurser och tillämpa ett uppspelningsschema för alla markerade resurser. Se **Schemaläggning av flera resurser** avsnitt i **[Resursplanering](asset-level-scheduling.md)**.
 
 * **Layout med flera zoner**:
 

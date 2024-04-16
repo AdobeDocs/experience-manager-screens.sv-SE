@@ -6,7 +6,7 @@ feature: Authoring Screens
 role: Developer, User
 level: Intermediate
 exl-id: 15632f31-1e92-40e5-b567-8705e27bdc93
-source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '400'
 ht-degree: 0%
@@ -43,8 +43,8 @@ Följ stegen nedan för att konfigurera ett projekt:
 
 1. **Skapa en skärmkanal för flera zoner**
 
-   1. Välj **Kanaler** mapp och markera **Skapa** i åtgärdsfältet och öppnar guiden så att du kan skapa en kanal.
-   1. Välj **Vänster-L-fält, delad skärmkanal** från guiden och skapa kanalen som **MultiZoneLayout**.
+   1. Klicka på **Kanaler** mapp och klicka på **Skapa** i åtgärdsfältet och öppnar guiden så att du kan skapa en kanal.
+   1. Klicka **Vänster-L-fält, delad skärmkanal** från guiden och skapa kanalen som **MultiZoneLayout**.
    1. Lägg till innehåll i kanalen. Dra och släpp resurserna till varje zon. I följande exempel visas en **MultiZoneLayout** kanal som innehåller en video, en bild och en textbanderoll (i en inbäddad sekvens), vilket visas nedan.
 
    ![resurs](assets/mz-to-sz2.png)
@@ -58,7 +58,7 @@ Följ stegen nedan för att konfigurera ett projekt:
 
    ![resurs](assets/mz-to-sz3.png)
 
-1. Välj **Redigera** från åtgärdsfältet så att du kan lägga till innehåll i den här kanalen. Lägg till en **Kanal** och en bildresurs som du vill växla till för den här kanalen, vilket visas i bilden nedan:
+1. Klicka **Redigera** från åtgärdsfältet så att du kan lägga till innehåll i den här kanalen. Lägg till en **Kanal** och en bildresurs som du vill växla till för den här kanalen, vilket visas i bilden nedan:
 
    ![resurs](assets/mz-to-sz4.png)
 

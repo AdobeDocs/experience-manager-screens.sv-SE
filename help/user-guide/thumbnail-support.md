@@ -2,7 +2,7 @@
 title: Stöd för miniatyrbilder för videofilmer i AEM Screens
 description: Lär dig hur du lägger till stöd för miniatyrbilder för videoklipp i AEM Screens.
 exl-id: d2d87807-1699-47e3-b241-07c5b7e56f15
-source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '397'
 ht-degree: 1%
@@ -32,7 +32,7 @@ Följ stegen nedan för att använda miniatyrbilden i videoklipp:
 
 1. Navigera till en befintlig AEM Screens-kanal eller skapa en kanal.
 
-1. Markera kanalen och välj **Redigera** i åtgärdsfältet.
+1. Klicka på kanalen och klicka på **Redigera** i åtgärdsfältet.
 
    ![bild](/help/user-guide/assets/thumbnails/thumbnail-1.png)
 
@@ -40,7 +40,7 @@ Följ stegen nedan för att använda miniatyrbilden i videoklipp:
 
    ![bild](/help/user-guide/assets/thumbnails/thumbnail-2.png)
 
-1. Markera videon och välj *wrench* -ikon.
+1. Klicka på videon och klicka på *wrench* -ikon.
 
    ![bild](/help/user-guide/assets/thumbnails/thumbnail-3.png)
 
@@ -48,11 +48,11 @@ Följ stegen nedan för att använda miniatyrbilden i videoklipp:
 
    ![bild](/help/user-guide/assets/thumbnails/thumbnail-4.png)
 
-1. Dra och släpp en bild från resursväljaren till **Miniatyrbild** släppa zon och markera **Klar**.
+1. Dra och släpp en bild från resursväljaren till **Miniatyrbild** och klicka **Klar**.
 
    ![bild](/help/user-guide/assets/thumbnails/thumbnail-5.png)
 
-1. Välj **Förhandsgranska**.
+1. Klicka **Förhandsgranska**.
 
 1. Om en video är inställd på komponenten spelas videon upp. Om inte, och miniatyrbilden är inställd, spelas miniatyrbilden upp. Annars betraktas komponenten som inte konfigurerad och hoppas över.
 

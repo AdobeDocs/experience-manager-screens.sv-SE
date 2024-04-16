@@ -5,7 +5,7 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 3314e0b5-0001-4bce-8ec6-5a6ffbb20f7b
-source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '740'
 ht-degree: 0%
@@ -63,7 +63,7 @@ Innan du använder funktionen Kommandosynkronisering måste du kontrollera att d
    >Mer information om hur du tilldelar en kanal till en skärm finns i [Skapa och hantera skärmar](/help/user-guide/managing-displays.md).
 
 1. Navigera till **Enheter** mapp.
-1. Välj **Enhetshanteraren** i åtgärdsfältet.
+1. Klicka **Enhetshanteraren** i åtgärdsfältet.
 
    ![image1](assets/command-sync5.png)
 
@@ -77,11 +77,11 @@ Innan du använder funktionen Kommandosynkronisering måste du kontrollera att d
 ### Uppdaterar kanalinställningar
 
 1. Navigera till **ChannelLobby**.
-1. Välj **Redigera** i åtgärdsfältet.
-1. Markera hela kanalen enligt bilden nedan.
+1. Klicka **Redigera** i åtgärdsfältet.
+1. Klicka på hela kanalen enligt bilden nedan.
    ![image1](assets/command-sync/command-sync7-1.png)
 
-1. Välj skiftnyckelsikonen.
+1. Klicka på skiftnyckelsikonen.
    ![image1](assets/command-sync/command-sync8-1.png)
 
 1. I **Sida** anger du *synkad* nyckelord i **Strategi** fält.
@@ -90,15 +90,15 @@ Innan du använder funktionen Kommandosynkronisering måste du kontrollera att d
 
 ### Konfigurera en primär {#setting-up-primary}
 
-1. Navigera till kontrollpanelen från **CommandSyncDemo** > **Platser**  > **Lobby** > **LobbyDisplay** och markera **Kontrollpanel** i åtgärdsfältet.
+1. Navigera till kontrollpanelen från **CommandSyncDemo** > **Platser**  > **Lobby** > **LobbyDisplay** och klicka **Kontrollpanel** i åtgärdsfältet.
 Lägg märke till de två enheterna (fönsterstandard och Windows Player) i **ENHETER** enligt följande:
    ![image1](assets/command-sync/command-sync10-1.png)
 
-1. Från **ENHETER** väljer du den enhet som du vill ange som primär. I följande exempel visas hur du ställer in Chrome-enheten som primär. Välj **Ange som primär enhet**.
+1. Från **ENHETER** klickar du på den enhet som du vill ange som primär. I följande exempel visas hur du ställer in Chrome-enheten som primär. Klicka **Ange som primär enhet**.
 
    ![image1](assets/command-sync/command-sync11-1.png)
 
-1. Ange IP-adressen i **Ange som primär enhet** och markera **Spara**.
+1. Ange IP-adressen i **Ange som primär enhet** och klicka **Spara**.
 
    ![image1](assets/command-sync/command-sync12-1.png)
 
@@ -109,11 +109,11 @@ Lägg märke till de två enheterna (fönsterstandard och Windows Player) i **EN
 ### Synkroniserar med primär {#sync-up-primary}
 
 1. När du har angett Chrome-enheten som primär synkroniserar du den andra enheten (i det här fallet Windows-spelaren) så att den synkroniseras med den primära.
-Välj den andra enheten (i det här fallet Windows Player) på menyn **ENHETER** panel och markera **Synkronisera med primär enhet**.
+Klicka på den andra enheten (i det här fallet Windows Player) på **ENHETER** panel och klicka **Synkronisera med primär enhet**.
 
    ![image1](assets/command-sync/command-sync13-1.png)
 
-1. Välj enheten i listan och välj **Spara**.
+1. Klicka på enheten i listan och klicka på **Spara**.
 
    >[OBS!]
    > The **Synkronisera med primär enhet** visas en lista med primära enheter. Välj önskad.
@@ -132,13 +132,13 @@ När du har synkroniserat en eller flera enheter till en primär enhet kan du av
 
 Följ stegen nedan för att ta bort synkroniseringen från den primära enheten:
 
-1. Navigera till **ENHETER** och välj enhet.
+1. Navigera till **ENHETER** och klicka på enheten.
 
-1. Välj **Desynkrona enheter** så att du kan desynkronisera klienten från den primära enheten.
+1. Klicka **Desynkrona enheter** så att du kan desynkronisera klienten från den primära enheten.
 
    ![image1](assets/command-sync/command-sync15-1.png)
 
-1. Välj **Bekräfta** om du vill avsynkronisera den valda enheten från den primära enheten.
+1. Klicka **Bekräfta** om du vill avsynkronisera den valda enheten från den primära enheten.
 
    >[OBS!]
-   > Om du väljer den primära enheten och använder alternativet för avsynkronisering, kommer alla enheter som är anslutna till den primära att avsynkroniseras i ett steg.
+   > Om du klickar på den primära enheten och använder alternativet för avsynkronisering kommer alla enheter som är anslutna till den primära att avsynkroniseras i ett steg.

@@ -9,7 +9,7 @@ feature: Channels, Interactive
 role: Developer
 level: Intermediate
 exl-id: dfdd58b6-689b-47ca-9459-9c205f1841eb
-source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '798'
 ht-degree: 1%
@@ -29,7 +29,7 @@ När du har överfört videon till kanalen bör AEM börja skapa vissa återgivn
 Så här visar du videon:
 
 1. Navigera till videon, till exempel `http://localhost:4502/assets.html/content/dam/we-retail/en/videos`.
-1. Markera videon och expandera den övre vänstra menyn och välj **Återgivningar**.
+1. Klicka på videon och expandera den övre vänstra menyn och klicka på **Återgivningar**.
 
 Det ska finnas olika renderingar (MP4 eller M4V).
 
@@ -39,7 +39,7 @@ Om det inte finns någon återgivning kontrollerar du att du har ffmpeg installe
 >
 >Om det inte finns någon återgivning kontrollerar du att du har ffmpeg installerat på det operativsystem där AEM körs.
 >
->Välj [här](https://www.ffmpeg.org/download.html) för att installera ffmpeg.
+>Klicka [här](https://www.ffmpeg.org/download.html) för att installera ffmpeg.
 
 ## Videoresurser {#video-assets}
 
@@ -51,11 +51,11 @@ Kontrollera att fmpeg är installerat och videoprofilerna.
 
 ### Kontrollerar videoprofil {#checking-video-profile}
 
-1. Navigera till **Videoprofil**, det vill säga `http://localhost:4502/etc/dam/video.html` och markera **Ladda upp testvideo**.
+1. Navigera till **Videoprofil**, det vill säga `http://localhost:4502/etc/dam/video.html` och klicka **Ladda upp testvideo**.
 
    ![chlimage_1-3](assets/chlimage_1-3.png)
 
-1. Överför en testvideo och välj **OK** så att du kan börja omkodningen.
+1. Överför en testvideo och klicka på **OK** så att du kan börja omkodningen.
 
    Om den kodade videon misslyckas expanderar du ffmpeg-utdata för att förstå eventuella fel i konsolutdata för ffmpeg.
 
@@ -73,14 +73,14 @@ Kontrollera att fmpeg är installerat och videoprofilerna.
 
 Kontrollera listan med profiler från siddesignen om videokomponenten inte är korrekt konfigurerad.
 
-1. Navigera till kanalen och välj **Design** läge.
+1. Navigera till kanalen och klicka på **Design** läge.
 
    ![chlimage_1-6](assets/chlimage_1-6.png)
 
-1. Markera videon och öppna **Redigera** -dialogrutan. Öppna **Profiler** -fliken.
+1. Klicka på videon och öppna **Redigera** -dialogrutan. Öppna **Profiler** -fliken.
 
    >[!NOTE]
-   >Välj olika profiler (det ska finnas minst en H.264-profil med hög kvalitet).
+   >Klicka på olika profiler (åtminstone profilen&quot;Hög kvalitet H.264&quot; ska finnas).
 
 ### Kontrollera videon i webbspelaren {#checking-the-video-in-the-web-player}
 
@@ -91,10 +91,10 @@ Om videon inte kan köras på Safari körs den inte heller i OS X- och iOS-spela
 Så här använder du ett DAM-arbetsflöde för att skapa FullHD-renderingar:
 
 1. Navigera till *administratör för arbetsflödesmodell* det är `http://localhost:4502/libs/cq/workflow/admin/console/content/models.html/etc/workflow/models`.
-1. Välj **Skärmar - uppdatera resurs** modell.
-1. Välj **Starta arbetsflöde** i åtgärdsfältet.
-1. Från **Kör arbetsflöde** väljer du din videoresurs i dialogrutan **Nyttolast**.
-1. Välj **Kör**.
+1. Klicka på **Skärmar - uppdatera resurs** modell.
+1. Klicka **Starta arbetsflöde** i åtgärdsfältet.
+1. Från **Kör arbetsflöde** klickar du på din videoresurs i dialogrutan **Nyttolast**.
+1. Klicka **Kör**.
 
 >[!NOTE]
 >
@@ -135,7 +135,7 @@ Den absoluta strategin:
 
 Följ stegen nedan för att konfigurera en absolut strategi:
 
-1. Navigera till kanalförfattaren och markera sekvenskomponenten så som visas i bilden nedan.
+1. Navigera till kanalförfattaren och klicka på sekvenskomponenten så som visas i bilden nedan.
 1. Öppna konfigurationsdialogrutan.
 1. Redigera **Strategi** och lägg till absolut.
 

@@ -5,7 +5,7 @@ feature: Administering Screens
 role: Developer, User
 level: Intermediate
 exl-id: 8b281488-f54d-4f8a-acef-ca60fa2315ed
-source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '623'
 ht-degree: 0%
@@ -49,7 +49,7 @@ Om du vill använda flera publiceringsinstanser som föregås av en Dispatcher u
  }
 ```
 
-Om du har en publiceringsinstans som föregås av en Dispatcher hjälper inte aktiveringen av klisterlappningen vid Dispatcher eftersom belastningsutjämnaren kan skicka varje begäran till Dispatcher. I det här fallet väljer du **Aktivera** in **Stickande** fält för att aktivera det på belastningsutjämnarnivå, enligt bilden nedan:
+Om du har en publiceringsinstans som föregås av en Dispatcher hjälper inte aktiveringen av klisterlappningen vid Dispatcher eftersom belastningsutjämnaren kan skicka varje begäran till Dispatcher. I det här fallet klickar du på **Aktivera** in **Stickande** fält för att aktivera det på belastningsutjämnarnivå, enligt bilden nedan:
 
 ![bild](/help/user-guide/assets/dispatcher/dispatcher-enable.png)
 

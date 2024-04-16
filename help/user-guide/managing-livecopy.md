@@ -9,7 +9,7 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 4a4b3a83-2b02-42a0-86a7-fce6bbf47c7d
-source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '697'
 ht-degree: 4%
@@ -31,13 +31,13 @@ Följ stegen nedan för att skapa en live-kopia av en kanal i projektmappen.
 
 1. Klicka på länken Adobe Experience Manager (överst till vänster) och sedan **Skärmar**. Du kan också gå direkt till: `http://localhost:4502/screens.html/content/screens`.
 
-1. Navigera till Skärmprojekt och välj **Kanaler**.
-1. Välj **Skapa** och markera **Live Copy** så att du kan skapa en live-kopia av kanalen.
-1. Markera målet och markera **Nästa**.
-1. Välj den plats där live-kopian kan placeras.
+1. Navigera till Skärmprojekt och klicka **Kanaler**.
+1. Klicka **Skapa** och klicka **Live Copy** så att du kan skapa en live-kopia av kanalen.
+1. Klicka på målet och klicka på **Nästa**.
+1. Klicka på den plats där live-kopian kan placeras.
 1. Ange **Titel** och **Namn** i **Skapa Live Copy** sida.
 
-1. Välj **Öppna** för att visa innehållet i en ny live-kopia eller **Klar** för att gå tillbaka till huvudsidan.
+1. Klicka **Öppna** för att visa innehållet i en ny live-kopia eller **Klar** för att gå tillbaka till huvudsidan.
 
 Du kan även se stegen nedan för visuell representation av hur du skapar en ny live-kopia av en kanal.
 
@@ -51,11 +51,11 @@ En Live-kopia är en kopia av en befintlig kanal.
 
 Om du vill visa innehållet i din live-kopia, se stegen nedan:
 
-1. Navigera till Skärmprojekt och välj den plats där du ursprungligen skapade en Live-kopia, som visas i avsnittet ovan. (Här valdes platsen som **Kanaler** mapp)
+1. Navigera till Skärmprojekt och klicka på den plats där du ursprungligen skapade en Live-kopia, som visas i avsnittet ovan. (Här valdes platsen som **Kanaler** mapp)
 
    ![chlimage_1-18](assets/chlimage_1-18.png)
 
-1. Välj **Redigera** i åtgärdsfältet.
+1. Klicka **Redigera** i åtgärdsfältet.
 
    ![chlimage_1-19](assets/chlimage_1-19.png)
 
@@ -67,11 +67,11 @@ Om du vill visa innehållet i din live-kopia, se stegen nedan:
 
 Du kan även visa egenskaperna för den aktiva kopiekanalen.
 
-1. Navigera till din livekopiekanal och välj **Egenskaper** i åtgärdsfältet.
+1. Navigera till din livekopiekanal och klicka **Egenskaper** i åtgärdsfältet.
 
    ![chlimage_1-20](assets/chlimage_1-20.png)
 
-1. Välj **Live Copy** så att du kan visa information om kanalen.
+1. Klicka på **Live Copy** så att du kan visa information om kanalen.
 
    ![chlimage_1-21](assets/chlimage_1-21.png)
 
@@ -79,11 +79,11 @@ Du kan även visa egenskaperna för den aktiva kopiekanalen.
 
 Läget **Live Copy-status**, vilket visas i figuren nedan, gör att du kan visa relationsstatus för alla resurser i kanalen.
 
-1. Välj **Redigera** så att du kan välja **Live Copy-status** och visa associationen mellan kanalinnehållet och originalkanalen (varifrån live-kopian genereras).
+1. Klicka **Redigera** så att du kan välja **Live Copy-status** och visa associationen mellan kanalinnehållet och originalkanalen (varifrån live-kopian genereras).
 
    ![chlimage_1-22](assets/chlimage_1-22.png)
 
-1. Välj **Live Copy-status** så att du kan visa förhandsvisningssidan.
+1. Klicka **Live Copy-status** så att du kan visa förhandsvisningssidan.
 
    Alla resurser med grön kant visar att innehållet ärvs från den ursprungliga kanalen.
 
@@ -93,7 +93,7 @@ Läget **Live Copy-status**, vilket visas i figuren nedan, gör att du kan visa 
 
 Du kan också avbryta arvet från den aktiva kopian, så att innehållet blir oberoende av den ursprungliga grenen.
 
-I följande exempel visas att du markerar bilden i redigeringsläget och väljer symbolen för att avbryta arv högst upp till höger.
+I följande exempel visas att du klickar på bilden i redigeringsläget och klickar på symbolen för att avbryta arv överst till höger.
 
 ![chlimage_1-24](assets/chlimage_1-24.png)
 
@@ -103,7 +103,7 @@ Om du gör ändringar eller uppdateringar i den ursprungliga kanalen ska du äve
 
 Följ stegen nedan för att se till att dina ändringar sprids från den ursprungliga kanalen till den aktiva kopiekanalen:
 
-1. Markera den ursprungliga kanalen (***Inaktiv kanal***) och markera **Redigera** i åtgärdsfältet.
+1. Klicka på den ursprungliga kanalen (***Inaktiv kanal***) och klicka på **Redigera** i åtgärdsfältet.
 
    ![chlimage_1-25](assets/chlimage_1-25.png)
 
@@ -111,21 +111,21 @@ Följ stegen nedan för att se till att dina ändringar sprids från den ursprun
 
    ![chlimage_1-26](assets/chlimage_1-26.png)
 
-1. Markera den aktiva kopian av kanalen (***IdleLiveCopy***) och markera **Redigera** i åtgärdsfältet. Observera att den bild du tog bort fortfarande är synlig i den aktiva kopian.
+1. Klicka på den aktiva kopian av kanalen (***IdleLiveCopy***) och klicka på **Redigera** i åtgärdsfältet. Observera att den bild du tog bort fortfarande är synlig i den aktiva kopian.
 
    Synkronisera kanalen om du vill sprida ändringarna.
 
    ![chlimage_1-27](assets/chlimage_1-27.png)
 
-1. Om du vill sprida ändringarna till den aktiva kopieringskanalen går du till AEM dashboard och markerar den aktiva kopieringskanalen och väljer **Egenskaper** i åtgärdsfältet.
+1. Om du vill sprida ändringarna till den aktiva kopieringskanalen går du till AEM dashboard och klickar på den aktiva kopieringskanalen och klickar på **Egenskaper** i åtgärdsfältet.
 
    ![chlimage_1-28](assets/chlimage_1-28.png)
 
-1. Välj **Live Copy** och markera **Synkronisera** i åtgärdsfältet.
+1. Klicka på **Live Copy** och klicka **Synkronisera** i åtgärdsfältet.
 
    ![chlimage_1-29](assets/chlimage_1-29.png)
 
-1. Välj **Synkronisera** väljer **Spara och stäng** för att gå tillbaka till AEM kontrollpanel.
+1. Klicka **Synkronisera** och sedan klicka **Spara och stäng** för att gå tillbaka till AEM kontrollpanel.
 
    ![chlimage_1-30](assets/chlimage_1-30.png)
 

@@ -9,7 +9,7 @@ feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: b40bcc9f-307c-422c-8abb-5c15965772d4
-source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '491'
 ht-degree: 0%
@@ -30,19 +30,19 @@ I följande steg sammanfattas proceduren för att konfigurera åtkomstkontrollis
 
    ![screen_shot_2018-02-16at10156pm](assets/screen_shot_2018-02-16at10156pm.png)
 
-1. Välj **Grupper** och ange ett ID (till exempel Acme).
+1. Klicka **Grupper** och ange ett ID (till exempel Acme).
 
    Du kan även använda den här länken, `http://localhost:4502/libs/granite/security/content/groupadmin.html`.
 
-   Nästa, välj **Spara**.
+   Klicka på Nästa **Spara**.
 
    ![screen_shot_2018-02-16at12648pm](assets/screen_shot_2018-02-16at12648pm.png)
 
-1. Välj **Medarbetare** i listan och dubbelmarkera den.
+1. Klicka **Medarbetare** i listan och dubbelklicka på den.
 
    ![screen_shot_2018-02-18at33938pm](assets/screen_shot_2018-02-18at33938pm.png)
 
-1. Lägg till **Acme** (projekt som du har skapat) till **Lägg till medlemmar i grupp**. Välj **Spara**.
+1. Lägg till **Acme** (projekt som du har skapat) till **Lägg till medlemmar i grupp**. Klicka **Spara**.
 
    ![screen_shot_2018-02-18at35630pm](assets/screen_shot_2018-02-18at35630pm.png)
 
@@ -56,7 +56,7 @@ I följande steg sammanfattas proceduren för att konfigurera åtkomstkontrollis
 
 1. Ange behörigheter för gruppen **Acme** använda `(http://localhost:4502/useradmin)`.
 
-   Markera gruppen **Acme** och väljer **behörigheter**.
+   Klicka på gruppen **Acme** och klicka på **behörigheter**.
 
    ![screen_shot_2018-02-18at41534pm](assets/screen_shot_2018-02-18at41534pm.png)
 

@@ -5,7 +5,7 @@ feature: Administering Screens, Players
 role: Admin
 level: Intermediate
 exl-id: 45147959-b0ca-4d87-b89d-293e4b9af171
-source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '1208'
 ht-degree: 0%
@@ -47,7 +47,7 @@ Du kan tilldela din Tizen-spelare ett användarvänligt enhetsnamn och därmed s
 
 Följ stegen nedan för att konfigurera namnet i Tizen-spelaren:
 
-1. Välj menyknappen på fjärrkontrollen.
+1. Klicka på menyknappen på fjärrkontrollen.
 1. Navigera till **nätverk** > **Enhetsnamn** så att du kan ge spelaren ett namn.
 
 ### Konfigurera uppdateringar på Samsung-enheten {#config-updates}
@@ -55,11 +55,11 @@ Följ stegen nedan för att konfigurera namnet i Tizen-spelaren:
 Följ stegen nedan på Samsung-enheten så att du kan slutföra installationen av AEM Screens-spelaren på enheten:
 
 1. Navigera till din Samsung-enhet och slå på.
-1. Välj **MENY** från enhetens fjärrdator och rulla nedåt till **System** i det vänstra navigeringsfältet.
-1. Bläddra nedåt och välj **Spela upp via** och ändra det till **URL Launcher** alternativ.
+1. Klicka på **MENY** från enhetens fjärrdator och rulla nedåt till **System** i det vänstra navigeringsfältet.
+1. Bläddra nedåt och klicka på **Spela upp via** och ändra det till **URL Launcher** alternativ.
    ![bild](/help/user-guide/assets/tizen/rms-2.png)
 1. När URL Launcher är inställd trycker du på **Startsida** från fjärrkontrollen.
-1. Navigera till **Inställningar för URL-start** och ange IP-adressen till den lokala värdservern och välj **Klar**.
+1. Navigera till **Inställningar för URL-start** och ange IP-adressen till den lokala värdservern och klicka på **Klar**.
 
    >[!NOTE]
    >Tizen-spelaren bör kunna ansluta till http-servern.
@@ -145,29 +145,29 @@ Följ stegen nedan för att registrera Tizen-enheten till Samsung Remote Managem
 
 1. Navigera till Serveradress och skriv in MagicInfo URL-åtkomst och tryck på **Klar**.
 
-1. Konfigurera TLS, om det behövs. Navigera till porten och markera portnumret på servern och markera **Spara**.
+1. Konfigurera TLS, om det behövs. Navigera till porten och klicka på portnumret från servern och klicka på **Spara**.
 
-1. Navigera till **Enhet** och leta efter den enhet som du har konfigurerat. När en enhet hittas markerar du kryssrutan och väljer **Godkänn**.
+1. Navigera till **Enhet** och leta efter den enhet som du har konfigurerat. När en enhet hittas klickar du i kryssrutan och klickar sedan på **Godkänn**.
 
    >![bild](/help/user-guide/assets/tizen/rms-3.png)
 
-1. Fyll i nödvändig information och välj en enhetsgrupp. Välj **OK**.
+1. Fyll i nödvändig information och klicka på en enhetsgrupp. Klicka **OK**.
 
    >![bild](/help/user-guide/assets/tizen/rms-7.png)
 
-1. När enheten har godkänts visas den i enhetslistan. Välj *Information* i enhetens ruta enligt följande.
+1. När enheten har godkänts visas den i enhetslistan. Klicka *Information* i enhetens ruta enligt följande.
 
    >![bild](/help/user-guide/assets/tizen/rms-6.png)
 
-1. Dialogrutan för enhetsinformation visas. Välj **Enhetsinfo** och markera **Redigera**.
+1. Dialogrutan för enhetsinformation visas. Klicka på **Enhetsinfo** och klicka **Redigera**.
 
    >![bild](/help/user-guide/assets/tizen/rms-5.png)
 
-1. Redigera enhetsalternativen och välj **Inställningar** -fliken. Navigera till **URL Launcher** och ange webbadress som är värd för widgeten och `SSSP config file` så att du kan installera en `SSSP` som i bilden nedan.
+1. Redigera enhetsalternativen och klicka på **Inställningar** -fliken. Navigera till **URL Launcher** och ange webbadress som är värd för widgeten och `SSSP config file` så att du kan installera en `SSSP` som i bilden nedan.
 
    ![bild](/help/user-guide/assets/tizen/rms-9.png)
 
-1. Välj **Spara**.
+1. Klicka **Spara**.
 
 ### Använda fjärrkontrollen till skärmar {#using-remote-control}
 

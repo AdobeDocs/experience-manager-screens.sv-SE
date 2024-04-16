@@ -5,7 +5,7 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: c95da2e9-a216-4d0a-85d0-a0fb895a8d8a
-source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '373'
 ht-degree: 0%
@@ -45,17 +45,17 @@ Följ stegen nedan för att aktivera målinriktning i dina kanaler.
 
 1. Navigera till någon av AEM Screens-kanalerna. I följande steg visas hur du aktiverar målinriktning genom att använda **DataDrivenRetail** *(sekvenskanal)* som har skapats i en AEM Screens-kanal.
 
-1. Välj kanalen **DataDrivenRetail** och markera **Egenskaper** i åtgärdsfältet.
+1. Klicka på kanalen **DataDrivenRetail** och klicka **Egenskaper** i åtgärdsfältet.
 
    ![screen_shot_2019-05-01at43332pm](assets/screen_shot_2019-05-01at43332pm.png)
 
-1. Välj **Personalisering** så att du kan konfigurera ContextHub-konfigurationer och välja ContextHub- och Segments-sökvägen.
+1. Klicka på **Personalisering** så att du kan konfigurera ContextHub-konfigurationer och klicka på ContextHub- och Segments-sökvägen.
 
-   1. Välj **ContextHub-sökväg** as **libs** > **inställningar** > **molninställningar** > **standard** > **ContextHub-konfigurationer** och markera **Välj**.
+   1. Klicka på **ContextHub-sökväg** as **libs** > **inställningar** > **molninställningar** > **standard** > **ContextHub-konfigurationer** och klicka **Klicka**.
 
-   1. Välj **Segmentsökväg** as **conf** > **`We.Retail`** > **inställningar** > **wcm** > **segment** och markera **Välj**.
+   1. Klicka på **Segmentsökväg** as **conf** > **`We.Retail`** > **inställningar** > **wcm** > **segment** och klicka **Klicka**.
 
-   1. Välj **Spara och stäng**.
+   1. Klicka **Spara och stäng**.
 
    >[!NOTE]
    >
@@ -63,7 +63,7 @@ Följ stegen nedan för att aktivera målinriktning i dina kanaler.
 
    ![screen_shot_2019-05-01at44030pm](assets/screen_shot_2019-05-01at44030pm.png)
 
-1. Navigera och markera **DataDrivenRetail** från **DataDrivenAssets** > **Kanaler** och markera **Redigera** i åtgärdsfältet. Dra och släpp resurserna i kanalredigeraren.
+1. Navigera och klicka på **DataDrivenRetail** från **DataDrivenAssets** > **Kanaler** och klicka **Redigera** i åtgärdsfältet. Dra och släpp resurserna i kanalredigeraren.
 
    >[!NOTE]
    >
@@ -71,9 +71,9 @@ Följ stegen nedan för att aktivera målinriktning i dina kanaler.
 
    ![screen_shot_2019-05-01at44231pm](assets/screen_shot_2019-05-01at44231pm.png)
 
-1. Välj **Målinriktning**.
+1. Klicka **Målinriktning**.
 
-1. Välj **Varumärke** och **Aktivitet** i listrutan och väljer **Börja målinrikta**.
+1. Klicka **Varumärke** och **Aktivitet** i listrutan och klicka på **Börja målinrikta**.
 
 ### Läs mer: Exempel på användningsfall {#learn-more-example-use-cases}
 

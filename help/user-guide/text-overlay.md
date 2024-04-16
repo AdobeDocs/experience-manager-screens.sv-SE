@@ -10,7 +10,7 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: bbc719df-24a7-4cfb-9786-1c3496f9f082
-source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '767'
 ht-degree: 0%
@@ -58,15 +58,15 @@ Följande bild visar **TextOverlayDemo** projekt med **TextExempel** kanal in **
 
 Följ stegen nedan för att använda textövertäckning i en AEM Screens-kanal:
 
-1. Navigera till **TextOverlayDemo** > **Kanaler** > **TextExempel** och markera **Redigera** i åtgärdsfältet.
+1. Navigera till **TextOverlayDemo** > **Kanaler** > **TextExempel** och klicka **Redigera** i åtgärdsfältet.
 
    ![screen_shot_2018-12-16at80017pm](assets/screen_shot_2018-12-16at80017pm.png)
 
-1. Markera bilden och markera **Konfigurera** (skiftnyckelsikon) för att öppna dialogrutan Egenskaper.
+1. Klicka på bilden och klicka på **Konfigurera** (skiftnyckelsikon) för att öppna dialogrutan Egenskaper.
 
    ![screen_shot_2018-12-16at80221pm](assets/screen_shot_2018-12-16at80221pm.png)
 
-1. Välj **Textövertäckning** i navigeringsfältet i dialogrutan, vilket visas i bilden nedan.
+1. Klicka på **Textövertäckning** i navigeringsfältet i dialogrutan, vilket visas i bilden nedan.
 
    ![screen_shot_2018-12-16at80424pm](assets/screen_shot_2018-12-16at80424pm.png)
 
@@ -98,15 +98,15 @@ Mer information om hur du konfigurerar och hanterar datadrivna resursändringar 
 
 När du har ställt in de konfigurationer som krävs för ditt projekt följer du stegen nedan för att använda värden från Google Sheets:
 
-1. Navigera till **TextOverlayDemo** > **Kanaler** > **TextExempel** och markera **Egenskaper** i åtgärdsfältet.
+1. Navigera till **TextOverlayDemo** > **Kanaler** > **TextExempel** och klicka **Egenskaper** i åtgärdsfältet.
 
-1. Välj **Personalisering** så att du kan konfigurera ContextHub-konfigurationer.
+1. Klicka på **Personalisering** så att du kan konfigurera ContextHub-konfigurationer.
 
-   1. Välj **ContextHub-sökväg** as **libs** > **inställningar** > **molninställningar** > **standard** > **ContextHub-konfigurationer** och markera **Välj**.
+   1. Klicka på **ContextHub-sökväg** as **libs** > **inställningar** > **molninställningar** > **standard** > **ContextHub-konfigurationer** och klicka **Välj**.
 
-   1. Välj **Segmentsökväg** as **conf** > **skärmar** > **inställningar** > **wcm** > **segment** och markera **Välj**.
+   1. Klicka på **Segmentsökväg** as **conf** > **skärmar** > **inställningar** > **wcm** > **segment** och klicka **Välj**.
 
-   1. Välj **Spara och stäng**.
+   1. Klicka **Spara och stäng**.
 
       >[!NOTE]
       >
@@ -114,22 +114,22 @@ När du har ställt in de konfigurationer som krävs för ditt projekt följer d
 
       ![image1](/help/user-guide/assets/text-overlay/text-overlay8.png)
 
-1. Navigera till **TextOverlayDemo** > **Kanaler** > **TextExempel** och markera **Redigera** i åtgärdsfältet.
+1. Navigera till **TextOverlayDemo** > **Kanaler** > **TextExempel** och klicka **Redigera** i åtgärdsfältet.
 
    ![image1](/help/user-guide/assets/text-overlay/text-overlay1.png)
 
 1. Lägga till en bild- och textövertäckningskomponent i bilden enligt beskrivningen i [Använda textövertäckning](/help/user-guide/text-overlay.md#using-text-overlay) på den här sidan.
 
-1. Välj på **Konfigurera** (skiftnyckelsikon) för att öppna **Bild** -dialogrutan.
+1. Klicka på **Konfigurera** (skiftnyckelsikon) för att öppna **Bild** -dialogrutan.
 
    ![image1](/help/user-guide/assets/text-overlay/text-overlay4.png)
 
-1. Navigera till **ContextHub** -fliken från **Bild** -dialogrutan. Välj **Lägg till**.
+1. Navigera till **ContextHub** -fliken från **Bild** -dialogrutan. Klicka **Lägg till**.
 
    >[!NOTE]
    >Om du inte har konfigurerat din ContextHub-konfiguration inaktiveras det här alternativet för ditt projekt.
 
-1. Retur **Värde** i **Platshållare** fält. Markera raden där du vill hämta värdet från ditt Google-blad i **ContextHub-variabel**. I det här fallet hämtas värdet från rad 2 och kolumn 1 från Google-bladen. Nu öppnar du **Standardvärde** as **20**, vilket visas i bilden nedan. Markera bockmarkeringen när du är klar.
+1. Retur **Värde** i **Platshållare** fält. Klicka på raden där du vill hämta värdet från Google-bladet i **ContextHub-variabel**. I det här fallet hämtas värdet från rad 2 och kolumn 1 från Google-bladen. Nu öppnar du **Standardvärde** as **20**, vilket visas i bilden nedan. När du är klar klickar du på bockmarkeringen.
 
    ![image1](/help/user-guide/assets/text-overlay/text-overlay5.png)
 
@@ -142,6 +142,6 @@ När du har ställt in de konfigurationer som krävs för ditt projekt följer d
 
    ![image1](/help/user-guide/assets/text-overlay/text-overlay7.png)
 
-1. Välj **Förhandsgranska**.
+1. Klicka **Förhandsgranska**.
 
    ![image1](/help/user-guide/assets/text-overlay/text-overlay10.png)

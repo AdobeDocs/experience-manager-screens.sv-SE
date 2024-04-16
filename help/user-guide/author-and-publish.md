@@ -2,7 +2,7 @@
 title: Konfigurera författare- och publiceringsinstanser i AEM Screens
 description: Lär dig hur du konfigurerar en Author-instans och en Publish-instans för AEM Screens.
 exl-id: 5aef5f35-d946-4bf8-a2a8-c3ed532b7eef
-source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '1923'
 ht-degree: 0%
@@ -66,23 +66,23 @@ Följ stegen nedan om du vill skapa en standardsvar för replikering:
 
    ![screen_shot_2019-02-25at24621pm](assets/screen_shot_2019-02-25at24621pm.png)
 
-1. Välj **Replikering** från det vänstra navigeringsträdet.
+1. Klicka på **Replikering** från det vänstra navigeringsträdet.
 
    ![screen_shot_2019-02-25at24715pm](assets/screen_shot_2019-02-25at24715pm.png)
 
-1. Välj **Agenter på författare** från **Replikering** mapp och markera **Nytt** om du vill skapa en ny standardoperationsagent.
+1. Klicka på **Agenter på författare** från **Replikering** mapp och klicka på **Nytt** om du vill skapa en ny standardoperationsagent.
 
    ![screen_shot_2019-02-25at25400pm](assets/screen_shot_2019-02-25at25400pm.png)
 
-1. Ange **Titel** och **Namn** så att du kan skapa replikeringsagenten och sedan välja **Skapa**.
+1. Ange **Titel** och **Namn** så att du kan skapa replikeringsagenten och sedan klicka på **Skapa**.
 
    ![screen_shot_2019-02-25at25737pm](assets/screen_shot_2019-02-25at25737pm.png)
 
-1. Högerklicka på replikeringsagenten och välj **Öppna** om du vill redigera inställningarna.
+1. Högerklicka på replikeringsagenten och klicka på **Öppna** om du vill redigera inställningarna.
 
    ![screen_shot_2019-02-25at30018pm](assets/screen_shot_2019-02-25at30018pm.png)
 
-1. Välj **Redigera**.
+1. Klicka **Redigera**.
 
 1. I **Agentinställningar** anger du informationen.
 
@@ -128,7 +128,7 @@ Konfigurera Apache Sling Oak-Based Discovery för alla publiceringsinstanser i t
 För varje publiceringsinstans:
 
 1. Navigera till `https://<host>:<port>/system/console/configMgr`
-1. Välj **Apache Sling Oak-Based Discovery Service** Konfiguration.
+1. Klicka **Apache Sling Oak-Based Discovery Service** Konfiguration.
 1. Uppdatera topologianslutnings-URL:er: lägg till URL:er för alla tolkande publiceringsinstanser:
    * `https://publish:4503/libs/sling/topology/connector`
    * `https://publish:4504/libs/sling/topology/connector`
@@ -151,7 +151,7 @@ På varje publiceringsinstans:
 
 1. I OSGi Console går du till **HUVUDSAK** > **Krypteringsstöd** (`https://<host>:<port>/system/console/crypto`).
 1. Skriv in lösenordet för oformaterad text (samma för alla förekomster) i **Oformaterad text**
-1. Välj **Protect**.
+1. Klicka **Protect**.
 1. Kopiera värdet **Skyddad text** till anteckningsblock eller textredigerare. Det här värdet kan användas i OSGi-konfigurationen för ActiveMQ.
 
 Eftersom varje Publish-instans som standard har unika krypteringsnycklar, utför du det här steget på varje pub-instans och sparar den unika nyckeln för nästa konfiguration.
@@ -166,7 +166,7 @@ Eftersom varje Publish-instans som standard har unika krypteringsnycklar, utför
 I varje publiceringsinstans:
 
 1. Navigera till OSGi Config Manager `https://<host>:<port>/system/console/configMgr`
-1. Välj **Apache ActiveMQ Artemis JMS Provider** Konfiguration
+1. Klicka **Apache ActiveMQ Artemis JMS Provider** Konfiguration
 1. Uppdatera följande:
 
    * ***Klusterlösenord***: använd krypterat värde från föregående steg per instans
@@ -191,7 +191,7 @@ Följ stegen nedan för varje publiceringsinstans:
 
 Följande bild visas till exempel när ActiveMQ Artemis Server har konfigurerats.
 
-Om du inte ser följande konfiguration från */system/console/mq* navigera sedan till */system/console/mq* och markera **Starta om** för att starta om mäklaren.
+Om du inte ser följande konfiguration från */system/console/mq* navigera sedan till */system/console/mq* och klicka **Starta om** för att starta om mäklaren.
 
 ![image-2018-06-18-18-14-55-449](assets/image-2018-06-18-18-14-55-449.png)
 
@@ -200,7 +200,7 @@ Om du inte ser följande konfiguration från */system/console/mq* navigera sedan
 Följ stegen för varje publiceringsinstans:
 
 1. Navigera till **OSGi Console** > **Konfigurationshanteraren**
-1. Välj **Apache Sling Referer-filter**
+1. Klicka **Apache Sling Referer-filter**
 1. Uppdatera konfiguration och **Markera Tillåt tomt**
 
 ### Konfigurera författare och publiceringsinstans {#configuring-author-and-publish-instance}
@@ -224,19 +224,19 @@ När du har konfigurerat publiceringstopologin konfigurerar du författar- och p
 
 #### Steg 2: Registrera en enhet på författaren {#step-registering-a-device-on-author}
 
-1. Gå till `https://localhost:4502/screens.html/content/screens/we-retail` eller välj projektet och gå till Enheter > Enhetshanteraren.
-1. Välj **Registrera enhet**.
-1. Välj **Enhetsregistrering**.
-1. Välj den enhet som du vill registrera och välj sedan **Registrera enhet**.
-1. Verifiera registreringskoden och välj **Validera**.
-1. Ange en titel för enheten och välj **Registrera**.
+1. Gå till `https://localhost:4502/screens.html/content/screens/we-retail` eller klicka på projektet och gå till Enheter > Enhetshanteraren.
+1. Klicka **Registrera enhet**.
+1. Klicka **Enhetsregistrering**.
+1. Klicka på den enhet som du vill registrera och klicka sedan på **Registrera enhet**.
+1. Verifiera registreringskoden och klicka sedan på **Validera**.
+1. Ange en rubrik för enheten och klicka sedan på **Registrera**.
 
 #### Steg 3: Tilldela enheten till visning {#step-assigning-the-device-to-display}
 
-1. Välj **Tilldela visning** i dialogrutan från föregående steg.
-1. Välj visningsbanan för kanalen i dialogrutan **Platser** mapp.
-1. Välj **Tilldela**.
-1. Välj **Slutför** för att slutföra processen och nu tilldelas enheten.
+1. Klicka **Tilldela visning** i dialogrutan från föregående steg.
+1. Klicka på visningsbanan för kanalen i dialogrutan **Platser** mapp.
+1. Klicka **Tilldela**.
+1. Klicka **Slutför** för att slutföra processen och nu tilldelas enheten.
 
 Kontrollera spelaren och lägg märke till innehållet som du har lagt till i kanalen.
 
@@ -248,7 +248,7 @@ Så här replikerar du enhetsanvändaren:
 
 1. Gå till sidan för användaradministration. Till exempel: `https://localhost:4502/useradmin`.
 1. Sök efter **`screens-devices-master`** grupp.
-1. Högerklicka på gruppen och välj **Aktivera**.
+1. Högerklicka på gruppen och klicka på **Aktivera**.
 
 >[!CAUTION]
 >
@@ -257,14 +257,14 @@ Så här replikerar du enhetsanvändaren:
 Du kan även aktivera enheten från enhetshanteringskonsolen. Följ stegen nedan:
 
 1. Navigera till ditt skärmsprojekt > **Enheter**.
-1. Välj **Enhetshanteraren** i åtgärdsfältet.
-1. Markera enheten och välj **Aktivera** i åtgärdsfältet, som i bilden nedan.
+1. Klicka **Enhetshanteraren** i åtgärdsfältet.
+1. Klicka på enheten och klicka på **Aktivera** i åtgärdsfältet, som i bilden nedan.
 
 ![screen_shot_2019-02-21at11036am](assets/screen_shot_2019-02-21at111036am.png)
 
 >[!NOTE]
 >
->När du har aktiverat enheten kan du även redigera eller uppdatera serverns URL. Välj **Redigera server-URL** från åtgärdsfältet, som visas i figuren nedan, sprids dina ändringar till AEM Screens-spelaren.
+>När du har aktiverat enheten kan du även redigera eller uppdatera serverns URL. Klicka **Redigera server-URL** från åtgärdsfältet, som visas i figuren nedan, sprids dina ändringar till AEM Screens-spelaren.
 
 ![screen_shot_2019-02-21at105527am](assets/screen_shot_2019-02-21at105527am.png)
 
@@ -293,16 +293,16 @@ Följ stegen nedan för att verifiera hur redigering och publicering fungerar:
 #### Steg 5: Peka på enheten för att publicera instansen på Admin-panelen {#step-pointing-the-device-to-publish-instance-in-the-admin-panel}
 
 1. Visa administratörsgränssnittet från Skärmspelaren, tryck länge på det övre vänstra hörnet så att du kan öppna Admin-menyn, AEM Screens-spelaren med pekfunktion eller använda en mus.
-1. Välj **Konfiguration** från sidopanelen.
+1. Klicka på **Konfiguration** från sidopanelen.
 1. Ändra författarinstans till Publicera instans i **Server**.
 
 Se ändringarna i AEM Screens Player.
 
 Du kan även uppdatera/redigera server-URL:en från enhetshanteringskonsolen genom att följa följande steg:
 
-1. Navigera till ditt AEM Screens-projekt och välj **Enheter** mapp.
-1. Välj **Enhetshanteraren** i åtgärdsfältet.
-1. Markera enheten och välj **Redigera server-URL** från åtgärdsfältet, som visas i figuren nedan, och dina ändringar sprids till AEM Screens-spelaren.
+1. Navigera till ditt AEM Screens-projekt och klicka på **Enheter** mapp.
+1. Klicka **Enhetshanteraren** i åtgärdsfältet.
+1. Klicka på enheten och klicka på **Redigera server-URL** från åtgärdsfältet, som visas i figuren nedan, och dina ändringar sprids till AEM Screens-spelaren.
 
 ![screen_shot_2019-02-07at31028pm](assets/screen_shot_2019-02-07at31028pm.png)
 
