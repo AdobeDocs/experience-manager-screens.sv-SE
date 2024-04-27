@@ -1,57 +1,57 @@
 ---
-source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
+source-git-commit: 8330c85b68e9fd3877a04455f38b908459036805
 workflow-type: tm+mt
-source-wordcount: '738'
-ht-degree: 4%
+source-wordcount: '715'
+ht-degree: 0%
 
 ---
 # Riktlinjer för att bidra till Adobe Experience Manager-dokumentation
 
 ## Dokumentationsfilosofi
 
-Vi vet att Adobe Experience Manager-användare arbetar i mycket konkurrensutsatta miljöer och strävar efter att skapa digitala upplevelser som skiljer dem från deras konkurrenter. Därför är det viktigt att Adobe när de tillhandahåller avancerade nya verktyg i AEM kompletteras med korrekt och tydlig dokumentation som gör det möjligt för kunden att omedelbart utnyttja sin AEM och maximera avkastningen.
+Adobe Experience Manager-användare arbetar i mycket konkurrenskraftiga miljöer och strävar efter att skapa digitala upplevelser som skiljer dem från deras konkurrenter. När Adobe levererar avancerade nya verktyg för AEM kompletteras dessa verktyg därför med korrekt och tydlig dokumentation som gör att kunderna omedelbart kan använda sina AEM och maximera avkastningen på sina investeringar.
 
-Målet med den AEM dokumentationen är att ge AEM tillgång till dokumentation så snart som möjligt. Därför prioriterar vi korrekt, användbar dokumentation och strävar efter att kontinuerligt uppdatera och förbättra den.
+Målet med den AEM dokumentationen är att ge AEM tillgång till dokumentation så snart som möjligt. Därför prioriterar Adobe korrekt, användbar dokumentation och strävar efter att kontinuerligt uppdatera och förbättra den.
 
 ## Dokumentationsbidrag
 
-För att ständigt förbättra AEM dokumentation är AEM välkommen att bidra till dokumentationen. Vare sig det gäller förfrågningar eller frågor kan förbättringar av dokumentationen vara korrigeringar, förtydliganden, tillägg och ytterligare exempel.
+För att ständigt förbättra AEM dokumentation är AEM välkommen att bidra till dokumentationen. Vare sig det gäller förfrågningar eller frågor kan förbättringar av dokumentationen vara korrigeringar, förtydliganden, tillägg och andra exempel.
 
 ## Dokumentationsstandarder
 
-Vi välkomnar bidrag till vår dokumentation, men alla bidrag till AEM, antingen i form av en begäran om att tjänsten ska kunna hämtas eller ett problem, bör överensstämma med våra standarder för bidrag och dokumentation.
+Adobe välkomnar bidrag till sin dokumentation, men alla bidrag till AEM, antingen i form av en begäran om att tjänsten ska kunna dras in eller en fråga, bör överensstämma med Adobe normer för bidrag och dokumentation.
 
 Bidrag som inte uppfyller dessa standarder kan avvisas.
 
-### Vi dokumenterar standardanvändningsexempel.
+### Adobe-dokument - standardanvändningsexempel.
 
 AEM dokumentation täcker standardanvändningsfall. Användningsfall som inte omfattas av standardinstallationer och standardanvändning av produkten ingår inte i AEM.
 
-### Vi dokumenterar vanligtvis inte buggar eller deras tillfälliga lösningar.
+### Adobe dokumenterar vanligtvis inte buggar eller deras temporära lösningar.
 
-AEM dokumentation täcker standardanvändningsfall. Av den anledningen är buggar, effekter orsakade av buggar och tillfälliga lösningar för buggar i allmänhet inte dokumenterade.
+AEM dokumentation täcker standardanvändningsfall. Av den anledningen har buggar, effekter orsakade av buggar och tillfälliga lösningar för buggar inte dokumenterats.
 
 Undantag från den här regeln gäller versionsinformationen där kända problem kan listas med möjliga lösningar som har godkänts av AEM produkthantering.
 
 ### Dokumentationsbidragen är inte till för att besvara tekniska frågor.
 
-Alla idéer du kan behöva förbättra AEM dokumentation är välkomna som bidrag. Kommentarer, problem och förfrågningar är dock avsedda för *avgifter* endast. De är inte avsedda att användas för att besvara frågor om hur du använder AEM, implementerar ditt AEM eller löser tekniska problem.
+Alla idéer du behöver för att förbättra AEM dokumentation är välkomna som bidrag. Alla kommentarer, problem och pull-förfrågningar är avsedda som *avgifter* endast. De ska inte besvara dina frågor om hur du använder AEM, implementerar ditt AEM eller löser tekniska problem.
 
-Om du har frågor om hur AEM eller tekniska fel har använts ska du rapportera via den normala supportprocessen via [Experience Cloud Enterprise Support Portal](https://helpx.adobe.com/se/contact/enterprise-support.ec.html) eller diskuteras i [Experience Manager community](https://forums.adobe.com/community/experience-cloud/marketing-cloud/experience-manager).
+Du kan rapportera frågor om AEM eller tekniska fel genom att använda den normala supportprocessen via [Experience Cloud Enterprise Support Portal](https://experienceleague.adobe.com/?support-solution=General#support) eller diskuteras i [Experience Manager community](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-manager/ct-p/adobe-experience-manager-community).
 
-***AEM bidrag till dokumentationen ersätter inte Adobe kundtjänst*** och eventuella bidrag som söker svar på frågor som rör stöd kommer att refuseras.
+***AEM bidrag till dokumentationen ersätter inte Adobe kundtjänst*** och alla sådana bidrag som söker svar på frågor som rör stöd avvisas.
 
 ### Bidragen ska tydligt hänvisa till berörda dokumentationssidor.
 
-Om du skapar ett problem som kan föreslå förbättringar av dokumentationen ska du inkludera länkar till de sidor som påverkas. Om du skapar ett ärende genom att använda länken **Redigera den här sidan** på en dokumentationssida skapas ärendet automatiskt med en länk till sidan.
+Om du skapar ett problem som kan föreslå förbättringar av dokumentationen måste du inkludera länkar till de sidor som påverkas. Om du skapar ett problem med hjälp av **Redigera den här sidan** på en dokumentationssida skapas problemet automatiskt med en länk till sidan.
 
-Detta gäller inte för pull-begäranden eftersom pull-begäranden till sin natur refererar till den eller de berörda sidorna.
+Detta gäller inte för pull-begäranden eftersom pull-begäranden till sin natur refererar till de berörda sidorna.
 
 ## Riktlinjer för dokumentation
 
-Vi ber att eventuella bidrag till vår dokumentation följer vissa riktlinjer för format.
+Adobe begär att eventuella bidrag till dokumentationen ska följa vissa riktlinjer för format.
 
-Genom att följa dessa riktlinjer blir det enklare att granska ditt bidrag och det går därför snabbare att integrera det i vår dokumentation.
+Följ de här riktlinjerna för att underlätta granskningen av ditt bidrag och därför går det snabbare att integrera i Adobe-dokumentationen.
 
 ### Språk och format
 
@@ -61,11 +61,11 @@ Genom att följa dessa riktlinjer blir det enklare att granska ditt bidrag och d
 * Håll meningar så enkla som möjligt.
 * Se till att språket är klart och koncist.
 
-Kom ihåg att läsare AEM dokumentation finns i hela världen och inte kan förväntas vara inbyggda eller flytande engelska. Undvik kollokvialism och håll språket så tydligt och enkelt som möjligt.
+Kom ihåg att läsarna av AEM är från hela världen och inte kan förväntas vara inbyggda eller flytande engelska. Undvik kollokvialism och håll språket så tydligt och enkelt som möjligt.
 
-#### Följ Microsoft formathandbok
+#### Följ Microsoft® Manual of Style
 
-[The Microsoft Manual of Style](https://docs.microsoft.com/en-us/style-guide/welcome/) är en kostnadsfri handbok för dokumentationsformat som fokuserar på programvarudokumentation och AEM dokumentation följer den här handboken när det är möjligt.
+[The Microsoft® Manual of Style](https://learn.microsoft.com/en-us/style-guide/welcome/) är en kostnadsfri handbok för dokumentationsformat som fokuserar på programvarudokumentation och AEM dokumentation följer den här handboken när det är möjligt.
 
 ### Formatering
 
@@ -79,7 +79,7 @@ Kom ihåg att läsare AEM dokumentation finns i hela världen och inte kan förv
 
 Skärmbilder ska användas med omdöme och endast när en textbeskrivning är otillräcklig.
 
-Markörer eller andra anteckningar i skärmbilder (som röda ramar, pilar eller text) bör inte användas. På så sätt är skärmbilderna enklare att återanvända eller att replikera i lokaliserade versioner av dokumentationen.
+Markörer eller andra anteckningar i skärmbilder (som röda ramar, pilar eller text) bör inte användas. På så sätt är skärmbilderna enklare att återanvända eller replikera i lokaliserade versioner av dokumentationen.
 
 ### Versionsspecifika referenser
 
@@ -87,6 +87,6 @@ Undvik om möjligt direkta referenser till en viss version i dokumentationsinneh
 
 ### Användning av dag, AEM, CQ, CRX
 
-Produktens fullständiga namn ska alltid anges **Adobe Experience Manager** för första gången i en artikel och kan därefter kallas **AEM**.
+Använd alltid produktens fullständiga namn **Adobe Experience Manager** för första gången i en artikel och kan därefter kallas **AEM**.
 
 Day, Day Software, CQ och CRX bör inte användas utom när det är oundvikligt, t.ex. i klassnamn eller med hänvisning till AEM.
