@@ -2,9 +2,9 @@
 title: Datautlösare
 description: Läs mer om datautlösare i AEM Screens.
 exl-id: 23c4268e-48be-4c84-b5eb-c96152b166f7
-source-git-commit: a8055c5f859e401f7b1da4f5d95f1268dee243ad
+source-git-commit: ef74265eadf5972eae7451b7725946d8b014c198
 workflow-type: tm+mt
-source-wordcount: '257'
+source-wordcount: '261'
 ht-degree: 0%
 
 ---
@@ -13,15 +13,15 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->En typisk intressent för den här aktiviteten är en AEM implementerare.
+>En typisk intressent för den här aktiviteten är en AEM.
 
-**Dynamic Creative Optimization** eller DCO, används för att skapa digitala signeringsupplevelser som speglar de unika omständigheterna på en viss plats vid en given tidpunkt och för en viss användare.
+**Dynamic Creative Optimization**, eller DCO, används för att skapa digitala signeringsupplevelser som speglar de unika omständigheterna på en viss plats vid en given tidpunkt och för en viss användare.
 
-Detta kallas även för förenkling på klientsidan av innehåll.
+Den här användningen kallas även för innehållsförenkling på klientsidan.
 
-Orsaken till detta är att se till att varje spelarenhet eller slutpunkt kan använda datauppsättningar för att automatiskt avgöra vilket innehåll som ska spelas upp baserat på olika faktorer.
+Skälet är att se till att varje spelarenhet eller slutpunkt kan använda datauppsättningar för att avgöra vilket innehåll som ska spelas upp automatiskt baserat på olika faktorer.
 
-På så sätt elimineras behovet av konstant mänsklig inblandning vid innehållsutveckling. Det minskar också den totala ägandekostnaden för att driva nätverket och gör de digitala upplevelserna mer relevanta, mer kontextuella och effektiva.
+Denna funktion eliminerar behovet av konstant mänsklig inblandning vid framtagning av innehåll. Det minskar också den totala ägandekostnaden för att driva nätverket och gör de digitala upplevelserna mer relevanta, mer kontextuella och effektiva.
 
 Exempel:
 
@@ -30,7 +30,7 @@ Exempel:
 * närvaron av en lokal mediekampanj
 * webbtrafik och till och med lokala händelser som när en kund plockar upp en produkt för att undersöka den
 
-Allt detta och mer därtill kan användas för att ge en högre nivå av kontext och personalisering.
+Alla dessa exempel och mer kan användas för att skapa en högre nivå av sammanhang och personalisering.
 
 En visuell marknadsföringsstrategi som inkluderar DCO kan dramatiskt öka tittandet i nätverket.
 

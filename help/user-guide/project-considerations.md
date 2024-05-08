@@ -1,6 +1,6 @@
 ---
 title: "Del 2: Att tänka på som projekt är omfång"
-description: Läs mer om innehållsstrategi, I/O-lager, tillgångstyper, målgruppssegmentering, dagdelar, verksamhetskrav och beredskap för webbplatser i AEM Screens.
+description: Läs mer om innehållsstrategi, I/O-lager, resurstyper och målgruppssegmentering i AEM Screens. Läs mer om reservdelar, verksamhetskrav och överväganden som rör beredskap för webbplatser.
 contentOwner: jsyal
 content-type: reference
 topic-tags: digital-signage-networks-basics
@@ -10,9 +10,9 @@ feature: Overview
 role: User, Data Architect
 level: Beginner
 exl-id: 7814ee96-9220-45b6-b56e-b48a9da9a319
-source-git-commit: 3c4b37b3b9f268b500562fa4ce3782b7be1e7d74
+source-git-commit: ef74265eadf5972eae7451b7725946d8b014c198
 workflow-type: tm+mt
-source-wordcount: '626'
+source-wordcount: '644'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ Den här sidan belyser del 2 i en 5-delsserie som utformats för att hjälpa tea
 
 ## Ökning {#overview}
 
-I följande självstudiekurs beskrivs de element som måste identifieras vid projektidentifiering tillsammans med synpunkter från berörda parter för att utvärdera projektet och förbereda en lämplig design.
+I följande självstudiekurs beskrivs de element som måste identifieras vid projektidentifiering. Det omfattar även synpunkter från berörda parter för att bedöma projektet och de förberedelser som krävs för en lämplig utformning.
 
 De viktigaste komponenterna i ett program för digitala signaturer som krävs för att distributionen ska lyckas är:
 
@@ -32,21 +32,21 @@ De viktigaste komponenterna i ett program för digitala signaturer som krävs f�
 * Identifiering av IT- och nätverksmiljö
 * Krav för ljud/video
 * Utrustningsspecifikation
-* Webbplatsberedskap
+* Platsberedskap
 
 >[!NOTE]
 >
->Definiera en innehållsstrategi som tar hänsyn till hur programmet använder programvara, maskinvara och anslutningsresurser för att lyckas leverera det avsedda värdet.
+>Definiera en innehållsstrategi som tar hänsyn till hur programmet använder programvaru-, maskinvaru- och anslutningsresurser för att leverera det önskade värdet.
 
-## Sammanfattning av projektöverväganden i en digital signering  {#summary-of-project-considerations-in-a-digital-signage}
+## Sammanfattning av projektöverväganden i en digital signering {#summary-of-project-considerations-in-a-digital-signage}
 
-När du utvecklar en innehållsstrategi finns det flera saker att tänka på, bland annat I/O-lager, tillgångstyper, målgruppssegmentering och schemaläggning för dagdel.
+När du utvecklar en innehållsstrategi finns det flera saker att tänka på, bland annat I/O-lager, resurstyper, målgruppssegmentering och krav på dagdelsschema.
 
 ### I/O-lager {#i-o-layers}
 
-I/O-kör villkorlig uppspelning av innehåll baserat på avkänningsnärheten. När en sensor till exempel upptäcker närhet kan uppspelningen av innehåll ändras från&quot;attrahera&quot; eller passivt innehåll till&quot;engagera&quot; eller interaktiv uppspelning. Detta är särskilt användbart i program där du vill att innehåll som är baserat på demografi ska visas.
+I/O-kör villkorlig uppspelning av innehåll baserat på avkänningsnärheten. När en sensor till exempel upptäcker närhet kan uppspelningen av innehåll ändras från&quot;attrahera&quot; eller passivt innehåll till&quot;engagera&quot; eller interaktiv uppspelning. Den här funktionen är särskilt användbar i program där du vill att innehåll baserat på demografiska data ska visas.
 
-### Innehållstillgångstyper {#content-asset-types}
+### Innehållsresurstyper {#content-asset-types}
 
 För att du ska få en förståelse för vad kunden tänker göra med Content Assets bör du tänka på följande:
 
@@ -61,32 +61,32 @@ För att du ska få en förståelse för vad kunden tänker göra med Content As
 
 ### Målgruppssegmentering, dagdelar {#audience-segmentation-day-parts}
 
-Genom att tillämpa Day-Part-strategier kan slutkunder segmentera sitt innehåll och rikta meddelanden till rätt målgrupp vid rätt tidpunkt. Detta är särskilt effektivt för reklam- och butiksnätverk där många innehållsmedverkande ingår i hela spellistan.
+Genom att tillämpa Day-Part-strategier kan slutkunder segmentera sitt innehåll. Det kan hjälpa er att rikta meddelanden till rätt målgrupp vid rätt tidpunkt. Den här möjligheten är särskilt effektiv för reklam- och butiksnätverk där många som bidrar med innehåll utgör hela spellistan.
 
 ### Krav för affärsverksamhet {#business-operations-requirements}
 
-Affärsverksamhet är också viktig för att definiera i konversationer om innehållsstrategi. Genom att formatera klienternas supportbehov kan ni hantera förväntningarna efter driftsättningen och säkerställa att supportarbetet mäts korrekt.
+Affärsåtgärder är också viktiga att definiera i konversationer om innehållsstrategier. Genom att formatera klienternas supportbehov kan ni hantera förväntningarna efter driftsättningen och säkerställa att supportarbetet mäts korrekt.
 
 ### Krav för ljud/video {#a-v-requirements}
 
 Monteringsscenarier måste också definieras, liksom överväganden kring enhetsåtkomst för service av utrustning. Detta påverkar inte bara inledande installationsuppgifter och rekommendationer om utrustning, utan också de löpande service- och supportkraven.
 
-### Webbplatsberedskap {#site-readiness}
+### Platsberedskap {#site-readiness}
 
-Det sista steget i förförsäljningsprocessen är att fastställa webbplatsens beredskap. Detta kan underlättas genom webbplatsundersökningar där information om plats, projekt och förlopp samlas in. Platsberedskap innebär i princip att den aktuella platsen hämtas före installation och att eventuella artiklar som kunden måste förbereda eller planera för att adressera anropas innan en tekniker anländer. Vanligtvis omfattar detta element som ström, data, borttagning av möbler och avlägsnande av damm.
+Det sista steget i förförsäljningsprocessen är att fastställa platsens beredskap. Beredskap kan underlättas genom webbplatsundersökningar där information om plats, projekt och förlopp samlas in. Platsberedskapen fångar i huvudsak upp det aktuella läget för en plats innan installationen, och ringer upp alla artiklar som kunden måste förbereda eller planera för att adressera innan en tekniker kommer. Denna checklista innehåller vanligen uppgifter som ström, data, borttagning av möbler och dammborttagning.
 
 ## Del 2: Videosjälvstudiekurs om att tänka på när projekt är omfång {#part-video-tutorial-on-considerations-as-projects-are-scoped}
 
-Följ självstudiekursen nedan för att lära dig mer om innehållsstrategi, I/O-lager, tillgångstyper, målgruppssegmentering, dagdelar, verksamhetskrav och överväganden som rör beredskap för webbplatser.
+Följ självstudiekursen nedan för att lära dig mer om innehållsstrategi, I/O-lager, resurstyper och målgruppssegmentering. Läs mer om vardagsdelar, verksamhetskrav och beredskapsfrågor för webbplatser.
 
 ### Att tänka på när projekt är omfång
 
 >[!VIDEO](https://video.tv.adobe.com/v/28380)
 
-*Lär dig mer om innehållsstrategi, I/O-lager, tillgångstyper, målgruppssegmentering, dagdelar, verksamhetskrav och överväganden som rör webbplatsens beredskap.*
+*Lär dig mer om innehållsstrategi, I/O-lager, resurstyper och målgruppssegmentering. Läs mer om reservdelar, verksamhetskrav och överväganden som rör beredskap för webbplatser.*
 
 ## Nästa steg {#the-next-step}
 
-När du förstår vilka element som identifieras vid projektidentifiering, tillsammans med synpunkter från berörda parter för att utvärdera projektet och förbereda en lämplig design, lär du dig de viktigaste villkoren i en övergripande projektplan. Exempel på sådana termer är projektcykler, åtgärder som omger maskinvarutestning, konceptbevis, piloter och rollouts.
+Förstå de element som identifieras vid projektidentifiering, tillsammans med synpunkter från berörda parter, för att utvärdera projektet och förbereda en lämplig design. Lär dig de viktigaste villkoren i en övergripande projektplan. Exempel på sådana termer är projektcykler, åtgärder som omger maskinvarutestning, konceptbevis, piloter och rollouts.
 
 Navigera till **[Testning, POC, piloter &amp; Rollouts](testing-pocs-pilots-rollouts.md)** för mer information.

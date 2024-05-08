@@ -2,9 +2,9 @@
 title: Testning och kvalitetssäkring
 description: Läs mer om testning och kvalitetssäkring av AEM Screens i Best Practices Guide.
 exl-id: cc3bfb88-1341-43f8-b247-6a41f1d1a963
-source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
+source-git-commit: ef74265eadf5972eae7451b7725946d8b014c198
 workflow-type: tm+mt
-source-wordcount: '332'
+source-wordcount: '334'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ En checklista bör skapas som identifierar alla tidigare definierade KPI:er och 
 
 >[!NOTE]
 >
->Denna fas bör också användas som ett verktyg för att skapa en installations- och användarhandbok som senare kan levereras med utrustningen och behållas på plats för framtida referens.
+>Den här fasen bör även användas som ett verktyg för att skapa en installations- och användarhandbok. Båda kan senare levereras med utrustningen och behållas på plats för framtida referens.
 
 Följande faktorer bör beaktas:
 
@@ -48,9 +48,9 @@ Följande programvaruöverväganden rekommenderas:
 
 ## 3. Överväganden gällande enhetshantering {#device-management-considerations}
 
-AEM Screens innehåller en Device Control Center-modul som gör att du kan hantera slutpunkter för skärmsspelarprogram.
+AEM Screens har en Device Control Center-modul som gör att du kan hantera slutpunkter för skärmsspelarprogram.
 
-Detta avser alla *player* maskinvaruenhet som har programmet Skärmspelaren installerat och som är registrerad för en instans av AEM.
+Den refererar till *player* maskinvaruenhet som har programmet Skärmspelaren installerat och som är registrerad för en instans av AEM.
 Med den här modulen kan du:
 
 1. Felloggar för bildspelsprogram
@@ -58,7 +58,7 @@ Med den här modulen kan du:
 1. Hantera innehållsnedladdningar
 1. Hantera problem med programomstart
 
-Mer detaljerad information om ***Device Control Center***, se [Felsökning av Device Control Center](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/troubleshooting/monitoring-screens) in **AEM Screens Användarhandbok**.
+Mer information om ***Device Control Center***, se [Felsökning av Device Control Center](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/troubleshooting/monitoring-screens) in **AEM Screens Användarhandbok**.
 
 >[!CAUTION]
 >

@@ -5,9 +5,9 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: 9879f339-e70f-446d-acd3-380016269f27
-source-git-commit: fe4f7d593ccea91f6109a0c759aea3faa37ae471
+source-git-commit: ef74265eadf5972eae7451b7725946d8b014c198
 workflow-type: tm+mt
-source-wordcount: '221'
+source-wordcount: '225'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,7 @@ Den här versionen innehåller endast säkerhetskorrigeringar.
 
 * XSS-problem i fältet&quot;Inaktiv text&quot; på AEM Screens-enheten. (SCRNS-2614)
 
-* XSS-problem `screens/dashboard/device.html` via `Clear cache` åtgärdsdialogrutan. (SCRNS-2632)
+* XSS-problem `screens/dashboard/device.html` genom `Clear cache` åtgärdsdialogrutan. (SCRNS-2632)
 
 * XSS-problem i skärmuppspelningskonfiguration på `libs/screens/player/browser/firmware.html`. (SCRNS-2652)
 
@@ -45,7 +45,7 @@ Den här versionen innehåller endast säkerhetskorrigeringar.
 
 * Speglad XSS med parametern `item` på `/screens/register-device-wizard.html`. (SCRNS-2670)
 
-* Speglad XSS i `screens/dashboard/device.html` via `returnPage` parameter. (SCRNS-3056)
+* Speglad XSS i `screens/dashboard/device.html` genom `returnPage` parameter. (SCRNS-3056)
 
 * Öppna Omdirigering om assign-device-wizard.html. (SCRNS-3444)
 

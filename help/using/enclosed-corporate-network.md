@@ -2,7 +2,7 @@
 title: Enclosed Corporate Network
 description: Enclosed Corporate Network
 exl-id: b8c52e72-86da-4089-ba02-0c643862419f
-source-git-commit: 1e8beb9dfaf579250138d4a41eeec88cc81f2d39
+source-git-commit: ef74265eadf5972eae7451b7725946d8b014c198
 workflow-type: tm+mt
 source-wordcount: '703'
 ht-degree: 0%
@@ -21,7 +21,7 @@ Enclosed Corporate Network SetUp kan användas på mindre, större och större f
 Följ stegen nedan för att se till att AEM skärmspelare är korrekt anslutna i den här konfigurationen:
 
 1. Kontrollera att alla AEM skärmspelare är anslutna till routernätverket.
-1. Testa Internetanslutningen genom att ringa en URL i datorns webbläsare.
+1. Testa Internetanslutningen genom att anropa en URL i datorns webbläsare.
 
    >[!NOTE]
    >Kontrollera nätverksinställningarna om du får ett fel. Det finns i princip två alternativ för en korrekt nätverksanslutning:

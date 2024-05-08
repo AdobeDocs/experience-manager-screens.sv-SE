@@ -2,9 +2,9 @@
 title: Leverantörsåtagande
 description: Läs mer om Vendor Engagement for AEM Screens Best Practices Guide.
 exl-id: b1b1cd4b-f0a8-47d4-b8b8-dc7e42464230
-source-git-commit: 3c4b37b3b9f268b500562fa4ce3782b7be1e7d74
+source-git-commit: ef74265eadf5972eae7451b7725946d8b014c198
 workflow-type: tm+mt
-source-wordcount: '125'
+source-wordcount: '127'
 ht-degree: 0%
 
 ---
@@ -16,10 +16,10 @@ ht-degree: 0%
 
 I den här aktiviteten är det viktigt att identifiera alla viktiga leverantörer som krävs för att montera och leverera nätverket och eventuella partnerberoenden:
 
-* Identifiera leverantörer för all maskinvara, inklusive skärmar, spelardatorer, monteringar och relaterad kringutrustning.
+* Identifiera leverantörer för all maskinvara, inklusive skärmar, spelardatorer, monteringar och kringutrustning.
 
 * Definiera funktioner och uppgifter för varje leverantör beroende på vilken produktkategori de stöder.
 
-* Bekräfta leverans *leadtimes* för alla leveranser och skapa en driftsättningsplan som passar alla leadtimes som arbetar bakåt från ett eller flera önskade installationsdatum för de första nödvändiga installationerna.
+* Bekräfta leverans *ledtider* för alla produkter. Skapa en driftsättningsplan som passar för alla ledtider som arbetar bakåt från ett eller flera önskade installationsdatum för de första nödvändiga installationerna.
 
-Genom att slutföra alla föregående steg bör du nu ha en omfattande *Dag 1* Distributionsplanen är klar att köras.
+Genom att slutföra alla föregående steg bör du nu ha en omfattande *Dag 1* distributionsplanen är klar att köras.

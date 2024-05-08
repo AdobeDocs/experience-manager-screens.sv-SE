@@ -2,9 +2,9 @@
 title: Prototyper
 description: This page describes Prototypes for an AEM Screens Project
 exl-id: 164bf664-15ce-4032-9ee8-5d52903b3ac9
-source-git-commit: c142830a37461a36baae15f543bd43b0ae8a62a7
+source-git-commit: ef74265eadf5972eae7451b7725946d8b014c198
 workflow-type: tm+mt
-source-wordcount: '266'
+source-wordcount: '267'
 ht-degree: 0%
 
 ---

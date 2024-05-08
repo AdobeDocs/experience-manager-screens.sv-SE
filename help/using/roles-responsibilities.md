@@ -2,9 +2,9 @@
 title: AEM Screens projektroller och ansvarsområden
 description: Läs om AEM Screens projektroller och ansvarsområden.
 exl-id: 9377625b-529a-4b46-89d9-f526de398639
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: ef74265eadf5972eae7451b7725946d8b014c198
 workflow-type: tm+mt
-source-wordcount: '1241'
+source-wordcount: '1243'
 ht-degree: 0%
 
 ---

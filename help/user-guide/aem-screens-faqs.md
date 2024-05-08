@@ -5,9 +5,9 @@ feature: Digital Signage, Content
 role: Developer
 level: Intermediate
 exl-id: 67204f04-5535-407c-bd4d-fabfbf850411
-source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
+source-git-commit: ef74265eadf5972eae7451b7725946d8b014c198
 workflow-type: tm+mt
-source-wordcount: '2130'
+source-wordcount: '2134'
 ht-degree: 0%
 
 ---
@@ -177,7 +177,7 @@ Följ stegen nedan för att felsöka en AEM Screens Player som kontinuerligt ski
 
 ### 6. Hur får jag information om skärmen och enheten från spelarens API?
 
-Du kan hämta information om skärmen och enheten via:
+Du kan få information om skärmen och enheten genom att:
 
 * **ett internt JS API**
 * **ett ContextHub-arkiv**: Tre ContextHub-butiker definieras i `/libs/screens/clientlibs/contexthub` för att visa kanaler, enheter och visningsinformation.
@@ -247,7 +247,7 @@ Installera minst AEM 6.5 Feature Pack 8 för att AMS-anslutningen ska fungera. S
 
 Tjänsten används för att definiera det offentliga värdnamnet för författaren och publiceringsinstanserna, och värdena används sedan för att uppdatera enhetsserverns URL:er och även för ContextHub-mål.
 
-CQ Link Externalizer-tjänsten på skärmar kan konfigureras via:
+CQ Link Externalizer-tjänsten på skärmar kan konfigureras med:
 
 1. Navigera till `http://localhost:4502/system/console/configMgr`
 1. Day CQ Link Externalizer

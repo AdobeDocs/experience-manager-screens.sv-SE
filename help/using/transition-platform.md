@@ -2,9 +2,9 @@
 title: Övergång till plattform
 description: Läs mer om övergången till AEM Screens.
 exl-id: e69f504f-d20b-4cdb-b567-5c9c1df4d331
-source-git-commit: c142830a37461a36baae15f543bd43b0ae8a62a7
+source-git-commit: ef74265eadf5972eae7451b7725946d8b014c198
 workflow-type: tm+mt
-source-wordcount: '179'
+source-wordcount: '180'
 ht-degree: 0%
 
 ---
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->En typisk intressent för den här aktiviteten är en AEM implementerare.
+>En typisk intressent för den här aktiviteten är en AEM.
 
 När ditt projekt har gått från en strategisk vision till en trådrad verklighet bör du nu börja förbereda dig för de uppgifter som krävs för att skapa ett skärmsprojekt i AEM som du kan driftsätta.
 

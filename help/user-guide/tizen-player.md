@@ -1,26 +1,26 @@
 ---
-title: Tizen Player
-description: På den här sidan beskrivs hur Tizen Player installeras och fungerar.
+title: Tizen player
+description: Läs om hur du installerar och arbetar med Tizen-spelaren.
 feature: Administering Screens, Players
 role: Admin
 level: Intermediate
 exl-id: 45147959-b0ca-4d87-b89d-293e4b9af171
-source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
+source-git-commit: ef74265eadf5972eae7451b7725946d8b014c198
 workflow-type: tm+mt
-source-wordcount: '1208'
+source-wordcount: '1217'
 ht-degree: 0%
 
 ---
 
 # Implementera Tizen Player {#tizen-player}
 
-## Installerar Tizen Player {#installing-tizen-player}
+## Installerar Tizen-spelare {#installing-tizen-player}
 
-Följ stegen nedan för att implementera Tizen Player för AEM Screens:
+Följ stegen nedan för att implementera Tizen-spelaren för AEM Screens:
 
-1. Navigera till [AEM Screens Player - nedladdningar](https://download.macromedia.com/screens/) så att du kan ladda ned Tizen Player.
+1. Navigera till [AEM Screens Player - nedladdningar](https://download.macromedia.com/screens/) så att du kan hämta Tizen-spelaren.
 
-1. Installera Tizen Player *(.zip)* från den lokala datorn.
+1. Installera Tizen Player *(.zip)* från din lokala dator.
 
 ## Konfigurera http-servern {#setting-local-server}
 
@@ -34,11 +34,11 @@ Följ stegen nedan:
    >[!NOTE]
    >The `AEMScreensPlayer.wgt`är det faktiska Tizen-spelarprogrammet och `sssp_config.xml` innehåller information om kartan som hjälper dig att installera den på Tizen-enheten.
 
-1. Hämta IP-adressen eller URL-adressen för den lokala HTTP-servern (och sökvägen till mappen som innehåller de extraherade filerna i steg 2 om de extraheras till en undermapp och inte till rotmappen).
+1. Hämta den lokala HTTP-serverns IP-adress eller URL-adress (och sökvägen till mappen som innehåller de extraherade filerna i steg 2 om de extraheras till en undermapp och inte till en rotmapp).
 
 1. Tizen-spelaren hämtar installationsprogrammet från den lokala servern.
 
-### Namnge Tizen Player {#name-tizen}
+### Namnge Tizen-spelare {#name-tizen}
 
 Du kan tilldela din Tizen-spelare ett användarvänligt enhetsnamn och därmed skicka det tilldelade enhetsnamnet till Adobe Experience Manager (AEM). Med den här funktionen kan du inte bara namnge din Tizen-spelare utan även enkelt tilldela rätt innehåll.
 
@@ -48,7 +48,7 @@ Du kan tilldela din Tizen-spelare ett användarvänligt enhetsnamn och därmed s
 Följ stegen nedan för att konfigurera namnet i Tizen-spelaren:
 
 1. Klicka på menyknappen på fjärrkontrollen.
-1. Navigera till **nätverk** > **Enhetsnamn** så att du kan ge spelaren ett namn.
+1. Navigera till **Nätverk** > **Enhetsnamn** så att du kan ge spelaren ett namn.
 
 ### Konfigurera uppdateringar på Samsung-enheten {#config-updates}
 
@@ -56,13 +56,13 @@ Följ stegen nedan på Samsung-enheten för att slutföra installationen av AEM 
 
 1. Navigera till din Samsung-enhet och slå på.
 1. Klicka på **MENY** från enhetens fjärrdator och rulla nedåt till **System** i det vänstra navigeringsfältet.
-1. Bläddra nedåt och klicka på **Spela upp via** och ändra det till **URL Launcher** alternativ.
+1. Bläddra nedåt och klicka på **Lek med** och ändra det till **URL Launcher** alternativ.
    ![bild](/help/user-guide/assets/tizen/rms-2.png)
 1. När URL Launcher är inställd trycker du på **Startsida** från fjärrkontrollen.
 1. Navigera till **Inställningar för URL-start** och ange IP-adressen till den lokala värdservern och klicka på **Klar**.
 
    >[!NOTE]
-   >Tizen-spelaren bör kunna ansluta till http-servern.
+   >Tizen-spelaren bör kunna ansluta till HTTP-servern.
 
 1. AEM Screens Player installeras och startas automatiskt på din Samsung-enhet.
 
@@ -83,7 +83,7 @@ Följ stegen nedan för att undanta dessa inkompatibla klienter när du använde
 
 1. När AEM startat om går du till `/system/console/configMgr` och söka efter **Autentiseringshanterare för Adobe Granite-token**. Ange värdet för **SameSite** värde till **Ingen**.
 
-1. Du bör se ett nytt alternativ *`User agents to be exempted from samesite attribute`*. Fyll i detta med en regex som motsvarar användaragenten som är inkompatibel med *SameSite=None* -attribut.
+1. Du bör se ett nytt alternativ *`User agents to be exempted from samesite attribute`*. Fyll i det här alternativet med en regex som motsvarar användaragenten som är inkompatibel med *SameSite=None* -attribut.
 
    >[!NOTE]
    >
@@ -91,13 +91,13 @@ Följ stegen nedan för att undanta dessa inkompatibla klienter när du använde
 
 1. Registrera Tizen-spelaren mot din AEM 6.5.5 och senare och registrera och visa innehåll normalt.
 
-## Fjärrprovisionering av Tizen Player {#remote-provisioning}
+## Fjärrprovisionera Tizen-spelaren {#remote-provisioning}
 
-Genom att fjärrdistribuera Tizen Player kan du utan ansträngning driftsätta hundratals och tusentals Samsung Tizen-skärmar. Det undviker manuella försök att konfigurera varje spelare med server-URL och bulkregistreringskod, eller andra parametrar. Och om det finns AEM Screens as a Cloud Service, för att konfigurera molnläge och molntoken.
+Genom att fjärrdistribuera Tizen-spelaren kan du utan ansträngning driftsätta hundratals och tusentals Samsung Tizen-skärmar. Det undviker manuella försök att konfigurera varje spelare med server-URL och bulkregistreringskod, eller andra parametrar. Och om det finns AEM Screens as a Cloud Service, för att konfigurera molnläge och molntoken.
 
 Med den här funktionen kan du fjärrkonfigurera Tizen-spelaren och även uppdatera dessa konfigurationer centralt, om det behövs. Allt du behöver är `HTTP` server som används som värd för Tizen-programmet `(wgt and xml file)` och en textredigerare för att spara `config.json` med lämpliga parametrar.
 
-Kontrollera att du har konfigurerat startadressen för URL-adressen på enheten Tizen, det vill säga, Hemknapp > Inställningar för URL-start.
+Kontrollera att du har konfigurerat URL-startadressen på Tizen-enheten. Klicka på knappen Hem > Inställningar för URL-start.
 På `HTTP` server som är värd för Tizen-programmet, montera filen `config.json` på samma plats som `wgt` -fil. Filnamnet måste vara `config.json`.
 Tizen-spelaren installeras och vid start (och varje omstart) kontrolleras och används inställningarna i `config.json` -fil.
 
@@ -118,7 +118,7 @@ Tizen-spelaren installeras och vid start (och varje omstart) kontrolleras och an
 I följande tabell sammanfattas profilerna med deras funktioner.
 
 >[!NOTE]
->Principkonfigurationer används strikt och åsidosätts inte manuellt i spelarens administratörsgränssnitt. Om du vill tillåta manuell spelarkonfiguration för en viss princip ska du inte ange principen i principkonfigurationen.
+>Spelarens Admin UI-principkonfigurationer används strikt och åsidosätts inte manuellt. Om du vill tillåta manuell spelarkonfiguration för en viss princip ska du inte ange principen i principkonfigurationen.
 >Om du till exempel vill tillåta manuell konfiguration för omstartsschema ska du inte ange nyckeln `rebootSchedule` i principkonfigurationen. Principkonfigurationer läses upp varje gång spelaren läses in igen.
 
 | **Principnamn** | **Syfte** |
@@ -128,7 +128,7 @@ I följande tabell sammanfattas profilerna med deras funktioner.
 | upplösning | Enhetens upplösning. |
 | rebootSchedule | Schemat för att starta om spelaren. |
 | enableAdminUI | Aktivera administratörsgränssnittet för att konfigurera enheten på platsen. Anges till false när den är helt konfigurerad och i produktion. |
-| enableOSD | Aktivera kanalväljarens användargränssnitt för att användare ska kunna växla kanaler på enheten. Överväg att ställa in på false när den är helt konfigurerad och i produktion. |
+| enableOSD | Aktivera kanalväljarens användargränssnitt så att användare kan växla kanaler på enheten. Överväg att ställa in på false när den är helt konfigurerad och i produktion. |
 | enableActivityUI | Aktivera så att du kan visa förloppet för aktiviteter som hämtning och synkronisering. Aktivera för felsökning och inaktivera när den är helt konfigurerad och i produktion. |
 | cloudMode | Ange true om du vill att Tizen-spelaren ska ansluta till skärmar as a Cloud Service. Ange som false om du vill ansluta till AMS eller AEM. |
 | cloudToken | Registreringstoken för registrering mot skärmar as a Cloud Service. |
@@ -143,7 +143,7 @@ Följ stegen nedan för att registrera Tizen-enheten till Samsung Remote Managem
 
 1. Navigera till **Meny** -> **Nätverk** -> **Inställningar för servernätverk** och tryck **Retur**.
 
-1. Navigera till Serveradress och skriv in MagicInfo URL-åtkomst och tryck på **Klar**.
+1. Navigera till serveradressen och skriv in MagicInfo URL-åtkomsten och tryck på **Klar**.
 
 1. Konfigurera TLS, om det behövs. Navigera till porten och klicka på portnumret från servern och klicka på **Spara**.
 

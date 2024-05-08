@@ -1,28 +1,28 @@
 ---
 title: Använda Chrome Player som tillägg
-description: Lär dig hur du installerar färgspelaren som ett webbläsartillägg för AEM Screens.
+description: Lär dig hur du installerar Chrome Player som ett webbläsartillägg för AEM Screens.
 feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: 53d5bd81-0853-47b0-9798-01d8fd5612e6
-source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
+source-git-commit: ef74265eadf5972eae7451b7725946d8b014c198
 workflow-type: tm+mt
-source-wordcount: '446'
+source-wordcount: '453'
 ht-degree: 0%
 
 ---
 
 # Använda Chrome Player som tillägg {#using-chrome-player}
 
-ChromeOS-spelaren kan installeras som Chrome-plugin för webbläsare i utvecklarläge utan att den faktiska enheten för Chrome Player krävs.
+ChromeOS-spelaren kan installeras som ett Chrome-plugin-program för webbläsare i utvecklarläge utan att det krävs en faktisk Chrome Player-enhet.
 
 >[!CAUTION]
 >
 > Vi rekommenderar att du använder Chrome Player som ett tillägg för felsökning för snabbdemonstrationer, felsökning och även för att felsöka kundproblem. Använd inte den här mekanismen för produktionsdistributioner som kräver helskärmsläge och central hantering.
 
-Följ den här sidan om du vill ha information om hur du installerar färgspelaren som ett webbläsartillägg.
+Följ den här sidan för information om hur du installerar Chrome Player som ett webbläsartillägg.
 
-1. Klicka [här](https://download.macromedia.com/screens/) för att ladda ned den senaste Chrome Player.
+1. Klicka [här](https://download.macromedia.com/screens/) för att ladda ned den senaste Chrome-spelaren.
 
 1. Zippa upp och spara det på disken.
 
@@ -30,9 +30,9 @@ Följ den här sidan om du vill ha information om hur du installerar färgspelar
 
 1. Aktivera **Utvecklare** från det övre högra hörnet.
 
-1. Klicka **Läs in opackad** från det övre vänstra hörnet och ladda uppzippad Chrome Player.
+1. Klicka **Läs in opackad** från det övre vänstra hörnet och läsa in den uppzippade Chrome-spelaren.
 
-1. Kontrollera AEM Screens Chrome Player-plugin om det finns i listan över tillägg.
+1. Kontrollera plugin-programmet för AEM Screens Chrome Player om det finns i listan över tillägg.
 
 1. Öppna en ny flik och klicka på Apps-ikonen i det övre vänstra hörnet eller navigera direkt till `chrome://apps`.
 
@@ -49,12 +49,12 @@ Följ den här sidan om du vill ha information om hur du installerar färgspelar
 
    >[!NOTE]
    >
-   > Om den ovannämnda URL:en inte fungerar betyder det att spelaren inte har tilldelats någon visning eller att innehållet inte har hämtats. På nätverksfliken för spelarkonfigurationens JSON kan du se om spelaren har fått rätt information och om det finns nätverksproblem vid hämtning.
+   > Om den ovannämnda URL:en inte fungerar betyder det att spelaren inte har tilldelats någon visning eller att innehållet inte har hämtats. På nätverksfliken för spelarkonfigurationens JSON kan du se om spelaren har rätt information och om det finns nätverksproblem vid hämtning.
 
 1. Högerklicka och inspektera tre lager i Chrome Player.
    **Felsöka innehåll**: Högerklicka och inspektera innehållet för att felsöka det innehåll som körs (det ska finnas ett objekt med namnet&quot;Inspect&quot; på snabbmenyn)
 
-   **Felsöka inbyggd programvara**: Ta fram administratörsgränssnittet och högerklicka och inspektera sedan för att felsöka den inbyggda programkoden (spelare). (Det bör finnas ett alternativ för att inspektera och inspektera bakgrundssidan och simulera omstart av webbläsaren.)
+   **Felsöka inbyggd programvara**: Ta fram administratörsgränssnittet och högerklicka och inspektera sedan för att felsöka den inbyggda programkoden (spelare). (Det bör finnas ett alternativ för att inspektera och inspektera bakgrundssidan och simulera en omstart av webbläsaren.)
 
    **Felsöka bakgrundssida**: Ta fram administratörsgränssnittet och högerklicka och inspektera sedan bakgrundssidan (för bakgrundstjänster som http-server).
 

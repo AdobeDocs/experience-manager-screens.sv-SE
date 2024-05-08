@@ -2,9 +2,9 @@
 title: Analyser med AEM Screens
 description: Läs om Adobe Analytics med Adobe Experience Manager Screens.
 exl-id: cfb47e94-9f65-43f3-b197-07222f3f6424
-source-git-commit: 299018986ae58ecbdb51a30413222a9682fffc76
+source-git-commit: ef74265eadf5972eae7451b7725946d8b014c198
 workflow-type: tm+mt
-source-wordcount: '288'
+source-wordcount: '290'
 ht-degree: 0%
 
 ---
@@ -23,5 +23,5 @@ Den första innefattar **feedback-slingor och maskininlärning** medan den andra
 
 I det här fallet behöver du inte bekymra dig om visuella rapporter eller kontrollpaneler, utan i stället vill du definiera regler som AEM kan köra på för innehållsändringar. Genom att använda och bearbeta alla data för skärmspelarhändelser från en viss tidsperiod kan du definiera en regel som utvärderar effekten av image1 jämfört med image2. Genom att kombinera säljdata med uppspelningsdata kan AEM fastställa att bild1 har större påverkan på försäljningen och automatiskt instruerar alla spelare att använda bild1.
 
-Det andra användningsexemplet med analys är att bearbeta uppspelningshändelser och användningsdata som ska användas som livsmedel via rapporter och kontrollpaneler.
+Det andra användningsexemplet med analys är att bearbeta uppspelningshändelser och användningsdata som ska användas som livsmedel genom rapporter och kontrollpaneler.
 Du kan använda dessa data för att skapa en värmekarta av en interaktiv upplevelse för att fastställa vilken färdplan som ska användas genom programmet. Du kan också välja att skapa en kontrollpanel som ger en grafisk tolkning av hur många gånger konsumenterna interagerar med programmet.

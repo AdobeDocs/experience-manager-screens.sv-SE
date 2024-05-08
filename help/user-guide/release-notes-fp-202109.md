@@ -5,9 +5,9 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: e1794013-59ce-4ddc-93c0-601668c75cd1
-source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
+source-git-commit: ef74265eadf5972eae7451b7725946d8b014c198
 workflow-type: tm+mt
-source-wordcount: '912'
+source-wordcount: '916'
 ht-degree: 0%
 
 ---
@@ -93,7 +93,7 @@ Se [Tilldelningsrapport för innehåll](/help/user-guide/content-assignment-repo
 
 * Numeriska kanalnamn/roller orsakade en tom skärm.
 
-* Hämta optimerade renderingar via SmartSync.
+* Hämta optimerade renderingar med SmartSync.
 
 * Mappningen omvandlades till en lista med återgivningsnycklar.
 

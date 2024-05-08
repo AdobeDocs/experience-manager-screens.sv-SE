@@ -9,9 +9,9 @@ feature: Developing Screens
 role: Developer
 level: Intermediate
 exl-id: d14f8c55-dc09-4ac9-8d75-bafffa82ccc0
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: ef74265eadf5972eae7451b7725946d8b014c198
 workflow-type: tm+mt
-source-wordcount: '2135'
+source-wordcount: '2139'
 ht-degree: 0%
 
 ---
@@ -60,7 +60,7 @@ Källkoden för ett skärmsprojekt hanteras vanligtvis som ett Maven-projekt med
    1. **screens-weretail-run.ui.content-0.0.1-SNAPSHOT.zip**
    1. **screens-weretail-run.ui.apps-0.0.1-SNAPSHOT.zip**
 
-   ![Skärmar, Web.Retail Kör Ui.Apps och Ui.Innehållspaket som installeras via CRX Package Manager](assets/crx-packages.png)
+   ![SkärmarVi.Retail Kör Ui.Apps och Ui.Content-paket som installeras med CRX Package Manager](assets/crx-packages.png)
 
    Skärmar `We.Retail` Kör `Ui.Apps` och `Ui.Content` paket som installeras med CRX Package Manager.
 
@@ -296,7 +296,7 @@ AEM Screens-komponenter återges annorlunda i redigeringsläget jämfört med i 
 
    Egenskapen categories är en sträng som identifierar klientbiblioteket. Kategorin cq.screens.component används i både redigeringsläget och läget Förhandsgranska/produktion. Därför läses alla CSS/JS som definierats i SharedClientlib in i alla lägen.
 
-   Det är en god vana att aldrig visa några sökvägar direkt för /apps i en produktionsmiljö. Egenskapen allowProxy ser till att klientbibliotekets CSS och JS refereras via ett prefix of/etc.clientlibs.
+   Det är en god vana att aldrig visa några sökvägar direkt för /apps i en produktionsmiljö. Egenskapen allowProxy ser till att klientbibliotekets CSS och JS refereras via prefixet of/etc.clientlibs.
 
 1. Skapa en fil med namnet `css.txt` under den delade mappen.
 

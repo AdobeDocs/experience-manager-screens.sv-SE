@@ -3,9 +3,9 @@ title: Datadrivna händelser
 description: null
 page-status-flag: never-activated
 contentOwner: jsyal
-source-git-commit: a8055c5f859e401f7b1da4f5d95f1268dee243ad
+source-git-commit: ef74265eadf5972eae7451b7725946d8b014c198
 workflow-type: tm+mt
-source-wordcount: '162'
+source-wordcount: '164'
 ht-degree: 0%
 
 ---
@@ -30,7 +30,7 @@ Datadrivna händelser indelas i följande fyra kategorier:
 
 #### Uppgifter i drift {#data-in-operational}
 
-Detta kan även kategoriseras i Channel Interrupt och Placeholder.
+Den här händelsen kan ytterligare kategoriseras i Channel Interrupt och Platshållare.
 
 #### Data i presentationen {#data-in-presentation}
 
@@ -42,4 +42,4 @@ När ett kommando skickas till LCD-skärmen för att slå på och av skärmen. E
 
 #### Data ut presentationen {#data-out-presentational}
 
-Diagram som samlar informationen i feedbackslingan. Den använder analyser för att utvärdera och lägga märke till händelser.
+Diagrammet som samlar informationen i feedbackslingan. Den använder analyser för att utvärdera och lägga märke till händelser.

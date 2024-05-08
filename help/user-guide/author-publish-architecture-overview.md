@@ -1,6 +1,6 @@
 ---
 title: Skapa och publicera arkitekturöversikt
-description: AEM Screens arkitektur liknar en traditionell AEM Sites-arkitektur. Innehållet skapas på en AEM författarinstans och sedan vidarebefordras till flera publiceringsinstanser.
+description: AEM Screens arkitektur liknar traditionell AEM Sites-arkitektur. Innehållet skapas på en AEM författarinstans och sedan vidarebefordras till flera publiceringsinstanser.
 content-type: reference
 topic-tags: administering
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
@@ -9,9 +9,9 @@ feature: Administering Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: ba23eb8e-bbde-4a6e-8cfb-ae98176ed890
-source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
+source-git-commit: ef74265eadf5972eae7451b7725946d8b014c198
 workflow-type: tm+mt
-source-wordcount: '976'
+source-wordcount: '986'
 ht-degree: 0%
 
 ---
@@ -38,9 +38,9 @@ Innan du börjar med författarservrar och publiceringsservrar bör du ha kunska
 
 ## Introduktion {#introduction}
 
-AEM Screens arkitektur liknar en traditionell AEM Sites-arkitektur. Innehållet skapas på en AEM författarinstans och sedan vidarebefordras till flera publiceringsinstanser. Enheter på AEM Screens kan nu ansluta till en AEM publiceringsgrupp via belastningsutjämnaren. Det går att lägga till flera AEM publiceringsinstanser för att fortsätta att skala publiceringsgruppen.
+AEM Screens arkitektur liknar traditionell AEM Sites-arkitektur. Innehållet skapas på en AEM författarinstans och sedan vidarebefordras till flera publiceringsinstanser. Enheter på AEM Screens kan nu ansluta till en AEM publiceringsgrupp via en belastningsutjämnare. Det går att lägga till flera AEM publiceringsinstanser för att fortsätta att skala publiceringsgruppen.
 
-*Till exempel* skickar en AEM Screens Content Author ett kommando i redigeringssystemet för en viss enhet. Enheten är konfigurerad att interagera med en publiceringsgrupp eller en AEM Screens Content Author som hämtar information om enheter som är konfigurerade att interagera med publiceringsgrupper.
+*Till exempel* skickar en AEM Screens Content Author ett kommando i redigeringssystemet för en viss enhet. Enheten är konfigurerad för att interagera med en publiceringsgrupp. Eller interagera med en AEM Screens Content Author som får information om enheter som är konfigurerade att interagera med publiceringsgrupper.
 
 I följande diagram visas både författarmiljön och publiceringsmiljön.
 
@@ -57,9 +57,9 @@ Det finns fem arkitektoniska komponenter som underlättar denna lösning:
 * ***Meddelanden*** mellan publiceringsinstanser för att synkronisera uppdateringar och kommandon för enhetsinformation.
 * ***Avsökning*** av författaren till publiceringsinstanser för att få enhetsinformation via särskilda REST API:er.
 
-### Replikering (framåt) av innehåll och konfigurationer  {#replication-forward-of-content-and-configurations}
+### Replikering (framåt) av innehåll och konfigurationer {#replication-forward-of-content-and-configurations}
 
-Standardreplikeringsagenter används för att replikera AEM Screens-kanalinnehåll, platskonfigurationer och enhetskonfigurationer. Detta gör det möjligt för författare att uppdatera innehållet i en kanal och eventuellt gå igenom något slags godkännandearbetsflöde innan kanaluppdateringar publiceras. En replikeringsagent måste skapas för varje publiceringsinstans i publiceringsgruppen.
+Standardreplikeringsagenter används för att replikera AEM Screens-kanalinnehåll, platskonfigurationer och enhetskonfigurationer. Med den här funktionen kan författare uppdatera innehållet i en kanal och eventuellt gå igenom någon sorts arbetsflöde för godkännande innan kanaluppdateringar publiceras. En replikeringsagent måste skapas för varje publiceringsinstans i publiceringsgruppen.
 
 I följande diagram visas replikeringsprocessen:
 
@@ -69,17 +69,17 @@ I följande diagram visas replikeringsprocessen:
 >
 >En replikeringsagent måste skapas för varje publiceringsinstans i publiceringsgruppen.
 
-### Skärmreplikeringsagenter och kommandon  {#screens-replication-agents-and-commands}
+### Skärmreplikeringsagenter och kommandon {#screens-replication-agents-and-commands}
 
 Specifika replikeringsagenter för anpassade skärmar skapas för att skicka kommandon från författarinstansen till AEM Screens-enheten. AEM Publish-instanser fungerar som en mellanhand för att vidarebefordra dessa kommandon till enheten.
 
-Detta gör att författare kan fortsätta att hantera enheten, till exempel skicka enhetsuppdateringar och ta skärmbilder från redigeringsmiljön. AEM Screens replikeringsagenter har en anpassad transportkonfiguration, som vanliga replikeringsagenter.
+Med det här arbetsflödet kan författare fortsätta att hantera enheten, till exempel skicka enhetsuppdateringar och ta skärmbilder från redigeringsmiljön. AEM Screens replikeringsagenter har en anpassad transportkonfiguration, som vanliga replikeringsagenter.
 
-### Meddelanden mellan publiceringsinstanser  {#messaging-between-publish-instances}
+### Meddelanden mellan publiceringsinstanser {#messaging-between-publish-instances}
 
-Ofta är det bara meningen att ett kommando ska skickas till en enhet en gång. I en belastningsutjämnad publiceringsarkitektur är det dock okänt vilken publiceringsinstans enheten ansluter till.
+Ofta är det bara meningen att ett kommando ska skickas till en enhet en gång. I en belastningsutjämnad publiceringsarkitektur är dock den publiceringsinstans som enheten ansluter till okänd.
 
-Därför skickar författarinstansen meddelandet till alla publiceringsinstanser. Sedan bör bara ett meddelande vidarebefordras till enheten. För att meddelandet ska fungera på rätt sätt måste kommunikationen ske mellan publiceringsinstanser. Detta uppnås med *Apache ActiveMQ Artemis*. Varje publiceringsinstans placeras i en löst kopplad topologi med hjälp av Oak-baserad Sling-identifieringstjänst och ActiveMQ har konfigurerats så att varje publiceringsinstans kan kommunicera och skapa en enda meddelandekö. AEM Screens-enheten avsöker den AEM publiceringsgruppen med hjälp av belastningsutjämnaren och hämtar kommandot från köens övre del.
+Därför skickar författarinstansen meddelandet till alla publiceringsinstanser. Sedan bör bara ett meddelande skickas till enheten. För att meddelandet ska fungera på rätt sätt måste kommunikationen ske mellan publiceringsinstanser. Denna kommunikation uppnås med *Apache ActiveMQ Artemis*. Varje publiceringsinstans placeras i en löst kopplad topologi med hjälp av den ekobaserade Sling-identifieringstjänsten. ActiveMQ har konfigurerats så att varje publiceringsinstans kan kommunicera och skapa en enda meddelandekö. AEM Screens-enheten avsöker den AEM publiceringsgruppen med hjälp av belastningsutjämnaren och hämtar kommandot från köens övre del.
 
 ### Omvänd replikering {#reverse-replication}
 
@@ -87,12 +87,12 @@ Efter ett kommando förväntas ofta någon sorts svar från skärmenheten vidare
 
 * Skapa en omvänd replikeringsagent för varje publiceringsinstans, precis som standardsreplikeringsagenterna och AEM Screens replikeringsagenter.
 * En arbetsflödeskonfiguration lyssnar efter noder som ändrats på den AEM publiceringsinstansen och utlöser i sin tur ett arbetsflöde för att placera enhetens svar i AEM publiceringsinstansens utkorg.
-* En omvänd replikering i det här sammanhanget används bara för binära data (till exempel loggfiler och skärmbilder) som tillhandahålls av enheterna. Icke-binära data hämtas genom avsökning.
+* En omvänd replikering i det här sammanhanget används bara för binära data (till exempel loggfiler och skärmbilder) som tillhandahålls av enheterna. Avsökning av icke-binära data hämtas.
 * Omvänd replikeringsomröstning från AEM författarinstans hämtar svaret och sparar det i författarinstansen.
 
-### Avsökning av publiceringsinstanser  {#polling-of-publish-instances}
+### Avsökning av publiceringsinstanser {#polling-of-publish-instances}
 
-Författarinstansen måste kunna avfråga enheterna för att få pulsslag och veta hälsostatusen för en ansluten enhet.
+Författarinstanserna måste kunna avfråga enheterna för att få pulsslag och veta hälsostatusen för en ansluten enhet.
 
 Enheter som pingar belastningsutjämnaren och dirigeras till en publiceringsinstans. Enhetens status visas sedan av den AEM publiceringsinstansen via ett publicerings-API som anges som @ **api/screens-dcc/devices/static** för alla aktiva enheter och **api/screens-dcc/devices/&lt;device_id>/status.json** för en enda enhet.
 
@@ -100,9 +100,9 @@ Författarinstansen avsöker alla publiceringsinstanser och sammanfogar enhetsst
 
 ## Registrering {#registration}
 
-Registreringen fortsätter att ha sitt ursprung i AEM författarinstans. AEM Screens Device hänvisas till författarinstansen och registreringen är klar.
+Registreringen fortsätter att ha sitt ursprung i AEM författarinstans. AEM Screens-enheten skickas till författarinstansen och registreringen är klar.
 
-När en enhet har registrerats i AEM redigeringsmiljö replikeras enhetskonfigurationen och tilldelningarna av kanaler/scheman till AEM publiceringsinstanser. AEM Screens-enhetskonfigurationen uppdateras sedan så att den pekar på belastningsutjämnaren framför AEM publiceringsgrupp. Detta är avsett som en engångsinstallation. När skärmenheten har anslutits till publiceringsmiljön kan den fortsätta att ta emot kommandon från författarmiljön. Du behöver aldrig ansluta AEM Screens-enheten direkt till AEM.
+När en enhet har registrerats i AEM redigeringsmiljö replikeras enhetskonfigurationen och tilldelningarna av kanaler/scheman till AEM publiceringsinstanser. Konfigurationen av AEM Screens-enheten uppdateras sedan så att den pekar på belastningsutjämnaren framför den AEM publiceringsgruppen. Detta är avsett som en engångsinstallation. När skärmenheten har anslutits till publiceringsmiljön kan den fortsätta att ta emot kommandon från författarmiljön. Du behöver inte ansluta AEM Screens-enheten direkt till AEM.
 
 ![screen_shot_2019-02-25at15218pm](assets/screen_shot_2019-02-25at15218pm.png)
 

@@ -2,7 +2,7 @@
 title: Direkt mobilt nätverk
 description: Läs mer om Direct Mobile Network Setup i AEM Screens.
 exl-id: 6775bd10-7625-422f-a7af-4f7b8793fa42
-source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
+source-git-commit: ef74265eadf5972eae7451b7725946d8b014c198
 workflow-type: tm+mt
 source-wordcount: '842'
 ht-degree: 0%
@@ -29,7 +29,7 @@ Följ stegen nedan för att se till att AEM skärmspelare är korrekt anslutna i
 
 1. Kontrollera att alla AEM skärmspelare är anslutna till routerns nätverk.
 
-1. Testa Internetanslutningen genom att ringa en URL i systemets webbläsare.
+1. Testa Internetanslutningen genom att anropa en URL i systemets webbläsare.
 
    >[!NOTE]
    >Om du får ett felmeddelande kontrollerar du nätverksinställningarna och kontrollerar om det finns en tillräcklig nätverkslänk. Kontrollera också att operativsystemets brandvägg är konfigurerad att tillåta nätverksåtkomst när du använder de konfigurerade AEM Screens-kommunikationsportarna.
@@ -92,6 +92,6 @@ Följande tabell ger en översikt över data för nätverksanslutningsnycklar.
 
 >[!NOTE]
 >
->All information avser förbrukningen av varje enhet i nätverket som begär och hämtar en Internetkälla. Var och en av dessa förfrågningar sammanfattar och förlänger hämtningstiden.
+>All information avser användningen av varje enhet i nätverket som begär och hämtar en Internetkälla. Var och en av dessa förfrågningar sammanfattar och förlänger hämtningstiden.
 
 ![](/help/using/assets/download-times-mobile.png)

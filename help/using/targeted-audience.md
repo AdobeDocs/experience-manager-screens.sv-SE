@@ -1,9 +1,9 @@
 ---
 title: Målgrupp
 description: Läs mer om vilka som är målgrupp för AEM Screens Best Practices Guide.
-source-git-commit: 3c4b37b3b9f268b500562fa4ce3782b7be1e7d74
+source-git-commit: ef74265eadf5972eae7451b7725946d8b014c198
 workflow-type: tm+mt
-source-wordcount: '495'
+source-wordcount: '497'
 ht-degree: 0%
 
 ---

@@ -9,9 +9,9 @@ feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: b8d0c089-af79-403e-870f-fb46b66fecd3
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: ef74265eadf5972eae7451b7725946d8b014c198
 workflow-type: tm+mt
-source-wordcount: '431'
+source-wordcount: '435'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ Det körs både på serversidan och på klientsidan.
 **På serversidan**:
 
 * Kanalernas innehåll, inklusive resurser, cachas i *`/var/contentsync`*.
-* Cachen visas för spelarna via ett manifest som beskriver det tillgängliga innehållet för en skärm.
+* Cachen visas för spelarna med hjälp av ett manifest som beskriver det tillgängliga innehållet för en skärm.
 
 **På klientsidan**:
 

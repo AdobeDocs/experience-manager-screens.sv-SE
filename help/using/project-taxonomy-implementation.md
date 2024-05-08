@@ -2,9 +2,9 @@
 title: Projekttaxonomi
 description: Läs mer om projekttaxonomi när det gäller AEM Screens.
 exl-id: be0ad77a-e593-4c95-8a58-4e5ccb974fcf
-source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
+source-git-commit: ef74265eadf5972eae7451b7725946d8b014c198
 workflow-type: tm+mt
-source-wordcount: '265'
+source-wordcount: '266'
 ht-degree: 0%
 
 ---
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->En typisk intressent för den här aktiviteten är en AEM implementerare.
+>En typisk intressent för den här aktiviteten är en AEM.
 
 Innan du skapar ett AEM Screens-projekt måste du förstå och integrera alla komponenter som definierats i projektets UX-trådramsfas.
 
