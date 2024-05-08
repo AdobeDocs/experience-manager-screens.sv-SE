@@ -5,7 +5,7 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: e4149f5b-42c0-43c8-b275-ecbe90104a98
-source-git-commit: ba5327077e4a2d30cc7b77f02123da5a240c67ae
+source-git-commit: fe4f7d593ccea91f6109a0c759aea3faa37ae471
 workflow-type: tm+mt
 source-wordcount: '151'
 ht-degree: 1%
@@ -15,17 +15,17 @@ ht-degree: 1%
 # Versionsinformation för funktionspaket 20240215 {#release-notes-for-screens-feature-pack}
 
 >[!CAUTION]
->Adobe rekommenderar att du uppgraderar till den senaste versionen av 6.5 Adobe Experience Manager (AEM 6.5). Du kan hämta den senaste versionsinformationen från [här](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/release-notes/release-notes)
+>Adobe rekommenderar att du uppgraderar till den senaste versionen av 6.5 Adobe Experience Manager (AEM 6.5). Du kan hämta den senaste versionsinformationen från [här](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/release-notes/release-notes).
 
 ## Tillgänglighet {#availability}
 
 AEM Screens AEM 6.5 Feature Pack 11.3.
 
-Du kan hämta det senaste funktionspaketet för AEM Screens 6.5.11.3 från [Programdistributionsportal](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) med din Adobe ID. Navigera till **Adobe Experience Manager** flik och sök efter **Skärmar** för att få det senaste funktionspaketet med namnet **AEM 6.5 skärmar FP11.3**.
+Du kan ladda ned den senaste funktionspaketet för AEM Screens 6.5.11.3 från [Programdistributionsportal](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) med din Adobe ID. Navigera till **Adobe Experience Manager** flik och sök efter **Skärmar** för att få det senaste funktionspaketet med namnet **AEM 6.5 skärmar FP11.3**.
 
 ## Releasedatum {#release-date}
 
-Releasedatum för AEM Screens Feature Pack 20240215 är 15 feb 2024.
+Lanseringsdatumet för AEM Screens Feature Pack 20240215 är 15 februari 2024.
 
 ### Nyheter {#what-is-new}
 

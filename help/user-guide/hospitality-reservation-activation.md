@@ -10,7 +10,7 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: ae032042-fa2b-49cd-91fe-ce50f3ce9867
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
 source-wordcount: '442'
 ht-degree: 0%
@@ -23,7 +23,7 @@ Följande exempel visar hur man använder aktivering av sjukhusbokning baserat p
 
 ## Beskrivning {#description}
 
-I det här användningsfallet fylls Google Sheet i med en procentandel reservationer på två restauranger **`Restaurant1`** och **`Restaurant2`**. En formel används baserat på värden för `Restaurant1` och `Restaurant2` och baserat på formeln tilldelas värdet 1 eller 2 till **AdTarget** Kolumn.
+I det här fallet fylls Google Sheet i med en procentandel reservationer på två restauranger **`Restaurant1`** och **`Restaurant2`**. En formel används baserat på värden för `Restaurant1` och `Restaurant2` och baserat på formeln tilldelas värdet 1 eller 2 till **AdTarget** Kolumn.
 
 Om värdet för **`Restaurant1`** > **`Restaurant2`** sedan **AdTaget** är tilldelat värde **1** annars **AdTarget** är tilldelat värde **2**. Värde 1 genererar *Svag mat* option och Value two results in display of *Thailändska livsmedel* på bildskärmen.
 

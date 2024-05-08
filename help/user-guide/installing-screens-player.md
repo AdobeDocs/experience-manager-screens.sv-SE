@@ -1,14 +1,14 @@
 ---
 title: Installera skärmuppspelaren
-description: Lär dig hur du installerar en AEM Screens Player på rätt sätt.
+description: Lär dig hur du installerar en AEM Screens Player korrekt.
 contentOwner: jsyal
 feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: bb979a71-7235-429f-b520-6d85b8b666fa
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
-source-wordcount: '500'
+source-wordcount: '503'
 ht-degree: 0%
 
 ---
@@ -29,13 +29,13 @@ För nedladdning **AEM Screens Player**, går till [AEM 6.5 Player Downloads](ht
 >
 >1. Tryck länge på det övre vänstra hörnet för att öppna administratörspanelen.
 >1. Navigera till **Konfiguration** från den vänstra åtgärdsmenyn och ange platsadressen för AEM i **Server** och klicka **Spara**.
->1. Klicka **Registrering** från den vänstra åtgärdsmenyn och stegen nedan för att slutföra enhetsregistreringsprocessen.
+>1. Klicka på **Registrering** från den vänstra åtgärdsmenyn och stegen nedan för att slutföra enhetsregistreringsprocessen.
 
 ## Grundläggande uppspelningsövervakning {#playback-monitoring}
 
-Spelaren rapporterar olika uppspelningsmått för varje `ping` som standard är 30 sekunder. Baserat på dessa mått kan programmet identifiera olika kantfall, t.ex. problem med fastsittning, tomma skärmar och schemaläggning. Detta gör att vi kan förstå och felsöka problem på enheten och därmed underlätta en utredning och korrigerande åtgärder med dig.
+Spelaren rapporterar olika uppspelningsmått för varje `ping` som standard är 30 sekunder. Baserat på dessa mått kan programmet identifiera olika kantfall, t.ex. problem med fastsittning, tomma skärmar och schemaläggning. Det gör att vi kan förstå och felsöka problem på enheten och därmed underlätta en utredning och korrigerande åtgärder för dig.
 
-Med grundläggande uppspelningsövervakning i en AEM Screens-spelare kan du göra följande:
+Med grundläggande uppspelningsövervakning i en AEM Screens Player kan du göra följande:
 
 * Fjärrövervaka om en spelare spelar upp innehållet korrekt.
 
@@ -65,15 +65,15 @@ Följande egenskaper ingår i varje `ping`:
 
 ### Begränsningar {#limitations}
 
-Några begränsningar för grundläggande uppspelningsövervakning visas nedan:
+Nedan visas några begränsningar för grundläggande uppspelningsövervakning:
 
 * Spelaren rapporterar ett eget uppspelningsläge till servern, vilket kräver en aktiv anslutning.
 
-* The `isContentRendering` som kontrollerar att grafikprocessorn är för resurskrävande för att aktiveras som standard och kräver explicit deltagande från spelarens inställningar. Adobe rekommenderar att du inte använder den med videofilmer i produktion.
+* The `isContentRendering` som kontrollerar att grafikprocessorn är mycket mer resurskrävande att aktiveras som standard och kräver explicit deltagande från spelarens inställningar. Adobe rekommenderar att du inte använder den med videofilmer i produktion.
 
 * Den här funktionen stöds bara för sekvenskanaler och täcker ännu inte de interaktiva kanalernas (SPA) användningsfall.
 
-* Måtten är ännu inte helt exponerade för kunderna. Adobe arbetar på att aktivera kontrollpanelsliknande rapporterings- och varningsmekanismer snart.
+* Måtten är ännu inte helt exponerade för kunderna, men Adobe arbetar på att aktivera kontrollpanelsliknande rapporterings- och varningsmekanismer snart.
 
 ### Andra resurser {#additional-resources}
 

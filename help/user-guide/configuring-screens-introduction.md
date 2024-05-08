@@ -1,6 +1,6 @@
 ---
 title: Konfigurera och distribuera AEM Screens
-description: AEM Screens Player är tillgänglig för Android&trade;, Chrome OS, iOS och Windows. Lär dig mer om konfiguration och driftsättning av AEM Screens.
+description: AEM Screens Player finns för Android&trade;, Chrome OS, iOS och Windows. Lär dig mer om konfiguration och driftsättning av AEM Screens.
 contentOwner: Jyotika syal
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
@@ -9,9 +9,9 @@ docset: aem65
 role: Admin
 level: Intermediate
 exl-id: 8cf4240c-1d6c-441d-b8a0-f01516455543
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
-source-wordcount: '679'
+source-wordcount: '682'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ På den här sidan visas hur du installerar och konfigurerar skärmspelarna på 
 
 ## Hälsokontrollramverk {#health-check-framework}
 
-I hälsokontrollsramverket kan användaren kontrollera om två nödvändiga konfigurationer har ställts in innan ett AEM Screens-projekt körs.
+Med Health Check Framework kan användaren kontrollera om två nödvändiga konfigurationer har konfigurerats innan ett AEM Screens-projekt körs.
 
 Det gör att användaren kan verifiera följande två konfigurationskontroller för att köra ett AEM Screens-projekt, d.v.s. kontrollera statusen för följande två filter:
 
@@ -42,7 +42,7 @@ Följ stegen nedan för att kontrollera om dessa två viktiga konfigurationer ä
    ![resurser](assets/health-check1.png)
 
 
-2. Klicka **Utför valda hälsokontroller** så att du kan köra valideringen för två egenskaper som anges ovan.
+2. Klicka **Utför de valda hälsokontrollerna** så att du kan köra valideringen för två egenskaper som anges ovan.
 
    Om båda filtren är aktiverade visas **Hälsotjänst för skärmkonfiguration** visar **Resultat** as **OK** med båda konfigurationerna aktiverade.
 
@@ -93,11 +93,11 @@ Följande huvudpunkter nedan hjälper dig att konfigurera och AEM servern som sk
 
    ![bild](assets/config/config-1.png)
 
-1. Klicka **Spara** för att aktivera *http* service.
+1. Klicka **Spara** för att aktivera *HTTP* service.
 
 #### Aktivera Touch UI för AEM Screens {#enable-touch-ui-for-aem-screens}
 
-AEM Screens kräver ett TOUCH-gränssnitt och fungerar inte med CLASSIC-gränssnittet i Adobe Experience Manager (AEM).
+AEM Screens kräver ett TOUCH-användargränssnitt och fungerar inte med det klassiska användargränssnittet i Adobe Experience Manager (AEM).
 
 1. Navigera till `*<yourAuthorInstance>/system/console/configMgr/com.day.cq.wcm.core.impl.AuthoringUIModeServiceImpl*`
 1. Se till att **Standardläge för användargränssnitt för redigering** är inställd på **TOUCH**, enligt bilden nedan
@@ -116,11 +116,11 @@ För AEM i produktion används **NOSAMPLECONTENT** körningsläge. Ta bort *X-fr
 
 `https://localhost:4502/system/console/configMgr/org.apache.sling.engine.impl.SlingMainServlet`.
 
-Detta krävs för att AEM Screens Player ska kunna spela upp onlinekanaler.
+Den här borttagningen krävs för att AEM Screens Player ska kunna spela upp onlinekanaler.
 
 #### Lösenordsbegränsningar {#password-restrictions}
 
-Med de senaste ändringarna i ***DeviceServiceImpl*** behöver du inte ta bort lösenordsbegränsningarna.
+Med de senaste förändringarna av ***DeviceServiceImpl*** behöver du inte ta bort lösenordsbegränsningarna.
 
 Du kan konfigurera ***DeviceServiceImpl*** via länken nedan om du vill aktivera lösenordsbegränsning när du skapar lösenordet för skärmenhetsanvändarna:
 

@@ -9,7 +9,7 @@ feature: Channels, Interactive
 role: Developer
 level: Intermediate
 exl-id: dfdd58b6-689b-47ca-9459-9c205f1841eb
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
 source-wordcount: '798'
 ht-degree: 1%
@@ -18,7 +18,7 @@ ht-degree: 1%
 
 # Konfiguration och felsökning av videouppspelning {#video-playback-configuration-and-troubleshooting}
 
-När du överför en video till DAM och lägger till den i din kanal kan det uppstå problem där videon inte kan spelas upp i AEM Screens-spelaren.
+När du överför en video till DAM och lägger till den i din kanal kan det uppstå problem där videon inte kan spelas upp i AEM Screens Player.
 
 I följande avsnitt beskrivs hur du felsöker och felsöker videouppspelning i din kanal.
 
@@ -102,7 +102,7 @@ Så här använder du ett DAM-arbetsflöde för att skapa FullHD-renderingar:
 
 #### Felsökning av flaggan för automatisk uppspelningsprincip {#troubleshooting-autoplay-policy-flag}
 
-Om AEM Screens-spelaren hämtar videon men inte visar den felsöker du flaggan för automatisk uppspelningspolicy.
+Om AEM Screens Player hämtar videon men inte visar den felsöker du flaggan för automatisk uppspelningsprincip.
 
 Följ stegen nedan för att felsöka Google problem med automatisk uppspelningspolicy:
 

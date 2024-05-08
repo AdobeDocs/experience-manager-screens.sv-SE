@@ -10,9 +10,9 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: 3b127311-32d1-402c-97a1-e799e9f3f95e
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
-source-wordcount: '243'
+source-wordcount: '244'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 >[!CAUTION]
 >
->Adobe rekommenderar att du uppgraderar till den senaste versionen av Adobe Experience Manager (AEM). AEM Screens har underhållsstöd för AEM 6.3 Screens Platform.
+>Adobe rekommenderar att du uppgraderar till den senaste versionen av Adobe Experience Manager (AEM). AEM Screens har underhållsstöd för AEM 6.3 Screens.
 
 AEM Screens har släppt AEM 6.3 Feature Pack 5 och AEM 6.4 Feature Pack 3 med följande information.
 
@@ -33,7 +33,7 @@ Releasedatum för AEM Screens Feature Pack 201812 är 16 januari 2019.
 
 * **Textövertäckning för resurser i kanalen**:
 
-  Textövertäckning är en funktion i AEM Screens som gör att du kan skapa en övertygande upplevelse i en sekvenskanal genom att ange en rubrik eller en beskrivning som läggs ovanpå en bild. Se [**Textövertäckning**](text-overlay.md).
+  Textövertäckning är en funktion i AEM Screens. Du kan skapa en övertygande upplevelse i en sekvenskanal genom att ange en rubrik eller en beskrivning som läggs ovanpå en bild. Se [**Textövertäckning**](text-overlay.md).
 
 * **Schemaläggning av flera resurser**:
 
@@ -57,4 +57,4 @@ Följande AEM Screens-spelare finns för AEM 6.3 Feature Pack 5 och AEM 6.4 Feat
 
 #### AEM Screens Player - nedladdningar
 
-Om du vill hämta den senaste AEM Screens-spelaren och läsa mer om felkorrigeringarna kan du läsa [**AEM Screens Player - nedladdningar**](https://download.macromedia.com/screens/).
+Om du vill hämta den senaste versionen av AEM Screens Player och läsa mer om felkorrigeringarna kan du läsa [**AEM Screens Player - nedladdningar**](https://download.macromedia.com/screens/).

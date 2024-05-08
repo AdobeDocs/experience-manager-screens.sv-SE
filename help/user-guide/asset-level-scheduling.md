@@ -5,7 +5,7 @@ feature: Authoring Screens, Asset Level Activation
 role: Admin, Developer
 level: Intermediate
 exl-id: a2f5b2cc-6797-4397-b49c-72175a2d2ef7
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
 source-wordcount: '1460'
 ht-degree: 0%
@@ -224,11 +224,11 @@ Följ stegen nedan för att klicka på flera resurser och schemalägga hur de sk
 
 ## Global åsidosättning för universell starttid {#global-override-scheduling}
 
-***Global åsidosättning för universell starttid***, är en inställning som gör det möjligt för innehållsförfattaren att definiera uppspelningen av en bild eller videoklipp baserat på en viss tid. Inställningen för tid/tidszon för en enskild spelare används inte.
+***Global åsidosättning för universell starttid***, är en inställning som gör att innehållsförfattaren kan definiera uppspelningen av en bild eller ett videoklipp baserat på en viss tid. Inställningen för tid/tidszon för en enskild spelare används inte.
 
 I vanliga fall bestäms uppspelningen av den lokala tiden för en viss spelare, men med den globala åsidosättningen kan en specifik universell starttid användas för att initiera uppspelningen av resursen.
 
-Detta gör att innehållsförfattaren kan ange att uppspelning av en viss resurs ska ske vid ett visst datum/tid, oavsett lokal klocka för alla spelare som har det tilldelade innehållet.
+Detta gör att innehållsförfattaren kan ange att uppspelning av en viss resurs ska ske vid ett visst datum/tid, oavsett lokal klocka för de spelare som har det tilldelade innehållet.
 
 Global åsidosättning för universell starttid görs genom att konfigurera **Aktivering** när du får åtkomst till egenskaper för en resurs. Följ stegen nedan för att utföra en global åsidosättning för resursplanering:
 

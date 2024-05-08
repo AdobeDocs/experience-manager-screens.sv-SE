@@ -1,7 +1,7 @@
 ---
 title: Riktlinjer för val av maskinvara för spelarenheter
 description: Läs mer om riktlinjer för val av maskinvara för AEM Screens Player-enheter.
-source-git-commit: ba5327077e4a2d30cc7b77f02123da5a240c67ae
+source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
 source-wordcount: '227'
 ht-degree: 0%
@@ -11,7 +11,7 @@ ht-degree: 0%
 
 # Riktlinjer för val av maskinvara för spelarenhet {#hardware-selection}
 
-Följande avsnitt innehåller riktlinjer för val av maskinvara för en AEM Screens-spelare.
+Följande avsnitt innehåller riktlinjer för val av maskinvara för en AEM Screens Player.
 
 ## Viktiga överväganden {#important-considerations}
 

@@ -5,7 +5,7 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 3314e0b5-0001-4bce-8ec6-5a6ffbb20f7b
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
 source-wordcount: '740'
 ht-degree: 0%
@@ -71,7 +71,7 @@ Innan du använder funktionen Kommandosynkronisering måste du kontrollera att d
    >
    >Mer information om hur du registrerar en enhet finns i [Enhetsregistrering](/help/user-guide/device-registration.md)
 
-1. I det här exemplet visas en fönsterenhet och en Windows-spelare som två separata enheter. Båda enheterna pekar på samma skärm.
+1. I det här exemplet visas en fönsterenhet och en Windows Player som två separata enheter. Båda enheterna pekar på samma skärm.
    ![image1](assets/command-sync6.png)
 
 ### Uppdaterar kanalinställningar
@@ -91,7 +91,7 @@ Innan du använder funktionen Kommandosynkronisering måste du kontrollera att d
 ### Konfigurera en primär {#setting-up-primary}
 
 1. Navigera till kontrollpanelen från **CommandSyncDemo** > **Platser**  > **Lobby** > **LobbyDisplay** och klicka **Kontrollpanel** i åtgärdsfältet.
-Lägg märke till de två enheterna (fönsterstandard och Windows Player) i **ENHETER** enligt följande:
+Lägg märke till de två enheterna (chrome och Windows Player) i **ENHETER** enligt följande:
    ![image1](assets/command-sync/command-sync10-1.png)
 
 1. Från **ENHETER** klickar du på den enhet som du vill ange som primär. I följande exempel visas hur du ställer in Chrome-enheten som primär. Klicka **Ange som primär enhet**.
@@ -108,7 +108,7 @@ Lägg märke till de två enheterna (fönsterstandard och Windows Player) i **EN
 
 ### Synkroniserar med primär {#sync-up-primary}
 
-1. När du har angett Chrome-enheten som primär synkroniserar du den andra enheten (i det här fallet Windows-spelaren) så att den synkroniseras med den primära.
+1. När du har angett Chrome-enheten som primär synkroniserar du den andra enheten (i det här fallet Windows Player) så att den synkroniseras med den primära.
 Klicka på den andra enheten (i det här fallet Windows Player) på **ENHETER** panel och klicka **Synkronisera med primär enhet**.
 
    ![image1](assets/command-sync/command-sync13-1.png)
@@ -118,7 +118,7 @@ Klicka på den andra enheten (i det här fallet Windows Player) på **ENHETER** 
    >[OBS!]
    > The **Synkronisera med primär enhet** visas en lista med primära enheter. Välj önskad.
 
-1. När enheten (Windows-spelaren) synkroniseras till den primära (Chrome Player) kan du se enheten synkroniserad i **ENHETER** -panelen.
+1. När enheten (Windows Player) synkroniseras till den primära (Chrome Player) kan du se enheten synkroniserad i **ENHETER** -panelen.
 
    ![image1](assets/command-sync/command-sync14-1.png)
 

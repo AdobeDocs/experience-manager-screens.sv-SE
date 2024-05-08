@@ -10,9 +10,9 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: e4562547-2829-4a53-8e37-2cd637cef7c8
-source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
+source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
-source-wordcount: '312'
+source-wordcount: '313'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 >[!CAUTION]
 >
->Du bör uppgradera till den senaste versionen av Adobe Experience Manager (AEM). AEM Screens har underhållsstöd för AEM 6.3 Screens Platform.
+>Du bör uppgradera till den senaste versionen av Adobe Experience Manager (AEM). AEM Screens har underhållsstöd för AEM 6.3 Screens.
 
 AEM Screens har släppt AEM 6.3.3.3 Feature Pack 6 och AEM 6.4.4.0 Feature Pack 4 med följande information.
 
@@ -45,9 +45,9 @@ Se **[Övergång från ContentSync till SmartSync](smartsync.md)** för mer info
 
 * **Nödkanal**
 
-I det här exemplet med användningsexempel betonas hur du skapar och hanterar en nödkanal som innehållsförfattaren kan växla från en sekvenskanal om det finns ett förhandsvillkor.
+I det här exemplet framhävs hur man skapar och hanterar en nödkanal som innehållsförfattaren kan växla från en sekvenskanal om det finns ett förhandsvillkor.
 
-Se **[Nödkanal](emergency-channel.md)** Använd skiftläge om du vill ha mer information.
+Se **[Nödkanal](emergency-channel.md)** om du vill ha mer information.
 
 * **Bädda in ett REACT-program med AEM SPA Editor och Integrera med AEM Screens Analytics**
 
@@ -65,4 +65,4 @@ Följande AEM Screens-spelare finns för AEM 6.3.3.3 Feature Pack 6 och AEM 6.4.
 
 #### AEM Screens Player - nedladdningar
 
-Om du vill hämta den senaste AEM Screens-spelaren och läsa mer om felkorrigeringarna kan du läsa **[AEM Screens Player - nedladdningar](https://download.macromedia.com/screens/)**.
+Om du vill hämta den senaste versionen av AEM Screens Player och läsa mer om felkorrigeringarna kan du läsa **[AEM Screens Player - nedladdningar](https://download.macromedia.com/screens/)**.

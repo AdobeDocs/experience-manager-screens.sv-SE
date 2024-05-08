@@ -9,7 +9,7 @@ feature: Administering Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: ba23eb8e-bbde-4a6e-8cfb-ae98176ed890
-source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
+source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
 source-wordcount: '976'
 ht-degree: 0%
@@ -40,7 +40,7 @@ Innan du börjar med författarservrar och publiceringsservrar bör du ha kunska
 
 AEM Screens arkitektur liknar en traditionell AEM Sites-arkitektur. Innehållet skapas på en AEM författarinstans och sedan vidarebefordras till flera publiceringsinstanser. Enheter på AEM Screens kan nu ansluta till en AEM publiceringsgrupp via belastningsutjämnaren. Det går att lägga till flera AEM publiceringsinstanser för att fortsätta att skala publiceringsgruppen.
 
-*Till exempel* skapar ett AEM Screens-innehåll ett kommando i redigeringssystemet för en viss enhet. Enheten är konfigurerad att interagera med en publiceringsgrupp eller en AEM Screens-innehållsförfattare som hämtar information om enheter som är konfigurerade att interagera med publiceringsgrupper.
+*Till exempel* skickar en AEM Screens Content Author ett kommando i redigeringssystemet för en viss enhet. Enheten är konfigurerad att interagera med en publiceringsgrupp eller en AEM Screens Content Author som hämtar information om enheter som är konfigurerade att interagera med publiceringsgrupper.
 
 I följande diagram visas både författarmiljön och publiceringsmiljön.
 

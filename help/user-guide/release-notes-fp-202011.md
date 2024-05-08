@@ -5,9 +5,9 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: b080a697-0e65-4ae1-a161-669c3098246b
-source-git-commit: 10c168cd00b79964d229e3d2a14049e799d89d77
+source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
-source-wordcount: '284'
+source-wordcount: '287'
 ht-degree: 0%
 
 ---
@@ -15,13 +15,13 @@ ht-degree: 0%
 # Versionsinformation för funktionspaket 2011 {#release-notes-for-feature-pack}
 
 >[!CAUTION]
->Adobe rekommenderar att du uppgraderar till den senaste versionen av Adobe Experience Manager (AEM). AEM Screens har underhållsstöd för AEM 6.3 Screens Platform.
+>Adobe rekommenderar att du uppgraderar till den senaste versionen av Adobe Experience Manager (AEM). AEM Screens har underhållsstöd för AEM 6.3 Screens.
 
 ## Tillgänglighet {#availability}
 
 AEM Screens AEM 6.5 Feature Pack 6.
 
-Du kan ladda ned det senaste funktionspaketet för AEM Screens 6.5.6 från [Programdistributionsportal](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) med din Adobe ID. Navigera till **Adobe Experience Manager** flik och sök efter **Skärmar** för att få det senaste funktionspaketet med namnet **AEM 6.5 skärmar FP6**.
+Du kan ladda ned senaste funktionspaketet för AEM Screens 6.5.6 från [Programdistributionsportal](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) med din Adobe ID. Navigera till **Adobe Experience Manager** flik och sök efter **Skärmar** för att få det senaste funktionspaketet med namnet **AEM 6.5 skärmar FP6**.
 
 ## Releasedatum {#release-date}
 
@@ -37,7 +37,7 @@ Se [Tilldelningsrapport för innehåll](/help/user-guide/content-assignment-repo
 
 * **Tizen Player**
 
-  En ny spelare som kallas Tizen-spelare har introducerats med det senaste funktionspaketet för AEM Screens 6.5.6.
+  En ny spelare som kallas Tizen-spelare har introducerats med den senaste versionen av Feature Pack för AEM Screens 6.5.6.
 Se [Implementera Tizen Player](/help/user-guide/tizen-player.md) för mer information.
 
 * **Sökfunktioner från Enhetshanteraren**
@@ -61,4 +61,4 @@ Följande AEM Screens-spelare finns för AEM 6.5 Feature Pack 6:
 
 #### AEM Screens Player - nedladdningar
 
-Om du vill hämta den senaste AEM Screens-spelaren och läsa mer om felkorrigeringarna kan du läsa **[AEM Screens Player - nedladdningar](https://download.macromedia.com/screens/index.html)**.
+Om du vill hämta den senaste versionen av AEM Screens Player och läsa mer om felkorrigeringarna kan du läsa **[AEM Screens Player - nedladdningar](https://download.macromedia.com/screens/index.html)**.

@@ -1,12 +1,12 @@
 ---
-title: Användningsfall för övergångar mellan MultiZone och SingleZone
+title: MultiZone till SingleZone-övergångar - användningsfall
 description: Följ den här sidan så att du kan lära dig mer om hur MultiZone till SingleZone-övergångar används.
 contentOwner: Jyotika Syal
 feature: Authoring Screens
 role: Developer, User
 level: Intermediate
 exl-id: 15632f31-1e92-40e5-b567-8705e27bdc93
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
 source-wordcount: '400'
 ht-degree: 0%

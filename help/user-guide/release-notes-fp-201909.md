@@ -5,9 +5,9 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: 577228c1-8d90-47b5-8600-7e2f1004e928
-source-git-commit: 10c168cd00b79964d229e3d2a14049e799d89d77
+source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
-source-wordcount: '283'
+source-wordcount: '286'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 >[!CAUTION]
 >
->Adobe rekommenderar att du uppgraderar till den senaste versionen av Adobe Experience Manager (AEM). AEM Screens har underhållsstöd för AEM 6.3 Screens Platform.
+>Adobe rekommenderar att du uppgraderar till den senaste versionen av Adobe Experience Manager (AEM). AEM Screens har underhållsstöd för AEM 6.3 Screens.
 
 AEM Screens har släppt AEM 6.4.6 Feature Pack 6 och AEM 6.5.2 Feature Pack 2 med följande information.
 
@@ -28,7 +28,7 @@ Releasedatum för AEM Screens Feature Pack 2019 är 7 oktober 2019.
 
 * **Förbättrade gränssnittsuppdateringar för att skapa skärmprojekt**
 
-  Det uppdaterade användargränssnittet för att skapa ett AEM Screens-projekt är nu tillgängligt. Du kan skapa ett skärmsprojekt med några enkla klick. Egenskapsfliken för varje projekt har nu ett mer intuitivt användargränssnitt.
+  Nu finns ett uppdaterat användargränssnitt för att skapa ett AEM Screens-projekt. Du kan skapa ett skärmsprojekt med några enkla klick. Egenskapsfliken för varje projekt har nu ett mer intuitivt användargränssnitt.
 
   Se [Skapa ett projekt för nya skärmar](creating-a-screens-project.md) för mer information.
 
@@ -57,4 +57,4 @@ Följande AEM Screens-spelare finns för AEM 6.4.6 Feature Pack 6 och AEM 6.5.2 
 
 #### AEM Screens Player - nedladdningar
 
-Om du vill hämta den senaste AEM Screens-spelaren och läsa mer om felkorrigeringarna kan du läsa [**AEM Screens Player - nedladdningar**](https://download.macromedia.com/screens/).
+Om du vill hämta den senaste versionen av AEM Screens Player och läsa mer om felkorrigeringarna kan du läsa [**AEM Screens Player - nedladdningar**](https://download.macromedia.com/screens/).

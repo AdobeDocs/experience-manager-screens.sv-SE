@@ -9,7 +9,7 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: d409ba46-b48a-44db-b305-27c392cd55de
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
 source-wordcount: '710'
 ht-degree: 0%
@@ -157,7 +157,7 @@ Följ stegen nedan för att konfigurera en nödkanal:
 
 1. **Enhetsregistrering**
 
-   Slutför registreringsprocessen. När du har registrerat dig kan du visa följande utdata i din AEM Screens-spelare.
+   Slutför registreringsprocessen. När du har registrerat dig kan du visa följande utdata i din AEM Screens Player.
 
    ![new30](assets/new30.gif)
 
@@ -185,4 +185,4 @@ Utför följande steg om det uppstår en kris:
 
 The **EmergencyChannel** fortsätter att visa innehållet tills innehållsförfattaren återställer prioritetsvärdet till 1.
 
-När innehållsförfattaren får instruktionerna om att nödläget har åtgärdats bör han/hon uppdatera prioriteten för **MainAdChannel** vilket gör att normal uppspelning återupptas.
+När innehållsförfattaren får instruktionerna om att nödläget har åtgärdats bör de uppdatera prioriteten för **MainAdChannel** vilket gör att normal uppspelning återupptas.

@@ -2,9 +2,9 @@
 title: Adaptiva renderingar Arkitektur - översikt och konfigurationer
 description: Läs mer om översikten och konfigurationerna för arkitekturen i CRXDE Lite för adaptiva renderingar i AEM Screens.
 exl-id: 0419b9c6-3c27-4a61-84ff-a6fe697e773f
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
-source-wordcount: '622'
+source-wordcount: '620'
 ht-degree: 1%
 
 ---
@@ -13,7 +13,7 @@ ht-degree: 1%
 
 ## Introduktion {#introduction}
 
-Med adaptiva renderingar kan enheterna automatiskt klicka på den bästa renderingen för en enhet baserat på kunddefinierade regler. Enheterna laddar automatiskt ned och spelar upp den lämpligaste återgivningen av en mediefil baserat på dessa regler, så att kunderna bara kan fokusera på att utforma *main* upplevelse.
+Med adaptiva renderingar kan enheter klicka på den bästa renderingen automatiskt för en enhet baserat på kunddefinierade regler. Enheterna laddar automatiskt ned och spelar upp den lämpligaste återgivningen av en mediefil baserat på dessa regler, så att kunderna kan fokusera på att utforma *main* endast upplevelsen.
 
 ## Syfte {#objective}
 
@@ -91,4 +91,4 @@ Följ stegen nedan för att lägga till en nod under Återgivningsmappning:
 
 ## Nästa steg {#next-steps}
 
-När du har lagt till egenskaper och regler för återgivningsmappning som innehållsförfattare kan du konfigurera dina resurser. Det gör du genom att använda adaptiva renderingar och även migrera dina enheter för stora nätverk för att använda den här funktionen i dina AEM Screens-kanaler. Se [Använda adaptiva renderingar i AEM Screens](/help/user-guide/using-adaptive-renditions.md) för mer information.
+När du har lagt till egenskaper och regler för återgivningsmappning som innehållsförfattare kan du konfigurera dina resurser. Du kan använda adaptiva renderingar och även migrera dina enheter för stora nätverk för att använda den här funktionen i dina AEM Screens-kanaler. Se [Använda adaptiva renderingar i AEM Screens](/help/user-guide/using-adaptive-renditions.md) för mer information.

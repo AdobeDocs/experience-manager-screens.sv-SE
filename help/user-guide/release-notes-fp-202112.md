@@ -5,9 +5,9 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: 3ff32a3d-9baf-4085-a775-bb5a76a1f5b3
-source-git-commit: 10c168cd00b79964d229e3d2a14049e799d89d77
+source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
-source-wordcount: '315'
+source-wordcount: '326'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 # Versionsinformation för funktionspaket 2012 {#release-notes-for-feature-pack}
 
 >[!CAUTION]
->Adobe rekommenderar att du uppgraderar till den senaste versionen av Adobe Experience Manager (AEM). AEM Screens har underhållsstöd för AEM 6.3 Screens Platform.
+>Adobe rekommenderar att du uppgraderar till den senaste versionen av Adobe Experience Manager (AEM). AEM Screens har underhållsstöd för AEM 6.3 Screens.
 
 ## Tillgänglighet {#availability}
 
@@ -29,7 +29,7 @@ Releasedatum för AEM Screens Feature Pack 2012 är 12 januari 2022.
 
 ### Nyheter {#what-is-new}
 
-* Android™-programuppdateringar är nu avsedda för Android™ 11 (API-nivå 30). Android™-spelaren är för närvarande på API-nivå 29.
+* Android™-programuppdateringar är nu avsedda för Android™ 11 (API-nivå 30). För närvarande är Android™-spelaren på API-nivå 29.
 
 * Förhandsvisning av bildskärm har fastnat i den tidigare spelarkonfigurationen
 
@@ -37,7 +37,7 @@ Releasedatum för AEM Screens Feature Pack 2012 är 12 januari 2022.
 
 * Åtgärda samtidiga hämtningsfel i SmartSync
 
-* Som utvecklare kan du visa återgivningar av resurser som du bara vill visa som återgivningsposter under motsvarande resurser i manifestet för att säkerställa att manifesthanteringen blir mer omfattande, tydlig och enkel.
+* Som utvecklare kan du visa återgivningar av resurser som du bara vill visa som återgivningsposter under motsvarande resurser i manifestet. På så sätt blir manifesthanteringen mer omfattande, tydlig och enkel.
 
 ### Felkorrigeringar {#bug-fixes}
 
@@ -45,11 +45,11 @@ Releasedatum för AEM Screens Feature Pack 2012 är 12 januari 2022.
 
 * Samla in lokala spelarloggar och analysera dem för svart skärm.
 
-* Spelaren som visar en tom skärm med en delad skärmkanal har nu åtgärdats
+* Spelaren som visar en tom skärm med en delad skärmkanal är nu fast
 
-* Åtgärdade anpassade hanterardokument genom att lägga till kärnpaket på allmän maven.
+* Åtgärdade anpassade hanterardokument genom att lägga till ett kärnpaket på allmän maven.
 
-* Spelaren uppdaterade inte den fasta programversionen efter uppgraderingen. Den här är nu lagad.
+* Spelaren uppdaterade inte den inbyggda programversionen efter uppgraderingen. Detta fel har åtgärdats.
 
 * Förhandsvisning av bildskärm har fastnat på en tidigare spelarkonfiguration.
 
@@ -69,4 +69,4 @@ Följande AEM Screens-spelare finns för AEM 6.5 Feature Pack 10:
 
 #### AEM Screens Player - nedladdningar
 
-Om du vill hämta den senaste AEM Screens-spelaren och läsa mer om felkorrigeringarna kan du läsa **[AEM Screens Player - nedladdningar](https://download.macromedia.com/screens/index.html)**.
+Om du vill hämta den senaste versionen av AEM Screens Player och läsa mer om felkorrigeringarna kan du läsa **[AEM Screens Player - nedladdningar](https://download.macromedia.com/screens/index.html)**.

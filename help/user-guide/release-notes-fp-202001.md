@@ -5,9 +5,9 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: c1a0b394-97dc-4104-b2b4-41fcbb63a22e
-source-git-commit: 10c168cd00b79964d229e3d2a14049e799d89d77
+source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
-source-wordcount: '303'
+source-wordcount: '307'
 ht-degree: 0%
 
 ---
@@ -16,13 +16,13 @@ ht-degree: 0%
 
 >[!CAUTION]
 >
->Adobe rekommenderar att du uppgraderar till den senaste versionen av Adobe Experience Manager (AEM). AEM Screens har underhållsstöd för AEM 6.3 Screens Platform.
+>Adobe rekommenderar att du uppgraderar till den senaste versionen av Adobe Experience Manager (AEM). AEM Screens har underhållsstöd för AEM 6.3 Screens.
 
 ## Tillgänglighet {#availability}
 
 AEM Screens AEM 6.5 Feature Pack 3.
 
-Du kan ladda ned det senaste funktionspaketet för AEM Screens 6.5.3 från [Programdistributionsportal](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) med din Adobe ID. Navigera till **Adobe Experience Manager** flik och sök efter **Skärmar** för att få det senaste funktionspaketet med namnet **AEM 6.5 skärmar FP3**.
+Du kan ladda ned senaste funktionspaketet för AEM Screens 6.5.3 från [Programdistributionsportal](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) med din Adobe ID. Navigera till **Adobe Experience Manager** flik och sök efter **Skärmar** för att få det senaste funktionspaketet med namnet **AEM 6.5 skärmar FP3**.
 
 ## Releasedatum {#release-date}
 
@@ -35,7 +35,7 @@ Releasedatum för AEM Screens Feature Pack 2001 är 31 januari 2020.
 Med kommandosynkronisering kan du synkronisera uppspelningen mellan olika spelare. Spelarna kan spela upp olika innehåll, men varje resurs måste ha samma längd.
 Mer information om kommandosynkronisering och hur du ställer in primär- och klientinställningar finns i [Använda kommandosynkronisering](using-command-sync.md).
 
-* **Hälsokontrollramverket visar https-status och tillåter tom referent**
+* **Health Check Framework för att visa status för https och tillåta en tom referent**
 
 Med hälsokontrollsramverket kan användaren kontrollera om två nödvändiga konfigurationer (Tillåt tomma referensförfrågningar och Apache Felix Jetty Based HTTP Service) har konfigurerats innan ett AEM Screens-projekt körs.
 
@@ -57,4 +57,4 @@ Följande AEM Screens-spelare finns för AEM 6.4 Feature Pack 7 och AEM 6.5 Feat
 
 #### AEM Screens Player - nedladdningar
 
-Om du vill hämta den senaste AEM Screens-spelaren och läsa mer om felkorrigeringarna kan du läsa [**AEM Screens Player - nedladdningar**](https://download.macromedia.com/screens/).
+Om du vill hämta den senaste versionen av AEM Screens Player och läsa mer om felkorrigeringarna kan du läsa [**AEM Screens Player - nedladdningar**](https://download.macromedia.com/screens/).

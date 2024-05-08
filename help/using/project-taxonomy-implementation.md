@@ -2,7 +2,7 @@
 title: Projekttaxonomi
 description: Läs mer om projekttaxonomi när det gäller AEM Screens.
 exl-id: be0ad77a-e593-4c95-8a58-4e5ccb974fcf
-source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
+source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
 source-wordcount: '265'
 ht-degree: 0%
@@ -52,7 +52,7 @@ En författare startar vanligtvis ett AEM Screens-projekt av:
 * [skapa skärmar](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/authoring/setting-up-projects/managing-displays)
 * [tilldela kanaler till skärmar](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/authoring/setting-up-projects/assigning-channels/channel-assignment)
 
-* [visa innehåll i en AEM Screens-spelare](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/administering/working-with-screens-player)
+* [visa innehåll i en AEM Screens Player](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/administering/working-with-screens-player)
 
 >[!NOTE]
 >Du kan också importera en uppsättning platser gruppvis från ett CSV-/XLS-kalkylblad till ditt AEM Screens-projekt. Se [Ny projektimporterare från fil](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/administering/project-importer).

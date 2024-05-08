@@ -9,7 +9,7 @@ feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: 4f16605b-aec1-45fa-a110-0af6925b74b0
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
 source-wordcount: '867'
 ht-degree: 0%
@@ -34,7 +34,7 @@ Följ stegen nedan för att konfigurera en kromhanteringskonsol:
 
 ## Namnge Chrome OS Player {#name-chrome}
 
-Du kan tilldela din Chrome-spelare ett användarvänligt enhetsnamn och på så sätt skicka det tilldelade enhetsnamnet till Adobe Experience Manager (AEM). Med den här funktionen kan du inte bara namnge Chrome-spelaren utan även enkelt tilldela rätt innehåll.
+Du kan tilldela din Chrome Player ett användarvänligt enhetsnamn och på så sätt skicka det tilldelade enhetsnamnet till Adobe Experience Manager (AEM). Med den här funktionen kan du inte bara namnge din Chrome Player utan även enkelt tilldela rätt innehåll.
 
 >[!NOTE]
 >Du kan bara välja spelarnamnet före registreringen. När spelaren har registrerats går det inte att ändra spelarens namn längre.

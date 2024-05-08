@@ -1,12 +1,12 @@
 ---
 title: Perpetual TakeOver Channel
-description: Följ det här användningsexemplet för att skapa en permanent TakeOver-kanal.
+description: Följ det här användningsexemplet när du skapar en permanent TakeOver-kanal.
 contentOwner: jsyal
 feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 5d112f33-a7cf-415e-9ea7-dc18a0356a8d
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
 source-wordcount: '869'
 ht-degree: 0%
@@ -19,7 +19,7 @@ På följande sida visas ett exempel på hur du använder ett projekt för att s
 
 ## Använd fallbeskrivning {#use-case-description}
 
-I det här Use Case-exemplet beskrivs hur du skapar en kanal som *tar över* från den normala uppspelningskanalen för en visning eller grupp av skärmar. Övertagandet sker för en viss dag och tid permanent.
+Det här användningsexemplet förklarar hur du skapar en kanal som *tar över* från den normala uppspelningskanalen för en visning eller grupp av skärmar. Övertagandet sker för en viss dag och tid permanent.
 Det finns till exempel en permanent TakeOver-kanal som spelas upp varje fredag från 9:00 till 10:00. Under den här tiden ska ingen annan kanal spelas upp. I följande exempel visas hur man skapar en permanent köpkanal som spelas upp så att innehållet kan spelas upp varje onsdag i två timmar mellan kl. 2:00 och kl. 17:00.
 
 ### Förhandsvillkor {#preconditions}

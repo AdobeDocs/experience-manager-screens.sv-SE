@@ -5,9 +5,9 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: b26ed2de-2e47-4dd5-be1c-4c46971e9f6d
-source-git-commit: 43e89ddc3eb6baffca75d730a978e60e234aaee4
+source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
-source-wordcount: '153'
+source-wordcount: '154'
 ht-degree: 1%
 
 ---
@@ -15,13 +15,13 @@ ht-degree: 1%
 # Versionsinformation för funktionspaket 20240116 {#release-notes-for-screens-feature-pack}
 
 >[!CAUTION]
->Adobe rekommenderar att du uppgraderar till den senaste versionen av 6.5 Adobe Experience Manager (AEM 6.5). Du kan hämta den senaste versionsinformationen från [här](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/release-notes/release-notes)
+>Adobe rekommenderar att du uppgraderar till den senaste versionen av 6.5 Adobe Experience Manager (AEM 6.5). Du kan hämta den senaste versionsinformationen från [här](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/release-notes/release-notes).
 
 ## Tillgänglighet {#availability}
 
 AEM Screens AEM 6.5 Feature Pack 11.2.
 
-Du kan hämta det senaste funktionspaketet för AEM Screens 6.5.11.2 från [Programdistributionsportal](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) med din Adobe ID. Navigera till **Adobe Experience Manager** flik och sök efter **Skärmar** för att få det senaste funktionspaketet med namnet **AEM 6.5 skärmar FP11.2**.
+Du kan ladda ned den senaste funktionspaketet för AEM Screens 6.5.11.2 från [Programdistributionsportal](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) med din Adobe ID. Navigera till **Adobe Experience Manager** flik och sök efter **Skärmar** för att få det senaste funktionspaketet med namnet **AEM 6.5 skärmar FP11.2**.
 
 ## Releasedatum {#release-date}
 
@@ -39,4 +39,4 @@ Den här versionen innehåller endast säkerhetskorrigeringar.
 
 #### AEM Screens Player - nedladdningar
 
-Om du vill hämta den senaste AEM Screens-spelaren går du till **[AEM Screens Player - nedladdningar](https://download.macromedia.com/screens/index.html)**.
+Om du vill hämta den senaste versionen av AEM Screens Player går du till **[AEM Screens Player - nedladdningar](https://download.macromedia.com/screens/index.html)**.

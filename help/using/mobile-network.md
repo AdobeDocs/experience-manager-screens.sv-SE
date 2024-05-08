@@ -2,7 +2,7 @@
 title: Direkt mobilt nätverk
 description: Läs mer om Direct Mobile Network Setup i AEM Screens.
 exl-id: 6775bd10-7625-422f-a7af-4f7b8793fa42
-source-git-commit: c0fa0717034e5094108eb1e23d4e9f1f16aeb57e
+source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
 source-wordcount: '842'
 ht-degree: 0%
@@ -71,7 +71,7 @@ Som en uppföljning måste det nödvändiga datapaketet vara minst:
 >För inledande överföring av mediefiler, till exempel, måste en högre datamängd och en ökad hämtningstid förväntas och återspeglas i ovanstående antaganden, samtidigt som nya spelare integreras. Ett 4G-nätverk med *bra* täckning och *obegränsad* data ska överensstämma med de vanligaste installationerna i den här nätverksinställningarna.
 
 >[!NOTE]
->En lägsta 3G-plan med bra nätverkstäckning bör leda till godtagbara prestanda för nedladdning för en AEM Screens-spelare. Om det bara finns en rimlig täckning tillgänglig på en viss plats kan du överväga att byta den övergripande nätverksinställningarna till [Mobilnätverk med mobil datarouter och aktiva nätverkskomponenter](/help/using/mobile-network-router.md).
+>En lägsta 3G-plan med bra nätverkstäckning bör leda till acceptabel nedladdningsprestanda för en AEM Screens Player. Om det bara finns en rimlig täckning tillgänglig på en viss plats kan du överväga att byta den övergripande nätverksinställningarna till [Mobilnätverk med mobil datarouter och aktiva nätverkskomponenter](/help/using/mobile-network-router.md).
 
 
 ### Lokalt nätverk {#lan-connection}

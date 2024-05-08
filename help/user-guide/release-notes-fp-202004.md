@@ -5,9 +5,9 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: 0440cb1a-4436-4479-9d88-ea8884905801
-source-git-commit: 10c168cd00b79964d229e3d2a14049e799d89d77
+source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
-source-wordcount: '367'
+source-wordcount: '375'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 >[!CAUTION]
 >
->Adobe rekommenderar att du uppgraderar till den senaste versionen av Adobe Experience Manager (AEM). AEM Screens har underhållsstöd för AEM 6.3 Screens Platform.
+>Adobe rekommenderar att du uppgraderar till den senaste versionen av Adobe Experience Manager (AEM). AEM Screens har underhållsstöd för AEM 6.3 Screens.
 
 ## Tillgänglighet {#availability}
 
@@ -32,9 +32,9 @@ Releasedatum för AEM Screens Feature Pack 2004 är 20 april 2020.
 
 * **Alternativ för strategi för uppspelningsavbrott**
 
-  Som innehållsförfattare anger du när en kanal ska avbrytas så att du kan välja att avbryta icke-kritiskt innehåll, men om du vill kan du låta viktigt innehåll spelas upp helt innan uppspelningen avbryts på grund av schemaläggning.
+  Ange när en kanal ska avbrytas som innehållsförfattare. Den här åtgärden hjälper dig att välja att avbryta icke-kritiskt innehåll, men du kan också låta viktigt innehåll spelas upp helt innan uppspelningen avbryts på grund av schemaläggning.
 
-  Mer information om tillgängliga alternativ finns i **Kanaltilldelning** för att implementera den här funktionen i ditt AEM Screens-projekt, se avsnittet **[Avbrottsmetod](/help/user-guide/channel-assignment.md#interruption-method-channel)**.
+  Mer information om de tillgängliga alternativen finns i **Kanaltilldelning** för att implementera den här funktionen i ditt AEM Screens-projekt, se avsnittet **[Avbrottsmetod](/help/user-guide/channel-assignment.md#interruption-method-channel)**.
 
 * **Skärmar - startprogram**
 
@@ -44,7 +44,7 @@ Releasedatum för AEM Screens Feature Pack 2004 är 20 april 2020.
 
 * **Kontrollpanel för kanaler**
 
-  Återspeglar uppdateringar av instruktioner på kontrollpanelen för kanaler i **KANALINFORMATION** -panelen.
+  Återspeglar uppdateringar av instruktioner i kanalkontrollpanelen i **KANALINFORMATION** -panelen.
 
 
 * **Visa manifest**
@@ -75,4 +75,4 @@ Följande AEM Screens-spelare finns för AEM Screens som lanserats AEM 6.4 Featu
 
 #### AEM Screens Player - nedladdningar
 
-Om du vill hämta den senaste AEM Screens-spelaren och läsa mer om felkorrigeringarna kan du läsa **[AEM Screens Player - nedladdningar](https://download.macromedia.com/screens/)**.
+Om du vill hämta den senaste versionen av AEM Screens Player och läsa mer om felkorrigeringarna kan du läsa **[AEM Screens Player - nedladdningar](https://download.macromedia.com/screens/)**.

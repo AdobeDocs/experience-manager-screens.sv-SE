@@ -2,9 +2,9 @@
 title: Stöd för miniatyrbilder för videofilmer i AEM Screens
 description: Lär dig hur du lägger till stöd för miniatyrbilder för videoklipp i AEM Screens.
 exl-id: d2d87807-1699-47e3-b241-07c5b7e56f15
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
-source-wordcount: '397'
+source-wordcount: '396'
 ht-degree: 1%
 
 ---
@@ -13,7 +13,7 @@ ht-degree: 1%
 
 ## Introduktion {#introduction}
 
-Innehållsförfattaren kan definiera en miniatyrbild för videoklipp så att bilden används som platshållare och testar uppspelning och målgruppsanpassning av innehållet medan videon färdigställs av rätt team. Bilden kan också användas om videouppspelningen misslyckas.
+En innehållsförfattare kan definiera en miniatyrbild för videoklipp så att bilden används som platshållare och testar uppspelning och målgruppsanpassning av innehållet medan videon färdigställs av rätt team. Bilden kan också användas om videouppspelningen misslyckas.
 
 Genom att lägga till stöd för en miniatyrbild i videokomponenten kan kunden lägga till en giltig komponent i kanalen, med faktiskt innehåll, och utföra eventuella målinriktningskonfigurationer innan videon levereras.
 

@@ -5,9 +5,9 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: e1794013-59ce-4ddc-93c0-601668c75cd1
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
-source-wordcount: '897'
+source-wordcount: '912'
 ht-degree: 0%
 
 ---
@@ -15,13 +15,13 @@ ht-degree: 0%
 # Versionsinformation för funktionspaket 20109 {#release-notes-for-feature-pack}
 
 >[!CAUTION]
->Adobe rekommenderar att du uppgraderar till den senaste versionen av Adobe Experience Manager (AEM). AEM Screens har underhållsstöd för AEM 6.3 Screens Platform.
+>Adobe rekommenderar att du uppgraderar till den senaste versionen av Adobe Experience Manager (AEM). AEM Screens har underhållsstöd för AEM 6.3 Screens.
 
 ## Tillgänglighet {#availability}
 
 AEM Screens AEM 6.5 Feature Pack 9.
 
-Du kan ladda ned det senaste funktionspaketet för AEM Screens 6.5.9 från [Programdistributionsportal](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) med din Adobe ID. Navigera till **Adobe Experience Manager** flik och sök efter **Skärmar** för att få det senaste funktionspaketet med namnet **AEM 6.5 skärmar FP9**.
+Du kan ladda ned senaste funktionspaketet för AEM Screens 6.5.9 från [Programdistributionsportal](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) med din Adobe ID. Navigera till **Adobe Experience Manager** flik och sök efter **Skärmar** för att få det senaste funktionspaketet med namnet **AEM 6.5 skärmar FP9**.
 
 ## Releasedatum {#release-date}
 
@@ -31,7 +31,7 @@ Releasedatum för AEM Screens Feature Pack 202109 är 23 september 2021.
 
 * **Stöd för miniatyrbilder för videor**
 
-  Miniatyrbildsstöd för videor i stöds nu i AEM Screens. En innehållsförfattare definierar en miniatyrbild för videoklipp så att bilden används som platshållare. De testar också innehållsuppspelning och målinriktning på rätt sätt, medan själva videon färdigställs av rätt team. Bilden kan också användas om videouppspelningen misslyckas.
+  Miniatyrbildsstöd för videor i stöds nu i AEM Screens. En innehållsförfattare definierar en miniatyrbild för videoklipp så att bilden används som platshållare. De testar också innehållsuppspelning och målgruppsanpassning, medan rätt team slutför själva videon. Bilden kan också användas om videouppspelningen misslyckas.
 Se [Stöd för miniatyrbilder för videor](/help/user-guide/thumbnail-support.md) för mer information.
 
 * **Grundläggande uppspelningsövervakning**
@@ -41,12 +41,12 @@ Se [Grundläggande uppspelningsövervakning](https://experienceleague.adobe.com/
 
 * **Uppdateringar av rapporten för innehållstilldelning**
 
-  Tilldelningsrapporten för innehåll har nu optimerats och förbättrats med en förbättrad användarupplevelse. Den hämtningsbara rapporten innehåller förbättrade spelarrelaterade enheter som platser, skärmar och enheter på en kalkylbladsflik och information om innehållsleverantören, t.ex. kanaler och resurser på en annan flik.
+  Tilldelningsrapporten för innehåll har nu optimerats och förbättrats med en förbättrad användarupplevelse. Den hämtningsbara rapporten innehåller förbättrade spelarrelaterade entiteter. Sådana enheter kan vara platser, visningar och enheter på en kalkylbladsflik. Den innehåller även information om innehållsleverantören, till exempel kanaler och resurser på andra flikar.
 Se [Tilldelningsrapport för innehåll](/help/user-guide/content-assignment-report.md) för mer information.
 
 * **Adaptiva renderingar**
 
-  Med adaptiva renderingar kan enheterna automatiskt klicka på den bästa renderingen för en enhet baserat på kunddefinierade regler.
+  Med adaptiva renderingar kan enheten klicka på den bästa renderingen automatiskt för en enhet baserat på kunddefinierade regler.
 
   Som AEM Screens-utvecklare kan du nu konfigurera enhetsspecifika resursrenderingar så att de hämtas och spelas upp automatiskt utan att du behöver skapa alla innehållsvarianter manuellt. Se [Adaptiva renderingar: Arkitektur - översikt och konfigurationer](/help/user-guide/adaptive-renditions.md) för mer information.
 
@@ -74,7 +74,7 @@ Se [Tilldelningsrapport för innehåll](/help/user-guide/content-assignment-repo
 
    * Uppdatera Dispatcher.
 
-   * Uppdatera anpassad komponent.
+   * Uppdatera den anpassade komponenten.
 
 
    * Se [Konfigurera Dispatcher för manifestversion v3](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/administering/dispatcher-configurations-aem-screens#configuring-dispatcherv3) för mer information.
@@ -89,7 +89,7 @@ Se [Tilldelningsrapport för innehåll](/help/user-guide/content-assignment-repo
 
 * Spelarna visar nu endast resursrenderingar om det finns renderingsmappning.
 
-* Förbättrad ping för att autentisera igen om svaret inte är en giltig JSON.
+* Förbättrad ping för att autentisera igen om svaret inte är giltigt JSON.
 
 * Numeriska kanalnamn/roller orsakade en tom skärm.
 
@@ -124,15 +124,15 @@ Se [Tilldelningsrapport för innehåll](/help/user-guide/content-assignment-repo
 
 * Förhandsgranskningsläget är tomt för den delade skärmkanalen.
 
-* Videominiatyrbilder återges tomma med aktiverade adaptiva renderingar.
+* Videominiatyrbilder återges tomma med aktiverade adaptiva återgivningar.
 
 * Uppdatera automatiskt kanalmanifestet om den refererade sidan publiceras.
 
 * Borttagna enheter blockerar nu inte skärmreplikeringskön.
 
-* Manifestet innehöll inte riktat innehåll eller platsinbäddade sidor. Detta har nu åtgärdats.
+* Manifestet innehöll inte riktat innehåll eller platsinbäddade sidor. Detta fel har åtgärdats.
 
-* Ny kärnbildkomponent har nu lagts till i kanalmanifestet.
+* En ny kärnbildskomponent läggs nu till i kanalmanifestet.
 
 * Hämtning av optimerade återgivningar via SmartSync stöds nu.
 
@@ -140,7 +140,7 @@ Se [Tilldelningsrapport för innehåll](/help/user-guide/content-assignment-repo
 
 * Stöd för flera typer av innehållsleverantörer har lagts till
 
-* Strategin för uppspelning av inbäddad sekvens har brutits och detta har nu åtgärdats.
+* Uppspelningsstrategin för den inbäddade sekvensen har brutits och det här felet har nu åtgärdats.
 
 * Offlinemanifest med parametern request `wcmmode` för html-post, vilket gör den oåtkomlig.
 
@@ -162,4 +162,4 @@ Följande AEM Screens-spelare finns för AEM 6.5 Feature Pack 9:
 
 #### AEM Screens Player - nedladdningar
 
-Om du vill hämta den senaste AEM Screens-spelaren och läsa mer om felkorrigeringarna kan du läsa **[AEM Screens Player - nedladdningar](https://download.macromedia.com/screens/index.html)**.
+Om du vill hämta den senaste versionen av AEM Screens Player och läsa mer om felkorrigeringarna kan du läsa **[AEM Screens Player - nedladdningar](https://download.macromedia.com/screens/index.html)**.

@@ -9,9 +9,9 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: abeaed51-b18c-4366-93ef-4f05f33af649
-source-git-commit: 4102c2b2291c92823a36f87f07d5b5ca87cfa48f
+source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
-source-wordcount: '249'
+source-wordcount: '250'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 >[!CAUTION]
 >
->Adobe rekommenderar att du uppgraderar till den senaste versionen av Adobe Experience Manager (AEM). AEM Screens har underhållsstöd för AEM 6.3 Screens Platform.
+>Adobe rekommenderar att du uppgraderar till den senaste versionen av Adobe Experience Manager (AEM). AEM Screens har underhållsstöd för AEM 6.3 Screens.
 
 AEM Screens har släppt AEM 6.4.2 Feature Pack 2 och AEM 6.3.3 Feature Pack 4 med följande information.
 
@@ -37,7 +37,7 @@ Releasedatum för AEM Screens Feature Pack 2018 är 1 oktober 2018.
 * **Uppdatera offlineinnehåll gruppvis**: Gör att du kan uppdatera alla kanaler samtidigt och slippa besväret med att navigera till en viss kanal och uppdatera innehållet. Se [Uppdatera gruppvis offline](bulk-offline-update.md) om du vill veta mer.
 
 * **Publicera flera kanaler samtidigt för alla publiceringsinstanser**
-* **Förbättrad loggningsmekanism för spelare**: Du kan ange maximalt antal loggfiler för en AEM Screens-spelare. Se [Arbeta med en AEM Screens Player](working-with-screens-player.md) för mer information.
+* **Förbättrad loggningsmekanism för spelare**: Du kan ange maximalt antal loggfiler för en AEM Screens Player. Se [Arbeta med en AEM Screens Player](working-with-screens-player.md) för mer information.
 
 * **Författare/Publicera distribution (Förbättring)**
 
@@ -52,4 +52,4 @@ Följande AEM Screens-spelare finns för AEM 6.4.2 Feature Pack 2 och AEM 6.3.3 
 
 #### AEM Screens Player - nedladdningar
 
-Om du vill hämta den senaste AEM Screens-spelaren och läsa mer om felkorrigeringarna kan du läsa [AEM Screens Player - nedladdningar](https://download.macromedia.com/screens/).
+Om du vill hämta den senaste versionen av AEM Screens Player och läsa mer om felkorrigeringarna kan du läsa [AEM Screens Player - nedladdningar](https://download.macromedia.com/screens/).

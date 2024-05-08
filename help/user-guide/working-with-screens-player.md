@@ -9,7 +9,7 @@ feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: 4faac090-ad8a-4d7e-a502-6fb63f6b2761
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
 source-wordcount: '1057'
 ht-degree: 1%
@@ -48,7 +48,7 @@ Du kan konfigurera inställningar för enheten från enhetskontrollpanelen, som 
 
 Aktivera **Administratörsgränssnitt** på inställningspanelen kan användaren öppna administratörsinställningarna från skärmspelaren. Om du inaktiverar det här alternativet från enhetens kontrollpanel kan användaren inte öppna administratörsgränssnittet från spelaren.
 
-Om du vill visa administratörsgränssnittet från skärmspelaren trycker du länge på det övre vänstra hörnet för att öppna Admin-menyn, på den beröringsaktiverade AEM Screens-spelaren eller med en mus. Informationen visas när registreringen är klar och kanalerna har lästs in.
+Om du vill visa administratörsgränssnittet från skärmspelaren trycker du länge på det övre vänstra hörnet för att öppna Admin-menyn, på den beröringsaktiverade AEM Screens Player eller med en mus. Informationen visas när registreringen är klar och kanalerna har lästs in.
 
 >[!NOTE]
 >
@@ -66,11 +66,11 @@ På menyn Konfiguration kan du ändra följande inställningar:
 
 * Återställ **Firmware**, **Inställningar**, eller **Till fabrik** från den här dialogrutan.
 
-* Ange det maximala antalet loggfiler som du vill behålla för en AEM Screens-spelare i **Max. nr av loggfiler som ska behållas**.
+* Ange det maximala antalet loggfiler som du vill behålla för en AEM Screens Player i **Max. nr av loggfiler som ska behållas**.
 
 * Aktivera eller inaktivera **Admin-menyn**, **Kanalväljare** och **Aktivitetsgränssnitt** för skärmspelaren.
 
-  Om **Aktivitetsgränssnitt** är aktiverat från **Konfiguration** visas AEM Screens-spelaren *meddelanden om spelaraktivitet* i det övre högra hörnet av spelaren, vilket visas i bilden nedan.
+  Om **Aktivitetsgränssnitt** är aktiverat från **Konfiguration** visas AEM Screens Player *meddelanden om spelaraktivitet* i det övre högra hörnet av spelaren, vilket visas i bilden nedan.
 
   ![bild](/help/user-guide/assets/activity_ui.png)
 

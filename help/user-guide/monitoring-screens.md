@@ -1,6 +1,6 @@
 ---
 title: Felsökning av Device Control Center
-description: Lär dig hur du övervakar och felsöker prestanda för din AEM Screens-spelaraktivitet och enhet med hjälp av kontrollpanelen för enheter.
+description: Lär dig hur du övervakar och felsöker prestanda för din AEM Screens Player-aktivitet och enhet med hjälp av kontrollpanelen för enheter.
 contentOwner: Jyotika Syal
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
@@ -10,7 +10,7 @@ feature: Digital Signage, Content, Players
 role: Developer
 level: Intermediate
 exl-id: 57105d6d-51ff-44ca-bbf2-ae9cce8addd0
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
 source-wordcount: '777'
 ht-degree: 0%
@@ -19,11 +19,11 @@ ht-degree: 0%
 
 # Felsökning av Device Control Center {#troubleshooting-device-control-center}
 
-Du kan övervaka och felsöka prestanda för din AEM Screens-spelaraktivitet och enhet med hjälp av kontrollpanelen Enhet. Den här sidan innehåller information om hur du övervakar och felsöker upplevda prestandaproblem för skärmspelaren och de tilldelade enheterna.
+Du kan övervaka och felsöka prestanda för din aktivitet och enhet i AEM Screens Player med hjälp av enhetskonsolen. Den här sidan innehåller information om hur du övervakar och felsöker upplevda prestandaproblem för skärmspelaren och de tilldelade enheterna.
 
 ## Övervaka och felsök från Device Control Center {#monitor-and-troubleshoot-from-device-control-center}
 
-Du kan övervaka aktiviteten och därmed felsöka din AEM Screens-spelare med Device Dashboard.
+Du kan övervaka aktiviteten och därmed felsöka din AEM Screens Player med hjälp av Device Dashboard.
 
 ### Instrumentpanel för enhet {#device-dashboard}
 
@@ -49,7 +49,7 @@ Följ stegen nedan för att navigera till kontrollpanelen för enheter:
 
 ### Övervaka enhetsaktivitet {#monitor-device-activity}
 
-The **Aktivitet** På panelen visas den senaste pingen av din AEM Screens-spelare med tidsstämpeln. Den senaste pinghändelsen motsvarar den senaste gången som enheten kontaktade servern.
+The **Aktivitet** visas den senaste pingen av AEM Screens Player med tidsstämpeln. Den senaste pinghändelsen motsvarar den senaste gången som enheten kontaktade servern.
 
 ![chlimage_1](assets/chlimage_1.png)
 

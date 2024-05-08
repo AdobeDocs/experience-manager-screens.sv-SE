@@ -5,9 +5,9 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: fc210d9d-5fac-4147-849d-182ffbaf0a5e
-source-git-commit: 10c168cd00b79964d229e3d2a14049e799d89d77
+source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
-source-wordcount: '393'
+source-wordcount: '400'
 ht-degree: 0%
 
 ---
@@ -15,13 +15,13 @@ ht-degree: 0%
 # Versionsinformation för funktionspaket 202105 {#release-notes-for-feature-pack}
 
 >[!CAUTION]
->Adobe rekommenderar att du uppgraderar till den senaste versionen av Adobe Experience Manager (AEM). AEM Screens har underhållsstöd för AEM 6.3 Screens Platform.
+>Adobe rekommenderar att du uppgraderar till den senaste versionen av Adobe Experience Manager (AEM). AEM Screens har underhållsstöd för AEM 6.3 Screens.
 
 ## Tillgänglighet {#availability}
 
 AEM Screens AEM 6.5 Feature Pack 8.
 
-Du kan ladda ned det senaste funktionspaketet för AEM Screens 6.5.8 från [Programdistributionsportal](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) med din Adobe ID. Navigera till **Adobe Experience Manager** flik och sök efter **Skärmar** för att få det senaste funktionspaketet med namnet **AEM 6.5 skärmar FP8**.
+Du kan ladda ned senaste funktionspaketet för AEM Screens 6.5.8 från [Programdistributionsportal](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) med din Adobe ID. Navigera till **Adobe Experience Manager** flik och sök efter **Skärmar** för att få det senaste funktionspaketet med namnet **AEM 6.5 skärmar FP8**.
 
 >[!IMPORTANT]
 >Installera den lägsta versionen av AEM 6.5 Feature Pack 8 för AMS-anslutningen som ska fungera när du har installerat paketen `screens-cloud-ams-pkg-0.0.20`, `screens-cloud-ams-pkg-0.0.16`och `screens core bundles`.
@@ -34,7 +34,7 @@ Releasedatum för AEM Screens Feature Pack 202105 är 4 juni 2021.
 
 * **Låsa sida i en AEM Screens-kanal**
 
-  AEM Screens stöder nu *Låsa en sida*, som redan har implementerats i AEM Sites. Med Adobe Experience Manager (AEM) kan du låsa en sida så att ingen annan kan ändra innehållet. Detta är användbart när du gör flera ändringar på en viss sida eller när du måste frysa en sida en kort stund.
+  AEM Screens stöder nu *Låsa en sida*, som redan har implementerats i AEM Sites. Med Adobe Experience Manager (AEM) kan du låsa en sida så att ingen annan kan redigera innehållet. Den här funktionen är användbar när du gör flera ändringar på en viss sida eller när du måste frysa en sida en kort stund.
 
 * **Namnge AEM Screens Player-enhet**
 
@@ -54,8 +54,8 @@ När gruppregistrering används som standard för att registrera en enhet anges 
 
 ### Felkorrigeringar {#bug-fixes}
 
-* Spelaren visade en svart skärm vid växling till kanal som innehåller dynamisk inbäddad sekvens.
-* Skärmspelarna blockerar nu bytet till en trasig kanal som ytterligare undviker 404-fel eller en sida med ett felmeddelande.
+* Spelaren visade en svart skärm vid växling till en kanal som innehåller en dynamisk inbäddad sekvens.
+* Skärmspelarna blockerar nu bytet till en trasig kanal som ytterligare undviker ett 404-fel eller en sida med ett felmeddelande.
 
 ### Släppta AEM Screens-spelare
 
@@ -69,4 +69,4 @@ Följande AEM Screens-spelare finns för AEM 6.5 Feature Pack 8:
 
 #### AEM Screens Player - nedladdningar
 
-Om du vill hämta den senaste AEM Screens-spelaren och läsa mer om felkorrigeringarna kan du läsa **[AEM Screens Player - nedladdningar](https://download.macromedia.com/screens/index.html)**.
+Om du vill hämta den senaste versionen av AEM Screens Player och läsa mer om felkorrigeringarna kan du läsa **[AEM Screens Player - nedladdningar](https://download.macromedia.com/screens/index.html)**.

@@ -1,13 +1,13 @@
 ---
 title: Versionsinformation för skärmar, funktionspaket 202401
-description: Läs om AEM Screens Feature Pack 202401 släppt den 2 januari 2024.
+description: Läs mer om AEM Screens Feature Pack 202401 släppt den 2 januari 2024.
 feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: 9879f339-e70f-446d-acd3-380016269f27
-source-git-commit: 10c168cd00b79964d229e3d2a14049e799d89d77
+source-git-commit: fe4f7d593ccea91f6109a0c759aea3faa37ae471
 workflow-type: tm+mt
-source-wordcount: '220'
+source-wordcount: '221'
 ht-degree: 0%
 
 ---
@@ -15,13 +15,13 @@ ht-degree: 0%
 # Versionsinformation för funktionspaket 202401 {#release-notes-for-screens-feature-pack}
 
 >[!CAUTION]
->Adobe rekommenderar att du uppgraderar till den senaste versionen av 6.5 Adobe Experience Manager (AEM 6.5). Hämta den senaste versionsinformationen från [här](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/release-notes/release-notes)
+>Adobe rekommenderar att du uppgraderar till den senaste versionen av 6.5 Adobe Experience Manager (AEM 6.5). Hämta den senaste versionsinformationen från [här](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/release-notes/release-notes).
 
 ## Tillgänglighet {#availability}
 
-AEM Screens har släppt AEM 6.5 Feature Pack 11.1.
+AEM Screens AEM 6.5 Feature Pack 11.1.
 
-Du kan ladda ned den senaste funktionspaketet för AEM Screens 6.5.11.1 från [Programdistributionsportal](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) med din Adobe ID. Navigera till **Adobe Experience Manager** flik och sök efter **Skärmar** för att få det senaste funktionspaketet med namnet **AEM 6.5 skärmar FP11.1**.
+Du kan hämta den senaste versionen av funktionspaketet för AEM Screens 6.5.11.1 från [Programdistributionsportal](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) med din Adobe ID. Navigera till **Adobe Experience Manager** flik och sök efter **Skärmar** för att få det senaste funktionspaketet med namnet **AEM 6.5 skärmar FP11.1**.
 
 ## Releasedatum {#release-date}
 

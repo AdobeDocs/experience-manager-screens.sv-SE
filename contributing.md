@@ -1,13 +1,13 @@
 ---
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: fe4f7d593ccea91f6109a0c759aea3faa37ae471
 workflow-type: tm+mt
-source-wordcount: '508'
+source-wordcount: '500'
 ht-degree: 0%
 
 ---
 # Bidra till Adobe Experience Manager Screens Documentation
 
-Tack för att du väljer att delta i Adobe Experience Manager Screens-dokumentationen! Vi välkomnar bidrag till innehåll från hela vår läsarcommunity och från medarbetare i Adobe.
+Tack för att du väljer att delta i Adobe Experience Manager Screens-dokumentationen! Adobe välkomnar bidrag från hela läsarcommunityn och från medarbetare i Adobe.
 
 I den här filen beskrivs hur du kan bidra samt vilka riktlinjer du ska följa när du gör dina bidrag.
 
@@ -17,11 +17,11 @@ Detta projekt har antagit [Adobe uppförandekod med öppen källkod](code-of-con
 
 ## Riktlinjer för bidrag
 
-Vi välkomnar alla bidrag för att förbättra AEM dokumentation, men vi kräver att bidragen följer vissa riktlinjer och standarder där det är möjligt. Granska [Riktlinjer för att bidra till AEM dokumentation](guidelines.md) för mer information.
+Adobe välkomnar alla bidrag för att förbättra AEM dokumentation, men se till att bidragen följer vissa riktlinjer och standarder där det är möjligt. Granska [Riktlinjer för att bidra till AEM dokumentation](guidelines.md) för mer information.
 
 ## Använda Contribute
 
-Vi vill göra det så enkelt som möjligt att lämna in dina bidrag. Du kan bidra på två sätt:
+Adobe vill göra det så enkelt som möjligt att lämna in dina bidrag. Du kan bidra på två sätt:
 
 * [Skapa ett problem](#create-an-issue)
 * [Skapa en pull-begäran](#create-a-pull-request)
@@ -36,13 +36,13 @@ Vilken metod du väljer beror på hur bekväm du själv redigerar dokumentatione
 
 Har du ett förslag, synpunkter på aktuella dokument eller frågor om hur något beskrivs? Skapa sedan ett problem. Problem är också bra om du har något att bidra med, men inte känner dig bekväm med att redigera dokumenten eller göra en pull-förfrågan själv.
 
-Med hjälp av olika problem kan du enkelt beskriva din idé om hur du kan förbättra dokumenten, och en AEM Docs Team-medlem kan granska den. Klicka **Logga ett problem** längst upp på den högra navigeringspanelen på en sida för att skapa ett problem.
+Du kan enkelt beskriva din idé om förbättringar i dokumenten och en AEM Docs Team-medlem kan granska den. Klicka **Logga ett problem** längst upp på den högra navigeringspanelen på en sida för att skapa ett problem.
 
 ### Skapa en pull-begäran {#create-a-pull-request}
 
-Om du ser ett problem och vet exakt hur du löser det kan du skapa en pull-begäran. Dragningsbegäranden gör att du kan göra egna ändringar i dokumentationen, som sedan granskas för att inkluderas av en AEM Docs Team-medlem. Klicka **Redigera den här sidan** längst upp på den högra navigeringspanelen på en sida för att göra de föreslagna ändringarna och skapa pull-begäran.
+Om du ser ett problem och vet exakt hur du löser det kan du skapa en pull-begäran. Med pull-begäranden kan du göra egna ändringar i dokumentationen. En AEM Docs Team-medlem granskar ändringarna för att lägga in dem. Klicka **Redigera den här sidan** längst upp på den högra navigeringspanelen på en sida för att göra de föreslagna ändringarna och skapa pull-begäran.
 
-Alla pull-begäranden måste åtföljas av en signerad [licensavtal för medverkande eller CLA.](https://opensource.adobe.com/cla.html)  Detta ger Adobe tillstånd att återdistribuera dina bidrag som en del av projektet. Du behöver bara skicka ett Adobe CLA en gång, så om du har skickat ett tidigare är du redo att gå!
+Alla pull-begäranden måste ha en [licensavtal eller CLA](https://opensource.adobe.com/cla.html) som är signerad. CLA ger Adobe tillstånd att återdistribuera dina bidrag som en del av projektet. Du behöver bara skicka ett Adobe CLA en gång, så om du har skickat ett tidigare är du redo att gå!
 
 ### Introduktion till snabbvideo
 
@@ -54,8 +54,8 @@ Titta på följande video för att få en snabb översikt över hur du skapar pr
 
 Om du är anställd i Adobe och har ett bidrag använder du `AdobeDocs` i företagsgit.
 
-Vi är naturligtvis glada över eventuella bidrag och kommer att granska ditt bidrag om det görs i den offentliga databasen, men ansökningar från medarbetarna i Adobe är enklare att behandla och kan godkännas snabbare i företagsrapporten. Se till att all företagsinformation bara behandlas i företagets rapport.
+Adobe är nöjd med ditt bidrag och granskar ditt bidrag om det görs på den offentliga databasen. Det är dock enklare att behandla förfrågningar från anställda på Adobe och de kan godkännas snabbare i företagets rapport. Se till att all företagsinformation bara behandlas i företagets rapport.
 
 ## Ytterligare information
 
-Se [Adobe Docs Contributor Guide](https://docs.adobe.com/help/en/contributor/contributor-guide/introduction.html) om du vill ha mer information om hur du använder utvecklingsplattformen GitHub.
+Se [Adobe Docs Contributor Guide](https://experienceleague.adobe.com/en/docs/contributor/contributor-guide/introduction) om du vill ha mer information om hur du använder utvecklingsplattformen GitHub.

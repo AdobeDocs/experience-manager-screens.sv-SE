@@ -1,13 +1,13 @@
 ---
 title: Versionsinformation för funktionspaket 2008
-description: Läs mer om AEM Screens Feature Pack 2008 som släpptes den 3 september 2020.
+description: Läs mer om AEM Screens Feature Pack 2008 som släpptes 3 september 2020.
 feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: bd466576-a6d3-494c-82e5-c5326b6e0aca
-source-git-commit: 10c168cd00b79964d229e3d2a14049e799d89d77
+source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
-source-wordcount: '338'
+source-wordcount: '342'
 ht-degree: 0%
 
 ---
@@ -16,13 +16,13 @@ ht-degree: 0%
 
 >[!CAUTION]
 >
->Adobe rekommenderar att du uppgraderar till den senaste versionen av Adobe Experience Manager (AEM). AEM Screens har underhållsstöd för AEM 6.3 Screens Platform.
+>Adobe rekommenderar att du uppgraderar till den senaste versionen av Adobe Experience Manager (AEM). AEM Screens har underhållsstöd för AEM 6.3 Screens.
 
 ## Tillgänglighet {#availability}
 
 AEM Screens AEM 6.5 Feature Pack 5.
 
-Du kan ladda ned det senaste funktionspaketet för AEM Screens 6.5.5 från [Programdistributionsportal](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) med din Adobe ID. Navigera till **Adobe Experience Manager** flik och sök efter **Skärmar** för att få det senaste funktionspaketet.
+Du kan ladda ned senaste funktionspaketet för AEM Screens 6.5.5 från [Programdistributionsportal](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) med din Adobe ID. Navigera till **Adobe Experience Manager** flik och sök efter **Skärmar** för att få det senaste funktionspaketet.
 
 ## Releasedatum {#release-date}
 
@@ -38,7 +38,7 @@ Releasedatum för AEM Screens Feature Pack 2008 är 3 september 2020.
 
 * **Återkommande schema**
 
-  Med upprepningsschemat kan du ange ett återkommande schema för din kanal. Du ställer in flera upprepningsscheman för en kanal.
+  Med upprepningsschemat kan du ange ett återkommande schema för din kanal. Du kan ställa in flera upprepningsscheman för en kanal.
 
   Se [Återkommande schema](/help/user-guide/channel-assignment-latest-fp.md#recurrence-schedule) för mer information.
 
@@ -70,4 +70,4 @@ Följande AEM Screens-spelare släpps för AEM Screens som släpps AEM 6.5 Featu
 
 #### AEM Screens Player - nedladdningar
 
-Om du vill hämta den senaste AEM Screens-spelaren och läsa mer om felkorrigeringarna kan du läsa **[AEM Screens Player - nedladdningar](https://download.macromedia.com/screens/index.html)**.
+Om du vill hämta den senaste versionen av AEM Screens Player och läsa mer om felkorrigeringarna kan du läsa **[AEM Screens Player - nedladdningar](https://download.macromedia.com/screens/index.html)**.

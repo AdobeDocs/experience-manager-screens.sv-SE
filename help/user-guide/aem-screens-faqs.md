@@ -5,9 +5,9 @@ feature: Digital Signage, Content
 role: Developer
 level: Intermediate
 exl-id: 67204f04-5535-407c-bd4d-fabfbf850411
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
-source-wordcount: '2118'
+source-wordcount: '2130'
 ht-degree: 0%
 
 ---
@@ -19,13 +19,13 @@ I det här avsnittet finns svar på vanliga frågor och svar om ett AEM Screens-
 ## Problem med tom skärm {#blank-screen}
 
 >[!NOTE]
->De obligatoriska kontroller som ska provas av primär support eller support på kundsidan innan ett problem uppstår.
+>De obligatoriska kontroller som anges ovan gör att den primära supporten eller kundsupporten bör försöka innan ett problem uppstår.
 
 ### 1. Vilka är de första felsökningsstegen för att hitta kunder som ser en svart skärm eller som inte spelar upp innehåll? {#troubleshooting-blank-screen}
 
 * Kontrollera om kanalförhandsgranskningen fungerar.
 * Kontrollera om förhandsvisningen fungerar
-* Prova att registrera spelaren som ett webbläsartillägg på datorn på samma skärm och kontrollera om det fungerar.
+* Prova att registrera spelaren som ett webbläsartillägg på datorn på samma skärm och kontrollera om den fungerar.
 * När spelaren körs på datorn går du till `http://localhost:24502`. Kontrollera om allt innehåll har laddats ned korrekt.
 * Kontrollera resurserna så att du kan kontrollera att rätt återgivningar skapas och att rätt återgivning spelas upp.
 * Kontrollera om det finns schemalagt innehåll och om tiderna är korrekta. Kontrollera om tiden som är inställd i spelaren är korrekt.
@@ -33,7 +33,7 @@ I det här avsnittet finns svar på vanliga frågor och svar om ett AEM Screens-
 
 ### 2. Hur löser jag problem med gråskärm i AEM Screens genom att skapa en standardkanal eller ett schema?
 
-För att undvika tomma eller grå skärmar i fältet skapar du en global standardkanal eller ett standardschema som tilldelas alla skärmar med lägst prioritet 1. Om något blir fel med innehållsuppdateringar (på grund av nätverk, spelare, server eller replikering), eftersom spelarna redan har det här innehållet cachelagrat på disken som ska spelas upp och de grå skärmarna ska undvikas.
+För att undvika tomma eller grå skärmar i fältet skapar du en global standardkanal eller ett standardschema som tilldelas alla skärmar med lägst prioritet 1. Om något skulle gå fel med innehållsuppdateringar eftersom spelarna redan har det här innehållet cachelagrat på skivan. Den ska spelas upp som den ska och de grå skärmarna ska undvikas.
 
 Allt annat innehåll, t.ex. kanaler eller scheman, prioriteten är större än 1, så det andra innehållet får prioritet och globalt kanalinnehåll eller schemaläggningsinnehåll (med prioritet 1) spelas endast upp som ett alternativ för återfall.
 
@@ -62,11 +62,11 @@ För *dynamiska referenser*, inträffar upplösningen när kanalen har tilldelat
 1. Visningens överordnade plats har en underordnad nod som matchar det refererade kanalnamnet
 1. Den överordnade platsen för visningen har en underordnad nod som matchar det refererade kanalnamnet
 
-Så vidare, tills du når platsmappen och stannar där just nu (så du kan inte referera till en kanal som till exempel finns i kanalmappen, är det bara kanaler i platsens underträd).
+Och så vidare, tills du når platsmappen. Stoppa där för tillfället (så du kan inte referera till en kanal som skulle finnas i kanalmappen, till exempel, bara kanaler i platsunderträdet).
 
 ### 5. Hur konfigurerar jag en anpassad klientlib offline i AEM Screens Channel?
 
-När du använder en anpassad klientkod `clientlib` i en AEM Screens-kanal måste du följa de här stegen för att säkerställa att `clientlib` -filerna har lästs in i kanalen (`manifest.json`) och innehåller sökvägen till `clientlib`.
+När du använder en anpassad klientkod `clientlib` i en AEM Screens-kanal krävs följande steg. Stegen ser till att `clientlib` -filerna har lästs in i kanalen (`manifest.json`) och innehåller sökvägen till `clientlib`.
 
 Följ stegen nedan i kanalredigeraren:
 
@@ -77,25 +77,25 @@ Följ stegen nedan i kanalredigeraren:
 
 ## Enhetsregistrering {#device-registration}
 
-### 1. Om jag upptäcker slutpunkter som begäran om registrering och registrering av enheter kan jag skripta många enheter och registrera dessa enheter. Är det möjligt att skydda dessa förfrågningar förutom att låsa detta till en gren-Wi-Fi? {#if-i-discover-endpoints-such-as-requests-for-device-onboarding-and-registration-i-can-script-a-large-number-of-devices-and-register-these-devices-besides-locking-this-to-a-branch-wi-fi-is-it-possible-to-secure-these-requests}
+### 1. Om jag upptäcker slutpunkter som begäran om registrering och registrering av enheter kan jag skripta många enheter och registrera dessa enheter. Är det möjligt att skydda dessa förfrågningar förutom att låsa dem till en gren-Wi-Fi? {#if-i-discover-endpoints-such-as-requests-for-device-onboarding-and-registration-i-can-script-a-large-number-of-devices-and-register-these-devices-besides-locking-this-to-a-branch-wi-fi-is-it-possible-to-secure-these-requests}
 
 Registrering är för närvarande bara möjligt på författarinstansen. Registreringstjänsten är inte autentiserad, men skapar bara en väntande enhet i AEM och registrerar inte enheten eller tilldelar någon skärm.
 
-Om du vill registrera en enhet (skapa en användare för enheten i AEM) autentiserar du AEM och följer för närvarande registreringsguiden manuellt för att slutföra registreringen. Teoretiskt sett kan en oärlig användare skapa flera väntande enheter, men kan inte registrera några utan en AEM inloggning.
+Om du vill registrera en enhet (skapa en användare för enheten i AEM) autentiserar du AEM och följer registreringsguiden manuellt för att slutföra registreringen. Teoretiskt sett kan en oärlig användare skapa flera väntande enheter, men kan inte registrera några om de inte har någon AEM inloggning.
 
 ### 2. Finns det något sätt att omvandla HTTP GET-begäranden till HTTP-POST med någon form av autentisering? {#is-there-a-way-to-transform-http-get-requests-into-http-post-with-some-form-of-authentication}
 
 Registreringsbegäran är en begäran om POST.
 
-Vi rekommenderar att du hämtar enhets-ID från sessionen i stället för att skicka som parameter. Detta rensar serverloggarna, webbläsarcachen och så vidare. Det är inte ett säkerhetsproblem. Semantiskt. GET används när ingen lägesändring görs på servern och POST används när en lägesändring görs.
+Vi rekommenderar att du hämtar enhets-ID från sessionen i stället för att skicka det som en parameter. Om du gör det rensas serverloggarna, webbläsarcachen och så vidare. Det är inte ett säkerhetsproblem. Semantiskt. GET används när ingen lägesändring görs på servern och POST används när en lägesändring görs.
 
 ### 3. Finns det något sätt att neka en enhetsregistreringsbegäran? {#is-there-a-way-to-decline-a-device-registration-request}
 
-Du kan inte avböja registreringsbegäran. I stället bör registreringsförfrågningar upphöra att gälla efter en timeout som har konfigurerats i `Adobe Experience Manager Web Console`. Som standard är det här värdet inställt på en dag och lagras i en minnescache.
+Du kan inte avböja registreringsbegäran. I stället bör registreringsbegäran upphöra att gälla efter en timeout som har konfigurerats i `Adobe Experience Manager Web Console`. Som standard är det här värdet inställt på en dag och lagras i en minnescache.
 
 ## Enhetsövervakning och hälsorapporter {#device-monitoring-and-health-reports}
 
-### 1. Hur felsöker jag om min AEM Screens-spelare visas på en tom skärm?
+### 1. Hur felsöker jag om min AEM Screens Player visar en tom skärm?
 
 Kontrollera om det finns följande möjligheter att felsöka det tomma skärmproblemet:
 
@@ -103,15 +103,15 @@ Kontrollera om det finns följande möjligheter att felsöka det tomma skärmpro
 * Kanalen har inget innehåll
 * Ingen resurs är schemalagd att visas vid den aktuella tidpunkten
 
-### 2. Vad gör jag om AEM Screens-spelaren inte kan registrera sig och läget visas som Fel?
+### 2. Vad gör jag om AEM Screens Player inte kan registrera sig och dess status visas som Fel?
 
-Aktivera filtret Apache Sling Referrer Tillåt tomt. Detta krävs för att kontrollprotokollet mellan AEM Screens Player och AEM Screens-servern ska fungera optimalt.
+Aktivera filtret Apache Sling Referrer Tillåt tomt. Krävs för att kontrollprotokollet mellan AEM Screens Player och AEM Screens-servern ska fungera optimalt.
 
 1. Navigera till **Konfiguration av Adobe Experience Manager Web Console**
 1. Kontrollera **allow.empty** alternativ.
 1. Klicka **Spara**.
 
-### 3. Hur felsöker man om fel uppstår när en AEM Screens-spelare registreras och när konsolloggarna visas ett ENAME_NOT_FOUND-fel?
+### 3. Hur felsöker man om enheten uppvisar fel när en AEM Screens Player registreras och konsolloggarna visar ett ENAME_NOT_FOUND-fel?
 
 Detta kan inträffa om spelaren inte kan hitta DNS-servern för AEM Screens. Du kan försöka använda IP-adressen för att ansluta. Använd följande för att hämta serverns IP-adress: *arp &lt;server_dns_name>*.
 
@@ -129,22 +129,22 @@ Mer information om var du kan övervaka enhetsaktivitet finns i [**Tjänsten AEM
 
 ## AEM Screens Player
 
-### 1. Hur installerar jag ChromeOS-spelaren som Chrome Browser Plugin? {#how-to-install-chromeos-player-as-chrome-browser-plugin}
+### 1. Hur installerar jag ChromeOS-spelaren som Chrome-plugin? {#how-to-install-chromeos-player-as-chrome-browser-plugin}
 
-ChromeOS-spelaren kan installeras som Chrome Browser-plugin i utvecklarläge utan att den faktiska enheten för Chrome Player krävs. För installation, följ stegen nedan:
+ChromeOS-spelaren kan installeras som ett Chrome-plugin-program för webbläsare i utvecklarläge utan att det krävs en faktisk Chrome Player-enhet. För installation, följ stegen nedan:
 
 1. Klicka [här](https://download.macromedia.com/screens/) för att ladda ned den senaste Chrome Player.
 1. Zippa upp och spara det på disken.
-1. Öppna Chrome-webbläsaren och klicka på **Tillägg** från menyn eller direkt navigera till ***chrome://extensions***.
+1. Öppna webbläsaren Chrome och klicka på **Tillägg** från menyn eller direkt navigera till ***chrome://extensions***.
 1. Aktivera **Utvecklarläge** från det övre högra hörnet.
 1. Klicka **Läs in opackad** från det övre vänstra hörnet och läsa in uppzippad Chrome Player.
-1. Kontrollera om det finns i listan över tillägg **AEM Screens Chrome Player** plugin-program.
+1. Om det finns i listan över tillägg kontrollerar du **AEM Screens Chrome Player** plugin-program.
 1. Öppna en ny flik och klicka på **Appar** ikonen i det övre vänstra hörnet eller navigera direkt till ***chrome://apps***.
 1. Klicka på **AEM Screens** Plugin. Som standard startas spelaren i helskärmsläge. Tryck **Esc** för att avsluta helskärmsläget.
 
 ### 2. Hur felsöker jag om skärmspelaren inte kan autentisera via en publiceringsinstans med en anpassad felhanterare?
 
-När AEM Screens-spelaren startas begär den att ***/content/screens/svc.ping.json***, när spelaren får ett 404-fel. Spelaren initierar en autentiseringsbegäran att autentisera mot publiceringsinstansen. Om det finns en anpassad felhanterare i en publiceringsinstans måste du returnera 404-statuskoden för anonym användare på ***/content/screens/svc.ping.json***.
+När AEM Screens Player startas begär programmet att ***/content/screens/svc.ping.json***, när spelaren får ett 404-fel. Spelaren initierar en autentiseringsbegäran att autentisera mot publiceringsinstansen. Om det finns en anpassad felhanterare i publiceringsinstansen måste du returnera 404-statuskoden för en anonym användare på ***/content/screens/svc.ping.json***.
 
 ### 3. Hur du aktiverar enhetsskärmen i en Android™-spelare? {#how-to-set-the-device-screen-stay-on-in-an-android-player}
 
@@ -157,13 +157,13 @@ Följ stegen nedan för att aktivera Fortsätt vara aktiv i alla Android™-spel
 
 ### 4. Hur aktiverar jag fönsterläge för Windows Player?{#enable-player}
 
-Det finns inget fönsterläge i Windows Player. Det är alltid helskärmsläge.
+Det finns inget fönsterläge i Windows Player. Det är alltid i helskärmsläge.
 
-### 5. Hur felsöker jag om en AEM Screens-spelare kontinuerligt skickar inloggningsförfrågningar?
+### 5. Hur felsöker jag om en AEM Screens Player skickar inloggningsförfrågningar?
 
-Följ stegen nedan för att felsöka en AEM Screens-spelare som kontinuerligt skickar begäranden till `/content/screens/svc.json` och `/libs/granite/core/content/login.validate/j_security_check`:
+Följ stegen nedan för att felsöka en AEM Screens Player som kontinuerligt skickar begäranden till `/content/screens/svc.json` och `/libs/granite/core/content/login.validate/j_security_check`:
 
-1. När AEM Screens Player startas begär den att `/content/screens/svc.json`. När spelaren får en 404-statuskod i svaret initierar den en autentiseringsbegäran genom att använda `/libs/granite/core/content/login.validate/j_security_check` mot *publicera* -instans. Om det finns en anpassad felhanterare i *publicera* ska du se till att returnera 404-statuskoden för anonym användare på `/content/screens/svc.json` eller `/content/screens/svc.ping.json`.
+1. När AEM Screens Player startas begär programmet att `/content/screens/svc.json`. När spelaren får en 404-statuskod i svaret initierar den en autentiseringsbegäran genom att använda `/libs/granite/core/content/login.validate/j_security_check` mot *publicera* -instans. Om det finns en anpassad felhanterare i *publicera* ska du se till att returnera 404-statuskoden för anonym användare på `/content/screens/svc.json` eller `/content/screens/svc.ping.json`.
 
 1. Kontrollera om Dispatcher-konfigurationen tillåter dessa förfrågningar i `/filters`.
 
@@ -209,7 +209,7 @@ Inaktivera Livefyre för att undvika loggfel genom att göra följande.
 
    * I CRXDE Lite går du till `/etc/importers/polling/livefyre-poller/jcr:content`.
    * Lägg till en egenskap *aktiverad* type *Boolean*.
-   * Ange **enabled, egenskap** till **false**.
+   * Ange **Aktiverad egenskap** att **false**.
 
 ### 2. Hur lägger jag till information om Oak Index? {#add-oak-index-info}
 
@@ -241,7 +241,7 @@ Se [Mall för anpassade hanterare](https://experienceleague.adobe.com/en/docs/ex
 
 ### 4. Vad ska du göra om, efter paketet screens-cloud-ams-pkg-0.0.20, screens-cloud-ams-pkg-0.0.16 och skärmens kärnpaket är installerade men inte aktiva?
 
-Installera minst AEM 6.5 Feature Pack 8 för att AMS-anslutningen ska fungera. Se [Tillgänglighet](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/release-notes/release-notes-fp-202105#availability) så att du får den lägsta versionen av AEM Screens funktionspaket.
+Installera minst AEM 6.5 Feature Pack 8 för att AMS-anslutningen ska fungera. Se [Tillgänglighet](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/release-notes/release-notes-fp-202105#availability) så att du får den lägsta versionen av AEM Screens Feature Pack.
 
 ### 5. Hur konfigurerar jag CQ Link Externalizer-tjänsten i skärmar?
 

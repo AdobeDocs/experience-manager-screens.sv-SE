@@ -6,7 +6,7 @@ feature: Authoring Screens, Channels
 role: Admin, Developer
 level: Intermediate
 exl-id: 51a63429-2488-45be-b8f5-cb755ca69c7f
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
 source-wordcount: '1769'
 ht-degree: 0%
@@ -141,7 +141,7 @@ Följ stegen nedan för att implementera funktionen:
 
 ## Visa resultaten {#viewing-the-results}
 
-När du har konfigurerat kanalerna och visningen är klar startar du AEM Screens-spelaren för att visa innehållet.
+När du har konfigurerat kanalerna och visningen är klar startar du AEM Screens Player för att visa innehållet.
 
 Spelaren visar innehållet i **MainAdChannel** och exakt klockan 11:59 (enligt schemat), **TargetedSinglePlay** -kanalen visar innehållet till kl. 12.05 och sedan **MainAdChannel** fortsätter att spela upp innehållet igen.
 

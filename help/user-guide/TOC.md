@@ -8,7 +8,7 @@ user-guide-description: Lär dig använda en lösning för digital signering som
 feature-set: Experience Manager Screens
 feature: Content
 role: User
-source-git-commit: 1e8beb9dfaf579250138d4a41eeec88cc81f2d39
+source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
 source-wordcount: '518'
 ht-degree: 5%
@@ -56,7 +56,7 @@ ht-degree: 5%
    + Analysintegrering med AEM Screens {#analytics-integration}
       + [Adobe Analytics Integration](adobe-analytics-integration-aem-screens.md)
       + [Konfigurera Adobe Analytics med AEM Screens](configuring-adobe-analytics-aem-screens.md)
-+ Exempel på redigerings- och användningsfall {#authoring}
++ Exempel på redigerings- och användningsexempel {#authoring}
    + Konfigurera ett skärmsprojekt {#setting-up-projects}
       + [Skapa och hantera projekt](creating-a-screens-project.md)
       + [Skapa och hantera kanaler](managing-channels.md)
@@ -92,7 +92,7 @@ ht-degree: 5%
       + [On Demand Content Update](on-demand-content.md)
       + [Uppdatering av innehållet som en tjänst](content-update-as-a-service.md)
       + [Content Update using Screens Launch](launches.md)
-   + Exempel på användningsfall {#use-case-examples}
+   + Använd exempel på exempel {#use-case-examples}
       + [Nödkanaler](emergency-channel.md)
       + [Temperaturaktivering i resecentret](local-temperature-activation.md)
       + [Aktivering av hotellreservation](hospitality-reservation-activation.md)

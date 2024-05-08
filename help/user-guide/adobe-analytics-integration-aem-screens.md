@@ -1,6 +1,6 @@
 ---
 title: Adobe Analytics Integration med AEM Screens
-description: Läs mer om hur du kan integrera AEM Screens med Adobe Analytics och få ett spelbevis.
+description: Lär dig mer om hur AEM Screens är integrerat med Adobe Analytics och ger dig ett spelbevis.
 contentOwner: jsyal
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
@@ -10,9 +10,9 @@ feature: Administering Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 92c8c42b-7c1e-4d4a-8662-18c99666e9c6
-source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
+source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
-source-wordcount: '674'
+source-wordcount: '672'
 ht-degree: 0%
 
 ---
@@ -21,11 +21,11 @@ ht-degree: 0%
 
 >[!CAUTION]
 >
->Den här AEM Screens-funktionen är endast tillgänglig om du har installerat minimiversionen av AEM 6.4.2 Feature Pack 2 eller AEM 6.3.3 Feature Pack 4. För molntjänstkunder som använder AEM Screens kontaktar du Adobe Relationship Manager för att aktivera Adobe Analytics i Creative Cloud.
+>Den här AEM Screens-funktionen är endast tillgänglig om du har installerat minimiversionen av AEM 6.4.2 Feature Pack 2 eller AEM 6.3.3 Feature Pack 4. För kunder som har AEM Screens Cloud-tjänster kontaktar du Adobe Relationship Manager för att aktivera Adobe Analytics i Creative Cloud.
 
 >[!NOTE]
 >
->Om du vill få tillgång till något av dessa funktionspaket kontaktar du Adobe Support och begär åtkomst. Du kan hämta det senaste funktionspaketet för AEM Screens från [Programdistributionsportal](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) med din Adobe ID.
+>Om du vill få tillgång till något av dessa funktionspaket kontaktar du Adobe Support och begär åtkomst. Du kan ladda ned det senaste funktionspaketet för AEM Screens från [Programdistributionsportal](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) med din Adobe ID.
 
 Detta avsnitt behandlar följande ämnen:
 
@@ -45,8 +45,8 @@ I det här avsnittet beskrivs följande funktioner som används för att ansluta
 * Tillåter granskning av uppspelningsrapportering efter tillgång
 * Ser till att alla spelarhändelser hämtas och tidsstämplas
 * Ser till att alla spelarhändelser lagras lokalt om uppspelningen inte är ansluten till ett nätverk
-* Gör det möjligt att skapa feedbackslingor som spårar uppspelningshändelser över tid
-* Tillåter systemet att ändra innehåll och layouter baserat på kriterier som innehållets författare har definierat
+* Det går att skapa feedbackslingor som spårar uppspelningshändelser över tiden
+* Innebär att systemet kan redigera innehåll och layouter baserat på kriterier för lyckade resultat som definierats av innehållsförfattaren
 
 Adobe Analytics Integration med AEM Screens har alltså följande begränsningar *mål*:
 
@@ -55,7 +55,7 @@ Adobe Analytics Integration med AEM Screens har alltså följande begränsningar
 
 ## Arkitekturinformation {#architectural-details}
 
-En AEM Screens-kund vill förstå vilket innehåll som visades vid vilken tidpunkt och hur länge (aggregerat). Detta är en vanlig funktion för signeringslösning. I stället för att bygga ett separat analysprogram använder AEM Screens Adobe Analytics. Med kombinationen kan vi uppnå något unikt på marknaden - flerkanalsanalyser som hjälper oss att korrelera innehåll som visas på plats med andra datakällor.
+En AEM Screens-kund vill förstå vilket innehåll som visades vid vilken tidpunkt och hur länge (aggregerat). Denna nödvändighet är en gemensam funktion i en signeringslösning. I stället för att bygga ett separat analysprogram använder AEM Screens Adobe Analytics. Med kombinationen kan vi uppnå något unikt på marknaden - flerkanalsanalyser som hjälper oss att korrelera innehåll som visas på plats med andra datakällor.
 
 I följande diagram förklaras Adobe Analytics Integration med AEM Screens:
 
@@ -119,7 +119,7 @@ I följande tabell visas egenskaperna med en beskrivning av hur du konfigurerar 
 
 #### Använda Adobe Analytics-tjänsten i AEM Screens {#using-adobe-analytics-service-in-aem-screens}
 
-Detta scenario anropar Analytics API via REST-anrop från en analystjänst i den inbyggda programvaran. Den AEM också skärmar-kärnkomponenter för att explicit skapa och skicka händelser som är specifika för ett visst användningsfall. Allt detta samtidigt som man tillåter utbyggbarhet där det går att skicka anpassade meddelanden till Analytics från en anpassad kanal.
+Detta scenario anropar Analytics API via REST-anrop från en analystjänst i den inbyggda programvaran. Den AEM också skärmar-kärnkomponenter för att skapa och skicka händelser som är specifika för ett visst användningsfall. All den här funktionaliteten samtidigt som den tillåter utbyggbarhet där anpassade meddelanden kan skickas till Analytics från en anpassad kanal.
 
 Analyshändelser lagras offline i indexedDB och sedan i chunked-läge och skickas till molnet.
 

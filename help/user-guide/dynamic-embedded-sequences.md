@@ -9,7 +9,7 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 3208d058-0812-44e1-83e3-b727b384876a
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
 source-wordcount: '2426'
 ht-degree: 0%
@@ -251,13 +251,13 @@ Följ stegen nedan för att implementera funktionen:
 
 ## Visa resultaten {#viewing-the-results}
 
-När du har konfigurerat kanalerna och visningen är klar startar du AEM Screens-spelaren för att visa innehållet.
+När du har konfigurerat kanalerna och visningen är klar startar du AEM Screens Player för att visa innehållet.
 
 >[!NOTE]
 >
 >Mer information om AEM Screens Player finns i följande resurser:
 >
->* [Ladda ned AEM Screens Player](https://download.macromedia.com/screens/)
+>* [Hämta AEM Screens Player](https://download.macromedia.com/screens/)
 >* [Arbeta med AEM Screens Player](working-with-screens-player.md)
 
 
@@ -265,13 +265,13 @@ Följande utdata bekräftar ditt kanalinnehåll i AEM Screens Player, beroende p
 
 **Scenario 1**:
 
-Om du tilldelar visningssökvägen som **Demo** > **Platser** > **Region A** > **Butik 1** > **`Store1Display`** visas följande innehåll på din AEM Screens-spelare.
+Om du tilldelar visningssökvägen som **Demo** > **Platser** > **Region A** > **Butik 1** > **`Store1Display`** visas följande innehåll i din AEM Screens Player.
 
 ![channelDisplay1](assets/channeldisplay1.gif)
 
 **Scenario 1**:
 
-Om du tilldelar visningssökvägen som **Demo** > **Platser** > **Region B** > **Butik 3** > **`Store3Display`** visas följande innehåll på din AEM Screens-spelare.
+Om du tilldelar visningssökvägen som **Demo** > **Platser** > **Region B** > **Butik 3** > **`Store3Display`** visas följande innehåll i din AEM Screens Player.
 
 ![channelDisplay2](assets/channeldisplay2.gif)
 
@@ -281,7 +281,7 @@ Du kan skapa globala, regionala eller lokala författare för att redigera inneh
 
 Redigera åtkomstkontrollistorna så att du kan begränsa användarens åtkomst till innehållet baserat på deras plats.
 
-### Exempel på användningsfall {#example-use-case}
+### Exempel {#example-use-case}
 
 I följande exempel kan du skapa tre användare för demonstrationsprojektet ovan.
 

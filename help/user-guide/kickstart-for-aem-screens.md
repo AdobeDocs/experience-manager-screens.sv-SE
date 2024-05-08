@@ -1,30 +1,30 @@
 ---
 title: Kickstart Guide
-description: Lär dig hur du skapar ett AEM Screens-demonstrationsprojekt. Det hjälper dig att skapa en digital signeringsupplevelse från installation och konfiguration av ett nytt projekt för att visa ditt innehåll i AEM Screens Player.
+description: Lär dig hur du skapar ett AEM Screens-demonstrationsprojekt. Det hjälper dig att skapa en digital signeringsupplevelse från installation och konfigurera ett nytt projekt för att visa ditt innehåll i AEM Screens Player.
 feature: Overview, Digital Signage
 role: User
 level: Beginner
 exl-id: 9b7c7f50-2846-4727-a0ec-0220b4cd52c4
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
-source-wordcount: '1270'
+source-wordcount: '1282'
 ht-degree: 1%
 
 ---
 
 # Kickstart Guide {#kickstart-guide}
 
-I början av AEM Screens demonstreras hur du konfigurerar och kör ett AEM Screens-projekt. Här får du hjälp med att skapa en grundläggande digital signeringsupplevelse och lägga till innehåll som resurser och/eller videor i varje kanal och publicera innehållet ytterligare i en AEM Screens-spelare.
+I början av AEM Screens demonstreras hur du konfigurerar och kör ett AEM Screens-projekt. Här beskrivs hur du skapar en grundläggande digital signeringsupplevelse och lägger till innehåll som resurser och/eller videor i varje kanal och publicerar innehållet ytterligare i en AEM Screens Player.
 
 >[!NOTE]
->Kontrollera att du har installerat det senaste funktionspaketet för AEM Screens innan du börjar arbeta med projektinformationen. Du kan hämta det senaste funktionspaketet från [Programdistributionsportal](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) med din Adobe ID.
+>Kontrollera att du har installerat det senaste funktionspaketet för AEM Screens innan du börjar arbeta med projektinformationen. Du kan ladda ned det senaste funktionspaketet från [Programdistributionsportal](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) med din Adobe ID.
 
 ## Förutsättningar {#prerequisites}
 
-Följ stegen nedan för att skapa ett exempelprojekt för AEM Screens och publicera innehåll ytterligare till Screens Player.
+Följ stegen nedan för att skapa ett exempelprojekt för AEM Screens och publicera innehåll ytterligare till skärmspelaren.
 
 >[!NOTE]
->I följande självstudie visas hur du spelar upp innehållet i din kanal i Chrome OS-spelaren.
+>I följande självstudie visas hur du spelar upp innehållet i din kanal i en Chrome OS-spelare.
 
 >[!IMPORTANT]
 >**Konfigurationsinställningar för OSGi**
@@ -87,7 +87,7 @@ Följ stegen nedan för att skapa en kanal för ditt projekt:
 
 ### Lägga till innehåll i en kanal {#adding-content}
 
-När du har en egen kanal lägger du till innehåll i kanalen som AEM Screens Player kan visa.
+När du har en egen kanal lägger du till innehåll i kanalen som kan visas i AEM Screens Player.
 
 Följ stegen nedan för att lägga till innehåll i kanalen (**TestChannel**) i ditt projekt:
 
@@ -162,7 +162,7 @@ När projektkonfigurationen är klar tilldelar du kanalen till en visning för a
 
 1. The **Kanaltilldelning** öppnas.
 
-1. Från **Inställningar** väljer du kanal **efter bana**  och **Händelser som stöds** as **Inledande inläsning** och **Inaktiv skärm**.
+1. Från **Inställningar** väljer du kanal **efter bana** och **Händelser som stöds** som **Inledande inläsning** och **Inaktiv skärm**.
 
    >[!NOTE]
    >
@@ -173,7 +173,7 @@ När projektkonfigurationen är klar tilldelar du kanalen till en visning för a
    Du kan även klicka på **Aktiveringsfönster** och **Återkommande schema**.
 
    >[!NOTE]
-   >The *Återkommande schema* gör att du kan ange ett återkommande schema för din kanal. Du ställer in flera upprepningsscheman för en kanal.
+   >The *Återkommande schema* gör att du kan ange ett återkommande schema för din kanal. Du kan ställa in flera upprepningsscheman för en kanal.
    >Se [Återkommande schema](/help/user-guide/channel-assignment-latest-fp.md#recurrence-schedule) för mer information.
 
 1. Klicka **Spara** när du har konfigurerat dina inställningar.
@@ -183,13 +183,13 @@ När projektkonfigurationen är klar tilldelar du kanalen till en visning för a
 Registrera din enhet med AEM kontrollpanel.
 
 >[!IMPORTANT]
->Chrome OS-spelaren kan installeras som Chrome Browser-plugin i utvecklarläge utan att den faktiska enheten för Chrome Player krävs. För installation, följ stegen nedan:
+>Chrome OS Player kan installeras som ett Chrome-plugin-program för webbläsare i utvecklarläge utan att det krävs en faktisk Chrome Player-enhet. För installation, följ stegen nedan:
 >
 >1. Klicka [här](https://download.macromedia.com/screens/) för att ladda ned den senaste Chrome Player.
 >1. Zippa upp och spara det på disken.
->1. Öppna Chrome-webbläsaren och klicka på **Tillägg** från menyn eller direkt navigera till ***chrome://extensions***.
+>1. Öppna webbläsaren Chrome och klicka på **Tillägg** från menyn eller direkt navigera till ***chrome://extensions***.
 >1. Aktivera **Utvecklarläge** från det övre högra hörnet.
->1. Klicka **Läs in opackad** från det övre vänstra hörnet och ladda uppzippad Chrome Player.
+>1. Klicka **Läs in opackad** från det övre vänstra hörnet och läsa in uppzippad Chrome Player.
 >1. Kontrollera **AEM Screens Chrome Player** plugin-programmet om det finns i listan över tillägg.
 >1. Öppna en ny flik och klicka på **Appar** ikonen i det övre vänstra hörnet eller navigera direkt till ***chrome://apps***.
 >1. Klicka **AEM Screens** Plugin-program så att du kan starta Chrome Player. Som standard startas spelaren i helskärmsläge. Tryck **Esc** för att avsluta helskärmsläget.

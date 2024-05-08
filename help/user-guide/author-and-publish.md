@@ -2,7 +2,7 @@
 title: Konfigurera författare- och publiceringsinstanser i AEM Screens
 description: Lär dig hur du konfigurerar en Author-instans och en Publish-instans för AEM Screens.
 exl-id: 5aef5f35-d946-4bf8-a2a8-c3ed532b7eef
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
 source-wordcount: '1923'
 ht-degree: 0%
@@ -220,7 +220,7 @@ När du har konfigurerat publiceringstopologin konfigurerar du författar- och p
 
 >[!NOTE]
 >
->Du kan öppna en AEM Screens-spelare med den AEM Screens-app du hämtade eller med webbläsaren.
+>Du kan öppna en AEM Screens Player med den AEM Screens-app du hämtade eller med webbläsaren.
 
 #### Steg 2: Registrera en enhet på författaren {#step-registering-a-device-on-author}
 
@@ -264,7 +264,7 @@ Du kan även aktivera enheten från enhetshanteringskonsolen. Följ stegen nedan
 
 >[!NOTE]
 >
->När du har aktiverat enheten kan du även redigera eller uppdatera serverns URL. Klicka **Redigera server-URL** från åtgärdsfältet, som visas i figuren nedan, sprids dina ändringar till AEM Screens-spelaren.
+>När du har aktiverat enheten kan du även redigera eller uppdatera serverns URL. Klicka **Redigera server-URL** från åtgärdsfältet, som visas i bilden nedan, sprids dina ändringar till AEM Screens Player.
 
 ![screen_shot_2019-02-21at105527am](assets/screen_shot_2019-02-21at105527am.png)
 
@@ -292,7 +292,7 @@ Följ stegen nedan för att verifiera hur redigering och publicering fungerar:
 
 #### Steg 5: Peka på enheten för att publicera instansen på Admin-panelen {#step-pointing-the-device-to-publish-instance-in-the-admin-panel}
 
-1. Visa administratörsgränssnittet från Skärmspelaren, tryck länge på det övre vänstra hörnet så att du kan öppna Admin-menyn, AEM Screens-spelaren med pekfunktion eller använda en mus.
+1. Visa administratörsgränssnittet från Skärmspelaren, tryck länge på det övre vänstra hörnet så att du kan öppna Admin-menyn, använda AEM Screens Player med pekfunktion eller använda en mus.
 1. Klicka på **Konfiguration** från sidopanelen.
 1. Ändra författarinstans till Publicera instans i **Server**.
 
@@ -302,7 +302,7 @@ Du kan även uppdatera/redigera server-URL:en från enhetshanteringskonsolen gen
 
 1. Navigera till ditt AEM Screens-projekt och klicka på **Enheter** mapp.
 1. Klicka **Enhetshanteraren** i åtgärdsfältet.
-1. Klicka på enheten och klicka på **Redigera server-URL** från åtgärdsfältet, som visas i figuren nedan, och dina ändringar sprids till AEM Screens-spelaren.
+1. Klicka på enheten och klicka på **Redigera server-URL** från åtgärdsfältet, som visas i figuren nedan, och dina ändringar sprids till AEM Screens Player.
 
 ![screen_shot_2019-02-07at31028pm](assets/screen_shot_2019-02-07at31028pm.png)
 

@@ -5,7 +5,7 @@ feature: Authoring Screens, Channel Assignment
 role: Admin, Developer
 level: Intermediate
 exl-id: 346eec9a-e291-4b0d-9686-fee1d5a0e7dd
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
 source-wordcount: '1448'
 ht-degree: 0%
@@ -97,7 +97,7 @@ När projektkonfigurationen är klar tilldelar du kanalen till en visning för a
 
 I det här exemplet visas utdata på en Chrome Player. När du har tilldelat kanalen till din skärm registrerar du enheten till en spelare.
 
-Mer information om hur du registrerar en enhet på en AEM Screens-spelare finns i [Enhetsregistrering](device-registration.md).
+Mer information om hur du registrerar en enhet i en AEM Screens Player finns i [Enhetsregistrering](device-registration.md).
 
 Du kan visa följande utdata när du väljer spelare:
 

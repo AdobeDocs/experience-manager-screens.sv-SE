@@ -1,6 +1,6 @@
 ---
-title: Implementera Windows 10 Player
-description: Läs om hur du konfigurerar AEM Screens Windows 10 Player.
+title: Implementera Windows Player
+description: Läs om hur du konfigurerar Windows Player i AEM Screens.
 contentOwner: jsyal
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: administering
@@ -10,16 +10,16 @@ feature: Administering Screens, Windows Player
 role: Admin
 level: Intermediate
 exl-id: 50b6d9ba-e672-4f4d-a9a8-fb8387685057
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
-source-wordcount: '1114'
+source-wordcount: '1117'
 ht-degree: 0%
 
 ---
 
-# Implementera Windows 10 Player {#implementing-windows-player}
+# Implementera Windows Player {#implementing-windows-player}
 
-I det här avsnittet beskrivs hur du konfigurerar AEM Screens Windows 10 Player. Den innehåller information om konfigurationsfilen, tillgängliga alternativ och rekommendationer om vilka inställningar som ska användas för utveckling och testning.
+I det här avsnittet beskrivs hur du konfigurerar Windows Player i AEM Screens. Den innehåller information om konfigurationsfilen, tillgängliga alternativ och rekommendationer om vilka inställningar som ska användas för utveckling och testning.
 
 ## Installerar Windows Player {#installing-windows-player}
 
@@ -28,7 +28,7 @@ Installera Windows Player för AEM Screens om du vill implementera Windows Playe
 Besök [**AEM 6.5 Player Downloads**](https://download.macromedia.com/screens/) sida.
 
 >[!NOTE]
->Det finns inget fönsterläge i Windows Player. Det är alltid helskärmsläge.
+>Det finns inget fönsterläge i Windows Player. Det är alltid i helskärmsläge.
 
 ### Konfigurera miljö för AEM Screens 6.5.5 Service Pack {#fp-environment-setup}
 
@@ -66,7 +66,7 @@ När du har hämtat programmet följer du stegen på spelaren för att slutföra
 
 ## Namnge Windows Player {#name-windows}
 
-Du kan tilldela din Windows-spelare ett användarvänligt enhetsnamn och därmed skicka det tilldelade enhetsnamnet till Adobe Experience Manager (AEM). Med den här funktionen kan du inte bara namnge Windows-spelaren utan även enkelt tilldela rätt innehåll.
+Du kan tilldela ett användarvänligt enhetsnamn till Windows Player och på så sätt skicka det tilldelade enhetsnamnet till Adobe Experience Manager (AEM). Med den här funktionen kan du inte bara namnge Windows Player utan även enkelt tilldela rätt innehåll.
 
 >[!NOTE]
 >Du kan bara välja spelarnamnet före registreringen. När spelaren har registrerats går det inte att ändra spelarens namn längre.
@@ -84,7 +84,7 @@ Följ det här avsnittet så får du lära dig hur du ändrar standardalternativ
 ## Installation med CLI (PowerShell) {#install-powershell}
 
 1. Skapa en egen plats **dedikerad** för Screens Player, till exempel:
-   `C:\Users\User\screens-player`)
+   `C:\Users\User\screens-player`
 1. Installera
    `aem-screens-player-electron-xxx-signed.exe /S /D=C:\Users\User\screens-player`
 1. Öppna
@@ -102,7 +102,7 @@ C:\Users\User\Downloads> Start-Process C:\Users\User\Downloads\screens-player\AE
 
 ## Massregistrering av Windows Player {#bulk-registration}
 
-När du implementerar Windows-spelaren behöver du inte konfigurera varje spelare manuellt. I stället kan du uppdatera JSON-konfigurationsfilen när den har testats och är klar för distribution.
+När du implementerar Windows Player behöver du inte konfigurera alla spelare manuellt. I stället kan du uppdatera JSON-konfigurationsfilen när den har testats och är klar för distribution.
 
 Konfigurationen ser till att alla spelare pingar samma server som finns i konfigurationsfilen. Registrera varje spelare manuellt.
 
@@ -124,9 +124,9 @@ I följande tabell sammanfattas principattributen med en exempelpolicy-JSON för
 | upplösning | Enhetens upplösning. |
 | rebootSchedule | Schemat för att starta om spelaren. |
 | enableAdminUI | Aktivera administratörsgränssnittet för att konfigurera enheten på platsen. Anges till false när den är helt konfigurerad och i produktion. |
-| enableOSD | Aktivera kanalväljarens användargränssnitt för att användare ska kunna växla kanaler på enheten. Överväg att ställa in på false när den är helt konfigurerad och i produktion. |
+| enableOSD | Aktivera kanalväljarens användargränssnitt så att användare kan växla kanaler på enheten. Överväg att ställa in på false när den är helt konfigurerad och i produktion. |
 | enableActivityUI | Aktivera så att du kan visa förloppet för aktiviteter som hämtning och synkronisering. Aktivera för felsökning och inaktivera när den är helt konfigurerad och i produktion. |
-| cloudMode | Ange true om du vill att Windows-spelaren ska ansluta till skärmar as a Cloud Service. Ange som false om du vill ansluta till AMS eller AEM. |
+| cloudMode | Ange true om du vill att Windows Player ska ansluta till skärmar as a Cloud Service. Ange som false om du vill ansluta till AMS eller AEM. |
 | cloudToken | Registreringstoken för registrering mot skärmar as a Cloud Service. |
 
 #### Exempel på princip-JSON-fil {#example-policy-json-file}
@@ -144,7 +144,7 @@ I följande tabell sammanfattas principattributen med en exempelpolicy-JSON för
 
 ## Aktivera helskärmsläge {#enabling-kiosk-mode}
 
-När du distribuerar Windows-spelaren är det viktigt att aktivera ett Kiosk-läge så att andra program eller aktivitetsfältet inte visas på skrivbordet i Windows.
+När du distribuerar Windows Player är det viktigt att aktivera ett Kiosk-läge så att andra program eller aktivitetsfältet inte visas på skrivbordet i Windows.
 
 >[!CAUTION]
 >
@@ -160,18 +160,18 @@ Aktivera Kiosk-läget genom att följa stegen nedan:
 
    Se ***Konfigurera Shell Launcher*** in **[Shell Launcher](https://learn.microsoft.com/en-us/windows/iot/iot-enterprise/customize/shell-launcher)** sida med Microsoft® Windows-stöd för ytterligare information.
 
-1. Skapa en icke-administrativ användare (om du inte redan har någon) som ska användas för Kiosk. Detta kan vara en lokal användare eller en domänanvändare.
-1. Installera Windows-spelaren för den Kiosk-användaren från [AEM Screens Player - nedladdningar](https://download.macromedia.com/screens/) sida.
+1. Skapa en icke-administrativ användare (om du inte redan har någon) som ska användas för Kiosk. Det kan vara en lokal användare eller en domänanvändare.
+1. Installera Windows Player för den Kiosk-användaren från [AEM Screens Player - nedladdningar](https://download.macromedia.com/screens/) sida.
 1. Se [Använd Shell Launcher för att skapa en dator med Windows 10](https://learn.microsoft.com/en-us/windows/configuration/assigned-access/shell-launcher/?tabs=intune) om du vill ändra PowerShell-skriptet för mer information.
 
-   Ändra PowerShell-skriptet så att du kan ersätta användarnamnet med det du skapade. Kontrollera att sökvägen till den körbara programfilen är korrekt. Detta anger det anpassade skalet som Windows-spelarprogram för heltalsanvändaren och anger standardvärdet som explorer.exe för andra användare.
+   Ändra PowerShell-skriptet så att du kan ersätta användarnamnet med det du skapade. Kontrollera att sökvägen till den körbara programfilen är korrekt. Detta anger det anpassade skalet som Windows Player-program för heltalsanvändaren och anger standardvärdet som explorer.exe för andra användare.
 
 1. Kör PowerShell-skriptet som administratör.
 1. Starta om och logga in som Kiosk-användare och uppspelningsprogrammet bör starta direkt.
 
 ### Felsökning {#troubleshooting}
 
-Om du får en svart skärm när du har loggat in som Kiosk-användare betyder det att du felaktigt har angett sökvägen till den körbara Windows-spelaren. Logga in igen som administratör och verifiera och kör skriptet igen.
+Om du får en svart skärm när du har loggat in som Kiosk-användare betyder det att du felaktigt har angett sökvägen till den körbara Windows Player-filen. Logga in igen som administratör och verifiera och kör skriptet igen.
 
 Standardinstallationssökvägen för Windows Player är:
 
