@@ -10,9 +10,9 @@ feature: Administering Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 4ecc1fb1-2437-449a-a085-66b2a85f4053
-source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
+source-git-commit: 2a51258ffe7b969962378dcd0558bd001b616ba1
 workflow-type: tm+mt
-source-wordcount: '614'
+source-wordcount: '625'
 ht-degree: 0%
 
 ---
@@ -33,7 +33,7 @@ Detta avsnitt behandlar följande ämnen:
 
 ## Sekvenser i Adobe Analytics med AEM Screens {#sequencing-in-adobe-analytics-with-aem-screens}
 
-The ***sekvenseringsprocess*** börjar med datalagringstjänsten som aktiverar Adobe Analytics-tjänsten. Kanalinnehåll skickar Adobe Analytics-händelser med lön, det vill säga datatestning som utförs i Windows I/O och stannar-händelser aktiveras. Händelserna sparas i indexdatabasen och placeras sedan i objektarkivet. Baserat på det schema som administratören ställer in, klipper den ut data från objektarkivet och överför dem vidare till segmentlagret. Den försöker skicka maximalt med data när den är ansluten.
+The ***sekvenseringsprocess*** börjar med en datalagringstjänst som aktiverar Adobe Analytics-tjänsten. Kanalinnehåll skickar Adobe Analytics-händelser med lön, det vill säga datatestning som utförs i Windows I/O och stannar-händelser aktiveras. Händelserna sparas i indexdatabasen och placeras sedan i objektarkivet. Baserat på det schema som administratören ställer in, klipper den ut data från objektarkivet och överför dem vidare till segmentlagret. Den försöker skicka den maximala mängden data när den är ansluten.
 
 ### Sekvensdiagram {#sequencing-diagram}
 
@@ -81,7 +81,7 @@ I följande tabell sammanfattas standarddatamodellen för händelser. Här visas
    <td>rekommenderas</td> 
    <td>string</td> 
    <td>tidsstämpel - UTC</td> 
-   <td>Händelsens startdatum, om du inte angav detta, antas händelsetiden vara den tidpunkt då den togs emot av servern</td> 
+   <td>Händelsens startdatum och starttid, om du inte angav den här tiden, antas händelsens tid vara den tidpunkt som servern tog emot den.</td> 
   </tr>
   <tr>
    <td> </td> 

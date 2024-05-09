@@ -10,9 +10,9 @@ feature: Overview
 role: User, Data Architect
 level: Beginner
 exl-id: d1472137-c15f-44fb-89c3-d251a06c392b
-source-git-commit: 3c4b37b3b9f268b500562fa4ce3782b7be1e7d74
+source-git-commit: 2a51258ffe7b969962378dcd0558bd001b616ba1
 workflow-type: tm+mt
-source-wordcount: '607'
+source-wordcount: '600'
 ht-degree: 0%
 
 ---
@@ -37,25 +37,25 @@ Planeringen innehåller följande:
 * Åtgärdar maskinvaru-, programvaru- eller anslutningsfel
 * Balanserar problemlösningskostnaderna mot kundens affärskrav.
 * Identifiera den bästa metoden för att åtgärda problem i nätverket.
-* Skapa en anpassning mellan AEM och ljud-/videointegratorn vid upprättande av supportplaner för dag 2
+* Skapa en anpassning mellan AEM och ljudvideointegratorn vid upprättande av supportplaner för dag 2
 
 ## Sammanfattning av viktiga överväganden som ingår i stöd för dag 2 {#summary-of-key-considerations-involved-in-day-support}
 
 Nedan följer några viktiga saker att tänka på när det gäller support för dag 2:
 
-* För att säkerställa en smidig övergång från implementering till driftstöd fungerar AEM Implementor tillsammans med ljud-/videointegratorn för att säkerställa att rätt supportskript definieras som en del av supportplanen för dag 2.
-* Krav som fjärrhantering av enheter, tillgänglighet för helpdesk och support på plats är praktiskt taget en del av utvecklingen inom digitalsigneringsbranschen. Utöver detta grundläggande behov bör ljud- och videointegratörer även utforska kostnadsvariabler mellan proaktiv och reaktiv övervakning och supportmodeller.
+* För att säkerställa en smidig övergång från implementering till driftstöd fungerar AEM Implementor med Audio-Video Integrator för att säkerställa att rätt supportskript definieras som en del av supportplanen för dag 2.
+* Krav som fjärrhantering av enheter, tillgänglighet för helpdesk och support på plats är praktiskt taget en del av utvecklingen inom digitalsigneringsbranschen. Utöver detta grundläggande behov bör Audio-Video-integratörer även utforska kostnadsvariabler mellan proaktiv och reaktiv övervakning och supportmodeller.
 
-* Krav som fjärrhantering av enheter, tillgänglighet för helpdesk och support på plats är praktiskt taget en del av utvecklingen inom digitalsigneringsbranschen. Utöver detta grundläggande behov bör ljud- och videointegratörer även utforska kostnadsvariabler mellan proaktiv och reaktiv övervakning och supportmodeller.
-* För att förbereda sig för ett framgångsrikt genomförande på lång sikt är det av största vikt att upprätta ett supportavtal för dag 2 (även kallat S.L.A.) i samarbete med ljud-/videointegratorn. SLA:er detaljerar supporttjänsterna efter driftsättningen och hjälper till att ställa upp kundernas förväntningar.
+* Krav som fjärrhantering av enheter, tillgänglighet för helpdesk och support på plats är praktiskt taget en del av utvecklingen inom digitalsigneringsbranschen. Utöver detta grundläggande behov bör Audio-Video-integratörer även utforska kostnadsvariabler mellan proaktiv och reaktiv övervakning och supportmodeller.
+* För att lyckas på lång sikt är det av största vikt att upprätta supportavtal för dag 2 (även kallat S.L.A.) i samarbete med Audio-Video Integrator. SLA:er detaljerar supporttjänsterna efter driftsättningen och hjälper till att ställa upp kundernas förväntningar.
 * En nyckelresurs som används för att hantera flera nätverk är kunskapsbasen. SharePoint är en populär plattform för den här typen av resurs. Kunskapsbasen innehåller förskriptade frågor och svar som NOC-agenter kan följa, vilket säkerställer att inkommande förfrågningar om problemlösning hanteras på ett konsekvent sätt. Kunskapsbasen innehåller vanligen referensmaterial för systemkonfigurationer och platsplatser, inklusive skurna ark för maskinvara och referensmaterial för systemprogramvara.
 * Övervaknings- och hanteringsfunktionerna är i hög grad beroende av operativsystemen i Media Player och skärmfunktionerna. Windows operativsystem erbjuder den största detaljnivån. För distributioner som körs på Android™- eller iOS-enheter används hantering av mobila enheter (kallas även MDM).
 * Vissa skärmtillverkare erbjuder möjlighet att övervaka skärmar oberoende av mediespelare, medan andra kräver en extern enhet.
-* Ljud-/videointegratörer använder en blandning av tekniker, så lösningarna är fortfarande flexibla för att bäst kunna tillgodose slutkundens behov.
+* Audio-Video-integratörer använder en blandning av tekniker, så lösningarna är fortfarande flexibla för att på bästa sätt tillgodose slutkundens behov.
 
 ## Del 5: Videosjälvstudiekurs om supportfrågor {#part-video-tutorial-on-support-considerations}
 
-Följ den här självstudiekursen för att komma till en 5-delsserie nedan som betonar att man ska kunna säkerställa justering och en smidig övergång från implementering till operativt stöd. Det förklarar också hur en AEM måste arbeta med ljud-/videointegratorn för att säkerställa att det finns lämpliga supportskript som definieras som en del av supportplanen för dag 2.
+Följ den här självstudiekursen för att komma till en 5-delsserie nedan som betonar att man ska kunna säkerställa justering och en smidig övergång från implementering till operativt stöd. Där beskrivs också hur en AEM måste arbeta med Audio-Video Integrator för att säkerställa att det finns lämpliga supportskript som definieras som en del av supportplanen för dag 2.
 
 ### Projektöverväganden
 

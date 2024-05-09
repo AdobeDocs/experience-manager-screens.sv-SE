@@ -2,9 +2,9 @@
 title: AEM Screens projektroller och ansvarsområden
 description: Läs om AEM Screens projektroller och ansvarsområden.
 exl-id: 9377625b-529a-4b46-89d9-f526de398639
-source-git-commit: ef74265eadf5972eae7451b7725946d8b014c198
+source-git-commit: 2a51258ffe7b969962378dcd0558bd001b616ba1
 workflow-type: tm+mt
-source-wordcount: '1243'
+source-wordcount: '1234'
 ht-degree: 0%
 
 ---
@@ -39,11 +39,11 @@ Anpassade funktioner som krävs för att hantera parametrar för användarupplev
 
 AEM implementerare distribuerar vanligtvis anpassade funktioner i faser över tid till platser. De kan till exempel först skapa stöd för uppspelning av grundläggande loopad video eller statiskt grafiskt innehåll. I nästa fas finns möjligheten att stödja uppspelning av lokaliserat innehåll via dynamiska mallar och metadatataggar, där andra faser innehåller stöd för interaktiva element via pekskärmar, sensorer, dynamiska utlösare och så vidare.
 
-### Ljud-/videointegratörer {#av-integrators}
+### Audio-Video-integratörer {#av-integrators}
 
-Ljud-/videointegreraren är maskinvaruleverantör/partner. Det här är den part som arbetar med design och förberedelse av webbplatser i detaljhandeln, inklusive maskinvaruförvärv, konfigurering och driftsättning. Det är vanligtvis en avtalad tredje part som har tillgång till ett Network Operations Center (NOC). Ljud-/videointegratorn är ofta projektägare på grund av dess kontinuerliga engagemang efter lanseringen.
+Audio-Video Integrator är maskinvaruleverantör/partner. Det här är den part som arbetar med design och förberedelse av webbplatser i detaljhandeln, inklusive maskinvaruförvärv, konfigurering och driftsättning. Det är vanligtvis en avtalad tredje part som har tillgång till ett Network Operations Center (NOC). Audio-Video Integrator är ofta projektägare på grund av dess kontinuerliga engagemang efter lanseringen.
 
-En ljud-/videointegratör ansvarar för att utföra identifieringar med slutkunder för att definiera krav som avgör projektets omfång för att utforma, bygga och effektivt hantera driftsättningar kring maskinvara för digitala signaturer.
+En Audio-Video-integratör ansvarar för att utföra identifieringar med slutkunder för att definiera krav som avgör projektets omfång för att utforma, bygga och effektivt hantera driftsättningar kring maskinvara för digitala signaturer.
 
 #### Övervägande av maskinvarupartner {#selecting-hardware-partner}
 
@@ -120,7 +120,7 @@ Följande är ett exempel på ett RACI-diagram som använder rolldefinitionerna 
 
 I följande tabell sammanfattas **Dag noll: överväganden före försäljning**:
 
-| **Fas** | **Ljud-/videointegratör** | **AEM** | **Affärsstrategi** | **Innehållshantering** |
+| **Fas** | **Audio-Video Integrator** | **AEM** | **Affärsstrategi** | **Innehållshantering** |
 |---|---|---|---|---|
 | Gruppformatering och leverantörsval | I | I | RA | RA |
 | Avtal om roller och ansvar | RA | RA | RA | RA |
@@ -132,7 +132,7 @@ I följande tabell sammanfattas **Dag noll: överväganden före försäljning**
 
 I följande tabell sammanfattas **Dag ett: Projektimplementering (programdesign)**:
 
-| **Fas** | **Ljud-/videointegratör** | **AEM** | **Affärsstrategi** | **Innehållshantering** |
+| **Fas** | **Audio-Video Integrator** | **AEM** | **Affärsstrategi** | **Innehållshantering** |
 |---|---|---|---|---|
 | Avtal om roller och ansvar | RA | RA | RA | RA |
 | Justering av projektplan och schema | RA | RA | C | C |
@@ -152,7 +152,7 @@ I följande tabell sammanfattas **Dag ett: Projektimplementering (programdesign)
 
 I följande tabell sammanfattas **Dag ett: Projektimplementering (beredskap för detaljhandel)**:
 
-| **Fas** | **Ljud-/videointegratör** | **AEM** | **Affärsstrategi** | **Innehållshantering** |
+| **Fas** | **Audio-Video Integrator** | **AEM** | **Affärsstrategi** | **Innehållshantering** |
 |---|---|---|---|---|
 | Maskinvarubeställning och lagring | RA | I | I | I |
 | Butiksintroduktionsplan | I | I | C | RA |
@@ -162,7 +162,7 @@ I följande tabell sammanfattas **Dag ett: Projektimplementering (beredskap för
 
 I följande tabell sammanfattas **Dag ett: Dag ett: Projektimplementering (maskinvara)**:
 
-| **Fas** | **Ljud-/videointegratör** | **AEM** | **Affärsstrategi** | **Innehållshantering** |
+| **Fas** | **Audio-Video Integrator** | **AEM** | **Affärsstrategi** | **Innehållshantering** |
 |---|---|---|---|---|
 | Avtal om roller och ansvar | RA | RA | RA | RA |
 | Detaljhandelsdesign omfattar kabeldragningar | - | - | - | - |
@@ -179,7 +179,7 @@ I följande tabell sammanfattas **Dag ett: Dag ett: Projektimplementering (maski
 
 * **Utvecklare**: Vanligtvis medlem i AEM Screens implementeringsteam, eller lämna över till den interna utvecklingsgruppen
 
-* **Tekniker**: Antingen har avtal med ljud-/videointegreraren eller så ingår de i samma företag.
+* **Tekniker**: Antingen har avtal med Audio-Video-integratorn eller ingår i samma företag.
 
 I följande tabell sammanfattas **Dag två: RACI-diagram för stöd efter start**:
 

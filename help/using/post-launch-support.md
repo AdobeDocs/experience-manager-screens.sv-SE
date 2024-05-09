@@ -1,9 +1,9 @@
 ---
 title: Stöd efter lansering
 description: Läs mer om stöd för AEM Screens efter lansering i Best Practices Guide.
-source-git-commit: 3c4b37b3b9f268b500562fa4ce3782b7be1e7d74
+source-git-commit: 2a51258ffe7b969962378dcd0558bd001b616ba1
 workflow-type: tm+mt
-source-wordcount: '375'
+source-wordcount: '372'
 ht-degree: 4%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 4%
 
 Glöm inte stödet efter lanseringen i ett tidigt skede.
 
-Att se till att webbplatserna får tillräcklig support från maskinvaruleverantören är avgörande för deras verksamhet. The **Ljud-/videointegratör** bör ha ett nära samarbete med affärsintressenter och identifiera de krav som krävs från olika aspekter.
+Att se till att webbplatserna får tillräcklig support från maskinvaruleverantören är avgörande för deras verksamhet. The **Audio-Video Integrator** bör ha ett nära samarbete med affärsintressenter och identifiera de krav som krävs från olika aspekter.
 Tänk på följande under support efter start:
 
 * fjärrhantering av enheter
@@ -22,11 +22,11 @@ Tänk på följande under support efter start:
 * support på plats för tekniker
 * enhetshantering (garantisupport och lagring på reservenheter)
 
-För att förbereda sig för långsiktiga framgångar är det också av största vikt att upprätta ett servicenivåavtal (Dag 2) i partnerskap med ljud-/videointegratorn. SLA-avtalet bör innehålla detaljerad information om alla supporttjänster efter driftsättning för att hjälpa till att exakt ställa kundens förväntningar.
+För att förbereda sig för långsiktiga framgångar är det också av största vikt att upprätta ett servicenivåavtal (Dag 2) i samarbete med Audio-Video Integrator. SLA-avtalet bör innehålla detaljerad information om alla supporttjänster efter driftsättning för att hjälpa till att exakt ställa kundens förväntningar.
 
 >[!NOTE]
 >
->Definiera driftsparametrar som är tidiga i driftbudgeten och anpassa ansvarsområdena efter AEM och ljud-/videointegratorn.
+>Definiera driftsparametrar som är tidigt inräknade i driftbudgeten och anpassa ansvarsområdena efter AEM och ljudvideointegratören.
 >
 >* Är driftsättningen ett annonsnätverk med många intressenter kopplade till ett nätverk med intäkter? Detta kan leda till kortare tidsramar jämfört med ett Corporate Communications-nätverk.
 >* Är programmet mycket synligt för kundens chefer? Webbplatser med hög synlighet kan behöva olika behandlingar.

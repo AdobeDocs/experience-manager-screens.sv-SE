@@ -2,9 +2,9 @@
 title: Använda adaptiva renderingar i AEM Screens
 description: Lär dig hur du använder adaptiva renderingar i AEM Screens.
 exl-id: e7f68ed4-73c3-492a-b33a-dd915ef1f8be
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: 2a51258ffe7b969962378dcd0558bd001b616ba1
 workflow-type: tm+mt
-source-wordcount: '540'
+source-wordcount: '541'
 ht-degree: 0%
 
 ---
@@ -13,11 +13,11 @@ ht-degree: 0%
 
 ## Introduktion {#introduction}
 
-Med adaptiva renderingar kan enheterna automatiskt klicka på den bästa renderingen för en enhet baserat på kunddefinierade regler. Enheterna laddar automatiskt ned och spelar upp den lämpligaste återgivningen av en mediefil baserat på dessa regler, så att kunderna bara kan fokusera på att utforma *main* upplevelse.
+Med adaptiva renderingar kan enheterna klicka på den bästa renderingen automatiskt för en enhet baserat på kunddefinierade regler. Enheterna laddar automatiskt ned och spelar upp den lämpligaste återgivningen av en resurs baserat på dessa regler. Det gör att kunderna kan fokusera på att designa *main* upplevelse.
 
 ## Syfte {#objective}
 
-Som AEM Screens Content Author kan du nu konfigurera enhetsspecifika materialåtergivningar så att de hämtas och spelas upp automatiskt utan att du behöver skapa alla innehållsvarianter manuellt.
+Som AEM Scrßeens Content Author kan du nu konfigurera enhetsspecifika resursåtergivningar så att de hämtas och spelas upp automatiskt utan att du behöver skapa alla innehållsvarianter manuellt.
 När en utvecklare har lagt till egenskaper och regler för återgivningsmappning kan du tillämpa återgivningsmappningen på resurser och sedan inkludera dem i en AEM Screens-kanal.
 
 >[!IMPORTANT]
@@ -30,7 +30,7 @@ När en utvecklare har lagt till egenskaper och regler för återgivningsmappnin
 
 ### Använda återgivningar på resurser {#apply-renditions-assets}
 
-Gör så här om du vill använda återgivningar på resurser som du vill använda i scenkanalen.
+Så här använder du återgivningar på resurser som du vill använda i kanalen för rundskärmar:
 
 1. Navigera till **Resurser** i din AEM.
 1. Skapa en version av resursen som bättre passar signeringsvisningen, till exempel `seahorse.jpg`.

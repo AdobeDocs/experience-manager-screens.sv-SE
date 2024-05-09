@@ -2,9 +2,9 @@
 title: Testning och kvalitetssäkring
 description: Läs mer om testning och kvalitetssäkring av AEM Screens i Best Practices Guide.
 exl-id: cc3bfb88-1341-43f8-b247-6a41f1d1a963
-source-git-commit: ef74265eadf5972eae7451b7725946d8b014c198
+source-git-commit: 2a51258ffe7b969962378dcd0558bd001b616ba1
 workflow-type: tm+mt
-source-wordcount: '334'
+source-wordcount: '332'
 ht-degree: 0%
 
 ---
@@ -12,7 +12,7 @@ ht-degree: 0%
 # Testning och kvalitetssäkring {#testing-quality}
 
 >[!NOTE]
->En typisk intressent för den här aktiviteten är en ljud-/videointegratör.
+>En typisk intressent för den här aktiviteten är en Audio-Video Integrator.
 
 När ni närmar er driftsättningen av det digitala signeringsnätverket skapar ni en Test- och QA-plan som behandlar alla element i nätverket, inklusive alla maskinvarukomponenter, alla programvarukomponenter och alla nätverkskomponenter.
 Under fasen ska hela testsystem byggas och testas fullt ut.
@@ -82,4 +82,4 @@ Några exempel är följande:
 * TeamViewer
 * AirWatch
 * `42Gears`
-* Egendefinierat mellanvara för ljud-/videointegrering
+* Tillverkningsspecifik programvara för ljud- och videointegrering

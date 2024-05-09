@@ -1,29 +1,29 @@
 ---
 title: "Del 1: Projektroller och ansvarsområden"
-description: I den här självstudiekursen får du lära dig hur du bättre förstår roller, ansvarsområden och tidslinjer som krävs under försäljnings- och projektlivscykeln för ett digitalt signeringsprojekt.
+description: I den här självstudiekursen kan du förstå vilka roller, ansvarsområden och tidslinjer som krävs under försäljnings- och projektlivscykeln för ett digitalt signeringsprojekt.
 feature: Overview
 role: User, Data Architect
 level: Beginner
 exl-id: 313cc26f-c509-4b28-a185-4e530e826b83
-source-git-commit: ef74265eadf5972eae7451b7725946d8b014c198
+source-git-commit: 2a51258ffe7b969962378dcd0558bd001b616ba1
 workflow-type: tm+mt
-source-wordcount: '482'
+source-wordcount: '480'
 ht-degree: 0%
 
 ---
 
 # Del 1: Projektroller och ansvarsområden {#part-project-roles-and-responsibilities}
 
-Den här sidan belyser del 1 i en 5-delsserie som är utformad för att hjälpa teammedlemmarna att bättre förstå roller, ansvarsområden och tidslinjer som krävs under försäljnings- och projektcykeln för ett digitalt signeringsprojekt.
+Den här sidan markerar del 1 av en 5-delsserie. Den är utformad för att hjälpa teammedlemmarna att bättre förstå de roller, ansvarsområden och tidslinjer som krävs under försäljnings- och projektcykeln för ett digitalt signeringsprojekt.
 
 ## Ökning {#overview}
 
-Följande självstudiekurs beskriver projektroller och ansvar för Adobe, AEM implementatorer och ljud-/visuella integratörer på en hög nivå. Du kan navigera till efterföljande avsnitt för att få en heltäckande översikt över hur du kan utveckla AEM Screens-möjligheter och positionera driftsättningar för att lyckas på lång sikt.
+Följande självstudiekurs beskriver projektroller och ansvarsområden för Adobe, AEM implementatorer och ljud-/visuella integratörer på en hög nivå. Du kan navigera till efterföljande avsnitt för att få en heltäckande översikt över hur du kan utveckla AEM Screens-möjligheter och positionera distributioner för att lyckas på lång sikt.
 
 Det finns tre huvudgrupper som är engagerade genom leveransprocessen inom följande:
 
 * Adobe
-* Ljud-/videointegratör
+* Audio-Video Integrator
 * AEM
 
 >[!NOTE]
@@ -32,7 +32,7 @@ Det finns tre huvudgrupper som är engagerade genom leveransprocessen inom följ
 
 ## Sammanfattning av roller som ingår i ett projekt för digital signering {#summary-of-roles-involved-in-a-digital-signage-project}
 
-Genom att definiera parametrar för programanvändning i samarbete med Adobe, AEM implementor och ljud-/visuell integrator utvecklas programutvecklingsomfånget. Denna process säkerställer att en stegvis strategi upprättas med prestandatester och framgångsmått som alla identifieras i hela projektet.
+Att definiera parametrar för programanvändning i samarbete med Adobe, AEM och ljud-/visuell integrator driver programutvecklingsomfånget. Denna process säkerställer att en stegvis strategi upprättas med prestandatester och framgångsmått som alla identifieras i hela projektet.
 
 ### Adobe {#adobe}
 
@@ -44,11 +44,11 @@ An **AEM** ansvarar för utvecklings- och integreringsuppgifter för att utveckl
 
 Anpassade funktioner som krävs för att hantera parametrar för användarupplevelse hämtas och levereras via den här processen.
 
-AEM implementerare distribuerar vanligtvis anpassade funktioner i faser över tid till platser. De kan till exempel först skapa stöd för uppspelning av grundläggande loopad video eller statiskt grafiskt innehåll. I nästa fas finns möjligheten att stödja uppspelning av lokaliserat innehåll via dynamiska mallar och metadatataggar, där andra faser innehåller stöd för interaktiva element via pekskärmar, sensorer, dynamiska utlösare och så vidare.
+AEM implementerare distribuerar vanligtvis anpassade funktioner i faser över tid till platser. De kan till exempel först skapa stöd för uppspelning av grundläggande loopad video eller statiskt grafiskt innehåll. I nästa fas finns stöd för uppspelning av lokaliserat innehåll via dynamiska mallar och metadatataggar. Den innehåller andra faser som har stöd för interaktiva element via pekskärmar, sensorer, dynamiska utlösare och så vidare.
 
-#### Ljud-/videointegratörer {#av-integrators}
+#### Audio-Video-integratörer {#av-integrators}
 
-An **Ljud-/videointegratör** ansvarar för att utföra identifieringar med slutkunder för att definiera krav som avgör projektets omfattning för att utforma, bygga och effektivt hantera driftsättningar kring maskinvara för digitala signaturer.
+An **Audio-Video Integrator** ansvarar för att utföra identifiering med slutkunder för att definiera krav, fastställa projektets omfattning för att utforma, bygga och effektivt hantera driftsättningar kring maskinvara för digitala signaturer.
 
 ## Del 1: Videosjälvstudiekurs om projektets roller och ansvarsområden {#part-video-tutorial-on-project-roles-and-responsibilities}
 
