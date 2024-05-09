@@ -2,7 +2,7 @@
 title: Supportövervakning
 description: Läs mer om Support Monitoring for AEM Screens Best Practices Guide.
 exl-id: b9d6f713-e26d-4f56-bedb-2d419a19a05c
-source-git-commit: ef74265eadf5972eae7451b7725946d8b014c198
+source-git-commit: df41a8794683e241b6f12b58d39c01e069187435
 workflow-type: tm+mt
 source-wordcount: '218'
 ht-degree: 0%
@@ -25,7 +25,7 @@ Med innehållsövervakning kan du felsöka problem med innehåll som inte visas 
 1. Om ett tomt skärmproblem påträffas:
 
    * Kontrollera *förhandsgranska* så att du kan se om kanalen visar en svart skärm.
-   * Registrera en *lokal kromspelare* (som ett tillägg) på din bärbara dator till den skärmen och se om det visar en svart skärm.
+   * Registrera en *lokal Chrome-spelare* (som ett tillägg) på din bärbara dator till den skärmen och se om det visar en svart skärm.
    * Högerklicka, inspektera och kontrollera *tillämpliga loggar*.
 
    Om problemet inte inträffar på den lokala spelaren utan bara på enheten:

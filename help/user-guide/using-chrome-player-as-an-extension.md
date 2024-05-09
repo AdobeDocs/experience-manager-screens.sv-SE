@@ -5,7 +5,7 @@ feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: 53d5bd81-0853-47b0-9798-01d8fd5612e6
-source-git-commit: ef74265eadf5972eae7451b7725946d8b014c198
+source-git-commit: df41a8794683e241b6f12b58d39c01e069187435
 workflow-type: tm+mt
 source-wordcount: '453'
 ht-degree: 0%
@@ -62,7 +62,7 @@ Följ den här sidan för information om hur du installerar Chrome Player som et
 
 Följ stegen nedan för att uppgradera spelartillägget om en ny version av spelaren släpps upp. Du kan även följa instruktionerna nedan för att testa uppgraderingsscenarier:
 
-1. Stäng alla aktiva fönsterkontroller och spelarinstanser
+1. Stäng alla Chrome- och Player-instanser som körs
 1. Byt namn på den gamla mappen med spelarfiler
 1. Extrahera den nya zippen på samma plats som den gamla mappen
 1. Starta Chrome och navigera till `chrome://extensions`

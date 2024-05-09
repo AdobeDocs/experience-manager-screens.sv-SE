@@ -1,22 +1,22 @@
 ---
 title: Dispatcher Configurations for AEM Screens
-description: På den här sidan hittar du riktlinjer för hur du konfigurerar Dispatcher för ett AEM Screens-projekt.
+description: På den här sidan hittar du riktlinjer för hur du konfigurerar en Dispatcher för ett AEM Screens-projekt.
 feature: Administering Screens
 role: Developer, User
 level: Intermediate
 exl-id: 8b281488-f54d-4f8a-acef-ca60fa2315ed
-source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
+source-git-commit: df41a8794683e241b6f12b58d39c01e069187435
 workflow-type: tm+mt
-source-wordcount: '623'
+source-wordcount: '633'
 ht-degree: 0%
 
 ---
 
 # Dispatcher Configurations for AEM Screens{#dispatcher-configurations-for-aem-screens}
 
-Dispatcher är ett Adobe Experience Manager verktyg för cachelagring och/eller belastningsutjämning.
+Dispatcher Adobe Experience Manager cachelagring eller belastningsutjämningsverktyg, eller båda.
 
-Följande sida innehåller riktlinjer för hur du konfigurerar Dispatcher för ett AEM Screens-projekt.
+Följande sida innehåller riktlinjer för hur du konfigurerar en Dispatcher för ett AEM Screens-projekt.
 
 >[!NOTE]
 >
@@ -32,7 +32,7 @@ Se [Konfigurera Dispatcher](https://experienceleague.adobe.com/en/docs/experienc
 >[!IMPORTANT]
 >Följande Dispatcher-konfigurationer gäller endast Manifest version v2. Se [Dispatcher-konfigurationer för manifestversion v3](#configuring-dispatcherv3) för manifestversion v3.
 
-AEM Screens spelare och enheter använder autentiserade sessioner för att även få tillgång till resurserna i publiceringsinstanserna. Om du har flera publiceringsinstanser bör förfrågningarna alltid gå till samma Publishing-instans så att den autentiserade sessionen är giltig för alla förfrågningar som kommer från AEM Screens spelare/enheter.
+AEM Screens spelare eller enheter använder en autentiserad session för att få tillgång till resurserna i publiceringsinstanserna. Om du har flera publiceringsinstanser bör förfrågningarna alltid gå till samma Publishing-instans så att den autentiserade sessionen är giltig för alla förfrågningar som kommer från AEM Screens spelare eller enheter.
 
 Följ stegen nedan för att konfigurera Dispatcher för ett AEM Screens-projekt.
 
@@ -67,7 +67,7 @@ Lägg till följande i `/clientheaders`avsnitt:
 
 ### Steg 2: Konfigurera skärmfilter {#step-configure-screens-filters}
 
-Om du vill konfigurera skärmfilter lägger du till följande i ***/filter***.
+Om du vill konfigurera skärmfilter lägger du till följande i ***`/filter`***.
 
 ```
 ## AEM Screens Filters
@@ -129,11 +129,11 @@ Så här aktiverar du cachen för resurserna så att resurserna hanteras från D
 
 ## Konfigurera Dispatcher för manifestversion v3{#configuring-dispatcherv3}
 
-Se till att tillåta dessa filter och cachelagra regler i utskickare som kör Publishing-instanser för att skärmfunktionerna ska fungera.
+Se till att tillåta dessa filter och cachelagra regler i utskickare som kör Publishing-instanser för att skärmarna ska fungera.
 
 ### Krav för manifestversion v3{#prerequisites3}
 
-Följ dessa två krav innan du konfigurerar Dispatcher (manifestversion v3) för AEM Screens:
+Följ dessa två krav innan du konfigurerar en Dispatcher (manifestversion v3) för AEM Screens:
 
 * Se till att du använder `v3 manifests`. Navigera till `https://<server:port>/system/console/configMgr/com.adobe.cq.screens.offlinecontent.impl.ContentSyncCacheFeatureFlag` och se till att `Enable ContentSync Cache` är inte markerad.
 
@@ -143,7 +143,7 @@ Följ dessa två krav innan du konfigurerar Dispatcher (manifestversion v3) för
 
   ![bild](/help/user-guide/assets/dispatcher/dispatcher-3.png)
 
-### Filter  {#filter-v3}
+### Filter {#filter-v3}
 
 ```
 ## AEM Screens Filters
@@ -173,10 +173,10 @@ Följ dessa två krav innan du konfigurerar Dispatcher (manifestversion v3) för
 
 * Lägg till `/allowAuthorized "1"` till `/cache` avsnitt i `publish_farm.any`.
 
-* Alla AEM Screens-spelare använder autentiserad session för att ansluta till AEM (författare/publicering). Den färdiga Dispatcher cachelagrar inte dessa URL:er, så du bör aktivera dessa.
+* Alla AEM Screens-spelare använder en autentiserad session för att ansluta till AEM (författare/publicering). En Dispatcher är färdig och cachelagrar inte dessa URL:er, så du bör aktivera dem.
 
 * Lägg till `statfileslevel "10"` till `/cache` avsnitt i `publish_farm.any`
-Detta stöder cachelagring av upp till tio nivåer från cachedokumentet och gör innehållet ogiltigt i enlighet med detta när innehållet publiceras, i stället för att göra allt ogiltigt. Du kan ändra den här nivån baserat på hur detaljerad innehållsstrukturen är
+Den här regeln stöder cachelagring av upp till tio nivåer från cache-dokumentet och gör innehållet ogiltigt i enlighet därmed när innehållet publiceras, i stället för att göra allt ogiltigt. Du kan ändra den här nivån baserat på hur detaljerad innehållsstrukturen är
 
 * Lägg till följande i `/invalidate section in publish_farm.any`
 

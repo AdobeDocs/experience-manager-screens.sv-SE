@@ -9,7 +9,7 @@ feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: 4f16605b-aec1-45fa-a110-0af6925b74b0
-source-git-commit: e82cfee5ecc6b639b7b2b65553d1635943b356ea
+source-git-commit: df41a8794683e241b6f12b58d39c01e069187435
 workflow-type: tm+mt
 source-wordcount: '870'
 ht-degree: 0%
@@ -22,10 +22,10 @@ I det här avsnittet beskrivs hur du implementerar Chrome OS Player med Chrome M
 
 ## Använda Chrome Management Console {#using-chrome-management-console}
 
-Följ stegen nedan för att konfigurera Chrome Management Console:
+Följ stegen nedan för att konfigurera Chrome-hanteringskonsolen:
 
 1. Registrera dig för Chrome Management Console. Du måste skaffa en licens för Chrome Management Console. Kontakt [Google Support](https://support.google.com/chrome/a/answer/1375678?hl=en&amp;ref_topic=2935995) om du vill ha mer information om hur du hanterar Chrome-enhetsinställningar.
-1. Registrera din Chrome OS-enhet i domänen och vänta i 15 minuter på att enheten ska synkroniseras med Chrome Management Console. Om du vill veta mer om att registrera en enhet för fönsterstandard klickar du på [här](https://support.google.com/chrome/a/answer/1360534?hl=en).
+1. Registrera din Chrome OS-enhet i domänen och vänta i 15 minuter på att enheten ska synkroniseras med Chrome Management Console. Om du vill veta mer om att registrera en Chrome-enhet klickar du på [här](https://support.google.com/chrome/a/answer/1360534?hl=en).
 1. Chrome Player finns i Chrome Web Store.
 
 >[!NOTE]
@@ -54,7 +54,7 @@ Följ stegen nedan för att konfigurera namnet i Chrome Player:
    ![bild](/help/user-guide/assets/chrome-device/chrome3.png)
 
    >[!NOTE]
-   >Chrome Players måste registreras i företagsregistrering och Chrome Player måste distribueras via Chrome Management Console, annars returneras resurs-ID tomt (till exempel chrome som ett tillägg). Enhetsnamnet registreras endast vid registreringen. Framtida ändringar hämtas inte upp av Adobe Experience Manager (AEM).
+   >Chrome Players måste registreras i företagsregistrering och Chrome Player måste distribueras via Chrome Management Console, annars returneras resurs-ID tomt (till exempel Chrome som tillägg). Enhetsnamnet registreras endast vid registreringen. Framtida ändringar hämtas inte upp av Adobe Experience Manager (AEM).
 
 ### Aktivera helskärmsläge {#enabling-kiosk-mode}
 

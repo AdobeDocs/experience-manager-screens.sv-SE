@@ -5,9 +5,9 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 3314e0b5-0001-4bce-8ec6-5a6ffbb20f7b
-source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
+source-git-commit: df41a8794683e241b6f12b58d39c01e069187435
 workflow-type: tm+mt
-source-wordcount: '740'
+source-wordcount: '756'
 ht-degree: 0%
 
 ---
@@ -22,11 +22,11 @@ På följande sida beskrivs hur du använder kommandosynkronisering. Med kommand
 
 ## Ökning {#overview}
 
-Digitala signeringslösningar måste ha stöd för videoväggar och synkroniserad uppspelning för scenarier som nyårsräkning eller stor video som segmenterats upp för uppspelning på flera skärmar, och det är här som kommandosynkronisering spelas upp.
+Digitala signeringslösningar måste ha stöd för videoväggar och synkroniserad uppspelning. Det här scenariot är sant om du försöker stödja scenarier som nyårslicenser eller stora videor som segmenterats för att spelas upp på flera skärmar. Det är då kommandosynkronisering spelas upp.
 
-Om du vill använda kommandosynkronisering fungerar en spelare som en *primär* och skickar kommando och alla andra spelare agerar som *klienter* och spelas upp när de får kommandot.
+Om du vill använda kommandosynkronisering fungerar en spelare som en *primär* och skickar kommandot och alla andra spelare agerar som *klienter* och spelas upp när de får kommandot.
 
-The *primär* skickar ett kommando till alla registrerade klienter när uppspelningen av ett objekt ska börja. Nyttolasten för detta kan vara indexvärdet för det objekt som ska spelas upp och/eller den yttre HTML-koden för det element som ska spelas upp.
+The *primär* skickar ett kommando till alla registrerade klienter när uppspelningen av ett objekt ska börja. Nyttolasten för den här åtgärden kan vara indexvärdet för det objekt som ska spelas upp, den yttre HTML-koden för det element som ska spelas upp eller båda.
 
 ## Implementera kommandosynkronisering {#using-command-sync}
 
@@ -38,7 +38,7 @@ I följande avsnitt beskrivs hur du kan använda kommandosynkronisering i ett AE
 
 ### Konfigurera projektet {#setting-up}
 
-Innan du använder funktionen Kommandosynkronisering måste du kontrollera att du har ett projekt och en kanal med innehåll som har konfigurerats för ditt projekt.
+Innan du använder funktionen Kommandosynkronisering kontrollerar du att du har ett projekt och en kanal med innehåll som har konfigurerats för ditt projekt.
 
 1. I följande exempel visas ett demoprojekt med namnet **CommandSyncDemo** och en sekvenskanal **ChannelLobby**.
 
@@ -71,7 +71,7 @@ Innan du använder funktionen Kommandosynkronisering måste du kontrollera att d
    >
    >Mer information om hur du registrerar en enhet finns i [Enhetsregistrering](/help/user-guide/device-registration.md)
 
-1. I det här exemplet visas en fönsterenhet och en Windows Player som två separata enheter. Båda enheterna pekar på samma skärm.
+1. I det här exemplet visas en Chrome-enhet och en Windows Player som två separata enheter. Båda enheterna pekar på samma skärm.
    ![image1](assets/command-sync6.png)
 
 ### Uppdaterar kanalinställningar
@@ -90,11 +90,11 @@ Innan du använder funktionen Kommandosynkronisering måste du kontrollera att d
 
 ### Konfigurera en primär {#setting-up-primary}
 
-1. Navigera till kontrollpanelen från **CommandSyncDemo** > **Platser**  > **Lobby** > **LobbyDisplay** och klicka **Kontrollpanel** i åtgärdsfältet.
-Lägg märke till de två enheterna (chrome och Windows Player) i **ENHETER** enligt följande:
+1. Navigera till kontrollpanelen från **CommandSyncDemo** > **Platser**  > **Lobby** > **LobbyDisplay**. Klicka sedan på **Kontrollpanel** i åtgärdsfältet.
+Lägg märke till de två enheterna (Chrome och Windows Player) i **ENHETER** enligt följande:
    ![image1](assets/command-sync/command-sync10-1.png)
 
-1. Från **ENHETER** klickar du på den enhet som du vill ange som primär. I följande exempel visas hur du ställer in Chrome-enheten som primär. Klicka **Ange som primär enhet**.
+1. Från **ENHETER** klickar du på den enhet som du vill ange som primär. I följande exempel visas hur du konfigurerar Chrome-enheten som primär enhet. Klicka **Ange som primär enhet**.
 
    ![image1](assets/command-sync/command-sync11-1.png)
 
@@ -104,7 +104,7 @@ Lägg märke till de två enheterna (chrome och Windows Player) i **ENHETER** en
 
 >[!NOTE]
 >
->Du kan konfigurera flera enheter som primära.
+>Du kan konfigurera flera enheter som primära enheter.
 
 ### Synkroniserar med primär {#sync-up-primary}
 

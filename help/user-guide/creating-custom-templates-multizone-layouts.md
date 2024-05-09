@@ -6,9 +6,9 @@ feature: Developing Screens
 role: Developer
 level: Intermediate
 exl-id: 3f4813f8-0438-4ce0-9046-84025de0ddd1
-source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
+source-git-commit: df41a8794683e241b6f12b58d39c01e069187435
 workflow-type: tm+mt
-source-wordcount: '849'
+source-wordcount: '862'
 ht-degree: 1%
 
 ---
@@ -30,12 +30,12 @@ Det finns två viktiga saker att tänka på innan du skapar en anpassad mall i e
 
 1. **Namngivningskonvention**:
 
-   Innan du vet hur du skapar anpassade mallar för flera zoner som ska användas i ett AEM Screens-projekt bör du förstå variationen i mallarna som du vill skapa.
+   Det hjälper dig att förstå hur du skapar anpassade mallar för flera zoner som kan användas i ett AEM Screens-projekt. Men först måste du förstå variationen i mallarna som du vill skapa.
 
    | **Layoutnamn** | **Beskrivning** |
    |---|---|
-   | `Left20-LandscapeHD3Zone` | En liggande layout med tre zoner där du kan skapa tre zoner:<br>* Zon 1 som 20 % av den vågräta och lodräta skärmen från vänster<br>* Zon 2 som 80 % av den horisontella skärmen och 20 % av den vertikala skärmen som är högerjusterad<br>* Zon 3 som 100 % av den horisontella och 80 % av den vertikala skärmen med proportionen 16:9 |
-   | `Upper20-PortraitHD2Zone` | En mall med stående orientering i två zoner som täcker 20 % av skärmen uppifrån, med proportionerna 16:9 |
+   | `Left20-LandscapeHD3Zone` | En liggande layout med tre zoner där du kan skapa tre zoner:<br>* Zon 1 som 20 % av den vågräta och lodräta skärmen från vänster<br>* Zon 2 som 80 % av den vågräta skärmen och 20 % av den lodräta skärmen som är högerjusterad<br>* Zon 3 som 100 % av den vågräta och 80 % av den lodräta skärmen. Proportionerna är 16:9 |
+   | `Upper20-PortraitHD2Zone` | En mall med två zoner och stående orientering som täcker 20 % av skärmen uppifrån, med proportionerna 16:9 |
    | `Right20-LandscapeSD3Zone` | En mall med tre zoner som täcker 20 % av skärmen från höger, med proportionerna 4:3 |
 
    >[!IMPORTANT]
@@ -90,11 +90,11 @@ Följ stegen nedan för att skapa en `Left20-LandscapeHD3Zone` Layout för ett A
 
    ![bild](/help/user-guide/assets/custom-multizone/custom-template6.png)
 
-1. Med hänvisning till steg (4) där du kopierade mallen längst till vänster kan du visa tre responsiva rutnät under `my-custom-layout/jcr:content`. Lägg till en anpassad CSS-klass i vart och ett av de responsiva rutnäten i *`cq:cssClass`* egenskap, till exempel *my-custom-layout—top-left* for *r1c1* nod.
+1. Med hänvisning till steg (4) där du kopierade mallen längst till vänster kan du visa tre responsiva rutnät under `my-custom-layout/jcr:content`. Lägg till en anpassad CSS-klass i vart och ett av de responsiva rutnäten i *`cq:cssClass`* egenskap, till exempel *my-custom-layout-top-left* for *r1c1* nod.
 
    ![bild](/help/user-guide/assets/custom-multizone/custom-template7.png)
 
-   På samma sätt lägger du till *my-custom-layout—top-right* for *r1c2*  och *my-custom-layout—bottom* for *r2c1* nod.
+   På samma sätt lägger du till *my-custom-layout-top-right* for *r1c2* och *my-custom-layout-bottom* for *r2c1* nod.
 
    >[!NOTE]
    >Dessa anpassade klasser används i CSS för att ange bredd/höjd för dessa responsiva rutnät.
@@ -134,7 +134,7 @@ Följ stegen nedan för att skapa en `Left20-LandscapeHD3Zone` Layout för ett A
 1. Navigera till `/apps/<project>/templates/my-custom-layout/jcr:content` och uppdatera egenskapen *`cq:designPath`* till `/apps/settings/wcm/designs/customtemplate-designs` så att du kan läsa in de format som konfigurerats i static.css.
 
    >[!NOTE]
-   >Skriv in alla format i stället för att kopiera eller klistra in, vilket kan orsaka problem med blanktecken som leder till CSS-format.
+   >Skriv in alla format i stället för att kopiera eller klistra in, vilket kan orsaka problem med blanktecken.
 
 ## Visa resultatet {#viewing-result}
 
@@ -152,7 +152,7 @@ Följ stegen nedan för att använda ovanstående anpassade mall i ditt AEM Scre
 
    ![bild](/help/user-guide/assets/custom-multizone/custom-template10.png)
 
-## Infoga en bild som bakgrundslager  {#inserting-image}
+## Infoga en bild som bakgrundslager {#inserting-image}
 
 Du kan infoga en bild som bakgrundslager i layouten:
 
