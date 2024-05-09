@@ -2,9 +2,9 @@
 title: Enclosed Corporate Network
 description: Enclosed Corporate Network
 exl-id: b8c52e72-86da-4089-ba02-0c643862419f
-source-git-commit: ef74265eadf5972eae7451b7725946d8b014c198
+source-git-commit: ce8340f24d116b4268a6ed15dd4e9f626bad1ef6
 workflow-type: tm+mt
-source-wordcount: '703'
+source-wordcount: '710'
 ht-degree: 0%
 
 ---
@@ -24,13 +24,13 @@ Följ stegen nedan för att se till att AEM skärmspelare är korrekt anslutna i
 1. Testa Internetanslutningen genom att anropa en URL i datorns webbläsare.
 
    >[!NOTE]
-   >Kontrollera nätverksinställningarna om du får ett fel. Det finns i princip två alternativ för en korrekt nätverksanslutning:
+   >Om du får ett fel kontrollerar du nätverksinställningarna. Det finns i princip två alternativ för en korrekt nätverksanslutning:
    >* DHCP
    >* Manuell IP-konfiguration
 
 1. Kontrollera att nätverkskortsinställningen matchar routerinställningarna och kontrollera om det maximala antalet tillgängliga IP-adresser i nätverket inte nås.
 
-1. Kontrollera om routern är korrekt ansluten till ISP Wide-Area Network (Internet Link). Detta kan också identifieras med en signallampa på standardroutrar.
+1. Kontrollera om routern är korrekt ansluten till ISP Wide-Area Network (Internet Link). Denna anslutning kan också identifieras med en signallampa på standardroutrar.
 1. Om URL-anropet lyckas kan du fortsätta installera AEM Screens och registrera dig. Starta AEM Screens.
 
    >[!NOTE]
@@ -50,7 +50,7 @@ Enclosed Corporate Network Setup kan logiskt separeras i två block:
 ### Wide Area Network {#wan-connection}
 
 Prestandan för internetanslutningen måste, förutom nätverkets nåbarhet, tillhandahålla tillräcklig bandbredd för att AEM Screens-innehållsuppdateringar ska fungera smidigt.
-*Tillräcklig bandbredd* beror på antalet anslutna AEM och på hur andra användare i nätverket använder sig, t.ex. smarttelefoner, surfplattor, kassörer, datorer eller Wi-Fi-gäster.
+*Tillräcklig bandbredd* beror på antalet anslutna AEM Screens. Det beror också på användningen av andra konsumenter i nätverket, till exempel smarttelefoner, surfplattor, kassörer, datorer eller Wi-Fi-gäster.
 
 >[!NOTE]
 >
@@ -62,14 +62,14 @@ Prestandan hos det lokala nätverket (LAN) måste, förutom att det går att nå
 
 LAN-nätverket inom företagsorganisationer är vanligtvis minst 1 000 MB/sek-nätverk, så att det finns tillräckligt med bandbredd för att ansluta många enheter med bra prestanda till systemet. När du använder andra aktiva nätverkskomponenter är det obligatoriskt att alla dessa stämmer överens med kraven för nätverksbandbredd.
 
-Nätverkskomponenterna bör till exempel minst matcha 100 Mbit/s-standarden och matcha den bandbredd som anges i specifikationen Internet-åtkomst/router.
+Nätverkskomponenterna bör till exempel minst matcha 100 Mbit/s-standarden och matcha den bandbredd som anges i Internet-specifikationen för åtkomst/router.
 
 ### Specifikationer för andra företagsnätverk {#other-networks}
 
 Företagsnätverk har flera anslutna enheter, är indelade i olika undernätverk och har redundanta eller multiplexade internetanslutningar som ger tillräcklig prestanda för många tusen samtidiga åtkomstmöjligheter.
 Schemat är förenklat och passar de flesta miljöer som är tillgängliga för klienten.
 
-Om en Wi-Fi-lösning planeras för att ansluta skärmar till Internet Link rekommenderar vi att man använder moderna Wi-Fi-standarder som `IEEE 802.11g` som ett minimum. Denna standard stöder anslutningar upp till 54 Mbit/s. Alla *nyare* Standarder som `802.11h-n` är av bättre kvalitet. Om en Wi-Fi-repeater krävs rekommenderar Adobe att du använder trådlös nätanslutning som Google Nest Mesh Wi-Fi eller liknande.
+Om en Wi-Fi-lösning planeras för att ansluta AEM Screens till Internet Link rekommenderar vi att man använder moderna Wi-Fi-standarder som `IEEE 802.11g` som ett minimum. Denna standard stöder anslutningar upp till 54 Mbit/s. Alla *nyare* Standarder som `802.11h-n` är av bättre kvalitet. Om en Wi-Fi-repeater krävs rekommenderar Adobe att du använder trådlös nätanslutning som Google Nest Mesh Wi-Fi eller liknande.
 Andra Wi-Fi-upprepande tekniker slutar med en enorm förlust av bandbredd i hela nätverket.
 
 ## Hämta media och resurser {#download}
@@ -78,11 +78,11 @@ AEM Screens ger användare av digitala signaturer en stor fördel. Den hämtar o
 
 För vanliga åtgärder, till exempel, erbjuder en definierad spellista som uppdateras ofta under dagen en nästan nätverksoberoende åtgärd när alla filer har sparats i spelaren.
 
-För scenarier där det förekommer mer interaktion med sensorer eller utlösare och dynamiskt innehåll är en snabb och tillförlitlig nätverksanslutning avgörande för en omedelbar skärmreaktion som säkerställer bästa möjliga kundupplevelse.
+För scenarier där det förekommer mer interaktion med sensorer eller utlösare och dynamiskt innehåll är en snabb och tillförlitlig nätverksanslutning en förutsättning för en omedelbar skärmreaktion för att säkerställa bästa möjliga kundupplevelse.
 
 Följande tabell ger en översikt över data för nätverksanslutningsnycklar.
 
 >[!NOTE]
->Med hjälp av informationen kan du visa förbrukningen för varje enhet i nätverket som begär och hämtar en Internetkälla. Var och en av dessa förfrågningar sammanfattar och förlänger hämtningstiden.
+>Med hjälp av den här informationen kan du visa förbrukningen för varje enhet i nätverket genom att begära och hämta en Internetkälla. Var och en av dessa förfrågningar sammanfattar och förlänger hämtningstiden.
 
 ![](/help/using/assets/enclosed-network-download.png)

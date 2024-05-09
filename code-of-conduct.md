@@ -1,7 +1,7 @@
 ---
-source-git-commit: ef74265eadf5972eae7451b7725946d8b014c198
+source-git-commit: ce8340f24d116b4268a6ed15dd4e9f626bad1ef6
 workflow-type: tm+mt
-source-wordcount: '423'
+source-wordcount: '435'
 ht-degree: 0%
 
 ---
@@ -9,13 +9,13 @@ ht-degree: 0%
 
 ## Adobe Pledge
 
-För att främja en öppen och välkommen miljö lovar både medverkande och underhållande att göra deltagandet i ett projekt och samhället till en trakasserfri upplevelse för alla. Denna erfarenhet är oberoende av ålder, kroppsstorlek, funktionshinder, etnicitet, könsidentitet och -uttryck, erfarenhetsnivå, nationalitet, personligt utseende, ras, religion, sexuell identitet och läggning.
+För att främja en öppen och välkommen miljö lovar både medverkande och underhållande att göra deltagandet i ett projekt och samhället till en trakasserfri upplevelse för alla. Denna upplevelse är oberoende av ålder, kroppsstorlek, funktionshinder, etnicitet, könsidentitet och uttryck. Oavsett erfarenhetsnivå, nationalitet, personligt utseende, ras, religion eller sexuell identitet och läggning.
 
 ## Adobe
 
 Exempel på beteenden som bidrar till att skapa en positiv miljö är:
 
-* Välkomstspråk och inkluderande språk
+* Använda ett välkommet och inkluderande språk
 * Olika åsikter och erfarenheter respekteras
 * Ta väl emot konstruktiv kritik
 * Fokusera på vad som är bäst för communityn
@@ -27,17 +27,17 @@ Exempel på oacceptabla beteenden från deltagarnas sida är:
 * Trollning, förolämpande/nedsättande kommentarer samt personliga eller politiska angrepp
 * Offentliga eller privata trakasserier
 * Publicera andras personuppgifter, t.ex. en fysisk eller elektronisk adress, utan uttryckligt tillstånd
-* Annat beteende som rimligen skulle kunna anses olämpligt i yrkesmässig miljö
+* Annat beteende som rimligen kan anses olämpligt i yrkesmässig miljö
 
 ## Adobe
 
 Projektledare ansvarar för att förtydliga standarderna för godtagbart beteende och förväntas vidta lämpliga och rättvisa korrigerande åtgärder som svar på eventuella fall av oacceptabla beteenden.
 
-Projektledare har rätt och ansvar att ta bort, redigera eller avvisa kommentarer, implementeringar, kod, wiki-redigeringar, utgåvor eller andra bidrag som inte är anpassade till denna uppförandekod. Eller förbjuda tillfälligt eller permanent medverkande till andra beteenden som de tycker är olämpliga, hotfulla, stötande eller skadliga.
+Projektansvariga har rätt och ansvar att ta bort, redigera och avvisa kommentarer. Denna tillsyn omfattar åtaganden, kod, wiki-redigeringar, utleveranser eller andra bidrag som inte är kopplade till denna uppförandekod. Eller förbjuda tillfälligt eller permanent medverkande till andra beteenden som de tycker är olämpliga, hotfulla, stötande eller skadliga.
 
 ## Omfång
 
-Denna uppförandekod gäller både inom projektutrymmen och på offentliga platser när en person representerar projektet eller dess community. Exempel på hur du representerar ett projekt eller en community är att använda en officiell e-postadress för projektet, publicera via ett officiellt konto för sociala medier eller agera som utsedd representant vid ett online- eller offlineevenemang. Projektledarna kan närmare definiera och klargöra hur ett projekt ska visas.
+Denna uppförandekod gäller både inom projektutrymmen och på offentliga platser när en person representerar projektet eller dess community. Exempel på att representera ett projekt eller en community är att använda en officiell e-postadress för projektet. Det kan även omfatta publicering via ett officiellt konto för sociala medier. Det kan även omfatta att agera som utsedd representant vid online- eller offlineevent. Projektledarna kan ytterligare definiera och förtydliga representationen av ett projekt.
 
 ## Verkställande
 

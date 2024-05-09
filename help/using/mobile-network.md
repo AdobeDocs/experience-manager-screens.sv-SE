@@ -2,9 +2,9 @@
 title: Direkt mobilt nätverk
 description: Läs mer om Direct Mobile Network Setup i AEM Screens.
 exl-id: 6775bd10-7625-422f-a7af-4f7b8793fa42
-source-git-commit: ef74265eadf5972eae7451b7725946d8b014c198
+source-git-commit: ce8340f24d116b4268a6ed15dd4e9f626bad1ef6
 workflow-type: tm+mt
-source-wordcount: '842'
+source-wordcount: '845'
 ht-degree: 0%
 
 ---
@@ -15,11 +15,11 @@ AEM Screens-spelare kan också anslutas med mobilnätverk eller mobilnätverk so
 
 Inom AEM Screens hämtas det nödvändiga innehållet fysiskt till spelarstyrenheten eller datorn och lagras på rätt sätt i det underliggande operativsystemet. Den angivna bandbredden påverkar därför bara inledande hämtningstider och innehållsuppdateringar, och påverkar inte prestanda för vanlig uppspelning av bildskärmar.
 
-Fördelen med att ansluta AEM Screens-spelare via mobiltelefon 3/4/5G till din mobiltjänstleverantör är att mobilroutern kan placeras på en optimerad plats för att få bästa möjliga nätverkstäckning. Detta är vanligtvis i upphöjt och öppet läge med så få omgivande bete- eller metallstrukturer som möjligt.
+Fördelen med att ansluta AEM Screens-spelare via mobilen 3/4/5G till din mobiltjänstleverantör är att mobilroutern kan placeras på en optimerad plats. På så sätt får du bästa möjliga nätverkstäckning. Denna plats är vanligtvis i upphöjt och öppet läge med så få omgivande bete- eller metallstrukturer som möjligt.
 
-Med den här inställningen kan användare av AEM skärmbild få stor flexibilitet eftersom det inte krävs någon fast anslutning för att ansluta till AEM Screens. Det här är intressant för tillfälliga eller mobila miljöer.
+Med den här inställningen kan AEM använda skärmanvändare få stor flexibilitet eftersom det inte krävs någon fast anslutning för att ansluta till AEM Screens. Det här är intressant för tillfälliga eller mobila inställningar.
 
-I följande diagram visas Direct Mobile Network Setup och består av ett enda nätanslutningssegment och anslutningen av varje spelare till det mobila eller mobila datanätverket.
+I följande diagram visas inställningarna för Direct Mobile Network. Det består av ett enda nätanslutningssegment och anslutningen av varje spelare till det mobila eller mobila datanätverket.
 
 ![](/help/using/assets/direct-mobile-1.png)
 
@@ -68,7 +68,7 @@ Som en uppföljning måste det nödvändiga datapaketet vara minst:
 
 
 >[!IMPORTANT]
->För inledande överföring av mediefiler, till exempel, måste en högre datamängd och en ökad hämtningstid förväntas och återspeglas i ovanstående antaganden, samtidigt som nya spelare integreras. Ett 4G-nätverk med *bra* täckning och *obegränsad* data ska överensstämma med de vanligaste installationerna i den här nätverksinställningarna.
+>För inledande överföring av mediefiler samtidigt som nya spelare integreras måste en större mängd data och en ökad hämtningstid förväntas. Detta återspeglas i ovanstående antaganden. Ett 4G-nätverk med *bra* täckning och *obegränsad* data ska överensstämma med de vanligaste installationerna i den här nätverksinställningarna.
 
 >[!NOTE]
 >En lägsta 3G-plan med bra nätverkstäckning bör leda till acceptabel nedladdningsprestanda för en AEM Screens Player. Om det bara finns en rimlig täckning tillgänglig på en viss plats kan du överväga att byta den övergripande nätverksinställningarna till [Mobilnätverk med mobil datarouter och aktiva nätverkskomponenter](/help/using/mobile-network-router.md).
@@ -86,7 +86,7 @@ AEM Screens ger användare av digitala signaturer en stor fördel. Den hämtar o
 
 För vanliga åtgärder, till exempel, erbjuder en definierad spellista som uppdateras ofta under dagen en nästan nätverksoberoende åtgärd när alla filer har sparats i spelaren.
 
-För scenarier där det förekommer mer interaktion med sensorer eller utlösare och dynamiskt innehåll är en snabb och tillförlitlig nätverksanslutning avgörande för en omedelbar skärmreaktion som säkerställer bästa möjliga kundupplevelse.
+För scenarier där det förekommer mer interaktion med sensorer eller utlösare och dynamiskt innehåll är en snabb och tillförlitlig nätverksanslutning en förutsättning för en omedelbar skärmreaktion för att säkerställa bästa möjliga kundupplevelse.
 
 Följande tabell ger en översikt över data för nätverksanslutningsnycklar.
 

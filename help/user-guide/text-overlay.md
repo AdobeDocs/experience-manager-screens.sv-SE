@@ -10,9 +10,9 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: bbc719df-24a7-4cfb-9786-1c3496f9f082
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: ce8340f24d116b4268a6ed15dd4e9f626bad1ef6
 workflow-type: tm+mt
-source-wordcount: '767'
+source-wordcount: '775'
 ht-degree: 0%
 
 ---
@@ -32,11 +32,11 @@ Detta avsnitt behandlar följande ämnen:
 
 ## Ökning {#overview}
 
-Textövertäckning är en funktion i AEM Screens som gör att du kan skapa en övertygande upplevelse i en sekvenskanal genom att ange en rubrik eller en beskrivning som läggs ovanpå en bild.
+Textövertäckning är en funktion i AEM Screens. Du kan skapa en övertygande upplevelse i en sekvenskanal genom att ange en rubrik eller en beskrivning som läggs ovanpå en bild.
 
 Mer information om hur du skapar en egen anpassad komponent finns i **Utöka en AEM Screens-komponent**.
 
-I det här avsnittet visas bara hur du använder och använder förhandsgranskningskomponenten i ett AEM Screens-projekt och använder den som textövertäckning i en av sekvenskanalerna.
+I det här avsnittet visas bara hur du använder och använder förhandsgranskningskomponenten i ett AEM Screens-projekt. Det visas också hur du använder det som en textövertäckning i en av sekvenskanalerna.
 
 ## Använda textövertäckning {#using-text-overlay}
 
@@ -52,7 +52,7 @@ Innan du implementerar den här funktionen bör du kontrollera att du har konfig
 
 * Lägg till innehåll i **TextExempel** Kanal
 
-Följande bild visar **TextOverlayDemo** projekt med **TextExempel** kanal in **Kanaler** mapp.
+Följande bild visar **TextOverlayDemo** projektet med **TextExempel** i **Kanaler** mapp.
 
 ![screen_shot_2018-12-16at75908pm](assets/screen_shot_2018-12-16at75908pm.png)
 
@@ -84,7 +84,7 @@ Du kan lägga till en text i textrutan och lägga till typografisk betoning som 
 
 >[!NOTE]
 >
->Om du vill använda finkorniga verktyg på rätt sätt måste du se till att identifiera rätt position i pixlar med (px) som suffix, till exempel 200 px. Resultatet av det här uttrycket är 200 pixlar från startpunkten.
+>När du använder finkorniga verktyg måste du se till att identifiera rätt position i pixlar med (px) som suffix, till exempel 200 px. Resultatet av det här uttrycket är 200 pixlar från startpunkten.
 
 ## Använda ContextHub-värden i textövertäckning {#using-text-overlay-context-hub}
 
@@ -129,7 +129,7 @@ När du har ställt in de konfigurationer som krävs för ditt projekt följer d
    >[!NOTE]
    >Om du inte har konfigurerat din ContextHub-konfiguration inaktiveras det här alternativet för ditt projekt.
 
-1. Retur **Värde** i **Platshållare** fält. Klicka på raden där du vill hämta värdet från Google-bladet i **ContextHub-variabel**. I det här fallet hämtas värdet från rad 2 och kolumn 1 från Google-bladen. Nu öppnar du **Standardvärde** as **20**, vilket visas i bilden nedan. När du är klar klickar du på bockmarkeringen.
+1. Retur **Värde** i **Platshållare** fält. Klicka på raden där du vill hämta värdet från Google-bladet i **ContextHub-variabel**. I det här fallet hämtas värdet från rad 2 och kolumn 1 från Google-bladen. Nu kan du **Standardvärde** as **20**, vilket visas i bilden nedan. När du är klar klickar du på bockmarkeringen.
 
    ![image1](/help/user-guide/assets/text-overlay/text-overlay5.png)
 

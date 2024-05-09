@@ -1,31 +1,31 @@
 ---
 title: Använda anpassad profilering och formatering för textövertäckningar
-description: Lär dig hur du använder anpassad varumärkesprofilering och formatering för textövertäckningar för resurser i en AEM Screens-kanal.
+description: Lär dig hur du använder anpassad varumärkesprofilering och formatering för textövertäckningar som tillämpas på resurser i en AEM Screens-kanal.
 contentOwner: Jyotika Syal
 feature: Developing Screens
 role: Developer
 level: Intermediate
 exl-id: 059e1b19-e9b5-48f0-8f2f-141f0c2f7842
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: ce8340f24d116b4268a6ed15dd4e9f626bad1ef6
 workflow-type: tm+mt
-source-wordcount: '581'
+source-wordcount: '582'
 ht-degree: 1%
 
 ---
 
 # Anpassad profilering och formatering för textövertäckningar {#creating-custom-branding-styling}
 
-Lär dig hur du använder anpassad varumärkesprofilering och formatering för textövertäckningar på dina resurser i en AEM Screens-kanal.
+Lär dig hur du använder anpassad varumärkesprofilering och formatering för textövertäckningar för dina resurser i en AEM Screens-kanal.
 
 ## Skapa anpassad profilering och formatering för textövertäckningar {#steps-custom-branding}
 
 Följ stegen nedan för att skapa anpassade märkesnamn och format för textövertäckningar:
 
-1. Skapa ett AEM Screens-projekt. I det här exemplet visas funktionen genom att ett projekt med namnet skapas **`customstyle`** och en kanal med namnet **DemoBrand** , vilket visas i figuren nedan.
+1. Skapa ett AEM Screens-projekt. I det här exemplet visas funktionen genom att ett projekt med namnet skapas **`customstyle`** och en kanal med namnet **DemoBrand**, vilket visas i figuren nedan.
 
    ![bild](/help/user-guide/assets/custom-brand/custom-brand1.png)
 
-1. Dra och släpp en bild från redigeraren och lägg till textövertäckning till resursen.
+1. Dra och släpp en bild från redigeraren och lägg till en textövertäckning till resursen.
 
    ![bild](/help/user-guide/assets/custom-brand/custom-brand2.png)
 
@@ -38,7 +38,7 @@ Följ stegen nedan för att skapa anpassade märkesnamn och format för textöve
 
    ![bild](/help/user-guide/assets/custom-brand/custom-brand3.png)
 
-1. Skapa *static.css* och ange följande CSS-regler. Visas också som ett exempel i figuren under CSS-reglerna.
+1. Skapa en *static.css* och ange följande CSS-regler. Visas också som ett exempel i figuren under CSS-reglerna.
 
    ```shell
     //global styles
@@ -73,7 +73,7 @@ Följ stegen nedan för att skapa anpassade märkesnamn och format för textöve
    ![bild](/help/user-guide/assets/custom-brand/custom-brand5.png)
 
    >[!NOTE]
-   >Som standard är **Design** I det här fältet visas sökvägen till designen i mappen libs.
+   >Som standard är **Design** visas sökvägen som pekar mot designer i mappen libs.
 
 1. Uppdatera **Design** med sökvägen till projektmappen. I det här fallet är det `/apps/settings/wcm/designs/customstyle`.
 
@@ -96,7 +96,7 @@ Följ stegen nedan för att skapa anpassade märkesnamn och format för textöve
 
 ### Uppdaterar åtkomstkontrollistor {#updating-acls}
 
-Uppdatera åtkomstkontrollistorna för dessa designer så att de kan hämtas av spelaren.
+Uppdatera åtkomstkontrollistorna för dessa designer så att spelaren kan hämta dem.
 
 1. Navigera till användaradministratören och välj `screens-<project>-devices group` och ge den läsbehörighet till den anpassade designsökvägen.
 
@@ -130,4 +130,4 @@ Följ stegen nedan för att visa den uppdaterade designen för textövertäcknin
 
    ![bild](/help/user-guide/assets/custom-brand/custom-brand11.png)
 
-   Nu kan ni uppdatera ert varumärke och anpassa formateringen för textöverlägg som läggs till i ert material.
+   Nu kan ni uppdatera ert varumärke och era anpassade format för textöverlägg som lagts till i era resurser.

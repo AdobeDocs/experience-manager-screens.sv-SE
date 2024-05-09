@@ -4,9 +4,9 @@ description: Läs mer om AEM Screens Players och deras respektive AEM Screens-ve
 page-status-flag: de-activated
 contentOwner: jsyal
 docset: aem65
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: ce8340f24d116b4268a6ed15dd4e9f626bad1ef6
 workflow-type: tm+mt
-source-wordcount: '301'
+source-wordcount: '309'
 ht-degree: 0%
 
 ---
@@ -76,7 +76,7 @@ aem-screens-player-ios-3.3.0.ipa.zip
 
 ### Hämta länk {#download-link-1}
 
-Klicka på nedladdningslänk för Windows 10 Player:
+Klicka på nedladdningslänken för Windows 10 Player:
 
 aem-screens-player-windows-1.0.48-signed.exe.zip
 
@@ -109,23 +109,23 @@ aem-screens-player-android-3.3.0.apk.zip
   </tr>
   <tr>
    <td><strong>AEM 6.3+SP1+Skärmar FP1(1.0.64_B002)</strong></td> 
-   <td><p><strong>3.2.72 - </strong>Finns i Apple store</p> <p><strong>3.3.0</strong> - Fungerar inte</p> <p> </p> </td> 
+   <td><p><strong>3.2.72 - </strong>Finns i Apple Store</p> <p><strong>3.3.0</strong> - Fungerar inte</p> <p> </p> </td> 
    <td><strong>1.0.12</strong> - (Finns på Macromedia)</td> 
    <td><p><strong>1.0.30 -</strong> Finns i Chrome Store.</p> <p>Stöds inte med funktionspaket 1</p> </td> 
    <td><strong>3.2.68 -</strong> (på Macromedia Site) och Google Play Store</td> 
   </tr>
   <tr>
    <td><strong><strong>AEM 6.3+SP1+Skärmar FP2 (1.0.298)</strong></strong></td> 
-   <td><p><strong>3.3.0</strong> - <a href="https://download.macromedia.com/screens/">https://download.macromedia.com/screens/</a></p> <p>Publiceras på Apple Store</p> <p> </p> </td> 
+   <td><p><strong>3.3.0</strong> - <a href="https://download.macromedia.com/screens/">https://download.macromedia.com/screens/</a></p> <p>Ska publiceras på Apple Store</p> <p> </p> </td> 
    <td><strong>1.0.48 -</strong> <a href="https://download.macromedia.com/screens/">https://download.macromedia.com/screens/</a></td> 
-   <td><p><strong>1.0.42 - </strong></p> <p>Ska publiceras på Chrome Store</p> </td> 
+   <td><p><strong>1.0.42 - </strong></p> <p>Ska publiceras i Chrome Store</p> </td> 
    <td><strong>3.3.0 - </strong><a href="https://download.macromedia.com/screens/">https://download.macromedia.com/screens/</a></td> 
   </tr>
   <tr>
    <td><strong>AEM 6.4</strong></td> 
-   <td><p><strong>3.3.0</strong> - <a href="https://download.macromedia.com/screens/">https://download.macromedia.com/screens/</a></p> <p>Publiceras på Apple Store</p> </td> 
+   <td><p><strong>3.3.0</strong> - <a href="https://download.macromedia.com/screens/">https://download.macromedia.com/screens/</a></p> <p>Ska publiceras på Apple Store</p> </td> 
    <td><p><strong>1.0.48 -</strong><br /> </p> <p><a href="https://download.macromedia.com/screens/">https://download.macromedia.com/screens/</a></p> </td> 
-   <td><p><strong>1.0.42 - </strong></p> <p>Ska publiceras på Chrome Store</p> </td> 
+   <td><p><strong>1.0.42 - </strong></p> <p>Ska publiceras i Chrome Store</p> </td> 
    <td><strong>3.3.0 - </strong><a href="https://download.macromedia.com/screens/">https://download.macromedia.com/screens/</a></td> 
   </tr>
  </tbody>

@@ -10,9 +10,9 @@ feature: Administering Screens, Device Registration
 role: Admin
 level: Intermediate
 exl-id: b2d3a2cd-263f-4142-80da-29ce54cbf391
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: ce8340f24d116b4268a6ed15dd4e9f626bad1ef6
 workflow-type: tm+mt
-source-wordcount: '738'
+source-wordcount: '722'
 ht-degree: 0%
 
 ---
@@ -69,7 +69,7 @@ Enhetsregistreringsprocessen görs på två olika datorer:
 
    ![screen_shot_2018-11-26at105227am](assets/screen_shot_2018-11-26at105227am.png)
 
-1. Om **Registreringskod** är samma på båda datorerna, klicka på **Validera** i AEM, vilket visas i steg 6.
+1. Om **Registreringskod** är samma på båda datorerna, klicka på **Validera** i AEM, som i steg 6.
 1. Ange önskat namn för enheten och klicka på **Registrera**.
 
    ![screen_shot_2018-11-26at105357am](assets/screen_shot_2018-11-26at105357am.png)
@@ -112,7 +112,7 @@ Om du inte har tilldelat enheten till en skärm följer du stegen nedan för att
 
    ![screen_shot_2018-11-26at112041am](assets/screen_shot_2018-11-26at112041am.png)
 
-   Du kan även visa kontrollpanelen när du väljer **Slutför**.
+   Du kan även visa kontrollpanelen genom att välja **Slutför**.
 
    ![screen_shot_2018-11-26at112154am](assets/screen_shot_2018-11-26at112154am.png)
 
@@ -141,22 +141,22 @@ När du har registrerat enheter till spelaren kan du visa alla enheter från anv
 
 ### Begränsningar för sökfunktioner {#limitations}
 
-* Användaren kan söka efter alla ord som finns i *Enhets-ID* eller *Enhetsnamn*.
+* Användaren kan söka efter alla ord som finns i *enhets-ID* eller *enhetsnamn*.
 
   >[!NOTE]
-  >Vi rekommenderar att du skapar enhetsnamnen med flera ord, t.ex. *Boston Store Lobby* i stället för en enstaka *BostonStoreLobby*.
+  >Vi rekommenderar att du skapar enhetsnamnen med flera ord, t.ex. *`Boston Store Lobby`* i stället för en enstaka *`BostonStoreLobby`*.
 
-* Om du skapar enhetsnamn som *Boston Store Lobby* söker den efter alla ord *boston*, *store*, eller *lobby*. Om enhetsnamnet är *BostonStoreLobby* söker sedan efter *boston* visar inga resultat.
+* Om du skapade enhetsnamn som *`Boston Store Lobby`* söker den efter alla ord *`boston`*, *`store`*, eller *`lobby`*. Om enhetsnamnet är *`BostonStoreLobby`* söker sedan efter *`boston`* visar inga resultat.
 
-* Vildkort, `*` stöds för sökning. Om du vill hitta alla enheter med namn som börjar med *boston* kan du använda *boston**.
+* Vildkort, `*` stöds för sökning. Om du vill hitta alla enheter med namn som börjar med *`boston`* kan du använda *`boston`**.
 
-* Om enhetsnamnet är *BostonStoreLobby* och söka efter *boston* returnerar inte resultatet, och använder *boston** i sökvillkoren returnerar resultatet.
+* Om enhetsnamnet är *`BostonStoreLobby`* och söka efter *`boston`* returnerar inte resultatet, och använder *`boston`** i sökvillkoren returnerar resultatet.
 
 ## Begränsningar för enhetsregistrering {#limitations-on-device-registration}
 
 Användarlösenordsbegränsningar för hela systemet kan orsaka fel i enhetsregistreringen. Enhetsregistreringen använder ett slumpmässigt genererat lösenord för att skapa enhetsanvändaren.
 
-Om lösenordet är begränsat av *AuthorizableActionProvider* konfiguration, det kan hända att det inte går att skapa enhetsanvändaren.
+Om *AuthorizableActionProvider* konfigurerar begränsar lösenordet. Det kan hända att enhetsanvändaren inte kan skapas.
 
 >[!NOTE]
 >

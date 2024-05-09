@@ -9,16 +9,16 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: c55dc128-208d-4379-95a8-60a39d495dc0
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: ce8340f24d116b4268a6ed15dd4e9f626bad1ef6
 workflow-type: tm+mt
-source-wordcount: '659'
+source-wordcount: '661'
 ht-degree: 0%
 
 ---
 
 # Skapa och hantera skärmar {#creating-and-managing-displays}
 
-En skärm är en virtuell gruppering av skärmar som är placerade bredvid varandra. Bildskärmen är permanent med avseende på en installation. Det här är det objekt som författare arbetar med och refererar alltid till som logisk visning i stället för deras fysiska räknardelar.
+En skärm är en virtuell gruppering av skärmar som är placerade bredvid varandra. Bildskärmen är permanent med avseende på en installation. Det är det objektinnehåll som författare arbetar med och refererar alltid till som logisk visning i stället för deras fysiska motdelar.
 
 När du skapar en plats måste du skapa en visning för platsen.
 
@@ -40,7 +40,7 @@ På den här sidan visas hur du skapar och hanterar skärmar.
 1. Navigera till lämplig plats, till exempel `http://localhost:4502/screens.html/content/screens/TestProject`.
 1. Klicka på din platsmapp och klicka på **Skapa** bredvid plusikonen i åtgärdsfältet.
 1. Klicka **Visa** från **Skapa** guide, klicka sedan på **Nästa**.
-1. Retur **Namn** och **Titel** för din visningsplats.
+1. Ange **Namn** och **Titel** för din visningsplats.
 1. Under **Visa** väljer du information om layouten. Välj önskat **Upplösning**, till exempel **Full HD**. Välj antalet enheter vågrätt och lodrätt.
 1. Klicka **Skapa**.
 
@@ -48,7 +48,7 @@ Visningen (*StoreDisplay*) skapas och läggs till på platsen (*SanJose*).
 
 ![visa](assets/display.gif)
 
-När du har visat på plats är nästa steg att skapa en enhetskonfiguration för den aktuella skärmen.
+När du har en skärm på plats är nästa steg att skapa en enhetskonfiguration för den aktuella skärmen.
 
 >[!NOTE]
 >
@@ -80,13 +80,13 @@ Enhetskonfigurationen skapas och läggs till i den aktuella skärmen (i följand
 >
 >Så som visas i figuren nedan, om enhetskonfigurationen visas som ej tilldelad i **ENHETER** om ingen kanal har tilldelats den aktuella enhetskonfigurationen.
 >
->Du bör ha en förståelse för att skapa och hantera kanaler. Se [Skapa och hantera kanaler](managing-channels.md) för mer information.
+>Du bör ha en förhandsförståelse för att skapa och hantera kanaler. Se [Skapa och hantera kanaler](managing-channels.md) för mer information.
 
 ![chlimage_1-9](assets/chlimage_1-9.png)
 
 ## Visa instrumentpanel {#display-dashboard}
 
-På kontrollpanelen visas olika paneler för att hantera visningsenheter och enhetskonfigurationer för din enhet.
+På kontrollpanelen visas olika paneler för att hantera visningsenheter. Du kan även konfigurera enheten.
 
 ![screen_shot_2018-08-23at42810pm](assets/screen_shot_2018-08-23at42810pm.png)
 
@@ -109,9 +109,9 @@ Klicka (**...**) i det övre högra hörnet i **VISNINGSINFORMATION** så att du
 
 Klicka **Egenskaper** så att du kan visa eller ändra egenskaperna för visningen.
 
-Du kan även justera händelsens timervärde för den interaktiva kanalen i **Timeout för inaktivitet** egenskap under **Visa** -fliken. Standardvärdet är *300 sekunder*.
+Du kan även justera händelsens timervärde för den interaktiva kanalen under **Visa** -fliken. Standardvärdet är *300 sekunder*.
 
-Använd **CRXDE Lite** för att få åtkomst till **idleTimeout** property, d.v.s. `http://localhost:4502/crx/de/index.jsp#/content/screens/we-retail/locations/demo/flagship/single/jcr%3Acontent/channels` .
+Använd **CRXDE Lite** för att få åtkomst till **idleTimeout** property, d.v.s. `http://localhost:4502/crx/de/index.jsp#/content/screens/we-retail/locations/demo/flagship/single/jcr%3Acontent/channels`.
 
 
 ### Panelen Tilldelade kanaler {#assigned-channels-panel}

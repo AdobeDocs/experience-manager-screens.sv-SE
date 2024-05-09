@@ -10,9 +10,9 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 926f529b-f3cf-471d-83b4-6ccb628cf160
-source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
+source-git-commit: ce8340f24d116b4268a6ed15dd4e9f626bad1ef6
 workflow-type: tm+mt
-source-wordcount: '578'
+source-wordcount: '577'
 ht-degree: 0%
 
 ---
@@ -23,9 +23,9 @@ I följande exempel visas tre olika bilder baserat på värdena i Google-bladet.
 
 ## Beskrivning {#description}
 
-Det här exemplet visar butikslagret för tre olika färgade tröjor. Beroende på hur många tröjor som finns i lager och som är inspelade i Google Sheets, visas bilden (röd, grön eller blå tröja) med det högsta antalet på skärmen.
+Det här exemplet visar butikslagret för tre olika färgade tröjor. Beroende på hur många tröjor som finns i lager och som finns i Google Sheets, visas bilden (röd, grön eller blå tröja) med det högsta antalet.
 
-I det här fallet visas den röda, gröna eller blå tröjan på skärmen baserat på det högsta antalet tröjor som är tillgängliga.
+Den röda, gröna eller blå tröjan visas baserat på det högsta värdet av antalet tillgängliga tröjor.
 
 ## Förhandsvillkor {#preconditions}
 
@@ -55,13 +55,13 @@ Följ stegen nedan för att implementera användningsexemplet för butikslagerak
    1. Dra och släpp **Comparison : Property - Property** till redigeraren.
    1. Klicka på **Konfiguration** -ikon.
    1. Klicka **googlesheets/value/1/2** från listrutan i **Första egenskapsnamnet**.
-   1. Klicka på **Operator** as **större än** i listrutan.
-   1. Klicka **Datatyp** as **tal**.
+   1. Klicka på **Operator** och som **större än** i listrutan.
+   1. Klicka **Datatyp** och som **tal**.
    1. Klicka **googlesheets/value/1/1** från listrutan i **Andra egenskapsnamnet**.
    1. Dra och släppa **en annan jämförelse: property - property** till redigeraren och klicka på **Konfiguration** -ikon.
    1. Klicka **googlesheets/value/1/2** från listrutan i **Första egenskapsnamnet**.
-   1. Klicka på **Operator** as **större än** i listrutan.
-   1. Klicka **Datatyp** as **tal**.
+   1. Klicka på **Operator** och som **större än** i listrutan.
+   1. Klicka **Datatyp** och som **tal**.
    1. Klicka **googlesheets/value/1/0** från listrutan i **Andra egenskapsnamnet**.
 
    ![screen_shot_2019-05-06at102600am](assets/screen_shot_2019-05-06at102600am.png)
@@ -85,7 +85,7 @@ Följ stegen nedan för att implementera användningsexemplet för butikslagerak
 
    >[!CAUTION]
    >
-   >Du borde ha konfigurerat **ContextHub** **Konfigurationer** använda kanalen **Egenskaper** > **Personalisering** -fliken.
+   >Du bör redan ha konfigurerat **ContextHub** **Konfigurationer** använda kanalen **Egenskaper** > **Personalisering** -fliken.
 
    ![screen_shot_2019-05-06at105214am](assets/screen_shot_2019-05-06at105214am.png)
 
