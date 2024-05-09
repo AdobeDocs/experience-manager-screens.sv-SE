@@ -9,20 +9,20 @@ feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: 4f16605b-aec1-45fa-a110-0af6925b74b0
-source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
+source-git-commit: e82cfee5ecc6b639b7b2b65553d1635943b356ea
 workflow-type: tm+mt
-source-wordcount: '867'
+source-wordcount: '870'
 ht-degree: 0%
 
 ---
 
-# Implementera Chrome OS Player  {#implementing-chrome-os-player}
+# Implementera Chrome OS Player {#implementing-chrome-os-player}
 
 I det här avsnittet beskrivs hur du implementerar Chrome OS Player med Chrome Management Console.
 
 ## Använda Chrome Management Console {#using-chrome-management-console}
 
-Följ stegen nedan för att konfigurera en kromhanteringskonsol:
+Följ stegen nedan för att konfigurera Chrome Management Console:
 
 1. Registrera dig för Chrome Management Console. Du måste skaffa en licens för Chrome Management Console. Kontakt [Google Support](https://support.google.com/chrome/a/answer/1375678?hl=en&amp;ref_topic=2935995) om du vill ha mer information om hur du hanterar Chrome-enhetsinställningar.
 1. Registrera din Chrome OS-enhet i domänen och vänta i 15 minuter på att enheten ska synkroniseras med Chrome Management Console. Om du vill veta mer om att registrera en enhet för fönsterstandard klickar du på [här](https://support.google.com/chrome/a/answer/1360534?hl=en).
@@ -54,7 +54,7 @@ Följ stegen nedan för att konfigurera namnet i Chrome Player:
    ![bild](/help/user-guide/assets/chrome-device/chrome3.png)
 
    >[!NOTE]
-   >Chrome Players måste registreras i företagsregistrering och Chrome Player måste distribueras via Chrome Management Console, annars returneras resurs-ID tomt (till exempel Chrome som ett tillägg). Enhetsnamnet registreras endast vid registreringen. Framtida ändringar hämtas inte upp av Adobe Experience Manager (AEM).
+   >Chrome Players måste registreras i företagsregistrering och Chrome Player måste distribueras via Chrome Management Console, annars returneras resurs-ID tomt (till exempel chrome som ett tillägg). Enhetsnamnet registreras endast vid registreringen. Framtida ändringar hämtas inte upp av Adobe Experience Manager (AEM).
 
 ### Aktivera helskärmsläge {#enabling-kiosk-mode}
 
@@ -94,7 +94,7 @@ Aktivera Kiosk-läget genom att följa stegen nedan:
 
 AEM Screens Player är ett program som stöder Kiosk och som även aktiverar Remote Policy Configuration för Chrome OS-spelare.
 
-Följ stegen nedan för att konfigurera olika alternativ för spelaren:
+Följ stegen nedan för att konfigurera de olika alternativen för spelaren:
 
 1. Logga in på Chrome Management Console.
 1. Klicka **Enhetshantering** > **Chrome Management** > **Apphantering**. AEM Screens Player visas i listan.
@@ -143,14 +143,14 @@ I följande tabell sammanfattas profilerna med deras funktioner.
 | upplösning | Enhetens upplösning. |
 | rebootSchedule | Schemat för att starta om spelaren. |
 | enableAdminUI | Aktivera administratörsgränssnittet för att konfigurera enheten på platsen. Anges till false när den är helt konfigurerad och i produktion. |
-| enableOSD | Aktivera kanalväljarens användargränssnitt för att användare ska kunna växla kanaler på enheten. Överväg att ställa in på false när den är helt konfigurerad och i produktion. |
+| enableOSD | Aktivera kanalväljarens användargränssnitt så att användare kan växla kanaler på enheten. Överväg att ställa in på false när den är helt konfigurerad och i produktion. |
 | enableActivityUI | Aktivera så att du kan visa förloppet för aktiviteter som hämtning och synkronisering. Aktivera för felsökning och inaktivera när den är helt konfigurerad och i produktion. |
 | cloudMode | Ange true om du vill att Chrome Player ska ansluta till skärmar as a Cloud Service. Ange som false om du vill ansluta till AMS eller AEM. |
 | cloudToken | Registreringstoken för registrering mot skärmar as a Cloud Service. |
 
 >[!NOTE]
 >
->Principkonfigurationer används strikt och åsidosätts inte manuellt i spelarens administratörsgränssnitt. Om du vill tillåta manuell spelarkonfiguration för en viss princip ska du inte ange principen i ***principkonfiguration***. Om du till exempel vill tillåta manuell konfiguration för omstartsschema ska du inte ange nyckeln ***rebootSchedule*** i principkonfigurationen.
+>Principkonfigurationer används strikt och spelarens administratörsgränssnitt åsidosätts inte manuellt. Om du vill tillåta manuell spelarkonfiguration för en viss princip ska du inte ange principen i ***principkonfiguration***. Om du till exempel vill tillåta manuell konfiguration för omstartsschema ska du inte ange nyckeln ***rebootSchedule*** i principkonfigurationen.
 
 ### Använda fjärrkontrollen till skärmar {#using-remote-control}
 

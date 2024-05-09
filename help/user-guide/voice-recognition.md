@@ -5,9 +5,9 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 6cf0aa9f-7bac-403f-a113-51727c1f5374
-source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
+source-git-commit: 6720e20f5254e869bde814bd167730e426d0f8fe
 workflow-type: tm+mt
-source-wordcount: '1088'
+source-wordcount: '1092'
 ht-degree: 1%
 
 ---
@@ -18,9 +18,9 @@ ht-degree: 1%
 >
 >**Viktig sekretessinformation**
 >
->När du använder funktionen för röstigenkänning ska du följa alla tillämpliga juridiska och etiska riktlinjer för din region (inklusive, men inte begränsat till, att ge slutanvändarna ett synligt meddelande om att spelaren använder röstigenkänning). Adobe tar inte emot, lagrar eller bearbetar någon röstrelaterad information. AEM Screens-spelarna använder det standardwebbtal-API som är inbyggt i webbläsarmotorn. Bakom kulisserna skickar denna API en vågform av ditt tal till Google-servrar för konvertering från tal till text och den här texten matchas av spelaren mot konfigurerade nyckelord.
+>När du använder funktionen för röstigenkänning ska du följa alla tillämpliga juridiska och etiska riktlinjer för din region. Dessa riktlinjer innehåller, men är inte begränsade till, ett synligt meddelande till slutanvändarna om att spelaren använder röstigenkänning). Adobe tar inte emot, lagrar eller bearbetar någon röstrelaterad information. AEM Screens-spelarna använder det standard-API för webbtal som är inbyggt i webbläsarmotorn. Bakom kulisserna skickar denna API en vågform av ditt tal till Google-servrar för konvertering från tal till text. Spelaren matchar texten mot konfigurerade nyckelord.
 >
->Se [Google sekretessrapport om webbtalets-API](https://www.google.com/chrome/privacy/whitepaper.html#speech) för mer information.
+>Se [Google Sekretessrapport om webb-API:t](https://www.google.com/chrome/privacy/whitepaper.html#speech) för mer information.
 
 
 Röstigenkänningsfunktionen tillåter innehållsändringar i en AEM Screens-kanal som styrs av röstinteraktion.
@@ -41,7 +41,7 @@ I följande avsnitt beskrivs hur du kan aktivera och använda funktionen för r�
 
 ## Visa innehåll i helskärmsläge eller kanalbyte för delad skärm {#sequence-channel}
 
-Innan du använder funktionen för röstigenkänning bör du kontrollera att du har ett projekt och en kanal med innehåll som har konfigurerats för ditt projekt.
+Innan du använder en röstigenkänningsfunktion bör du kontrollera att du har ett projekt och en kanal med innehåll som har konfigurerats för projektet.
 
 1. I följande exempel visas ett demoprojekt med namnet **VoiceDemo** och tre sekvenskanaler **Huvud**, **ColdDrinks** och **HotDrinks**, vilket visas i figuren nedan.
 
@@ -73,7 +73,7 @@ Innan du använder funktionen för röstigenkänning bör du kontrollera att du 
 
    ![bild](assets/voice-recognition/vr-2.png)
 
-   Om du har lagt till kanalen Dela skärmar i ditt projekt går du till **SplitScreen** och dra och släpp två inbäddade sekvenser och lägg till banor i båda **ColdDrinks** och **HotDrinks** kanal enligt bilden nedan.
+   Om du har lagt till kanalen för delade skärmar i ditt projekt går du till **SplitScreen** och dra och släpp två inbäddade sekvenser. Lägg till banor i båda **ColdDrinks** och **HotDrinks** kanal enligt bilden nedan.
    ![bild](assets/voice-recognition/vr-emb-6.png)
 
 
@@ -97,11 +97,11 @@ Följ stegen nedan för att lägga till taggar i din kanal:
 
    Eller
 
-   Du kan också skapa taggar från AEM i förväg för ditt projekt och klicka på dem. När du har följt de steg som beskrivs i [Skapa taggar](#creating-tags)kan du klicka på taggen från platsen och lägga till den i kanalen, vilket visas i bilden nedan:
+   Du kan också skapa taggar från AEM i förväg för ditt projekt och markera dem. När du har följt de steg som beskrivs i [Skapa taggar](#creating-tags)kan du klicka på taggen från platsen och lägga till den i kanalen, vilket visas i bilden nedan:
 
    ![bild](assets/voice-recognition/vr-tag1.png)
 
-1. På samma sätt lägger du till taggen med namnet som **hot** till **HotDrinks** kanal.
+1. Lägg på liknande sätt till en tagg med namnet som **hot** till **HotDrinks** kanal.
 
 1. Om du använder en kanal för delade skärmar lägger du till båda taggarna (**hot** och **kall**) till **SplitScreen** kanalegenskaper, vilket visas i bilden nedan.
 
@@ -161,7 +161,7 @@ Nu kan du använda de här taggarna i ditt AEM Screens-projekt.
 
 1. När du har tilldelat kanaler till en visning går du till **LobbyDisplay** och klicka på visningen. Klicka **Egenskaper** i åtgärdsfältet.
 
-1. Navigera till **Visa** och aktivera **Röstaktivering** option under **Innehåll**.
+1. Navigera till **Visa** -fliken och aktivera **Röstaktivering** option under **Innehåll**.
 
    ![bild](assets/voice-recognition/vr-disp.png)
 
@@ -170,17 +170,17 @@ Nu kan du använda de här taggarna i ditt AEM Screens-projekt.
 
 ### Visa innehållet i Chrome Player {#viewing-content}
 
-När de föregående stegen är slutförda kan du registrera din fönsterenhet för att visa utdata.
+När de föregående stegen är slutförda kan du registrera din Chrome-enhet för att visa utdata.
 
 >[!NOTE]
 >Se [Enhetsregistrering](device-registration.md).
 
 **Önskad utdata för sekvenskanal**
 
-The **Huvud** innehållet spelas upp i kanalen, men när du använder ord med nyckelord **hot** som *Jag skulle vilja ta en drink.* börjar kanalen spela upp innehållet i **HotDrinks** kanal.
+The **Huvud** Kanalen spelar upp innehållet. När du använder ord med nyckelordet **hot**, till exempel *Jag skulle vilja ta en drink.* börjar kanalen spela upp innehållet i **HotDrinks** kanal.
 
-På samma sätt om du använder ord med ett nyckelord **kall** som *Jag skulle vilja ha någonting kallt* börjar kanalen spela upp innehållet i **ColdDrinks** kanal.
+Om du använder ett ord med ett nyckelord på samma sätt **kall** som *Jag skulle vilja ha någonting kallt* börjar kanalen spela upp innehållet i **ColdDrinks** kanal.
 
 **Önskad utdata för kanalen för delade skärmar**
 
-The **Huvud** Kanalen spelar upp innehållet. När du använder ord med nyckelord **hot** och **kall** tillsammans med *Jag vill se menyn för varma och kalla drycker* spelas innehållet upp i **SplitScreen** kanal. Om du säger *tillbaka till huvudmenyn*&#x200B;återgår den till **Huvud** kanal.
+The **Huvud** Kanalen spelar upp innehållet. När du använder ord med nyckelordet **hot** och **kall** tillsammans, som *Jag vill se menyn för varma och kalla drycker* spelas innehållet upp i **SplitScreen** kanal. Om du säger *tillbaka till huvudmenyn*&#x200B;återgår den till **Huvud** kanal.

@@ -1,13 +1,13 @@
 ---
 title: Aktivering på tillgångsnivå
-description: Lär dig hur du aktiverar en viss resurs i en kanal för en schemalagd tidsram i spelarens lokala tidszon.
+description: Lär dig hur du aktiverar en viss resurs i en kanal för en schemalagd tidsram, allt inom spelarens lokala tidszon.
 feature: Authoring Screens, Asset Level Activation
 role: Admin, Developer
 level: Intermediate
 exl-id: a2f5b2cc-6797-4397-b49c-72175a2d2ef7
-source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
+source-git-commit: e82cfee5ecc6b639b7b2b65553d1635943b356ea
 workflow-type: tm+mt
-source-wordcount: '1460'
+source-wordcount: '1477'
 ht-degree: 0%
 
 ---
@@ -38,7 +38,7 @@ Följande ämnen behandlas i detta avsnitt:
 
 ## Ökning {#overview}
 
-***Aktivering på tillgångsnivå*** Med kan du aktivera en viss resurs i en kanal för en schemalagd tidsram i spelarens lokala tidszon. Detta är tillgängligt för bilder, videoklipp, övergångar, sidor och inbäddade kanaler (dynamiska eller statiska).
+***Aktivering på tillgångsnivå*** Med kan du aktivera en viss resurs i en kanal för en schemalagd tidsram, allt inom spelarens lokala tidszon. Den här funktionen är tillgänglig för bilder, videoklipp, övergångar, sidor och inbäddade kanaler (dynamiska eller statiska).
 
 *Till exempel* vill du att en specialkampanj bara ska visas under en glad timme (2:00 till 17:00) på måndagar och onsdagar.
 
@@ -46,7 +46,7 @@ Med den här funktionen kan du inte bara ange start- och slutdatum och sluttid u
 
 ## Aktiveringsfönster {#single-event-playback}
 
-Aktivering på tillgångsnivå görs genom att konfigurera **Aktivering** när du får åtkomst till egenskaper för en resurs.
+Aktivering på tillgångsnivå görs genom att konfigurera **Aktivering** när du får åtkomst till egenskaperna för en resurs.
 
 Följ stegen nedan för att utföra planering på tillgångsnivå:
 
@@ -58,8 +58,8 @@ Följ stegen nedan för att utföra planering på tillgångsnivå:
    >
    >Lär dig mer om hur man
    >
-   >* Skapa ett projekt, se [Skapa ett nytt projekt](creating-a-screens-project.md).
-   >* Skapa och lägga till innehåll i en kanal, se [Hantera kanaler](managing-channels.md).
+   >* Skapa ett projekt. Se [Skapa ett nytt projekt](creating-a-screens-project.md).
+   >* Skapa och lägga till innehåll i en kanal. Se [Hantera kanaler](managing-channels.md).
 
 1. Klicka **Redigera** så att du kan öppna kanalredigeraren och klicka på en resurs som du vill använda schemaläggningen på.
 
@@ -79,7 +79,7 @@ Följ stegen nedan för att utföra planering på tillgångsnivå:
 
 ## Hantera återkommande i resurser {#handling-recurrence-in-assets}
 
-Du kan schemalägga att mediefiler ska återkomma med vissa intervall på daglig, veckovis eller månadsbasis efter behov.
+Du kan schemalägga att resurser ska återkomma med vissa intervall på en daglig, veckovis eller månadsbasis beroende på dina behov.
 
 Anta att du bara vill visa en bild på fredag från 1:00 till 10:00. Du kan använda **Aktivering** för att ange önskat återkommande intervall för resursen.
 
@@ -96,7 +96,7 @@ Anta att du bara vill visa en bild på fredag från 1:00 till 10:00. Du kan anv�
 
 #### Exempeluttryck för dagdelning {#example-one}
 
-I följande tabell sammanfattas några exempeluttryck som du kan lägga till i schemat när du tilldelar kanal till en visning.
+I följande tabell sammanfattas några exempeluttryck som du kan lägga till i schemat när du tilldelar en kanal till en visning.
 
 | **Uttryck** | **Tolkning** |
 |---|---|
@@ -122,7 +122,7 @@ I följande tabell sammanfattas några exempeluttryck som du kan lägga till i s
 
 #### Exempeluttryck för WeekParting {#example-two}
 
-I följande tabell sammanfattas några exempeluttryck som du kan lägga till i schemat när du tilldelar kanal till en visning.
+I följande tabell sammanfattas några exempeluttryck som du kan lägga till i schemat när du tilldelar en kanal till en visning.
 
 | **Uttryck** | **Tolkning** |
 |---|---|
@@ -147,7 +147,7 @@ I följande tabell sammanfattas några exempeluttryck som du kan lägga till i s
 
 #### Exempeluttryck för MonthParting {#example-three}
 
-I följande tabell sammanfattas några exempeluttryck som du kan lägga till i schemat när du tilldelar kanal till en visning.
+I följande tabell sammanfattas några exempeluttryck som du kan lägga till i schemat när du tilldelar en kanal till en visning.
 
 | **Uttryck** | **Tolkning** |
 |---|---|
@@ -170,11 +170,11 @@ I följande tabell sammanfattas några exempeluttryck som du kan lägga till i s
 
 #### Exempeluttryck för en kombination av partner {#example-four}
 
-I följande tabell sammanfattas några exempeluttryck som du kan lägga till i schemat när du tilldelar kanal till en visning.
+I följande tabell sammanfattas några exempeluttryck som du kan lägga till i schemat när du tilldelar en kanal till en visning.
 
 | **Uttryck** | **Tolkning** |
 |---|---|
-| `after 6:00 and before 18:00 on Mon,Wed of Jan-Mar` | tillgången spelas upp i kanalen mellan kl. 6.00 och kl. 18.00 måndag och onsdag från januari till slutet av mars |
+| `after 6:00 and before 18:00 on Mon,Wed of Jan-Mar` | tillgången spelas upp i kanalen mellan kl. 18.00 och kl. 18.00 måndag och onsdag från januari till slutet av mars |
 | `on the 1st day of January after 2:00 P.M. also on the 2nd day of January also on the 3rd day of January before 3:00 A.M.` | resursen i kanalen börjar spelas upp efter kl. 2:00 den 1 januari och fortsätter att spela för hela dagen den 2 januari ända till kl. 3:00 den 3 januari |
 | `on the 1-2 days of January after 2:00 P.M. also on the 2-3 days of January before 3:00 A.M.` | resursen i kanalen startar spelaren efter kl. 17.00 den 1 januari, fortsätter att spelas upp till kl. 17.00 den 2 januari, börjar den igen kl. 2:00 och fortsätter att spela fram till kl. 17.00 den 3 januari |
 
@@ -214,7 +214,7 @@ Följ stegen nedan för att klicka på flera resurser och schemalägga hur de sk
 
    ![screen_shot_2018-12-17at20337pm](assets/screen_shot_2018-12-17at20337pm.png)
 
-1. Klicka på Uppdatera för att kontrollera de resurser som används i ett schema för flera resurser.
+1. Klicka på Uppdatera för att kontrollera de resurser som du vill använda schemat för flera resurser på.
 
    >[!NOTE]
    >
@@ -226,11 +226,11 @@ Följ stegen nedan för att klicka på flera resurser och schemalägga hur de sk
 
 ***Global åsidosättning för universell starttid***, är en inställning som gör att innehållsförfattaren kan definiera uppspelningen av en bild eller ett videoklipp baserat på en viss tid. Inställningen för tid/tidszon för en enskild spelare används inte.
 
-I vanliga fall bestäms uppspelningen av den lokala tiden för en viss spelare, men med den globala åsidosättningen kan en specifik universell starttid användas för att initiera uppspelningen av resursen.
+Normalt avgör den lokala tiden för en viss spelare uppspelningen. Men med den globala åsidosättningen kan en specifik universell starttid användas för att initiera uppspelningen av resursen.
 
-Detta gör att innehållsförfattaren kan ange att uppspelning av en viss resurs ska ske vid ett visst datum/tid, oavsett lokal klocka för de spelare som har det tilldelade innehållet.
+Därför kan innehållsförfattaren definiera uppspelning av en viss resurs. De kan ha den vid ett specifikt datum/tid, oavsett lokal klocka, på alla spelare som har det tilldelade innehållet.
 
-Global åsidosättning för universell starttid görs genom att konfigurera **Aktivering** när du får åtkomst till egenskaper för en resurs. Följ stegen nedan för att utföra en global åsidosättning för resursplanering:
+***Global åsidosättning för universell starttid*** är klar genom att konfigurera **Aktivering** när du får åtkomst till egenskaper för en resurs. Följ stegen nedan för att utföra en global åsidosättning för resursplanering:
 
 1. Klicka på valfri kanal och klicka sedan på **Redigera** i åtgärdsfältet så att du kan lägga till eller redigera innehåll i kanalen.
 
@@ -241,6 +241,6 @@ Global åsidosättning för universell starttid görs genom att konfigurera **Ak
 
    ![screen_shot_2018-12-21at70550am](/help/user-guide/assets/asset-activation/Asset-level4.png)
 
-1. Om det är en global åsidosättning anger du aktiveringstiden i **Åsidosättning av tidszon** för resursen. Om du inte anger något i det här området används spelarens tidszon.
+1. För en global åsidosättning anger du aktiveringstiden i **Åsidosättning av tidszon** för resursen. Om du inte anger något i det här området används spelarens tidszon.
 
 

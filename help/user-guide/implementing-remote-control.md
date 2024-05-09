@@ -9,16 +9,16 @@ feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: 6cb2705e-83e6-46f3-bd71-6688d7edc11f
-source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
+source-git-commit: e82cfee5ecc6b639b7b2b65553d1635943b356ea
 workflow-type: tm+mt
-source-wordcount: '351'
+source-wordcount: '352'
 ht-degree: 0%
 
 ---
 
-# Använda fjärrkontrollen till skärmar  {#implementing-remote-control}
+# Använda fjärrkontrollen till skärmar {#implementing-remote-control}
 
-Fjärrstyrningsfunktionen gör det enklare att komma åt administratörsgränssnittet, kanalväljaren eller funktioner som Rensa cache och Läs in igen. Den ger dig även en metod för att se den lokala versionen av den inbyggda programvaran och systeminformationen om spelaren. Detta är särskilt användbart eftersom det kan vara svårt att ansluta en mus och arbeta på produktionsenheter som är utom räckhåll och ännu mer om spelaren tappar kontakten med AEM. Detta är också användbart när du använder Samsung RMS eftersom upplösningsskillnaden kan göra det svårt att hitta och öppna administratörsgränssnittet med en mus.
+Fjärrstyrningsfunktionen gör det enklare att komma åt administratörsgränssnittet, kanalväljaren eller funktioner som Rensa cache och Läs in igen. Den ger dig även en metod för att se den lokala versionen av den inbyggda programvaran och systeminformationen om spelaren. Den här möjligheten är särskilt användbar eftersom det kan vara svårt att ansluta en mus. Du kan också använda enheter som är utom räckhåll och ännu mer om spelaren tappar kontakten med AEM. Det är också användbart när du använder Samsung RMS eftersom upplösningsskillnaden kan göra det svårt att hitta och öppna administratörsgränssnittet med en mus.
 
 ## Vanliga tangentkombinationer för fjärrstyrning {#using-common-remote-control}
 
