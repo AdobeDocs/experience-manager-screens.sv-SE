@@ -2,9 +2,9 @@
 title: Projekttaxonomi
 description: Läs mer om projekttaxonomi när det gäller AEM Screens.
 exl-id: be0ad77a-e593-4c95-8a58-4e5ccb974fcf
-source-git-commit: ef74265eadf5972eae7451b7725946d8b014c198
+source-git-commit: 8a914d4b0237c327b7954c936c84a2c1aa719603
 workflow-type: tm+mt
-source-wordcount: '266'
+source-wordcount: '268'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ Mer information om dessa villkor finns i [Ordlista](https://experienceleague.ado
 >Det är bäst att överväga att använda:
 >
 >* databas för maskinvaruresurser för att automatiskt fylla i ett skärmsprojekt
->* textkonfigurationsfil som automatiskt pekar varje spelare mot en viss instans av en AEM
+>* textkonfigurationsfil som automatiskt pekar mot en viss instans av en AEM
 
 ## Implementera ett AEM Screens-projekt {#creating-a-project}
 

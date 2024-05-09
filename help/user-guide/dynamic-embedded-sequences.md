@@ -9,9 +9,9 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 3208d058-0812-44e1-83e3-b727b384876a
-source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
+source-git-commit: 8a914d4b0237c327b7954c936c84a2c1aa719603
 workflow-type: tm+mt
-source-wordcount: '2426'
+source-wordcount: '2451'
 ht-degree: 0%
 
 ---
@@ -27,23 +27,23 @@ Användning av dynamiska inbäddade sekvenser omfattar följande ämnen:
 
 ## Ökning {#overview}
 
-***Dynamiska inbäddade sekvenser*** skapas för stora projekt som följer den överordnade-underordnade hierarkin, där den underordnade refereras inuti en platsmapp och inte en kanalmapp. Det gör att användaren kan bädda in en sekvens inuti en kanal med ***Kanalroll***. Det gör att användaren kan definiera platsspecifika platshållare för olika kontor med hjälp av en inbäddad sekvens inuti en huvudkanal.
+***Dynamiska inbäddade sekvenser*** skapas för stora projekt som följer efter en hierarki av överordnade och underordnade projekt, där den underordnade refereras inuti en platsmapp och inte en kanalmapp. Det gör att användaren kan bädda in en sekvens inuti en kanal med ***Kanalroll***. Det gör att användaren kan definiera platsspecifika platshållare för olika kontor med hjälp av en inbäddad sekvens inuti en huvudkanal.
 
-När du tilldelar en kanal till en visning kan du välja att antingen ange sökvägen för visningen eller rollen för den kanal som tolkas till en faktisk kanal i sitt sammanhang.
+När du tilldelar en kanal till en visning kan du välja att ange sökvägen för visningen. Du kan också ange rollen för den kanal som matchar en faktisk kanal efter sammanhang.
 
-Om du vill använda dynamisk inbäddad sekvens tilldelar du en kanal via ***Kanalroll***. Kanalrollen definierar visningssammanhanget. Rollen är inriktad på olika åtgärder och är oberoende av den faktiska kanal som uppfyller rollen. I det här avsnittet beskrivs ett användningsfall som definierar kanaler efter roll och hur du kan tillämpa innehållet på en global kanal. Du kan också se rollen som en identifierare för tilldelningen eller ett alias för kanalen i sammanhanget för den.
+Om du vill använda dynamisk inbäddad sekvens tilldelar du en kanal via ***Kanalroll***. Kanalrollen definierar visningssammanhanget. Rollen avser olika åtgärder och är oberoende av den faktiska kanal som uppfyller rollen. I det här avsnittet beskrivs ett användningsfall som definierar kanaler efter roll och hur du kan tillämpa innehållet på en global kanal. Du kan också se rollen som en identifierare för tilldelningen eller ett alias för kanalen i sammanhanget för den.
 
 ### Fördelar med att använda dynamiska inbäddade sekvenser {#benefits-of-using-dynamic-embedded-sequences}
 
-Den största fördelen med att placera en sekvenskanal på en plats i stället för i kanalmappen är att lokala eller regionala författare kan redigera innehåll som är relevant för dem. Allt detta, samtidigt som det inte går att redigera kanaler högre upp i hierarkin.
+Genom att placera en sekvenskanal på en plats i stället för i kanalmappen kan lokala eller regionala författare redigera innehåll som är relevant för dem. Den kan också hindras från att redigera kanaler högre upp i hierarkin.
 
-Referera till en *Kanal efter roll* Med kan du skapa en lokal version av en kanal för att dynamiskt matcha platsspecifikt innehåll och även skapa en global kanal som använder innehållet för de platsspecifika kanalerna.
+Referera till en *Kanal efter roll* gör att du kan skapa en lokal version av en kanal. Om du gör det kan du dynamiskt matcha platsspecifikt innehåll och även skapa en global kanal som använder innehållet för de platsspecifika kanalerna.
 
 >[!NOTE]
 >
 >**Inbäddade sekvenser jämfört med dynamiska inbäddade sekvenser**
 >
->En dynamisk inbäddad sekvens liknar en inbäddad sekvens men gör det möjligt för användaren att följa en hierarki där ändringar/uppdateringar som görs i en kanal sprids till en annan i relation till den. Den följer hierarkin för överordnade och underordnade och innehåller även resurser som bilder eller videoklipp.
+>En dynamisk inbäddad sekvens liknar en inbäddad sekvens men gör det möjligt för användaren att följa en hierarki där ändringar och uppdateringar som görs i en kanal sprids till en annan i relation till den. Den följer en hierarki med överordnade och underordnade objekt och innehåller även resurser som bilder eller videor.
 >
 >***Dynamiska inbäddade sekvenser*** gör att du kan visa platsspecifikt innehåll medan ***Inbäddade sekvenser*** bara visa det allmänna bildspelet av innehållet. När du konfigurerar dynamiska inbäddade sekvenser konfigurerar du kanalen med kanalroll och namn. Se stegen nedan för en praktisk implementering.
 >
@@ -57,7 +57,7 @@ I följande exempel får du en lösning genom att fokusera på följande nyckelt
 
 >[!NOTE]
 >
->Mer information om kanaltilldelning finns i **[Kanaltilldelning](channel-assignment.md)** under Redigering i AEM Screens-dokumentationen.
+>Mer information om kanaltilldelning finns i **[Kanaltilldelning](channel-assignment.md)** under redigeringsavsnittet i AEM Screens-dokumentationen.
 
 ## Använda dynamisk inbäddad sekvens {#using-dynamic-embedded-sequence-2}
 
@@ -68,10 +68,10 @@ I följande avsnitt beskrivs hur du skapar en dynamisk inbäddad sekvens i en AE
 Innan du börjar implementera den här funktionen måste du se till att du har följande krav på dig att börja implementera dynamiska inbäddade sekvenser:
 
 * Skapa ett AEM Screens-projekt (i det här exemplet **Demo**).
-* Skapa en kanal som **Global** under **Kanaler** mapp.
+* Skapa en **Global** kanal under **Kanaler** mapp.
 * Lägg till innehåll i **Global** Kanal (*Kontrollera **Resources.zip**för relevanta tillgångar*).
 
-Följande bild visar **Demo** projekt med **Global** kanal in **Kanaler** mapp.
+Följande bild visar **Demo** projekt med **Global** i **Kanaler** mapp.
 ![screen_shot_2018-09-07at21032pm](assets/screen_shot_2018-09-07at21032pm.png)
 
 ### Resurser {#resources}
@@ -108,7 +108,7 @@ Följ stegen nedan för att implementera funktionen:
    >
    >När du skapar **Region A** platsmapp, kontrollera att du anger **Titel** as **Region A** och du kan lämna **Namn** fältet är tomt, så automatiskt **region-a** namnet har hämtats.
    >
-   >Liknande är fallet när du skapar en platsmapp **Region B**, enligt nedan:
+   >Liknande är fallet när du skapar platsmappen **Region B**, enligt nedan:
 
    ![screen_shot_2018-09-13at23212pm](assets/screen_shot_2018-09-13at23212pm.png)
 
@@ -120,11 +120,11 @@ Följ stegen nedan för att implementera funktionen:
    1. Navigera till **Demo** > **Platser** > **Region A**.
    1. Klicka **Region A** och klicka **+ Skapa** i åtgärdsfältet.
    1. Klicka **Plats** från guiden med **Titel** as **Butik 1**. På samma sätt kan du skapa en annan plats från guiden med namnet som **Butik 2** med **Titel** as **Butik 2**. Du kan lämna **Namn** fältet är tomt när du skapar **Butik 1** och **Butik 2**.
-   1. Upprepa steg b och klicka nu **Sekvenskanal** från guiden. Ange **Titel** as **Region A** och **Namn** as **region** för den här kanalen.
+   1. Upprepa steg b och klicka nu **Sekvenskanal** från guiden. Ange **Titel** as **Region A** och **Namn** som **region** för den här kanalen.
 
    >[!CAUTION]
    >
-   >Se till att du gör det när du skapar kanal **Region A**, anger **Titel** as **Region A** och **Namn** as **region**.
+   >Se till att du gör det när du skapar kanal **Region A**, anger **Titel** as **Region A** och **Namn** som **region**.
 
    ![screen_shot_2018-09-13at22857pm](assets/screen_shot_2018-09-13at22857pm.png)
 
@@ -189,9 +189,9 @@ Följ stegen nedan för att implementera funktionen:
 
 1. **Skapa ett schema**
 
-   Navigera och klicka **Scheman** i ditt AEM Screens-projekt. Klicka sedan på **Skapa** i åtgärdsfältet.
+   Navigera och klicka på **Scheman** i ditt AEM Screens-projekt. Klicka sedan på **Skapa** i åtgärdsfältet.
 
-   Följande bild visar **AdSchedule** som **Demo** projekt.
+   Följande bild visar **AdSchedule** har skapats i **Demo** projekt.
 
    ![screen_shot_2018-09-13at3307pm](assets/screen_shot_2018-09-13at33307pm.png)
 
@@ -200,9 +200,9 @@ Följ stegen nedan för att implementera funktionen:
    1. Navigera till **Demo** > **Scheman** > **AdSchedule** och klicka **Kontrollpanel** i åtgärdsfältet.
    1. Klicka **+ Tilldela kanal** från **TILLDELADE KANALER** så att du kan öppna **Kanaltilldelning** -dialogrutan.
    1. Klicka **Referenskanal** efter bana.
-   1. Klicka på **Kanalsökväg** as **Demo** > ***Kanaler*** > ***Global***.
-   1. Ange **Kanalroll** as **GlobalAdSegment**.
-   1. Klicka på **Händelser som stöds** as **Inledande inläsning**, **Inaktiv skärm** och **Användarinteraktion**.
+   1. Klicka på **Kanalsökväg**, precis som **Demo** > ***Kanaler*** > ***Global***.
+   1. Ange **Kanalroll**, precis som **GlobalAdSegment**.
+   1. Klicka på **Händelser som stöds**, precis som **Inledande inläsning**, **Inaktiv skärm** och **Användarinteraktion**.
    1. Klicka **Spara**.
 
    **Tilldela kanal efter roll för region:**
@@ -227,7 +227,7 @@ Följ stegen nedan för att implementera funktionen:
 
 1. **Konfigurerar dynamisk inbäddad sekvens till den globala kanalen.**
 
-   Navigera till **Global** Kanal som du ursprungligen skapade i **Demo** projekt.
+   Navigera till **Global** Kanal som du skapade i **Demo** projekt.
 
    Klicka **Redigera** i åtgärdsfältet.
 
@@ -334,14 +334,14 @@ Följ stegen nedan för att skapa grupper, användare och ändra åtkomstkontrol
 
    1. Navigera till **Adobe Experience Manager**.
    1. Klicka **verktyg** > **Säkerhet** > **Grupper**.
-   1. Klicka **Medarbetare** från listan och klicka på **Medlemmar** -fliken.
+   1. Klicka **Medarbetare** i listan och klicka på **Medlemmar** -fliken.
    1. Klicka på **Grupp** som **Global-Author**, **Region-Author,** och **Store-Author** till medverkande.
    1. Klicka **Spara och stäng**.
 
 1. **Åtkomst till behörigheter för varje grupp**
 
    1. Navigera till *Användaradministratör* och använd det här användargränssnittet för att ändra behörigheter för olika grupper.
-   1. Sök efter **Global-Author** och klicka **Behörigheter** enligt bilden nedan.
+   1. Sök efter **Global-Author** och klicka på **Behörigheter** enligt bilden nedan.
    1. På samma sätt kan du komma åt behörigheterna för **Region-Author** och **Store-Author**.
 
    ![screen_shot_2018-09-18at73523am](assets/screen_shot_2018-09-18at73523am.png)
@@ -358,7 +358,7 @@ Följ stegen nedan för att skapa grupper, användare och ändra åtkomstkontrol
    Se följande bild för att förstå stegen:
    ![screen_shot_2018-09-18at115752am](assets/screen_shot_2018-09-18at115752am.png)
 
-   Följande visar att **Global-användare** har åtkomst till **Global Channel** och både **Region A** och **Region B** med alla fyra butikerna, **Butik 1**, **Butik 2**, **Butik 3** och **Butik 4**.
+   Följande visar att **Global-användare** har åtkomst till **Global Channel**. Och, tillgång till båda **Region A** och **Region B** med alla fyra butikerna, **Butik 1**, **Butik 2**, **Butik 3** och **Butik 4**.
 
    ![global](assets/global.gif)
 
@@ -374,7 +374,7 @@ Följ stegen nedan för att skapa grupper, användare och ändra åtkomstkontrol
 
    ![screen_shot_2018-09-18at125158pm](assets/screen_shot_2018-09-18at125158pm.png)
 
-   Följande visar att Region-User har åtkomst till båda **Region A** och **Region B**, med alla fyra butikerna, nämligen **Butik 1**, **Butik 2**, **Butik 3** och **Butik 4**, men har inte åtkomst till **Global** Kanal.
+   Följande visar att Region-User har åtkomst till båda **Region A** och **Region B**. Och tillgång till alla fyra butikerna, nämligen **Butik 1**, **Butik 2**, **Butik 3** och **Butik 4**, men har inte åtkomst till **Global** Kanal.
 
    ![region](assets/region.gif)
 
@@ -391,7 +391,7 @@ Följ stegen nedan för att skapa grupper, användare och ändra åtkomstkontrol
 
    ![screen_shot_2018-09-18at12415pm](assets/screen_shot_2018-09-18at12415pm.png)
 
-   Följande visar att **Butiksanvändare** har endast åtkomst till **Butik 1**, **Butik 2**, **Butik 3** och **Butik 4**, men har inte behörighet att komma åt **Global** eller region (**Region A** och **Region B**) kanaler.
+   Följande visar att **Butiksanvändare** har endast åtkomst till **Butik 1**, **Butik 2**, **Butik 3** och **Butik 4**. Den har dock inte behörighet att komma åt **Global** eller region (**Region A** och **Region B**) kanaler.
 
    ![store](assets/store.gif)
 

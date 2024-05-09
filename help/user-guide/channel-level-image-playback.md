@@ -10,9 +10,9 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 95aa761a-1449-4e18-8115-3b151036dc54
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: 8a914d4b0237c327b7954c936c84a2c1aa719603
 workflow-type: tm+mt
-source-wordcount: '336'
+source-wordcount: '340'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 ## Ökning {#overview}
 
-När du skapar en sekvenskanal och lägger till bilder i den får alla bilder som standard den uppspelningstid som definieras i konfigurationen på kanalnivå. Alla enskilda bilder kan fortfarande åsidosätta standardvärdet och ha en annan uppspelningstid. Detta uppnås genom att du redigerar uppspelningstiden för den specifika bildkomponenten.
+När du skapar en sekvenskanal och lägger till bilder i den får alla bilder som standard den uppspelningstid som definieras i konfigurationen på kanalnivå. Alla enskilda bilder kan fortfarande åsidosätta standardinställningen och ha en annan uppspelningstid. Detta uppnås genom att du redigerar uppspelningstiden för den specifika bildkomponenten.
 
 ### Förutsättningar {#prerequisites}
 
@@ -53,7 +53,7 @@ Följ stegen nedan för att lära dig hur du uppdaterar tilldelning för bildspe
 
    ![screen_shot_2019-06-24at90534pm](assets/screen_shot_2019-06-24at90534pm.png)
 
-1. Klicka på alla bilder i kanalen och klicka på skiftnyckelsikonen högst upp till vänster (som bilden nedan visar) så att du kan öppna dialogrutan Konfigurera på kanalnivå.
+1. Klicka på alla bilder i kanalen och klicka på skiftnyckelsikonen högst upp till vänster (som bilden nedan visar) så att du kan öppna dialogrutan Konfigurera kanalnivå.
 
    ![screen_shot_2019-06-25at95945am](assets/screen_shot_2019-06-25at95945am.png)
 
@@ -70,6 +70,6 @@ Följ stegen nedan för att lära dig hur du uppdaterar tilldelning för bildspe
 
 ### Visa resultatet {#viewing-the-result}
 
-När du har uppdaterat kanalens uppspelningstid (i det här exemplet alla tre bilderna) kan du se att bilderna spelas upp i 3 sekunder i stället för 8 sekunder (standardvärde).
+När du har uppdaterat kanalens uppspelningstid (i det här exemplet alla tre bilderna) kan du se att bilderna spelas upp i 3 sekunder i stället för 8 sekunder (standardvärdet).
 
 ![channel_preview](assets/channel_preview.gif)

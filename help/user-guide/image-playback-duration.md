@@ -2,9 +2,9 @@
 title: Varaktighet för bilduppspelning
 description: Lär dig mer om hur länge bilderna spelas upp i AEM Screens.
 contentOwner: jsyal
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: 8a914d4b0237c327b7954c936c84a2c1aa719603
 workflow-type: tm+mt
-source-wordcount: '318'
+source-wordcount: '322'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 ## Ökning {#overview}
 
-När du har skapat en sekvenskanal och lagt till bilder i den får alla bilder som standard den uppspelningstid som definieras i konfigurationen på kanalnivå. Alla enskilda bilder kan fortfarande åsidosätta standardvärdet och ha en annan uppspelningstid. Detta uppnås genom att du redigerar uppspelningstiden för den specifika bildkomponenten.
+När du har skapat en sekvenskanal och lagt till bilder i den får alla bilder som standard den uppspelningstid som definieras i konfigurationen på kanalnivå. Alla enskilda bilder kan fortfarande åsidosätta standardinställningen och ha en annan uppspelningstid. Detta uppnås genom att du redigerar uppspelningstiden för den specifika bildkomponenten.
 
 ### Förutsättningar {#prerequisites}
 
@@ -48,7 +48,7 @@ Följ stegen nedan för att lära dig hur du uppdaterar tilldelning för bildspe
 
    ![screen_shot_2019-06-25at95945am](assets/screen_shot_2019-06-25at95945am.png)
 
-1. **Sida** öppnas.
+1. The **Sida** öppnas.
 
    >[!NOTE]
    >
@@ -62,7 +62,7 @@ Följ stegen nedan för att lära dig hur du uppdaterar tilldelning för bildspe
 
 ### Visa resultatet {#viewing-the-result}
 
-När du har uppdaterat kanalens uppspelningstid (i det här exemplet alla tre bilderna) kan du se att bilderna spelas upp i 3 sekunder i stället för 8 sekunder (standardvärde).
+När du har uppdaterat kanalens uppspelningstid (i det här exemplet alla tre bilderna) kan du se att bilderna spelas upp i 3 sekunder i stället för 8 sekunder (standardvärdet).
 
 ![channel_preview](assets/channel_preview.gif)
 
