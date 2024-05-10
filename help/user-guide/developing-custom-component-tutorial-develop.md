@@ -9,9 +9,9 @@ feature: Developing Screens
 role: Developer
 level: Intermediate
 exl-id: d14f8c55-dc09-4ac9-8d75-bafffa82ccc0
-source-git-commit: ef74265eadf5972eae7451b7725946d8b014c198
+source-git-commit: 8c3221e17401d6ff792c61bf75275cc72e885432
 workflow-type: tm+mt
-source-wordcount: '2139'
+source-wordcount: '2154'
 ht-degree: 0%
 
 ---
@@ -541,6 +541,21 @@ Följande kod innehåller minimikraven i `pom.xml` för det specifika projektet:
             <artifactId>com.adobe.cq.screens</artifactId>
             <version>1.5.90</version>
             <scope>provided</scope>
+        </dependency>
+        …
+      </dependencies>
+```
+
+**ANMÄRKNING** : Om det gäller AEMaaCS ska du använda beroendet nedan i `pom.xml` för det specifika projektet.
+
+```css
+   <dependencies>
+        …
+        <!-- AEM Screens SDK API with OfflineResourceHandler/AbstractResourceHandler -->
+        <dependency>
+            <groupId>com.adobe.aem</groupId>
+            <artifactId>aem-screens-sdk-api</artifactId>
+            <version>1.0.8</version>
         </dependency>
         …
       </dependencies>
