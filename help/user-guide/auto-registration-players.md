@@ -5,9 +5,9 @@ feature: Administering Screens, Players
 role: Admin
 level: Intermediate
 exl-id: 28449523-a44d-4260-9771-f1987686cbb6
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: 873e6ff8b506416bce8660f5eb2cbea75227a9c8
 workflow-type: tm+mt
-source-wordcount: '332'
+source-wordcount: '340'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ Följ stegen nedan för att implementera automatisk registrering av spelare:
 1. Logga in på AEM och klicka på ditt AEM Screens-projekt och klicka på **Egenskaper** i åtgärdsfältet.
 1. Klicka på **Avancerat** så att du kan visa **Enhetsregistrering** -avsnitt.
 
-1. Ange en kod för automatisk registrering i **Registreringskod för massutskick** fält och en valfri standardvisning i **Standardvisningstilldelning** som tilldelas den spelare som registreras automatiskt.
+1. Ange en kod för automatisk registrering i dialogrutan **Registreringskod för massutskick** fält. Därefter visas en valfri standardvisning i **Standardvisningstilldelning** som tilldelas den spelare som registreras automatiskt.
 
    >[!NOTE]
    >Ange en valfri kod och klicka på en standardskärm om det behövs.
@@ -44,11 +44,11 @@ Följ avsnittet nedan för att se några av de bästa sätten att skydda:
 
 * Se till att registreringskoden inte äventyras - Konfigurera koden i AEM precis innan du påbörjar gruppregistreringen och när du är klar rensar du det fältet och sparar i AEM.
 
-* Du kan konfigurera sökvägen `/bin/screens/registration` att endast vara tillgänglig från kända IP-intervall om möjligt.
+* Du kan konfigurera sökvägen `/bin/screens/registration` så att den om möjligt bara är tillgänglig från kända IP-intervall.
 
 * Använd en MDM för att tilldela spelaren konfigurationen.
 
 * Använd alltid `HTTPS` och inte `HTTP` för spelarkommunikation med AEM.
 
   >[!NOTE]
-  >Standardvisningstilldelning fungerar för närvarande bara för massregistrering och inte för manuell registrering utan registreringskod.
+  >Standardvisningstilldelning fungerar för närvarande bara för massregistrering. Det fungerar inte för manuell registrering när en registreringskod inte är tillgänglig.

@@ -1,14 +1,14 @@
 ---
 title: Perpetual TakeOver Channel
-description: Följ det här användningsexemplet när du skapar en permanent TakeOver-kanal.
+description: Lär dig skapa en permanent TakeOver-kanal.
 contentOwner: jsyal
 feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 5d112f33-a7cf-415e-9ea7-dc18a0356a8d
-source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
+source-git-commit: 873e6ff8b506416bce8660f5eb2cbea75227a9c8
 workflow-type: tm+mt
-source-wordcount: '869'
+source-wordcount: '871'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ På följande sida visas ett exempel på hur du använder ett projekt för att s
 ## Använd fallbeskrivning {#use-case-description}
 
 Det här användningsexemplet förklarar hur du skapar en kanal som *tar över* från den normala uppspelningskanalen för en visning eller grupp av skärmar. Övertagandet sker för en viss dag och tid permanent.
-Det finns till exempel en permanent TakeOver-kanal som spelas upp varje fredag från 9:00 till 10:00. Under den här tiden ska ingen annan kanal spelas upp. I följande exempel visas hur man skapar en permanent köpkanal som spelas upp så att innehållet kan spelas upp varje onsdag i två timmar mellan kl. 2:00 och kl. 17:00.
+Det finns till exempel en permanent TakeOver-kanal som spelas upp varje fredag från 9:00 till 10:00. Under den här tiden ska ingen annan kanal spelas upp. I följande exempel visas hur man skapar en permanent köpkanal som gör att innehållet kan spelas upp varje onsdag i två timmar mellan kl. 17.00 och 17.00.
 
 ### Förhandsvillkor {#preconditions}
 
@@ -84,12 +84,12 @@ Följ stegen nedan för att konfigurera ett projekt:
 
 1. Klicka på visningen **TakeOver** från **Platser** mapp. Klicka **Tilldela kanal** från åtgärdsfältet så att du kan tilldela övertagandekanalen.
 
-1. Tilldela **TakeOver** kanalen till din skärm vid en schemalagd tidpunkt och fyller i följande fält från **Kanaltilldelning** dialogruta och välja **Spara**:
+1. Tilldela **TakeOver** till din skärm vid en schemalagd tidpunkt. Fyll sedan i följande fält från **Kanaltilldelning** dialogruta och välja **Spara**:
 
    * **Kanalsökväg**: Klicka på sökvägen till **TakeOver** kanal
    * **Prioritet**: Ange den här kanalens prioritet som är högre än **MainAdChannel**. Prioriteten i det här exemplet är till exempel 8.
    * **Händelser som stöds**: Klicka på **Inaktiv skärm** och **Timer**.
-   * **Schema**: Ange texten för schemat som du vill att den här kanalen ska köra visningen. Texten i **Schema** som nämns i det här exemplet *på onsdagen efter kl. 14.00 och före kl. 16.00*.
+   * **Schema**: Ange texten för schemat som du vill att den här kanalen ska köras på skärmen. Texten i **Schema** som nämns i det här exemplet *på onsdagen efter kl. 14.00 och före kl. 16.00*.
 
      >[!NOTE]
      >Om du vill veta mer om de uttryck du kan lägga till i **Schema**, se [Exempeluttryck](#example-expressions) nedan.
@@ -101,7 +101,7 @@ Följ stegen nedan för att konfigurera ett projekt:
 
      ![resurs](assets/p_usecase7.png)
 
-     Navigera till visningen från **TakeOver** > **Platser** > **MainLobby** > **MainLobbyDisplay** och klicka **Kontrollpanel** i åtgärdsfältet så att du kan visa de tilldelade kanalerna med deras prioriteringar, vilket visas nedan.
+     Navigera till visningen från **TakeOver** > **Platser** > **MainLobby** > **MainLobbyDisplay** och klicka sedan på **Kontrollpanel** i åtgärdsfältet så att du kan visa de tilldelade kanalerna med deras prioriteringar, vilket visas nedan.
 
      >[!NOTE]
      >Det är obligatoriskt att ange övertagskanalens högsta prioritet.
@@ -111,7 +111,7 @@ Nu **TakeOver** kanalen tar över **MainAdChannel** kl. 02.00 i två timmar till
 
 ## Exempeluttryck {#example-expressions}
 
-I följande tabell sammanfattas några exempeluttryck som du kan lägga till i schemat när du tilldelar kanal till en visning.
+I följande tabell sammanfattas några exempeluttryck som du kan lägga till i schemat när du tilldelar en kanal till en visning.
 
 | **Uttryck** | **Tolkning** |
 |---|---|
@@ -119,8 +119,8 @@ I följande tabell sammanfattas några exempeluttryck som du kan lägga till i s
 | efter kl. 2:00. | kanalen spelas upp efter kl. 2.00 varje dag |
 | efter 12:15 och före 12:45 | kanalen spelas upp efter 12.15 varje dag i 30 minuter |
 | före 12:15 även efter 12:45 | Kanalen spelas upp före kl. 12.15 varje dag och sedan även efter kl. 12.45. |
-| den första dagen i januari efter kl. 2.00, även den andra dagen i januari, den tredje dagen i januari före kl. 17.00. | kanalen börjar spelas upp efter kl. 17.00 den 1 januari och fortsätter hela dagen den 2 januari ända till kl. 17.00 den 3 januari |
-| 1-2 dagar i januari efter kl. 2:00 också 2-3 dagar i januari före kl. 3:00 . | kanalen börjar spelas upp efter kl. 17.00 den 1 januari, fortsätter att spelas upp till kl. 17.00 den 2 januari, börjar den igen kl. 2:00 och fortsätter att spela fram till kl. 17.00 den 3 januari |
+| den första dagen i januari efter kl. 2.00, även den andra dagen i januari samt den tredje dagen i januari före kl. 3.00. | kanalen börjar spelas upp efter kl. 17.00 den 1 januari och fortsätter att spela för hela dagen den 2 januari till kl. 17.00 den 3 januari 2003 |
+| 1-2 dagar i januari efter kl. 2:00 också 2-3 dagar i januari före kl. 3:00. | kanalen startar spelaren efter kl. 17.00 den 1 januari, fortsätter att spelas upp till kl. 17.00 den 2 januari 2002, börjar den igen kl. 17.00 och fortsätter att spelas upp till kl. 17.00 den 3 januari 2003 |
 
 >[!NOTE]
 >

@@ -2,14 +2,14 @@
 title: AEM plattformskonfigurationer
 description: Sidan beskriver AEM plattformskonfigurationer
 exl-id: cfe1769b-4da2-430d-a7b1-10dbcaf9f51b
-source-git-commit: ef74265eadf5972eae7451b7725946d8b014c198
+source-git-commit: 873e6ff8b506416bce8660f5eb2cbea75227a9c8
 workflow-type: tm+mt
-source-wordcount: '446'
+source-wordcount: '447'
 ht-degree: 2%
 
 ---
 
-# AEM plattformskonfigurationer  {#platform-configurations}
+# AEM plattformskonfigurationer {#platform-configurations}
 
 >[!NOTE]
 >
@@ -27,7 +27,7 @@ Se [Konfigurera författare och publicera i AEM Screens](https://experienceleagu
 
 >[!NOTE]
 >
->Om det bara finns en författare och en publicering följer du bara stegen under **Konfigurera replikeringsagenter på författare** in [Konfigurera författare och publicera i AEM Screens](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/administering/author-publish/author-and-publish) sida.
+>Om det bara finns en författare och en publicering kan du bara följa stegen under **Konfigurera replikeringsagenter på författare** in [Konfigurera författare och publicera i AEM Screens](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/administering/author-publish/author-and-publish) sida.
 
 ## Dispatcher Configurations {#dispatcher-configurations}
 
@@ -49,7 +49,7 @@ Installera FFMpeg genom att följa stegen för lämpligt operativsystem (vanlige
 
 ## Lösenordsbegränsningar {#password-restrictions}
 
-Lösenordsprincipen för AEM måste inaktiveras för AMS-instansen. Detta kan konfigureras växelvis i webbkonsolen med enhetstjänsten Skärmar *com.adobe.cq.screens.device.impl.DeviceService*
+Lösenordsprincipen för AEM måste inaktiveras för AMS-instansen. Den kan också konfigureras växelvis i webbkonsolen med hjälp av enhetstjänsten Skärmar *com.adobe.cq.screens.device.impl.DeviceService*
 Se **Lösenordsbegränsningar** avsnitt i[Konfigurera författare och publicera i AEM Screens](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/administering/author-publish/author-and-publish)
 
 ## Konfigurera miljöer {#setting-up-environments}
@@ -61,7 +61,7 @@ Installera och kör de senaste versionerna av följande paket för din version a
 * AEM Kumulativt korrigeringspaket
 
 Förutom ovanstående bör du även identifiera eventuella utvecklingspaket (till exempel WCM Core-komponenter) eller tredjepartsverktyg (till exempel SAP Hybris) som krävs.
-Installera samma programvarupaket på den lokala utvecklingsmiljön. Instruera klienten att använda samma konfiguration på alla QA-, Stage- och Production-servrar. Felmatchade serverkonfigurationer skapar problem vid distribuering och testning.
+Installera samma programvarupaket i den lokala utvecklingsmiljön. Instruera klienten att använda samma konfiguration på alla QA-, Stage- och Production-servrar. Felmatchade serverkonfigurationer skapar problem vid distribuering och testning.
 
 >[!NOTE]
 >

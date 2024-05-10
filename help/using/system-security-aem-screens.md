@@ -1,9 +1,9 @@
 ---
 title: Säkerhetschecklista för AEM Screens
 description: Läs mer om säkerhetschecklistan för AEM Screens.
-source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
+source-git-commit: 873e6ff8b506416bce8660f5eb2cbea75227a9c8
 workflow-type: tm+mt
-source-wordcount: '459'
+source-wordcount: '460'
 ht-degree: 0%
 
 ---
@@ -12,7 +12,7 @@ ht-degree: 0%
 # Systemsäkerhetsfrågor för AEM Screens {#security-checklist}
 
 >[!IMPORTANT]
->Detta är en intern Git-resurs.
+>En intern Git-resurs.
 
 På den här sidan visas systemsäkerhetsfrågor för AEM Screens.
 
@@ -24,7 +24,7 @@ I det här avsnittet beskrivs vitboken. (Väntande vitpappersbilaga)
 
 ## Frågor och svar om AEM Screens Security {#faqs-screens}
 
-Följande frågor och svar förutsätter en autentiserad, registrerad spelararkitektur med HTTPS som kommunikationsprotokoll mellan spelare och AEM Server.
+Följande frågor och svar förutsätter en autentiserad, registrerad spelararkitektur. HTTPS används som kommunikationsprotokoll mellan spelaren och AEM.
 
 ### Vanliga frågor 1 {#faq1}
 
@@ -41,7 +41,7 @@ Ska jag använda HTTP eller HTTP?
 
 **Svar**
 
-Använd HTTP. Detta är ett måste om ni är oroliga för säkerheten. Med HTTP krypteras kommunikationen mellan spelare och server, och det är omöjligt att fånga upp innehållet eller modifiera det.
+Använd HTTP. Detta protokoll är ett måste om ni är oroliga för säkerheten. Med HTTP krypteras kommunikationen mellan spelare och server, och det är omöjligt att fånga upp innehållet eller modifiera det.
 
 
 ### Vanliga frågor 3 {#faq3}
@@ -50,7 +50,7 @@ Finns det någon form av signering av innehållet eller hash när du laddar ned 
 
 **Svar**
 
-Alla resurser signeras (SHA) av servern och valideras sedan av spelaren för samma hash för att garantera integriteten.
+Varje resurs signeras (SHA) av servern. Spelaren validerar den sedan för samma hash för att garantera integriteten.
 Om hashen inte matchar försöker programmet att validera tre gånger. Efter tre försök betraktas kommandot download som ogiltigt.
 
 
