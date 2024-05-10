@@ -2,9 +2,9 @@
 title: Konfigurera författare- och publiceringsinstanser i AEM Screens
 description: Lär dig hur du konfigurerar en Author-instans och en Publish-instans för AEM Screens.
 exl-id: 5aef5f35-d946-4bf8-a2a8-c3ed532b7eef
-source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
+source-git-commit: 6b4fc934c31640168528fa3e72cf634773f4f8e6
 workflow-type: tm+mt
-source-wordcount: '1923'
+source-wordcount: '1940'
 ht-degree: 0%
 
 ---
@@ -101,15 +101,15 @@ Följ stegen nedan om du vill skapa en standardsvar för replikering:
    >Du kan också kopiera och byta namn på en befintlig standardreplikeringsagent.
 
 
-#### Skapar standardreplikeringsagenter  {#creating-standard-replication-agents}
+#### Skapar standardreplikeringsagenter {#creating-standard-replication-agents}
 
-1. Skapa en standardreplikeringsagent för pub1 (standardagenten som är färdig bör redan vara konfigurerad). Exempel: *`https://<hostname>:4503/bin/receive?sling:authRequestLogin=1`*
-1. Skapa en standardslikeringsagent för pub2. Du kan kopiera som replikeringsagent för pub1 och uppdatera transporten som ska användas för pub2 genom att ändra porten i transportkonfigurationen. Till exempel: *`https://<hostname>:4504/bin/receive?sling:authRequestLogin=1`*.
+1. Skapa en standardreplikeringsagent för pub1 (en standardagent som inte är installerad bör redan vara konfigurerad). Exempel: *`https://<hostname>:4503/bin/receive?sling:authRequestLogin=1`*
+1. Skapa en standardreplikeringsagent för pub2. Du kan kopiera som replikeringsagent för pub1 och uppdatera transporten som ska användas för pub2 genom att ändra porten i transportkonfigurationen. Till exempel: *`https://<hostname>:4504/bin/receive?sling:authRequestLogin=1`*.
 
 #### Skapar agenter för skärmreplikering {#creating-screens-replication-agents}
 
-1. Skapa en AEM Screens-replikeringsagent för pub1. Det finns en färdig Screens Replication Agent som pekar på port 4503. Aktivera det.
-1. Skapa en AEM Screens-replikeringsagent för pub2. Kopiera skärmreplikeringsagenten för pub1 och ändra porten till 4504 för pub2.
+1. Skapa en AEM Screens-replikeringsagent för pub1. Det finns en färdig agent med namnet Screens Replication som pekar på port 4503. Aktivera det.
+1. Skapa en AEM Screens-replikeringsagent för pub2. Kopiera skärmreplikeringsagenten för pub1 och ändra porten till punkt 4504 för pub2.
 
    >[!NOTE]
    >Mer information om hur du konfigurerar agenter för skärmreplikering finns i [Konfigurerar agenten för skärmreplikering](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/administering/configure-screens-replication).
@@ -117,7 +117,7 @@ Följ stegen nedan om du vill skapa en standardsvar för replikering:
 #### Skapar agenter för omvänd rasterreplikering {#creating-screens-reverse-replication-agents}
 
 1. Skapa en omvänd replikeringsagent för pub1.
-1. Skapa en omvänd replikeringsagent för pub2. Du kan kopiera agenten för omvänd replikering för pub1 och uppdatera transporten som ska användas för pub2 genom att ändra porten i transportkonfigurationen.
+1. Skapa en omvänd replikeringsagent för pub2. Du kan kopiera den omvända replikeringsagenten för pub1 och uppdatera transporten som ska användas för pub2 genom att ändra porten i transportkonfigurationen.
 
 ## Konfigurera publiceringstopologi {#setting-up-publish-topology}
 
@@ -144,7 +144,7 @@ För alla publiceringsinstanser går du till `https://:/system/console/topology`
 
 #### Steg 3: Konfigurera ActiveMQ-objektkluster {#step-setup-activemq-artemis-cluster}
 
-I det här steget kan du skapa krypterat lösenord för ActiveMQ Artemis-klustret.
+I det här steget kan du skapa ett krypterat lösenord för ActiveMQ Artemis-klustret.
 Klusteranvändaren och lösenordet för alla publiceringsinstanser i topologin måste vara identiska. Lösenordet för ActiveMQ Artemis-konfigurationen måste vara krypterat. Eftersom varje instans har en egen krypteringsnyckel måste du använda krypteringsstöd för att skapa en krypterad lösenordssträng. Sedan kan det krypterade lösenordet användas i OSGi-konfigurationen för ActiveMQ.
 
 På varje publiceringsinstans:
@@ -152,7 +152,7 @@ På varje publiceringsinstans:
 1. I OSGi Console går du till **HUVUDSAK** > **Krypteringsstöd** (`https://<host>:<port>/system/console/crypto`).
 1. Skriv in lösenordet för oformaterad text (samma för alla förekomster) i **Oformaterad text**
 1. Klicka **Protect**.
-1. Kopiera värdet **Skyddad text** till anteckningsblock eller textredigerare. Det här värdet kan användas i OSGi-konfigurationen för ActiveMQ.
+1. Kopiera värdet **Skyddad text** till ett anteckningsblock eller en textredigerare. Det här värdet kan användas i OSGi-konfigurationen för ActiveMQ.
 
 Eftersom varje Publish-instans som standard har unika krypteringsnycklar, utför du det här steget på varje pub-instans och sparar den unika nyckeln för nästa konfiguration.
 
@@ -163,7 +163,7 @@ Eftersom varje Publish-instans som standard har unika krypteringsnycklar, utför
 
 #### Steg 4: Aktivera ActiveMQ-artemis-kluster {#step-activate-activemq-artemis-cluster}
 
-I varje publiceringsinstans:
+På varje publiceringsinstans:
 
 1. Navigera till OSGi Config Manager `https://<host>:<port>/system/console/configMgr`
 1. Klicka **Apache ActiveMQ Artemis JMS Provider** Konfiguration
@@ -187,7 +187,7 @@ Följ stegen nedan för varje publiceringsinstans:
 
 >[!NOTE]
 >
->Navigering till OSGi-konsolen kan ta några sekunder efter att konfigurationen sparats i föregående steg. Du kan också kontrollera error.log för mer information.
+>Det kan ta några sekunder att navigera till OSGi Console efter att konfigurationen har sparats i föregående steg. Du kan också kontrollera error.log för mer information.
 
 Följande bild visas till exempel när ActiveMQ Artemis Server har konfigurerats.
 
@@ -197,7 +197,7 @@ Om du inte ser följande konfiguration från */system/console/mq* navigera sedan
 
 #### Ta bort krav på referensrubrik {#remove-referrer-header-requirement}
 
-Följ stegen för varje publiceringsinstans:
+Följ stegen i varje publiceringsinstans:
 
 1. Navigera till **OSGi Console** > **Konfigurationshanteraren**
 1. Klicka **Apache Sling Referer-filter**
@@ -220,7 +220,7 @@ När du har konfigurerat publiceringstopologin konfigurerar du författar- och p
 
 >[!NOTE]
 >
->Du kan öppna en AEM Screens Player med den AEM Screens-app du hämtade eller med webbläsaren.
+>Du kan öppna en AEM Screens Player med den AEM Screens-app du har laddat ned eller med webbläsaren.
 
 #### Steg 2: Registrera en enhet på författaren {#step-registering-a-device-on-author}
 
@@ -252,7 +252,7 @@ Så här replikerar du enhetsanvändaren:
 
 >[!CAUTION]
 >
->Aktivera inte författarpubliceringstjänsten eftersom det är en systemanvändare som används av författarjobbet.
+>Aktivera inte författaren-publish-screens-service eftersom det är en systemanvändare som används av författarjobbet.
 
 Du kan även aktivera enheten från enhetshanteringskonsolen. Följ stegen nedan:
 
@@ -264,7 +264,7 @@ Du kan även aktivera enheten från enhetshanteringskonsolen. Följ stegen nedan
 
 >[!NOTE]
 >
->När du har aktiverat enheten kan du även redigera eller uppdatera serverns URL. Klicka **Redigera server-URL** från åtgärdsfältet, som visas i bilden nedan, sprids dina ändringar till AEM Screens Player.
+>När du har aktiverat enheten kan du även redigera eller uppdatera serverns URL. Klicka på i åtgärdsfältet **Redigera server-URL**, vilket visas i figuren nedan. Ändringarna sprids till AEM Screens Player.
 
 ![screen_shot_2019-02-21at105527am](assets/screen_shot_2019-02-21at105527am.png)
 
@@ -272,27 +272,27 @@ Du kan även aktivera enheten från enhetshanteringskonsolen. Följ stegen nedan
 
 Följande punkter sammanfattar publiceringskontrolllistan:
 
-* *Skärmar enhetsanvändare* - Detta lagras som en AEM och aktiveras från **verktyg** > **Säkerhet** > **Användare**. Användaren har prefixet&quot;screens&quot; med en lång serialiserad sträng.
+* *Skärmar enhetsanvändare* - Den här informationen lagras som en AEM användare och kan aktiveras från **verktyg** > **Säkerhet** > **Användare**. Användaren har prefixet&quot;screens&quot; med en lång serialiserad sträng.
 
 * *Projekt* - AEM Screens-projektet.
 * *Plats* - Plats som enheten är ansluten till.
-* *Kanaler* - en eller flera kanaler som visas på platsen
-* *Schema* - om du använder ett schema, se till att det publiceras
-* *Plats, scheman och kanalmapp* - om motsvarande resurser finns i en mapp.
+* *Kanaler* - en eller flera kanaler som visas på platsen.
+* *Schema* - Om du använder ett schema måste du se till att det publiceras.
+* *Plats, scheman och kanalmapp* - Om motsvarande resurser finns i en mapp.
 
 Följ stegen nedan för att verifiera hur redigering och publicering fungerar:
 
 1. Uppdatera visst kanalinnehåll på Author-instansen.
 1. Utför **Hantera publikation** för att publicera nya ändringar i alla publiceringsinstanser.
 1. Tryck **Aktivera** för att aktivera enheten från **Enhetshanteraren**.
-1. **Redigera URL** från författarinstansens URL till en av publiceringsinstansens URL.
+1. Välj **Redigera URL** från författarinstansens URL till en av publiceringsinstansens URL.
 1. Kontrollera att det uppdaterade kanalinnehållet visas i AEM Screens Player.
 1. Upprepa dessa steg med en annan Publish-instans.
 
 
 #### Steg 5: Peka på enheten för att publicera instansen på Admin-panelen {#step-pointing-the-device-to-publish-instance-in-the-admin-panel}
 
-1. Visa administratörsgränssnittet från Skärmspelaren, tryck länge på det övre vänstra hörnet så att du kan öppna Admin-menyn, använda AEM Screens Player med pekfunktion eller använda en mus.
+1. Visa administratörsgränssnittet från Skärmspelaren, tryck länge på det övre vänstra hörnet så att du kan öppna Admin-menyn, använda den beröringsaktiverade AEM Screens Player eller använda en mus.
 1. Klicka på **Konfiguration** från sidopanelen.
 1. Ändra författarinstans till Publicera instans i **Server**.
 
@@ -302,7 +302,7 @@ Du kan även uppdatera/redigera server-URL:en från enhetshanteringskonsolen gen
 
 1. Navigera till ditt AEM Screens-projekt och klicka på **Enheter** mapp.
 1. Klicka **Enhetshanteraren** i åtgärdsfältet.
-1. Klicka på enheten och klicka på **Redigera server-URL** från åtgärdsfältet, som visas i figuren nedan, och dina ändringar sprids till AEM Screens Player.
+1. Klicka på enheten och klicka sedan på i åtgärdsfältet **Redigera server-URL**, vilket visas i figuren nedan. Ändringarna sprids till AEM Screens Player.
 
 ![screen_shot_2019-02-07at31028pm](assets/screen_shot_2019-02-07at31028pm.png)
 
@@ -310,7 +310,7 @@ The **Hantera publikation** Med kan du leverera innehållsuppdateringar från f�
 
 ## Felsökning - tips {#troubleshoot-tips}
 
-Följ avsnittet nedan för att få svar på vanliga frågor om författare/publiceringsinställningar.
+Följ avsnittet nedan för att få svar på vanliga frågor om författaren/publiceringsinställningarna.
 
 ### Hur lägger jag till en omdirigering från https till http efter den första registreringen och tilldelningen? {#add-redirect}
 

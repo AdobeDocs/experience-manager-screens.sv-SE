@@ -9,9 +9,9 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: d98b449f-6b7d-4c08-b507-a64dece84ba8
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: 6b4fc934c31640168528fa3e72cf634773f4f8e6
 workflow-type: tm+mt
-source-wordcount: '317'
+source-wordcount: '324'
 ht-degree: 0%
 
 ---
@@ -46,7 +46,7 @@ I ett projekt finns det fem typer av mappar, vilket visas i bilden nedan:
 
 >[!NOTE]
 >
->Som standard innehåller den inledande strukturen **Scheman**, **Platser**, **Program**, **Kanaler** och **Enheter** primära sidor, men dessa kan justeras manuellt om det behövs. Du kan ta bort alternativen om de inte är relevanta för ditt projekt.
+>Som standard innehåller den inledande strukturen **Scheman**, **Platser**, **Program**, **Kanaler** och **Enheter** primära sidor, men den här strukturen kan justeras manuellt om det behövs. Du kan ta bort alternativen om de inte är relevanta för ditt projekt.
 
 
 ## Visningsegenskaper {#viewing-properties}

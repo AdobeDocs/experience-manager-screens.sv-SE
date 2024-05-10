@@ -9,9 +9,9 @@ feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: b8d0c089-af79-403e-870f-fb46b66fecd3
-source-git-commit: ef74265eadf5972eae7451b7725946d8b014c198
+source-git-commit: 6b4fc934c31640168528fa3e72cf634773f4f8e6
 workflow-type: tm+mt
-source-wordcount: '435'
+source-wordcount: '443'
 ht-degree: 0%
 
 ---
@@ -26,21 +26,21 @@ SmartSync är den senaste mekanismen som används av AEM Screens. Den ersätter 
 
 Det körs både på serversidan och på klientsidan.
 
-**På serversidan**:
+**På serversidan**
 
 * Kanalernas innehåll, inklusive resurser, cachas i *`/var/contentsync`*.
 * Cachen visas för spelarna med hjälp av ett manifest som beskriver det tillgängliga innehållet för en skärm.
 
-**På klientsidan**:
+**På klientsidan**
 
-* Spelaren uppdaterar innehållet baserat på manifestet som genereras ovan.
+* Spelaren uppdaterar sitt innehåll baserat på manifestet som genereras ovan.
 
 ### Fördelar med SmartSync {#benefits-of-using-smartsync}
 
 SmartSync-funktionen har flera fördelar för ditt AEM Screens-projekt, som följande:
 
 * Dramatiskt minskade krav på nätverkstrafik och lagring på serversidan.
-* Player hämtar resurser på ett intelligent sätt endast om resursen saknas eller har ändrats.
+* Spelaren hämtar resurser på ett intelligent sätt endast om resursen saknas eller har ändrats.
 * Lagringsoptimering på serversidan och klientsidan.
 
 >[!NOTE]
