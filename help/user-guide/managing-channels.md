@@ -5,9 +5,9 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 7bbd211a-f54f-42b9-a1b3-516efe6fb579
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: a89aec16bb36ecbde8e417069e9ed852363acd82
 workflow-type: tm+mt
-source-wordcount: '1256'
+source-wordcount: '1250'
 ht-degree: 0%
 
 ---
@@ -51,15 +51,15 @@ Följande mallalternativ är tillgängliga när du använder guiden, till exempe
 
 | **Mallalternativ** | **Beskrivning** |
 |---|---|
-| Mappen Kanaler | Gör att du kan skapa en mapp för lagring av kanalsamlingar. |
+| Mappen Kanaler | Skapa en mapp för att lagra en samling kanaler. |
 | Sekvenskanal | Skapa en kanal som spelar upp komponenterna sekventiellt (en i taget i ett bildspel). |
-| Programkanal | Gör att du kan visa ditt anpassade webbprogram i skärmspelaren. |
-| 1x1 Delad skärmkanal | Gör att du kan visa en komponent i en enskild zon. |
-| 1x2 Delad skärmkanal | Gör att du kan visa resurserna i två zoner (dela vågrätt). |
-| 2X1 Delad skärmkanal | Gör att du kan visa resurserna i två zoner (lodrätt delade). |
-| 2x2 Delad skärmkanal | Gör att du kan visa resurserna i fyra zoner (dela vågrätt och lodrätt i en matris). |
-| 2 till 3 kanaler för delad skärm | Gör att du kan visa resurserna i två zoner (dela vågrätt) där en av zonerna är större än den andra. |
-| Vänster eller höger L-streckkanal för delad skärm | Gör att innehållsförfattare kan visa olika typer av resurser i zoner med lämplig storlek. |
+| Programkanal | Visa ditt anpassade webbprogram i skärmspelaren. |
+| 1x1 Delad skärmkanal | Visa en komponent i en enskild zon. |
+| 1x2 Delad skärmkanal | Visa resurserna i två zoner (dela vågrätt). |
+| 2X1 Delad skärmkanal | Visa resurserna i två zoner (dela lodrätt). |
+| 2x2 Delad skärmkanal | Visa resurserna i fyra zoner (dela horisontellt och vertikalt i en matris). |
+| 2 till 3 kanaler för delad skärm | Visa resurserna i två zoner (dela vågrätt) där en av zonerna är större än den andra. |
+| Vänster eller höger L-streckkanal för delad skärm | Innehållsförfattare kan visa olika typer av resurser i zoner med lämplig storlek. |
 
 >[!NOTE]
 >
@@ -115,7 +115,7 @@ Följ stegen nedan för att överföra videoklipp till din kanal:
 
 ### Kanalinformation {#channel-information}
 
-Panelen Kanalinformation beskriver kanalegenskaperna tillsammans med förhandsvisningen av kanalen. Dessutom innehåller det information om huruvida kanalen är offline eller online.
+Panelen Kanalinformation beskriver kanalegenskaperna tillsammans med förhandsvisningen av kanalen. Dessutom får du information om huruvida kanalen är offline eller online.
 
 Klicka på (**...**) från **KANALINFORMATION** åtgärdsfältet så att du kan visa egenskaper, redigera innehållet eller uppdatera cacheminnet (offlineinnehåll) för kanalen.
 
@@ -197,7 +197,7 @@ I följande tabell sammanfattas de händelser som är associerade med de automat
   </tr>
   <tr>
    <td>Ändring i onlinekanal</td>
-   <td>Innehåll uppdateras automatiskt</td>
+   <td>Innehållet uppdateras automatiskt</td>
    <td><p>Innehåll uppdaterat på "Enhet: push-konfiguration"</p> <p>Eller</p> <p>Innehåll uppdaterat den <strong><i>Enhet: Starta om</i></strong></p> </td>
   </tr>
   <tr>
@@ -207,7 +207,7 @@ I följande tabell sammanfattas de händelser som är associerade med de automat
   </tr>
   <tr>
    <td>Ändringen i offlinekanalen och kanalen "push-innehåll" aktiveras (nytt offlinepaket)</td>
-   <td>Innehåll uppdateras automatiskt</td>
+   <td>Innehållet uppdateras automatiskt</td>
    <td><p>Innehåll uppdaterat den <strong><i>Enhet: Push Config</i></strong></p> <p>Eller</p> <p>Innehåll uppdaterat den <strong><i>Enhet: Starta om</i></strong></p> </td>
   </tr>
   <tr>
@@ -219,7 +219,7 @@ I följande tabell sammanfattas de händelser som är associerade med de automat
      <li>Kanaltilldelning (roll, händelse, planering)</li>
     </ul> </td>
    <td>Konfigurationen uppdateras automatiskt</td>
-   <td><p>Konfigurationen uppdaterades den <strong><i>Enhet: Push Config</i></strong></p> <p>Eller</p> <p>Konfigurationen uppdaterades den <strong><i>Enhet: Starta om</i></strong></p> </td>
+   <td><p>Konfigurationen har uppdaterats den <strong><i>Enhet: Push Config</i></strong></p> <p>Eller</p> <p>Konfigurationen uppdaterades den <strong><i>Enhet: Starta om</i></strong></p> </td>
   </tr>
  </tbody>
 </table>
@@ -247,7 +247,7 @@ Klicka också på visningen i **TILLDELADE VISNINGAR** för att visa visningsinf
 
 Nästa steg när du har skapat en kanal och lagt till/redigerat innehåll i din kanal är att lära dig hur du skapar en plats och visar. Tilldela sedan en kanal till den visningen.
 
-Följande resurser innehåller mer information om nästa steg:
+Följande resurser visar de kommande stegen:
 
 * [Skapa och hantera kanaler](managing-channels.md)
 * [Skapa och hantera platser](managing-locations.md)

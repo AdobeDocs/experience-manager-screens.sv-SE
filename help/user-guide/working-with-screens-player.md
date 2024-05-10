@@ -1,6 +1,6 @@
 ---
 title: Arbeta med AEM Screens Player
-description: Lär dig hur du arbetar med AEM Screens Player, användargränssnittet för administratörer och kanalväljaren.
+description: Lär dig hur du arbetar med AEM Screens Player, administratörsgränssnittet och kanalväljaren.
 contentOwner: jyotika syal
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
@@ -9,9 +9,9 @@ feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: 4faac090-ad8a-4d7e-a502-6fb63f6b2761
-source-git-commit: ef74265eadf5972eae7451b7725946d8b014c198
+source-git-commit: a89aec16bb36ecbde8e417069e9ed852363acd82
 workflow-type: tm+mt
-source-wordcount: '1059'
+source-wordcount: '1067'
 ht-degree: 1%
 
 ---
@@ -40,7 +40,7 @@ Du kan konfigurera inställningar för enheten från enhetskontrollpanelen, som 
 
    ![chlimage_1-67](assets/chlimage_1-67.png)
 
-1. Kontrollera **INSTÄLLNINGAR** -panelen. Du kan aktivera/inaktivera **Administratörsgränssnitt** och **Kanalväljare** för din spelare av dessa två alternativ.
+1. Kontrollera **INSTÄLLNINGAR** -panelen. Du kan aktivera eller inaktivera **Administratörsgränssnitt** och **Kanalväljare** för din spelare av dessa två alternativ.
 
    ![chlimage_1-68](assets/chlimage_1-68.png)
 
@@ -48,7 +48,7 @@ Du kan konfigurera inställningar för enheten från enhetskontrollpanelen, som 
 
 Aktivera **Administratörsgränssnitt** på inställningspanelen kan användaren öppna administratörsinställningarna från skärmspelaren. Om du inaktiverar det här alternativet från enhetens kontrollpanel kan användaren inte öppna administratörsgränssnittet från spelaren.
 
-Om du vill visa administratörsgränssnittet från skärmspelaren trycker du länge på det övre vänstra hörnet för att öppna Admin-menyn, på den beröringsaktiverade AEM Screens Player eller med en mus. Informationen visas när registreringen är klar och kanalerna har lästs in.
+Om du vill visa administratörsgränssnittet från Skärmspelaren trycker du länge på det övre vänstra hörnet för att öppna Admin-menyn, på den beröringsaktiverade AEM Screens Player eller med en mus. Informationen visas när registreringen är klar och kanalerna har lästs in.
 
 >[!NOTE]
 >
@@ -68,7 +68,7 @@ På menyn Konfiguration kan du ändra följande inställningar:
 
 * Ange det maximala antalet loggfiler som du vill behålla för en AEM Screens Player i **Max. nr av loggfiler som ska behållas**.
 
-* Aktivera eller inaktivera **Admin-menyn**, **Kanalväljare** och **Aktivitetsgränssnitt** för skärmspelaren.
+* Aktivera eller inaktivera **Admin-menyn**, **Kanalväljare** och **Aktivitetsgränssnitt** för Screens Player.
 
   Om **Aktivitetsgränssnitt** är aktiverat från **Konfiguration** visas AEM Screens Player *meddelanden om spelaraktivitet* i det övre högra hörnet av spelaren, vilket visas i bilden nedan.
 
@@ -92,7 +92,7 @@ Klicka på **Innehållscache** från sidospåret så att du kan uppdatera cachen
 
 ### Kanalväxlaren {#the-channel-switcher}
 
-Aktivera **Kanalväljare** på panelen Inställningar kan användaren öppna kanalvalet/inställningarna från Skärmspelaren.
+Aktivera **Kanalväljare** på panelen Inställningar kan användaren öppna kanalvalsinställningarna från Skärmspelaren.
 
 Om du inaktiverar det här alternativet från kontrollpanelen för enheter kan användaren inte styra kanalinställningarna från skärmspelaren.
 
@@ -104,7 +104,7 @@ Om du vill visa kanalväljaren från spelaren trycker du länge på det nedre v�
 
 >[!NOTE]
 >
->Du kan också aktivera eller inaktivera admin-menyn och kanalväljaren för spelaren från skärmspelaren.
+>Du kan också aktivera eller inaktivera admin-menyn och kanalväljaren för spelaren från Skärmspelaren.
 >
 >(Se *Ändra inställningar från Skärmspelaren* (se avsnittet nedan).
 
@@ -116,7 +116,7 @@ Så här ändrar du inställningar från spelaren:
 
 1. Tryck länge på det övre vänstra hörnet i den inaktiva kanalen för att öppna administratörspanelen.
 1. Navigera till **Konfiguration** från den vänstra åtgärdsmenyn.
-1. Aktivera/inaktivera konfiguration för **Administratörsgränssnitt** eller **Kanalväljare**.
+1. Aktivera eller inaktivera konfigurationen för **Administratörsgränssnitt** eller **Kanalväljare**.
 
 ![screen_shot_2018-10-15at101257am-1](assets/screen_shot_2018-10-15at101257am-1.png)
 
@@ -127,11 +127,11 @@ Du kan felsöka olika problem som rör AEM Screens Player (maskinvara och progra
 | **Problem** | **Recommendations** |
 |---|---|
 | Spelarlagringen är full | Eliminera onödiga filer |
-| Spelaren förlorade nätverket | Använd katt-5/katt-6-kabel. För wifi ska du minska avståndet från routern till spelarenheten |
+| Spelaren förlorade nätverket | Använd Cat-5- eller Cat-6-kabel. För wifi ska du minska avståndet från routern till spelarenheten |
 | AEM Screens Player kraschade | Vi rekommenderar att du har en app som kontrollerar att AEM Screens Player alltid körs |
 | Inställningar för förlorad AEM Screens Player | Kontrollera anslutning till AEM server |
-| AEM Screens Player startar inte automatiskt efter omstart/omstart av spelaren | Kontrollera operativsystemets startmapp eller initieringsprocedur |
-| AEM Screens Player visar fel/gammalt innehåll | Kontrollera nätverksanslutning |
+| AEM Screens Player startar inte automatiskt när spelaren har startats om eller startats om | Kontrollera operativsystemets startmapp eller initieringsprocedur |
+| AEM Screens Player visar fel eller gammalt innehåll | Kontrollera nätverksanslutning |
 
 ### Uppdateringar för AEM Screens Player
 
@@ -140,7 +140,7 @@ Det finns två typer av uppdateringar för AEM Screens Player:
 | **Metod** | **Information** | **via fjärr** | **Automatiserad** | **0 Driftavbrott** |
 |---|---|---|---|---|
 | Uppdatering av inbyggd programvara | Används på befintliga installerade spelare med hjälp av fjärrkommando. Efter uppdateringen läses spelaren in automatiskt igen med det befintliga innehållet. | Ja | Egen | Nästan - 1-3 sekunder |
-| Uppdateringar för spelargränssnitt | Det här är en ny körbar fil som ska distribueras på spelaren. Detta kräver att du fjärrkopierar en ny binär fil i spelaren och stoppar den pågående körningen och startar den nya versionen. Detta kan kräva att du hämtar förinläsningen av paketen igen. | Ja (via fjärrgränssnitt) | Egen | Nej |
+| Uppdateringar för spelargränssnitt | En ny körbar fil som distribueras på spelaren. Den här funktionen kräver att du fjärrkopierar den nya binärfilen på spelaren och stoppar den pågående körningen och startar den nya versionen. Det kan kräva att du hämtar förinläsningen av paketen igen. | Ja (via fjärrgränssnitt) | Egen | Nej |
 
 ## Riktlinjer för val av maskinvara för spelarenhet {#hardware-selection-guidelines-for-player-device}
 
@@ -151,7 +151,7 @@ Följande avsnitt innehåller riktlinjer för val av maskinvara för ett skärms
 * Samarbeta alltid med leverantörer som levererar digitala signaturer.
 * Ta alltid hänsyn till miljöfaktorer som omgivningstemperatur och relativ luftfuktighet.
 * Granska alltid effektkrav och energikonditionering.
-* Granska noggrant prestandabehov och I/O-portar som krävs för programmet.
+* Granska noggrant prestandabehoven och I/O-portarna som krävs för programmet.
 
 I följande tabell sammanfattas maskinvarukonfigurationerna med typiska användningsfall för ett AEM Screens-projekt:
 

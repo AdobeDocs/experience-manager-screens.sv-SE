@@ -9,26 +9,26 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 752c74d7-5d6d-4363-97ef-b96e97d2f6b1
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: a89aec16bb36ecbde8e417069e9ed852363acd82
 workflow-type: tm+mt
-source-wordcount: '363'
+source-wordcount: '367'
 ht-degree: 0%
 
 ---
 
 # Videoåtergivningar {#video-renditions}
 
-Du kan generera manuella och automatiska Full HD-renderingar. I följande avsnitt beskrivs arbetsflödet för att lägga till återgivningar i dina resurser.
+Du kan generera manuella och automatiska HD-renderingar. I följande avsnitt beskrivs arbetsflödet för att lägga till återgivningar i dina resurser.
 
-## Generera återgivningar med full HD automatiskt  {#automatically-generating-full-hd-renditions}
+## Generera återgivningar med full HD automatiskt {#automatically-generating-full-hd-renditions}
 
 >[!NOTE]
 >
->Om AEM Screens videoåtergivningar inte spelas upp optimalt på din enhet kontaktar du maskinvaruleverantören för specifikationerna för videon. Detta hjälper till att få bästa prestanda på enheten och skapar därför en egen anpassad videoprofil där du anger lämpliga parametrar för att FFMPEG ska kunna generera din återgivning. Använd sedan stegen nedan för att lägga till din anpassade videoprofil i listan med profiler.
+>Om AEM Screens videoåtergivningar inte spelas upp optimalt på din enhet kontaktar du maskinvaruleverantören för specifikationerna för videon. Det hjälper dig att få bästa prestanda på enheten. Det hjälper dig att skapa en egen anpassad videoprofil där du anger lämpliga parametrar för att FFMPEG ska kunna generera din återgivning. Använd sedan stegen nedan för att lägga till din anpassade videoprofil i listan med profiler.
 >
 >Se även [Felsöka videoklipp](troubleshoot-videos.md) för att felsöka och felsöka videouppspelning i din kanal.
 
-Följ stegen nedan för att automatiskt generera fullständiga HD-renderingar:
+Följ stegen nedan för att generera fullständiga HD-renderingar automatiskt:
 
 1. Klicka på länken Adobe Experience Manager (överst till vänster) och klicka på hamsikonen så att du kan klicka **Arbetsflöde**.
 
@@ -69,7 +69,7 @@ Följ stegen nedan för att automatiskt generera fullständiga HD-renderingar:
 
 ## Generera fullständiga HD-återgivningar manuellt {#manually-generating-full-hd-renditions}
 
-Följ stegen nedan om du vill generera fullständiga HD-renderingar manuellt:
+Följ stegen nedan för att generera fullständiga HD-renderingar manuellt:
 
 1. Klicka på länken Adobe Experience Manager (längst upp till vänster) och klicka på hammikonen så att du kan klicka på verktygen och klicka på **Arbetsflöde**.
 

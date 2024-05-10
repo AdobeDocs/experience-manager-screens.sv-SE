@@ -10,16 +10,16 @@ feature: Developing Screens
 role: Developer
 level: Intermediate
 exl-id: 7dc7d07e-cd94-4ce1-a106-98669be62046
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: a89aec16bb36ecbde8e417069e9ed852363acd82
 workflow-type: tm+mt
-source-wordcount: '681'
+source-wordcount: '674'
 ht-degree: 0%
 
 ---
 
 # Bädda in ett REACT-program med AEM SPA Editor och Integrera med AEM Screens Analytics {#embedding-a-react-application-using-the-aem-spa-editor-and-integrating-with-aem-screens-analytics}
 
-Du kan bädda in ett interaktivt enkelsidigt program med REACT (eller Angular). Det gör du med den AEM SPA redigeraren som är konfigurerad av affärsfolk i AEM. Du kan också lära dig hur du integrerar dina interaktiva program med offline-Adobe Analytics.
+Du kan bädda in ett interaktivt enkelsidigt program med REACT (eller Angular). Det gör du med den AEM SPA redigeraren som affärskommunikation AEM konfigurerar. Du kan också lära dig hur du integrerar dina interaktiva program med offline-Adobe Analytics.
 
 ## Använda AEM SPA Editor {#using-the-aem-spa-editor}
 
@@ -56,7 +56,7 @@ Följ stegen nedan för att använda AEM SPA Editor:
 Så här redigerar du innehållet i REACT-appen:
 
 1. Navigera till `https://localhost:4502/editor.html/content/mysamplespa/en/home.html` (ersätt värdnamnet, porten och projektnamnet efter behov).
-1. Du bör kunna redigera texten som visas i Hello world-programmet.
+1. Du kan redigera texten som visas i programmet Hello World.
 
 ### Lägga till den interaktiva REACT-appen i AEM Screens {#adding-the-interactive-react-app-to-aem-screens}
 
@@ -90,7 +90,7 @@ Följ stegen nedan för att lägga till den interaktiva REACT-appen i AEM Screen
    >[!NOTE]
    >Se till att du lägger till användarinteraktionshändelsen när du tilldelar kanalen till visningen.
 
-1. Registrera en spelare för det här projektet och tilldela den till visningen. Nu bör du kunna se hur ditt interaktiva program körs på AEM Screens.
+1. Registrera en spelare för det här projektet och tilldela den till visningen. Nu kan du se hur ditt interaktiva program körs på AEM Screens.
 
    Se [Enhetsregistrering](device-registration.md) för mer information om hur du registrerar en enhet.
 

@@ -9,7 +9,7 @@ feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: 4f16605b-aec1-45fa-a110-0af6925b74b0
-source-git-commit: 2a51258ffe7b969962378dcd0558bd001b616ba1
+source-git-commit: a89aec16bb36ecbde8e417069e9ed852363acd82
 workflow-type: tm+mt
 source-wordcount: '869'
 ht-degree: 0%
@@ -82,7 +82,7 @@ Aktivera Kiosk-läget genom att följa stegen nedan:
 #### Kontrollerar status för fjärrenhet {#checking-remote-device-status}
 
 1. Logga in på Chrome Developer Console.
-1. Bläddra till **Enhetshantering** > **Chrome Devices** och klicka på den enhet du vill styra.
+1. Bläddra till **Enhetshantering** > **Chrome Devices** och klicka på den enhet som du vill styra.
 1. Klicka **Systemaktivitet och felsökning**.
 1. Kontrollera **Starta om enhet** och **Skärminspelning** egenskaper för enheten. Du kan även kontrollera enhetsstatus och hälsoinformation.
 

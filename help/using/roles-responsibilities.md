@@ -2,16 +2,16 @@
 title: AEM Screens projektroller och ansvarsområden
 description: Läs om AEM Screens projektroller och ansvarsområden.
 exl-id: 9377625b-529a-4b46-89d9-f526de398639
-source-git-commit: 2a51258ffe7b969962378dcd0558bd001b616ba1
+source-git-commit: a89aec16bb36ecbde8e417069e9ed852363acd82
 workflow-type: tm+mt
-source-wordcount: '1234'
+source-wordcount: '1241'
 ht-degree: 0%
 
 ---
 
 # Projektroller och ansvarsområden {#roles-responsibilities}
 
-Som erfaren AEM har du förmodligen sett rollerna som *Författare*, *Utvecklare* och *IT/tekniker*.
+Som erfaren AEM har du förmodligen sett rollerna som *Författare*, *Utvecklare* och *IT-tekniker*.
 
 I ett typiskt AEM Screens-projekt har rollerna förfinats ytterligare eftersom de har ett viktigt syfte i projektet.
 
@@ -37,13 +37,13 @@ AEM implementerare ansvarar för utvecklings- och integreringsuppgifter för att
 
 Anpassade funktioner som krävs för att hantera parametrar för användarupplevelse hämtas och levereras via den här processen.
 
-AEM implementerare distribuerar vanligtvis anpassade funktioner i faser över tid till platser. De kan till exempel först skapa stöd för uppspelning av grundläggande loopad video eller statiskt grafiskt innehåll. I nästa fas finns möjligheten att stödja uppspelning av lokaliserat innehåll via dynamiska mallar och metadatataggar, där andra faser innehåller stöd för interaktiva element via pekskärmar, sensorer, dynamiska utlösare och så vidare.
+AEM implementerare distribuerar vanligtvis anpassade funktioner i faser över tid till platser. De kan till exempel först skapa stöd för uppspelning av grundläggande loopad video eller statiskt grafiskt innehåll. I nästa fas finns möjligheten att stödja uppspelning av lokaliserat innehåll via dynamiska mallar och metadatataggar. Andra faser har stöd för interaktiva element via pekskärmar, sensorer, dynamiska utlösare osv.
 
 ### Audio-Video-integratörer {#av-integrators}
 
-Audio-Video Integrator är maskinvaruleverantör/partner. Det här är den part som arbetar med design och förberedelse av webbplatser i detaljhandeln, inklusive maskinvaruförvärv, konfigurering och driftsättning. Det är vanligtvis en avtalad tredje part som har tillgång till ett Network Operations Center (NOC). Audio-Video Integrator är ofta projektägare på grund av dess kontinuerliga engagemang efter lanseringen.
+Audio-Video Integrator är maskinvaruleverantör-partner. De är de som arbetar med design och förberedelser av webbplatser, inklusive maskinvaruförvärv, konfigurering och driftsättning. Det är vanligtvis en avtalad tredje part som har tillgång till ett Network Operations Center (NOC). Audio-Video Integrator är ofta projektägare på grund av dess kontinuerliga engagemang efter lanseringen.
 
-En Audio-Video-integratör ansvarar för att utföra identifieringar med slutkunder för att definiera krav som avgör projektets omfång för att utforma, bygga och effektivt hantera driftsättningar kring maskinvara för digitala signaturer.
+En Audio-Video-integratör ansvarar för att utföra identifiering med slutkunder för att definiera krav, fastställa projektets omfattning för att utforma, bygga och effektivt hantera driftsättningar kring maskinvara för digitala signaturer.
 
 #### Övervägande av maskinvarupartner {#selecting-hardware-partner}
 
@@ -77,7 +77,7 @@ Kreatörerna och Content Management kan vara följande:
 
 ### Projektledare {#project-managers}
 
-Projektledare hanterar vanligtvis hela distributionen av AEM Screens. En projektledare är punktperson för hela genomförandet av det utsedda projektet. De har ett viktigt ansvar, till exempel att ställa in tidslinjer, hantera teambehov och kommunikation, ta itu med utmaningar och se till att målen uppfylls.
+Projektledare hanterar vanligtvis hela distributionen av AEM Screens. En projektledare är punktperson för hela genomförandet av det utsedda projektet. De har ett viktigt ansvar som att ställa in tidslinjer och hantera teamets behov. De påverkar också kommunikationen, löser problem och ser till att målen uppfylls.
 
 >[!NOTE]
 >
@@ -86,11 +86,11 @@ Projektledare hanterar vanligtvis hela distributionen av AEM Screens. En projekt
 
 ## Projektfaser {#project-stages}
 
-För att stödja en framgångsrik driftsättning av digitala signaturer är det vanligt att segmentera projektet i tre steg. Dessa stadier kallas ofta **Dagar**. Det rör sig inte om litterala dagar utan om benämningar för varje större del av projektet.
+För att stödja en framgångsrik installation av digitala signaturer är det vanligt att segmentera projektet i tre steg. Dessa stadier kallas ofta **Dagar**. Det rör sig inte om litterala dagar utan om benämningar för varje större del av projektet.
 
-1. Den första etappen kallas *Dag noll*. I det här steget ingår alla förberedelser och identifieringsåtgärder som krävs för att helt definiera projektets omfattning.
+1. Den första etappen kallas *Dag noll*. I det här steget ingår alla aktiviteter före och efter försäljningen som krävs för att definiera projektets omfattning.
 1. Den andra etappen, *Dag ett*, avser alla aktiviteter som ingår i driftsättningen.
-1. Det tredje och sista steget *Dag två* avser alla pågående operationer och supportelement som en del av den totala lösningen.
+1. Det tredje och sista steget är *Dag två*. Det avser alla pågående operationer och stödinslag som en del av den totala lösningen.
 
 >[!NOTE]
 >
@@ -177,9 +177,9 @@ I följande tabell sammanfattas **Dag ett: Dag ett: Projektimplementering (maski
 
 * **Upphovsman**: Innehållshantering + strategi
 
-* **Utvecklare**: Vanligtvis medlem i AEM Screens implementeringsteam, eller lämna över till den interna utvecklingsgruppen
+* **Utvecklare**: Vanligtvis medlem i AEM Screens implementeringsteam, eller lämna över till ett internt utvecklingsteam
 
-* **Tekniker**: Antingen har avtal med Audio-Video-integratorn eller ingår i samma företag.
+* **Tekniker**: Antingen har kontrakt med Audio-Video Integrator eller är en del av samma företag.
 
 I följande tabell sammanfattas **Dag två: RACI-diagram för stöd efter start**:
 
