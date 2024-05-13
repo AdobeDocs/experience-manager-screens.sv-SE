@@ -10,9 +10,9 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: ae032042-fa2b-49cd-91fe-ce50f3ce9867
-source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
+source-git-commit: 8dde26d36847fb496aed6d4bf9732233116b5ea6
 workflow-type: tm+mt
-source-wordcount: '442'
+source-wordcount: '448'
 ht-degree: 0%
 
 ---
@@ -23,9 +23,9 @@ Följande exempel visar hur man använder aktivering av sjukhusbokning baserat p
 
 ## Beskrivning {#description}
 
-I det här fallet fylls Google Sheet i med en procentandel reservationer på två restauranger **`Restaurant1`** och **`Restaurant2`**. En formel används baserat på värden för `Restaurant1` och `Restaurant2` och baserat på formeln tilldelas värdet 1 eller 2 till **AdTarget** Kolumn.
+I det här fallet fylls Google Sheet i med en procentandel reservationer på två restauranger **`Restaurant1`** och **`Restaurant2`**. En formel används baserat på värden för `Restaurant1` och `Restaurant2` och, baserat på formeln, tilldelas värdet 1 eller 2 till **AdTarget** Kolumn.
 
-Om värdet för **`Restaurant1`** > **`Restaurant2`** sedan **AdTaget** är tilldelat värde **1** annars **AdTarget** är tilldelat värde **2**. Värde 1 genererar *Svag mat* option och Value two results in display of *Thailändska livsmedel* på bildskärmen.
+Om värdet för **`Restaurant1`** > **`Restaurant2`** sedan **AdTaget** är tilldelat värde **1** annars **AdTarget** är tilldelat värde **2**. Värde 1 genererar ett *Svag mat* option och Value two resulterar i en visning av *Thailändska livsmedel* på bildskärmen.
 
 ## Förhandsvillkor {#preconditions}
 
@@ -66,7 +66,7 @@ Följ instruktionerna nedan för att implementera aktivering av gästreservation
 
    >[!CAUTION]
    >
-   >Du borde ha konfigurerat **ContextHub** **Konfigurationer** använda kanalen **Egenskaper** > **Personalisering** -fliken.
+   >Dina **ContextHub** **Konfigurationer** använda kanalen **Egenskaper** > **Personalisering** -fliken ska redan ha konfigurerats vid den här tidpunkten.
 
    ![screen_shot_2019-05-08at114106am](assets/screen_shot_2019-05-08at114106am.png)
 

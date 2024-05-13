@@ -2,9 +2,9 @@
 title: Analyser med AEM Screens
 description: Läs om Adobe Analytics med Adobe Experience Manager Screens.
 exl-id: cfb47e94-9f65-43f3-b197-07222f3f6424
-source-git-commit: ef74265eadf5972eae7451b7725946d8b014c198
+source-git-commit: 8dde26d36847fb496aed6d4bf9732233116b5ea6
 workflow-type: tm+mt
-source-wordcount: '290'
+source-wordcount: '288'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 >
 >Typiska intressenter för denna verksamhet är marknadsföring/affärsstrategier.
 
-AEM Screens ger möjlighet att lokalt hämta alla spårbara händelser som körs på alla spelarenheter. Dessa data lagras lokalt tills de kan överföras till molnet för bearbetning. Förutom alla händelsedata läggs även ett deviceID och tidsstämpel till. Detta gör att data från en spelare kan särskiljas från en annan spelare och data som körs vid olika tidpunkter på dagen kan vid behov utvärderas separat.
+AEM Screens kan lokalt hämta alla spårbara händelser som körs på alla spelarenheter. Dessa data lagras lokalt tills de kan överföras till molnet för bearbetning. Förutom alla händelsedata läggs även ett deviceID och tidsstämpel till. Den här funktionen gör att data från en spelare kan särskiljas från en annan spelare. Och data som körs vid olika tidpunkter på dygnet kan vid behov utvärderas separat.
 
 Det finns två grundläggande skäl till att du kanske vill hämta in dessa data.
 

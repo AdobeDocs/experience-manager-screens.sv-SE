@@ -10,9 +10,9 @@ feature: Developing Screens
 role: Developer
 level: Intermediate
 exl-id: 5ad1046f-8b64-490b-9966-ce9008180d54
-source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
+source-git-commit: 8dde26d36847fb496aed6d4bf9732233116b5ea6
 workflow-type: tm+mt
-source-wordcount: '425'
+source-wordcount: '427'
 ht-degree: 1%
 
 ---
@@ -31,7 +31,7 @@ Arbetsflödet är följande:
 1. Samla in alla relaterade resurser.
 1. Paketera allt i en zip-fil.
 1. Ladda ned zip-filen och extrahera den lokalt.
-1. Visa lokal kopia av innehållet.
+1. Visa en lokal kopia av innehållet.
 
 ## Uppdatera hanterare {#update-handlers}
 
@@ -77,14 +77,14 @@ The ***ContentSync*** använder uppdateringshanterare för att analysera och sam
 
 Följ stegen nedan för att testa ContentSync-konfigurationen:
 
-1. Öppna `https://localhost:4502/libs/cq/contentsync/content/console.html`
-1. Klicka på konfigurationen i listan
-1. Klicka på Rensa cache
-1. Klicka på Uppdatera cache
-1. Klicka på Hämta fullständig
-1. Extrahera zip-filen
-1. Starta en lokal server i den extraherade mappen
-1. Öppna din startsida och kontrollera din appstatus
+1. Öppna `https://localhost:4502/libs/cq/contentsync/content/console.html`.
+1. Klicka på din konfiguration i listan.
+1. Klicka **Rensa cache**.
+1. Klicka **Uppdatera cache**.
+1. Klicka **Ladda ned fullständig**.
+1. Extrahera zip-filen.
+1. Starta en lokal server i den extraherade mappen.
+1. Öppna startsidan och kontrollera din appstatus.
 
 ## Aktivera offlinekonfiguration för en kanal {#enabling-offline-config-for-a-channel}
 
@@ -118,4 +118,4 @@ Följ stegen nedan för att aktivera offlinekonfiguration för en kanal:
 
 >[!NOTE]
 >
->Mer information om mallen för anpassade offlineresurshanterare och minimikraven i `pom.xml` för just det projektet, se [Mall för anpassade hanterare](/help/user-guide/developing-custom-component-tutorial-develop.md#custom-handlers) in **Utveckla en anpassad komponent för AEM Screens**.
+>Läs mer om mallen för anpassade offlineresurshanterare. Läs mer om minimikraven i `pom.xml` för projektet. Se [Mall för anpassade hanterare](/help/user-guide/developing-custom-component-tutorial-develop.md#custom-handlers) in **Utveckla en anpassad komponent för AEM Screens**.

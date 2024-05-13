@@ -10,9 +10,9 @@ feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: 3bff9ef3-0d6f-41d8-a8ef-bcc5a795990e
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: 8dde26d36847fb496aed6d4bf9732233116b5ea6
 workflow-type: tm+mt
-source-wordcount: '619'
+source-wordcount: '623'
 ht-degree: 0%
 
 ---
@@ -30,9 +30,9 @@ Målet med den här funktionen är att minska den tid som krävs för att ställ
 Genom att låta författaren tillhandahålla ett kalkylblad som en indatafil, och låta systemet automatiskt skapa platsträdet i bakänden, den här funktionen:
 
 * *ger mycket bättre prestanda än att välja manuellt via användargränssnittet*
-* *låter kunderna exportera de platser de har från sitt eget system och enkelt importera dem direkt till AEM*
+* *låter kunden exportera de platser de har från sitt eget system och enkelt importera dem direkt till AEM*
 
-Detta sparar både tid och pengar vid den första projektinstallationen eller vid utvidgning av den befintliga AEM Screens till nya platser.
+Denna process sparar både tid och pengar vid den första projektinstallationen eller vid utvidgning av den befintliga AEM Screens till nya platser.
 
 ## Arkitektöversikt {#architectural-overview}
 
@@ -58,7 +58,7 @@ Datamodellen för Project Importer beskrivs nedan:
 Kalkylbladsfilen (CSV/XLS) kräver därför följande kolumner:
 
 * **bana {string}** - Sökvägen till platsen som ska importeras, där sökvägen är platsmappen för projektet (det vill säga *`/foo`* importeras till *`/content/screens/<project>/locations/foo`*)
-* **mall {string}** - Mallen som ska användas för den nya platsen är för närvarande det enda tillåtna värdet&quot;location&quot;, men detta kommer att användas för alla skärmmallar i framtiden (`display`, `sequencechannel`och så vidare)
+* **mall {string}** - Mallen som ska användas för den nya platsen är för närvarande det enda tillåtna värdet&quot;location&quot;, men det här värdet utökas till att omfatta alla skärmmallar i framtiden (`display`, `sequencechannel`och så vidare)
 * **[./*] {string}** - Valfri egenskap som ska anges på platsen (d.v.s. `./jcr:title`, `./jcr:description`, `./foo, ./bar`). Den aktuella versionen tillåter ingen filtrering.
 
 >[!NOTE]
@@ -89,7 +89,7 @@ I demosyfte kan du ladda ned en Excel-fil från avsnittet nedan.
 
 ### Importerar filen med minst obligatoriska fält {#importing-the-file-with-minimum-required-fields}
 
-Följ stegen nedan för att importera en fil till en platsmapp med minst obligatoriska fält:
+Följ stegen nedan för att importera en fil till en platsmapp med de obligatoriska fälten:
 
 >[!NOTE]
 >

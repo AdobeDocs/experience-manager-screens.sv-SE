@@ -2,9 +2,9 @@
 title: Grunderna för digital signering för [!UICONTROL AEM Screens]
 description: Lär dig grunderna i ett digitalt signeringsprojekt.
 exl-id: e3913be2-9028-4773-a034-e16924a71e04
-source-git-commit: 299018986ae58ecbdb51a30413222a9682fffc76
+source-git-commit: 8dde26d36847fb496aed6d4bf9732233116b5ea6
 workflow-type: tm+mt
-source-wordcount: '404'
+source-wordcount: '408'
 ht-degree: 0%
 
 ---
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 Innan man börjar använda sig av AEM Screens bästa praxis för implementering är det viktigt att tänka på projektet som ett digitalt signeringsprojekt, i stället för som en traditionell programvaruutveckling.
 
-I det här avsnittet ges rekommendationer om viktiga nyckelelement som är viktiga innan AEM Screens implementeras.
+I det här avsnittet ges rekommendationer om viktiga nyckelelement som är viktiga för en implementering av AEM Screens-projekt.
 
 ## Viktiga element i digital signering {#key-elements}
 
@@ -40,14 +40,14 @@ Det är viktigt att du definierar nyckelelementen innan du implementerar ett pro
    Anslutningsmöjligheterna fokuserar på följande frågor:
    * Nätverksansluten (cell eller wi-fi) eller fristående?
       * Vill du tillåta USB-innehållsuppdateringar?
-      * Måste ni tillåta insamling av användningsdata?
+      * Ska ni tillåta användning av datainsamling?
 
 1. **Installation**
 
    Installationen omfattar:
    * Bildskärmar: liggande eller stående
    * Hur monteras skärmen?
-      * Stående jämfört med liggande
+      * Stående orientering kontra liggande orientering
       * Fullständigt hölje
       * Täckplåt
    * Fixeringsstöd
@@ -79,7 +79,7 @@ Det är viktigt att du definierar nyckelelementen innan du implementerar ett pro
 
 1. **Miljö**
 
-   Miljön betonar:
+   Miljön fokuserar på:
    * Visningsplats?
       * Insida kontra utsida
       * Oåtkomlig eller direkt exponerad

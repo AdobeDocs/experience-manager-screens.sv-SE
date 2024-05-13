@@ -10,9 +10,9 @@ feature: Authoring Screens, Experience Fragments
 role: Admin, Developer
 level: Intermediate
 exl-id: 13c0d75e-435f-433e-8886-f451df863517
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: 8dde26d36847fb496aed6d4bf9732233116b5ea6
 workflow-type: tm+mt
-source-wordcount: '1095'
+source-wordcount: '1102'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,7 @@ Den här sidan innehåller följande avsnitt:
 
 ## Ökning {#overview}
 
-An ***Experience Fragment*** är en grupp med en eller flera komponenter, inklusive innehåll och layout, som kan refereras till på sidor. Upplevelsefragment kan innehålla alla komponenter, till exempel en eller flera komponenter som kan innehålla vad som helst i ett styckesystem som refereras till den fullständiga upplevelsen eller som begärs av en tredje slutpunkt.
+An ***Experience Fragment*** är en grupp med en eller flera komponenter, inklusive innehåll och layout, som kan refereras till på sidor. Experience Fragments kan innehålla alla komponenter. Den kan till exempel innehålla en eller flera komponenter som kan innehålla vad som helst i ett styckesystem som refereras till den fullständiga upplevelsen eller som begärs av en tredje slutpunkt.
 
 
 ## Använda Experience Fragments i AEM Screens {#using-experience-fragments-in-aem-screens}
@@ -35,7 +35,7 @@ An ***Experience Fragment*** är en grupp med en eller flera komponenter, inklus
 >[!NOTE]
 >I följande exempel används **`We.Retail`** som ett demoprojekt varifrån Experience Fragment tillämpas från en **Webbplatser** till ett AEM Screens-projekt.
 
-I följande arbetsflöde demonstreras användningen av upplevelsefragment från `We.Retail` i Sites. Du kan välja en webbsida och använda det innehållet i din AEM Screens-kanal i något av dina projekt.
+I följande arbetsflöde visas hur du använder Experience Fragments från `We.Retail` i Sites. Du kan välja en webbsida och använda det innehållet i din AEM Screens-kanal i något av dina projekt.
 
 ### Krav {#pre-requisites}
 
@@ -92,7 +92,7 @@ Följ stegen nedan för att tillämpa innehållet från **`We.Retail`** till **T
 
    ![screen_shot_2019-07-29at105918am](assets/screen_shot_2019-07-29at105918am.png)
 
-   Obs! Om du vill klicka på ett enklare alternativ klickar du på bockmarkeringen till höger om fältet så att du kan öppna valdialogrutan.
+   Om du vill välja ett enklare alternativ klickar du på bockmarkeringen till höger om fältet så att du kan öppna valdialogrutan.
 
 1. **Skapa Live Copy of Experience Fragment**
 
@@ -121,7 +121,7 @@ Följ stegen nedan för att tillämpa innehållet från **`We.Retail`** till **T
 
    1. Klicka på **Offlinekonfiguration** enligt bilden nedan.
 
-   Du kan lägga till **Bibliotek på klientsidan** (Java™ och css) och **Statiska filer** till er Experience Fragment.
+   Du kan lägga till **Bibliotek på klientsidan** (Java™ och CSS) och **Statiska filer** till er Experience Fragment.
 
    I följande exempel visas hur bibliotek på klientsidan och teckensnitten läggs till som en del av statiska filer i Experience Fragment.  ![fragment](assets/fragment.gif)
 
@@ -137,11 +137,11 @@ Följ stegen nedan för att tillämpa innehållet från **`We.Retail`** till **T
 
    e. Klicka på **Experience Fragment** och klicka på ikonen längst upp till vänster (skiftnyckel) så att du kan öppna **Experience Fragment** -dialogrutan.
 
-   f. Klicka på **Skärmar** direktkopia av fragmentet som du skapade i *Steg 3* in **Bana**.
+   f. Klicka på **Skärmar** Live-kopia av fragmentet som du skapade i *Steg 3* in **Bana**.
 
    ![screen_shot_2019-07-26at82650pm](assets/screen_shot_2019-07-26at82650pm.png)
 
-   f. Klicka på **Skärmar** direktkopia av fragmentet som du skapade i *Steg 3* i **Experience Fragment**.
+   f. Klicka på **Skärmar** Live-kopia av fragmentet som du skapade i *Steg 3* i **Experience Fragment**.
 
    ![screen_shot_2019-07-26at82509pm](assets/screen_shot_2019-07-26at82509pm.png)
 
@@ -159,7 +159,7 @@ Följ stegen nedan för att tillämpa innehållet från **`We.Retail`** till **T
 
 ### Validerar resultatet {#validating-the-result}
 
-När du är klar med föregående steg kan du validera din Experience Fragment i **ChannelOne** av:
+När du har slutfört de föregående stegen kan du validera din Experience Fragment i **ChannelOne** av:
 
 1. Navigera till **TestChannel**.
 1. Markera **Förhandsgranska** i åtgärdsfältet.
@@ -171,7 +171,7 @@ Visa innehållet från **Webbplatser** sida (live-copy av Experience Fragment) i
 
 ***Live Copy*** refererar till kopian (av källan), som underhålls av synkroniseringsåtgärder som definieras av rollout-konfigurationerna.
 
-Eftersom den Experience Fragment ni skapade är en live-kopia från **Webbplatser** -sidor, och du ändrar det särskilda fragmentet från den primära sidan, kan du visa ändringarna i din kanal. Eller så kan du visa målet där du har använt Experience Fragment.
+Eftersom den Experience Fragment du skapade är en Live-kopia från **Webbplatser** -sidor, och du ändrar det särskilda fragmentet från den primära sidan, kan du visa ändringarna i din kanal. Eller så kan du visa målet där du har använt Experience Fragment.
 
 >[!NOTE]
 >

@@ -9,9 +9,9 @@ feature: Channels, Interactive
 role: Developer
 level: Intermediate
 exl-id: dfdd58b6-689b-47ca-9459-9c205f1841eb
-source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
+source-git-commit: 8dde26d36847fb496aed6d4bf9732233116b5ea6
 workflow-type: tm+mt
-source-wordcount: '798'
+source-wordcount: '799'
 ht-degree: 1%
 
 ---
@@ -33,19 +33,19 @@ Så här visar du videon:
 
 Det ska finnas olika renderingar (MP4 eller M4V).
 
-Om det inte finns någon återgivning kontrollerar du att du har ffmpeg installerat på det operativsystem där AEM körs.
+Om det inte finns någon återgivning kontrollerar du att du har FFMPEG installerat på det operativsystem där AEM körs.
 
 >[!CAUTION]
 >
->Om det inte finns någon återgivning kontrollerar du att du har ffmpeg installerat på det operativsystem där AEM körs.
+>Om det inte finns någon återgivning kontrollerar du att du har FFMPEG installerat på det operativsystem där AEM körs.
 >
->Klicka [här](https://www.ffmpeg.org/download.html) för att installera ffmpeg.
+>Klicka [här](https://www.ffmpeg.org/download.html) för att installera FFMPEG.
 
 ## Videoresurser {#video-assets}
 
 Om du inte ser något källattribut under video kan det bero på att videon inte har transkodats. Om videon omkodas korrekt visas den på kontrollpanelen, vilket visas i följande exempel:
 
-Kontrollera att fmpeg är installerat och videoprofilerna.
+Kontrollera att FFMPEG är installerat och videoprofilerna.
 
 ![chlimage_1-2](assets/chlimage_1-2.png)
 
@@ -57,7 +57,7 @@ Kontrollera att fmpeg är installerat och videoprofilerna.
 
 1. Överför en testvideo och klicka på **OK** så att du kan börja omkodningen.
 
-   Om den kodade videon misslyckas expanderar du ffmpeg-utdata för att förstå eventuella fel i konsolutdata för ffmpeg.
+   Om den omkodade videon misslyckas expanderar du FFMPEG-utdata för att förstå eventuella fel i konsolutdata i FFMPEG.
 
    ![chlimage_1-4](assets/chlimage_1-4.png)
 
@@ -80,13 +80,13 @@ Kontrollera listan med profiler från siddesignen om videokomponenten inte är k
 1. Klicka på videon och öppna **Redigera** -dialogrutan. Öppna **Profiler** -fliken.
 
    >[!NOTE]
-   >Klicka på olika profiler (åtminstone profilen&quot;Hög kvalitet H.264&quot; ska finnas).
+   >Klicka på olika profiler (åtminstone ska profilen&quot;Hög kvalitet H.264&quot; finnas).
 
 ### Kontrollera videon i webbspelaren {#checking-the-video-in-the-web-player}
 
 Använd **Web Player** `http://localhost:4502/content/mobileapps/cq-screens-player/firmware.html/content/screens/we-retail/locations/demo/flagship/single/device0` för att validera uppspelningen i webbläsare (Chrome och Safari). Chrome används på Android™-enheter medan Safari är OS X- och iOS-webbläsare.
 
-Om videon inte kan köras på Safari körs den inte heller i OS X- och iOS-spelare. Detta är troligen ett kodningsproblem och videon måste kodas om.
+Om videon inte kan köras på Safari körs den inte heller i OS X- och iOS-spelare. Det här problemet är troligen ett kodningsproblem och videon måste kodas om.
 
 Så här använder du ett DAM-arbetsflöde för att skapa FullHD-renderingar:
 
@@ -113,7 +113,7 @@ Följ stegen nedan för att felsöka Google problem med automatisk uppspelningsp
 
 >[!NOTE]
 >
->Mer information om de bästa sätten att använda de nya automatiska uppspelningsprinciperna i Chrome finns i dokumentationen för *Spela upp principändringar automatiskt* på `https://developers.google.com/web/updates/2017/09/autoplay-policy-changes#webaudio`.
+>Om du vill veta mer om bästa praxis för bra användarupplevelser med de nya automatiska spelreglerna i Chrome. Se *Spela upp principändringar automatiskt* på `https://developers.google.com/web/updates/2017/09/autoplay-policy-changes#webaudio`.
 
 ### Synkronisera video mellan flera spelare {#syncing-video-across-multiple-players}
 

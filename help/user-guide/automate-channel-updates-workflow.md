@@ -1,5 +1,5 @@
 ---
-title: Använd arbetsflödet för att automatisera resursuppdateringar för en AEM Screens-kanal
+title: Använda ett arbetsflöde för att automatisera resursuppdateringar för en AEM Screens-kanal
 description: Lär dig hur du skapar ett arbetsflöde som automatiskt bearbetar resurser som överförts till Adobe Experience Manager och dynamiskt tilldelar dem till en skärmkanal.
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 content-type: reference
@@ -7,17 +7,17 @@ topic-tags: developing
 feature: Developing Screens
 role: Developer
 level: Intermediate
-source-git-commit: 3c4b37b3b9f268b500562fa4ce3782b7be1e7d74
+source-git-commit: 8dde26d36847fb496aed6d4bf9732233116b5ea6
 workflow-type: tm+mt
-source-wordcount: '400'
+source-wordcount: '403'
 ht-degree: 0%
 
 ---
 
 
-# Använd arbetsflödet för att automatisera resursuppdateringar för en AEM Screens-kanal {#automate-channel-updates-workflow}
+# Använda ett arbetsflöde för att automatisera resursuppdateringar för en AEM Screens-kanal {#automate-channel-updates-workflow}
 
-Lär dig hur du skapar ett arbetsflöde som automatiskt bearbetar resurser som överförts till Adobe Experience Manager och dynamiskt tilldelar dem till en skärmkanal. I det här exemplet aktiveras ett arbetsflöde som tillämpar en dynamisk textövertäckning (vattenstämpelprocess) och tilldelar bilden till en skärmkanal när en bild läggs till i en viss mapp. Lektioner från det här exemplet kan användas i en mängd olika automatiseringsscenarier.
+Lär dig hur du skapar ett arbetsflöde som automatiskt bearbetar resurser som överförts till Adobe Experience Manager och dynamiskt tilldelar dem till en skärmkanal. I det här exemplet aktiveras ett arbetsflöde när en bild läggs till i en viss mapp. Arbetsflödet tillämpar en dynamisk textövertäckning (vattenstämpelprocess) och tilldelar bilden till en skärmkanal. Lektioner från det här exemplet kan användas i en mängd olika automatiseringsscenarier.
 
 ## Förutsättningar {#prerequisites}
 
@@ -38,7 +38,7 @@ I videon nedan visas hur du installerar ett exempelkodpaket som innehåller ett 
 
 ## Arbetsflödesmodell {#workflow-model}
 
-Ett anpassat mappmetadataschema skapades för att fånga målkanalen för skärmar som bilder ska läggas till. Två arbetsflödesmodeller används för att automatisera materialbearbetningen. The **DAM-uppdateringsresurs** arbetsflödet har ändrats för att anropa ett anpassat arbetsflöde, **Bearbetning av demoresurser på skärmar** som kontrollerar resursens innehållsmapp för att avgöra målkanalen för skärmar. The **Bearbetning av demoresurser på skärmar** arbetsflödet ansvarar också för att använda vattenstämpeln på bilden.
+Ett anpassat mappmetadataschema skapades för att fånga målkanalen för skärmar som bilder ska läggas till. Två arbetsflödesmodeller används för att automatisera materialbearbetningen. The **DAM-uppdateringsresurs** arbetsflödet redigeras för att anropa ett anpassat arbetsflöde, **Bearbetning av skärmdemonstrationsresurser som undersöker resursens innehållsmapp för att fastställa målkanalen för skärmar. The **Bearbetning av demoresurser på skärmar** arbetsflödet ansvarar också för att använda vattenstämpeln på bilden.
 
 >[!VIDEO](https://video.tv.adobe.com/v/333175/?quality=12&learn=on)
 

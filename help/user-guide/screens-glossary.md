@@ -5,9 +5,9 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 5b5d5251-90bf-4ef0-8300-76093f725291
-source-git-commit: 1e8beb9dfaf579250138d4a41eeec88cc81f2d39
+source-git-commit: 8dde26d36847fb496aed6d4bf9732233116b5ea6
 workflow-type: tm+mt
-source-wordcount: '440'
+source-wordcount: '442'
 ht-degree: 0%
 
 ---
@@ -22,11 +22,11 @@ ht-degree: 0%
 
 **Enhet** - En enhet kan köra spelarprogrammet för att skapa visuella utdata. Den kan styra visningen av en beskuren, skalad, översatt del av det vanliga innehållet eller upplevelsen. Skärmkonfigurationen är bunden till en skärm, men kan ersättas om ett tekniskt fel uppstår.
 
-**Visa** - En skärm är en virtuell gruppering av skärmar som är placerade bredvid varandra. Bildskärmen är permanent med avseende på en installation. Det här är det objekt som författare arbetar med och refererar alltid till som logisk visning i stället för deras fysiska räknardelar.
+**Visa** - En skärm är en virtuell gruppering av skärmar som är placerade bredvid varandra. Bildskärmen är permanent med avseende på en installation. Det här objektet är det som innehållsförfattare arbetar med och alltid refererar som en logisk visning i stället för deras fysiska motdelar.
 
 **Firmware** - Firmware är den term som ges till programmet som körs på enheten inuti spelarprogrammet i en webbvy. Det är ett JavaScript-lager som kör innehållet i en kanal i iFrames och ger åtkomst till inbyggda funktioner via plugin-program. Den inbyggda programvaran kan uppdateras utan att spelarprogrammet uppdateras.
 
-**Live Copy** - En Live-kopia är en kopia av specifikt webbplatsinnehåll för vilket en direktrelation med den ursprungliga källan upprätthålls. Den här realtidsrelationen gör att den aktiva kopian kan ärva innehåll och sidegenskaper från källan.
+**Live Copy** - En Live-kopia är en kopia av specifikt webbplatsinnehåll för vilket en direktrelation med den ursprungliga källan upprätthålls. I den här Live-relationen kan Live-kopian ärva innehåll och sidegenskaper från källan.
 
 **Plats-/platsmapp** - Platser eller platser i platsmappen är värdar för konfigurationen av skärmarna enligt var de olika skärmarna finns.
 

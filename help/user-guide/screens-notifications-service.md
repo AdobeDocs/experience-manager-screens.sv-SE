@@ -9,9 +9,9 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 205235d7-e621-4134-975c-257ae60939bc
-source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
+source-git-commit: 8dde26d36847fb496aed6d4bf9732233116b5ea6
 workflow-type: tm+mt
-source-wordcount: '489'
+source-wordcount: '491'
 ht-degree: 0%
 
 ---
@@ -63,7 +63,7 @@ Följ stegen nedan för att konfigurera inställningarna för e-postmeddelanden:
 
    **Schemaläggningsfrekvens** - Ange en tid (t.ex. 05:00 eller 17:00) eller frekvens i timmar (t.ex. 1) som den här övervakaren ska skicka e-post med.
 
-   **Ping-timeout** - Detta anger intervallet i minuter efter vilket en enhet inte kan nås.
+   **Ping-timeout** - Det här fältet anger intervallet i minuter efter vilket en enhet inte kan nås.
 
    **SMTP-server** - Anger SMTP-servern som används för att skicka e-post.
 
@@ -91,11 +91,14 @@ När du har angett konfigurationen för dina e-postmeddelanden får du ett e-pos
 
 Om du får åtkomst till den länken navigerar du direkt till enhetens kontrollpanel.
 
-E-postmeddelanden skickas endast om det finns minst en enhet som inte har pingats för den angivna pingtidsgränsen och som fortfarande inte pingas när e-postmeddelandet genereras.
+E-post skickas endast om:
+
+* det finns minst en enhet som inte har pingats för den angivna pingtidsgränsen, och
+* är fortfarande inte pingande när e-postmeddelandet genereras.
 
 ### Exempel på användningsfall {#example-use-cases}
 
-I följande exempel beskrivs ett fåtal referensscenarier för att konfigurera egenskaperna från E-postövervakningstjänsten för skärmar.
+I följande exempel beskrivs några referensscenarier för att konfigurera egenskaperna från E-postövervakningstjänsten för skärmar.
 
 **Scenario 1**
 
@@ -103,4 +106,4 @@ Du ställer in schemafrekvensen till 1:00 och pingtidsgränsen till 60. Om din A
 
 **Scenario 2**
 
-Du ställer in schemafrekvensen till 1 och pingtidsgränsen till 60. Om din AEM Screens-enhet inte växlar mellan en och samma gång vid en viss tidpunkt på dagen får du ett e-postmeddelande som bekräftar att enheten är inaktiv.
+Du ställer in schemafrekvensen till 1 och pingtidsgränsen till 60. Om din AEM Screens-enhet inte pingar samtidigt vid en viss tidpunkt på dagen får du ett e-postmeddelande som bekräftar att enheten är inaktiv.

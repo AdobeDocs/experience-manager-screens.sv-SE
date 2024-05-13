@@ -2,9 +2,9 @@
 title: AEM Screens innehållsstrategi för företag
 description: Läs mer om strategi för marknadsföring och affärsinnehåll när det gäller AEM Screens.
 exl-id: efb8ea95-62c0-41ed-9e67-23d76ad12a4c
-source-git-commit: ef74265eadf5972eae7451b7725946d8b014c198
+source-git-commit: 8dde26d36847fb496aed6d4bf9732233116b5ea6
 workflow-type: tm+mt
-source-wordcount: '433'
+source-wordcount: '437'
 ht-degree: 0%
 
 ---
@@ -15,11 +15,11 @@ ht-degree: 0%
 >
 >En typisk aktör inom denna verksamhet är en marknadsförings-/affärsstrategi.
 
-Innehåll är en viktig faktor för att öka engagemanget. I fasen före försäljningen är det viktigt att definiera en innehållsstrategi för företag som tar hänsyn till hur programmet använder maskinvara, programvara och anslutningsresurser för att leverera det avsedda värdet till kundens kunder.
+Innehåll är en viktig faktor för att öka engagemanget. I fasen före försäljningen är det viktigt att definiera en innehållsstrategi för verksamheten. Den strategin tar hänsyn till hur programmet använder maskinvara, programvara och anslutningsresurser för att leverera det avsedda värdet till kundens kunder.
 
-En väldefinierad innehållsstrategi för företag sätter en väg för att skapa, distribuera och spåra användningen av innehåll i relation till köparens resa och kontaktytorna för marknadsföring i säljprocessen. Att få rätt budskap till rätt kund vid rätt tidpunkt är avgörande.
+En väldefinierad innehållsstrategi för företag sätter en väg för att skapa, distribuera och spåra användningen av innehåll i relation till köparens resa. Den tar även hänsyn till kontaktytorna i marknadsföringstratten. Att få rätt budskap till rätt kund vid rätt tidpunkt är avgörande.
 
-Fundera över hur skärmprogrammet kan bidra till att uppnå detta och fastställa nyckeltal för att mäta programmets framgång när det gäller att leverera innehållet.
+Fundera över hur skärmar-programmet kan bidra till att uppnå den här strategin och fastställa nyckeltal för att mäta programmets framgång när det gäller att leverera innehållet.
 
 >[!NOTE]
 >

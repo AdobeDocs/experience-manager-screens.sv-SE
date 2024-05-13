@@ -1,13 +1,13 @@
 ---
-source-git-commit: ba5327077e4a2d30cc7b77f02123da5a240c67ae
+source-git-commit: 8dde26d36847fb496aed6d4bf9732233116b5ea6
 workflow-type: tm+mt
-source-wordcount: '72'
+source-wordcount: '71'
 ht-degree: 0%
 
 ---
 # Adobe Experience Manager Screens Documentation
 
-Det här är arkivet för Adobe Experience Manager Screens-dokumentation.
+Här hittar du Adobe Experience Manager Screens-dokumentation.
 
 Dina bidrag till dokumentationen är välkomna. Se följande resurser:
 

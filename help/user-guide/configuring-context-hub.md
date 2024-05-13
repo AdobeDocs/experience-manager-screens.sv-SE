@@ -1,6 +1,6 @@
 ---
 title: ContextHub konfigureras i AEM Screens
-description: Lär dig mer om ContextHub i målmotorn så att du kan definiera datalagring för innehållsändring i utlösare.
+description: Lär dig mer om ContextHub i målmotorn så att du kan definiera ett datalager för innehållsändring i utlösare.
 contentOwner: jsyal
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: developing
@@ -10,9 +10,9 @@ feature: Developing Screens
 role: Developer
 level: Intermediate
 exl-id: 04072107-d6be-4030-bb79-1f1a7609f37e
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: 8dde26d36847fb496aed6d4bf9732233116b5ea6
 workflow-type: tm+mt
-source-wordcount: '1445'
+source-wordcount: '1450'
 ht-degree: 1%
 
 ---
@@ -33,7 +33,7 @@ Innan du får mer information om hur du skapar och hanterar lagerdrivna kanaler 
 
 **Målgrupp** - Definierar regeln.
 
-**Segment** - Den version av resursen som ska spelas upp för den angivna regeln. Om temperaturen till exempel är under 50 grader Fahrenheit visar skärmen en bild av en varm dryck, i annat fall en kall dryck.
+**Segment** - Den version av en resurs som ska spelas upp för den angivna regeln. Om temperaturen till exempel är under 50 grader Fahrenheit visar skärmen en bild av en varm dryck, i annat fall en kall dryck.
 
 I följande diagram visas hur ContextHub-konfigurationer sammanfaller med Activity, Audience och Channels.
 
@@ -41,7 +41,7 @@ I följande diagram visas hur ContextHub-konfigurationer sammanfaller med Activi
 
 ## Förhandsvillkor {#preconditions}
 
-Innan du börjar konfigurera Context Hub Configurations för ett AEM Screens-projekt måste du konfigurera Google Sheets (i demonstrationssyfte).
+Innan du börjar konfigurera ContextHub-konfigurationer för ett AEM Screens-projekt måste du konfigurera Google Sheets (i demonstrationssyfte).
 
 >[!IMPORTANT]
 >
@@ -53,7 +53,7 @@ Innan du börjar konfigurera Context Hub Configurations för ett AEM Screens-pro
 
 Du kan konfigurera datalagret som en lokal I/O-händelse eller som en lokal databashändelse.
 
-Följande datanivådata utlöser ett exempel på en lokal databashändelse som ställer in ett datalager, t.ex. ett Excel-blad, där du kan använda ContextHub-konfigurationer och segmentsökvägar till AEM Screens-kanalen.
+Följande datanivådata utlöser exempel på en lokal databashändelse. Händelsen ställer in ett datalager, t.ex. ett Excel-blad, som gör att du kan använda ContextHub-konfigurationer och segmentsökvägar till AEM Screens-kanalen.
 
 När du har konfigurerat `google` korrekt kalkylblad, vilket visas i exemplet nedan:
 
@@ -73,7 +73,7 @@ Följande validering är den du ser när du kontrollerar anslutningen genom att 
 
 1. **Navigera till ContextHub**
 
-   Navigera till din AEM och klicka på verktygsikonen från vänster sidofält. Klicka **Webbplatser** > **ContextHub**, vilket visas i figuren nedan.
+   Navigera till AEM och klicka på verktygsikonen i det vänstra sidfältet. Klicka **Webbplatser** > **ContextHub**, vilket visas i figuren nedan.
 
    ![bild](/help/user-guide/assets/context-hub/context-hub3.png)
 
@@ -146,7 +146,7 @@ Följande validering är den du ser när du kontrollerar anslutningen genom att 
 
       >[!CAUTION]
       >
-      >Om du skapar dina Google Sheets-lagringskonfigurationer utanför den globala mappen (till exempel i din egen projektmapp) fungerar inte mål som det ska.
+      >Om du skapar dina Google-blad för att lagra konfigurationer utanför den globala mappen (till exempel i din egen projektmapp) fungerar inte målanpassning som det ska.
 
 1. **Konfigurera butikssegmentering**
 
@@ -166,7 +166,7 @@ Följande validering är den du ser när du kontrollerar anslutningen genom att 
 
    1. Navigera från AEM till **Personalisering** > **Målgrupper** > **skärmar**.
 
-   1. Klicka **Skapa** > **Skapa kontextnavsegment.** The **Nytt ContextHub-segment** öppnas.
+   1. Klicka **Skapa** > **Skapa ContextHub-segment.** The **Nytt ContextHub-segment** öppnas.
 
    1. Ange **Titel** as `**Higherthan50**` och klicka **Skapa**. Skapa på samma sätt ett annat segment med namnet som `**Lowerthan50**`.
 
@@ -289,7 +289,7 @@ När du har konfigurerat ett datalager och definierat din aktivitet (varumärke 
 
 Följ stegen nedan för att aktivera målinriktning i dina kanaler.
 
-1. Navigera till någon av AEM Screens-kanalerna. I följande steg visas hur du aktiverar målinriktning genom att använda **DataDrivenKanal** som har skapats i en AEM Screens-kanal.
+1. Navigera till någon av AEM Screens-kanalerna. I följande steg visas hur du aktiverar målinriktning genom att använda **DataDrivenKanal** som skapats i en AEM Screens-kanal.
 
 1. Klicka på kanalen **TargetChannel** och klicka **Egenskaper** i åtgärdsfältet.
 
@@ -304,7 +304,7 @@ Följ stegen nedan för att aktivera målinriktning i dina kanaler.
 
       >[!NOTE]
       >
-      >Använd ContextHub och Segments-sökvägen, där du först sparade dina kontextnavkonfigurationer och segment.
+      >Använd ContextHub och Segments-sökvägen, där du först sparade dina ContextHub-konfigurationer och segment.
 
       ![bild](/help/user-guide/assets/context-hub/context-hub20New.png)
 

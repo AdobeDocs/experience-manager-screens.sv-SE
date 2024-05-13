@@ -10,9 +10,9 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: e4562547-2829-4a53-8e37-2cd637cef7c8
-source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
+source-git-commit: 8dde26d36847fb496aed6d4bf9732233116b5ea6
 workflow-type: tm+mt
-source-wordcount: '313'
+source-wordcount: '311'
 ht-degree: 0%
 
 ---
@@ -51,7 +51,7 @@ Se **[Nödkanal](emergency-channel.md)** om du vill ha mer information.
 
 * **Bädda in ett REACT-program med AEM SPA Editor och Integrera med AEM Screens Analytics**
 
-I det här avsnittet beskrivs hur du bäddar in en interaktiv enkelsidig applikation med REACT (eller Angular) med AEM SPA. Redigeraren kan konfigureras av AEM. Här beskrivs också hur du integrerar dina interaktiva program med offline-Adobe Analytics.
+I det här avsnittet beskrivs hur du bäddar in en interaktiv enkelsidig applikation med REACT (eller Angular) med AEM SPA. AEM kan konfigurera redigeraren. Här beskrivs också hur du integrerar dina interaktiva program med offline-Adobe Analytics.
 
 Se **[Bädda in ett REACT-program med AEM SPA Editor och Integrera med AEM Screens Analytics](embedding-react-app.md)** för mer information.
 

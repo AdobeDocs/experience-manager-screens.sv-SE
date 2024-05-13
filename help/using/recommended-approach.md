@@ -2,18 +2,18 @@
 title: Rekommenderat tillvägagångssätt
 description: Läs mer om det rekommenderade tillvägagångssättet i ett AEM Screens-projekt.
 exl-id: 28aacffa-e9c9-4ccb-8038-720bb3e02a3f
-source-git-commit: ef74265eadf5972eae7451b7725946d8b014c198
+source-git-commit: 8dde26d36847fb496aed6d4bf9732233116b5ea6
 workflow-type: tm+mt
-source-wordcount: '430'
+source-wordcount: '424'
 ht-degree: 0%
 
 ---
 
 # Rekommenderat tillvägagångssätt {#recommended-approach}
 
-Vi rekommenderar att man ser AEM Screens-projekt på företagsnivå som ett långsiktigt företag. Det är troligt att projektet varar i ett eller flera år, särskilt om lösningen tillåter komplex användarinteraktion eller distribueras till olika enheter och platser.
+Det är god praxis att se alla AEM Screens-projekt på företagsnivå som ett långsiktigt företag. Det är troligt att projektet varar i ett eller flera år, särskilt om lösningen tillåter komplex användarinteraktion eller distribueras till olika enheter och platser.
 
-## Riktlinjer innan en strategi för digital signering utvecklas {#signage-strategy}
+## Riktlinjer för utveckling av en strategi för digitala signaturer {#signage-strategy}
 
 Se de få rekommendationerna innan du börjar utveckla och driftsätta ett projekt för digitala signaturer:
 
@@ -33,7 +33,7 @@ Se de få rekommendationerna innan du börjar utveckla och driftsätta ett proje
   >
   > Startkostnaderna för ett AEM Screens-projekt är ofta högre på grund av behovet av att investera i maskinvara, korrigeringar och webbplatsdesign. Det innebär att enklare innehållslösningar kan hjälpa er att hantera budgetens förväntningar.
 
-* **Uppskattar storskaliga slutprodukter**: Om lösningen levereras i stor skala rekommenderar vi att du rullar ut komponenterna i programmet till noggrant utvalda pilotplatser för testanvändning. Leverera till nya platser och enheter när programmet godkänns i valideringen.
+* **Uppskattar storskaliga slutprodukter**: Om lösningen levereras i stor skala kan du rulla ut komponenterna i applikationen till noggrant utvalda pilotplatser för testanvändning. Leverera till nya platser och enheter när programmet godkänns i valideringen.
 
   >[!NOTE]
   >
