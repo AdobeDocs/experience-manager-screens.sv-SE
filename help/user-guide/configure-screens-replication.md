@@ -4,9 +4,9 @@ description: Lär dig hur du konfigurerar agenter för skärmreplikering.
 role: Developer
 level: Intermediate
 exl-id: 40877547-5027-41eb-8d66-d4a2d7b9af70
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: cdff56f0807f6d5fea4a4b1d545aecb1e80245bb
 workflow-type: tm+mt
-source-wordcount: '462'
+source-wordcount: '465'
 ht-degree: 3%
 
 ---
@@ -17,7 +17,7 @@ På följande sida beskrivs hur du konfigurerar Screens Replication Agents.
 
 ## Syfte {#objective}
 
-Agenten för skärmreplikering ansvarar för att hämta kommandodata som, *användare*, *lösenord*, *rebootSchedule*, *maxNumberOfLogFilesToKeep* och många fler sådana värden, från publicera till författare. Det är viktigt att konfigurera detta så att författaren kan visa enhetsping.
+Agenten för skärmreplikering ansvarar för att hämta kommandodata som *användare*, *lösenord*, *rebootSchedule*, *maxNumberOfLogFilesToKeep* och många fler sådana värden, från publicera till författare. Det är viktigt att konfigurera den här agenten så att författaren kan visa enhetsping.
 
 >[!NOTE]
 >Mer information om agenter för skärmreplikering finns i [Skärmreplikeringsagenter och kommandon](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/administering/author-publish/author-publish-architecture-overview#screens-replication-agents-and-commands).
@@ -34,7 +34,7 @@ Följ stegen nedan för att aktivera användare och uppdatera lösenordet för `
 >[!NOTE]
 >Av säkerhetsskäl bör du undvika att använda adminlösenordet för `screens-receiver-user`.
 
-1. Navigera till AEM Author-instansen.
+1. Navigera till din instans av AEM författare.
 
 1. Klicka på verktyg > **Säkerhet** > **Användare**.
 
@@ -104,7 +104,7 @@ Följ avsnittet nedan för att uppdatera inställningarna i AEM Screens Replicat
 
    ![bild](/help/user-guide/assets/screens-replication/screens-replication1b.png)
 
-1. Sök efter alla AEM Screens Replikeringsagenter på författaren och klicka på länken enligt bilden nedan.
+1. Sök efter alla AEM Screens Replication Agents på författaren och klicka på länken, vilket visas i bilden nedan.
 
    >[!NOTE]
    >Sök efter alla AEM Screens-replikeringsagenter. Namnet på skärmreplikeringsagenten innehåller bokstaven **S** i titeln.
@@ -129,4 +129,4 @@ Följ avsnittet nedan för att uppdatera inställningarna i AEM Screens Replicat
 
    ![bild](/help/user-guide/assets/screens-replication/screens-replication1g.png)
 
-   Om anslutningsverifieringen lyckas har du slutfört konfigurationen av skärmreplikeringsagenten.
+   Om anslutningsverifieringen lyckas har du konfigurerat agenten för skärmreplikering.

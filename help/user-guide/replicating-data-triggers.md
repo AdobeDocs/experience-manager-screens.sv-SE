@@ -5,9 +5,9 @@ feature: Administering Screens, Data Trigger
 role: Developer
 level: Intermediate
 exl-id: 6f90b864-eaa0-4b74-a47e-b0967a550552
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: cdff56f0807f6d5fea4a4b1d545aecb1e80245bb
 workflow-type: tm+mt
-source-wordcount: '521'
+source-wordcount: '523'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ När du använder ContextHub och AEM Target Engine för att anpassa innehåll ba
 
 På den här sidan får du hjälp att lära dig de manuella steg som krävs för att publicera dessa konfigurationer separat.
 
-Det handlar om manuell publicering:
+Det handlar om att manuellt publicera följande:
 
 1. Konfiguration av ContextHub Store- och UI-moduler
 1. Målgrupper inom personalisering
@@ -64,7 +64,7 @@ Följ stegen nedan för att replikera datautlösarna till publiceringsservern.
 
 1. Klicka **Nästa** och **Publicera**.
 
-### Replikera aktiviteterna  {#replicating-activities}
+### Replikera aktiviteterna {#replicating-activities}
 
 1. Navigera till AEM > **Personalisering** > **Verksamhet** eller använda `http://localhost:4502/libs/cq/personalization/touch-ui/content/v2/activities.html` navigera direkt.
 
@@ -92,9 +92,9 @@ Om replikeringen lyckas bör du visa följande struktur på publiceringsinstanse
 
 Om testanslutningen misslyckas när ContextHub-konfigurationerna replikeras, följ avsnittet nedan för att felsöka problemet:
 
-1. Navigera till Verktyg > **Distribution** > **Distribution** > **Publish Agent**.
+1. Navigera till **verktyg** > **Distribution** > **Distribution** > **Publish Agent**.
 
-1. Klicka **Redigera** från åtgärdsfältet och kontrollera att slutpunktens URL i **Importerarslutpunkter** fältet pekar också på publiceringsserverns URL i Distribution Agent.
+1. Klicka **Redigera** från åtgärdsfältet och kontrollera att slutpunkts-URL:en i **Importerarslutpunkter** fältet pekar också på publiceringsserverns URL i Distribution Agent.
    ![image1](/help/user-guide/assets/replicating-triggers/replicating-triggers9.png)
 
 1. Om du inte använder standardadministratörsautentiseringsuppgifterna måste du konfigurera distributionsagenten med ett annat användarnamn och lösenord.

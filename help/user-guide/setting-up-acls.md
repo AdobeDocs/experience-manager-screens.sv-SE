@@ -9,9 +9,9 @@ feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: b40bcc9f-307c-422c-8abb-5c15965772d4
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: cdff56f0807f6d5fea4a4b1d545aecb1e80245bb
 workflow-type: tm+mt
-source-wordcount: '491'
+source-wordcount: '488'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 I följande avsnitt beskrivs hur du skiljer ut projekt med hjälp av åtkomstkontrollistor så att varje enskild person eller grupp hanterar sitt eget projekt.
 
-Som AEM vill du se till att teammedlemmar i ett projekt inte stör andra projekt och att alla användare tilldelas specifika roller enligt projektkraven.
+Som AEM vill du se till att teammedlemmar i ett projekt inte stör andra projekt. Varje användare tilldelas specifika roller enligt projektkraven.
 
 ## Konfigurera behörigheter {#setting-up-permissions}
 
@@ -42,7 +42,7 @@ I följande steg sammanfattas proceduren för att konfigurera åtkomstkontrollis
 
    ![screen_shot_2018-02-18at33938pm](assets/screen_shot_2018-02-18at33938pm.png)
 
-1. Lägg till **Acme** (projekt som du har skapat) till **Lägg till medlemmar i grupp**. Klicka **Spara**.
+1. Lägg till **Acme** (projekt som du har skapat) till **Lägg till medlemmar i gruppen**. Klicka **Spara**.
 
    ![screen_shot_2018-02-18at35630pm](assets/screen_shot_2018-02-18at35630pm.png)
 
@@ -66,12 +66,12 @@ I följande tabell sammanfattas sökvägen med behörigheter på projektnivå:
 
 | **Bana** | **Behörighet** | **Beskrivning** |
 |---|---|---|
-| `/apps/<project>` | LÄS | Ger tillgång till projektfiler, om tillämpligt. |
-| `/content/dam/<project>` | ALLA | Ger åtkomst till att lagra projektresurser som bilder eller video i DAM. |
+| `/apps/<project>` | LÄS | Ge åtkomst till projektfiler, om tillämpligt. |
+| `/content/dam/<project>` | ALLA | Ge åtkomst för att lagra projektresurser som bilder eller video i DAM. |
 | `/content/screens/<project>` | ALLA | Tar bort åtkomst till alla andra projekt under /content/screens. |
-| `/content/screens/svc` | LÄS | Ger åtkomst till registreringstjänsten. |
-| `/libs/screens` | LÄS | Ger åtkomst till DCC. |
-| `/var/contentsync/content/screens/` | ALLA | Gör att du kan uppdatera offlineinnehåll för projektet. |
+| `/content/screens/svc` | LÄS | Ge åtkomst till registreringstjänsten. |
+| `/libs/screens` | LÄS | Ge åtkomst till DCC. |
+| `/var/contentsync/content/screens/` | ALLA | Hjälp dig att uppdatera offlineinnehåll för projektet. |
 
 >[!NOTE]
 >
@@ -133,7 +133,7 @@ I följande tabell sammanfattas grupperna med beskrivning och behörighet för e
   </tr>
   <tr>
    <td>Skärmspelare<br /> <em><code>screens-&lt;project&gt;-devices</code></em></td>
-   <td>Grupperar alla spelare och alla spelare/enheter automatiskt.</td>
+   <td>Alla spelare och alla spelare/enheter är automatiskt medlemmar av deltagarna.</td>
    <td><p> Medverkande</p> </td>
   </tr>
  </tbody>

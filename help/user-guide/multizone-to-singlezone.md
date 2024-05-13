@@ -6,9 +6,9 @@ feature: Authoring Screens
 role: Developer, User
 level: Intermediate
 exl-id: 15632f31-1e92-40e5-b567-8705e27bdc93
-source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
+source-git-commit: cdff56f0807f6d5fea4a4b1d545aecb1e80245bb
 workflow-type: tm+mt
-source-wordcount: '400'
+source-wordcount: '404'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 ## Använd fallbeskrivning {#use-case-description}
 
-I det här avsnittet beskrivs ett exempel på hur du kan använda en flerzonslayoutkanal som växlar med en enzonslayoutkanal. Flerzonskanalen har sekvensbilder/videor och visar hur du kan ställa in projekt som växlar från flera zoner till en zon och omvänt.
+I det här avsnittet beskrivs ett exempel på hur du kan använda en flerzonslayoutkanal som växlar med en enzonslayoutkanal. Flerzonskanalen har sekvensbilder/videor och visar hur du kan ställa in ett projekt som växlar från flera zoner till en zon och omvänt.
 
 ### Förhandsvillkor {#preconditions}
 
@@ -78,7 +78,7 @@ Följ stegen nedan för att konfigurera ett projekt:
 
 Du kan visa önskade utdata från spelaren eller bara genom att välja **Förhandsgranska** från redigeraren.
 
-Utdata visar hur en flerzonslayout spelas upp för *10000 millisekunder* och växlar sedan till layout med en zon som har uppspelningstiden *3 000 millisekunder* och växlar sedan tillbaka till flerzonslayouten.
+Utdata visar hur en flerzonslayout spelas upp för *10000 millisekunder*. Sedan växlar den till en layout med en enda zon som har uppspelningstiden *3 000 millisekunder*. Slutligen växlar den tillbaka till flerzonslayouten.
 
 >[!VIDEO](https://video.tv.adobe.com/v/30366)
 

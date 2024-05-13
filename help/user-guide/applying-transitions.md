@@ -6,9 +6,9 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 757e6751-8008-487f-be89-9f53ac898928
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: cdff56f0807f6d5fea4a4b1d545aecb1e80245bb
 workflow-type: tm+mt
-source-wordcount: '272'
+source-wordcount: '275'
 ht-degree: 0%
 
 ---
@@ -37,7 +37,7 @@ Följ stegen nedan för att lägga till en övergångskomponent i ditt AEM Scree
 
    >[!NOTE]
    >
-   >The **TestTransition** kanalen innehåller redan få resurser (bilder och videor). Till exempel **TestTransition** Kanalen innehåller tre bilder och två videoklipp, vilket visas nedan:
+   >The **TestTransition** i kanalen finns redan ett fåtal resurser (bilder och videor). Till exempel **TestTransition** Kanalen innehåller tre bilder och två videoklipp, vilket visas nedan:
 
    ![image2](assets/transitions2.png)
 
@@ -46,7 +46,7 @@ Följ stegen nedan för att lägga till en övergångskomponent i ditt AEM Scree
 
    >[!CAUTION]
    >
-   >Innan du lägger till övergången till dina resurser i din kanal måste du se till att du inte lägger till en övergång före den första resursen i den sekventiella kanalen. Det första objektet i kanalen måste vara en resurs och inte en övergång.
+   >Innan du lägger till övergången till dina resurser i din kanal måste du se till att du inte lägger till övergången före den första resursen i den sekventiella kanalen. Det första objektet i kanalen måste vara en resurs och inte en övergång.
 
    ![image3](assets/transitions3.png)
 
@@ -54,6 +54,6 @@ Följ stegen nedan för att lägga till en övergångskomponent i ditt AEM Scree
    >
    >Som standard är övergångskomponentens egenskaper, som **Typ** är inställd på **Tona** och **Varaktighet** är inställd på *1 600 millisekunder*. Det är inte heller tillrådligt att ange en tidslängd för övergången som är längre än den tillgång den används på.
 
-1. Om du lägger till en **Inbäddad sekvens** -komponenten (som inkluderar en sekvenskanal) i den här kanalredigeraren kan du lägga till en övergångskomponent i slutet. Detta garanterar att innehållet spelas upp i rätt ordning, vilket visas i följande bild:
+1. Om du lägger till en **Inbäddad sekvens** -komponenten (som inkluderar en sekvenskanal) i den här kanalredigeraren kan du lägga till en övergångskomponent i slutet. Om du gör det ser du till att innehållet spelas upp i rätt ordning enligt följande bild:
 
    ![image3](assets/transitions5.png)

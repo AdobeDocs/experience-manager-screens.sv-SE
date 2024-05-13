@@ -1,6 +1,6 @@
 ---
 title: Layout med flera zoner
-description: Lär dig hur du skapar innehåll med flera zoner och använder olika resurser som videoklipp, bilder och text som kan kombineras på en enda skärm i AEM Screens.
+description: Lär dig hur du skapar innehåll med flera zoner och använder olika resurser som videoklipp, bilder och text som kombineras på en enda skärm i AEM Screens.
 contentOwner: jsyal
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 content-type: reference
@@ -10,9 +10,9 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 901ed50e-d3f0-4c85-ad79-6c4595382759
-source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
+source-git-commit: cdff56f0807f6d5fea4a4b1d545aecb1e80245bb
 workflow-type: tm+mt
-source-wordcount: '1124'
+source-wordcount: '1127'
 ht-degree: 0%
 
 ---
@@ -34,7 +34,7 @@ På följande sida beskrivs användningen av layout med flera zoner och följand
 Enligt projektkraven behöver du ibland flera zoner i en kanal och kan redigera dem som en enda heltäckande enhet. Till exempel en produktsekvens med en relaterad feed för sociala medier som körs i tre separata zoner på en enda kanal.
 
 >[!NOTE]
->I kanaler med flera zoner rekommenderas inte schemaläggning på tillgångsnivå på grund av potentiella konflikter och oavsiktligt beteende. Om schemaläggning på tillgångsnivå är nödvändig bör du skapa en separat sekvenskanal och använda schemaläggningslogik i den kanalen. Bädda sedan in sekvenskanalen i flerzonskanalen.
+>I kanaler med flera zoner rekommenderas inte schemaläggning på tillgångsnivå på grund av potentiella konflikter och oavsiktligt beteende. Om schemaläggning på tillgångsnivå behövs skapar du en separat sekvenskanal och tillämpar schemaläggningslogik i den kanalen. Bädda sedan in sekvenskanalen i flerzonskanalen.
 
 ### Förutsättningar {#prerequisites}
 
@@ -76,7 +76,7 @@ Du kan använda enstaka resurser som en bild eller en video i alla enskilda zone
 
 ### Använda sekvensinnehåll i en eller flera zoner {#using-sequenced-content-in-one-or-more-zones}
 
-Om du vill att zonerna ska visa bildsekvenser och en video i olika zoner följer du stegen nedan för mer information.
+Om du vill att zonerna ska visa en bildsekvens och en video i olika zoner följer du stegen nedan för mer information.
 
 1. **Skapa en kanalmapp**
 

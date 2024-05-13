@@ -6,9 +6,9 @@ feature: Authoring Screens
 role: Developer
 level: Intermediate
 exl-id: 9ffdb1eb-a1ba-42ac-a30f-260004e5b165
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: cdff56f0807f6d5fea4a4b1d545aecb1e80245bb
 workflow-type: tm+mt
-source-wordcount: '823'
+source-wordcount: '825'
 ht-degree: 0%
 
 ---
@@ -30,7 +30,7 @@ Följ stegen nedan för att leverera innehållsuppdateringar från författare t
 
    ![screen_shot_2019-02-25at21420pm](assets/screen_shot_2019-02-25at21420pm.png)
 
-1. The **Hantera publikation** öppnas. Du kan klicka på **Åtgärd** och schemalägger även publiceringstiden för tillfället eller senare. Klicka på **Nästa**.
+1. The **Hantera publikation** Guiden öppnas. Du kan klicka på **Åtgärd** och schemalägger även publiceringstiden för tillfället eller senare. Klicka på **Nästa**.
 
    ![screen_shot_2019-02-07at120304pm](assets/screen_shot_2019-02-07at120304pm.png)
 
@@ -69,12 +69,12 @@ I följande bild visas hur du kan hantera och uppdatera endast de ändrade sidor
    >
    >
    >    1. Arbetsflödet fungerar inte om det inte finns några ändringar i projektet och inget för **Uppdatera offlineinnehåll**.
-   >    1. Arbetsflödet fungerar inte om författaren inte slutför replikeringsprocessen (innehållet överförs fortfarande till publiceringsinstansen) efter att ha valt **Publicera** i arbetsflödet för publicering.
+   >    1. Arbetsflödet fungerar inte om författaren inte har slutfört replikeringsprocessen (innehållet överförs fortfarande till publiceringsinstansen) efter att ha valt **Publicera** i arbetsflödet för publicering.
 
    >[!CAUTION]
-   >Om du som författare eller innehållsskapare vill se ändringarna i enheterna som är kopplade till författarinstansen klickar du på **Uppdatera offlineinnehåll** från kanalkontrollpanelen eller genom att välja projektet. I det här fallet utförs uppdateringen av offlineinnehåll endast i författarinstansen.
+   >Om du som innehållsskapare vill se ändringarna i enheterna som är kopplade till författarinstansen klickar du på **Uppdatera offlineinnehåll** från kanalkontrollpanelen eller genom att välja projektet. I det här fallet utförs uppdateringen av offlineinnehåll endast i författarinstansen.
 
-1. Navigera till projektet och klicka på **Uppdatera offlineinnehåll** i åtgärdsfältet. Den här åtgärden vidarebefordrar samma kommando för att publicera instansen, så att offlinepostmeddelandena skapas även i din Publish-instans.
+1. Navigera till projektet och klicka på **Uppdatera offlineinnehåll** i åtgärdsfältet. Den här åtgärden vidarebefordrar samma kommando till publiceringsinstansen, så att offlinepostmeddelandena skapas även i din Publish-instans.
 
    ![screen_shot_2019-02-25at23451pm](assets/screen_shot_2019-02-25at23451pm.png)
 
@@ -85,7 +85,7 @@ I följande bild visas hur du kan hantera och uppdatera endast de ändrade sidor
 
    >[!CAUTION]
    >
-   >Utlös uppdateringsinnehållet offline i Author-instansen om du har en spelare registrerad på författarservern. Uppdatering av offlineinnehåll krävs inte för spelaren som är registrerad för Publishing-instansen.
+   >Utlös uppdateringsinnehållet offline i Author-instansen om du har en spelare registrerad på författarservern. Uppdatering av offlineinnehåll krävs inte för spelaren som är registrerad på Publishing-instansen.
 
 ### Hantera publikation för en kanal {#managing-publication-for-a-channel}
 
@@ -100,7 +100,7 @@ Följ stegen nedan för att leverera innehållsuppdateringar från författare >
 
    ![screen_shot_2019-02-07at115800am](assets/screen_shot_2019-02-07at115800am.png)
 
-1. The **Hantera publikation** öppnas. Du kan klicka på **Åtgärd** och schemalägger även publiceringstiden för tillfället eller senare. Klicka på **Nästa**.
+1. The **Hantera publikation** Guiden öppnas. Du kan klicka på **Åtgärd** och schemalägger även publiceringstiden för tillfället eller senare. Klicka på **Nästa**.
 
    ![screen_shot_2019-02-07at120304pm](assets/screen_shot_2019-02-07at120304pm.png)
 

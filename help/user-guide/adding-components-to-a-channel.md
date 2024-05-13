@@ -10,9 +10,9 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 56dbe098-05db-4fc3-977f-e50a0a312d64
-source-git-commit: ef74265eadf5972eae7451b7725946d8b014c198
+source-git-commit: cdff56f0807f6d5fea4a4b1d545aecb1e80245bb
 workflow-type: tm+mt
-source-wordcount: '1404'
+source-wordcount: '1417'
 ht-degree: 0%
 
 ---
@@ -41,7 +41,7 @@ Följ stegen nedan om du vill visa standardkomponenterna för ditt skärmsprojek
 
 ### Lägga till en ny komponent {#adding-a-new-component}
 
-AEM innehåller flera andra komponenter. Du kan alltid lägga till andra komponenter (som inte ingår som standard) i ditt projekt, eftersom de är kompatibla med AEM Screens.
+AEM innehåller flera andra komponenter. Du kan alltid lägga till andra komponenter (ingår inte som standard) i ditt projekt, eftersom dessa komponenter är kompatibla med AEM Screens.
 
 I följande exempel visas hur en Livefyre-komponent läggs till i ett AEM Screens-projekt:
 
@@ -75,7 +75,7 @@ Programkomponenten har följande egenskaper:
 | **Egenskap** | **Beskrivning** |
 |---|---|
 | ***Programsökväg*** | Klicka på den absoluta sökvägen där programmet finns. |
-| ***Varaktighet (millisekunder)*** | Klicka på programmets varaktighet. Som standard är längden inställd på -1, vilket innebär att elementet körs för alltid (det vill säga ett enkelsidigt program). Om du ställer in varaktighetsvärdet >0 visas elementet för den angivna varaktigheten och fortsätter sedan till nästa. |
+| ***Varaktighet (millisekunder)*** | Klicka på programmets varaktighet. Som standard är längden inställd på -1, vilket innebär att elementet körs för alltid (dvs. ett program med en sida). Om du ställer in varaktighetsvärdet >0 visas elementet för den angivna varaktigheten och fortsätter sedan till nästa. |
 
 I följande exempel visas hur du bäddar in en programkomponent tillsammans med förhandsgranskningen av dess egenskaper:
 
@@ -83,7 +83,7 @@ I följande exempel visas hur du bäddar in en programkomponent tillsammans med 
 
 >[!NOTE]
 >
->Se exemplet ovan för att visa egenskaper för var och en av komponenterna nedan.
+>Se exemplet ovan för att visa egenskaperna för var och en av komponenterna nedan.
 
 ### Kanal {#channel}
 
@@ -135,7 +135,7 @@ Den inbäddade sidan har följande egenskaper:
 
 >[!NOTE]
 >
->Mer information om inbäddade sekvenser finns i [Inbäddade sekvenser](embedded-sequences.md) under Redigeringsskärmar.
+>Mer information om inbäddade sekvenser finns i [Inbäddade sekvenser](embedded-sequences.md) under Authoring Screens.
 
 Med en inbäddad sekvens kan du lägga till en inbäddad sekvenskanal i den befintliga kanalen (med andra resurser).
 
@@ -157,16 +157,16 @@ Den inbäddade sekvensen har följande sidegenskaper:
   </tr>
   <tr>
    <td><strong><em>Strategi</em></strong></td>
-   <td>Ställ in den på <strong>original</strong> eller <strong>enkel</strong>. Ange värdet till <strong>original</strong> betyder att efterföljande körning körs helt och hållet på varje cykel i den överordnade sekvensen. Det andra möjliga värdet är <strong>enkel</strong>. Ett sådant värde visar bara en post i varje efterföljande körning. Det första objektet i den första slingan och det andra objektet i den andra slingan.</td>
+   <td>Ställ in den på <strong>original</strong> eller <strong>enkel</strong>. Ange värdet för <strong>original</strong> betyder att efterföljande körning körs helt och hållet på varje cykel i den överordnade sekvensen. Det andra möjliga värdet är <strong>enkel</strong>. Ett sådant värde visar bara en post i varje efterföljande körning. Det första objektet i den första slingan och det andra objektet i den andra slingan.</td>
   </tr>
  </tbody>
 </table>
 
 ### Dynamisk inbyggd sekvens {#dynamic-embedded-sequence}
 
-Med en dynamisk inbäddad sekvens kan du lägga till en sekvens som liknar den ovan nämnda, förutom efter kanalroll.
+Med en dynamisk inbäddad sekvens kan du lägga till en sekvens som liknar den ovan nämnda förutom efter kanalroll.
 
-Mer information om inbäddade sekvenser finns i [Inbäddade sekvenser](embedded-sequences.md) under Redigeringsskärmar.
+Mer information om inbäddade sekvenser finns i [Inbäddade sekvenser](embedded-sequences.md) under Authoring Screens.
 
 Den dynamiska inbäddade sekvensen har följande egenskaper:
 
@@ -186,7 +186,7 @@ Den dynamiska inbäddade sekvensen har följande egenskaper:
   </tr>
   <tr>
    <td><strong><em>Strategi</em></strong></td>
-   <td>Ställ in den på <strong>original</strong> eller <strong>enkel</strong>. Ange värdet till <strong>original</strong> betyder att efterföljande körning körs helt och hållet på varje cykel i den överordnade sekvensen. Det andra möjliga värdet är <strong>enkel</strong>. Ett sådant värde visar bara en post i efterföljande körningar. Det första objektet i den första slingan och det andra objektet i den andra slingan.</td>
+   <td>Ställ in den på <strong>original</strong> eller <strong>enkel</strong>. Ange värdet för <strong>original</strong> betyder att efterföljande körning körs helt och hållet på varje cykel i den överordnade sekvensen. Det andra möjliga värdet är <strong>enkel</strong>. Ett sådant värde visar bara en post i efterföljande körningar. Det första objektet i den första slingan och det andra objektet i den andra slingan.</td>
   </tr>
  </tbody>
 </table>
@@ -293,7 +293,7 @@ Klicka på övergångsikonen och klicka på **Konfigurera** (skiftnyckelsikon) f
   </tr>
   <tr>
    <td><strong><em>Aktiv tills</em></strong></td>
-   <td>Tidsstämpel som beskriver tills övergången kan aktiveras.</td>
+   <td>Tidsstämpeln beskriver tills när övergången kan vara aktiv.</td>
   </tr>
   <tr>
    <td><strong><em>Schema</em></strong></td>

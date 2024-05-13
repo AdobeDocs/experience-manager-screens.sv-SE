@@ -10,9 +10,9 @@ feature: Overview
 role: User, Data Architect
 level: Beginner
 exl-id: 0e29f095-7f9d-49ea-8dda-9141402a4159
-source-git-commit: 2a51258ffe7b969962378dcd0558bd001b616ba1
+source-git-commit: cdff56f0807f6d5fea4a4b1d545aecb1e80245bb
 workflow-type: tm+mt
-source-wordcount: '533'
+source-wordcount: '536'
 ht-degree: 0%
 
 ---
@@ -33,7 +33,7 @@ I den här självstudiekursen beskrivs följande punkter som är relevanta för 
 
 >[!NOTE]
 >
->Vanliga säljcykler för distribution av digitala signaturer kan ligga mellan 9 och 18 månader. Det finns många faktorer som påverkar den sista tidslinjen, inte minst hur slutkunden mäter framgång och hur riskkänslig deras affärspartners är när de inför en ny lösning.
+>Vanliga säljcykler för distribution av digitala signaturer kan ligga mellan 9 och 18 månader. Det finns många faktorer som påverkar den sista tidslinjen. Några av dessa faktorer är hur slutkunden mäter framgången och hur stor risk deras affärspartners utsätts för när en ny lösning lanseras.
 
 Till exempel kan intressenter för ett program för digitala signaturer i en detaljhandelsmiljö inkludera följande:
 
@@ -46,7 +46,7 @@ Till exempel kan intressenter för ett program för digitala signaturer i en det
 
 ## Sammanfattning av viktiga termer i en övergripande projektplan {#summary-of-key-terms-involved-in-an-overall-project-plan}
 
-I följande avsnitt ges en översikt över nyckeltermer i en övergripande projektplan, t.ex. projektcykel, åtgärder runt maskinvarutestning, konceptbevis, piloter och utrullningar.
+Följande avsnitt ger en översikt över nyckeltermer i en övergripande projektplan, nyckeltermer är projektcykel, åtgärder som omger maskinvarutestning, konceptbevis, piloter och utrullningar.
 
 ### Konceptbevis (POC) {#proof-of-concept-poc}
 
@@ -54,9 +54,9 @@ Syftet med en operativ lösning är att få inledande feedback på en lösnings 
 
 ### Kvalitetskontroll {#quality-control}
 
-Testningen av system- och programvaruintegrering börjar med IT-avdelningen på Audio-Video Integrator. Med hänvisning till den godkända systemdesignen konfigurerar, implementerar och övervakar IT-teamet installationen av maskinvarukomponenter i en&quot;Lab-miljö&quot; i Audio-Video Integrators anläggning. Detta gör att hela lösningen kan granskas och testas noggrant för att få en bra kvalitetskontroll.
+Testning av system- och programvaruintegrering börjar med IT-teknikteamet för ljud-videointegratörer. Med hänvisning till den godkända systemdesignen konfigurerar, implementerar och övervakar IT-teamet installationen av maskinvarukomponenter i en&quot;Lab-miljö&quot; i Audio-Video Integrators anläggning. Detta gör att man kan granska och testa hela lösningen för kvalitetskontroll.
 
-När QC-testningen är klar skapar IT-teamet dokumentation, arbetsflöden och utbildning som referens under dag 2-support. Systemaspekter som ska testas omfattar följande:
+När QC-testningen är klar skapar IT-avdelningen dokumentation, arbetsflöden och utbildning som referens under dag 2-support. Systemaspekter som ska testas omfattar följande:
 
 * AEM integreringar.
 * Systemintegreringar från tredje part.

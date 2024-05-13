@@ -9,10 +9,10 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 4a4b3a83-2b02-42a0-86a7-fce6bbf47c7d
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: cdff56f0807f6d5fea4a4b1d545aecb1e80245bb
 workflow-type: tm+mt
-source-wordcount: '697'
-ht-degree: 4%
+source-wordcount: '704'
+ht-degree: 3%
 
 ---
 
@@ -37,7 +37,7 @@ Följ stegen nedan för att skapa en live-kopia av en kanal i projektmappen.
 1. Klicka på den plats där live-kopian kan placeras.
 1. Ange **Titel** och **Namn** i **Skapa Live Copy** sida.
 
-1. Klicka **Öppna** för att visa innehållet i en ny live-kopia eller **Klar** för att gå tillbaka till huvudsidan.
+1. Klicka **Öppna** för att visa innehållet i den nya live-kopian eller **Klar** för att gå tillbaka till huvudsidan.
 
 Du kan även se stegen nedan för visuell representation av hur du skapar en ny live-kopia av en kanal.
 
@@ -47,11 +47,11 @@ I följande exempel visas hur en live-kopia skapas (***IdleLiveCopy***) för ***
 
 ## Visa innehåll i Live Copy-kanalen {#viewing-content-of-the-live-copy-channel}
 
-En Live-kopia är en kopia av en befintlig kanal.
+En live-kopia är en kopia av en befintlig kanal.
 
 Om du vill visa innehållet i din live-kopia, se stegen nedan:
 
-1. Navigera till Skärmprojekt och klicka på den plats där du ursprungligen skapade en Live-kopia, som visas i avsnittet ovan. (Här valdes platsen som **Kanaler** mapp)
+1. Navigera till Skärmprojekt och klicka på den plats där du ursprungligen skapade en live-kopia, som visas i avsnittet ovan. (Här valdes platsen som **Kanaler** mapp)
 
    ![chlimage_1-18](assets/chlimage_1-18.png)
 
@@ -79,7 +79,7 @@ Du kan även visa egenskaperna för den aktiva kopiekanalen.
 
 Läget **Live Copy-status**, vilket visas i figuren nedan, gör att du kan visa relationsstatus för alla resurser i kanalen.
 
-1. Klicka **Redigera** så att du kan välja **Live Copy-status** och visa associationen mellan kanalinnehållet och originalkanalen (varifrån live-kopian genereras).
+1. Klicka **Redigera** så att du kan välja **Live Copy-status**. Du kan också visa associationen mellan kanalinnehållet och den ursprungliga kanal som direktkopian genereras från.
 
    ![chlimage_1-22](assets/chlimage_1-22.png)
 
@@ -99,7 +99,7 @@ I följande exempel visas att du klickar på bilden i redigeringsläget och klic
 
 ### Sprida ändringar i Live Copy-kanalen {#propagating-changes-to-the-live-copy-channel}
 
-Om du gör ändringar eller uppdateringar i den ursprungliga kanalen ska du även sprida dessa ändringar till din Live Copy-kanal.
+Om du gör ändringar eller uppdateringar i den ursprungliga kanalen ska du även sprida dessa ändringar till den aktiva kopiekanalen.
 
 Följ stegen nedan för att se till att dina ändringar sprids från den ursprungliga kanalen till den aktiva kopiekanalen:
 
