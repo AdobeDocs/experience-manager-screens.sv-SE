@@ -9,9 +9,9 @@ feature: Developing Screens
 role: Developer
 level: Intermediate
 exl-id: e316614f-2d40-4b62-a1e5-f30817def742
-source-git-commit: ef74265eadf5972eae7451b7725946d8b014c198
+source-git-commit: 1cf90de7892d051b2b94b4dd57de7135269b1ee8
 workflow-type: tm+mt
-source-wordcount: '1698'
+source-wordcount: '1700'
 ht-degree: 0%
 
 ---
@@ -30,7 +30,7 @@ Den här självstudiekursen är avsedd för utvecklare som inte har använt AEM 
 
 ![Egen förhandsgranskning-komponent](assets/2018-05-07_at_4_09pm.png)
 
-En anpassad filmminiatyrkomponent skapas genom att bildkomponenten utökas.
+A `Custom Poster` skapas genom att bildkomponenten utökas.
 
 ## Förutsättningar {#prerequisites}
 
@@ -68,7 +68,7 @@ Källkoden för ett skärmsprojekt hanteras vanligtvis som ett Maven-projekt med
 
    AEM Screens `We.Retail Run Ui.Apps` och `Ui.Content` paket som installerats med CRX Package Manager
 
-## Skapa förhandsgranskningskomponenten {#poster-cmp}
+## Skapa komponenten Poster {#poster-cmp}
 
 Komponenten Poster utökar den färdiga AEM Screens Image-komponenten. En Sling-mekanism, `sling:resourceSuperType`, används för att ärva huvudfunktionerna i Image-komponenten utan att behöva kopiera och klistra in. Mer information om grunderna i [Bearbetning av försäljningsbegäran finns här.](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/developing/introduction/the-basics)
 
@@ -133,7 +133,7 @@ Komponenten Poster återges i helskärmsläge i förhandsgransknings-/produktion
 
    Dialogrutan har kopierats från `/libs/wcm/foundation/components/image/cq:dialog` till `/apps/weretail-run/components/content/poster`
 
-   AEM Screens `image` -komponenten är supertypifierad till WCM Foundation `image` -komponenten. Därför `poster` -komponenten ärver funktioner från båda. Dialogrutan för förhandsgranskningskomponenten består av en kombination av dialogrutorna Skärmar och Foundation. Funktioner i **Samla resurser** används för att dölja irrelevanta dialogrutefält och flikar som ärvs från de överordnade typkomponenterna.
+   AEM Screens `image` -komponenten är supertypifierad till WCM Foundation `image` -komponenten. Därför är `poster` -komponenten ärver funktioner från båda. Dialogrutan för förhandsgranskningskomponenten består av en kombination av dialogrutorna Skärmar och Foundation. Funktioner i **Samla resurser** används för att dölja irrelevanta dialogrutefält och flikar som ärvs från de överordnade typkomponenterna.
 
 1. Uppdatera `cq:dialog` under `/apps/weretail-run/components/content/poster` med följande ändringar representerade i XML:
 
@@ -240,7 +240,7 @@ Komponenten Poster återges i helskärmsläge i förhandsgransknings-/produktion
 
    Egenskapen `sling:hideChildren`= `"[linkURL,size]`&quot; används på `items` nod för att säkerställa att **linkURL** och **size** fält är dolda i dialogrutan. Det räcker inte att ta bort de här noderna från förhandsgranskningsdialogrutan. Egenskapen `sling:hideResource="{Boolean}true"` på fliken Tillgänglighet används för att dölja hela fliken.
 
-   Dubbelklicksfält läggs till i dialogrutan för att ge författarna kontroll över textpositionen och färgen för titeln och beskrivningen.
+   Dubbelklicksfält läggs till i dialogrutan, Textplacering och Textfärg, så att författaren kan styra textens position och färgen för titeln och beskrivningen.
 
    ![Affisch - Slutlig dialogstruktur](assets/2018-05-03_at_4_49pm.png)
 
@@ -276,11 +276,11 @@ Komponenten Poster återges i helskärmsläge i förhandsgransknings-/produktion
    </div>
    ```
 
-   Produktionsmärkningen för förhandsgranskningskomponenten visas direkt ovan. HTML-skriptet åsidosätter `screens/core/components/content/image/production.html`. The `image.js` är ett skript på serversidan som skapar ett POJO-liknande bildobjekt. Bildobjektet kan sedan anropas för att återge `src` som en bakgrundsbild i textformat.
+   Produktionsmärkningen för komponenten Poster visas direkt ovanför. HTML-skriptet åsidosätter `screens/core/components/content/image/production.html`. The `image.js` är ett skript på serversidan som skapar ett POJO-liknande bildobjekt. Bildobjektet kan sedan anropas för att återge `src` som en bakgrundsbild i textformat.
 
    `The h1` och h2-taggar läggs till visar titel och beskrivning baserat på komponentegenskaperna: `${properties.jcr:title}` och `${properties.jcr:description}`.
 
-   Omgivande `h1` och `h2` taggar är en div wrapper med tre CSS-klasser med variationer av &quot; `cmp-poster__text`&quot;. Värdet för `textPosition` och `textColor` används för att ändra CSS-klassen som återges baserat på författarens val i dialogrutan. I nästa avsnitt skrivs CSS från klientbibliotek för att aktivera dessa ändringar i visningen.
+   Omgivande `h1` och `h2` taggar är en div wrapper med tre CSS-klasser med variationer av &quot;`cmp-poster__text`.&quot; Värdet för `textPosition` och `textColor` används för att ändra CSS-klassen som återges baserat på författarens val i dialogrutan. I nästa avsnitt skrivs CSS från klientbibliotek för att aktivera dessa ändringar i visningen.
 
    En logotyp ingår också som ett överlägg i komponenten. I det här exemplet är sökvägen till` We.Retail` logotypen är hårdkodad i DAM. Beroende på användningsfallet kan det vara mer praktiskt att skapa ett dialogfält för att göra logotypsökvägen till ett dynamiskt ifyllt värde.
 
@@ -308,7 +308,7 @@ Komponenten Poster återges i helskärmsläge i förhandsgransknings-/produktion
    </div>
    ```
 
-   The **redigera** markering för förhandsgranskningskomponenten visas direkt ovanför. HTML-skriptet åsidosätter `/libs/screens/core/components/content/image/edit.html`. Koden liknar `production.html` och visar titeln och beskrivningen ovanpå bilden.
+   The **redigera** markeringar för Poster-komponenten visas direkt ovanför. HTML-skriptet åsidosätter `/libs/screens/core/components/content/image/edit.html`. Koden liknar `production.html` och visar titeln och beskrivningen ovanpå bilden.
 
    The `aem-Screens-editWrapper`läggs till så att komponenten inte återges i helskärmsläge i redigeraren. The `data-emptytext` -attribut ser till att en platshållare visas när ingen bild eller inget innehåll har fyllts i.
 
@@ -337,9 +337,9 @@ AEM Screens-komponenter återges annorlunda i redigeringsläget jämfört med i 
 
    Egenskaper för /apps/weretail-run/components/content/affisch/clientlibs/shared
 
-   The `categories` egenskapen är en sträng som identifierar klientbiblioteket. The `cq.screens.components` används i både redigeringsläget och läget Förhandsgranska/Produktion. Därför definieras alla CSS/JS i `shared` clientlib läses in i alla lägen.
+   The `categories` egenskapen är en sträng som identifierar klientbiblioteket. The `cq.screens.components` används i både redigeringsläget och läget Förhandsgranska/Produktion. Alla CSS/JS som definierats i `shared` clientlib läses in i alla lägen.
 
-   Det är en god vana att aldrig visa några sökvägar direkt för /apps i en produktionsmiljö. The `allowProxy` egenskapen ser till att klientbibliotekets CSS och JS refereras via ett prefix på `/etc.clientlibs`. Mer information om [Egenskapen allowProxy finns här.](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/developing/introduction/clientlibs)
+   Ett tips är att aldrig visa några banor direkt för `/apps` i en produktionsmiljö. The `allowProxy` egenskapen ser till att klientbibliotekets CSS och JS refereras via ett prefix på `/etc.clientlibs`. Mer information om [Egenskapen allowProxy finns här.](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/developing/introduction/clientlibs)
 
 1. Skapa en fil med namnet `css.txt` under den delade mappen.
 
@@ -362,7 +362,7 @@ AEM Screens-komponenter återges annorlunda i redigeringsläget jämfört med i 
    ```css
    /*
     /apps/weretail-run/components/content/poster/clientlibs/shared/css/styles.less
-    Poster Component - Shared Style
+    Poster component - Shared Style
    */
    
    @import url('https://fonts.googleapis.com/css?family=Fjalla+One|Open+Sans:400i');
@@ -431,7 +431,7 @@ AEM Screens-komponenter återges annorlunda i redigeringsläget jämfört med i 
    ```css
    /*
     /apps/weretail-run/components/content/poster/clientlibs/production/css/styles.less
-    Poster Component - Production Style
+    Poster component - Production Style
    */
    
    .cmp-poster {

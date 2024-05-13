@@ -1,12 +1,12 @@
 ---
 title: Ta över kanal för engångsbruk
-description: Följ det här användningsexemplet när du skapar en överföringskanal för engångsbruk.
+description: Följ det här användningsexemplet när du vill skapa en engångskanal för övertagande.
 contentOwner: jsyal
 feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 3317f07a-784f-4c4a-93ea-c84f4e42e9f2
-source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
+source-git-commit: 1cf90de7892d051b2b94b4dd57de7135269b1ee8
 workflow-type: tm+mt
 source-wordcount: '623'
 ht-degree: 0%
@@ -66,7 +66,7 @@ Följ stegen nedan för att konfigurera ett projekt:
 
    ![resurs](assets/single-takeover4.png)
 
-1. Konfigurera en plats och visning för kanalerna. Till exempel följande **Lobby** plats och  **MainLobbyDisplay** visas för det här projektet.
+1. Konfigurera en plats och visning för kanalerna. Till exempel följande **Lobby** plats och **MainLobbyDisplay** visas för det här projektet.
 
    ![resurs](assets/single-takeover5.png)
 
@@ -93,11 +93,11 @@ Följ stegen nedan för att konfigurera ett projekt:
      >[!NOTE]
      >Prioriteten kan vara vilket värde som helst som är högre än prioritetsvärdet för den normala uppspelningskanalen.
    * **Händelser som stöds**: Klicka på **Inaktiv skärm** och **Timer**.
-   * **Schema**: Ange texten för schemat som du vill att den här kanalen ska köra visningen. Texten här tillåter till exempel att innehållet spelas upp 2 minuter före 12:00 den 31 december till 12:01. Texten i **Schema** som nämns i det här exemplet *den 31 december efter 23.58 och även den 1 januari före 00.01*.
+   * **Schema**: Ange texten för schemat som du vill att den här kanalen ska köras på skärmen. Texten här tillåter till exempel att innehållet spelas upp 2 minuter före 12:00 den 31 december till 12:01. Texten i **Schema** som nämns i det här exemplet *den 31 december efter 23.58 och även den 1 januari före 00.01*.
 
      ![resurs](assets/single-takeover8.png)
 
-     Navigera till visningen från **SingleUseTakeOver** > **Platser** > **Lobby** > **MainLobbyDisplay** och klicka **Kontrollpanel** i åtgärdsfältet så att du kan visa de tilldelade kanalerna med deras prioriteringar, vilket visas nedan.
+     Navigera till visningen från **SingleUseTakeOver** > **Platser** > **Lobby** > **MainLobbyDisplay**. Klicka **Kontrollpanel** i åtgärdsfältet så att du kan visa de tilldelade kanalerna med deras prioriteringar, vilket visas nedan.
 
      >[!NOTE]
      >Det är obligatoriskt att ange övertagskanalens högsta prioritet.

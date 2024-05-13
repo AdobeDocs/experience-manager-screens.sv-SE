@@ -2,9 +2,9 @@
 title: Introduktion till AEM Screens
 description: Läs om AEM Screens och vad det kan göra för dig.
 exl-id: 11781e0b-0aca-4d08-aaad-87a7aaf28c24
-source-git-commit: ba5327077e4a2d30cc7b77f02123da5a240c67ae
+source-git-commit: 1cf90de7892d051b2b94b4dd57de7135269b1ee8
 workflow-type: tm+mt
-source-wordcount: '660'
+source-wordcount: '667'
 ht-degree: 8%
 
 ---
@@ -19,7 +19,7 @@ Med AEM Screens kan du skapa:
 * **produktrekommendationer**
 * **livsstilsbild i bakgrunden**
 
-Skärmar har dessutom många unika program för kunder och anställda baserat på den domän där de distribueras, till exempel:
+Skärmar erbjuder dessutom många unika program för kunder och anställda baserat på den domän där programmen är distribuerade, till exempel:
 
 * **interaktiva bildskärmar**
 * **vagnsökning**
@@ -28,11 +28,9 @@ Skärmar har dessutom många unika program för kunder och anställda baserat p�
 
 Det är enkelt och intuitivt att skapa och hantera ett nätverk för digitala signaturer med hjälp av AEM Screens. En spelarapp fungerar som värd för innehållskanaler som skapats för AEM Screens av kunder eller implementeringspartners. *Platser* hantera en fördefinierad platshierarki och innehålla skärmar. Varje *skärm* har en kontrollpanel som visar olika kopplade enheter och skärmar. Innehåll för AEM Screens hanteras i *kanaler*. *AEM Screens Player* återger innehåll som finns i kanaler på skärmar.
 
-
-
 >[!NOTE]
 >
->Mer information om olika funktioner i en projektutveckling och projektledning för AEM Screens finns i **[AEM Screens Användarhandbok](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/aem-screens-introduction)**.
+>Om du vill veta mer om olika funktioner i en AEM Screens-projektutveckling och -hantering kan du läsa mer i **[AEM Screens Användarhandbok](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/aem-screens-introduction)**.
 
 ## AEM Sites jämfört med AEM Screens {#aem-sites-screens}
 
@@ -42,7 +40,7 @@ Det är enkelt och intuitivt att skapa och hantera ett nätverk för digitala si
 
 AEM Screens erbjuder en enhetlig redigerings-/uppspelningsplattform för distribution av innehåll till digitala signeringsenheter på offentliga platser. Även om den som skapar upplevelsen bör sträva efter att bibehålla en konsekvent upplevelse över webben och i alla kanaler, finns det vissa skillnader som bör noteras.
 
-* **Dwell-time**: Vanligtvis är webbsidor utformade för att tillhandahålla en mängd information som kan användas under en relativt längre tid. Digitala upplevelser på plats bör däremot förutse visningsprogrammets behov och ge tydliga och kortfattade anvisningar om hur och varför användaren bör engagera sig. Detta resulterar i upplevelser som är mer målinriktade, välstrukturerade och sammanhangsbaserade.
+* **Dwell-time**: Vanligtvis är webbsidor utformade för att tillhandahålla en mängd information som kan användas under en relativt längre tid. Digitala upplevelser på plats bör däremot förutse visningsprogrammets behov och ge tydliga och kortfattade anvisningar om hur och varför användaren bör engagera sig. Sådan uppmärksamhet ger upplevelser som är mer målinriktade, välstrukturerade och sammanhangsbaserade.
 
 * **Visningsavstånd**: Visningsavstånd är längre eller längre bort än den vanliga tittarupplevelsen på en webbplats. Därför bör textstorleken normalt vara större och mellanrummet mellan text, bilder och annat kostnadsfritt innehåll testas baserat på den förväntade skärmstorleken och placeringen i det fysiska utrymmet.
 
@@ -54,7 +52,7 @@ AEM Screens erbjuder en enhetlig redigerings-/uppspelningsplattform för distrib
 
 AEM Screens tillhandahåller ett ramverk för att distribuera innehåll till fysiska enheter. Innehållet tilldelas kanaler på skärmar, som kan innehålla mediainnehåll eller program för pekskärmar. I det här ramverket kan ett AEM Sites-program levereras som innehåll via en kanal.
 
-Innan en AEM tas bort i en kanal på skärmar måste den vara formaterad för användning med dimensionerna för den visningsenhet som den är avsedd för.
+En AEM webbplats måste vara formaterad för användning med dimensionerna för den visningsenhet som den är avsedd för. Det bör göras innan det släpps in i en kanal på skärmar.
 
 >[!NOTE]
 >Många AEM Sites-komponenter är inte kompatibla med AEM Screens. AEM Screens har många av sina egna färdiga komponenter som gör att du kan skapa digitala upplevelser utan att behöva anpassa dem. Om projektkraven tillåter det ska du använda den inbyggda AEM Screens-funktionen där det är möjligt.

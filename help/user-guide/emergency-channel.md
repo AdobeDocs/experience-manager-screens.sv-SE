@@ -9,9 +9,9 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: d409ba46-b48a-44db-b305-27c392cd55de
-source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
+source-git-commit: 1cf90de7892d051b2b94b4dd57de7135269b1ee8
 workflow-type: tm+mt
-source-wordcount: '710'
+source-wordcount: '712'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 ## Använd fallbeskrivning {#use-case-description}
 
-I det här avsnittet beskrivs ett exempel på hur du använder ett användningsexempel som fokuserar på att skapa och hantera en nödkanal som innehållsförfattaren kan växla från en sekvenskanal om det finns ett förhandsvillkor.
+I det här avsnittet beskrivs ett exempel på ett användningsfall. Det betonar att man ska skapa och hantera en nödkanal som innehållsförfattaren kan växla från en sekvenskanal, om det finns ett förhandsvillkor.
 
 ### Förhandsvillkor {#preconditions}
 
@@ -185,4 +185,4 @@ Utför följande steg om det uppstår en kris:
 
 The **EmergencyChannel** fortsätter att visa innehållet tills innehållsförfattaren återställer prioritetsvärdet till 1.
 
-När innehållsförfattaren får instruktionerna om att nödläget har åtgärdats bör de uppdatera prioriteten för **MainAdChannel** vilket gör att normal uppspelning återupptas.
+När innehållsförfattaren får instruktionerna om att nödläget har åtgärdats bör de uppdatera prioriteten för **MainAdChannel**. Om du gör det återupptas den normala uppspelningen.

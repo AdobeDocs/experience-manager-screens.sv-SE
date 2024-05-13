@@ -2,9 +2,9 @@
 title: Uppspelningstid för bild på projektnivå
 description: Lär dig hur du definierar uppspelningstiden för bilder på projektnivå.
 contentOwner: jsyal
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: 1cf90de7892d051b2b94b4dd57de7135269b1ee8
 workflow-type: tm+mt
-source-wordcount: '327'
+source-wordcount: '329'
 ht-degree: 0%
 
 ---
@@ -64,7 +64,7 @@ Följ stegen nedan för att lära dig hur du uppdaterar bilduppspelningstiden p�
 
 ### Visa resultatet {#viewing-the-result}
 
-När du har uppdaterat kanalens uppspelningstid (i det här exemplet alla tre bilderna) kan du se att bilderna spelas upp i 3 sekunder i stället för 8 sekunder (standardvärde).
+När du har uppdaterat kanalens uppspelningstid (i det här exemplet alla tre bilderna) kan du se att bilderna spelas upp i 3 sekunder i stället för 8 sekunder (standardvärdet).
 
 ![channel_preview](assets/channel_preview.gif)
 

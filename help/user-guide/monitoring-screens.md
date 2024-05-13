@@ -10,9 +10,9 @@ feature: Digital Signage, Content, Players
 role: Developer
 level: Intermediate
 exl-id: 57105d6d-51ff-44ca-bbf2-ae9cce8addd0
-source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
+source-git-commit: 1cf90de7892d051b2b94b4dd57de7135269b1ee8
 workflow-type: tm+mt
-source-wordcount: '777'
+source-wordcount: '779'
 ht-degree: 0%
 
 ---
@@ -144,12 +144,12 @@ AEM har inbyggd övervakning för:
 
 * *Hjärtslag* var 5:e sekund för att ange att AEM Screens Player är i drift.
 * *Skärmbild* från spelaren som visar vad som visas i spelaren.
-* The *AEM Screens Player Firmware* version som är installerad på spelaren.
+* The *AEM Screens Player Firmware* versionen är installerad på spelaren.
 * *Ledigt lagringsutrymme* på spelaren.
 
 Recommendations för fjärrövervakning med tredjepartsprogram:
 
-* CPU-användning för spelare.
+* CPU-användning i spelare.
 * Kontrollera om AEM Screens Player-processen körs.
 * Fjärrstarta om/starta om spelaren.
 * Realtidsmeddelanden.

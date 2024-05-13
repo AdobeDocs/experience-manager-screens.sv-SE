@@ -1,6 +1,6 @@
 ---
 title: Skapa och hantera scheman
-description: Lär dig mer om scheman där du kan ordna kanaler i återanvändbara grupper så att du inte behöver upprepa deras uppdrag separat för varje skärm där du vill visa ditt innehåll.
+description: Läs mer om scheman där du kan ordna kanaler i återanvändbara grupper så att du inte behöver upprepa deras tilldelning individuellt.
 contentOwner: Jyotika Syal
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
@@ -9,16 +9,16 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: dc9c5413-3b03-4f1f-bac5-aa599443254a
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: 1cf90de7892d051b2b94b4dd57de7135269b1ee8
 workflow-type: tm+mt
-source-wordcount: '375'
+source-wordcount: '368'
 ht-degree: 0%
 
 ---
 
 # Skapa och hantera scheman {#creating-and-managing-schedules}
 
-**Scheman** i AEM Screens kan du ordna kanalerna i återanvändbara grupper så att du inte behöver upprepa deras uppdrag separat för varje skärm där du vill visa ditt innehåll.
+**Scheman** i AEM Screens kan ni ordna kanalerna i återanvändbara grupper. Om du gör det behöver du inte upprepa deras uppdrag separat för varje skärm där du vill visa innehållet.
 
 Scheman, när de kombineras med ***DayParting*** kan du ange ett globalt schema med flera kanaler som körs vid specifika tidpunkter på dygnet och återanvända det som är inställt för alla skärmar samtidigt.
 
@@ -44,7 +44,7 @@ Du kan se en schemamapp med det angivna namnet och titeln i ditt projekt.
 
 ## Visa instrumentpanel {#viewing-dashboard}
 
-När du har skapat en mapp för scheman i ditt projekt kan du visa informationen från kontrollpanelen för scheman.
+När du har skapat en schemamapp i ditt projekt kan du visa informationen från kontrollpanelen för scheman.
 
 Följ stegen nedan för att visa kontrollpanelen för schemat. I följande exempel visas kontrollpanelen för `We.Retail` projekt:
 

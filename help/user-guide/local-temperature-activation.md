@@ -10,9 +10,9 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 2ec2891f-0fbe-4812-b3c4-ff160ead36b8
-source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
+source-git-commit: 1cf90de7892d051b2b94b4dd57de7135269b1ee8
 workflow-type: tm+mt
-source-wordcount: '447'
+source-wordcount: '444'
 ht-degree: 0%
 
 ---
@@ -74,7 +74,7 @@ Följ stegen nedan för att implementera användningsexemplet för aktivering av
 
    >[!CAUTION]
    >
-   >Du borde ha konfigurerat **ContextHub** **Konfigurationer** använda kanalen **Egenskaper** > **Personalisering** -fliken.
+   >Dina **ContextHub** **Konfigurationer** använda kanalen **Egenskaper** > **Personalisering** ska redan vara inställd.
 
    ![screen_shot_2019-05-08at114106am](assets/screen_shot_2019-05-08at114106am.png)
 
@@ -85,6 +85,6 @@ Följ stegen nedan för att implementera användningsexemplet för aktivering av
 1. **Kontrollera förhandsvisningen**
 
    1. Klicka **Förhandsgranska.** Du kan även öppna Google Sheet och uppdatera värdet.
-   1. Ändra värdet till mindre än 50. Du bör kunna se en bild av en kalldrink. Om värdet i Google Sheets är 50 eller högre bör du se en bild på en het drink.
+   1. Ändra värdet till mindre än 50. Du kan se en bild på en kalldryck. Om värdet i Google Sheets är 50 eller högre bör du se en bild på en het drink.
 
    ![result3](assets/result3.gif)

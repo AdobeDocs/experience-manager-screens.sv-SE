@@ -5,9 +5,9 @@ feature: Authoring Screens, Channel Assignment
 role: Admin, Developer
 level: Intermediate
 exl-id: 6ed86bfc-38c7-4ced-b472-db2a362585c5
-source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
+source-git-commit: 1cf90de7892d051b2b94b4dd57de7135269b1ee8
 workflow-type: tm+mt
-source-wordcount: '1174'
+source-wordcount: '1179'
 ht-degree: 0%
 
 ---
@@ -46,15 +46,15 @@ Följ stegen nedan för att tilldela en kanal till en skärm:
 
 ### Referenskanal {#ref-channel}
 
-Med referenskanalen kan du ange en referens till den önskade kanalen, antingen efter kanalnamn eller efter kanalsökväg.
+Med en referenskanal kan du ange en referens till den önskade kanalen, antingen efter kanalnamn eller efter kanalsökväg.
 
 * **efter bana** - Du anger en explicit referens med kanalens absoluta sökväg.
 
-* **efter namn** - Du anger namnet på den kanal som matchar en faktisk kanal efter kontext. Med den här funktionen kan du skapa en lokal version av en kanal för att dynamiskt matcha platsspecifikt innehåll. En kanal med namnet *dagens erbjudanden*, där det faktiska innehållet skulle vara annorlunda i två städer, men du fortfarande har den tillräkneliga kanalrollen på alla skärmar.
+* **efter namn** - Du anger namnet på den kanal som matchar en faktisk kanal efter kontext. Med den här funktionen kan du skapa en lokal version av en kanal så att du dynamiskt kan matcha platsspecifikt innehåll. En kanal med namnet *dagens erbjudanden*, där det faktiska innehållet skulle vara annorlunda i två städer, men du fortfarande har den tillräkneliga kanalrollen på alla skärmar.
 
 ### Kanalroll {#role-channel}
 
-Kanalrollen definierar visningssammanhanget. Rollen är inriktad på olika åtgärder och är oberoende av den faktiska kanal som uppfyller rollen.
+Kanalrollen definierar visningssammanhanget. Rollen avser olika åtgärder och är oberoende av den faktiska kanal som uppfyller rollen.
 
 ### Prioritet {#priority-channel}
 
@@ -76,7 +76,7 @@ Prioritet används för att ordna tilldelningarna om flera matchar uppspelningsv
 >
 > Det här alternativet är bara tillgängligt med <!--AEM 6.4 Feature Pack 8 or -->AEM 6.5 Feature Pack 4.
 
-Som innehållsförfattare anger du när en kanal avbryts så att du kan välja att klippa ut icke-kritiskt innehåll, men om du vill kan du låta viktigt innehåll spelas upp innan uppspelningen avbryts på grund av schemaläggning.
+Ange när en kanal ska avbrytas som innehållsförfattare. Om du gör det kan du klippa ut icke-kritiskt innehåll om du vill, men du kan även låta viktigt innehåll spelas upp innan uppspelningen avbryts på grund av schemaläggningen.
 
 Klicka på ett av följande alternativ som är tillgängliga för att ange avbrottsmetoden i dialogrutan **Kanaltilldelning** dialogruta:
 
@@ -100,7 +100,7 @@ Visa verktygstipset för attribut anger om verktygstipset för attributet (&quot
 
 ### DayParting {#dayparting}
 
-Scheman i kombination med **DayParting** kan du ange ett globalt schema med flera kanaler som körs vid specifika tidpunkter på dygnet och återanvända det som är inställt för alla skärmar samtidigt.
+Scheman, när de kombineras med **DayParting** kan du ange ett globalt schema med flera kanaler som körs vid specifika tidpunkter på dygnet och återanvända det som är inställt för alla skärmar samtidigt.
 
 DayParting innebär att dela upp en dag i tidskortplatser och ange vilket innehåll som spelas upp vid önskad tidpunkt. Med AEM Screens kan ni schemalägga kanaler i form av DayPparting inom en dag, vecka eller månad efter behov.
 

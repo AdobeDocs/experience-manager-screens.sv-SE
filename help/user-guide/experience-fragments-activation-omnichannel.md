@@ -1,7 +1,7 @@
 ---
 title: Aktivering av Experience Fragments
-description: Ett exempel som hjälper dig att lära dig mer om aktivering av upplevelsefragment när det gäller AEM Screens.
-source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
+description: Ett exempel som hjälper dig att lära dig mer om Experience Fragments-aktivering när det gäller AEM Screens.
+source-git-commit: 1cf90de7892d051b2b94b4dd57de7135269b1ee8
 workflow-type: tm+mt
 source-wordcount: '194'
 ht-degree: 0%
@@ -32,7 +32,7 @@ Skapa ett projekt med namnet **DemoProject** och en sekvenskanal med namnet **Te
 
 ### Implementera Experience Fragment i ett AEM Screens-projekt {#experience-fragments-implementation}
 
-När du har skapat en Experience Fragment och använt den i ditt AEM Screens-projekt, **DemoProject** ni kan förbättra upplevelsefragmentet efter era behov.
+När du har skapat en Experience Fragment och använt den i ditt AEM Screens-projekt, **DemoProject** kan ni förbättra upplevelsefragmentet efter era behov.
 
 ### Öka textstorlek {#increasing-text-size}
 

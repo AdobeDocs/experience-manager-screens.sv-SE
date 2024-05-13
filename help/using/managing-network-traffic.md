@@ -2,9 +2,9 @@
 title: Hantera nätverkstrafik
 description: På sidan beskrivs standardnätverksinställningar och hur du hanterar nätverkstrafik.
 exl-id: b6d8f4a3-fca2-4556-9455-b9e27b138154
-source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
+source-git-commit: 1cf90de7892d051b2b94b4dd57de7135269b1ee8
 workflow-type: tm+mt
-source-wordcount: '549'
+source-wordcount: '550'
 ht-degree: 0%
 
 ---
@@ -23,9 +23,9 @@ Den här guiden belyser en introduktion till proxyservrar följt av de olika nä
 
 En Internetanslutning är beroende av att en proxyserver används. En proxyserver är en dedikerad dator eller ett programvarusystem som körs på en dator. Den fungerar som en mellanhand mellan en slutpunktsenhet, till exempel en dator, och en annan server från vilken en användare eller klient begär en tjänst. Proxyservern kan finnas på samma dator som en brandväggsserver eller på en separat server som vidarebefordrar begäranden via brandväggen.
 
-En fördel med en proxyserver är att dess cache kan användas av alla användare. Om en eller flera webbplatser ofta efterfrågas finns de förmodligen i proxyns cacheminne, vilket ytterligare förbättrar användarens svarstid. En proxy kan också logga interaktionen som kan användas för felsökning.
+En fördel med en proxyserver är att dess cache kan användas av alla användare. Om en eller flera webbplatser ofta efterfrågas finns de förmodligen i proxyns cacheminne. Sådan cachelagring förbättrar användarens svarstid ytterligare. En proxy kan också logga interaktionen som kan användas för felsökning.
 
-När en proxyserver tar emot en begäran om en Internet-resurs (till exempel en webbsida eller vid anslutning till en AEM Publisher), söker den i sin lokala cache efter tidigare anropade URL:er. Om sidan hittas returneras den till användaren utan att begäran vidarebefordras till Internet. Om sidan inte finns i cachen fungerar proxyservern (som klient) för användaren och begär sidan från servern på Internet. När innehållet returneras relaterar proxyservern det till den ursprungliga begäran och vidarebefordrar det till användaren.
+När en proxyserver tar emot en begäran om en Internet-resurs (till exempel en webbsida eller vid anslutning till en AEM Publisher), söker den i sin lokala cache efter tidigare anropade URL:er. Om sidan hittas returneras den till användaren utan att begäran vidarebefordras till Internet. Om sidan inte finns i cachen fungerar proxyservern som en klient för användaren och begär sidan från servern på Internet. När innehållet returneras relaterar proxyservern det till den ursprungliga begäran och vidarebefordrar det till användaren.
 
 ## Standardnätverksinställningarna {#network-setups}
 
