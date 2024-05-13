@@ -1,7 +1,7 @@
 ---
 title: Miljöer för [!UICONTROL AEM Screens]
 description: Läs mer om miljöerna i ett AEM Screens-projekt.
-source-git-commit: 3c4b37b3b9f268b500562fa4ce3782b7be1e7d74
+source-git-commit: f7653d8b386c02f510eb7a770cf3cdc22c41a5fb
 workflow-type: tm+mt
 source-wordcount: '150'
 ht-degree: 0%
@@ -27,6 +27,6 @@ Följ riktlinjerna nedan för att konfigurera miljön för ditt AEM Screens-proj
 
 1. Identifiera eventuella utvecklingspaket (till exempel WCM Core-komponenter) eller verktygspaket från tredje part (till exempel SAP Hybris) som krävs.
 
-1. Installera samma programvarupaket på den lokala utvecklingsmiljön.
+1. Installera samma programvarupaket i den lokala utvecklingsmiljön.
 
 1. Instruera klienten att använda samma konfiguration på alla QA-, Stage- och Production-servrar. Felmatchade serverkonfigurationer skapar problem vid distribuering och testning.

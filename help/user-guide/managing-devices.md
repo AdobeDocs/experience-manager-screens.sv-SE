@@ -9,16 +9,16 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 10749ff2-9128-44e7-9f10-c8e783a6f695
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: f7653d8b386c02f510eb7a770cf3cdc22c41a5fb
 workflow-type: tm+mt
-source-wordcount: '238'
+source-wordcount: '239'
 ht-degree: 5%
 
 ---
 
 # Hantera enheter {#managing-devices}
 
-Den här sidan beskriver enhetstilldelning.
+Den här sidan beskriver enhetstilldelningen.
 
 Med enhetskonsolen kan du komma åt enhetshanteraren och tilldela enheten till en skärm.
 

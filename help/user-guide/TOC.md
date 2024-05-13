@@ -8,9 +8,9 @@ user-guide-description: Lär dig använda en lösning för digital signering som
 feature-set: Experience Manager Screens
 feature: Content
 role: User
-source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
+source-git-commit: f7653d8b386c02f510eb7a770cf3cdc22c41a5fb
 workflow-type: tm+mt
-source-wordcount: '518'
+source-wordcount: '520'
 ht-degree: 5%
 
 ---
@@ -30,7 +30,7 @@ ht-degree: 5%
    + [Del 4: Projektledning och driftsättning](project-management-and-deployment.md)
    + [Del 5: Supportöverväganden](support-considerations.md)
 + Konfiguration och administration {#administering}
-   + [Konfigurationer för skärmar](configuring-screens-introduction.md)
+   + [Konfigurerar skärmserver](configuring-screens-introduction.md)
    + [Konfigurera Dispatcher-konfigurationer](dispatcher-configurations-aem-screens.md)
    + [Installera skärmuppspelaren](installing-screens-player.md)
    + [Ansluta skärmuppspelaren](working-with-screens-player.md)
@@ -40,7 +40,7 @@ ht-degree: 5%
    + [Övergång från ContentSync till SmartSync](smartsync.md)
    + [Ny projektimporterare från fil](project-importer.md)
    + [Replikera datutlösare till publiceringsservrar](replicating-data-triggers.md)
-   + [Konfigurerar agenter för skärmreplikering](configure-screens-replication.md)
+   + [Konfigurera replikeringsagenter på skärmar](configure-screens-replication.md)
    + Klientspecifika överväganden {#installing-client}
       + [Chrome OS Player](implementing-chrome-os-player.md)
       + [Använda Chrome Player som ett tillägg för felsökning](using-chrome-player-as-an-extension.md)
@@ -100,7 +100,7 @@ ht-degree: 5%
       + [Använda övergångar](applying-transitions.md)
       + [Övergångar mellan flera zoner och en zon](multizone-to-singlezone.md)
       + [Ta över kanal för engångsbruk](single-use-takeover-channel.md)
-      + [Permanent användning, TakeOver Channel](perpetual-takeover-channel.md)
+      + [Löpande användning av TakeOver Channel](perpetual-takeover-channel.md)
 + Resurser för utvecklare och API {#developing}
    + [REST API:er](rest-api.md)
    + [Utveckla en anpassad komponent för AEM Screens](developing-custom-component-tutorial-develop.md)

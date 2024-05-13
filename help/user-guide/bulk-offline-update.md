@@ -10,7 +10,7 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: d0a0b065-798e-4108-86ac-0a1f4e211cfc
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: f7653d8b386c02f510eb7a770cf3cdc22c41a5fb
 workflow-type: tm+mt
 source-wordcount: '290'
 ht-degree: 0%
@@ -43,7 +43,7 @@ Du kan även schemalägga den här aktiviteten under en tid med lägre nätverks
 
 ## Använda Uppdatera gruppvis offline {#using-bulk-offline-update}
 
-Du kan manuellt använda bulkuppdatering offline från användargränssnittet (UI) eller schemalägga bulkuppdateringen från OSGi-tjänster.
+Du kan manuellt använda Uppdatera gruppvis offline från användargränssnittet (UI) eller schemalägga en gruppuppdatering från OSGi-tjänster.
 
 ### Använda AEM Screens användargränssnitt {#using-aem-screens-user-interface}
 
@@ -59,7 +59,7 @@ Följ stegen nedan om du vill använda en bulkuppdatering för ett AEM Screens-p
 Följ stegen nedan om du vill använda en bulkuppdatering för ett AEM Screens-projekt:
 
 1. Konfiguration av Adobe Experience Manager Web Console.
-1. Sök efter bulkbaserade uppdateringstjänster.
+1. Sök efter uppdateringstjänster för massutskick offline.
 
    ![screen_shot_2018-04-24at121428pm](assets/screen_shot_2018-04-24at121428pm.png)
 

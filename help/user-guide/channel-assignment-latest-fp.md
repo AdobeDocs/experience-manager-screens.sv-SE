@@ -5,9 +5,9 @@ feature: Authoring Screens, Channel Assignment
 role: Admin, Developer
 level: Intermediate
 exl-id: 346eec9a-e291-4b0d-9686-fee1d5a0e7dd
-source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
+source-git-commit: f7653d8b386c02f510eb7a770cf3cdc22c41a5fb
 workflow-type: tm+mt
-source-wordcount: '1448'
+source-wordcount: '1447'
 ht-degree: 0%
 
 ---
@@ -82,14 +82,14 @@ När projektkonfigurationen är klar tilldelar du kanalen till en visning för a
 
    >[!NOTE]
    >
-   >Mer information om kanaltilldelningsegenskaper finns i [Kanalegenskaper](#channel-properties) -avsnitt.
+   >Mer information om egenskaper för kanaltilldelning finns i [Kanalegenskaper](#channel-properties) -avsnitt.
 
 1. Från **Schema** klickar du på **Aktiveringsfönster** och **Återkommande schema**.
    ![bild](/help/user-guide/assets/channel-assignment/channel-assign-fp8.png)
 
    >[!NOTE]
    >
-   >Mer information om kanaltilldelningsegenskaper finns i [Kanalegenskaper](#channel-properties) -avsnitt.
+   >Mer information om egenskaper för kanaltilldelning finns i [Kanalegenskaper](#channel-properties) -avsnitt.
 
 1. Klicka **Spara** när du har konfigurerat dina inställningar.
 
@@ -105,7 +105,7 @@ Du kan visa följande utdata när du väljer spelare:
 
 ## Tidslinjevy {#timeline-view}
 
-När du har tilldelat en kanal till en visning och konfigurerat ett upprepningsschema kan du visa tidslinjen från **TILLDELADE KANALER OCH SCHEMAN** -panelen.
+När du har tilldelat en kanal till en visning och konfigurerat ett upprepningsschema, kan du visa tidslinjen från **TILLDELADE KANALER OCH SCHEMAN** -panelen.
 
 Följ stegen nedan för att navigera till tidslinjevyn:
 
@@ -134,7 +134,7 @@ Om du väljer en kanal kan du ange en referens till den önskade kanalen, anting
 
 ### Kanalroll {#role-channel}
 
-Kanalrollen definierar visningssammanhanget. Rollen är inriktad på olika åtgärder och är oberoende av den faktiska kanal som uppfyller rollen.
+Kanalrollen definierar visningssammanhanget. Olika åtgärder har rollen som mål. Det är oberoende av den faktiska kanal som fullgör rollen.
 
 ### Prioritet {#priority-channel}
 
@@ -158,7 +158,7 @@ Prioritet används för att ordna tilldelningarna om flera matchar uppspelningsv
 
 Som innehållsförfattare kan du ange när en kanal ska avbrytas. På så sätt kan du välja att ta bort icke-kritiskt innehåll. Men det ger också möjlighet att låta viktigt innehåll spelas upp i sin helhet innan det förkortas på grund av schemaläggningen.
 
-Välj något av följande alternativ som är tillgängliga för att ställa in avbrottsmetoden på menyn **Kanaltilldelning** dialogruta:
+Välj ett av följande alternativ som är tillgängliga för att ställa in avbrottsmetoden på menyn **Kanaltilldelning** dialogruta:
 
 * **Omedelbart** - När schemat aktiveras eller en uppdatering tas emot kan du avbryta uppspelningen och omedelbart uppdatera eller spela upp det nya innehållet
 * **Slutet på det aktuella objektet** - När ett nytt schema aktiveras eller en uppdatering tas emot kan du välja att vänta tills det aktuella objektet i sekvensen har spelats upp. Sedan kan du bara uppdatera eller spela upp det nya innehållet.
@@ -181,15 +181,15 @@ I aktiveringsfönstret kan du välja en **Startdatum** och **Slutdatum** för at
 
 ### Återkommande schema {#recurrence-schedule}
 
-Med upprepningsschemat kan du ange ett återkommande schema för ditt innehåll. Klicka **+ Lägg till schema** för att lägga till ett upprepningsschema i kanalen.
+Med upprepningsschemat kan du ange ett återkommande schema för ditt innehåll. Klicka **+ Lägg till schema** om du vill lägga till ett upprepningsschema i kanalen.
 
 >[!NOTE]
 >Du kan lägga till flera återkommande scheman i din kanal.
->Återkommande scheman introducerar *DayParting* som gör att du kan ställa in ett globalt schema med flera kanaler som körs vid specifika tidpunkter på dygnet och återanvända det som är inställt för alla skärmar samtidigt.
+>Återkommande scheman introducerar *DayParting*. Du ställer in ett globalt schema med flera kanaler som körs vid specifika tidpunkter på dygnet och återanvänder det som konfigurerats för alla skärmar samtidigt.
 
 Du kan ange följande alternativ:
 
-* **Namn** - Namn på ditt återkommande schema.
+* **Namn** - Titel på ditt schema för återkommande aktiviteter.
 * **Upprepa** - Välj om schemat ska köras **Dagligen**, **Vecka**, **Månadsvis**, eller **Årsvis**.
 * **Starta** - Starttiden för ditt schema.
 * **End** - Sluttiden för ditt schema. Du kan ange den efter tid eller varaktighet.

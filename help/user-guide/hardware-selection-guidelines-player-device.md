@@ -1,9 +1,9 @@
 ---
 title: Riktlinjer för val av maskinvara för spelarenheter
 description: Läs mer om riktlinjer för val av maskinvara för AEM Screens Player-enheter.
-source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
+source-git-commit: f7653d8b386c02f510eb7a770cf3cdc22c41a5fb
 workflow-type: tm+mt
-source-wordcount: '227'
+source-wordcount: '228'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ Följande avsnitt innehåller riktlinjer för val av maskinvara för en AEM Scre
 * Samarbeta alltid med leverantörer som levererar digitala signaturer.
 * Ta alltid hänsyn till miljöfaktorer som omgivningstemperatur och relativ luftfuktighet.
 * Granska alltid effektkrav och energikonditionering.
-* Granska noggrant prestandabehov och I/O-portar som krävs för programmet.
+* Granska noggrant prestandabehoven och I/O-portarna som krävs för programmet.
 
 ## Maskinvarukonfigurationer {#hardware-configurations}
 

@@ -1,9 +1,9 @@
 ---
 title: Arbetsflödeskonfiguration för direktplacering
 description: På den här sidan visas arbetsflödeskonfiguration för direktplacering.
-source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
+source-git-commit: f7653d8b386c02f510eb7a770cf3cdc22c41a5fb
 workflow-type: tm+mt
-source-wordcount: '188'
+source-wordcount: '189'
 ht-degree: 0%
 
 ---

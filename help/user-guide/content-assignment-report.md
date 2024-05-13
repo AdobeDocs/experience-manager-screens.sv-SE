@@ -5,9 +5,9 @@ feature: Authoring Screens
 role: Developer
 level: Intermediate
 exl-id: 7397aa99-97fc-45c2-a157-c1bd7b1700b5
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: f7653d8b386c02f510eb7a770cf3cdc22c41a5fb
 workflow-type: tm+mt
-source-wordcount: '355'
+source-wordcount: '354'
 ht-degree: 0%
 
 ---
@@ -51,7 +51,7 @@ Följ instruktionerna nedan för att hämta rapporten för innehållstilldelning
 
    ![bild](/help/user-guide/assets/content-assignment-report/can-download.png)
 
-1. Det hämtade kalkylbladet består av två flikar, till exempel **Platser** och **Innehåll**. På fliken Plats visas fyra kolumner, till exempel **Platser**, **Visar**, **Kanaler** och **Enheter** som kan användas för att ytterligare undersöka dessa fyra enheter som hör till ditt AEM Screens-projekt.
+1. Det hämtade kalkylbladet består av två flikar, till exempel **Platser** och **Innehåll**. På fliken Plats visas fyra kolumner, till exempel **Platser**, **Visar**, **Kanaler** och **Enheter** som kan användas för att undersöka dessa fyra enheter som hör till ditt AEM Screens-projekt.
 
    ![bild](/help/user-guide/assets/content-assignment-report/report-sheet1.png)
 
