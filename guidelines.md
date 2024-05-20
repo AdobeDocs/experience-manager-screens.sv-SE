@@ -1,5 +1,5 @@
 ---
-source-git-commit: df41a8794683e241b6f12b58d39c01e069187435
+source-git-commit: 0f3a2cb6deacd0a81db8f0dc2b1554e7506aaf17
 workflow-type: tm+mt
 source-wordcount: '714'
 ht-degree: 0%
@@ -90,3 +90,4 @@ Undvik om möjligt direkta referenser till en viss version i dokumentationsinneh
 I en artikel ska du alltid referera till produkten med dess fullständiga namn **Adobe Experience Manager** första gången den används. Därefter kan den kallas **AEM**.
 
 Day, Day Software, CQ och CRX bör inte användas utom när det är oundvikligt, t.ex. i klassnamn eller med hänvisning till AEM.
+
