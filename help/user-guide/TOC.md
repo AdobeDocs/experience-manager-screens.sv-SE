@@ -8,9 +8,9 @@ user-guide-description: Lär dig använda en lösning för digital signering som
 feature-set: Experience Manager Screens
 feature: Content
 role: User
-source-git-commit: f7653d8b386c02f510eb7a770cf3cdc22c41a5fb
+source-git-commit: 1bd79ed3a0a610efb12f9ff1030a33978ccccf1e
 workflow-type: tm+mt
-source-wordcount: '520'
+source-wordcount: '522'
 ht-degree: 5%
 
 ---
@@ -84,6 +84,7 @@ ht-degree: 5%
       + [Varaktighet för massbildsuppspelning på kanalnivå](channel-level-image-playback.md)
       + [Synkronisera kommandon](using-command-sync.md)
       + [Skapa med Data Triggers](authoring-data-triggers.md)
+      + [Använda taggar](tagging.md)
       + [Röstigenkänning](voice-recognition.md)
       + [Tilldelningsrapport för innehåll](content-assignment-report.md)
       + [Stöd för miniatyrbilder för videor](thumbnail-support.md)
