@@ -3,9 +3,9 @@ title: Tagga på skärmar i molnet
 description: På den här sidan beskrivs hur du kan skapa, hantera och använda taggar i Screens Cloud.
 index: true
 exl-id: 7b15d7cc-f089-4008-9039-5f48343a0f20
-source-git-commit: 6c59d86d7c2224994686320381632b9150287fca
+source-git-commit: 62036fb6149d4babfeba69261af0bc4904ae0e82
 workflow-type: tm+mt
-source-wordcount: '161'
+source-wordcount: '158'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ Användaren kan skapa taggar i Screens Cloud och använda dem för att klassific
 
 ## Skapa och hantera taggar {#create-and-manage-tags}
 
-![Skapa tagg för VIDEO](assets/tagging/create-tag.mp4).
+![skapa tagg](assets/tagging/create-tag.gif).
 
 Använd samma åtgärdsmeny för att byta namn på en tagg eller ta bort dem.
 
@@ -35,13 +35,13 @@ Använd samma åtgärdsmeny för att byta namn på en tagg eller ta bort dem.
 
 Använd skapade taggar på bildskärmar och spelare. Du kan tagga en med högst 30 taggar.
 
-![VIDEO Hantera taggtilldelningar](assets/tagging/assign-tags-to-players.mp4).
+![hantera taggtilldelningar](assets/tagging/assign-tags-to-players.gif).
 
 ## Filtrera efter taggar {#filter-by-tags}
 
 Välj taggar om du vill filtrera listan med skärmar eller spelare.
 
-![VIDEO-filter efter taggar](assets/tagging/filter-by-tags.mp4).
+![filtrera efter taggar](assets/tagging/filter-by-tags.gif).
 
 >[!NOTE]
 > 
