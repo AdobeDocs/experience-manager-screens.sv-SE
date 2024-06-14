@@ -3,9 +3,9 @@ title: Tagga på skärmar i molnet
 description: På den här sidan beskrivs hur du kan skapa, hantera och använda taggar i Screens Cloud.
 index: true
 exl-id: 7b15d7cc-f089-4008-9039-5f48343a0f20
-source-git-commit: 62036fb6149d4babfeba69261af0bc4904ae0e82
+source-git-commit: 43971621ae34a433cb5af3cd84b0e6f074af0c30
 workflow-type: tm+mt
-source-wordcount: '158'
+source-wordcount: '150'
 ht-degree: 0%
 
 ---
@@ -28,14 +28,18 @@ Använd samma åtgärdsmeny för att byta namn på en tagg eller ta bort dem.
 
 >[!NOTE]
 > 
-> Märkordsnamn får endast innehålla bokstäver, siffror, bindestreck och understreck. Namnet ska börja och sluta med bokstäver eller siffror.
 > Totalt tillåts 500 taggar för en klient
 
 ## Hantera taggtilldelningar {#manage-tags-assignments}
 
-Använd skapade taggar på bildskärmar och spelare. Du kan tagga en med högst 30 taggar.
+Använd skapade taggar på bildskärmar och spelare.
 
 ![hantera taggtilldelningar](assets/tagging/assign-tags-to-players.gif).
+
+>[!NOTE]
+> 
+> En skärm eller spelare kan ha högst 100 taggar.
+> Högst 30 objekt kan taggas på en gång.
 
 ## Filtrera efter taggar {#filter-by-tags}
 
