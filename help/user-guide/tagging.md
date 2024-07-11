@@ -1,16 +1,16 @@
 ---
-title: Tagga på skärmar i molnet
-description: På den här sidan beskrivs hur du kan skapa, hantera och använda taggar i Screens Cloud.
+title: Tagga på Screens Cloud
+description: På den här sidan beskrivs hur du skapar, hanterar och använder taggar i Screens Cloud.
 index: true
 exl-id: 7b15d7cc-f089-4008-9039-5f48343a0f20
-source-git-commit: 43971621ae34a433cb5af3cd84b0e6f074af0c30
+source-git-commit: 06082edf3dadbaea1cea142ff624e83bc6045dfd
 workflow-type: tm+mt
 source-wordcount: '150'
 ht-degree: 0%
 
 ---
 
-# Tagga på skärmar i molnet {#tagging-on-Screens-Cloud}
+# Tagga på Screens Cloud {#tagging-on-Screens-Cloud}
 
 >[!CAUTION]
 >
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 ## Introduktion {#introduction}
 
-Användaren kan skapa taggar i Screens Cloud och använda dem för att klassificera skärmar och spelare.
+Användare kan skapa taggar i Screens Cloud och använda dem för att klassificera skärmar och spelare.
 
 ## Skapa och hantera taggar {#create-and-manage-tags}
 
@@ -49,5 +49,5 @@ Välj taggar om du vill filtrera listan med skärmar eller spelare.
 
 >[!NOTE]
 > 
-> Taggar som definieras i skärmmolnet är inte relaterade till/synkroniserade med taggar som definieras i AEM.
+> Taggar som definieras i Screens Cloud är inte relaterade till/synkroniserade med taggar som definieras i AEM.
 > 

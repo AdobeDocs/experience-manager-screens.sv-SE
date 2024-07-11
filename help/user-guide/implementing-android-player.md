@@ -1,6 +1,6 @@
 ---
 title: Implementera Android&trade; Player
-description: Lär dig mer om implementeringen av Android&trade; Watchdog, en lösning som gör att du kan återställa Android&trade;-spelaren från krascher.
+description: Lär dig mer om implementeringen av Android&trade; Watchdog, en lösning där du kan återställa Android-&handelspelaren från krascher.
 contentOwner: Jyotika syal
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
@@ -10,7 +10,7 @@ feature: Administering Screens, Android Player
 role: Admin
 level: Intermediate
 exl-id: d1331cb8-8bf6-4742-9525-acf18707b4d8
-source-git-commit: a89aec16bb36ecbde8e417069e9ed852363acd82
+source-git-commit: 06082edf3dadbaea1cea142ff624e83bc6045dfd
 workflow-type: tm+mt
 source-wordcount: '1471'
 ht-degree: 0%
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 # Implementera Android™ Player {#implementing-android-player}
 
-I det här avsnittet beskrivs hur du konfigurerar Android™-spelaren. Den innehåller information om konfigurationsfilen, tillgängliga alternativ och rekommendationer om vilka inställningar som ska användas för utveckling och testning.
+I det här avsnittet beskrivs hur du konfigurerar Android™ Player. Den innehåller information om konfigurationsfilen, tillgängliga alternativ och rekommendationer om vilka inställningar som ska användas för utveckling och testning.
 
 Dessutom **Watchdog** är en lösning som återställer spelaren från krascher. Ett program måste registrera sig hos bevakningstjänsten och sedan regelbundet skicka meddelanden till tjänsten om att det är aktivt. Om bevakningstjänsten inte får ett meddelande om att enheten inte hålls vid liv inom en viss tid, försöker tjänsten starta om enheten. Det gör det för en ren återställning (om den har tillräcklig behörighet) eller startar om programmet.
 
@@ -32,7 +32,7 @@ Besök [**AEM 6.5 Player Downloads**](https://download.macromedia.com/screens/) 
 ### Konfigurera miljö för AEM Screens 6.5.5 Service Pack {#fp-environment-setup}
 
 >[!NOTE]
->Konfigurera en miljö för Android™-spelaren om du använder AEM Screens 6.5.5 Service Pack.
+>Konfigurera en miljö för Android™ Player om du använder AEM Screens 6.5.5 Service Pack.
 
 Ange **Attributet SameSite för cookies för inloggningstoken** från **Lax** till **Ingen** från **Konfiguration av Adobe Experience Manager Web Console** på alla AEM författare och publiceringsinstanser.
 
@@ -50,7 +50,7 @@ Följ stegen nedan:
 
 ### Ad hoc-metod {#ad-hoc-method}
 
-Med Ad-Hoc-metoden kan du installera den senaste Android™-spelaren (*.exe*). Besök [**AEM 6.5 Player Downloads**](https://download.macromedia.com/screens/) sida.
+Med Ad-Hoc-metoden kan du installera den senaste Android™ Player (*.exe*). Besök [**AEM 6.5 Player Downloads**](https://download.macromedia.com/screens/) sida.
 
 När du har hämtat programmet följer du stegen på spelaren för att slutföra ad hoc-installationen:
 
@@ -65,34 +65,34 @@ När du har hämtat programmet följer du stegen på spelaren för att slutföra
 >
 >Om **Läge** är **OREGISTRERAD** kan du använda **Token** för att registrera enheten.
 
-## Implementera Android™-övervakning {#implementing-android-watchdog}
+## Implementera Android™ Watchdog {#implementing-android-watchdog}
 
 På grund av Android™-arkitekturen kräver omstart av enheten att programmet har systembehörighet. Signera appen med tillverkarens signeringsnycklar, annars kan övervakaren starta om spelarprogrammet och inte starta om enheten.
 
-### Signage of Android™ `apks` använda Manufacturer Keys {#signage-of-android-apks-using-manufacturer-keys}
+### Android™-skylt `apks` använda Manufacturer Keys {#signage-of-android-apks-using-manufacturer-keys}
 
-Få åtkomst till vissa privilegierade API:er i Android™, till exempel *PowerManager* eller *HDMIControlServices*, signera Android™ `apk` med tillverkarens nycklar.
+För att få tillgång till vissa privilegierade API:er i Android™, till exempel *PowerManager* eller *HDMIControlServices*, signera Android™ `apk` med tillverkarens nycklar.
 
 >[!CAUTION]
 >
 >Krav:
 >
->Android™ SDK bör vara installerat innan du utför följande steg.
+>Du bör ha installerat Android™ SDK innan du utför följande steg.
 
 Följ stegen nedan för att signera Android™-paketet med hjälp av tillverkarens tangenter:
 
 1. Hämta appen från Google Play eller från [AEM Screens Player - nedladdningar](https://download.macromedia.com/screens/) page
 1. Hämta plattformsknapparna från tillverkaren så att du kan få en *pk8* och *pem* fil
 
-1. Leta reda på `apksigner` verktyg i Android™ SDK med hjälp av sök `~/Library/Android/sdk/build-tools -name "apksigner"`
+1. Leta reda på `apksigner` i Android™ SDK med hjälp av `~/Library/Android/sdk/build-tools -name "apksigner"`
 1. `<pathto> /apksigner sign --key platform.pk8 --cert platform.x509.pem aemscreensplayer.apk`
 1. Hitta sökvägen till ZIP-justeringsverktyget i Android™ SDK
 1. `<pathto> /zipalign -fv 4 aemscreensplayer.apk aemscreensaligned.apk`
 1. Installera ***aemscreensaligned.apk*** med adb-installation på enheten
 
-## Förstå övervakningstjänsterna för Android™ {#android-watchdog-services}
+## Förstå Android™ Watchdog Services {#android-watchdog-services}
 
-Tjänsten för övervakning mellan Android implementeras som ett Cordova-plugin-program med *AlarmManager*.
+Övervakningstjänsten för Android™ fungerar som en plugin för Cordova med *AlarmManager*.
 
 I följande diagram visas implementeringen av tjänsten watchdog:
 
@@ -104,7 +104,7 @@ I följande diagram visas implementeringen av tjänsten watchdog:
 
 >[!NOTE]
 >
->I Android™ finns *AlarmManager* används för att registrera *pendingIntents* som kan köras även om appen har kraschat och larmleveransen är inexakt från API 19 (Kitkat). Behåll mellanrum mellan timerns intervall och *AlarmManagers* *pendingIntent&#39;s* larm.
+>I Android™ *AlarmManager* används för att registrera *pendingIntents* som kan köras även om appen har kraschat och larmleveransen är inexakt från API 19 (Kitkat). Behåll mellanrum mellan timerns intervall och *AlarmManagers* *pendingIntent&#39;s* larm.
 
 **3. Programkrasch** - Om en krasch inträffar återställs inte längre pendingIntent för omstart som är registrerad med AlarmManager. Därför körs en omstart eller omstart av programmet (beroende på vilka behörigheter som är tillgängliga när Cordova-pluginprogrammet initieras).
 
@@ -168,15 +168,15 @@ I följande tabell sammanfattas principattributen med en exempelpolicy-JSON för
 ```
 
 >[!NOTE]
->Alla Android™-enheter har en `*sdcard*` mapp om en faktisk `*sdcard*` infogas eller inte. Den här filen är på samma nivå som mappen Hämtningar när den distribueras. Vissa MDM-moduler, som Samsung Knox, kan se detta *sdcard* mappsökväg som *Intern lagring*.
+>Alla Android™-enheter har `*sdcard*` mapp om en faktisk `*sdcard*` infogas eller inte. Den här filen är på samma nivå som mappen Hämtningar när den distribueras. Vissa MDM-moduler, som Samsung Knox, kan se detta *sdcard* mappsökväg som *Intern lagring*.
 
 ## Massetablering av Android™ Player med Enterprise Mobility Management {#bulk-provisioning}
 
-När du distribuerar Android™-spelaren i grupp blir det trögt att registrera alla spelare manuellt med AEM. Använd en EMM-lösning (Enterprise Mobility Management) som [`VMWare Airwatch`](https://docs.samsungknox.com/admin/uem/vm-configure-appconfig.htm), MobileIron eller Samsung Knox så att du kan fjärrstyra driftsättningen. AEM Screens Android™-spelaren har stöd för den branschledande EMM AppConfig som tillåter fjärretablering.
+När du distribuerar Android™-spelaren i grupp blir det omständligt att registrera alla spelare manuellt med AEM. Använd en EMM-lösning (Enterprise Mobility Management) som [`VMWare Airwatch`](https://docs.samsungknox.com/admin/uem/vm-configure-appconfig.htm), MobileIron eller Samsung Knox så att du kan fjärrstyra driftsättningen. AEM Screens Android™-spelaren stöder den branschledande EMM AppConfig för fjärrprovisionering.
 
 ## Namnge Android™ Player {#name-android}
 
-Du kan tilldela Android™-spelaren ett användarvänligt enhetsnamn och på så sätt skicka det tilldelade enhetsnamnet till AEM (Adobe Experience Manager). Med den här funktionen kan du inte bara namnge Android™-spelaren utan även enkelt tilldela rätt innehåll.
+Du kan tilldela Android™-spelaren ett användarvänligt enhetsnamn och därmed skicka det tilldelade enhetsnamnet till AEM (Adobe Experience Manager). Med den här funktionen kan du inte bara namnge Android™-spelaren utan även enkelt tilldela rätt innehåll.
 
 >[!NOTE]
 >Du kan bara välja spelarnamnet före registreringen. När spelaren har registrerats går det inte att ändra spelarens namn längre.
@@ -184,14 +184,14 @@ Du kan tilldela Android™-spelaren ett användarvänligt enhetsnamn och på så
 Följ stegen nedan för att konfigurera namnet i Android™-spelaren:
 
 1. Navigera till **inställningar** > **Om enhet**
-1. Redigera och ange enhetsnamnet för Android™-spelaren
+1. Redigera och ange enhetsnamnet för din Android™-spelare
 
 ### Implementera massetablering av Android™ Player med Enterprise Mobility Management {#implementation}
 
 Följ stegen nedan för att tillåta massetablering i Android™ Player:
 
-1. Se till att din Android™-enhet har stöd för Google Play tjänster.
-1. Registrera dina Android™-spelarenheter med din EMM-favoritlösning som stöder AppConfig.
+1. Se till att din Android™-enhet stöder Google Play tjänster.
+1. Registrera dina Android™-spelarenheter med din EMM-lösning som stöder AppConfig.
 1. Logga in på EMM-konsolen och hämta AEM Screens Player från Google Play.
 1. Klicka på den hanterade konfigurationen eller det relaterade alternativet.
 1. Nu bör du se en lista med spelaralternativ som kan konfigureras, till exempel kod för server- och massregistrering.
@@ -202,6 +202,6 @@ Följ stegen nedan för att tillåta massetablering i Android™ Player:
 
 Du bör även höra med din EMM-leverantör om AppConfig-stöd. De populäraste som [`VMWare Airwatch`](https://docs.samsungknox.com/admin/uem/vm-configure-appconfig.htm), [`Mobile Iron`](https://docs.samsungknox.com/admin/uem/mobileiron2-configure-appconfig.htm), [`SOTI`](https://docs.samsungknox.com/admin/uem/soti-configure-appconfig.htm), [`BlackBerry&reg; UEM`](https://docs.samsungknox.com/admin/uem/bb-configure-appconfig.htm), [`IBM&reg; Maas360`](https://docs.samsungknox.com/admin/uem/ibm-configure-appconfig.htm)och [`Samsung Knox`](https://docs.samsungknox.com/admin/uem/km-configure-appconfig.htm) bland annat stöder den här branschstandarden.
 
-### Använda fjärrkontrollen till skärmar {#using-remote-control}
+### Använda Screens fjärrkontroll {#using-remote-control}
 
-AEM Screens tillhandahåller fjärrstyrningsfunktioner. Läs mer om den här funktionen här: [Fjärrkontroll för skärmar](implementing-remote-control.md)
+AEM Screens tillhandahåller fjärrstyrningsfunktioner. Läs mer om den här funktionen här: [Screens Remote Control](implementing-remote-control.md)
