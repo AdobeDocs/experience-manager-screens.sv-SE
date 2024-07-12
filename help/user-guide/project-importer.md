@@ -29,8 +29,8 @@ Målet med den här funktionen är att minska den tid som krävs för att ställ
 
 Genom att låta författaren tillhandahålla ett kalkylblad som en indatafil, och låta systemet automatiskt skapa platsträdet i bakänden, den här funktionen:
 
-* *ger mycket bättre prestanda än att välja manuellt via användargränssnittet*
-* *låter kunden exportera de platser de har från sitt eget system och enkelt importera dem direkt till AEM*
+* *uppnår mycket bättre prestanda än att välja manuellt via gränssnittet*
+* Med *kan kunden exportera de platser som de har från sitt eget system och enkelt importera dem direkt till AEM*
 
 Denna process sparar både tid och pengar vid den första projektinstallationen eller vid utvidgning av den befintliga AEM Screens till nya platser.
 
@@ -51,19 +51,19 @@ Datamodellen för Project Importer beskrivs nedan:
 | **Egenskap** | **Beskrivning** |
 |---|---|
 | ***`path {string*}`*** | Resurssökvägen för platsen |
-| ***`[./jcr:title] {string*}`*** | Namnet på mallen som ska användas (d.v.s. platsen för *skärmar/kärna/mallar/plats*) |
+| ***`[./jcr:title] {string*}`*** | Namnet på mallen som ska användas (det vill säga platsen för *skärmar/kärna/mallar/plats*) |
 | ***`template {string}`*** | Valfri titel att använda för sidan |
 | ***`[./jcr:description] {string}`*** | Valfri beskrivning som ska användas för sidan |
 
 Kalkylbladsfilen (CSV/XLS) kräver därför följande kolumner:
 
-* **bana {string}** - Sökvägen till platsen som ska importeras, där sökvägen är platsmappen för projektet (det vill säga *`/foo`* importeras till *`/content/screens/<project>/locations/foo`*)
-* **mall {string}** - Mallen som ska användas för den nya platsen är för närvarande det enda tillåtna värdet&quot;location&quot;, men det här värdet utökas till att omfatta alla skärmmallar i framtiden (`display`, `sequencechannel`och så vidare)
+* **sökväg {string}** - Sökvägen till platsen som ska importeras, där sökvägen är platsmappen för projektet (det vill säga *`/foo`* importeras till *`/content/screens/<project>/locations/foo`*)
+* **template {string}** - Den mall som ska användas för den nya platsen är för närvarande det enda tillåtna värdet &quot;location&quot;, men det här värdet utökas till alla Screens-mallar i framtiden (`display`, `sequencechannel` o.s.v.)
 * **[./*] {string}** - Valfri egenskap som ska anges på platsen (d.v.s. `./jcr:title`, `./jcr:description`, `./foo, ./bar`). Den aktuella versionen tillåter ingen filtrering.
 
 >[!NOTE]
 >
->Alla kolumner som inte matchar villkoren ovan ignoreras. Om du t.ex. har en annan kolumn definierad i din bladfil (CSV/XLS) som inte är **bana**, **mall**, **title** och **description** i filen ignoreras dessa fält. Och **Projektimporterare** validerar inte dessa extrafält för import av ditt projekt till ditt AEM Screens-projekt.
+>Alla kolumner som inte matchar villkoren ovan ignoreras. Om du till exempel har någon annan kolumn definierad i bladet (CSV/XLS) som inte är **path**, **template**, **title** eller **description** i filen, ignoreras dessa fält. **Projektimporteraren** validerar inte de ytterligare fälten för import av ditt projekt till ditt AEM Screens-projekt.
 
 ## Använda projektimporteraren {#using-project-importer}
 
@@ -79,7 +79,7 @@ I följande avsnitt beskrivs hur projektimporteraren används i ett AEM Screens-
 
 ### Förutsättningar {#prerequisites}
 
-* Skapa ett projekt med namnet **DemoProjektImportera**
+* Skapa ett projekt med namnet **DemoProjectImport**
 
 * Använd en CSV- eller Excel-exempelfil som du måste importera.
 
@@ -97,17 +97,17 @@ Följ stegen nedan för att importera en fil till en platsmapp med de obligatori
 
 ![screen_shot_2019-05-14at21523pm](assets/screen_shot_2019-05-14at21523pm.png)
 
-1. Gå till ditt AEM Screens-projekt (**DemoProjektImportera**).
+1. Navigera till ditt AEM Screens-projekt (**DemoProjectImport**).
 
    ![screen_shot_2019-05-12at52651am](assets/screen_shot_2019-05-12at52651am.png)
 
-1. Klicka på projektet* DemoProjectImporter **>** Skapa **>** Importera platser** från sidofältet.
+1. Klicka på projektet** DemoProjectImporter **>** Create **>** Import Locations** från sidofältet.
 
    ![screen_shot_2019-05-12at52433am](assets/screen_shot_2019-05-12at52433am.png)
 
-1. The **Importera** visas. Klicka på filen för projektet med platser eller klicka på filen (***minimum-file.xls***) du hämtade från *Förutsättningar* -avsnitt.
+1. Guiden **Importera** visas. Klicka på filen för projektet med platser eller klicka på filen (***minimum-file.xls***) som du hämtade från avsnittet *Förutsättningar*.
 
-   När du har valt filen klickar du på **Nästa**.
+   När du har markerat filen klickar du på **Nästa**.
 
    ![screen_shot_2019-05-15at113718am](assets/screen_shot_2019-05-15at113718am.png)
 

@@ -1,6 +1,6 @@
 ---
-title: Stöd efter lansering
-description: Läs mer om stöd för AEM Screens efter lansering i Best Practices Guide.
+title: Stöd för lansering av Post
+description: Läs mer om Post support för AEM Screens i Best Practices Guide.
 source-git-commit: a89aec16bb36ecbde8e417069e9ed852363acd82
 workflow-type: tm+mt
 source-wordcount: '370'
@@ -9,11 +9,11 @@ ht-degree: 4%
 ---
 
 
-# Stöd efter lansering {#post-launch-support}
+# Stöd för lansering av Post {#post-launch-support}
 
-Glöm inte stödet efter lanseringen i ett tidigt skede.
+Glöm inte stödet för lansering av Post i ett tidigt skede.
 
-Att se till att webbplatserna får tillräcklig support från maskinvaruleverantören är avgörande för deras verksamhet. The **Audio-Video Integrator** bör ha ett nära samarbete med affärsintressenter och identifiera de krav som krävs från olika aspekter.
+Att se till att webbplatserna får tillräcklig support från maskinvaruleverantören är avgörande för deras verksamhet. **Audio-Video Integrator** bör ha ett nära samarbete med företagsintressenter och identifiera de krav som krävs från olika aspekter.
 Tänk på följande under support efter start:
 
 * fjärrhantering av enheter
@@ -27,15 +27,15 @@ För att förbereda sig för långsiktiga framgångar är det också av största
 >
 >Definiera driftsparametrar som är tidigt inräknade i driftbudgeten och anpassa ansvarsområdena efter AEM och ljudvideointegratören.
 >
->* Är driftsättningen ett annonsnätverk med många intressenter kopplade till ett nätverk med intäkter? Detta kan leda till kortare tidsramar jämfört med ett Corporate Communications-nätverk.
+>* Är driftsättningen ett Advertising-nätverk med många intressenter kopplade till ett nätverk med intäkter? Detta kan leda till kortare tidsramar jämfört med ett Corporate Communications-nätverk.
 >* Är programmet mycket synligt för kundens chefer? Webbplatser med hög synlighet kan behöva olika behandlingar.
 >* Är programmet viktigt för affärsverksamhet som menybord i snabbmatskedjor? I dessa fall kan slutklienten behöva lösningar på plats med korta svarstider och redundans i uppspelningsmaskinvaran.
 
-## Överväganden och frågor efter start {#considerations-queries}
+## Överväganden och Post Launch Queries {#considerations-queries}
 
 Några saker att tänka på och frågor som hjälper dig att definiera support efter lanseringen:
 
-1. Är driftsättningen ett annonsnätverk med många intressenter kopplade till ett nätverk med intäkter? Detta kan leda till kortare tidsramar jämfört med ett Corporate Communications-nätverk.
+1. Är driftsättningen ett Advertising-nätverk med många intressenter kopplade till ett nätverk med intäkter? Detta kan leda till kortare tidsramar jämfört med ett Corporate Communications-nätverk.
  
    >[!NOTE]
    >

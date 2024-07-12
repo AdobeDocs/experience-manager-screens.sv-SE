@@ -68,10 +68,10 @@ Som en uppföljning måste det nödvändiga datapaketet vara minst:
 
 
 >[!IMPORTANT]
->För inledande överföring av mediefiler samtidigt som nya spelare integreras måste en större mängd data och en ökad hämtningstid förväntas. Detta återspeglas i ovanstående antaganden. Ett 4G-nätverk med *bra* täckning och *obegränsad* data ska överensstämma med de vanligaste installationerna i den här nätverksinställningarna.
+>För inledande överföring av mediefiler samtidigt som nya spelare integreras måste en större mängd data och en ökad hämtningstid förväntas. Detta återspeglas i ovanstående antaganden. Ett 4G-nätverk med *bra* täckning och *obegränsade* data bör matcha de vanligaste installationerna i den här nätverksinställningarna.
 
 >[!NOTE]
->En lägsta 3G-plan med bra nätverkstäckning bör leda till acceptabel nedladdningsprestanda för en AEM Screens Player. Om det bara finns en rimlig täckning tillgänglig på en viss plats kan du överväga att byta den övergripande nätverksinställningarna till [Mobilnätverk med mobil datarouter och aktiva nätverkskomponenter](/help/using/mobile-network-router.md).
+>En lägsta 3G-plan med bra nätverkstäckning bör leda till acceptabel nedladdningsprestanda för en AEM Screens Player. Om det bara finns rimlig täckning tillgänglig på en viss plats kan du överväga att byta den övergripande nätverksinställningen till [Mobilnätverk med Mobile Data Router och Active Network Components](/help/using/mobile-network-router.md).
 
 
 ### Lokalt nätverk {#lan-connection}
@@ -80,7 +80,7 @@ Prestandaproblemen i det lokala nätverket (LAN), förutom nätverksnåbarheten,
 
 När du använder andra aktiva nätverkskomponenter är det obligatoriskt att alla dessa stämmer överens med kraven för nätverksbandbredd. Nätverkskomponenterna bör till exempel minst matcha 100 Mbit/s-standarden och matcha den bandbredd som anges i Internet-åtkomsten eller routerspecifikationen. I annat fall begränsas den totala bandbredden av den svagaste länken i nätverkskedjan.
 
-## Hämta media och resurser {#download}
+## Hämta media och Assets {#download}
 
 AEM Screens ger användare av digitala signaturer en stor fördel. Den hämtar och sparar alla nödvändiga mediefiler lokalt, till exempel bilder och videor. Den största nätverkstrafiken inträffar när det finns nytt innehåll som ska visas på en viss skärm.
 

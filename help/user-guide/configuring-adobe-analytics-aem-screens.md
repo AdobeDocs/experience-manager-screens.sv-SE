@@ -28,12 +28,12 @@ ht-degree: 0%
 
 Detta avsnitt behandlar följande ämnen:
 
-* **Sekvenser i Adobe Analytics med AEM Screens**
+* **Sekvensering i Adobe Analytics med AEM Screens**
 * **Skicka anpassade händelser med Adobe Analytics offline**
 
 ## Sekvenser i Adobe Analytics med AEM Screens {#sequencing-in-adobe-analytics-with-aem-screens}
 
-The ***sekvenseringsprocess*** börjar med en datalagringstjänst som aktiverar Adobe Analytics-tjänsten. Kanalinnehåll skickar Adobe Analytics-händelser med lön, det vill säga datatestning som utförs i Windows I/O och stannar-händelser aktiveras. Händelserna sparas i indexdatabasen och placeras sedan i objektarkivet. Baserat på det schema som administratören ställer in, klipper den ut data från objektarkivet och överför dem vidare till segmentlagret. Den försöker skicka den maximala mängden data när den är ansluten.
+***sekvenseringsprocessen*** börjar med en datalagringstjänst som aktiverar Adobe Analytics-tjänsten. Kanalinnehåll skickar Adobe Analytics-händelser med lön, det vill säga datatestning som utförs i Windows I/O och stannar-händelser aktiveras. Händelserna sparas i indexdatabasen och placeras sedan i objektarkivet. Baserat på det schema som administratören ställer in, klipper den ut data från objektarkivet och överför dem vidare till segmentlagret. Den försöker skicka den maximala mängden data när den är ansluten.
 
 ### Sekvensdiagram {#sequencing-diagram}
 
@@ -99,7 +99,7 @@ I följande tabell sammanfattas standarddatamodellen för händelser. Här visas
    <td>rekommenderas</td> 
    <td>string</td> 
    <td> </td> 
-   <td>Arbetsflödets namn (skärmar)</td> 
+   <td>Arbetsflödets namn (Screens)</td> 
   </tr>
   <tr>
    <td> </td> 
@@ -108,7 +108,7 @@ I följande tabell sammanfattas standarddatamodellen för händelser. Här visas
    <td>obligatoriskt</td> 
    <td>string</td> 
    <td> </td> 
-   <td>Huvudkategori (DATOR, MOBIL, WEB, PROCESS, SDK, SERVICE, EKOSYSTEM) - Gruppering av händelsetyper - <strong>Spelaren har skickats</strong></td> 
+   <td>Huvudkategori (DESKTOP, MOBILE, WEB, PROCESS, SDK, SERVICE, ECOSYSTEM) - Gruppering av händelsetyper - <strong>Player skickad</strong></td> 
   </tr>
   <tr>
    <td> </td> 
@@ -169,7 +169,7 @@ I följande tabell sammanfattas standarddatamodellen för händelser. Här visas
    <td>Enhets-GUID</td> 
    <td>event.device_guid</td> 
    <td>valfri</td> 
-   <td>string<br /> </td> 
+   <td>sträng<br /> </td> 
    <td>UUID</td> 
    <td>Identifierar enhets-GUID (t.ex. dator-ID eller hash för IP-adressen + nätmasken + nätverks-ID + användaragent) - Här skickas användarnamnet för spelaren som skapades vid registreringen.</td> 
   </tr>
@@ -237,7 +237,7 @@ I följande tabell sammanfattas standarddatamodellen för händelser. Här visas
    <td>Felbeskrivning<br /> </td> 
   </tr>
   <tr>
-   <td><strong><em>Källa/ursprunglig produkt</em></strong></td> 
+   <td><strong><em>Source/ursprunglig produkt</em></strong></td> 
    <td>Namn</td> 
    <td>source.name</td> 
    <td>obligatoriskt</td> 

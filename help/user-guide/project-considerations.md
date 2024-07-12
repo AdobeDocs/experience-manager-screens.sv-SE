@@ -48,7 +48,7 @@ I/O-kör villkorlig uppspelning av innehåll baserat på avkänningsnärheten. N
 
 ### Innehållsresurstyper {#content-asset-types}
 
-För att du ska få en förståelse för vad kunden tänker göra med Content Assets bör du tänka på följande:
+Tänk på följande om du vill få en förståelse för vad kunden tänker sig när det gäller Content Assets:
 
 * Anger om innehållet ska återanvändas i tryck-, tv- eller webbkampanjer?
 * Om innehållet består av statiska bilder eller mallar som innehåller dynamiskt matade komponenter?
@@ -61,7 +61,7 @@ För att du ska få en förståelse för vad kunden tänker göra med Content As
 
 ### Målgruppssegmentering, dagdelar {#audience-segmentation-day-parts}
 
-Genom att tillämpa Day-Part-strategier kan slutkunder segmentera sitt innehåll. Det kan hjälpa er att rikta meddelanden till rätt målgrupp vid rätt tidpunkt. Den här möjligheten är särskilt effektiv för reklam- och butiksnätverk där många som bidrar med innehåll utgör hela spellistan.
+Genom att tillämpa Day-Part-strategier kan slutkunder segmentera sitt innehåll. Det kan hjälpa er att rikta meddelanden till rätt målgrupp vid rätt tidpunkt. Den här möjligheten är särskilt effektiv för Advertising- och detaljhandelsnätverk där många innehållsmedverkande utgör hela spellistan.
 
 ### Krav för affärsverksamhet {#business-operations-requirements}
 
@@ -83,10 +83,10 @@ Följ självstudiekursen nedan för att lära dig mer om innehållsstrategi, I/O
 
 >[!VIDEO](https://video.tv.adobe.com/v/28380)
 
-*Lär dig mer om innehållsstrategi, I/O-lager, resurstyper och målgruppssegmentering. Läs mer om reservdelar, verksamhetskrav och överväganden som rör beredskap för webbplatser.*
+*Lär dig mer om innehållsstrategi, I/O-lager, resurstyper och målgruppssegmentering. Läs mer om dagsdelar, verksamhetskrav och överväganden om webbplatsberedskap.*
 
 ## Nästa steg {#the-next-step}
 
 Förstå de element som identifieras vid projektidentifiering, tillsammans med synpunkter från berörda parter, för att utvärdera projektet och förbereda en lämplig design. Lär dig de viktigaste villkoren i en övergripande projektplan. Exempel på sådana termer är projektcykler, åtgärder som omger maskinvarutestning, konceptbevis, piloter och rollouts.
 
-Navigera till **[Testning, POC, piloter &amp; Rollouts](testing-pocs-pilots-rollouts.md)** för mer information.
+Gå till **[Testing, POC, Pilot &amp; Rollouts](testing-pocs-pilots-rollouts.md)** om du vill ha mer information.

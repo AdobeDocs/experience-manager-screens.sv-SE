@@ -22,7 +22,7 @@ I det här avsnittet beskrivs hur du aktiverar målinriktning i dina kanaler.
 
 ## Förutsättningar {#prereqs}
 
-Innan du följer stegen nedan för att aktivera målinriktning i kanaler bör du läsa om [Viktiga termer i Konfigurera i AEM Screens](configuring-context-hub.md) krävs för att förstå ContextHub och Target i AEM Screens.
+Innan du följer stegen nedan för att aktivera målinriktning i kanaler bör du lära dig de [nyckeltermer i Konfigurera i AEM Screens](configuring-context-hub.md) som krävs för att förstå ContextHub och Target i AEM Screens.
 
 >[!IMPORTANT]
 >
@@ -30,8 +30,8 @@ Innan du följer stegen nedan för att aktivera målinriktning i kanaler bör du
 
 Följ länkarna nedan för mer information:
 
-1. **[Konfigurera datalagret](configuring-context-hub.md)**
-1. **[Konfigurera målgruppssegmentering](configuring-context-hub.md)**
+1. **[Konfigurerar datalagret](configuring-context-hub.md)**
+1. **[Konfigurerar målgruppssegmentering](configuring-context-hub.md)**
 
 När du har slutfört de föregående stegen är du redo att aktivera målinriktning i dina kanaler.
 
@@ -43,19 +43,19 @@ När du har slutfört de föregående stegen är du redo att aktivera målinrikt
 
 Följ stegen nedan för att aktivera målinriktning i dina kanaler.
 
-1. Navigera till någon av AEM Screens-kanalerna. I följande steg visas hur du aktiverar målinriktning genom att använda **DataDrivenRetail** *(sekvenskanal)* som skapats i en AEM Screens-kanal.
+1. Navigera till någon av AEM Screens-kanalerna. Följande steg visar hur du aktiverar mål genom att använda **DataDrivenRetail** *(sekvenskanal)* som skapats i en AEM Screens-kanal.
 
-1. Klicka på kanalen **DataDrivenRetail** och klicka **Egenskaper** i åtgärdsfältet.
+1. Klicka på kanalen **DataDrivenRetail** och klicka på **Egenskaper** i åtgärdsfältet.
 
    ![screen_shot_2019-05-01at43332pm](assets/screen_shot_2019-05-01at43332pm.png)
 
-1. Klicka på **Personalisering** så att du kan konfigurera ContextHub-konfigurationer och klicka på ContextHub- och Segments-sökvägen.
+1. Klicka på fliken **Personalization** så att du kan konfigurera ContextHub-konfigurationer och klicka på ContextHub- och Segments-sökvägen.
 
-   1. Klicka på **ContextHub-sökväg** as **libs** > **inställningar** > **molninställningar** > **standard** > **ContextHub-konfigurationer** och klicka **Klicka**.
+   1. Klicka på **ContextHub Path** som **libs** > **settings** > **cloudssettings** > **default** > **ContextHub Configurations** och klicka på **Click**.
 
-   1. Klicka på **Segmentsökväg** as **conf** > **`We.Retail`** > **inställningar** > **wcm** > **segment** och klicka **Klicka**.
+   1. Klicka på **Segmentbana** som **konf** > **`We.Retail`** > **inställningar** > **wcm** > **segment** och klicka på **Klicka**.
 
-   1. Klicka **Spara och stäng**.
+   1. Klicka på **Spara och stäng**.
 
    >[!NOTE]
    >
@@ -63,17 +63,17 @@ Följ stegen nedan för att aktivera målinriktning i dina kanaler.
 
    ![screen_shot_2019-05-01at44030pm](assets/screen_shot_2019-05-01at44030pm.png)
 
-1. Navigera och klicka på **DataDrivenRetail** från **DataDrivenAssets** > **Kanaler** och klicka **Redigera** i åtgärdsfältet. Dra och släpp resurserna i kanalredigeraren.
+1. Navigera och klicka på **DataDrivenRetail** från **DataDrivenAssets** > **Kanaler** och klicka på **Redigera** i åtgärdsfältet. Dra och släpp resurserna i kanalredigeraren.
 
    >[!NOTE]
    >
-   >Om du har konfigurerat allt korrekt visas **Målinriktning** i listrutan i redigeraren, vilket visas i bilden nedan.
+   >Om du har konfigurerat allt korrekt visas alternativet **Mål** i listrutan från redigeraren, vilket visas i bilden nedan.
 
    ![screen_shot_2019-05-01at44231pm](assets/screen_shot_2019-05-01at44231pm.png)
 
-1. Klicka **Målinriktning**.
+1. Klicka på **Mål**.
 
-1. Klicka **Varumärke** och **Aktivitet** i listrutan och klicka på **Börja målinrikta**.
+1. Klicka på **Varumärke** och **Aktivitet** i listrutan och klicka på **Starta målgruppsanpassning**.
 
 ### Läs mer: Exempel på användningsfall {#learn-more-example-use-cases}
 
@@ -81,4 +81,4 @@ När du har konfigurerat ContextHub för ditt AEM Screens-projekt kan du följa 
 
 1. **[Målinställd aktivering för butikslager](retail-inventory-activation.md)**
 1. **[Temperaturaktivering i resecentret](local-temperature-activation.md)**
-1. **[Aktivering av hotellreservation](hospitality-reservation-activation.md)**
+1. **[Aktivering av hotell- och reservation](hospitality-reservation-activation.md)**

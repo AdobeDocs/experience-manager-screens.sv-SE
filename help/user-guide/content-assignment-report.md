@@ -14,13 +14,13 @@ ht-degree: 0%
 
 # Tilldelningsrapport för innehåll {#content-assignment-report}
 
-Med rapportfunktionen Innehållstilldelning kan en AEM Screens-administratör eller författare exportera en *Tilldelningsrapport för innehåll* i ett kalkylbladsformat.
+Med rapportfunktionen Innehållstilldelning kan en AEM Screens-administratör eller författare exportera en *rapport om innehållstilldelning* i ett kalkylbladsformat.
 
 ## Använda rapporten för innehållstilldelning {#using-content-assignment-report}
 
 Med rapporten Innehållstilldelning kan en AEM Screens-författare eller en administratör hämta rapporten som innehåller alla resurser, till exempel bilder, videor i alla kanaler som har skapats i ett AEM Screens-projekt. Dessutom innehåller det information om alla kanaler som är tilldelade till alla avsedda skärmar och hädanefter alla enheter som är tilldelade till deras avsedda skärmar.
 
-I rapporten Innehållstilldelning kan du inte bara förhandsgranska alla kanaler, resurser, skärmar och enheter i det valda AEM Screens-projektet, utan även få en högnivåstruktur i ditt projekt.
+I rapporten Innehållstilldelning kan du inte bara förhandsgranska alla kanaler, Assets, bildskärmar och enheter i det valda AEM Screens-projektet, utan även få en högnivåstruktur i projektet.
 
 
 ### Krav {#pre-reqs}
@@ -47,17 +47,17 @@ Följ instruktionerna nedan för att hämta rapporten för innehållstilldelning
 
 1. Navigera till ditt AEM Screens-projekt och klicka på projektet **DemoScreens**.
 
-1. Klicka **Tilldelningsrapport för innehåll** i åtgärdsfältet.
+1. Klicka på **Rapport om innehållstilldelning** i åtgärdsfältet.
 
    ![bild](/help/user-guide/assets/content-assignment-report/can-download.png)
 
-1. Det hämtade kalkylbladet består av två flikar, till exempel **Platser** och **Innehåll**. På fliken Plats visas fyra kolumner, till exempel **Platser**, **Visar**, **Kanaler** och **Enheter** som kan användas för att undersöka dessa fyra enheter som hör till ditt AEM Screens-projekt.
+1. Det hämtade kalkylbladet består av två flikar, till exempel **Platser** och **Innehåll**. På fliken Plats visas fyra kolumner, till exempel **Platser**, **Visar**, **Kanaler** och **Enheter**, som kan användas för att undersöka dessa fyra entiteter som gäller ditt AEM Screens-projekt.
 
    ![bild](/help/user-guide/assets/content-assignment-report/report-sheet1.png)
 
    >[!NOTE]
    >De data som visas i kalkylbladet sorteras i bokstavsordning i ett lättläst format.
 
-1. Markera någon av kanalerna på panelen **Kanaler** kolumnen öppnar **Innehåll** -fliken. I sin tur navigerar den direkt till den kanalen och ger dig information om resurser (bilder och videor) som är kopplade till den specifika kanalen.
+1. Om du väljer någon av kanalerna i kolumnen **Kanaler** öppnas fliken **Innehåll** . I sin tur navigerar den direkt till den kanalen och ger dig information om resurser (bilder och videor) som är kopplade till den specifika kanalen.
 
    ![bild](/help/user-guide/assets/content-assignment-report/report-sheet2.png)

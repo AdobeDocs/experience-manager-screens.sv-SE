@@ -19,9 +19,9 @@ AEM Screens kan lokalt hämta alla spårbara händelser som körs på alla spela
 
 Det finns två grundläggande skäl till att du kanske vill hämta in dessa data.
 
-Den första innefattar **feedback-slingor och maskininlärning** medan den andra involverar **skapa diagram, kontrollpaneler och rapporter** som är avsedda som livsmedel.
+Det första handlar om **feedbackslingor och maskininlärning** medan det andra handlar om att **skapa diagram, instrumentpaneler och rapporter** som är avsedda att användas som livsmedel.
 
-I det här fallet behöver du inte bekymra dig om visuella rapporter eller kontrollpaneler, utan i stället vill du definiera regler som AEM kan köra på för innehållsändringar. Genom att använda och bearbeta alla data för skärmspelarhändelser från en viss tidsperiod kan du definiera en regel som utvärderar effekten av image1 jämfört med image2. Genom att kombinera säljdata med uppspelningsdata kan AEM fastställa att bild1 har större påverkan på försäljningen och automatiskt instruerar alla spelare att använda bild1.
+I det här fallet behöver du inte bekymra dig om visuella rapporter eller kontrollpaneler, utan i stället vill du definiera regler som AEM kan köra på för innehållsändringar. Genom att använda och bearbeta alla händelsedata för Screens Player från en viss tidsperiod kan du definiera en regel som utvärderar effekten av image1 jämfört med image2. Genom att kombinera säljdata med uppspelningsdata kan AEM fastställa att bild1 har större påverkan på försäljningen och automatiskt instruerar alla spelare att använda bild1.
 
 Det andra användningsexemplet med analys är att bearbeta uppspelningshändelser och användningsdata som ska användas som livsmedel genom rapporter och kontrollpaneler.
 Du kan använda dessa data för att skapa en värmekarta av en interaktiv upplevelse för att fastställa vilken färdplan som ska användas genom programmet. Du kan också välja att skapa en kontrollpanel som ger en grafisk tolkning av hur många gånger konsumenterna interagerar med programmet.

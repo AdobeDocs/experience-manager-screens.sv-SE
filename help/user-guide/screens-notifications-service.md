@@ -20,14 +20,14 @@ ht-degree: 0%
 
 <!--removed from metadata: admitteddomains: @adobe.com;@caesars.com-->
 
-***AEM Screens Notifications Service*** beskriver aktivitet för bildskärmar.
+***AEM Screens Notifications Service*** beskriver aktiviteten för bildskärmsenheter.
 
 Detta avsnitt behandlar följande ämnen:
 
 * **Översikt**
 * **Konfigurerar e-postinställningar**
 * **E-postmeddelande**
-* **Exempel**
+* **Exempel på användningsfall**
 
 <!-- OBSOLETE NOTE>
 >[!CAUTION]
@@ -38,7 +38,7 @@ Detta avsnitt behandlar följande ämnen:
 
 ## Ökning {#overview}
 
-***AEM Screens Notifications Service*** gör att administratörer kan få ett e-postmeddelande om en AEM Screens Player inte pingar under en konfigurerbar tid.
+Med ***AEM Screens Notifications Service*** kan administratörer få ett e-postmeddelande om en AEM Screens Player inte pingar under en konfigurerbar tid.
 
 Tjänsten kan konfigureras i OSGi-webbkonsolen.
 
@@ -46,24 +46,24 @@ Tjänsten kan konfigureras i OSGi-webbkonsolen.
 
 Följ stegen nedan för att konfigurera inställningarna för e-postmeddelanden:
 
-1. Öppna **Konfiguration av Adobe Experience Manager Web Console**.
-1. Öppna **E-postövervakningstjänst för skärmar**.
+1. Öppna **Adobe Experience Manager Web Console Configuration**.
+1. Öppna **E-postövervakningstjänsten för Screens-enheter**.
 
    ![screen_shot_2018-04-26at44602pm](assets/screen_shot_2018-04-26at44602pm.png)
 
 1. Definiera följande fält så att du kan konfigurera inställningarna för e-postmeddelandet:
 
-   **Sökväg till enheter** Ange sökvägen till de skärpeprojekt som du vill övervaka. Banan är vanligtvis `/home/users/screens/<Name of your project>`.
+   **Enhetssökväg** Ange sökvägen till de Screens-projekt som du vill övervaka. Sökvägen är vanligtvis `/home/users/screens/<Name of your project>`.
 
-   Om ditt projekt till exempel är **`We.Retail`**, använder du projektsökvägen som ***/home/users/screens/we-retail***.
+   Om ditt projekt till exempel är **`We.Retail`** använder du projektsökvägen som ***/home/users/screens/we-retail***.
 
    >[!NOTE]
    >
    >Ange projektsökvägen där enhetsanvändarna finns.
 
-   **Schemaläggningsfrekvens** - Ange en tid (t.ex. 05:00 eller 17:00) eller frekvens i timmar (t.ex. 1) som den här övervakaren ska skicka e-post med.
+   **Schemaläggningsfrekvens** - Ange en tid (t.ex. 5:00 P.M. eller 17:00) eller frekvens i timmar (t.ex. 1) som den här övervakaren ska skicka e-post med.
 
-   **Ping-timeout** - Det här fältet anger intervallet i minuter efter vilket en enhet inte kan nås.
+   **Ping Time out** - Det här fältet anger intervallet i minuter efter vilket en enhet inte kan nås.
 
    **SMTP-server** - Anger SMTP-servern som används för att skicka e-post.
 
@@ -75,7 +75,7 @@ Följ stegen nedan för att konfigurera inställningarna för e-postmeddelanden:
 
    **användarnamn** - Ange användarnamn för att skicka e-post.
 
-   **lösenord** - Ange lösenordet för att skicka e-post.
+   **password** - Ange lösenordet för att skicka e-post.
 
    **Mottagare** - Ange mottagarens e-postadress.
 
@@ -83,7 +83,7 @@ Följ stegen nedan för att konfigurera inställningarna för e-postmeddelanden:
    >
    >Du kan bara ange en e-postadress. Om du vill skicka ett större e-postmeddelande skapar du en grupp eller distributionslista med de relevanta användarna.
 
-1. Klicka **Spara** för att konfigurera övervakningsaktiviteten via ett e-postmeddelande för din AEM Screens-enhet.
+1. Klicka på **Spara** för att konfigurera övervakningsaktiviteten via ett e-postmeddelande för din AEM Screens-enhet.
 
 ## E-postmeddelande {#email-notification}
 
@@ -98,7 +98,7 @@ E-post skickas endast om:
 
 ### Exempel på användningsfall {#example-use-cases}
 
-I följande exempel beskrivs några referensscenarier för att konfigurera egenskaperna från E-postövervakningstjänsten för skärmar.
+I följande exempel beskrivs några referensscenarier för att konfigurera egenskaperna från Screens E-postövervakningstjänst för enheter.
 
 **Scenario 1**
 

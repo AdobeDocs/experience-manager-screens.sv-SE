@@ -21,9 +21,9 @@ Om du registrerar tusentals spelare manuellt blir det krångligt och kostar mer 
 Följ stegen nedan för att implementera automatisk registrering av spelare:
 
 1. Logga in på AEM och klicka på ditt AEM Screens-projekt och klicka på **Egenskaper** i åtgärdsfältet.
-1. Klicka på **Avancerat** så att du kan visa **Enhetsregistrering** -avsnitt.
+1. Klicka på fliken **Avancerat** så att du kan visa avsnittet **Enhetsregistrering**.
 
-1. Ange en kod för automatisk registrering i dialogrutan **Registreringskod för massutskick** fält. Därefter visas en valfri standardvisning i **Standardvisningstilldelning** som tilldelas den spelare som registreras automatiskt.
+1. Ange en kod för automatisk registrering i fältet **Kod för massregistrering**. Därefter visas en valfri standardskärm i **standardvisningstilldelningen** som tilldelas den spelare som registreras automatiskt.
 
    >[!NOTE]
    >Ange en valfri kod och klicka på en standardskärm om det behövs.
@@ -34,7 +34,7 @@ Följ stegen nedan för att implementera automatisk registrering av spelare:
    >[!NOTE]
    >Mer information finns på implementeringssidan för den specifika spelaren för ditt operativsystem. Du kan också använda administratörsgränssnittet för att ange registreringskoden.
 
-1. Om `registrationKey` -attributet matchar det som konfigurerats i AEM registrerar sig spelaren automatiskt och om en standardskärm är konfigurerad hämtar och spelar det innehållet upp.
+1. Om attributet `registrationKey` matchar det som är konfigurerat i AEM registrerar sig spelaren automatiskt och om en standardskärm är konfigurerad hämtas och spelas innehållet upp.
 
    ![bild](/help/user-guide/assets/auto-registration/auto-register2.png)
 
@@ -44,7 +44,7 @@ Följ avsnittet nedan för att se några av de bästa sätten att skydda:
 
 * Se till att registreringskoden inte äventyras - Konfigurera koden i AEM precis innan du påbörjar gruppregistreringen och när du är klar rensar du det fältet och sparar i AEM.
 
-* Du kan konfigurera sökvägen `/bin/screens/registration` så att den om möjligt bara är tillgänglig från kända IP-intervall.
+* Du kan konfigurera sökvägen `/bin/screens/registration` så att den bara är tillgänglig från kända IP-intervall, om det är möjligt.
 
 * Använd en MDM för att tilldela spelaren konfigurationen.
 

@@ -18,7 +18,7 @@ ht-degree: 0%
 
 # REST API:er{#rest-apis}
 
-AEM Screens tillhandahåller ett enkelt RESTful-API som följer [Siren](https://github.com/kevinswiber/siren) -specifikation. Du kan navigera i innehållsstrukturen och skicka kommandon till enheter i miljön.
+AEM Screens tillhandahåller ett enkelt RESTful-API som följer specifikationen [Siren](https://github.com/kevinswiber/siren) . Du kan navigera i innehållsstrukturen och skicka kommandon till enheter i miljön.
 
 API:t finns på [*http://localhost:4502/api/screens.json*](http://localhost:4502/api/screens.json).
 
@@ -104,7 +104,7 @@ Host: http://localhost:4502
 
 Den JSON som returneras av API-anropen kan innehålla en lista över åtgärder som är tillgängliga för resursen.
 
-Visningen visar till exempel en *broadcast-command* åtgärd som gör att du kan skicka ett kommando till alla enheter som är tilldelade den visningen.
+Visningen innehåller till exempel en *broadcast-command*-åtgärd som gör att du kan skicka ett kommando till alla enheter som är tilldelade den visningen.
 
 ```xml
 GET /api/screens/content/screens/we-retail/locations/demo/flagship/single.json HTTP/1.1

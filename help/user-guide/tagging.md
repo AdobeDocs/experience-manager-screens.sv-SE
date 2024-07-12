@@ -14,7 +14,7 @@ ht-degree: 0%
 
 >[!CAUTION]
 >
->The **Taggning** Funktionen är bara tillgänglig om den är aktiverad för din klient. Kontakta AEM Screens Engineering för att aktivera.
+>Funktionen **Taggning** är bara tillgänglig om den är aktiverad för din klientorganisation. Kontakta AEM Screens Engineering för att aktivera.
 
 ## Introduktion {#introduction}
 

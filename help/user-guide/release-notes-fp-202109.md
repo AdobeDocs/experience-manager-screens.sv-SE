@@ -15,13 +15,13 @@ ht-degree: 0%
 # Versionsinformation för funktionspaket 20109 {#release-notes-for-feature-pack}
 
 >[!CAUTION]
->Adobe rekommenderar att du uppgraderar till den senaste versionen av Adobe Experience Manager (AEM). AEM Screens har underhållsstöd för AEM 6.3 Screens.
+>Adobe rekommenderar att du uppgraderar till den senaste versionen av Adobe Experience Manager (AEM). AEM Screens ger underhållsstöd för Screens AEM 6.3.
 
 ## Tillgänglighet {#availability}
 
 AEM Screens AEM 6.5 Feature Pack 9.
 
-Du kan ladda ned senaste funktionspaketet för AEM Screens 6.5.9 från [Programdistributionsportal](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) med din Adobe ID. Navigera till **Adobe Experience Manager** flik och sök efter **Skärmar** för att få det senaste funktionspaketet med namnet **AEM 6.5 skärmar FP9**.
+Du kan hämta den senaste funktionspaketet för AEM Screens 6.5.9 från [Software Distribution Portal](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) med din Adobe ID. Gå till fliken **Adobe Experience Manager** och sök efter **Screens** för att få den senaste funktionspaketet med namnet **AEM 6.5 Screens FP9**.
 
 ## Releasedatum {#release-date}
 
@@ -29,40 +29,40 @@ Releasedatum för AEM Screens Feature Pack 202109 är 23 september 2021.
 
 ### Nyheter {#what-is-new}
 
-* **Stöd för miniatyrbilder för videor**
+* **Stöd för miniatyrbilder för videoklipp**
 
   Miniatyrbildsstöd för videor i stöds nu i AEM Screens. En innehållsförfattare definierar en miniatyrbild för videoklipp så att bilden används som platshållare. De testar också innehållsuppspelning och målgruppsanpassning, medan rätt team slutför själva videon. Bilden kan också användas om videouppspelningen misslyckas.
-Se [Stöd för miniatyrbilder för videor](/help/user-guide/thumbnail-support.md) för mer information.
+Mer information finns i [Stöd för miniatyrbilder för videoklipp](/help/user-guide/thumbnail-support.md).
 
 * **Grundläggande uppspelningsövervakning**
 
   AEM Screens har nu stöd för grundläggande uppspelningsövervakning. Spelaren rapporterar nu olika uppspelningsmått för varje ping (standardvärdet är 30 sekunder). Baserat på mätvärden upptäcker programmet olika kantfall (fastnålade upplevelser, tom skärm, schemaläggningsproblem osv.). Med den här funktionen kan teamet fjärrövervaka om en spelare spelar upp innehåll på rätt sätt och förbättrar reaktiviteten till tomma skärmar eller trasiga upplevelser på fältet. Det minskar också risken att slutanvändaren får en trasig upplevelse.
-Se [Grundläggande uppspelningsövervakning](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/administering/installing-screens-player#playback-monitoring) för mer information.
+Mer information finns i [Grundläggande uppspelningsövervakning](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/administering/installing-screens-player#playback-monitoring).
 
-* **Uppdateringar av rapporten för innehållstilldelning**
+* **Uppdateringar i rapporten för innehållstilldelning**
 
   Tilldelningsrapporten för innehåll har nu optimerats och förbättrats med en förbättrad användarupplevelse. Den hämtningsbara rapporten innehåller förbättrade spelarrelaterade entiteter. Sådana enheter kan vara platser, visningar och enheter på en kalkylbladsflik. Den innehåller även information om innehållsleverantören, till exempel kanaler och resurser på andra flikar.
-Se [Tilldelningsrapport för innehåll](/help/user-guide/content-assignment-report.md) för mer information.
+Mer information finns i [Rapport om innehållstilldelning](/help/user-guide/content-assignment-report.md).
 
-* **Adaptiva renderingar**
+* **Adaptiva återgivningar**
 
   Med adaptiva renderingar kan enheten klicka på den bästa renderingen automatiskt för en enhet baserat på kunddefinierade regler.
 
-  Som AEM Screens-utvecklare kan du nu konfigurera enhetsspecifika resursrenderingar så att de hämtas och spelas upp automatiskt utan att du behöver skapa alla innehållsvarianter manuellt. Se [Adaptiva renderingar: Arkitektur - översikt och konfigurationer](/help/user-guide/adaptive-renditions.md) för mer information.
+  Som AEM Screens-utvecklare kan du nu konfigurera enhetsspecifika resursrenderingar så att de hämtas och spelas upp automatiskt utan att du behöver skapa alla innehållsvarianter manuellt. Mer information finns i [Adaptiva återgivningar: Arkitektöversikt och konfigurationer](/help/user-guide/adaptive-renditions.md).
 
-  Som AEM Screens Content Author kan du också konfigurera dina resurser så att de använder adaptiva renderingar. Du kan också migrera dina enheter för stora nätverk för att använda den här funktionen i dina AEM Screens-kanaler. Se [Använda adaptiva renderingar i AEM Screens](/help/user-guide/using-adaptive-renditions.md) för mer information.
+  Som AEM Screens Content Author kan du också konfigurera dina resurser så att de använder adaptiva renderingar. Du kan också migrera dina enheter för stora nätverk för att använda den här funktionen i dina AEM Screens-kanaler. Mer information finns i [Använda adaptiva återgivningar i AEM Screens](/help/user-guide/using-adaptive-renditions.md).
 
-* **Stöd för V3 Manifester**
+* **Stöd för V3-manifestering**
 
-  Du kan nu konfigurera Dispatcher för manifestversion v3. Så här aktiverar du v3-manifestet:
+  Nu kan du konfigurera Dispatcher för manifestversion v3. Så här aktiverar du v3-manifestet:
 
    * Rensa alla väntande offlineinnehållsjobb i både författaren och publicerad.
 
-      * Navigera till CRXDE Lite i Författare och Publicera.
+      * Navigera till CRXDE Lite i Författare och Publish.
 
       * Klicka på Verktyg > Fråga.
 
-      * Använd `/jcr:root/var/eventing/jobs/assgined//element(*,slingevent:Job)[\@event.job.topic='screens/offline_content_update']`.
+      * Använd `/jcr:root/var/eventing/jobs/assgined//element(*,slingevent:Job)[\@event.job.topic='screens/offline_content_update']` i frågan.
 
       * Detta listar alla offlineinnehållsjobb som körs eller väntar i kön.
 
@@ -77,8 +77,8 @@ Se [Tilldelningsrapport för innehåll](/help/user-guide/content-assignment-repo
    * Uppdatera den anpassade komponenten.
 
 
-   * Se [Konfigurera Dispatcher för manifestversion v3](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/administering/dispatcher-configurations-aem-screens#configuring-dispatcherv3) för mer information.
-   * Om du använder anpassade komponenter som en del av v3-manifestationer, se [Mall för anpassade hanterare](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/developing/developing-custom-component-tutorial-develop#custom-handlers).
+   * Mer information finns i [Konfigurera Dispatcher för manifestversion v3](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/administering/dispatcher-configurations-aem-screens#configuring-dispatcherv3).
+   * Om du använder anpassade komponenter som en del av v3-manifest läser du [Mall för anpassade hanterare](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/developing/developing-custom-component-tutorial-develop#custom-handlers).
 
 
 ### Felkorrigeringar {#bug-fixes}
@@ -97,13 +97,13 @@ Se [Tilldelningsrapport för innehåll](/help/user-guide/content-assignment-repo
 
 * Mappningen omvandlades till en lista med återgivningsnycklar.
 
-* Åtkomst till `cmd.exe` och `reg.exe` i Windows Player.
+* Åtkomsten till `cmd.exe` och `reg.exe` i Windows Player har tagits bort.
 
 * En spelare måste rapportera sin senaste lyckade uppspelningshändelse.
 
 * En spelare måste rapportera sin uppspelningsstatus.
 
-* Spelaren återhämtar inte resurser när `ALL` Cachen är rensad.
+* Spelaren hämtar inte Assets igen när `ALL`-cachen rensas.
 
 * Som spelaradministratör kan du nu välja ett spelarnamn.
 
@@ -128,7 +128,7 @@ Se [Tilldelningsrapport för innehåll](/help/user-guide/content-assignment-repo
 
 * Uppdatera automatiskt kanalmanifestet om den refererade sidan publiceras.
 
-* Borttagna enheter blockerar nu inte skärmreplikeringskön.
+* Borttagna enheter blockerar nu inte Screens replikeringskö.
 
 * Manifestet innehöll inte riktat innehåll eller platsinbäddade sidor. Detta fel har åtgärdats.
 
@@ -142,13 +142,13 @@ Se [Tilldelningsrapport för innehåll](/help/user-guide/content-assignment-repo
 
 * Uppspelningsstrategin för den inbäddade sekvensen har brutits och det här felet har nu åtgärdats.
 
-* Offlinemanifest med parametern request `wcmmode` för html-post, vilket gör den oåtkomlig.
+* Offlinemanifest med begärandeparametern `wcmmode` för html-post, vilket gör det oåtkomligt.
 
 * En tom dynamisk inbäddad sekvens orsakade ibland en tom skärm.
 
 * Spelaren rapporterar nu sin uppspelningsstatus.
 
-* Videon spelades upp i `Tiny mode` och inte spelas upp som helskärmsvideo på enheten och problemet har åtgärdats nu.
+* Videon spelades upp i `Tiny mode` och spelades inte upp som helskärmsvideo på enheten. Problemet har åtgärdats nu.
 
 ### Släppta AEM Screens-spelare
 
@@ -162,4 +162,4 @@ Följande AEM Screens-spelare finns för AEM 6.5 Feature Pack 9:
 
 #### AEM Screens Player - nedladdningar
 
-Om du vill hämta den senaste versionen av AEM Screens Player och läsa mer om felkorrigeringarna kan du läsa **[AEM Screens Player - nedladdningar](https://download.macromedia.com/screens/index.html)**.
+Om du vill hämta den senaste versionen av AEM Screens Player och läsa mer om felkorrigeringarna kan du läsa **[AEM Screens Player-hämtningar](https://download.macromedia.com/screens/index.html)**.

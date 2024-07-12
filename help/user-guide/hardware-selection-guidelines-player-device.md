@@ -15,7 +15,7 @@ Följande avsnitt innehåller riktlinjer för val av maskinvara för en AEM Scre
 
 ## Viktiga överväganden {#important-considerations}
 
-* Alltid källa ***Kommersiellt*** eller ***Industriindustri*** Betygsätt komponenter för både PC Player och Display Panel eller Projector.
+* Källa alltid komponenter av typen ***Commercial*** eller ***Industrial*** för både PC Player och Display Panel eller Projector.
 
 * Samarbeta alltid med leverantörer som levererar digitala signaturer.
 * Ta alltid hänsyn till miljöfaktorer som omgivningstemperatur och relativ luftfuktighet.
@@ -46,10 +46,10 @@ I följande tabell sammanfattas maskinvarukonfigurationerna med typiska användn
    <td><p>*ChromeOS 32 GB</p> <p>*Windows 128 GB</p> </td>
    <td>OnBoard</td>
    <td>1920 x 1080</td>
-   <td>DVI<br /> Ethernet/trådlöst,<br /> 2 x USB</td>
+   <td>DVI<br /> Ethernet/trådlöst, <br /> 2x USB</td>
    <td>
     <ul>
-     <li>Helskärmsloop som standard<br /> </li>
+     <li>Standardloop i helskärmsläge<br /> </li>
      <li>Dag-parsning</li>
     </ul> </td>
   </tr>
@@ -60,10 +60,10 @@ I följande tabell sammanfattas maskinvarukonfigurationerna med typiska användn
    <td>128 GB</td>
    <td>OnBoard</td>
    <td>3840x2160 (<code>4K</code>)</td>
-   <td>DVI, HDMI<br /> Ethernet/trådlöst,<br /> 2 x USB</td>
+   <td>DVI, HDMI<br /> Ethernet/trådlöst, <br /> 2x USB</td>
    <td>
     <ul>
-     <li>Dynamiskt innehåll med en källa</li>
+     <li>Ett dynamiskt Source-innehåll</li>
      <li>Enkel interaktiv</li>
      <li>1-3 zonlayouter</li>
     </ul> </td>
@@ -75,12 +75,12 @@ I följande tabell sammanfattas maskinvarukonfigurationerna med typiska användn
    <td>256 GB</td>
    <td>Dedikerad grafikprocessor</td>
    <td>3840x2160 (<code>4K</code>)</td>
-   <td>DVI, HDMI<br /> Ethernet/trådlöst,<br /> 4xUSB</td>
+   <td>DVI, HDMI<br /> Ethernet/trådlöst, <br /> 4xUSB</td>
    <td>
     <ul>
      <li>4 eller fler innehållszoner, samtidiga videouppspelningar</li>
      <li>Flersidig interaktiv</li>
-     <li>Datautlösare med flera källor</li>
+     <li>Utlösare för flera Source-data</li>
     </ul> </td>
   </tr>
  </tbody>

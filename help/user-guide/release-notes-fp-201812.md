@@ -21,7 +21,7 @@ ht-degree: 0%
 
 >[!CAUTION]
 >
->Adobe rekommenderar att du uppgraderar till den senaste versionen av Adobe Experience Manager (AEM). AEM Screens har underhållsstöd för AEM 6.3 Screens.
+>Adobe rekommenderar att du uppgraderar till den senaste versionen av Adobe Experience Manager (AEM). AEM Screens ger underhållsstöd för Screens AEM 6.3.
 
 AEM Screens har släppt AEM 6.3 Feature Pack 5 och AEM 6.4 Feature Pack 3 med följande information.
 
@@ -31,20 +31,20 @@ Releasedatum för AEM Screens Feature Pack 201812 är 16 januari 2019.
 
 ### Nyheter {#what-s-new}
 
-* **Textövertäckning för resurser i kanalen**:
+* **Textövertäckning på Assets i kanal**:
 
   Textövertäckning är en funktion i AEM Screens. Du kan skapa en övertygande upplevelse i en sekvenskanal genom att ange en rubrik eller en beskrivning som läggs ovanpå en bild. Se [**Textövertäckning**](text-overlay.md).
 
 * **Schemaläggning av flera resurser**:
 
-  Med schemaläggning av flera resurser kan användaren klicka på flera resurser och tillämpa ett uppspelningsschema för alla markerade resurser. Se **Schemaläggning av flera resurser** avsnitt i **[Resursplanering](asset-level-scheduling.md)**.
+  Med schemaläggning av flera resurser kan användaren klicka på flera resurser och tillämpa ett uppspelningsschema för alla markerade resurser. Se avsnittet **Schemaläggning av flera resurser** i **[Resursschemaläggning](asset-level-scheduling.md)**.
 
-* **Layout med flera zoner**:
+* **Layout för flera zoner**:
 
-  Med layout för flera zoner kan du skapa innehåll med flera zoner och använda olika resurser, till exempel videoklipp, bilder och text som kan kombineras på en enda skärm. Se **[Layout med flera zoner](multi-zone-layout-aem-screens.md)**.
+  Med layout för flera zoner kan du skapa innehåll med flera zoner och använda olika resurser, till exempel videoklipp, bilder och text som kan kombineras på en enda skärm. Se **[Layout för flera zoner](multi-zone-layout-aem-screens.md)**.
 
-* **Smart synkronisering av resurser till spelare**
-* **Författare/Publicera distribution (Förbättring)**
+* **Smart synkronisering av Assets till spelare**
+* **Distribuering av författare/Publish (Förbättring)**
 
 ### Släppta AEM Screens-spelare
 
@@ -57,4 +57,4 @@ Följande AEM Screens-spelare finns för AEM 6.3 Feature Pack 5 och AEM 6.4 Feat
 
 #### AEM Screens Player - nedladdningar
 
-Om du vill hämta den senaste versionen av AEM Screens Player och läsa mer om felkorrigeringarna kan du läsa [**AEM Screens Player - nedladdningar**](https://download.macromedia.com/screens/).
+Om du vill hämta den senaste versionen av AEM Screens Player och läsa mer om felkorrigeringarna kan du läsa [**AEM Screens Player-hämtningar**](https://download.macromedia.com/screens/).

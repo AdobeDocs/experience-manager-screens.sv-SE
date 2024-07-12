@@ -16,13 +16,13 @@ ht-degree: 0%
 
 >[!CAUTION]
 >
->Adobe rekommenderar att du uppgraderar till den senaste versionen av Adobe Experience Manager (AEM). AEM Screens har underhållsstöd för AEM 6.3 Screens.
+>Adobe rekommenderar att du uppgraderar till den senaste versionen av Adobe Experience Manager (AEM). AEM Screens ger underhållsstöd för Screens AEM 6.3.
 
 ## Tillgänglighet {#availability}
 
 AEM Screens AEM 6.4 Feature Pack 8 och AEM 6.5 Feature Pack 4.
 
-Du kan ladda ned det senaste funktionspaketet för AEM Screens 6.4.8 eller AEM Screens 6.5.4 från [Programdistributionsportal](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) med din Adobe ID. Navigera till **Adobe Experience Manager** flik och sök efter **Skärmar** för att få det senaste funktionspaketet.
+Du kan hämta det senaste funktionspaketet för AEM Screens 6.4.8 eller AEM Screens 6.5.4 från [Software Distribution Portal](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) med din Adobe ID. Navigera till fliken **Adobe Experience Manager** och sök efter **Screens** för att hämta det senaste funktionspaketet.
 
 ## Releasedatum {#release-date}
 
@@ -30,21 +30,21 @@ Releasedatum för AEM Screens Feature Pack 2004 är 20 april 2020.
 
 ### Nyheter {#what-s-new}
 
-* **Alternativ för strategi för uppspelningsavbrott**
+* **Alternativ för strategi för avbrott vid uppspelning**
 
   Ange när en kanal ska avbrytas som innehållsförfattare. Den här åtgärden hjälper dig att välja att avbryta icke-kritiskt innehåll, men du kan också låta viktigt innehåll spelas upp helt innan uppspelningen avbryts på grund av schemaläggning.
 
-  Mer information om de tillgängliga alternativen finns i **Kanaltilldelning** för att implementera den här funktionen i ditt AEM Screens-projekt, se avsnittet **[Avbrottsmetod](/help/user-guide/channel-assignment.md#interruption-method-channel)**.
+  Mer information om de alternativ som finns i dialogrutan **Kanaltilldelning** för att implementera den här funktionen i ditt AEM Screens-projekt finns i avsnittet **[Avbrottsmetod](/help/user-guide/channel-assignment.md#interruption-method-channel)**.
 
-* **Skärmar - startprogram**
+* **Screens-starter**
 
   Användarupplevelsen för innehållsförfattaren har förbättrats och antalet klick har minskat för framtida publicering.
 
-  Se **[Content Update using Screens Launch](launches.md)** för mer information.
+  Mer information finns i **[Innehållsuppdatering med Screens Launch](launches.md)**.
 
-* **Kontrollpanel för kanaler**
+* **Kanalinstrumentpanel**
 
-  Återspeglar uppdateringar av instruktioner i kanalkontrollpanelen i **KANALINFORMATION** -panelen.
+  Återspeglar uppdateringar av instruktioner på kanalkontrollpanelen på panelen **KANALINFORMATION**.
 
 
 * **Visa manifest**
@@ -57,13 +57,13 @@ Releasedatum för AEM Screens Feature Pack 2004 är 20 april 2020.
 
   När du lägger till test i textövertäckningsfunktionen är teckensnittsstorleken exakt och förbättrad.
 
-  Information om hur du skapar en övertygande upplevelse i en sekvenskanal genom att ange en rubrik eller en beskrivning ovanpå en bild finns i **[Textövertäckning](text-overlay.md)**.
+  Mer information om hur du skapar en övertygande upplevelse i en sekvenskanal genom att ange en rubrik eller en beskrivning som läggs ovanpå en bild finns i **[Textövertäckning](text-overlay.md)**.
 
 * **Förbättringar i kommandosynkronisering**
 
   I den här versionen av funktionspaketet återspeglas förbättringar av fördröjningen för kommandosynkronisering mellan resursändringar.
 
-  Se **[Synkronisera kommandon](using-command-sync.md)** för mer information.
+  Mer information finns i **[Kommandosynkronisering](using-command-sync.md)**.
 
 ### Släppta AEM Screens-spelare
 
@@ -75,4 +75,4 @@ Följande AEM Screens-spelare finns för AEM Screens som lanserats AEM 6.4 Featu
 
 #### AEM Screens Player - nedladdningar
 
-Om du vill hämta den senaste versionen av AEM Screens Player och läsa mer om felkorrigeringarna kan du läsa **[AEM Screens Player - nedladdningar](https://download.macromedia.com/screens/)**.
+Om du vill hämta den senaste versionen av AEM Screens Player och läsa mer om felkorrigeringarna kan du läsa **[AEM Screens Player-hämtningar](https://download.macromedia.com/screens/)**.

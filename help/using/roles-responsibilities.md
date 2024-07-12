@@ -11,7 +11,7 @@ ht-degree: 0%
 
 # Projektroller och ansvarsområden {#roles-responsibilities}
 
-Som erfaren AEM har du förmodligen sett rollerna som *Författare*, *Utvecklare* och *IT-tekniker*.
+Som erfaren AEM har du antagligen sett rollerna kallas *Författare*, *Utvecklare* och *IT-tekniker*.
 
 I ett typiskt AEM Screens-projekt har rollerna förfinats ytterligare eftersom de har ett viktigt syfte i projektet.
 
@@ -81,22 +81,22 @@ Projektledare hanterar vanligtvis hela distributionen av AEM Screens. En projekt
 
 >[!NOTE]
 >
->Om du vill veta mer om olika roller och ansvarsområden och målgruppen för ett projekt för digitala signaturer kan du besöka **[Projektroller och ansvarsområden](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/digital-signage-network/project-roles-responsibilities)**.
+>Om du vill veta mer om olika roller och ansvarsområden och målgruppen för ett projekt för digitala signaturer kan du gå till **[Projektroller och ansvarsområden](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/digital-signage-network/project-roles-responsibilities)**.
 
 
 ## Projektfaser {#project-stages}
 
-För att stödja en framgångsrik installation av digitala signaturer är det vanligt att segmentera projektet i tre steg. Dessa stadier kallas ofta **Dagar**. Det rör sig inte om litterala dagar utan om benämningar för varje större del av projektet.
+För att stödja en framgångsrik installation av digitala signaturer är det vanligt att segmentera projektet i tre steg. Dessa steg kallas vanligtvis **Dagar**. Det rör sig inte om litterala dagar utan om benämningar för varje större del av projektet.
 
-1. Den första etappen kallas *Dag noll*. I det här steget ingår alla aktiviteter före och efter försäljningen som krävs för att definiera projektets omfattning.
-1. Den andra etappen, *Dag ett*, avser alla aktiviteter som ingår i driftsättningen.
-1. Det tredje och sista steget är *Dag två*. Det avser alla pågående operationer och stödinslag som en del av den totala lösningen.
+1. Den första fasen kallas *dag noll*. I det här steget ingår alla aktiviteter före och efter försäljningen som krävs för att definiera projektets omfattning.
+1. Den andra fasen, *Dag ett*, refererar till alla aktiviteter som ingår i distributionsinsatsen.
+1. Den tredje och sista fasen är *Dag två*. Det avser alla pågående operationer och stödinslag som en del av den totala lösningen.
 
 >[!NOTE]
 >
->Den här guiden fokuserar främst på *Dag ett* och *Dag två* måste alla tre faserna uppmärksammas för att ett digitalt signeringsprojekt ska kunna köras.
+>Den här guiden fokuserar främst på *Dag ett* och *Dag två*, men du måste tänka på alla tre faserna för att kunna köra ett digitalt signeringsprojekt.
 >
->Om du vill veta mer om förproduktion, projektinitiering och projektförlopp kan du titta på en video om **[Projektledning och driftsättning](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/digital-signage-network/project-management-and-deployment)**.
+>Titta på en video om **[Projektledning och distribution](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/digital-signage-network/project-management-and-deployment)** om du vill veta mer om förproduktion, projektinitiering och projektförlopp.
 
 ## RACI-diagram {#raci-chart}
 
@@ -108,19 +108,19 @@ Följande är ett exempel på RACI-diagram som använder rolldefinitionerna.
 
 ### RACI-definitioner {#raci-definitions}
 
-* **Ansvarig**: Utför det arbete som ska slutföras.
+* **Ansvarig**: Utför arbetet med att slutföra uppgiften.
 
-* **Konto**: Delegerar arbete och är den sista parten som granskar uppgiften innan den är klar.
+* **Konto**: Delegerar arbete och är den sista parten som granskar aktiviteten innan den är klar.
 
-* **Samråd**: Granska uppgiften eller slutprodukten för att ange indata.
+* **Konsulterad**: Granska aktiviteten eller slutprodukten för att ange indata.
 
-* **Informerad**: Håll dig informerad om arbetets förlopp men deltar inte i detaljerna i slutprodukten.
+* **Informerad**: Håll dig informerad om aktivitetens förlopp, men är inte involverad i detaljerna för slutprodukten.
 
 Följande är ett exempel på ett RACI-diagram som använder rolldefinitionerna och ger ett exempel på vanliga uppgifter och överväganden i ett AEM Screens-projekt.
 
-I följande tabell sammanfattas **Dag noll: överväganden före försäljning**:
+I följande tabell sammanfattas **Day Zero: Pre-sales Considerations**:
 
-| **Fas** | **Audio-Video Integrator** | **AEM** | **Affärsstrategi** | **Innehållshantering** |
+| **Fas** | **Integrator för ljud och video** | **AEM Implementor** | **Affärsstrategi** | **Innehållshantering** |
 |---|---|---|---|---|
 | Gruppformatering och leverantörsval | I | I | RA | RA |
 | Avtal om roller och ansvar | RA | RA | RA | RA |
@@ -132,7 +132,7 @@ I följande tabell sammanfattas **Dag noll: överväganden före försäljning**
 
 I följande tabell sammanfattas **Dag ett: Projektimplementering (programdesign)**:
 
-| **Fas** | **Audio-Video Integrator** | **AEM** | **Affärsstrategi** | **Innehållshantering** |
+| **Fas** | **Integrator för ljud och video** | **AEM Implementor** | **Affärsstrategi** | **Innehållshantering** |
 |---|---|---|---|---|
 | Avtal om roller och ansvar | RA | RA | RA | RA |
 | Justering av projektplan och schema | RA | RA | C | C |
@@ -150,19 +150,19 @@ I följande tabell sammanfattas **Dag ett: Projektimplementering (programdesign)
 | Plan för övergång från pilot till produktion | RA | RA | I | I |
 | Kunskapsöverföring | RA | RA | I | I |
 
-I följande tabell sammanfattas **Dag ett: Projektimplementering (beredskap för detaljhandel)**:
+I följande tabell sammanfattas **dag ett: Projektimplementering (butiksberedskap)**:
 
-| **Fas** | **Audio-Video Integrator** | **AEM** | **Affärsstrategi** | **Innehållshantering** |
+| **Fas** | **Integrator för ljud och video** | **AEM Implementor** | **Affärsstrategi** | **Innehållshantering** |
 |---|---|---|---|---|
 | Maskinvarubeställning och lagring | RA | I | I | I |
 | Butiksintroduktionsplan | I | I | C | RA |
 | Testning av användargodkännande för mellanlagring | I | C | RA |   |
 | Konfiguration av maskinvarugrupp | RA | I | C | I |
-| Avtal om support efter start | RA | C | RA | C |
+| Avtal om Post Launch Support | RA | C | RA | C |
 
-I följande tabell sammanfattas **Dag ett: Dag ett: Projektimplementering (maskinvara)**:
+I följande tabell sammanfattas **Day One: Day One: Project Implementation (Hardware)**:
 
-| **Fas** | **Audio-Video Integrator** | **AEM** | **Affärsstrategi** | **Innehållshantering** |
+| **Fas** | **Integrator för ljud och video** | **AEM Implementor** | **Affärsstrategi** | **Innehållshantering** |
 |---|---|---|---|---|
 | Avtal om roller och ansvar | RA | RA | RA | RA |
 | Detaljhandelsdesign omfattar kabeldragningar | - | - | - | - |
@@ -173,19 +173,19 @@ I följande tabell sammanfattas **Dag ett: Dag ett: Projektimplementering (maski
 
 >[!NOTE]
 >
->Roller ändras under dag två (stöd efter start).
+>Roller ändras under dag två (Post Launch Support).
 
-* **Upphovsman**: Innehållshantering + strategi
+* **Författare**: Innehållshantering + strategi
 
-* **Utvecklare**: Vanligtvis medlem i AEM Screens implementeringsteam, eller lämna över till ett internt utvecklingsteam
+* **Utvecklare**: Normalt är du medlem i AEM Screens implementeringsteam, eller överlämnar till ett internt utvecklingsteam
 
-* **Tekniker**: Antingen har kontrakt med Audio-Video Integrator eller är en del av samma företag.
+* **Tekniker**: Anskaffas antingen av Audio-Video Integrator eller ingår i samma företag.
 
-I följande tabell sammanfattas **Dag två: RACI-diagram för stöd efter start**:
+I följande tabell sammanfattas **Day Two: Post Launch Support RACI Chart**:
 
-| **Fas** | **Upphovsman** | **Utvecklare** | **Tekniker** |
+| **Fas** | **Författare** | **Utvecklare** | **Tekniker** |
 |---|---|---|---|
-| *Dag två: Support efter start* |
+| *Dag två: Post-startsupport* |
 | Avtal om roller och ansvar | RA | RA | RA |
 | Stöd för nivå 1 | I | I | RA |
 | Stöd för nivå 2 | I | C | RA |

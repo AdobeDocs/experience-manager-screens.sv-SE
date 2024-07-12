@@ -18,7 +18,7 @@ ht-degree: 0%
 I det här avsnittet beskrivs följande ämnen om uppdatering av innehåll som en tjänst:
 
 * **Översikt**
-* **Använda Uppdatera gruppvis offline**
+* **Använder uppdatering för massvis offline**
 
 <!--
 >[!CAUTION]
@@ -46,7 +46,7 @@ Du kan manuellt använda massvis offlineuppdatering från användargränssnittet
 Följ stegen nedan om du vill använda en bulkuppdatering för ett AEM Screens-projekt:
 
 1. Gå till ditt AEM Screens-projekt.
-1. Klicka på projektet och klicka på **Uppdatera offlineinnehåll** från åtgärdsfältet för att uppdatera kanalinnehållet manuellt.
+1. Klicka på projektet och klicka på **Uppdatera offlineinnehåll** i åtgärdsfältet för att uppdatera kanalinnehållet manuellt.
 
    ![screen_shot_2018-04-24at122256pm](assets/screen_shot_2018-04-24at122256pm.png)
 
@@ -61,7 +61,7 @@ Följ stegen nedan om du vill använda en bulkuppdatering för ett AEM Screens-p
 
 1. Lägg till följande egenskaper:
 
-   **Projektsökväg** Ange sökvägen till ditt AEM Screens-projekt. Banan är vanligtvis `/content/screens/<Name of your project>`.
+   **Projektsökväg** Ange sökvägen för ditt AEM Screens-projekt. Sökvägen är vanligtvis `/content/screens/<Name of your project>`.
 
    *Till exempel*, `/content/screens/we-retail`. Du hittar den här sökvägen i URL:en genom att välja ett projekt under AEM Screens (klicka inte på ikonen).
 
@@ -69,6 +69,6 @@ Följ stegen nedan om du vill använda en bulkuppdatering för ett AEM Screens-p
    >
    >Ange projektsökvägen i förhållande till kanalen.
 
-   **Schemaläggningsfrekvens** Ange t.ex. en tidpunkt, 05:00 eller 17:00, då den här tjänsten ska uppdatera offlineinnehåll.
+   **Schemaläggningsfrekvens** Ange en tidpunkt, till exempel 05:00 eller 17:00, då den här tjänsten ska uppdatera offlineinnehåll.
 
-1. Klicka **Spara** så att du kan spara inställningarna. Allt innehåll uppdateras vid den angivna tidpunkten.
+1. Klicka på **Spara** så att du kan spara inställningarna. Allt innehåll uppdateras vid den angivna tidpunkten.

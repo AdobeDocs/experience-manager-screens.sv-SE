@@ -30,11 +30,11 @@ Enhetsregistreringsprocessen görs på två olika datorer:
 
 >[!NOTE]
 >
->När du har laddat ned den senaste versionen av Windows Player (*.exe*), från [AEM 6.4 Player Downloads](https://download.macromedia.com/screens/) följer du stegen på spelaren för att slutföra ad hoc-installationen:
+>När du har hämtat den senaste versionen av Windows Player (*.exe*) från sidan [AEM 6.4 Player Downloads](https://download.macromedia.com/screens/) följer du stegen på spelaren för att slutföra ad hoc-installationen:
 >
 >1. Tryck länge på det övre vänstra hörnet för att öppna administratörspanelen.
->1. Navigera till **Konfiguration** från den vänstra åtgärdsmenyn och ange platsadressen för AEM i **Server** och klicka **Spara**.
->1. Klicka på **Registrering** från den vänstra åtgärdsmenyn och stegen nedan för att slutföra enhetsregistreringsprocessen.
+>1. Navigera till **Konfiguration** på den vänstra åtgärdsmenyn och ange platsadressen för den AEM instansen i **Server** och klicka på **Spara**.
+>1. Klicka på länken **Registrering** på den vänstra åtgärdsmenyn och stegen nedan för att slutföra enhetsregistreringsprocessen.
 >
 
 ![screen_shot_2018-11-26at12118pm](assets/screen_shot_2018-11-26at12118pm.png)
@@ -43,17 +43,17 @@ Enhetsregistreringsprocessen görs på två olika datorer:
 
    ![screen_shot_2018-11-26at104230am](assets/screen_shot_2018-11-26at104230am.png)
 
-1. I AEM navigerar du till **Enheter** projektmapp.
+1. I AEM navigerar du till mappen **Devices** i ditt projekt.
 
    >[!NOTE]
    >
-   >Mer information om hur du skapar ett projekt för skärmar AEM kontrollpanelen finns i [Skapa och hantera skärmsprojekt](creating-a-screens-project.md).
+   >Mer information om hur du skapar ett projekt för Screens på AEM kontrollpanel finns i [Skapa och hantera Screens-projekt](creating-a-screens-project.md).
 
-1. Klicka på **Enhetshanteraren** i åtgärdsfältet.
+1. Klicka på knappen **Enhetshanteraren** i åtgärdsfältet.
 
    ![screen_shot_2018-11-26at104702am](assets/screen_shot_2018-11-26at104702am.png)
 
-1. Klicka på **Enhetsregistrering** överst till höger.
+1. Klicka på knappen **Enhetsregistrering** längst upp till höger.
 
    ![screen_shot_2018-11-26at104815am](assets/screen_shot_2018-11-26at104815am.png)
 
@@ -65,32 +65,32 @@ Enhetsregistreringsprocessen görs på två olika datorer:
 
    ![screen_shot_2018-11-26at105150am](assets/screen_shot_2018-11-26at105150am.png)
 
-1. Kontrollera **Registreringskod**.
+1. Kontrollera **Registreringskoden** på din enhet.
 
    ![screen_shot_2018-11-26at105227am](assets/screen_shot_2018-11-26at105227am.png)
 
-1. Om **Registreringskod** är samma på båda datorerna, klicka på **Validera** i AEM, som i steg 6.
+1. Om **registreringskoden** är densamma på båda datorerna klickar du på knappen **Validera** i AEM, vilket visas i steg 6.
 1. Ange önskat namn för enheten och klicka på **Registrera**.
 
    ![screen_shot_2018-11-26at105357am](assets/screen_shot_2018-11-26at105357am.png)
 
-1. Klicka **Slutför** för att slutföra registreringsprocessen.
+1. Klicka på **Slutför** för att slutföra registreringsprocessen.
 
    ![screen_shot_2018-11-26at105456am](assets/screen_shot_2018-11-26at105456am.png)
 
    >[!NOTE]
    >
-   >The **Registrera nytt** gör att du kan registrera en ny enhet.
+   >Med **Registrera ny** kan du registrera en ny enhet.
    >
-   >The **Tilldela visning** gör att du kan lägga till enheten direkt på en skärm.
+   >Med **Tilldela skärm** kan du lägga till enheten direkt på en skärm.
 
-   Klicka **Slutför** tilldelar du enheten till en skärm.
+   Om du klickar på **Slutför** tilldelar du enheten till en skärm.
 
    ![screen_shot_2018-11-26at105740am](assets/screen_shot_2018-11-26at105740am.png)
 
    >[!NOTE]
    >
-   >Mer information om hur du skapar och hanterar en visning för ditt skärmsprojekt finns i [Skapa och hantera skärmar](managing-displays.md).
+   >Mer information om hur du skapar och hanterar en visning för ditt Screens-projekt finns i [Skapa och hantera skärmar](managing-displays.md).
 
 ### Tilldela enhet till en skärm {#assigning-device-to-a-display}
 
@@ -100,15 +100,15 @@ Om du inte har tilldelat enheten till en skärm följer du stegen nedan för att
 
    ![screen_shot_2018-11-26at11026am](assets/screen_shot_2018-11-26at111026am.png)
 
-1. Klicka på sökvägen för visningen i **Sökväg för Display/Device Config**.
+1. Klicka på sökvägen för visningen i **Sökväg för visning/enhetskonfiguration**.
 
    ![screen_shot_2018-11-26at11252am](assets/screen_shot_2018-11-26at111252am.png)
 
-1. Klicka **Tilldela** när du klickar på banan.
+1. Klicka på **Tilldela** när du klickar på sökvägen.
 
    ![screen_shot_2018-11-26at11722am](assets/screen_shot_2018-11-26at111722am.png)
 
-1. Klicka **Slutför** när enheten har tilldelats korrekt, vilket visas i bilden nedan.
+1. Klicka på **Slutför** när enheten har tilldelats, enligt bilden nedan.
 
    ![screen_shot_2018-11-26at112041am](assets/screen_shot_2018-11-26at112041am.png)
 
@@ -120,9 +120,9 @@ Om du inte har tilldelat enheten till en skärm följer du stegen nedan för att
 
 När du har registrerat enheter till spelaren kan du visa alla enheter från användargränssnittet i Enhetshanteraren.
 
-1. Navigera till användargränssnittet i Enhetshanteraren från ditt AEM Screens-projekt, till exempel **DemoScreens** > **Enheter**.
+1. Navigera till användargränssnittet för Enhetshanteraren från ditt AEM Screens-projekt, till exempel **DemoScreens** > **Enheter**.
 
-1. Klicka på **Enheter** mapp och klicka på **Enhetshanteraren** i åtgärdsfältet.
+1. Klicka på mappen **Enheter** och klicka på **Enhetshanteraren** i åtgärdsfältet.
 
    ![bild](/help/user-guide/assets/device-manager/device-manager-1.png)
 
@@ -134,7 +134,7 @@ När du har registrerat enheter till spelaren kan du visa alla enheter från anv
 
    Eller
 
-   Välj `/` (snedstreck) för att aktivera sökfunktionen.
+   Välj `/` (snedstreck) om du vill aktivera sökfunktionen.
 
    ![bild](/help/user-guide/assets/device-manager/device-manager-3.png)
 
@@ -144,19 +144,19 @@ När du har registrerat enheter till spelaren kan du visa alla enheter från anv
 * Användaren kan söka efter alla ord som finns i *enhets-ID* eller *enhetsnamn*.
 
   >[!NOTE]
-  >Vi rekommenderar att du skapar enhetsnamnen med flera ord, t.ex. *`Boston Store Lobby`* i stället för en enstaka *`BostonStoreLobby`*.
+  >Vi rekommenderar att du skapar enhetsnamnen i flera ord, till exempel *`Boston Store Lobby`*, i stället för i en enda *`BostonStoreLobby`*.
 
-* Om du skapade enhetsnamn som *`Boston Store Lobby`* söker den efter alla ord *`boston`*, *`store`*, eller *`lobby`*. Om enhetsnamnet är *`BostonStoreLobby`* söker sedan efter *`boston`* visar inga resultat.
+* Om du har skapat enhetsnamn som *`Boston Store Lobby`* söker programmet efter alla ord *`boston`*, *`store`* eller *`lobby`*. Om enhetsnamnet är *`BostonStoreLobby`* visas inga resultat om du söker efter *`boston`*.
 
-* Vildkort, `*` stöds för sökning. Om du vill hitta alla enheter med namn som börjar med *`boston`* kan du använda *`boston`**.
+* Jokertecken, `*` stöds för sökning. Om du vill hitta alla enheter med namn som börjar med *`boston`* kan du använda *`boston`**.
 
-* Om enhetsnamnet är *`BostonStoreLobby`* och söka efter *`boston`* returnerar inte resultatet, och använder *`boston`** i sökvillkoren returnerar resultatet.
+* Om enhetsnamnet är *`BostonStoreLobby`* och sökningen efter *`boston`* inte returnerar resultatet, returneras resultatet om du använder *`boston`** i sökvillkoren.
 
 ## Begränsningar för enhetsregistrering {#limitations-on-device-registration}
 
 Användarlösenordsbegränsningar för hela systemet kan orsaka fel i enhetsregistreringen. Enhetsregistreringen använder ett slumpmässigt genererat lösenord för att skapa enhetsanvändaren.
 
-Om *AuthorizableActionProvider* konfigurerar begränsar lösenordet. Det kan hända att enhetsanvändaren inte kan skapas.
+Om konfigurationen *AuthorizableActionProvider* begränsar lösenordet kan det hända att det inte går att skapa enhetsanvändaren.
 
 >[!NOTE]
 >

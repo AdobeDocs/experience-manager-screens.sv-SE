@@ -1,5 +1,5 @@
 ---
-title: Versionsinformation för skärmar, funktionspaket 202401
+title: Versionsinformation om Screens Feature Pack 202401
 description: Läs mer om AEM Screens Feature Pack 202401 släppt den 2 januari 2024.
 feature: Feature Pack
 role: Developer
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 AEM Screens AEM 6.5 Feature Pack 11.1.
 
-Du kan hämta den senaste versionen av funktionspaketet för AEM Screens 6.5.11.1 från [Programdistributionsportal](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) med din Adobe ID. Navigera till **Adobe Experience Manager** flik och sök efter **Skärmar** för att få det senaste funktionspaketet med namnet **AEM 6.5 skärmar FP11.1**.
+Du kan hämta det senaste funktionspaketet för AEM Screens 6.5.11.1 från [Software Distribution Portal](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) med din Adobe ID. Gå till fliken **Adobe Experience Manager** och sök efter **Screens** för att få den senaste funktionspaketet med namnet **AEM 6.5 Screens FP11.1**.
 
 ## Releasedatum {#release-date}
 
@@ -35,22 +35,22 @@ Den här versionen innehåller endast säkerhetskorrigeringar.
 
 * XSS-problem i fältet&quot;Inaktiv text&quot; på AEM Screens-enheten. (SCRNS-2614)
 
-* XSS-problem `screens/dashboard/device.html` genom `Clear cache` åtgärdsdialogrutan. (SCRNS-2632)
+* XSS-problem vid `screens/dashboard/device.html` via åtgärdsdialogrutan `Clear cache`. (SCRNS-2632)
 
-* XSS-problem i skärmuppspelningskonfiguration på `libs/screens/player/browser/firmware.html`. (SCRNS-2652)
+* XSS-problem i skärmuppspelningskonfigurationen på `libs/screens/player/browser/firmware.html`. (SCRNS-2652)
 
 * Lagrad XSS i enhetens titel utlöses när en enhet tas bort. (SCRNS-2653)
 
-* XSS-problem `/libs/screens/core/components/device/info.json.html`. (SCRNS-2659)
+* XSS-utgåva `/libs/screens/core/components/device/info.json.html`. (SCRNS-2659)
 
-* Speglad XSS med parametern `item` på `/screens/register-device-wizard.html`. (SCRNS-2670)
+* Speglade XSS med parametern `item` vid `/screens/register-device-wizard.html`. (SCRNS-2670)
 
-* Speglad XSS i `screens/dashboard/device.html` genom `returnPage` parameter. (SCRNS-3056)
+* Speglade XSS i `screens/dashboard/device.html` med parametern `returnPage`. (SCRNS-3056)
 
 * Öppna Omdirigering om assign-device-wizard.html. (SCRNS-3444)
 
 * Öppna omdirigering på enhetspanelen. (SCRNS-3443)
 
-* XSS-problem `libs/screens/dcc/components/clientlibs/actions/cq.screens.dcc.openLink.js`. (SCRNS-3459)
+* XSS-utgåva `libs/screens/dcc/components/clientlibs/actions/cq.screens.dcc.openLink.js`. (SCRNS-3459)
 
 * Åtgärdade, saknade upprepningsschema och Lägg till schemaknappar: Ett problem upptäcktes i kanalschemaläggningen. (SCRNS-2739)

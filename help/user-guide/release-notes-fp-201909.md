@@ -16,7 +16,7 @@ ht-degree: 0%
 
 >[!CAUTION]
 >
->Adobe rekommenderar att du uppgraderar till den senaste versionen av Adobe Experience Manager (AEM). AEM Screens har underhållsstöd för AEM 6.3 Screens.
+>Adobe rekommenderar att du uppgraderar till den senaste versionen av Adobe Experience Manager (AEM). AEM Screens ger underhållssupport för Screens AEM 6.3.
 
 AEM Screens har släppt AEM 6.4.6 Feature Pack 6 och AEM 6.5.2 Feature Pack 2 med följande information.
 
@@ -26,17 +26,17 @@ Releasedatum för AEM Screens Feature Pack 2019 är 7 oktober 2019.
 
 ### Nyheter {#what-s-new}
 
-* **Förbättrade gränssnittsuppdateringar för att skapa skärmprojekt**
+* **Förbättrade gränssnittsuppdateringar för att skapa Screens Project**
 
-  Nu finns ett uppdaterat användargränssnitt för att skapa ett AEM Screens-projekt. Du kan skapa ett skärmsprojekt med några enkla klick. Egenskapsfliken för varje projekt har nu ett mer intuitivt användargränssnitt.
+  Nu finns ett uppdaterat användargränssnitt för att skapa ett AEM Screens-projekt. Du kan skapa ett Screens-projekt med några enkla klick. Egenskapsfliken för varje projekt har nu ett mer intuitivt användargränssnitt.
 
-  Se [Skapa ett projekt för nya skärmar](creating-a-screens-project.md) för mer information.
+  Mer information finns i [Skapa ett nytt Screens-projekt](creating-a-screens-project.md).
 
-* **Förbättrad kontrollpanel för enheter**
+* **Förbättrad enhetspanel**
 
   Kontrollpanelen för enheten visar enhetsinformation, status, skärmbilder, loggar, inställningar och den enhetsinformation som gör att du kan övervaka enhetsaktiviteter och -funktioner. Panelerna har uppdaterats.
 
-  Se [Felsökning av Device Control Center](monitoring-screens.md) för mer information.
+  Mer information finns i [Felsöka Device Control Center](monitoring-screens.md).
 
 * **Aktiverad timeout för att tillåta tangentbordsinteraktion**
 
@@ -44,8 +44,8 @@ Releasedatum för AEM Screens Feature Pack 2019 är 7 oktober 2019.
 
 * **Offlinekonfigurationer i Experience Fragments**
 
-  Du kan nu lägga till offlinekonfigurationer (klientbibliotek och statiska filer) när du konfigurerar skärmar med Experience Fragment.
-Se [Använda upplevelsefragment](experience-fragments-in-screens.md) för mer information.
+  Du kan nu lägga till offlinekonfigurationer (klientbibliotek och statiska filer) när du konfigurerar Screens Experience Fragment.
+Mer information finns i [Använda Experience Fragments](experience-fragments-in-screens.md).
 
 ### Släppta AEM Screens-spelare
 
@@ -57,4 +57,4 @@ Följande AEM Screens-spelare finns för AEM 6.4.6 Feature Pack 6 och AEM 6.5.2 
 
 #### AEM Screens Player - nedladdningar
 
-Om du vill hämta den senaste versionen av AEM Screens Player och läsa mer om felkorrigeringarna kan du läsa [**AEM Screens Player - nedladdningar**](https://download.macromedia.com/screens/).
+Om du vill hämta den senaste versionen av AEM Screens Player och läsa mer om felkorrigeringarna kan du läsa [**AEM Screens Player-hämtningar**](https://download.macromedia.com/screens/).

@@ -15,20 +15,20 @@ ht-degree: 0%
 >
 >En typisk intressent för den här aktiviteten är en AEM.
 
-I takt med att ditt projekt har utvecklats från en strategisk vision till en trådrad verklighet bör du förbereda dig för att skapa ett skärmsprojekt i AEM som du kan använda.
+I takt med att ditt projekt har utvecklats från en strategisk vision till en trådrad verklighet bör du förbereda dig för att skapa ett Screens-projekt i AEM som du kan använda.
 
 Detta projekt omfattar mappning av plattformsspecifika konfigurationer till löst definierade krav som definieras i prototypfasen.
 
 Exempel är hur och när följande ska användas:
 
-* **Upplevelsefragment** för att skapa innehållsgrupperingar.
+* **Upplev fragment** för att skapa innehållsgrupperingar.
 * **Innehållsfragment** för att skapa textvarianter.
 * **Kontextnav** för att skapa externa datalager, SPA för interaktiva upplevelser.
-* **OSGi-tjänster** för nätverksaviseringar.
+* **OSGi-tjänster** för nätverksvarningar.
 * **Resurslänk** för Creative Cloud.
 * **Nätverksmappar** för resursallokering.
 * **Textövertäckning** för realtidsdata.
-* **Scheman** för grupperingar av displayannonser/kanaler.
+* **Scheman** för grupperingar för visning/kanaler.
 * **Arbetsflöden** för automatiserade innehållsredigeringar.
 
 I den här fasen granskar du alla nödvändiga uppgifter och aktiviteter som behöver åtgärdas och dokumenterar dem på rätt sätt så att tilldelade uppgifter kan spåras korrekt i distributionsfasen.

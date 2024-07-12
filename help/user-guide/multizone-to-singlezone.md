@@ -36,49 +36,49 @@ Innehållsförfattare
 
 Följ stegen nedan för att konfigurera ett projekt:
 
-1. Skapa ett AEM Screens-projekt med namnet **TakeoverLoop**, vilket visas nedan.
+1. Skapa ett AEM Screens-projekt med namnet **TakeoverLoop**, enligt nedan.
 
    ![resurs](assets/mz-to-sz1.png)
 
 
-1. **Skapa en skärmkanal för flera zoner**
+1. **Skapa en Screens-kanal med flera zoner**
 
-   1. Klicka på **Kanaler** mapp och klicka på **Skapa** i åtgärdsfältet och öppnar guiden så att du kan skapa en kanal.
-   1. Klicka **Vänster-L-fält, delad skärmkanal** från guiden och skapa kanalen som **MultiZoneLayout**.
-   1. Lägg till innehåll i kanalen. Dra och släpp resurserna till varje zon. I följande exempel visas en **MultiZoneLayout** kanal som innehåller en video, en bild och en textbanderoll (i en inbäddad sekvens), vilket visas nedan.
+   1. Klicka på mappen **Kanaler** och klicka på **Skapa** i åtgärdsfältet och öppna guiden så att du kan skapa en kanal.
+   1. Klicka på **Delad skärmkanal för vänster-L-streck** i guiden och skapa kanalen **MultiZoneLayout**.
+   1. Lägg till innehåll i kanalen. Dra och släpp resurserna till varje zon. I följande exempel visas en **MultiZoneLayout** -kanal som består av en video, en bild och en textbanderoll (i en inbäddad sekvens), vilket visas nedan.
 
    ![resurs](assets/mz-to-sz2.png)
 
    >[!NOTE]
    >
-   >Mer information om hur du skapar en layout för flera zoner i din kanal finns i [Layout med flera zoner](multi-zone-layout-aem-screens.md).
+   >Mer information om hur du skapar en layout med flera zoner i din kanal finns i [Layout med flera zoner](multi-zone-layout-aem-screens.md).
 
 
-1. Skapa en annan kanal med namnet som **TakeoverChannel** till **Kanaler** mapp.
+1. Skapa en annan kanal med namnet **TakeoverChannel** till mappen **Channels** .
 
    ![resurs](assets/mz-to-sz3.png)
 
-1. Klicka **Redigera** från åtgärdsfältet så att du kan lägga till innehåll i den här kanalen. Lägg till en **Kanal** och en bildresurs som du vill växla till för den här kanalen, vilket visas i bilden nedan:
+1. Klicka på **Redigera** i åtgärdsfältet så att du kan lägga till innehåll i den här kanalen. Lägg till en **Channel**-komponent och en bildresurs som du vill växla till för den här kanalen, enligt bilden nedan:
 
    ![resurs](assets/mz-to-sz4.png)
 
-1. Öppna inställningarna för kanalkomponenten och peka på den **MultiZoneLayout** kanal som du skapade i *steg 2*.
+1. Öppna inställningarna för Channel-komponenten och peka på **MultiZoneLayout** -kanalen som du skapade i *steg 2*.
 
    ![resurs](assets/mz-to-sz5.png)
 
-1. Ange varaktighet från **Sekvens** fält till **10000 millisekunder**.
+1. Ange längden från fältet **Sekvens** till **10000 millisekunder**.
 
    ![resurs](assets/mz-to-sz6.png)
 
-1. Öppna på liknande sätt inställningarna för bilden (resursen som du lade till) och ange dess varaktighet från **Sekvens** fält till **3 000 millisekunder**.
+1. Öppna på samma sätt inställningarna för bilden (resursen som du lade till) och ange dess varaktighet från fältet **Sekvens** till **3000 millisekunder**.
 
    ![resurs](assets/mz-to-sz7.png)
 
 ## Kontrollera förhandsvisningen {#checking-the-preview}
 
-Du kan visa önskade utdata från spelaren eller bara genom att välja **Förhandsgranska** från redigeraren.
+Du kan visa önskade utdata från spelaren eller bara genom att välja **Förhandsgranska** i redigeraren.
 
-Utdata visar hur en flerzonslayout spelas upp för *10000 millisekunder*. Sedan växlar den till en layout med en enda zon som har uppspelningstiden *3 000 millisekunder*. Slutligen växlar den tillbaka till flerzonslayouten.
+Utdata visar hur en flerzonslayout spelas upp för *10000 millisekunder*. Sedan växlar den till en layout med en zon som har en uppspelningstid på *3000 millisekunder*. Slutligen växlar den tillbaka till flerzonslayouten.
 
 >[!VIDEO](https://video.tv.adobe.com/v/30366)
 

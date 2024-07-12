@@ -19,7 +19,7 @@ Innehåll är en viktig faktor för att öka engagemanget. I fasen före försä
 
 En väldefinierad innehållsstrategi för företag sätter en väg för att skapa, distribuera och spåra användningen av innehåll i relation till köparens resa. Den tar även hänsyn till kontaktytorna i marknadsföringstratten. Att få rätt budskap till rätt kund vid rätt tidpunkt är avgörande.
 
-Fundera över hur skärmar-programmet kan bidra till att uppnå den här strategin och fastställa nyckeltal för att mäta programmets framgång när det gäller att leverera innehållet.
+Fundera över hur Screens kan bidra till att uppnå den här strategin och fastställa nyckeltal för att mäta programmets framgång när det gäller att leverera innehållet.
 
 >[!NOTE]
 >
@@ -33,7 +33,7 @@ Granska och svara på följande frågor när du skapar en innehållsstrategi fö
 * När är det idealiska tillfället att engagera publiken?
 * Vem ska skapa innehållet?
 * Varför ska målgruppen bry sig om innehållet?
-* Vilka problem har innehållet som hjälper dem att lösa? (Gör till exempel Screens-programmet det enklare för kunden att hitta de lämpligaste skorna för extrem bergsklättring eller en perfekt apparat för sitt nya hem?)
+* Vilka problem har innehållet som hjälper dem att lösa? (Kan t.ex. Screens-programmet hjälpa kunden att hitta de lämpligaste skorna för extrem bergsklättring eller en perfekt apparat för sitt nya hem?)
 * Hur interagerar kunden med applikationen eller hur fungerar användarupplevelsen?
 * Vad är er uppdaterings- och uppgraderingsstrategi?
 * Hur ofta förutser du att nytt, nödvändigt innehåll ska skapas?

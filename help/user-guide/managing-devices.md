@@ -36,7 +36,7 @@ Följ stegen nedan för att tilldela en enhet till en skärm:
 
    ![chlimage_1-32](assets/chlimage_1-32.png)
 
-1. Klicka på **Enheter** mapp och klicka på **Enhetshanteraren** i åtgärdsfältet. De tilldelade och ej tilldelade enheterna visas.
+1. Klicka på mappen **Enheter** och klicka på **Enhetshanteraren** i åtgärdsfältet. De tilldelade och ej tilldelade enheterna visas.
 
    ![chlimage_1-33](assets/chlimage_1-33.png)
 
@@ -44,29 +44,29 @@ Följ stegen nedan för att tilldela en enhet till en skärm:
 
    ![chlimage_1-34](assets/chlimage_1-34.png)
 
-1. Klicka på den skärm som du vill tilldela enheten till i listan och klicka på knappen **Tilldela**.
+1. Klicka på den skärm som du vill tilldela enheten till i listan och klicka på **Tilldela**.
 
    ![chlimage_1-35](assets/chlimage_1-35.png)
 
 1. Klicka på **Slutför** för att slutföra tilldelningsprocessen.
 
 
-   På kontrollpanelen visas den tilldelade enheten i **ENHETER** -panelen.
+   På kontrollpanelen visas den tilldelade enheten på panelen **ENHETER**.
 
    ![chlimage_1-37](assets/chlimage_1-37.png)
 
-   Klicka på (**...**) i det övre högra hörnet av **ENHETER** för att antingen lägga till enhetskonfiguration eller uppdatera enheterna.
+   Klicka på (**..**) i det övre högra hörnet av panelen **DEVICES** för att antingen lägga till enhetskonfiguration eller uppdatera enheterna.
 
    ![chlimage_1-38](assets/chlimage_1-38.png)
 
 >[!NOTE]
 >
->Varje gång den första enheten läggs till i ett nytt skärmsprojekt skapas en användargrupp.
->Om till exempel projektnodens namn är *webbutik* och användargruppnamnet är *screens-we-retail-devices*.
->Den här gruppen läggs till som medlem i **Medarbetare** grupp, enligt bilden nedan:
+>Varje gång den första enheten läggs till i ett nytt Screens-projekt skapas en användargrupp.
+>Om till exempel projektnodens namn är *we-retail* är användargruppens namn *screens-we-retail-devices*.
+>Den här gruppen läggs till som medlem i gruppen **Medarbetare** enligt bilden nedan:
 
 ![chlimage_1-39](assets/chlimage_1-39.png)
 
 ### Nästa steg {#the-next-steps}
 
-När du har lärt dig att tilldela en kanal till en skärm kan du läsa det[Övervaka och felsöka](monitoring-screens.md).
+När du känner till hur du tilldelar kanal till en skärm kan du läsa [Övervaka och felsöka](monitoring-screens.md).

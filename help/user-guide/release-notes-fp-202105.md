@@ -15,16 +15,16 @@ ht-degree: 0%
 # Versionsinformation för funktionspaket 202105 {#release-notes-for-feature-pack}
 
 >[!CAUTION]
->Adobe rekommenderar att du uppgraderar till den senaste versionen av Adobe Experience Manager (AEM). AEM Screens har underhållsstöd för AEM 6.3 Screens.
+>Adobe rekommenderar att du uppgraderar till den senaste versionen av Adobe Experience Manager (AEM). AEM Screens ger underhållsstöd för Screens AEM 6.3.
 
 ## Tillgänglighet {#availability}
 
 AEM Screens AEM 6.5 Feature Pack 8.
 
-Du kan ladda ned senaste funktionspaketet för AEM Screens 6.5.8 från [Programdistributionsportal](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) med din Adobe ID. Navigera till **Adobe Experience Manager** flik och sök efter **Skärmar** för att få det senaste funktionspaketet med namnet **AEM 6.5 skärmar FP8**.
+Du kan hämta det senaste funktionspaketet för AEM Screens 6.5.8 från [Software Distribution Portal](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) med din Adobe ID. Gå till fliken **Adobe Experience Manager** och sök efter **Screens** för att få den senaste funktionspaketet med namnet **AEM 6.5 Screens FP8**.
 
 >[!IMPORTANT]
->Installera den lägsta versionen av AEM 6.5 Feature Pack 8 för AMS-anslutningen som ska fungera när du har installerat paketen `screens-cloud-ams-pkg-0.0.20`, `screens-cloud-ams-pkg-0.0.16`och `screens core bundles`.
+>Installera den lägsta versionen av AEM 6.5 Feature Pack 8 så att AMS-anslutningen fungerar när du har installerat paketen `screens-cloud-ams-pkg-0.0.20`, `screens-cloud-ams-pkg-0.0.16` och `screens core bundles`.
 
 ## Releasedatum {#release-date}
 
@@ -32,11 +32,11 @@ Releasedatum för AEM Screens Feature Pack 202105 är 4 juni 2021.
 
 ### Nyheter {#what-is-new}
 
-* **Låsa sida i en AEM Screens-kanal**
+* **Låser sidan i en AEM Screens-kanal**
 
-  AEM Screens stöder nu *Låsa en sida*, som redan har implementerats i AEM Sites. Med Adobe Experience Manager (AEM) kan du låsa en sida så att ingen annan kan redigera innehållet. Den här funktionen är användbar när du gör flera ändringar på en viss sida eller när du måste frysa en sida en kort stund.
+  AEM Screens har nu stöd för *Låsning av en sida*, vilket redan har implementerats i AEM Sites. Med Adobe Experience Manager (AEM) kan du låsa en sida så att ingen annan kan redigera innehållet. Den här funktionen är användbar när du gör flera ändringar på en viss sida eller när du måste frysa en sida en kort stund.
 
-* **Namnge AEM Screens Player-enhet**
+* **Namnger AEM Screens Player-enhet**
 
   AEM Screens-spelarna kan nu skicka ett enhetsnamn till Adobe Experience Manager (AEM).
 När gruppregistrering används som standard för att registrera en enhet anges ett systemgenererat användarnamn i namnfältet. Som ett alternativ kan kunden använda en tillgångstagg eller ett annat användarvänligt namn så att den syns i AEM och är lättare att tilldela rätt innehåll.
@@ -46,7 +46,7 @@ När gruppregistrering används som standard för att registrera en enhet anges 
    * [Android](/help/user-guide/implementing-android-player.md#name-android)
    * [Windows](/help/user-guide/implementing-windows-player.md#name-windows)
    * [Tizen](/help/user-guide/tizen-player.md#name-tizen)
-   * [Chrome OS](/help/user-guide/implementing-chrome-os-player.md#name-chrome)
+   * [CHROME OS](/help/user-guide/implementing-chrome-os-player.md#name-chrome)
 
 * **Generering av manifest**
 
@@ -55,7 +55,7 @@ När gruppregistrering används som standard för att registrera en enhet anges 
 ### Felkorrigeringar {#bug-fixes}
 
 * Spelaren visade en svart skärm vid växling till en kanal som innehåller en dynamisk inbäddad sekvens.
-* Skärmspelarna blockerar nu bytet till en trasig kanal som ytterligare undviker ett 404-fel eller en sida med ett felmeddelande.
+* Screens-spelarna blockerar nu bytet till en trasig kanal som ytterligare undviker ett 404-fel eller en sida med ett felmeddelande.
 
 ### Släppta AEM Screens-spelare
 
@@ -69,4 +69,4 @@ Följande AEM Screens-spelare finns för AEM 6.5 Feature Pack 8:
 
 #### AEM Screens Player - nedladdningar
 
-Om du vill hämta den senaste versionen av AEM Screens Player och läsa mer om felkorrigeringarna kan du läsa **[AEM Screens Player - nedladdningar](https://download.macromedia.com/screens/index.html)**.
+Om du vill hämta den senaste versionen av AEM Screens Player och läsa mer om felkorrigeringarna kan du läsa **[AEM Screens Player-hämtningar](https://download.macromedia.com/screens/index.html)**.

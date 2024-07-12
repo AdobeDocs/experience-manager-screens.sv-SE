@@ -20,13 +20,13 @@ Med den här funktionen kan du definiera längden för bilduppspelningen på pro
 
 Innan du använder den här funktionen måste du konfigurera ett projekt som en förutsättning för att du ska kunna börja implementera den här funktionen. Exempel:
 
-1. Skapa ett AEM Screens-projekt (i det här exemplet **ProjektNivåUppspelning**).
-1. Skapa en sekvenskanal som **PlayBackChannel** under **Kanaler** mapp.
+1. Skapa ett AEM Screens-projekt (i det här exemplet **ProjectLevelPlayback**).
+1. Skapa en sekvenskanal som **PlayBackChannel** i mappen **Channels** .
 1. Lägg till innehåll i **PlayBackChannel**.
 
    ![resurser](assets/image_playback1.png)
 
-   I följande bild visas de bilder som lagts till i **PlayBackChannel** redigerare:
+   I följande bild visas de bilder som lagts till i redigeraren **PlayBackChannel** :
 
    ![resurser](assets/image_playback2.png)
 
@@ -39,18 +39,18 @@ I avsnittet nedan beskrivs hur du redigerar uppspelningstiden för innehåll i e
 
 >[!NOTE]
 >
->Om du vill uppdatera uppspelningstiden på bild- eller kanalnivå läser du [Uppspelningstid för bild på kanalnivå](channel-level-image-playback.md).
+>Om du vill uppdatera uppspelningstiden på bild- eller kanalnivå läser du [Varaktighet för bilduppspelning på kanalnivå](channel-level-image-playback.md).
 
 Följ stegen nedan för att lära dig hur du uppdaterar bilduppspelningstiden på projektnivå:
 
-1. Navigera till ditt projekt **ProjektNivåUppspelning** och klicka **Egenskaper** i åtgärdsfältet.
+1. Navigera till ditt projekt **ProjectLevelPlayback** och klicka på **Properties** i åtgärdsfältet.
    ![resurser](assets/image_playback3.png)
 
 1. Klicka på alla bilder i kanalen och klicka på skiftnyckelsikonen högst upp till vänster (som bilden nedan visar) så att du kan öppna dialogrutan Konfigurera kanalnivå.
 
    ![screen_shot_2019-06-25at95945am](assets/screen_shot_2019-06-25at95945am.png)
 
-1. The **Sida** öppnas.
+1. Dialogrutan **Sida** öppnas.
 
    >[!NOTE]
    >
@@ -58,7 +58,7 @@ Följ stegen nedan för att lära dig hur du uppdaterar bilduppspelningstiden p�
 
    ![screen_shot_2019-06-25at100343am](assets/screen_shot_2019-06-25at100343am.png)
 
-   Redigera **Varaktighet** från 8 000 (millisekunder) till 3 000 (millisekunder), dvs. 3 sekunder. Markera bockmarkeringen längst upp till höger på sidan **Sida** så att ändringarna sparas.
+   Redigera **Varaktighet** från 8 000 (millisekunder) till 3 000 (millisekunder), d.v.s. 3 sekunder. Markera bockmarkeringen högst upp till höger i dialogrutan **Sida** så att ändringarna sparas.
 
    ![screen_shot_2019-06-25at101527am](assets/screen_shot_2019-06-25at101527am.png)
 

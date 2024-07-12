@@ -20,7 +20,7 @@ ht-degree: 0%
 
 >[!CAUTION]
 >
->Adobe rekommenderar att du uppgraderar till den senaste versionen av Adobe Experience Manager (AEM). AEM Screens har underhållsstöd för AEM 6.3 Screens.
+>Adobe rekommenderar att du uppgraderar till den senaste versionen av Adobe Experience Manager (AEM). AEM Screens ger underhållsstöd för Screens AEM 6.3.
 
 AEM Screens har släppt AEM 6.4.2 Feature Pack 2 och AEM 6.3.3 Feature Pack 4 med följande information.
 
@@ -30,16 +30,16 @@ Releasedatum för AEM Screens Feature Pack 2018 är 1 oktober 2018.
 
 ### Nyheter {#what-s-new}
 
-* **Adobe Analytics Proof of Play Reporting**: Se [Adobe Analytics Integration med AEM Screens](adobe-analytics-integration-aem-screens.md) om du vill veta mer.
+* **Adobe Analytics Proof of Play-rapportering**: Mer information finns i [Adobe Analytics-integrering med AEM Screens](adobe-analytics-integration-aem-screens.md).
 
-* **Adobe Analytics Enable Players to cache and send `playback` event till Adobe Analytics**: Se [Konfigurera Adobe Analytics med AEM Screens](configuring-adobe-analytics-aem-screens.md) om du vill veta mer.
+* **Adobe Analytics Enable Players (Aktivera spelare) att cachelagra och skicka `playback`-händelser till Adobe Analytics**: Mer information finns i [Konfigurera Adobe Analytics med AEM Screens](configuring-adobe-analytics-aem-screens.md).
 
-* **Uppdatera offlineinnehåll gruppvis**: Gör att du kan uppdatera alla kanaler samtidigt och slippa besväret med att navigera till en viss kanal och uppdatera innehållet. Se [Uppdatera gruppvis offline](bulk-offline-update.md) om du vill veta mer.
+* **Uppdatera offlineinnehåll gruppvis**: Gör att du kan uppdatera alla kanaler gruppvis och undvika krånglet med att navigera till en viss kanal och uppdatera innehållet. Mer information finns i [Uppdatera offline](bulk-offline-update.md) gruppvis.
 
-* **Publicera flera kanaler samtidigt för alla publiceringsinstanser**
-* **Förbättrad loggningsmekanism för spelare**: Du kan ange maximalt antal loggfiler för en AEM Screens Player. Se [Arbeta med en AEM Screens Player](working-with-screens-player.md) för mer information.
+* **Publish-kanaler i grupp för alla publiceringsinstanser**
+* **Förbättrad loggningsmekanism för spelare**: Du kan ange det maximala antalet loggfiler för en AEM Screens Player. Mer information finns i [Arbeta med en AEM Screens Player](working-with-screens-player.md).
 
-* **Författare/Publicera distribution (Förbättring)**
+* **Författare/Publish-distribution (härdning)**
 
 ### Släppta AEM Screens-spelare
 
@@ -52,4 +52,4 @@ Följande AEM Screens-spelare finns för AEM 6.4.2 Feature Pack 2 och AEM 6.3.3 
 
 #### AEM Screens Player - nedladdningar
 
-Om du vill hämta den senaste versionen av AEM Screens Player och läsa mer om felkorrigeringarna kan du läsa [AEM Screens Player - nedladdningar](https://download.macromedia.com/screens/).
+Om du vill hämta den senaste versionen av AEM Screens Player och läsa mer om felkorrigeringarna kan du läsa [AEM Screens Player-hämtningar](https://download.macromedia.com/screens/).

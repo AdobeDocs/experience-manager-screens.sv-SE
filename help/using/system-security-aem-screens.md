@@ -60,7 +60,7 @@ Om hashen inte matchar försöker programmet att validera tre gånger. Efter tre
 
 **Svar**
 
-Förutsatt att du använder AMS tar programmet hand om all serversäkerhet med samma funktioner som Sites eller Assets.
+Om du använder AMS tar programmet hand om all serversäkerhet med samma funktioner som Sites eller Assets.
 
 
 ### Frågor och svar 5 {#faq5}

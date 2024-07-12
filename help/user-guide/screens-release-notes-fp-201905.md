@@ -21,7 +21,7 @@ ht-degree: 0%
 
 >[!CAUTION]
 >
->Du bör uppgradera till den senaste versionen av Adobe Experience Manager (AEM). AEM Screens har underhållsstöd för AEM 6.3 Screens.
+>Du bör uppgradera till den senaste versionen av Adobe Experience Manager (AEM). AEM Screens ger underhållsstöd för Screens AEM 6.3.
 
 AEM Screens har släppt AEM 6.3.3.3 Feature Pack 6 och AEM 6.4.4.0 Feature Pack 4 med följande information.
 
@@ -31,29 +31,29 @@ Releasedatum för AEM Screens Feature Pack 2019 är 16 maj 2019.
 
 ### Nyheter {#what-s-new}
 
-* **Projektimporterare**
+* **Projektimporteraren**
 
 Project Importer är en funktion i AEM Screens som gör att du kan importera en uppsättning platser från ett CSV-/XLS-kalkylblad till ditt AEM Screens-projekt gruppvis.
 
-Se **[Ny projektimporterare från fil](project-importer.md)** för mer information.
+Mer information finns i **[Ny projektimporterare från fil](project-importer.md)**.
 
 * **Övergång från ContentSync till SmartSync**
 
 SmartSync minimerar belastningen/lagringen på servern och nätverkstrafiken för att minska kostnaden.
 
-Se **[Övergång från ContentSync till SmartSync](smartsync.md)** för mer information.
+Mer information finns i **[Övergång från ContentSync till SmartSync](smartsync.md)**.
 
 * **Nödkanal**
 
 I det här exemplet framhävs hur man skapar och hanterar en nödkanal som innehållsförfattaren kan växla från en sekvenskanal om det finns ett förhandsvillkor.
 
-Se **[Nödkanal](emergency-channel.md)** om du vill ha mer information.
+Mer information finns i **[Nödkanals](emergency-channel.md)** användningsexempel.
 
 * **Bädda in ett REACT-program med AEM SPA Editor och Integrera med AEM Screens Analytics**
 
 I det här avsnittet beskrivs hur du bäddar in en interaktiv enkelsidig applikation med REACT (eller Angular) med AEM SPA. AEM kan konfigurera redigeraren. Här beskrivs också hur du integrerar dina interaktiva program med offline-Adobe Analytics.
 
-Se **[Bädda in ett REACT-program med AEM SPA Editor och Integrera med AEM Screens Analytics](embedding-react-app.md)** för mer information.
+Mer information finns i **[Bädda in ett REACT-program med AEM SPA Editor och Integrera med AEM Screens Analytics](embedding-react-app.md)**.
 
 ### Släppta AEM Screens-spelare
 
@@ -65,4 +65,4 @@ Följande AEM Screens-spelare finns för AEM 6.3.3.3 Feature Pack 6 och AEM 6.4.
 
 #### AEM Screens Player - nedladdningar
 
-Om du vill hämta den senaste versionen av AEM Screens Player och läsa mer om felkorrigeringarna kan du läsa **[AEM Screens Player - nedladdningar](https://download.macromedia.com/screens/)**.
+Om du vill hämta den senaste versionen av AEM Screens Player och läsa mer om felkorrigeringarna kan du läsa **[AEM Screens Player-hämtningar](https://download.macromedia.com/screens/)**.

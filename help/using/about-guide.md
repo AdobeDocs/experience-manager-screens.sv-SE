@@ -15,8 +15,8 @@ AEM Screens Best Practices Guide ger vägledning om hur du framgångsrikt kan pl
 
 Målgruppen för dokumentet är:
 
-* *AEM*
-* *Audio-Video-integratörer*
+* *AEM implementors*
+* *Integratorer för ljud och video*
 * *Affärsstrategier*
 * *Projektledare*
 * *Konsulter*
@@ -40,5 +40,5 @@ Den här guiden ger en omfattande insikt och praktiska råd för att skapa, utfo
 >
 > Termer som används i den här handboken (i samband med AEM Screens):
 >
-> * **UX** anses betyda de digitala signeringsupplevelser som skickas till slutkunder.
-> * **UI** är det användargränssnitt som du använder för att skapa och hantera projekt på skärmar.
+> * **UX** anses vara den digitala signeringsupplevelse som levereras till slutkunder.
+> * **Gränssnitt** anses vara det användargränssnitt som gör att du kan skapa och hantera dina projekt i Screens.

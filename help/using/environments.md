@@ -1,5 +1,5 @@
 ---
-title: Miljöer för [!UICONTROL AEM Screens]
+title: Miljö för [!UICONTROL AEM Screens]
 description: Läs mer om miljöerna i ett AEM Screens-projekt.
 source-git-commit: f7653d8b386c02f510eb7a770cf3cdc22c41a5fb
 workflow-type: tm+mt
@@ -11,7 +11,7 @@ ht-degree: 0%
 
 # Miljö {#environments}
 
-Avgör i förväg vilka AEM som kunden har och väntar sig att du ska använda, båda för *utveckling* och *distribution*.
+Avgör i förväg vilka AEM miljöer klienten har och väntar på att du ska använda, både för *utveckling* och *distribution*.
 
 >[!NOTE]
 >
@@ -22,8 +22,8 @@ Följ riktlinjerna nedan för att konfigurera miljön för ditt AEM Screens-proj
 1. Kör de senaste versionerna av följande paket för din version av Adobe Experience Manager:
 
    * **AEM Service Pack**
-   * **Funktionspaket för skärmar**
-   * **AEM Kumulativt korrigeringspaket**
+   * **Screens Feature Pack**
+   * **AEM kumulativt korrigeringspaket**
 
 1. Identifiera eventuella utvecklingspaket (till exempel WCM Core-komponenter) eller verktygspaket från tredje part (till exempel SAP Hybris) som krävs.
 

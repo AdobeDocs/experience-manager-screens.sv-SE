@@ -16,13 +16,13 @@ ht-degree: 0%
 
 >[!CAUTION]
 >
->Adobe rekommenderar att du uppgraderar till den senaste versionen av Adobe Experience Manager (AEM). AEM Screens har underhållsstöd för AEM 6.3 Screens.
+>Adobe rekommenderar att du uppgraderar till den senaste versionen av Adobe Experience Manager (AEM). AEM Screens ger underhållsstöd för Screens AEM 6.3.
 
 ## Tillgänglighet {#availability}
 
 AEM Screens AEM 6.5 Feature Pack 5.
 
-Du kan ladda ned senaste funktionspaketet för AEM Screens 6.5.5 från [Programdistributionsportal](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) med din Adobe ID. Navigera till **Adobe Experience Manager** flik och sök efter **Skärmar** för att få det senaste funktionspaketet.
+Du kan hämta den senaste funktionspaketet för AEM Screens 6.5.5 från [Software Distribution Portal](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) med din Adobe ID. Navigera till fliken **Adobe Experience Manager** och sök efter **Screens** för att hämta det senaste funktionspaketet.
 
 ## Releasedatum {#release-date}
 
@@ -30,44 +30,45 @@ Releasedatum för AEM Screens Feature Pack 2008 är 3 september 2020.
 
 ### Nyheter {#what-is-new}
 
-* **Tidslinjevy på kontrollpanelen Schema**
+* **Tidslinjevy på tidslinjekontrollpanelen**
 
   I tidslinjevyn kan användaren visa de tilldelade tidsplanerna för kanalen från kontrollpanelen.
 
-  Se [Tidslinjevy](/help/user-guide/channel-assignment-latest-fp.md#timeline-view) för mer information.
+  Mer information finns i [Tidslinjevyn](/help/user-guide/channel-assignment-latest-fp.md#timeline-view).
 
 * **Återkommande schema**
 
   Med upprepningsschemat kan du ange ett återkommande schema för din kanal. Du kan ställa in flera upprepningsscheman för en kanal.
 
-  Se [Återkommande schema](/help/user-guide/channel-assignment-latest-fp.md#recurrence-schedule) för mer information.
+  Mer information finns i [Återkommande schema](/help/user-guide/channel-assignment-latest-fp.md#recurrence-schedule).
 
-* **Röstigenkänning till AEM Screens**
+* **Röstigenkänningsfunktioner för AEM Screens**
 
   Med funktionen Röstigenkänning kan du ändra innehåll i en AEM Screens-kanal som styrs av röstinteraktion.
 
   En innehållsförfattare kan konfigurera en visning som röstaktiverad. Syftet med den här funktionen är att låta kunderna använda tal som sätt att interagera med sina bildskärmar.
 
-  Se [Röstigenkänning](voice-recognition.md) för mer information.
+  Mer information finns i [Röstigenkänning](voice-recognition.md).
 
 ### Kända fel och korrigeringar {#known-issues}
 
-Konfigurera en miljö för Windows eller Android™-spelare om du använder AEM Screens 6.5.5 Service Pack.
+Konfigurera en miljö för Windows eller Android™ Player om du använder AEM Screens 6.5.5 Service Pack.
 
-Ange **Attributet SameSite för cookies för inloggningstoken** från **Lax** till **Ingen** från **Konfiguration av Adobe Experience Manager Web Console** på alla AEM författare och publiceringsinstanser.
+Ange attributet **SameSite för inloggningstokencookies** från **Lax** till **None** från **Adobe Experience Manager Web Console
+Konfiguration** för alla AEM författare och publiceringsinstanser.
 
-* Se [Implementera Windows 10 Player](implementing-windows-player.md#fp-environment-setup) för mer information.
+* Mer information finns i [Implementera Windows 10 Player](implementing-windows-player.md#fp-environment-setup).
 
-* Se [Implementera Android™ Player](implementing-android-player.md#fp-environment-setup) för mer information.
+* Mer information finns i [Implementera Android™ Player](implementing-android-player.md#fp-environment-setup).
 
 ### Släppta AEM Screens-spelare
 
 Följande AEM Screens-spelare släpps för AEM Screens som släpps AEM 6.5 Feature Pack 5.
 
-* Chrome OS
+* CHROME OS
 * Windows
 * Android™
 
 #### AEM Screens Player - nedladdningar
 
-Om du vill hämta den senaste versionen av AEM Screens Player och läsa mer om felkorrigeringarna kan du läsa **[AEM Screens Player - nedladdningar](https://download.macromedia.com/screens/index.html)**.
+Om du vill hämta den senaste versionen av AEM Screens Player och läsa mer om felkorrigeringarna kan du läsa **[AEM Screens Player-hämtningar](https://download.macromedia.com/screens/index.html)**.

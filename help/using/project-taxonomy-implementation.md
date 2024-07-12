@@ -25,13 +25,13 @@ Tänk på följande innan du implementerar din digitala signeringslösning från
 * **Schemaläggning**
 * **Förhandsgranska innehållet**
 
-Mer information om dessa villkor finns i [Ordlista](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/overview/screens-glossary).
+Mer information om dessa termer finns i [Ordlistan](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/overview/screens-glossary).
 
 >[!NOTE]
 >
 >Det är bäst att överväga att använda:
 >
->* databas för maskinvaruresurser för att automatiskt fylla i ett skärmsprojekt
+>* databas för maskinvaruresurser som automatiskt fyller i ett Screens-projekt
 >* textkonfigurationsfil som automatiskt pekar mot en viss instans av en AEM
 
 ## Implementera ett AEM Screens-projekt {#creating-a-project}
@@ -44,12 +44,12 @@ En AEM Screens-författare ansvarar för att skapa och hantera en användarupple
 
 En författare startar vanligtvis ett AEM Screens-projekt av:
 
-* [skapa ett AEM Screens-projekt](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/authoring/setting-up-projects/creating-a-screens-project)
-* [skapa kanaler](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/authoring/setting-up-projects/managing-channels)
-* [lägga till komponenter och resurser i kanalen](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/authoring/product-features/adding-components-to-a-channel)
-* [skapa tidsplaner](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/authoring/setting-up-projects/managing-schedules)
-* [skapa platser](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/authoring/setting-up-projects/managing-locations)
-* [skapa skärmar](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/authoring/setting-up-projects/managing-displays)
+* [skapar ett AEM Screens-projekt](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/authoring/setting-up-projects/creating-a-screens-project)
+* [skapar kanaler](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/authoring/setting-up-projects/managing-channels)
+* [lägger till komponenter och resurser i kanalen](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/authoring/product-features/adding-components-to-a-channel)
+* [skapar scheman](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/authoring/setting-up-projects/managing-schedules)
+* [skapar platser](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/authoring/setting-up-projects/managing-locations)
+* [skapar skärmar](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/authoring/setting-up-projects/managing-displays)
 * [tilldela kanaler till skärmar](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/authoring/setting-up-projects/assigning-channels/channel-assignment)
 
 * [visa innehåll i en AEM Screens Player](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/administering/working-with-screens-player)

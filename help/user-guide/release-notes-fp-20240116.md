@@ -1,5 +1,5 @@
 ---
-title: Versionsinformation för skärmar, funktionspaket 20240116
+title: Versionsinformation om Screens Feature Pack 20240116
 description: Läs mer om AEM Screens Feature Pack 20240116 släppt den 16 januari 2024.
 feature: Feature Pack
 role: Developer
@@ -21,7 +21,7 @@ ht-degree: 1%
 
 AEM Screens AEM 6.5 Feature Pack 11.2.
 
-Du kan ladda ned den senaste funktionspaketet för AEM Screens 6.5.11.2 från [Programdistributionsportal](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) med din Adobe ID. Navigera till **Adobe Experience Manager** flik och sök efter **Skärmar** för att få det senaste funktionspaketet med namnet **AEM 6.5 skärmar FP11.2**.
+Du kan hämta det senaste funktionspaketet för AEM Screens 6.5.11.2 från [Software Distribution Portal](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) med din Adobe ID. Gå till fliken **Adobe Experience Manager** och sök efter **Screens** för att få den senaste funktionspaketet med namnet **AEM 6.5 Screens FP11.2**.
 
 ## Releasedatum {#release-date}
 
@@ -33,10 +33,10 @@ Den här versionen innehåller endast säkerhetskorrigeringar.
 
 ### Felkorrigeringar {#bug-fixes}
 
-* XSS-problem `libs/screens/dcc/components/clientlibs/validation/resourcetypevalidation.js`. (SCRNS-3764)
+* XSS-utgåva `libs/screens/dcc/components/clientlibs/validation/resourcetypevalidation.js`. (SCRNS-3764)
 
-* XSS-problem `libs/screens/dcc/components/fileuploaddrop/clientlibs/js/dropzone.js`. (SCRNS-3906)
+* XSS-utgåva `libs/screens/dcc/components/fileuploaddrop/clientlibs/js/dropzone.js`. (SCRNS-3906)
 
 #### AEM Screens Player - nedladdningar
 
-Om du vill hämta den senaste versionen av AEM Screens Player går du till **[AEM Screens Player - nedladdningar](https://download.macromedia.com/screens/index.html)**.
+Information om hur du hämtar den senaste versionen av AEM Screens Player finns i **[AEM Screens Player-hämtningar](https://download.macromedia.com/screens/index.html)**.

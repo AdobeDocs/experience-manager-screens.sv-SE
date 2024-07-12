@@ -18,8 +18,8 @@ Följ riktlinjerna för stöd och underhåll för dag två i projektutvecklingsf
 1. Kör de senaste versionerna av följande paket för din version av Adobe Experience Manager:
 
    * **AEM Service Pack**
-   * **Funktionspaket för skärmar**
-   * **AEM Kumulativt korrigeringspaket**
+   * **Screens Feature Pack**
+   * **AEM kumulativt korrigeringspaket**
 
 1. Identifiera eventuella utvecklingspaket (till exempel WCM Core-komponenter) eller verktygspaket från tredje part (till exempel SAP Hybris) som krävs.
 

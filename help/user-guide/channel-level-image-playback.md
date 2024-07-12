@@ -27,9 +27,9 @@ När du skapar en sekvenskanal och lägger till bilder i den får alla bilder so
 
 Innan du börjar implementera den här funktionen bör du kontrollera att du har konfigurerat ett projekt som en förutsättning för att börja implementera den här funktionen. Exempel:
 
-1. Skapa ett exempel på ett AEM Screens-projekt **ChannelLevelPlayback**.
+1. Skapa ett exempel på ett AEM Screens-projekt, **ChannelLevelPlayback**.
 
-1. Skapa en sekvenskanal som **PlaybackChannel** under **Kanaler** mapp.
+1. Skapa en sekvenskanal som **PlaybackChannel** i mappen **Channels** .
 
 1. Lägg till innehåll i **PlaybackChannel**.
 
@@ -45,7 +45,7 @@ Följ stegen nedan för att lära dig hur du uppdaterar tilldelning för bildspe
 
    ![screen_shot_2019-06-24at62818pm](assets/screen_shot_2019-06-24at62818pm.png)
 
-1. Klicka **Redigera** i åtgärdsfältet.
+1. Klicka på **Redigera** i åtgärdsfältet.
 
    ![screen_shot_2019-06-24at70141pm](assets/screen_shot_2019-06-24at70141pm.png)
 
@@ -57,14 +57,14 @@ Följ stegen nedan för att lära dig hur du uppdaterar tilldelning för bildspe
 
    ![screen_shot_2019-06-25at95945am](assets/screen_shot_2019-06-25at95945am.png)
 
-1. The **Sida** öppnas.
+1. Dialogrutan **Sida** öppnas.
 
    >[!NOTE]
    >Som standard är bilderna i en kanal inställda på 8 sekunders uppspelningstid.
 
    ![screen_shot_2019-06-25at100343am](assets/screen_shot_2019-06-25at100343am.png)
 
-   Redigera **Varaktighet** från 8 000 (millisekunder) till 3 000 (millisekunder), dvs. 3 sekunder. Klicka på bockmarkeringen längst upp till höger på **Sida** så att du kan spara ändringarna.
+   Redigera **Varaktighet** från 8 000 (millisekunder) till 3 000 (millisekunder), d.v.s. 3 sekunder. Klicka på bockmarkeringen längst upp till höger i dialogrutan **Sida** så att du kan spara ändringarna.
 
    ![screen_shot_2019-06-25at101527am](assets/screen_shot_2019-06-25at101527am.png)
 

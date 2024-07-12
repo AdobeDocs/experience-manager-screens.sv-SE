@@ -25,7 +25,7 @@ Du kan bädda in ett interaktivt enkelsidigt program med REACT (eller Angular). 
 
 Följ stegen nedan för att använda AEM SPA Editor:
 
-1. Klona AEM SPA Editor-rapporten på [https://github.com/adobe/aem-spa-project-archetype.](https://github.com/adobe/aem-spa-project-archetype)
+1. Klona AEM SPA Editor på [https://github.com/adobe/aem-spa-project-archetype.](https://github.com/adobe/aem-spa-project-archetype)
 
    >[!NOTE]
    >
@@ -46,10 +46,10 @@ Följ stegen nedan för att använda AEM SPA Editor:
 
    >[!NOTE]
    >
-   >Dokumentationen använder **GroupId** as ***com.adobe.aem.screens*** och **ArtifactId** as ***Mitt SPA*** (som är standard). Du kan välja egna efter behov.
+   >I den här dokumentationen används **GroupId** som ***com.adobe.aem.screens*** och **ArtifactId** som ***My Sample SPA*** (som är standardvärdena). Du kan välja egna efter behov.
 
 1. När projektet har skapats kan du antingen använda en utvecklingsmiljö eller en redigerare och importera det genererade Maven-projektet.
-1. Distribuera till den lokala AEM med kommandot ***mvn clean install -PautoInstallPackage***.
+1. Distribuera till den lokala AEM med kommandot ***mvn clear install -PautoInstallPackage***.
 
 ### Redigera innehåll i REACT-appen {#editing-content-in-the-react-app}
 
@@ -62,28 +62,28 @@ Så här redigerar du innehållet i REACT-appen:
 
 Följ stegen nedan för att lägga till den interaktiva REACT-appen i AEM Screens:
 
-1. Skapa ett AEM Screens-projekt. Se [Skapa och hantera projekt](creating-a-screens-project.md) för mer information.
-1. Skapa en **Programkanal** (helst) (eller 1x1-mall eller flerzonskanal) i **Kanaler** i ditt AEM Screens-projekt.
+1. Skapa ett AEM Screens-projekt. Mer information finns i [Skapa och hantera projekt](creating-a-screens-project.md).
+1. Skapa en **programkanal** (helst) (eller mall 1x1 eller kanal med flera zoner) i mappen **Kanaler** i ditt AEM Screens-projekt.
 
    >[!NOTE]
-   >**Sekvenskanaler** är inte lämpliga att använda eftersom de i sig har en bildspelslogik som står i konflikt med upplevelsens interaktiva natur.
-   >Se [Skapa och hantera kanaler](managing-channels.md) för mer information.
+   >**Sekvenskanaler** rekommenderas inte för det här användningsfallet eftersom de har en bildspelslogik som är i konflikt med upplevelsens interaktiva karaktär.
+   >Mer information finns i [Skapa och hantera kanaler](managing-channels.md).
 
 1. Redigera valfri sekvenskanal och dra och släpp en inbäddad sidkomponent.
 
-   Se [Lägga till komponenter i en kanal](adding-components-to-a-channel.md) för mer information.
+   Mer information finns i [Lägga till komponenter i en kanal](adding-components-to-a-channel.md).
 
    >[!NOTE]
    >
    >Se till att du lägger till användarinteraktionshändelsen när du tilldelar kanalen till visningen.
 
-1. Klicka **Redigera** i åtgärdsfältet så att du kan redigera kanalens egenskaper.
+1. Klicka på **Redigera** i åtgärdsfältet så att du kan redigera kanalens egenskaper.
 
    ![screen_shot_2019-02-15at100555am](assets/screen_shot_2019-02-15at100555am.png)
 
-1. Dra och släpp **Inbäddad sida** eller återanvända den befintliga komponenten i en programkanal och klicka på startsidan under mysamplespa-programmet, till exempel ***/content/mysamplespa/en/home***.
+1. Dra och släpp komponenten **Inbäddad sida** eller återanvänd den befintliga komponenten i en programkanal och klicka på startsidan under mysamplespa-programmet, till exempel ***/content/mysamplespa/en/home*** .
 
-   ![screen_shot_2019-02-15at10104am](assets/screen_shot_2019-02-15at101104am.png)
+   ![screen_shot_2019-02-15at101104am](assets/screen_shot_2019-02-15at101104am.png)
 
 1. Tilldela kanalen till en skärm.
 
@@ -92,7 +92,7 @@ Följ stegen nedan för att lägga till den interaktiva REACT-appen i AEM Screen
 
 1. Registrera en spelare för det här projektet och tilldela den till visningen. Nu kan du se hur ditt interaktiva program körs på AEM Screens.
 
-   Se [Enhetsregistrering](device-registration.md) för mer information om hur du registrerar en enhet.
+   Mer information om hur du registrerar en enhet finns i [Enhetsregistrering](device-registration.md).
 
 ## Integrera SPA med Adobe Analytics med offlinefunktioner via AEM Screens {#integrating-the-spa-with-adobe-analytics-with-offline-capability-through-aem-screens}
 
@@ -100,12 +100,12 @@ Följ stegen nedan för att integrera SPA med Adobe Analytics med offlinefunktio
 
 1. Konfigurera Adobe Analytics i AEM Screens.
 
-   Se [Konfigurera Adobe Analytics med AEM Screens](configuring-adobe-analytics-aem-screens.md) om du vill ha mer information om hur du utför sekvensering i Adobe Analytics med AEM Screens och skickar anpassade händelser med Adobe Analytics offline.
+   Mer information om hur du utför sekvensering i Adobe Analytics med AEM Screens och skickar anpassade händelser med Adobe Analytics offline finns i [Konfigurera Adobe Analytics med AEM Screens](configuring-adobe-analytics-aem-screens.md) .
 
 1. Redigera din reaktionsapp i den utvecklingsmiljö/redigerare du väljer (särskilt textkomponenten eller någon annan komponent som du vill börja skicka händelser för).
 1. Lägg till analysinformationen med standarddatamodellen i klickhändelsen eller i någon annan händelse som du vill hämta för komponenten.
 
-   Se [Konfigurera Adobe Analytics med AEM Screens](configuring-adobe-analytics-aem-screens.md) för mer information.
+   Mer information finns i [Konfigurera Adobe Analytics med AEM Screens](configuring-adobe-analytics-aem-screens.md).
 
 1. Anropa AEM Screens Analytics API så att du kan spara händelsen offline och skicka den i bursts till Adobe Analytics.
 

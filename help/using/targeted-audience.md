@@ -11,7 +11,7 @@ ht-degree: 0%
 
 # Målgrupp {#target-audience}
 
-Som erfaren AEM har du förmodligen sett rollerna som *Författare*, *Utvecklare* och *IT-tekniker*.
+Som erfaren AEM har du antagligen sett rollerna kallas *Författare*, *Utvecklare* och *IT-tekniker*.
 
 I ett typiskt AEM Screens-projekt har rollerna förfinats ytterligare eftersom de har ett viktigt syfte i projektet.
 

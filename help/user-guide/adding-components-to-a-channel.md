@@ -23,18 +23,18 @@ Komponenter är de grundläggande elementen i AEM (Adobe Experience Manager). Du
 
 ## Komponenter i AEM Screens {#components-in-aem-screens}
 
-AEM Screens har olika AEM som kan användas i ett skärpeprojekt.
+AEM Screens har olika AEM som kan användas i ett Screens-projekt.
 
 ### Visa AEM Screens-komponenter {#viewing-aem-screens-components}
 
 När du skapar ett AEM Screens-projekt visas en lista med standardkomponenter som kan läggas till i projektet.
 
-Följ stegen nedan om du vill visa standardkomponenterna för ditt skärmsprojekt:
+Följ stegen nedan för att visa standardkomponenterna i ditt Screens-projekt:
 
-1. Klicka på kanalen. Till exempel: **`We.Retail In Store`** > **Kanaler** > **Inaktiv kanal**.
+1. Klicka på kanalen. Exempel: **`We.Retail In Store`** > **Kanaler** > **Inaktiv kanal**.
 
-1. Klicka **Redigera** i åtgärdsfältet.
-1. I AEM Editor klickar du på **+** -ikonen från sidorutan.
+1. Klicka på **Redigera** i åtgärdsfältet.
+1. Klicka på ikonen **+** i AEM Editor.
 1. Alla komponenter som ingår som standard i ett AEM Screens-projekt visas, vilket visas i bilden nedan.
 
 ![screen_shot_2017-12-18at21350pm](assets/screen_shot_2017-12-18at21350pm.png)
@@ -45,12 +45,12 @@ AEM innehåller flera andra komponenter. Du kan alltid lägga till andra kompone
 
 I följande exempel visas hur en Livefyre-komponent läggs till i ett AEM Screens-projekt:
 
-1. Klicka på den kanal där du vill lägga till en komponent. Till exempel: **`We.Retail In Store`** > **Kanaler** > **Inaktiv kanal**.
+1. Klicka på den kanal där du vill lägga till en komponent. Exempel: **`We.Retail In Store`** > **Kanaler** > **Inaktiv kanal**.
 
-1. Klicka **Redigera** i åtgärdsfältet.
-1. Klicka **Design** läge.
-1. Klicka på hela designredigeraren till höger och klicka på inställningssymbolen så att du kan öppna **Parsys Design** -dialogrutan.
-1. Du kan klicka på de komponenter du vill importera till ditt AEM Screens-projekt. I följande exempel visas tillägget **Livefyre** till ett AEM Screens-projekt.
+1. Klicka på **Redigera** i åtgärdsfältet.
+1. Klicka på **Designläge**.
+1. Klicka på hela designredigeraren till höger och klicka på inställningssymbolen så att du kan öppna dialogrutan **Parsys Design** .
+1. Du kan klicka på de komponenter du vill importera till ditt AEM Screens-projekt. I följande exempel visas hur komponenten **Livefyre** har lagts till i ett AEM Screens-projekt.
 
 ![adding_components](assets/adding_components.gif)
 
@@ -68,7 +68,7 @@ I följande avsnitt förklaras vilka AEM Screens-komponenter du kan använda i d
 
 ### Program {#application}
 
-The **Program** kan du lägga till ett program i kanalen.
+Med komponenten **Application** kan du lägga till ett program i kanalen.
 
 Programkomponenten har följande egenskaper:
 
@@ -87,7 +87,7 @@ I följande exempel visas hur du bäddar in en programkomponent tillsammans med 
 
 ### Kanal {#channel}
 
-The **Kanal** kan du lägga till en hel kanal i projektet.
+Med komponenten **Kanal** kan du lägga till en hel kanal i projektet.
 
 Komponenten Channel har följande egenskaper:
 
@@ -110,7 +110,7 @@ Komponenten Channel har följande egenskaper:
 
 ### Inbäddad sida {#embedded-page}
 
-An **Inbäddad sida** Med kan du lägga till en inbäddad sida i projektet. Det kan till exempel vara ett webbprogram eller en produktkatalog.
+Med en **inbäddad sida** kan du lägga till en inbäddad sida i projektet. Det kan till exempel vara ett webbprogram eller en produktkatalog.
 
 Den inbäddade sidan har följande egenskaper:
 
@@ -135,7 +135,7 @@ Den inbäddade sidan har följande egenskaper:
 
 >[!NOTE]
 >
->Mer information om inbäddade sekvenser finns i [Inbäddade sekvenser](embedded-sequences.md) under Authoring Screens.
+>Mer detaljerad information om inbäddade sekvenser finns i [Inbäddade sekvenser](embedded-sequences.md) under redigeringsdelen för Screens.
 
 Med en inbäddad sekvens kan du lägga till en inbäddad sekvenskanal i den befintliga kanalen (med andra resurser).
 
@@ -149,7 +149,7 @@ Den inbäddade sekvensen har följande sidegenskaper:
   </tr>
   <tr>
    <td>Kanalsökväg</td>
-   <td>Välj den absoluta sökvägen för den sekvens som du vill ta med i kanalen.<br /> </td>
+   <td>Välj den absoluta sökvägen för den sekvens som du vill ta med i din kanal.<br /> </td>
   </tr>
   <tr>
    <td><strong><em>Varaktighet (millisekunder)</em></strong></td>
@@ -157,7 +157,7 @@ Den inbäddade sekvensen har följande sidegenskaper:
   </tr>
   <tr>
    <td><strong><em>Strategi</em></strong></td>
-   <td>Ställ in den på <strong>original</strong> eller <strong>enkel</strong>. Ange värdet för <strong>original</strong> betyder att efterföljande körning körs helt och hållet på varje cykel i den överordnade sekvensen. Det andra möjliga värdet är <strong>enkel</strong>. Ett sådant värde visar bara en post i varje efterföljande körning. Det första objektet i den första slingan och det andra objektet i den andra slingan.</td>
+   <td>Ställ in den på <strong>original</strong> eller <strong>single</strong>. Om du anger värdet till <strong>original</strong> innebär det att efterföljande körs helt och hållet på varje cykel i den överordnade sekvensen. Det andra möjliga värdet är <strong>single</strong>. Ett sådant värde visar bara en post i varje efterföljande körning. Det första objektet i den första slingan och det andra objektet i den andra slingan.</td>
   </tr>
  </tbody>
 </table>
@@ -166,7 +166,7 @@ Den inbäddade sekvensen har följande sidegenskaper:
 
 Med en dynamisk inbäddad sekvens kan du lägga till en sekvens som liknar den ovan nämnda förutom efter kanalroll.
 
-Mer information om inbäddade sekvenser finns i [Inbäddade sekvenser](embedded-sequences.md) under Authoring Screens.
+Mer information om inbäddade sekvenser finns i [Inbäddade sekvenser](embedded-sequences.md) under redigeringsdelen för Screens.
 
 Den dynamiska inbäddade sekvensen har följande egenskaper:
 
@@ -186,7 +186,7 @@ Den dynamiska inbäddade sekvensen har följande egenskaper:
   </tr>
   <tr>
    <td><strong><em>Strategi</em></strong></td>
-   <td>Ställ in den på <strong>original</strong> eller <strong>enkel</strong>. Ange värdet för <strong>original</strong> betyder att efterföljande körning körs helt och hållet på varje cykel i den överordnade sekvensen. Det andra möjliga värdet är <strong>enkel</strong>. Ett sådant värde visar bara en post i efterföljande körningar. Det första objektet i den första slingan och det andra objektet i den andra slingan.</td>
+   <td>Ställ in den på <strong>original</strong> eller <strong>single</strong>. Om du anger värdet till <strong>original</strong> innebär det att efterföljande körs helt och hållet på varje cykel i den överordnade sekvensen. Det andra möjliga värdet är <strong>single</strong>. Ett sådant värde visar bara en post i efterföljande körningar. Det första objektet i den första slingan och det andra objektet i den andra slingan.</td>
   </tr>
  </tbody>
 </table>
@@ -195,14 +195,14 @@ Den dynamiska inbäddade sekvensen har följande egenskaper:
 
 Med ett Experience Fragment kan du lägga till ett Experience Fragment (en grupp med en eller flera komponenter, inklusive innehåll och layout som kan refereras på sidor) i din AEM Screens-kanal. Dra och släpp komponenten till AEM Editor och klicka på Experience Fragment.
 
-Mer information om hur du skapar en Experience Fragment och använder den i ett AEM Screens-projekt finns i [Använda upplevelsefragment](experience-fragments-in-screens.md).
+Mer information om hur du skapar ett Experience Fragment och använder det i ett AEM Screens-projekt finns i [Använda Experience Fragments](experience-fragments-in-screens.md).
 
 ![exp](assets/exp.gif)
 
 | **Egenskap** | **Beskrivning** |
 |---|---|
-| **Experience Fragment** |
-| ***Experience Fragment*** | Välj Experience Fragment. |
+| **Upplevelsefragment** |
+| ***Upplevelsefragment*** | Välj Experience Fragment. |
 | ***Varaktighet*** | Markera hela längden på Experience Fragment som spelas upp i kanalen. |
 | **Offlinekonfiguration** |
 | ***Bibliotek på klientsidan*** | JavaScript- och CSS-filer. |
@@ -210,13 +210,13 @@ Mer information om hur du skapar en Experience Fragment och använder den i ett 
 
 >[!NOTE]
 >
->The **Bibliotek på klientsidan** och **Statiska filer** som du lägger till från den här komponenten förutom redan konfigurerade **Bibliotek på klientsidan** och de statiska filer som läggs till från Experience Fragment **Egenskaper**.
+>**Klientsidans bibliotek** och de **statiska filer** som du lägger till från den här komponenten är utöver de redan konfigurerade **Klientsidans bibliotek** och de statiska filer som läggs till från Experience Fragments **Properties** .
 
 ### Bild {#image}
 
 Med en bild kan du lägga till en bild i kanalen.
 
-Bildresursen har tre flikar, nämligen **Bild**, **Tillgänglighet** och **Sekvens**:
+Bildresursen har tre flikar: **Bild**, **Hjälpmedel** och **Sekvens**:
 
 | **Egenskap** | **Beskrivning** |
 |---|---|
@@ -229,17 +229,17 @@ Bildresursen har tre flikar, nämligen **Bild**, **Tillgänglighet** och **Sekve
 | **Tillgänglighet** |
 | ***Alternativ text*** | Alternativ text till bilden. |
 | **Sekvens** |
-| ***Varaktighet*** | Som standard är längden inställd på *8 000 millisekunder*. Om du vill ändra uppspelningstiden för bilden uppdaterar du **Varaktighet** fält. |
+| ***Varaktighet*** | Som standard är längden inställd på *8000 millisekunder*. Uppdatera fältet **Varaktighet** om du vill ändra uppspelningstiden för bilden. |
 
 ### Övergång {#transition}
 
-Med komponenten Övergång kan du lägga till en övergång i skärmsprojektet.
+Med komponenten Transition kan du lägga till en övergång i ditt Screens-projekt.
 
 I följande bild visas övergångskomponenten (som lagts till med dra och släpp) i redigeraren.
 
 ![screen_shot_2019-07-25at104237am](assets/screen_shot_2019-07-25at104237am.png)
 
-Klicka på övergångsikonen och klicka på **Konfigurera** (skiftnyckelsikon) för att öppna **Övergång** -dialogrutan. Den här dialogrutan innehåller tre flikar:
+Klicka på övergångsikonen och klicka på **Konfigurera** (skiftnyckelsikon) för att öppna dialogrutan **Övergång** . Den här dialogrutan innehåller tre flikar:
 
 * **Övergång**
 * **Sekvens**
@@ -247,7 +247,7 @@ Klicka på övergångsikonen och klicka på **Konfigurera** (skiftnyckelsikon) f
 
 >[!NOTE]
 >
->Som standard är sekvensen inställd på 600 millisekunder. Du kan uppdatera övergångssekvensen till andra värden med **Sekvens** -fliken.
+>Som standard är sekvensen inställd på 600 millisekunder. Du kan uppdatera övergångssekvensen till andra värden på fliken **Sekvens**.
 
 ![övergång](assets/transition.gif)
 
@@ -304,7 +304,7 @@ Klicka på övergångsikonen och klicka på **Konfigurera** (skiftnyckelsikon) f
 
 ### Video {#video}
 
-Med videokomponenten kan du lägga till en video i skärmsprojektet.
+Med videokomponenten kan du lägga till en video i ditt Screens-projekt.
 
 Videokomponenten har följande egenskaper:
 
@@ -320,11 +320,11 @@ Videokomponenten har följande egenskaper:
   </tr>
   <tr>
    <td><em><strong>Varaktighet</strong></em></td>
-   <td>Välj videons längd. Som standard är längden inställd på -1, vilket innebär att elementet körs för alltid. Om du ställer in varaktighetsvärdet &gt;0 visas elementet för den angivna varaktigheten och fortsätter sedan till nästa.<br /> </td>
+   <td>Välj videons längd. Som standard är längden inställd på -1, vilket innebär att elementet körs för alltid. Om du anger varaktighetsvärdet &gt;0 visas elementet för den angivna varaktigheten och fortsätter sedan till nästa.<br /> </td>
   </tr>
   <tr>
    <td><em><strong>Återgivning</strong></em></td>
-   <td><p>Om videoproportionerna inte passar skärmen kan du justera återgivningen till antingen <strong>innehåller</strong> eller <strong>täckning</strong>.</p> <p><em>Innehåller</em> betyder att hela videon visas och att de saknade områdena har en svart ram.</p> <p><em>Omslag</em> betyder att videon täcker hela visningsrutan, men vissa delar som flödar över sidorna är dolda.</p> </td>
+   <td><p>Om videoproportionerna inte passar skärmen kan du justera återgivningen till <strong>contain</strong> eller <strong>cover</strong>.</p> <p><em>Innehåll</em> innebär att hela videon visas och att de saknade områdena fylls med en svart kant.</p> <p><em>Omslag</em> innebär att videon täcker hela visningsrutan, men vissa delar som flödar över sidorna är dolda.</p> </td>
   </tr>
   <tr>
    <td><em><strong>Storlek</strong></em></td>

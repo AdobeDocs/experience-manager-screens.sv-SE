@@ -42,7 +42,7 @@ Konfigurationen tilldelar en Internet-åtkomst för varje AEM Screens-styrenhet 
 1. Om URL-anropet lyckas kan du fortsätta installera AEM Screens och registrera dig. Starta AEM Screens.
 
    >[!TIP]
-   >Du kan upptäcka att AEM Screens-anslutningen inte fungerar som den ska. Det förväntade innehållet visas inte. I sådana fall bör du kontrollera Internet Routers brandvägg om det finns några begränsningar gällande `TCP/IP Port 80/443`.
+   >Du kan upptäcka att AEM Screens-anslutningen inte fungerar som den ska. Det förväntade innehållet visas inte. I sådana fall bör du kontrollera Internet Router-brandväggen om det finns några begränsningar för `TCP/IP Port 80/443`.
 
 
 ## Konfigurera mobilnätverk med mobil datarouter och aktiva nätverkskomponenter {#requirements-direct}
@@ -59,7 +59,7 @@ Prestandan för internetanslutningen måste, förutom den redan beskrivna nätve
 
 *Tillräckligt* beror på antalet anslutna AEM Screens-enheter. Det beror också på användningen av andra konsumenter i nätverket, t.ex. smarttelefoner, surfplattor, kassörer, datorer eller Gästnätverk för Wi-Fi.
 Tänk på att alla enheter har samtidig åtkomst till Internet och att bandbredden minskar linjärt samtidigt som fler konsumenter/datorer läggs till i nätverket.
-Förutom den specifika teoretiska nätverksanslutningen måste man se till att mobilroutern åtminstone täcks *bra*. Dessutom måste den underliggande månadsplanen täcka in tillräckligt med datakapacitet och tillräcklig bandbredd för att alla anslutna klienter ska kunna betjäna det anslutna nätverket.
+Förutom den specifika teoretiska nätverksanslutningen måste det säkerställas att den mobila routerns täckning är minst *bra*. Dessutom måste den underliggande månadsplanen täcka in tillräckligt med datakapacitet och tillräcklig bandbredd för att alla anslutna klienter ska kunna betjäna det anslutna nätverket.
 
 Följande tabell visar datanätverken med deras standardbandbredd:
 
@@ -82,7 +82,7 @@ När du funderar på vilket datanätverk som ska användas rekommenderar Adobe a
 
 >[!IMPORTANT]
 >
->För inledande överföring av mediefiler och integrering av nya spelare måste man förvänta sig en högre datamängd och längre hämtningstid. Den återspeglas också i ovanstående antaganden. Ett 4G-nätverk med *bra* täckning och obegränsat antal data bör matcha de vanligaste installationerna i den här nätverksinställningarna.
+>För inledande överföring av mediefiler och integrering av nya spelare måste man förvänta sig en högre datamängd och längre hämtningstid. Den återspeglas också i ovanstående antaganden. Ett 4G-nätverk med *bra* täckning och obegränsade data bör matcha de vanligaste installationerna i den här nätverksinstallationen.
 
 
 ### Lokalt nätverk {#lan-connection}
@@ -91,9 +91,9 @@ LAN-nätverkets prestanda, förutom den redan beskrivna nätverkets nåbarhet, m
 
 Nätverkskomponenterna bör till exempel minst matcha 100 Mbit/s-standarden och matcha den bandbredd som anges i specifikationen Internet Access/Router.
 
-Om en Wi-Fi-lösning planeras för att ansluta skärmen till Internet Link rekommenderar vi att du använder moderna Wi-Fi-standarder som IEEE `802.11g` som ett minimum. Den här standarden stöder anslutningar på upp till 54 Mbit/s. Alla *nyare* Standarder som `802.11h-n` är av bättre kvalitet. Om en Wi-Fi-repeater krävs rekommenderar Adobe att du använder Wi-Fi-åtkomstpunktsteknologier som Google Nest Mesh Wi-Fi eller liknande.
+Om en Wi-Fi-lösning planeras för att ansluta skärmen till Internet Link rekommenderar vi att du använder moderna Wi-Fi-standarder som IEEE `802.11g` som minimum. Den här standarden stöder anslutningar på upp till 54 Mbit/s. Alla *nyare*-standarder som `802.11h-n` har bättre kvalitet. Om en Wi-Fi-repeater krävs rekommenderar Adobe att du använder Wi-Fi-åtkomstpunktsteknologier som Google Nest Mesh Wi-Fi eller liknande.
 
-## Hämta media och resurser {#download}
+## Hämta media och Assets {#download}
 
 AEM Screens ger användare av digitala signaturer en stor fördel. Den hämtar och sparar alla mediefiler som behövs lokalt, till exempel bilder och video. På grund av detta koncept uppstår den största nätverkstrafiken om det finns nytt innehåll som ska visas på en viss skärm.
 För normal drift, med en definierad spellista som inte uppdateras ofta, ger den en nästan nätverksoberoende åtgärd när alla filer sparas i spelaren.

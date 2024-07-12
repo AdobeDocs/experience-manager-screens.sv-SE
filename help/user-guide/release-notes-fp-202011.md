@@ -15,13 +15,13 @@ ht-degree: 0%
 # Versionsinformation för funktionspaket 2011 {#release-notes-for-feature-pack}
 
 >[!CAUTION]
->Adobe rekommenderar att du uppgraderar till den senaste versionen av Adobe Experience Manager (AEM). AEM Screens har underhållsstöd för AEM 6.3 Screens.
+>Adobe rekommenderar att du uppgraderar till den senaste versionen av Adobe Experience Manager (AEM). AEM Screens ger underhållsstöd för Screens AEM 6.3.
 
 ## Tillgänglighet {#availability}
 
 AEM Screens AEM 6.5 Feature Pack 6.
 
-Du kan ladda ned senaste funktionspaketet för AEM Screens 6.5.6 från [Programdistributionsportal](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) med din Adobe ID. Navigera till **Adobe Experience Manager** flik och sök efter **Skärmar** för att få det senaste funktionspaketet med namnet **AEM 6.5 skärmar FP6**.
+Du kan hämta den senaste funktionspaketet för AEM Screens 6.5.6 från [Software Distribution Portal](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) med din Adobe ID. Gå till fliken **Adobe Experience Manager** och sök efter **Screens** för att få den senaste funktionspaketet med namnet **AEM 6.5 Screens FP6**.
 
 ## Releasedatum {#release-date}
 
@@ -29,21 +29,21 @@ Releasedatum för AEM Screens Feature Pack 2011 är 30 november 2020.
 
 ### Nyheter {#what-is-new}
 
-* **Tilldelningsrapport för innehåll**
+* **Rapport om innehållstilldelning**
 
-  Med rapportfunktionen Innehållstilldelning kan en AEM Screens-administratör eller författare exportera en *Tilldelningsrapport för innehåll* i ett kalkylbladsformat.
-Se [Tilldelningsrapport för innehåll](/help/user-guide/content-assignment-report.md) för mer information.
+  Med rapportfunktionen Innehållstilldelning kan en AEM Screens-administratör eller författare exportera en *rapport om innehållstilldelning* i ett kalkylbladsformat.
+Mer information finns i [Rapport om innehållstilldelning](/help/user-guide/content-assignment-report.md).
 
 
 * **Tizen Player**
 
   En ny spelare som kallas Tizen-spelare har introducerats med den senaste versionen av Feature Pack för AEM Screens 6.5.6.
-Se [Implementera Tizen Player](/help/user-guide/tizen-player.md) för mer information.
+Mer information finns i [Implementera Tizen Player](/help/user-guide/tizen-player.md).
 
 * **Sökfunktioner från Enhetshanteraren**
 
   En ny sökfunktion finns nu i Device Manager-gränssnittet med den senaste funktionspaketet för AEM Screens 6.5.6.
-Se [Söka efter en enhet från Enhetshanteraren](/help/user-guide/device-registration.md#search-device) för mer information.
+Mer information finns i [Söka efter en enhet från Enhetshanteraren](/help/user-guide/device-registration.md#search-device).
 
 * **Standardintervall för ping**
 
@@ -53,7 +53,7 @@ Se [Söka efter en enhet från Enhetshanteraren](/help/user-guide/device-registr
 
 Följande AEM Screens-spelare finns för AEM 6.5 Feature Pack 6:
 
-* Chrome OS
+* CHROME OS
 * Windows
 * Android™
 * Tizen
@@ -61,4 +61,4 @@ Följande AEM Screens-spelare finns för AEM 6.5 Feature Pack 6:
 
 #### AEM Screens Player - nedladdningar
 
-Om du vill hämta den senaste versionen av AEM Screens Player och läsa mer om felkorrigeringarna kan du läsa **[AEM Screens Player - nedladdningar](https://download.macromedia.com/screens/index.html)**.
+Om du vill hämta den senaste versionen av AEM Screens Player och läsa mer om felkorrigeringarna kan du läsa **[AEM Screens Player-hämtningar](https://download.macromedia.com/screens/index.html)**.

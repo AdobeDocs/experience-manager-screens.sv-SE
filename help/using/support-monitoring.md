@@ -24,15 +24,15 @@ Med innehållsövervakning kan du felsöka problem med innehåll som inte visas 
 
 1. Om ett tomt skärmproblem påträffas:
 
-   * Kontrollera *förhandsgranska* så att du kan se om kanalen visar en svart skärm.
-   * Registrera en *lokal Chrome-spelare* (som ett tillägg) på din bärbara dator till den skärmen och se om det visar en svart skärm.
-   * Högerklicka, inspektera och kontrollera *tillämpliga loggar*.
+   * Kontrollera *förhandsgranskningen* så att du kan se om kanalen visar en svart skärm.
+   * Registrera en *lokal Chrome-spelare* (som ett tillägg) på din bärbara dator på den skärmen och se om det visar en svart skärm.
+   * Högerklicka och inspektera *tillämpliga loggar*.
 
    Om problemet inte inträffar på den lokala spelaren utan bara på enheten:
 
-   * Kontrollera *medietyp* (används) som kan ha problem på den enheten och även kontrollera om innehållet har hämtats lokalt (rensat kanalcache för administratörsgränssnitt).
-   * Inkludera alla *enhetsloggar* i biljetten för snabb felsökning.
-   * *Samla in loggar* från AEM.
+   * Kontrollera den *medietyp* (används) som kan ha problem på den enheten och kontrollera även om innehållet har hämtats lokalt (rensad kanal för administratörsgränssnitt).
+   * Inkludera eventuella *enhetsloggar* i biljetten för snabb felsökning.
+   * *Samla in loggar* från enheten från AEM.
 
 ## Enhetsövervakning {#device-monitoring}
 
@@ -40,6 +40,6 @@ Enhetsövervakning som är relaterad till övervakning av den fysiska enheten om
 
 1. Om ett tomt skärmproblem påträffas:
 
-   * Kontrollera om *visa* är påslagen.
-   * Kontrollera om *dator* är påslagen och skickar en signal.
+   * Kontrollera om *display* är påslagen.
+   * Kontrollera om *datorn* är påslagen och skickar en signal.
    * Högerklicka, inspektera och kontrollera *tillämpliga loggar*.

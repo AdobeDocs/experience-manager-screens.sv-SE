@@ -24,7 +24,7 @@ I följande avsnitt beskrivs hur du felsöker och felsöker videouppspelning i d
 
 ## DAM-återgivningar {#dam-renditions}
 
-När du har överfört videon till kanalen bör AEM börja skapa vissa återgivningar för den. Du kan visa dina videor under Resurser.
+När du har överfört videon till kanalen bör AEM börja skapa vissa återgivningar för den. Du kan visa dina videofilmer under Assets.
 
 Så här visar du videon:
 
@@ -41,7 +41,7 @@ Om det inte finns någon återgivning kontrollerar du att du har FFMPEG installe
 >
 >Klicka [här](https://www.ffmpeg.org/download.html) för att installera FFMPEG.
 
-## Videoresurser {#video-assets}
+## Video Assets {#video-assets}
 
 Om du inte ser något källattribut under video kan det bero på att videon inte har transkodats. Om videon omkodas korrekt visas den på kontrollpanelen, vilket visas i följande exempel:
 
@@ -51,7 +51,7 @@ Kontrollera att FFMPEG är installerat och videoprofilerna.
 
 ### Kontrollerar videoprofil {#checking-video-profile}
 
-1. Navigera till **Videoprofil**, det vill säga `http://localhost:4502/etc/dam/video.html` och klicka **Ladda upp testvideo**.
+1. Navigera till **videoprofilen**, det vill säga `http://localhost:4502/etc/dam/video.html`, och klicka på **Överför testvideo**.
 
    ![chlimage_1-3](assets/chlimage_1-3.png)
 
@@ -73,28 +73,28 @@ Kontrollera att FFMPEG är installerat och videoprofilerna.
 
 Kontrollera listan med profiler från siddesignen om videokomponenten inte är korrekt konfigurerad.
 
-1. Navigera till kanalen och klicka på **Design** läge.
+1. Navigera till kanalen och klicka på **designläget**.
 
    ![chlimage_1-6](assets/chlimage_1-6.png)
 
-1. Klicka på videon och öppna **Redigera** -dialogrutan. Öppna **Profiler** -fliken.
+1. Klicka på videon och öppna dialogrutan **Redigera**. Öppna fliken **Profiler**.
 
    >[!NOTE]
    >Klicka på olika profiler (åtminstone ska profilen&quot;Hög kvalitet H.264&quot; finnas).
 
 ### Kontrollera videon i webbspelaren {#checking-the-video-in-the-web-player}
 
-Använd **Web Player** `http://localhost:4502/content/mobileapps/cq-screens-player/firmware.html/content/screens/we-retail/locations/demo/flagship/single/device0` för att validera uppspelningen i webbläsare (Chrome och Safari). Chrome används på Android™-enheter medan Safari är OS X- och iOS-webbläsare.
+Använd **webbspelaren** `http://localhost:4502/content/mobileapps/cq-screens-player/firmware.html/content/screens/we-retail/locations/demo/flagship/single/device0` för att validera uppspelningen i webbläsare (Chrome och Safari). Chrome används på Android™-enheter medan Safari är OS X- och iOS-webbläsare.
 
 Om videon inte kan köras på Safari körs den inte heller i OS X- och iOS-spelare. Det här problemet är troligen ett kodningsproblem och videon måste kodas om.
 
 Så här använder du ett DAM-arbetsflöde för att skapa FullHD-renderingar:
 
-1. Navigera till *administratör för arbetsflödesmodell* det är `http://localhost:4502/libs/cq/workflow/admin/console/content/models.html/etc/workflow/models`.
-1. Klicka på **Skärmar - uppdatera resurs** modell.
-1. Klicka **Starta arbetsflöde** i åtgärdsfältet.
-1. Från **Kör arbetsflöde** klickar du på din videoresurs i dialogrutan **Nyttolast**.
-1. Klicka **Kör**.
+1. Navigera till *arbetsflödesmodelladministratören* som är `http://localhost:4502/libs/cq/workflow/admin/console/content/models.html/etc/workflow/models`.
+1. Klicka på modellen **Screens Update Asset**.
+1. Klicka på **Starta arbetsflöde** i åtgärdsfältet.
+1. I dialogrutan **Kör arbetsflöde** klickar du på videoresursen i **nyttolasten**.
+1. Klicka på **Kör**.
 
 >[!NOTE]
 >
@@ -107,13 +107,13 @@ Om AEM Screens Player hämtar videon men inte visar den felsöker du flaggan fö
 Följ stegen nedan för att felsöka Google problem med automatisk uppspelningspolicy:
 
 1. Navigera till ***chrome://flags/#autoplay-policy***
-1. Ändra **Spela upp automatiskt** från **Standard** till **ingen användargest krävs**
+1. Ändra **principen för automatisk uppspelning** från **Standard** till **ingen användargest krävs**
 
 1. Starta om webbläsaren och uppdatera spelaren
 
 >[!NOTE]
 >
->Om du vill veta mer om bästa praxis för bra användarupplevelser med de nya automatiska spelreglerna i Chrome. Se *Spela upp principändringar automatiskt* på `https://developers.google.com/web/updates/2017/09/autoplay-policy-changes#webaudio`.
+>Läs mer om de bästa sätten att skapa bra användarupplevelser med de nya automatiska spelreglerna i Chrome. Se *Principändringar automatiskt* på `https://developers.google.com/web/updates/2017/09/autoplay-policy-changes#webaudio`.
 
 ### Synkronisera video mellan flera spelare {#syncing-video-across-multiple-players}
 
@@ -137,7 +137,7 @@ Följ stegen nedan för att konfigurera en absolut strategi:
 
 1. Navigera till kanalförfattaren och klicka på sekvenskomponenten så som visas i bilden nedan.
 1. Öppna konfigurationsdialogrutan.
-1. Redigera **Strategi** och lägg till absolut.
+1. Redigera **strategin** och lägg till absolut.
 
    ![chlimage_1-8](assets/chlimage_1-8.png)
 
@@ -146,9 +146,9 @@ Följ stegen nedan för att konfigurera en absolut strategi:
 
 **Justera klockor i OS X** Följ stegen nedan för att justera klockorna i OS X:
 
-1. Öppna **Datum och tid** inställningar för varje OS X-ruta
+1. Öppna inställningarna för **Datum och tid** i varje OS X-ruta
 1. Kontrollera **Ange datum och tid automatiskt**
-1. Klistra in värdet 0.pool.ntp.org, 1.pool.ntp.org, 2.pool.ntp.org, 3.pool.ntp.org, time.apple.com i listrutan eller kör bara *sudo ntpdate -u -v 0.pool.ntp.org*
+1. Klistra in värde 0.pool.ntp.org, 1.pool.ntp.org, 2.pool.ntp.org, 3.pool.ntp.org, time.apple.com i listrutan eller kör *sudo ntpdate -u -v 0.pool.ntp.org*
 1. Starta 2+ spelare
 
 Det kan ta en stund innan spelarna startar en ny, justerad sekvens.

@@ -24,11 +24,11 @@ Den här processen tillämpas på:
 
 Detta hjälper till att flytta projektet från prototypfasen närmare den faktiska distributionsfasen.
 
-Från en **Resursnivåvy**bör du skapa trådramar som definierar olika innehållslayoutalternativ och innehållsgrupperingar. Det här arbetet hjälper dig att definiera hur flera innehållsdelar kan se ut när de sätts ihop som en grupp.
+Från en **resursnivåvy** bör du skapa trådramar som definierar olika innehållslayoutalternativ och innehållsgrupperingar. Det här arbetet hjälper dig att definiera hur flera innehållsdelar kan se ut när de sätts ihop som en grupp.
 Vanligtvis använder du faktiskt produktionsklar grafik, bilder och videor i den här aktiviteten.
 
-Från en **Kanalnivåvy** bör du skapa trådramar som visar hur innehållskanaler kopplas samman i den övergripande upplevelsen, inklusive uppspelningsstrategier för inbäddade kanaler. Du kan också granska kanalövergångar som kan inträffa när datautlösare aktiveras.
+Från en **kanalnivåvy** bör du skapa trådramar som visar hur innehållskanaler kopplas samman i den övergripande upplevelsen, inklusive uppspelningsstrategier för inbäddade kanaler. Du kan också granska kanalövergångar som kan inträffa när datautlösare aktiveras.
 
-På en **Projektnivå** kan ni börja modellera hur flera skärmar eller upplevelser kan fungera tillsammans på en fysisk plats för att skapa en komplett användarresa med flera kontaktytor.
+På en **projektnivå** kan du börja modellera hur flera skärmar eller upplevelser kan fungera tillsammans i en fysisk plats för att skapa en komplett användarresa med flera kontaktytor.
 
 Dessa strategier bör överensstämma med den UX-resekarta som skapats tidigare.

@@ -81,4 +81,4 @@ Om man ser på alla dessa faser som en del av den övergripande projektplanen ka
 
 När du är klar med testning, konceptkorrektur, pilotprojekt och utrullningar följer du nästa självstudiekurs som är djupdykt i Project Management och de processer som ingår.
 
-Navigera till **[Del 4: Projektledning och driftsättning](project-management-and-deployment.md)** för mer information.
+Navigera till **[Del 4: Projekthantering och distribution](project-management-and-deployment.md)** om du vill ha mer information.

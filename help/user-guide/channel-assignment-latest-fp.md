@@ -16,7 +16,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->I det här avsnittet beskrivs kanaltilldelning och planering av kanaler för AEM 6.5.5 Screens Feature Pack och senare.
+>I det här avsnittet beskrivs kanaltilldelning och kanalplanering för AEM 6.5.5 Screens Feature Pack och senare.
 
 När du har konfigurerat en visning tilldelar du en kanal till en visning för att visa innehållet.
 
@@ -42,17 +42,17 @@ Följ stegen nedan för att konfigurera ett projekt och en kanal:
    >[!NOTE]
    >Mer information om hur du skapar ett AEM Screens-projekt finns i [Skapa och hantera projekt](creating-a-screens-project.md).
 
-1. Skapa en sekvenskanal med namnet **Cafeteria** i **Kanaler** mapp.
+1. Skapa en sekvenskanal med namnet **Cafeteria** i mappen **Kanaler**.
 
 1. Klicka på kanalen och sedan på **Redigera** i åtgärdsfältet.
 
    ![bild](/help/user-guide/assets/channel-assignment/channel-assign-fp2.png)
 
-   Till exempel **Cafeteria** I kanalen visas nu följande bilder:
+   Kanalen **Cafeteria** visar nu följande bilder:
 
    ![bild](/help/user-guide/assets/channel-assignment/channel-assign-fp3.png)
 
-1. Skapa en plats med namnet som **SanJose** och en skärm som **Lobby**.
+1. Skapa en plats med namnet **SanJose** och en visning som **Lobby**.
 
    ![bild](/help/user-guide/assets/channel-assignment/channel-assign-fp4.png)
 
@@ -62,40 +62,40 @@ När projektkonfigurationen är klar tilldelar du kanalen till en visning för a
 
 1. Navigera till önskad visning, till exempel **DemoScreens** > **Platser** > **SanJose** > **Lobby**.
 
-1. Klicka **Tilldela kanal** i åtgärdsfältet.
+1. Klicka på **Tilldela kanal** i åtgärdsfältet.
 
    ![bild](/help/user-guide/assets/channel-assignment/channel-assign-fp5.png)
 
    Eller
 
-   Klicka **Kontrollpanel** i åtgärdsfältet och klicka på **+Tilldela kanal** från **TILLDELADE KANALER OCH SCHEMAN** -panelen.
+   Klicka på **Instrumentpanel** i åtgärdsfältet och klicka på **+Tilldela kanal** på panelen **TILLDELADE KANALER OCH SCHEMALÄGG** .
 
    ![bild](/help/user-guide/assets/channel-assignment/channel-assign-fp6.png)
 
-1. The **Kanaltilldelning** öppnas.
+1. Dialogrutan **Kanaltilldelning** öppnas.
 
    ![bild](/help/user-guide/assets/channel-assignment/channel-assign-fp7.png)
 
-1. Från **Inställningar** kan du välja kanal **efter bana** eller **efter namn**, anger **Kanalroll**, **Prioritet**, **Händelser som stöds** och **Avbrottsmetoder**. Du kan även aktivera attributverktygstipset i den här dialogrutan.
+1. Från alternativet **Inställningar** kan du välja kanalen **efter sökväg** eller **efter namn**, ange **kanalrollen**, **prioritet**, **händelser som stöds** och **avbrottsmetoder**. Du kan även aktivera attributverktygstipset i den här dialogrutan.
 
    ![bild](/help/user-guide/assets/channel-assignment/channel-assign-fp7.png)
 
    >[!NOTE]
    >
-   >Mer information om egenskaper för kanaltilldelning finns i [Kanalegenskaper](#channel-properties) -avsnitt.
+   >Mer information om egenskaper för kanaltilldelning finns i avsnittet [Kanalegenskaper](#channel-properties).
 
-1. Från **Schema** klickar du på **Aktiveringsfönster** och **Återkommande schema**.
+1. Klicka på **Aktiveringsfönstret** och **Återkommande schema** i alternativet **Schema**.
    ![bild](/help/user-guide/assets/channel-assignment/channel-assign-fp8.png)
 
    >[!NOTE]
    >
-   >Mer information om egenskaper för kanaltilldelning finns i [Kanalegenskaper](#channel-properties) -avsnitt.
+   >Mer information om egenskaper för kanaltilldelning finns i avsnittet [Kanalegenskaper](#channel-properties).
 
-1. Klicka **Spara** när du har konfigurerat dina inställningar.
+1. Klicka på **Spara** när du har konfigurerat inställningarna.
 
-### Visa innehållet i Chrome Player {#viewing-content-output}
+### Visa innehåll i Chrome Player {#viewing-content-output}
 
-I det här exemplet visas utdata på en Chrome Player. När du har tilldelat kanalen till din skärm registrerar du enheten till en spelare.
+I det här exemplet visas utdata för en Chrome Player. När du har tilldelat kanalen till din skärm registrerar du enheten till en spelare.
 
 Mer information om hur du registrerar en enhet i en AEM Screens Player finns i [Enhetsregistrering](device-registration.md).
 
@@ -105,23 +105,23 @@ Du kan visa följande utdata när du väljer spelare:
 
 ## Tidslinjevy {#timeline-view}
 
-När du har tilldelat en kanal till en visning och konfigurerat ett upprepningsschema, kan du visa tidslinjen från **TILLDELADE KANALER OCH SCHEMAN** -panelen.
+När du har tilldelat en kanal till en visning och konfigurerat ett upprepningsschema, kan du visa tidslinjen från panelen **TILLDELADE KANALER &amp; SCHEMALÄGG** .
 
 Följ stegen nedan för att navigera till tidslinjevyn:
 
 1. Navigera till önskad visning, till exempel **DemoScreens** > **Platser** > **SanJose** > **Lobby**.
 
-1. Klicka **Tilldela kanal** i åtgärdsfältet.
+1. Klicka på **Tilldela kanal** i åtgärdsfältet.
 
    Eller
 
-   Klicka **Kontrollpanel** och klicka **Tidslinje** från **TILLDELADE KANALER OCH SCHEMAN** -panelen.
+   Klicka på **Instrumentpanel** och klicka på **Tidslinje** på panelen **TILLDELADE KANALER OCH SCHEMALÄGG**.
 
    ![bild](/help/user-guide/assets/channel-assignment/timeline-1.png)
 
 ## Förstå kanalegenskaper från dialogrutan Kanaltilldelning {#channel-properties}
 
-Följande egenskaper ställs in från **Inställningar** i **Kanaltilldelning** -dialogrutan.
+Följande egenskaper ställs in från alternativet **Inställningar** i dialogrutan **Kanaltilldelning** .
 
 ![bild](/help/user-guide/assets/channel-assignment/channel-assign-fp7.png)
 
@@ -129,8 +129,8 @@ Följande egenskaper ställs in från **Inställningar** i **Kanaltilldelning** 
 
 Om du väljer en kanal kan du ange en referens till den önskade kanalen, antingen efter kanalnamn eller efter kanalsökväg.
 
-* **Efter bana** - Du anger en explicit referens med kanalens absoluta sökväg.
-* **Efter namn** - Du anger namnet på den kanal som matchar en faktisk kanal efter kontext. Med den här funktionen kan du skapa en lokal version av en kanal så att du dynamiskt kan matcha platsspecifikt innehåll. En kanal med namnet *dagens erbjudanden*, där det faktiska innehållet skulle vara annorlunda i två städer, men du fortfarande har den tillräkneliga kanalrollen på alla skärmar.
+* **Efter sökväg** - Du anger en explicit referens med kanalens absoluta sökväg.
+* **Efter namn** - Du anger namnet på kanalen som tolkas till en faktisk kanal efter kontext. Med den här funktionen kan du skapa en lokal version av en kanal så att du dynamiskt kan matcha platsspecifikt innehåll. En kanal med namnet *erbjudanden för dagen*, där det faktiska innehållet skulle vara annorlunda i två städer, men du har fortfarande den tillräkneliga kanalrollen på alla skärmar.
 
 ### Kanalroll {#role-channel}
 
@@ -142,59 +142,59 @@ Prioritet används för att ordna tilldelningarna om flera matchar uppspelningsv
 
 >[!NOTE]
 >
->Prioriteten för en kanal anges som ett tal (1 för minimum) i **Kanaltilldelning** som nämns ovan. Dessutom sorteras de tilldelade kanalerna baserat på fallande prioritet.
+>Prioriteten för en kanal anges som ett tal (1 för minimum) i dialogrutan **Kanaltilldelning** enligt ovan. Dessutom sorteras de tilldelade kanalerna baserat på fallande prioritet.
 
 ### Händelser som stöds {#supported-events-channel}
 
 * **Inledande inläsning** - Läser in kanalen när spelaren startas. Den kan tilldelas flera kanaler med ett schema.
-* **Inaktiv skärm** - Läser in när skärmen är inaktiv. Den kan tilldelas flera kanaler med ett schema.
+* **Inaktiv skärm** - läses in när skärmen är inaktiv. Den kan tilldelas flera kanaler med ett schema.
 * **Timer** - Måste anges när ett schema anges.
-* **Användarinteraktion** - Spelaren växlar till den angivna kanalen om det finns en användarinteraktion på skärmen (beröring) i en inaktiv kanal och läses in när skärmen rörs.
+* **Användarinteraktion** - Spelaren växlar till den angivna kanalen om det finns en användarinteraktion på skärmen (pekning) i en inaktiv kanal och läses in när skärmen ändras.
 
 ### Avbrottsmetod {#interruption-method-channel}
 
 >[!IMPORTANT]
-> Det här alternativet är bara tillgängligt med <!--AEM 6.4 Feature Pack 8 or-->AEM 6.5 Feature Pack 4.
+> Det här alternativet är endast tillgängligt med <!--AEM 6.4 Feature Pack 8 or-->AEM 6.5 Feature Pack 4.
 
 Som innehållsförfattare kan du ange när en kanal ska avbrytas. På så sätt kan du välja att ta bort icke-kritiskt innehåll. Men det ger också möjlighet att låta viktigt innehåll spelas upp i sin helhet innan det förkortas på grund av schemaläggningen.
 
-Välj ett av följande alternativ som är tillgängliga för att ställa in avbrottsmetoden på menyn **Kanaltilldelning** dialogruta:
+Välj något av följande alternativ som är tillgängliga för att ange avbrottsmetoden i dialogrutan **Kanaltilldelning**:
 
 * **Omedelbart** - När schemat aktiveras eller en uppdatering tas emot kan du avbryta uppspelningen och omedelbart uppdatera eller spela upp det nya innehållet
-* **Slutet på det aktuella objektet** - När ett nytt schema aktiveras eller en uppdatering tas emot kan du välja att vänta tills det aktuella objektet i sekvensen har spelats upp. Sedan kan du bara uppdatera eller spela upp det nya innehållet.
+* **Slut på det aktuella objektet** - När ett nytt schema aktiveras eller en uppdatering tas emot kan du välja att vänta tills det aktuella objektet i sekvensen har spelats upp. Sedan kan du bara uppdatera eller spela upp det nya innehållet.
 
   >[!NOTE]
   >Det här alternativet är markerat som standard.
 
-* **I slutet av sekvensen** - När ett nytt schema aktiveras eller en uppdatering tas emot, kan du välja att vänta tills hela sekvensen är klar. Precis före den önskade sekvensen kan du sedan repetera det första elementet, uppdatera eller spela upp det nya innehållet.
+* **I slutet av sekvensen** - När ett nytt schema aktiveras eller en uppdatering tas emot kan du välja att vänta tills hela sekvensen är slut. Precis före den önskade sekvensen kan du sedan repetera det första elementet, uppdatera eller spela upp det nya innehållet.
 
   >[!NOTE]
   >Om du använder det andra eller tredje alternativet kan schemaläggningstiderna som har definierats för tilldelningen bli något fördröjda. Orsaken är att spelaren väntar på slutet av objektet eller sekvensen (efter den angivna tiden) innan den uppdateras. Fördröjningen beror på objektets uppspelningstid.
 
-Följande egenskaper ställs in från **Schema** i **Kanaltilldelning** -dialogrutan.
+Följande egenskaper ställs in från alternativet **Schema** i dialogrutan **Kanaltilldelning** .
 
 ![bild](/help/user-guide/assets/channel-assignment/channel-assign-fp8.png)
 
 ### Aktiveringsfönster {#activation-window}
 
-I aktiveringsfönstret kan du välja en **Startdatum** och **Slutdatum** för att visa innehållet.
+I aktiveringsfönstret kan du välja ett **startdatum** och ett **slutdatum** för att visa ditt innehåll.
 
 ### Återkommande schema {#recurrence-schedule}
 
-Med upprepningsschemat kan du ange ett återkommande schema för ditt innehåll. Klicka **+ Lägg till schema** om du vill lägga till ett upprepningsschema i kanalen.
+Med upprepningsschemat kan du ange ett återkommande schema för ditt innehåll. Klicka på **+ Lägg till schema** för att lägga till ett upprepningsschema i kanalen.
 
 >[!NOTE]
 >Du kan lägga till flera återkommande scheman i din kanal.
->Återkommande scheman introducerar *DayParting*. Du ställer in ett globalt schema med flera kanaler som körs vid specifika tidpunkter på dygnet och återanvänder det som konfigurerats för alla skärmar samtidigt.
+>Upprepningsscheman introducerar *DayParting*. Du ställer in ett globalt schema med flera kanaler som körs vid specifika tidpunkter på dygnet och återanvänder det som konfigurerats för alla skärmar samtidigt.
 
 Du kan ange följande alternativ:
 
-* **Namn** - Titel på ditt schema för återkommande aktiviteter.
-* **Upprepa** - Välj om schemat ska köras **Dagligen**, **Vecka**, **Månadsvis**, eller **Årsvis**.
-* **Starta** - Starttiden för ditt schema.
-* **End** - Sluttiden för ditt schema. Du kan ange den efter tid eller varaktighet.
+* **Namn** - Titel på schemat för återkommande aktiviteter.
+* **Upprepa** - Välj om schemat ska köras **varje dag**, **varje vecka**, **varje månad** eller **varje år**.
+* **Start** - Starttiden för schemat.
+* **Slut** - Sluttiden för ditt schema. Du kan ange den efter tid eller varaktighet.
    * **Tid** - Schemat avslutas vid en angiven tidpunkt.
-   * **Varaktighet** - Schemat är öppet under en viss tid i timmar eller minuter.
+   * **Varaktighet** - Schemat körs för en viss tid i timmar eller minuter.
 
 ### DayParting {#dayparting}
 
@@ -208,7 +208,7 @@ I det här exemplet visas hur en restaurang använder DayParting för att visa u
 
 Här delas varje dag in i olika tidsplatser, så att kanalinnehållet spelas upp enligt den angivna tiden på dagen. Ange följande egenskaper i schemat för upprepning för din kanal för att spela upp innehållet enligt det här användningsfallet.
 
-| **Namn** | **Upprepningar** | **Starta** | **End** |
+| **Namn** | **Upprepningar** | **Start** | **Slut** |
 |---|---|---|---|
 | Frukosten | Dagligen | 6.00 | 11:00 |
 | Lunch | Dagligen | 11:00 | 03:00 |
@@ -218,11 +218,11 @@ Här delas varje dag in i olika tidsplatser, så att kanalinnehållet spelas upp
 
 I det här exemplet visas DayParting som implementerats i ett kasino där live-event inträffar varje helg från kl. 20.00 till kl. 23.00. Specialerbjudanden finns tillgängliga för middagsmeny efter kl. 10.00 till kl. 13.00.
 
-| **Namn** | **Upprepningar** | **Starta** | **End** |
+| **Namn** | **Upprepningar** | **Start** | **Slut** |
 |---|---|---|---|
 | Weekend | Vecka: lördag och söndag | 08:00 | 10.00 |
 | Specialer | Dagligen: måndag till fredag | 10.00 | 1:00 |
 
 >[!NOTE]
 >
->Du kan också definiera ***Prioritet*** för varje kanal. Om till exempel två kanaler är inställda för samma dag och tid eller för samma månad, spelas den kanal som har högre prioritet upp först. Minimivärdet för prioritet kan anges till 0.
+>Du kan också definiera ***prioritet*** för varje kanal. Om till exempel två kanaler är inställda för samma dag och tid eller för samma månad, spelas den kanal som har högre prioritet upp först. Minimivärdet för prioritet kan anges till 0.

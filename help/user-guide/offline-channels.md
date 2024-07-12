@@ -19,11 +19,11 @@ ht-degree: 1%
 
 # Offlinekanaler {#offline-channels}
 
-Screens Player ger kanalerna offlinesupport med ***ContentSync*** teknik.
+Screens-spelaren tillhandahåller offlinesupport för kanalerna med hjälp av tekniken ***ContentSync*** .
 
 Spelarna använder en lokal http-server för att hantera det uppackade innehållet.
 
-När en kanal är konfigurerad att köras *online*, används för att visa kanalresurserna genom åtkomst till AEM. När kanalen är konfigurerad att köras *offline* spelaren visar kanalresurserna från en lokal http-server.
+När en kanal har konfigurerats för att köra *online*, visar spelaren kanalresurserna genom att gå till AEM. När kanalen är konfigurerad att köra *offline*, visar spelaren kanalresurserna från en lokal http-server.
 
 Arbetsflödet är följande:
 
@@ -35,12 +35,12 @@ Arbetsflödet är följande:
 
 ## Uppdatera hanterare {#update-handlers}
 
-The ***ContentSync*** använder uppdateringshanterare för att analysera och samla in alla nödvändiga sidor och resurser för ett visst projekt. AEM Screens använder följande uppdateringshanterare:
+***ContentSync*** använder uppdateringshanterare för att analysera och samla in alla nödvändiga sidor och resurser för ett visst projekt. AEM Screens använder följande uppdateringshanterare:
 
 ### Vanliga alternativ {#common-options}
 
-* *type*: den uppdateringshanterartyp som ska användas
-* *bana*: sökväg till resursen
+* *typ*: den uppdateringshanterartyp som ska användas
+* *sökväg*: sökväg till resursen
 * *[targetRootDirectory]*: målmapp i zip-filen
 
 <table>
@@ -53,7 +53,7 @@ The ***ContentSync*** använder uppdateringshanterare för att analysera och sam
   <tr>
    <td><code>channels</code></td> 
    <td>samlar in en kanal</td> 
-   <td>tillägg: tillägg för resursen som ska samlas in<br /> [pathSuffix='']: suffix att lägga till i kanalsökvägen<br /> </td> 
+   <td>tillägg: tillägg för resursen för att samla in <br /> [pathSuffix='']: suffix att lägga till i kanalsökvägen <br /> </td> 
   </tr>
   <tr>
    <td><code>clientlib</code></td> 
@@ -79,9 +79,9 @@ Följ stegen nedan för att testa ContentSync-konfigurationen:
 
 1. Öppna `https://localhost:4502/libs/cq/contentsync/content/console.html`.
 1. Klicka på din konfiguration i listan.
-1. Klicka **Rensa cache**.
-1. Klicka **Uppdatera cache**.
-1. Klicka **Ladda ned fullständig**.
+1. Klicka på **Rensa cache**.
+1. Klicka på **Uppdatera cache**.
+1. Klicka på **Hämta fullständig**.
 1. Extrahera zip-filen.
 1. Starta en lokal server i den extraherade mappen.
 1. Öppna startsidan och kontrollera din appstatus.
@@ -95,20 +95,20 @@ Följ stegen nedan för att aktivera offlinekonfiguration för en kanal:
    ![chlimage_1-24](assets/chlimage_1-24.png)
 
 1. Navigera till kanalkontrollpanelen.
-1. Klicka **...** i **KANALINFORMATION** Panel.
+1. Klicka på **..** på panelen **KANALINFORMATION**.
 
    ![chlimage_1-25](assets/chlimage_1-25.png)
 
 1. Navigera till kanalegenskaperna.
-1. Kontrollera att kryssrutan är inaktiverad på fliken (Kanal) och klicka sedan på **Spara och stäng**.
+1. Kontrollera att kryssrutan är inaktiverad på fliken ((Kanal)) och klicka sedan på **Spara och stäng**.
 
    ![screen_shot_2017-12-19at122422pm](assets/screen_shot_2017-12-19at122422pm.png)
 
-   Innan innehållet distribueras till enheten klickar du på **Uppdatera offlineinnehåll**.
+   Klicka på **Uppdatera offlineinnehåll** innan innehållet distribueras korrekt till enheten.
 
    ![screen_shot_2017-12-19at122637pm](assets/screen_shot_2017-12-19at122637pm.png)
 
-   The **Offline** status under **EGENSKAPER** uppdateras även i enlighet med detta.
+   Statusen **Offline** under **EGENSKAPER** uppdateras också.
 
    ![screen_shot_2017-12-19at124735pm](assets/screen_shot_2017-12-19at124735pm.png)
 
@@ -118,4 +118,4 @@ Följ stegen nedan för att aktivera offlinekonfiguration för en kanal:
 
 >[!NOTE]
 >
->Läs mer om mallen för anpassade offlineresurshanterare. Läs mer om minimikraven i `pom.xml` för projektet. Se [Mall för anpassade hanterare](/help/user-guide/developing-custom-component-tutorial-develop.md#custom-handlers) in **Utveckla en anpassad komponent för AEM Screens**.
+>Läs mer om mallen för anpassade offlineresurshanterare. Och läs mer om minimikraven i `pom.xml` för projektet. Se [Mall för anpassade hanterare](/help/user-guide/developing-custom-component-tutorial-develop.md#custom-handlers) i **Utveckla en anpassad komponent för AEM Screens**.

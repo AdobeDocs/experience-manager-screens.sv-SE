@@ -37,7 +37,7 @@ Följ stegen nedan för att se till att AEM skärmspelare är korrekt anslutna i
    >**Felsökningstips**
    >Om AEM Screens inte ansluter korrekt och det förväntade innehållet inte visas:
    >
-   >1. Kontrollera brandväggen för Internetroutern om det finns några begränsningar gällande `TCP/IP Port 80/443`.
+   >1. Kontrollera om det finns några begränsningar för `TCP/IP Port 80/443` i brandväggen för Internet Router.
    >1. Se till att alla portar som krävs tillåts.
 
 ## Konfigurera anslutna företagsnätverk {#requirements-enclosed-networks}
@@ -69,10 +69,10 @@ Nätverkskomponenterna bör till exempel minst matcha 100 Mbit/s-standarden och 
 Företagsnätverk har flera anslutna enheter, är indelade i olika undernätverk och har redundanta eller multiplexade internetanslutningar som ger tillräcklig prestanda för många tusen samtidiga åtkomstmöjligheter.
 Schemat är förenklat och passar de flesta miljöer som är tillgängliga för klienten.
 
-Om en Wi-Fi-lösning planeras för att ansluta AEM Screens till Internet Link rekommenderar vi att man använder moderna Wi-Fi-standarder som `IEEE 802.11g` som ett minimum. Denna standard stöder anslutningar upp till 54 Mbit/s. Alla *nyare* Standarder som `802.11h-n` är av bättre kvalitet. Om en Wi-Fi-repeater krävs rekommenderar Adobe att du använder trådlös nätanslutning som Google Nest Mesh Wi-Fi eller liknande.
+Om en Wi-Fi-lösning planeras för att ansluta AEM Screens till Internet Link rekommenderar vi att du använder moderna Wi-Fi-standarder som `IEEE 802.11g` som ett minimum. Denna standard stöder anslutningar upp till 54 Mbit/s. Alla *nyare*-standarder som `802.11h-n` har bättre kvalitet. Om en Wi-Fi-repeater krävs rekommenderar Adobe att du använder trådlös nätanslutning som Google Nest Mesh Wi-Fi eller liknande.
 Andra Wi-Fi-upprepande tekniker slutar med en enorm förlust av bandbredd i hela nätverket.
 
-## Hämta media och resurser {#download}
+## Hämta media och Assets {#download}
 
 AEM Screens ger användare av digitala signaturer en stor fördel. Den hämtar och sparar alla nödvändiga mediefiler lokalt, till exempel bilder och videor. Den största nätverkstrafiken inträffar när det finns nytt innehåll som ska visas på en viss skärm.
 

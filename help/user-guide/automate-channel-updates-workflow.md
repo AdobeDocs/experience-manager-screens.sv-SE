@@ -1,6 +1,6 @@
 ---
 title: Använda ett arbetsflöde för att automatisera resursuppdateringar för en AEM Screens-kanal
-description: Lär dig hur du skapar ett arbetsflöde som automatiskt bearbetar resurser som överförts till Adobe Experience Manager och dynamiskt tilldelar dem till en skärmkanal.
+description: Lär dig hur du skapar ett arbetsflöde för att automatiskt bearbeta material som överförts till Adobe Experience Manager och dynamiskt tilldela dem till en Screens-kanal.
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 content-type: reference
 topic-tags: developing
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 # Använda ett arbetsflöde för att automatisera resursuppdateringar för en AEM Screens-kanal {#automate-channel-updates-workflow}
 
-Lär dig hur du skapar ett arbetsflöde som automatiskt bearbetar resurser som överförts till Adobe Experience Manager och dynamiskt tilldelar dem till en skärmkanal. I det här exemplet aktiveras ett arbetsflöde när en bild läggs till i en viss mapp. Arbetsflödet tillämpar en dynamisk textövertäckning (vattenstämpelprocess) och tilldelar bilden till en skärmkanal. Lektioner från det här exemplet kan användas i en mängd olika automatiseringsscenarier.
+Lär dig hur du skapar ett arbetsflöde för att automatiskt bearbeta material som överförts till Adobe Experience Manager och dynamiskt tilldela dem till en Screens-kanal. I det här exemplet aktiveras ett arbetsflöde när en bild läggs till i en viss mapp. Arbetsflödet använder en dynamisk textövertäckning (vattenstämpelprocess) och tilldelar bilden till en Screens-kanal. Lektioner från det här exemplet kan användas i en mängd olika automatiseringsscenarier.
 
 ## Förutsättningar {#prerequisites}
 
@@ -25,11 +25,11 @@ För att slutföra den här självstudiekursen behöver du följande:
 
 1. [AEM 6.5](https://experienceleague.adobe.com/en/docs/experience-manager-65)
 1. [AEM Service Pack 8 eller senare](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/release-notes/release-notes)
-1. [AEM 6.5-skärmar FP7 eller senare](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/release-notes/release-notes-fp-202103)
+1. [AEM 6.5 Screens FP7 eller senare](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/release-notes/release-notes-fp-202103)
 
 ## Snabbinställningar {#quick-setup}
 
-I videon nedan visas hur du installerar ett exempelkodpaket som innehåller ett nytt arbetsflöde för Adobe Experience Manager. Med den här funktionen kan användare uppdatera egenskaperna för en mapp i AEM Assets så att de pekar på en skärmkanal. När en bild läggs till i den mappen läggs den till i den angivna AEM Screens-kanalen.
+I videon nedan visas hur du installerar ett exempelkodpaket som innehåller ett nytt arbetsflöde för Adobe Experience Manager. Med den här funktionen kan användare uppdatera egenskaperna för en mapp i AEM Assets så att den pekar på en Screens-kanal. När en bild läggs till i den mappen läggs den till i den angivna AEM Screens-kanalen.
 
 >[!VIDEO](https://video.tv.adobe.com/v/333174/?quality=12&learn=on)
 
@@ -38,19 +38,19 @@ I videon nedan visas hur du installerar ett exempelkodpaket som innehåller ett 
 
 ## Arbetsflödesmodell {#workflow-model}
 
-Ett anpassat mappmetadataschema skapades för att fånga målkanalen för skärmar som bilder ska läggas till. Två arbetsflödesmodeller används för att automatisera materialbearbetningen. The **DAM-uppdateringsresurs** arbetsflödet redigeras för att anropa ett anpassat arbetsflöde, **Bearbetning av skärmdemonstrationsresurser som undersöker resursens innehållsmapp för att fastställa målkanalen för skärmar. The **Bearbetning av demoresurser på skärmar** arbetsflödet ansvarar också för att använda vattenstämpeln på bilden.
+Ett anpassat mappmetadatchema skapades för att fånga målkanalen i Screens som bilder ska läggas till. Två arbetsflödesmodeller används för att automatisera materialbearbetningen. Arbetsflödet för **DAM-uppdatering av resurs** redigeras för att anropa ett anpassat arbetsflöde, **Screens-bearbetning av demoresurser som undersöker resursens innehållsmapp för att avgöra målkanalen i Screens. Arbetsflödet för **Screens-bearbetning av demoresurser** ansvarar också för att använda vattenstämpeln på bilden.
 
 >[!VIDEO](https://video.tv.adobe.com/v/333175/?quality=12&learn=on)
 
 ## Anpassade steg i arbetsflödet {#workflow-process-step}
 
-Inspect två anpassade arbetsflödessteg som används som en del av **Bearbetning av demoresurser på skärmar** arbetsflöde.
+Inspect har två anpassade arbetsflödessteg som används som en del av arbetsflödet för **Screens Resursbearbetning**.
 
 >[!VIDEO](https://video.tv.adobe.com/v/333179/?quality=12&learn=on)
 
-The `AssetProcessingCheck.java` anpassat arbetsflöde är en process som utför en kontroll av arbetsflödets nyttolast. Den avgör om nyttolasten är en resurs och om mappen som innehåller är konfigurerad att peka mot en AEM Screens-kanal. Om kraven är uppfyllda består processteget av två egenskaper, `screen-channel` och `asset-path`, till arbetsflödets metadata.
+Det anpassade arbetsflödet `AssetProcessingCheck.java` är en process som utför en kontroll av arbetsflödets nyttolast. Den avgör om nyttolasten är en resurs och om mappen som innehåller är konfigurerad att peka mot en AEM Screens-kanal. Om kraven är uppfyllda består processteget av två egenskaper, `screen-channel` och `asset-path`, till arbetsflödets metadata.
 
-The `AddAssetToChannel.java` anpassat arbetsflöde är ett processsteg som kontrollerar arbetsflödets metadata och uppdaterar AEM Screens-kanalen så att den refererar till bilden.
+Det anpassade arbetsflödet `AddAssetToChannel.java` är ett processsteg som kontrollerar arbetsflödets metadata och uppdaterar AEM Screens-kanalen så att den refererar till bilden.
 
 1. Hämta källkoden: **[screens-demo-main.zip](./assets/screens-demo-main.zip)**
 1. Zippa upp och visa koden med din favoritutvecklingsmiljö.

@@ -15,7 +15,7 @@ ht-degree: 0%
 # Kanaltilldelning {#channel-assignment}
 
 >[!IMPORTANT]
->I det här avsnittet beskrivs kanaltilldelning och planering av kanaler för funktionspaket som är äldre än AEM 6.5.5-skärmar.
+>I det här avsnittet beskrivs kanaltilldelning och planering av kanaler för funktionspaket som är äldre än AEM 6.5.5 Screens-version.
 
 När du har konfigurerat en visning tilldelar du en kanal till en visning för att visa innehållet.
 
@@ -32,15 +32,15 @@ Följ stegen nedan för att tilldela en kanal till en skärm:
 
    ![bild](assets/screen_shot_2018-08-23at25359pm.png)
 
-1. Klicka **Tilldela kanal** i åtgärdsfältet.
+1. Klicka på **Tilldela kanal** i åtgärdsfältet.
 
    eller
 
-   Klicka **Kontrollpanel** och klicka **+Tilldela kanal** från **TILLDELADE KANALER** så att du kan öppna **Kanaltilldelning** -dialogrutan.
+   Klicka på **Kontrollpanelen** och klicka på **+Tilldela kanal** på panelen **TILLDELADE KANALER** så att du kan öppna dialogrutan **Kanaltilldelning**.
 
    ![bild](/help/user-guide/assets/channel-assign1.png)
 
-   Du kan konfigurera egenskaperna från **Kanaltilldelning** från avsnittet nedan. Se [Kanalegenskaper](#channel-properties) om du vill ha mer information om kanalegenskaper.
+   Du kan konfigurera egenskaperna från dialogrutan **Kanaltilldelning** i avsnittet nedan. Mer information om kanalegenskaper finns i avsnittet [Kanalegenskaper](#channel-properties).
 
 ## Förstå kanalegenskaper från kanaltilldelning {#channel-properties}
 
@@ -48,9 +48,9 @@ Följ stegen nedan för att tilldela en kanal till en skärm:
 
 Med en referenskanal kan du ange en referens till den önskade kanalen, antingen efter kanalnamn eller efter kanalsökväg.
 
-* **efter bana** - Du anger en explicit referens med kanalens absoluta sökväg.
+* **efter sökväg** - Du anger en explicit referens med kanalens absoluta sökväg.
 
-* **efter namn** - Du anger namnet på den kanal som matchar en faktisk kanal efter kontext. Med den här funktionen kan du skapa en lokal version av en kanal så att du dynamiskt kan matcha platsspecifikt innehåll. En kanal med namnet *dagens erbjudanden*, där det faktiska innehållet skulle vara annorlunda i två städer, men du fortfarande har den tillräkneliga kanalrollen på alla skärmar.
+* **efter namn** - Du anger namnet på kanalen som tolkas till en faktisk kanal efter kontext. Med den här funktionen kan du skapa en lokal version av en kanal så att du dynamiskt kan matcha platsspecifikt innehåll. En kanal med namnet *erbjudanden för dagen*, där det faktiska innehållet skulle vara annorlunda i två städer, men du har fortfarande den tillräkneliga kanalrollen på alla skärmar.
 
 ### Kanalroll {#role-channel}
 
@@ -61,46 +61,46 @@ Kanalrollen definierar visningssammanhanget. Rollen avser olika åtgärder och �
 Prioritet används för att ordna tilldelningarna om flera matchar uppspelningsvillkoren. Den som har det högsta värdet har alltid företräde framför de lägre värdena. Om det till exempel finns två kanaler A och B. A har prioriteten 1 och B har prioriteten 2, och sedan visas kanal B eftersom den har högre prioritet än A.
 
 >[!NOTE]
->Prioriteten för en kanal anges som ett tal (1 för minimum) i **Kanaltilldelning** som nämns ovan. Dessutom sorteras de tilldelade kanalerna baserat på fallande prioritet.
+>Prioriteten för en kanal anges som ett tal (1 för minimum) i dialogrutan **Kanaltilldelning** enligt ovan. Dessutom sorteras de tilldelade kanalerna baserat på fallande prioritet.
 
 ### Händelser som stöds {#supported-events-channel}
 
 * **Inledande inläsning** - Läser in kanalen när spelaren startas. Den kan tilldelas flera kanaler med ett schema.
-* **Inaktiv skärm** - Läser in när skärmen är inaktiv. Den kan tilldelas flera kanaler med ett schema.
+* **Inaktiv skärm** - läses in när skärmen är inaktiv. Den kan tilldelas flera kanaler med ett schema.
 * **Timer** - Måste anges när ett schema anges.
-* **Användarinteraktion** - Spelaren växlar till den angivna kanalen om det finns en användarinteraktion på skärmen (beröring) i en inaktiv kanal och läses in när skärmen rörs.
+* **Användarinteraktion** - Spelaren växlar till den angivna kanalen om det finns en användarinteraktion på skärmen (pekning) i en inaktiv kanal och läses in när skärmen ändras.
 
 ### Avbrottsmetod {#interruption-method-channel}
 
 >[!IMPORTANT]
 >
-> Det här alternativet är bara tillgängligt med <!--AEM 6.4 Feature Pack 8 or -->AEM 6.5 Feature Pack 4.
+> Det här alternativet är endast tillgängligt med <!--AEM 6.4 Feature Pack 8 or -->AEM 6.5 Feature Pack 4.
 
 Ange när en kanal ska avbrytas som innehållsförfattare. Om du gör det kan du klippa ut icke-kritiskt innehåll om du vill, men du kan även låta viktigt innehåll spelas upp innan uppspelningen avbryts på grund av schemaläggningen.
 
-Klicka på ett av följande alternativ som är tillgängliga för att ange avbrottsmetoden i dialogrutan **Kanaltilldelning** dialogruta:
+Klicka på ett av följande alternativ som är tillgängliga för att ange avbrottsmetoden i dialogrutan **Kanaltilldelning**:
 
 * **Omedelbart** - När schemat aktiveras eller en uppdatering tas emot kan du avbryta uppspelningen och omedelbart uppdatera eller spela upp det nya innehållet.
-* **Vid slutet av aktuell artikel** - När ett nytt schema aktiveras eller en uppdatering tas emot kan du välja att vänta tills det aktuella objektet i sekvensen har spelats upp. Först därefter kan du uppdatera eller spela upp det nya innehållet.
+* **Vid slutet av det aktuella objektet** - När ett nytt schema aktiveras eller en uppdatering tas emot kan du välja att vänta tills det aktuella objektet i sekvensen har spelats upp. Först därefter kan du uppdatera eller spela upp det nya innehållet.
 
   >[!NOTE]
   >Det här alternativet är markerat som standard.
-* **I slutet av sekvensen** - När ett nytt schema aktiveras eller en uppdatering tas emot, kan du välja att vänta tills hela sekvensen är klar. Precis före den önskade sekvensen kan du sedan repetera det första elementet, uppdatera eller spela upp det nya innehållet.
+* **I slutet av sekvensen** - När ett nytt schema aktiveras eller en uppdatering tas emot kan du välja att vänta tills hela sekvensen är slut. Precis före den önskade sekvensen kan du sedan repetera det första elementet, uppdatera eller spela upp det nya innehållet.
 
   >[!NOTE]
   >Om du använder det andra eller tredje alternativet kan schemaläggningstiderna som har definierats för tilldelningen bli något fördröjda. Orsaken är att spelaren väntar på slutet av objektet eller sekvensen (efter den angivna tiden) innan den uppdateras. Fördröjningen beror på objektets uppspelningstid.
 
 ### Schema {#schedule-channel}
 
-Med Schema kan du ange en beskrivning i texten när kanalen ska visas. Här kan du också definiera ett startdatum (**aktiv från**) och ett slutdatum (**aktiv tills**) för den kanal som ska visas.
+Med Schema kan du ange en beskrivning i texten när kanalen ska visas. Du kan också definiera ett startdatum (**aktiv från**) och ett slutdatum (**aktiv till**) för kanalen som ska visas.
 
-**Visa tips för Attraktion**
+**Visa funktionsbeskrivning**
 
-Visa verktygstipset för attribut anger om verktygstipset för attributet (&quot;*Peka var som helst för att börja*&quot;) måste visas eller inte medan kanalen körs.
+Show Attaction tooltip (Visa funktionsbeskrivning) definierar om funktionsbeskrivningen (&quot;*Peka var som helst för att börja*&quot;) måste visas eller inte medan kanalen körs.
 
 ### DayParting {#dayparting}
 
-Scheman, när de kombineras med **DayParting** kan du ange ett globalt schema med flera kanaler som körs vid specifika tidpunkter på dygnet och återanvända det som är inställt för alla skärmar samtidigt.
+När du kombinerar scheman med **DayParting** kan du ange ett globalt schema med flera kanaler som körs vid specifika tidpunkter på dagen och återanvända det som är inställt för alla skärmar samtidigt.
 
 DayParting innebär att dela upp en dag i tidskortplatser och ange vilket innehåll som spelas upp vid önskad tidpunkt. Med AEM Screens kan ni schemalägga kanaler i form av DayPparting inom en dag, vecka eller månad efter behov.
 
@@ -158,7 +158,7 @@ Här skapar du DayParting som per månad, så att kanalinnehållet spelas upp en
 
 >[!NOTE]
 >
->Du kan också definiera ***Prioritet*** för varje kanal. Om till exempel två kanaler är inställda för samma dag och tid eller för samma månad, spelas den kanal som har högre prioritet upp först. Minimivärdet för prioritet kan anges till 0.
+>Du kan också definiera ***prioritet*** för varje kanal. Om till exempel två kanaler är inställda för samma dag och tid eller för samma månad, spelas den kanal som har högre prioritet upp först. Minimivärdet för prioritet kan anges till 0.
 
 #### Spela upp innehåll för kanaler med samma prioritet {#playing-content-for-channels-with-same-priority}
 
@@ -174,5 +174,5 @@ I det här exemplet visas DayParting för en butik som visar sin vintersamling m
 >
 > Mer information om DayParting finns i avsnitten nedan:
 >
->* [Hantera återkommande i resurser](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/authoring/product-features/asset-level-scheduling)
->* [Hantera återkommande för resurser i en kanal](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/authoring/product-features/channel-level-activation)
+>* [Hantera upprepning i Assets](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/authoring/product-features/asset-level-scheduling)
+>* [Hantera upprepning för Assets i en kanal](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/authoring/product-features/channel-level-activation)

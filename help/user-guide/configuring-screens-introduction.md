@@ -18,7 +18,7 @@ ht-degree: 0%
 
 # Konfigurera och distribuera AEM Screens {#configuring-and-deploying-aem-screens}
 
-På den här sidan visas hur du installerar och konfigurerar skärmspelarna på dina enheter.
+På den här sidan visas hur du installerar och konfigurerar Screens-spelare på dina enheter.
 
 ## Serverkonfiguration {#server-configuration}
 
@@ -32,19 +32,19 @@ Med Health Check Framework kan användaren kontrollera om två nödvändiga konf
 
 Det gör att användaren kan verifiera följande två konfigurationskontroller för att köra ett AEM Screens-projekt, d.v.s. kontrollera statusen för följande två filter:
 
-1. **Tillåt tom referens**
+1. **Tillåt tom referent**
 2. **https**
 
 Följ stegen nedan för att kontrollera om dessa två viktiga konfigurationer är aktiverade för AEM Screens:
 
-1. Navigera till [Hälsokontroll för Adobe Experience Manager Web Console Sling](http://localhost:4502/system/console/healthcheck?tags=screensconfigs&amp;overrideGlobalTimeout=).
+1. Navigera till [Hälsokontroll för Adobe Experience Manager Web Console-delning](http://localhost:4502/system/console/healthcheck?tags=screensconfigs&amp;overrideGlobalTimeout=).
 
    ![resurser](assets/health-check1.png)
 
 
-2. Klicka **Utför de valda hälsokontrollerna** så att du kan köra valideringen för två egenskaper som anges ovan.
+2. Klicka på **Kör de markerade hälsokontrollerna** så att du kan köra valideringen för två egenskaper som listas ovan.
 
-   Om båda filtren är aktiverade visas **Hälsotjänst för skärmkonfiguration** visar **Resultat** as **OK** med båda konfigurationerna aktiverade.
+   Om båda filtren är aktiverade visar **Screens Configuration Health Service** **Result** som **OK** med båda konfigurationerna aktiverade.
 
    ![resurser](assets/health-check2.png)
 
@@ -55,8 +55,8 @@ Följ stegen nedan för att kontrollera om dessa två viktiga konfigurationer ä
 
 >[!NOTE]
 >
->* Aktivera **Apache Sling Referer-filter**, se [Tillåt tomma referentförfrågningar](/help/user-guide/configuring-screens-introduction.md#allow-empty-referrer-requests).
->* Aktivera **HTTP** tjänst, se [Apache Felix Jetty Based HTTP Service](/help/user-guide/configuring-screens-introduction.md#allow-apache-felix-service).
+>* Information om hur du aktiverar **Refererarfiltret för Apache Sling** finns i [Tillåt tomma referentförfrågningar](/help/user-guide/configuring-screens-introduction.md#allow-empty-referrer-requests).
+>* Information om hur du aktiverar tjänsten **HTTP** finns i [Apache Felix Jetty Based HTTP Service](/help/user-guide/configuring-screens-introduction.md#allow-apache-felix-service).
 
 ### Förutsättningar {#prerequisites}
 
@@ -64,45 +64,45 @@ Följande huvudpunkter nedan hjälper dig att konfigurera och AEM servern som sk
 
 #### Tillåt tomma referentförfrågningar {#allow-empty-referrer-requests}
 
-1. Navigera till **Konfiguration av Adobe Experience Manager Web Console** via AEM > hammarikon > **Operationer** > **Webbkonsol**.
+1. Navigera till **Adobe Experience Manager Web Console Configuration** genom AEM > hammikon > **Åtgärder** > **Webbkonsol**.
 
    ![bild](assets/config/empty-ref1.png)
 
-1. **Konfiguration av Adobe Experience Manager Web Console** öppnas. Sök efter försäljningsreferent.
+1. **Adobe Experience Manager Web Console Configuration** öppnas. Sök efter försäljningsreferent.
 
-   Om du vill söka efter egenskapen för Sing-refereraren trycker du på **Kommando+F** for **Mac** och **Ctrl+F** for **Windows**.
+   Om du vill söka efter egenskapen för snedbrytningsreferenten trycker du på **Kommando+F** för **Mac** och **Ctrl+F** för **Windows**.
 
-1. Kontrollera **Tillåt tomt** som i bilden nedan.
+1. Markera alternativet **Tillåt tomt** enligt bilden nedan.
 
    ![bild](assets/config/empty-ref2.png)
 
-1. Klicka **Spara** om du vill aktivera referensfiltret för Apache Sling Tillåt tomt.
+1. Klicka på **Spara** för att aktivera Apache Sling Referer-filtret Tillåt tomt.
 
 
 #### Apache Felix Jetty Based HTTP Service {#allow-apache-felix-service}
 
-1. Navigera till **Konfiguration av Adobe Experience Manager Web Console** via AEM > hammarikon > **Operationer** > **Webbkonsol**.
+1. Navigera till **Adobe Experience Manager Web Console Configuration** genom AEM > hammikon > **Åtgärder** > **Webbkonsol**.
 
    ![bild](assets/config/empty-ref1.png)
 
-1. **Konfiguration av Adobe Experience Manager Web Console** öppnas. Sök efter Apache Felix Jetty Based HTTP Service.
+1. **Adobe Experience Manager Web Console Configuration** öppnas. Sök efter Apache Felix Jetty Based HTTP Service.
 
-   Om du vill söka efter den här egenskapen trycker du på **Kommando+F** for **Mac** och **Ctrl+F** for **Windows**.
+   Om du vill söka efter den här egenskapen trycker du på **Kommando+F** för **Mac** och **Ctrl+F** för **Windows**.
 
-1. Kontrollera **AKTIVERA HTTP** som i bilden nedan.
+1. Markera alternativet **AKTIVERA HTTP**, vilket visas i bilden nedan.
 
    ![bild](assets/config/config-1.png)
 
-1. Klicka **Spara** för att aktivera *HTTP* service.
+1. Klicka på **Spara** för att aktivera tjänsten *http*.
 
 #### Aktivera Touch UI för AEM Screens {#enable-touch-ui-for-aem-screens}
 
 AEM Screens kräver ett TOUCH-användargränssnitt och fungerar inte med det klassiska användargränssnittet i Adobe Experience Manager (AEM).
 
 1. Navigera till `*<yourAuthorInstance>/system/console/configMgr/com.day.cq.wcm.core.impl.AuthoringUIModeServiceImpl*`
-1. Se till att **Standardläge för användargränssnitt för redigering** är inställd på **TOUCH**, enligt bilden nedan
+1. Kontrollera att standardläget för **redigeringsgränssnittet** är inställt på **TOUCH**, vilket visas i figuren nedan
 
-Du kan också göra samma inställning med din AuthorInstance *>* verktyg (hammarikon) > **Operationer** > **Webbkonsol** och söka efter **Tjänsten WCM för användargränssnittsläge vid redigering**.
+Du kan också göra samma inställning med hjälp av verktygen *>* (hammikonen) > **Åtgärder** > **Webbkonsol** och söka efter **tjänsten för användargränssnittsläge för WCM-redigering**.
 
 ![screen_shot_2018-12-04at22425pm](assets/screen_shot_2018-12-04at22425pm.png)
 
@@ -112,7 +112,7 @@ Du kan också göra samma inställning med din AuthorInstance *>* verktyg (hamma
 
 #### AEM i NOSAMPLECONTENT-körningsläge {#aem-in-nosamplecontent-runmode}
 
-För AEM i produktion används **NOSAMPLECONTENT** körningsläge. Ta bort *X-frame-options=SAMEORIGIN* rubrik (i det extra svarshuvudet) från
+När du kör AEM i produktion används körningsläget **NOSAMPLECONTENT** . Ta bort rubriken *X-Frame-Options=SAMEORIGIN* (i det extra svarshuvudet) från
 
 `https://localhost:4502/system/console/configMgr/org.apache.sling.engine.impl.SlingMainServlet`.
 
@@ -120,27 +120,27 @@ Den här borttagningen krävs för att AEM Screens Player ska kunna spela upp on
 
 #### Lösenordsbegränsningar {#password-restrictions}
 
-Med de senaste förändringarna av ***DeviceServiceImpl*** behöver du inte ta bort lösenordsbegränsningarna.
+Med de senaste ändringarna av ***DeviceServiceImpl*** behöver du inte ta bort lösenordsbegränsningarna.
 
-Du kan konfigurera ***DeviceServiceImpl*** via länken nedan om du vill aktivera lösenordsbegränsning när du skapar lösenordet för skärmenhetsanvändarna:
+Du kan konfigurera ***DeviceServiceImpl*** från länken nedan för att aktivera lösenordsbegränsning när du skapar lösenordet för skärmenhetsanvändarna:
 
 `https://localhost:4502/system/console/configMgr/com.adobe.cq.screens.device.impl.DeviceService`
 
 Följ stegen nedan för att konfigurera ***DeviceServiceImpl***:
 
-1. Navigera till **Konfiguration av Adobe Experience Manager Web Console** via AEM > hammikon > **Operationer** > **Webbkonsol**.
+1. Navigera till **Adobe Experience Manager Web Console Configuration** via din AEM > hammikon > **Åtgärder** > **Webbkonsol**.
 
-1. **Konfiguration av Adobe Experience Manager Web Console** öppnas. Sök efter `*deviceservice*`. Om du vill söka efter egenskapen trycker du på **Kommando+F** för macOS och **Ctrl+F** för Microsoft® Windows.
+1. **Adobe Experience Manager Web Console Configuration** öppnas. Sök efter `*deviceservice*`. Om du vill söka efter egenskapen trycker du på **Kommando+F** för macOS och **Ctrl+F** för Microsoft® Windows.
 
 ![screen_shot_2019-07-31at92058am](assets/screen_shot_2019-07-31at92058am.png)
 
-#### Dispatcher-konfiguration {#dispatcher-configuration}
+#### Dispatcher Configuration {#dispatcher-configuration}
 
 Mer information om hur du konfigurerar Dispatcher för ett AEM Screens-projekt finns i [Konfigurera Dispatcher för ett AEM Screens-projekt](dispatcher-configurations-aem-screens.md).
 
 #### Java™-kodning {#java-encoding}
 
-Ange ***Java™-kodning*** till Unicode. Till exempel: `*Dfile.encoding=Cp1252*` fungerar inte.
+Ställ in Unicode för ***Java™-kodningen***. `*Dfile.encoding=Cp1252*` fungerar till exempel inte.
 
 >[!NOTE]
 >

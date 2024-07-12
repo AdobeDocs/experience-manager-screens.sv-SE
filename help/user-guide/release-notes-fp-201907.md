@@ -21,7 +21,7 @@ ht-degree: 0%
 
 >[!CAUTION]
 >
->Adobe rekommenderar att du uppgraderar till den senaste versionen av Adobe Experience Manager (AEM). AEM Screens har underhållsstöd för AEM 6.3 Screens.
+>Adobe rekommenderar att du uppgraderar till den senaste versionen av Adobe Experience Manager (AEM). AEM Screens ger underhållsstöd för Screens AEM 6.3.
 
 AEM Screens har släppt AEM 6.4.5 Feature Pack 5 och AEM 6.5.1 Feature Pack 1 med följande information.
 
@@ -31,18 +31,18 @@ Releasedatum för AEM Screens Feature Pack 2019 är 31 juli 2019.
 
 ### Nyheter {#what-s-new}
 
-* **Datautlösare driver resursförändringar i en AEM Screens-kanal**
+* **Datautlösaren driver resursändringen i en AEM Screens-kanal**
 
 Spelaren byter till en kanal som visar nödinformation. Nödsystemet skickar denna information när det tar emot en händelse. Kanalen fungerar bara tills krissituationen är över.
 
 
-Se [Nödkanal](emergency-channel.md) användningsfall för implementering.
+Se [Nödkanal](emergency-channel.md) - användningsfall för implementering.
 
 * **Målgruppsanpassning aktiverad för asynkrona komponenter
 
 Målinriktning kan nu aktiveras för resurser som används i AEM Screens-projektet.
 
-Mer information om hur du kan aktivera målinriktning för resurser i AEM Screens-projektet finns i [ContextHub konfigureras i AEM Screens](configuring-context-hub.md).
+Mer information om hur du kan aktivera målinriktning för resurser i AEM Screens-projektet finns i [Konfigurera ContextHub i AEM Screens](configuring-context-hub.md).
 
 När du har konfigurerat ContextHub för ditt AEM Screens-projekt kan du följa olika användningsexempel för att förstå hur datainlösande resurser spelar en viktig roll i olika branscher:
 
@@ -50,7 +50,7 @@ När du har konfigurerat ContextHub för ditt AEM Screens-projekt kan du följa 
 
 **[Temperaturaktivering i resecentret](local-temperature-activation.md)**
 
-**[Aktivering av hotellreservation](hospitality-reservation-activation.md)**
+**[Aktivering av hotell- och reservation](hospitality-reservation-activation.md)**
 
 * **Förbättringar i uppdateringshanterare**
 
@@ -59,11 +59,11 @@ Uppdateringshanteraren tolkar nu upplevelsefragmenten och samlar in alla bilder,
 * **Startar**
 
 Med det här alternativet kan innehållsförfattare skapa framtida versioner av kanalerna. Med hjälp av Launches kan författarna förhandsgranska varje kanal i lanseringen och bör kunna initiera en begäran om granskning. Godkännargruppen får meddelanden och kan godkänna eller avvisa begäran. När live-datumet nås spelas innehållet upp på enheterna.
-Se [Startar](launches.md) för mer information.
+Mer information finns i [Starta](launches.md).
 
 * **Offlinekonfigurationer i Experience Fragments**
 
-Du kan nu lägga till offlinekonfigurationer (klientbibliotek och statiska filer) när du konfigurerar skärmar med Experience Fragment. Se [Använda upplevelsefragment](experience-fragments-in-screens.md) för mer information.
+Du kan nu lägga till offlinekonfigurationer (klientbibliotek och statiska filer) när du konfigurerar Screens Experience Fragment. Mer information finns i [Använda Experience Fragments](experience-fragments-in-screens.md).
 
 ### Släppta AEM Screens-spelare
 
@@ -75,4 +75,4 @@ Följande AEM Screens-spelare finns för AEM 6.4.5 Feature Pack 5 och AEM 6.5.1 
 
 #### AEM Screens Player - nedladdningar
 
-Om du vill hämta den senaste versionen av AEM Screens Player och läsa mer om felkorrigeringarna kan du läsa [AEM Screens Player - nedladdningar](https://download.macromedia.com/screens/).
+Om du vill hämta den senaste versionen av AEM Screens Player och läsa mer om felkorrigeringarna kan du läsa [AEM Screens Player-hämtningar](https://download.macromedia.com/screens/).

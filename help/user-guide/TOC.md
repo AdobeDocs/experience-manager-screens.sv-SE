@@ -18,56 +18,56 @@ ht-degree: 5%
 
 # AEM Screens Användarhandbok {#user-guide}
 
-+ [Introduktion till skärmar](aem-screens-introduction.md)
-+ Översikt och snabbstartsguide {#overview}
++ [Introduktion till Screens](aem-screens-introduction.md)
++ Översikt och Kickstart-guide {#overview}
    + [Kickstart Guide](kickstart-for-aem-screens.md)
-   + [Guide till bästa praxis för skärmar](https://experienceleague.adobe.com/en/docs/experience-manager-screens/using/about-guide)
+   + [Screens Best Practices Guide](https://experienceleague.adobe.com/en/docs/experience-manager-screens/using/about-guide)
    + [Nyckeltermer](screens-glossary.md)
-+ Grundläggande om nätverk för digitala signaturer {#digital-signage-network}
++ Grundläggande om nätverk för digital signering {#digital-signage-network}
    + [Del 1: Projektroller och ansvarsområden](project-roles-responsibilities.md)
    + [Del 2: Att tänka på som projekt omfång](project-considerations.md)
    + [Del 3: Testning, POC, piloter &amp; Rollouts](testing-pocs-pilots-rollouts.md)
    + [Del 4: Projektledning och driftsättning](project-management-and-deployment.md)
    + [Del 5: Supportöverväganden](support-considerations.md)
 + Konfiguration och administration {#administering}
-   + [Konfigurerar skärmserver](configuring-screens-introduction.md)
-   + [Konfigurera Dispatcher-konfigurationer](dispatcher-configurations-aem-screens.md)
-   + [Installera skärmuppspelaren](installing-screens-player.md)
-   + [Ansluta skärmuppspelaren](working-with-screens-player.md)
+   + [Konfigurera Screens Server](configuring-screens-introduction.md)
+   + [Konfigurera Dispatcher Configurations](dispatcher-configurations-aem-screens.md)
+   + [Installera Screens Player](installing-screens-player.md)
+   + [Ansluta Screens Player](working-with-screens-player.md)
    + [Enhetsregistrering](device-registration.md)
    + [Konfigurera åtkomstkontrollistor](setting-up-acls.md)
    + [AEM Screens Security Checklist](security-checklist.md)
    + [Övergång från ContentSync till SmartSync](smartsync.md)
    + [Ny projektimporterare från fil](project-importer.md)
-   + [Replikera datutlösare till publiceringsservrar](replicating-data-triggers.md)
-   + [Konfigurera replikeringsagenter på skärmar](configure-screens-replication.md)
+   + [Replikera datutlösare till Publish-servrar](replicating-data-triggers.md)
+   + [Konfigurera replikeringsagenter på Screens](configure-screens-replication.md)
    + Klientspecifika överväganden {#installing-client}
       + [Chrome OS Player](implementing-chrome-os-player.md)
-      + [Använda Chrome Player som ett tillägg för felsökning](using-chrome-player-as-an-extension.md)
+      + [Använda Chrome Player som tillägg för felsökning](using-chrome-player-as-an-extension.md)
       + [Android](implementing-android-player.md)
       + [Windows Player](implementing-windows-player.md)
       + [Tizen Player](tizen-player.md)
       + [Cloud Player](implementing-cloud-player.md)
       + [Automatisk registrering av spelare](auto-registration-players.md)
       + [Använda fjärrkontrollen](implementing-remote-control.md)
-   + Author Publish {#author-publish}
-      + [Author-Publish Architectional Overview](author-publish-architecture-overview.md)
-      + [Konfigurera författare och publicera](author-and-publish.md)
+   + Skapa Publish {#author-publish}
+      + [Författare/Publish - Arkitektur - översikt](author-publish-architecture-overview.md)
+      + [Konfigurera författare och Publish](author-and-publish.md)
    + Analysintegrering med AEM Screens {#analytics-integration}
       + [Adobe Analytics Integration](adobe-analytics-integration-aem-screens.md)
       + [Konfigurera Adobe Analytics med AEM Screens](configuring-adobe-analytics-aem-screens.md)
 + Exempel på redigerings- och användningsexempel {#authoring}
-   + Konfigurera ett skärmsprojekt {#setting-up-projects}
+   + Konfigurera ett Screens-projekt {#setting-up-projects}
       + [Skapa och hantera projekt](creating-a-screens-project.md)
       + [Skapa och hantera kanaler](managing-channels.md)
       + [Skapa och hantera skärmar](managing-displays.md)
       + [Skapa och hantera platser](managing-locations.md)
       + [Skapa och hantera scheman](managing-schedules.md)
       + [Hantera enheter](managing-devices.md)
-      + Tilldela kanaler {#assigning-channels}
+      + Tilldelar kanaler {#assigning-channels}
          + [Kanaltilldelning](channel-assignment-latest-fp.md)
          + [Kanaltilldelning: Äldre AEM Screens-funktionspaket](channel-assignment.md)
-   + Använda kärnfunktioner {#product-features}
+   + Använda kärnproduktfunktioner {#product-features}
       + [Textövertäckning](text-overlay.md)
       + [Uppdatera gruppvis offline](bulk-offline-update.md)
       + [AEM Screens Notifications Service](screens-notifications-service.md)
@@ -80,7 +80,7 @@ ht-degree: 5%
       + [Inbäddade sekvenser](embedded-sequences.md)
       + [Layout med flera zoner](multi-zone-layout-aem-screens.md)
       + [Videoåtergivningar](generating-renditions.md)
-      + [Dynamisk inbyggd sekvens](dynamic-embedded-sequences.md)
+      + [Dynamisk inbäddad sekvens](dynamic-embedded-sequences.md)
       + [Varaktighet för massbildsuppspelning på kanalnivå](channel-level-image-playback.md)
       + [Synkronisera kommandon](using-command-sync.md)
       + [Skapa med Data Triggers](authoring-data-triggers.md)
@@ -92,7 +92,7 @@ ht-degree: 5%
    + Hantera innehållsuppdateringar {#content-updates}
       + [On Demand Content Update](on-demand-content.md)
       + [Uppdatering av innehållet som en tjänst](content-update-as-a-service.md)
-      + [Content Update using Screens Launch](launches.md)
+      + [Innehållsuppdatering med Screens Launch](launches.md)
    + Använd exempel på exempel {#use-case-examples}
       + [Nödkanaler](emergency-channel.md)
       + [Temperaturaktivering i resecentret](local-temperature-activation.md)

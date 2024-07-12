@@ -17,7 +17,7 @@ Den här guiden belyser en introduktion till proxyservrar följt av de olika nä
 
 >[!NOTE]
 >**AEM Screens nätverkskrav**
->AEM Screens kommunicerar direkt med den AEM as a Cloud Service och måste därför upprätta en stabil anslutning mellan de två noderna. Brandväggar är obligatoriska för kommersiell internetåtkomst. Kunden måste förstå vilka kommunikationsportar som måste öppnas i dessa brandväggar och andra IT-säkerhetsrelaterade nätverkskomponenter.
+>AEM Screens kommunicerar direkt med AEM as a Cloud Service och måste därför upprätta en stabil anslutning mellan de båda noderna. Brandväggar är obligatoriska för kommersiell internetåtkomst. Kunden måste förstå vilka kommunikationsportar som måste öppnas i dessa brandväggar och andra IT-säkerhetsrelaterade nätverkskomponenter.
 
 ## Översikt över proxyservrar {#proxy-servers}
 
@@ -33,7 +33,7 @@ Om du vill implementera en nätverksinstallation läser du följande scenarier m
 
 I den här guiden beskrivs fyra olika typer av nätverksinställningar inom en organisation:
 
-* **[Direkt Internet-nätverk (trådlöst/trådlöst)](/help/using/direct-internet-network.md)**
+* **[Direkt Internet-nätverk (kabelanslutet/trådlöst)](/help/using/direct-internet-network.md)**
 * **[Direkt mobilt nätverk](/help/using/mobile-network.md)**
 * **[Mobilnätverk med mobil datarouter och aktiva nätverkskomponenter](/help/using/mobile-network-router.md)**
 * **[Enclosed Corporate Network (Wired/Wireless)](/help/using/enclosed-corporate-network.md)**
@@ -42,7 +42,7 @@ I följande tabell visas de olika typerna av nätverksinställningar med fördel
 
 | Nätverksinställningar | Fördelar | Nackdelar |
 |--- |--- |--- |
-| **Direkt Internet-nätverk (trådlöst/trådlöst)** | Enkelt och rakt fram till SetUp<br>Bra val för medelstora eller större installationer<br>Dedikerat nätverk kan kapslas in<br>Få felpunkter<br>relativt prisvärd<br>Bra skalbarhet | Obligatorisk internetdataplan |
-| **Direkt mobilt nätverk** | Lätt att installera<br>Bra val för medelstora eller större installationer<br>Bra skalbarhet<br>Inkapslade skärmar | Obligatorisk internetuppkoppling |
-| **Mobilnätverk med mobil datarouter och aktiva nätverkskomponenter** | Lätt att installera<br>Bra val för medelstora eller större installationer<br>Dedikerat nätverk kan kapslas in<br>Få felpunkter<br>relativt prisvärd<br>Bra skalbarhet | Obligatorisk internetdataplan |
-| **Enclosed Corporate Network (Wired/Wireless)** | Hög flexibilitet och skalbarhet<br>Hög säkerhet på grund av olika försvarslinjer<br>Kapslade nätverk<br>Lätt att övervaka och underhålla<br>Tillförlitlig | Komplicerade och dyra<br>Rekommenderas för nätverksspecialister eller systemintegratörer |
+| **Direkt Internet-nätverk (kabelanslutet/trådlöst)** | Enkelt och rakt fram till SetUp<br>Bra val för medelstora eller större installationer<br>Dedikerat nätverk kan kapslas in<br>Ett fåtal felpunkter<br>relativt lågt<br>Bra skalbarhet | Obligatorisk internetdataplan |
+| **Direkt mobilt nätverk** | Enkelt att installera<br>Bra val för medelstora eller större installationer<br>Bra skalbarhet<br>Encapsulated Screens | Obligatorisk internetuppkoppling |
+| **Mobilnätverk med mobil datarouter och aktiva nätverkskomponenter** | Enkelt att installera<br>Bra val för medelstora eller större installationer<br>Dedikerat nätverk kan kapslas in<br>Ett fåtal felpunkter<br>relativt billigt<br>Bra skalbarhet | Obligatorisk internetdataplan |
+| **Enclosed Corporate Network (Wired/Wireless)** | Hög flexibilitet och skalbarhet<br>Hög säkerhet på grund av olika försvarsrader<br>Encapsulated Networks<br>Enkelt att övervaka och underhålla<br>Tillförlitligt | Komplicerade och dyra<br>rekommenderas för nätverksspecialister eller systemintegratörer |

@@ -20,6 +20,6 @@ I den här aktiviteten är det viktigt att identifiera alla viktiga leverantöre
 
 * Definiera funktioner och uppgifter för varje leverantör beroende på vilken produktkategori de stöder.
 
-* Bekräfta leverans *ledtider* för alla produkter. Skapa en driftsättningsplan som passar för alla ledtider som arbetar bakåt från ett eller flera önskade installationsdatum för de första nödvändiga installationerna.
+* Bekräfta leverans *ledtider* för alla leveranser. Skapa en driftsättningsplan som passar för alla ledtider som arbetar bakåt från ett eller flera önskade installationsdatum för de första nödvändiga installationerna.
 
-Genom att slutföra alla föregående steg bör du nu ha en omfattande *Dag 1* distributionsplanen är klar att köras.
+Genom att slutföra alla föregående steg bör du nu ha en omfattande *dag 1*-distributionsplan klar att köras.

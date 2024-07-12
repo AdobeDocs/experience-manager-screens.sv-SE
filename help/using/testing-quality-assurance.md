@@ -48,9 +48,9 @@ Följande programvaruöverväganden rekommenderas:
 
 ## 3. Överväganden gällande enhetshantering {#device-management-considerations}
 
-AEM Screens har en Device Control Center-modul som gör att du kan hantera slutpunkter för skärmsspelarprogram.
+AEM Screens har en Device Control Center-modul som möjliggör hantering av slutpunkter för Screens Player-program.
 
-Den refererar till *player* maskinvaruenhet som har programmet Skärmspelaren installerat och som är registrerad för en instans av AEM.
+Det avser alla *Player*-maskinvaruenheter som har Screens Player-programmet installerat och som är registrerade för en instans av AEM.
 Med den här modulen kan du:
 
 1. Felloggar för bildspelsprogram
@@ -58,7 +58,7 @@ Med den här modulen kan du:
 1. Hantera innehållsnedladdningar
 1. Hantera problem med programomstart
 
-Mer information om ***Device Control Center***, se [Felsökning av Device Control Center](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/troubleshooting/monitoring-screens) in **AEM Screens Användarhandbok**.
+Mer information om ***Device Control Center*** finns i [Troubleshooting Device Control Center](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/troubleshooting/monitoring-screens) i **AEM Screens User Guide**.
 
 >[!CAUTION]
 >
@@ -74,7 +74,7 @@ Mer information om ***Device Control Center***, se [Felsökning av Device Contro
 >
 > Adobe rekommenderar att dedikerade enhetshanteringsplattformar från tredje part används för alla distributioner.
 
-Vilken plattform du väljer beror på flera faktorer, bland annat ***måloperativsystem***, ***projektkrav*** och ***antal slutpunkter***.
+Vilken plattform du väljer beror på flera faktorer, bland annat ***måloperativsystemet***, ***projektkraven*** och ***antalet slutpunkter***.
 
 Några exempel är följande:
 

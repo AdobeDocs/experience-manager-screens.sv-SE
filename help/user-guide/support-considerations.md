@@ -60,7 +60,7 @@ Följ den här självstudiekursen för att komma till en 5-delsserie nedan som b
 
 >[!VIDEO](https://video.tv.adobe.com/v/28383)
 
-*Läs om hur problem med maskinvara, programvara och anslutningsmöjligheter hanteras. Utforska kostnadsberäkningar och ramverk för support på plats.*
+*Lär dig hur maskinvaru-, programvaru- och anslutningsproblem hanteras. Utforska kostnadsberäkningar och ramverk för support på plats.*
 
 ## Slutsats {#conclusion}
 

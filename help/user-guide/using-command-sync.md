@@ -24,9 +24,9 @@ På följande sida beskrivs hur du använder kommandosynkronisering. Med kommand
 
 Digitala signeringslösningar måste ha stöd för videoväggar och synkroniserad uppspelning. Det här scenariot är sant om du försöker stödja scenarier som nyårslicenser eller stora videor som segmenterats för att spelas upp på flera skärmar. Det är då kommandosynkronisering spelas upp.
 
-Om du vill använda kommandosynkronisering fungerar en spelare som en *primär* och skickar kommandot och alla andra spelare agerar som *klienter* och spelas upp när de får kommandot.
+Om du vill använda kommandosynkronisering fungerar en spelare som *primär* och skickar kommandot och alla andra spelare fungerar som *klienter* och spelar när de tar emot kommandot.
 
-The *primär* skickar ett kommando till alla registrerade klienter när uppspelningen av ett objekt ska börja. Nyttolasten för den här åtgärden kan vara indexvärdet för det objekt som ska spelas upp, den yttre HTML-koden för det element som ska spelas upp eller båda.
+*primär* skickar ett kommando till alla registrerade klienter när uppspelningen av ett objekt ska börja. Nyttolasten för den här åtgärden kan vara indexvärdet för det objekt som ska spelas upp, den yttre HTML-koden för det element som ska spelas upp eller båda.
 
 ## Implementera kommandosynkronisering {#using-command-sync}
 
@@ -40,9 +40,9 @@ I följande avsnitt beskrivs hur du kan använda kommandosynkronisering i ett AE
 
 Innan du använder funktionen Kommandosynkronisering kontrollerar du att du har ett projekt och en kanal med innehåll som har konfigurerats för ditt projekt.
 
-1. I följande exempel visas ett demoprojekt med namnet **CommandSyncDemo** och en sekvenskanal **ChannelLobby**.
+1. I följande exempel visas ett demonstrationsprojekt med namnet **CommandSyncDemo** och en sekvenskanal **ChannelLoby**.
 
-   ![image1](assets/command-sync/command-sync1-1.png)
+   ![bild1](assets/command-sync/command-sync1-1.png)
 
    >[!NOTE]
    >
@@ -50,57 +50,57 @@ Innan du använder funktionen Kommandosynkronisering kontrollerar du att du har 
 
    Kanalen innehåller följande innehåll, vilket visas i bilden nedan.
 
-   ![image1](assets/command-sync/command-sync2-1.png)
+   ![bild1](assets/command-sync/command-sync2-1.png)
 
-1. Skapa en plats **Lobby** och sedan en skärm med namnet **LobbyDisplay** i **Platser** enligt bilden nedan.
-   ![image1](assets/command-sync/command-sync3-1.png)
+1. Skapa en plats **Lobby** och sedan en visning med namnet **LobbyDisplay** i mappen **Locations**, vilket visas i bilden nedan.
+   ![bild1](assets/command-sync/command-sync3-1.png)
 
-1. Tilldela kanalen, **ChannelLobby** till **LobbyDisplay**. Nu kan du visa den tilldelade kanalen för visning från kontrollpanelen.
-   ![image1](assets/command-sync/command-sync4-1.png)
+1. Tilldela kanalen **ChannelLobby** till din **LobbyDisplay**. Nu kan du visa den tilldelade kanalen för visning från kontrollpanelen.
+   ![bild1](assets/command-sync/command-sync4-1.png)
 
    >[!NOTE]
    >
    >Mer information om hur du tilldelar en kanal till en skärm finns i [Skapa och hantera skärmar](/help/user-guide/managing-displays.md).
 
-1. Navigera till **Enheter** mapp.
-1. Klicka **Enhetshanteraren** i åtgärdsfältet.
+1. Navigera till mappen **Devices**.
+1. Klicka på **Enhetshanteraren** i åtgärdsfältet.
 
-   ![image1](assets/command-sync5.png)
+   ![bild1](assets/command-sync5.png)
 
    >[!NOTE]
    >
    >Mer information om hur du registrerar en enhet finns i [Enhetsregistrering](/help/user-guide/device-registration.md)
 
 1. I det här exemplet visas en Chrome-enhet och en Windows Player som två separata enheter. Båda enheterna pekar på samma skärm.
-   ![image1](assets/command-sync6.png)
+   ![bild1](assets/command-sync6.png)
 
 ### Uppdaterar kanalinställningar
 
 1. Navigera till **ChannelLobby**.
-1. Klicka **Redigera** i åtgärdsfältet.
+1. Klicka på **Redigera** i åtgärdsfältet.
 1. Klicka på hela kanalen enligt bilden nedan.
-   ![image1](assets/command-sync/command-sync7-1.png)
+   ![bild1](assets/command-sync/command-sync7-1.png)
 
 1. Klicka på skiftnyckelsikonen.
-   ![image1](assets/command-sync/command-sync8-1.png)
+   ![bild1](assets/command-sync/command-sync8-1.png)
 
-1. I **Sida** anger du *synkad* nyckelord i **Strategi** fält.
-   ![image1](assets/command-sync/command-sync9-1.png)
+1. I dialogrutan **Sida** anger du nyckelordet *synced* i fältet **Strategi**.
+   ![bild1](assets/command-sync/command-sync9-1.png)
 
 
 ### Konfigurera en primär {#setting-up-primary}
 
-1. Navigera till kontrollpanelen från **CommandSyncDemo** > **Platser**  > **Lobby** > **LobbyDisplay**. Klicka sedan på **Kontrollpanel** i åtgärdsfältet.
-Lägg märke till de två enheterna (Chrome och Windows Player) i **ENHETER** enligt följande:
-   ![image1](assets/command-sync/command-sync10-1.png)
+1. Navigera till visningsinstrumentpanelen från **CommandSyncDemo** > **Platser** > **Lobby** > **LobbyDisplay**. Klicka sedan på **Instrumentpanel** i åtgärdsfältet.
+Observera de två enheterna (Chrome och Windows Player) på panelen **ENHETER** enligt följande:
+   ![bild1](assets/command-sync/command-sync10-1.png)
 
-1. Från **ENHETER** klickar du på den enhet som du vill ange som primär. I följande exempel visas hur du konfigurerar Chrome-enheten som primär enhet. Klicka **Ange som primär enhet**.
+1. Klicka på den enhet som du vill ange som primär på panelen **Enheter**. I följande exempel visas hur du konfigurerar Chrome-enheten som primär enhet. Klicka på **Ange som primär enhet**.
 
-   ![image1](assets/command-sync/command-sync11-1.png)
+   ![bild1](assets/command-sync/command-sync11-1.png)
 
-1. Ange IP-adressen i **Ange som primär enhet** och klicka **Spara**.
+1. Ange IP-adressen i **Ange som primär enhet** och klicka på **Spara**.
 
-   ![image1](assets/command-sync/command-sync12-1.png)
+   ![bild1](assets/command-sync/command-sync12-1.png)
 
 >[!NOTE]
 >
@@ -109,18 +109,18 @@ Lägg märke till de två enheterna (Chrome och Windows Player) i **ENHETER** en
 ### Synkroniserar med primär {#sync-up-primary}
 
 1. När du har angett Chrome-enheten som primär synkroniserar du den andra enheten (i det här fallet Windows Player) så att den synkroniseras med den primära.
-Klicka på den andra enheten (i det här fallet Windows Player) på **ENHETER** panel och klicka **Synkronisera med primär enhet**.
+Klicka på den andra enheten (i det här fallet Windows Player) på panelen **ENHETER** och klicka på **Synkronisera till primär enhet**.
 
-   ![image1](assets/command-sync/command-sync13-1.png)
+   ![bild1](assets/command-sync/command-sync13-1.png)
 
 1. Klicka på enheten i listan och klicka på **Spara**.
 
    >[OBS!]
-   > The **Synkronisera med primär enhet** visas en lista med primära enheter. Välj önskad.
+   > I dialogrutan **Synkronisera med den primära enheten** visas en lista med primära enheter. Välj önskad.
 
-1. När enheten (Windows Player) synkroniseras till den primära (Chrome Player) kan du se enheten synkroniserad i **ENHETER** -panelen.
+1. När enheten (Windows Player) synkroniseras med den primära (Chrome Player) kan du se enheten synkroniserad på panelen **ENHETER**.
 
-   ![image1](assets/command-sync/command-sync14-1.png)
+   ![bild1](assets/command-sync/command-sync14-1.png)
 
 ### Synkronisering med den primära {#desync-up-primary}
 
@@ -132,13 +132,13 @@ När du har synkroniserat en eller flera enheter till en primär enhet kan du av
 
 Följ stegen nedan för att ta bort synkroniseringen från den primära enheten:
 
-1. Navigera till **ENHETER** och klicka på enheten.
+1. Navigera till panelen **ENHETER** och klicka på enheten.
 
-1. Klicka **Desynkrona enheter** så att du kan desynkronisera klienten från den primära enheten.
+1. Klicka på **Avsynkronisera enheter** så att du kan avsynkronisera klienten från den primära enheten.
 
-   ![image1](assets/command-sync/command-sync15-1.png)
+   ![bild1](assets/command-sync/command-sync15-1.png)
 
-1. Klicka **Bekräfta** om du vill avsynkronisera den valda enheten från den primära enheten.
+1. Klicka på **Bekräfta** för att avsynkronisera den valda enheten från den primära enheten.
 
    >[OBS!]
    > Om du klickar på den primära enheten och använder alternativet för avsynkronisering kommer alla enheter som är anslutna till den primära att avsynkroniseras i ett steg.

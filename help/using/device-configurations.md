@@ -15,7 +15,7 @@ ht-degree: 0%
 >
 >En typisk intressent för den här aktiviteten är en Audio-Video Integrator.
 
-Baserat på den information som samlats in under *Dag noll* bekräftar du följande information innan du börjar utveckla:
+Baserat på den information som samlats in *Day Zero* bekräftar du följande information innan du börjar utveckla:
 
 * Vilken orientering, dimensioner och upplösning används för skärmarna?
 

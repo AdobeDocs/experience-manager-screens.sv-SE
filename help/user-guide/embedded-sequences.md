@@ -19,7 +19,7 @@ ht-degree: 0%
 
 # Inbäddade sekvenser {#embedded-sequences}
 
-Använda ***Inbäddade sekvenser***, för kanaler, låter en användare lägga till komponenter i den överordnade kanalen och även att återanvända innehållet från en annan kanal och bädda in det i den överordnade kanalen.
+Om du använder ***Inbäddade sekvenser*** för kanaler kan en användare lägga till komponenter i den överordnade kanalen och även återanvända innehållet från en annan kanal och bädda in det i den överordnade kanalen.
 
 ## Lägga till inbäddade sekvenser {#adding-embedded-sequences}
 
@@ -30,29 +30,29 @@ Du kan lägga till följande komponenter i sekvenskanalen:
 
 >[!NOTE]
 >
->Om du vill veta mer om hur du använder andra komponenter i ditt skärmsprojekt går du till [Lägga till komponenter i en kanal](adding-components-to-a-channel.md).
+>Mer information om hur du använder andra komponenter i ditt Screens-projekt finns i [Lägga till komponenter i en kanal](adding-components-to-a-channel.md).
 
 ### Lägga till en inbäddad sekvens {#adding-an-embedded-sequence}
 
-Du kan lägga till en inbäddad sekvens i kanalen. En inbäddad sekvens är en annan kanal som innehåller resurser som bilder eller videor. Genom att lägga till en inbäddad sekvens kan användaren lägga till sekvensen i en kanal genom att ***Kanalsökväg***.
+Du kan lägga till en inbäddad sekvens i kanalen. En inbäddad sekvens är en annan kanal som innehåller resurser som bilder eller videor. Genom att lägga till en inbäddad sekvens kan användaren lägga till sekvensen i en kanal med ***Kanalsökväg***.
 
 >[!NOTE]
->***Kanalsökväg*** definierar en explicit referens till kanalen.
->Mer information om *Kanalsökväg*, se [Kanaltilldelning](channel-assignment.md) i redigeringsskärmar.
+>***Kanalsökvägen*** definierar en explicit referens till kanalen.
+>Mer information om *Kanalsökväg* finns i [Kanaltilldelning](channel-assignment.md) i Skapa Screens.
 
 Följ stegen nedan för att lägga till en inbäddad sekvens i kanalen:
 
-1. Klicka på den kanal där du vill bädda in en sida. Till exempel: **`We.Retail`I butik** > **Kanaler** > **Inaktiv kanal**.
+1. Klicka på den kanal där du vill bädda in en sida. Exempel: **`We.Retail`In-Store** > **Kanaler** > **Inaktiv kanal**.
 
-1. Klicka **Redigera** i åtgärdsfältet.
-1. Klicka på komponentikonen i det vänstra fältet i redigeringsläget så att du kan lägga till den inbäddade sidan. Dra och släpp **Inbäddad sekvens** till redigeraren.
-1. Dubbelklicka på **Inbäddad sekvens** så att du kan lägga till kanalen i den ursprungliga sekvenskanalen.
-1. Klicka på **Kanalsökväg** av kanalen.
-1. Klicka på **Varaktighet (millisekunder)** för den inbäddade kanalen i **Sekvens** -fliken. Som standard är längden inställd på **-1**, vilket innebär att den inbäddade kanalen körs helt. Om användaren anger en varaktighet avbryts efterföljande (d.v.s. den avbryts) vid den angivna tidpunkten.
+1. Klicka på **Redigera** i åtgärdsfältet.
+1. Klicka på komponentikonen i det vänstra fältet i redigeringsläget så att du kan lägga till den inbäddade sidan. Dra och släpp den **inbäddade sekvensen** till redigeraren.
+1. Dubbelklicka på komponenten **Inbäddad sekvens** så att du kan lägga till kanalen i den ursprungliga sekvenskanalen.
+1. Klicka på kanalens **kanalsökväg**.
+1. Klicka på **Varaktighet (millisekunder)** för den inbäddade kanalen på fliken **Sekvens**. Som standard är längden inställd på **-1**, vilket innebär att den inbäddade kanalen körs helt. Om användaren anger en varaktighet avbryts efterföljande (d.v.s. den avbryts) vid den angivna tidpunkten.
 
-1. Ange **Metered Playback Strategy** till **normal**.
+1. Ställ in **Metered Playback Strategy** på **normal**.
 
-Som standard är den inställd på **normal**. Ange värdet till **normal** (Spela upp alla objekt) innebär att efterföljande körs helt och hållet på varje cykel i den överordnade sekvensen. Det andra möjliga värdet är **Spela upp ett enstaka objekt**. Det värdet visar bara ett objekt i efterföljande körningar. Det första objektet i den första slingan och det andra objektet i den andra slingan.
+Som standard är den inställd på **normal**. Om du anger värdet till **normal** (Spela upp alla objekt) innebär det att efterföljande körs helt på varje cykel i den överordnade sekvensen. Det andra möjliga värdet är **Spela upp ett enskilt objekt**. Det värdet visar bara ett objekt i efterföljande körningar. Det första objektet i den första slingan och det andra objektet i den andra slingan.
 
 >[!IMPORTANT]
 >
@@ -60,18 +60,18 @@ Som standard är den inställd på **normal**. Ange värdet till **normal** (Spe
 >
 >Följ stegen nedan när du har lagt till en inbäddad sekvens i kanalen från de föregående stegen:
 >
->1. Navigera till visningen och klicka på visningen på menyn **Platser** mapp.
->1. Klicka **Kontrollpanel** i åtgärdsfältet.
->1. Klicka på **+ Tilldela kanaler** från **TILLDELADE KANALER OCH SCHEMALAGDA PANELER** så att du kan öppna **Dialogrutan Kanaltilldelning**.
+>1. Navigera till visningen och klicka på visningen i mappen **Platser** .
+>1. Klicka på **Instrumentpanel** i åtgärdsfältet.
+>1. Klicka på **+ Tilldela kanaler** på kontrollpanelen **TILLDELADE KANALER &amp; SCHEMALAGDA PANELER** så att du kan öppna dialogrutan **Kanaltilldelning**.
 >
->1. Klicka på banan för kanalen som du använde i den inbäddade sekvensen i **Kanalsökväg**.
->1. Se till att **Prioritet** är lägre än huvudkanalen.
+>1. Klicka på sökvägen till kanalen som du använde i den inbäddade sekvensen i **Kanalsökväg**.
+>1. Kontrollera att **Prioritet** är lägre än huvudkanalen.
 >
->1. Klicka inte på någon **Händelser som stöds**.
->1. Klicka **Spara** när det är klart.
+>1. Klicka inte på några **händelser som stöds**.
+>1. Klicka på **Spara** när du är klar.
 >
 
-I följande exempel visas tillägget av en inbäddad sekvens (**Inaktiv kanal - Natt**) till en befintlig kanal (**Inaktiv kanal**).
+I följande exempel visas tillägget av en inbäddad sekvens (**Inaktiv kanal - Natt**) i en befintlig kanal (**Inaktiv kanal**).
 
 ![new2](assets/new2.gif)
 
@@ -81,22 +81,22 @@ Du kan lägga till en dynamisk inbäddad sekvens i kanalen. En dynamisk inbädda
 
 >[!NOTE]
 >
->***Kanalroll*** definierar visningssammanhanget.
+>***Kanalrollen*** definierar visningssammanhanget.
 >
->Mer information om *Kanalroll*, se [Kanaltilldelning](channel-assignment.md) i redigeringsskärmar.
+>Mer information om *Kanalrollen* finns i [Kanaltilldelning](channel-assignment.md) i Skapa Screens.
 
 Följ stegen nedan för att lägga till en inbäddad sekvens i kanalen:
 
-1. Klicka på den kanal där du vill bädda in en dynamisk sekvens. Till exempel: **`We.Retail`I butik** > **Kanaler** > **Inaktiv kanal**.
+1. Klicka på den kanal där du vill bädda in en dynamisk sekvens. Exempel: **`We.Retail`In-Store** > **Kanaler** > **Inaktiv kanal**.
 
-1. Klicka **Redigera** i åtgärdsfältet.
-1. Klicka på komponentikonen i det vänstra fältet i redigeringsläget så att du kan lägga till den dynamiska inbäddade sekvensen. Dra och släpp **Dynamisk** **Inbäddad sekvens** till redigeraren.
+1. Klicka på **Redigera** i åtgärdsfältet.
+1. Klicka på komponentikonen i det vänstra fältet i redigeringsläget så att du kan lägga till den dynamiska inbäddade sekvensen. Dra och släpp den **dynamiska** **inbäddade sekvensen** till redigeraren.
 
-1. Dubbelklicka på **Dynamisk** **Inbäddad sekvens** så att du kan lägga till sidan i sekvenskanalen.
+1. Dubbelklicka på komponenten **Dynamisk** **Inbäddad sekvens** så att du kan lägga till sidan i sekvenskanalen.
 
-1. Ange **Kanaltilldelningsroll**.
-1. Ange **Metered Playback Strategy** till **normal**. Som standard är den inställd på **normal**. Ange värdet till **normal** (Spela upp alla objekt) innebär att efterföljande körs helt och hållet på varje cykel i den överordnade sekvensen. Det andra möjliga värdet är **Spela upp ett enstaka objekt**. Det värdet visar bara ett objekt i efterföljande körningar. Det första objektet i den första slingan och det andra objektet i den andra slingan.
+1. Ange **kanaltilldelningsrollen**.
+1. Ställ in **Metered Playback Strategy** på **normal**. Som standard är den inställd på **normal**. Om du anger värdet till **normal** (Spela upp alla objekt) innebär det att efterföljande körs helt på varje cykel i den överordnade sekvensen. Det andra möjliga värdet är **Spela upp ett enskilt objekt**. Det värdet visar bara ett objekt i efterföljande körningar. Det första objektet i den första slingan och det andra objektet i den andra slingan.
 
-1. Klicka på **Varaktighet (millisekunder)** i **Sekvens** -fliken för den inbäddade kanalen i sekvensen.
+1. Klicka på **Varaktighet (millisekunder)** på fliken **Sekvens** för den inbäddade kanalen i sekvensen.
 
 ![senaste](assets/latest.gif)

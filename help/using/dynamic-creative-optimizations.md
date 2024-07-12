@@ -36,5 +36,5 @@ En visuell marknadsföringsstrategi som inkluderar DCO kan dramatiskt öka titta
 
 Det finns två huvudtyper av datautlösare:
 
-* **Lokala datautlösare**: Dessa utlösare är lokala på enheten. Om du till exempel rör vid skärmen aktiveras en sensor som utlöser en lokal dataresurs eller kanalväxling.
-* **Utlösare för fjärrdata**: Detta involverade datautlösande kanalväxling eller en resursväxling som baseras på värden som returneras av ett Web Service API.
+* **Lokala datautlösare**: Dessa datautlösare är lokala på enheten. Om du till exempel rör vid skärmen aktiveras en sensor som utlöser en lokal dataresurs eller kanalväxling.
+* **Utlösare för fjärrdata**: Detta involverade datautlösande kanalväxel eller en resursväxel baserat på värden som returneras av ett webbtjänste-API.

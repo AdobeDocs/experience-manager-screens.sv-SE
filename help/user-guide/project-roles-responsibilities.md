@@ -40,7 +40,7 @@ Adobe omfattar Adobe Managed Services-resurser som CSE (Customer Success Enginee
 
 #### AEM {#aem-implementors}
 
-An **AEM** ansvarar för utvecklings- och integreringsuppgifter för att utveckla användarupplevelsen, anpassade mallar och bakomliggande integreringar för AEM.
+En **AEM-implementor** ansvarar för att utföra utvecklings- och integreringsuppgifter för att utveckla användarupplevelsen, anpassade mallar och serverintegreringar för AEM.
 
 Anpassade funktioner som krävs för att hantera parametrar för användarupplevelse hämtas och levereras via den här processen.
 
@@ -48,7 +48,7 @@ AEM implementerare distribuerar vanligtvis anpassade funktioner i faser över ti
 
 #### Audio-Video-integratörer {#av-integrators}
 
-An **Audio-Video Integrator** ansvarar för att utföra identifiering med slutkunder för att definiera krav, fastställa projektets omfattning för att utforma, bygga och effektivt hantera driftsättningar kring maskinvara för digitala signaturer.
+En **Audio-Video-integrator** ansvarar för att utföra identifieringar med slutkunder för att definiera krav, bestämma projektets omfattning för att utforma, bygga och effektivt hantera distributioner kring maskinvara för digitala signaturer.
 
 ## Del 1: Videosjälvstudiekurs om projektets roller och ansvarsområden {#part-video-tutorial-on-project-roles-and-responsibilities}
 
@@ -58,10 +58,10 @@ Följ självstudiekursen nedan för att få en förståelse för hur alla faktor
 
 >[!VIDEO](https://video.tv.adobe.com/v/28375)
 
-*Lär dig mer om rollerna och ansvarsområdena för Adobe, ljud- och bildintegratörer och AEM implementatorer.*
+*Lär dig mer om rollerna och ansvarsområdena för Adobe, ljud-/visuella integratörer och AEM.*
 
 ## Nästa steg {#the-next-step}
 
 När du förstår projektroller och ansvarsområden när du implementerar ett projekt för digitala signaturer följer du nästa självstudiekurs. Där tas även upp ämnen som testning och förhandsförsäljning, eftersom projektet är omfattande när man utvecklar möjligheter för AEM Screens.
 
-Navigera till **[Del 2: Att tänka på som projekt omfång](project-considerations.md)** för mer information.
+Navigera till **[Del 2: Saker att tänka på som projekt är omfång](project-considerations.md)** för mer information.

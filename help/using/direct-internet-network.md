@@ -16,9 +16,9 @@ Direct Internet Network innehåller en ingångspunkt för Internet-åtkomst för
 Standardportarna för kommunikation med AEM Screens är:
 
 * `ssl-secured https (TCP Port 443)`
-  <br>Eller</br>
+  <br>Eller,</br>
 
-* `http (TCP Port 80)`, om ditt specifika användningsfall inte kräver den säkerhetsnivån.
+* `http (TCP Port 80)`, om ditt användningsfall inte kräver den säkerhetsnivån.
 
 Portarna kan variera beroende på konfigurationen av den dedikerade AEM. I denna SetUp är alla enheter direkt anslutna till din Internet-router, vilket visas i bilden nedan.
 
@@ -46,7 +46,7 @@ Följ stegen nedan för att se till att AEM skärmspelare är korrekt anslutna i
    >**Felsökningstips**
    >Om AEM Screens inte ansluter korrekt och det förväntade innehållet inte visas:
    >
-   >1. Kontrollera brandväggen för Internet-routern om det finns begränsningar gällande `TCP/IP Port 80/443`.
+   >1. Kontrollera brandväggen för Internetroutern om det finns några begränsningar för `TCP/IP Port 80/443`.
    >1. Se till att alla portar som krävs tillåts.
 
 ## Konfigurera Direct Internet network {#requirements-direct}
@@ -72,13 +72,13 @@ Prestandan för internetanslutningen, förutom nätverkets nåbarhet, är att ti
 Prestandan för det lokala nätverket (LAN), förutom nätverkets nåbarhet, är att tillhandahålla tillräcklig bandbredd för att AEM Screens ska fungera.
 
 LAN-nätverket matchar vanligtvis minst ett 100 Mbit/s-nätverk, så att det finns tillräckligt med bandbredd för att ansluta många enheter med bra prestanda till systemet.
-Om en Wi-Fi-lösning planeras för att ansluta AEM Screens till Internet Link rekommenderar vi att man använder moderna Wi-Fi-standarder som `IEEE 802.11g` som ett minimum. Den här standarden stöder anslutningar på upp till 54 Mbit/s. Alla *nyare* Standarder som `802.11h-n` är av bättre kvalitet.
+Om en Wi-Fi-lösning planeras för att ansluta AEM Screens till Internet Link rekommenderar vi att du använder moderna Wi-Fi-standarder som `IEEE 802.11g` som ett minimum. Den här standarden stöder anslutningar på upp till 54 Mbit/s. Alla *nyare*-standarder som `802.11h-n` har bättre kvalitet.
 
 >[!NOTE]
 >
 >Om en Wi-Fi-repeater krävs rekommenderar Adobe en trådlös nätanslutningspunkt som Google Nest Mesh Wi-Fi eller liknande. Andra Wi-Fi-upprepande tekniker slutar med en enorm förlust av bandbredd i hela nätverket.
 
-## Hämta media och resurser {#download}
+## Hämta media och Assets {#download}
 
 AEM Screens ger användare av digitala signaturer en stor fördel. Den hämtar och sparar alla nödvändiga mediefiler lokalt, till exempel bilder och videor. Den största nätverkstrafiken inträffar när det finns nytt innehåll som ska visas på en viss skärm.
 

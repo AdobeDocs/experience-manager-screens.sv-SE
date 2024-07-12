@@ -17,7 +17,7 @@ I det här avsnittet ges rekommendationer om viktiga nyckelelement som är vikti
 
 ## Viktiga element i digital signering {#key-elements}
 
-The *Nyckelelement* i ett digitalt signeringsprojekt:
+*Nyckelelement* i ett projekt för digital signatur är:
 
 ![](/help/assets/Elements-Revised.png)
 
@@ -27,7 +27,7 @@ Det är viktigt att du definierar nyckelelementen innan du implementerar ett pro
 
    Maskinvaran definierar vilka maskinvarukomponenter som är idealiska för implementering av projekt för digitala signaturer:
    * Har enheten tillräckligt med lagringsutrymme för att köra alla varianter av upplevelserna offline?
-   * Har du tillåtit typ och längd av videokabel? Och har enheten stöd för båda upplösningarna (HD, FullHD, `4K`och så vidare) och videokodekar som jag planerar att driftsätta (h.264, h.265 och så vidare)
+   * Har du tillåtit typ och längd av videokabel? Och har enheten stöd för både önskad upplösning (HD, FullHD, `4K` och så vidare) och videokodekar som jag planerar att distribuera (h.264, h.265 och så vidare)
    * Användning av fysisk koppartråd
    * Skärmstorlek
    * Antal skärmar
@@ -35,7 +35,7 @@ Det är viktigt att du definierar nyckelelementen innan du implementerar ett pro
       * proportioner
       * upplösning, inställning
 
-1. **Anslutningar**
+1. **Anslutning**
 
    Anslutningsmöjligheterna fokuserar på följande frågor:
    * Nätverksansluten (cell eller wi-fi) eller fristående?

@@ -39,34 +39,34 @@ Innehållsförfattare
 
 Följ stegen nedan för att konfigurera en nödkanal:
 
-1. Skapa ett AEM Screens-projekt med namnet **EmergencyChannel**, vilket visas nedan.
+1. Skapa ett AEM Screens-projekt med namnet **EmergencyChannel**, enligt nedan.
 
    >[!NOTE]
    >Mer information om hur du skapar och hanterar projekt i AEM Screens finns i Skapa ett projekt.
 
    ![screen_shot_2019-02-21at35809pm](assets/screen_shot_2019-02-21at35809pm.png)
 
-1. **Skapa en sekvenskanal**
+1. **Skapar en sekvenskanal**
 
-   1. Klicka på **Kanaler** mapp och klicka på **Skapa**.
+   1. Klicka på mappen **Kanaler** och klicka på **Skapa**.
 
-   1. Klicka **Sekvenskanal** från guiden och skapa kanalen som **MainAdChannel**.
+   1. Klicka på **Sekvenskanal** i guiden och skapa kanalen **MainAdChannel**.
 
    ![screen_shot_2019-02-21at35932pm](assets/screen_shot_2019-02-21at35932pm.png)
 
-1. **Lägga till innehåll i sekvenskanalen**
+1. **Lägger till innehåll i sekvenskanalen**
 
-   1. Klicka på kanalen (**MainAdChannel**).
-   1. Klicka **Redigera** i åtgärdsfältet.
+   1. Klicka på kanalen (**Huvudkanal**).
+   1. Klicka på **Redigera** i åtgärdsfältet.
    1. Dra och släpp några resurser i kanalen.
 
    ![screen_shot_2019-02-21at40053pm](assets/screen_shot_2019-02-21at40053pm.png)
 
-1. **Skapa en nödkanal**
+1. **Skapar en nödkanal**
 
-   1. Klicka på **Kanaler** mapp.
-   1. Klicka **Skapa**.
-   1. Klicka **Sekvenskanal** från guiden och skapa kanalen som **EmergencyChannel**.
+   1. Klicka på mappen **Kanaler**.
+   1. Klicka på **Skapa**.
+   1. Klicka på **Sekvenskanal** i guiden och skapa kanalen **EmergencyChannel**.
 
    >[!NOTE]
    >
@@ -74,49 +74,49 @@ Följ stegen nedan för att konfigurera en nödkanal:
 
    ![screen_shot_2019-02-21at40151pm](assets/screen_shot_2019-02-21at40151pm.png)
 
-1. **Lägga till innehåll i en nödkanal**
+1. **Lägger till innehåll i nödkanal**
 
    1. Klicka på kanalen (**Nödkanal)**.
-   1. Klicka **Redigera** i åtgärdsfältet.
+   1. Klicka på **Redigera** i åtgärdsfältet.
    1. Dra och släpp den resurs du vill köra i en nödsituation till kanalen.
 
    ![screen_shot_2019-02-21at40516pm](assets/screen_shot_2019-02-21at40516pm.png)
 
-1. **Skapa en plats**
+1. **Skapar en plats**
 
-   1. Navigera till **Platser** mapp.
-   1. Klicka **Skapa** i åtgärdsfältet och skapa en plats med namnet **Butik** från guiden.
+   1. Navigera till mappen **Platser**.
+   1. Klicka på **Skapa** i åtgärdsfältet och skapa en plats med namnet **Store** i guiden.
 
    ![screen_shot_2019-02-22at121638pm](assets/screen_shot_2019-02-22at121638pm.png)
 
 1. **Skapar bildskärmar på din plats**
 
-   Navigera till din plats (**Butik**) och klicka på **Skapa** i åtgärdsfältet. Skapa två efter guiden **Visar** titled som **StoreFront** och **StoreRear**.
+   Navigera till din plats (**Store**) och klicka på **Skapa** i åtgärdsfältet. Skapa två **Display** med namnet **StoreFront** och **StoreRear** när du följer guiden.
 
    ![screen_shot_2019-02-22at122556pm](assets/screen_shot_2019-02-22at122556pm.png)
 
-1. **Skapa ett schema**
+1. **Skapar ett schema**
 
-   1. Navigera till **Scheman** mapp.
-   1. Klicka **Skapa** i åtgärdsfältet.
-   1. Skapa ett schema som heter som efter guiden **StoreSchedule**.
+   1. Navigera till mappen **Scheman**.
+   1. Klicka på **Skapa** i åtgärdsfältet.
+   1. Skapa ett schema med namnet **StoreSchedule** efter guiden.
 
    ![screen_shot_2019-02-22at122845pm](assets/screen_shot_2019-02-22at122845pm.png)
 
 1. Tilldela båda skärmarna till ditt schema och ange prioriteter
 
-   1. Klicka på schemat **(StoreSchedule)** och klicka **Kontrollpanel** i åtgärdsfältet.
+   1. Klicka på schemat **(StoreSchedule)** och klicka på **Kontrollpanelen** i åtgärdsfältet.
 
-   1. Klicka **+ Tilldela kanal** från **TILLDELADE KANALER** -panelen.
+   1. Klicka på **+ Tilldela kanal** på panelen **TILLDELADE KANALER**.
 
-   1. Från **Kanaltilldelning** dialogruta:
+   1. Från dialogrutan **Kanaltilldelning**:
 
-      1. Klicka på banan till **MainAdChannel**
-      1. Ange **Prioritet** as 2
-      1. Ange händelser som stöds som **Inledande inläsning** och **Inaktiv skärm**.
-      1. Klicka **Spara**
+      1. Klicka på sökvägen till **MainAdChannel**
+      1. Ange **prioritet** som 2
+      1. Ange att händelser som stöds ska vara **Inledande inläsning** och **Inaktiv skärm**.
+      1. Klicka på **Spara**
 
-      Följ samma steg igen för att tilldela **EmergencyChannel** och ange **Prioritet**.
+      Följ samma steg igen för att tilldela **EmergencyChannel** och ange dess **Priority**.
 
    >[!NOTE]
    >
@@ -124,35 +124,35 @@ Följ stegen nedan för att konfigurera en nödkanal:
 
    ![screen_shot_2019-03-04at104636am](assets/screen_shot_2019-03-04at104636am.png)
 
-1. Klicka **+ Tilldela kanal** från **TILLDELADE KANALER** -panelen.
+1. Klicka på **+ Tilldela kanal** på panelen **TILLDELADE KANALER**.
 
-1. Från **Kanaltilldelning** dialogruta:
+1. Från dialogrutan **Kanaltilldelning**:
 
-   1. Klicka på banan till **EmergencyChannel**
-   1. Ange **Prioritet** som 1
+   1. Klicka på sökvägen till **EmergencyChannel**
+   1. Ange **prioritet** som 1
 
-   1. Ange händelser som stöds som **Inledande inläsning**, **Inaktiv skärm** och **Användarinteraktion**
+   1. Ange att händelser som stöds ska vara **Inledande inläsning**, **Inaktiv skärm** och **Användarinteraktion**
 
-   1. Klicka **Spara**
+   1. Klicka på **Spara**
 
    ![screen_shot_2019-03-04at104741am](assets/screen_shot_2019-03-04at104741am.png)
 
-   Du kan visa de tilldelade kanalerna från **StoreSchedule** kontrollpanel.
+   Du kan visa de tilldelade kanalerna från kontrollpanelen **StoreSchedule**.
 
    ![screen_shot_2019-02-25at93658pm](assets/screen_shot_2019-02-25at93658pm.png)
 
 1. **Tilldela schema till varje skärm**
 
-   1. Navigera till varje visning, till exempel **EmergencyChannel** > **Platser** > **Butik** >**StoreFront**.
+   1. Navigera till varje skärm, till exempel **EmergencyChannel** > **Platser** > **Store** >**StoreFront**.
 
-   1. Klicka **Kontrollpanel** i åtgärdsfältet.
-   1. Klicka **...** från **TILLDELADE KANALER OCH SCHEMAN** panel och ytterligare klicka **+Tilldela schema**.
+   1. Klicka på **Instrumentpanel** i åtgärdsfältet.
+   1. Klicka på **..** på panelen **TILLDELADE KANALER OCH SCHEMAT** och klicka sedan på **+Tilldela schema**.
 
-   1. Klicka på sökvägen till schemat (till exempel här, **EmergencyChannel** > **Scheman** >**StoreSchedule**).
+   1. Klicka på sökvägen till schemat (här, till exempel **EmergencyChannel** > **Scheman** >**StoreSchedule**).
 
-   1. Klicka **Spara**.
+   1. Klicka på **Spara**.
 
-   Du kan visa det tilldelade schemat för visningen från **StoreSchedule** kontrollpanel.
+   Du kan visa det tilldelade schemat för visningen från kontrollpanelen **StoreSchedule**.
    ![screen_shot_2019-03-04at122003pm](assets/screen_shot_2019-03-04at122003pm.png)
 
 1. **Enhetsregistrering**
@@ -165,24 +165,24 @@ Följ stegen nedan för att konfigurera en nödkanal:
 
 Utför följande steg om det uppstår en kris:
 
-1. Navigera till **EmergencyChannel** > **Scheman** > **StoreSchedule** och klicka **Kontrollpanel** i åtgärdsfältet.
+1. Navigera till **EmergencyChannel** > **Scheman** > **StoreSchedule** och klicka på **Dashboard** i åtgärdsfältet.
 
    ![screen_shot_2019-02-25at10112pm](assets/screen_shot_2019-02-25at101112pm.png)
 
-1. Klicka på **EmergencyChannel** från **StoreSchedule** kontrollpanel och klicka på **Redigera uppdrag**.
+1. Klicka på **EmergencyChannel** på kontrollpanelen **StoreSchedule** och klicka på **Redigera tilldelning**.
 
    ![screen_shot_2019-02-25at101239pm](assets/screen_shot_2019-02-25at101239pm.png)
 
-1. Uppdatera **Prioritet** i **EmergencyChannel** till **3** från **Kanaltilldelning** och klicka **Spara**.
+1. Uppdatera **Priority** för **EmergencyChannel** till **3** i dialogrutan **Channel Assignment** och klicka på **Save**.
 
    ![screen_shot_2019-02-25at101622pm](assets/screen_shot_2019-02-25at101622pm.png)
 
-1. När kanalens prioritet uppdateras visas den **EmergencyChannel** innehåll.
+1. När kanalens prioritet uppdateras visas **EmergencyChannel** -innehållet i AEM Screens Player.
 
    ![screen_shot_2019-02-25at101742pm](assets/screen_shot_2019-02-25at101742pm.png)
 
 ### Slutsats {#conclusion}
 
-The **EmergencyChannel** fortsätter att visa innehållet tills innehållsförfattaren återställer prioritetsvärdet till 1.
+**EmergencyChannel** fortsätter att visa sitt innehåll tills innehållsförfattaren återställer prioritetsvärdet till 1.
 
-När innehållsförfattaren får instruktionerna om att nödläget har åtgärdats bör de uppdatera prioriteten för **MainAdChannel**. Om du gör det återupptas den normala uppspelningen.
+När innehållsförfattaren får instruktionerna om att nödläget har rensats, bör de uppdatera prioriteten för **MainAdChannel**. Om du gör det återupptas den normala uppspelningen.

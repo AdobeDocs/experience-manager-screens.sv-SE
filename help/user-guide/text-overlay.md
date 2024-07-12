@@ -28,7 +28,7 @@ Detta avsnitt behandlar följande ämnen:
 
 >[!CAUTION]
 >
->The **Textövertäckning** Funktionen är bara tillgänglig om du har AEM 6.3 Feature Pack 5 eller AEM 6.4 Feature Pack 3.
+>Funktionen **Textövertäckning** är bara tillgänglig om du har installerat AEM 6.3 Feature Pack 5 eller AEM 6.4 Feature Pack 3.
 
 ## Ökning {#overview}
 
@@ -48,31 +48,31 @@ Innan du implementerar den här funktionen bör du kontrollera att du har konfig
 
 * Skapa ett AEM Screens-projekt (i det här exemplet **TextOverlayDemo**)
 
-* Skapa en sekvenskanal med namnet **TextExempel** under **Kanaler** mapp
+* Skapa en sekvenskanal med namnet **TextSample** i mappen **Channels**
 
-* Lägg till innehåll i **TextExempel** Kanal
+* Lägg till innehåll i din **TextSample**-kanal
 
-Följande bild visar **TextOverlayDemo** projektet med **TextExempel** i **Kanaler** mapp.
+Följande bild visar **TextOverlayDemo** -projektet med **TextSample** -kanalen i mappen **Channels** .
 
 ![screen_shot_2018-12-16at75908pm](assets/screen_shot_2018-12-16at75908pm.png)
 
 Följ stegen nedan för att använda textövertäckning i en AEM Screens-kanal:
 
-1. Navigera till **TextOverlayDemo** > **Kanaler** > **TextExempel** och klicka **Redigera** i åtgärdsfältet.
+1. Navigera till **TextOverlayDemo** > **Kanaler** > **TextSample** och klicka på **Redigera** i åtgärdsfältet.
 
    ![screen_shot_2018-12-16at80017pm](assets/screen_shot_2018-12-16at80017pm.png)
 
-1. Klicka på bilden och klicka på **Konfigurera** (skiftnyckelsikon) för att öppna dialogrutan Egenskaper.
+1. Klicka på bilden och klicka på **Konfigurera** (skiftnyckelsikon) för att öppna dialogrutan för egenskaper.
 
    ![screen_shot_2018-12-16at80221pm](assets/screen_shot_2018-12-16at80221pm.png)
 
-1. Klicka på **Textövertäckning** i navigeringsfältet i dialogrutan, vilket visas i bilden nedan.
+1. Klicka på alternativet **Textövertäckning** i navigeringsfältet i dialogrutan, vilket visas i bilden nedan.
 
    ![screen_shot_2018-12-16at80424pm](assets/screen_shot_2018-12-16at80424pm.png)
 
 ### Förstå egenskaper för textövertäckning {#understanding-text-overlay-properties}
 
-Med hjälp av egenskaperna för textövertäckning kan du lägga till text i någon av komponenterna i skärmprojektet. I följande avsnitt ges en översikt över de egenskaper som är tillgängliga i Textövertäckning:
+Med hjälp av egenskaperna för textövertäckning kan du lägga till text i någon av komponenterna i ditt Screens-projekt. I följande avsnitt ges en översikt över de egenskaper som är tillgängliga i Textövertäckning:
 
 ![text](assets/text.gif)
 
@@ -94,54 +94,54 @@ I följande avsnitt beskrivs användningen av värden från ett datalager, till 
 
 Konfigurera ContextHub för ditt AEM Screens-projekt.
 
-Mer information om hur du konfigurerar och hanterar datadrivna resursändringar med hjälp av ett datalager finns i [ContextHub konfigureras i AEM Screens](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/developing/configuring-context-hub).
+Mer information om hur du konfigurerar och hanterar datadrivna resursändringar med ett datalager finns i [Konfigurera ContextHub i AEM Screens](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/developing/configuring-context-hub).
 
 När du har ställt in de konfigurationer som krävs för ditt projekt följer du stegen nedan för att använda värden från Google Sheets:
 
-1. Navigera till **TextOverlayDemo** > **Kanaler** > **TextExempel** och klicka **Egenskaper** i åtgärdsfältet.
+1. Navigera till **TextOverlayDemo** > **Kanaler** > **TextSample** och klicka på **Egenskaper** i åtgärdsfältet.
 
-1. Klicka på **Personalisering** så att du kan konfigurera ContextHub-konfigurationer.
+1. Klicka på fliken **Personalization** så att du kan konfigurera ContextHub-konfigurationer.
 
-   1. Klicka på **ContextHub-sökväg** as **libs** > **inställningar** > **molninställningar** > **standard** > **ContextHub-konfigurationer** och klicka **Välj**.
+   1. Klicka på **ContextHub Path** som **libs** > **settings** > **cloudssettings** > **default** > **ContextHub Configurations** och klicka på **Select**.
 
-   1. Klicka på **Segmentsökväg** as **conf** > **skärmar** > **inställningar** > **wcm** > **segment** och klicka **Välj**.
+   1. Klicka på **Segmentbanan** som **conf** > **screens** > **settings** > **wcm** > **segments** och klicka på **Markera**.
 
-   1. Klicka **Spara och stäng**.
+   1. Klicka på **Spara och stäng**.
 
       >[!NOTE]
       >
       >Använd ContextHub och Segments-sökvägen, där du först sparade dina kontextnavkonfigurationer och segment.
 
-      ![image1](/help/user-guide/assets/text-overlay/text-overlay8.png)
+      ![bild1](/help/user-guide/assets/text-overlay/text-overlay8.png)
 
-1. Navigera till **TextOverlayDemo** > **Kanaler** > **TextExempel** och klicka **Redigera** i åtgärdsfältet.
+1. Navigera till **TextOverlayDemo** > **Kanaler** > **TextSample** och klicka på **Redigera** i åtgärdsfältet.
 
-   ![image1](/help/user-guide/assets/text-overlay/text-overlay1.png)
+   ![bild1](/help/user-guide/assets/text-overlay/text-overlay1.png)
 
-1. Lägga till en bild- och textövertäckningskomponent i bilden enligt beskrivningen i [Använda textövertäckning](/help/user-guide/text-overlay.md#using-text-overlay) på den här sidan.
+1. Lägg till en bild- och textöverläggskomponent i bilden enligt beskrivningen i avsnittet [Använda textövertäckning](/help/user-guide/text-overlay.md#using-text-overlay) på den här sidan.
 
-1. Klicka på **Konfigurera** (skiftnyckelsikon) för att öppna **Bild** -dialogrutan.
+1. Klicka på **Konfigurera** (skiftnyckelsikon) för att öppna dialogrutan **Bild** .
 
-   ![image1](/help/user-guide/assets/text-overlay/text-overlay4.png)
+   ![bild1](/help/user-guide/assets/text-overlay/text-overlay4.png)
 
-1. Navigera till **ContextHub** -fliken från **Bild** -dialogrutan. Klicka **Lägg till**.
+1. Gå till fliken **ContextHub** i dialogrutan **Bild**. Klicka på **Lägg till**.
 
    >[!NOTE]
    >Om du inte har konfigurerat din ContextHub-konfiguration inaktiveras det här alternativet för ditt projekt.
 
-1. Retur **Värde** i **Platshållare** fält. Klicka på raden där du vill hämta värdet från Google-bladet i **ContextHub-variabel**. I det här fallet hämtas värdet från rad 2 och kolumn 1 från Google-bladen. Nu kan du **Standardvärde** as **20**, vilket visas i bilden nedan. När du är klar klickar du på bockmarkeringen.
+1. Ange **Värde** i fältet **Platshållare**. Klicka på raden som du vill hämta värdet från ditt Google-blad i **ContextHub-variabeln**. I det här fallet hämtas värdet från rad 2 och kolumn 1 från Google-bladen. Ange nu **standardvärdet** som **20**, vilket visas i figuren nedan. När du är klar klickar du på bockmarkeringen.
 
-   ![image1](/help/user-guide/assets/text-overlay/text-overlay5.png)
+   ![bild1](/help/user-guide/assets/text-overlay/text-overlay5.png)
 
    >[!NOTE]
    >Följande bild visar det värde som hämtas från Google Sheets:
 
-   ![image1](/help/user-guide/assets/text-overlay/text-overlay6.png)
+   ![bild1](/help/user-guide/assets/text-overlay/text-overlay6.png)
 
-1. Navigera tillbaka till **Textövertäckning** i dialogrutan Bild och lägga till texten *Aktuell temperatur {Value}*, vilket visas i figuren nedan.
+1. Gå tillbaka till fliken **Textövertäckning** i dialogrutan Bild och lägg till texten *Aktuell temperatur {Value}* enligt bilden nedan.
 
-   ![image1](/help/user-guide/assets/text-overlay/text-overlay7.png)
+   ![bild1](/help/user-guide/assets/text-overlay/text-overlay7.png)
 
-1. Klicka **Förhandsgranska**.
+1. Klicka på **Förhandsgranska**.
 
-   ![image1](/help/user-guide/assets/text-overlay/text-overlay10.png)
+   ![bild1](/help/user-guide/assets/text-overlay/text-overlay10.png)

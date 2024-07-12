@@ -15,13 +15,13 @@ ht-degree: 0%
 # Versionsinformation för funktionspaket 2012 {#release-notes-for-feature-pack}
 
 >[!CAUTION]
->Adobe rekommenderar att du uppgraderar till den senaste versionen av Adobe Experience Manager (AEM). AEM Screens har underhållsstöd för AEM 6.3 Screens.
+>Adobe rekommenderar att du uppgraderar till den senaste versionen av Adobe Experience Manager (AEM). AEM Screens ger underhållsstöd för Screens AEM 6.3.
 
 ## Tillgänglighet {#availability}
 
 AEM Screens AEM 6.5 Feature Pack 11.
 
-Du kan hämta den senaste versionen av funktionspaketet för AEM Screens 6.5.11 från [Programdistributionsportal](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) med din Adobe ID. Navigera till **Adobe Experience Manager** flik och sök efter **Skärmar** för att få det senaste funktionspaketet med namnet **AEM 6.5 skärmar FP11**.
+Du kan hämta den senaste funktionspaketet för AEM Screens 6.5.11 från [Software Distribution Portal](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) med din Adobe ID. Gå till fliken **Adobe Experience Manager** och sök efter **Screens** för att få den senaste funktionspaketet med namnet **AEM 6.5 Screens FP11**.
 
 ## Releasedatum {#release-date}
 
@@ -35,13 +35,13 @@ Den här versionen innehåller endast felkorrigeringar.
 
 * Målinriktning/personalisering fungerade inte. Detta fel har åtgärdats.
 
-* E-post för skärmövervakning fungerade inte efter FP10. Detta fel har åtgärdats.
+* Screens övervaknings-e-post fungerade inte efter FP10. Detta fel har åtgärdats.
 
 * Windows Player kraschade när en skärmbild togs i stående läge. Detta fel har åtgärdats.
 
-* Skärmkanalen SPA en vit skärm med Windows Player. Detta fel har åtgärdats.
+* Screens SPA-kanalen orsakade en vitskärm med Windows Player. Detta fel har åtgärdats.
 
-* The *wcmmode* parametern har tagits bort från alla skärpebegäranden i publiceringsinstansen.
+* Parametern *wcmmode* har tagits bort från alla Screens-begäranden på publiceringsinstansen.
 
 * Användargränssnittet Spelaraktivitet fungerar nu som förväntat.
 
@@ -60,4 +60,4 @@ Följande AEM Screens-spelare finns för AEM 6.5 Feature Pack 11:
 
 #### AEM Screens Player - nedladdningar
 
-Om du vill hämta den senaste versionen av AEM Screens Player och läsa mer om felkorrigeringarna kan du läsa **[AEM Screens Player - nedladdningar](https://download.macromedia.com/screens/index.html)**.
+Om du vill hämta den senaste versionen av AEM Screens Player och läsa mer om felkorrigeringarna kan du läsa **[AEM Screens Player-hämtningar](https://download.macromedia.com/screens/index.html)**.

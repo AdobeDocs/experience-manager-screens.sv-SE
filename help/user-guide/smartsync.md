@@ -28,7 +28,7 @@ Det körs både på serversidan och på klientsidan.
 
 **På serversidan**
 
-* Kanalernas innehåll, inklusive resurser, cachas i *`/var/contentsync`*.
+* Kanalernas innehåll, inklusive resurser, cachelagras i *`/var/contentsync`*.
 * Cachen visas för spelarna med hjälp av ett manifest som beskriver det tillgängliga innehållet för en skärm.
 
 **På klientsidan**
@@ -53,21 +53,21 @@ SmartSync-funktionen har flera fördelar för ditt AEM Screens-projekt, som föl
 >
 >Om du redan har installerat AEM 6.3 Feature Pack 5 och AEM 6.4 Feature Pack 3 kan du aktivera SmartSync för resurser för att förbättra användningen av diskutrymme. Om du vill aktivera SmartSync följer du avsnittet nedan för att gå över från ContentSync till SmartSync, vilket aktiverar SmartSync.
 >
->SmartSync är tillgängligt för skärmspelaren med servrar som stöds AEM 6.4.3 FP3.
+>SmartSync är tillgängligt för Screens Player med servrar AEM 6.4.3 FP3.
 >
->Se [AEM Screens Player - nedladdningar](https://download.macromedia.com/screens/) för att ladda ned den senaste spelaren. I följande tabell beskrivs den lägsta spelarversion som krävs för varje plattform:
+>Gå till [AEM Screens Player Downloads](https://download.macromedia.com/screens/) om du vill hämta den senaste spelaren. I följande tabell beskrivs den lägsta spelarversion som krävs för varje plattform:
 
 | **Plattform** | **Lägsta spelarversion som stöds** |
 |---|---|
 | Android™ | 3.3.72 |
-| Chrome OS | 1.0.136 |
+| CHROME OS | 1.0.136 |
 | Windows | 1.0.136 |
 
 Följ stegen nedan för att gå över från ContentSync till SmartSync:
 
 1. Migrering från ContentSync till SmartSync kräver att ContentSync-cachen rensas innan SmartSync aktiveras.
 
-   Navigera till ContentSync-konsolen från din instans via länken ***https://localhost:4502/libs/cq/contentsync/content/console.html*** och klicka **Rensa cache**, vilket visas i figuren nedan:
+   Navigera till ContentSync-konsolen från din instans med länken ***https://localhost:4502/libs/cq/contentsync/content/console.html*** och klicka på **Rensa cache** enligt bilden nedan:
 
    ![clear_contesync_cache](assets/clear_contesync_cache.png)
 
@@ -75,17 +75,17 @@ Följ stegen nedan för att gå över från ContentSync till SmartSync:
    >
    >Alla innehållscache måste rensas innan SmartSync kan användas för första gången.
 
-1. Navigera till **Konfiguration av Adobe Experience Manager Web Console** via AEM > hammarikon > **Operationer** > **Webbkonsol**.
+1. Navigera till **Adobe Experience Manager Web Console Configuration** genom AEM > hammikon > **Åtgärder** > **Webbkonsol**.
 
    ![screen_shot_2019-02-11at15339pm](assets/screen_shot_2019-02-11at15339pm.png)
 
-1. **Konfiguration av Adobe Experience Manager Web Console** öppnas. Sök efter *offlinecontentservice*.
+1. **Adobe Experience Manager Web Console Configuration** öppnas. Sök efter *offlinekontaktentservice*.
 
-   Om du vill söka i **Skärmar som är offline Innehållstjänst** egenskap, tryck **Kommando+F** for **Mac** och **Ctrl+F** for **Windows**.
+   Om du vill söka efter egenskapen **Screens Offline Content Service** trycker du på **Command+F** för **Mac** och **Control+F** för **Windows**.
 
    ![screen_shot_2019-02-19at22643pm](assets/screen_shot_2019-02-19at22643pm.png)
 
-1. Klicka **Spara** för att aktivera **Skärmar offline Innehållstjänster** och använder därför SmartSync för AEM Screens.
-1. När du har aktiverat SmartSync går du till ditt projekt och klickar på **Uppdatera offlineinnehåll** *(från åtgärdsfältet),* som visas i figuren nedan.
+1. Klicka på **Spara** om du vill aktivera egenskapen **Screens Offline Content Services** och använda SmartSync för AEM Screens.
+1. När du har aktiverat SmartSync navigerar du till ditt projekt och klickar på **Uppdatera offlineinnehåll** *(från åtgärdsfältet),* enligt bilden nedan.
 
    ![screen_shot_2019-02-25at102605am](assets/screen_shot_2019-02-25at102605am.png)

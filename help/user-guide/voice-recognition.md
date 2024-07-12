@@ -20,7 +20,7 @@ ht-degree: 1%
 >
 >När du använder funktionen för röstigenkänning ska du följa alla tillämpliga juridiska och etiska riktlinjer för din region. Dessa riktlinjer innehåller, men är inte begränsade till, ett synligt meddelande till slutanvändarna om att spelaren använder röstigenkänning). Adobe tar inte emot, lagrar eller bearbetar någon röstrelaterad information. AEM Screens-spelarna använder det standard-API för webbtal som är inbyggt i webbläsarmotorn. Bakom kulisserna skickar denna API en vågform av ditt tal till Google-servrar för konvertering från tal till text. Spelaren matchar texten mot konfigurerade nyckelord.
 >
->Se [Google Sekretessrapport om webb-API:t](https://www.google.com/chrome/privacy/whitepaper.html#speech) för mer information.
+>Mer information finns i [Google sekretesrapport om API:t för webbtal](https://www.google.com/chrome/privacy/whitepaper.html#speech).
 
 
 Röstigenkänningsfunktionen tillåter innehållsändringar i en AEM Screens-kanal som styrs av röstinteraktion.
@@ -33,7 +33,7 @@ En innehållsförfattare kan konfigurera en visning som röstaktiverad. Syftet m
 ## Implementera röstidentifiering {#implementing}
 
 >[!IMPORTANT]
-> Röstigenkänningsfunktionen är bara tillgänglig i Chrome OS- och Windows-spelare.
+> Röstigenkänningsfunktionen är endast tillgänglig i Chrome OS- och Windows-spelare.
 
 Om du vill implementera röstigenkänning i ditt AEM Screens-projekt aktiverar du röstigenkänningen för bildskärmen och associerar varje kanal med en unik tagg för att aktivera en kanalövergång.
 
@@ -43,7 +43,7 @@ I följande avsnitt beskrivs hur du kan aktivera och använda funktionen för r�
 
 Innan du använder en röstigenkänningsfunktion bör du kontrollera att du har ett projekt och en kanal med innehåll som har konfigurerats för projektet.
 
-1. I följande exempel visas ett demoprojekt med namnet **VoiceDemo** och tre sekvenskanaler **Huvud**, **ColdDrinks** och **HotDrinks**, vilket visas i figuren nedan.
+1. I följande exempel visas ett demonstrationsprojekt med namnet **VoiceDemo** och tre sekvenskanaler **Main**, **ColdDrinks** och **HotDrinks**, vilket visas i bilden nedan.
 
    ![bild](assets/voice-recognition/vr-1.png)
 
@@ -53,15 +53,15 @@ Innan du använder en röstigenkänningsfunktion bör du kontrollera att du har 
 
    Eller
 
-   Du kan skapa tre sekvenskanaler **Huvud**, **ColdDrinks** och **HotDrinks** och ytterligare en 1x2-kanal för delade skärmar **SplitScreen** som visas i figuren nedan.
+   Du kan skapa tre sekvenskanaler, **Main**, **ColdDrinks** och **HotDrinks**, och ytterligare en 1x2 delad Screens-kanal, **SplitScreen**, enligt bilden nedan.
 
    ![bild](assets/voice-recognition/vr-emb-1.png)
 
-1. Navigera till var och en av kanalerna och lägg till innehåll. Navigera till exempel **VoiceDemo** > **Kanaler** > **Huvud** och klicka på kanalen. Klicka **Redigera** i åtgärdsfältet och lägg sedan till innehåll (bilder/videor) efter behov. Lägg på samma sätt till innehåll i båda **ColdDrinks** och **HotDrinks** kanal.
+1. Navigera till var och en av kanalerna och lägg till innehåll. Navigera till **VoiceDemo** > **Kanaler** > **Main** och klicka på kanalen. Klicka på **Redigera** i åtgärdsfältet och lägg sedan till innehåll (bilder/videoklipp) enligt dina önskemål. Lägg på samma sätt till innehåll i både **ColdDrinks** och i kanalen **HotDrinks** .
 
    Kanalerna innehåller nu resurser (bilder), vilket visas i figurerna nedan.
 
-   **Huvud**:
+   **Huvudsida**:
 
    ![bild](assets/voice-recognition/vr-4.png)
 
@@ -73,7 +73,7 @@ Innan du använder en röstigenkänningsfunktion bör du kontrollera att du har 
 
    ![bild](assets/voice-recognition/vr-2.png)
 
-   Om du har lagt till kanalen för delade skärmar i ditt projekt går du till **SplitScreen** och dra och släpp två inbäddade sekvenser. Lägg till banor i båda **ColdDrinks** och **HotDrinks** kanal enligt bilden nedan.
+   Om du har lagt till den delade Screens-kanalen i ditt projekt går du till **SplitScreen** och drar och släpper två inbäddade sekvenser. Lägg till banor i både kanalen **ColdDrinks** och **HotDrinks** enligt bilden nedan.
    ![bild](assets/voice-recognition/vr-emb-6.png)
 
 
@@ -83,31 +83,31 @@ När du har lagt till innehåll i kanalerna navigerar du till var och en av kana
 
 Följ stegen nedan för att lägga till taggar i din kanal:
 
-1. Navigera till var och en av kanalerna och lägg till innehåll. Navigera till exempel **VoiceDemo** > **Kanaler** > **Huvud** och klicka på kanalen.
+1. Navigera till var och en av kanalerna och lägg till innehåll. Navigera till **VoiceDemo** > **Kanaler** > **Main** och klicka på kanalen.
 
-1. Klicka **Egenskaper** i åtgärdsfältet.
+1. Klicka på **Egenskaper** i åtgärdsfältet.
 
    ![bild](assets/voice-recognition/vr-5.png)
 
-1. Navigera till **Grunderna** klickar du på en befintlig tagg på **Taggar** eller skapa ett.
+1. Navigera till fliken **Grunderna** och klicka sedan på en befintlig tagg i fältet **Taggar** eller skapa en.
 
-   Du kan antingen skapa en tagg genom att ange ett nytt namn för taggen och trycka på `return` enligt figuren nedan:
+   Du kan antingen skapa en tagg genom att skriva in ett nytt namn för taggen och trycka på `return` enligt bilden nedan:
 
    ![bild](assets/voice-recognition/vr-6.png)
 
    Eller
 
-   Du kan också skapa taggar från AEM i förväg för ditt projekt och markera dem. När du har följt de steg som beskrivs i [Skapa taggar](#creating-tags)kan du klicka på taggen från platsen och lägga till den i kanalen, vilket visas i bilden nedan:
+   Du kan också skapa taggar från AEM i förväg för ditt projekt och markera dem. När du har följt stegen som beskrivs i [Skapa taggar](#creating-tags) kan du klicka på taggen från platsen och lägga till den i din kanal, vilket visas i bilden nedan:
 
    ![bild](assets/voice-recognition/vr-tag1.png)
 
-1. Lägg på liknande sätt till en tagg med namnet som **hot** till **HotDrinks** kanal.
+1. Lägg på samma sätt till en tagg med namnet **hot** i kanalen **HotDrinks** .
 
-1. Om du använder en kanal för delade skärmar lägger du till båda taggarna (**hot** och **kall**) till **SplitScreen** kanalegenskaper, vilket visas i bilden nedan.
+1. Om du använder en delad Screens-kanal lägger du till båda taggarna (**hot** och **kall**) i kanalegenskaperna **SplitScreen** enligt bilden nedan.
 
    ![bild](assets/voice-recognition/vr-emb-7.png)
 
-1. Klicka **Spara och stäng** när du är klar.
+1. Klicka på **Spara och stäng** när du är klar.
 
 
 ### Skapa taggar {#creating-tags}
@@ -119,12 +119,12 @@ Skapa taggar genom att följa stegen nedan:
 1. Klicka på verktygsikonen > **Taggning**.
    ![bild](assets/voice-recognition/vr-7.png)
 
-1. Klicka **Skapa** > **Skapa namnutrymme**.
+1. Klicka på **Skapa** > **Skapa namnområde**.
    ![bild](assets/voice-recognition/vr-tag3.png)
 
-1. Ange namnet på projektet, till exempel **VoiceDemo** och klicka **Skapa**.
+1. Ange namnet på ditt projekt, till exempel **VoiceDemo**, och klicka på **Skapa**.
 
-1. Klicka på **VoiceDemo** projekt och klicka på **Skapa tagg** i åtgärdsfältet.
+1. Klicka på projektet **VoiceDemo** och klicka på **Skapa tagg** i åtgärdsfältet.
    ![bild](assets/voice-recognition/vr-tag4.png)
 
 1. Ange namnet på taggen och klicka på **Skicka**.
@@ -134,17 +134,17 @@ Nu kan du använda de här taggarna i ditt AEM Screens-projekt.
 
 ### Tilldela kanal till en bildskärm och aktivera röstigenkänning {#channel-assignment}
 
-1. Skapa en visning i **Platser** enligt bilden nedan.
+1. Skapa en visning i mappen **Platser**, vilket visas i bilden nedan.
 
    ![bild](assets/voice-recognition/vr-loc.png)
 
    >[!NOTE]
    >Mer information om hur du tilldelar en kanal till en skärm finns i [Skapa och hantera skärmar](/help/user-guide/managing-displays.md).
 
-1. Tilldela kanalerna **Huvud**, **ColdDrinks** och **HotDrinks** till **LobbyDisplay**. Om du använder **SplitScreen** för projektet, se till att du tilldelar även den till visningen.
+1. Tilldela kanalerna **Main**, **ColdDrinks** och **HotDrinks** till din **LobbyDisplay**. Om du använder **SplitScreen**-kanalen för ditt projekt måste du också tilldela den till skärmen.
 
    >[!NOTE]
-   >Om du har skapat en delad skärmkanal tilldelar du **SplitScreen** till webbkanalen.
+   >Om du har skapat en delad skärmkanal tilldelar du **SplitScreen**-kanalen till skärmen.
 
 1. Ange följande egenskaper för varje kanal när du tilldelar kanalen.
 
@@ -159,9 +159,9 @@ Nu kan du använda de här taggarna i ditt AEM Screens-projekt.
    >
    >Mer information om hur du tilldelar en kanal till en skärm finns i [Skapa och hantera skärmar](/help/user-guide/managing-displays.md).
 
-1. När du har tilldelat kanaler till en visning går du till **LobbyDisplay** och klicka på visningen. Klicka **Egenskaper** i åtgärdsfältet.
+1. När du har tilldelat kanaler till en visning går du till **LobbyDisplay** och klickar på visningen. Klicka på **Egenskaper** i åtgärdsfältet.
 
-1. Navigera till **Visa** -fliken och aktivera **Röstaktivering** option under **Innehåll**.
+1. Navigera till fliken **Visning** och aktivera alternativet **Voice enabled** under **Content**.
 
    ![bild](assets/voice-recognition/vr-disp.png)
 
@@ -170,17 +170,17 @@ Nu kan du använda de här taggarna i ditt AEM Screens-projekt.
 
 ### Visa innehållet i Chrome Player {#viewing-content}
 
-När de föregående stegen är slutförda kan du registrera din Chrome-enhet för att visa utdata.
+När ovanstående steg är klara kan du registrera din Chrome-enhet för att visa utdata.
 
 >[!NOTE]
 >Se [Enhetsregistrering](device-registration.md).
 
-**Önskad utdata för sekvenskanal**
+**Önskade utdata för sekvenskanal**
 
-The **Huvud** Kanalen spelar upp innehållet. När du använder ord med nyckelordet **hot**, till exempel *Jag skulle vilja ta en drink.* börjar kanalen spela upp innehållet i **HotDrinks** kanal.
+Innehållet spelas upp i **Main**-kanalen. När du använder ord med nyckelordet **hot**, till exempel *Jag vill ha ett varmt glas*, börjar dock innehållet i **HotDrinks**-kanalen spelas upp.
 
-Om du använder ett ord med ett nyckelord på samma sätt **kall** som *Jag skulle vilja ha någonting kallt* börjar kanalen spela upp innehållet i **ColdDrinks** kanal.
+Om du använder ett ord med nyckelordet **kall**, till exempel *Jag vill ha något kallt*, börjar kanalen spela upp innehållet i kanalen **ColdDrinks** .
 
-**Önskad utdata för kanalen för delade skärmar**
+**Önskade utdata för delad Screens-kanal**
 
-The **Huvud** Kanalen spelar upp innehållet. När du använder ord med nyckelordet **hot** och **kall** tillsammans, som *Jag vill se menyn för varma och kalla drycker* spelas innehållet upp i **SplitScreen** kanal. Om du säger *tillbaka till huvudmenyn*&#x200B;återgår den till **Huvud** kanal.
+Innehållet spelas upp i **Main**-kanalen. När du använder ord med nyckelordet **hot** och **kall** tillsammans, till exempel *Jag vill se menyn för varma och kalla drycker*, spelar kanalen upp innehållet i **SplitScreen** -kanalen. Om du säger *tillbaka till huvudmenyn* återgår den till **huvudkanalen**.

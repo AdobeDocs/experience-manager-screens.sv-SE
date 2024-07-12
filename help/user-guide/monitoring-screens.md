@@ -19,7 +19,7 @@ ht-degree: 0%
 
 # Felsökning av Device Control Center {#troubleshooting-device-control-center}
 
-Du kan övervaka och felsöka prestanda för din aktivitet och enhet i AEM Screens Player med hjälp av enhetskonsolen. Den här sidan innehåller information om hur du övervakar och felsöker upplevda prestandaproblem för skärmspelaren och de tilldelade enheterna.
+Du kan övervaka och felsöka prestanda för din aktivitet och enhet i AEM Screens Player med hjälp av enhetskonsolen. På den här sidan finns information om hur du övervakar och felsöker prestandaproblem som upplevs som problem för Screens Player och de tilldelade enheterna.
 
 ## Övervaka och felsök från Device Control Center {#monitor-and-troubleshoot-from-device-control-center}
 
@@ -29,9 +29,9 @@ Du kan övervaka aktiviteten och därmed felsöka din AEM Screens Player med hj�
 
 Följ stegen nedan för att navigera till kontrollpanelen för enheter:
 
-1. Navigera till kontrollpanelen för enheten från ditt projekt, till exempel ***Testa projekt*** > ***Enheter***.
+1. Navigera till enhetens kontrollpanel från ditt projekt, till exempel ***Testa projekt*** > ***Enheter***.
 
-   Klicka **Enheter** och **Enhetshanteraren** i åtgärdsfältet.
+   Klicka på **Enheter** och **Enhetshanteraren** i åtgärdsfältet.
 
    ![screen_shot_2019-09-03at13823pm](assets/screen_shot_2019-09-03at13823pm.png)
 
@@ -39,7 +39,7 @@ Följ stegen nedan för att navigera till kontrollpanelen för enheter:
 
    ![screen_shot_2019-09-05at12823pm](assets/screen_shot_2019-09-05at12823pm.png)
 
-1. Klicka på enheten (**NewTestDevice**) och klicka på **Kontrollpanel** i åtgärdsfältet.
+1. Klicka på enheten (**NewTestDevice**) och klicka på **Dashboard** i åtgärdsfältet.
 
    ![screen_shot_2019-09-05at13341pm](assets/screen_shot_2019-09-05at13341pm.png)
 
@@ -49,65 +49,65 @@ Följ stegen nedan för att navigera till kontrollpanelen för enheter:
 
 ### Övervaka enhetsaktivitet {#monitor-device-activity}
 
-The **Aktivitet** visas den senaste pingen av AEM Screens Player med tidsstämpeln. Den senaste pinghändelsen motsvarar den senaste gången som enheten kontaktade servern.
+På panelen **Aktivitet** visas den senaste pingen av AEM Screens Player med tidsstämpeln. Den senaste pinghändelsen motsvarar den senaste gången som enheten kontaktade servern.
 
 ![chlimage_1](assets/chlimage_1.png)
 
-Klicka också på **Samla in loggar** från det övre högra hörnet av **Aktivitet** för att visa loggarna för spelaren.
+Klicka även på **Samla in loggar** i det övre högra hörnet av **aktivitetspanelen** för att visa loggarna för spelaren.
 
 ### Uppdatera enhetsinformation {#update-device-details}
 
-Kontrollera **Enhetsinformation** så att du kan visa enhetens IP-adress, lagringsanvändning, firmware-version och spelarens drifttid för enheten.
+Kontrollera panelen **Enhetsinformation** så att du kan visa enhetens IP-adress, lagringsanvändning, firmware-version och spelarens drifttid för enheten.
 
 ![chlimage_1-1](assets/chlimage_1-1.png)
 
-Klicka också på **Rensa cache** och **Uppdatera** för att rensa cacheminnet på din enhet och uppdatera [firmware](screens-glossary.md) från den här panelen.
+Klicka även på **Rensa cache** och **Uppdatera** för att rensa cacheminnet för enheten och uppdatera versionen [firmware](screens-glossary.md) från den här panelen.
 
-Klicka också på **...** från det övre högra hörnet av **Enhetsinformation** för att starta om eller uppdatera spelarens status.
+Klicka även på **..** i det övre högra hörnet av panelen **Enhetsinformation** för att starta om eller uppdatera spelarens status.
 
 ![chlimage_1-2](assets/chlimage_1-2.png)
 
 ### Uppdatera enhetsinformation {#update-device-information}
 
-Kontrollera **ENHETSINFORMATION** -panelen. Här kan du visa konfigurationsuppdateringen, enhetsmodellen, enhets-OS och gränssnittsinformationen.
+Kontrollera panelen **ENHETSINFORMATION**. Här kan du visa konfigurationsuppdateringen, enhetsmodellen, enhets-OS och gränssnittsinformationen.
 
 ![screen_shot_2019-09-05at13853pm](assets/screen_shot_2019-09-05at13853pm.png)
 
-Klicka också på (**...**) i det övre högra hörnet av panelen Enhetsinformation för att visa egenskaper eller uppdatera enheten.
+Klicka också på (**..**) i det övre högra hörnet av panelen Enhetsinformation för att visa egenskaper eller uppdatera enheten.
 
 ![screen_shot_2019-09-05at14017pm](assets/screen_shot_2019-09-05at14017pm.png)
 
-Klicka **Egenskaper** så att du kan se **Enhetsegenskaper** -dialogrutan. Du kan redigera enhetens titel eller välja alternativet för konfigurationsuppdateringar som **Manuell** eller **Automatisk**.
+Klicka på **Egenskaper** så att du kan visa dialogrutan **Enhetsegenskaper**. Du kan redigera enhetens titel eller välja alternativet för konfigurationsuppdateringar som **Manuell** eller **Automatisk**.
 
 >[!NOTE]
 >
->Mer information om de händelser som är associerade med enhetens automatiska eller manuella uppdateringar finns i avsnittet ***Automatiska eller manuella uppdateringar från enhetskontrollpanelen*** in [Hantera kanaler](managing-channels.md).
+>Mer information om de händelser som är associerade med enhetens automatiska eller manuella uppdateringar finns i avsnittet ***Automatiska eller Manuella uppdateringar från enhetskontrollpanelen*** i [Hantera kanaler](managing-channels.md).
 
 ![screen_shot_2019-09-05at14112pm](assets/screen_shot_2019-09-05at14112pm.png)
 
 ### View Player Screenshot {#view-player-screenshot}
 
-Du kan visa skärmbilden för spelaren från enheten från **SPELARSKÄRMBILD** -panelen.
+Du kan visa skärmbilden för spelaren från enheten på panelen **PLAYER SCREENSHOT** .
 
-Klicka (**...**) i det övre högra hörnet av panelen Spelarbild och klicka på **Uppdatera skärmbild** för att visa ögonblicksbilden av spelaren som körs.
+Klicka på (**...**) i det övre högra hörnet av panelen Player-skärmbild och klicka på **Uppdatera skärmbild** för att visa ögonblicksbilden av spelaren som körs.
 
 ![screen_shot_2019-09-05at14205pm](assets/screen_shot_2019-09-05at14205pm.png)
 
 ### Hantera inställningar {#manage-preferences}
 
-The **INSTÄLLNINGAR** kan användaren ändra inställningar för **Administratörsgränssnitt**, **Kanalväljare** och **Fjärrfelsökning** för enheten.
+På panelen **INSTÄLLNINGAR** kan användaren ändra inställningarna för **administratörsgränssnittet**, **kanalväljaren** och **fjärrfelsökning** för enheten.
 
 >[!NOTE]
 >Mer information om de här alternativen finns i [AEM Screens Player](working-with-screens-player.md).
 
 ![screen_shot_2019-09-05at14250pm](assets/screen_shot_2019-09-05at14250pm.png)
 
-Klicka också på **Inställningar** från det övre högra hörnet för att uppdatera enhetsinställningarna. Du kan uppdatera följande inställningar:
+Klicka även på **Inställningar** i det övre högra hörnet för att uppdatera enhetsinställningarna. Du kan uppdatera följande inställningar:
 
 * **Server-URL**
 * **Upplösning**
 * **Starta om schemat**
-* **Max. nr av loggfiler som ska behållas**
+* **Max antal av loggfiler som ska behållas**
 * **Loggnivå**
 
 ![screen_shot_2019-09-05at14511pm](assets/screen_shot_2019-09-05at14511pm.png)
@@ -126,13 +126,13 @@ Klicka också på **Inställningar** från det övre högra hörnet för att upp
 
 Aktivera den tomma referenten så att enheten kan skicka data till servern. Om t.ex. den tomma refereraregenskapen är inaktiverad, kan enheten inte publicera en skärmdump.
 
-Vissa av dessa funktioner är för närvarande bara tillgängliga om *Apache Sling Referer-filtret Tillåt tomt* är aktiverat i OSGi-konfigurationen. Kontrollpanelen kan visa en varning om att skyddsinställningarna kan förhindra vissa av dessa funktioner från att fungera.
+Vissa av dessa funktioner är för närvarande bara tillgängliga om *Refererarfiltret för Apache Sling Tillåt tom* är aktiverat i OSGi-konfigurationen. Kontrollpanelen kan visa en varning om att skyddsinställningarna kan förhindra vissa av dessa funktioner från att fungera.
 
 Följ stegen nedan för att aktivera filtret Tillåt tomt för Apache Sling Referrer
 
-1. Navigera till **Konfiguration av Adobe Experience Manager Web Console**, det vill säga `https://localhost:4502/system/console/configMgr/org.apache.sling.security.impl.ReferrerFilter`.
-1. Kontrollera **allow.empty** alternativ.
-1. Klicka **Spara**.
+1. Navigera till **Adobe Experience Manager Web Console Configuration**, det vill säga `https://localhost:4502/system/console/configMgr/org.apache.sling.security.impl.ReferrerFilter`.
+1. Markera alternativet **allow.empty**.
+1. Klicka på **Spara**.
 
 ![chlimage_1-3](assets/chlimage_1-3.png)
 
@@ -142,10 +142,10 @@ I följande avsnitt rekommenderas övervakning av nätverkslänkar, servrar och 
 
 AEM har inbyggd övervakning för:
 
-* *Hjärtslag* var 5:e sekund för att ange att AEM Screens Player är i drift.
+* *pulsslag* var femte sekund för att ange att AEM Screens Player är i drift.
 * *Skärmbild* från spelaren som visar vad som visas i spelaren.
-* The *AEM Screens Player Firmware* versionen är installerad på spelaren.
-* *Ledigt lagringsutrymme* på spelaren.
+* *AEM Screens Player-versionen* är installerad i spelaren.
+* *Ledigt lagringsutrymme* i spelaren.
 
 Recommendations för fjärrövervakning med tredjepartsprogram:
 
@@ -158,4 +158,4 @@ Vi rekommenderar att du driftsätter Player-maskinvaran och operativsystemet på
 
 #### Andra resurser {#additional-resources}
 
-Se [Konfiguration och felsökning av videouppspelning](troubleshoot-videos.md) om du vill felsöka och felsöka videor som spelas upp i din kanal.
+Se [Konfiguration och felsökning för videouppspelning](troubleshoot-videos.md) om du vill felsöka och felsöka videor som spelas upp i din kanal.
