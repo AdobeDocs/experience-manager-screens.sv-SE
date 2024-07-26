@@ -8,9 +8,9 @@ user-guide-description: Lär dig använda en lösning för digital signering som
 feature-set: Experience Manager Screens
 feature: Content
 role: User
-source-git-commit: 1bd79ed3a0a610efb12f9ff1030a33978ccccf1e
+source-git-commit: 25a89400d2def07026c79cfedcd6418750c1de7d
 workflow-type: tm+mt
-source-wordcount: '522'
+source-wordcount: '526'
 ht-degree: 5%
 
 ---
@@ -23,6 +23,7 @@ ht-degree: 5%
    + [Kickstart Guide](kickstart-for-aem-screens.md)
    + [Screens Best Practices Guide](https://experienceleague.adobe.com/en/docs/experience-manager-screens/using/about-guide)
    + [Nyckeltermer](screens-glossary.md)
+   + [Screens terminologi och begrepp](screens-concepts-feature-video-understand.md)
 + Grundläggande om nätverk för digital signering {#digital-signage-network}
    + [Del 1: Projektroller och ansvarsområden](project-roles-responsibilities.md)
    + [Del 2: Att tänka på som projekt omfång](project-considerations.md)

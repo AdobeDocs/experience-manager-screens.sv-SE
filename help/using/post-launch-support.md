@@ -1,7 +1,7 @@
 ---
-title: Stöd för lansering av Post
-description: Läs mer om Post support för AEM Screens i Best Practices Guide.
-source-git-commit: a89aec16bb36ecbde8e417069e9ed852363acd82
+title: Stöd efter lansering
+description: Läs mer om stöd för AEM Screens efter lansering i Best Practices Guide.
+source-git-commit: dd91043434892817e1aa900e222fae85b8665da8
 workflow-type: tm+mt
 source-wordcount: '370'
 ht-degree: 4%
@@ -9,9 +9,9 @@ ht-degree: 4%
 ---
 
 
-# Stöd för lansering av Post {#post-launch-support}
+# Support efter start {#post-launch-support}
 
-Glöm inte stödet för lansering av Post i ett tidigt skede.
+Glöm inte stödet efter lanseringen i ett tidigt skede.
 
 Att se till att webbplatserna får tillräcklig support från maskinvaruleverantören är avgörande för deras verksamhet. **Audio-Video Integrator** bör ha ett nära samarbete med företagsintressenter och identifiera de krav som krävs från olika aspekter.
 Tänk på följande under support efter start:
@@ -21,7 +21,7 @@ Tänk på följande under support efter start:
 * support på plats för tekniker
 * enhetshantering (garantisupport och lagring på reservenheter)
 
-För att förbereda sig för långsiktiga framgångar är det också av största vikt att upprätta ett servicenivåavtal (Dag 2) i samarbete med Audio-Video Integrator. SLA-avtalet bör innehålla detaljerad information om alla supporttjänster efter driftsättning för att hjälpa till att exakt ställa kundens förväntningar.
+För att lyckas på lång sikt är det också av största vikt att upprätta ett servicenivåavtal (Dag 2) i samarbete med Audio-Video Integrator. SLA bör ge detaljerad information om alla supporttjänster efter driftsättningen för att hjälpa kunden att ställa upp sina förväntningar.
 
 >[!NOTE]
 >
@@ -31,7 +31,7 @@ För att förbereda sig för långsiktiga framgångar är det också av största
 >* Är programmet mycket synligt för kundens chefer? Webbplatser med hög synlighet kan behöva olika behandlingar.
 >* Är programmet viktigt för affärsverksamhet som menybord i snabbmatskedjor? I dessa fall kan slutklienten behöva lösningar på plats med korta svarstider och redundans i uppspelningsmaskinvaran.
 
-## Överväganden och Post Launch Queries {#considerations-queries}
+## Överväganden och frågor efter start {#considerations-queries}
 
 Några saker att tänka på och frågor som hjälper dig att definiera support efter lanseringen:
 
