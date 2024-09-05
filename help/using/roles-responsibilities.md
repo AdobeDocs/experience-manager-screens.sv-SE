@@ -2,9 +2,9 @@
 title: AEM Screens projektroller och ansvarsområden
 description: Läs om AEM Screens projektroller och ansvarsområden.
 exl-id: 9377625b-529a-4b46-89d9-f526de398639
-source-git-commit: a89aec16bb36ecbde8e417069e9ed852363acd82
+source-git-commit: 7eae5038cb836219447d900bacf8af2faab51a43
 workflow-type: tm+mt
-source-wordcount: '1241'
+source-wordcount: '1255'
 ht-degree: 0%
 
 ---
@@ -44,6 +44,10 @@ AEM implementerare distribuerar vanligtvis anpassade funktioner i faser över ti
 Audio-Video Integrator är maskinvaruleverantör-partner. De är de som arbetar med design och förberedelser av webbplatser, inklusive maskinvaruförvärv, konfigurering och driftsättning. Det är vanligtvis en avtalad tredje part som har tillgång till ett Network Operations Center (NOC). Audio-Video Integrator är ofta projektägare på grund av dess kontinuerliga engagemang efter lanseringen.
 
 En Audio-Video-integratör ansvarar för att utföra identifiering med slutkunder för att definiera krav, fastställa projektets omfattning för att utforma, bygga och effektivt hantera driftsättningar kring maskinvara för digitala signaturer.
+
+>[!NOTE]
+>
+> Du måste ha en ljudvideointegratör som en del av AEM Screens-distributionen.
 
 #### Övervägande av maskinvarupartner {#selecting-hardware-partner}
 
@@ -158,7 +162,7 @@ I följande tabell sammanfattas **dag ett: Projektimplementering (butiksberedska
 | Butiksintroduktionsplan | I | I | C | RA |
 | Testning av användargodkännande för mellanlagring | I | C | RA |   |
 | Konfiguration av maskinvarugrupp | RA | I | C | I |
-| Avtal om Post Launch Support | RA | C | RA | C |
+| Avtal om support efter start | RA | C | RA | C |
 
 I följande tabell sammanfattas **Day One: Day One: Project Implementation (Hardware)**:
 
@@ -173,7 +177,7 @@ I följande tabell sammanfattas **Day One: Day One: Project Implementation (Hard
 
 >[!NOTE]
 >
->Roller ändras under dag två (Post Launch Support).
+>Roller ändras under dag två (stöd efter start).
 
 * **Författare**: Innehållshantering + strategi
 
@@ -181,11 +185,11 @@ I följande tabell sammanfattas **Day One: Day One: Project Implementation (Hard
 
 * **Tekniker**: Anskaffas antingen av Audio-Video Integrator eller ingår i samma företag.
 
-I följande tabell sammanfattas **Day Two: Post Launch Support RACI Chart**:
+I följande tabell sammanfattas **Dag två: RACI-diagram för stöd för poststart**:
 
 | **Fas** | **Författare** | **Utvecklare** | **Tekniker** |
 |---|---|---|---|
-| *Dag två: Post-startsupport* |
+| *Dag två: Support efter start* |
 | Avtal om roller och ansvar | RA | RA | RA |
 | Stöd för nivå 1 | I | I | RA |
 | Stöd för nivå 2 | I | C | RA |
