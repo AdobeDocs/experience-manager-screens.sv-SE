@@ -1,6 +1,6 @@
 ---
 title: Konfigurera åtkomstkontrollistor
-description: Lär dig hur du skiljer ut projekt med hjälp av åtkomstkontrollistor så att varje enskild person eller grupp hanterar sitt eget projekt.
+description: Lär dig att separera projekt med hjälp av åtkomstkontrollistor (ACL) så att varje enskild person eller grupp hanterar sitt eget projekt.
 contentOwner: jsyal
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
@@ -9,16 +9,16 @@ feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: b40bcc9f-307c-422c-8abb-5c15965772d4
-source-git-commit: cdff56f0807f6d5fea4a4b1d545aecb1e80245bb
+source-git-commit: 71b4f55c860d559dceaac9d5bf7ea71ce52210fa
 workflow-type: tm+mt
-source-wordcount: '488'
+source-wordcount: '497'
 ht-degree: 0%
 
 ---
 
 # Konfigurera åtkomstkontrollistor {#setting-up-acls}
 
-I följande avsnitt beskrivs hur du skiljer ut projekt med hjälp av åtkomstkontrollistor så att varje enskild person eller grupp hanterar sitt eget projekt.
+I följande avsnitt beskrivs hur du delar upp projekt med åtkomstkontrollistor (ACL) så att varje enskild person eller grupp hanterar sitt eget projekt.
 
 Som AEM vill du se till att teammedlemmar i ett projekt inte stör andra projekt. Varje användare tilldelas specifika roller enligt projektkraven.
 
