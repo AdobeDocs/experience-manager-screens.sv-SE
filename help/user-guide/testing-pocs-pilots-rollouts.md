@@ -1,5 +1,5 @@
 ---
-title: "Del 3: Testning, POC, piloter & Rollouts"
+title: 'Del 3: Testning, POC, piloter & Rollouts'
 description: Lär dig de viktigaste villkoren i en övergripande projektplan, t.ex. projektcykel, åtgärder som omger maskinvarutestning, konceptbevis, piloter och rollouts.
 contentOwner: jsyal
 content-type: reference

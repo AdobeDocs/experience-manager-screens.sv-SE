@@ -1,5 +1,5 @@
 ---
-title: "Del 1: Projektroller och ansvarsområden"
+title: 'Del 1: Projektroller och ansvarsområden'
 description: I den här självstudiekursen kan du förstå vilka roller, ansvarsområden och tidslinjer som krävs under försäljnings- och projektlivscykeln för ett digitalt signeringsprojekt.
 feature: Overview
 role: User, Data Architect

@@ -1,5 +1,5 @@
 ---
-title: "Del 4: Projektledning och driftsättning"
+title: 'Del 4: Projektledning och driftsättning'
 description: Lär dig mer om projektledning och förberedelse av driftsättning (förproduktion av projekt, projektinitiering, projektprogression) för AEM Screens.
 contentOwner: jsyal
 content-type: reference

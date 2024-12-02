@@ -1,6 +1,6 @@
 ---
-title: "Del 5: Supportöverväganden"
-description: Läs om hur problem med maskinvara, programvara och anslutningsmöjligheter hanteras. Utforska kostnadsberäkningar och ramverk för support på plats. Lär dig även hur parametrar för serviceavtal, driftsbudgetar och överlämnande av information från NOC hanteras.
+title: 'Del 5: Supportöverväganden'
+description: Läs om hur problem med maskinvara, programvara och anslutningsmöjligheter hanteras. Utforska kostnadsberäkningar och ramverk för support på plats. Läs också om hur SLA parametrar, driftsbudgetar och överlämningar från NOC hanteras.
 contentOwner: jsyal
 content-type: reference
 topic-tags: digital-signage-networks-basics
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 # Del 5: Supportöverväganden {#part-support-considerations}
 
-Den här sidan belyser den avslutande delen i en 5-delsserie som utformats för att hjälpa teammedlemmarna att lära sig hur maskinvaru-, programvaru- och anslutningsproblem hanteras. I den här fasen undersöks kostnadsberäkningar och ramverk för support på plats. Dessutom beskrivs hur SLA-parametrar, driftsbudgetar och överlämningar från NOC hanteras.
+Den här sidan belyser den avslutande delen i en 5-delsserie som utformats för att hjälpa teammedlemmarna att lära sig hur maskinvaru-, programvaru- och anslutningsproblem hanteras. I den här fasen undersöks kostnadsberäkningar och ramverk för support på plats. Dessutom beskrivs hur SLA parametrar, driftsbudgetar och överlämningar från NOC hanteras.
 
 ## Ökning {#overview}
 

@@ -1,5 +1,5 @@
 ---
-title: "Del 2: Att tänka på som projekt är omfång"
+title: 'Del 2: Att tänka på som projekt omfång'
 description: Läs mer om innehållsstrategi, I/O-lager, resurstyper och målgruppssegmentering i AEM Screens. Läs mer om reservdelar, verksamhetskrav och överväganden som rör beredskap för webbplatser.
 contentOwner: jsyal
 content-type: reference
