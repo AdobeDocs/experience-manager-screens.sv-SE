@@ -3,9 +3,9 @@ title: Tagga på Screens Cloud
 description: På den här sidan beskrivs hur du skapar, hanterar och använder taggar i Screens Cloud.
 index: true
 exl-id: 7b15d7cc-f089-4008-9039-5f48343a0f20
-source-git-commit: 06082edf3dadbaea1cea142ff624e83bc6045dfd
+source-git-commit: 17e864ed69d44da159343fe95990076ac702bbb4
 workflow-type: tm+mt
-source-wordcount: '150'
+source-wordcount: '139'
 ht-degree: 0%
 
 ---
@@ -37,9 +37,8 @@ Använd skapade taggar på bildskärmar och spelare.
 ![hantera taggtilldelningar](assets/tagging/assign-tags-to-players.gif).
 
 >[!NOTE]
-> 
-> En skärm eller spelare kan ha högst 100 taggar.
-> Högst 30 objekt kan taggas på en gång.
+>  
+>Högst 30 objekt kan taggas på en gång.
 
 ## Filtrera efter taggar {#filter-by-tags}
 
