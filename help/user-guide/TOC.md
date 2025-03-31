@@ -8,9 +8,9 @@ user-guide-description: Lär dig använda en lösning för digital signering som
 feature-set: Experience Manager Screens
 feature: Content
 role: User
-source-git-commit: 25a89400d2def07026c79cfedcd6418750c1de7d
+source-git-commit: c040c88c70ad6519f05edc3fc35628b61894e391
 workflow-type: tm+mt
-source-wordcount: '526'
+source-wordcount: '532'
 ht-degree: 5%
 
 ---
@@ -40,7 +40,7 @@ ht-degree: 5%
    + [AEM Screens Security Checklist](security-checklist.md)
    + [Övergång från ContentSync till SmartSync](smartsync.md)
    + [Ny projektimporterare från fil](project-importer.md)
-   + [Replikera datutlösare till Publish-servrar](replicating-data-triggers.md)
+   + [Replikera datutlösare till publiceringsservrar](replicating-data-triggers.md)
    + [Konfigurera replikeringsagenter på Screens](configure-screens-replication.md)
    + Klientspecifika överväganden {#installing-client}
       + [Chrome OS Player](implementing-chrome-os-player.md)
@@ -51,9 +51,9 @@ ht-degree: 5%
       + [Cloud Player](implementing-cloud-player.md)
       + [Automatisk registrering av spelare](auto-registration-players.md)
       + [Använda fjärrkontrollen](implementing-remote-control.md)
-   + Skapa Publish {#author-publish}
-      + [Författare/Publish - Arkitektur - översikt](author-publish-architecture-overview.md)
-      + [Konfigurera författare och Publish](author-and-publish.md)
+   + Författarpublicering {#author-publish}
+      + [Author-Publish Architectional Overview](author-publish-architecture-overview.md)
+      + [Konfigurera författare och publicera](author-and-publish.md)
    + Analysintegrering med AEM Screens {#analytics-integration}
       + [Adobe Analytics Integration](adobe-analytics-integration-aem-screens.md)
       + [Konfigurera Adobe Analytics med AEM Screens](configuring-adobe-analytics-aem-screens.md)
@@ -109,7 +109,7 @@ ht-degree: 5%
    + [Offlinekanaler](offline-channels.md)
    + [Utöka en AEM Screens-komponent](extending-component-tutorial-develop.md)
    + [Skapa komponenter](creating-components.md)
-   + [Bädda in ett REACT-program med AEM och integrera med AEM Screens Analytics](embedding-react-app.md)
+   + [Bädda in ett REACT-program med AEM SPA Editor och integrera med AEM Screens Analytics](embedding-react-app.md)
    + [ContextHub konfigureras i AEM Screens](configuring-context-hub.md)
    + [Skapa anpassade mallar för MultiZone-layouter](creating-custom-templates-multizone-layouts.md)
    + [Använda anpassad profilering och formatering för textövertäckningar](custom-branding-text-overlays.md)
@@ -119,6 +119,7 @@ ht-degree: 5%
    + [Felsökning av Device Control Center](monitoring-screens.md)
    + [Videouppspelningskonfiguration](troubleshoot-videos.md)
 + Versionsinformation {#release-notes}
+   + [Versionsinformation för funktionspaket 202401](release-notes-fp-20250215.md)
    + [Versionsinformation för funktionspaket 202401](release-notes-fp-202401.md)
    + [Versionsinformation för funktionspaket 20240116](release-notes-fp-20240116.md)
    + [Versionsinformation för funktionspaket 20240215](release-notes-fp-20240215.md)
