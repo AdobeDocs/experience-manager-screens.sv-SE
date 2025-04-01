@@ -10,14 +10,17 @@ feature: Administering Screens, Android Player
 role: Admin
 level: Intermediate
 exl-id: d1331cb8-8bf6-4742-9525-acf18707b4d8
-source-git-commit: 06082edf3dadbaea1cea142ff624e83bc6045dfd
+source-git-commit: 45b9fce303989e2c090775131dd6188053053fc8
 workflow-type: tm+mt
-source-wordcount: '1471'
+source-wordcount: '1497'
 ht-degree: 0%
 
 ---
 
 # Implementera Android™ Player {#implementing-android-player}
+
+>[!CAUTION]
+>Adobe rekommenderar att du uppgraderar till den senaste versionen av 6.5 Adobe Experience Manager (AEM 6.5). Du kan hämta den senaste versionsinformationen från [här](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/release-notes/release-notes).
 
 I det här avsnittet beskrivs hur du konfigurerar Android™ Player. Den innehåller information om konfigurationsfilen, tillgängliga alternativ och rekommendationer om vilka inställningar som ska användas för utveckling och testning.
 
@@ -34,13 +37,13 @@ Gå till sidan [**AEM 6.5 Player Downloads**](https://download.macromedia.com/sc
 >[!NOTE]
 >Konfigurera en miljö för Android™ Player om du använder AEM Screens 6.5.5 Service Pack.
 
-Ange attributet **SameSite för inloggningstokencookies** från **Lax** till **None** från **Adobe Experience Manager Web Console Configuration** för alla AEM författare- och publiceringsinstanser.
+Ange attributet **SameSite för inloggningstokencookies** från **Lax** till **None** från **Adobe Experience Manager Web Console Configuration** på alla AEM-författare och publiceringsinstanser.
 
 Följ stegen nedan:
 
 1. Navigera till **Adobe Experience Manager Web Console Configuration** med `http://localhost:4502/system/console/configMgr`.
 
-1. Sök efter autentiseringshanteraren *Adobe Granite-token*.
+1. Sök efter *Autentiseringshanterare för Adobe Granite-token*.
 
 1. Ange attributet **SameSite för inloggningstokencookies** från **Lax** till **None**.
    ![bild](/help/user-guide/assets/granite-updates.png)
@@ -55,7 +58,7 @@ Med metoden Ad-Hoc kan du installera den senaste Android™ Player (*.exe*). Gå
 När du har hämtat programmet följer du stegen på spelaren för att slutföra ad hoc-installationen:
 
 1. Tryck länge på det övre vänstra hörnet för att öppna administratörspanelen.
-1. Navigera till **Konfiguration** på den vänstra åtgärdsmenyn och ange platsen (adressen) för den AEM instansen som du vill ansluta till och klicka på **Spara**.
+1. Navigera till **Konfiguration** på den vänstra åtgärdsmenyn och ange platsen (adressen) för den AEM-instans som du vill ansluta till och klicka på **Spara**.
 
 1. Navigera till länken **Enhet** **Registrering** från den vänstra åtgärdsmenyn så att du kan kontrollera status för enhetsregistreringsprocessen.
 
@@ -77,7 +80,7 @@ Om du vill få tillgång till vissa privilegierade API:er för Android™, till 
 >
 >Krav:
 >
->Du bör ha installerat Android™ SDK innan du utför följande steg.
+>Du bör ha Android™ SDK installerat innan du utför följande steg.
 
 Följ stegen nedan för att signera Android™-paketet med hjälp av tillverkarens tangenter:
 
@@ -110,7 +113,7 @@ I följande diagram visas implementeringen av tjänsten watchdog:
 
 ## Massetablering av Android™ Player {#bulk-provision-android-player}
 
-När du distribuerar Android™-spelaren i grupp måste du etablera spelaren så att den pekar på en AEM och konfigurerar andra egenskaper utan att ange dem manuellt i administratörsgränssnittet.
+När du distribuerar Android™-spelaren i grupp måste du etablera spelaren så att den pekar på en AEM-instans och konfigurerar andra egenskaper utan att ange dem manuellt i administratörsgränssnittet.
 
 >[!NOTE]
 >Den här funktionen är tillgänglig från Android™ Player 42.0.372.
@@ -124,7 +127,7 @@ Se en [Exempel på JSON-princip](#example-json) och en tabell som beskriver anv�
 
 1. När filen distribueras använder du MDM-modulen för att installera spelarprogrammet.
 
-1. När spelarprogrammet startas läses den här konfigurationsfilen in och pekar på den tillämpliga AEM där den är registrerad och sedan styrd.
+1. När spelarprogrammet startas läses den här konfigurationsfilen in och pekar på den AEM-server där den är registrerad och sedan styrs.
 
    >[!NOTE]
    >Den här filen är *skrivskyddad* första gången som programmet startas och kan inte användas för efterföljande konfigurationer. Om spelaren startas innan konfigurationsfilen släpptes avinstallerar och installerar du om programmet på enheten.
@@ -172,7 +175,7 @@ I följande tabell sammanfattas principattributen med en exempelpolicy-JSON för
 
 ## Massetablering av Android™ Player med Enterprise Mobility Management {#bulk-provisioning}
 
-När du distribuerar Android™-spelaren i grupp blir det omständligt att registrera alla spelare manuellt med AEM. Använd en EMM-lösning (Enterprise Mobility Management) som [`VMWare Airwatch`](https://docs.samsungknox.com/admin/uem/vm-configure-appconfig.htm), MobileIron eller Samsung Knox så att du kan fjärraktivera och hantera din distribution. AEM Screens Android™-spelaren stöder den branschledande EMM AppConfig för fjärrprovisionering.
+När du distribuerar Android™-spelaren i grupp blir det jobbigt att registrera alla spelare manuellt i AEM. Använd en EMM-lösning (Enterprise Mobility Management) som [`VMWare Airwatch`](https://docs.samsungknox.com/admin/uem/vm-configure-appconfig.htm), MobileIron eller Samsung Knox så att du kan fjärraktivera och hantera din distribution. AEM Screens Android™-spelaren stöder den branschledande EMM AppConfig för fjärrprovisionering.
 
 ## Namnge Android™ Player {#name-android}
 
@@ -198,7 +201,7 @@ Följ stegen nedan för att tillåta massetablering i Android™ Player:
 1. Konfigurera de här parametrarna, spara och distribuera principen till enheterna.
 
    >[!NOTE]
-   >Enheterna bör ta emot programmet tillsammans med konfigurationen. Den ska peka på rätt AEM med den valda konfigurationen. Om du väljer att konfigurera gruppregistreringskoden och behåller den som den konfigurerats i AEM, bör spelaren kunna registrera sig automatiskt. Om du har konfigurerat en standardskärm kan den även hämta och visa visst standardinnehåll (som senare kan ändras efter behov).
+   >Enheterna bör ta emot programmet tillsammans med konfigurationen. Den bör peka på rätt AEM-server med den valda konfigurationen. Om du väljer att konfigurera gruppregistreringskoden och behåller den som den konfigurerats i AEM, bör spelaren kunna registrera sig automatiskt. Om du har konfigurerat en standardskärm kan den även hämta och visa visst standardinnehåll (som senare kan ändras efter behov).
 
 Du bör även höra med din EMM-leverantör om AppConfig-stöd. De flesta populära, till exempel [`VMWare Airwatch`](https://docs.samsungknox.com/admin/uem/vm-configure-appconfig.htm), [`Mobile Iron`](https://docs.samsungknox.com/admin/uem/mobileiron2-configure-appconfig.htm), [`SOTI`](https://docs.samsungknox.com/admin/uem/soti-configure-appconfig.htm), [`BlackBerry&reg; UEM`](https://docs.samsungknox.com/admin/uem/bb-configure-appconfig.htm), [`IBM&reg; Maas360`](https://docs.samsungknox.com/admin/uem/ibm-configure-appconfig.htm) och [`Samsung Knox`](https://docs.samsungknox.com/admin/uem/km-configure-appconfig.htm), stöder den här branschstandarden.
 
