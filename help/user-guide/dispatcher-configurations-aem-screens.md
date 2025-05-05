@@ -25,7 +25,7 @@ Följande sida innehåller riktlinjer för hur du konfigurerar en Dispatcher fö
 >Om det inte finns någon Dispatcher inaktiverar du registreringstjänsten i OSGi-komponentlistan.
 
 Innan du konfigurerar Dispatcher för ett AEM Screens-projekt måste du ha kunskap om Dispatcher.
-Mer information finns i [Konfigurera Dispatcher](https://experienceleague.adobe.com/en/docs/experience-manager-dispatcher/using/configuring/dispatcher-configuration).
+Mer information finns i [Konfigurera Dispatcher](https://experienceleague.adobe.com/sv/docs/experience-manager-dispatcher/using/configuring/dispatcher-configuration).
 
 ## Konfigurera Dispatcher för manifestversion v2 {#configuring-dispatcher}
 

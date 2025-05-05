@@ -30,7 +30,7 @@ Det är enkelt och intuitivt att skapa och hantera ett nätverk för digitala si
 
 >[!NOTE]
 >
->Mer information om olika funktioner i en AEM Screens-projektutveckling och -hantering finns i **[AEM Screens användarhandbok](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/aem-screens-introduction)**.
+>Mer information om olika funktioner i en AEM Screens-projektutveckling och -hantering finns i **[AEM Screens användarhandbok](https://experienceleague.adobe.com/sv/docs/experience-manager-screens/user-guide/aem-screens-introduction)**.
 
 ## AEM Sites jämfört med AEM Screens {#aem-sites-screens}
 

@@ -31,4 +31,4 @@ De viktigaste produkterna i detta skede är:
 >
 >Identifiera de data som behövs för programmet och varifrån de kommer så snart som möjligt. Djupare utforskning sker under implementeringen. Se dock till att du tar dig tid under *Dagen noll* för att ta reda på vilka data klienten har för avsikt att använda. Ta reda på var dessa data lagras och hur programmet som byggs kan komma åt dem. Att meddela utvecklingsteamet innan det uppstår problem gör att implementeringen blir smidigare.
 
-Titta på videon [Saker att tänka på när projekt är omfång](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/digital-signage-network/project-considerations).
+Titta på videon [Saker att tänka på när projekt är omfång](https://experienceleague.adobe.com/sv/docs/experience-manager-screens/user-guide/digital-signage-network/project-considerations).

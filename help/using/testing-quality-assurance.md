@@ -58,7 +58,7 @@ Med den här modulen kan du:
 1. Hantera innehållsnedladdningar
 1. Hantera problem med programomstart
 
-Mer information om ***Device Control Center*** finns i [Troubleshooting Device Control Center](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/troubleshooting/monitoring-screens) i **AEM Screens User Guide**.
+Mer information om ***Device Control Center*** finns i [Troubleshooting Device Control Center](https://experienceleague.adobe.com/sv/docs/experience-manager-screens/user-guide/troubleshooting/monitoring-screens) i **AEM Screens User Guide**.
 
 >[!CAUTION]
 >

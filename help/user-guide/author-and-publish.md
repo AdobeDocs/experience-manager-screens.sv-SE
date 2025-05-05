@@ -112,7 +112,7 @@ Följ stegen nedan om du vill skapa en standardsvar för replikering:
 1. Skapa en AEM Screens-replikeringsagent för pub2. Kopiera Screens replikeringsagent för pub1 och ändra porten till 4504 för pub2.
 
    >[!NOTE]
-   >Mer information om hur du konfigurerar Screens replikeringsagenter finns i [Konfigurera Screens Replication Agent](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/administering/configure-screens-replication).
+   >Mer information om hur du konfigurerar Screens replikeringsagenter finns i [Konfigurera Screens Replication Agent](https://experienceleague.adobe.com/sv/docs/experience-manager-screens/user-guide/administering/configure-screens-replication).
 
 #### Skapar omvända replikeringsagenter för Screens {#creating-screens-reverse-replication-agents}
 

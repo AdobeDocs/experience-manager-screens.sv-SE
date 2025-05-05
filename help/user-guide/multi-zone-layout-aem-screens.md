@@ -40,8 +40,8 @@ Enligt projektkraven behöver du ibland flera zoner i en kanal och kan redigera 
 
 Innan du börjar implementera den här funktionen måste du ha den konceptuella kunskapen om:
 
-* [Skapa ett AEM Screens-projekt](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/authoring/setting-up-projects/creating-a-screens-project)
-* [Skapar en visning](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/authoring/setting-up-projects/managing-displays)
+* [Skapa ett AEM Screens-projekt](https://experienceleague.adobe.com/sv/docs/experience-manager-screens/user-guide/authoring/setting-up-projects/creating-a-screens-project)
+* [Skapar en visning](https://experienceleague.adobe.com/sv/docs/experience-manager-screens/user-guide/authoring/setting-up-projects/managing-displays)
 * [Tilldela en kanal till en skärm](/help/user-guide/channel-assignment.md)
 
 ## Skapa layout med flera zoner {#creating-multi-zone-layout}

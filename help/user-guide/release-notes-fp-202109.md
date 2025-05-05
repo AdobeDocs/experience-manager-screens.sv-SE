@@ -37,7 +37,7 @@ Mer information finns i [Stöd för miniatyrbilder för videoklipp](/help/user-g
 * **Grundläggande uppspelningsövervakning**
 
   AEM Screens har nu stöd för grundläggande uppspelningsövervakning. Spelaren rapporterar nu olika uppspelningsmått för varje ping (standardvärdet är 30 sekunder). Baserat på mätvärden upptäcker programmet olika kantfall (fastnålade upplevelser, tom skärm, schemaläggningsproblem osv.). Med den här funktionen kan teamet fjärrövervaka om en spelare spelar upp innehåll på rätt sätt och förbättrar reaktiviteten till tomma skärmar eller trasiga upplevelser på fältet. Det minskar också risken att slutanvändaren får en trasig upplevelse.
-Mer information finns i [Grundläggande uppspelningsövervakning](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/administering/installing-screens-player#playback-monitoring).
+Mer information finns i [Grundläggande uppspelningsövervakning](https://experienceleague.adobe.com/sv/docs/experience-manager-screens/user-guide/administering/installing-screens-player#playback-monitoring).
 
 * **Uppdateringar i rapporten för innehållstilldelning**
 
@@ -77,8 +77,8 @@ Mer information finns i [Rapport om innehållstilldelning](/help/user-guide/cont
    * Uppdatera den anpassade komponenten.
 
 
-   * Mer information finns i [Konfigurera Dispatcher för manifestversion v3](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/administering/dispatcher-configurations-aem-screens#configuring-dispatcherv3).
-   * Om du använder anpassade komponenter som en del av v3-manifest läser du [Mall för anpassade hanterare](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/developing/developing-custom-component-tutorial-develop#custom-handlers).
+   * Mer information finns i [Konfigurera Dispatcher för manifestversion v3](https://experienceleague.adobe.com/sv/docs/experience-manager-screens/user-guide/administering/dispatcher-configurations-aem-screens#configuring-dispatcherv3).
+   * Om du använder anpassade komponenter som en del av v3-manifest läser du [Mall för anpassade hanterare](https://experienceleague.adobe.com/sv/docs/experience-manager-screens/user-guide/developing/developing-custom-component-tutorial-develop#custom-handlers).
 
 
 ### Felkorrigeringar {#bug-fixes}

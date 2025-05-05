@@ -40,11 +40,11 @@ Du behöver följande för att kunna slutföra den här självstudiekursen:
 1. [AEM Screens Player](/help/user-guide/aem-screens-introduction.md)
 1. Lokal utvecklingsmiljö
 
-Självstudiestegen och skärmbilderna utförs med CRXDE-Lite. [Eclipse](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/developing/devtools/aem-eclipse) eller [IntelliJ](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/developing/devtools/ht-intellij) IDE:er kan också användas för att slutföra självstudiekursen. Mer information om hur du använder en IDE för att [utveckla med AEM finns här](https://experienceleague.adobe.com/en/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/project-archetype/project-setup).
+Självstudiestegen och skärmbilderna utförs med CRXDE-Lite. [Eclipse](https://experienceleague.adobe.com/sv/docs/experience-manager-65/content/implementing/developing/devtools/aem-eclipse) eller [IntelliJ](https://experienceleague.adobe.com/sv/docs/experience-manager-65/content/implementing/developing/devtools/ht-intellij) IDE:er kan också användas för att slutföra självstudiekursen. Mer information om hur du använder en IDE för att [utveckla med AEM finns här](https://experienceleague.adobe.com/sv/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/project-archetype/project-setup).
 
 ## Projektinställningar {#project-setup}
 
-Ett Screens-projekts källkod hanteras vanligtvis som ett Maven-projekt med flera moduler. För att underlätta självstudiekursen har ett projekt förskapats med [AEM Project Archetype 13](https://github.com/adobe/aem-project-archetype). Mer information om att [skapa ett projekt med Maven AEM Project Archetype finns här](https://experienceleague.adobe.com/en/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/project-archetype/project-setup).
+Ett Screens-projekts källkod hanteras vanligtvis som ett Maven-projekt med flera moduler. För att underlätta självstudiekursen har ett projekt förskapats med [AEM Project Archetype 13](https://github.com/adobe/aem-project-archetype). Mer information om att [skapa ett projekt med Maven AEM Project Archetype finns här](https://experienceleague.adobe.com/sv/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/project-archetype/project-setup).
 
 1. Hämta och installera följande paket med **CRX package manage** `http://localhost:4502/crx/packmgr/index.jsp)r:`
 
@@ -70,7 +70,7 @@ Ett Screens-projekts källkod hanteras vanligtvis som ett Maven-projekt med fler
 
 ## Skapa komponenten Poster {#poster-cmp}
 
-Komponenten Poster utökar den färdiga AEM Screens Image-komponenten. En mekanism med Sling, `sling:resourceSuperType`, används för att ärva huvudfunktionerna i Image-komponenten utan att behöva kopiera och klistra in. Mer information om grunderna i [Bearbetning av delningsbegäran finns här.](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/developing/introduction/the-basics)
+Komponenten Poster utökar den färdiga AEM Screens Image-komponenten. En mekanism med Sling, `sling:resourceSuperType`, används för att ärva huvudfunktionerna i Image-komponenten utan att behöva kopiera och klistra in. Mer information om grunderna i [Bearbetning av delningsbegäran finns här.](https://experienceleague.adobe.com/sv/docs/experience-manager-65/content/implementing/developing/introduction/the-basics)
 
 Komponenten Poster återges i helskärmsläge i förhandsgransknings-/produktionsläge. I redigeringsläge är det viktigt att återge komponenten på ett annat sätt för att underlätta redigering av sekvenskanalen.
 
@@ -314,7 +314,7 @@ Komponenten Poster återges i helskärmsläge i förhandsgransknings-/produktion
 
 ## Skapa bibliotek på klientsidan {#clientlibs}
 
-Med bibliotek på klientsidan kan du ordna och hantera CSS- och JavaScript-filer som behövs för en AEM implementering. Mer information om hur du använder [klientbibliotek finns här.](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/developing/introduction/clientlibs)
+Med bibliotek på klientsidan kan du ordna och hantera CSS- och JavaScript-filer som behövs för en AEM implementering. Mer information om hur du använder [klientbibliotek finns här.](https://experienceleague.adobe.com/sv/docs/experience-manager-65/content/implementing/developing/introduction/clientlibs)
 
 AEM Screens-komponenter återges annorlunda i redigeringsläget jämfört med i förhandsgransknings-/produktionsläget. Två uppsättningar klientbibliotek skapas, en för redigeringsläget och en andra för Förhandsvisa/Produktion.
 
@@ -339,7 +339,7 @@ AEM Screens-komponenter återges annorlunda i redigeringsläget jämfört med i 
 
    Egenskapen `categories` är en sträng som identifierar klientbiblioteket. Kategorin `cq.screens.components` används i både redigeringsläge och förhandsgransknings-/produktionsläge. Alla CSS/JS som definierats i klientlib `shared` läses därför in i alla lägen.
 
-   Det är en god praxis att aldrig visa några sökvägar direkt till `/apps` i en produktionsmiljö. Egenskapen `allowProxy` ser till att klientbibliotekets CSS och JS refereras via prefixet `/etc.clientlibs`. Mer information om egenskapen [allowProxy finns här.](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/developing/introduction/clientlibs)
+   Det är en god praxis att aldrig visa några sökvägar direkt till `/apps` i en produktionsmiljö. Egenskapen `allowProxy` ser till att klientbibliotekets CSS och JS refereras via prefixet `/etc.clientlibs`. Mer information om egenskapen [allowProxy finns här.](https://experienceleague.adobe.com/sv/docs/experience-manager-65/content/implementing/developing/introduction/clientlibs)
 
 1. Skapa filen `css.txt` under den delade mappen.
 

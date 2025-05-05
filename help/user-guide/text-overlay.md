@@ -94,7 +94,7 @@ I följande avsnitt beskrivs användningen av värden från ett datalager, till 
 
 Konfigurera ContextHub för ditt AEM Screens-projekt.
 
-Mer information om hur du konfigurerar och hanterar datadrivna resursändringar med ett datalager finns i [Konfigurera ContextHub i AEM Screens](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/developing/configuring-context-hub).
+Mer information om hur du konfigurerar och hanterar datadrivna resursändringar med ett datalager finns i [Konfigurera ContextHub i AEM Screens](https://experienceleague.adobe.com/sv/docs/experience-manager-screens/user-guide/developing/configuring-context-hub).
 
 När du har ställt in de konfigurationer som krävs för ditt projekt följer du stegen nedan för att använda värden från Google Sheets:
 

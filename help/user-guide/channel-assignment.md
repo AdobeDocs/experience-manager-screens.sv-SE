@@ -174,5 +174,5 @@ I det här exemplet visas DayParting för en butik som visar sin vintersamling m
 >
 > Mer information om DayParting finns i avsnitten nedan:
 >
->* [Hantera upprepning i Assets](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/authoring/product-features/asset-level-scheduling)
->* [Hantera upprepning för Assets i en kanal](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/authoring/product-features/channel-level-activation)
+>* [Hantera upprepning i Assets](https://experienceleague.adobe.com/sv/docs/experience-manager-screens/user-guide/authoring/product-features/asset-level-scheduling)
+>* [Hantera upprepning för Assets i en kanal](https://experienceleague.adobe.com/sv/docs/experience-manager-screens/user-guide/authoring/product-features/channel-level-activation)

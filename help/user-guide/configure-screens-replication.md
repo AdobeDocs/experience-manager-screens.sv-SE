@@ -20,7 +20,7 @@ På följande sida beskrivs hur du konfigurerar Screens Replication Agents.
 Screens Replication Agent ansvarar för att hämta kommandodata som *user*, *password*, *rebootSchedule*, *maxNumberOfLogFilesToKeep* och många fler sådana värden, från publicering till författare. Det är viktigt att konfigurera den här agenten så att författaren kan visa enhetsping.
 
 >[!NOTE]
->Mer information om Screens replikeringsagenter finns i [Screens replikeringsagenter och kommandon](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/administering/author-publish/author-publish-architecture-overview#screens-replication-agents-and-commands).
+>Mer information om Screens replikeringsagenter finns i [Screens replikeringsagenter och kommandon](https://experienceleague.adobe.com/sv/docs/experience-manager-screens/user-guide/administering/author-publish/author-publish-architecture-overview#screens-replication-agents-and-commands).
 
 Fyll i båda avsnitten om du vill slutföra konfigurationen för Screens Replication Agent:
 

@@ -18,7 +18,7 @@ ht-degree: 0%
 
 Kom igång med en enkel digital signeringsupplevelse med [Kickstart för AEM Screens](kickstart-for-aem-screens.md).
 
-Mer information om hur du konfigurerar och skapar ditt Experience Manager Screens-projekt i Experience Manager as a Cloud Service finns i [här](https://experienceleague.adobe.com/en/docs/experience-manager-screens/using/about-guide).
+Mer information om hur du konfigurerar och skapar ditt Experience Manager Screens-projekt i Experience Manager as a Cloud Service finns i [här](https://experienceleague.adobe.com/sv/docs/experience-manager-screens/using/about-guide).
 
 ## Ökning {#overview}
 
@@ -57,7 +57,7 @@ Följande figur definierar personerna och deras roller för Experience Manager S
 
 * **Grundläggande om guidad implementering**
 
-  Följ den guidade inlärningsvägen **[Grundläggande om implementering av Experience Manager Screens](https://experienceleague.adobe.com/?launch=AEM-7a)** som omfattar grundläggande och avancerade funktioner som stöds i Experience Manager Screens.
+  Följ den guidade inlärningsvägen **[Grundläggande om implementering av Experience Manager Screens](https://experienceleague.adobe.com/sv?launch=AEM-7a)** som omfattar grundläggande och avancerade funktioner som stöds i Experience Manager Screens.
 
 * **Guide till bästa praxis för Experience Manager Screens-projekt**
 
