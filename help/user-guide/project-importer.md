@@ -101,7 +101,7 @@ Följ stegen nedan för att importera en fil till en platsmapp med de obligatori
 
    ![screen_shot_2019-05-12at52651am](assets/screen_shot_2019-05-12at52651am.png)
 
-1. Klicka på projektet** DemoProjectImporter **>** Create **>** Import Locations** från sidofältet.
+1. Klicka på projektet **&#x200B; DemoProjectImporter &#x200B;**>**&#x200B; Create &#x200B;**>**&#x200B; Import Locations** från sidofältet.
 
    ![screen_shot_2019-05-12at52433am](assets/screen_shot_2019-05-12at52433am.png)
 

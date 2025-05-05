@@ -69,7 +69,7 @@ Innan du börjar implementera den här funktionen måste du se till att du har f
 
 * Skapa ett AEM Screens-projekt (i det här exemplet **Demo**).
 * Skapa en **global**-kanal under mappen **Kanaler**.
-* Lägg till innehåll i din **Global**-kanal (*Kontrollera **Resources.zip**för relevanta resurser*).
+* Lägg till innehåll i din **Global**-kanal (*Kontrollera **Resources.zip**&#x200B;för relevanta resurser*).
 
 Följande bild visar **Demo**-projektet med **Global**-kanalen i mappen **Kanaler**.
 ![screen_shot_2018-09-07at21032pm](assets/screen_shot_2018-09-07at21032pm.png)

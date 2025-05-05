@@ -26,7 +26,7 @@ ht-degree: 0%
 
 Om du vill följa med i videofilmerna behöver du följande:
 
-1. **AEM 6.4** eller **AEM 6.3*+ **Screens Feature Pack 1**
+1. **AEM 6.4** eller **AEM 6.3*+ &#x200B;** Screens Feature Pack 1**
 
 1. En Screens Player
 

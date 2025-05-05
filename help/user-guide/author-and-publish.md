@@ -54,7 +54,7 @@ Lär dig hur du skapar en standardoperationsagent för replikering när du vill 
 
 Det finns tre replikeringsagenter som behövs för Screens:
 
-1. **Standardreplikeringsagent ***(anges som*** standardreplikeringsagent**)
+1. **Standardreplikeringsagent &#x200B;***(anges som&#x200B;*** standardreplikeringsagent**)
 1. **Screens Replication Agent**
 1. **Agenten för omvänd replikering**
 

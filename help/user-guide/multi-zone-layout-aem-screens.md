@@ -175,6 +175,7 @@ När du har konfigurerat en plats och en skärm följer du stegen nedan för att
 
    1. Om titeln matchar enhetstoken klickar du på enheten och sedan på **Registrera enhet** i åtgärdsfältet.
    1. Om registreringskoden matchar koden på fliken **Device Registration** i Screens Player klickar du på **Validate** i åtgärdsfältet.
+
       ![bild](/help/user-guide/assets/multi-zone/multizone-img6.png)
    1. Ange **Titel** som **`Chrome-Device1`** och klicka på **Registrera**.
    1. Klicka på **Tilldela skärm** och klicka på sökvägen till enhetskonfigurationen.

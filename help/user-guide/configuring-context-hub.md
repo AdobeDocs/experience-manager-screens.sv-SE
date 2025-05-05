@@ -173,6 +173,7 @@ Följande validering är den du visar när du kontrollerar anslutningen genom at
       ![bild](/help/user-guide/assets/context-hub/context-hub11.png)
 
    1. Klicka på segmentet `**Higherthan50**` och klicka på **Egenskaper** i åtgärdsfältet.
+
       ![bild](/help/user-guide/assets/context-hub/context-hub12.png)
 
    1. Klicka på fliken **Personalization** i **Segmentegenskaper**. Ange **ContextHub Path** till `/conf/screens/settings/cloudsettings/ContextHubDemo/contexthub configurations` och **Segments Path** till `/conf/screens/settings/wcm/segments` och klicka på **Save**, som bilden nedan visar.

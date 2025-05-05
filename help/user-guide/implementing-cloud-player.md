@@ -44,14 +44,14 @@ Installationen av Cloud Player kan variera mellan olika plattformar. I allmänhe
 >
 >### Installationsalternativ för molnspelare {#cloud-player-install-option}
 >
-1. Installationsalternativet för en PWA kallas även&quot;Lägg till på hemskärmen&quot; eller A2HS-funktion. Stödet för att installera PWA från webben varierar beroende på webbläsare och plattform.
-1. Alla webbläsare har olika villkor för att kontrollera om appen PWA är installerbar eller inte. I allmänhet kan webbläsaren kontrollera (mer information här):
+>1. Installationsalternativet för en PWA kallas även&quot;Lägg till på hemskärmen&quot; eller A2HS-funktion. Stödet för att installera PWA från webben varierar beroende på webbläsare och plattform.
+>1. Alla webbläsare har olika villkor för att kontrollera om appen PWA är installerbar eller inte. I allmänhet kan webbläsaren kontrollera (mer information här):
 >
-* Om programmet har en manifestjson-fil med minimalt antal nödvändiga nycklar för att installera programmet på plattformen, det vill säga namn, ikoner, start_url, visa
-* Om programmet har en servicearbetsfil med en hämtningshändelseavlyssnare
-* Appen måste serveras via https
+>* Om programmet har en manifestjson-fil med minimalt antal nödvändiga nycklar för att installera programmet på plattformen, det vill säga namn, ikoner, start_url, visa
+>* Om programmet har en servicearbetsfil med en hämtningshändelseavlyssnare
+>* Appen måste serveras via https
 >
-1. Installationsalternativet kan vara synligt på olika platser i olika webbläsare och enhetstyper. I vissa webbläsare kan installationsikonen döljas i alternativmenyraden.
+>1. Installationsalternativet kan vara synligt på olika platser i olika webbläsare och enhetstyper. I vissa webbläsare kan installationsikonen döljas i alternativmenyraden.
 
 ## Massetablering av molnspelare {#bulk-provisioning}
 
@@ -80,15 +80,15 @@ Beroende på vilken typ av AEM som används klickar du på någon av följande s
 
 >[!NOTE]
 >
-## Borttagning av Chrome-appar från Google
+>## Borttagning av Chrome-appar från Google
 >
-1. Chrome-appar på Chrome OS-maskinvara:
+>1. Chrome-appar på Chrome OS-maskinvara:
 >
-Google har aktivt ersatt Chrome-appar med stöd för PWA-appar, med en planerad migrering fram till januari 2025. Därför slutar AEM Screens Player-appen i Chrome OS att fungera baserat på den delade tidslinjen. Adobe uppmanar användare som för närvarande använder Chrome Player i produktion att planera för övergång till Screens Cloud Player.
+>Google har aktivt ersatt Chrome-appar med stöd för PWA-appar, med en planerad migrering fram till januari 2025. Därför slutar AEM Screens Player-appen i Chrome OS att fungera baserat på den delade tidslinjen. Adobe uppmanar användare som för närvarande använder Chrome Player i produktion att planera för övergång till Screens Cloud Player.
 >
-1. Chrome Extension Player i Mac, Windows och Linux®:
+>1. Chrome Extension Player i Mac, Windows och Linux®:
 >
-På grund av att Google har tagits bort från Google Chrome version 114 stöds inte längre Screens Chrome Extension Player. Adobe rekommenderar att du går över till Screens Cloud Player för alla utvecklings- och testningskrav.
+>På grund av att Google har tagits bort från Google Chrome version 114 stöds inte längre Screens Chrome Extension Player. Adobe rekommenderar att du går över till Screens Cloud Player för alla utvecklings- och testningskrav.
 
 ## Offline-stöd för extern innehållshämtning {#offline-support}
 
