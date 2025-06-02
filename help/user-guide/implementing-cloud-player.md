@@ -8,7 +8,7 @@ feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: 184168f5-6070-4c33-a2c5-5429061dac75
-source-git-commit: 6720e20f5254e869bde814bd167730e426d0f8fe
+source-git-commit: 1343b7d03c2ab8d24198547c5029ff47c54f3e7d
 workflow-type: tm+mt
 source-wordcount: '854'
 ht-degree: 0%
@@ -19,9 +19,9 @@ ht-degree: 0%
 
 AEM Screens har traditionellt erbjudit olika inbyggda spelarprogram för olika plattformar, inklusive ChromeOS, Windows, Android™ och `Tizen`. Som svar på användarnas föränderliga behov har Adobe dock introducerat en innovativ lösning - AEM Screens Cloud Player.
 
-Molnspelaren utgör ett betydande avsteg från Adobe tidigare inbyggda program. Det är en progressiv webbapp (PWA) som finns på en server. Detta omvandlingssätt ger kunderna en plattformsoberoende spelare som kan köras direkt i en webbläsare.
+Molnspelaren utgör en betydande skillnad från Adobe tidigare inbyggda program. Det är en progressiv webbapp (PWA) som finns på en server. Detta omvandlingssätt ger kunderna en plattformsoberoende spelare som kan köras direkt i en webbläsare.
 
-Det är bara att gå till molnspelaren som att besöka `https://player.adobescreens.com`. Användarna kan installera det på sin enhet, oavsett plattform, och få smidiga digitala signeringsupplevelser. Kompatibiliteten med Cloud Player är beroende av att det finns en modern webbläsare med stöd för PWA, vilket ger enhetliga prestanda på olika enheter. Ta farväl av manuella uppdateringar och hälsa på en spelare som automatiskt utför korrigeringar och funktioner, så att du alltid har de senaste funktionerna nära till hands. Det här bytet till ett PWA-baserat molnspelarprogram är en spännande utveckling av Adobe digitala signeringserbjudanden som gör det mer tillgängligt, mångsidigt och användarvänligt än någonsin tidigare.
+Det är bara att gå till molnspelaren som att besöka `https://player.adobescreens.com`. Användarna kan installera det på sin enhet, oavsett plattform, och få smidiga digitala signeringsupplevelser. Kompatibiliteten med Cloud Player är beroende av att det finns en modern webbläsare med stöd för PWA, vilket ger enhetliga prestanda på olika enheter. Ta farväl av manuella uppdateringar och hälsa på en spelare som automatiskt utför korrigeringar och funktioner, så att du alltid har de senaste funktionerna nära till hands. Övergången till en PWA-baserad Cloud Player är en spännande utveckling av Adobe digitala signeringserbjudanden som gör det mer tillgängligt, mångsidigt och användarvänligt än någonsin tidigare.
 
 I det här avsnittet beskrivs hur du implementerar molnspelaren.
 
@@ -44,12 +44,12 @@ Installationen av Cloud Player kan variera mellan olika plattformar. I allmänhe
 >
 >### Installationsalternativ för molnspelare {#cloud-player-install-option}
 >
->1. Installationsalternativet för en PWA kallas även&quot;Lägg till på hemskärmen&quot; eller A2HS-funktion. Stödet för att installera PWA från webben varierar beroende på webbläsare och plattform.
->1. Alla webbläsare har olika villkor för att kontrollera om appen PWA är installerbar eller inte. I allmänhet kan webbläsaren kontrollera (mer information här):
+>1. Installationsalternativet för en PWA kallas även&quot;Lägg till på hemskärmen&quot; eller A2HS-funktion. Stödet för att installera PWA-program från webben varierar beroende på webbläsare och plattform.
+>1. Alla webbläsare har olika villkor för att kontrollera om PWA-appen är installerbar eller inte. I allmänhet kan webbläsaren kontrollera (mer information här):
 >
->* Om programmet har en manifestjson-fil med minimalt antal nödvändiga nycklar för att installera programmet på plattformen, det vill säga namn, ikoner, start_url, visa
->* Om programmet har en servicearbetsfil med en hämtningshändelseavlyssnare
->* Appen måste serveras via https
+>    * Om programmet har en manifestjson-fil med minimalt antal nödvändiga nycklar för att installera programmet på plattformen, det vill säga namn, ikoner, start_url, visa
+>    * Om programmet har en servicearbetsfil med en hämtningshändelseavlyssnare
+>    * Appen måste serveras via https
 >
 >1. Installationsalternativet kan vara synligt på olika platser i olika webbläsare och enhetstyper. I vissa webbläsare kan installationsikonen döljas i alternativmenyraden.
 
@@ -67,15 +67,15 @@ Så här gör du massetablering av molnspelaren på flera enheter:
 
 ## Massetablering i Chrome OS {#bulk-provisioning-chrome}
 
-Läs mer om massetablering i Chrome OS. Se [Installera molnspelaren i Chrome OS](https://main--screens-franklin-documentation--hlxscreens.hlx.live/updates/cloud-player/guides/chromeos-install-cloud-player). &lt;!— `https://www.adobe.com/go/aem_screens_cloud_player_en` >
+Läs mer om massetablering i Chrome OS. Se [Installera molnspelaren i Chrome OS](https://main--screens-franklin-documentation--hlxscreens.hlx.live/updates/cloud-player/guides/chromeos-install-cloud-player). <!-- `https://www.adobe.com/go/aem_screens_cloud_player_en` -->
 
-## Konfiguration krävs för AEM instanser {#bulk-provisioning-config-aem}
+## Konfiguration krävs för AEM-instanser {#bulk-provisioning-config-aem}
 
-Beroende på vilken typ av AEM som används klickar du på någon av följande stödlinjer för att aktivera CORS b/w-AEM och Cloud Player:
+Beroende på vilken typ av AEM-instans det är klickar du på någon av följande stödlinjer för att aktivera CORS b/w AEM och Cloud Player:
 
 * [AEM On-Premises/AMS](https://main--screens-franklin-documentation--hlxscreens.hlx.live/updates/cloud-player/guides/cors-settings-aem-onpremandams) <!-- `https://www.adobe.com/go/aem_screens_cors_ams_en` -->
 
-* [AEM Cloud Service](https://main--screens-franklin-documentation--hlxscreens.hlx.live/updates/cloud-player/guides/cors-settings-aem-cs) <!-- `https://www.adobe.com/go/aem_screens_cors_aemaacs_en` -->
+* [AEM Cloud-tjänst](https://main--screens-franklin-documentation--hlxscreens.hlx.live/updates/cloud-player/guides/cors-settings-aem-cs) <!-- `https://www.adobe.com/go/aem_screens_cors_aemaacs_en` -->
 
 
 >[!NOTE]
@@ -84,11 +84,11 @@ Beroende på vilken typ av AEM som används klickar du på någon av följande s
 >
 >1. Chrome-appar på Chrome OS-maskinvara:
 >
->Google har aktivt ersatt Chrome-appar med stöd för PWA-appar, med en planerad migrering fram till januari 2025. Därför slutar AEM Screens Player-appen i Chrome OS att fungera baserat på den delade tidslinjen. Adobe uppmanar användare som för närvarande använder Chrome Player i produktion att planera för övergång till Screens Cloud Player.
+>   Google har aktivt ersatt Chrome-appar med stöd för PWA-appar, med en planerad migrering fram till januari 2025. Därför slutar AEM Screens Player-appen i Chrome OS att fungera baserat på den delade tidslinjen. Adobe uppmanar användare som för närvarande använder Chrome Player i produktion att planera för övergång till Screens Cloud Player.
 >
 >1. Chrome Extension Player i Mac, Windows och Linux®:
 >
->På grund av att Google har tagits bort från Google Chrome version 114 stöds inte längre Screens Chrome Extension Player. Adobe rekommenderar att du går över till Screens Cloud Player för alla utvecklings- och testningskrav.
+>   På grund av att Google har tagits bort från Google Chrome version 114 stöds inte längre Screens Chrome Extension Player. Adobe rekommenderar att du går över till Screens Cloud Player för alla utvecklings- och testningskrav.
 
 ## Offline-stöd för extern innehållshämtning {#offline-support}
 
