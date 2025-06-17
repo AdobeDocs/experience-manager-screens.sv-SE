@@ -167,7 +167,7 @@ Följ stegen nedan för att felsöka en AEM Screens Player som kontinuerligt ski
 
 1. Kontrollera om din Dispatcher-konfiguration tillåter dessa förfrågningar i `/filters`.
 
-   Mer information finns i [Konfigurera Screens-filter](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/administering/dispatcher-configurations-aem-screens#step-configure-screens-filters).
+   Mer information finns i [Konfigurera Screens-filter](https://experienceleague.adobe.com/sv/docs/experience-manager-screens/user-guide/administering/dispatcher-configurations-aem-screens#step-configure-screens-filters).
 
 1. Kontrollera om Dispatcher skrivregler skriver om några skärmsökvägar till en annan sökväg.
 
@@ -214,7 +214,7 @@ Inaktivera Livefyre för att undvika loggfel genom att göra följande.
 ### &#x200B;2. Hur lägger jag till Oak Index-information? {#add-oak-index-info}
 
 AEM Screens skapar indexdefinitioner för de frågor som används av produkten.
-Om det finns några *WARN:er för genomgång av frågor* i `error.log` skapar du ett anpassat index för din fråga. Mer information finns i [Konfigurera index](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/deploying/deploying/queries-and-indexing#configuring-the-indexes).
+Om det finns några *WARN:er för genomgång av frågor* i `error.log` skapar du ett anpassat index för din fråga. Mer information finns i [Konfigurera index](https://experienceleague.adobe.com/sv/docs/experience-manager-65/content/implementing/deploying/deploying/queries-and-indexing#configuring-the-indexes).
 
 Du kan även se ytterligare en resurs på [Oak Documentation](https://jackrabbit.apache.org/oak/docs/query/lucene.html).
 
@@ -224,10 +224,10 @@ Du kan även se ytterligare en resurs på [Oak Documentation](https://jackrabbit
 Så här aktiverar du v3-manifestet:
 
 * Uppdatera Dispatcher.
-Mer information finns i [Konfigurera Dispatcher för manifestversion v3](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/administering/dispatcher-configurations-aem-screens#configuring-dispatcherv3).
+Mer information finns i [Konfigurera Dispatcher för manifestversion v3](https://experienceleague.adobe.com/sv/docs/experience-manager-screens/user-guide/administering/dispatcher-configurations-aem-screens#configuring-dispatcherv3).
 
 * Uppdatera anpassad komponent.
-Mer information finns i [Mall för anpassade hanterare](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/developing/developing-custom-component-tutorial-develop#custom-handlers).
+Mer information finns i [Mall för anpassade hanterare](https://experienceleague.adobe.com/sv/docs/experience-manager-screens/user-guide/developing/developing-custom-component-tutorial-develop#custom-handlers).
 
 * Inaktivera ContentSync i `/system/console/configMgr/configMgr/com.adobe.cq.screens.offlinecontent.impl.ContentSyncCacheFeatureFlag`.
 
@@ -241,7 +241,7 @@ Mer information finns i [Mall för anpassade hanterare](https://experienceleague
 
 ### &#x200B;4. Vad ska du göra om, efter paketet screens-cloud-ams-pkg-0.0.20, screens-cloud-ams-pkg-0.0.16 och skärmens kärnpaket är installerade men inte aktiva?
 
-Installera en minimiversion av AEM 6.5 Feature Pack 8 för att AMS-anslutningen ska fungera. Se [Tillgänglighet](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/release-notes/release-notes-fp-202105#availability) så att du kan hämta den lägsta versionen av AEM Screens Feature Pack.
+Installera en minimiversion av AEM 6.5 Feature Pack 8 för att AMS-anslutningen ska fungera. Se [Tillgänglighet](https://experienceleague.adobe.com/sv/docs/experience-manager-screens/user-guide/release-notes/release-notes-fp-202105#availability) så att du kan hämta den lägsta versionen av AEM Screens Feature Pack.
 
 ### &#x200B;5. Hur konfigurerar man CQ Link Externalizer-tjänsten i Screens?
 

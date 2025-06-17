@@ -19,21 +19,21 @@ Kom igång med AEM Screens genom att följa avsnitten nedan för att konfigurera
 
 ## Serverkonfigurationer {#server-configurations}
 
-Mer information om hur du konfigurerar servrar finns i [Serverkonfigurationer](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/administering/configuring-screens-introduction#ServerConfiguration).
+Mer information om hur du konfigurerar servrar finns i [Serverkonfigurationer](https://experienceleague.adobe.com/sv/docs/experience-manager-screens/user-guide/administering/configuring-screens-introduction#ServerConfiguration).
 
 ## Författare-Publicera {#author-publish}
 
-Se [Konfigurera författare och publicera i AEM Screens](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/administering/author-publish/author-and-publish).
+Se [Konfigurera författare och publicera i AEM Screens](https://experienceleague.adobe.com/sv/docs/experience-manager-screens/user-guide/administering/author-publish/author-and-publish).
 
 >[!NOTE]
 >
->Om det bara finns en författare och en publicering kan du bara följa stegen under **Konfigurera replikeringsagenter för författare** på sidan [Konfigurera författare och publicera i AEM Screens](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/administering/author-publish/author-and-publish).
+>Om det bara finns en författare och en publicering kan du bara följa stegen under **Konfigurera replikeringsagenter för författare** på sidan [Konfigurera författare och publicera i AEM Screens](https://experienceleague.adobe.com/sv/docs/experience-manager-screens/user-guide/administering/author-publish/author-and-publish).
 
 ## Dispatcher Configurations {#dispatcher-configurations}
 
 Dispatcher är Adobe Experience Manager verktyg för cachning och lastbalansering. AEM:s Dispatcher skyddar också AEM-servern mot angrepp. Därför kan du öka säkerheten för din AEM-instans genom att använda Dispatcher med en webbserver i företagsklass.
 
-Se **[Dispatcher Configurations for AEM Screens](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/administering/dispatcher-configurations-aem-screens)** som visar riktlinjer för hur du konfigurerar Dispatcher för ett AEM Screens-projekt.
+Se **[Dispatcher Configurations for AEM Screens](https://experienceleague.adobe.com/sv/docs/experience-manager-screens/user-guide/administering/dispatcher-configurations-aem-screens)** som visar riktlinjer för hur du konfigurerar Dispatcher för ett AEM Screens-projekt.
 
 ## Installera FFMpeg och videoåtergivningar {#installing-ffmpeg}
 
@@ -44,13 +44,13 @@ Installera FFMpeg genom att följa stegen för lämpligt operativsystem (vanlige
 
    >[!NOTE]
    >
-   >`-strict -2` måste vara den sista parametern i parameterlistan. I AEM 6.4 kopierar du även noderna under */libs/settings/dam/video* till */conf/global/settings/dam/video* som anges i [Videoåtergivningar](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/authoring/product-features/generating-renditions).
+   >`-strict -2` måste vara den sista parametern i parameterlistan. I AEM 6.4 kopierar du även noderna under */libs/settings/dam/video* till */conf/global/settings/dam/video* som anges i [Videoåtergivningar](https://experienceleague.adobe.com/sv/docs/experience-manager-screens/user-guide/authoring/product-features/generating-renditions).
 1. Kontrollera att videokonverteringar pågår och att återgivningar skapas.
 
 ## Lösenordsbegränsningar {#password-restrictions}
 
 AEM lösenordsprincip måste inaktiveras på AMS-instansen. Den kan också konfigureras växelvis i webbkonsolen med hjälp av Screens enhetstjänst *com.adobe.cq.screens.device.impl.DeviceService*
-Se avsnittet **Lösenordsbegränsningar** i [Konfigurera författare och publicera i AEM Screens](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/administering/author-publish/author-and-publish)
+Se avsnittet **Lösenordsbegränsningar** i [Konfigurera författare och publicera i AEM Screens](https://experienceleague.adobe.com/sv/docs/experience-manager-screens/user-guide/administering/author-publish/author-and-publish)
 
 ## Konfigurera miljöer {#setting-up-environments}
 
@@ -66,10 +66,10 @@ Installera samma programvarupaket i den lokala utvecklingsmiljön. Instruera kli
 
 >[!NOTE]
 >
->Information om hur du installerar det senaste funktionspaketet för AEM Screens finns i [Versionsinformation](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/aem-screens-introduction).
+>Information om hur du installerar det senaste funktionspaketet för AEM Screens finns i [Versionsinformation](https://experienceleague.adobe.com/sv/docs/experience-manager-screens/user-guide/aem-screens-introduction).
 
 ## Konfigurera åtkomstkontrollistor {#setting-up-acls}
 
 När du konfigurerar åtkomstkontrollistor beskrivs hur du skiljer ut projekt så att varje enskild person eller grupp hanterar sitt eget projekt.
 
-Mer information finns i [Konfigurera åtkomstkontrollistor](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/administering/setting-up-acls).
+Mer information finns i [Konfigurera åtkomstkontrollistor](https://experienceleague.adobe.com/sv/docs/experience-manager-screens/user-guide/administering/setting-up-acls).

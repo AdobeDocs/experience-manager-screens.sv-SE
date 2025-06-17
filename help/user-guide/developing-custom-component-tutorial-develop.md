@@ -30,17 +30,17 @@ Den här självstudiekursen är avsedd för utvecklare som inte har använt AEM 
 
 För att slutföra den här självstudiekursen behöver du följande:
 
-1. [AEM 6.5](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/release-notes/release-notes) plus det senaste Screens-funktionspaketet.
+1. [AEM 6.5](https://experienceleague.adobe.com/sv/docs/experience-manager-65/content/release-notes/release-notes) plus det senaste Screens-funktionspaketet.
 
-1. [AEM Screens Player](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/administering/configuring-screens-introduction)
+1. [AEM Screens Player](https://experienceleague.adobe.com/sv/docs/experience-manager-screens/user-guide/administering/configuring-screens-introduction)
 1. Lokal utvecklingsmiljö
 
-Självstudiestegen och skärmbilderna utförs med **CRXDE-Lite**. IDE kan också användas för att slutföra självstudiekursen. Mer information om hur du använder en IDE för att utveckla [med AEM finns här.](https://experienceleague.adobe.com/en/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/project-archetype/project-setup)
+Självstudiestegen och skärmbilderna utförs med **CRXDE-Lite**. IDE kan också användas för att slutföra självstudiekursen. Mer information om hur du använder en IDE för att utveckla [med AEM finns här.](https://experienceleague.adobe.com/sv/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/project-archetype/project-setup)
 
 
 ## Projektinställningar {#project-setup}
 
-Ett Screens-projekts källkod hanteras vanligtvis som ett Maven-projekt med flera moduler. För att underlätta självstudiekursen har ett projekt förskapats med [AEM Project Archetype 13](https://github.com/adobe/aem-project-archetype). Mer information om att [skapa ett projekt med Maven AEM Project Archetype finns här](https://experienceleague.adobe.com/en/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/project-archetype/project-setup).
+Ett Screens-projekts källkod hanteras vanligtvis som ett Maven-projekt med flera moduler. För att underlätta självstudiekursen har ett projekt förskapats med [AEM Project Archetype 13](https://github.com/adobe/aem-project-archetype). Mer information om att [skapa ett projekt med Maven AEM Project Archetype finns här](https://experienceleague.adobe.com/sv/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/project-archetype/project-setup).
 
 1. Hämta och installera följande paket med [CRX Package Manager](http://localhost:4502/crx/packmgr/index.jsp):
 
@@ -136,7 +136,7 @@ AEM Screens har intressanta begränsningar som inte nödvändigtvis är sanna f�
    <sly data-sly-test="${!production}" data-sly-include="edit.html" />
    ```
 
-   Screens-komponenter kräver två olika återgivningar beroende på vilket [redigeringsläge](https://experienceleague.adobe.com/en/docs/experience-manager-64/authoring/authoring/author-environment-tools) som används:
+   Screens-komponenter kräver två olika återgivningar beroende på vilket [redigeringsläge](https://experienceleague.adobe.com/sv/docs/experience-manager-64/authoring/authoring/author-environment-tools) som används:
 
    1. **Produktion**: Förhandsgranska eller Publicera läge (wcmmode=disabled)
    1. **Redigera**: används för alla andra redigeringslägen, d.v.s. redigering, design, ställningar, utvecklare...
@@ -383,7 +383,7 @@ En tredje klientbibliotekskategori: `cq.screens.components.edit` kan användas f
 
 ## Skapa en designsida {#design-page}
 
-AEM Screens använder [statiska sidmallar](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/developing/platform/templates/page-templates-static) och [designkonfigurationer](https://experienceleague.adobe.com/en/docs/experience-manager-64/authoring/siteandpage/default-components-designmode) för globala ändringar. Designkonfigurationer används ofta för att konfigurera tillåtna komponenter för parsys i en kanal. Ett tips är att lagra dessa konfigurationer på ett appspecifikt sätt.
+AEM Screens använder [statiska sidmallar](https://experienceleague.adobe.com/sv/docs/experience-manager-65/content/implementing/developing/platform/templates/page-templates-static) och [designkonfigurationer](https://experienceleague.adobe.com/sv/docs/experience-manager-64/authoring/siteandpage/default-components-designmode) för globala ändringar. Designkonfigurationer används ofta för att konfigurera tillåtna komponenter för parsys i en kanal. Ett tips är att lagra dessa konfigurationer på ett appspecifikt sätt.
 
 Under sidan `We.Retail` Run Design skapas en sida som lagrar alla konfigurationer som är specifika för projektet `We.Retail` Run.
 
