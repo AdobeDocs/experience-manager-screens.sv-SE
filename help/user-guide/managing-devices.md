@@ -62,8 +62,8 @@ Följ stegen nedan för att tilldela en enhet till en skärm:
 >[!NOTE]
 >
 >Varje gång den första enheten läggs till i ett nytt Screens-projekt skapas en användargrupp.
->>Om till exempel projektnodens namn är *we-retail* är användargruppens namn *screens-we-retail-devices*.
->>Den här gruppen läggs till som medlem i gruppen **Medarbetare** enligt bilden nedan:
+>&#x200B;>Om till exempel projektnodens namn är *we-retail* är användargruppens namn *screens-we-retail-devices*.
+>&#x200B;>Den här gruppen läggs till som medlem i gruppen **Medarbetare** enligt bilden nedan:
 
 ![chlimage_1-39](assets/chlimage_1-39.png)
 

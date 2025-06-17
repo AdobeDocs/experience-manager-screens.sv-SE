@@ -28,8 +28,8 @@ Följ stegen nedan för att skapa ett exempelprojekt för AEM Screens och public
 
 >[!IMPORTANT]
 >**OSGi-konfigurationsinställningar**
->>Du måste aktivera den tomma referenten för att enheten ska kunna skicka data till servern. Om t.ex. den tomma refereraregenskapen är inaktiverad, kan enheten inte publicera en skärmdump. Vissa av dessa funktioner är för närvarande bara tillgängliga om alternativet Tillåt tomt för `Apache Sling`-referensfiltret är aktiverat i OSGi-konfigurationen. Kontrollpanelen kan visa en varning om att skyddsinställningarna kan förhindra vissa av dessa funktioner från att fungera.
->>Följ stegen nedan för att aktivera ***Refererarfiltret för Apache Sling Tillåt tomt***:
+>&#x200B;>Du måste aktivera den tomma referenten för att enheten ska kunna skicka data till servern. Om t.ex. den tomma refereraregenskapen är inaktiverad, kan enheten inte publicera en skärmdump. Vissa av dessa funktioner är för närvarande bara tillgängliga om alternativet Tillåt tomt för `Apache Sling`-referensfiltret är aktiverat i OSGi-konfigurationen. Kontrollpanelen kan visa en varning om att skyddsinställningarna kan förhindra vissa av dessa funktioner från att fungera.
+>&#x200B;>Följ stegen nedan för att aktivera ***Refererarfiltret för Apache Sling Tillåt tomt***:
 
 
 ## Tillåt tomma referentförfrågningar {#allow-empty-referrer-requests}

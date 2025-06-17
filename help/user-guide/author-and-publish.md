@@ -54,7 +54,7 @@ Lär dig hur du skapar en standardoperationsagent för replikering när du vill 
 
 Det finns tre replikeringsagenter som behövs för Screens:
 
-1. **Standardreplikeringsagent ***(anges som*** standardreplikeringsagent**)
+1. **Standardreplikeringsagent &#x200B;***(anges som&#x200B;*** standardreplikeringsagent**)
 1. **Screens Replication Agent**
 1. **Agenten för omvänd replikering**
 
@@ -159,7 +159,7 @@ Eftersom varje publiceringsinstans som standard har unika krypteringsnycklar utf
 >[!NOTE]
 >
 >Lösenordet ska börja och sluta med klammerparenteser. Till exempel:
->>`{1ec346330f1c26b5c48255084c3b7272a5e85260322edd59119828d1fa0a610e}`
+>&#x200B;>`{1ec346330f1c26b5c48255084c3b7272a5e85260322edd59119828d1fa0a610e}`
 
 #### Steg 4: Aktivera ActiveMQ-artemis-kluster {#step-activate-activemq-artemis-cluster}
 

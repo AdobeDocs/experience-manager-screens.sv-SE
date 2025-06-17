@@ -146,8 +146,8 @@ Spelaren visar innehållet i **MainAdChannel** och exakt vid 11:59 P.M. (enligt 
 >[!NOTE]
 >
 >Mer information om AEM Screen Player finns i följande resurser:
->>[AEM Screens Player-nedladdningar](https://download.macromedia.com/screens/)
->>[Arbeta med AEM Screens Player](working-with-screens-player.md)
+>&#x200B;>[AEM Screens Player-nedladdningar](https://download.macromedia.com/screens/)
+>&#x200B;>[Arbeta med AEM Screens Player](working-with-screens-player.md)
 
 
 ## Hantera återkommande för Assets i en kanal {#handling-recurrence-in-assets}

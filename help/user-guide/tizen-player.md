@@ -119,7 +119,7 @@ I följande tabell sammanfattas profilerna med deras funktioner.
 
 >[!NOTE]
 >Spelarens Admin UI-principkonfigurationer används strikt och åsidosätts inte manuellt. Om du vill tillåta manuell spelarkonfiguration för en viss princip ska du inte ange principen i principkonfigurationen.
->>Om du till exempel vill tillåta manuell konfiguration för omstartsschema ska du inte ange nyckeln `rebootSchedule` i principkonfigurationen. Principkonfigurationer läses upp varje gång spelaren läses in igen.
+>&#x200B;>Om du till exempel vill tillåta manuell konfiguration för omstartsschema ska du inte ange nyckeln `rebootSchedule` i principkonfigurationen. Principkonfigurationer läses upp varje gång spelaren läses in igen.
 
 | **Principnamn** | **Syfte** |
 |---|---|

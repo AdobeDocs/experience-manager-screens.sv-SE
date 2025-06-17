@@ -39,7 +39,7 @@ Använd skapade taggar på bildskärmar och spelare.
 >[!NOTE]
 >
 > En skärm eller spelare kan ha maximalt 30 taggar tilldelade.
-> > Högst 30 objekt kan taggas på en gång.
+> &#x200B;> Högst 30 objekt kan taggas på en gång.
 
 ## Filtrera efter taggar {#filter-by-tags}
 
