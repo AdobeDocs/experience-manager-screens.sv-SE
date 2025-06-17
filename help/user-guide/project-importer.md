@@ -10,9 +10,9 @@ feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: 3bff9ef3-0d6f-41d8-a8ef-bcc5a795990e
-source-git-commit: 8dde26d36847fb496aed6d4bf9732233116b5ea6
+source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
 workflow-type: tm+mt
-source-wordcount: '623'
+source-wordcount: '619'
 ht-degree: 0%
 
 ---
@@ -57,9 +57,9 @@ Datamodellen för Project Importer beskrivs nedan:
 
 Kalkylbladsfilen (CSV/XLS) kräver därför följande kolumner:
 
-* **sökväg {string}** - Sökvägen till platsen som ska importeras, där sökvägen är platsmappen för projektet (det vill säga *`/foo`* importeras till *`/content/screens/<project>/locations/foo`*)
-* **template {string}** - Den mall som ska användas för den nya platsen är för närvarande det enda tillåtna värdet &quot;location&quot;, men det här värdet utökas till alla Screens-mallar i framtiden (`display`, `sequencechannel` o.s.v.)
-* **[./*] {string}** - Valfri egenskap som ska anges på platsen (d.v.s. `./jcr:title`, `./jcr:description`, `./foo, ./bar`). Den aktuella versionen tillåter ingen filtrering.
+* **sökväg{string}** - Sökvägen till platsen som ska importeras, där sökvägen är platsmappen för projektet (det vill säga *`/foo`* importeras till *`/content/screens/<project>/locations/foo`*)
+* **template{string}** - Den mall som ska användas för den nya platsen är för närvarande det enda tillåtna värdet &quot;location&quot;, men det här värdet utökas till alla `Screens` -mallar i framtiden (`display`, `sequencechannel` o.s.v.)
+* **[./*] {string}** - Valfri egenskap som ska anges för platsen (d.v.s. `./jcr:title`, `./jcr:description`, `./foo, ./bar`). Den aktuella versionen tillåter ingen filtrering.
 
 >[!NOTE]
 >
@@ -101,7 +101,7 @@ Följ stegen nedan för att importera en fil till en platsmapp med de obligatori
 
    ![screen_shot_2019-05-12at52651am](assets/screen_shot_2019-05-12at52651am.png)
 
-1. Klicka på projektet **&#x200B; DemoProjectImporter &#x200B;**>**&#x200B; Create &#x200B;**>**&#x200B; Import Locations** från sidofältet.
+1. Klicka på projektet** DemoProjectImporter **>** Create **>** Import Locations** från sidofältet.
 
    ![screen_shot_2019-05-12at52433am](assets/screen_shot_2019-05-12at52433am.png)
 

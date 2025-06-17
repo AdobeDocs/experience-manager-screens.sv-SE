@@ -10,9 +10,9 @@ feature: Administering Screens, Device Registration
 role: Admin
 level: Intermediate
 exl-id: b2d3a2cd-263f-4142-80da-29ce54cbf391
-source-git-commit: ce8340f24d116b4268a6ed15dd4e9f626bad1ef6
+source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
 workflow-type: tm+mt
-source-wordcount: '722'
+source-wordcount: '721'
 ht-degree: 0%
 
 ---
@@ -26,14 +26,14 @@ På följande sida beskrivs enhetsregistreringsprocessen i ett AEM Screens-proje
 Enhetsregistreringsprocessen görs på två olika datorer:
 
 * Den faktiska enhet som ska registreras, till exempel din skyltskärm
-* Den AEM som används för att registrera din enhet
+* Den AEM-server som används för att registrera din enhet
 
 >[!NOTE]
 >
 >När du har hämtat den senaste versionen av Windows Player (*.exe*) från sidan [AEM 6.4 Player Downloads](https://download.macromedia.com/screens/) följer du stegen på spelaren för att slutföra ad hoc-installationen:
 >
 >1. Tryck länge på det övre vänstra hörnet för att öppna administratörspanelen.
->1. Navigera till **Konfiguration** på den vänstra åtgärdsmenyn och ange platsadressen för den AEM instansen i **Server** och klicka på **Spara**.
+>1. Navigera till **Konfiguration** på den vänstra åtgärdsmenyn och ange platsadressen för AEM-instansen i **Server** och klicka på **Spara**.
 >1. Klicka på länken **Registrering** på den vänstra åtgärdsmenyn och stegen nedan för att slutföra enhetsregistreringsprocessen.
 >
 
@@ -43,7 +43,7 @@ Enhetsregistreringsprocessen görs på två olika datorer:
 
    ![screen_shot_2018-11-26at104230am](assets/screen_shot_2018-11-26at104230am.png)
 
-1. I AEM navigerar du till mappen **Devices** i ditt projekt.
+1. I AEM går du till mappen **Devices** i ditt projekt.
 
    >[!NOTE]
    >
@@ -61,7 +61,7 @@ Enhetsregistreringsprocessen görs på två olika datorer:
 
    ![screen_shot_2018-11-26at105112am](assets/screen_shot_2018-11-26at105112am.png)
 
-1. AEM väntar på att enheten ska skicka sin registreringskod.
+1. I AEM väntar du tills enheten skickar sin registreringskod.
 
    ![screen_shot_2018-11-26at105150am](assets/screen_shot_2018-11-26at105150am.png)
 
@@ -69,7 +69,7 @@ Enhetsregistreringsprocessen görs på två olika datorer:
 
    ![screen_shot_2018-11-26at105227am](assets/screen_shot_2018-11-26at105227am.png)
 
-1. Om **registreringskoden** är densamma på båda datorerna klickar du på knappen **Validera** i AEM, vilket visas i steg 6.
+1. Om **registreringskoden** är densamma på båda datorerna klickar du på knappen **Validera** i AEM, som i steg (6).
 1. Ange önskat namn för enheten och klicka på **Registrera**.
 
    ![screen_shot_2018-11-26at105357am](assets/screen_shot_2018-11-26at105357am.png)

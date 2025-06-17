@@ -2,21 +2,21 @@
 title: Mobilnätverk med mobil datarouter och aktiva nätverkskomponenter
 description: Sidan beskriver mobilnätverk med Mobile Data Router och Active Network Components
 exl-id: a6b44a04-438d-49d4-ac98-32629c11dcdb
-source-git-commit: ef74265eadf5972eae7451b7725946d8b014c198
+source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
 workflow-type: tm+mt
-source-wordcount: '1043'
+source-wordcount: '1041'
 ht-degree: 0%
 
 ---
 
 # Mobilnätverk med mobil datarouter och aktiva nätverkskomponenter {#mobile-network-setup}
 
-Adobe AEM Screens-spelare kan också anslutas med mobilnätverk eller mobilnätverk som kör minst ett 3G-nätverk.
+Adobe AEM Screens Players kan också anslutas via mobilnätverk eller mobilnätverk som kör minst ett 3G-nätverk.
 
 Inom AEM Screens hämtas det nödvändiga innehållet fysiskt till spelarstyrenheten eller datorn och lagras på rätt sätt i det underliggande operativsystemet. Därför påverkar den angivna bandbredden bara de inledande hämtningstiderna och innehållsuppdateringarna och påverkar inte prestanda för vanlig uppspelning av bildskärmar.
 
 Fördelen med den här konfigurationen är att den mobila routern kan placeras på en optimerad plats för att få bästa möjliga nätverkstäckning. Denna fläck är vanligen i upphöjt och öppet läge med så få omgivande bete- eller metallstrukturer som möjligt.
-Den här inställningen ger AEM skärmanvändare flexibilitet eftersom det inte krävs någon fasta linje för att ansluta till AEM Screens. Det är också intressant för tillfälliga eller mobila miljöer.
+Den här konfigurationen ger AEM Screen-användare flexibilitet eftersom det inte krävs någon fasta linje för att ansluta till AEM Screens. Det är också intressant för tillfälliga eller mobila miljöer.
 
 I följande diagram visas det mobila nätverket med konfigurationen Mobile Data Router och Active Network Components. Den innehåller Internet-åtkomst för alla AEM Screens-styrenheter genom direkt Internet-åtkomst med en egen 3/4/5G-datalänk.
 
@@ -24,11 +24,11 @@ I följande diagram visas det mobila nätverket med konfigurationen Mobile Data 
 
 ## Ansluta AEM Screens Player till mobilnätverk med mobil datarouter och aktiva nätverkskomponenter {#connecting-aem-screens-players}
 
-Följ stegen nedan för att se till att AEM skärmspelare är korrekt anslutna i den här konfigurationen:
+Följ stegen nedan för att säkerställa att AEM Screen Players är korrekt anslutna i den här konfigurationen:
 
 Konfigurationen tilldelar en Internet-åtkomst för varje AEM Screens-styrenhet genom direkt Internet-åtkomst med en dedikerad 3/4/5G-datalänk.
 
-1. Kontrollera att mobildataroutern är korrekt ansluten till det mobila datanätverket enligt operativsystemets anvisningar. Och se till att alla AEM skärmspelare är anslutna till routernätverket.
+1. Kontrollera att mobildataroutern är korrekt ansluten till det mobila datanätverket enligt operativsystemets anvisningar. Och se till att alla AEM Screen-spelare är anslutna till Routers Network.
 1. Testa Internetanslutningen genom att anropa en URL i datorns webbläsare.
 
    >[!NOTE]
@@ -69,7 +69,7 @@ Följande tabell visar datanätverken med deras standardbandbredd:
 | 4G | 150 Mbit/s |
 | 5 G | 1 000 - 1 000 Mbit/s |
 
-När du funderar på vilket datanätverk som ska användas rekommenderar Adobe att du besvarar följande frågor:
+Adobe rekommenderar att du svarar på följande frågor när du funderar på vilket datanätverk som ska användas:
 
 * Hur många klienter är anslutna till routern?
 * Hur många innehållsändringar som förväntas och vilka är de genomsnittliga filstorlekarna?
@@ -87,11 +87,11 @@ När du funderar på vilket datanätverk som ska användas rekommenderar Adobe a
 
 ### Lokalt nätverk {#lan-connection}
 
-LAN-nätverkets prestanda, förutom den redan beskrivna nätverkets nåbarhet, måste ge tillräcklig bandbredd för att AEM Screens-nedladdningar ska fungera smidigt. I dessa dagar matchar LAN-nätverket vanligtvis minst ett 100 Mbit/s-nätverk, så att det bör finnas tillräcklig bandbredd för att ansluta många enheter med bra prestanda till systemet. När du använder andra aktiva nätverkskomponenter är det obligatoriskt att alla dessa stämmer överens med kraven för nätverkets bandbredd.
+LAN-nätverkets prestanda, förutom den redan beskrivna nätverkets nåbarhet, måste ge tillräcklig bandbredd för att AEM Screens-nedladdningar ska fungera smidigt. I dessa dagar matchar LAN-nätverket vanligtvis minst ett 100 Mbit/s-nätverk, så att det bör finnas tillräcklig bandbredd för att ansluta många enheter med bra prestanda till systemet. När du använder andra aktiva nätverkskomponenter är det obligatoriskt att alla matchar kraven för nätverksbandbredd.
 
 Nätverkskomponenterna bör till exempel minst matcha 100 Mbit/s-standarden och matcha den bandbredd som anges i specifikationen Internet Access/Router.
 
-Om en Wi-Fi-lösning planeras för att ansluta skärmen till Internet Link rekommenderar vi att du använder moderna Wi-Fi-standarder som IEEE `802.11g` som minimum. Den här standarden stöder anslutningar på upp till 54 Mbit/s. Alla *nyare*-standarder som `802.11h-n` har bättre kvalitet. Om en Wi-Fi-repeater krävs rekommenderar Adobe att du använder Wi-Fi-åtkomstpunktsteknologier som Google Nest Mesh Wi-Fi eller liknande.
+Om en Wi-Fi-lösning planeras för att ansluta skärmen till Internet Link rekommenderar vi att du använder moderna Wi-Fi-standarder som IEEE `802.11g` som minimum. Den här standarden stöder anslutningar på upp till 54 Mbit/s. Alla *nyare*-standarder som `802.11h-n` har bättre kvalitet. Om en Wi-Fi Repeater krävs rekommenderar Adobe att du använder trådlös nätanslutning som Google Nest Mesh Wi-Fi eller liknande.
 
 ## Hämta media och Assets {#download}
 

@@ -9,7 +9,7 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 4a4b3a83-2b02-42a0-86a7-fce6bbf47c7d
-source-git-commit: cdff56f0807f6d5fea4a4b1d545aecb1e80245bb
+source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
 workflow-type: tm+mt
 source-wordcount: '704'
 ht-degree: 3%
@@ -93,7 +93,7 @@ I läget **Live Copy Status**, som visas i figuren nedan, kan du visa relationss
 
 Du kan också avbryta arvet från den aktiva kopian, så att innehållet blir oberoende av den ursprungliga grenen.
 
-I följande exempel visas att du klickar på bilden i redigeringsläget och klickar på symbolen för att avbryta arv överst till höger.
+I följande exempel visas att du klickar på bilden i redigeringsläget och klickar på ikonen **Avbryt arv** längst upp till höger.
 
 ![chlimage_1-24](assets/chlimage_1-24.png)
 
@@ -117,7 +117,7 @@ Följ stegen nedan för att se till att dina ändringar sprids från den ursprun
 
    ![chlimage_1-27](assets/chlimage_1-27.png)
 
-1. Om du vill sprida ändringarna till den aktiva kopieringskanalen går du till AEM och klickar på den aktiva kopieringskanalen och klickar på **Egenskaper** i åtgärdsfältet.
+1. Om du vill sprida ändringarna till den aktiva kopieringskanalen går du till AEM-kontrollpanelen och klickar på den aktiva kopieringskanalen och klickar på **Egenskaper** i åtgärdsfältet.
 
    ![chlimage_1-28](assets/chlimage_1-28.png)
 
@@ -125,7 +125,7 @@ Följ stegen nedan för att se till att dina ändringar sprids från den ursprun
 
    ![chlimage_1-29](assets/chlimage_1-29.png)
 
-1. Klicka på **Synkronisera** och sedan på **Spara och stäng** för att gå tillbaka till AEM.
+1. Klicka på **Synkronisera** och sedan på **Spara och stäng** för att gå tillbaka till AEM kontrollpanel.
 
    ![chlimage_1-30](assets/chlimage_1-30.png)
 

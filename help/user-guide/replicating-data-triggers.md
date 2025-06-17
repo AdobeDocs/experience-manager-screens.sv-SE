@@ -1,18 +1,18 @@
 ---
-title: Replikera datautlösare till Publish-servrar
+title: Replikera datautlösare till publiceringsservrar
 description: Lär dig hur du replikerar datautlösare till publiceringsservern för AEM Screens.
 feature: Administering Screens, Data Trigger
 role: Developer
 level: Intermediate
 exl-id: 6f90b864-eaa0-4b74-a47e-b0967a550552
-source-git-commit: cdff56f0807f6d5fea4a4b1d545aecb1e80245bb
+source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
 workflow-type: tm+mt
-source-wordcount: '523'
+source-wordcount: '514'
 ht-degree: 0%
 
 ---
 
-# Replikera datutlösare till Publish-servrar {#replicating-data-triggers}
+# Replikera datutlösare till publiceringsservrar {#replicating-data-triggers}
 
 När du använder ContextHub och AEM Target Engine för att anpassa innehåll baserat på datautlösare i en författar-/publiceringskonfiguration, replikeras inte alla ContextHub- och Personalization-relaterade konfigurationer automatiskt med kanalerna när de publiceras.
 
@@ -52,7 +52,7 @@ Följ stegen nedan för att replikera datautlösarna till publiceringsservern.
 
 ### Replikera målgrupperna {#replicating-audiences}
 
-1. Navigera till AEM > **Personalization** > **Publiker** eller använd `http://localhost:4502/libs/cq/personalization/touch-ui/content/v2/audiences.html` för att navigera direkt.
+1. Navigera till din AEM-instans > **Personalization** > **Publiker** eller använd `http://localhost:4502/libs/cq/personalization/touch-ui/content/v2/audiences.html` för att navigera direkt.
 
 1. Gå ned i projektmappen, till exempel `/conf/screens/`.
 
@@ -62,11 +62,11 @@ Följ stegen nedan för att replikera datautlösarna till publiceringsservern.
 
 1. Klicka på **Hantera publikation** i åtgärdsfältet.
 
-1. Klicka på **Nästa** och **Publish**.
+1. Klicka på **Nästa** och **Publicera**.
 
 ### Replikera aktiviteterna {#replicating-activities}
 
-1. Navigera till AEM > **Personalization** > **Aktiviteter** eller använd `http://localhost:4502/libs/cq/personalization/touch-ui/content/v2/activities.html` för att navigera direkt.
+1. Navigera till din AEM-instans > **Personalization** > **Aktiviteter** eller använd `http://localhost:4502/libs/cq/personalization/touch-ui/content/v2/activities.html` för att navigera direkt.
 
 1. Gå ned i projektmappen, det vill säga `/content/campaigns/screens/…`.
 
@@ -74,7 +74,7 @@ Följ stegen nedan för att replikera datautlösarna till publiceringsservern.
 
 1. Klicka på **Hantera publikation** i åtgärdsfältet.
 
-1. Klicka på **Nästa** och **Publish**.
+1. Klicka på **Nästa** och **Publicera**.
 
 >[!IMPORTANT]
 >
@@ -92,7 +92,7 @@ Om replikeringen lyckas bör du visa följande struktur på publiceringsinstanse
 
 Om testanslutningen misslyckas när ContextHub-konfigurationerna replikeras, följ avsnittet nedan för att felsöka problemet:
 
-1. Navigera till **Verktyg** > **Distribution** > **Distribution** > **Publish Agent**.
+1. Navigera till **Verktyg** > **Distribution** > **Distribution** > **Publiceringsagent**.
 
 1. Klicka på **Redigera** i åtgärdsfältet och kontrollera att slutpunkts-URL:en i fältet **Importerarslutpunkter** också pekar på publiceringsserverns URL i distributionsagenten.
    ![bild1](/help/user-guide/assets/replicating-triggers/replicating-triggers9.png)
@@ -102,7 +102,7 @@ Om testanslutningen misslyckas när ContextHub-konfigurationerna replikeras, fö
    Följ stegen nedan:
 
    1. Navigera till Verktyg > **Åtgärder** > **Webbkonsol** `http://localhost:4502/system/console/configMgr`så att du kan öppna **Adobe Experience Manager Web Console**.
-   1. Sök efter **Transportautentiseringsuppgifter för Apache Sling Distribution - Användarautentiseringsuppgifter baserade DistributionTransportSecretProvider**
+   1. Sök efter **`Apache Sling Distribution Transport Credentials - User Credentials based DistributionTransportSecretProvider`**
 
       ![bild1](/help/user-guide/assets/replicating-triggers/replicating-triggers6.png)
 
@@ -116,4 +116,4 @@ Om testanslutningen misslyckas när ContextHub-konfigurationerna replikeras, fö
       ![bild1](/help/user-guide/assets/replicating-triggers/replicating-triggers8.png)
 
    1. Uppdatera `(name=default)` med `(name=slingTransportSecretProvider)`.
-   1. Klicka på **Spara** och kör testanslutningen igen från skärmen **Distributionsagent** från din AEM igen.
+   1. Klicka på **Spara** och kör testanslutningen igen från skärmen **Distributionsagent** från din AEM-instans igen.

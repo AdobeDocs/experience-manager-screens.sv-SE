@@ -5,7 +5,7 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: e1794013-59ce-4ddc-93c0-601668c75cd1
-source-git-commit: ef74265eadf5972eae7451b7725946d8b014c198
+source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
 workflow-type: tm+mt
 source-wordcount: '916'
 ht-degree: 0%
@@ -15,11 +15,11 @@ ht-degree: 0%
 # Versionsinformation för funktionspaket 20109 {#release-notes-for-feature-pack}
 
 >[!CAUTION]
->Adobe rekommenderar att du uppgraderar till den senaste versionen av Adobe Experience Manager (AEM). AEM Screens ger underhållsstöd för Screens AEM 6.3.
+>Adobe rekommenderar att du uppgraderar till den senaste versionen av Adobe Experience Manager (AEM). AEM Screens ger underhållsstöd för AEM 6.3 Screens.
 
 ## Tillgänglighet {#availability}
 
-AEM Screens AEM 6.5 Feature Pack 9.
+AEM Screens har släppt AEM 6.5 Feature Pack 9.
 
 Du kan hämta den senaste funktionspaketet för AEM Screens 6.5.9 från [Software Distribution Portal](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) med din Adobe ID. Gå till fliken **Adobe Experience Manager** och sök efter **Screens** för att få den senaste funktionspaketet med namnet **AEM 6.5 Screens FP9**.
 
@@ -31,13 +31,13 @@ Releasedatum för AEM Screens Feature Pack 202109 är 23 september 2021.
 
 * **Stöd för miniatyrbilder för videoklipp**
 
-  Miniatyrbildsstöd för videor i stöds nu i AEM Screens. En innehållsförfattare definierar en miniatyrbild för videoklipp så att bilden används som platshållare. De testar också innehållsuppspelning och målgruppsanpassning, medan rätt team slutför själva videon. Bilden kan också användas om videouppspelningen misslyckas.
+  Miniatyrbildsstöd för videor stöds nu i AEM Screens. En innehållsförfattare definierar en miniatyrbild för videoklipp så att bilden används som platshållare. De testar också innehållsuppspelning och målgruppsanpassning, medan rätt team slutför själva videon. Bilden kan också användas om videouppspelningen misslyckas.
 Mer information finns i [Stöd för miniatyrbilder för videoklipp](/help/user-guide/thumbnail-support.md).
 
 * **Grundläggande uppspelningsövervakning**
 
   AEM Screens har nu stöd för grundläggande uppspelningsövervakning. Spelaren rapporterar nu olika uppspelningsmått för varje ping (standardvärdet är 30 sekunder). Baserat på mätvärden upptäcker programmet olika kantfall (fastnålade upplevelser, tom skärm, schemaläggningsproblem osv.). Med den här funktionen kan teamet fjärrövervaka om en spelare spelar upp innehåll på rätt sätt och förbättrar reaktiviteten till tomma skärmar eller trasiga upplevelser på fältet. Det minskar också risken att slutanvändaren får en trasig upplevelse.
-Mer information finns i [Grundläggande uppspelningsövervakning](https://experienceleague.adobe.com/sv/docs/experience-manager-screens/user-guide/administering/installing-screens-player#playback-monitoring).
+Mer information finns i [Grundläggande uppspelningsövervakning](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/administering/installing-screens-player#playback-monitoring).
 
 * **Uppdateringar i rapporten för innehållstilldelning**
 
@@ -58,7 +58,7 @@ Mer information finns i [Rapport om innehållstilldelning](/help/user-guide/cont
 
    * Rensa alla väntande offlineinnehållsjobb i både författaren och publicerad.
 
-      * Navigera till CRXDE Lite i Författare och Publish.
+      * Navigera till CRXDE Lite i Författare och Publicera.
 
       * Klicka på Verktyg > Fråga.
 
@@ -77,8 +77,8 @@ Mer information finns i [Rapport om innehållstilldelning](/help/user-guide/cont
    * Uppdatera den anpassade komponenten.
 
 
-   * Mer information finns i [Konfigurera Dispatcher för manifestversion v3](https://experienceleague.adobe.com/sv/docs/experience-manager-screens/user-guide/administering/dispatcher-configurations-aem-screens#configuring-dispatcherv3).
-   * Om du använder anpassade komponenter som en del av v3-manifest läser du [Mall för anpassade hanterare](https://experienceleague.adobe.com/sv/docs/experience-manager-screens/user-guide/developing/developing-custom-component-tutorial-develop#custom-handlers).
+   * Mer information finns i [Konfigurera Dispatcher för manifestversion v3](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/administering/dispatcher-configurations-aem-screens#configuring-dispatcherv3).
+   * Om du använder anpassade komponenter som en del av v3-manifest läser du [Mall för anpassade hanterare](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/developing/developing-custom-component-tutorial-develop#custom-handlers).
 
 
 ### Felkorrigeringar {#bug-fixes}

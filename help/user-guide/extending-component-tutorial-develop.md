@@ -9,9 +9,9 @@ feature: Developing Screens
 role: Developer
 level: Intermediate
 exl-id: e316614f-2d40-4b62-a1e5-f30817def742
-source-git-commit: 1cf90de7892d051b2b94b4dd57de7135269b1ee8
+source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
 workflow-type: tm+mt
-source-wordcount: '1700'
+source-wordcount: '1698'
 ht-degree: 0%
 
 ---
@@ -40,18 +40,18 @@ Du behöver följande för att kunna slutföra den här självstudiekursen:
 1. [AEM Screens Player](/help/user-guide/aem-screens-introduction.md)
 1. Lokal utvecklingsmiljö
 
-Självstudiestegen och skärmbilderna utförs med CRXDE-Lite. [Eclipse](https://experienceleague.adobe.com/sv/docs/experience-manager-65/content/implementing/developing/devtools/aem-eclipse) eller [IntelliJ](https://experienceleague.adobe.com/sv/docs/experience-manager-65/content/implementing/developing/devtools/ht-intellij) IDE:er kan också användas för att slutföra självstudiekursen. Mer information om hur du använder en IDE för att [utveckla med AEM finns här](https://experienceleague.adobe.com/sv/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/project-archetype/project-setup).
+Självstudiestegen och skärmbilderna utförs med CRXDE-Lite. [Eclipse](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/developing/devtools/aem-eclipse) eller [IntelliJ](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/developing/devtools/ht-intellij) IDE:er kan också användas för att slutföra självstudiekursen. Mer information om hur du använder en IDE för att [utveckla med AEM finns här](https://experienceleague.adobe.com/en/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/project-archetype/project-setup).
 
 ## Projektinställningar {#project-setup}
 
-Ett Screens-projekts källkod hanteras vanligtvis som ett Maven-projekt med flera moduler. För att underlätta självstudiekursen har ett projekt förskapats med [AEM Project Archetype 13](https://github.com/adobe/aem-project-archetype). Mer information om att [skapa ett projekt med Maven AEM Project Archetype finns här](https://experienceleague.adobe.com/sv/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/project-archetype/project-setup).
+Ett Screens-projekts källkod hanteras vanligtvis som ett Maven-projekt med flera moduler. För att underlätta självstudiekursen har ett projekt förskapats med [AEM Project Archetype 13](https://github.com/adobe/aem-project-archetype). Mer information om att [skapa ett projekt med Maven AEM Project Archetype finns här](https://experienceleague.adobe.com/en/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/project-archetype/project-setup).
 
 1. Hämta och installera följande paket med **CRX package manage** `http://localhost:4502/crx/packmgr/index.jsp)r:`
 
 [Hämta fil](assets/start-poster-screens-weretail-runuiapps-001-snapshot.zip)
 
    [Hämta fil](assets/start-poster-screens-weretail-runuicontent-001-snapshot.zip)
-   **Om du vill** kan du hämta källpaketet nedan om du arbetar med Eclipse eller någon annan IDE. Distribuera projektet till en lokal AEM med kommandot Maven:
+   **Om du vill** kan du hämta källpaketet nedan om du arbetar med Eclipse eller någon annan IDE. Distribuera projektet till en lokal AEM-instans med kommandot Maven:
 
    **`mvn -PautoInstallPackage clean install`**
 
@@ -70,7 +70,7 @@ Ett Screens-projekts källkod hanteras vanligtvis som ett Maven-projekt med fler
 
 ## Skapa komponenten Poster {#poster-cmp}
 
-Komponenten Poster utökar den färdiga AEM Screens Image-komponenten. En mekanism med Sling, `sling:resourceSuperType`, används för att ärva huvudfunktionerna i Image-komponenten utan att behöva kopiera och klistra in. Mer information om grunderna i [Bearbetning av delningsbegäran finns här.](https://experienceleague.adobe.com/sv/docs/experience-manager-65/content/implementing/developing/introduction/the-basics)
+Komponenten Poster utökar den färdiga AEM Screens Image-komponenten. En mekanism med Sling, `sling:resourceSuperType`, används för att ärva huvudfunktionerna i Image-komponenten utan att behöva kopiera och klistra in. Mer information om grunderna i [Bearbetning av delningsbegäran finns här.](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/developing/introduction/the-basics)
 
 Komponenten Poster återges i helskärmsläge i förhandsgransknings-/produktionsläge. I redigeringsläge är det viktigt att återge komponenten på ett annat sätt för att underlätta redigering av sekvenskanalen.
 
@@ -133,7 +133,7 @@ Komponenten Poster återges i helskärmsläge i förhandsgransknings-/produktion
 
    Dialogrutan har kopierats från `/libs/wcm/foundation/components/image/cq:dialog` till `/apps/weretail-run/components/content/poster`
 
-   AEM Screens `image`-komponenten är supertypad till WCM Foundation `image` -komponenten. Därför ärver komponenten `poster` funktioner från båda. Dialogrutan för förhandsgranskningskomponenten består av en kombination av dialogrutorna Screens och Foundation. Funktionerna för **Sling Resource Merger** används för att dölja irrelevanta dialogrutefält och flikar som ärvs från de överordnade typkomponenterna.
+   AEM Screens `image`-komponenten är supertypad till WCM Foundation `image` -komponenten. Därför ärver komponenten `poster` funktioner från båda. Dialogrutan för förhandsgranskningskomponenten består av en kombination av dialogrutorna Screens och Foundation. Funktionerna i **`Sling Resource Merger`** används för att dölja irrelevanta dialogrutefält och flikar som ärvs från de överordnade typkomponenterna.
 
 1. Uppdatera `cq:dialog` under `/apps/weretail-run/components/content/poster` med följande ändringar representerade i XML:
 
@@ -284,7 +284,7 @@ Komponenten Poster återges i helskärmsläge i förhandsgransknings-/produktion
 
    En logotyp ingår också som ett överlägg i komponenten. I det här exemplet är sökvägen till logotypen ` We.Retail` hårdkodad i DAM. Beroende på användningsfallet kan det vara mer praktiskt att skapa ett dialogfält för att göra logotypsökvägen till ett dynamiskt ifyllt värde.
 
-   Observera också att BEM-notation (Block Element Modifier) används med komponenten. BEM är en CSS-kodkonvention som gör det enklare att skapa återanvändbara komponenter. BEM är den syntax som används av [AEM kärnkomponenter](https://github.com/adobe/aem-core-wcm-components/wiki/CSS-coding-conventions). <!-- DEAD LINK More info can be found at: [https://getbem.com/](https://getbem.com/) -->
+   Observera också att BEM-notation (Block Element Modifier) används med komponenten. BEM är en CSS-kodkonvention som gör det enklare att skapa återanvändbara komponenter. BEM är den notation som används av [AEM Core Components](https://github.com/adobe/aem-core-wcm-components/wiki/CSS-coding-conventions). <!-- DEAD LINK More info can be found at: [https://getbem.com/](https://getbem.com/) -->
 
 1. Skapa en fil under `/apps/weretail-run/components/content/poster` med namnet `edit.html.`
 
@@ -308,13 +308,13 @@ Komponenten Poster återges i helskärmsläge i förhandsgransknings-/produktion
    </div>
    ```
 
-   Markeringen **edit** för komponenten Poster visas direkt ovanför. HTL-skriptet åsidosätter `/libs/screens/core/components/content/image/edit.html`. Markeringen liknar markeringen `production.html` och visar titeln och beskrivningen ovanpå bilden.
+   Markeringen **redigerad** för komponenten Poster visas direkt ovanför. HTL-skriptet åsidosätter `/libs/screens/core/components/content/image/edit.html`. Markeringen liknar markeringen `production.html` och visar titeln och beskrivningen ovanpå bilden.
 
    `aem-Screens-editWrapper` läggs till så att komponenten inte återges i helskärmsläge i redigeraren. Attributet `data-emptytext` ser till att en platshållare visas när ingen bild eller inget innehåll har fyllts i.
 
 ## Skapa bibliotek på klientsidan {#clientlibs}
 
-Med bibliotek på klientsidan kan du ordna och hantera CSS- och JavaScript-filer som behövs för en AEM implementering. Mer information om hur du använder [klientbibliotek finns här.](https://experienceleague.adobe.com/sv/docs/experience-manager-65/content/implementing/developing/introduction/clientlibs)
+Med bibliotek på klientsidan kan du ordna och hantera CSS- och JavaScript-filer som behövs för en AEM-implementering. Mer information om hur du använder [klientbibliotek finns här.](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/developing/introduction/clientlibs)
 
 AEM Screens-komponenter återges annorlunda i redigeringsläget jämfört med i förhandsgransknings-/produktionsläget. Två uppsättningar klientbibliotek skapas, en för redigeringsläget och en andra för Förhandsvisa/Produktion.
 
@@ -339,7 +339,7 @@ AEM Screens-komponenter återges annorlunda i redigeringsläget jämfört med i 
 
    Egenskapen `categories` är en sträng som identifierar klientbiblioteket. Kategorin `cq.screens.components` används i både redigeringsläge och förhandsgransknings-/produktionsläge. Alla CSS/JS som definierats i klientlib `shared` läses därför in i alla lägen.
 
-   Det är en god praxis att aldrig visa några sökvägar direkt till `/apps` i en produktionsmiljö. Egenskapen `allowProxy` ser till att klientbibliotekets CSS och JS refereras via prefixet `/etc.clientlibs`. Mer information om egenskapen [allowProxy finns här.](https://experienceleague.adobe.com/sv/docs/experience-manager-65/content/implementing/developing/introduction/clientlibs)
+   Det är en god praxis att aldrig visa några sökvägar direkt till `/apps` i en produktionsmiljö. Egenskapen `allowProxy` ser till att klientbibliotekets CSS och JS refereras via prefixet `/etc.clientlibs`. Mer information om egenskapen [allowProxy finns här.](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/developing/introduction/clientlibs)
 
 1. Skapa filen `css.txt` under den delade mappen.
 
@@ -355,7 +355,7 @@ AEM Screens-komponenter återges annorlunda i redigeringsläget jämfört med i 
 
    ![2018-05-03_at_1057pm](assets/2018-05-03_at_1057pm.png)
 
-   I stället för att skriva CSS direkt använder den här självstudien LESS. [LESS](https://lesscss.org/) är en populär CSS-förkompilator som stöder CSS-variabler, mixins och funktioner. AEM klientbibliotek stöder LESS-kompilering. Sass eller andra förkompilatorer kan användas men måste kompileras utanför AEM.
+   I stället för att skriva CSS direkt använder den här självstudien LESS. [LESS](https://lesscss.org/) är en populär CSS-förkompilator som stöder CSS-variabler, mixins och funktioner. AEM klientbibliotek stöder LESS-kompilering. Du kan använda Sass eller andra förkompilerare, men du måste kompilera dem utanför AEM.
 
 1. Fyll i `/apps/weretail-run/components/content/poster/clientlibs/shared/css/styles.less` med följande:
 
@@ -514,7 +514,7 @@ I videon nedan visas den färdiga komponenten och hur den kan läggas till i en 
 
 ## Kod klar {#finished-code}
 
-Nedan visas den färdiga koden från självstudiekursen. **screens-weretail-run.ui.apps-0.0.1-SNAPSHOT.zip** och **screens-weretail-run.ui.content-0.0.1-SNAPSHOT.zip** är de kompilerade AEM. **SRC-screens-weretail-run-0.0.1.zip** är den okompilerade källkoden som kan distribueras med Maven.
+Nedan visas den färdiga koden från självstudiekursen. **screens-weretail-run.ui.apps-0.0.1-SNAPSHOT.zip** och **screens-weretail-run.ui.content-0.0.1-SNAPSHOT.zip** är kompilerade AEM-paket. **SRC-screens-weretail-run-0.0.1.zip** är den okompilerade källkoden som kan distribueras med Maven.
 
 [Hämta fil](assets/final-poster-screens-weretail-runuiapps-001-snapshot.zip)
 

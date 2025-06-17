@@ -10,20 +10,20 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 56dbe098-05db-4fc3-977f-e50a0a312d64
-source-git-commit: cdff56f0807f6d5fea4a4b1d545aecb1e80245bb
+source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
 workflow-type: tm+mt
-source-wordcount: '1417'
+source-wordcount: '1416'
 ht-degree: 0%
 
 ---
 
 # Lägga till komponenter i en kanal{#adding-components-to-a-channel}
 
-Komponenter är de grundläggande elementen i AEM (Adobe Experience Manager). Du kan använda flera komponenter och lägga till dem i en kanal i ett AEM Screens-projekt.
+Komponenterna är de grundläggande elementen i AEM (Adobe Experience Manager). Du kan använda flera komponenter och lägga till dem i en kanal i ett AEM Screens-projekt.
 
 ## Komponenter i AEM Screens {#components-in-aem-screens}
 
-AEM Screens har olika AEM som kan användas i ett Screens-projekt.
+AEM Screens har olika AEM-komponenter som kan användas i ett Screens-projekt.
 
 ### Visa AEM Screens-komponenter {#viewing-aem-screens-components}
 
@@ -34,7 +34,7 @@ Följ stegen nedan för att visa standardkomponenterna i ditt Screens-projekt:
 1. Klicka på kanalen. Exempel: **`We.Retail In Store`** > **Kanaler** > **Inaktiv kanal**.
 
 1. Klicka på **Redigera** i åtgärdsfältet.
-1. Klicka på ikonen **+** i AEM Editor.
+1. Klicka på ikonen **+** i sidlisten i AEM Editor.
 1. Alla komponenter som ingår som standard i ett AEM Screens-projekt visas, vilket visas i bilden nedan.
 
 ![screen_shot_2017-12-18at21350pm](assets/screen_shot_2017-12-18at21350pm.png)
@@ -289,7 +289,7 @@ Klicka på övergångsikonen och klicka på **Konfigurera** (skiftnyckelsikon) f
   </tr>
   <tr>
    <td><strong><em>Aktiv från</em></strong></td>
-   <td>Tidsstämpel som beskriver när övergången kan aktiveras.<br /> </td>
+   <td>Tidsstämpel som beskriver när övergången kan vara aktiv.<br /> </td>
   </tr>
   <tr>
    <td><strong><em>Aktiv tills</em></strong></td>

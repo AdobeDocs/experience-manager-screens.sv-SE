@@ -9,9 +9,9 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 10749ff2-9128-44e7-9f10-c8e783a6f695
-source-git-commit: f7653d8b386c02f510eb7a770cf3cdc22c41a5fb
+source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
 workflow-type: tm+mt
-source-wordcount: '239'
+source-wordcount: '238'
 ht-degree: 5%
 
 ---
@@ -40,7 +40,7 @@ Följ stegen nedan för att tilldela en enhet till en skärm:
 
    ![chlimage_1-33](assets/chlimage_1-33.png)
 
-1. Klicka på en ej tilldelad enhet i listan och klicka på **Tilldela enhet** i åtgärdsfältet.
+1. Klicka på en ej tilldelad enhet i listan och klicka sedan på **Tilldela enhet** i åtgärdsfältet.
 
    ![chlimage_1-34](assets/chlimage_1-34.png)
 
@@ -62,8 +62,8 @@ Följ stegen nedan för att tilldela en enhet till en skärm:
 >[!NOTE]
 >
 >Varje gång den första enheten läggs till i ett nytt Screens-projekt skapas en användargrupp.
->Om till exempel projektnodens namn är *we-retail* är användargruppens namn *screens-we-retail-devices*.
->Den här gruppen läggs till som medlem i gruppen **Medarbetare** enligt bilden nedan:
+>>Om till exempel projektnodens namn är *we-retail* är användargruppens namn *screens-we-retail-devices*.
+>>Den här gruppen läggs till som medlem i gruppen **Medarbetare** enligt bilden nedan:
 
 ![chlimage_1-39](assets/chlimage_1-39.png)
 

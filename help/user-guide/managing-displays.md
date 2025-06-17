@@ -9,9 +9,9 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: c55dc128-208d-4379-95a8-60a39d495dc0
-source-git-commit: ce8340f24d116b4268a6ed15dd4e9f626bad1ef6
+source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
 workflow-type: tm+mt
-source-wordcount: '661'
+source-wordcount: '660'
 ht-degree: 0%
 
 ---
@@ -66,7 +66,7 @@ En enhetskonfiguration fungerar som platshållare för en faktisk digital signer
 1. Klicka på din visningsmapp och klicka på **Visa instrumentpanel** i åtgärdsfältet.
 1. Klicka på **+ Lägg till enhetskonfiguration** i det övre högra hörnet på panelen **Enheter**.
 
-1. Klicka på **Enhetskonfigurationen** som önskad mall och klicka sedan på **Nästa**.
+1. Klicka på **Enhetskonfigurationen** som önskad mall och klicka på **Nästa**.
 
 1. Ange egenskaperna efter behov och klicka på **Skapa**.
 

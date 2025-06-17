@@ -10,7 +10,7 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: d0a0b065-798e-4108-86ac-0a1f4e211cfc
-source-git-commit: f7653d8b386c02f510eb7a770cf3cdc22c41a5fb
+source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
 workflow-type: tm+mt
 source-wordcount: '290'
 ht-degree: 0%
@@ -65,7 +65,7 @@ Följ stegen nedan om du vill använda en bulkuppdatering för ett AEM Screens-p
 
 1. Lägg till följande egenskaper:
 
-   **Projektsökväg** Ange sökvägen för ditt AEM Screens-projekt. Sökvägen är vanligtvis `/content/screens/<Name of your project>`.
+   **Projektsökväg** - Anger sökvägen till ditt AEM Screens-projekt. Sökvägen är vanligtvis `/content/screens/<Name of your project>`.
 
    *Till exempel*, `/content/screens/we-retail`. Du hittar den här sökvägen i URL:en genom att välja ett projekt under AEM Screens (klicka inte på ikonen).
 
@@ -73,6 +73,6 @@ Följ stegen nedan om du vill använda en bulkuppdatering för ett AEM Screens-p
    >
    >Ange projektsökvägen i förhållande till kanalen.
 
-   **Schemaläggningsfrekvens** Ange en tidpunkt, till exempel 05:00 eller 17:00, då den här tjänsten ska uppdatera offlineinnehåll.
+   **Schemaläggningsfrekvens** - Anger en tidpunkt, till exempel 05:00 eller 17:00, då den här tjänsten ska uppdatera offlineinnehåll.
 
 1. Klicka på **Spara** för att spara inställningarna. Innehållet uppdateras vid den angivna tidpunkten.

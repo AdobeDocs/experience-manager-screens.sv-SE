@@ -2,16 +2,16 @@
 title: AEM Screens projektroller och ansvarsområden
 description: Läs om AEM Screens projektroller och ansvarsområden.
 exl-id: 9377625b-529a-4b46-89d9-f526de398639
-source-git-commit: 7eae5038cb836219447d900bacf8af2faab51a43
+source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
 workflow-type: tm+mt
-source-wordcount: '1255'
+source-wordcount: '1254'
 ht-degree: 0%
 
 ---
 
 # Projektroller och ansvarsområden {#roles-responsibilities}
 
-Som erfaren AEM har du antagligen sett rollerna kallas *Författare*, *Utvecklare* och *IT-tekniker*.
+Som erfaren AEM-implementerare har du förmodligen sett rollerna som kallas *Författare*, *Utvecklare* och *IT-tekniker*.
 
 I ett typiskt AEM Screens-projekt har rollerna förfinats ytterligare eftersom de har ett viktigt syfte i projektet.
 
@@ -29,15 +29,15 @@ I följande avsnitt finns en översikt över målgruppen:
 
 ### Adobe {#adobe-audience}
 
-Adobe omfattar Adobe Managed Services-resurser som CSE (Customer Success Engineer) och Adobe Support.
+Adobe innehåller Adobe Managed Services-resurser som CSE (Customer Success Engineer) och Adobe Support.
 
-### AEM {#aem-implementors}
+### AEM Implementors {#aem-implementors}
 
-AEM implementerare ansvarar för utvecklings- och integreringsuppgifter för att utveckla användarupplevelsen, anpassade mallar och bakomliggande integreringar för AEM.
+AEM Implementors ansvarar för att utveckla och integrera användarupplevelsen, skräddarsydda mallar och serverintegreringar för AEM.
 
 Anpassade funktioner som krävs för att hantera parametrar för användarupplevelse hämtas och levereras via den här processen.
 
-AEM implementerare distribuerar vanligtvis anpassade funktioner i faser över tid till platser. De kan till exempel först skapa stöd för uppspelning av grundläggande loopad video eller statiskt grafiskt innehåll. I nästa fas finns möjligheten att stödja uppspelning av lokaliserat innehåll via dynamiska mallar och metadatataggar. Andra faser har stöd för interaktiva element via pekskärmar, sensorer, dynamiska utlösare osv.
+AEM Implementors distribuerar vanligtvis anpassade funktioner i faser över tid till olika platser. De kan till exempel först skapa stöd för uppspelning av grundläggande loopad video eller statiskt grafiskt innehåll. I nästa fas finns möjligheten att stödja uppspelning av lokaliserat innehåll via dynamiska mallar och metadatataggar. Andra faser har stöd för interaktiva element via pekskärmar, sensorer, dynamiska utlösare osv.
 
 ### Audio-Video-integratörer {#av-integrators}
 
@@ -53,7 +53,7 @@ En Audio-Video-integratör ansvarar för att utföra identifiering med slutkunde
 
 Det är viktigt att klicka på rätt maskinvarupartner. Följande frågor måste beaktas:
 
-1. Vilka är villkoren i servicenivåavtalet?
+1. Vilka är villkoren för Service level agreement?
 
 1. Vad är Global täckning?
 
@@ -76,7 +76,7 @@ Kreatörerna och Content Management-teamet samarbetar nära med strategigruppen 
 
 Kreatörerna och Content Management kan vara följande:
 
-* eller
+* Creative eller
 * Varumärkeshanteraren
 
 ### Projektledare {#project-managers}
@@ -85,7 +85,7 @@ Projektledare hanterar vanligtvis hela distributionen av AEM Screens. En projekt
 
 >[!NOTE]
 >
->Om du vill veta mer om olika roller och ansvarsområden och målgruppen för ett projekt för digitala signaturer kan du gå till **[Projektroller och ansvarsområden](https://experienceleague.adobe.com/sv/docs/experience-manager-screens/user-guide/digital-signage-network/project-roles-responsibilities)**.
+>Om du vill veta mer om olika roller och ansvarsområden och målgruppen för ett projekt för digitala signaturer kan du gå till **[Projektroller och ansvarsområden](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/digital-signage-network/project-roles-responsibilities)**.
 
 
 ## Projektfaser {#project-stages}
@@ -100,7 +100,7 @@ För att stödja en framgångsrik installation av digitala signaturer är det va
 >
 >Den här guiden fokuserar främst på *Dag ett* och *Dag två*, men du måste tänka på alla tre faserna för att kunna köra ett digitalt signeringsprojekt.
 >
->Titta på en video om **[Projektledning och distribution](https://experienceleague.adobe.com/sv/docs/experience-manager-screens/user-guide/digital-signage-network/project-management-and-deployment)** om du vill veta mer om förproduktion, projektinitiering och projektförlopp.
+>Titta på en video om **[Projektledning och distribution](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/digital-signage-network/project-management-and-deployment)** om du vill veta mer om förproduktion, projektinitiering och projektförlopp.
 
 ## RACI-diagram {#raci-chart}
 
@@ -114,7 +114,7 @@ Följande är ett exempel på RACI-diagram som använder rolldefinitionerna.
 
 * **Ansvarig**: Utför arbetet med att slutföra uppgiften.
 
-* **Konto**: Delegerar arbete och är den sista parten som granskar aktiviteten innan den är klar.
+* **Konto**: Delegerar arbete och är den sista parten som granskar uppgiften innan den slutförs.
 
 * **Konsulterad**: Granska aktiviteten eller slutprodukten för att ange indata.
 
@@ -130,7 +130,7 @@ I följande tabell sammanfattas **Day Zero: Pre-sales Considerations**:
 | Avtal om roller och ansvar | RA | RA | RA | RA |
 | Anpassning till strategiska mål | CI | I | RA | RA |
 | Rapporteringsbehov och identifiering av avkastning | I | C | RA | C |
-| Besök webbplatsen och maskinvarukrav | RA | I | C | C |
+| Besök på plats och maskinvarukrav | RA | I | C | C |
 | Processdefinition för support | C | I | RA | I |
 | Definiera arbets- och projektplanens omfattning | RA | RA | C | C |
 
@@ -146,7 +146,7 @@ I följande tabell sammanfattas **Dag ett: Projektimplementering (programdesign)
 | Arkitektur | I | RA | I | I |
 | Validera datastruktur med gränssnittsdesign | I | RA | C | C |
 | Programutveckling | RA | RA | RA | RA |
-| Konfigurera AEM Screens Project | I | RA | C | I |
+| AEM Screens Project Setup | I | RA | C | I |
 | Implementering av analyser | I | RA | C | - |
 | Testning och driftsättning | RA | C | RA | I |
 | Serverkonfiguration | I | RA | I | I |

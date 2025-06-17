@@ -5,9 +5,9 @@ feature: Authoring Screens, Channel Assignment
 role: Admin, Developer
 level: Intermediate
 exl-id: 6ed86bfc-38c7-4ced-b472-db2a362585c5
-source-git-commit: 1cf90de7892d051b2b94b4dd57de7135269b1ee8
+source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
 workflow-type: tm+mt
-source-wordcount: '1179'
+source-wordcount: '1180'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 # Kanaltilldelning {#channel-assignment}
 
 >[!IMPORTANT]
->I det här avsnittet beskrivs kanaltilldelning och planering av kanaler för funktionspaket som är äldre än AEM 6.5.5 Screens-version.
+>I det här avsnittet beskrivs kanaltilldelning och planering av kanaler för funktionspaket som är äldre än AEM 6.5.5 Screens.
 
 När du har konfigurerat en visning tilldelar du en kanal till en visning för att visa innehållet.
 
@@ -102,7 +102,7 @@ Show Attaction tooltip (Visa funktionsbeskrivning) definierar om funktionsbeskri
 
 När du kombinerar scheman med **DayParting** kan du ange ett globalt schema med flera kanaler som körs vid specifika tidpunkter på dagen och återanvända det som är inställt för alla skärmar samtidigt.
 
-DayParting innebär att dela upp en dag i tidskortplatser och ange vilket innehåll som spelas upp vid önskad tidpunkt. Med AEM Screens kan ni schemalägga kanaler i form av DayPparting inom en dag, vecka eller månad efter behov.
+DayParting kallas att dela upp en dag i tidskortplatser och ange vilket innehåll som spelas upp vid önskad tidpunkt. Med AEM Screens kan ni schemalägga kanaler i form av DayPparting inom en dag, vecka eller månad efter behov.
 
 I följande exempel förklaras Dag-delning i kanaler i tre olika scenarier:
 
@@ -174,5 +174,5 @@ I det här exemplet visas DayParting för en butik som visar sin vintersamling m
 >
 > Mer information om DayParting finns i avsnitten nedan:
 >
->* [Hantera upprepning i Assets](https://experienceleague.adobe.com/sv/docs/experience-manager-screens/user-guide/authoring/product-features/asset-level-scheduling)
->* [Hantera upprepning för Assets i en kanal](https://experienceleague.adobe.com/sv/docs/experience-manager-screens/user-guide/authoring/product-features/channel-level-activation)
+>* [Hantera upprepning i Assets](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/authoring/product-features/asset-level-scheduling)
+>* [Hantera upprepning för Assets i en kanal](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/authoring/product-features/channel-level-activation)

@@ -5,9 +5,9 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: 11e7ecb3-e853-452a-9f69-2249ad0b40b7
-source-git-commit: 658acac989ed06f33dae10a6145ada31ff57811d
+source-git-commit: 4828cf78d1ca81f0dd6f2cb1b82fd34afd93a672
 workflow-type: tm+mt
-source-wordcount: '227'
+source-wordcount: '219'
 ht-degree: 0%
 
 ---
@@ -15,8 +15,8 @@ ht-degree: 0%
 # Versionsinformation för funktionspaket 20250327 {#release-notes-for-screens-feature-pack}
 
 >[!CAUTION]
->Adobe rekommenderar att du uppgraderar till den senaste versionen av 6.5 Adobe Experience Manager (AEM 6.5). Du kan hämta den senaste versionsinformationen från [här](https://experienceleague.adobe.com/sv/docs/experience-manager-65/content/release-notes/release-notes).
->Använd FP11.6 med SP(servicepack) version 22 eller senare.
+>Adobe rekommenderar att du uppgraderar till den senaste versionen av 6.5 Adobe Experience Manager (AEM 6.5). Du kan hämta den senaste versionsinformationen från [här](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/release-notes/release-notes).
+>>Använd FP11.6 med SP(servicepack) version 22 eller senare.
 
 ## Tillgänglighet {#availability}
 
@@ -36,7 +36,7 @@ Lanseringsdatumet för AEM Screens Feature Pack 20250327 är 27 mars 2025.
 
 * **Uppdatera i AEM Screens Players**
    * Den Linux-baserade AEM Screens Player är officiellt föråldrad. Användare rekommenderas att migrera till ett annat operativsystem som stöds av AEM Screens.
-   * Inga fler uppdateringar eller förbättringar kommer att göras av den Android-baserade AEM Screens Player. Vi rekommenderar användare att migrera till ett annat operativsystem som stöds av AEM Screens.
+   * Inga fler uppdateringar eller förbättringar görs av den Android-baserade AEM Screens Player. Vi rekommenderar att man migrerar till ett annat operativsystem som AEM Screens stöder.
 
 ### Felkorrigeringar {#bug-fixes}
 

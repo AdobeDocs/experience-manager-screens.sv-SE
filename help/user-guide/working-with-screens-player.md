@@ -9,7 +9,7 @@ feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: 4faac090-ad8a-4d7e-a502-6fb63f6b2761
-source-git-commit: a89aec16bb36ecbde8e417069e9ed852363acd82
+source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
 workflow-type: tm+mt
 source-wordcount: '1067'
 ht-degree: 1%
@@ -28,7 +28,7 @@ När du har tilldelat en kanal till en skärm visas innehållet i AEM Screens Pl
 
 ## Använda enhetskontrollpanelen {#using-the-device-dashboard}
 
-Du kan konfigurera inställningar för enheten från enhetskontrollpanelen, som du kommer åt via AEM.
+Du kan konfigurera inställningar för enheten från enhetskontrollpanelen som du kommer åt via AEM-redigeringsinstansen.
 
 1. Navigera till enhetens kontrollpanel från ditt projekt, till exempel ***Testa projekt*** > ***Enheter***.
 
@@ -124,12 +124,12 @@ Så här ändrar du inställningar från spelaren:
 
 Du kan felsöka olika problem som rör AEM Screens Player (maskinvara och programvara):
 
-| **Problem** | **Recommendations** |
+| **Problem** | **Rekommendationer** |
 |---|---|
 | Spelarlagringen är full | Eliminera onödiga filer |
 | Spelaren förlorade nätverket | Använd Cat-5- eller Cat-6-kabel. För wifi ska du minska avståndet från routern till spelarenheten |
 | AEM Screens Player kraschade | Vi rekommenderar att du har en app som kontrollerar att AEM Screens Player alltid körs |
-| Inställningar för förlorad AEM Screens Player | Kontrollera anslutning till AEM server |
+| Inställningar för förlorad AEM Screens Player | Kontrollera anslutningen till AEM-servern |
 | AEM Screens Player startar inte automatiskt när spelaren har startats om eller startats om | Kontrollera operativsystemets startmapp eller initieringsprocedur |
 | AEM Screens Player visar fel eller gammalt innehåll | Kontrollera nätverksanslutning |
 
@@ -149,7 +149,7 @@ Följande avsnitt innehåller riktlinjer för val av maskinvara för ett Screens
 * Källa alltid komponenter av typen ***Commercial*** eller ***Industrial*** för både PC Player och Display Panel eller Projector.
 
 * Samarbeta alltid med leverantörer som levererar digitala signaturer.
-* Ta alltid hänsyn till miljöfaktorer som omgivningstemperatur och relativ luftfuktighet.
+* Ta alltid hänsyn till miljöfaktorer, som omgivningstemperatur och relativ luftfuktighet.
 * Granska alltid effektkrav och energikonditionering.
 * Granska noggrant prestandabehoven och I/O-portarna som krävs för programmet.
 

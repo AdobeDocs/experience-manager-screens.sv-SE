@@ -9,7 +9,7 @@ feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: b40bcc9f-307c-422c-8abb-5c15965772d4
-source-git-commit: 71b4f55c860d559dceaac9d5bf7ea71ce52210fa
+source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
 workflow-type: tm+mt
 source-wordcount: '497'
 ht-degree: 0%
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 I följande avsnitt beskrivs hur du delar upp projekt med åtkomstkontrollistor (ACL) så att varje enskild person eller grupp hanterar sitt eget projekt.
 
-Som AEM vill du se till att teammedlemmar i ett projekt inte stör andra projekt. Varje användare tilldelas specifika roller enligt projektkraven.
+Som AEM-administratör vill du se till att teammedlemmar i ett projekt inte stör andra projekt. Varje användare tilldelas specifika roller enligt projektkraven.
 
 ## Konfigurera behörigheter {#setting-up-permissions}
 
@@ -75,7 +75,7 @@ I följande tabell sammanfattas sökvägen med behörigheter på projektnivå:
 
 >[!NOTE]
 >
->Ibland kan du separera författarfunktioner (som att hantera resurser och skapa kanaler) från administratörsfunktioner (som att registrera spelare). I ett sådant scenario skapar du två grupper och lägger till gruppen författare till medverkande och administratörsgruppen till både medverkande och användare-administratörer.
+>Ibland kan du separera författarfunktioner (som att hantera resurser och skapa kanaler) från administratörsfunktioner (som att registrera spelare). I så fall skapar du två grupper och lägger till författarens grupp till medverkande och administratörsgruppen till både medverkande och användare-administratörer.
 
 ### Skapa grupper {#creating-groups}
 

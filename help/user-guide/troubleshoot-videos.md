@@ -9,9 +9,9 @@ feature: Channels, Interactive
 role: Developer
 level: Intermediate
 exl-id: dfdd58b6-689b-47ca-9459-9c205f1841eb
-source-git-commit: 8dde26d36847fb496aed6d4bf9732233116b5ea6
+source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
 workflow-type: tm+mt
-source-wordcount: '799'
+source-wordcount: '794'
 ht-degree: 1%
 
 ---
@@ -148,7 +148,7 @@ Följ stegen nedan för att konfigurera en absolut strategi:
 
 1. Öppna inställningarna för **Datum och tid** i varje OS X-ruta
 1. Kontrollera **Ange datum och tid automatiskt**
-1. Klistra in värde 0.pool.ntp.org, 1.pool.ntp.org, 2.pool.ntp.org, 3.pool.ntp.org, time.apple.com i listrutan eller kör *sudo ntpdate -u -v 0.pool.ntp.org*
+1. Klistra in värdet 0.pool.ntp.org, 1.pool.ntp.org, 2.pool.ntp.org, 3.pool.ntp.org, time.apple.com i listrutan eller kör bara *`sudo ntpdate -u -v 0.pool.ntp.org`*
 1. Starta 2+ spelare
 
 Det kan ta en stund innan spelarna startar en ny, justerad sekvens.

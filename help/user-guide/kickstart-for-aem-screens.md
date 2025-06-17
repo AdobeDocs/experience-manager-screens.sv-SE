@@ -5,9 +5,9 @@ feature: Overview, Digital Signage
 role: User
 level: Beginner
 exl-id: 9b7c7f50-2846-4727-a0ec-0220b4cd52c4
-source-git-commit: ef74265eadf5972eae7451b7725946d8b014c198
+source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
 workflow-type: tm+mt
-source-wordcount: '1284'
+source-wordcount: '1282'
 ht-degree: 1%
 
 ---
@@ -28,13 +28,13 @@ Följ stegen nedan för att skapa ett exempelprojekt för AEM Screens och public
 
 >[!IMPORTANT]
 >**OSGi-konfigurationsinställningar**
->Du måste aktivera den tomma referenten för att enheten ska kunna skicka data till servern. Om t.ex. den tomma refereraregenskapen är inaktiverad, kan enheten inte publicera en skärmdump. Vissa av dessa funktioner är för närvarande bara tillgängliga om Apache Sling Referrer-filtret Tillåt tomt är aktiverat i OSGi-konfigurationen. Kontrollpanelen kan visa en varning om att skyddsinställningarna kan förhindra vissa av dessa funktioner från att fungera.
->Följ stegen nedan för att aktivera ***Refererarfiltret för Apache Sling Tillåt tomt***:
+>>Du måste aktivera den tomma referenten för att enheten ska kunna skicka data till servern. Om t.ex. den tomma refereraregenskapen är inaktiverad, kan enheten inte publicera en skärmdump. Vissa av dessa funktioner är för närvarande bara tillgängliga om alternativet Tillåt tomt för `Apache Sling`-referensfiltret är aktiverat i OSGi-konfigurationen. Kontrollpanelen kan visa en varning om att skyddsinställningarna kan förhindra vissa av dessa funktioner från att fungera.
+>>Följ stegen nedan för att aktivera ***Refererarfiltret för Apache Sling Tillåt tomt***:
 
 
 ## Tillåt tomma referentförfrågningar {#allow-empty-referrer-requests}
 
-1. Navigera till **Adobe Experience Manager Web Console Configuration** genom AEM > hammikon > **Åtgärder** > **Webbkonsol**.
+1. Navigera till **Adobe Experience Manager Web Console Configuration** med AEM-instans > hammikon > **Åtgärder** > **Webbkonsol**.
 
    ![bild](assets/config/empty-ref1.png)
 
@@ -162,7 +162,7 @@ När projektkonfigurationen är klar tilldelar du kanalen till en visning för a
 
 1. Dialogrutan **Kanaltilldelning** öppnas.
 
-1. Välj kanalen **efter sökväg** och **händelser som stöds**, till exempel **Inledande inläsning** och **Inaktiv skärm**, i alternativet **Inställningar**.
+1. Välj kanalen **efter sökväg** och **händelser som stöds** i alternativet **Inställningar**, till exempel **Inledande inläsning** och **Inaktivitetsskärm**.
 
    >[!NOTE]
    >
@@ -180,7 +180,7 @@ När projektkonfigurationen är klar tilldelar du kanalen till en visning för a
 
 ### Registrera en enhet och tilldela en enhet till en skärm {#registering-device}
 
-Registrera din enhet med AEM kontrollpanel.
+Registrera din enhet med AEM Dashboard.
 
 >[!IMPORTANT]
 >Chrome OS Player kan installeras som en Chrome webbläsarplugin i utvecklarläge utan att en Chrome Player-enhet behövs. För installation, följ stegen nedan:
@@ -196,7 +196,7 @@ Registrera din enhet med AEM kontrollpanel.
 
 När du har aktiverat Chrome OS-spelaren följer du stegen nedan för att registrera en Chrome-enhet.
 
-1. Navigera till mappen **Devices** i ditt projekt från din AEM.
+1. Navigera till mappen **Devices** i ditt projekt från din AEM-instans.
 
 1. Klicka på **Enhetshanteraren** i åtgärdsfältet.
 

@@ -4,9 +4,10 @@ description: Läs mer om AEM Screens Feature Pack 20250224 som släpptes den 24 
 feature: Feature Pack
 role: Developer
 level: Intermediate
-source-git-commit: 45f2c282c16318d7968098c92b52e772eb0bf4cd
+exl-id: dc47ec1b-77f4-43e8-a6d4-2cbbc2133b4a
+source-git-commit: 4828cf78d1ca81f0dd6f2cb1b82fd34afd93a672
 workflow-type: tm+mt
-source-wordcount: '177'
+source-wordcount: '170'
 ht-degree: 1%
 
 ---
@@ -14,8 +15,8 @@ ht-degree: 1%
 # Versionsinformation för funktionspaket 20250224 {#release-notes-for-screens-feature-pack}
 
 >[!CAUTION]
->Adobe rekommenderar att du uppgraderar till den senaste versionen av 6.5 Adobe Experience Manager (AEM 6.5). Du kan hämta den senaste versionsinformationen från [här](https://experienceleague.adobe.com/sv/docs/experience-manager-65/content/release-notes/release-notes).
->FeaturePack (FP) version 11.5 är kompatibelt med ServicePack (SP) fram till version 21.
+>Adobe rekommenderar att du uppgraderar till den senaste versionen av 6.5 Adobe Experience Manager (AEM 6.5). Du kan hämta den senaste versionsinformationen från [här](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/release-notes/release-notes).
+>>FeaturePack (FP) version 11.5 är kompatibelt med ServicePack (SP) fram till version 21.
 
 
 ## Tillgänglighet {#availability}
@@ -35,4 +36,4 @@ Lanseringsdatumet för AEM Screens Feature Pack 20250224 är 24 februari 2025.
 ### Felkorrigeringar {#bug-fixes}
 
 * Paketkonflikt med Service Pack 21 och Screens Feature Pack. (SCRNS-4638)
-* Vuln fix at /libs/screens/dcc/components/dashboard/clientlibs/active-channel.js (SCRNS-4607)
+* Sårbarhetskorrigering vid `/libs/screens/dcc/components/dashboard/clientlibs/active-channel.js` (SCRNS-4607)

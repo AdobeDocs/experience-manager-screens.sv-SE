@@ -10,9 +10,9 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 16180f96-2855-4250-9d55-24ed77a908b7
-source-git-commit: cdff56f0807f6d5fea4a4b1d545aecb1e80245bb
+source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
 workflow-type: tm+mt
-source-wordcount: '565'
+source-wordcount: '546'
 ht-degree: 0%
 
 ---
@@ -39,7 +39,7 @@ Videon visas som ett objekt från pixel 1 till pixel 1280 över och från pixel 
 
 Innan du skapar ett arbetsflöde för video ska du uppfylla följande krav:
 
-1. Överför en video i mappen **Assets** i din AEM
+1. Överför en video i mappen **Assets** i din AEM-instans
 1. Skapa ett AEM Screens-projekt (till exempel **TestVideoRendition**) och en kanal med namnet (**VideoRendering**), vilket visas i bilden nedan:
 
 ![screen_shot_2018-10-17at85307pm](assets/screen_shot_2018-10-17at85307pm.png)
@@ -57,7 +57,7 @@ Följ stegen nedan för att skapa och använda arbetsflödet:
 
 Följ stegen nedan för att skapa ett arbetsflöde för videon:
 
-1. Navigera till AEM.
+1. Navigera till din AEM-instans.
 1. Klicka på verktygen från sidolisten.
 1. Klicka på **Arbetsflöde** > **Modeller** så att du kan skapa en modell.
 
@@ -80,7 +80,7 @@ Följ stegen nedan för att skapa ett arbetsflöde för videon:
    ![screen_shot_2018-10-17at95752pm](assets/screen_shot_2018-10-17at95752pm.png)
 
 1. Klicka på fliken **Argument**.
-1. I dialogrutan **Kommandorad - stegegenskaper** anger du formatet i **Mime Types** (som ***video/mp4***) och kommandot som (**/usr/local/Cellar/ffmpeg -i ${filename} -vf &quot;pad=1920:height=1080:x=0:y=0:color=black&quot; cq5dam.video.fullhd-hp.mp4***). Det här kommandot startar arbetsflödet i fältet **Kommandon**.
+1. I dialogrutan **Kommandorad - stegegenskaper** anger du formatet i **Mime-typer** (som ***video/mp4***) och kommandot som (**`/usr/local/Cellar/ffmpeg -i ${filename} -vf "pad=1920:height=1080:x=0:y=0:color=black" cq5dam.video.fullhd-hp.mp4`**). Det här kommandot startar arbetsflödet i fältet **Kommandon**.
 
    Mer information om **Mime Types** och **Commands** finns i anteckningen nedan.
 
@@ -116,6 +116,6 @@ Följ stegen nedan för att använda arbetsflödet i ditt AEM Screens-projekt:
 Du kan validera dina utdata genom att:
 
 * Kontrollera en förhandsgranskning av videon i kanalen
-* Navigera till ***/content/dam/testvideo.mp4/jcr:content/renditions/cq5dam.video.fullhd-hp.mp4*** i CRXDE Lite, enligt bilden nedan:
+* Navigera till ***/content/dam/testvideo.mp4/jcr:content/renditions/cq5dam.video.fullhd-hp.mp4*** i CRXDE Lite, vilket visas i bilden nedan:
 
 ![screen_shot_2018-10-22at14326pm](assets/screen_shot_2018-10-22at14326pm.png)

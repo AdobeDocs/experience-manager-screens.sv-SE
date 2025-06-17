@@ -10,9 +10,9 @@ feature: Digital Signage, Content, Players
 role: Developer
 level: Intermediate
 exl-id: 57105d6d-51ff-44ca-bbf2-ae9cce8addd0
-source-git-commit: 1cf90de7892d051b2b94b4dd57de7135269b1ee8
+source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
 workflow-type: tm+mt
-source-wordcount: '779'
+source-wordcount: '773'
 ht-degree: 0%
 
 ---
@@ -114,6 +114,7 @@ Klicka även på **Inställningar** i det övre högra hörnet för att uppdater
 
 >[!NOTE]
 >Du kan klicka på någon av följande loggnivåer:
+>
 >* **Inaktivera**
 >* **Felsök**
 >* **Info**
@@ -126,7 +127,7 @@ Klicka även på **Inställningar** i det övre högra hörnet för att uppdater
 
 Aktivera den tomma referenten så att enheten kan skicka data till servern. Om t.ex. den tomma refereraregenskapen är inaktiverad, kan enheten inte publicera en skärmdump.
 
-Vissa av dessa funktioner är för närvarande bara tillgängliga om *Refererarfiltret för Apache Sling Tillåt tom* är aktiverat i OSGi-konfigurationen. Kontrollpanelen kan visa en varning om att skyddsinställningarna kan förhindra vissa av dessa funktioner från att fungera.
+Vissa av dessa funktioner är för närvarande bara tillgängliga om *`Apache Sling Referrer Filter Allow Empty`* har aktiverats i OSGi-konfigurationen. Kontrollpanelen kan visa en varning om att skyddsinställningarna kan förhindra vissa av dessa funktioner från att fungera.
 
 Följ stegen nedan för att aktivera filtret Tillåt tomt för Apache Sling Referrer
 
@@ -136,7 +137,7 @@ Följ stegen nedan för att aktivera filtret Tillåt tomt för Apache Sling Refe
 
 ![chlimage_1-3](assets/chlimage_1-3.png)
 
-### Recommendations {#recommendations}
+### Rekommendationer {#recommendations}
 
 I följande avsnitt rekommenderas övervakning av nätverkslänkar, servrar och spelare för att förstå hälsan och reagera på problem.
 
@@ -147,9 +148,9 @@ AEM har inbyggd övervakning för:
 * *AEM Screens Player-versionen* är installerad i spelaren.
 * *Ledigt lagringsutrymme* i spelaren.
 
-Recommendations för fjärrövervakning med tredjepartsprogram:
+Rekommendationer för fjärrövervakning med tredjepartsprogram:
 
-* CPU-användning i spelare.
+* CPU används i Players.
 * Kontrollera om AEM Screens Player-processen körs.
 * Fjärrstarta om/starta om spelaren.
 * Realtidsmeddelanden.

@@ -2,9 +2,9 @@
 title: Enclosed Corporate Network
 description: Enclosed Corporate Network
 exl-id: b8c52e72-86da-4089-ba02-0c643862419f
-source-git-commit: ce8340f24d116b4268a6ed15dd4e9f626bad1ef6
+source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
 workflow-type: tm+mt
-source-wordcount: '710'
+source-wordcount: '708'
 ht-degree: 0%
 
 ---
@@ -18,9 +18,9 @@ Enclosed Corporate Network SetUp kan användas på mindre, större och större f
 
 ## Ansluta AEM Screens Player till Direct Internet Access
 
-Följ stegen nedan för att se till att AEM skärmspelare är korrekt anslutna i den här konfigurationen:
+Följ stegen nedan för att säkerställa att AEM Screen Players är korrekt anslutna i den här konfigurationen:
 
-1. Kontrollera att alla AEM skärmspelare är anslutna till routernätverket.
+1. Kontrollera att alla AEM Screen-spelare är anslutna till Routers Network.
 1. Testa Internetanslutningen genom att anropa en URL i datorns webbläsare.
 
    >[!NOTE]
@@ -60,7 +60,7 @@ Prestandan för internetanslutningen måste, förutom nätverkets nåbarhet, til
 
 Prestandan hos det lokala nätverket (LAN) måste, förutom att det går att nå nätverket, tillhandahålla tillräcklig bandbredd för att AEM Screens innehållsuppdateringar ska fungera smidigt.
 
-LAN-nätverket inom företagsorganisationer är vanligtvis minst 1 000 MB/sek-nätverk, så att det finns tillräckligt med bandbredd för att ansluta många enheter med bra prestanda till systemet. När du använder andra aktiva nätverkskomponenter är det obligatoriskt att alla dessa stämmer överens med kraven för nätverksbandbredd.
+LAN-nätverket inom företagsorganisationer är vanligtvis minst 1 000 MB/sek-nätverk, så att det finns tillräckligt med bandbredd för att ansluta många enheter med bra prestanda till systemet. När du använder andra aktiva nätverkskomponenter är det obligatoriskt att alla matchar kraven för nätverksbandbredd.
 
 Nätverkskomponenterna bör till exempel minst matcha 100 Mbit/s-standarden och matcha den bandbredd som anges i Internet-specifikationen för åtkomst/router.
 
@@ -69,7 +69,7 @@ Nätverkskomponenterna bör till exempel minst matcha 100 Mbit/s-standarden och 
 Företagsnätverk har flera anslutna enheter, är indelade i olika undernätverk och har redundanta eller multiplexade internetanslutningar som ger tillräcklig prestanda för många tusen samtidiga åtkomstmöjligheter.
 Schemat är förenklat och passar de flesta miljöer som är tillgängliga för klienten.
 
-Om en Wi-Fi-lösning planeras för att ansluta AEM Screens till Internet Link rekommenderar vi att du använder moderna Wi-Fi-standarder som `IEEE 802.11g` som ett minimum. Denna standard stöder anslutningar upp till 54 Mbit/s. Alla *nyare*-standarder som `802.11h-n` har bättre kvalitet. Om en Wi-Fi-repeater krävs rekommenderar Adobe att du använder trådlös nätanslutning som Google Nest Mesh Wi-Fi eller liknande.
+Om en Wi-Fi-lösning planeras för att ansluta AEM Screens till Internet Link rekommenderar vi att du använder moderna Wi-Fi-standarder som `IEEE 802.11g` som ett minimum. Denna standard stöder anslutningar upp till 54 Mbit/s. Alla *nyare*-standarder som `802.11h-n` har bättre kvalitet. Om en Wi-Fi Repeater krävs rekommenderar Adobe åtkomstpunktsteknologier som Google Nest Mesh Wi-Fi eller liknande.
 Andra Wi-Fi-upprepande tekniker slutar med en enorm förlust av bandbredd i hela nätverket.
 
 ## Hämta media och Assets {#download}

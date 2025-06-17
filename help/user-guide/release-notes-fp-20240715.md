@@ -4,9 +4,10 @@ description: Läs mer om AEM Screens Feature Pack 20240715 som släpptes 15 juli
 feature: Feature Pack
 role: Developer
 level: Intermediate
-source-git-commit: 971b3d3768602929e213abdf9ae407fe9015ab4b
+exl-id: 5a99f65f-c74a-4d0c-8609-ce6600369b96
+source-git-commit: 4828cf78d1ca81f0dd6f2cb1b82fd34afd93a672
 workflow-type: tm+mt
-source-wordcount: '156'
+source-wordcount: '148'
 ht-degree: 1%
 
 ---
@@ -14,8 +15,8 @@ ht-degree: 1%
 # Versionsinformation för funktionspaket 20240715 {#release-notes-for-screens-feature-pack}
 
 >[!CAUTION]
->Adobe rekommenderar att du uppgraderar till den senaste versionen av 6.5 Adobe Experience Manager (AEM 6.5). Du kan hämta den senaste versionsinformationen från [här](https://experienceleague.adobe.com/sv/docs/experience-manager-65/content/release-notes/release-notes).
->FeaturePack (FP) version 11.4 är kompatibelt med ServicePack (SP) fram till version 20.
+>Adobe rekommenderar att du uppgraderar till den senaste versionen av 6.5 Adobe Experience Manager (AEM 6.5). Du kan hämta den senaste versionsinformationen från [här](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/release-notes/release-notes).
+>>FeaturePack (FP) version 11.4 är kompatibelt med ServicePack (SP) fram till version 20.
 
 
 ## Tillgänglighet {#availability}
@@ -30,8 +31,8 @@ Releasedatum för AEM Screens Feature Pack 20240715 är 15 juli 2024.
 
 ### Nyheter {#what-is-new}
 
-* Den här versionen innehåller endast säkerhetskorrigeringar.
+Den här versionen innehåller endast säkerhetskorrigeringar.
 
 ### Felkorrigeringar {#bug-fixes}
 
-* XSS-problem på /libs/screens/clientlibs/libs/scripts/scroll/tests/index.html (SCRNS-4359)
+XSS-problem vid `/libs/screens/clientlibs/libs/scripts/scroll/tests/index.html` (SCRNS-4359)

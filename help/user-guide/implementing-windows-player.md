@@ -10,9 +10,9 @@ feature: Administering Screens, Windows Player
 role: Admin
 level: Intermediate
 exl-id: 50b6d9ba-e672-4f4d-a9a8-fb8387685057
-source-git-commit: a89aec16bb36ecbde8e417069e9ed852363acd82
+source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
 workflow-type: tm+mt
-source-wordcount: '1117'
+source-wordcount: '1118'
 ht-degree: 0%
 
 ---
@@ -36,14 +36,14 @@ Gå till sidan [**AEM 6.5 Player Downloads**](https://download.macromedia.com/sc
 >Konfigurera en miljö för Windows Player om du använder AEM Screens 6.5.5 Service Pack.
 
 Ange attributet **SameSite för inloggningstokencookies** från **Lax** till **None** från **Adobe Experience Manager Web Console
-Konfiguration** för alla AEM författare och publiceringsinstanser.
+Konfiguration** för alla AEM-författare och publiceringsinstanser.
 
 Följ stegen nedan:
 
 1. Navigera till **Adobe Experience Manager Web Console
 Konfiguration** med `http://localhost:4502/system/console/configMgr` .
 
-1. Sök efter autentiseringshanteraren *Adobe Granite-token*.
+1. Sök efter *Autentiseringshanterare för Adobe Granite-token*.
 
 1. Ange attributet **SameSite för inloggningstokencookies** från **Lax** till **None**.
    ![bild](/help/user-guide/assets/granite-updates.png)
@@ -57,7 +57,7 @@ Med metoden Ad-Hoc kan du installera den senaste Windows Player (*.exe*). Gå ti
 När du har hämtat programmet följer du stegen på spelaren för att slutföra ad hoc-installationen:
 
 1. Tryck länge på det övre vänstra hörnet för att öppna administratörspanelen.
-1. Navigera till **Konfiguration** på den vänstra åtgärdsmenyn och ange platsen (adressen) för den AEM instansen som du vill ansluta till och klicka på **Spara**.
+1. Navigera till **Konfiguration** på den vänstra åtgärdsmenyn och ange platsen (adressen) för den AEM-instans som du vill ansluta till och klicka på **Spara**.
 1. Navigera till länken **Enhet** **Registrering** från den vänstra åtgärdsmenyn så att du kan kontrollera status för enhetsregistreringsprocessen.
 
 >[!NOTE]
@@ -121,14 +121,14 @@ I följande tabell sammanfattas principattributen med en exempelpolicy-JSON för
 
 | **Principnamn** | **Syfte** |
 |---|---|
-| server | URL:en till Adobe Experience Manager-servern (AEM). |
+| server | URL till Adobe Experience Manager-servern (AEM). |
 | registrationKey | Används för massregistrering av enheter med hjälp av i förväg delad nyckel. |
 | upplösning | Enhetens upplösning. |
 | rebootSchedule | Schemat för att starta om spelaren. |
 | enableAdminUI | Aktivera administratörsgränssnittet för att konfigurera enheten på platsen. Anges till false när den är helt konfigurerad och i produktion. |
-| enableOSD | Aktivera kanalväljarens användargränssnitt så att användare kan växla kanaler på enheten. Överväg att ställa in på false när den är helt konfigurerad och i produktion. |
-| enableActivityUI | Aktivera så att du kan visa förloppet för aktiviteter som hämtning och synkronisering. Aktivera för felsökning och inaktivera när den är helt konfigurerad och i produktion. |
-| cloudMode | Ange true om du vill att Windows Player ska ansluta till Screens as a Cloud Service. Ange som false om du vill ansluta till AMS eller AEM. |
+| enableOSD | Aktivera kanalväljarens användargränssnitt så att användare kan växla kanaler på enheten. Du bör ange värdet false när den är helt konfigurerad och i produktion. |
+| enableActivityUI | Aktivera så att du kan visa förloppet för aktiviteter, som hämtning och synkronisering. Aktivera för felsökning och inaktivera när den är helt konfigurerad och i produktion. |
+| cloudMode | Ange true om du vill att Windows Player ska ansluta till Screens as a Cloud Service. Anges till false för att ansluta till AMS eller lokal AEM. |
 | cloudToken | Registreringstoken för registrering mot Screens as a Cloud Service. |
 
 #### Exempel på princip-JSON-fil {#example-policy-json-file}
@@ -160,11 +160,11 @@ Aktivera Kiosk-läget genom att följa stegen nedan:
 
 1. Aktivera Shell Launcher.
 
-   Mer information finns på sidan ***Konfigurera Shell Launcher*** på sidan **[Shell Launcher](https://learn.microsoft.com/en-us/windows/iot/iot-enterprise/customize/shell-launcher)** av Microsoft® Windows-stöd.
+   Mer information finns på sidan ***Konfigurera Shell Launcher*** på sidan **[Shell Launcher](https://learn.microsoft.com/en-us/windows/configuration/shell-launcher/)** av Microsoft® Windows-stöd.
 
 1. Skapa en icke-administrativ användare (om du inte redan har någon) som ska användas för Kiosk. Det kan vara en lokal användare eller en domänanvändare.
 1. Installera Windows Player för den Kiosk-användaren från sidan [AEM Screens Player-hämtningar](https://download.macromedia.com/screens/).
-1. Mer information finns i [Använd Shell Launcher för att skapa en Windows 10-kioskdator](https://learn.microsoft.com/en-us/windows/configuration/assigned-access/shell-launcher/?tabs=intune) för att ändra PowerShell-skriptet.
+1. Mer information finns i [Använd Shell Launcher för att skapa en Windows 10-kioskdator](https://learn.microsoft.com/en-us/windows/configuration/shell-launcher/?tabs=intune) för att ändra PowerShell-skriptet.
 
    Ändra PowerShell-skriptet så att du kan ersätta användarnamnet med det du skapade. Kontrollera att sökvägen till den körbara programfilen är korrekt. Detta anger det anpassade skalet som Windows Player-program för heltalsanvändaren och anger standardvärdet som explorer.exe för andra användare.
 
@@ -183,7 +183,7 @@ Exempelskriptet i länkarna aktiverar och inaktiverar det anpassade skalet. Dela
 
 >[!NOTE]
 >
->I vissa Windows-miljöer kan PowerShell-skript begränsas av en princip (särskilt osignerade skript). Om du vill köra skriptet inaktiverar och aktiverar du den här begränsningen tillfälligt för att köra skriptet. Öppna ett PowerShell-fönster och använd dessa kommandon.
+>I vissa Windows-miljöer begränsas PowerShell-skript av en princip, särskilt om skripten är osignerade. Om du vill köra skriptet inaktiverar och aktiverar du den här begränsningen tillfälligt för att köra skriptet. Öppna ett PowerShell-fönster och använd dessa kommandon.
 >
 >*`set-executionpolicy unrestricted`* - om du vill ta bort begränsningar tillfälligt.
 >

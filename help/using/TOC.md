@@ -1,27 +1,27 @@
 ---
 cloud: Experience Cloud
-user-guide-title: Användarhandbok om bästa praxis för AEM Screens-projekt
+user-guide-title: Bästa tillvägagångssätt för AEM Screens-projekt
 breadcrumb-title: Användarhandbok om bästa praxis för AEM Screens
 solution-title: AEM Screens
 getting-started-title: AEM Screens Best Practices Guide
-getting-started-description: AEM Screens Best Practices Guide provides guidance on how to successfully plan and execute an AEM Screens project.
+getting-started-description: AEM Screens best practices provides guidance on how to successfully plan and execute an AEM Screens project.
 feature-set: Experience Manager Screens
 product: experience manager
 audience: end-user
 feature: Content
 role: User
-source-git-commit: 5e04d2a5a024f60ce1d3868f6303244de1eeee6f
+source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
 workflow-type: tm+mt
-source-wordcount: '133'
-ht-degree: 15%
+source-wordcount: '131'
+ht-degree: 3%
 
 ---
 
 
-# Användarhandbok om bästa praxis för AEM Screens-projekt {#using}
+# Bästa tillvägagångssätt för AEM Screens-projekt {#using}
 
 + [Om den här guiden](about-guide.md)
-+ Översikt {#overview}
++ Ökning {#overview}
    + [Introduktion till AEM Screens](introduction.md)
    + [Projektroller och ansvarsområden](roles-responsibilities.md)
    + [Förutsättningar](pre-requisites.md)
@@ -39,7 +39,7 @@ ht-degree: 15%
    + [Övergång till plattform](transition-platform.md)
    + [Dynamic Creative Optimization](dynamic-creative-optimizations.md)
 + Distributionsgenomgång {#deployment-brief}
-   + [AEM plattformskonfigurationer](aem-platform-configurations.md)
+   + [AEM Platform Configurations](aem-platform-configurations.md)
    + [Projekttaxonomi och -implementering](project-taxonomy-implementation.md)
    + Nätverkstrafikhantering {#manage-network-traffic}
       + [Hantera nätverkstrafik](/help/using/managing-network-traffic.md)
@@ -48,7 +48,7 @@ ht-degree: 15%
       + [Mobilnätverk med mobil datarouter och aktiva nätverkskomponenter](/help/using/mobile-network-router.md)
       + [Enclosed Corporate Network (Wired/Wireless)](/help/using/enclosed-corporate-network.md)
    + [Enhetskonfigurationer](device-configurations.md)
-   + [Testning och kvalitetssäkring](testing-quality-assurance.md)
+   + [Testning och kvalitet i Assurance](testing-quality-assurance.md)
    + [Strategier för leverantörsengagemang](vendor-engagement.md)
 + Support och underhåll {#ongoing-support}
    + [Support och övervakning](support-monitoring.md)

@@ -2,9 +2,9 @@
 title: Grunderna för digital signering för [!UICONTROL AEM Screens]
 description: Lär dig grunderna i ett digitalt signeringsprojekt.
 exl-id: e3913be2-9028-4773-a034-e16924a71e04
-source-git-commit: 8dde26d36847fb496aed6d4bf9732233116b5ea6
+source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
 workflow-type: tm+mt
-source-wordcount: '408'
+source-wordcount: '407'
 ht-degree: 0%
 
 ---
@@ -37,7 +37,7 @@ Det är viktigt att du definierar nyckelelementen innan du implementerar ett pro
 
 1. **Anslutning**
 
-   Anslutningsmöjligheterna fokuserar på följande frågor:
+   Anslutningsmöjligheter:
    * Nätverksansluten (cell eller wi-fi) eller fristående?
       * Vill du tillåta USB-innehållsuppdateringar?
       * Ska ni tillåta användning av datainsamling?

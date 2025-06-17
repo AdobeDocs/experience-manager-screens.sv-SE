@@ -9,7 +9,7 @@ feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: b8d0c089-af79-403e-870f-fb46b66fecd3
-source-git-commit: 6b4fc934c31640168528fa3e72cf634773f4f8e6
+source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
 workflow-type: tm+mt
 source-wordcount: '443'
 ht-degree: 0%
@@ -45,7 +45,7 @@ SmartSync-funktionen har flera fördelar för ditt AEM Screens-projekt, som föl
 
 >[!NOTE]
 >
->Adobe rekommenderar starkt att du använder SmartSync för AEM Screens-projekt.
+>Adobe rekommenderar att du använder SmartSync för AEM Screens-projekt.
 
 ## Migrera från ContentSync till SmartSync {#migrating-from-contentsync-to-smartsync}
 
@@ -53,7 +53,7 @@ SmartSync-funktionen har flera fördelar för ditt AEM Screens-projekt, som föl
 >
 >Om du redan har installerat AEM 6.3 Feature Pack 5 och AEM 6.4 Feature Pack 3 kan du aktivera SmartSync för resurser för att förbättra användningen av diskutrymme. Om du vill aktivera SmartSync följer du avsnittet nedan för att gå över från ContentSync till SmartSync, vilket aktiverar SmartSync.
 >
->SmartSync är tillgängligt för Screens Player med servrar AEM 6.4.3 FP3.
+>SmartSync är tillgängligt för Screens Player med servrar som stöds i AEM 6.4.3 FP3.
 >
 >Gå till [AEM Screens Player Downloads](https://download.macromedia.com/screens/) om du vill hämta den senaste spelaren. I följande tabell beskrivs den lägsta spelarversion som krävs för varje plattform:
 
@@ -75,7 +75,7 @@ Följ stegen nedan för att gå över från ContentSync till SmartSync:
    >
    >Alla innehållscache måste rensas innan SmartSync kan användas för första gången.
 
-1. Navigera till **Adobe Experience Manager Web Console Configuration** genom AEM > hammikon > **Åtgärder** > **Webbkonsol**.
+1. Navigera till **Adobe Experience Manager Web Console Configuration** med AEM-instans > hammikon > **Åtgärder** > **Webbkonsol**.
 
    ![screen_shot_2019-02-11at15339pm](assets/screen_shot_2019-02-11at15339pm.png)
 

@@ -6,7 +6,7 @@ feature: Authoring Screens, Channels
 role: Admin, Developer
 level: Intermediate
 exl-id: 51a63429-2488-45be-b8f5-cb755ca69c7f
-source-git-commit: a89aec16bb36ecbde8e417069e9ed852363acd82
+source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
 workflow-type: tm+mt
 source-wordcount: '1791'
 ht-degree: 0%
@@ -145,9 +145,9 @@ Spelaren visar innehållet i **MainAdChannel** och exakt vid 11:59 P.M. (enligt 
 
 >[!NOTE]
 >
->Mer information om AEM finns i följande resurser:
->[AEM Screens Player-nedladdningar](https://download.macromedia.com/screens/)
->[Arbeta med AEM Screens Player](working-with-screens-player.md)
+>Mer information om AEM Screen Player finns i följande resurser:
+>>[AEM Screens Player-nedladdningar](https://download.macromedia.com/screens/)
+>>[Arbeta med AEM Screens Player](working-with-screens-player.md)
 
 
 ## Hantera återkommande för Assets i en kanal {#handling-recurrence-in-assets}

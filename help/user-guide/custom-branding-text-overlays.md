@@ -6,7 +6,7 @@ feature: Developing Screens
 role: Developer
 level: Intermediate
 exl-id: 059e1b19-e9b5-48f0-8f2f-141f0c2f7842
-source-git-commit: ce8340f24d116b4268a6ed15dd4e9f626bad1ef6
+source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
 workflow-type: tm+mt
 source-wordcount: '582'
 ht-degree: 1%
@@ -32,7 +32,7 @@ Följ stegen nedan för att skapa anpassade märkesnamn och format för textöve
    >[!NOTE]
    >Mer information om hur du lägger till en textövertäckning i resursen i en kanalredigerare finns i [Textövertäckning](/help/user-guide/text-overlay.md).
 
-1. Navigera till CRXDE Lite från AEM > verktyg > **CRXDE Lite**.
+1. Navigera till CRXDE Lite från din AEM-instans > verktyg > **CRXDE Lite**.
 
 1. Skapa en anpassad design i `/apps/settings/wcm/designs/<your-project>/`, till exempel navigera till `/apps/settings/wcm/designs/customstyle/` i det här fallet
 

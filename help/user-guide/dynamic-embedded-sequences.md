@@ -9,7 +9,7 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 3208d058-0812-44e1-83e3-b727b384876a
-source-git-commit: 8a914d4b0237c327b7954c936c84a2c1aa719603
+source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
 workflow-type: tm+mt
 source-wordcount: '2451'
 ht-degree: 0%
@@ -69,7 +69,7 @@ Innan du börjar implementera den här funktionen måste du se till att du har f
 
 * Skapa ett AEM Screens-projekt (i det här exemplet **Demo**).
 * Skapa en **global**-kanal under mappen **Kanaler**.
-* Lägg till innehåll i din **Global**-kanal (*Kontrollera **Resources.zip**&#x200B;för relevanta resurser*).
+* Lägg till innehåll i din **Global**-kanal (*Kontrollera **Resources.zip**för relevanta resurser*).
 
 Följande bild visar **Demo**-projektet med **Global**-kanalen i mappen **Kanaler**.
 ![screen_shot_2018-09-07at21032pm](assets/screen_shot_2018-09-07at21032pm.png)
@@ -318,12 +318,12 @@ Följ stegen nedan för att skapa grupper, användare och ändra åtkomstkontrol
 
    1. Navigera till **Adobe Experience Manager**.
    1. Klicka på **Verktyg** > **Säkerhet** > **Användare**.
-   1. Klicka på **Skapa användare** och ange **Global-användare** i **ID**.
+   1. Klicka på **Skapa användare** och ange sedan **Global-användare** i **ID**.
    1. Ange **Lösenord** och bekräfta lösenordet för den här användaren.
    1. Klicka på fliken **Grupper** och ange gruppnamnet i **Klicka på Grupp**, till exempel ange **Global-Author** om du vill lägga till **Global-User** i den specifika gruppen.
    1. Klicka på **Spara och stäng**.
 
-   Du kan även skapa två andra användare, till exempel **Region-User** och **Store-User**, och lägga till dem i **Region-Author** respektive **Store-Author**.
+   Du kan även skapa två andra användare, till exempel **Region-User** och **Store-User**, och lägga till dem i **Region-Author** respektive **Store-Author** .
 
    >[!NOTE]
    >Det är en god vana att lägga till användare i en grupp och sedan tilldela behörigheter till varje enskild användargrupp.

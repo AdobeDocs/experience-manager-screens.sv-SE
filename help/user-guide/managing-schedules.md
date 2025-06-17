@@ -1,6 +1,6 @@
 ---
 title: Skapa och hantera scheman
-description: Läs mer om scheman där du kan ordna kanaler i återanvändbara grupper så att du inte behöver upprepa deras tilldelning individuellt.
+description: Lär dig mer om scheman där du kan ordna kanaler i återanvändbara grupper så att du inte behöver upprepa deras tilldelning individuellt.
 contentOwner: Jyotika Syal
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
@@ -9,14 +9,14 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: dc9c5413-3b03-4f1f-bac5-aa599443254a
-source-git-commit: 1cf90de7892d051b2b94b4dd57de7135269b1ee8
+source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
 workflow-type: tm+mt
 source-wordcount: '368'
 ht-degree: 0%
 
 ---
 
-# Skapa och hantera scheman {#creating-and-managing-schedules}
+# Skapa och hantera tidsplaner {#creating-and-managing-schedules}
 
 Med **Scheman** i AEM Screens kan du ordna kanaler i återanvändbara grupper. Om du gör det behöver du inte upprepa deras uppdrag separat för varje skärm där du vill visa innehållet.
 
@@ -58,8 +58,8 @@ Följ stegen nedan för att visa kontrollpanelen för schemat. I följande exemp
 
    ![chlimage_1-1](assets/chlimage_1-1.png)
 
-   **Panelen Schemalägg information** Klicka på Egenskaper i det övre högra hörnet på SCHEMALÄGGNINGSINFORMATIONSPanelen för att visa/ändra schemats egenskaper.
+   **Panelen Schemalägg information** - Klicka på Egenskaper i det övre högra hörnet på SCHEMALÄGGNINGSINFORMATIONSPanelen för att visa/ändra schemats egenskaper.
 
-   **Panelen Tilldelade kanaler** Klicka på +Tilldela kanal i det övre högra hörnet på panelen Tilldelade kanaler för att öppna dialogrutan Kanaltilldelning.
+   **Panelen Tilldelade kanaler** - Klicka på +Tilldela kanal i det övre högra hörnet på panelen Tilldelade kanaler för att öppna dialogrutan Kanaltilldelning.
 
-   **Tilldelad visningspanel** Klicka på någon av skärmarna på den tilldelade visningspanelen för att öppna kontrollpanelen.
+   **Tilldelad visningspanel** - Klicka på någon av skärmarna på den tilldelade visningspanelen för att öppna kontrollpanelen.

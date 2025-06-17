@@ -2,9 +2,9 @@
 title: Direkt mobilt nätverk
 description: Läs mer om Direct Mobile Network Setup i AEM Screens.
 exl-id: 6775bd10-7625-422f-a7af-4f7b8793fa42
-source-git-commit: ce8340f24d116b4268a6ed15dd4e9f626bad1ef6
+source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
 workflow-type: tm+mt
-source-wordcount: '845'
+source-wordcount: '843'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ Inom AEM Screens hämtas det nödvändiga innehållet fysiskt till spelarstyrenh
 
 Fördelen med att ansluta AEM Screens-spelare via mobilen 3/4/5G till din mobiltjänstleverantör är att mobilroutern kan placeras på en optimerad plats. På så sätt får du bästa möjliga nätverkstäckning. Denna plats är vanligtvis i upphöjt och öppet läge med så få omgivande bete- eller metallstrukturer som möjligt.
 
-Med den här inställningen kan AEM använda skärmanvändare få stor flexibilitet eftersom det inte krävs någon fast anslutning för att ansluta till AEM Screens. Det här är intressant för tillfälliga eller mobila inställningar.
+Med den här installationen får AEM Screen-användare stor flexibilitet eftersom det inte krävs någon fast anslutning för att ansluta till AEM Screens. Det här är intressant för tillfälliga eller mobila inställningar.
 
 I följande diagram visas inställningarna för Direct Mobile Network. Det består av ett enda nätanslutningssegment och anslutningen av varje spelare till det mobila eller mobila datanätverket.
 
@@ -25,9 +25,9 @@ I följande diagram visas inställningarna för Direct Mobile Network. Det best�
 
 ## Ansluta AEM Screens Player till Direct Mobile Network
 
-Följ stegen nedan för att se till att AEM skärmspelare är korrekt anslutna i den här konfigurationen:
+Följ stegen nedan för att säkerställa att AEM Screen Players är korrekt anslutna i den här konfigurationen:
 
-1. Kontrollera att alla AEM skärmspelare är anslutna till routerns nätverk.
+1. Kontrollera att alla AEM Screen-spelare är anslutna till routerns nätverk.
 
 1. Testa Internetanslutningen genom att anropa en URL i systemets webbläsare.
 
@@ -78,7 +78,7 @@ Som en uppföljning måste det nödvändiga datapaketet vara minst:
 
 Prestandaproblemen i det lokala nätverket (LAN), förutom nätverksnåbarheten, är att tillhandahålla tillräcklig bandbredd för att AEM Screens ska fungera smidigt. Rekommendationen för LAN-nätverkshastigheterna är att börja vid minst 100 Mbit/s nätverk, så att det finns tillräckligt med bandbredd för att ansluta många enheter med bra prestanda till systemet.
 
-När du använder andra aktiva nätverkskomponenter är det obligatoriskt att alla dessa stämmer överens med kraven för nätverksbandbredd. Nätverkskomponenterna bör till exempel minst matcha 100 Mbit/s-standarden och matcha den bandbredd som anges i Internet-åtkomsten eller routerspecifikationen. I annat fall begränsas den totala bandbredden av den svagaste länken i nätverkskedjan.
+När du använder andra aktiva nätverkskomponenter är det obligatoriskt att alla matchar kraven för nätverksbandbredd. Nätverkskomponenterna bör till exempel minst matcha 100 Mbit/s-standarden och matcha den bandbredd som anges i Internet-åtkomsten eller routerspecifikationen. I annat fall begränsas den totala bandbredden av den svagaste länken i nätverkskedjan.
 
 ## Hämta media och Assets {#download}
 

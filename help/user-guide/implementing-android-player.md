@@ -10,9 +10,9 @@ feature: Administering Screens, Android Player
 role: Admin
 level: Intermediate
 exl-id: d1331cb8-8bf6-4742-9525-acf18707b4d8
-source-git-commit: 7410e2d8fd7fe1e8b795a35f3a76df4ea882117e
+source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
 workflow-type: tm+mt
-source-wordcount: '1495'
+source-wordcount: '1492'
 ht-degree: 0%
 
 ---
@@ -130,7 +130,7 @@ Se en [Exempel på JSON-princip](#example-json) och en tabell som beskriver anv�
 1. När spelarprogrammet startas läses den här konfigurationsfilen in och pekar på den AEM-server där den är registrerad och sedan styrs.
 
    >[!NOTE]
-   >Den här filen är *skrivskyddad* första gången som programmet startas och kan inte användas för efterföljande konfigurationer. Om spelaren startas innan konfigurationsfilen släpptes avinstallerar och installerar du om programmet på enheten.
+   >Den här filen är *skrivskyddad* första gången som programmet startas och kan inte användas för efterföljande konfigurationer. Om spelaren startas innan konfigurationsfilen släpps avinstallerar och installerar du om programmet på enheten.
 
 ### Principattribut {#policy-attributes}
 
@@ -143,7 +143,7 @@ I följande tabell sammanfattas principattributen med en exempelpolicy-JSON för
 | *rebootSchedule* | Schemat för omstart gäller alla plattformar. |
 | *enableAdminUI* | Aktivera administratörsgränssnittet för att konfigurera enheten på platsen. Ange *false* när den är helt konfigurerad och i produktion. |
 | *enableOSD* | Aktivera kanalväljarens användargränssnitt så att användare kan växla kanaler på enheten. Du bör ange det till *false* när det är fullständigt konfigurerat och i produktion. |
-| *enableActivityUI* | Aktivera om du vill visa förloppet för aktiviteter som hämtning och synkronisering. Aktivera för felsökning och inaktivera när den är helt konfigurerad och i produktion. |
+| *enableActivityUI* | Aktivera om du vill visa förloppet för aktiviteter, som hämtning och synkronisering. Aktivera för felsökning och inaktivera när den är helt konfigurerad och i produktion. |
 | *enableNativeVideo* | Aktivera om du vill använda inbyggd maskinvaruacceleration för videouppspelning (endast Android™). |
 
 ### Exempel på JSON-princip {#example-json}

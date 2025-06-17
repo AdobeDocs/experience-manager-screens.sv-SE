@@ -1,5 +1,5 @@
 ---
-title: Innehållsuppdatering med Screens Launch
+title: Innehållsuppdateringar med Screens Launch
 description: Lär dig hur du skapar en framtida version av kanalerna, som kallas Launch, och ställer in ett live-datum för lanseringen för att göra innehållet tillgängligt på enheter eller spelare.
 contentOwner: jsyal
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
@@ -10,14 +10,14 @@ feature: Authoring Screens, Launches
 role: Admin, Developer
 level: Intermediate
 exl-id: b610e5dd-e0c6-45e6-bf9b-27be2054bc8f
-source-git-commit: e82cfee5ecc6b639b7b2b65553d1635943b356ea
+source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
 workflow-type: tm+mt
-source-wordcount: '1567'
+source-wordcount: '1568'
 ht-degree: 0%
 
 ---
 
-# Innehållsuppdatering med Screens Launch {#launches}
+# Innehållsuppdateringar med Screens Launch {#launches}
 
 Innehållsförfattare kan skapa en framtida version av kanalerna och ytterligare ange livedatum för den här lanseringen. Den här möjligheten gör att innehållet kan vara live i enheter eller spelare på angivet live-datum.
 
@@ -58,7 +58,7 @@ Servern är till exempel i PST och enheterna är i EST. Den maximala tidsskillna
 
 Därför bör du ange 3 timmar och 56 minuter (14160 sekunder).
 
-Så när du schemalägger en livesändning börjar kampanjen tidigt med att ta hänsyn till den här förskjutningen. I ekvationen ovan tar de flesta objekten inte så lång tid. Du kan använda en bra gissning för den här förskjutningen när du känner till den maximala tidsskillnaden mellan servern och valfri spelare.
+Så när du schemalägger en livesändning börjar kampanjen tidigt med att ta hänsyn till den här förskjutningen. I ekvationen ovan tar de flesta objekten inte så lång tid. Du kan använda en bra gissning för den här förskjutningen när du vet den maximala tidsskillnaden mellan servern och valfri spelare.
 
 >[!NOTE]
 >

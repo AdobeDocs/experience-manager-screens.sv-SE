@@ -9,9 +9,9 @@ feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: 4f16605b-aec1-45fa-a110-0af6925b74b0
-source-git-commit: a89aec16bb36ecbde8e417069e9ed852363acd82
+source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
 workflow-type: tm+mt
-source-wordcount: '869'
+source-wordcount: '870'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ I det här avsnittet beskrivs hur du implementerar Chrome OS Player med Chrome M
 
 Följ stegen nedan för att konfigurera Chrome hanteringskonsol:
 
-1. Anmäl dig till Chrome Management Console. Du måste skaffa en licens för Chrome Management Console. Kontakta [Google Support](https://support.google.com/chrome/a/answer/1375678?hl=en&amp;ref_topic=2935995) om du vill ha mer information om hur du hanterar Chrome enhetsinställningar.
+1. Anmäl dig till Chrome Management Console. Du måste skaffa en licens för Chrome Management Console. Kontakta [Google Support](https://support.google.com/chrome/a/answer/1375678?hl=en&ref_topic=2935995) om du vill ha mer information om hur du hanterar Chrome enhetsinställningar.
 1. Registrera din Chrome OS-enhet i domänen och vänta i 15 minuter på att enheten ska synkroniseras med Chrome Management Console. Klicka [här](https://support.google.com/chrome/a/answer/1360534?hl=en) om du vill veta mer om hur du registrerar Chrome-enheter.
 1. Chrome Player finns i Chrome Web Store.
 
@@ -34,7 +34,7 @@ Följ stegen nedan för att konfigurera Chrome hanteringskonsol:
 
 ## Namnge Chrome OS Player {#name-chrome}
 
-Du kan tilldela Chrome Player ett användarvänligt enhetsnamn och på så sätt skicka det tilldelade enhetsnamnet till Adobe Experience Manager (AEM). Med den här funktionen kan du inte bara namnge Chrome Player utan även enkelt tilldela rätt innehåll.
+Du kan tilldela Chrome Player ett användarvänligt enhetsnamn och därmed skicka det tilldelade enhetsnamnet till Adobe Experience Manager (AEM). Med den här funktionen kan du inte bara namnge Chrome Player utan även enkelt tilldela rätt innehåll.
 
 >[!NOTE]
 >Du kan bara välja spelarnamnet före registreringen. När spelaren har registrerats går det inte att ändra spelarens namn längre.
@@ -138,14 +138,14 @@ I följande tabell sammanfattas profilerna med deras funktioner.
 
 | **Principnamn** | **Syfte** |
 |---|---|
-| server | URL:en till Adobe Experience Manager-servern (AEM). |
+| server | URL till Adobe Experience Manager-servern (AEM). |
 | registrationKey | Används för massregistrering av enheter med hjälp av i förväg delad nyckel. |
 | upplösning | Enhetens upplösning. |
 | rebootSchedule | Schemat för att starta om spelaren. |
 | enableAdminUI | Aktivera administratörsgränssnittet för att konfigurera enheten på platsen. Anges till false när den är helt konfigurerad och i produktion. |
-| enableOSD | Aktivera kanalväljarens användargränssnitt så att användare kan växla kanaler på enheten. Överväg att ställa in på false när den är helt konfigurerad och i produktion. |
-| enableActivityUI | Aktivera så att du kan visa förloppet för aktiviteter som hämtning och synkronisering. Aktivera för felsökning och inaktivera när den är helt konfigurerad och i produktion. |
-| cloudMode | Ange true om du vill att Chrome Player ska ansluta till Screens as a Cloud Service. Ange som false om du vill ansluta till AMS eller AEM. |
+| enableOSD | Aktivera kanalväljarens användargränssnitt så att användare kan växla kanaler på enheten. Du bör ange värdet false när den är helt konfigurerad och i produktion. |
+| enableActivityUI | Aktivera så att du kan visa förloppet för aktiviteter, som hämtning och synkronisering. Aktivera för felsökning och inaktivera när den är helt konfigurerad och i produktion. |
+| cloudMode | Ange true om du vill att Chrome Player ska ansluta till Screens as a Cloud Service. Anges till false för att ansluta till AMS eller lokal AEM. |
 | cloudToken | Registreringstoken för registrering mot Screens as a Cloud Service. |
 
 >[!NOTE]
