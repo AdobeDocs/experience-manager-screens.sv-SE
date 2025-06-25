@@ -5,9 +5,9 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: cadd83cd-fe64-436d-b3fd-6d72b9565885
-source-git-commit: 4828cf78d1ca81f0dd6f2cb1b82fd34afd93a672
+source-git-commit: 6cdf350fa4e45b816d50b64252b8ed6d5e0904d0
 workflow-type: tm+mt
-source-wordcount: '232'
+source-wordcount: '244'
 ht-degree: 0%
 
 ---
@@ -15,8 +15,8 @@ ht-degree: 0%
 # Versionsinformation för funktionspaket 20250327 {#release-notes-for-screens-feature-pack}
 
 >[!CAUTION]
->Adobe rekommenderar att du uppgraderar till den senaste versionen av 6.5 Adobe Experience Manager (AEM 6.5). Du kan hämta den senaste versionsinformationen från [här](https://experienceleague.adobe.com/sv/docs/experience-manager-65/content/release-notes/release-notes).
->&#x200B;>Adobe rekommenderar att du använder FP11.6 med SP(servicepack) >= 21.
+>Adobe rekommenderar att du uppgraderar till den senaste versionen av 6.5 Adobe Experience Manager (AEM 6.5). Du kan hämta den senaste versionsinformationen från [här](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/release-notes/release-notes).
+>>Adobe rekommenderar att du använder FP11.6 med SP(servicepack) >= 21.
 
 ## Tillgänglighet {#availability}
 
@@ -43,3 +43,5 @@ Lanseringsdatumet för AEM Screens Feature Pack 20250327 är 27 mars 2025.
 * Paketkonflikt med Service Pack 21 och Screens Feature Pack. (SCRNS-4638)
 
 * Screens Dashboard fungerar inte. (SCRNS-4749)
+
+* XSS-problem på /libs/screens/dcc/components/dashboard/clientlibs/device-clear-cache.js (SCRNS-4761)
