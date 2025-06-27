@@ -1,6 +1,6 @@
 ---
 cloud: Experience Cloud
-user-guide-title: Bästa tillvägagångssätt för AEM Screens-projekt
+user-guide-title: Bästa praxis för AEM Screens-projekt
 breadcrumb-title: Användarhandbok om bästa praxis för AEM Screens
 solution-title: AEM Screens
 getting-started-title: AEM Screens Best Practices Guide
@@ -13,12 +13,12 @@ role: User
 source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
 workflow-type: tm+mt
 source-wordcount: '131'
-ht-degree: 3%
+ht-degree: 12%
 
 ---
 
 
-# Bästa tillvägagångssätt för AEM Screens-projekt {#using}
+# Bästa praxis för AEM Screens-projekt {#using}
 
 + [Om den här guiden](about-guide.md)
 + Ökning {#overview}
