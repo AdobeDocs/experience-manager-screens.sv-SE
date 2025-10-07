@@ -14,7 +14,7 @@ ht-degree: 1%
 # Versionsinformation för funktionspaket 20251007 {#release-notes-for-screens-feature-pack}
 
 >[!CAUTION]
->Adobe rekommenderar att du uppgraderar till den senaste versionen av Adobe Experience Manager (AEM 6.5). Du kan hämta den senaste versionsinformationen från [här](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/release-notes/release-notes).
+>Adobe rekommenderar att du uppgraderar till den senaste versionen av Adobe Experience Manager (AEM 6.5). Du kan hämta den senaste versionsinformationen från [här](https://experienceleague.adobe.com/sv/docs/experience-manager-65/content/release-notes/release-notes).
 >&#x200B;>Använd FP11.7 med SP(servicepack) version 22 eller senare.
 
 ## Tillgänglighet {#availability}
