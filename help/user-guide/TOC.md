@@ -8,9 +8,9 @@ user-guide-description: Lär dig använda en lösning för digital signering som
 feature-set: Experience Manager Screens
 feature: Content
 role: User
-source-git-commit: d8392b015c65e6bba35ba4c923d4f663e1121e0c
+source-git-commit: 6a1ecea5d54da483c3033d0be0555b2d0dc71c83
 workflow-type: tm+mt
-source-wordcount: '550'
+source-wordcount: '556'
 ht-degree: 5%
 
 ---
@@ -19,12 +19,12 @@ ht-degree: 5%
 # AEM Screens Användarhandbok {#user-guide}
 
 + [Introduktion till Screens](aem-screens-introduction.md)
-+ Översikt och Kickstart-guide {#overview}
++ Översikt och snabbstartsguide {#overview}
    + [Kickstart Guide](kickstart-for-aem-screens.md)
-   + [Screens Best Practices Guide](https://experienceleague.adobe.com/sv/docs/experience-manager-screens/using/about-guide)
+   + [Screens Best Practices Guide](https://experienceleague.adobe.com/en/docs/experience-manager-screens/using/about-guide)
    + [Nyckeltermer](screens-glossary.md)
    + [Screens terminologi och begrepp](screens-concepts-feature-video-understand.md)
-+ Grundläggande om nätverk för digital signering {#digital-signage-network}
++ Grundläggande om nätverk för digitala signaturer {#digital-signage-network}
    + [Del 1: Projektroller och ansvarsområden](project-roles-responsibilities.md)
    + [Del 2: Att tänka på som projekt omfång](project-considerations.md)
    + [Del 3: Testning, POC, piloter &amp; Rollouts](testing-pocs-pilots-rollouts.md)
@@ -51,7 +51,7 @@ ht-degree: 5%
       + [Cloud Player](implementing-cloud-player.md)
       + [Automatisk registrering av spelare](auto-registration-players.md)
       + [Använda fjärrkontrollen](implementing-remote-control.md)
-   + Författarpublicering {#author-publish}
+   + Author Publish {#author-publish}
       + [Author-Publish Architectional Overview](author-publish-architecture-overview.md)
       + [Konfigurera författare och publicera](author-and-publish.md)
    + Analysintegrering med AEM Screens {#analytics-integration}
@@ -65,10 +65,10 @@ ht-degree: 5%
       + [Skapa och hantera platser](managing-locations.md)
       + [Skapa och hantera scheman](managing-schedules.md)
       + [Hantera enheter](managing-devices.md)
-      + Tilldelar kanaler {#assigning-channels}
+      + Tilldela kanaler {#assigning-channels}
          + [Kanaltilldelning](channel-assignment-latest-fp.md)
          + [Kanaltilldelning: Äldre AEM Screens-funktionspaket](channel-assignment.md)
-   + Använda kärnproduktfunktioner {#product-features}
+   + Använda kärnfunktioner {#product-features}
       + [Textövertäckning](text-overlay.md)
       + [Uppdatera gruppvis offline](bulk-offline-update.md)
       + [AEM Screens Notifications Service](screens-notifications-service.md)
@@ -119,6 +119,7 @@ ht-degree: 5%
    + [Felsökning av Device Control Center](monitoring-screens.md)
    + [Videouppspelningskonfiguration](troubleshoot-videos.md)
 + Versionsinformation {#release-notes}
+   + [Versionsinformation för funktionspaket 20251007](release-notes-fp-20251007.md)
    + [Versionsinformation för funktionspaket 20250327](release-notes-fp-20250327.md)
    + [Versionsinformation för funktionspaket 20250224](release-notes-fp-20250224.md)
    + [Versionsinformation för funktionspaket 20240715](release-notes-fp-20240715.md)
