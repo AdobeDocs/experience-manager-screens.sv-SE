@@ -16,7 +16,7 @@ ht-degree: 1%
 
 >[!CAUTION]
 >Adobe rekommenderar att du uppgraderar till den senaste versionen av 6.5 Adobe Experience Manager (AEM 6.5). Du kan hämta den senaste versionsinformationen från [här](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/release-notes/release-notes).
->>Använd FP11.7 med SP(servicepack) version 22 eller senare.
+>&#x200B;>Använd FP11.7 med SP(servicepack) version 22 eller senare.
 
 ## Tillgänglighet {#availability}
 
