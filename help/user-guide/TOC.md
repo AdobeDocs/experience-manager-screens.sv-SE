@@ -21,7 +21,7 @@ ht-degree: 5%
 + [Introduktion till Screens](aem-screens-introduction.md)
 + Översikt och snabbstartsguide {#overview}
    + [Kickstart Guide](kickstart-for-aem-screens.md)
-   + [Screens Best Practices Guide](https://experienceleague.adobe.com/en/docs/experience-manager-screens/using/about-guide)
+   + [Screens Best Practices Guide](https://experienceleague.adobe.com/sv/docs/experience-manager-screens/using/about-guide)
    + [Nyckeltermer](screens-glossary.md)
    + [Screens terminologi och begrepp](screens-concepts-feature-video-understand.md)
 + Grundläggande om nätverk för digitala signaturer {#digital-signage-network}
