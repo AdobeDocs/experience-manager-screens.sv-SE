@@ -9,10 +9,10 @@ feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: 4faac090-ad8a-4d7e-a502-6fb63f6b2761
-source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
+source-git-commit: 107e296237a98b7d69744b5ec4b87142d7de61cd
 workflow-type: tm+mt
-source-wordcount: '1067'
-ht-degree: 1%
+source-wordcount: '1103'
+ht-degree: 0%
 
 ---
 
@@ -143,6 +143,10 @@ Det finns två typer av uppdateringar för AEM Screens Player:
 | Uppdateringar för spelargränssnitt | En ny körbar fil som distribueras på spelaren. Den här funktionen kräver att du fjärrkopierar den nya binärfilen på spelaren och stoppar den pågående körningen och startar den nya versionen. Det kan kräva att du hämtar förinläsningen av paketen igen. | Ja (via fjärrgränssnitt) | Egen | Nej |
 
 ## Riktlinjer för val av maskinvara för spelarenhet {#hardware-selection-guidelines-for-player-device}
+
+>[!NOTE]
+>
+>**INAKTUELL:** Den här vägledningen för val av maskinvara är inaktuell och bör inte användas för nya distributioner. Maskinvaruspecifikationer och rekommendationer bör tillhandahållas av en kvalificerad AV-integrator baserat på era specifika driftsättningskrav och användningsfall.
 
 Följande avsnitt innehåller riktlinjer för val av maskinvara för ett Screens-projekt:
 
