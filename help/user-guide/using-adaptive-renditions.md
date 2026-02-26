@@ -48,7 +48,7 @@ Så här använder du återgivningar på resurser som du vill använda i Screens
    ![bild](/help/user-guide/assets/adaptive-renditions/manage-pub-asset1.png)
 
    >[!NOTE]
-   >Mer information om hur du hanterar publikation och levererar innehållsuppdateringar från författare till publiceringsenhet finns i [Uppdatera on demand](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/authoring/content-updates/on-demand-content) .
+   >Mer information om hur du hanterar publikation och levererar innehållsuppdateringar från författare till publiceringsenhet finns i [Uppdatera on demand](https://experienceleague.adobe.com/sv/docs/experience-manager-screens/user-guide/authoring/content-updates/on-demand-content) .
 
 ## Migreringsstrategi {#migration-strategy}
 
