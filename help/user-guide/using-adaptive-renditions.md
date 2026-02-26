@@ -2,9 +2,9 @@
 title: Använda adaptiva renderingar i AEM Screens
 description: Lär dig hur du använder adaptiva renderingar i AEM Screens.
 exl-id: e7f68ed4-73c3-492a-b33a-dd915ef1f8be
-source-git-commit: 2a51258ffe7b969962378dcd0558bd001b616ba1
+source-git-commit: f1ddcf5e5ee9691e436e139ce0084f2c39f9c9dd
 workflow-type: tm+mt
-source-wordcount: '541'
+source-wordcount: '561'
 ht-degree: 0%
 
 ---
@@ -13,11 +13,14 @@ ht-degree: 0%
 
 ## Introduktion {#introduction}
 
+>[!CAUTION]
+>Den här funktionen stöds endast på AEM lokalt (AEM 6.x). Det stöds inte på AEM as a Cloud Service.
+
 Med adaptiva renderingar kan enheterna klicka på den bästa renderingen automatiskt för en enhet baserat på kunddefinierade regler. Enheterna laddar automatiskt ned och spelar upp den lämpligaste återgivningen av en resurs baserat på dessa regler. Den låter kunderna fokusera på att utforma *main*-upplevelsen.
 
 ## Syfte {#objective}
 
-Som AEM Scrßeens Content Author kan du nu konfigurera enhetsspecifika resursåtergivningar så att de hämtas och spelas upp automatiskt utan att du behöver skapa alla innehållsvarianter manuellt.
+Som AEM Screens Content Author kan du nu konfigurera enhetsspecifika materialåtergivningar så att de hämtas och spelas upp automatiskt utan att du behöver skapa alla innehållsvarianter manuellt.
 När en utvecklare har lagt till egenskaper och regler för återgivningsmappning kan du tillämpa återgivningsmappningen på resurser och sedan inkludera dem i en AEM Screens-kanal.
 
 >[!IMPORTANT]
@@ -32,7 +35,7 @@ När en utvecklare har lagt till egenskaper och regler för återgivningsmappnin
 
 Så här använder du återgivningar på resurser som du vill använda i Screens-kanalen Tour.
 
-1. Navigera till mappen **Assets** i AEM.
+1. Navigera till mappen **Assets** i din AEM-instans.
 1. Skapa en version av resursen som bättre passar signeringsvisningen, till exempel `seahorse.jpg`.
 1. Välj namngivningsmönstret för återgivningen, till exempel `landscape`, som liknar det som definierats i egenskapen **pattern** i **CRXDE Lite**. Mer information finns i [Lägga till återgivningsmappningsregler](/help/user-guide/adaptive-renditions.md#add-rendition-mapping-rules).
 1. Klicka på **Lägg till återgivning** för att överföra återgivningen, vilket visas i bilden nedan.
@@ -45,7 +48,7 @@ Så här använder du återgivningar på resurser som du vill använda i Screens
    ![bild](/help/user-guide/assets/adaptive-renditions/manage-pub-asset1.png)
 
    >[!NOTE]
-   >Mer information om hur du hanterar publikation och levererar innehållsuppdateringar från författare till Publish till enhet finns i [Uppdatera on demand](https://experienceleague.adobe.com/sv/docs/experience-manager-screens/user-guide/authoring/content-updates/on-demand-content).
+   >Mer information om hur du hanterar publikation och levererar innehållsuppdateringar från författare till publiceringsenhet finns i [Uppdatera on demand](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/authoring/content-updates/on-demand-content) .
 
 ## Migreringsstrategi {#migration-strategy}
 
