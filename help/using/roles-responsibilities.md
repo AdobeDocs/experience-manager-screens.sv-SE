@@ -85,7 +85,7 @@ Projektledare hanterar vanligtvis hela distributionen av AEM Screens. En projekt
 
 >[!NOTE]
 >
->Om du vill veta mer om olika roller och ansvarsområden och målgruppen för ett projekt för digitala signaturer kan du gå till **[Projektroller och ansvarsområden](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/digital-signage-network/project-roles-responsibilities)**.
+>Om du vill veta mer om olika roller och ansvarsområden och målgruppen för ett projekt för digitala signaturer kan du gå till **[Projektroller och ansvarsområden](https://experienceleague.adobe.com/sv/docs/experience-manager-screens/user-guide/digital-signage-network/project-roles-responsibilities)**.
 
 
 ## Projektfaser {#project-stages}
@@ -100,7 +100,7 @@ För att stödja en framgångsrik installation av digitala signaturer är det va
 >
 >Den här guiden fokuserar främst på *Dag ett* och *Dag två*, men du måste tänka på alla tre faserna för att kunna köra ett digitalt signeringsprojekt.
 >
->Titta på en video om **[Projektledning och distribution](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/digital-signage-network/project-management-and-deployment)** om du vill veta mer om förproduktion, projektinitiering och projektförlopp.
+>Titta på en video om **[Projektledning och distribution](https://experienceleague.adobe.com/sv/docs/experience-manager-screens/user-guide/digital-signage-network/project-management-and-deployment)** om du vill veta mer om förproduktion, projektinitiering och projektförlopp.
 
 ## RACI-diagram {#raci-chart}
 
