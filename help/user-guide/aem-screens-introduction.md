@@ -5,28 +5,28 @@ feature: Overview, Digital Signage
 role: User
 level: Beginner
 exl-id: 3db8241d-03ed-4c87-bd3e-0ead2b44ae50
-source-git-commit: 2a51258ffe7b969962378dcd0558bd001b616ba1
+source-git-commit: ad8509deaff9f90df5f6b50947f587a74e420661
 workflow-type: tm+mt
-source-wordcount: '560'
+source-wordcount: '579'
 ht-degree: 0%
 
 ---
 
 # Vad är Adobe Experience Manager Screens?{#what-is-aem-screens}
 
-**Experience Manager Screens** - en digital signeringslösning där du kan publicera dynamiska och interaktiva digitala upplevelser och interaktioner som omfattar olika typer av skärmar, allt på en omfattande digital marknadsföringsplattform.
+**Experience Manager Screens** - en digital signeringslösning som gör att du kan publicera dynamiska och interaktiva digitala upplevelser och interaktioner som omfattar olika typer av skärmar, allt på en omfattande digital marknadsföringsplattform.
 
 Kom igång med en enkel digital signeringsupplevelse med [Kickstart för AEM Screens](kickstart-for-aem-screens.md).
 
-Mer information om hur du konfigurerar och skapar ditt Experience Manager Screens-projekt i Experience Manager as a Cloud Service finns i [här](https://experienceleague.adobe.com/sv/docs/experience-manager-screens/using/about-guide).
+Mer information om hur du konfigurerar och skapar ditt Experience Manager Screens-projekt i Experience Manager as a Cloud Service finns i [här](https://experienceleague.adobe.com/en/docs/experience-manager-screens/using/about-guide).
 
 ## Ökning {#overview}
 
-**Experience Manager Screens** är byggd på den solida grunden i ***Experience Manager Sites***. Marknadsförare och IT-personal kan skapa och hantera upplevelser på flera digitala skärmar som påverkar butikens/platsens mål för att bygga varumärket och öka efterfrågan. Genom att integrera Experience Manager Screens med Sites kan ni återanvända befintligt innehåll och effektivt leverera en sammanhängande och enhetlig kundlösning. Arbetsflödet effektiviseras för att skapa dedikerade digitala upplevelser som är mycket kostnadseffektiva och användbara. Det bidrar dessutom till att påverka varumärkesuppfattningen och de beslut som påverkar varumärkesuppfattningen, vilket leder till en ökning av köp och engagemang.
+**Experience Manager Screens** bygger på den solida grunden i ***Experience Manager Sites***. Marknadsförare och IT-personal kan skapa och hantera upplevelser på flera digitala skärmar som påverkar butikens/platsens mål för att bygga varumärket och öka efterfrågan. Genom att integrera Experience Manager Screens med Sites kan ni återanvända befintligt innehåll och effektivt leverera en sammanhängande och enhetlig kundlösning. Arbetsflödet effektiviseras för att skapa dedikerade digitala upplevelser som är mycket kostnadseffektiva och användbara. Det bidrar dessutom till att påverka varumärkesuppfattningen och de beslut som påverkar varumärkesuppfattningen, vilket leder till en ökning av köp och engagemang.
 
-Experience Manager Screens är en kraftfull webbaserad lösning med vilken ni kan skapa dedikerade digitala menyflikar, produktrekommendationer, bakgrundsbilder för att utöka kundinteraktionen. Det hjälper er att leverera enhetliga och användbara varumärkesupplevelser till fysiska platser, som butiker, hotell, banker, sjukvårds- och utbildningsinstitutioner och många fler - från samma Experience Manager-plattform. Screens har många unika program. Till exempel interaktiva displayer, vägval, branding och framtagning av atmosfär i er miljö för kunder och anställda baserat på den domän där de är driftsatta.
+Experience Manager Screens är en kraftfull webbaserad lösning med vilken ni kan skapa dedikerade digitala menyflikar, produktrekommendationer, bakgrundsbilder för livsstil för att öka kundens interaktion. Det hjälper er att leverera enhetliga och användbara varumärkesupplevelser till fysiska platser, som butiker, hotell, banker, sjukvårds- och utbildningsinstitutioner och många fler - från samma Experience Manager-plattform. Screens har många unika program. Till exempel interaktiva displayer, vägval, branding och framtagning av atmosfär i er miljö för kunder och anställda baserat på den domän där de är driftsatta.
 
-Det är enkelt och intuitivt att skapa och hantera ett program med Experience Manager Screens. Ett *program* är värd för webbsidor som skapats för Experience Manager Screens av kunder eller implementeringspartners. *Platser* hanterar fördefinierade hierarkier och innehåller *displayer*. Varje skärm har en kontrollpanel som visar olika enheter och skärmar. Innehåll för Experience Manager Screens hanteras i *kanaler*. Experience Manager Screens Player återger innehåll som finns i kanaler på skärmar.
+Det är enkelt och intuitivt att skapa och hantera ett program med Experience Manager Screens. Ett *program* är värd för webbsidor som skapats för Experience Manager Screens av kunder eller implementeringspartners. *Platserna* hanterar fördefinierade hierarkier och innehåller *displayer*. Varje skärm har en kontrollpanel som visar olika enheter och skärmar. Innehåll för Experience Manager Screens hanteras i *kanaler*. Experience Manager Screens Player återger innehåll som finns i kanaler på skärmar.
 
 Information om de nyckelterminologier som är associerade med Experience Manager Screens finns i [Ordlistan](screens-glossary.md).
 
@@ -57,12 +57,14 @@ Följande figur definierar personerna och deras roller för Experience Manager S
 
 * **Grundläggande om guidad implementering**
 
-  Följ den guidade inlärningsvägen **[Grundläggande om implementering av Experience Manager Screens](https://experienceleague.adobe.com/sv?launch=AEM-7a)** som omfattar grundläggande och avancerade funktioner som stöds i Experience Manager Screens.
+  Följ den guidade inlärningsvägen **[Experience Manager Screens Implementation Essentials](https://experienceleague.adobe.com/?launch=AEM-7a)** som omfattar grundläggande och avancerade funktioner som stöds i Experience Manager Screens.
 
-* **Guide till bästa praxis för Experience Manager Screens-projekt**
+* **Handbok om bästa praxis för Experience Manager Screens-projekt**
 
-  Följ **[Best Practices Guide för Experience Manager Screens-projekt](/help/using/about-guide.md)** som är utformad för att identifiera vanliga fallgropar när du implementerar ett Experience Manager Screens-projekt. Materialet fokuserar främst på projektroller och ansvarsområden. Det fokuserar på RACI-diagram för olika roller, konfigurationer för Experience Manager-plattformen samt support och övervakning.
+  Följ **[Best Practices Guide for Experience Manager Screens Projects](/help/using/about-guide.md)** som är utformad för att identifiera vanliga fallgropar när du implementerar ett Experience Manager Screens-projekt. Materialet fokuserar främst på projektroller och ansvarsområden. Det fokuserar på RACI-diagram för olika roller, Experience Manager-plattformskonfigurationer samt support och övervakning.
 
-<!-- DEAD LINK * **New Adobe Customer Support Experience**
+<!-- 
+DEAD LINK * **New Adobe Customer Support Experience**
 
-   Follow **[Customer One for Enterprise Help](https://docs.adobe.com/content/help/en/customer-one/using/home.htmlhome.html#)** to learn more about Admin Console Support tickets. -->
+   Follow **[Customer One for Enterprise Help](https://docs.adobe.com/content/help/en/customer-one/using/home.htmlhome.html#)** to learn more about Admin Console Support tickets. 
+-->

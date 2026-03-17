@@ -10,7 +10,7 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: d0a0b065-798e-4108-86ac-0a1f4e211cfc
-source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
+source-git-commit: ad8509deaff9f90df5f6b50947f587a74e420661
 workflow-type: tm+mt
 source-wordcount: '290'
 ht-degree: 0%
@@ -24,12 +24,14 @@ I det här avsnittet beskrivs följande ämnen om Uppdatera gruppvis offline:
 * **Översikt**
 * **Använder uppdatering för massvis offline**
 
-<!-- OBSOLETE VERSIONS
+<!--
+OBSOLETE VERSIONS
 >[!CAUTION]
 >
 >This AEM Screens functionality is only available, if you have installed AEM 6.3 Feature Pack 3 or AEM 6.4 Screens Feature Pack 1.
 >
->To get access to this Feature Pack, contact Adobe Support and request access. When you have permissions you can download it from Package Share. -->
+>To get access to this Feature Pack, contact Adobe Support and request access. When you have permissions you can download it from Package Share.
+-->
 
 ## Ökning {#overview}
 
@@ -73,6 +75,6 @@ Följ stegen nedan om du vill använda en bulkuppdatering för ett AEM Screens-p
    >
    >Ange projektsökvägen i förhållande till kanalen.
 
-   **Schemaläggningsfrekvens** - Anger en tidpunkt, till exempel 05:00 eller 17:00, då den här tjänsten ska uppdatera offlineinnehåll.
+   **Schemaläggningsfrekvens** - Anger en tidpunkt, t.ex. 5:00 P.M. eller 17:00, då den här tjänsten ska uppdatera offlineinnehåll.
 
 1. Klicka på **Spara** för att spara inställningarna. Innehållet uppdateras vid den angivna tidpunkten.

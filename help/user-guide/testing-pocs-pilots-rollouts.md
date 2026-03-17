@@ -7,12 +7,12 @@ topic-tags: digital-signage-networks-basics
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 docset: aem65
 feature: Overview
-role: User, Data Architect
+role: User, Developer
 level: Beginner
 exl-id: 0e29f095-7f9d-49ea-8dda-9141402a4159
-source-git-commit: cdff56f0807f6d5fea4a4b1d545aecb1e80245bb
+source-git-commit: ad8509deaff9f90df5f6b50947f587a74e420661
 workflow-type: tm+mt
-source-wordcount: '536'
+source-wordcount: '547'
 ht-degree: 0%
 
 ---
@@ -58,7 +58,7 @@ Testning av system- och programvaruintegrering börjar med IT-teknikteamet för 
 
 När QC-testningen är klar skapar IT-avdelningen dokumentation, arbetsflöden och utbildning som referens under dag 2-support. Systemaspekter som ska testas omfattar följande:
 
-* AEM integreringar.
+* Integrering av AEM-implementerare.
 * Systemintegreringar från tredje part.
 * Programvara.
 * Maskinvara.

@@ -6,10 +6,10 @@ feature: Developing Screens
 role: Developer
 level: Intermediate
 exl-id: 3f4813f8-0438-4ce0-9046-84025de0ddd1
-source-git-commit: df41a8794683e241b6f12b58d39c01e069187435
+source-git-commit: ad8509deaff9f90df5f6b50947f587a74e420661
 workflow-type: tm+mt
-source-wordcount: '862'
-ht-degree: 1%
+source-wordcount: '893'
+ht-degree: 0%
 
 ---
 
@@ -64,7 +64,7 @@ Följ stegen nedan för att skapa en `Left20-LandscapeHD3Zone`-layout för ett A
 
    ![bild](/help/user-guide/assets/custom-multizone/custom-template2.png)
 
-1. Navigera till **CRXDE Lite** från din AEM > Verktyg > **CRXDE Lite**.
+1. Navigera till **CRXDE Lite** från din AEM-instans > Verktyg > **CRXDE Lite**.
 
 1. Skapa en mapp under **appar** med namnet **`customtemplate`**. Skapa en annan mapp med namnet **template** under **`customtemplate`**, som bilden nedan visar.
 

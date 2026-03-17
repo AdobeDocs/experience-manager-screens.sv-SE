@@ -2,12 +2,12 @@
 title: 'Del 1: Projektroller och ansvarsområden'
 description: I den här självstudiekursen kan du förstå vilka roller, ansvarsområden och tidslinjer som krävs under försäljnings- och projektlivscykeln för ett digitalt signeringsprojekt.
 feature: Overview
-role: User, Data Architect
+role: User, Developer
 level: Beginner
 exl-id: 313cc26f-c509-4b28-a185-4e530e826b83
-source-git-commit: 2a51258ffe7b969962378dcd0558bd001b616ba1
+source-git-commit: ad8509deaff9f90df5f6b50947f587a74e420661
 workflow-type: tm+mt
-source-wordcount: '480'
+source-wordcount: '490'
 ht-degree: 0%
 
 ---
@@ -18,13 +18,13 @@ Den här sidan markerar del 1 av en 5-delsserie. Den är utformad för att hjäl
 
 ## Ökning {#overview}
 
-Följande självstudiekurs beskriver projektroller och ansvarsområden för Adobe, AEM implementatorer och ljud-/visuella integratörer på en hög nivå. Du kan navigera till efterföljande avsnitt för att få en heltäckande översikt över hur du kan utveckla AEM Screens-möjligheter och positionera distributioner för att lyckas på lång sikt.
+I följande självstudiekurs beskrivs projektroller och ansvarsområden för Adobe, AEM Implementors och ljud-/visuella integratörer på en hög nivå. Du kan navigera till efterföljande avsnitt för att få en heltäckande översikt över hur du kan utveckla AEM Screens-möjligheter och positionera distributioner för att lyckas på lång sikt.
 
 Det finns tre huvudgrupper som är engagerade genom leveransprocessen inom följande:
 
 * Adobe
 * Audio-Video Integrator
-* AEM
+* AEM implementeringsteam
 
 >[!NOTE]
 >
@@ -32,19 +32,19 @@ Det finns tre huvudgrupper som är engagerade genom leveransprocessen inom följ
 
 ## Sammanfattning av roller som ingår i ett projekt för digital signering {#summary-of-roles-involved-in-a-digital-signage-project}
 
-Att definiera parametrar för programanvändning i samarbete med Adobe, AEM och ljud-/visuell integrator driver programutvecklingsomfånget. Denna process säkerställer att en stegvis strategi upprättas med prestandatester och framgångsmått som alla identifieras i hela projektet.
+Att definiera parametrar för programanvändning i samarbete med Adobe, AEM Implementor och Audio/Visual Integrator styr programutvecklingsomfånget. Denna process säkerställer att en stegvis strategi upprättas med prestandatester och framgångsmått som alla identifieras i hela projektet.
 
 ### Adobe {#adobe}
 
-Adobe omfattar Adobe Managed Services-resurser som CSE (Customer Success Engineer) och Adobe Support.
+Adobe innehåller Adobe Managed Services-resurser som CSE (Customer Success Engineer) och Adobe Support.
 
-#### AEM {#aem-implementors}
+#### AEM Implementors {#aem-implementors}
 
 En **AEM-implementor** ansvarar för att utföra utvecklings- och integreringsuppgifter för att utveckla användarupplevelsen, anpassade mallar och serverintegreringar för AEM.
 
 Anpassade funktioner som krävs för att hantera parametrar för användarupplevelse hämtas och levereras via den här processen.
 
-AEM implementerare distribuerar vanligtvis anpassade funktioner i faser över tid till platser. De kan till exempel först skapa stöd för uppspelning av grundläggande loopad video eller statiskt grafiskt innehåll. I nästa fas finns stöd för uppspelning av lokaliserat innehåll via dynamiska mallar och metadatataggar. Den innehåller andra faser som har stöd för interaktiva element via pekskärmar, sensorer, dynamiska utlösare och så vidare.
+AEM-implementerare använder vanligtvis anpassade funktioner i faser över tid på olika platser. De kan till exempel först skapa stöd för uppspelning av grundläggande loopad video eller statiskt grafiskt innehåll. I nästa fas finns stöd för uppspelning av lokaliserat innehåll via dynamiska mallar och metadatataggar. Den innehåller andra faser som har stöd för interaktiva element via pekskärmar, sensorer, dynamiska utlösare och så vidare.
 
 #### Audio-Video-integratörer {#av-integrators}
 
@@ -58,7 +58,7 @@ Följ självstudiekursen nedan för att få en förståelse för hur alla faktor
 
 >[!VIDEO](https://video.tv.adobe.com/v/28375)
 
-*Lär dig mer om rollerna och ansvarsområdena för Adobe, ljud-/visuella integratörer och AEM.*
+*Lär dig mer om rollerna och ansvarsområdena för Adobe, ljud-/visuella integratörer och AEM-implementerare.*
 
 ## Nästa steg {#the-next-step}
 

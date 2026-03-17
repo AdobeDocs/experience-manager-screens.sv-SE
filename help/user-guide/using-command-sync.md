@@ -5,9 +5,9 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 3314e0b5-0001-4bce-8ec6-5a6ffbb20f7b
-source-git-commit: df41a8794683e241b6f12b58d39c01e069187435
+source-git-commit: ad8509deaff9f90df5f6b50947f587a74e420661
 workflow-type: tm+mt
-source-wordcount: '756'
+source-wordcount: '761'
 ht-degree: 0%
 
 ---
@@ -115,7 +115,8 @@ Klicka på den andra enheten (i det här fallet Windows Player) på panelen **EN
 
 1. Klicka på enheten i listan och klicka på **Spara**.
 
-   >[OBS!]
+   >[!NOTE]
+   >
    > I dialogrutan **Synkronisera med den primära enheten** visas en lista med primära enheter. Välj önskad.
 
 1. När enheten (Windows Player) synkroniseras med den primära (Chrome Player) kan du se enheten synkroniserad på panelen **ENHETER**.
@@ -140,5 +141,6 @@ Följ stegen nedan för att ta bort synkroniseringen från den primära enheten:
 
 1. Klicka på **Bekräfta** för att avsynkronisera den valda enheten från den primära enheten.
 
-   >[OBS!]
+   >[!NOTE]
+   >
    > Om du klickar på den primära enheten och använder alternativet för avsynkronisering kommer alla enheter som är anslutna till den primära att avsynkroniseras i ett steg.

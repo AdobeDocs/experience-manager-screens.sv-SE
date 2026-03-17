@@ -6,9 +6,9 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: de9f669b-9ce7-4d70-99b4-0b69ef3c1af5
-source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
+source-git-commit: ad8509deaff9f90df5f6b50947f587a74e420661
 workflow-type: tm+mt
-source-wordcount: '291'
+source-wordcount: '294'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,8 @@ I det här avsnittet beskrivs följande ämnen om uppdatering av innehåll som e
 >
 >This AEM Screens functionality is only available, if you have installed AEM 6.3 Feature Pack 3 or AEM 6.4 Screens Feature Pack 1.
 >
->To get access to this Feature Pack, contact Adobe Support and request access. When you have permission you can download it from Package Share. -->
+>To get access to this Feature Pack, contact Adobe Support and request access. When you have permission you can download it from Package Share. 
+-->
 
 ## Ökning {#overview}
 
@@ -69,6 +70,6 @@ Följ stegen nedan om du vill använda en bulkuppdatering för ett AEM Screens-p
    >
    >Ange projektsökvägen i förhållande till kanalen.
 
-   **Schemaläggningsfrekvens** - Anger en tidpunkt, till exempel 05:00 eller 17:00, då den här tjänsten ska uppdatera offlineinnehåll.
+   **Schemaläggningsfrekvens** - Anger en tidpunkt, t.ex. 5:00 P.M. eller 17:00, då den här tjänsten ska uppdatera offlineinnehåll.
 
 1. Klicka på **Spara** så att du kan spara inställningarna. Allt innehåll uppdateras vid den angivna tidpunkten.

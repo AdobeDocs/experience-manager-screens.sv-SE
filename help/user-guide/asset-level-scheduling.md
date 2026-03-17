@@ -5,9 +5,9 @@ feature: Authoring Screens, Asset Level Activation
 role: Admin, Developer
 level: Intermediate
 exl-id: a2f5b2cc-6797-4397-b49c-72175a2d2ef7
-source-git-commit: e82cfee5ecc6b639b7b2b65553d1635943b356ea
+source-git-commit: ad8509deaff9f90df5f6b50947f587a74e420661
 workflow-type: tm+mt
-source-wordcount: '1477'
+source-wordcount: '1490'
 ht-degree: 0%
 
 ---
@@ -29,12 +29,14 @@ Följande ämnen behandlas i detta avsnitt:
 * Aktivering av flera resurser
 * Global åsidosättning för universell starttid
 
-<!-- REFERS TO ARCHIVED VERSIONS THAT ADOBE NO LONGER SUPPORTS>
+<!--
+REFERS TO ARCHIVED VERSIONS THAT ADOBE NO LONGER SUPPORTS>
 >[!CAUTION]
 >
 >This AEM Screens functionality is only available if you have installed AEM 6.3 Feature Pack 3 or AEM 6.4 Screens Feature Pack 1.
 >
->To get access to this Feature Pack, contact Adobe Support and request access. When you have permission, you can download it from Package Share. -->
+>To get access to this Feature Pack, contact Adobe Support and request access. When you have permission, you can download it from Package Share. 
+-->
 
 ## Ökning {#overview}
 
@@ -100,10 +102,10 @@ I följande tabell sammanfattas några exempeluttryck som du kan lägga till i s
 
 | **Uttryck** | **Tolkning** |
 |---|---|
-| före 08.00 | resursen i kanalen spelas upp före 08.00 varje dag |
-| efter kl. 2:00. | resursen i kanalen spelas upp efter kl. 2.00 varje dag |
-| efter 12:15 och före 12:45 | mediefilen spelas upp efter kl. 12.15 varje dag i 30 minuter |
-| före 12:15 även efter 12:45 | resursen i kanalen spelas upp före kl. 12.15 varje dag och sedan även efter kl. 12.45. |
+| före 8:00 A.M. | resursen i kanalen spelas upp före 8:00 A.M. varje dag |
+| efter 2:00. | resursen i kanalen spelas upp efter 2:00 kl. 02 varje dag |
+| efter 12:15 och före 12:45 | resursen i kanalen spelas upp efter :15 kl. 12 varje dag i 30 minuter |
+| före 12:15 även efter 12:45 | resursen i kanalen spelas upp före :15 kl. 12.00 varje dag och sedan även efter :45 kl. 12.M. |
 
 >[!NOTE]
 >
@@ -175,8 +177,8 @@ I följande tabell sammanfattas några exempeluttryck som du kan lägga till i s
 | **Uttryck** | **Tolkning** |
 |---|---|
 | `after 6:00 and before 18:00 on Mon,Wed of Jan-Mar` | tillgången spelas upp i kanalen mellan kl. 18.00 och kl. 18.00 måndag och onsdag från januari till slutet av mars |
-| `on the 1st day of January after 2:00 P.M. also on the 2nd day of January also on the 3rd day of January before 3:00 A.M.` | resursen i kanalen börjar spelas upp efter kl. 2:00 den 1 januari och fortsätter att spela för hela dagen den 2 januari ända till kl. 3:00 den 3 januari |
-| `on the 1-2 days of January after 2:00 P.M. also on the 2-3 days of January before 3:00 A.M.` | resursen i kanalen startar spelaren efter kl. 17.00 den 1 januari, fortsätter att spelas upp till kl. 17.00 den 2 januari, börjar den igen kl. 2:00 och fortsätter att spela fram till kl. 17.00 den 3 januari |
+| `on the 1st day of January after 2:00 P.M. also on the 2nd day of January also on the 3rd day of January before 3:00 A.M.` | resursen i kanalen börjar spelas upp efter :00 den 1 januari och fortsätter att spela för hela dagen den 2 januari ända till den 3:00 den 3 januari |
+| `on the 1-2 days of January after 2:00 P.M. also on the 2-3 days of January before 3:00 A.M.` | resursen i kanalen startar spelaren efter den 2:00 den 1 januari, fortsätter att spelas upp till den 2 januari :00 den 2 januari, börjar den igen den 2 januari :00 och fortsätter att spelas upp till den 3:00 maj den 3 januari |
 
 >[!NOTE]
 >När du definierar veckodagar och månader kan du både använda kort- och fullnamnsnoteringar, till exempel måndag/måndag och januari. Du kan också använda _militär tid_-notation (14:00) i stället för *A.M./P.M.*(2:00 P.M.).
@@ -187,7 +189,8 @@ I följande tabell sammanfattas några exempeluttryck som du kan lägga till i s
 <!--
 >[!CAUTION]
 >
->The **Multi-asset Activation** feature is only available if you have installed AEM 6.3 Feature Pack 5 or AEM 6.4 Feature Pack 3. -->
+>The **Multi-asset Activation** feature is only available if you have installed AEM 6.3 Feature Pack 5 or AEM 6.4 Feature Pack 3. 
+-->
 
 ***Aktivering av flera resurser*** gör att användaren kan klicka på flera resurser och tillämpa ett uppspelningsschema för alla markerade resurser.
 

@@ -9,9 +9,9 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 205235d7-e621-4134-975c-257ae60939bc
-source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
+source-git-commit: ad8509deaff9f90df5f6b50947f587a74e420661
 workflow-type: tm+mt
-source-wordcount: '491'
+source-wordcount: '492'
 ht-degree: 0%
 
 ---
@@ -29,12 +29,14 @@ Detta avsnitt behandlar följande ämnen:
 * **E-postmeddelande**
 * **Exempel på användningsfall**
 
-<!-- OBSOLETE NOTE>
+<!-- 
+OBSOLETE NOTE>
 >[!CAUTION]
 >
 >This AEM Screens functionality is only available, if you have installed AEM 6.3.2 Feature Pack 3 or AEM 6.4.1 Screens Feature Pack 1.
 >
->To get access to this Feature Pack, contact Adobe Support and request access. After you have permissions you can download it from Package Share. -->
+>To get access to this Feature Pack, contact Adobe Support and request access. After you have permissions you can download it from Package Share. 
+-->
 
 ## Ökning {#overview}
 
@@ -61,7 +63,7 @@ Följ stegen nedan för att konfigurera inställningarna för e-postmeddelanden:
    >
    >Ange projektsökvägen där enhetsanvändarna finns.
 
-   **Schemaläggningsfrekvens** - Ange en tid (t.ex. 5:00 P.M. eller 17:00) eller frekvens i timmar (t.ex. 1) som den här övervakaren ska skicka e-post med.
+   **Schemaläggningsfrekvens** - Ange en tid (till exempel 5:00 P.M. eller 17:00) eller frekvens i timmar (till exempel 1) som den här övervakaren ska skicka e-post med.
 
    **Ping Time out** - Det här fältet anger intervallet i minuter efter vilket en enhet inte kan nås.
 
@@ -102,7 +104,7 @@ I följande exempel beskrivs några referensscenarier för att konfigurera egens
 
 **Scenario 1**
 
-Du ställer in schemafrekvensen till 1:00 och pingtidsgränsen till 60. Om din AEM Screens-enhet inte växlar mellan kl. 12.00 till kl. 13.00 får du ett e-postmeddelande som bekräftar inaktivitet i enheten.
+Du ställer in schemafrekvensen till 1:00 A.M. och pingtidsgränsen till 60. Om din AEM Screens-enhet inte växlar mellan kl. 12.00 till kl. 1.00 får du ett e-postmeddelande som bekräftar inaktivitet i enheten.:00:00
 
 **Scenario 2**
 

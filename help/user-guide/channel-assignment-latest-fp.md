@@ -5,9 +5,9 @@ feature: Authoring Screens, Channel Assignment
 role: Admin, Developer
 level: Intermediate
 exl-id: 346eec9a-e291-4b0d-9686-fee1d5a0e7dd
-source-git-commit: f7653d8b386c02f510eb7a770cf3cdc22c41a5fb
+source-git-commit: ad8509deaff9f90df5f6b50947f587a74e420661
 workflow-type: tm+mt
-source-wordcount: '1447'
+source-wordcount: '1448'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->I det här avsnittet beskrivs kanaltilldelning och kanalplanering för AEM 6.5.5 Screens Feature Pack och senare.
+>I det här avsnittet beskrivs kanaltilldelning och planering av kanaler för AEM 6.5.5 Screens Feature Pack och senare.
 
 När du har konfigurerat en visning tilldelar du en kanal till en visning för att visa innehållet.
 
@@ -210,18 +210,18 @@ Här delas varje dag in i olika tidsplatser, så att kanalinnehållet spelas upp
 
 | **Namn** | **Upprepningar** | **Start** | **Slut** |
 |---|---|---|---|
-| Frukosten | Dagligen | 6.00 | 11:00 |
-| Lunch | Dagligen | 11:00 | 03:00 |
-| Middag | Dagligen | 03:00 | 08:00 |
+| Frukosten | Dagligen | 6:00 | 11:00 |
+| Lunch | Dagligen | 11:00 | 3:00 kl. |
+| Middag | Dagligen | 3:00 kl. | 8:00 kr. |
 
 #### Spela upp innehåll en viss veckodag {#playing-content-on-a-particular-day-of-the-week}
 
-I det här exemplet visas DayParting som implementerats i ett kasino där live-event inträffar varje helg från kl. 20.00 till kl. 23.00. Specialerbjudanden finns tillgängliga för middagsmeny efter kl. 10.00 till kl. 13.00.
+I det här exemplet visas DayParting som implementerats i ett kasino där live-event inträffar varje helg från 8:00 p.M. till 10:00 p.M. och erbjudanden finns tillgängliga för middagsmeny efter 10:00 p.M. till 1:00 A.M.
 
 | **Namn** | **Upprepningar** | **Start** | **Slut** |
 |---|---|---|---|
-| Weekend | Vecka: lördag och söndag | 08:00 | 10.00 |
-| Specialer | Dagligen: måndag till fredag | 10.00 | 1:00 |
+| Weekend | Vecka: lördag och söndag | 8:00 kr. | 10:00 P.M. |
+| Specialer | Dagligen: måndag till fredag | 10:00 P.M. | 1:00 A.M. |
 
 >[!NOTE]
 >

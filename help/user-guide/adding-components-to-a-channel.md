@@ -10,9 +10,9 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 56dbe098-05db-4fc3-977f-e50a0a312d64
-source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
+source-git-commit: ad8509deaff9f90df5f6b50947f587a74e420661
 workflow-type: tm+mt
-source-wordcount: '1416'
+source-wordcount: '1420'
 ht-degree: 0%
 
 ---
@@ -201,10 +201,10 @@ Mer information om hur du skapar ett Experience Fragment och använder det i ett
 
 | **Egenskap** | **Beskrivning** |
 |---|---|
-| **Upplevelsefragment** |
+| **Upplevelsefragment** | |
 | ***Upplevelsefragment*** | Välj Experience Fragment. |
 | ***Varaktighet*** | Markera hela längden på Experience Fragment som spelas upp i kanalen. |
-| **Offlinekonfiguration** |
+| **Offlinekonfiguration** |  |
 | ***Bibliotek på klientsidan*** | JavaScript- och CSS-filer. |
 | ***Statiska filer*** | Statiska filer som du kan lägga till som offlinekonfigurationer i din Experience Fragment. |
 
@@ -220,15 +220,15 @@ Bildresursen har tre flikar: **Bild**, **Hjälpmedel** och **Sekvens**:
 
 | **Egenskap** | **Beskrivning** |
 |---|---|
-| **Bild** |
+| **Bild** |  |
 | ***Bildresurs*** | Klicka på bildresursen. |
 | ***Titel*** | Bildens namn. |
 | ***Länka till*** | Lägg till en länk till bilden. |
 | ***Beskrivning*** | Kort beskrivning av bilden. |
 | ***Storlek*** | Bildens storlek. |
-| **Tillgänglighet** |
+| **Tillgänglighet** |  |
 | ***Alternativ text*** | Alternativ text till bilden. |
-| **Sekvens** |
+| **Sekvens** |  |
 | ***Varaktighet*** | Som standard är längden inställd på *8000 millisekunder*. Uppdatera fältet **Varaktighet** om du vill ändra uppspelningstiden för bilden. |
 
 ### Övergång {#transition}
