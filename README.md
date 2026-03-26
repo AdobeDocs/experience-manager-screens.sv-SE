@@ -1,16 +1,10 @@
 ---
-source-git-commit: 8dde26d36847fb496aed6d4bf9732233116b5ea6
+source-git-commit: 10ec516edaf59ade3b59ebaa47bae171221363d9
 workflow-type: tm+mt
-source-wordcount: '71'
+source-wordcount: '7'
 ht-degree: 0%
 
 ---
-# Adobe Experience Manager Screens Documentation
+# ARKIVERAD
 
-Här hittar du Adobe Experience Manager Screens-dokumentation.
-
-Dina bidrag till dokumentationen är välkomna. Se följande resurser:
-
-* [contribute.md](contributing.md) En översikt över hur du bidrar till dokumentationen.
-* [riktlinjer.md](guidelines.md) En översikt över vad som förväntas i bidragen och hur du skapar dina dokumentationsbidrag.
-* [uppförandekod.md](code-of-conduct.md) En översikt över beteendestandarder som Adobe förväntar sig när du bidrar till det här dokumentationsprojektet.
+Den här rapporten har migrerats till <https://github.com/Adobe-Enterprise-Docs/experience-manager-screens.en>
